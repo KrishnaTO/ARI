@@ -1,0 +1,171 @@
+Parent,Parent_mondo_reference,Parent_uberon_reference,Parent_cl_reference,Parent_doid_reference
+Acquired epidermolysis bullosa,prefix='mondo' identifier='0018747' name='acquired epidermolysis bullosa',,,prefix='doid' identifier='4313' name='epidermolysis bullosa acquisita'
+Acquired hemophilia,prefix='mondo' identifier='0019139' name='acquired hemophilia',,,
+Acute disseminated encephalomyelitis,prefix='mondo' identifier='0019383' name='acute disseminated encephalomyelitis',,,prefix='doid' identifier='639' name='acute disseminated encephalomyelitis'
+Acute febrile mucocutaneous lymph node syndrome,prefix='mondo' identifier='0012727' name='Kawasaki disease',,,prefix='doid' identifier='13378' name='Kawasaki disease'
+Acute lichenoid pityriasis,prefix='mondo' identifier='0024250' name='acute lichenoid pityriasis',,,
+Addison's disease,prefix='mondo' identifier='0015128' name='primary adrenal insufficiency',,,"prefix='doid' identifier='13774' name=""Addison's disease"""
+Adult onset Still's disease,prefix='mondo' identifier='0019355' name='adult-onset Still disease',,,"prefix='doid' identifier='14256' name=""adult-onset Still's disease"""
+Age related macular degeneration,prefix='mondo' identifier='0005150' name='age-related macular degeneration',,,prefix='doid' identifier='10871' name='age related macular degeneration'
+Alopecia areata,prefix='mondo' identifier='0005340' name='alopecia areata',,,prefix='doid' identifier='986' name='alopecia areata'
+Angiofollicular lymph node hyperplasia,prefix='mondo' identifier='0015564' name='Castleman disease',,,prefix='doid' identifier='0111157' name='Castleman disease'
+Ankylosing spondylitis,prefix='mondo' identifier='0005306' name='ankylosing spondylitis',,,prefix='doid' identifier='7147' name='ankylosing spondylitis'
+Anti-glomerular basement membrane disease,prefix='mondo' identifier='0009303' name='anti-glomerular basement membrane disease',,,prefix='doid' identifier='9808' name='Goodpasture syndrome'
+Antineutrophil cytoplasmic antibody positive vasculitis,,,,
+Antiphospholipid syndrome,prefix='mondo' identifier='8000010' name='antiphospholipid syndrome',,,prefix='doid' identifier='2988' name='antiphospholipid syndrome'
+Antisynthetase syndrome,prefix='mondo' identifier='0019344' name='antisynthetase syndrome',,,prefix='doid' identifier='0080744' name='antisynthetase syndrome'
+Aplastic anemia,prefix='mondo' identifier='0015909' name='aplastic anemia',,,prefix='doid' identifier='12449' name='aplastic anemia'
+Autoimmune angioedema,,,,
+Autoimmune disease,prefix='mondo' identifier='0007179' name='autoimmune disease',,,prefix='doid' identifier='417' name='autoimmune disease'
+Autoimmune disorder of inner ear,,,,
+Autoimmune encephalitis,prefix='mondo' identifier='0020640' name='autoimmune encephalitis',,,
+Autoimmune encephalitis caused by N-methyl D-aspartate receptor antibody,,,,
+Autoimmune gastritis,prefix='mondo' identifier='0031014' name='autoimmune gastritis',,,prefix='doid' identifier='0040090' name='autoimmune gastritis'
+Autoimmune hemolytic anemia,prefix='mondo' identifier='0020108' name='autoimmune hemolytic anemia',,,prefix='doid' identifier='718' name='autoimmune hemolytic anemia'
+Autoimmune hepatitis,prefix='mondo' identifier='0016264' name='autoimmune hepatitis',,,prefix='doid' identifier='2048' name='autoimmune hepatitis'
+Autoimmune lymphoproliferative syndrome,prefix='mondo' identifier='0017979' name='autoimmune lymphoproliferative syndrome',,,prefix='doid' identifier='6688' name='autoimmune lymphoproliferative syndrome'
+Autoimmune neutropenia,,,,
+Autoimmune oophoritis,prefix='mondo' identifier='0021950' name='autoimmune oophoritis',,,
+Autoimmune pancreatitis,prefix='mondo' identifier='0015175' name='autoimmune pancreatitis',,,prefix='doid' identifier='0040091' name='autoimmune pancreatitis'
+Autoimmune progesterone dermatitis,prefix='mondo' identifier='0021952' name='progestogen hypersensitivity',,,
+Autoimmune retinopathy,prefix='mondo' identifier='0100014' name='autoimmune retinopathy',,,
+Birdshot chorioretinopathy,prefix='mondo' identifier='0011599' name='birdshot chorioretinopathy',,,prefix='doid' identifier='0111079' name='birdshot chorioretinopathy'
+Autoimmune thyroiditis,prefix='mondo' identifier='0005623' name='autoimmune thyroid disease',,,prefix='doid' identifier='7188' name='autoimmune thyroiditis'
+Autoimmune urticaria,prefix='mondo' identifier='0025513' name='autoimmune urticaria',,,
+Autoimmune urticaria and/or angioedema,,,,
+Autoimmune vasculitis,prefix='mondo' identifier='0030703' name='autoimmune vasculitis',,,prefix='doid' identifier='0040097' name='autoimmune vasculitis'
+Balo concentric sclerosis,prefix='mondo' identifier='0016430' name='Balo concentric sclerosis',,,prefix='doid' identifier='0060215' name='Balo concentric sclerosis'
+Behçet's syndrome,prefix='mondo' identifier='0007191' name='Behcet disease',,,"prefix='doid' identifier='13241' name=""Behcet's disease"""
+Benign mucous membrane pemphigoid,prefix='mondo' identifier='0018746' name='mucous membrane pemphigoid',,,prefix='doid' identifier='11656' name='cicatricial pemphigoid'
+Bullous pemphigoid,prefix='mondo' identifier='0019082' name='bullous pemphigoid',,,prefix='doid' identifier='8506' name='bullous pemphigoid'
+Cataplexy and narcolepsy,,,,
+Celiac disease,prefix='mondo' identifier='0005130' name='celiac disease',,,prefix='doid' identifier='10608' name='celiac disease'
+Chronic Fatigue Syndrome,prefix='mondo' identifier='0005404' name='myalgic encephalomeyelitis/chronic fatigue syndrome',,,prefix='doid' identifier='8544' name='chronic fatigue syndrome'
+Chronic inflammatory demyelinating polyradiculoneuropathy,prefix='mondo' identifier='0006702' name='chronic inflammatory demyelinating polyradiculoneuropathy',,,prefix='doid' identifier='5213' name='chronic inflammatory demyelinating polyradiculoneuropathy'
+Chronic interstitial cystitis,prefix='mondo' identifier='0018301' name='interstitial cystitis',,,prefix='doid' identifier='1678' name='chronic interstitial cystitis'
+Chronic Lyme disease,,,,
+Chronic multifocal osteomyelitis,prefix='mondo' identifier='0009813' name='chronic recurrent multifocal osteomyelitis',,,prefix='doid' identifier='0060645' name='chronic recurrent multifocal osteomyelitis'
+Chronic post-COVID-19 syndrome,,,,
+Cogan's syndrome,prefix='mondo' identifier='0015453' name='Cogan syndrome',,,prefix='doid' identifier='0060216' name='Cogan syndrome'
+Cold agglutinin disease,prefix='mondo' identifier='0018922' name='cold agglutinin disease',,,
+Complex regional pain syndrome,prefix='mondo' identifier='0019369' name='complex regional pain syndrome',,,prefix='doid' identifier='3223' name='complex regional pain syndrome'
+Crohn's disease,prefix='mondo' identifier='0005011' name='Crohn disease',,,"prefix='doid' identifier='8778' name=""Crohn's disease"""
+Cryptogenic organizing pneumonia,prefix='mondo' identifier='0015264' name='cryptogenic organizing pneumonia',,,prefix='doid' identifier='0050157' name='cryptogenic organizing pneumonia'
+Cutaneous lupus erythematosus,prefix='mondo' identifier='0005282' name='cutaneous lupus erythematosus',,,prefix='doid' identifier='0050169' name='cutaneous lupus erythematosus'
+Cutaneous mastocytosis,prefix='mondo' identifier='0019023' name='cutaneous mastocytosis',,,prefix='doid' identifier='3663' name='cutaneous mastocytosis'
+Dermatitis herpetiformis,prefix='mondo' identifier='0015614' name='dermatitis herpetiformis',,,prefix='doid' identifier='8505' name='dermatitis herpetiformis'
+Dermatomyositis,prefix='mondo' identifier='0016367' name='dermatomyositis',,,prefix='doid' identifier='10223' name='dermatomyositis'
+Diabetes mellitus type 1,,,,
+Eaton-Lambert syndrome,prefix='mondo' identifier='0018556' name='Lambert-Eaton myasthenic syndrome',,,prefix='doid' identifier='0050214' name='Lambert-Eaton myasthenic syndrome'
+Endometriosis,prefix='mondo' identifier='0005133' name='endometriosis',,,prefix='doid' identifier='289' name='endometriosis'
+Enthesitis,prefix='mondo' identifier='0024419' name='enthesitis',,,
+Eosinophilic esophagitis,prefix='mondo' identifier='0005361' name='eosinophilic esophagitis',,,prefix='doid' identifier='13922' name='eosinophilic esophagitis'
+Eosinophilic Esophagitis,prefix='mondo' identifier='0005361' name='eosinophilic esophagitis',,,prefix='doid' identifier='13922' name='eosinophilic esophagitis'
+Epilepsy,prefix='mondo' identifier='0005027' name='epilepsy',,,prefix='doid' identifier='1826' name='epilepsy'
+Episcleritis,,,,
+Erythema nodosum,prefix='mondo' identifier='0850231' name='erythema nodosum',,,prefix='doid' identifier='0080750' name='erythema nodosum'
+Essential mixed cryoglobulinemia,prefix='mondo' identifier='0007407' name='Cryoglobulinemic vasculitis',,,
+Evans syndrome,prefix='mondo' identifier='0016030' name='Evans syndrome',,,
+Fasciitis with eosinophilia syndrome,,,,
+Felty syndrome,prefix='mondo' identifier='0007603' name='Felty syndrome',,,"prefix='doid' identifier='11042' name=""Felty's syndrome"""
+Female infertility due to antisperm antibodies,,,,
+Fibromyalgia,prefix='mondo' identifier='0005546' name='fibromyalgia',,,prefix='doid' identifier='631' name='fibromyalgia'
+Graves' disease,,,,"prefix='doid' identifier='12361' name=""Graves' disease"""
+Guillain-Barré syndrome,prefix='mondo' identifier='0016218' name='Guillain-Barre syndrome',,,prefix='doid' identifier='12842' name='Guillain-Barre syndrome'
+Herpes gestationis,prefix='mondo' identifier='0006558' name='pemphigoid gestationis',,,prefix='doid' identifier='14482' name='pemphigoid gestationis'
+Hidradenitis suppurativa,prefix='mondo' identifier='0006559' name='hidradenitis suppurativa',,,prefix='doid' identifier='2280' name='hidradenitis suppurativa'
+Hypersensitivity angiitis,prefix='mondo' identifier='0019509' name='cutaneous leukocytoclastic angiitis',,,
+Idiopathic pulmonary fibrosis,prefix='mondo' identifier='0800504' name='idiopathic pulmonary fibrosis',,,prefix='doid' identifier='0050156' name='idiopathic pulmonary fibrosis'
+IgA nephropathy,prefix='mondo' identifier='0005342' name='IgA glomerulonephritis',,,prefix='doid' identifier='2986' name='IgA glomerulonephritis'
+Immune thrombocytopenia,prefix='mondo' identifier='0002048' name='thrombocytopenia due to immune destruction',,,prefix='doid' identifier='1587' name='thrombocytopenia due to platelet alloimmunization'
+Immunoglobulin A vasculitis,prefix='mondo' identifier='0019167' name='immunoglobulin A vasculitis',,,prefix='doid' identifier='11123' name='IgA vasculitis'
+Immunoglobulin G4 related disease,,,,
+Inclusion Body Myositis,prefix='mondo' identifier='0007827' name='inclusion body myositis',,,prefix='doid' identifier='3429' name='inclusion body myositis'
+Inclusion body myositis,prefix='mondo' identifier='0007827' name='inclusion body myositis',,,prefix='doid' identifier='3429' name='inclusion body myositis'
+Inflammatory Bowel Disease,prefix='mondo' identifier='0005265' name='inflammatory bowel disease',,,prefix='doid' identifier='0050589' name='inflammatory bowel disease'
+Intermediate uveitis,prefix='mondo' identifier='0006806' name='intermediate uveitis',,,prefix='doid' identifier='12732' name='intermediate uveitis'
+Interstitial lung disease,prefix='mondo' identifier='0015925' name='interstitial lung disease',,,prefix='doid' identifier='3082' name='interstitial lung disease'
+Juvenile Rheumatoid Arthritis,prefix='mondo' identifier='0005185' name='chronic childhood arthritis',,,prefix='doid' identifier='676' name='systemic juvenile rheumatoid arthritis'
+Lichen planus,prefix='mondo' identifier='0006572' name='lichen planus',,,prefix='doid' identifier='9201' name='lichen planus'
+Lichen sclerosus,prefix='mondo' identifier='0007899' name='lichen sclerosus et atrophicus',,,
+Ligneous conjunctivitis,prefix='mondo' identifier='0100560' name='ligneous conjunctivitis',,,
+Linear IgA dermatosis,prefix='mondo' identifier='0018748' name='linear IgA Dermatosis',,,
+Lipomatosis dolorosa,prefix='mondo' identifier='0007070' name='adiposis dolorosa',,,
+Lupus vasculitis,,,,
+Male infertility associated with antisperm antibodies,,,,
+Microscopic colitis,prefix='mondo' identifier='0000702' name='microscopic colitis',,,prefix='doid' identifier='0060182' name='microscopic colitis'
+Microscopic polyangiitis,prefix='mondo' identifier='0019124' name='microscopic polyangiitis',,,
+Mixed collagen vascular disease,prefix='mondo' identifier='0005854' name='mixed connective tissue disease',,,prefix='doid' identifier='3492' name='mixed connective tissue disease'
+Mooren's ulcer,prefix='mondo' identifier='0001032' name='Mooren ulcer',,,"prefix='doid' identifier='10439' name=""Mooren's ulcer"""
+Morphea,prefix='mondo' identifier='0019562' name='localized scleroderma',,,prefix='doid' identifier='8472' name='localized scleroderma'
+Moyamoya disease,prefix='mondo' identifier='0016820' name='Moyamoya disease',,,prefix='doid' identifier='13099' name='Moyamoya disease'
+Multiple Sclerosis,prefix='mondo' identifier='0005301' name='multiple sclerosis',,,prefix='doid' identifier='2377' name='multiple sclerosis'
+Multiple sclerosis,prefix='mondo' identifier='0005301' name='multiple sclerosis',,,prefix='doid' identifier='2377' name='multiple sclerosis'
+Myasthenia gravis,prefix='mondo' identifier='0009688' name='myasthenia gravis',,,prefix='doid' identifier='437' name='myasthenia gravis'
+Myelin oligodendrocyte glycoprotein antibody-associated disease,prefix='mondo' identifier='1040024' name='myelin oligodendrocyte glycoprotein antibody-associated disease',,,
+Myocarditis due to autoimmune disease,,,,
+Myositis,prefix='mondo' identifier='0008054' name='juvenile dermatomyositis',,,prefix='doid' identifier='633' name='myositis'
+Necrotizing vasculitis,prefix='mondo' identifier='0800113' name='necrotizing vasculitis',,,
+Neuralgic amyotrophy,prefix='mondo' identifier='0017362' name='neuralgic amyotrophy',,,prefix='doid' identifier='10383' name='amyotrophic neuralgia'
+Neuromyelitis optica,prefix='mondo' identifier='0019100' name='neuromyelitis optica',,,prefix='doid' identifier='8869' name='neuromyelitis optica'
+Neuromyotonia,prefix='mondo' identifier='0019399' name='Isaac syndrome',,,
+Ophthalmoplegia due to Graves' disease,,,,
+Opsoclonus-myoclonus syndrome,prefix='mondo' identifier='0015247' name='opsoclonus-myoclonus syndrome',,,
+Palindromic rheumatism,prefix='mondo' identifier='0001332' name='palindromic rheumatism',,,prefix='doid' identifier='1166' name='palindromic rheumatism'
+Paraneoplastic cerebellar degeneration,prefix='mondo' identifier='0044877' name='paraneoplastic cerebellar degeneration',,,
+Paroxysmal nocturnal hemoglobinuria,prefix='mondo' identifier='0100244' name='paroxysmal nocturnal hemoglobinuria',,,prefix='doid' identifier='0060284' name='paroxysmal nocturnal hemoglobinuria'
+Pediatric autoimmune neuropsychiatric disorder associated with streptococcal infection,,,,
+Pemphigus,prefix='mondo' identifier='0006594' name='pemphigus',,,prefix='doid' identifier='9182' name='pemphigus'
+POEMS syndrome,prefix='mondo' identifier='0017364' name='POEMS syndrome',,,prefix='doid' identifier='14039' name='POEMS syndrome'
+Polyarteritis nodosa,prefix='mondo' identifier='0019170' name='polyarteritis nodosa',,,prefix='doid' identifier='9810' name='polyarteritis nodosa'
+Polyglandular autoimmune syndrome type 1,prefix='mondo' identifier='0009411' name='autoimmune polyendocrine syndrome type 1',,,
+Polyglandular autoimmune syndrome type 2,,,,
+Polyglandular autoimmune syndrome type 3,prefix='mondo' identifier='0016422' name='autoimmune polyendocrinopathy type 3',,,
+Polyglandular autoimmune syndrome type 4,,,,
+Polymyalgia rheumatica,prefix='mondo' identifier='0019735' name='polymyalgia rheumatica',,,prefix='doid' identifier='853' name='polymyalgia rheumatica'
+Polymyositis,prefix='mondo' identifier='0019127' name='polymyositis',,,prefix='doid' identifier='0080745' name='polymyositis'
+Postmyocardial infarction syndrome,prefix='mondo' identifier='0001049' name='Dressler syndrome',,,"prefix='doid' identifier='10507' name=""Dressler's syndrome"""
+Primary biliary cholangitis,prefix='mondo' identifier='0005388' name='primary biliary cholangitis',,,prefix='doid' identifier='12236' name='primary biliary cholangitis'
+Primary idiopathic dilated cardiomyopathy,,,,
+Primary sclerosing cholangitis,prefix='mondo' identifier='0013433' name='primary sclerosing cholangitis',,,prefix='doid' identifier='0060643' name='primary sclerosing cholangitis'
+Progressive hemifacial atrophy,prefix='mondo' identifier='0007710' name='facial hemiatrophy',,,
+Psoriasis,prefix='mondo' identifier='0005083' name='psoriasis',,,prefix='doid' identifier='8893' name='psoriasis'
+Psoriatic arthritis,prefix='mondo' identifier='0011849' name='psoriatic arthritis',,,prefix='doid' identifier='9008' name='psoriatic arthritis'
+Pure red cell aplasia,prefix='mondo' identifier='0001705' name='pure red-cell aplasia',,,prefix='doid' identifier='1340' name='pure red-cell aplasia'
+Pyoderma gangrenosum,prefix='mondo' identifier='0018824' name='pyoderma gangrenosum',,,prefix='doid' identifier='8553' name='pyoderma gangrenosum'
+Rasmussen syndrome,prefix='mondo' identifier='0007587' name='external auditory canal atresia-vertical talus-hypertelorism syndrome',,,
+Raynaud's phenomenon,,,,
+Reactive arthritis,prefix='mondo' identifier='0017376' name='reactive arthritis',,,prefix='doid' identifier='6196' name='reactive arthritis'
+Relapsing polychondritis,prefix='mondo' identifier='0019125' name='relapsing polychondritis',,,prefix='doid' identifier='2556' name='relapsing polychondritis'
+Restless legs,,,,
+Retinocochleocerebral vasculopathy,prefix='mondo' identifier='0019390' name='Susac syndrome',,,
+Rheumatic Chorea,,,,
+Rheumatic chorea,,,,
+Rheumatic fever,prefix='mondo' identifier='0017767' name='rheumatic fever',,,prefix='doid' identifier='1586' name='rheumatic fever'
+Rheumatoid arthritis,prefix='mondo' identifier='0008383' name='rheumatoid arthritis',,,prefix='doid' identifier='7148' name='rheumatoid arthritis'
+Rheumatoid vasculitis,prefix='mondo' identifier='0043267' name='rheumatoid vasculitis',,,
+Sarcoidosis,prefix='mondo' identifier='0019338' name='sarcoidosis',,,prefix='doid' identifier='11335' name='sarcoidosis'
+Schnitzler syndrome,prefix='mondo' identifier='0018304' name='Schnitzler syndrome',,,prefix='doid' identifier='4371' name='Schnitzler syndrome'
+Scleritis,prefix='mondo' identifier='0001718' name='scleritis',,,prefix='doid' identifier='13452' name='scleritis'
+Sjögren's disease,,,,
+SLE glomerulonephritis syndrome,,,,
+Steroid-responsive encephalopathy associated with autoimmune thyroiditis,prefix='mondo' identifier='0019385' name='steroid-responsive encephalopathy associated with autoimmune thyroiditis',,,
+Stiff-person syndrome,prefix='mondo' identifier='0008491' name='stiff-person syndrome',,,prefix='doid' identifier='13366' name='Stiff-Person syndrome'
+Subacute bacterial endocarditis,prefix='mondo' identifier='0006981' name='subacute bacterial endocarditis',,,prefix='doid' identifier='4562' name='subacute bacterial endocarditis'
+Sympathetic uveitis,prefix='mondo' identifier='0019198' name='sympathetic ophthalmia',,,prefix='doid' identifier='12029' name='sympathetic ophthalmia'
+Systemic lupus erythematosus,prefix='mondo' identifier='0007915' name='systemic lupus erythematosus',,,prefix='doid' identifier='9074' name='systemic lupus erythematosus'
+Systemic mast cell disease,prefix='mondo' identifier='0016586' name='systemic mastocytosis',,,
+Systemic sclerosis,prefix='mondo' identifier='0005100' name='systemic sclerosis',,,prefix='doid' identifier='418' name='systemic scleroderma'
+Systemic sclerosis with limited cutaneous involvement,,,,
+Takayasu's arteritis,prefix='mondo' identifier='0017991' name='Takayasu arteritis',,,"prefix='doid' identifier='2508' name=""Takayasu's arteritis"""
+Temporal arteritis,prefix='mondo' identifier='0008538' name='temporal arteritis',,,prefix='doid' identifier='13375' name='temporal arteritis'
+Tolosa-Hunt syndrome,prefix='mondo' identifier='0018983' name='Tolosa-Hunt syndrome',,,prefix='doid' identifier='1278' name='tolosa-hunt syndrome'
+Transverse myelitis,prefix='mondo' identifier='0021553' name='transverse myelitis',,,prefix='doid' identifier='0080743' name='transverse myelitis'
+Ulcerative colitis,prefix='mondo' identifier='0005101' name='ulcerative colitis',,,prefix='doid' identifier='8577' name='ulcerative colitis'
+Undifferentiated connective tissue disease,prefix='mondo' identifier='0019527' name='undifferentiated connective tissue syndrome',,,
+Urticarial vasculitis,,,,
+Uveitis,prefix='mondo' identifier='0020283' name='uveitis',,,prefix='doid' identifier='13141' name='uveitis'
+Vitiligo,prefix='mondo' identifier='0008661' name='vitiligo',,,prefix='doid' identifier='12306' name='vitiligo'
+Vogt-Koyanagi-Harada disease,prefix='mondo' identifier='0018092' name='Vogt-Koyanagi-Harada disease',,,prefix='doid' identifier='12297' name='Vogt-Koyanagi-Harada disease'
+Warm autoimmune hemolytic anemia,"prefix='mondo' identifier='0019532' name='autoimmune hemolytic anemia, warm type'",,,
+,,,,

@@ -1,0 +1,7 @@
+Evidence,Evidence_mondo_reference,Evidence_uberon_reference,Evidence_cl_reference,Evidence_doid_reference
+Antibody,,,,
+Unconfirmed,,,,
+TCELL,,,prefix='cl' identifier='0000084' name='T cell',
+Antibody Suspected,,,,
+Immune-mediated,,,,
+,,,,

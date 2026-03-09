@@ -1,0 +1,1022 @@
+﻿Category,Parent,Disease,Syn,,,SNOMED,ConceptID,Profile,Antibodies
+Digestive system,Eosinophilic esophagitis,Eosinophilic esophagitis,N,,,235599003,27918,"Eosinophilic esophagitis, EoE, is a buildup of white blood cells (eosinophils) in the throat (esophagus). This causes chronic inflammation and leads to problems swallowing. EoE has only recently been recognized as a disease. The condition is characterized as an immune system reaction, but is more like an allergy than an autoimmune disease.  EoE appears to be more common among those who suffer from allergies and asthma as well as autoimmune conditions such as celiac disease, and mast cell disorders. Mast cells are involved in the body's allergic response system.  EoE was first described in 1993 with a report of 12 patients who had dysphagia, normal endoscopy, no acid reflux, and intraepithelial eosinophilia. The authors recognized that these patients had a distinct disease. Since then, the disease has increased in prevalence. Evidence for EoE being an autoimmune disease is limited. ",
+Musculoskeletal,Myositis,Myositis,N,,,26889001,73001,"Myositis and ""inflammatory myopathy"" both mean inflammation of the muscles, which may in turn cause muscle weakness, swelling, and pain. Polymyositis, dermatomyositis, inclusion body myositis, and juvenile myositis are all specific types of myositis that are autoimmune. However, myositis and ""inflammatory myopathy"" are broad terms that means muscle inflammation, and not all forms are autoimmune, and not all individuals diagnosed with myositis or inflammatory myopathy have an autoimmune form of disease. If a cause cannot be acertained, the patient may be diagnosed with an ""idiopathic"" condition, which simply means that the cause of the inflammation has not been found; such patients could eventually be found to have an autoimmune form of the disease.",
+Nervous System,Restless legs,Restless legs,Z,,,32914008,73754,"A condition that causes an unpleasant or uncomfortable sensation in the legs and an irresistible urge to move them.  Restless leg syndrome is a symptom of several autoimmune diseases, including <a href=""/Disease_Profile/rheumatoid-arthritis.aspx"">rheumatoid arthritis, <a href=""/Disease_Profile/Sj%C3%B6grens-disease.aspx"">Sjögren's disease, <a href=""/Disease_Profile/crohns-disease.aspx"">Crohn's disease</a>, and other inflammatory bowel diseases.  However, since restless leg is a relatively common condition affecting 8% of the population, the correlation with autoimmune disease might not indicate a causative relationship.",
+Bladder,Chronic interstitial cystitis,Chronic interstitial cystitis,N,,,197834003,75863,"Interstitial cystitis is a chronic disorder that affects the urinary system. Common symptoms include frequent urination, urinary urgency, pelvic pain, and pain during or after sexual intercourse. These symptoms can flare and can cause different levels of discomfort in different people. Some symptomatic flares last only days, while others can affect a person for months. Environmental factors that may cause symptoms to intensify include menstruation, stress, sexual activity, exercise, and specific foods and drinks. These symptoms can affect a person's quality of life. For example, a person with interstitial cystitis may feel the urge to urinate up to 60 times a day, causing interruptions in daily activities, including sleep. 
+
+Currently, the cause of interstitial cystitis is unknown. There are two main theories about its cause. The first is damage to the tissue lining of the bladder. This damage allows toxins to leak into the bladder, further damaging the organ. The second theory is inflammation to the bladder. Both theorized causes could be due to an autoimmune disorder, leading the immune system to attack the bladder. The variety of treatments that are currently available fail to prevent the worsening of the disease, but can help with symptom relief.",
+Musculoskeletal,Palindromic rheumatism,Palindromic rheumatism,Hench-Rosenberg syndrome,,,50442003,76196,"Palindromic rheumatism is a disorder that involves episodes of joint inflammation that can affect one or many joint areas. The cause is unknown, but there is evidence that it may result from autoinflammatory processes.  The episodes can last from hours to days, and the time between episodes can range from days to months. Most individuals with the disorder experience multiple episodes per year. The episodes leave no lasting damage, and there are typically no symptoms between episodes.  Studies have shown that roughly half of all patients diagnosed with palindromic rheumatism eventually develop rheumatoid arthritis. Some researchers believe that palindromic rheumatism is simply an early symptom of rheumatoid arthritis. Treatments to manage symptoms are still under investigation. ",
+Nervous System,Myasthenia gravis,Myasthenia gravis,N,,,91637004,76685,"Myasthenia gravis is a neuromuscular disorder characterized by muscle weakness and fatigue. It occurs when the antibodies block the junction between the nerve and skeletal muscles, which are responsible for voluntary body movements.",Acetylcholine receptors
+Musculoskeletal,Reactive arthritis,Reiter's syndrome,S,,,67224007,78357,,
+Nervous System,Autoimmune disorder of inner ear,Ménière's disease,V,,,13445001,79833,,
+Skin,Dermatomyositis,Dermatomyositis,N,,,396230008,80182,Dermatomyositis is an autoimmune disease that causes symptoms in the skin and muscles.  The symptoms are variable from patient to patient.   Affected populations can be grouped into juvenile and adult dermatomyositis.  The juvenile group tends to have gastrointestinal issues as well.  ,
+Musculoskeletal,Polymyositis,Polymyositis,N,,,31384009,80800,"Polymyositis is inflammation of muscle tissue, causing chronic muscle weakness in both sides of the body. This results in mobility issues, such as difficulty climbing stairs, rising from a seated position, lifting objects, etc. Polymyositis mostly affects adults ages 30 to 50s, and women are usually more often affected compared to men. This disease develops gradually, affecting both sides of the muscles closest to the trunk, such as the hips, neck, upper arms, and thighs. The risk of polymyositis increases if already diagnosed with another autoimmune disease, for example, lupus, rheumatoid arthritis, scleroderma, or Sjogren’s syndrome.",
+Musculoskeletal,Rheumatoid arthritis,Rheumatoid arthritis,N,,,69896004,80809,"Rheumatoid arthritis (RA) is an autoimmune disease marked by inflammation and damage to joints, surrounding bone, blood vessels, and connective tissue.   This disorder usually affects both sides of the body (i.e. both ankles or both wrists). It can also damage the lungs, heart, eyes, skin, and various other body systems.    
+
+Joints affected by RA are often painful, stiff, and swollen, especially in the morning, and symptoms typically appear in flares followed by remission.  Research has not determined the cause of RA but associations have been found with certain genes, infections, and hormonal changes.  Risk also increases with inhalation of hazardous particles in certain occupations and chronic smoking.  
+
+There is no cure, though treatments to manage symptoms are available.  Prognosis is dependent on disease severity and timely treatment.  Some patients experience mild symptoms with long remissions, while others experience intense symptoms for extended periods of time with few remissions.  The condition is progressive, and patients often worsen over time.  Patients with severe cases may develop disability due to musculoskeletal damage, and some may experience serious cardiac complications.
+",
+Musculoskeletal,Felty syndrome,Felty syndrome,Felty's syndrome,,,57160007,81097,"Felty syndrome is a rare, potentially serious disorder which is characterized by the presence of three symptoms: rheumatoid arthritis, splenomegaly (enlarged spleen) and neutropenia (a decreased white cell count) which can lead to repeated infections.  It also associated with rheumatoid factor (RF) positive rheumatoid arthritis.    ",
+Digestive system,Ulcerative colitis,Ulcerative colitis,N,,,64766004,81893,"Ulcerative colitis (UC) is an inflammatory bowel disease (IBD) that causes long-lasting inflammation and sores, called ulcers, in the large intestine, including the colon.  When the condition affects the entire digestive tract, it is called Crohn's disease (CD).
+
+Both UC and CD are caused by an autoimmune response that reflects the involvement of the innate and adaptive immune systems. The disease mechanism is complex, but appears to start when a normal immune response to a bacterial infection does not stop properly after the infection is fought off. The resulting inflammation leads to the symptoms of both UC and CD.",
+Musculoskeletal,Psoriatic arthritis,Psoriasis with arthropathy,U,,,33339001,81931,,
+Skin,Lichen planus,Lichen planus,N,,,4776004,132703,"Lichen planus is a recurrent, itchy rash, characterized by shiny reddish-purple spots on the skin and gray-white ones in the mouth. Separate spots may coalesce into rough scaly patches. It is not rare, but it is  
+
+Most papers on lichen planus assume all cases of the disease are autoimmune or do not mention autoimmunity at all.  It may be a symptom of other autoimmune diseases.   ",
+Skin,Pyoderma gangrenosum,Pyoderma gangrenosum,N,,,74578003,133283,"Pyoderma gangrenosum is an autoinflammatory skin disease that starts as small red bumps and develops into large open sores on the skin, usually on the legs.
+",
+Systemic,Systemic sclerosis,Systemic sclerosis,Systemic scleroderma,,,89155008,134442,"Scleroderma is an autoimmune, rheumatic, and chronic disease that affects the body by hardening connective tissue. This disease may also cause issues in the blood vessels, organs, and digestive tract. Scleroderma is characterized as limited or diffuse, referring to the degree of skin involvement, but can both involve any vascular or organ symptoms. These symptoms occur when the body produces too much collagen, which builds up the body’s connective tissues. People who usually get scleroderma are those between the ages of 30 and 50 and tend to be female at birth.",
+Glands,Autoimmune thyroiditis,Ord's thyroiditis,Hashimoto thyroiditis,,,21983002,135215,,
+Skin,Pemphigus,Pemphigus,N,,,65172003,135338,"Pemphigus includes a group of autoimmune diseases that cause blisters and sores in the mouth, skin, genitals, or any area that has mucous membranes. Normally, the immune system produces antibodies to fight off harmful invaders, such as viruses and bacteria. In pemphigus however, the body produces antibodies that damage cells of the skin, the junctions between them, and mucous membranes. Pemphigus vulgaris is the most common subtype of pemphigus.
+
+Pemphigus can occur at any age, but it is most often seen in people who are middle-aged or older. It tends to be a long-lasting (chronic) condition, and some types can be life-threatening without treatment. Treatment with medication usually controls it.
+
+Pemphigus is different from bullous pemphigoid, a blistering skin condition that affects older adults and may cause death to those in poor health. The main difference is microscopic: in pemphigus the skin cells are not able to stick to each other causing fluid to accumulate between them forming blisters;  bullous pemphigoid affects deeper layers of the skin, and the cells of the top layer of skin, the epidermis, cannot stick to the layer beneath it, the dermis, meaning they come off and fluid accumulates between the dermis and epidermis layer. ",Desmogleins 
+Blood,Aplastic anemia,Aplastic anemia,N,,,306058006,137829,"Aplastic anemia is a rare and serious blood disorder that occurs when the body's bone marrow cannot make enough new red blood cells, impacting the body's ability to function normally. Aplastic anemia can progress at varying speeds and range from mild to severe. Currently, there's no known method to prevent it. This condition is caused by damage to stem cells inside the bone marrow, which is the sponge-like tissue within the bones. The immune system attacks and destroys and, as a result, the bone marrow makes fewer red blood cells, white blood cells, and platelets. This bone marrow damage is caused by the immune system attacking and destroying the stem cells within the bone marrow. Other causes of aplastic anemia include some medicine and exposure to environmental toxins or chemicals.",cytotoxic T cells
+Glands,Graves' disease,Thyrotoxicosis,S,,,90739004,138387,,Thyrotropin receptor
+Skin,Vitiligo,Vitiligo,N,,,56727007,138502,"Vitiligo is a disease that causes the loss of skin color in blotches. The extent and rate of color loss from vitiligo is unpredictable. It can affect the skin on any part of your body. It may also affect hair, the inside of the mouth, and even the eyes.
+
+Normally, the color of hair, skin, and eyes is determined by melanin. Vitiligo occurs when the cells that produce melanin die or stop functioning.",
+Skin,Bullous pemphigoid,Bullous pemphigoid,C,,,77090002,139899,,"The autoantibodies in BP sera are predominantly of IgG1 and IgG4, IgE autoantibodies to BP180"
+Blood,Pure red cell aplasia,Pure red cell aplasia,N,,,50715003,140065,"Pure red cell aplasia (PRCA) occurs when red blood cells fail to fully develop after they are produced in the bone marrow.  This leads to symptoms of anemia, including tiredness and pale skin.  There are 2 types of PRCA caused by autoimmune processes:  
+
+Acquired primary PRCA typically affects adults and leads to symptoms of anemia.  The trigger for primary PRCA is unknown. Acquired primary PRCA is caused by the immune system attacking developing red blood cells, preventing them from maturing into functional adult cells.  
+
+Acquired secondary PRCA, which is also autoimmune, is similar to acquired primary PRCA but the trigger is an infection, another autoimmune disorder, pregnancy, drugs, or cancer.  PRCA is also one of the important complications in hematopoietic stem cell transplantation when the blood type of the donor and recipient do not match.
+
+Patients may experience symptoms of anemia as well as symptoms of the underlying health condition.  Treatments for both primary and secondary PRCA are available, but outcomes vary, and life expectancy is often markedly reduced.  
+
+A third type of PRCA, Diamond-Blackfan syndrome, is due to genetic mutation and presents during infancy.   It is not autoimmune.",
+Skin,Psoriasis,Psoriasis,N,,,9014002,140168,"Psoriasis is a chronic autoimmune disease that causes raised, red, scaly patches to appear on the skin. It affects 1% to 3% of people in Western countries. Psoriasis can appear anywhere on the body, with some cases being mild and others severe enough to significantly impact quality of life. The condition can develop at any age, with earlier onset associated with more severe disease than later onset. Various triggers, including trauma, infections, dry skin, and certain medications, can worsen the condition. Some people with psoriasis may also develop psoriatic arthritis, which causes joint pain and stiffness.
+
+The disease is caused by an overactive immune system, where T cells mistakenly attack the skin, leading to inflammation and rapid skin cell turnover. This process is driven by immune system proteins called cytokines, such as IL-23 and TNF-α, which promote inflammation. Treatments targeting these immune responses, such as biologic medications and immunosuppressants, have been effective in managing symptoms. Despite its autoimmune features, researchers have yet to identify the exact self-antigen that triggers the immune response in psoriasis.
+
+The development of psoriasis involves a complex cycle of immune activation and skin cell dysfunction. Triggers such as physical injury or infections can initiate an immune response that leads to inflammation and the recruitment of immune cells into the skin. These immune cells release cytokines that further stimulate skin cells, causing thickening and scaling. While genetic factors play a role in susceptibility, environmental triggers are also important. Ongoing research aims to better understand the disease mechanisms and develop more targeted therapies to improve treatment outcomes.",
+Skin,Erythema nodosum,Erythema nodosum,N,,,32861005,140176,"Erythema nodosum is a condition that causes the fat layer just beneath the skin to become inflamed, forming swollen bumps 1 to 5 cm across.  These bumps most frequently occur on the shins, and sometimes the thighs and forearms as well.  The degree of inflammation may vary by day over a period of 3 to 6 weeks, after which time the bumps finally fade.  The affected area may appear bruised for a period of up to a few months afterward, but most patients experience a full recovery with no scars.  The cause is uncertain but is correlated with an over-reactive immune response following infection, medication, pregnancy, inflammatory conditions, vaccines, and autoimmune or other medical conditions.  Treatments are available to relieve discomfort.  ",
+Skin,Dermatitis herpetiformis,Dermatitis herpetiformis,N,,,111196000,140487,"Dermatitis herpetiformis is a chronic, blistering, and intensely itchy rash, It is occurs in people who are suffering from celiac disease who consume gluten.  It is affects about 10 percent of those with celiac disease, and usually affects male adults between 30 and 40 and is more common in people of northern European descent.  DH is rarely found in those of African and Asian ancestry. ",
+Skin,Alopecia areata,Alopecia areata,N,,,68225006,141933,"Alopecia areata is a type of hair loss that occurs when your immune system mistakenly attacks hair follicles, which is where hair growth begins. The damage to the follicle is usually not permanent. Experts do not know why the immune system attacks the follicles.",antibodies to tyrosine hydroxylases 
+Digestive system,Autoimmune gastritis,Atrophic gastritis,S,,,84568007,192667,,
+Digestive system,Celiac disease,Celiac disease,N,,,396331005,194992,"Celiac disease (CD) is an autoimmune disorder that results in damage and loss of function to the small intestine.  Disease onset is generally triggered by the consumption of foods containing gluten.  CD is also shown to be heritable in a number of patients.  Damage results when components of gluten proteins activate immune cells that attack the small projections (villi) lining the small intestine.  There are 6 types of CD:
+
+Classic/Intestinal: This type often is diagnosed by the age of 3.  All ages of pediatric patients often experience digestive problems, stomach pain, diarrhea, and weight loss, whereas adults usually experience constipation and indigestion.
+
+Non-classic/Extraintestinal: Patients with this type normally have nutritional deficiency, which leads to bone loss, lack of growth, tooth problems, and nerve damage.
+
+Subclinical: Individuals with this type have milder symptoms that are improved when gluten is eliminated from the diet.  Diagnosis is often accidental through dietary experimentation or routine blood work.
+
+Refractory: Patients with this type are chronically symptomatic despite eliminating gluten from their diet for a year or more.  Ulcers, lesions, and lymphoma may result in the small intestine.
+
+Seronegative: This type is diagnosed in individuals who show the symptoms of CD but whose blood work tests negative for the condition.
+
+Gluten free diet non-responsive: Individuals with this type show no improvement after following a gluten free diet for at least one year.  Symptoms are consistent with CD but may also include other disorders that produce similar symptoms. 
+
+CD is generally treated by eliminating gluten from the diet.  Patients with an early diagnosis and who show improvement from dietary restrictions can expect to lead full and productive lives.  However, late diagnosis, failure to adhere to a gluten free diet, or lack of improvement from dietary restrictions can lead to complications, including cancer and problems with the spleen.","IgA anti-endomysium antibodies, IgA antibodies to transglutaminse 2 "
+Kidney,Anti-glomerular basement membrane disease,Goodpasture syndrome,T,,,50581000,195289,,
+Vascular system,Hypersensitivity angiitis,Hypersensitivity angiitis,Leucocytoclastic vasculitis,,,60555002,196431,"Hypersensitivity angiitis, also known as leukocytoclastic vasculitis, is an inflammation of the small blood vessels in your skin. This occurs when neutrophils (a type of immune cell) enter the walls of small blood vessels where they disintegrate, leaving behind fragments. It may be triggered by a variety of different factors; however, approximately half of the cases are idiopathic (i.e. have unknown cause). Some triggers include infections, certain drugs, collagen vascular disease, autoimmune disease, or neoplastic disease.  Drugs and infections are the most common triggers. Symptoms of the skin usually develop about a week after the triggering event. Approximately 90% of patients will have spontaneous healing of skin lesions within weeks to months, and about 10% will have chronic or recurrent disease. Henoch-Schonlein purpura is a subtype of leukoclastic vasculitis that affects children and is usually triggered by an upper respiratory infection.",
+Liver,Autoimmune hepatitis,Autoimmune hepatitis,N,,,408335007,200762,"Autoimmune hepatitis is a condition that occurs when your immune system mistakenly targets and attacks your liver cells, leading to long-term chronic liver inflammation, swelling, and damage. It may occur at any age and typically affects women more than men. It is often linked to other autoimmune diseases. The precise cause of autoimmune hepatitis is not fully understood, but it's believed that a combination of genetic and environmental factors plays a role in initiating the disease over time. When diagnosed and treated promptly, autoimmune hepatitis can often be managed with medications that dampen the immune response. In situations where drug treatments don't work or in advanced liver disease cases, a liver transplant might be considered an option.
+",autoantibodies against aromatic L-amino acid decarboxylase (AADC) correlated to type 2 autoimmune hepatitis 
+Pancreas,Diabetes mellitus type 1,Diabetes mellitus type 1,Type 1 diabetes mellitus,,,46635009,201254,"In diabetes type 1, the cells in the pancreas that make insulin, sometimes referred to as ""pancreatic islet"" or ""pancreatic beta cells"", are killed by T-Cells produced by the immune system. Without insulin, the body cannot process glucose, which builds up in the bloodstream and can cause damage to nerves and blood vessels. Unlike diabetes type 1, diabetes type 2 is caused when cells do not respond normally to insulin. Therefore, the mechanisms of the two main types of diabetes are different, and the treatments are therefore different. Type 1 is treated with insulin injections (which is why it is sometimes called ""insulin dependent diabetes""). Type 2 is usually treated with drugs like metformin, since type 2 is not caused by a failure to produce insulin but rather a failure to properly use it.
+
+It is possible for an individual with type 1 diabetes to develop type 2 diabetes, but that is relatively uncommon. However, it is more common (in the US medical system) is that doctors will inadvertently record a type 1 code in a patient with type 2 diabetes, and vice versa. (In fairness to the doctors, the ICD-9 coding system used before the introduction of ICD-10 in 2015 did not clearly differentiate between the two diseases.)",
+Digestive system,Crohn's disease,Crohn's disease,N,,,34000006,201606,"Crohn's Disease (CD) causes inflammation of the digestive tract that may lead to abdominal pain, severe diarrhea, fatigue, weight loss, and malnutrition. When that inflammation is only in the large intestine (including the colon) the disease is called ulcerative colitis (UC).
+
+Both UC and CD are caused by an autoimmune response that reflects the involvement of the innate and adaptive immune systems. The disease mechanism is complex, but appears to start when a normal immune response to a bacterial infection does not stop properly after the infection is fought off. The resulting inflammation leads to the symptoms of both UC and CD.",
+Glands,Sjögren's disease,Sicca syndrome,S,,,83901003,254443,"Sicca syndrome is marked by dry mouth and dry eyes. If these symptoms are caused by an autoimmune process, it is called Sjogren's disease. See <a href=""/Disease_Profile/Sj%C3%B6grens-disease.aspx"">Sjögrens disease for more information. ",
+Glands,Sjögren's disease,Sjogren's disease,Sjögren's disease,Sjögren's syndrome,Sjögrens disease,83901003,254443,"Sjögren’s disease is a systemic autoimmune disease that is marked by dry mouth and dry eyes. Though traditionally thought to be focused on the moisture-secreting glands of the eyes and mouth, it can affect the lungs, brain, gastrointestinal tract, sinus tract, nerves, joints, blood vessels, and kidneys. Symptoms vary significantly among patients, ranging from dry eyes and dry mouth to fatigue, pain and brain fog. Depression and anxiety are common comorbidities of Sjögren's, and patients’ quality of life is significantly affected. 
+
+Since 2012, Sjögren's disease has been adopted as the official name of the disease by the Sjögren's Foundation and others to reflect the systemic nature of the disease. 
+
+Sjögren's patients are predominantly female, with a female to male ratio of roughly 9 to 1. 
+
+Patients with Sjögren's can be diagnosed through positive antibodies (SSA or SSB, called “seropositive”) or by symptoms and other markers without the presence of antibodies (called ""seronegative""). Seronegative patients report greater difficulty in obtaining a diagnosis, and it is believed that Sjögren's disease is underdiagnosed. Sjögren's disease is also often accompanied by other immune system disorders, such as rheumatoid arthritis and lupus.  Some physicians have used the term “Secondary Sjögren's” to describe cases where Sjögren's is accompanied by another autoimmune disease, as opposed to “Primary Sjögren's,” which refers to cases where Sjögren's is the only autoimmune diagnosis. However, many patients and advocates argue that the term “Secondary” minimizes the impact of Sjogren’s and overlooks the unique challenges of Sjogren’s, which requires its own diagnostic and treatment approach regardless of coexisting conditions.",
+Vascular system,Polymyalgia rheumatica,Polymyalgia rheumatica,N,,,65323003,255348,"Polymyalgia rheumatica (PMR) is an autoimmune disease that causes an inflammatory reaction affecting the lining of joints, especially the shoulders and hips, and sometimes the arteries and some major branches of the aorta. It is usually associated with temporal arteritis.",
+Systemic,Systemic lupus erythematosus,Systemic lupus erythematosus,C,,,55464009,255891,,
+Systemic,Systemic lupus erythematosus,Systemic lupus erythematosus,N,,,55464009,257628,"SLE, the most common type of lupus, is a chronic inflammatory disease that occurs when the body's immune system attacks its own tissues and organs. Inflammation caused by lupus can affect many different body systems — including joints, skin, kidneys, blood cells, brain, heart and lungs.",
+Vascular system,Antineutrophil cytoplasmic antibody positive vasculitis,Granulomatosis with polyangiitis,T,,,195353004,313223,,
+Vascular system,Acute febrile mucocutaneous lymph node syndrome,Acute febrile mucocutaneous lymph node syndrome,Kawasaki's disease,,,75053002,314381,"Acute febrile mucocutaneous lymph node syndrome, also known as Kawasaki's Disease, is a rare disorder with sudden onset resulting in fever and inflammation of the blood vessels (vasculitis).  This inflammation restricts blood flow and damages vital organs and tissues, leading to heart disease.  Patients are predominantly children.  
+
+The cause of Kawasaki's Disease is uncertain but is believed to be autoimmune.  Patients who do not suffer damage to the coronary arteries (ex. aneurysms) are expected to heal completely.  Patients who do suffer aneurysms are at greater risk of complications and heart failure, but many can be expected to recover within 2 years.  Relapse is uncommon.  Short-term and long-term treatments and procedures that protect the heart and coronary arteries are available.
+",
+Blood,Immune thrombocytopenia,Chronic idiopathic thrombocytopenic purpura,T,,,13172003,318397,,Glycoprotein IIb/IIIa
+Heart,Postmyocardial infarction syndrome,Postmyocardial infarction syndrome,N,,,66189004,319038,"All of the conditions listed here occur following a heart attack, traumatic injury to the heart or the pericardium, or an operation such as coronary artery bypass grafting (CABG), mitral valve replacement, aortic valve replacement, and pacemaker or stent implantation. 
+
+They are marked by inflammation of the pericardium (the sac that surrounds the heart) accompanied by high fever.  Symptoms occur usually from 3-4 days up to 2-6 weeks post-surgery/injury and on rare occasions symptoms may develop up to a few months post-surgery/injury. Most patients improve with medication and do not suffer chronic illness.  
+
+To date, there is no direct or indirect evidence that post-pericardiotomy syndrome is autoimmune. Kaya et al 2012 provides an excellent review of the science of this entire class of disease. However, it states that “…precise mechanisms on how these autoantibodies perpetuate or even induce an organ specific autoimmune response are not yet fully understood.”  ",
+Vascular system,Polyarteritis nodosa,Polyarteritis nodosa,Periarteritis nodosa,,,155441006,320749,"Polyarteritis nodosa is an autoimmune disease that causes damage, weakness, and swelling to arteries. Small and medium-sized arteritis are affected by this disease. The autoimmune response that causes PAN is commonly triggered by drugs, vaccines, and both viral and bacterial infections.  PAN is a multisystem disorder, so any organ in the body can be affected. Typically, the skin, heart, peripheral nervous system, kidneys, joints, eyes, and gastrointestinal system are affected. Common symptoms include feelings of malaise, pain, and skin irritation.  There is no cure for PAN, but there are treatments to help with symptoms and disease progression. Outcomes vary depending on symptoms and disease severity, and relapses are possible.  If left untreated, some complications may be fatal.",
+Heart,Myocarditis due to autoimmune disease,Myocarditis due to autoimmune disease,N,,,871640001,321578,"Myocarditis is an inflammation of the heart wall. Myocarditis can affect both the heart's muscle cells and the heart's electrical system, leading to problems with the heart's pumping function and irregular heart rhythms. Myocarditis can also be caused by viral infections or systemic inflammatory conditions such as additional autoimmune disorders. In severe cases of myocarditis, the heart muscle weakens and cannot pump blood effectively to other parts of your body. There are 3 types of myocarditis: acute, chronic, and lymphocytic.
+
+Acute myocarditis is usually caused by a viral infection and can develop suddenly and resolve quickly. Chronic myocarditis takes longer to treat and occurs due to more general inflammatory conditions such as autoimmune diseases. Lymphocytic myocarditis is a rare form of myocarditis and tend to occur after a virus when white blood cells enter and cause inflammation in the heart.",
+Nervous System,Acute disseminated encephalomyelitis,Acute disseminated encephalomyelitis,Nonvasculitic autoimmune inflammatory meningoencephalitis,,,83942000,374021,"Acute disseminated encephalomyelitis (ADEM) is caused when inflammation stemming from fever or immunization damages the myelin sheaths of nerves in the brain, spinal cord, and occasionally the optic nerves, leading to abnormal nerve function.  Onset is brief but intense and occurs predominantly in children.  Patients often experience complete recovery within 6 months and do not experience relapses. The risk of developing ADEM depends on several factors, including genetics, exposure to infectious organisms, immunization exposure, and lighter skin pigmentation. ADEM can affect people of all ethnic backgrounds globally. Between 50% to 85% of ADEM cases are linked to a prior infection or vaccination, with many following a viral or bacterial infection. Nonetheless, the specific pathogen causing ADEM is often unknown.",high-affinity autoantibodies to MBP and MOG
+Nervous System,Age related macular degeneration,Age related macular degeneration,Z,,,267718000,374028,"Age-related macular degeneration (AMD) leads to the loss of central vision, which impairs activities such as reading, driving, and recognizing faces. Many factors may be involved in the development of AMD, including genetic predisposition and environmental factors like smoking and diet, and some studies have found a link with immune system components such as complement proteins. These proteins, part of the immune system's response to pathogens, can mistakenly target retinal cells, leading to inflammation and damage. Furthermore, individuals with autoimmune diseases like lupus or rheumatoid arthritis may have an increased risk of developing AMD, as their immune systems are already prone to attacking self-tissues. Understanding this autoimmune connection opens new avenues for potential treatments, such as immunomodulatory therapies, which aim to regulate the immune response and protect retinal health.
+
+However, based on the research available at this time, there is no evidence that AMD is an autoimmune disease. ",
+Nervous System,Multiple sclerosis,Multiple sclerosis,Disseminated sclerosis,,,24700007,374919,"Multiple Sclerosis (MS) is a central nervous system disease that occurs when the immune system attacks the myelin, which is a protective covering around the nerves. The nerves may then suffer permanent damage. The cause of the abnormal immune system action is unknown, but there seems to be some genetic link. The most common form of MS is relapsing-remitting which occurs when a patient has symptom-free periods, but the patient may develop a progressive form where the symptoms worsen over time. Women are affected twice as often as men. MS varies in severity, with some people losing the ability to walk.",
+Nervous System,Multiple sclerosis,Schilders disease,T,,,49692006,376970,,
+Nervous System,Neuralgic amyotrophy,Neuralgic amyotrophy,Brachial neuropathy,,,26609002,377271,"Neuralgic amyotrophy, also known as brachial plexus disorder and Parsonage-Turner syndrome, is a neurological disorder described by sudden onset of serious pain (aching, burning or stabbing pains) in the shoulder and arm. Pain may radiate into the neck and into the hands. The legs or diaphragm may be affected in some cases. PTS is usually triggered by an illness, infection, injury, or environmental factor, and the body creates an autoimmune response. Severe pain may last for a few hours or continue for weeks. Less intense pain can continue for a year or more. Pain is usually worse at night. Weakness of the muscles in the affected areas may develop days or weeks after onset of symptoms. Some people experience a single episode, some experience persistent symptoms, and others may experience symptom-free intervals between episodes.",
+Nervous System,Neuralgic amyotrophy,Brachial plexus disorder,S,,,3548001,378741,,
+Vascular system,Moyamoya disease,Moyamoya disease,N,,,69116000,378774,"Moyamoya disease occurs when the carotid artery, that brings blood to the brain, in the skull is blocked or narrowed. The term ""moyamoya"" is Japanese and means ""puff of smoke"" to describe the appearance of the tiny blood vessels responsible for the blockage. When these blockages occurs, they can cause a ministroke and bleeding in the brain. Moyamoya disease affects brain functions and may cause cognitive and developmental delays or disability.
+
+Although this rare disease most commonly affects children, adults may have this condition as well. The cause for Moyamoya disease is unknown, however, researchers suggest that there may be a genetic factor involved since the disease is most commonly seen in Asian countries.",
+Musculoskeletal,Stiff-person syndrome,Stiff-person syndrome,Stiff person syndrome,Stiff man syndrome,,5217008,379008,"Stiff person syndrome (SPS) is a rare, progressive syndrome believed to be autoimmune in nature, though the cause is currently unknown.  SPS is characterized by decreased inhibition of the central nervous system, which leads to greater muscle activity causing flares of severe stiffness and spasms, usually in the muscles of the trunk and limbs.  Triggers include noise, touch, and emotional distress.  SPS may result in disability, fractures due to severe muscle contractions, and abnormal posture.  Comorbidities may include diabetes, thyroiditis, vitiligo, and pernicious anemia.  There is no cure, but symptoms can be managed through treatment.",
+Nervous System,Epilepsy,Epilepsy,N,,,84757009,380378,"Epilepsy is the repeated occurrence of seizures, which are short periods of abnormally excessive or synchronous brain activity in the brain marked by uncontrolled shaking and loss of consciousness. Seizures usually last less than two minutes but it takes time to return to normal. Since a number of autoimmune diseases that affect the brain can lead to seizures, epilepsy has been listed in some lists as an autoimmune disease. However, unless the cause of the seizure is an underlying autoimmune disease, epilepsy itself is not an autoimmune disease. ",
+Nervous System,Neuromyelitis optica,Neuromyelitis optica,Devic's disease,,,25044007,380995,"Damage caused by the autoimmune system to the myelin (covering surrounding nerves) of the optical nerves and spine, which affects vision and may also result in other neurological symptoms.",Aquaporin-4 
+Nervous System,Chronic inflammatory demyelinating polyradiculoneuropathy,Chronic inflammatory demyelinating polyradiculoneuropathy,Chronic inflammatory demyelinating polyneuropathy,Chronic inflammatory demyelinating polyneuritis,,128209004,381009,"Chronic inflammatory demyelinating polyneuropathy is a rare neurological disease that inflames the nerve roots and peripheral nerves, damaging the myelin sheath. The destruction of the myelin sheath leads to loss of strength or sensation.",
+Digestive system,Autoimmune gastritis,Pernicious anemia,T,,,84027009,432295,,
+Nervous System,Chronic Fatigue Syndrome,Chronic Fatigue Syndrome,Myalgic encephalomyelitis,,,52702003,432738,"The autoimmune nature of chronic fatigue syndrome is still unknown but the syndrome often arises as a symptom in patients with autoimmune disorders. Chronic fatigue syndrome, also becoming known as myalgic encephalomyelitis, can be classified as extreme fatigue, tiredness and weakness, that lasts for at least 6 months and worsens with physical or mental activity without improvement from rest. 
+
+The cause of this syndrome is unknown, however, researchers believe that it may be caused by a combination of factors such as genetics, infections, physical or emotional trauma, and/or problems with energy usage. Although symptoms can come and go, it may be difficult for some individuals to maintain a regular schedule or to live independently, as some people may be too weak to get out of bed and others may need to use a wheelchair.",
+Systemic,Endometriosis,Endometriosis,N,,,129103003,433527,"A disorder where the tissue that normally lines the uterus grows outside of the uterus. The tissue can grow on the ovaries, fallopian tubes, outer wall of the uterus, intestines, or other organs in the belly. ",
+Nervous System,Intermediate uveitis,Pars planitis,T,,,45688009,434026,,
+All,Autoimmune disease,Autoimmune disease,G,,,85828009,434621,,
+Nervous System,Scleritis,Scleritis,N,,,78370002,434944,"Scleritis is an inflammation of the white tissue, the sclera, that surrounds most of the eye. Though scleritis is a symptom of a number of autoimmune diseases, it is suspected of being an autoimmune disease itself.  ",
+Nervous System,Mooren's ulcer,Mooren's ulcer,N,,,22440001,435271,"Mooren's Ulcer is a chronic eye condition that causes inflammation where the eye's covering (cornea) joins with the white part of the eye (sclera).  This type of inflammation is called Peripheral Ulcerative Keratitis (PUK).  These persistent peripheral ulcers of the cornea often spread into and around the eye. There are several variants of this disorder:  Aggressive Bilateral Mooren's Ulcers patients usually have an ulcer in one eye and congestion or discharge in the other eye. Pain is milder, and grey patches may develop within 2 mm of the border between the cornea and the white of the eye (limbus). Bilateral Indolent Mooren's Ulcers affect both eyes, with one eye typically showing more severity.  Discomfort may occur with minimal inflammation.  Unilateral Mooren's ulcers can occur in one or both eyes and is excessively painful.  Redness and congestion are apparent, but inflammation is seen within 3 mm of the limbus.    Mooren's Ulcer is believed to be an autoimmune disorder, but more research is needed.  The condition can be benign, with few symptoms and low risk of complications, or malignant, with severe symptoms.  Without medical care, malignant cases may lead to vision loss, but treatments are available to prevent this.",
+Glands,Addison's disease,Adrenal cortical hypofunction,V,,,386584007,435508,,adrenal cortical antibodies—ACA
+Vascular system,Behçet's syndrome,Behçet's syndrome,Behcet's syndrome,,,310701003,436642,"Behçet's syndrome is a chronic inflammatory disease that leads to mass inflammation in the blood vessels of the body which results in artery and vein damage. Many of the symptoms can seem unrelated at first, such as mouth sores, eye inflammation, skin rashes, etc, however, symptoms vary from person to person and varies depending on the body parts that are affected. Unfortunately, Behçet’s syndrome can lead to more serious complications such as blindness.
+
+This disease is not well understood but is believed to be autoimmune in nature since the symptoms are due to vasculitis. Researchers have also found several genes to be associated with Behçet’s and believe that those with these genes can trigger Behçet’s if they are exposed to a virus or bacterium.","autoantibodies to tropomyosin 48063, Antibodies to protein S 32422"
+Blood,Evans syndrome,Evans syndrome,N,,,75331009,436956,"A rare autoimmune disorder that is a combination of two or more immune hematological disorders in which the immune system destroys the body's red blood cells, white blood cells and/or platelets. 
+
+The disorder resembles a combination of autoimmune hemolytic anemia, thrombocytopenia (too few platelets), and/or neutropenia (too few neutrophils).
+
+
+",
+Musculoskeletal,Ankylosing spondylitis,Ankylosing spondylitis,N,,,9631008,437082,"Ankylosing spondylitis, a form of arthritis, triggers inflammation in the spine's joints and ligaments, potentially extending to peripheral joints such as knees, ankles, and hips. Typically, these spinal joints and ligaments facilitate movement and flexibility. However, in ankylosing spondylitis, inflammation can induce stiffness. In severe instances, this inflammation may prompt the vertebrae to fuse together, resulting in a rigid and immobile spine. Although there's no cure, various treatments can manage symptoms effectively. These may encompass exercises, physical or occupational therapy to enhance mobility and posture, and medications to alleviate pain, reduce inflammation, improve posture, and slow disease progression. With appropriate treatment, individuals with ankylosing spondylitis can lead fulfilling lives.",
+Nervous System,Cataplexy and narcolepsy,Cataplexy and narcolepsy,N,,,193042000,437854,"Narcolepsy is a neurologic condition that causes a person to experience extreme sleepiness during the day without warning. When combined with cataplexy, a similar onset of muscle weakness, the condition is sometimes called narcolepsy type 1 and is suspected of being caused when the immune system attacks an important chemical in brain cells called hypocretin. The destruction of this chemical leads to the symptoms experienced by patients.
+
+The first reports of narcolepsy being an autoimmune disease came in 2013, but retraction of that paper in 2014 put its status in doubt. Subsequent research and identification of the molecular mechanism by Mahoney et al. provides evidence and justifies classification as an autoimmune disease. ",
+Systemic,Sarcoidosis,Sarcoidosis,N,,,31541009,438688,"One way the immune system works is to surround an invader and keep it from harming the body. Those small clumps of immune system cells are called granulomas and they form as part of the body's inflammation response to foreign, potentially harmful, substances. 
+
+In sarcoidosis the inflammation process gets out of control, and granulomas form even though there is no foreign substance, and the number of granulomas increases. When left untreated, the granulomas harden and produce permanent scars, usually in the lungs but they can occur in other organs and tissues.  
+
+The symptoms of sarcoidosis depend on where the granulomas form.   In some cases, the disease goes away on its own. In others, the disease may not progress clinically but individuals will still suffer from some symptoms that affect their quality of life. Up to a third of people diagnosed will require long-term treatment. Sarcoidosis is considered chronic in people whose disease remains active for more than 2-5 years; chronic sarcoidosis can be debilitating and life-threatening. 
+
+Sarcoidosis often starts with a set of symptoms collectively referred to as Lofgren's Syndrome (see below).",
+Nervous System,Sympathetic uveitis,Sympathetic uveitis,Sympathetic ophthalmia,,,75315001,438739,"Sympathetic Ophthalmia (SO) is a rare inflammatory condition that affects both eyes following trauma or surgery to one of the eyes. The immune system is sensitized to proteins from the damaged eye and then attacks those same proteins in the uninjured (or “spared” eye), leading to inflammation of the uninjured eye. Sympathetic ophthalmia is a form of uveitis. The disease can lead to blindness. 
+",
+Musculoskeletal,Chronic Lyme disease,Lyme disease,Chronic Lyme disease,,,23502006,440638,"Lyme disease (named for the town of Lyme, Connecticut where it was first identified) is a bacterial disease transmitted through the bite of an infected black-legged tick, commonly known as a deer tick. Infection is possible after 24 to 48 hours.  If the tick is not removed by then, it can transmit one of four main species of bacteria that cause Lyme disease: Borrelia burgdorferi, Borrelia mayonii, Borrelia afzelii and Borrelia garinii bacteria. The infection can be detected by a red “bulls-eye” rash or by Bell’s Palsy, a condition in which facial muscles are paralyzed. 
+
+If the disease is detected and treated (with antibiotics) recovery is usually complete and symptoms like Bell’s disappear completely. In these cases, there is no autoimmune disease.   
+
+However, in some people, the Lyme disease triggers symptoms similar to rheumatoid arthritis. This is called “chronic Lyme disease” and is suspected of being an autoimmune disease.  ",
+Vascular system,Takayasu's arteritis,Takayasu's arteritis,Takayasu's disease,,,359789008,440740,"Takayasu’s arteritis (TA) is a rare disease that affects large blood vessels, especially the aorta and its major branches. It is sometimes called ""pulseless disease"" because it can weaken or block pulses in the arms and legs. The condition mainly affects young women, particularly those from Asian and South American countries. Although it is most common in women under 40, TA can also occur in men and older individuals. 
+
+In Takayasu’s arteritis, inflammation causes the walls of affected arteries to become thickened and scarred, which can reduce blood flow to important organs and limbs. The disease is marked by patches of severe inflammation in the artery walls, often alternating with areas of normal tissue. Over time, the arteries can become narrowed (stenosis) or, in some cases, develop bulges (aneurysms). The aortic wall is often involved, with inflammatory cells such as lymphocytes and plasma cells attacking the outermost layers of the artery and sometimes extending into the surrounding tissues. 
+ 
+Early symptoms may include fever, night sweats, fatigue, joint pain, and chest discomfort. As the disease progresses, inflammation and damage to major arteries can lead to headaches, dizziness, vision problems, and even fainting due to reduced blood flow to the brain. Narrowing of the arteries supplying the arms and upper body can cause pain and weakness, while involvement of the coronary arteries can result in chest pain and an increased risk of heart disease, including aortic regurgitation, a serious condition that allows blood to flow backward into the heart and can lead to heart failure.",
+Blood,Autoimmune hemolytic anemia,Autoimmune hemolytic anemia,N,,,413603009,441269,"In autoimmune hemolytic anemia, red blood cells are destroyed by antibodies. In some cases, the antibodies are active only when the person is warm, in which case it is called <a href=""/Disease_Profile/warm-autoimmune-hemolytic-anemia.aspx"">warm autoimmune hemolytic anemia</a>. In other cases, the antibodies are active when the person is cold, and it is called <a href=""/Disease_Profile/cold-agglutinin-disease.aspx"">cold agglutinin disease</a>, and in others, the antibodies can be active regardless of the person's body temperature. There is also a form of hemolytic anemia called <a href=""/Disease_Profile/paroxysmal-nocturnal-hemoglobinuria.aspx"">paroxysmal nocturnal hemoglobinuria</a>, in which a genetic mutation causes antibodies to cause the same kind of destruction of red blood cells.",
+Skin,Morphea,Localized scleroderma,T,,,201048007,441928,,
+Systemic,Rheumatic fever,Rheumatic fever,N,,,58718002,442313,"Rheumatic fever is an inflammatory disease that sometimes develops as a complication of inadequately treated strep throat (group A streptococcal infection). Rheumatic fever can cause permanent damage to the heart including damaged heart valves and heart failure.  The disease is mostly diagnosed in children.
+
+Rheumatic fever is not a chronic condition, but the consequences of the heart damage it may cause, rheumatic heart disease, can be chronic. 
+
+The disease and its consequences can be prevented with antibiotics if the strep infection is diagnosed quickly, treatment is started in a timely manner, and the patient follows through with the treatment completely. 
+
+Note: scarlet fever is another symptom of a strep infection but is not a separate cause of rheumatic fever.",
+Glands,Addison's disease,Addison's disease,N,,,363732003,443394,"Addison's disease is a hormonal disorder that occurs when the adrenal glands do not produce enough of certain hormones. The two hormones that tend to be affected the most are cortisol and aldosterone. Symptoms may occur slowly over several months, and most people do not realize these are symptoms of Addison’s and ignore them. Early symptoms include fatigue, dizziness or fainting due to low blood pressure, sweating due to low blood sugar, upset stomach, abdominal pain, and muscle cramps or weakness. If symptoms become worse quickly, then it can develop into an adrenal crisis, resulting in death if not treated quickly enough.",adrenal cortical antibodies—ACA
+Musculoskeletal,Transverse myelitis,Transverse myelitis,N,,,16631009,443904,"Inflammation of the spinal cord with neurological effects that go in a transverse (horizontal or bandlike) manner across the body, as opposed to going up or down the spinal cord.",
+Musculoskeletal,Rheumatic Chorea,Rheumatic Chorea,Sydenham chorea,,,46826000,444120,"Rheumatic chorea, also called Sydenham chorea, is a rare neurological disorder typically occurring during childhood. It is caused by an autoimmune reaction following infection from the same bacterium that causes rheumatic fever. It leads to chorea: sudden, continuous, involuntary movements affecting the entire body. Symptoms can last in children anywhere from 3 weeks to several months. Patients with mild cases recover on their own in a few weeks, but treatment is available to provide relief to those with severe symptoms.
+
+Since antibiotics have reduced the incidence of rheumatic fever, the incidence of rheumatic chorea in developed countries like the US is much lower than in developing countries. (Note that we could not find a study that supports a statistic cited in several papers that 30% of patients with rheumatic fever develop rheumatic chorea).",
+Systemic,Chronic post-COVID-19 syndrome,Chronic post-COVID-19 syndrome,N,,,1119304009,600589,"In as many as 50% of cases of COVID-19 infection, the syndrome known as “Long COVID”  continues to affect a person for months, even years.  Data on this syndrome is mostly anecdotal and unscientific, but some formal research has been completed (citations below).
+
+The symptoms of Long COVID are familiar to many people suffering from autoimmune diseases, including:
+
+Fatigue
+
+An unpredictable flare and remission pattern of recurrence
+
+“Brain fog”, an interruption of memory, attention, and thought processing that can inhibit or prevent a person from performing normal activities
+
+There are additional factors that COVID-19 and Long COVID share with autoimmune disease:
+
+Myocarditis, reported among patients with COVID-19 and, in rare cases, among those who have been vaccinated, is also an autoimmune disease.
+
+Blood clots similar to those found in the autoimmune disease antiphospholipid syndrome have been reported in patients with COVID-19 and Long COVID (though research suggests that the antibody response in Long COVID is not the same as the response found in autoimmune diseases).
+
+High levels of antibodies to the immune-system proteins called type I interferons (IFNs) have been associated with severe COVID-19. 
+
+A further factor leading to the inclusion of Long COVID on the list of autoimmune diseases is that evidence shows that severely ill patients tend to have a high concentration of pro-inflammatory cytokines, such as interleukin (IL)-6, compared to those who are moderately ill. 
+
+Finally, there are other suspected associations between viral infection and autoimmune diseases. Most well known of these is the Epstein-Barr virus, which can lead to acute autoimmune diseases like Gulliere-Barre syndrome and chronic diseases like lupus. 
+
+The Autoimmune Registry has decided to include Long COVID in its list of autoimmune diseases to support research into this emerging chronic condition.   We classify the level of evidence as “Unconfirmed”, which indicates that:
+
+The disease follows a pattern common to autoimmune diseases;
+
+Autoimmunity has not been ruled out; and 
+
+More study is needed.",
+Vascular system,Microscopic polyangiitis,Microscopic polyangiitis,Microscopic polyarteritis,,,1144805008,606328,"Microscopic polyangiitis (MPA) is a disorder that causes inflammation in the blood vessels. The inflammation can affect many of the body's organ systems including the kidneys, nervous system, skin, lungs, etc. Microscopic polyangiitis is believed to be autoimmune because the development of the disease is thought to come from an overreaction in the immune system that causes inflammation in the body's tissues and blood vessels. The disease can be confused with others such as polyarteritis nodosa (PAN), granulomatosis with polyangiitis (GPA), and cutaneous leukocytoclastic angiitis (CLA). However, in 1994, The Chapel Hill Consensus Conference defined MPA as a separate disorder. ",
+Skin,Lichen sclerosus,Lichen sclerosus,N,,,895454001,619430,"Lichen sclerosus causes patches of skin to look white, thickened and crinkly. It most often affects the skin around the vulva or anus.There is circumstantial evidence that lichen sclerosus is autoimmune but no clear evidence to support it.  ",
+Nervous System,Rasmussen syndrome,Rasmussen syndrome,C,,,4.35341E+14,763040,,
+Nervous System,Autoimmune encephalitis caused by N-methyl D-aspartate receptor antibody,Autoimmune encephalitis caused by N-methyl D-aspartate receptor antibody,N,,,4.52281E+14,764228,"Anti-NMDA receptor encephalitis is an autoimmune disorder in which the body attacks the brain’s NMDA receptors. N-Methyl-D-Aspartate (NMDA) receptors are proteins that play a significant role in learning and memory.
+
+When the NMDA receptor antibodies attack the NMDA receptors in the brain, certain functions of the brain are disrupted and brain swelling, or encephalitis, occurs. At disease onset, patients often have symptoms consistent with those caused by a virus.  Within 3 months of onset, patients develop psychological or neurological problems, including seizures and perceptual and behavioral changes.  As the disorder progresses, patients become verbally unresponsive and experience difficulty with movement.  With time, problems with regulation of autonomic processes, such as heart rate and breathing, emerge.  Some cases of this disease have been associated with tumors, especially of the ovary. In severe cases, complications can result in relapse, chronic cognitive problems, or death.  However, if treatment and medical supervision is received, most patients can expect to fully recover.","autoantibodies target the NMDA receptor, the AMPA receptor, the voltage-gated potassium channel (VGKC) complex, or a growing list of synaptic protein"
+Heart,Myocarditis due to autoimmune disease,Autoimmune myocarditis,S,,,871640001,3656114,"Myocarditis is an inflammation of the heart wall. Myocarditis can affect both the heart's muscle cells and the heart's electrical system, leading to problems with the heart's pumping function and irregular heart rhythms. Myocarditis can also be caused by viral infections or systemic inflammatory conditions such as additional autoimmune disorders. In severe cases of myocarditis, the heart muscle weakens and cannot pump blood effectively to other parts of your body. There are 3 types of myocarditis: acute, chronic, and lymphocytic.",Tissue specific antibodies/tcells not found
+Skin,Autoimmune progesterone dermatitis,Autoimmune progesterone dermatitis,N,,,838551007,3661498,"Autoimmune progesterone dermatitis is a recurrent skin rash that varies in severity and generally appears during the second half of the cycle when levels of the hormone, progesterone, begin to rise and it subsides shortly after menstruation.",
+Skin,Dermatomyositis,Juvenile dermatomyositis,T,,,1212005,4005037,,
+Glands,Polyglandular autoimmune syndrome type 1,Polyglandular autoimmune syndrome type 1,N,,,11244009,4008545,"Polyglandular autoimmune syndrome type 1 is a rare autoimmune condition that is caused by a genetic variant that prevents the destruction of antibodies in the thymus gland. As a result, those antibodies attack healthy tissue in a number of glands, leading to the symptoms. There are three components of APECED: chronic mucocutaneous candidiasis, hypoparathyroidism, and adrenal insufficiency.",
+Blood,Paroxysmal nocturnal hemoglobinuria,Paroxysmal nocturnal hemoglobinuria,R,,,1963002,4024671,"Paroxysmal nocturnal hemoglobinuria is a rare blood disorder caused when a protein is missing from a person's blood due to a mutation in a gene. Without the protein, the body's immune system attacks the red blood cells and breaks them apart.  ",
+Systemic,Systemic sclerosis with limited cutaneous involvement,Systemic sclerosis sine scleroderma,T,,,128461001,4027230,"CREST is a subtype of scleroderma, a connective tissue disease characterized by changes in the skin, blood vessels, skeletal muscles, and internal organs. CREST is the acronym for the clinical features seen in individuals with the disease :                        
+
+C - Calcinosis: calcium deposits in the connective tissues
+
+R - Raynaud's phenomenon: where the hands and feet turn white and cold and then blue, in response to cold or anxiety.
+
+E - Esophageal dysfunction:  where a person has difficulty swallowing 
+
+S - Sclerodactyly: thick and tight skin on the fingers, caused by an excess of collagen deposits within skin layers.
+
+T - Telangiectasia: small red spots on the hands and face that are caused by the swelling of tiny blood vessels.
+
+To be diagnosed with CREST, you must have 3 out of the 5 symptoms.",
+Nervous System,Multiple sclerosis,"Systemic sclerosis, diffuse",T,,,128460000,4027727,,
+Blood,Immune thrombocytopenia,Primary immune thrombocytopenia,T,,,128091003,4028065,,Glycoprotein IIb/IIIa
+Nervous System,Uveitis,Uveitis,N,,,128473001,4028363,"Uveitis is an inflammation of the uvea - a set of tissues that form a layer of eyeball that sits between the outer layers of the eye and the ""vitreous chamber"", which forms the main body of the eye. The uvea itself has several kinds of tissue that can be affected by immune processes, all of which are called uveitis. About half of people who receive a diagnosis of uveitis have an autoimmune form of the disease. Uveitis is a term that means ""inflammation of the uvea"", and not all forms of uveitis are autoimmune, and not all individuals diagnosed with uveitis have an autoimmune form of uveitis. 
+
+The most common form of autoimmune uveitis is <a href=""<a href=""https://diseases.autoimmuneregistry.org/Disease_Profile/intermediate-uveitis"">intermediate uveitis</a>.",
+Glands,Graves' disease,Thyrotoxicosis due to Graves' disease,S,,,237499004,4034811,,
+Glands,Autoimmune thyroiditis,Autoimmune thyroiditis,C,,,66944004,4034815,,
+Vascular system,Necrotizing vasculitis,Necrotizing vasculitis,N,,,11791001,4039691,"Vasculitis is an inflammation of blood vessels. When vasculitis is severe, blood cannot reach important organs or tissues. In severe cases, the tissue dies, which is called necrosis, and the term ""necrotizing vasculitis"" is used. It is also called ""systemic vasculitis"" since the severity of the disease can be widespread. 
+
+Necrotizing vasculitis can lead to blood clots, weight loss, loss of weight, exhaustion, depression, fever, and widespread pain that worsens in the morning.
+The specific location of vasculitis inflammation determines what tissue or organs (e.g., kidneys, fingers, head) are affected, and the type of vasculitis often depends on the location.  For more information, see the specific forms of vasculitis elsewhere on the website (listed above). ",
+Nervous System,Rasmussen syndrome,Rasmussen syndrome,N,,,230191005,4041672,"Rasmussen syndrome, or Rasmussen’s Encephalitis (RE), is a rare, progressive disease that involves cognitive decline due to inflammation of one half of the brain. Those with Rasmussen syndrome experience frequent seizures and eventual permanent brain damage. This disease mostly affects children ages 2 and 10, but can also affect adolescents and adults. Treatments for this disease include antiseizure medication, immunotherapy, and in more severe cases, brain surgery. The cause of Rasmussen's syndrome is unknown, however, researchers believe that it may be an autoimmune condition that affects one half of the brain or may occur due to an unknown virus entering the brain.",
+Nervous System,Opsoclonus-myoclonus syndrome,Opsoclonus-myoclonus syndrome,N,,,230350000,4043399,"Opsoclonus-myoclonus syndrome is a rare autoimmune disorder that affects the nervous system. Inflammation in the neurological system causes this disorder. OMS typically occurs with tumors (neuroblastomas) or after a viral or bacterial infection. The immune reaction to the tumor or infection makes the body attack the nervous system. In some cases, the cause is unknown.",
+Nervous System,Balo concentric sclerosis,Balo concentric sclerosis,N,,,230380005,4046110,Balo's disease is a rare demyelinating disorder of the central nervous system in which the myelin (the fatty substance covering nerve cells) is damaged. ,See MS
+Nervous System,Chronic inflammatory demyelinating polyradiculoneuropathy,Chronic inflammatory demyelinating polyradiculoneuropathy with central nervous system demyelination,S,,,230564004,4048024,,
+Skin,Alopecia areata,Alopecia Totalis,T,,,19754005,4056343,,
+Liver,Primary sclerosing cholangitis,Primary sclerosing cholangitis,N,,,197441003,4058821,"PSC is a rare progressive disorder of the liver which is characterized by inflammation, thickening, and abnormal formation of fibrous tissue within the passages that carry bile from the liver (bile ducts). Both bile ducts within the liver and outside the liver are affected.",
+Skin,Cutaneous lupus erythematosus,Lupus erythematosus tumidus,T,,,200941006,4066481,,
+Skin,Pemphigus,Drug-induced pemphigus,T,,,200907003,4066821,,Desmogleins 
+Skin,Cutaneous lupus erythematosus,Discoid lupus erythematosus,S,,,200938002,4066824,,
+Skin,Morphea,Morphea,N,,,201049004,4066845,"Morphea is a disorder primarily affecting the skin.  There are several types of morphea:Localized or circumscribed morphea causes patients to develop oval-shaped areas of redness.  Irritated skin may be limited to a single patch or to several patches covering a smaller area.  
+
+Generalized morphea is more widespread, affecting a number of skin regions throughout the body.  In linear morphea, skin irritation appears in a linear, rather than an oval shape.  Damage can penetrate to the tissues below the skin, including muscle and bone.  
+
+Pansclerotic morphea,  the rarest and most severe form, usually affect children and involves the entire body, also penetrating through the skin into the bone.  The cause of morphea is unknown but is believed to be autoimmune.  
+
+There is no cure for morphea, but treatments are available to manage symptoms.  Patches of irritation caused by mild types of morphea often improve in 3-5 years, though new patches may develop. However, damage affecting both the skin and the muscles/bones, as in linear morphea, may have a longer duration and occur in cycles of flares and remission, while pansclerotic morphea tends to worsen significantly with time.  Both linear and pansclerotic morphea may cause severe disability.",
+Nervous System,Guillain-Barré syndrome,GBS,MFS,,,1767005,4070552,,
+Nervous System,Guillain-Barré syndrome,Miller Fisher syndrome,Miller-Fisher syndrome,Fisher syndrome,,1767005,4070552,,
+Digestive system,Inflammatory Bowel Disease,Crohn's disease,Inflammatory Bowel Disease,Microscopic colitis,Ulcerative colitis,24526004,4074815,"Inflammatory bowel diseases is a group of autoimmune diseases that includes Crohn's disease, ulcerative colitis, and microscopic colitis.",
+Nervous System,Ophthalmoplegia due to Graves' disease,Thyroid eye disease,S,,,276177000,4077943,"Graves' ophthalmopathy (GO) is an autoimmune disorder affecting the eyes that is associated with Graves' disease.  In Graves' disease, the immune system targets and damages a specific cell type found in the thyroid.  This cell type is also found in the tissues surrounding the eyes (the orbit), and Graves' ophthalmopathy results when the immune system attacks these orbital cells in addition to the cells in the thyroid.  Patients with GO experience swelling in the tissues, muscles, and fat in the eye socket, which leads to an abnormal protrusion of the eye.  Smoking is associated with a greater risk of acquiring GO.  Patients often experience full recovery without intervention, but treatments are available to manage symptoms.",
+Musculoskeletal,Juvenile Rheumatoid Arthritis,Juvenile chronic arthritis,S,,,239796000,4079731,,
+Systemic,Sarcoidosis,Lofgrens syndrome,T,,,238676008,4081069,"One way the immune system works is to surround an invader and keep it from harming the body. Those small clumps of immune system cells are called granulomas and they form as part of the body's inflammation response to foreign, potentially harmful, substances. 
+
+In sarcoidosis the inflammation process gets out of control, and granulomas form even though there is no foreign substance, and the number of granulomas increases. When left untreated, the granulomas harden and produce permanent scars, usually in the lungs but they can occur in other organs and tissues.  
+
+The symptoms of sarcoidosis depend on where the granulomas form.   In some cases, the disease goes away on its own. In others, the disease may not progress clinically but individuals will still suffer from some symptoms that affect their quality of life. Up to a third of people diagnosed will require long-term treatment. Sarcoidosis is considered chronic in people whose disease remains active for more than 2-5 years; chronic sarcoidosis can be debilitating and life-threatening. 
+
+Sarcoidosis often starts with a set of symptoms collectively referred to as Lofgren's Syndrome (see below).",
+Skin,Cutaneous lupus erythematosus,Chronic discoid lupus erythematosus,T,,,238927000,4081248,,
+Systemic,Fasciitis with eosinophilia syndrome,Fasciitis with eosinophilia syndrome,Eosinophilic fasciitis,Shulman's syndrome,,24129002,4083100,"Eosinophilic fasciitis is a rare, scleroderma-like, autoimmune rheumatic disorder in which the skin and tissue (the fascia, fibrous tissue that separates different layers of tissues under the skin) that lies beneath the skin become painfully inflamed and swollen and gradually hardens. It affects the forearms, the upper arms, the lower legs, the thighs, and the trunk (in order of decreasing frequency). The disease is considered by some to be a deep variant of the skin condition morphea, and is also known as pansclerotic morphea with deep fascial involvement. Patients usually present suddenly with painful, tender, swollen and red extremities. Within weeks to months, patients develop stiffness and affected skin becomes hardened, creating a characteristic orange-peel appearance over the surfaces of the extremities. In severely affected areas, the skin and the subcutaneous tissue are bound tightly to the underlying muscle. This creates a woody-type appearance. The presentation of eosinophilic fasciitis is similar to scleroderma or systemic sclerosis. However unlike scleroderma it affects the fascia, not the skin (dermis). Unlike scleroderma and systemic sclerosis, effects such as Raynaud's phenomenon, which affects prominent small blood vessels in the extremities (telangiectasia), and visceral changes, such as swallowing problems, are absent. It was first characterized in 1974 and it is not yet known whether it is actually a distinct condition or just a different presentation of morphea.",
+Blood,Antiphospholipid syndrome,Antiphospholipid syndrome,N,,,26843008,4098292,"Antiphospholipid syndrome occurs when the immune system attacks some of the normal proteins in the blood. 
+
+There's no cure for antiphospholipid syndrome, but medications can reduce the risk of blood clots.",Beta-2 glycoprotein I
+Skin,Acquired epidermolysis bullosa,Acquired epidermolysis bullosa,N,,,2772003,4100661,"In epidermolysis bullosa acquisita (EBA) the skin and mucus membranes are chronically inflamed and may form blisters in response to minor injury. Common areas of blistering include the hands, feet, knees, elbows, and buttocks. It can also affect the mouth, nose, and eyes.  Evidence suggests an association between EBA and inflammatory bowel diseases (IBD), such as ulcerative colitis and Crohn's disease. IBD is reported to be present in approximately 30% of EBA patients. There are two main types of EBA, non-inflammatory and non-inflammatory. The non-inflammatory type is more common and resembles the hereditary disease, epidermolysis bullosa. The inflammatory types resemble autoimmune bullous pemphigoid. Mucous Membrane EBA (MM-EBA) is a type of inflammatory EBA that affects mucous membranes. EBA is marked by the presence of autoantibodies (mainly IgG class) to type VII collagen (Col7). EBA may mimic other inflammatory blistering diseases, most often bullous pemphigoid and bullous systemic lupus erythematosus (which is also associated with anti-Col7 autoantibodies).",
+Vascular system,Immunoglobulin A vasculitis,Immunoglobulin A vasculitis,Henoch-Schonlein purpura,IgA vasculitis,Purpura rheumatica,191306005,4101602,"Immunoglobulin A vasculitis, also known as purpura rheumatica, is a temporary, childhood form of vasculitis due to inflammation of small blood vessels (capillaries) caused by an attack by the immune system. Purpura rheumatica is marked by inflammation in capillaries, the smallest blood vessels. Symptoms can be broad but must include raised, rash-like papules on the skin that do not turn white when pressed. Additional symptoms may include abdominal discomfort and joint pain. A clinician may also find deposits of an immune system protein (antibody or immunoglobulin) called IgA in the kidneys or small amounts of protein/hemoglobin present in urine samples. 
+
+This condition is usually temporary (4-6 weeks) with a full recovery for most patients. Very rarely, Purpura rheumatica can lead to complications with kidney or lung function. ",
+Nervous System,Paraneoplastic cerebellar degeneration,Paraneoplastic cerebellar degeneration,N,,,192877007,4102330,"Paraneoplastic cerebellar degeneration (PCD) is a rare autoimmune disorder that occurs in patients with carcinoma. PCD results when the immune system does not differentiate between tumor cells and healthy cells in the cerebellum and attacks both, causing damage. Cancer is often undetected in these patients until symptoms of PCD emerge. Disease progresses quickly, and patients will experience motor and cognitive difficulties that become disabling within less than a few weeks. Treatments are available to manage symptoms, but prognosis is usually poor.",https://pubmed.ncbi.nlm.nih.gov/27606347/
+Blood,Immune thrombocytopenia,Immune thrombocytopenia,N,,,2897005,4103532,"Immune thrombocytopenia is a pair of autoimmune blood disorders that involves destruction of the normal blood clotting process. ""Thrombocytopenia"" simply means ""low platelet count"" and could be caused by many things. One symptom of these conditions is easy or excessive bruising and bleeding, so some names include the term ""purpura"", which means purple or red discolorations on the skin. The bleeding results from blood pooling under the skin because clotting is impaired.  Until scientists identified the autoimmune cause of the disease, it was called ""idiopathic thrombocytopenia"" because the cause was unknown, and until a cause of an individual's disease is known, that label might be used. 
+
+In immune thrombocytopenia, the platlets are destroyed by the antibodies produced by the immune system. However, the tests for these antibodies are not precise, so other methods are used to confirm a diagnosis, including determining if other autoimmune diseases are present. Secondary autoimmune thrombocytopenia simply refers to immune thrombocytopenia triggered by another autoimmune disease or by a non-autoimmune disease (such as COVID-19). The treatments for secondary immune thrombocytopenia are usually determined by the underlying condition.
+
+IIn autoimmune thrombotic thrombocytopenic purpura, sometimes called autoimmune TTP, autoantibodies attack ADAMTS13, an enzyme essential to regulating clot formation. The enzyme normally breaks down a protein called ""ultra-large von Willebrand factor"" (UL-vWF), and when that protein accumulates, platelets stick together, leading to blood clots. With the platelets stuck together, there are not enough platelets circulating in the bloodstream, which can lead to purpura (red or purple blotches on the skin). Although the symptoms of autoimmune TTP and immune thrombocytopenia are similar, the disease mechanism is very different.
+
+Note that thrombotic thromocytopenic purpura, TTP, is a <i><b>genetic</i></b> disease that is caused by inherited genetic mutations in the ADAMTS13 gene that lead to the same symptoms as autoimmune TTP.  TTP is not autoimmune, and a genetic test to look for mutations in the gene that produces ADAMTS13 can be performed to rule out a genetic cause and lend support to a diagnosis of the autoimmune form of the disease. ",Glycoprotein IIb/IIIa
+Vascular system,Vogt-Koyanagi-Harada disease,Vogt-Koyanagi-Harada disease,N,,,193497004,4108968,"Vogt-Koyanagi-Harada (VKH), is a rare disease that affects multiple systems including the nervous system and skin. The disease results in rapid vision loss as well as loss of hearing and hair. Although the cause of VKH is unknown, researchers believe that it is an immune response to a genetic defect of the Human Leukocyte antigen (HLA). Other researchers believe that there may be a genetic predisposition for VKH and may only be expressed by an environmental trigger.",
+Systemic,Angiofollicular lymph node hyperplasia,Angiofollicular lymph node hyperplasia,Castleman's disease,,,207036003,4118225,"Castleman disease (CD) is a group of rare disorders that involve enlarged lymph nodes due to an unexplained activation of the immune system that leads to a hyper-inflammatory state, causing damage to multiple organs. Based on the number of regions in the body that have enlarged lymph nodes, CD can be classified as unicentric or multicentric. This difference is important because unicentric CD and multicentric CD require different treatments. There are four main types of CD:
+
+Unicentric Castleman disease (UCD)
+
+POEMS-associated multicentric Castleman disease (POEMS-MCD)
+
+HHV-8-associated multicentric Castleman disease (HHV-8+MCD)
+
+HHV-8-negative/idiopathic multicentric Castleman disease (iMCD)",
+Systemic,Angiofollicular lymph node hyperplasia,,S,,,207036003,4118225,,
+Skin,Lichen sclerosus,Lichen sclerosus et atrophicus,U,,,25674000,4119189,,
+Lungs,Interstitial lung disease,Idiopathic pulmonary fibrosis,Interstitial lung disease,Cryptogenic organizing pneumonia,,233703007,4119786,"Interstitial lung disease is a small group of diseases that feature inflammation and the development of fibrous tissue that affects the small airways and the small sacks in the lungs (alveoli) where oxygen is exchanged for carbon dioxide. The two most common diseases in this group are idiopathic pulmonary fibrosis and cryptogenic organizing pneumonia, both of which can occur as “idiopathic” conditions (where the cause is unknown) or in association with several autoimmune diseases. Although both are classified as “lung disorders of unknown etiology,” there are clues that autoimmune mechanisms play a role in the development of both disorders. ",
+Blood,Immunoglobulin G4 related disease,IgG4 deficiency,T,,,234549008,4121282,,
+Blood,Autoimmune neutropenia,Autoimmune neutropenia,N,,,234425008,4125635,"Neutropenia is defined as a low white blood cell count.  There are many forms of neutropenia connected to autoimmune disease. It is important to understand which form is which.
+
+Primary neutropenia is diagnosed when there are no other conditions diagnosed. Secondary neutropenia is a low white blood cell count that occurs when other diseases are present, such as lupus, rheumatoid arthritis, or inflammatory bowel disease. This article only covers primary neutropenia.
+
+Primary neutropenia most often appears in infants and children. The cause may be unrelated to autoimmune disease. Most cases of childhood primary neutropenia that are autoimmune are not serious and the disease goes away in 3 to 5 years with no long term effects. However, in a relatively small number of patients, the disease becomes chronic.  Adults, mostly women, can also develop primary autoimmune neutropenia after childhood.  These cases are almost always chronic. 
+
+In chronic autoimmune neutropenia the body produces IgG antibodies that target and destroy the body's own white blood cells (“neutrophils”), which leads to a lowered white blood cell count and leaves patients with weakened immune systems susceptible to bacterial and other infections.  
+",
+Nervous System,Neuromyotonia,Neuromyotonia,N,,,305719002,4125693,"Neuromyotonia (also known as Issacs' syndrome) is a rare, autoimmune disorder in which hyperactive nerves cause muscles to be over-activated. This hyperactivity results in muscle stiffness, twitching, cramping, increased sweating, and delayed muscle relaxation, especially in the limbs and trunk. These symptoms can occur anytime, even when asleep or under anaesthesia. Weakened reflexes and muscle pain is also common.  There is currently no cure, but treatment may manage symptoms.",
+Kidney,Anti-glomerular basement membrane disease,Goodpasture disease,Anti-glomerular basement membrane disease,,,50581000,4126115,,
+Glands,Female infertility due to antisperm antibodies,Infertility due to antisperm antibodies,S,,,236816007,4127869,,
+Kidney,IgA nephropathy,IgA nephropathy,N,,,236407003,4128061,"A kidney disease that occurs when the antibody immunoglobulin A lodges in the kidneys.  In IgA nephropathy, the antibodies do not attack tissue directly, but they do cause inflammation that can inhibit the kidneys' ability to filter wastes from the blood over time.  ARI classifies IgA nephropathy as immune-related, not autoimmune.   ",
+Glands,Autoimmune thyroiditis,Autoimmune thyroiditis,C,,,66944004,4130018,,
+Blood,Cold agglutinin disease,Cold agglutinin disease,N,,,127055007,4131128,"Cold agglutinin disease is a type of autoimmune hemolytic anemia in which the body's immune system attacks and destroys its own red blood cells.  Unlike warm autoimmune hemolytic anemia, the autoimmune destruction of cells occurs when a person is exposed to cold, or their body temperature is below normal. Some patients experience heart problems because the heart has to work harder to make sure the body gets enough healthy red blood cells  ",
+Blood,Immune thrombocytopenia,Autoimmune neonatal thrombocytopenia,T,,,128092005,4133983,,Glycoprotein IIb/IIIa
+Blood,Immune thrombocytopenia,Secondary autoimmune thrombocytopenia,T,,,128092005,4133983,,Glycoprotein IIb/IIIa
+Nervous System,Complex regional pain syndrome,Complex regional pain syndrome,N,,,128200000,4134577,"Complex regional pain syndrome (CRPS) and amplified musculoskeletal pain syndromes (AMPS) are chronic pain conditions lasting at least 6 months. CRPS is often triggered by an injury followed by immobilization, and is marked by pain that does not diminish in a manner typical for the injury.  Patients experience unreasonably intense pain in the arms, legs, hands, or feet, both in response to painful and non-painful triggers. Pain can include burning, tingling, or squeezing sensations.  Redness and swelling are often present in the affected area.  There are two types of CRPS.  Patients with CRPS-I/Reflex Sympathetic Dystrophy do not have a confirmed nerve injury, whereas patients with CRPS-II/Causalgia do have an associated, confirmed nerve injury. CRPS usually occurs after an injury that caused damage to the nervous system. The cause is unknown but there are correlations with immune processes that result in swelling surrounding injury.  Treatments are available to manage symptoms, which help some patients, but not all.  Younger patients are more likely to recover than older patients, whose pain may persist and lead to disability.There is no known cause, and autoimmunity is suspected, but no evidence of autoimmunity has been definitively linked to CRPS.",
+Systemic,Mixed collagen vascular disease,Mixed collagen vascular disease,N,,,398049005,4134867,"Mixed collagen vascular disease, also called mixed connective tissue disease (MCTD), is an autoimmune disorder that shares symptoms with other connective tissue diseases, including polymyositis/dermatomyositis, systemic lupus erythematosus (SLE), scleroderma, and autoimmune rheumatic diseases.  Examples of commonly shared symptoms are abnormally cold hands, joint pain, organ problems, and feelings of malaise.  However, one feature unique to MCTD is the presence of anti-RNP antibodies in the blood.  Raynaud's phenomenon and high blood pressure in the lungs are also more common in MCTD, while kidney symptoms are milder.  Some complications can be fatal, but treatments are available to manage both mild and life-threatening symptoms.   [Hajas et al., 2013].",
+Systemic,Mixed collagen vascular disease,Mixed connective tissue disease,S,,,398049005,4134867,,
+Liver,Primary biliary cholangitis,Primary biliary cholangitis,N,,,31712002,4135822,Primary biliary cholangitis is chronic disease in which the bile ducts of the liver are slowly destroyed due to inflammation with progressive scarring.,
+Liver,Primary biliary cholangitis,Primary biliary cirrhosis,S,,,31712002,4135822,,
+Systemic,Systemic sclerosis with limited cutaneous involvement,Limited cutaneous systemic sclerosis,T,,,31848007,4135937,"CREST is a subtype of scleroderma, a connective tissue disease characterized by changes in the skin, blood vessels, skeletal muscles, and internal organs. CREST is the acronym for the clinical features seen in individuals with the disease :                        
+
+C - Calcinosis: calcium deposits in the connective tissues
+
+R - Raynaud's phenomenon: where the hands and feet turn white and cold and then blue, in response to cold or anxiety.
+
+E - Esophageal dysfunction:  where a person has difficulty swallowing 
+
+S - Sclerodactyly: thick and tight skin on the fingers, caused by an excess of collagen deposits within skin layers.
+
+T - Telangiectasia: small red spots on the hands and face that are caused by the swelling of tiny blood vessels.
+
+To be diagnosed with CREST, you must have 3 out of the 5 symptoms.",
+Blood,Immune thrombocytopenia,Idiopathic thrombocytopenic purpura,S,,,32273002,4137430,,
+Nervous System,Autoimmune encephalitis,Bickerstaff's brainstem encephalitis,T,,,427086003,4141686,,anti-GQ1b IgG antibody
+Nervous System,Autoimmune encephalitis,Bickerstaff's encephalitis,S,,,427086003,4141686,,anti-GQ1b IgG antibody
+Musculoskeletal,Chronic Lyme disease,Lyme Arthritis,S,,,33937009,4141757,,
+Skin,Benign mucous membrane pemphigoid,Benign mucous membrane pemphigoid,N,,,34250006,4142060,"Cicatricial pemphigoid is a rare autoimmune disease, discovered in 2002, that causes blistering of the mucous membranes. This blistering is due to autoantibodies binding to anchoring filaments of the epidermis.  A common mucous membrane that is affected is the conjunctiva of the eye.  Other areas that can be affected include the skin, nose, mouth, and genitals.
+
+Cicatricial pemphigoid is usually not chronic, and most patients symptoms disappear within 3 years.",IgG autoantibodies against BP180 antigen
+Vascular system,Raynaud's phenomenon,Raynaud's phenomenon,V,,,266261006,4143972,"In secondary Raynaud's phenomenon, blood flow to the fingers and toes is limited, causing cold extremities and sometimes pain. The condition is made worse by cold temperatures. The amount of time that these extremities stay cold can vary.  
+
+Secondary Raynaud's is a symptom experienced (and reported) by patients with autoimmune diseases.  Primary Raynaud's is when the symptoms appear without any other disease.  Therefore, primary Raynaud's is not an autoimmune disease.  However, a person suffering from Raynaud's could have an undiagnosed autoimmune disease.",
+Nervous System,Multiple sclerosis,Relapsing-remitting multiple sclerosis,T,,,426373005,4145049,,
+Vascular system,Autoimmune vasculitis,Autoimmune vasculitis,N,,,427213005,4146124,"Autoimmune vasculitis is a broad category of autoimmune diseases that all involve inflammation of the walls of blood vessels.  A more specific form, inflammation of arteries, is called arteritis.  It causes changes in the walls of blood vessels, including thickening, weakening, narrowing and scarring. These changes restrict blood flow, resulting in organ and tissue damage.
+
+There are many types of vasculitis, and most of them are rare. Vasculitis might affect just one organ, such as your skin, or it may involve several. The condition can be short term (acute) or long lasting (chronic).",
+Skin,Pemphigus,Pemphigus foliaceus,T,,,35154004,4148690,,Desmogleins 
+Heart,Postmyocardial infarction syndrome,Post-pericardiotomy syndrome,T,,,278536002,4150305,,
+Skin,Benign mucous membrane pemphigoid,Ocular cicatricial pemphigoid,T,,,314757003,4152707,,
+Blood,Cold agglutinin disease,Cold antibody hemolytic anemia,S,,,398937006,4160887,,
+Nervous System,Guillain-Barré syndrome,Guillain-Barré syndrome,N,,,40956001,4164770,"Guillain–Barré syndrome (GBS) is a rare autoimmune disorder in which  the immune system attacks and damages the protective covering (myelin) of the nerves in the peripheral nervous system.  Damage to the myelin hinders communication between the brain and the body, leading to muscle weakness or tingling sensations in the arms and legs. The cause of GBS is unknown but may be associated with a viral or bacterial infection, injury, or surgery.  There are 6 types of GBS:
+
+Acute inflammatory demyelinating polyneuropathy is the most prevalently diagnosed form of GBS in the US and is often associated with a prior infection.  This type leads to damage to the nerve myelin, but prognosis is good and full recovery is expected.
+
+Acute motor axonal neuropathy is associated with a prior infection causing diarrhea and is most common in children.  This type primarily leads to weakness, which impairs movement and breathing and may lead to respiratory failure if untreated.  Patients receiving medical attention are expected to recover.
+
+Acute motor-sensory axonal neuropathy is associated with prior infection causing diarrhea and has a sudden, intense onset.  This type is most prevalent in adults.  In addition to severe muscle weakness, patients also experience impairments in the senses.  Prognosis is poor.
+
+Miller-Fisher syndrome is rare and results in difficulties with coordination, loss of reflexes, and paralysis around the eyes, along with impairments in the senses.  Recovery is expected in 1 to 3 months.
+
+Acute panautonomic neuropathy is very rare and impairs both voluntary and involuntary body functions, including drops in blood pressure when standing, incontinence, lack of sweating, dry eyes and mouth, and impaired pupil function.  Many patients experience heart problems, which can be fatal.  Patients may improve, but slowly and incompletely.
+
+Pure sensory GBS causes the sudden appearance of impairments in the senses and loss of reflexes caused by damage to the myelin.  Recovery is expected.",
+Skin,Pemphigus,Pemphigus vulgaris,T,,,49420001,4170723,,Desmogleins 
+Nervous System,Multiple sclerosis,Primary progressive multiple sclerosis,T,,,428700003,4178929,,
+Systemic,Systemic sclerosis with limited cutaneous involvement,Diffuse cutaneous systemic sclerosis,T,,,298285004,4185187,"CREST is a subtype of scleroderma, a connective tissue disease characterized by changes in the skin, blood vessels, skeletal muscles, and internal organs. CREST is the acronym for the clinical features seen in individuals with the disease :                        
+
+C - Calcinosis: calcium deposits in the connective tissues
+
+R - Raynaud's phenomenon: where the hands and feet turn white and cold and then blue, in response to cold or anxiety.
+
+E - Esophageal dysfunction:  where a person has difficulty swallowing 
+
+S - Sclerodactyly: thick and tight skin on the fingers, caused by an excess of collagen deposits within skin layers.
+
+T - Telangiectasia: small red spots on the hands and face that are caused by the swelling of tiny blood vessels.
+
+To be diagnosed with CREST, you must have 3 out of the 5 symptoms.",
+Systemic,Systemic sclerosis with limited cutaneous involvement,Systemic sclerosis with limited cutaneous involvement,N,,,298285004,4185187,"Systemic sclerosis with limited cutaneous involvement, formerly called CREST, is a subtype of scleroderma, a connective tissue disease characterized by changes in the skin, blood vessels, skeletal muscles, and internal organs. CREST is the acronym for the clinical features seen in individuals with the disease :                        
+
+C - Calcinosis: calcium deposits in the connective tissues
+
+R - Raynaud's phenomenon: where the hands and feet turn white and cold and then blue, in response to cold or anxiety.
+
+E - Esophageal dysfunction:  where a person has difficulty swallowing 
+
+S - Sclerodactyly: thick and tight skin on the fingers, caused by an excess of collagen deposits within skin layers.
+
+T - Telangiectasia: small red spots on the hands and face that are caused by the swelling of tiny blood vessels.
+
+To be diagnosed with CREST, you must have 3 out of the 5 symptoms.",
+Glands,Female infertility due to antisperm antibodies,Female infertility due to antisperm antibodies,N,,,414238007,4188008,"Anti-sperm antibodies (ASA) is a lab measurement, not a disease, but a high level of ASA may point to an autoimmune condition.
+
+In women, ASA is an allergic response that can be an immunologic cause of infertility. 
+
+ASA is not a concern except for people trying to conceive. ",
+Nervous System,POEMS syndrome,POEMS syndrome,N,,,79268002,4193776,"POEMS is an acronym that stands for the disorder's features, which may include Polyneuropathy (disease affecting many nerves), Organomegaly (abnormal enlargement of an organ), Endocrinopathy (diseases affecting certain hormone-producing glands that help to regulate sexual function), Monoclonal gammopathy and Skin Changes. POEMS syndrome is a rare blood disorder where there is an uncontrolled growth of a single clone of plasma cells, which results in abnormal accumulation of immunoglobulins in the blood. ",
+Nervous System,Intermediate uveitis,Intermediate uveitis,N,,,314429009,4197155,"Intermediate uveitis is a disorder that causes inflammation in the vitreous humour, the gel that fills the eye. In this condition, cells from the blood may penetrate the eye's interior and be found suspended in the vitreous humour. Normally, both eyes are affected. Patients with the pars planitis subtype of intermediate uveitis also have additional inflammation in the pars plana (the layer of the eye between the iris and the vitreous humour). This occurs when cells from the vitreous humour leak into the pars plana. This subtype is more common in children, while non-pars planitis intermediate uveitis is more common in adults. The non-pars planitis subtype is especially common in those with systemic conditions, such as sarcoidosis and multiple sclerosis, or in those who have certain infections. Some cases without infection may be caused by autoimmune activity. Patients of both pars planitis and non-pars planitis subtypes often experience floaters and blurry vision. Without medical attention, vision loss and blindness may occur in severe cases; however, treatments are available to prevent this.
+
+There are other forms of <a href=""/Disease_Profile/uveitis.aspx"">uveitis</a> that can be autoimmune.",
+Nervous System,Intermediate uveitis,Peripheral Uveitis,S,,,314429009,4197155,,
+Heart,Primary idiopathic dilated cardiomyopathy,Primary idiopathic dilated cardiomyopathy,N,,,53043001,4203149,"A disease in which the immune system attacks the heart muscle causing inflammation, normally beginning in the heart's left ventricle (the heart's main pumping chamber). The ventricle stretches and thins and is unable to pump blood as a healthy heart can. Not all patients experience symptoms, but for some it can be life-threatening.     ",
+Glands,Male infertility associated with antisperm antibodies,Male infertility associated with antisperm antibodies,N,,,414643008,4212192,"Autoimmune orchitis involves inflammation of the testicles and the presence of specific antibodies against sperm. There are two types of this condition: primary autoimmune orchitis and secondary autoimmune orchitis. Primary autoimmune orchitis is found in men who are infertile and have no symptoms of other diseases. It is characterized by inflammation in the testicles and the presence of antibodies targeting the structures in the testicles. Men with this condition do not have any systemic illnesses and usually show no symptoms. 
+
+Secondary autoimmune orchitis occurs in men with a systemic autoimmune disease, especially those with conditions like vasculitis. About 50% of these patients have antibodies against sperm, with systemic lupus erythematosus being a common related condition.
+
+The exact cause of both primary and secondary autoimmune orchitis is still unknown, but it is believed to be due to a combination of factors. Inflammation, infection, or injury to the testicles may trigger an immune response, leading to the production of antibodies against sperm. These antibodies can cause sperm to clump together or become immobilized, preventing them from fertilizing an egg and leading to infertility.",
+Glands,Male infertility associated with antisperm antibodies,Autoimmune orchitis,S,,,414643008,4212192,,
+Musculoskeletal,Inclusion body myositis,Inclusion body myositis,N,,,72315009,4216406,"Inclusion Body Myositis (IBM) is a chronic inflammatory muscle disease that causes painless weakening of the muscle. It is a chronic, slowly progressive condition that can lead to disability over the years. Studies show that IBM is more common in men than in women. Most people need assistance with basic daily activities within 15 years, and some people will need to use a wheelchair. The illness can be difficult to diagnose and is often first mistaken as polymyositis. It is not directly genetic, but predispositions may be present. Lifespan is thought to be normal, but severe complications include aspiration pneumonia that can lead to loss of life. There is currently no cure and standard course of treatment for IBM. Management options include physical therapy, exercise, speech therapy, and fall prevention.",
+Systemic,Sarcoidosis,Lupus pernio,T,,,72470008,4216556,"One way the immune system works is to surround an invader and keep it from harming the body. Those small clumps of immune system cells are called granulomas and they form as part of the body's inflammation response to foreign, potentially harmful, substances. 
+
+In sarcoidosis the inflammation process gets out of control, and granulomas form even though there is no foreign substance, and the number of granulomas increases. When left untreated, the granulomas harden and produce permanent scars, usually in the lungs but they can occur in other organs and tissues.  
+
+The symptoms of sarcoidosis depend on where the granulomas form.   In some cases, the disease goes away on its own. In others, the disease may not progress clinically but individuals will still suffer from some symptoms that affect their quality of life. Up to a third of people diagnosed will require long-term treatment. Sarcoidosis is considered chronic in people whose disease remains active for more than 2-5 years; chronic sarcoidosis can be debilitating and life-threatening. 
+
+Sarcoidosis often starts with a set of symptoms collectively referred to as Lofgren's Syndrome (see below).",
+Musculoskeletal,Relapsing polychondritis,Relapsing polychondritis,N,,,72275000,4216873,"Relapsing polychondritis (RP) occurs when the immune system attacks cartilage and other related tissues in the body, causing inflammation and tissue damage. Though the disease is frequently characterized through ears, nose, and joint symptoms, it is a multi-systemic disease. Episodes may last several days to weeks and typically resolve without treatment. 
+
+In cases where the cartilage is not visible, RP can cause heart valve abnormalities, kidney disease, neurological problems, gastrointestinal problems.  ",https://ard.bmj.com/content/58/10/656
+Musculoskeletal,Relapsing polychondritis,Atrophic polychondritis,S,,,72275000,4216873,,https://ard.bmj.com/content/58/10/656
+Musculoskeletal,Relapsing polychondritis,Meyenburg-Altherr-Uehlinger syndrome,S,,,72275000,4216873,,https://ard.bmj.com/content/58/10/656
+Musculoskeletal,Relapsing polychondritis,Systemic chondromalacia,S,,,72275000,4216873,,https://ard.bmj.com/content/58/10/656
+Nervous System,Episcleritis,Episcleritis,N,,,815008,4218083,"Episcleritis is an inflammation of the white tissue, the sclera, that surrounds most of the eye. Though scleritis is a symptom of a number of autoimmune diseases, it is suspected of being an autoimmune disease itself.  ",
+Blood,Warm autoimmune hemolytic anemia,Warm autoimmune hemolytic anemia,N,,,3978000,4219853,"Warm autoimmune hemolytic anemia is caused when a person's antibodies attack and destroy their red blood cells.  Unlike <a href=""/Disease_Profile/cold-agglutinin-disease.aspx"">cold agglutinin disease</a>, the autoimmune destruction of cells occurs when a person's body temperature is normal or above normal.  It leads to low red blood cell levels in the body.  
+
+Some cases of this disease are caused by medications and are not autoimmune.  ",
+Skin,Autoimmune urticaria and/or angioedema,Autoimmune urticaria and/or angioedema,N,,,402402005,4221673,"Both <a href=""/Disease_Profile/autoimmune-urticaria.aspx"">autoimmune urticaria</a> and <a href=""/Disease_Profile/autoimmune-angioedema.aspx"">autoimmune angioedema</a> are skin conditions associated with other autoimmune diseases. Urticaria is marked by raised, itchy, and red or pale areas, known as hives. Angioedema is swelling in skin and mucous membranes, including the mouth and throat, and is a more serious condition than urticaria. 
+
+While they are also diseases on their own, patients will receive a diagnosis of a chronic version of the disease because the ICD coding system used in the medical record does not have codes for either disease. The SNOMED coding system (used in Europe) has a code for each condition, and for this combined term.
+",autoantibodies against TG and thyroid peroxidase
+Skin,Autoimmune urticaria,Autoimmune urticaria,N,,,402397006,4224623,"Autoimmune urticaria occurs when the immune system attacks the normal tissues of the body, resulting in hives. The condition becomes chronic when the lesions persists longer than 6 weeks. Chronic autoimmune urticaria has been found to be associated with autoimmune thyroid disease.
+
+Urticaria can also be caused by allergic reaction to plants like poison ivy, dyes found in clothing, and cosmetics. An allergic reaction is not an autoimmune disease because there is no involvement by the adaptive immune system and auto-antibodies that attack your own cells are not involved. There are antibodies (IgE antibodies), but they target the invading molecules (e.g., poison ivy), not the cells in the skin. In autoimmune urticaria, the antibodies created are attacking the skin itself, not an invading molecule. ",autoantibodies against TG and thyroid peroxidase
+Skin,Autoimmune angioedema,Autoimmune angioedema,N,,,402401003,4224624,"Angioedema is swelling of the tissue just beneath the skin, including the face, lips, tongue, limbs, or genitals. People with Autoimmune Angioedema can have edema of the lining of the digestive tract, which can cause abdominal pain and nausea, as well as edema of the upper airway, which can be life-threatening. ",
+Vascular system,Raynaud's phenomenon,Secondary Raynaud's phenomenon,N,,,356198000,4229162,"In secondary Raynaud's phenomenon, blood flow to the fingers and toes is limited, causing cold extremities and sometimes pain. The condition is made worse by cold temperatures. The amount of time that these extremities stay cold can vary.  
+
+Secondary Raynaud's is a symptom experienced (and reported) by patients with autoimmune diseases.  Primary Raynaud's is when the symptoms appear without any other disease.  Therefore, primary Raynaud's is not an autoimmune disease.  However, a person suffering from Raynaud's could have an undiagnosed autoimmune disease.",
+Blood,Immune thrombocytopenia,Autoimmune thrombotic thrombocytopenic purpura,T,,,438476003,4230266,,
+Musculoskeletal,Enthesitis,Enthesitis,N,,,359643005,4231746,"Enthesitis-related arthritis is diagnosed when rheumatoid arthritis affects the entheses, the connective tissue between a tendon or ligament and a bone.  Enthesitis affects about 15% of patients with juvenile arthritis.",
+Glands,Graves' disease,Graves' disease,N,,,353295004,4232076,"Graves' disease is an autoimmune thyroid disorder that affects the thyroid gland.  The thyroid is responsible for producing hormones that regulate processes involved with energy storage and consumption (metabolism), including maintenance of weight, breathing, heart rate, and temperature. In Graves' disease, antibodies cause the thyroid to enlarge and to produce hormones, even when the body doesn't need them.  Excessive thyroid hormone production disrupts the regulation of metabolism.  The heart, skin, muscles, eyes, and other organs can be affected.  Patients often experience loss of weight, tiredness, and heat sensitivity.  Some patients develop Graves' ophthalmopathy, a subtype of Graves' disease characterized by protruding eyes. The cause of the disease is uncertain, but risk may increase with excessive stress, certain genes, infection, pregnancy, other autoimmune disorders, and smoking.  Graves' disease is more common in females than in males.  Graves' disease is a chronic condition with no cure, but symptoms are manageable through medication and surgery. ",Thyrotropin receptor
+Nervous System,Cogan's syndrome,Cogan's syndrome,N,,,405810005,4233620,"Cogan syndrome is a rare disease characterized by inflammation of the ears and eyes.  It is characterized as a rheumatic disease because it involves inflamation.  Specifically, when blood vessels are involved, it is characterized as a form of vasculitis. Cogan syndrome can lead to vision difficulty, hearing loss and dizziness. ",DEP1/CD148 is the pathogenetically relevant autoantigen
+Systemic,Eaton-Lambert syndrome,Eaton-Lambert syndrome,N,,,56989000,4237155,"Lambert-Eaton myasthenic syndrome is a chronic autoimmune disorder characterized by the body's immune system attacking tissue at the junction where nerves and skeletal muscles meet. The resulting inflammation and damage prevent the nerve cells from sending messages to muscle cells leading to muscle loss and weakness. LEMS has two types: one is LEMS triggered by small cell lung cancer, and the other starts spontaneously (idiopathic) without the presence of lung cancer. ",
+Systemic,Eaton-Lambert syndrome,Lambert-Eaton myasthenic syndrome,S,,,56989000,4237155,,
+Heart,Postmyocardial infarction syndrome,Postpericardiotomy pericarditis,T,,,58600007,4239311,,
+Skin,Hidradenitis suppurativa,Hidradenitis suppurativa,N,,,59393003,4241223,"Hidradenitis suppurativa (HS) is a chronic condition featuring painful boil-like lumps (called abscesses) that develop under the skin when hair follicles become blocked and inflamed. The lumps can break open and leak pus and blood. They can leave thick scars and tunnels (called sinus tracts) under the skin. The lumps are usually found in the armpit or groin areas, but they can occur any place where hair grows or where skin rubs together (such as between the thighs or under the breasts). Some people only have mild or moderate cases of hidradenitis suppurativa. For others, the symptoms can be severe, affecting multiple areas of their bodies and leading to scarring and pain that can make it difficult to move. There are indications that HS is an autoimmune disease, but to date, no conclusive evidence has been published.  ",
+Digestive system,Celiac disease,Adult form of celiac disease,T,,,91867008,4241413,,
+Skin,Cutaneous mastocytosis,Cutaneous mastocytosis,N,,,397012002,4246283,"Cutaneous mastocytosis is caused when too many mast cells accumulate in the skin. It is not an autoimmune disease, but a disease of the immune system, specifically mast cells. Mast cells transport histamine, which is involved in allergic responses.  
+
+When mastocytosis is not limited to the skin, it is called systemic mastocytosis, and is a more severe form of the disease.",
+Systemic,Systemic mast cell disease,Systemic mast cell disease,N,,,397016004,4246284,"Systemic mastocytosis is caused when too many mast cells accumulate in the body. It is not an autoimmune disease, but a disease of the immune system, specifically mast cells. Mast cells transport histamine, which is involved in allergic responses.  
+
+When mastocytosis is limited to the skin, it is called cutaneous mastocytosis, and is a less severe form of the disease.",
+Nervous System,Acute disseminated encephalomyelitis,Acute hemorrhagic leukoencephalitis,T,,,72986009,4249574,,See ADEM
+Nervous System,Acute disseminated encephalomyelitis,Hurst's disease,S,,,72986009,4249574,,See ADEM
+Nervous System,Acute disseminated encephalomyelitis,Weston-Hurst syndrome,S,,,72986009,4249574,,See ADEM
+Heart,Subacute bacterial endocarditis,Subacute bacterial endocarditis,N,,,73774007,4249899,"Subacute bacterial endocarditis (SBE) is a type of bacterial endocarditis. Endocarditis is an infection of the inner lining of your heart chambers and heart valves (the endocardium).  In SBE, the lining inside the heart valves become infected. 
+
+SBE is not an autoimmune disease, but patients are at increased risk of developing autoimmune disease following SBE. 
+
+This condition most frequently occurs following surgery to a region of the body infected with streptococcal bacteria.  Invasive surgery in the infected tissue facilitates the spread of the bacteria to the heart valves by way of the blood.  The infection normally develops slowly during the two weeks after surgery and may persist for months.  SBE typically only occurs in patients who already have damage to their heart valves from other health conditions.  SBE is difficult to diagnosis because initial symptoms consist almost exclusively of feelings of malaise, which are also common in many other disorders.  SBE may trigger the onset of autoimmune conditions, such as vasculitis. If left untreated, complications can be fatal; however, positive outcomes are expected with early medical care.",
+Musculoskeletal,Juvenile Rheumatoid Arthritis,Juvenile Rheumatoid Arthritis,N,,,410795001,4253901,"Juvenile rheumatoid arthritis is a pediatric disorder affecting the joints. Damage occurs when immune cells penetrate the lining of the joints, causing inflammation. Patients typically experience joint pain and swelling, which may occur in a flare/remission pattern. Some subtypes have strong evidence of being autoimmune. The condition is diagnosed through exclusion, when joint inflammation lasts more than 6 weeks in a patient 16 years-old or younger and cannot be positively diagnosed with another condition. 
+
+There are 7 types of juvenile arthritis: <br>
+<li>1.	<b>Systemic juvenile idiopathic arthritis</b> occurs in at least one joint accompanied by fever for 2 weeks or longer. Other possible symptoms include rash or enlargement of the lymph nodes, liver, or spleen.</li>
+<li>2.	<b>Oligoarticular juvenile arthritis</b> (oligoarthritis) occurs in not more than 4 joints in the 6 months following disease onset. After this point, the condition may remain stable (persistent oligoarthritis), or it may spread to additional joints (extended oligoarthritis). The eyes may also be affected.</li>
+<li>3.	<b>Rheumatoid factor positive polyarticular juvenile idiopathic arthritis</b> (polyarthritis and rheumatoid factor positive are alternative terms) has symptoms similar to adult rheumatoid arthritis but occurs in children. Patients typically experience arthritis in a minimum of 5 joints in the 6 months following disease onset. Blood tests reveal the presence of rheumatoid factors, a type of autoimmune antibody. The evidence suggests strongly that this subtype is autoimmune. </li>
+<li>4.	<b>Rheumatoid factor negative polyarticular juvenile idiopathic arthritis</b> (polyarthritis and rheumatoid factor negative are alternative terms) is marked by the same symptoms as patients with rheumatoid factor positive. The negative variety is distinguished from the positive variety by an absence of rheumatoid factors in the blood. </li>
+<li>5.	<b>Psoriatic juvenile idiopathic arthritis</b> causes both arthritis and red skin rashes with white scaling (psoriasis). Irregularities in the fingers, nails, or eyes may also occur.</li>
+<li>6.	<b>Enthesitis-related juvenile idiopathic arthritis</b> causes discomfort where the bone joins with other tissues, such as tendons and ligaments. Irritation is frequent in the hips, knees, and feet. Tissue besides the joints may also become inflamed. </li>
+<li>7.	<b>Undifferentiated arthritis</b> describes patients whose symptoms are not compatible with the other 6 categories of juvenile arthritis, or whose presentation includes symptoms from multiple categories.</li>
+Some patients experience full relief from symptoms with medical attention, while others experience relapses throughout life. Treatments are available to control symptoms and improve function.",
+Nervous System,Complex regional pain syndrome,Complex regional pain syndrome type II,T,,,408751001,4256912,,
+Musculoskeletal,Juvenile Rheumatoid Arthritis,Juvenile idiopathic arthritis,S,,,410795001,4259507,,
+Skin,Pemphigus,Brazilian pemphigus foliaceus,T,,,46459009,4262682,,Desmogleins 
+Kidney,Anti-glomerular basement membrane disease,Anti-glomerular basement membrane nephritis,S,,,62853008,4267717,,
+Kidney,Anti-glomerular basement membrane disease,Anti-glomerular basement membrane tubulointerstitial nephritis,S,,,62853008,4267717,,
+Vascular system,Rheumatoid vasculitis,Rheumatoid vasculitis,N,,,400054000,4271003,"Rheumatoid vasculitis (RV) is a rare autoimmune disorder affecting a small number of patients with rheumatoid arthritis, which causes inflammation and damage to the blood vessels.  Vessels in any part of the body may be affected, though large blood vessels are less likely to be impacted than medium or small blood vessels.  RV most often develops in patients who have suffered from rheumatoid arthritis for 10 to 14 years.  Patients often experience feelings of malaise, sores on the legs, severely decreased blood flow to the fingers and toes, nerve problems, and eye aggravation.  The cause of RV is uncertain, though smoking is believed to significantly increase risk.  Complications involving the organs may be fatal.  Available treatments have mixed success, and prognosis remains poor.",
+Skin,Pemphigus,Pemphigus erythematosus,T,,,36739006,4279526,,Desmogleins 
+Glands,Autoimmune thyroiditis,Autoimmune thyroiditis,N,,,66944004,4281109,"Autoimmune thyroiditis is a chronic disorder where the immune system creates antibodies that attack the thyroid and cause inflammation. This inflammation may initially cause excess release of thyroid hormones (hyperthyroidism ) but over time, this damage leads to insufficient thyroid hormone production (hypothyroidism), causing fatigue, weight gain, and depression. Genetic and environmental factors may play a role in the development of this disorder. There is no cure, but hormone treatments are available to manage symptoms.  
+
+Several names are used for autoimmune thyroiditis. When it is known to be autoimmune, it is called Hashimoto's when the thyroid gland is enlarged (called a goiter), and (less commonly) Ord's thyroiditis, when the thyroid gland shrinks.",
+Skin,Psoriasis,Guttate psoriasis,T,,,37042000,4284492,,
+Kidney,SLE glomerulonephritis syndrome,SLE glomerulonephritis syndrome,N,,,68815009,4285717,"Lupus nephritis is a complication in patients with systemic lupus erythematosus (SLE), an autoimmune condition causing inflammation of the body's tissues.  Lupus nephritis targets the kidneys, causing damage and inflammation, which prevents normal function and may lead to kidney failure.  Significant delay or lack of treatment can be fatal, but early medical care can manage symptoms and result in a good prognosis.",
+Kidney,SLE glomerulonephritis syndrome,Lupus nephritis,S,,,68815009,4285717,,
+Vascular system,Temporal arteritis,Temporal arteritis,N,,,400130008,4290976,"Temporal arteritis, also known as giant cell arteritis, is an inflammation of the lining of the arteries that typically affects the arteries in the head. Temporal arteritis can frequently cause headaches, scalp tenderness, jaw pain and vision problems.",
+Vascular system,Temporal arteritis,Cranial arteritis,S,,,400130008,4290976,,
+Vascular system,Temporal arteritis,GCA,A,,,400130008,4290976,,
+Vascular system,Temporal arteritis,Giant cell arteritis,S,,,400130008,4290976,,
+Vascular system,Temporal arteritis,Horton's disease,S,,,400130008,4290976,,
+Skin,Pemphigus,Pemphigus paraneoplastica,T,,,402718003,4291435,,Desmogleins 
+Vascular system,Urticarial vasculitis,Urticarial vasculitis,N,,,402656007,4292532,"Autoimmune urticaria occurs when the immune system attacks the normal tissues of the body, resulting in hives. The condition becomes chronic when the lesions persists longer than 6 weeks. Chronic autoimmune urticaria has been found to be associated with autoimmune thyroid disease.
+
+Urticaria can also be caused by allergic reaction to plants like poison ivy, dyes found in clothing, and cosmetics. An allergic reaction is not an autoimmune disease because there is no involvement by the adaptive immune system and auto-antibodies that attack your own cells are not involved. There are antibodies (IgE antibodies), but they target the invading molecules (e.g., poison ivy), not the cells in the skin. In autoimmune urticaria, the antibodies created are attacking the skin itself, not an invading molecule. 
+",
+Skin,Cutaneous lupus erythematosus,Discoid lupus erythematosus of oral mucosa,S,,,403495008,4295301,,
+Nervous System,Ligneous conjunctivitis,Ligneous conjunctivitis,N,,,403435005,4296491,"Ligneous conjunctivitis is a rare, chronic form of conjunctivitis that starts in adulthood. A genetically caused form of the disease can occur in childhood, but these cases are not autoimmune.  Patients with ligneous conjunctivitis have large, inflamed, woody growths on the inside of the eyelid and potentially whites of the eye.  These growths may also occur in the mouth, ears, respiratory tract, and genitourinary tract. The inflamed growths are likely to come back after they have been removed. If untreated, ligneous conjunctivitis can lead to vision loss and sometimes life-threatening pulmonary complications.   ",
+Musculoskeletal,Schnitzler syndrome,Schnitzler syndrome,N,,,402415001,4297647,"Schnitzler syndrome is a disease in which periodic episodes of inflammation occur. It is considered an autoinflammatory disease, not an autoimmune disease, because the immune system does not mistakenly attack healthy cells. Instead, Schnitzler syndrome is believed to arise from a problem with the immune system itself. It is uncertain what causes Schnitzler syndrome, but it does not appear to be hereditary.
+
+Patients with Schnitzler syndrome typically experience chronic rash, relapsing fevers, pain and inflammation in the joints, enlarged lymph nodes, and an excess of certain proteins in the blood.  The condition is chronic, generally without worsening, though 10-15% of people with Schnitzler syndrome experience cancerous or non-cancerous overproduction of certain types of white blood cells. There is no cure, but treatments may relieve symptoms in some individuals.   ",
+Skin,Bullous pemphigoid,Bullous pemphigoid,N,,,77090002,4298692,"Bullous pemphigoid is a rare, autoimmune, chronic skin disorder characterized by blistering. This disorder occurs most frequently in elderly people. Generalized blistering occurs in and under the upper layers of the skin and usually subsides spontaneously within several months or years. In some rare cases of Bullous pemphigoid, complications such as pneumonia may develop.","The autoantibodies in BP sera are predominantly of IgG1 and IgG4, IgE autoantibodies to BP180"
+Vascular system,Antineutrophil cytoplasmic antibody positive vasculitis,Churg-Strauss syndrome,T,,,82275008,4305666,,
+Vascular system,Antineutrophil cytoplasmic antibody positive vasculitis,Eosinophilic granulomatosis with polyangiitis,T,,,722191003,4305666,,
+Glands,Polyglandular autoimmune syndrome type 2,Polyglandular autoimmune syndrome type 2,N,,,83728000,4308266,"APS-2 is an overlap disease that may include Addison's disease, thyroid diseases (Graves disease, Hashimoto's thyroiditis), and diabetes mellitus type 1 ",
+Skin,Herpes gestationis,Herpes gestationis,N,,,86081009,4311256,"This disease is a rare autoimmune disease that affects the skin of pregnant women. Patients experience a rash accompanied by blisters and extreme itching on the abdomen or limbs, which may spread elsewhere. Onset is sudden, often occurring during the second and third trimester.  It is common for the condition to go into remission at the end of pregnancy and then to relapse during birth. Most patients experience full recovery within 6 months of giving birth, though some have reported that symptoms may last for years. The condition is uncomfortable but does not put the patient at risk.  Treatments are available to manage symptoms as needed. ",
+Skin,Herpes gestationis,Gestational pemphigoid,S,,,86081009,4311256,,
+Skin,Alopecia areata,Alopecia Universalis,T,,,86166000,4312756,,
+Skin,Acute lichenoid pityriasis,Acute lichenoid pityriasis,N,,,86487001,4314705,"Pityriasis lichenoides et varioliformis acuta (PLEVA) is the acute form of an inflammatory skin condition called pityriasis lichenoides. People with PLEVA may develop a few to more than one hundred scaling papules which may become filled with blood and/or pus or erode into crusted red-brown spots. Papules may itch or burn, and some people may experience fever or joint pain. Although PLEVA may occur at any age (including infancy), it most commonly affects children and young adults. ",
+Skin,Acute lichenoid pityriasis,Mucha-Habermann disease,S,,,86487001,4314705,,
+Skin,Acute lichenoid pityriasis,Pityriasis lichenoides et varioliformis acuta,S,,,86487001,4314705,,
+Vascular system,Linear IgA dermatosis,Linear IgA dermatosis,N,,,95330001,4317262,Linear IgA disease causes blisters to form deep in the skin. It can affect the skin and mucus membranes such as the mouth and genitals. Its name comes from the image produced during a skin biopsy in which a line of IgA antibodies can be found just below the outer layer of skin (the epidermis). ,
+Vascular system,Linear IgA dermatosis,Linear IgA disease,S,,,95330001,4317262,,
+Nervous System,Tolosa-Hunt syndrome,Tolosa-Hunt syndrome,N,,,95794005,4317989,"Patients with Tolosa-Hunt syndrome experience episodes of severe headaches surrounding the eyes, along with restricted eye movement that is painful (ophthalmoplegia). Normally, only one eye is affected and will frequently appear protruded. Symptoms may also include nerve abnormalities, such as eyelid drooping, double vision, large pupil, and numbness of the face. This disorder typically occurs in relapsing flares. The cause of Tolosa-Hunt syndrome is unknown but is associated with the inflammation within the eyes and may be autoimmune.",
+Nervous System,Autoimmune encephalitis,Autoimmune encephalitis,N,,,95643007,4318558,"Autoimmune encephalitis occurs when the body's immune system attacks healthy brain cells, causing neurologic and/or psychiatric impairments. 
+",
+Skin,Cutaneous lupus erythematosus,Cutaneous lupus erythematosus,N,,,7119001,4324123,"Discoid lupus erythematosus, also referred to as DLE, is a chronic but localized skin condition where sores (lesions) form on the scalp, face, elbow, or fingertips. In DLE, the autoimmune system attacks connective tissue. The lesions are red, inflamed patches with a scaling and crusting appearance. If present in areas with a significant amount of hair, the lesions can cause scarring and hair loss in that area. Because the symptoms are similar to other skin diseases and other types of lupus, a skin biopsy must be performed to confirm a diagnosis.  The primary difference between discoid lupus erythematosus (DLE) and systemic lupus erythematosus (SLE) is that DLE mainly affects the skin, while SLE also affects the organs, such as the heart, blood vessels, nervous system, and kidneys. Patients can have both DLE and SLE. ",
+Musculoskeletal,Lipomatosis dolorosa,Lipomatosis dolorosa,N,,,71404003,4324974,"Adiposis dolorosa is characterized by the slow formation of multiple, painful growths consisting of fatty tissue (lipomas) that are found just below the surface of the skin. Pain may vary from mild discomfort when a growth is pressed or touched to severe pain that is disproportionate to the physical findings.",
+Nervous System,Birdshot chorioretinopathy,Birdshot chorioretinopathy,N,,,231981005,4334133,Birdshot retinochoroidopathy is an extremely rare eye disease that is caused by an autoimmune reaction targeting the choroid and retina. ,
+Nervous System,Birdshot chorioretinopathy,Birdshot chorioretinitis,S,,,231981005,4334133,,
+Nervous System,Birdshot chorioretinopathy,Birdshot retinopathy,S,,,231981005,4334133,,
+Nervous System,Autoimmune disorder of inner ear,Autoimmune disorder of inner ear,N,,,232308006,4337463,"Autoimmune inner ear disease (AIED) is a condition characterized by inflammation of the inner ear. It happens when the immune system mistakenly targets cells in the inner ear as if they were a virus or bacteria. AIED is uncommon, affecting fewer than one percent of the 28 million Americans with hearing loss. The symptoms of AIED are sudden hearing loss in one ear progressing rapidly to the second ear. The hearing loss can progress over weeks or months. It can happen alone or in addition to other systemic autoimmune disorders.",inner ear-specific IFN-γ producing T cells
+Digestive system,Microscopic colitis,Microscopic colitis,N,,,235753003,4340799,"Microscopic colitis occurs with severe inflammation of the large intestine, or the colon. It results in persistent and watery diarrhea. Microscopic colitis can''t be identified with a colonoscopy, so tissue samples from the colon must be examined under a microscope. There are three different subtypes:<br> 
+<li>1. <b>Collagenous colitis</b> results from a thick layer of the protein collagen developing in the tissue.</li>
+<li>2. <b>Lymphocytic colitis</b> results from an increase in white blood cells in the tissue. </li>
+<li>3. <b>Incomplete microscopic colitis</b> is a combination of collagenous and lymphocytic colitis. </li>
+It is under debate whether collagenous and lymphocytic colitis are different phases of the same condition. ",
+Digestive system,Autoimmune gastritis,Autoimmune enteropathy,S,,,235728001,4341626,"Autoimmune enteropathy is an extremely rare disease characterized by diarrhea that does not respond to treatment and may require intravenous feeding to sustain the patient. It is diagnosed most frequently in infants, and it is marked by the presence of antibodies to the enzyme tryptophan hydroxylase, which performs a number of functions in human biology,  Autoimmune enteropathy is increasingly being diagnosed in adults, but the symptoms are the same as many more common diseases, so correct diagnosis is difficult.   It is more frequently diagnosed in patients already diagnosed with other autoimmune diseases such as autoimmune polyendocrine syndrome 1.",antibodies to tryptophan hydroxylase
+Digestive system,Autoimmune gastritis,Autoimmune gastritis,N,,,84568007,4341626,"Inflammation of the lining of the stomach that can occur suddenly or gradually. In some cases, gastritis may lead to ulcers or stomach cancer.",antibodies to tryptophan hydroxylase
+Skin,Cutaneous lupus erythematosus,Subacute cutaneous lupus erythematosus,T,,,239891002,4343923,,
+Systemic,Undifferentiated connective tissue disease,Undifferentiated connective tissue disease,N,,,239918008,4344165,"Patients of undifferentiated connective tissue disease (UCTD) share some, but not all, symptoms with other connective tissue diseases, such as systemic lupus erythmatosus, systemic sclerosis, dermatomyositis, polymyositis, rheumatoid arthritis, Sjogren's syndrome, and antiphospholipid syndrome.  UCTD is diagnosed when a patient has a positive serum ANA test and shows stable symptoms for a minimum of 3 years.  UCTD is distinct from the other above-mentioned diseases in that the condition remains stable over time without worsening. 30% of patients diagnosed with UCTD will be given a new diagnosis because their disease will not remain stable.  ",
+Systemic,Adult onset Still's disease,Adult onset Still's disease,N,,,239920006,4344166,"Adult onset Still's disease (AoSD) is a rare form of inflammatory arthritis that affects the entire body, impacting joints and organs. Typically affecting individuals over the age of 16, patients often endure bouts of elevated fever, joint discomfort, and skin rash. Blood tests commonly indicate elevated white blood cell counts. Despite extensive research, the exact cause of AoSD remains elusive, with uncertainty over whether it stems from autoimmune or autoinflammatory origins. The disease's progression varies widely among patients; while some experience sudden onset followed by swift and complete recovery, others contend with chronic manifestations or symptom flare-ups alternating with periods of remission. AoSD bears a resemblance to systemic juvenile rheumatoid arthritis, differing primarily in the age of onset. Although a definitive cure remains elusive, treatment options exist to manage inflammation and mitigate potential organ damage. There are three main patterns of the clinical course of AoSD namely monophasic, intermittent, and chronic. There is an approximately equal distribution in each category however some studies have shown a chronic articular pattern to be more common.",antibodies to cyclic citrullinated peptides
+Musculoskeletal,Chronic multifocal osteomyelitis,Chronic multifocal osteomyelitis,N,,,240151005,4344376,"Chronic multifocal osteomyelitis (CRMO) occurs due to an immune system attack on the bones, which has not yet been deemed autoimmune or autoinflammatory in nature, which causes periodic episodes of inflammation of the bones. CRMO is a non bacterial type of osteomyelitis that is considered when bacterial options have been ruled out.
+
+CRMO most commonly affects the long bones as well as the pelvis or spine. This disease can also be diagnosed along with inflammatory bowel disease or psoriasis. CRMO usually occurs in children and can cause bone deformities or slow growth in children. Although there is no cure for CRMO, treatments involved medications such as non-steroidal anti-inflammatory medications, antirheumatic drugs, biologics, and more.
+
+Chronic non-bacterial osteomyelitis (CNO) is a rare auto-inflammatory bone disorder with a prevalence of around one in a million patients. In the more severe form, it is referred to as chronic recurrent multifocal osteomyelitis (CRMO). ",Unconfirmed
+Vascular system,Lupus vasculitis,Lupus vasculitis,N,,,239944008,4344495,"Lupus vasculitis is an autoimmune complication of lupus erythematosus that occurs when proteins of the immune system enter the walls of the blood vessels, leading to inflammation.  Patients often experience ulcers, red marks, or bumps on the skin.  The spectrum of involvement ranges from relatively mild disease (affecting only small vessels and skin), to life threatening multi-organ disease. Treatments are available to control symptoms.  Early medical attention is necessary in severe cases to prevent lasting damage to the organs.",
+Blood,Essential mixed cryoglobulinemia,Essential mixed cryoglobulinemia,N,,,239947001,4347067,"Essential mixed cryoglobulinemia is marked by the presence of abnormal antibodies (cryoglobulins) that clump together and become solid or gel-like at temperatures below normal body temperature (98.6 F).  The exact temperature at which this occurs may vary from one person to another. When these proteins clump together in the bloodstream, they block the flow of blood to joints, muscles, and organs. Eventually, damage or inflammation of affected blood vessels (vasculitis) and surrounding tissue can develop. Cryoglobulinemia is classified as follows: Type I cryoglobulinemia (simple cryoglobulinemia), involves monoclonal immunoglobulin, usually immunoglobulin M (IgM) or, less frequently, immunoglobulin G (IgG), immunoglobulin A (IgA), or light chains. Types II and III cryoglobulinemia (mixed cryoglobulinemia) include rheumatoid factors (RFs) that are usually IgM and rarely IgG or IgA.  Type II involves monoclonal rheumatoid factors; type III involves polyclonal rheumatoid factors. Types II and III cryoglobulinemia represent 80% of all cryoglobulinemias.",
+Nervous System,Steroid-responsive encephalopathy associated with autoimmune thyroiditis,Steroid-responsive encephalopathy associated with autoimmune thyroiditis,N,,,771271000,36674282,"Steroid-responsive encephalopathy associated with autoimmune thyroiditis (SREAT), often called Hashimoto’s encephalopathy, is a rare autoimmune disease that affects both the nervous system and endocrine system. Encephalopathy, or brain dysfunction, resulting from thyroid disease can lead to muscle twitches, seizures, confusion, and even paranoia. The three forms of SREAT are acute, subacute, and chronic. SREAT also ranges in severity, from mild cognitive impairment to life-threatening seizures.",
+Nervous System,Steroid-responsive encephalopathy associated with autoimmune thyroiditis,Encephalopathy associated with autoimmune thyroid disease,S,,,771271000,36674282,,
+Nervous System,Steroid-responsive encephalopathy associated with autoimmune thyroiditis,Hashimoto's encephalopathy,S,,,771271000,36674282,,
+Liver,Autoimmune hepatitis,Chronic autoimmune hepatitis,T,,,1.60985E+16,36687200,"Autoimmune hepatitis is a condition that occurs when your immune system mistakenly targets and attacks your liver cells, leading to long-term chronic liver inflammation, swelling, and damage. It may occur at any age and typically affects women more than men. It is often linked to other autoimmune diseases. The precise cause of autoimmune hepatitis is not fully understood, but it's believed that a combination of genetic and environmental factors plays a role in initiating the disease over time. When diagnosed and treated promptly, autoimmune hepatitis can often be managed with medications that dampen the immune response. In situations where drug treatments don't work or in advanced liver disease cases, a liver transplant might be considered an option.
+",autoantibodies against aromatic L-amino acid decarboxylase (AADC) correlated to type 2 autoimmune hepatitis 
+Blood,Autoimmune hemolytic anemia,Autoimmune hemolytic anemia mixed type,T,,,718716008,36713763,"In autoimmune hemolytic anemia, red blood cells are destroyed by antibodies. In some cases, the antibodies are active only when the person is warm, and in other cases, only when the person is cold. In some cases, the antibodies can be active in all 3 situations - when the person's body temperature is normal, cold and warm. There is also a form of hemolytic anemia called paroxysmal nocturnal hemoglobinuria, in which a genetic mutation causes antibodies to cause the same kind of  destruction of red blood cells.
+
+There are other forms of anemia caused by autoimmune disease where ",
+Lungs,Cryptogenic organizing pneumonia,Cryptogenic organizing pneumonia,N,,,719218000,36714118,"Cryptogenic organizing pneumonia is inflammation and scarring of the small airways and air sacs of the lungs. The exact cause is not understood, but an autoimmune response is suspected. ",
+Vascular system,Behçet's syndrome,Hughes Stovin syndrome,S,,,721226005,36715522,,
+Liver,Autoimmune hepatitis,Autoimmune hepatitis type 1,T,,,721711009,36715923,"Autoimmune hepatitis is a condition that occurs when your immune system mistakenly targets and attacks your liver cells, leading to long-term chronic liver inflammation, swelling, and damage. It may occur at any age and typically affects women more than men. It is often linked to other autoimmune diseases. The precise cause of autoimmune hepatitis is not fully understood, but it's believed that a combination of genetic and environmental factors plays a role in initiating the disease over time. When diagnosed and treated promptly, autoimmune hepatitis can often be managed with medications that dampen the immune response. In situations where drug treatments don't work or in advanced liver disease cases, a liver transplant might be considered an option.
+",autoantibodies against aromatic L-amino acid decarboxylase (AADC) correlated to type 2 autoimmune hepatitis 
+Liver,Autoimmune hepatitis,Autoimmune hepatitis type 3,T,,,721713007,36715924,"Autoimmune hepatitis is a condition that occurs when your immune system mistakenly targets and attacks your liver cells, leading to long-term chronic liver inflammation, swelling, and damage. It may occur at any age and typically affects women more than men. It is often linked to other autoimmune diseases. The precise cause of autoimmune hepatitis is not fully understood, but it's believed that a combination of genetic and environmental factors plays a role in initiating the disease over time. When diagnosed and treated promptly, autoimmune hepatitis can often be managed with medications that dampen the immune response. In situations where drug treatments don't work or in advanced liver disease cases, a liver transplant might be considered an option.
+",autoantibodies against aromatic L-amino acid decarboxylase (AADC) correlated to type 2 autoimmune hepatitis 
+Blood,Immunoglobulin G4 related disease,IgG4-related sclerosing cholangitis,T,,,722870008,36716713,,
+Pancreas,Autoimmune pancreatitis,Autoimmune pancreatitis type 1,T,,,722872000,36716715,,Elevated IgG4
+Musculoskeletal,Myositis,autoimmune myopathy,T,,,722991004,36716807,,
+Blood,Immunoglobulin G4 related disease,Immunoglobulin G4 related disease,N,,,1.07433E+16,36717255,"Immunoglobulin G4 is a type of antibody normally found in humans. However, in some persons, the level of this antibody is elevated and it plays a role in the development of several autoimmune diseases, including myasthenia gravis, pemphigus, autoimmune thrombocytopenic purpura and autoimmune pancreatitis. IgG4-related diseases (IgG4-RD) are complex fibro-inflammatory disorder that can affect any organ. Medical practitioners assign a diagnosis based on symptoms and the organ affected.  The primary clinical feature in IgG4-RD entails a tumor-like presentation coupled with tissue-destructive lesions.For more information, see the pages on specific diseases. 
+
+At this time, not all IgG4 diseases are documented, and many are very rare. However, as this disease profile shows, IgG4-related disease has 19 synonyms and subtypes, so it may be more common as a class than thought. ",
+Glands,Autoimmune oophoritis,Autoimmune oophoritis,N,,,721198006,36717453,"In autoimmune oophoritis, the immune system mistakenly attacks the ovaries, causing inflammation, atrophy, and fibrosis. These changes keep the ovaries from working normally, and the result can be primary ovarian insufficiency (POI). Autoimmune oophoritis is associated with lupus, pernicious anemia, myasthenia gravis, autoimmune polyendocrine syndrome type I or type II, and other autoimmune conditions. Special blood tests and imaging are used to diagnose this condition.",
+Liver,Autoimmune hepatitis,Autoimmune hepatitis type 2,T,,,721712002,36717496,"Autoimmune hepatitis is a condition that occurs when your immune system mistakenly targets and attacks your liver cells, leading to long-term chronic liver inflammation, swelling, and damage. It may occur at any age and typically affects women more than men. It is often linked to other autoimmune diseases. The precise cause of autoimmune hepatitis is not fully understood, but it's believed that a combination of genetic and environmental factors plays a role in initiating the disease over time. When diagnosed and treated promptly, autoimmune hepatitis can often be managed with medications that dampen the immune response. In situations where drug treatments don't work or in advanced liver disease cases, a liver transplant might be considered an option.
+",autoantibodies against aromatic L-amino acid decarboxylase (AADC) correlated to type 2 autoimmune hepatitis 
+Nervous System,Autoimmune retinopathy,Autoimmune retinopathy,N,,,724809006,37110540,"Autoimmune retinopathy is a rare immune-mediated disorder in which autoantibodies attack retinal proteins, leading to progressive photoreceptor dysfunction. It is considered autoimmune even when no underlying trigger or associated systemic disease can be identified.",
+Pancreas,Autoimmune pancreatitis,Autoimmune pancreatitis type 2,T,,,1197740007,37162896,,
+Nervous System,Myelin oligodendrocyte glycoprotein antibody-associated disease,Myelin oligodendrocyte glycoprotein antibody-associated disease,N,,,1237194006,37164973,"Myelin oligodendrocyte glycoprotein disease (MOG) is a recently recognized condition marked by the presence of antibodies against myelin oligodendrocyte glycoprotein (MOG).  The disease differs from multiple sclerosis (MS),  aquaporin-4 (AQP4) antibody disease, and neuromyelitis optica spectrum disorders (NMOSD).  MOG symptoms can range from those of neuromyelitis optica to acute demyelinating encephalomyelitis and cortical encephalitis. A correct diagnosis requires both  specific and sensitive assays for the antibody.  In brain images MOG overlaps with AQP4 antibody NMOSD but can be usually distinguished from MS.  In particular, the silent lesions typical of MS that progressively increase lesion volume are rare in MOG antibody disease. Medium-term immunosuppression appears to be protective. Permanent disability, particularly severe ambulatory and visual disability, is less frequent than in AQP4 antibody NMOSD and usually results from the onset attack. ",
+Blood,Acquired hemophilia,Acquired hemophilia,N,,,785308008,37203917,"Acquired Hemophilia is an autoimmune disorder in which the immune system targets and damages a type of protein in the blood necessary for clotting.  The result is spontaneous bleeding that is difficult to stop, which may occur both on the surface of the skin and internal to the body, affecting muscles and organs.  Patients also bruise easily with little trauma.  A range of triggers can cause severe bleeding episodes, including physical activity, surgery, and giving birth.  Bleeding may also occur with no obvious cause.  Treatments are available to control bleeding episodes.  Without medical care, patients are at risk of muscle death or of life-threatening bleeding complications.",Factor VIII
+Heart,Postmyocardial infarction syndrome,Delayed postmyocardial infarction syndrome,T,,,827164008,37311078,,
+Heart,Postmyocardial infarction syndrome,Dressler's syndrome,S,,,827164008,37311078,,
+Kidney,Anti-glomerular basement membrane disease,Anti-glomerular basement membrane disease,N,,,788613004,37312293,"Anti-glomerular basement membrane (anti-GBM) disease is a rare autoimmune illness that mainly affects the kidneys and sometimes the lungs. In this condition, the immune system mistakenly attacks a specific part of the body called the basement membrane, which helps keep the tiny blood vessels in the kidneys and lungs working properly.
+
+People with anti-GBM disease make special proteins called antibodies that wrongly target this membrane, especially in the kidney’s filtering units (glomeruli) and the tiny air sacs in the lungs (alveoli). This can lead to serious kidney damage and, in some cases, bleeding in the lungs.
+
+The disease often develops suddenly and can get worse quickly. Sometimes, it seems to be triggered by things like a bad cold, flu, or exposure to chemicals like gasoline fumes. Doctors treat it by trying to remove the harmful antibodies from the blood and by calming down the immune system.
+
+In addition to ""anti-GBM disease,"" the condition may be referred to as:
+•	""Anti-GBM nephritis"" when the disease is primarily or exclusively affecting the kidneys;
+•	""Anti-GBM tubulointerstitial nephritis"" when the immune attack also involves the kidney tubules and surrounding tissue, not just the glomeruli (a rare variant);
+•	""Goodpasture syndrome"" when both lung bleeding and kidney inflammation are present, regardless of whether anti-GBM antibodies have been detected—for example, in rare cases where the syndrome is clinically present but lab tests are negative.",collagen IV
+Nervous System,Guillain-Barré syndrome,Acute motor axonal neuropathy,T,,,715770009,37396086,"Acute motor axonal neuropathy (AMAN) is an acute, rare, and variant form of Guillain–Barré syndrome. Guillain–Barré syndrome (GBS) can be divided into demyelinating and axonal subtypes. The axonal subtype is referred to as AMAN. AMAN is characterized pathologically by motor nerve fiber degeneration of variable severity and by sparing of sensory fibers. Therefore, it is a rapid onset of muscle weakness and loss of reflexes. There is little demyelination or lymphocytic inflammation involved. Potential pathophysiological reasons for this paradox may involve axonal conduction failure triggered by antibody assault without actual axonal loss, and axonal abnormalities restricted to the nerve terminal area.",Anti MOG
+Musculoskeletal,Myositis,autoimmune necrotizing myopathy,T,,,715863001,37396156,,
+Nervous System,Guillain-Barré syndrome,Progressive inflammatory neuropathy,T,,,716723000,37396786,,
+Nervous System,Myelin oligodendrocyte glycoprotein antibody-associated disease,Polyneuropathy associated with monoclonal immunoglobulin M antibodies to myelin-associated glycoprotein,S,,,718213001,37397549,,
+Skin,Progressive hemifacial atrophy,Progressive hemifacial atrophy,N,,,718224004,37397558,"Progressive hemifacial atrophy, also called Parry Romberg Syndrome, predominantly affects the skin of the face and is believed to be autoimmune in nature, though the cause is still being researched.  Typically, the skin deteriorates gradually over one side of the face, beginning with the upper jaw and the area extending from the nose to the corner of the lip, and then spreading to other parts of the face.  In some cases, symptoms are not restricted to only one side of the face and may also occur in the trunk or limbs.  Severe cases can spread to the muscles, bones, and cartilage.  Patients can expect symptoms to progress over a period of 2 to 20 years, after which time progression plateaus.  Treatments have so far been unsuccessful in stopping progression, but they do help manage associated discomfort.  Cases that progress over longer periods of time and beginning at a younger age often lead to the most severe symptoms, resulting in facial distortions and nerve disorders. ",
+Skin,Progressive hemifacial atrophy,Parry Romberg syndrome,S,,,718224004,37397558,,
+Nervous System,Autoimmune encephalitis caused by N-methyl D-aspartate receptor antibody,Limbic encephalitis with N-methyl-D-aspartate receptor antibodies,S,,,716684004,37399546,,"autoantibodies target the NMDA receptor, the AMPA receptor, the voltage-gated potassium channel (VGKC) complex, or a growing list of synaptic protein"
+Musculoskeletal,Psoriatic arthritis,Psoriatic arthritis,N,,,156370009,40319772,"Psoriatic arthritis is an autoimmune disease marked by the combination of psoriasis and one or more forms of rheumatoid-like arthritis, including anklosing spondylitis, rheumatoid arthritis, and juvenile rheumatoid arthritis. ",
+Musculoskeletal,Reactive arthritis,Reactive arthritis,N,,,201736002,40399768,"Reactive arthritis is an autoimmune condition classified in the family of spondyloarthritis. It is a type of arthritis that is typically acute and is most frequently caused by infections from bacteria in the genitals or bowel.  Reactive arthritis symptoms usually last for between 3 and 12 months. However, in some individuals, subsequent flares may occur due to stress or infection. The condition may also become chronic in some individuals.  Reactive arthritis may go unnoticed and heal on its own or it can cause pain in the joints. The knees and ankles are affected most often. ",
+Musculoskeletal,Fibromyalgia,Fibromyalgia,N,,,203082005,40405599,"Fibromyalgia is a disorder that is characterized by chronic pain and fatigue. The cause of fibromyalgia is unknown. Fibromyalgia may be accompanied by headaches, migraines, digestive problems, sensitivity to light or noise, sleep disturbances, temporomandibular joint (TMJ) dysfunction, anxiety, and depression. While fibromyalgia is mainly characterized by widespread chronic pain it does not mean that everyone who has chronic pain has fibromyalgia. There is no biomarker for fibromyalgia however lab tests or x-rays can help rule out other conditions. Fibromyalgia follows a pattern seen in many suspected (and in some cases, later confirmed) autoimmune diseases - it mostly affects women, is marked by flares, and has no other known cause. A study of mice recently reported the transference of fibromyalgia symptoms to mice using antibodies, which increases the probability that the disease is autoimmune.  If this research is validated (reproduced) it could establish fibromyalgia as an autoimmune disease.  ",
+Systemic,Antisynthetase syndrome,Antisynthetase syndrome,N,,,445187004,40482477,"Antisynthetase syndrome is sometimes an autoimmune form of myositis in which antibodies destroy <b>tRNA synthetase</b>, an enzyme that is essential for the creation of important proteins used throughout the body.  When that enzyme is destroyed, proteins that the body needs are not produced, and most noteably, proteins used to power the muscles. The result is muscle weakness, but since there are many proteins affected by the loss of tRNA synthetase, it can also impact the lungs and other parts of the body. 
+
+The trigger for antisynthetase syndrome is unknown, but it may be associated with viral infection.  Patients with antisynthetase syndrome commonly experience muscle inflammation, lung disease, and joint inflammation.  This condition is seen twice as often in women than in men and typically occurs in middle age. This is a chronic disease with no cure, and disease severity and prognosis varies by individual.  Patients who only experience muscle symptoms can manage the condition well with treatment.  However, prognosis is poor for patients who develop progressive interstitial lung disease.",antibodies to aminoacyl tRNA synthetases
+Nervous System,Pediatric autoimmune neuropsychiatric disorder associated with streptococcal infection,Pediatric autoimmune neuropsychiatric disorder associated with streptococcal infection,N,,,446682003,40488855,"Pediatric Autoimmune Neuropsychiatric Disorders Associated with Streptococcus (PANDAS) affect children, adolescents, and young adults who may present with acute onset of obsessive-compulsive disorder (OCD) and/or tics following strep infection. PANDAS is a subset of Pediatric Acute-Onset Neuropsychiatric Syndrome (PANS) in which similar symptoms result from a misguided immune response following other infectious or environmental triggers such as the flu, COVID, or tick-borne diseases.",
+Pancreas,Autoimmune pancreatitis,Autoimmune pancreatitis,N,,,448542008,40490446,"Autoimmune pancreatitis is a rare autoimmune disorder characterized by inflammation of the pancreas that may be acute or chronic. It is thought to be caused by the body's immune system attacking healthy cells of the pancreas. There are two subtypes of AIP, known as type 1 and type 2. Type 1 is the most common and it affects the pancreas, along with other organs, such as the liver, salivary glands, kidneys, lymph nodes, and gallbladder. Type 2 seems to only affect the pancreas but is associated with inflammatory bowel disease. Symptomatic patients often experience yellowing of the eyes (jaundice) and weight loss, but many patients are asymptomatic.  Autoimmune pancreatitis is a non-cancerous condition, but it is often mistaken for pancreatic cancer due to similar signs and symptoms.  There is no cure, but the condition is well-managed with treatment.",Elevated IgG4
+Vascular system,Antineutrophil cytoplasmic antibody positive vasculitis,Antineutrophil cytoplasmic antibody positive vasculitis,N,,,722191003,42535714,"Anti-neutrophil cytoplasmic antibody (ANCA)-associated vasculitis (AAV) is a group of diseases characterized by destruction and inflammation of small vessels. The clinical signs vary and affect several organs, such as the kidney, stomach, intestine, and lung. Skin symptoms like purpura (small purple spots) may appear when small blood vessels leak under the skin. AAV occurs when the immune system produces ANCAs, which mistakenly activate neutrophils, a type of white blood cell. These activated neutrophils damage the lining of blood vessels. Though the mechanism of damage is understood, the triggers that lead to AAV are unknown.",T cells with specificity for ANCA antigens are present
+Vascular system,Antineutrophil cytoplasmic antibody positive vasculitis,ANCA vasculitis,S,,,722191003,42535714,,T cells with specificity for ANCA antigens are present
+Nervous System,Complex regional pain syndrome,Amplified musculoskeletal pain syndrome,S,,,128200000,42536233,,
+Nervous System,Complex regional pain syndrome,Complex regional pain syndrome type I,T,,,734947007,42536233,,
+Nervous System,Complex regional pain syndrome,Reflex sympathetic dystrophy,T,,,734947007,42536233,,
+Nervous System,Cataplexy and narcolepsy,Narcolepsy type 1,S,,,735676003,42536721,,
+Glands,Polyglandular autoimmune syndrome type 4,Multiple autoimmune syndrome,S,,,449730005,42709858,"APS-4 is any combination of autoimmune diseases not covered by types 1, 2 or 3. ",
+Glands,Polyglandular autoimmune syndrome type 4,Polyglandular autoimmune syndrome type 4,N,,,449730005,42709858,Multiple autoimmune syndrome is any combination of 2 or more autoimmune conditions. The Autoimmune Registry's research across numerous databases has determined that roughly 40% of individuals with autoimmune disease have multiple diseases. ,
+Glands,Polyglandular autoimmune syndrome type 4,Autoimmune polyendocrine syndrome type 4,S,,,449730005,42709858,,
+Glands,Polyglandular autoimmune syndrome type 3,Polyglandular autoimmune syndrome type 3,N,,,449731009,42709859,"APS-3 is an overlap disease that primarily includes thyroid diseases (Graves disease, Hashimoto's thyroiditis), diabetes mellitus type 1 and celiac disease. In addition, the disease may include pernicious anemia, alopecia, Sjogren's syndrome, myasthenia gravis and vitiligo. ",
+Nervous System,Ophthalmoplegia due to Graves' disease,Ophthalmoplegia due to Graves' disease,N,,,1.04461E+14,45757069,"Graves’ ophthalmopathy (GO) is an autoimmune disorder affecting the eyes that is associated with Graves’ disease.  In Graves’ disease, the immune system targets and damages a specific cell type found in the thyroid.  This cell type is also found in the tissues surrounding the eyes (the orbit), and Graves’ ophthalmopathy results when the immune system attacks these orbital cells in addition to the cells in the thyroid.  
+
+Patients with GO experience swelling in the tissues, muscles, and fat in the eye socket, which leads to an abnormal protrusion of the eye.  Smoking is associated with a greater risk of acquiring GO.  Patients often experience full recovery without intervention, but treatments are available to manage symptoms.",
+Lungs,Idiopathic pulmonary fibrosis,Idiopathic pulmonary fibrosis,N,,,700250006,45763750,"Idiopathic pulmonary fibrosis is a scarring of the lungs. It is suspected that the scarring is due to an autoinflammatory or autoimmune response.  However, there are other causes, and only a fraction of patients with IPF suffer from an autoimmune form of the disease. ",
+Musculoskeletal,Myositis,Idiopathic inflammatory myopathy,T,,,702380008,45765443,,
+Blood,Autoimmune lymphoproliferative syndrome,Autoimmune lymphoproliferative syndrome,N,,,702444009,45765493,"Autoimmune lymphoproliferative syndrome (ALPS) is a rare genetic disease that causes the overproduction of lymphocytes. ALPS results from mutations in one of the genes controlling how lymphocytes work. The most common gene affected is called FAS. This leads to the enlargement of lymph nodes (lymphadenopathy), the liver (hepatomegaly), and the spleen (splenomegaly). ALPS can cause anemia (low level of red blood cells), thrombocytopenia (low level of platelets), and neutropenia (low level of neutrophils). ALPS can also cause impairing symptoms and increase the risk of developing serious health conditions, such as autoimmune diseases and lymphoma.",
+Vascular system,Retinocochleocerebral vasculopathy,Retinocochleocerebral vasculopathy,N,,,702575003,45765600,"Susac's syndrome affects three parts of the body: the brain, the retina of the eye, and the inner ear. The cause is uncertain, but the disease is believed to be autoimmune.  Swelling in the lining of the blood vessels in these three areas blocks and decreases blood flow, which results in impaired brain function and vision/ hearing loss.  Symptoms are typically unstable as the disease progresses, and patients often experience disturbance in only 2 of the 3 areas at any given time.  
+
+The severity of cases may vary, with mild cases resolving in under a year and severe cases having longer duration and causing irreparable damage.  During the course of the disease, some patients may experience symptoms in a flare-remission pattern, while others are consistently symptomatic until time of recovery.  Treatment is available to prevent permanent damage, and most patients under medical care can expect to experience complete or near complete recovery.",
+Vascular system,Retinocochleocerebral vasculopathy,Susac's syndrome,S,,,702575003,45765600,,
+Nervous System,Neuromyotonia,Isaacs' syndrome,S,,,305719002,46272949,,
+Nervous System,Neuromyotonia,Neuromyotonia,C,,,305719002,46272949,,
+Blood,Antiphospholipid syndrome,Hughes syndrome,S,,,26843008,,"Antiphospholipid syndrome occurs when the immune system attacks some of the normal proteins in the blood. There's no cure for antiphospholipid syndrome, but medications can reduce the risk of blood clots.
+",Beta-2 glycoprotein I
+Systemic,Systemic sclerosis with limited cutaneous involvement,CREST syndrome,S,,,298285004,,"CREST is a subtype of scleroderma, a connective tissue disease characterized by changes in the skin, blood vessels, skeletal muscles, and internal organs. CREST is the acronym for the clinical features seen in individuals with the disease :                        
+
+C - Calcinosis: calcium deposits in the connective tissues
+
+R - Raynaud's phenomenon: where the hands and feet turn white and cold and then blue, in response to cold or anxiety.
+
+E - Esophageal dysfunction:  where a person has difficulty swallowing 
+
+S - Sclerodactyly: thick and tight skin on the fingers, caused by an excess of collagen deposits within skin layers.
+
+T - Telangiectasia: small red spots on the hands and face that are caused by the swelling of tiny blood vessels.
+
+To be diagnosed with CREST, you must have 3 out of the 5 symptoms.",
+Systemic,Systemic sclerosis with limited cutaneous involvement,dcSSc,A,,,298285004,,"CREST is a subtype of scleroderma, a connective tissue disease characterized by changes in the skin, blood vessels, skeletal muscles, and internal organs. CREST is the acronym for the clinical features seen in individuals with the disease :                        
+
+C - Calcinosis: calcium deposits in the connective tissues
+
+R - Raynaud's phenomenon: where the hands and feet turn white and cold and then blue, in response to cold or anxiety.
+
+E - Esophageal dysfunction:  where a person has difficulty swallowing 
+
+S - Sclerodactyly: thick and tight skin on the fingers, caused by an excess of collagen deposits within skin layers.
+
+T - Telangiectasia: small red spots on the hands and face that are caused by the swelling of tiny blood vessels.
+
+To be diagnosed with CREST, you must have 3 out of the 5 symptoms.",
+Glands,Sjögren's disease,SJS,A,,,83901003,,"Sjögren’s disease is a systemic autoimmune disease that can affect many parts of the body.  Traditionally, it was thought to be focused on the moisture-secreting glands of the eyes and mouth, but that has since been debunked.  Its name was changed from Sjögren's syndrome to Sjögren's disease to reflect the systemic nature of the disease.  Sjögren's patients are also predominantly female, with a female to male ratio of roughly 10 to 1.                                                                                               
+
+Sjögren's can impact many different areas of the body, including the lungs, brain, gastrointestinal tract, sinus tract, nerves, joints, blood vessels, and kidneys.  Symptoms vary significantly among patients, ranging from dry eyes and dry mouth to systemic fatigue, pain and brain fog.  Depression and anxiety are also common comorbidities to the disease.  Patients’ quality of life can be significantly impacted, with some evidence that fatigue and pain are the greatest predictors of poor quality of life.                                                                                          
+
+Patients with Sjögren's can be diagnosed through positive antibodies (SSA or SSB), seropositive, or by diagnostic criteria without the presence of antibodies (called ""seronegative"").  Seronegative patients report greater difficulty in obtaining a diagnosis and it is believed that, in general, Sjögren's disease is under-diagnosed.                                               
+
+Sjögren's disease is also often accompanied by other immune system disorders, such as rheumatoid arthritis and lupus.  In such cases, physicians tend to refer to the patients as having Secondary Sjögren's, as opposed to Primary Sjögren's when patients only have one autoimmune disease.  There has been a movement among patients and advocates to remove the label of “Secondary” as it trivializes Sjögren's as less important than the other autoimmune diseases.",
+Glands,Addison's disease,Primary adrenal insufficiency,S,,,386584007,,,adrenal cortical antibodies—ACA
+Nervous System,Autoimmune encephalitis caused by N-methyl D-aspartate receptor antibody,Anti-NMDA Encephalitis,S,,,4.52281E+14,,,"autoantibodies target the NMDA receptor, the AMPA receptor, the voltage-gated potassium channel (VGKC) complex, or a growing list of synaptic protein"
+Blood,Immune thrombocytopenia,Autoimmune thrombocytopenic purpura,S,,,2897005,,,Glycoprotein IIb/IIIa
+Blood,Antiphospholipid syndrome,aCL syndrome,S,,,26843008,,,
+Skin,Hidradenitis suppurativa,Acne inversa,S,,,59393003,,,
+Skin,Autoimmune angioedema,Acquired angiodema,S,,,402401003,,,
+Blood,Warm autoimmune hemolytic anemia,Acquired autoimmune hemolytic anemia,S,,,3978000,,,
+Blood,Acquired hemophilia,Acquired haemophilia,S,,,785308008,,,
+Nervous System,Myasthenia gravis,Acquired myasthenia,S,,,91637004,,,
+Blood,Pure red cell aplasia,Acquired pure red cell aplasia,S,,,50715003,,,
+Skin,Acute lichenoid pityriasis,Acuta guttale parapsoriasis,S,,,86487001,,,
+Nervous System,Neuralgic amyotrophy,Acute brachial neuritis,S,,,3548001,,,
+Systemic,Rheumatic fever,Acute rheumatic fever,S,,,58718002,,,
+Heart,Rheumatic fever,Acute rheumatic myocarditis,S,,,194709000,,,
+Nervous System,Acute disseminated encephalomyelitis,ADEM,A,,,83942000,,,
+Systemic,Endometriosis,Adenomyometritis,S,,,129103003,,,
+Systemic,Endometriosis,Adenomyosis,S,,,129103003,,,
+Systemic,Endometriosis,Adenomysis uteri,S,,,129103003,,,
+Musculoskeletal,Lipomatosis dolorosa,Adiposis dolorosa,S,,,71404003,,,
+Glands,Addison's disease,Adrenal Insufficiency,S,,,386584007,,,
+Nervous System,Ligneous conjunctivitis,Adult Onset Ligneous conjunctivitis,S,,,403435005,,,
+Blood,Pure red cell aplasia,Adult pure red cell aplasia,S,,,50715003,,,
+Systemic,Adult onset Still's disease,Adult Still's disease,S,,,239920006,,,
+Vascular system,Immunoglobulin A vasculitis,Anaphylactoid purpura,S,,,191306005,,,
+Vascular system,Antineutrophil cytoplasmic antibody positive vasculitis,ANCA-associated vasculitis,S,,,722191003,,,
+Musculoskeletal,Lipomatosis dolorosa,Anders disease,S,,,71404003,,,
+Blood,Cold agglutinin disease,"Anemia, hemolytic cold antibody",S,,,398937006,,,
+Blood,Antiphospholipid syndrome,Anticardiolipin antibody syndrome,S,,,26843008,,,
+Kidney,Anti-glomerular basement membrane disease,Anti-GBM disease,S,,,788613004,,,
+Systemic,Antisynthetase syndrome,Anti-Jo1 syndrome,S,,,445187004,,,
+Nervous System,Myelin oligodendrocyte glycoprotein antibody-associated disease,Anti-MAG disease,S,,,1237194006,,,
+Nervous System,Myelin oligodendrocyte glycoprotein antibody-associated disease,Anti-MOG disease,S,,,1237194006,,,
+Vascular system,Antineutrophil cytoplasmic antibody positive vasculitis,Anti-neutrophil cytoplasmic antibody-associated vasculitis,S,,,722191003,,,
+Nervous System,Autoimmune encephalitis caused by N-methyl D-aspartate receptor antibody,Anti-NMDA receptor encephalitis,S,,,4.52281E+14,,,
+Nervous System,Autoimmune encephalitis caused by N-methyl D-aspartate receptor antibody,Anti-N-methyl-D-aspartate receptor encephalitis,S,,,4.52281E+14,,,
+Skin,Autoimmune progesterone dermatitis,APD,A,,,838551007,,,
+Glands,Polyglandular autoimmune syndrome type 1,APECED,A,,,11244009,,,
+Glands,Polyglandular autoimmune syndrome type 1,APS-1,A,,,11244009,,,
+Glands,Polyglandular autoimmune syndrome type 2,APS2,A,,,83728000,,,
+Nervous System,Opsoclonus-myoclonus syndrome,Ataxo-opso-myoclonus syndrome,S,,,230350000,,,
+Blood,Immune thrombocytopenia,ATP,A,,,13172003,,,
+Glands,Addison's disease,Autoimmune adrenalitis,S,,,363732003,,,
+Digestive system,Autoimmune gastritis,Autoimmune atrophic gastritis,S,,,84568007,,,
+Heart,Myocarditis due to autoimmune disease,Autoimmune cardiomyopathy,S,,,871640001,,,
+Blood,Essential mixed cryoglobulinemia,Autoimmune cryoglobulinemia,S,,,239947001,,,
+Skin,Acquired epidermolysis bullosa,Autoimmune epidermolysis bullosa,S,,,2772003,,,
+Glands,Graves' disease,Autoimmune hyperthyroidism,S,,,353295004,,,
+Nervous System,Ligneous conjunctivitis,Autoimmune ligneous conjunctivitis,S,,,403435005,,,
+Nervous System,Myasthenia gravis,Autoimmune myasthenia gravis,S,,,91637004,,,
+Blood,Autoimmune neutropenia,Autoimmune neutropenia of infancy,S,,,234425008,,,
+Glands,Polyglandular autoimmune syndrome type 1,Autoimmune polyendocrine syndrome type 1,S,,,11244009,,,
+Glands,Polyglandular autoimmune syndrome type 2,Autoimmune polyendocrine syndrome type 2,S,,,83728000,,,
+Glands,Polyglandular autoimmune syndrome type 3,Autoimmune polyendocrine syndrome type 3,S,,,449731009,,,
+Glands,Polyglandular autoimmune syndrome type 1,Autoimmune polyendocrinopathy-candidiasis-ectodermal dystrophy,S,,,11244009,,,
+Glands,Polyglandular autoimmune syndrome type 1,Autoimmune polyglandular syndrome type 1,S,,,11244009,,,
+Glands,Polyglandular autoimmune syndrome type 2,Autoimmune polyglandular syndrome type II,S,,,83728000,,,
+Glands,Polyglandular autoimmune syndrome type 3,Autoimmune polyglandular syndrome type III,S,,,449731009,,,
+Nervous System,Uveitis,Autoimmune uveitis,S,,,128473001,,,
+Musculoskeletal,Ankylosing spondylitis,Axial spondyloarthritis,S,,,9631008,,,
+Nervous System,Guillain-Barré syndrome,Axonal Guillain-Barré syndrome,T,,,715770009,,,
+Skin,Lichen sclerosus,Balanitis xerotica obliterans,S,,,895454001,,,
+Glands,Graves' disease,Basedow disease,S,,,353295004,,,
+Vascular system,Behçet's syndrome,Behçet's disease,S,,,310701003,,,
+Kidney,IgA nephropathy,Berger's Disease,S,,,236407003,,,
+Systemic,Sarcoidosis,Besnier-Boeck-Schaumann disease,S,,,72470008,,,
+Nervous System,Autoimmune encephalitis,Bickerstaff encephalitis,S,,,427086003,,,
+Bladder,Chronic interstitial cystitis,Bladder pain syndrome,S,,,197834003,,,
+Nervous System,Neuralgic amyotrophy,Brachial neuritis,S,,,3548001,,,
+Nervous System,Neuralgic amyotrophy,Brachial plexitis,S,,,3548001,,,
+Nervous System,Neuralgic amyotrophy,Brachial plexus neuritis,S,,,3548001,,,
+Nervous System,Neuralgic amyotrophy,Brachial radiculitis,S,,,3548001,,,
+Lungs,Cryptogenic organizing pneumonia,Bronchiolitis obliterans with organizing pneumonia,S,,,719218000,,,
+Blood,Cold agglutinin disease,CAD,A,,,127055007,,,
+Blood,Autoimmune lymphoproliferative syndrome,Canale-Smith syndrome,S,,,702444009,,,
+Glands,Polyglandular autoimmune syndrome type 2,Carpenter syndrome,S,,,83728000,,,
+Systemic,Angiofollicular lymph node hyperplasia,Castleman Disease,S,,,207036003,,,
+Nervous System,Complex regional pain syndrome,Causalgia,T,,,408751001,,,
+Digestive system,Celiac disease,Celiac sprue,S,,,396331005,,,
+Vascular system,Moyamoya disease,Cerebrovascular moyamoya disease,S,,,69116000,,,
+Musculoskeletal,Relapsing polychondritis,Chronic atrophic polychondritis,S,,,72275000,,,
+Vascular system,Linear IgA dermatosis,Chronic bullous dermatosis of childhood,S,,,95330001,,,
+Nervous System,Intermediate uveitis,Chronic cyclitis,S,,,314429009,,,
+Skin,Autoimmune urticaria,Chronic idiopathic urticaria,S,,,402397006,,,
+Glands,Autoimmune thyroiditis,Chronic lymphocytic thyroiditis,S,,,66944004,,,
+Liver,Primary sclerosing cholangitis,Chronic obliterative cholangitis,S,,,197441003,,,
+Nervous System,Chronic inflammatory demyelinating polyradiculoneuropathy,Chronic relapsing polyneuropathy,S,,,128209004,,,
+Skin,Autoimmune urticaria,Chronic urticaria,S,,,402397006,,,
+Musculoskeletal,Schnitzler syndrome,Chronic urticaria with gammapathy,S,,,402415001,,,
+Musculoskeletal,Schnitzler syndrome,Chronic urticaria with gammopathy,S,,,402415001,,,
+Musculoskeletal,Schnitzler syndrome,Chronic urticaria with macroglobulinemia,S,,,402415001,,,
+Vascular system,Antineutrophil cytoplasmic antibody positive vasculitis,Churg Strauss syndrome,S,,,82275008,,,
+Skin,Benign mucous membrane pemphigoid,Cicatricial pemphigoid,S,,,34250006,,,
+Vascular system,Polyarteritis nodosa,Classic polyarteritis nodosa,S,,,155441006,,,
+Digestive system,Celiac disease,Coeliac disease,S,,,396331005,,,
+Blood,Cold agglutinin disease,Cold antibody disease,S,,,398937006,,,
+Blood,Cold agglutinin disease,Cold autoimmune hemolytic anemia,S,,,398937006,,,
+Nervous System,Complex regional pain syndrome,Complex regional pain syndrome type 1,T,,,734947007,,,
+Nervous System,Complex regional pain syndrome,Complex regional pain syndrome type 2,T,,,408751001,,,
+Nervous System,Balo concentric sclerosis,Concentric sclerosis,S,,,230380005,,,
+Nervous System,Ligneous conjunctivitis,Conjunctivitis lignose,S,,,403435005,,,
+Nervous System,Neuromyotonia,Continuous muscle fiber activity syndrome,S,,,305719002,,,
+Nervous System,Mooren's ulcer,Corneal Ulcer,S,,,22440001,,,
+Systemic,Chronic post-COVID-19 syndrome,COVID Long-Hauler,S,,,1119304009,,,
+Heart,Myocarditis due to autoimmune disease,Coxsackie myocarditis,S,,,37217002,,,
+Vascular system,Polyarteritis nodosa,c-PAN,A,,,155441006,,,
+Digestive system,Crohn's disease,Crohn's colitis,S,,,34000006,,,
+Digestive system,Crohn's disease,Crohn's granulomatous,S,,,34000006,,,
+Nervous System,POEMS syndrome,Crow-Fukase syndrome,S,,,79268002,,,
+Blood,Essential mixed cryoglobulinemia,Cryoglobulinemic Vasculitis,S,,,239947001,,,
+Vascular system,Hypersensitivity angiitis,Cutaneous Leukocytoclastic vasculitis,S,,,60555002,,,
+Nervous System,Intermediate uveitis,Cyclochorioretinitis,S,,,314429009,,,
+Nervous System,Opsoclonus-myoclonus syndrome,Dancing eye syndrome,S,,,230350000,,,
+Nervous System,Opsoclonus-myoclonus syndrome,Dancing eye-dancing feet syndrome,S,,,230350000,,,
+Musculoskeletal,Lipomatosis dolorosa,Dercum's disease,S,,,71404003,,,
+Nervous System,Neuromyelitis optica,Devic's syndrome,S,,,25044007,,,
+Skin,Dermatitis herpetiformis,DH,A,,,111196000,,,
+Nervous System,Cogan's syndrome,Diffuse interstitial keratitis,S,,,405810005,,,
+Systemic,Systemic sclerosis,Diffuse Systemic sclerosis,S,,,89155008,,,
+Heart,Primary idiopathic dilated cardiomyopathy,Dilated cardiomyopathy,S,,,53043001,,,
+Skin,Cutaneous lupus erythematosus,Discoid lupus,S,,,7119001,,,
+Skin,Dermatitis herpetiformis,Duhring-Brocq disease,S,,,111196000,,,
+Skin,Dermatitis herpetiformis,Duhring's disease,S,,,111196000,,,
+Skin,Acquired epidermolysis bullosa,EBA,A,,,2772003,,,
+Skin,Erythema nodosum,EN,A,,,32861005,,,
+Nervous System,Balo concentric sclerosis,Encephalitis periaxialis concentrica,S,,,230380005,,,
+Systemic,Endometriosis,Endometriosis Uterina,S,,,129103003,,,
+Musculoskeletal,Enthesitis,Enthesitis-related arthritis,S,,,359643005,,,
+Musculoskeletal,Enthesitis,Enthesitis-related juvenile arthritis,S,,,359643005,,,
+Blood,Immunoglobulin G4 related disease,Eosinophilic angiocentric fibrosis,S,,,1.07433E+16,,,
+Digestive system,Autoimmune gastritis,Eosinophilic gastritis,S,,,84568007,,,
+Digestive system,Eosinophilic Esophagitis,Eosinophilic Oesophagitis,S,,,235599003,,,
+Skin,Acquired epidermolysis bullosa,Epidermolysis bullosa acquisita,S,,,2772003,,,
+Musculoskeletal,Chronic Lyme disease,Erythema Migrans with Polyarthritis,S,,,33937009,,,
+Skin,Erythema nodosum,Erythema nodosum of unknown etiology,S,,,32861005,,,
+Nervous System,Sympathetic uveitis,Exciting Eye,S,,,75315001,,,
+Glands,Graves' disease,Exophthalmic goiter,S,,,353295004,,,
+Musculoskeletal,Lipomatosis dolorosa,Fatty tissue rheumatism,S,,,71404003,,,
+Musculoskeletal,Fibromyalgia,Fibromyalgia Syndrome,S,,,203082005,,,
+Liver,Primary sclerosing cholangitis,Fibrosing cholangitis,S,,,197441003,,,
+Musculoskeletal,Reactive arthritis,Fiessinger-Leroy disease,S,,,201736002,,,
+Musculoskeletal,Felty syndrome,FS,A,,,57160007,,,
+Digestive system,Crohn's disease,Gastroduodenal Crohn's disease,S,,,34000006,,,
+Skin,Dermatitis herpetiformis,Gluten rash,S,,,111196000,,,
+Digestive system,Celiac disease,Gluten-induced enteropathy,S,,,396331005,,,
+Digestive system,Celiac disease,Gluten-sensitive enteropathy,S,,,396331005,,,
+Kidney,Anti-glomerular basement membrane disease,Goodpasture's disease,S,,,50581000,,,
+Kidney,Anti-glomerular basement membrane disease,Goodpasture's syndrome,S,,,50581000,,,
+Vascular system,Temporal arteritis,Granulomatous arteritis,S,,,400130008,,,
+Nervous System,Ophthalmoplegia due to Graves' disease,Graves' eye disease,S,,,1.04461E+14,,,
+Glands,Graves' disease,Graves' hyperthyroidism,S,,,353295004,,,
+Nervous System,Ophthalmoplegia due to Graves' disease,Graves ophthalmopathy,S,,,1.04461E+14,,,
+Nervous System,Ophthalmoplegia due to Graves' disease,Graves' ophthalmopathy,S,,,1.04461E+14,,,
+Nervous System,Ophthalmoplegia due to Graves' disease,Graves' orbitopathy,S,,,1.04461E+14,,,
+Nervous System,Guillain-Barré syndrome,Guillain-Barre Syndrome,H,,,40956001,,,
+Glands,Autoimmune thyroiditis,Hashimoto's disease,S,,,21983002,,,
+Nervous System,Steroid-responsive encephalopathy associated with autoimmune thyroiditis,Hashimoto's encephalitis,S,,,771271000,,,
+Glands,Autoimmune thyroiditis,Hashimoto's thyroiditis,S,,,21983002,,,
+Musculoskeletal,Palindromic rheumatism,Hench's syndrome,S,,,50442003,,,
+Vascular system,Immunoglobulin A vasculitis,Henoch-Schönlein purpura,S,,,191306005,,,
+Vascular system,Behçet's syndrome,Hughes-Stovin syndrome,S,,,721226005,,,
+Blood,Immunoglobulin G4 related disease,Hyper-IgG4 disease,S,,,1.07433E+16,,,
+Vascular system,Hypersensitivity angiitis,Hypersensitivity Vasculitis,S,,,60555002,,,
+Musculoskeletal,Inclusion Body Myositis,IBM,A,,,72315009,,,
+Bladder,Chronic interstitial cystitis,IC,A,,,197834003,,,
+Blood,Warm autoimmune hemolytic anemia,Idiopathic autoimmune hemolytic anemia,S,,,3978000,,,
+Nervous System,Neuralgic amyotrophy,Idiopathic brachial neuritis,S,,,3548001,,,
+Nervous System,Neuralgic amyotrophy,Idiopathic brachial plexus neuropathy,S,,,3548001,,,
+Heart,Primary idiopathic dilated cardiomyopathy,Idiopathic dilated cardiomyopathy,S,,,53043001,,,
+Skin,Erythema nodosum,Idiopathic erythema nodosum,S,,,32861005,,,
+Skin,Progressive hemifacial atrophy,Idiopathic hemifacial atrophy,S,,,718224004,,,
+Blood,Immunoglobulin G4 related disease,Idiopathic hypocomplementemic tubulointerstitial nephritis,S,,,1.07433E+16,,,
+Musculoskeletal,Myositis,Idiopathic inflammatory myopathies,S,,,702380008,,,
+Lungs,Cryptogenic organizing pneumonia,idiopathic interstitial pneumonia,S,,,719218000,,,
+Blood,Pure red cell aplasia,Idiopathic pure red cell aplasia,S,,,50715003,,,
+Blood,Immunoglobulin G4 related disease,Idiopathic retroperitoneal Fibrosis,S,,,1.07433E+16,,,
+Nervous System,Uveitis,Idiopathic uveitis,S,,,128473001,,,
+Blood,Immunoglobulin G4 related disease,IgG4-related diseases,S,,,1.07433E+16,,,
+Blood,Immunoglobulin G4 related disease,IgG4-related retroperitoneal fibrosis,S,,,1.07433E+16,,,
+Blood,Immunoglobulin G4 related disease,IgG4-related systemic disease,S,,,1.07433E+16,,,
+Digestive system,Crohn's disease,Ileocolitis,S,,,34000006,,,
+Digestive system,Crohn's disease,Illeitis,S,,,34000006,,,
+Blood,Warm autoimmune hemolytic anemia,Immune hemolytic anemia,S,,,3978000,,,
+Blood,Warm autoimmune hemolytic anemia,Immunohemolytic anemia,S,,,3978000,,,
+Blood,Immunoglobulin G4 related disease,Inflammatory aortic aneurysm,S,,,1.07433E+16,,,
+Blood,Immunoglobulin G4 related disease,Inflammatory pseudotumor,S,,,1.07433E+16,,,
+Systemic,Rheumatic fever,Inflammatory rheumatism,S,,,58718002,,,
+Pancreas,Diabetes mellitus type 1,Insulin dependent Diabetes,S,,,46635009,,,
+Lungs,Cryptogenic organizing pneumonia,Interstitial pneumonia,S,,,719218000,,,
+Lungs,Idiopathic pulmonary fibrosis,Interstitial pulmonary fibrosis,S,,,700250006,,,
+Nervous System,Neuromyotonia,Isaacs-Mertens syndrome,S,,,305719002,,,
+Nervous System,Neuromyotonia,Issacs' syndrome,S,,,305719002,,,
+Blood,Immune thrombocytopenia,ITP,A,,,13172003,,,
+Nervous System,Intermediate uveitis,IU,A,,,314429009,,,
+Digestive system,Crohn's disease,Jejunoileitis,T,,,34000006,,,
+Musculoskeletal,Juvenile Rheumatoid Arthritis,JIA,A,,,410795001,,,
+Musculoskeletal,Juvenile Rheumatoid Arthritis,JRA,A,,,410795001,,,
+Musculoskeletal,Juvenile Rheumatoid Arthritis,Juvenile arthritis,S,,,410795001,,,
+Pancreas,Diabetes mellitus type 1,Juvenile diabetes,S,,,46635009,,,
+Musculoskeletal,Myositis,Juvenile myositis,S,,,26889001,,,
+Musculoskeletal,Lipomatosis dolorosa,Juxta-Articular adiposis dolorosa,S,,,71404003,,,
+Vascular system,Acute febrile mucocutaneous lymph node syndrome,Kawasaki syndrome,S,,,75053002,,,
+Glands,Sjögren's disease,Keratoconjunctivitis sicca,S,,,83901003,,,
+Nervous System,Opsoclonus-myoclonus syndrome,Kinsbourne syndrome,S,,,230350000,,,
+Blood,Immunoglobulin G4 related disease,Küttner's tumor,S,,,1.07433E+16,,,
+Musculoskeletal,Eaton-Lambert syndrome,Lambert-Eaton syndrome,S,,,56989000,,,
+Systemic,Systemic sclerosis with limited cutaneous involvement,lcSSc,A,,,298285004,,,
+Vascular system,Hypersensitivity angiitis,LCV,A,,,60555002,,,
+Musculoskeletal,Eaton-Lambert syndrome,LEMS,A,,,56989000,,,
+Skin,Vitiligo,Leukoderma,S,,,56727007,,,
+Nervous System,Balo concentric sclerosis,Leukoencephalitis periaxialis concentric,S,,,230380005,,,
+Vascular system,Linear IgA dermatosis,Linear IgA bullous disease,S,,,95330001,,,
+Musculoskeletal,Lipomatosis dolorosa,Lipomatosis dolorosa morbus dercum's,S,,,71404003,,,
+Systemic,Chronic post-COVID-19 syndrome,Long COVID,S,,,1119304009,,,
+Systemic,Systemic lupus erythematosus,Lupus,S,,,55464009,,,
+Blood,Antiphospholipid syndrome,Lupus anticoagulant syndrome,S,,,26843008,,,
+Musculoskeletal,Chronic Lyme disease,Lyme Borreliosis,S,,,33937009,,,
+Vascular system,Acute febrile mucocutaneous lymph node syndrome,Lymph node syndrome,S,,,75053002,,,
+Pancreas,Autoimmune pancreatitis,Lymphoplasmocytic sclerosing pancreatitis,S,,,448542008,,,
+Skin,Autoimmune gastritis,Macrocytic Anemia,S,,,84027009,,,
+Systemic,Mixed collagen vascular disease,MCTD,A,,,398049005,,,
+Blood,Immunoglobulin G4 related disease,Mediastinal fibrosis,S,,,1.07433E+16,,,
+Skin,Autoimmune gastritis,Megaloblastic Anemia,S,,,84027009,,,
+Nervous System,Myasthenia gravis,MG,A,,,91637004,,,
+Blood,Immunoglobulin G4 related disease,Mikulicz's syndrome,S,,,1.07433E+16,,,
+Musculoskeletal,Stiff-person syndrome,Moersch-Woltman syndrome,S,,,5217008,,,
+Nervous System,Myelin oligodendrocyte glycoprotein antibody-associated disease,MOG,A,,,1237194006,,,
+Nervous System,Myelin oligodendrocyte glycoprotein antibody-associated disease,MOG antibody disease,S,,,1237194006,,,
+Vascular system,Behçet's syndrome,Morbus Adamandiades-Behçet,S,,,310701003,,,
+Vascular system,Moyamoya disease,Moya-moya disease,S,,,69116000,,,
+Vascular system,Microscopic polyangiitis,MPA,A,,,1144805008,,,
+Nervous System,Multiple Sclerosis,MS,A,,,24700007,,,
+Vascular system,Acute febrile mucocutaneous lymph node syndrome,Mucocutaneous lymph node syndrome,S,,,75053002,,,
+Skin,Benign mucous membrane pemphigoid,Mucous membrane pemphigoid,S,,,34250006,,,
+Blood,Immunoglobulin G4 related disease,Multifocal fibrosclerosis,S,,,1.07433E+16,,,
+Glands,Polyglandular autoimmune syndrome type 2,Multiple endocrine deficiency syndrome  type 2,S,,,83728000,,,
+Nervous System,Myelin oligodendrocyte glycoprotein antibody-associated disease,Myelin oligodendrocyte glycoprotein disease,S,,,1237194006,,,
+Nervous System,Neuromyelitis optica,Neuromyelitis optica spectrum Disorder,S,,,25044007,,,
+Nervous System,Neuromyelitis optica,NMO,A,,,25044007,,,
+Nervous System,Neuromyelitis optica,NMOSD,A,,,25044007,,,
+Nervous System,Neuromyotonia,NMT,A,,,305719002,,,
+Pancreas,Autoimmune pancreatitis,Nonalcoholic destructive pancreatitis,S,,,448542008,,,
+Nervous System,Tolosa-Hunt syndrome,Non-specific inflammation of the cavernous sinus,S,,,95794005,,,
+Nervous System,Tolosa-Hunt syndrome,Non-specific inflammation of the superior orbital fissure,S,,,95794005,,,
+Digestive system,Celiac disease,Nontropical sprue,S,,,396331005,,,
+Nervous System,Steroid-responsive encephalopathy associated with autoimmune thyroiditis,Nonvasculitic autoimmune meningoecephalitis,S,,,771271000,,,
+Skin,Benign mucous membrane pemphigoid,Ocular pemphigoid,S,,,34250006,,,
+Nervous System,Opsoclonus-myoclonus syndrome,OMA syndrome,S,,,230350000,,,
+Nervous System,Opsoclonus-myoclonus syndrome,OMS,A,,,230350000,,,
+Nervous System,Opsoclonus-myoclonus syndrome,Opsoclonus myoclonus syndrome,S,,,230350000,,,
+Nervous System,Opsoclonus-myoclonus syndrome,Opsoclonus-myoclonus-ataxia syndrome,S,,,230350000,,,
+Nervous System,Neuromyelitis optica,Optic neuromyelitis,S,,,25044007,,,
+Nervous System,Neuromyelitis optica,Opticomyelitis,S,,,25044007,,,
+Nervous System,Neuromyelitis optica,Opticospinal MS,S,,,25044007,,,
+Blood,Immunoglobulin G4 related disease,Ormond's disease,S,,,1.07433E+16,,,
+Nervous System,POEMS syndrome,Osteosclerotic myeloma,S,,,79268002,,,
+Bladder,Chronic interstitial cystitis,Painful bladder syndrome,S,,,197834003,,,
+Nervous System,Tolosa-Hunt syndrome,Painful Ophthalmoplegia,S,,,95794005,,,
+Musculoskeletal,Palindromic rheumatism,Palindromic rheumatism syndrome,S,,,50442003,,,
+Vascular system,Polyarteritis nodosa,PAN,A,,,155441006,,,
+Nervous System,Pediatric autoimmune neuropsychiatric disorder associated with streptococcal infection,PANDAS,A,,,446682003,,,
+Nervous System,Pediatric autoimmune neuropsychiatric disorder associated with streptococcal infection,PANS,A,,,446682003,,,
+Systemic,Fasciitis with eosinophilia syndrome,Pansclerotic morphea with deep fascial involvement,S,,,24129002,,,
+Nervous System,Paraneoplastic cerebellar degeneration,Paraneoplastic cerebellar ataxia,S,,,192877007,,,
+Nervous System,Paraneoplastic cerebellar degeneration,Paraneoplastic neurological syndrome,S,,,192877007,,,
+Nervous System,Opsoclonus-myoclonus syndrome,Paraneoplastic opsoclonus-myoclonus,S,,,230350000,,,
+Nervous System,Opsoclonus-myoclonus syndrome,Paraneoplastic opsoclonus-myoclonus-ataxia syndrome,S,,,230350000,,,
+Nervous System,Paraneoplastic cerebellar degeneration,Paraneoplastic syndrome,S,,,192877007,,,
+Glands,Graves' disease,Parry disease,S,,,353295004,,,
+Nervous System,Neuralgic amyotrophy,Parsonage-Turner Syndrome,S,,,26609002,,,
+Glands,Polyglandular autoimmune syndrome type 3,PAS 3,A,,,449731009,,,
+Glands,Polyglandular autoimmune syndrome type 3,PAS III,A,,,449731009,,,
+Liver,Primary biliary cholangitis,PBC,A,,,31712002,,,
+Bladder,Chronic interstitial cystitis,PBS,A,,,197834003,,,
+Nervous System,Paraneoplastic cerebellar degeneration,PCA,A,,,192877007,,,
+Nervous System,Paraneoplastic cerebellar degeneration,PCD,A,,,192877007,,,
+Nervous System,Pediatric autoimmune neuropsychiatric disorder associated with streptococcal infection,Pediatric Acute-onset Neuropsychiatric Syndrome,S,,,446682003,,,
+Musculoskeletal,Juvenile Rheumatoid Arthritis,Pediatric rheumatic disease,S,,,410795001,,,
+Skin,Herpes gestationis,Pemphigoid gestationis,S,,,86081009,,,
+Nervous System,POEMS syndrome,PEP syndrome,S,,,79268002,,,
+Blood,Immunoglobulin G4 related disease,Periaortitis,S,,,1.07433E+16,,,
+Blood,Immunoglobulin G4 related disease,Periarteritis,S,,,1.07433E+16,,,
+Nervous System,Mooren's ulcer,Peripheral Ulcerative Keratitis,S,,,22440001,,,
+Nervous System,Intermediate uveitis,Peripheral uveoretinitis,S,,,314429009,,,
+Skin,Herpes gestationis,PG,A,,,86081009,,,
+Glands,Polyglandular autoimmune syndrome type 2,PGA 2,A,,,83728000,,,
+Glands,Polyglandular autoimmune syndrome type 2,PGA-II,A,,,83728000,,,
+Skin,Autoimmune urticaria,Physical urticaria,S,,,402397006,,,
+Skin,Acute lichenoid pityriasis,PLEVA,A,,,86487001,,,
+Nervous System,Paraneoplastic cerebellar degeneration,PNS,A,,,192877007,,,
+Vascular system,Polyarteritis nodosa,Polyarteritis,S,,,155441006,,,
+Musculoskeletal,Relapsing polychondritis,Polychondropathia,S,,,72275000,,,
+Glands,Polyglandular autoimmune syndrome type 2,Polyglandular deficiency syndrome type 2,S,,,83728000,,,
+Glands,Polyglandular autoimmune syndrome type 3,Polyglandular deficiency syndrome type 3,S,,,449731009,,,
+Nervous System,POEMS syndrome,Polyneuropathy-organomegaly-endocrinopathy-M protein-skin lesions,S,,,79268002,,,
+Nervous System,Opsoclonus-myoclonus syndrome,POMA syndrome,S,,,230350000,,,
+Systemic,Chronic post-COVID-19 syndrome,Post-acute COVID-19,S,,,1119304009,,,
+Systemic,Chronic post-COVID-19 syndrome,Post-Acute Sequelae of COVID-19,S,,,1119304009,,,
+Heart,Postmyocardial infarction syndrome,Post-cardiac injury syndrome,S,,,66189004,,,
+Heart,Postmyocardial infarction syndrome,Post-myocardial infarction syndrome,S,,,66189004,,,
+Blood,Pure red cell aplasia,PRCA,A,,,50715003,,,
+Glands,Autoimmune oophoritis,Premature ovarian failure due to autoimmune oophoritis,S,,,721198006,,,
+Blood,Pure red cell aplasia,Primary acquired PRCA,S,,,50715003,,,
+Blood,Pure red cell aplasia,Primary acquired pure red cell aplasia ,S,,,50715003,,,
+Blood,Autoimmune neutropenia,Primary autoimmune neutropenia,S,,,234425008,,,
+Skin,Progressive hemifacial atrophy,Progressive facial hemiatrophy,S,,,718224004,,,
+Vascular system,Moyamoya disease,Progressive intracranial arterial occlusion,S,,,69116000,,,
+Vascular system,Moyamoya disease,Progressive intracranial occlusive arteriopathy,S,,,69116000,,,
+Musculoskeletal,Psoriatic arthritis,PsA,A,,,156370009,,,
+Liver,Primary sclerosing cholangitis,PSC,A,,,197441003,,,
+Nervous System,Neuromyotonia,Quantal squander syndrome,S,,,305719002,,,
+Vascular system,Raynaud's phenomenon,Raynaud disease,S,,,356198000,,,
+Vascular system,Raynaud's phenomenon,Raynaud's disease,S,,,356198000,,,
+Musculoskeletal,Reactive arthritis,ReA,A,,,201736002,,,
+Musculoskeletal,Reactive arthritis,Reactive arthritis triad,S,,,201736002,,,
+Musculoskeletal,Relapsing polychondritis,Recurrent polychondritis,S,,,72275000,,,
+Vascular system,Retinocochleocerebral vasculopathy,RED-M,A,,,702575003,,,
+Musculoskeletal,Relapsing polychondritis,Relapsing perichondritis,S,,,72275000,,,
+Musculoskeletal,Relapsing polychondritis,Relapsing polyneuropathy,S,,,72275000,,,
+Nervous System,Restless legs,Restless leg syndrome,S,,,32914008,,,
+Vascular system,Retinocochleocerebral vasculopathy,Retinopathy-encephalopathy-deafness associated microangiopathy,S,,,702575003,,,
+Blood,Immunoglobulin G4 related disease,Retroperitoneal fibrosis,S,,,1.07433E+16,,,
+Systemic,Rheumatic fever,Rheumatic arthritis,S,,,58718002,,,
+Blood,Immunoglobulin G4 related disease,Riedel's thyroiditis,S,,,1.07433E+16,,,
+Skin,Progressive hemifacial atrophy,Romberg's syndrome,S,,,718224004,,,
+Vascular system,Rheumatoid vasculitis,RV,A,,,400054000,,,
+Skin,Benign mucous membrane pemphigoid,Scarring pemphigoid,S,,,34250006,,,
+Glands,Polyglandular autoimmune syndrome type 2,Schmidt syndrome,S,,,83728000,,,
+Musculoskeletal,Schnitzler syndrome,Schnitzler's syndrome,S,,,402415001,,,
+Systemic,Systemic sclerosis,Scleroderma,S,,,89155008,,,
+Musculoskeletal,Transverse myelitis,Secondary acute transverse myelitis,S,,,16631009,,,
+Vascular system,Raynaud's phenomenon,Secondary Raynaud's,S,,,356198000,,,
+Systemic,Mixed collagen vascular disease,Sharp Syndrome,S,,,398049005,,,
+Nervous System,POEMS syndrome,Shimpo syndrome,S,,,79268002,,,
+Systemic,Fasciitis with eosinophilia syndrome,Shulman syndrome,S,,,24129002,,,
+Musculoskeletal,Inclusion Body Myositis,sIBM,A,,,72315009,,,
+Vascular system,Retinocochleocerebral vasculopathy,SICRET,A,,,702575003,,,
+Systemic,Systemic lupus erythematosus,SLE,A,,,55464009,,,
+Vascular system,Retinocochleocerebral vasculopathy,"Small infarctions of cochlear, retinal and encephalic tissue",S,,,702575003,,,
+Nervous System,Sympathetic uveitis,Spared Eye Injury,S,,,75315001,,,
+Musculoskeletal,Ankylosing spondylitis,Spondyloarthritis,S,,,9631008,,,
+Vascular system,Moyamoya disease,Spontaneous occlusion of the Circle of Willis,S,,,69116000,,,
+Musculoskeletal,Inclusion Body Myositis,Sporadic Inclusion Body Myositis,S,,,72315009,,,
+Musculoskeletal,Rheumatic chorea,St. Vitus Dance,S,,,46826000,,,
+Liver,Primary sclerosing cholangitis,Stenosing cholangitis,S,,,197441003,,,
+Heart,Subacute bacterial endocarditis,Subacute infective endocarditis,S,,,73774007,,,
+Heart,Subacute bacterial endocarditis,Subacute native valve endocarditis,S,,,73774007,,,
+Musculoskeletal,Felty syndrome,Super rheumatoid disease,S,,,57160007,,,
+Skin,Hidradenitis suppurativa,Suppurative hidradenitis,S,,,59393003,,,
+Vascular system,Retinocochleocerebral vasculopathy,Susac syndrome,S,,,702575003,,,
+Nervous System,Sympathetic uveitis,Sympathizing Eye,S,,,75315001,,,
+Musculoskeletal,Rheumatic chorea,Syndenham chorea,S,,,46826000,,,
+Musculoskeletal,Relapsing polychondritis,Systemic chondromalocia,S,,,72275000,,,
+Nervous System,Chronic Fatigue Syndrome,Systemic exertion intolerance disease,S,,,52702003,,,
+Nervous System,POEMS syndrome,Takatsuki syndrome,S,,,79268002,,,
+Nervous System,Tolosa-Hunt syndrome,THS,A,,,95794005,,,
+Nervous System,Ophthalmoplegia due to Graves' disease,Thyroid-Associated orbitopathy,S,,,1.04461E+14,,,
+Glands,Graves' disease,Toxic diffuse goiter,S,,,353295004,,,
+Nervous System,Balo concentric sclerosis,Tumefactive multiple sclerosis,S,,,230380005,,,
+Pancreas,Autoimmune pancreatitis,Tumefactive pancreatitis,S,,,448542008,,,
+Pancreas,Diabetes mellitus type 1,Type 1 diabetes,S,,,46635009,,,
+Systemic,Undifferentiated connective tissue disease,UCTD,A,,,239918008,,,
+Systemic,Undifferentiated connective tissue disease,Undifferentiated connective tissue syndrome,S,,,239918008,,,
+Nervous System,Intermediate uveitis,Vitritis,S,,,314429009,,,
+Musculoskeletal,Relapsing polychondritis,Von Meyenburg disease,S,,,72275000,,,
+Vascular system,Antineutrophil cytoplasmic antibody positive vasculitis,Wegener's Granulomatosis,S,,,195353004,,,
+Glands,Polyglandular autoimmune syndrome type 1,Whitaker syndrome,S,,,11244009,,,
+Nervous System,Restless legs,Willis-Ekbom Disease,S,,,32914008,,,

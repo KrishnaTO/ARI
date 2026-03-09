@@ -1,0 +1,17 @@
+Category,Category_mondo_reference,Category_uberon_reference,Category_cl_reference,Category_doid_reference
+Skin,prefix='mondo' identifier='0002531' name='skin neoplasm',prefix='uberon' identifier='0000014' name='zone of skin',,
+Blood,,prefix='uberon' identifier='0000178' name='blood',,
+Nervous System,,prefix='uberon' identifier='0001016' name='nervous system',,
+Vascular system,,prefix='uberon' identifier='0007798' name='vascular system',,
+Glands,,prefix='uberon' identifier='0002530' name='gland',,
+Systemic,,,,
+Musculoskeletal,,,,
+Kidney,,prefix='uberon' identifier='0002113' name='kidney',,
+All,prefix='mondo' identifier='0004967' name='acute lymphoblastic leukemia',prefix='uberon' identifier='0014899' name='anterolateral ligament of knee',,prefix='doid' identifier='9952' name='acute lymphoblastic leukemia'
+Digestive system,,prefix='uberon' identifier='0001007' name='digestive system',,
+Liver,,prefix='uberon' identifier='0002107' name='liver',,
+Pancreas,prefix='mondo' identifier='0021040' name='pancreatic neoplasm',prefix='uberon' identifier='0001264' name='pancreas',,
+Bladder,,prefix='uberon' identifier='0001255' name='urinary bladder',,
+Lungs,prefix='mondo' identifier='0021117' name='lung neoplasm',prefix='uberon' identifier='0002048' name='lung',,
+Heart,,prefix='uberon' identifier='0000948' name='heart',,
+,,,,
