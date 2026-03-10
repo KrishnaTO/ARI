@@ -1,0 +1,16 @@
+Category,Category_curie,Category_name,Category_link
+Skin,UBERON:0000014,zone of skin,https://www.ebi.ac.uk/ols/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000014
+Blood,UBERON:0000178,blood,https://www.ebi.ac.uk/ols/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000178
+Nervous System,UBERON:0001016,nervous system,https://www.ebi.ac.uk/ols/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001016
+Vascular system,UBERON:0007798,vascular system,https://www.ebi.ac.uk/ols/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0007798
+Glands,UBERON:0002530,gland,https://www.ebi.ac.uk/ols/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002530
+Systemic,,,
+Musculoskeletal,,,
+Kidney,UBERON:0002113,kidney,https://www.ebi.ac.uk/ols/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002113
+All,UBERON:0014899,anterolateral ligament of knee,https://www.ebi.ac.uk/ols/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0014899
+Digestive system,UBERON:0001007,digestive system,https://www.ebi.ac.uk/ols/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001007
+Liver,UBERON:0002107,liver,https://www.ebi.ac.uk/ols/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002107
+Pancreas,UBERON:0001264,pancreas,https://www.ebi.ac.uk/ols/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001264
+Bladder,UBERON:0001255,urinary bladder,https://www.ebi.ac.uk/ols/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001255
+Lungs,UBERON:0002048,lung,https://www.ebi.ac.uk/ols/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0002048
+Heart,UBERON:0000948,heart,https://www.ebi.ac.uk/ols/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0000948

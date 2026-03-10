@@ -1,0 +1,695 @@
+Disease,Disease_curie,Disease_name,Disease_link
+Acquired epidermolysis bullosa,DOID:0004313,epidermolysis bullosa acquisita,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_4313
+EBA,,,
+Autoimmune epidermolysis bullosa,,,
+Epidermolysis bullosa acquisita,DOID:0004313,epidermolysis bullosa acquisita,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_4313
+Acquired hemophilia,,,
+Acquired haemophilia,,,
+Acute hemorrhagic leukoencephalitis,DOID:0010992,acute hemorrhagic leukoencephalitis,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_10992
+Hurst's disease,,,
+Weston-Hurst syndrome,DOID:0010992,acute hemorrhagic leukoencephalitis,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_10992
+Acute disseminated encephalomyelitis,DOID:0000639,acute disseminated encephalomyelitis,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_639
+ADEM,DOID:0000639,acute disseminated encephalomyelitis,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_639
+Nonvasculitic autoimmune inflammatory meningoencephalitis,,,
+Acute febrile mucocutaneous lymph node syndrome,DOID:0013378,Kawasaki disease,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_13378
+Kawasaki syndrome,,,
+Kawasaki's disease,DOID:0013378,Kawasaki disease,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_13378
+Lymph node syndrome,,,
+Mucocutaneous lymph node syndrome,DOID:0013378,Kawasaki disease,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_13378
+Acute lichenoid pityriasis,,,
+PLEVA,,,
+Acuta guttale parapsoriasis,,,
+Mucha-Habermann disease,,,
+Pityriasis lichenoides et varioliformis acuta,,,
+Addison's disease,DOID:0013774,Addison's disease,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_13774
+Autoimmune adrenalitis,,,
+Adrenal cortical hypofunction,DOID:0010493,adrenal cortical hypofunction,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_10493
+Adrenal Insufficiency,,,
+Primary adrenal insufficiency,,,
+Adult onset Still's disease,DOID:0014256,adult-onset Still's disease,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_14256
+Adult Still's disease,,,
+Age related macular degeneration,DOID:0010871,age related macular degeneration,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_10871
+Alopecia Totalis,,,
+Alopecia areata,DOID:0000986,alopecia areata,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_986
+Alopecia Universalis,DOID:0050634,alopecia universalis,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_0050634
+Angiofollicular lymph node hyperplasia,DOID:0111157,Castleman disease,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_0111157
+Castleman Disease,DOID:0111157,Castleman disease,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_0111157
+Castleman's disease,,,
+Ankylosing spondylitis,DOID:0007147,ankylosing spondylitis,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_7147
+Axial spondyloarthritis,,,
+Spondyloarthritis,,,
+Goodpasture syndrome,DOID:0009808,Goodpasture syndrome,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_9808
+Goodpasture disease,,,
+Anti-glomerular basement membrane nephritis,,,
+Anti-glomerular basement membrane tubulointerstitial nephritis,,,
+Anti-glomerular basement membrane disease,DOID:0009808,Goodpasture syndrome,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_9808
+Anti-GBM disease,DOID:0009808,Goodpasture syndrome,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_9808
+Goodpasture's disease,,,
+Goodpasture's syndrome,,,
+Churg-Strauss syndrome,DOID:0003049,Churg-Strauss syndrome,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_3049
+Granulomatosis with polyangiitis,DOID:0012132,granulomatosis with polyangiitis,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_12132
+Wegener's Granulomatosis,,,
+Antineutrophil cytoplasmic antibody positive vasculitis,,,
+ANCA vasculitis,,,
+Eosinophilic granulomatosis with polyangiitis,,,
+ANCA-associated vasculitis,,,
+Anti-neutrophil cytoplasmic antibody-associated vasculitis,,,
+Churg Strauss syndrome,,,
+Antiphospholipid syndrome,DOID:0002988,antiphospholipid syndrome,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_2988
+aCL syndrome,,,
+Anticardiolipin antibody syndrome,,,
+Hughes syndrome,,,
+Lupus anticoagulant syndrome,,,
+Antisynthetase syndrome,DOID:0080744,antisynthetase syndrome,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_0080744
+Anti-Jo1 syndrome,,,
+Aplastic anemia,DOID:0012449,aplastic anemia,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_12449
+Autoimmune angioedema,,,
+Acquired angiodema,,,
+Autoimmune disease,DOID:0000417,autoimmune disease,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_417
+Ménière's disease,DOID:0009849,Meniere's disease,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_9849
+Autoimmune disorder of inner ear,,,
+Autoimmune encephalitis,,,
+Bickerstaff's brainstem encephalitis,,,
+Bickerstaff encephalitis,,,
+Bickerstaff's encephalitis,,,
+Limbic encephalitis with N-methyl-D-aspartate receptor antibodies,,,
+Anti-NMDA receptor encephalitis,,,
+Anti-N-methyl-D-aspartate receptor encephalitis,,,
+Autoimmune encephalitis caused by N-methyl D-aspartate receptor antibody,,,
+Anti-NMDA Encephalitis,,,
+Macrocytic Anemia,DOID:0002361,macrocytic anemia,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_2361
+Megaloblastic Anemia,DOID:0013382,megaloblastic anemia,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_13382
+Pernicious anemia,DOID:0013381,pernicious anemia,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_13381
+Autoimmune gastritis,DOID:0040090,autoimmune gastritis,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_0040090
+Atrophic gastritis,DOID:0008929,atrophic gastritis,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_8929
+Autoimmune atrophic gastritis,,,
+Eosinophilic gastritis,DOID:0004030,eosinophilic gastritis,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_4030
+Autoimmune enteropathy,,,
+Autoimmune hemolytic anemia,DOID:0000718,autoimmune hemolytic anemia,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_718
+Autoimmune hemolytic anemia mixed type,,,
+Autoimmune hepatitis,DOID:0002048,autoimmune hepatitis,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_2048
+Autoimmune hepatitis type 1,,,
+Autoimmune hepatitis type 2,,,
+Autoimmune hepatitis type 3,,,
+Chronic autoimmune hepatitis,,,
+Autoimmune lymphoproliferative syndrome,DOID:0006688,autoimmune lymphoproliferative syndrome,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_6688
+Canale-Smith syndrome,DOID:0006688,autoimmune lymphoproliferative syndrome,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_6688
+Autoimmune neutropenia,,,
+Primary autoimmune neutropenia,,,
+Autoimmune neutropenia of infancy,,,
+Autoimmune oophoritis,,,
+Premature ovarian failure due to autoimmune oophoritis,,,
+Autoimmune pancreatitis,DOID:0040091,autoimmune pancreatitis,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_0040091
+Lymphoplasmocytic sclerosing pancreatitis,,,
+Nonalcoholic destructive pancreatitis,,,
+Tumefactive pancreatitis,,,
+Autoimmune pancreatitis type 1,,,
+Autoimmune pancreatitis type 2,,,
+APD,,,
+Autoimmune progesterone dermatitis,,,
+Autoimmune retinopathy,,,
+Birdshot chorioretinopathy,DOID:0111079,birdshot chorioretinopathy,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_0111079
+Birdshot retinopathy,,,
+Birdshot chorioretinitis,DOID:0111079,birdshot chorioretinopathy,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_0111079
+Hashimoto thyroiditis,DOID:0007188,autoimmune thyroiditis,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_7188
+Hashimoto's disease,DOID:0007188,autoimmune thyroiditis,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_7188
+Ord's thyroiditis,,,
+Autoimmune thyroiditis,DOID:0007188,autoimmune thyroiditis,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_7188
+Chronic lymphocytic thyroiditis,DOID:0007188,autoimmune thyroiditis,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_7188
+Hashimoto's thyroiditis,DOID:0007188,autoimmune thyroiditis,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_7188
+Autoimmune urticaria,,,
+Chronic idiopathic urticaria,DOID:0080749,chronic spontaneous urticaria,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_0080749
+Chronic urticaria,DOID:0080747,chronic urticaria,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_0080747
+Physical urticaria,DOID:0060220,physical urticaria,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_0060220
+Autoimmune urticaria and/or angioedema,,,
+Autoimmune vasculitis,DOID:0040097,autoimmune vasculitis,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_0040097
+Balo concentric sclerosis,DOID:0060215,Balo concentric sclerosis,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_0060215
+Concentric sclerosis,,,
+Encephalitis periaxialis concentrica,DOID:0010588,adrenoleukodystrophy,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_10588
+Leukoencephalitis periaxialis concentric,,,
+Tumefactive multiple sclerosis,DOID:0060215,Balo concentric sclerosis,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_0060215
+Behçet's syndrome,DOID:0013241,Behcet's disease,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_13241
+Behcet's syndrome,DOID:0013241,Behcet's disease,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_13241
+Behçet's disease,DOID:0013241,Behcet's disease,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_13241
+Morbus Adamandiades-Behçet,,,
+Hughes Stovin syndrome,,,
+Hughes-Stovin syndrome,,,
+Benign mucous membrane pemphigoid,DOID:0011656,cicatricial pemphigoid,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_11656
+Cicatricial pemphigoid,DOID:0011656,cicatricial pemphigoid,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_11656
+Mucous membrane pemphigoid,,,
+Ocular pemphigoid,DOID:0011656,cicatricial pemphigoid,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_11656
+Scarring pemphigoid,,,
+Ocular cicatricial pemphigoid,,,
+Bullous pemphigoid,DOID:0008506,bullous pemphigoid,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_8506
+Cataplexy and narcolepsy,,,
+Narcolepsy type 1,,,
+Adult form of celiac disease,,,
+Celiac disease,DOID:0010608,celiac disease,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_10608
+Celiac sprue,DOID:0010608,celiac disease,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_10608
+Coeliac disease,DOID:0010608,celiac disease,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_10608
+Gluten-induced enteropathy,,,
+Gluten-sensitive enteropathy,,,
+Nontropical sprue,,,
+Chronic Fatigue Syndrome,DOID:0008544,chronic fatigue syndrome,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_8544
+Myalgic encephalomyelitis,DOID:0008544,chronic fatigue syndrome,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_8544
+Systemic exertion intolerance disease,,,
+Chronic inflammatory demyelinating polyradiculoneuropathy,DOID:0005213,chronic inflammatory demyelinating polyradiculoneuropathy,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_5213
+Chronic inflammatory demyelinating polyneuritis,DOID:0002536,chronic inflammatory demyelinating polyneuritis,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_2536
+Chronic inflammatory demyelinating polyneuropathy,,,
+Chronic relapsing polyneuropathy,,,
+Chronic inflammatory demyelinating polyradiculoneuropathy with central nervous system demyelination,,,
+Chronic interstitial cystitis,DOID:0001678,chronic interstitial cystitis,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_1678
+IC,,,
+PBS,,,
+Bladder pain syndrome,,,
+Painful bladder syndrome,,,
+Lyme disease,DOID:0011729,Lyme disease,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_11729
+Chronic Lyme disease,,,
+Erythema Migrans with Polyarthritis,,,
+Lyme Arthritis,,,
+Lyme Borreliosis,DOID:0011729,Lyme disease,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_11729
+Chronic multifocal osteomyelitis,DOID:0060645,chronic recurrent multifocal osteomyelitis,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_0060645
+Chronic post-COVID-19 syndrome,,,
+COVID Long-Hauler,,,
+Long COVID,DOID:0080848,long COVID,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_0080848
+Post-acute COVID-19,,,
+Post-Acute Sequelae of COVID-19,,,
+Cogan's syndrome,DOID:0060216,Cogan syndrome,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_0060216
+Diffuse interstitial keratitis,DOID:0013353,diffuse interstitial keratitis,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_13353
+CAD,,,
+Cold agglutinin disease,,,
+"Anemia, hemolytic cold antibody",,,
+Cold antibody disease,,,
+Cold antibody hemolytic anemia,,,
+Cold autoimmune hemolytic anemia,,,
+Complex regional pain syndrome,DOID:0003223,complex regional pain syndrome,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_3223
+Amplified musculoskeletal pain syndrome,,,
+Causalgia,DOID:0003222,causalgia,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_3222
+Complex regional pain syndrome type 2,,,
+Complex regional pain syndrome type II,,,
+Complex regional pain syndrome type 1,,,
+Complex regional pain syndrome type I,,,
+Reflex sympathetic dystrophy,DOID:0001811,reflex sympathetic dystrophy,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_1811
+Crohn's disease,DOID:0008778,Crohn's disease,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_8778
+Crohn's colitis,DOID:0060192,Crohn's colitis,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_0060192
+Crohn's granulomatous,,,
+Gastroduodenal Crohn's disease,DOID:0060191,gastroduodenal Crohn's disease,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_0060191
+Ileocolitis,DOID:0060190,ileocolitis,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_0060190
+Illeitis,,,
+Jejunoileitis,DOID:0060188,jejunoileitis,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_0060188
+Cryptogenic organizing pneumonia,DOID:0050157,cryptogenic organizing pneumonia,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_0050157
+Bronchiolitis obliterans with organizing pneumonia,,,
+idiopathic interstitial pneumonia,DOID:0002797,idiopathic interstitial pneumonia,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_2797
+Interstitial pneumonia,,,
+Cutaneous lupus erythematosus,DOID:0050169,cutaneous lupus erythematosus,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_0050169
+Discoid lupus,,,
+Discoid lupus erythematosus,,,
+Lupus erythematosus tumidus,,,
+Chronic discoid lupus erythematosus,,,
+Subacute cutaneous lupus erythematosus,,,
+Discoid lupus erythematosus of oral mucosa,,,
+Cutaneous mastocytosis,DOID:0003663,cutaneous mastocytosis,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_3663
+Dermatitis herpetiformis,DOID:0008505,dermatitis herpetiformis,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_8505
+DH,,,
+Duhring-Brocq disease,,,
+Duhring's disease,DOID:0008505,dermatitis herpetiformis,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_8505
+Gluten rash,,,
+Juvenile dermatomyositis,DOID:0014203,childhood type dermatomyositis,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_14203
+Dermatomyositis,DOID:0010223,dermatomyositis,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_10223
+Diabetes mellitus type 1,,,
+Insulin dependent Diabetes,,,
+Juvenile diabetes,,,
+Type 1 diabetes,,,
+Type 1 diabetes mellitus,DOID:0009744,type 1 diabetes mellitus,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_9744
+Eaton-Lambert syndrome,DOID:0050214,Lambert-Eaton myasthenic syndrome,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_0050214
+LEMS,DOID:0050214,Lambert-Eaton myasthenic syndrome,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_0050214
+Lambert-Eaton myasthenic syndrome,DOID:0050214,Lambert-Eaton myasthenic syndrome,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_0050214
+Lambert-Eaton syndrome,DOID:0050214,Lambert-Eaton myasthenic syndrome,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_0050214
+Endometriosis,DOID:0000289,endometriosis,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_289
+Adenomyometritis,,,
+Adenomyosis,DOID:0000288,endometriosis of uterus,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_288
+Adenomysis uteri,,,
+Endometriosis Uterina,,,
+Enthesitis,,,
+Enthesitis-related arthritis,,,
+Enthesitis-related juvenile arthritis,,,
+Eosinophilic esophagitis,DOID:0013922,eosinophilic esophagitis,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_13922
+Eosinophilic Oesophagitis,,,
+Epilepsy,DOID:0001826,epilepsy,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_1826
+Episcleritis,,,
+EN,,,
+Erythema nodosum,DOID:0080750,erythema nodosum,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_0080750
+Erythema nodosum of unknown etiology,,,
+Idiopathic erythema nodosum,,,
+Essential mixed cryoglobulinemia,,,
+Autoimmune cryoglobulinemia,,,
+Cryoglobulinemic Vasculitis,,,
+Evans syndrome,,,
+Fasciitis with eosinophilia syndrome,,,
+Eosinophilic fasciitis,,,
+Pansclerotic morphea with deep fascial involvement,,,
+Shulman syndrome,,,
+Shulman's syndrome,,,
+Felty syndrome,DOID:0011042,Felty's syndrome,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_11042
+FS,,,
+Felty's syndrome,DOID:0011042,Felty's syndrome,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_11042
+Super rheumatoid disease,,,
+Infertility due to antisperm antibodies,,,
+Female infertility due to antisperm antibodies,,,
+Fibromyalgia,DOID:0000631,fibromyalgia,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_631
+Fibromyalgia Syndrome,,,
+Thyrotoxicosis,DOID:0007997,thyrotoxicosis,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_7997
+Thyrotoxicosis due to Graves' disease,,,
+Graves' disease,DOID:0012361,Graves' disease,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_12361
+Autoimmune hyperthyroidism,,,
+Basedow disease,,,
+Exophthalmic goiter,DOID:0012361,Graves' disease,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_12361
+Graves' hyperthyroidism,,,
+Parry disease,,,
+Toxic diffuse goiter,DOID:0010719,toxic diffuse goiter,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_10719
+MFS,,,
+Fisher syndrome,,,
+Miller-Fisher syndrome,DOID:0012889,Miller Fisher syndrome,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_12889
+Miller Fisher syndrome,DOID:0012889,Miller Fisher syndrome,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_12889
+Guillain-Barré syndrome,DOID:0012842,Guillain-Barre syndrome,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_12842
+Guillain-Barre Syndrome,DOID:0012842,Guillain-Barre syndrome,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_12842
+GBS,,,
+Acute motor axonal neuropathy,,,
+Axonal Guillain-Barré syndrome,,,
+Progressive inflammatory neuropathy,,,
+Herpes gestationis,DOID:0014482,pemphigoid gestationis,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_14482
+PG,,,
+Gestational pemphigoid,,,
+Pemphigoid gestationis,DOID:0014482,pemphigoid gestationis,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_14482
+Hidradenitis suppurativa,DOID:0002280,hidradenitis suppurativa,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_2280
+Acne inversa,,,
+Suppurative hidradenitis,,,
+Hypersensitivity angiitis,,,
+LCV,,,
+Cutaneous Leukocytoclastic vasculitis,,,
+Hypersensitivity Vasculitis,DOID:0009809,hypersensitivity vasculitis,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_9809
+Leucocytoclastic vasculitis,,,
+Idiopathic pulmonary fibrosis,DOID:0050156,idiopathic pulmonary fibrosis,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_0050156
+Interstitial pulmonary fibrosis,,,
+IgA nephropathy,DOID:0002986,IgA glomerulonephritis,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_2986
+Berger's Disease,,,
+Immune thrombocytopenia,DOID:0001587,thrombocytopenia due to platelet alloimmunization,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_1587
+Autoimmune thrombocytopenic purpura,DOID:0008924,autoimmune thrombocytopenic purpura,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_8924
+ATP,,,
+Chronic idiopathic thrombocytopenic purpura,,,
+ITP,,,
+Idiopathic thrombocytopenic purpura,DOID:0008924,autoimmune thrombocytopenic purpura,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_8924
+Primary immune thrombocytopenia,,,
+Secondary autoimmune thrombocytopenia,,,
+Autoimmune neonatal thrombocytopenia,,,
+Autoimmune thrombotic thrombocytopenic purpura,,,
+Immunoglobulin A vasculitis,DOID:0011123,IgA vasculitis,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_11123
+Henoch-Schönlein purpura,DOID:0011123,IgA vasculitis,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_11123
+Anaphylactoid purpura,,,
+Henoch-Schonlein purpura,DOID:0011123,IgA vasculitis,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_11123
+IgA vasculitis,DOID:0011123,IgA vasculitis,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_11123
+Purpura rheumatica,,,
+IgG4 deficiency,,,
+IgG4-related sclerosing cholangitis,,,
+Eosinophilic angiocentric fibrosis,,,
+Hyper-IgG4 disease,,,
+Idiopathic hypocomplementemic tubulointerstitial nephritis,,,
+Idiopathic retroperitoneal Fibrosis,,,
+IgG4-related diseases,DOID:0080356,IgG4-related disease,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_0080356
+IgG4-related retroperitoneal fibrosis,,,
+IgG4-related systemic disease,,,
+Immunoglobulin G4 related disease,,,
+Inflammatory aortic aneurysm,,,
+Inflammatory pseudotumor,,,
+Küttner's tumor,,,
+Mediastinal fibrosis,,,
+Mikulicz's syndrome,,,
+Multifocal fibrosclerosis,,,
+Ormond's disease,,,
+Periaortitis,,,
+Periarteritis,,,
+Retroperitoneal fibrosis,,,
+Riedel's thyroiditis,,,
+IBM,,,
+Inclusion body myositis,DOID:0003429,inclusion body myositis,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_3429
+sIBM,,,
+Sporadic Inclusion Body Myositis,,,
+Inflammatory Bowel Disease,DOID:0050589,inflammatory bowel disease,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_0050589
+Microscopic colitis,DOID:0060182,microscopic colitis,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_0060182
+Ulcerative colitis,DOID:0008577,ulcerative colitis,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_8577
+Pars planitis,DOID:0012731,pars planitis,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_12731
+Intermediate uveitis,DOID:0012732,intermediate uveitis,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_12732
+IU,,,
+Chronic cyclitis,DOID:0012732,intermediate uveitis,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_12732
+Cyclochorioretinitis,,,
+Peripheral Uveitis,,,
+Peripheral uveoretinitis,DOID:0012732,intermediate uveitis,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_12732
+Vitritis,,,
+Interstitial lung disease,DOID:0003082,interstitial lung disease,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_3082
+Juvenile chronic arthritis,,,
+JIA,,,
+JRA,,,
+Juvenile Rheumatoid Arthritis,DOID:0000676,systemic juvenile rheumatoid arthritis,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_676
+Juvenile arthritis,,,
+Juvenile idiopathic arthritis,DOID:0000676,systemic juvenile rheumatoid arthritis,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_676
+Pediatric rheumatic disease,,,
+Lichen planus,DOID:0009201,lichen planus,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_9201
+Lichen sclerosus et atrophicus,,,
+Lichen sclerosus,,,
+Balanitis xerotica obliterans,DOID:0013477,balanitis xerotica obliterans,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_13477
+Ligneous conjunctivitis,,,
+Adult Onset Ligneous conjunctivitis,,,
+Autoimmune ligneous conjunctivitis,,,
+Conjunctivitis lignose,,,
+Linear IgA dermatosis,,,
+Chronic bullous dermatosis of childhood,,,
+Linear IgA bullous disease,,,
+Linear IgA disease,,,
+Lipomatosis dolorosa,,,
+Adiposis dolorosa,DOID:0003928,adiposis dolorosa,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_3928
+Anders disease,,,
+Dercum's disease,,,
+Fatty tissue rheumatism,,,
+Juxta-Articular adiposis dolorosa,,,
+Lipomatosis dolorosa morbus dercum's,,,
+Lupus vasculitis,,,
+Male infertility associated with antisperm antibodies,,,
+Autoimmune orchitis,,,
+Microscopic polyangiitis,,,
+MPA,,,
+Microscopic polyarteritis,,,
+MCTD,,,
+Mixed collagen vascular disease,DOID:0003492,mixed connective tissue disease,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_3492
+Mixed connective tissue disease,DOID:0003492,mixed connective tissue disease,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_3492
+Sharp Syndrome,,,
+Mooren's ulcer,DOID:0010439,Mooren's ulcer,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_10439
+Corneal Ulcer,DOID:0008463,corneal ulcer,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_8463
+Peripheral Ulcerative Keratitis,,,
+Localized scleroderma,DOID:0008472,localized scleroderma,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_8472
+Morphea,DOID:0008472,localized scleroderma,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_8472
+Moyamoya disease,DOID:0013099,Moyamoya disease,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_13099
+Cerebrovascular moyamoya disease,,,
+Moya-moya disease,DOID:0013099,Moyamoya disease,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_13099
+Progressive intracranial arterial occlusion,DOID:0013099,Moyamoya disease,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_13099
+Progressive intracranial occlusive arteriopathy,,,
+Spontaneous occlusion of the Circle of Willis,,,
+MS,,,
+Multiple sclerosis,DOID:0002377,multiple sclerosis,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_2377
+Disseminated sclerosis,,,
+Schilders disease,,,
+"Systemic sclerosis, diffuse",DOID:0001580,diffuse scleroderma,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_1580
+Relapsing-remitting multiple sclerosis,DOID:0002378,relapsing-remitting multiple sclerosis,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_2378
+Primary progressive multiple sclerosis,DOID:0050784,primary progressive multiple sclerosis,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_0050784
+MG,,,
+Myasthenia gravis,DOID:0000437,myasthenia gravis,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_437
+Acquired myasthenia,,,
+Autoimmune myasthenia gravis,,,
+Polyneuropathy associated with monoclonal immunoglobulin M antibodies to myelin-associated glycoprotein,,,
+MOG,,,
+Myelin oligodendrocyte glycoprotein antibody-associated disease,,,
+Anti-MAG disease,,,
+Anti-MOG disease,,,
+MOG antibody disease,,,
+Myelin oligodendrocyte glycoprotein disease,,,
+Coxsackie myocarditis,,,
+Myocarditis due to autoimmune disease,,,
+Autoimmune cardiomyopathy,DOID:0040095,autoimmune cardiomyopathy,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_0040095
+Autoimmune myocarditis,DOID:0080767,autoimmune myocarditis,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_0080767
+Myositis,DOID:0000633,myositis,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_633
+Juvenile myositis,,,
+Idiopathic inflammatory myopathies,,,
+Idiopathic inflammatory myopathy,,,
+autoimmune necrotizing myopathy,,,
+autoimmune myopathy,,,
+Necrotizing vasculitis,,,
+Acute brachial neuritis,,,
+Brachial neuritis,DOID:0003689,brachial plexus neuritis,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_3689
+Brachial neuropathy,,,
+Brachial plexitis,,,
+Brachial plexus disorder,DOID:0003690,brachial plexus neuropathy,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_3690
+Brachial plexus neuritis,DOID:0003689,brachial plexus neuritis,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_3689
+Brachial radiculitis,,,
+Idiopathic brachial neuritis,,,
+Idiopathic brachial plexus neuropathy,,,
+Neuralgic amyotrophy,DOID:0010383,amyotrophic neuralgia,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_10383
+Parsonage-Turner Syndrome,,,
+Neuromyelitis optica,DOID:0008869,neuromyelitis optica,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_8869
+NMO,,,
+NMOSD,,,
+Devic's disease,DOID:0008869,neuromyelitis optica,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_8869
+Devic's syndrome,DOID:0008869,neuromyelitis optica,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_8869
+Neuromyelitis optica spectrum Disorder,,,
+Optic neuromyelitis,,,
+Opticomyelitis,,,
+Opticospinal MS,,,
+Neuromyotonia,,,
+NMT,,,
+Continuous muscle fiber activity syndrome,,,
+Isaacs' syndrome,,,
+Isaacs-Mertens syndrome,,,
+Issacs' syndrome,,,
+Quantal squander syndrome,,,
+Thyroid eye disease,DOID:0081120,Graves ophthalmopathy,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_0081120
+Graves' eye disease,,,
+Graves ophthalmopathy,DOID:0081120,Graves ophthalmopathy,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_0081120
+Graves' ophthalmopathy,,,
+Graves' orbitopathy,,,
+Ophthalmoplegia due to Graves' disease,,,
+Thyroid-Associated orbitopathy,,,
+OMS,,,
+Opsoclonus-myoclonus syndrome,,,
+Ataxo-opso-myoclonus syndrome,,,
+Dancing eye syndrome,,,
+Dancing eye-dancing feet syndrome,,,
+Kinsbourne syndrome,,,
+OMA syndrome,,,
+Opsoclonus myoclonus syndrome,,,
+Opsoclonus-myoclonus-ataxia syndrome,,,
+Paraneoplastic opsoclonus-myoclonus,,,
+Paraneoplastic opsoclonus-myoclonus-ataxia syndrome,,,
+POMA syndrome,,,
+Palindromic rheumatism,DOID:0001166,palindromic rheumatism,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_1166
+Hench-Rosenberg syndrome,DOID:0001166,palindromic rheumatism,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_1166
+Hench's syndrome,DOID:0001166,palindromic rheumatism,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_1166
+Palindromic rheumatism syndrome,,,
+Paraneoplastic cerebellar degeneration,,,
+PCA,DOID:0050639,primary cutaneous amyloidosis,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_0050639
+PCD,,,
+PNS,,,
+Paraneoplastic cerebellar ataxia,,,
+Paraneoplastic neurological syndrome,,,
+Paraneoplastic syndrome,,,
+Paroxysmal nocturnal hemoglobinuria,DOID:0060284,paroxysmal nocturnal hemoglobinuria,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_0060284
+PANDAS,,,
+PANS,,,
+Pediatric autoimmune neuropsychiatric disorder associated with streptococcal infection,,,
+Pediatric Acute-onset Neuropsychiatric Syndrome,,,
+Pemphigus foliaceus,DOID:0080850,pemphigus foliaceus,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_0080850
+Pemphigus erythematosus,,,
+Brazilian pemphigus foliaceus,,,
+Pemphigus vulgaris,DOID:0060851,pemphigus vulgaris,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_0060851
+Pemphigus,DOID:0009182,pemphigus,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_9182
+Drug-induced pemphigus,,,
+Pemphigus paraneoplastica,,,
+POEMS syndrome,DOID:0014039,POEMS syndrome,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_14039
+Crow-Fukase syndrome,,,
+Osteosclerotic myeloma,DOID:0009541,osteosclerotic myeloma,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_9541
+PEP syndrome,,,
+Polyneuropathy-organomegaly-endocrinopathy-M protein-skin lesions,,,
+Shimpo syndrome,,,
+Takatsuki syndrome,,,
+c-PAN,,,
+PAN,,,
+Polyarteritis nodosa,DOID:0009810,polyarteritis nodosa,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_9810
+Classic polyarteritis nodosa,,,
+Periarteritis nodosa,,,
+Polyarteritis,,,
+APECED,,,
+APS-1,,,
+Polyglandular autoimmune syndrome type 1,,,
+Autoimmune polyendocrine syndrome type 1,DOID:0050167,autoimmune polyendocrine syndrome type 1,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_0050167
+Autoimmune polyendocrinopathy-candidiasis-ectodermal dystrophy,DOID:0050167,autoimmune polyendocrine syndrome type 1,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_0050167
+Autoimmune polyglandular syndrome type 1,,,
+Whitaker syndrome,DOID:0050167,autoimmune polyendocrine syndrome type 1,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_0050167
+APS2,,,
+PGA 2,,,
+PGA-II,,,
+Polyglandular autoimmune syndrome type 2,,,
+Autoimmune polyendocrine syndrome type 2,DOID:0050168,autoimmune polyendocrine syndrome type 2,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_0050168
+Autoimmune polyglandular syndrome type II,,,
+Carpenter syndrome,DOID:0060234,Carpenter syndrome,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_0060234
+Multiple endocrine deficiency syndrome  type 2,,,
+Polyglandular deficiency syndrome type 2,,,
+Schmidt syndrome,DOID:0050168,autoimmune polyendocrine syndrome type 2,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_0050168
+PAS 3,,,
+PAS III,,,
+Polyglandular autoimmune syndrome type 3,,,
+Autoimmune polyendocrine syndrome type 3,,,
+Autoimmune polyglandular syndrome type III,,,
+Polyglandular deficiency syndrome type 3,,,
+Polyglandular autoimmune syndrome type 4,,,
+Autoimmune polyendocrine syndrome type 4,,,
+Multiple autoimmune syndrome,,,
+Polymyalgia rheumatica,DOID:0000853,polymyalgia rheumatica,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_853
+Polymyositis,DOID:0080745,polymyositis,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_0080745
+Postpericardiotomy pericarditis,,,
+Postmyocardial infarction syndrome,DOID:0010507,Dressler's syndrome,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_10507
+Post-cardiac injury syndrome,,,
+Post-myocardial infarction syndrome,DOID:0010507,Dressler's syndrome,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_10507
+Post-pericardiotomy syndrome,,,
+Dressler's syndrome,DOID:0010507,Dressler's syndrome,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_10507
+Delayed postmyocardial infarction syndrome,,,
+PBC,,,
+Primary biliary cholangitis,DOID:0012236,primary biliary cholangitis,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_12236
+Primary biliary cirrhosis,DOID:0012236,primary biliary cholangitis,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_12236
+Primary idiopathic dilated cardiomyopathy,,,
+Dilated cardiomyopathy,DOID:0012930,dilated cardiomyopathy,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_12930
+Idiopathic dilated cardiomyopathy,,,
+Primary sclerosing cholangitis,DOID:0060643,primary sclerosing cholangitis,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_0060643
+PSC,,,
+Chronic obliterative cholangitis,,,
+Fibrosing cholangitis,DOID:0014268,sclerosing cholangitis,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_14268
+Stenosing cholangitis,,,
+Progressive hemifacial atrophy,,,
+Idiopathic hemifacial atrophy,,,
+Parry Romberg syndrome,,,
+Progressive facial hemiatrophy,,,
+Romberg's syndrome,,,
+Psoriasis,DOID:0008893,psoriasis,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_8893
+Guttate psoriasis,,,
+Psoriasis with arthropathy,,,
+PsA,,,
+Psoriatic arthritis,DOID:0009008,psoriatic arthritis,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_9008
+PRCA,,,
+Pure red cell aplasia,DOID:0001340,pure red-cell aplasia,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_1340
+Acquired pure red cell aplasia,,,
+Adult pure red cell aplasia,,,
+Idiopathic pure red cell aplasia,,,
+Primary acquired PRCA,,,
+Primary acquired pure red cell aplasia ,,,
+Pyoderma gangrenosum,DOID:0008553,pyoderma gangrenosum,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_8553
+Rasmussen syndrome,,,
+Raynaud's phenomenon,,,
+Raynaud disease,DOID:0010300,Raynaud disease,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_10300
+Raynaud's disease,DOID:0010300,Raynaud disease,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_10300
+Secondary Raynaud's,,,
+Secondary Raynaud's phenomenon,,,
+Reiter's syndrome,,,
+ReA,,,
+Reactive arthritis,DOID:0006196,reactive arthritis,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_6196
+Fiessinger-Leroy disease,,,
+Reactive arthritis triad,,,
+Relapsing polychondritis,DOID:0002556,relapsing polychondritis,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_2556
+Atrophic polychondritis,,,
+Chronic atrophic polychondritis,,,
+Meyenburg-Altherr-Uehlinger syndrome,,,
+Polychondropathia,,,
+Recurrent polychondritis,,,
+Relapsing perichondritis,,,
+Relapsing polyneuropathy,,,
+Systemic chondromalacia,,,
+Systemic chondromalocia,,,
+Von Meyenburg disease,,,
+Restless legs,,,
+Restless leg syndrome,,,
+Willis-Ekbom Disease,DOID:0050425,restless legs syndrome,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_0050425
+RED-M,,,
+Retinocochleocerebral vasculopathy,,,
+SICRET,,,
+Retinopathy-encephalopathy-deafness associated microangiopathy,,,
+"Small infarctions of cochlear, retinal and encephalic tissue",,,
+Susac syndrome,,,
+Susac's syndrome,,,
+Rheumatic Chorea,,,
+St. Vitus Dance,,,
+Sydenham chorea,,,
+Syndenham chorea,,,
+Rheumatic fever,DOID:0001586,rheumatic fever,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_1586
+Acute rheumatic fever,DOID:0001586,rheumatic fever,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_1586
+Inflammatory rheumatism,,,
+Rheumatic arthritis,,,
+Acute rheumatic myocarditis,DOID:0008481,rheumatic myocarditis,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_8481
+Rheumatoid arthritis,DOID:0007148,rheumatoid arthritis,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_7148
+Rheumatoid vasculitis,,,
+RV,,,
+Sarcoidosis,DOID:0011335,sarcoidosis,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_11335
+Besnier-Boeck-Schaumann disease,,,
+Lupus pernio,,,
+Lofgrens syndrome,,,
+Schnitzler syndrome,DOID:0004371,Schnitzler syndrome,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_4371
+Chronic urticaria with gammapathy,,,
+Chronic urticaria with gammopathy,,,
+Chronic urticaria with macroglobulinemia,,,
+Schnitzler's syndrome,,,
+Scleritis,DOID:0013452,scleritis,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_13452
+Sjögren's disease,,,
+SJS,,,
+Sjogren's disease,,,
+Keratoconjunctivitis sicca,DOID:0012895,keratoconjunctivitis sicca,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_12895
+Sicca syndrome,DOID:0012894,Sjogren's syndrome,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_12894
+Sjögrens disease,,,
+Sjögren's syndrome,DOID:0012894,Sjogren's syndrome,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_12894
+SLE glomerulonephritis syndrome,,,
+Lupus nephritis,DOID:0080162,lupus nephritis,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_0080162
+Steroid-responsive encephalopathy associated with autoimmune thyroiditis,,,
+Hashimoto's encephalopathy,,,
+Hashimoto's encephalitis,,,
+Encephalopathy associated with autoimmune thyroid disease,,,
+Nonvasculitic autoimmune meningoecephalitis,,,
+Stiff-person syndrome,DOID:0013366,Stiff-Person syndrome,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_13366
+Moersch-Woltman syndrome,,,
+Stiff man syndrome,DOID:0013366,Stiff-Person syndrome,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_13366
+Stiff person syndrome,,,
+Subacute bacterial endocarditis,DOID:0004562,subacute bacterial endocarditis,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_4562
+Subacute infective endocarditis,,,
+Subacute native valve endocarditis,,,
+Sympathetic uveitis,DOID:0012029,sympathetic ophthalmia,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_12029
+Exciting Eye,,,
+Spared Eye Injury,,,
+Sympathetic ophthalmia,DOID:0012029,sympathetic ophthalmia,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_12029
+Sympathizing Eye,,,
+SLE,,,
+Systemic lupus erythematosus,DOID:0009074,systemic lupus erythematosus,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_9074
+Lupus,DOID:0008857,lupus erythematosus,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_8857
+Systemic mast cell disease,,,
+Systemic sclerosis,DOID:0000418,systemic scleroderma,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_418
+Diffuse Systemic sclerosis,DOID:0001580,diffuse scleroderma,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_1580
+Scleroderma,DOID:0000419,scleroderma,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_419
+Systemic scleroderma,DOID:0000418,systemic scleroderma,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_418
+Limited cutaneous systemic sclerosis,DOID:0001577,limited scleroderma,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_1577
+Systemic sclerosis sine scleroderma,,,
+dcSSc,,,
+lcSSc,,,
+Systemic sclerosis with limited cutaneous involvement,,,
+CREST syndrome,DOID:0060218,CREST syndrome,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_0060218
+Diffuse cutaneous systemic sclerosis,,,
+Takayasu's arteritis,DOID:0002508,Takayasu's arteritis,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_2508
+Takayasu's disease,DOID:0002508,Takayasu's arteritis,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_2508
+GCA,,,
+Temporal arteritis,DOID:0013375,temporal arteritis,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_13375
+Cranial arteritis,,,
+Giant cell arteritis,DOID:0013375,temporal arteritis,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_13375
+Granulomatous arteritis,,,
+Horton's disease,DOID:0013375,temporal arteritis,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_13375
+THS,,,
+Tolosa-Hunt syndrome,DOID:0001278,tolosa-hunt syndrome,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_1278
+Non-specific inflammation of the cavernous sinus,,,
+Non-specific inflammation of the superior orbital fissure,,,
+Painful Ophthalmoplegia,,,
+Transverse myelitis,DOID:0080743,transverse myelitis,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_0080743
+Secondary acute transverse myelitis,,,
+UCTD,,,
+Undifferentiated connective tissue disease,,,
+Undifferentiated connective tissue syndrome,,,
+Urticarial vasculitis,,,
+Uveitis,DOID:0013141,uveitis,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_13141
+Autoimmune uveitis,DOID:0040088,autoimmune uveitis,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_0040088
+Idiopathic uveitis,,,
+Vitiligo,DOID:0012306,vitiligo,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_12306
+Leukoderma,,,
+Vogt-Koyanagi-Harada disease,DOID:0012297,Vogt-Koyanagi-Harada disease,https://www.ebi.ac.uk/ols/ontologies/doid/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FDOID_12297
+Warm autoimmune hemolytic anemia,,,
+Acquired autoimmune hemolytic anemia,,,
+Idiopathic autoimmune hemolytic anemia,,,
+Immune hemolytic anemia,,,
+Immunohemolytic anemia,,,
