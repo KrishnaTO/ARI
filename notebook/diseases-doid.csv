@@ -1,0 +1,740 @@
+﻿ID,Parent,Disease,,
+1,Acquired epidermolysis bullosa,Epidermolysis Bullosa Acquisita,doid:0004313,epidermolysis bullosa acquisita
+1,Acquired epidermolysis bullosa,"Epidermolysis Bullosa, Acquired",#N/A,#N/A
+1,Acquired epidermolysis bullosa,Acquired Epidermolysis Bullosa,doid:0004313,epidermolysis bullosa acquisita
+1,Acquired epidermolysis bullosa,Acquired Form of Epidermolysis Bullosa,#N/A,#N/A
+2,Acquired hemophilia,Acquired hemophilia,0,0
+2,Acquired hemophilia,"Factor 8 deficiency, acquired",#N/A,#N/A
+2,Acquired hemophilia,"Hemophilia A, acquired",#N/A,#N/A
+2,Acquired hemophilia,"Factor VIII deficiency, acquired",#N/A,#N/A
+3,Acute disseminated encephalomyelitis,"Encephalomyelitis, Acute Disseminated",#N/A,#N/A
+3,Acute disseminated encephalomyelitis,Acute Disseminated Encephalomyelitides,#N/A,#N/A
+3,Acute disseminated encephalomyelitis,Acute Disseminated Encephalomyelitis,doid:0000639,acute disseminated encephalomyelitis
+3,Acute disseminated encephalomyelitis,"Disseminated Encephalomyelitis, Acute",#N/A,#N/A
+3,Acute disseminated encephalomyelitis,"Encephalitis, Post-Vaccinal",#N/A,#N/A
+3,Acute disseminated encephalomyelitis,"Encephalitis, Post Vaccinal",#N/A,#N/A
+3,Acute disseminated encephalomyelitis,Post-Vaccinal Encephalitides,#N/A,#N/A
+3,Acute disseminated encephalomyelitis,Post-Vaccinal Encephalitis,#N/A,#N/A
+3,Acute disseminated encephalomyelitis,Post Vaccinal Encephalitis,#N/A,#N/A
+3,Acute disseminated encephalomyelitis,"Encephalitis, Postvaccinal",#N/A,#N/A
+3,Acute disseminated encephalomyelitis,Postvaccinal Encephalitis,#N/A,#N/A
+3,Acute disseminated encephalomyelitis,"Encephalitis, Vaccination",#N/A,#N/A
+3,Acute disseminated encephalomyelitis,Vaccination Encephalitis,#N/A,#N/A
+3,Acute disseminated encephalomyelitis,Post-Vaccinal Encephalomyelitis,#N/A,#N/A
+3,Acute disseminated encephalomyelitis,"Encephalomyelitis, Post-Vaccinal",#N/A,#N/A
+3,Acute disseminated encephalomyelitis,Post-Vaccinal Encephalomyelitides,#N/A,#N/A
+3,Acute disseminated encephalomyelitis,Post Vaccinal Encephalomyelitis,#N/A,#N/A
+3,Acute disseminated encephalomyelitis,Postinfectious Encephalomyelitis,#N/A,#N/A
+3,Acute disseminated encephalomyelitis,"Encephalomyelitis, Postinfectious",#N/A,#N/A
+3,Acute disseminated encephalomyelitis,"Encephalomyelitis, Postexanthem",#N/A,#N/A
+3,Acute disseminated encephalomyelitis,Postexanthem Encephalomyelitis,#N/A,#N/A
+3,Acute disseminated encephalomyelitis,ADEM,doid:0000639,acute disseminated encephalomyelitis
+3,Acute disseminated encephalomyelitis,Hurst's disease,0,0
+3,Acute disseminated encephalomyelitis,Weston-Hurst syndrome,doid:0010992,acute hemorrhagic leukoencephalitis
+3,Acute disseminated encephalomyelitis,Nonvasculitic autoimmune inflammatory meningoencephalitis,0,0
+4,Acute febrile mucocutaneous lymph node syndrome,Mucocutaneous Lymph Node Syndrome,doid:0013378,Kawasaki disease
+4,Acute febrile mucocutaneous lymph node syndrome,Kawasaki Disease,#N/A,#N/A
+4,Acute febrile mucocutaneous lymph node syndrome,Kawasaki Syndrome,0,0
+4,Acute febrile mucocutaneous lymph node syndrome,"Lymph Node Syndrome, Mucocutaneous",#N/A,#N/A
+4,Acute febrile mucocutaneous lymph node syndrome,Acute febrile mucocutaneous lymph node syndrome,doid:0013378,Kawasaki disease
+5,Acute lichenoid pityriasis,Acute lichenoid pityriasis,0,0
+5,Acute lichenoid pityriasis,Pityriasis Lichenoides,#N/A,#N/A
+5,Acute lichenoid pityriasis,Habermann's Disease,#N/A,#N/A
+5,Acute lichenoid pityriasis,"Disease, Habermann's",#N/A,#N/A
+5,Acute lichenoid pityriasis,Habermanns Disease,#N/A,#N/A
+5,Acute lichenoid pityriasis,Habermann Disease,#N/A,#N/A
+5,Acute lichenoid pityriasis,"Disease, Habermann",#N/A,#N/A
+5,Acute lichenoid pityriasis,Pityriasis Lichenoides Chronica,#N/A,#N/A
+5,Acute lichenoid pityriasis,"Pityriasis Lichenoides, Chronic",#N/A,#N/A
+5,Acute lichenoid pityriasis,Chronic Pityriasis Lichenoides,#N/A,#N/A
+5,Acute lichenoid pityriasis,Pityriasis Lichenoides et Varioliformis Acuta,0,0
+5,Acute lichenoid pityriasis,"Pityriasis Lichenoides, Acute",#N/A,#N/A
+5,Acute lichenoid pityriasis,Acute Pityriasis Lichenoides,#N/A,#N/A
+5,Acute lichenoid pityriasis,Mucha-Habermann Disease,0,0
+5,Acute lichenoid pityriasis,"Disease, Mucha-Habermann",#N/A,#N/A
+5,Acute lichenoid pityriasis,Mucha Habermann Disease,#N/A,#N/A
+5,Acute lichenoid pityriasis,PLEVA,0,0
+5,Acute lichenoid pityriasis,Pityriasis lichenoides et varioliformis acuta,0,0
+6,Addison's disease,Addison's disease,doid:0013774,Addison's disease
+6,Addison's disease,Autoimmune adrenalitis,0,0
+6,Addison's disease,Adrenal cortical hypofunction,doid:0010493,adrenal cortical hypofunction
+6,Addison's disease,Adrenal Insufficiency,0,0
+6,Addison's disease,Primary adrenal insufficiency,0,0
+7,Adult onset Still's disease,Adult onset Still's disease,doid:0014256,adult-onset Still's disease
+7,Adult onset Still's disease,Adult Still's disease,0,0
+8,Age related macular degeneration,Age related macular degeneration,doid:0010871,age related macular degeneration
+9,Alopecia areata,Alopecia Totalis,0,0
+9,Alopecia areata,Alopecia areata,doid:0000986,alopecia areata
+9,Alopecia areata,Alopecia Universalis,doid:0050634,alopecia universalis
+10,Angiofollicular lymph node hyperplasia,Angiofollicular lymph node hyperplasia,doid:0111157,Castleman disease
+10,Angiofollicular lymph node hyperplasia,Castleman Disease,doid:0111157,Castleman disease
+10,Angiofollicular lymph node hyperplasia,Castleman's disease,0,0
+11,Ankylosing spondylitis,Ankylosing spondylitis,doid:0007147,ankylosing spondylitis
+11,Ankylosing spondylitis,Axial spondyloarthritis,0,0
+11,Ankylosing spondylitis,Spondyloarthritis,0,0
+12,Anti-glomerular basement membrane disease,Goodpasture syndrome,doid:0009808,Goodpasture syndrome
+12,Anti-glomerular basement membrane disease,Goodpasture disease,0,0
+12,Anti-glomerular basement membrane disease,Anti-glomerular basement membrane nephritis,0,0
+12,Anti-glomerular basement membrane disease,Anti-glomerular basement membrane tubulointerstitial nephritis,0,0
+12,Anti-glomerular basement membrane disease,Anti-glomerular basement membrane disease,doid:0009808,Goodpasture syndrome
+12,Anti-glomerular basement membrane disease,Anti-glomerular basement membrane disease,doid:0009808,Goodpasture syndrome
+12,Anti-glomerular basement membrane disease,Anti-GBM disease,doid:0009808,Goodpasture syndrome
+12,Anti-glomerular basement membrane disease,Goodpasture's disease,0,0
+12,Anti-glomerular basement membrane disease,Goodpasture's syndrome,0,0
+13,Antineutrophil cytoplasmic antibody positive vasculitis,Churg-Strauss syndrome,doid:0003049,Churg-Strauss syndrome
+13,Antineutrophil cytoplasmic antibody positive vasculitis,Granulomatosis with polyangiitis,doid:0012132,granulomatosis with polyangiitis
+13,Antineutrophil cytoplasmic antibody positive vasculitis,Wegener's Granulomatosis,0,0
+13,Antineutrophil cytoplasmic antibody positive vasculitis,Antineutrophil cytoplasmic antibody positive vasculitis,0,0
+13,Antineutrophil cytoplasmic antibody positive vasculitis,ANCA vasculitis,0,0
+13,Antineutrophil cytoplasmic antibody positive vasculitis,Eosinophilic granulomatosis with polyangiitis,0,0
+13,Antineutrophil cytoplasmic antibody positive vasculitis,ANCA-associated vasculitis,0,0
+13,Antineutrophil cytoplasmic antibody positive vasculitis,Anti-neutrophil cytoplasmic antibody-associated vasculitis,0,0
+13,Antineutrophil cytoplasmic antibody positive vasculitis,Churg Strauss syndrome,0,0
+14,Antiphospholipid syndrome,Antiphospholipid syndrome,doid:0002988,antiphospholipid syndrome
+14,Antiphospholipid syndrome,aCL syndrome,0,0
+14,Antiphospholipid syndrome,Anticardiolipin antibody syndrome,0,0
+14,Antiphospholipid syndrome,Hughes syndrome,0,0
+14,Antiphospholipid syndrome,Lupus anticoagulant syndrome,0,0
+15,Antisynthetase syndrome,Antisynthetase syndrome,doid:0080744,antisynthetase syndrome
+15,Antisynthetase syndrome,Anti-Jo1 syndrome,0,0
+16,Aplastic anemia,Aplastic anemia,doid:0012449,aplastic anemia
+17,Autoimmune angioedema,Autoimmune angioedema,0,0
+17,Autoimmune angioedema,Acquired angiodema,0,0
+18,Autoimmune disorder of inner ear,Ménière's disease,#N/A,#N/A
+18,Autoimmune disorder of inner ear,Autoimmune disorder of inner ear,0,0
+19,Autoimmune encephalitis,Autoimmune encephalitis,0,0
+19,Autoimmune encephalitis,Bickerstaff's brainstem encephalitis,0,0
+19,Autoimmune encephalitis,Bickerstaff encephalitis,0,0
+19,Autoimmune encephalitis,Bickerstaff's encephalitis,0,0
+20,Autoimmune encephalitis caused by N-methyl D-aspartate receptor antibody,Limbic encephalitis with N-methyl-D-aspartate receptor antibodies,0,0
+20,Autoimmune encephalitis caused by N-methyl D-aspartate receptor antibody,Anti-NMDA receptor encephalitis,0,0
+20,Autoimmune encephalitis caused by N-methyl D-aspartate receptor antibody,Anti-N-methyl-D-aspartate receptor encephalitis,0,0
+20,Autoimmune encephalitis caused by N-methyl D-aspartate receptor antibody,Autoimmune encephalitis caused by N-methyl D-aspartate receptor antibody,0,0
+20,Autoimmune encephalitis caused by N-methyl D-aspartate receptor antibody,Anti-NMDA Encephalitis,0,0
+21,Autoimmune gastritis,Macrocytic Anemia,doid:0002361,macrocytic anemia
+21,Autoimmune gastritis,Megaloblastic Anemia,doid:0013382,megaloblastic anemia
+21,Autoimmune gastritis,Pernicious anemia,doid:0013381,pernicious anemia
+21,Autoimmune gastritis,Autoimmune gastritis,doid:0040090,autoimmune gastritis
+21,Autoimmune gastritis,Atrophic gastritis,doid:0008929,atrophic gastritis
+21,Autoimmune gastritis,Autoimmune atrophic gastritis,0,0
+21,Autoimmune gastritis,Eosinophilic gastritis,doid:0004030,eosinophilic gastritis
+21,Autoimmune gastritis,Autoimmune enteropathy,0,0
+22,Autoimmune hemolytic anemia,Autoimmune hemolytic anemia,doid:0000718,autoimmune hemolytic anemia
+22,Autoimmune hemolytic anemia,Autoimmune hemolytic anemia mixed type,0,0
+23,Autoimmune hepatitis,Autoimmune hepatitis,doid:0002048,autoimmune hepatitis
+23,Autoimmune hepatitis,Autoimmune hepatitis type 1,0,0
+23,Autoimmune hepatitis,Autoimmune hepatitis type 2,0,0
+23,Autoimmune hepatitis,Autoimmune hepatitis type 3,0,0
+23,Autoimmune hepatitis,Chronic autoimmune hepatitis,0,0
+24,Autoimmune lymphoproliferative syndrome,Autoimmune lymphoproliferative syndrome,doid:0006688,autoimmune lymphoproliferative syndrome
+24,Autoimmune lymphoproliferative syndrome,Canale-Smith syndrome,doid:0006688,autoimmune lymphoproliferative syndrome
+25,Autoimmune neutropenia,Autoimmune neutropenia,0,0
+25,Autoimmune neutropenia,Primary autoimmune neutropenia,0,0
+25,Autoimmune neutropenia,Autoimmune neutropenia of infancy,0,0
+26,Autoimmune oophoritis,Autoimmune oophoritis,0,0
+26,Autoimmune oophoritis,Premature ovarian failure due to autoimmune oophoritis,0,0
+27,Autoimmune pancreatitis,Autoimmune pancreatitis,doid:0040091,autoimmune pancreatitis
+27,Autoimmune pancreatitis,Lymphoplasmocytic sclerosing pancreatitis,0,0
+27,Autoimmune pancreatitis,Nonalcoholic destructive pancreatitis,0,0
+27,Autoimmune pancreatitis,Tumefactive pancreatitis,0,0
+27,Autoimmune pancreatitis,Autoimmune pancreatitis type 1,0,0
+27,Autoimmune pancreatitis,Autoimmune pancreatitis type 2,0,0
+28,Autoimmune progesterone dermatitis,APD,0,0
+28,Autoimmune progesterone dermatitis,Autoimmune progesterone dermatitis,0,0
+29,Autoimmune retinopathy,Autoimmune retinopathy,0,0
+30,Birdshot chorioretinopathy,Birdshot chorioretinopathy,doid:0111079,birdshot chorioretinopathy
+30,Birdshot chorioretinopathy,Birdshot retinopathy,0,0
+30,Birdshot chorioretinopathy,Birdshot chorioretinitis,doid:0111079,birdshot chorioretinopathy
+31,Autoimmune thyroiditis,Hashimoto thyroiditis,doid:0007188,autoimmune thyroiditis
+31,Autoimmune thyroiditis,Hashimoto's disease,doid:0007188,autoimmune thyroiditis
+31,Autoimmune thyroiditis,Ord's thyroiditis,0,0
+31,Autoimmune thyroiditis,Autoimmune thyroiditis,doid:0007188,autoimmune thyroiditis
+31,Autoimmune thyroiditis,Autoimmune thyroiditis,doid:0007188,autoimmune thyroiditis
+31,Autoimmune thyroiditis,Autoimmune thyroiditis,doid:0007188,autoimmune thyroiditis
+31,Autoimmune thyroiditis,Chronic lymphocytic thyroiditis,doid:0007188,autoimmune thyroiditis
+31,Autoimmune thyroiditis,Hashimoto's thyroiditis,doid:0007188,autoimmune thyroiditis
+32,Autoimmune urticaria,Autoimmune urticaria,0,0
+32,Autoimmune urticaria,Chronic idiopathic urticaria,doid:0080749,chronic spontaneous urticaria
+32,Autoimmune urticaria,Chronic urticaria,doid:0080747,chronic urticaria
+32,Autoimmune urticaria,Physical urticaria,doid:0060220,physical urticaria
+33,Autoimmune urticaria and/or angioedema,Autoimmune urticaria and/or angioedema,0,0
+34,Autoimmune vasculitis,Autoimmune vasculitis,doid:0040097,autoimmune vasculitis
+35,Balo concentric sclerosis,Balo concentric sclerosis,doid:0060215,Balo concentric sclerosis
+35,Balo concentric sclerosis,Concentric sclerosis,0,0
+35,Balo concentric sclerosis,Encephalitis periaxialis concentrica,doid:0010588,adrenoleukodystrophy
+35,Balo concentric sclerosis,Leukoencephalitis periaxialis concentric,0,0
+35,Balo concentric sclerosis,Tumefactive multiple sclerosis,doid:0060215,Balo concentric sclerosis
+36,Behçet's syndrome,Behçet's syndrome,#N/A,#N/A
+36,Behçet's syndrome,Behcet's syndrome,doid:0013241,Behcet's disease
+36,Behçet's syndrome,Behçet's disease,#N/A,#N/A
+36,Behçet's syndrome,Morbus Adamandiades-Behçet,#N/A,#N/A
+36,Behçet's syndrome,Hughes Stovin syndrome,0,0
+36,Behçet's syndrome,Hughes-Stovin syndrome,0,0
+37,Benign mucous membrane pemphigoid,Benign mucous membrane pemphigoid,doid:0011656,cicatricial pemphigoid
+37,Benign mucous membrane pemphigoid,Cicatricial pemphigoid,doid:0011656,cicatricial pemphigoid
+37,Benign mucous membrane pemphigoid,Mucous membrane pemphigoid,0,0
+37,Benign mucous membrane pemphigoid,Ocular pemphigoid,doid:0011656,cicatricial pemphigoid
+37,Benign mucous membrane pemphigoid,Scarring pemphigoid,0,0
+37,Benign mucous membrane pemphigoid,Ocular cicatricial pemphigoid,0,0
+38,Bullous pemphigoid,Bullous pemphigoid,doid:0008506,bullous pemphigoid
+38,Bullous pemphigoid,Bullous pemphigoid,doid:0008506,bullous pemphigoid
+39,Cataplexy and narcolepsy,Cataplexy and narcolepsy,0,0
+39,Cataplexy and narcolepsy,Narcolepsy type 1,0,0
+40,Celiac disease,Adult form of celiac disease,0,0
+40,Celiac disease,Celiac disease,doid:0010608,celiac disease
+40,Celiac disease,Celiac sprue,doid:0010608,celiac disease
+40,Celiac disease,Coeliac disease,doid:0010608,celiac disease
+40,Celiac disease,Gluten-induced enteropathy,0,0
+40,Celiac disease,Gluten-sensitive enteropathy,0,0
+40,Celiac disease,Nontropical sprue,0,0
+41,Chronic Fatigue Syndrome,Chronic Fatigue Syndrome,doid:0008544,chronic fatigue syndrome
+41,Chronic Fatigue Syndrome,Myalgic encephalomyelitis,doid:0008544,chronic fatigue syndrome
+41,Chronic Fatigue Syndrome,Systemic exertion intolerance disease,0,0
+42,Chronic inflammatory demyelinating polyradiculoneuropathy,Chronic inflammatory demyelinating polyradiculoneuropathy,doid:0005213,chronic inflammatory demyelinating polyradiculoneuropathy
+42,Chronic inflammatory demyelinating polyradiculoneuropathy,Chronic inflammatory demyelinating polyneuritis,doid:0002536,chronic inflammatory demyelinating polyneuritis
+42,Chronic inflammatory demyelinating polyradiculoneuropathy,Chronic inflammatory demyelinating polyneuropathy,0,0
+42,Chronic inflammatory demyelinating polyradiculoneuropathy,Chronic relapsing polyneuropathy,0,0
+42,Chronic inflammatory demyelinating polyradiculoneuropathy,Chronic inflammatory demyelinating polyradiculoneuropathy with central nervous system demyelination,0,0
+43,Chronic interstitial cystitis,Chronic interstitial cystitis,doid:0001678,chronic interstitial cystitis
+43,Chronic interstitial cystitis,IC,0,0
+43,Chronic interstitial cystitis,PBS,0,0
+43,Chronic interstitial cystitis,Bladder pain syndrome,0,0
+43,Chronic interstitial cystitis,Painful bladder syndrome,0,0
+44,Chronic Lyme disease,Lyme disease,doid:0011729,Lyme disease
+44,Chronic Lyme disease,Chronic Lyme disease,0,0
+44,Chronic Lyme disease,Erythema Migrans with Polyarthritis,0,0
+44,Chronic Lyme disease,Lyme Arthritis,0,0
+44,Chronic Lyme disease,Lyme Borreliosis,doid:0011729,Lyme disease
+45,Chronic multifocal osteomyelitis,Chronic multifocal osteomyelitis,doid:0060645,chronic recurrent multifocal osteomyelitis
+46,Chronic post-COVID-19 syndrome,Chronic post-COVID-19 syndrome,0,0
+46,Chronic post-COVID-19 syndrome,COVID Long-Hauler,0,0
+46,Chronic post-COVID-19 syndrome,Long COVID,doid:0080848,long COVID
+46,Chronic post-COVID-19 syndrome,Post-acute COVID-19,0,0
+46,Chronic post-COVID-19 syndrome,Post-Acute Sequelae of COVID-19,0,0
+47,Cogan's syndrome,Cogan's syndrome,doid:0060216,Cogan syndrome
+47,Cogan's syndrome,Diffuse interstitial keratitis,doid:0013353,diffuse interstitial keratitis
+48,Cold agglutinin disease,CAD,0,0
+48,Cold agglutinin disease,Cold agglutinin disease,0,0
+48,Cold agglutinin disease,"Anemia, hemolytic cold antibody",0,0
+48,Cold agglutinin disease,Cold antibody disease,0,0
+48,Cold agglutinin disease,Cold antibody hemolytic anemia,0,0
+48,Cold agglutinin disease,Cold autoimmune hemolytic anemia,0,0
+49,Complex regional pain syndrome,Complex regional pain syndrome,doid:0003223,complex regional pain syndrome
+49,Complex regional pain syndrome,Amplified musculoskeletal pain syndrome,0,0
+49,Complex regional pain syndrome,Causalgia,doid:0003222,causalgia
+49,Complex regional pain syndrome,Complex regional pain syndrome type 2,0,0
+49,Complex regional pain syndrome,Complex regional pain syndrome type II,0,0
+49,Complex regional pain syndrome,Complex regional pain syndrome type 1,0,0
+49,Complex regional pain syndrome,Complex regional pain syndrome type I,0,0
+49,Complex regional pain syndrome,Reflex sympathetic dystrophy,doid:0001811,reflex sympathetic dystrophy
+50,Crohn's disease,Crohn's disease,doid:0008778,Crohn's disease
+50,Crohn's disease,Crohn's colitis,doid:0060192,Crohn's colitis
+50,Crohn's disease,Crohn's granulomatous,0,0
+50,Crohn's disease,Gastroduodenal Crohn's disease,doid:0060191,gastroduodenal Crohn's disease
+50,Crohn's disease,Ileocolitis,doid:0060190,ileocolitis
+50,Crohn's disease,Illeitis,0,0
+50,Crohn's disease,Jejunoileitis,doid:0060188,jejunoileitis
+51,Cryptogenic organizing pneumonia,Cryptogenic organizing pneumonia,doid:0050157,cryptogenic organizing pneumonia
+51,Cryptogenic organizing pneumonia,Bronchiolitis obliterans with organizing pneumonia,0,0
+51,Cryptogenic organizing pneumonia,idiopathic interstitial pneumonia,doid:0002797,idiopathic interstitial pneumonia
+51,Cryptogenic organizing pneumonia,Interstitial pneumonia,0,0
+52,Cutaneous lupus erythematosus,Cutaneous lupus erythematosus,doid:0050169,cutaneous lupus erythematosus
+52,Cutaneous lupus erythematosus,Discoid lupus,0,0
+52,Cutaneous lupus erythematosus,Discoid lupus erythematosus,0,0
+52,Cutaneous lupus erythematosus,Lupus erythematosus tumidus,0,0
+52,Cutaneous lupus erythematosus,Chronic discoid lupus erythematosus,0,0
+52,Cutaneous lupus erythematosus,Subacute cutaneous lupus erythematosus,0,0
+52,Cutaneous lupus erythematosus,Discoid lupus erythematosus of oral mucosa,0,0
+53,Cutaneous mastocytosis,Cutaneous mastocytosis,doid:0003663,cutaneous mastocytosis
+54,Dermatitis herpetiformis,Dermatitis herpetiformis,doid:0008505,dermatitis herpetiformis
+54,Dermatitis herpetiformis,DH,0,0
+54,Dermatitis herpetiformis,Duhring-Brocq disease,0,0
+54,Dermatitis herpetiformis,Duhring's disease,doid:0008505,dermatitis herpetiformis
+54,Dermatitis herpetiformis,Gluten rash,0,0
+55,Dermatomyositis,Juvenile dermatomyositis,doid:0014203,childhood type dermatomyositis
+55,Dermatomyositis,Dermatomyositis,doid:0010223,dermatomyositis
+56,Diabetes mellitus type 1,Diabetes mellitus type 1,0,0
+56,Diabetes mellitus type 1,Insulin dependent Diabetes,0,0
+56,Diabetes mellitus type 1,Juvenile diabetes,0,0
+56,Diabetes mellitus type 1,Type 1 diabetes,0,0
+56,Diabetes mellitus type 1,Type 1 diabetes mellitus,doid:0009744,type 1 diabetes mellitus
+57,Eaton-Lambert syndrome,Eaton-Lambert syndrome,doid:0050214,Lambert-Eaton myasthenic syndrome
+57,Eaton-Lambert syndrome,LEMS,doid:0050214,Lambert-Eaton myasthenic syndrome
+57,Eaton-Lambert syndrome,Lambert-Eaton myasthenic syndrome,doid:0050214,Lambert-Eaton myasthenic syndrome
+57,Eaton-Lambert syndrome,Lambert-Eaton syndrome,doid:0050214,Lambert-Eaton myasthenic syndrome
+58,Endometriosis,Endometriosis,doid:0000289,endometriosis
+58,Endometriosis,Adenomyometritis,0,0
+58,Endometriosis,Adenomyosis,doid:0000288,endometriosis of uterus
+58,Endometriosis,Adenomysis uteri,0,0
+58,Endometriosis,Endometriosis Uterina,0,0
+59,Enthesitis,Enthesitis,0,0
+59,Enthesitis,Enthesitis-related arthritis,0,0
+59,Enthesitis,Enthesitis-related juvenile arthritis,0,0
+60,Eosinophilic esophagitis,Eosinophilic esophagitis,doid:0013922,eosinophilic esophagitis
+61,Epilepsy,Epilepsy,doid:0001826,epilepsy
+62,Episcleritis,Episcleritis,0,0
+63,Erythema nodosum,EN,0,0
+63,Erythema nodosum,Erythema nodosum,doid:0080750,erythema nodosum
+63,Erythema nodosum,Erythema nodosum of unknown etiology,0,0
+63,Erythema nodosum,Idiopathic erythema nodosum,0,0
+64,Essential mixed cryoglobulinemia,Essential mixed cryoglobulinemia,0,0
+64,Essential mixed cryoglobulinemia,Autoimmune cryoglobulinemia,0,0
+64,Essential mixed cryoglobulinemia,Cryoglobulinemic Vasculitis,0,0
+65,Evans syndrome,Evans syndrome,0,0
+66,Fasciitis with eosinophilia syndrome,Fasciitis with eosinophilia syndrome,0,0
+66,Fasciitis with eosinophilia syndrome,Eosinophilic fasciitis,0,0
+66,Fasciitis with eosinophilia syndrome,Pansclerotic morphea with deep fascial involvement,0,0
+66,Fasciitis with eosinophilia syndrome,Shulman syndrome,0,0
+66,Fasciitis with eosinophilia syndrome,Shulman's syndrome,0,0
+67,Felty syndrome,Felty syndrome,doid:0011042,Felty's syndrome
+67,Felty syndrome,FS,0,0
+67,Felty syndrome,Felty's syndrome,doid:0011042,Felty's syndrome
+67,Felty syndrome,Super rheumatoid disease,0,0
+68,Female infertility due to antisperm antibodies,Infertility due to antisperm antibodies,0,0
+68,Female infertility due to antisperm antibodies,Female infertility due to antisperm antibodies,0,0
+69,Fibromyalgia,Fibromyalgia,doid:0000631,fibromyalgia
+69,Fibromyalgia,Fibromyalgia Syndrome,0,0
+70,Graves' disease,Thyrotoxicosis,doid:0007997,thyrotoxicosis
+70,Graves' disease,Thyrotoxicosis due to Graves' disease,0,0
+70,Graves' disease,Graves' disease,doid:0012361,Graves' disease
+70,Graves' disease,Autoimmune hyperthyroidism,0,0
+70,Graves' disease,Basedow disease,0,0
+70,Graves' disease,Exophthalmic goiter,doid:0012361,Graves' disease
+70,Graves' disease,Graves' hyperthyroidism,0,0
+70,Graves' disease,Parry disease,0,0
+70,Graves' disease,Toxic diffuse goiter,doid:0010719,toxic diffuse goiter
+71,Guillain-Barré syndrome,MFS,0,0
+71,Guillain-Barré syndrome,Fisher syndrome,0,0
+71,Guillain-Barré syndrome,Miller-Fisher syndrome,doid:0012889,Miller Fisher syndrome
+71,Guillain-Barré syndrome,Miller Fisher syndrome,doid:0012889,Miller Fisher syndrome
+71,Guillain-Barré syndrome,Guillain-Barré syndrome,#N/A,#N/A
+71,Guillain-Barré syndrome,Guillain-Barre Syndrome,doid:0012842,Guillain-Barre syndrome
+71,Guillain-Barré syndrome,GBS,0,0
+71,Guillain-Barré syndrome,Acute motor axonal neuropathy,0,0
+71,Guillain-Barré syndrome,Axonal Guillain-Barré syndrome,#N/A,#N/A
+71,Guillain-Barré syndrome,Progressive inflammatory neuropathy,0,0
+72,Herpes gestationis,Herpes gestationis,doid:0014482,pemphigoid gestationis
+72,Herpes gestationis,PG,0,0
+72,Herpes gestationis,Gestational pemphigoid,0,0
+72,Herpes gestationis,Pemphigoid gestationis,doid:0014482,pemphigoid gestationis
+73,Hidradenitis suppurativa,Hidradenitis suppurativa,doid:0002280,hidradenitis suppurativa
+73,Hidradenitis suppurativa,Acne inversa,0,0
+73,Hidradenitis suppurativa,Suppurative hidradenitis,0,0
+74,Hypersensitivity angiitis,Hypersensitivity angiitis,0,0
+74,Hypersensitivity angiitis,LCV,0,0
+74,Hypersensitivity angiitis,Cutaneous Leukocytoclastic vasculitis,0,0
+74,Hypersensitivity angiitis,Hypersensitivity Vasculitis,doid:0009809,hypersensitivity vasculitis
+74,Hypersensitivity angiitis,Leucocytoclastic vasculitis,0,0
+75,Idiopathic pulmonary fibrosis,Idiopathic pulmonary fibrosis,doid:0050156,idiopathic pulmonary fibrosis
+75,Idiopathic pulmonary fibrosis,Interstitial pulmonary fibrosis,0,0
+76,IgA nephropathy,IgA nephropathy,doid:0002986,IgA glomerulonephritis
+76,IgA nephropathy,Berger's Disease,0,0
+77,Immune thrombocytopenia,Immune thrombocytopenia,doid:0001587,thrombocytopenia due to platelet alloimmunization
+77,Immune thrombocytopenia,Autoimmune thrombocytopenic purpura,doid:0008924,autoimmune thrombocytopenic purpura
+77,Immune thrombocytopenia,ATP,0,0
+77,Immune thrombocytopenia,Chronic idiopathic thrombocytopenic purpura,0,0
+77,Immune thrombocytopenia,ITP,0,0
+77,Immune thrombocytopenia,Idiopathic thrombocytopenic purpura,doid:0008924,autoimmune thrombocytopenic purpura
+77,Immune thrombocytopenia,Primary immune thrombocytopenia,0,0
+77,Immune thrombocytopenia,Secondary autoimmune thrombocytopenia,0,0
+77,Immune thrombocytopenia,Autoimmune neonatal thrombocytopenia,0,0
+77,Immune thrombocytopenia,Autoimmune thrombotic thrombocytopenic purpura,0,0
+78,Immunoglobulin A vasculitis,Immunoglobulin A vasculitis,doid:0011123,IgA vasculitis
+78,Immunoglobulin A vasculitis,Henoch-Schönlein purpura,#N/A,#N/A
+78,Immunoglobulin A vasculitis,Anaphylactoid purpura,0,0
+78,Immunoglobulin A vasculitis,Henoch-Schonlein purpura,doid:0011123,IgA vasculitis
+78,Immunoglobulin A vasculitis,IgA vasculitis,doid:0011123,IgA vasculitis
+78,Immunoglobulin A vasculitis,Purpura rheumatica,0,0
+79,Immunoglobulin G4 related disease,IgG4 deficiency,0,0
+79,Immunoglobulin G4 related disease,IgG4-related sclerosing cholangitis,0,0
+79,Immunoglobulin G4 related disease,Eosinophilic angiocentric fibrosis,0,0
+79,Immunoglobulin G4 related disease,Hyper-IgG4 disease,0,0
+79,Immunoglobulin G4 related disease,Idiopathic hypocomplementemic tubulointerstitial nephritis,0,0
+79,Immunoglobulin G4 related disease,Idiopathic retroperitoneal Fibrosis,0,0
+79,Immunoglobulin G4 related disease,IgG4-related diseases,doid:0080356,IgG4-related disease
+79,Immunoglobulin G4 related disease,IgG4-related retroperitoneal fibrosis,0,0
+79,Immunoglobulin G4 related disease,IgG4-related systemic disease,0,0
+79,Immunoglobulin G4 related disease,Immunoglobulin G4 related disease,0,0
+79,Immunoglobulin G4 related disease,Inflammatory aortic aneurysm,0,0
+79,Immunoglobulin G4 related disease,Inflammatory pseudotumor,0,0
+79,Immunoglobulin G4 related disease,Küttner's tumor,#N/A,#N/A
+79,Immunoglobulin G4 related disease,Mediastinal fibrosis,0,0
+79,Immunoglobulin G4 related disease,Mikulicz's syndrome,0,0
+79,Immunoglobulin G4 related disease,Multifocal fibrosclerosis,0,0
+79,Immunoglobulin G4 related disease,Ormond's disease,0,0
+79,Immunoglobulin G4 related disease,Periaortitis,0,0
+79,Immunoglobulin G4 related disease,Periarteritis,0,0
+79,Immunoglobulin G4 related disease,Retroperitoneal fibrosis,0,0
+79,Immunoglobulin G4 related disease,Riedel's thyroiditis,0,0
+80,Inclusion Body Myositis,Inclusion Body Myositis,doid:0003429,inclusion body myositis
+80,Inclusion Body Myositis,IBM,0,0
+80,Inclusion Body Myositis,sIBM,0,0
+80,Inclusion Body Myositis,Sporadic Inclusion Body Myositis,0,0
+81,Inclusion body myositis,Inclusion body myositis,doid:0003429,inclusion body myositis
+82,Inflammatory Bowel Disease,Crohn's disease,doid:0008778,Crohn's disease
+82,Inflammatory Bowel Disease,Inflammatory Bowel Disease,doid:0050589,inflammatory bowel disease
+82,Inflammatory Bowel Disease,Microscopic colitis,doid:0060182,microscopic colitis
+82,Inflammatory Bowel Disease,Ulcerative colitis,doid:0008577,ulcerative colitis
+83,Intermediate uveitis,Pars planitis,doid:0012731,pars planitis
+83,Intermediate uveitis,Intermediate uveitis,doid:0012732,intermediate uveitis
+83,Intermediate uveitis,IU,0,0
+83,Intermediate uveitis,Chronic cyclitis,doid:0012732,intermediate uveitis
+83,Intermediate uveitis,Cyclochorioretinitis,0,0
+83,Intermediate uveitis,Peripheral Uveitis,0,0
+83,Intermediate uveitis,Peripheral uveoretinitis,doid:0012732,intermediate uveitis
+83,Intermediate uveitis,Vitritis,0,0
+84,Interstitial lung disease,Cryptogenic organizing pneumonia,doid:0050157,cryptogenic organizing pneumonia
+84,Interstitial lung disease,Idiopathic pulmonary fibrosis,doid:0050156,idiopathic pulmonary fibrosis
+84,Interstitial lung disease,Interstitial lung disease,doid:0003082,interstitial lung disease
+85,Juvenile Rheumatoid Arthritis,Juvenile chronic arthritis,0,0
+85,Juvenile Rheumatoid Arthritis,JIA,0,0
+85,Juvenile Rheumatoid Arthritis,JRA,0,0
+85,Juvenile Rheumatoid Arthritis,Juvenile Rheumatoid Arthritis,doid:0000676,systemic juvenile rheumatoid arthritis
+85,Juvenile Rheumatoid Arthritis,Juvenile arthritis,0,0
+85,Juvenile Rheumatoid Arthritis,Juvenile idiopathic arthritis,doid:0000676,systemic juvenile rheumatoid arthritis
+85,Juvenile Rheumatoid Arthritis,Pediatric rheumatic disease,0,0
+86,Lichen planus,Lichen planus,doid:0009201,lichen planus
+87,Lichen sclerosus,Lichen sclerosus et atrophicus,0,0
+87,Lichen sclerosus,Lichen sclerosus,0,0
+87,Lichen sclerosus,Balanitis xerotica obliterans,doid:0013477,balanitis xerotica obliterans
+88,Ligneous conjunctivitis,Ligneous conjunctivitis,0,0
+88,Ligneous conjunctivitis,Adult Onset Ligneous conjunctivitis,0,0
+88,Ligneous conjunctivitis,Autoimmune ligneous conjunctivitis,0,0
+88,Ligneous conjunctivitis,Conjunctivitis lignose,0,0
+89,Linear IgA dermatosis,Linear IgA dermatosis,0,0
+89,Linear IgA dermatosis,Chronic bullous dermatosis of childhood,0,0
+89,Linear IgA dermatosis,Linear IgA bullous disease,0,0
+89,Linear IgA dermatosis,Linear IgA disease,0,0
+90,Lipomatosis dolorosa,Lipomatosis dolorosa,0,0
+90,Lipomatosis dolorosa,Adiposis dolorosa,doid:0003928,adiposis dolorosa
+90,Lipomatosis dolorosa,Anders disease,0,0
+90,Lipomatosis dolorosa,Dercum's disease,0,0
+90,Lipomatosis dolorosa,Fatty tissue rheumatism,0,0
+90,Lipomatosis dolorosa,Juxta-Articular adiposis dolorosa,0,0
+90,Lipomatosis dolorosa,Lipomatosis dolorosa morbus dercum's,0,0
+91,Lupus vasculitis,Lupus vasculitis,0,0
+92,Male infertility associated with antisperm antibodies,Male infertility associated with antisperm antibodies,0,0
+92,Male infertility associated with antisperm antibodies,Autoimmune orchitis,0,0
+93,Microscopic colitis,Microscopic colitis,doid:0060182,microscopic colitis
+94,Microscopic polyangiitis,Microscopic polyangiitis,0,0
+94,Microscopic polyangiitis,MPA,0,0
+94,Microscopic polyangiitis,Microscopic polyarteritis,0,0
+95,Mixed collagen vascular disease,MCTD,0,0
+95,Mixed collagen vascular disease,Mixed collagen vascular disease,doid:0003492,mixed connective tissue disease
+95,Mixed collagen vascular disease,Mixed connective tissue disease,doid:0003492,mixed connective tissue disease
+95,Mixed collagen vascular disease,Sharp Syndrome,0,0
+96,Mooren's ulcer,Mooren's ulcer,doid:0010439,Mooren's ulcer
+96,Mooren's ulcer,Corneal Ulcer,doid:0008463,corneal ulcer
+96,Mooren's ulcer,Peripheral Ulcerative Keratitis,0,0
+97,Morphea,Localized scleroderma,doid:0008472,localized scleroderma
+97,Morphea,Morphea,doid:0008472,localized scleroderma
+98,Moyamoya disease,Moyamoya disease,doid:0013099,Moyamoya disease
+98,Moyamoya disease,Cerebrovascular moyamoya disease,0,0
+98,Moyamoya disease,Moya-moya disease,doid:0013099,Moyamoya disease
+98,Moyamoya disease,Progressive intracranial arterial occlusion,doid:0013099,Moyamoya disease
+98,Moyamoya disease,Progressive intracranial occlusive arteriopathy,0,0
+98,Moyamoya disease,Spontaneous occlusion of the Circle of Willis,0,0
+99,Multiple sclerosis,Multiple sclerosis,doid:0002377,multiple sclerosis
+99,Multiple sclerosis,Disseminated sclerosis,0,0
+99,Multiple sclerosis,Schilders disease,0,0
+99,Multiple sclerosis,"Systemic sclerosis, diffuse",doid:0001580,diffuse scleroderma
+99,Multiple sclerosis,Relapsing-remitting multiple sclerosis,doid:0002378,relapsing-remitting multiple sclerosis
+99,Multiple sclerosis,Primary progressive multiple sclerosis,doid:0050784,primary progressive multiple sclerosis
+100,Myasthenia gravis,MG,0,0
+100,Myasthenia gravis,Myasthenia gravis,doid:0000437,myasthenia gravis
+100,Myasthenia gravis,Acquired myasthenia,0,0
+100,Myasthenia gravis,Autoimmune myasthenia gravis,0,0
+101,Myelin oligodendrocyte glycoprotein antibody-associated disease,Polyneuropathy associated with monoclonal immunoglobulin M antibodies to myelin-associated glycoprotein,0,0
+101,Myelin oligodendrocyte glycoprotein antibody-associated disease,MOG,0,0
+101,Myelin oligodendrocyte glycoprotein antibody-associated disease,Myelin oligodendrocyte glycoprotein antibody-associated disease,0,0
+101,Myelin oligodendrocyte glycoprotein antibody-associated disease,Anti-MAG disease,0,0
+101,Myelin oligodendrocyte glycoprotein antibody-associated disease,Anti-MOG disease,0,0
+101,Myelin oligodendrocyte glycoprotein antibody-associated disease,MOG antibody disease,0,0
+101,Myelin oligodendrocyte glycoprotein antibody-associated disease,Myelin oligodendrocyte glycoprotein disease,0,0
+102,Myocarditis due to autoimmune disease,Coxsackie myocarditis,0,0
+102,Myocarditis due to autoimmune disease,Myocarditis due to autoimmune disease,0,0
+102,Myocarditis due to autoimmune disease,Autoimmune cardiomyopathy,doid:0040095,autoimmune cardiomyopathy
+102,Myocarditis due to autoimmune disease,Autoimmune myocarditis,doid:0080767,autoimmune myocarditis
+103,Myositis,Myositis,doid:0000633,myositis
+103,Myositis,Juvenile myositis,0,0
+103,Myositis,Idiopathic inflammatory myopathies,0,0
+103,Myositis,Idiopathic inflammatory myopathy,0,0
+103,Myositis,autoimmune necrotizing myopathy,0,0
+103,Myositis,autoimmune myopathy,0,0
+104,Necrotizing vasculitis,Necrotizing vasculitis,0,0
+105,Neuralgic amyotrophy,Acute brachial neuritis,0,0
+105,Neuralgic amyotrophy,Brachial neuritis,doid:0003689,brachial plexus neuritis
+105,Neuralgic amyotrophy,Brachial neuropathy,0,0
+105,Neuralgic amyotrophy,Brachial plexitis,0,0
+105,Neuralgic amyotrophy,Brachial plexus disorder,doid:0003690,brachial plexus neuropathy
+105,Neuralgic amyotrophy,Brachial plexus neuritis,doid:0003689,brachial plexus neuritis
+105,Neuralgic amyotrophy,Brachial radiculitis,0,0
+105,Neuralgic amyotrophy,Idiopathic brachial neuritis,0,0
+105,Neuralgic amyotrophy,Idiopathic brachial plexus neuropathy,0,0
+105,Neuralgic amyotrophy,Neuralgic amyotrophy,doid:0010383,amyotrophic neuralgia
+105,Neuralgic amyotrophy,Parsonage-Turner Syndrome,0,0
+106,Neuromyelitis optica,Neuromyelitis optica,doid:0008869,neuromyelitis optica
+106,Neuromyelitis optica,NMO,0,0
+106,Neuromyelitis optica,NMOSD,0,0
+106,Neuromyelitis optica,Devic's disease,doid:0008869,neuromyelitis optica
+106,Neuromyelitis optica,Devic's syndrome,doid:0008869,neuromyelitis optica
+106,Neuromyelitis optica,Neuromyelitis optica spectrum Disorder,0,0
+106,Neuromyelitis optica,Optic neuromyelitis,0,0
+106,Neuromyelitis optica,Opticomyelitis,0,0
+106,Neuromyelitis optica,Opticospinal MS,0,0
+107,Neuromyotonia,Neuromyotonia,0,0
+107,Neuromyotonia,NMT,0,0
+107,Neuromyotonia,Neuromyotonia,0,0
+107,Neuromyotonia,Continuous muscle fiber activity syndrome,0,0
+107,Neuromyotonia,Isaacs' syndrome,0,0
+107,Neuromyotonia,Isaacs-Mertens syndrome,0,0
+107,Neuromyotonia,Issacs' syndrome,0,0
+107,Neuromyotonia,Quantal squander syndrome,0,0
+108,Ophthalmoplegia due to Graves' disease,Thyroid eye disease,doid:0081120,Graves ophthalmopathy
+108,Ophthalmoplegia due to Graves' disease,Graves' eye disease,0,0
+108,Ophthalmoplegia due to Graves' disease,Graves ophthalmopathy,doid:0081120,Graves ophthalmopathy
+108,Ophthalmoplegia due to Graves' disease,Graves' ophthalmopathy,0,0
+108,Ophthalmoplegia due to Graves' disease,Graves' orbitopathy,0,0
+108,Ophthalmoplegia due to Graves' disease,Ophthalmoplegia due to Graves' disease,0,0
+108,Ophthalmoplegia due to Graves' disease,Thyroid-Associated orbitopathy,0,0
+109,Opsoclonus-myoclonus syndrome,OMS,0,0
+109,Opsoclonus-myoclonus syndrome,Opsoclonus-myoclonus syndrome,0,0
+109,Opsoclonus-myoclonus syndrome,Ataxo-opso-myoclonus syndrome,0,0
+109,Opsoclonus-myoclonus syndrome,Dancing eye syndrome,0,0
+109,Opsoclonus-myoclonus syndrome,Dancing eye-dancing feet syndrome,0,0
+109,Opsoclonus-myoclonus syndrome,Kinsbourne syndrome,0,0
+109,Opsoclonus-myoclonus syndrome,OMA syndrome,0,0
+109,Opsoclonus-myoclonus syndrome,Opsoclonus myoclonus syndrome,0,0
+109,Opsoclonus-myoclonus syndrome,Opsoclonus-myoclonus-ataxia syndrome,0,0
+109,Opsoclonus-myoclonus syndrome,Paraneoplastic opsoclonus-myoclonus,0,0
+109,Opsoclonus-myoclonus syndrome,Paraneoplastic opsoclonus-myoclonus-ataxia syndrome,0,0
+109,Opsoclonus-myoclonus syndrome,POMA syndrome,0,0
+110,Palindromic rheumatism,Palindromic rheumatism,doid:0001166,palindromic rheumatism
+110,Palindromic rheumatism,Hench-Rosenberg syndrome,doid:0001166,palindromic rheumatism
+110,Palindromic rheumatism,Hench's syndrome,doid:0001166,palindromic rheumatism
+110,Palindromic rheumatism,Palindromic rheumatism syndrome,0,0
+111,Paraneoplastic cerebellar degeneration,Paraneoplastic cerebellar degeneration,0,0
+111,Paraneoplastic cerebellar degeneration,PCA,doid:0050639,primary cutaneous amyloidosis
+111,Paraneoplastic cerebellar degeneration,PCD,0,0
+111,Paraneoplastic cerebellar degeneration,PNS,0,0
+111,Paraneoplastic cerebellar degeneration,Paraneoplastic cerebellar ataxia,0,0
+111,Paraneoplastic cerebellar degeneration,Paraneoplastic neurological syndrome,0,0
+111,Paraneoplastic cerebellar degeneration,Paraneoplastic syndrome,0,0
+112,Paroxysmal nocturnal hemoglobinuria,Paroxysmal nocturnal hemoglobinuria,doid:0060284,paroxysmal nocturnal hemoglobinuria
+113,Pediatric autoimmune neuropsychiatric disorder associated with streptococcal infection,PANDAS,0,0
+113,Pediatric autoimmune neuropsychiatric disorder associated with streptococcal infection,PANS,0,0
+113,Pediatric autoimmune neuropsychiatric disorder associated with streptococcal infection,Pediatric autoimmune neuropsychiatric disorder associated with streptococcal infection,0,0
+113,Pediatric autoimmune neuropsychiatric disorder associated with streptococcal infection,Pediatric Acute-onset Neuropsychiatric Syndrome,0,0
+114,Pemphigus,Pemphigus foliaceus,doid:0080850,pemphigus foliaceus
+114,Pemphigus,Pemphigus erythematosus,0,0
+114,Pemphigus,Brazilian pemphigus foliaceus,0,0
+114,Pemphigus,Pemphigus vulgaris,doid:0060851,pemphigus vulgaris
+114,Pemphigus,Pemphigus,doid:0009182,pemphigus
+114,Pemphigus,Drug-induced pemphigus,0,0
+114,Pemphigus,Pemphigus paraneoplastica,0,0
+115,POEMS syndrome,POEMS syndrome,doid:0014039,POEMS syndrome
+115,POEMS syndrome,Crow-Fukase syndrome,0,0
+115,POEMS syndrome,Osteosclerotic myeloma,doid:0009541,osteosclerotic myeloma
+115,POEMS syndrome,PEP syndrome,0,0
+115,POEMS syndrome,Polyneuropathy-organomegaly-endocrinopathy-M protein-skin lesions,0,0
+115,POEMS syndrome,Shimpo syndrome,0,0
+115,POEMS syndrome,Takatsuki syndrome,0,0
+116,Polyarteritis nodosa,c-PAN,0,0
+116,Polyarteritis nodosa,PAN,0,0
+116,Polyarteritis nodosa,Polyarteritis nodosa,doid:0009810,polyarteritis nodosa
+116,Polyarteritis nodosa,Classic polyarteritis nodosa,0,0
+116,Polyarteritis nodosa,Periarteritis nodosa,0,0
+116,Polyarteritis nodosa,Polyarteritis,0,0
+117,Polyglandular autoimmune syndrome type 1,APECED,0,0
+117,Polyglandular autoimmune syndrome type 1,APS-1,0,0
+117,Polyglandular autoimmune syndrome type 1,Polyglandular autoimmune syndrome type 1,0,0
+117,Polyglandular autoimmune syndrome type 1,Autoimmune polyendocrine syndrome type 1,doid:0050167,autoimmune polyendocrine syndrome type 1
+117,Polyglandular autoimmune syndrome type 1,Autoimmune polyendocrinopathy-candidiasis-ectodermal dystrophy,doid:0050167,autoimmune polyendocrine syndrome type 1
+117,Polyglandular autoimmune syndrome type 1,Autoimmune polyglandular syndrome type 1,0,0
+117,Polyglandular autoimmune syndrome type 1,Whitaker syndrome,doid:0050167,autoimmune polyendocrine syndrome type 1
+118,Polyglandular autoimmune syndrome type 2,APS2,0,0
+118,Polyglandular autoimmune syndrome type 2,PGA 2,0,0
+118,Polyglandular autoimmune syndrome type 2,PGA-II,0,0
+118,Polyglandular autoimmune syndrome type 2,Polyglandular autoimmune syndrome type 2,0,0
+118,Polyglandular autoimmune syndrome type 2,Autoimmune polyendocrine syndrome type 2,doid:0050168,autoimmune polyendocrine syndrome type 2
+118,Polyglandular autoimmune syndrome type 2,Autoimmune polyglandular syndrome type II,0,0
+118,Polyglandular autoimmune syndrome type 2,Carpenter syndrome,doid:0060234,Carpenter syndrome
+118,Polyglandular autoimmune syndrome type 2,Multiple endocrine deficiency syndrome  type 2,0,0
+118,Polyglandular autoimmune syndrome type 2,Polyglandular deficiency syndrome type 2,0,0
+118,Polyglandular autoimmune syndrome type 2,Schmidt syndrome,doid:0050168,autoimmune polyendocrine syndrome type 2
+119,Polyglandular autoimmune syndrome type 3,PAS 3,0,0
+119,Polyglandular autoimmune syndrome type 3,PAS III,0,0
+119,Polyglandular autoimmune syndrome type 3,Polyglandular autoimmune syndrome type 3,0,0
+119,Polyglandular autoimmune syndrome type 3,Autoimmune polyendocrine syndrome type 3,0,0
+119,Polyglandular autoimmune syndrome type 3,Autoimmune polyglandular syndrome type III,0,0
+119,Polyglandular autoimmune syndrome type 3,Polyglandular deficiency syndrome type 3,0,0
+120,Polyglandular autoimmune syndrome type 4,Polyglandular autoimmune syndrome type 4,0,0
+120,Polyglandular autoimmune syndrome type 4,Autoimmune polyendocrine syndrome type 4,0,0
+120,Polyglandular autoimmune syndrome type 4,Multiple autoimmune syndrome,0,0
+121,Polymyalgia rheumatica,Polymyalgia rheumatica,doid:0000853,polymyalgia rheumatica
+122,Polymyositis,Polymyositis,doid:0080745,polymyositis
+123,Postmyocardial infarction syndrome,Postpericardiotomy pericarditis,0,0
+123,Postmyocardial infarction syndrome,Postmyocardial infarction syndrome,doid:0010507,Dressler's syndrome
+123,Postmyocardial infarction syndrome,Post-cardiac injury syndrome,0,0
+123,Postmyocardial infarction syndrome,Post-myocardial infarction syndrome,doid:0010507,Dressler's syndrome
+123,Postmyocardial infarction syndrome,Post-pericardiotomy syndrome,0,0
+123,Postmyocardial infarction syndrome,Dressler's syndrome,doid:0010507,Dressler's syndrome
+123,Postmyocardial infarction syndrome,Delayed postmyocardial infarction syndrome,0,0
+124,Primary biliary cholangitis,PBC,0,0
+124,Primary biliary cholangitis,Primary biliary cholangitis,doid:0012236,primary biliary cholangitis
+124,Primary biliary cholangitis,Primary biliary cirrhosis,doid:0012236,primary biliary cholangitis
+125,Primary idiopathic dilated cardiomyopathy,Primary idiopathic dilated cardiomyopathy,0,0
+125,Primary idiopathic dilated cardiomyopathy,Dilated cardiomyopathy,doid:0012930,dilated cardiomyopathy
+125,Primary idiopathic dilated cardiomyopathy,Idiopathic dilated cardiomyopathy,0,0
+126,Primary sclerosing cholangitis,Primary sclerosing cholangitis,doid:0060643,primary sclerosing cholangitis
+126,Primary sclerosing cholangitis,PSC,0,0
+126,Primary sclerosing cholangitis,Chronic obliterative cholangitis,0,0
+126,Primary sclerosing cholangitis,Fibrosing cholangitis,doid:0014268,sclerosing cholangitis
+126,Primary sclerosing cholangitis,Stenosing cholangitis,0,0
+127,Progressive hemifacial atrophy,Progressive hemifacial atrophy,0,0
+127,Progressive hemifacial atrophy,Idiopathic hemifacial atrophy,0,0
+127,Progressive hemifacial atrophy,Parry Romberg syndrome,0,0
+127,Progressive hemifacial atrophy,Progressive facial hemiatrophy,0,0
+127,Progressive hemifacial atrophy,Romberg's syndrome,0,0
+128,Psoriasis,Psoriasis,doid:0008893,psoriasis
+128,Psoriasis,Guttate psoriasis,0,0
+129,Psoriatic arthritis,Psoriasis with arthropathy,0,0
+129,Psoriatic arthritis,PsA,0,0
+129,Psoriatic arthritis,Psoriatic arthritis,doid:0009008,psoriatic arthritis
+130,Pure red cell aplasia,PRCA,0,0
+130,Pure red cell aplasia,Pure red cell aplasia,doid:0001340,pure red-cell aplasia
+130,Pure red cell aplasia,Acquired pure red cell aplasia,0,0
+130,Pure red cell aplasia,Adult pure red cell aplasia,0,0
+130,Pure red cell aplasia,Idiopathic pure red cell aplasia,0,0
+130,Pure red cell aplasia,Primary acquired PRCA,0,0
+130,Pure red cell aplasia,Primary acquired pure red cell aplasia,#N/A,#N/A
+131,Pyoderma gangrenosum,Pyoderma gangrenosum,doid:0008553,pyoderma gangrenosum
+132,Rasmussen syndrome,Rasmussen syndrome,0,0
+132,Rasmussen syndrome,Rasmussen syndrome,0,0
+133,Raynaud's phenomenon,Raynaud's phenomenon,0,0
+133,Raynaud's phenomenon,Raynaud disease,doid:0010300,Raynaud disease
+133,Raynaud's phenomenon,Raynaud's disease,doid:0010300,Raynaud disease
+133,Raynaud's phenomenon,Secondary Raynaud's,0,0
+133,Raynaud's phenomenon,Secondary Raynaud's phenomenon,0,0
+134,Reactive arthritis,Reiter's syndrome,0,0
+134,Reactive arthritis,ReA,0,0
+134,Reactive arthritis,Reactive arthritis,doid:0006196,reactive arthritis
+134,Reactive arthritis,Fiessinger-Leroy disease,0,0
+134,Reactive arthritis,Reactive arthritis triad,0,0
+135,Relapsing polychondritis,Relapsing polychondritis,doid:0002556,relapsing polychondritis
+135,Relapsing polychondritis,Atrophic polychondritis,0,0
+135,Relapsing polychondritis,Chronic atrophic polychondritis,0,0
+135,Relapsing polychondritis,Meyenburg-Altherr-Uehlinger syndrome,0,0
+135,Relapsing polychondritis,Polychondropathia,0,0
+135,Relapsing polychondritis,Recurrent polychondritis,0,0
+135,Relapsing polychondritis,Relapsing perichondritis,0,0
+135,Relapsing polychondritis,Relapsing polyneuropathy,0,0
+135,Relapsing polychondritis,Systemic chondromalacia,0,0
+135,Relapsing polychondritis,Systemic chondromalocia,0,0
+135,Relapsing polychondritis,Von Meyenburg disease,0,0
+136,Restless legs,Restless legs,0,0
+136,Restless legs,Restless leg syndrome,0,0
+136,Restless legs,Willis-Ekbom Disease,doid:0050425,restless legs syndrome
+137,Retinocochleocerebral vasculopathy,RED-M,0,0
+137,Retinocochleocerebral vasculopathy,Retinocochleocerebral vasculopathy,0,0
+137,Retinocochleocerebral vasculopathy,SICRET,0,0
+137,Retinocochleocerebral vasculopathy,Retinopathy-encephalopathy-deafness associated microangiopathy,0,0
+137,Retinocochleocerebral vasculopathy,"Small infarctions of cochlear, retinal and encephalic tissue",0,0
+137,Retinocochleocerebral vasculopathy,Susac syndrome,0,0
+137,Retinocochleocerebral vasculopathy,Susac's syndrome,0,0
+138,Rheumatic Chorea,Rheumatic Chorea,0,0
+138,Rheumatic Chorea,Sydenham chorea,0,0
+139,Rheumatic chorea,Rheumatic chorea,0,0
+139,Rheumatic chorea,St. Vitus Dance,0,0
+139,Rheumatic chorea,Syndenham chorea,0,0
+140,Rheumatic fever,Rheumatic fever,doid:0001586,rheumatic fever
+140,Rheumatic fever,Acute rheumatic fever,doid:0001586,rheumatic fever
+140,Rheumatic fever,Inflammatory rheumatism,0,0
+140,Rheumatic fever,Rheumatic arthritis,0,0
+140,Rheumatic fever,Acute rheumatic myocarditis,doid:0008481,rheumatic myocarditis
+141,Rheumatoid arthritis,Rheumatoid arthritis,doid:0007148,rheumatoid arthritis
+142,Rheumatoid vasculitis,Rheumatoid vasculitis,0,0
+142,Rheumatoid vasculitis,RV,0,0
+143,Sarcoidosis,Sarcoidosis,doid:0011335,sarcoidosis
+143,Sarcoidosis,Besnier-Boeck-Schaumann disease,0,0
+143,Sarcoidosis,Lupus pernio,0,0
+143,Sarcoidosis,Lofgrens syndrome,0,0
+144,Schnitzler syndrome,Schnitzler syndrome,doid:0004371,Schnitzler syndrome
+144,Schnitzler syndrome,Chronic urticaria with gammapathy,0,0
+144,Schnitzler syndrome,Chronic urticaria with gammopathy,0,0
+144,Schnitzler syndrome,Chronic urticaria with macroglobulinemia,0,0
+144,Schnitzler syndrome,Schnitzler's syndrome,0,0
+145,Scleritis,Scleritis,doid:0013452,scleritis
+146,Sjögren's disease,Sjögren's disease,#N/A,#N/A
+146,Sjögren's disease,SJS,0,0
+146,Sjögren's disease,Sjogren's disease,0,0
+146,Sjögren's disease,Keratoconjunctivitis sicca,doid:0012895,keratoconjunctivitis sicca
+146,Sjögren's disease,Sicca syndrome,doid:0012894,Sjogren's syndrome
+146,Sjögren's disease,Sjögrens disease,#N/A,#N/A
+146,Sjögren's disease,Sjögren's syndrome,#N/A,#N/A
+147,SLE glomerulonephritis syndrome,SLE glomerulonephritis syndrome,0,0
+147,SLE glomerulonephritis syndrome,Lupus nephritis,doid:0080162,lupus nephritis
+148,Steroid-responsive encephalopathy associated with autoimmune thyroiditis,Steroid-responsive encephalopathy associated with autoimmune thyroiditis,0,0
+148,Steroid-responsive encephalopathy associated with autoimmune thyroiditis,Hashimoto's encephalopathy,0,0
+148,Steroid-responsive encephalopathy associated with autoimmune thyroiditis,Hashimoto's encephalitis,0,0
+148,Steroid-responsive encephalopathy associated with autoimmune thyroiditis,Encephalopathy associated with autoimmune thyroid disease,0,0
+148,Steroid-responsive encephalopathy associated with autoimmune thyroiditis,Nonvasculitic autoimmune meningoecephalitis,0,0
+149,Stiff-person syndrome,Stiff-person syndrome,doid:0013366,Stiff-Person syndrome
+149,Stiff-person syndrome,Moersch-Woltman syndrome,0,0
+149,Stiff-person syndrome,Stiff man syndrome,doid:0013366,Stiff-Person syndrome
+149,Stiff-person syndrome,Stiff person syndrome,0,0
+150,Subacute bacterial endocarditis,Subacute bacterial endocarditis,doid:0004562,subacute bacterial endocarditis
+150,Subacute bacterial endocarditis,Subacute infective endocarditis,0,0
+150,Subacute bacterial endocarditis,Subacute native valve endocarditis,0,0
+151,Sympathetic uveitis,Sympathetic uveitis,doid:0012029,sympathetic ophthalmia
+151,Sympathetic uveitis,Exciting Eye,0,0
+151,Sympathetic uveitis,Spared Eye Injury,0,0
+151,Sympathetic uveitis,Sympathetic ophthalmia,doid:0012029,sympathetic ophthalmia
+151,Sympathetic uveitis,Sympathizing Eye,0,0
+152,Systemic lupus erythematosus,SLE,0,0
+152,Systemic lupus erythematosus,Systemic lupus erythematosus,doid:0009074,systemic lupus erythematosus
+152,Systemic lupus erythematosus,Systemic lupus erythematosus,doid:0009074,systemic lupus erythematosus
+152,Systemic lupus erythematosus,Lupus,doid:0008857,lupus erythematosus
+153,Systemic mast cell disease,Systemic mast cell disease,0,0
+154,Systemic sclerosis,Systemic sclerosis,doid:0000418,systemic scleroderma
+154,Systemic sclerosis,Diffuse Systemic sclerosis,doid:0001580,diffuse scleroderma
+154,Systemic sclerosis,Scleroderma,doid:0000419,scleroderma
+154,Systemic sclerosis,Systemic scleroderma,doid:0000418,systemic scleroderma
+155,Systemic sclerosis with limited cutaneous involvement,Limited cutaneous systemic sclerosis,doid:0001577,limited scleroderma
+155,Systemic sclerosis with limited cutaneous involvement,Systemic sclerosis sine scleroderma,0,0
+155,Systemic sclerosis with limited cutaneous involvement,dcSSc,0,0
+155,Systemic sclerosis with limited cutaneous involvement,lcSSc,0,0
+155,Systemic sclerosis with limited cutaneous involvement,Systemic sclerosis with limited cutaneous involvement,0,0
+155,Systemic sclerosis with limited cutaneous involvement,CREST syndrome,doid:0060218,CREST syndrome
+155,Systemic sclerosis with limited cutaneous involvement,Diffuse cutaneous systemic sclerosis,0,0
+156,Takayasu's arteritis,Takayasu's arteritis,doid:0002508,Takayasu's arteritis
+156,Takayasu's arteritis,Takayasu's disease,doid:0002508,Takayasu's arteritis
+157,Temporal arteritis,GCA,0,0
+157,Temporal arteritis,Temporal arteritis,doid:0013375,temporal arteritis
+157,Temporal arteritis,Cranial arteritis,0,0
+157,Temporal arteritis,Giant cell arteritis,doid:0013375,temporal arteritis
+157,Temporal arteritis,Granulomatous arteritis,0,0
+157,Temporal arteritis,Horton's disease,doid:0013375,temporal arteritis
+158,Tolosa-Hunt syndrome,THS,0,0
+158,Tolosa-Hunt syndrome,Tolosa-Hunt syndrome,doid:0001278,tolosa-hunt syndrome
+158,Tolosa-Hunt syndrome,Non-specific inflammation of the cavernous sinus,0,0
+158,Tolosa-Hunt syndrome,Non-specific inflammation of the superior orbital fissure,0,0
+158,Tolosa-Hunt syndrome,Painful Ophthalmoplegia,0,0
+159,Transverse myelitis,Transverse myelitis,doid:0080743,transverse myelitis
+159,Transverse myelitis,Secondary acute transverse myelitis,0,0
+160,Ulcerative colitis,Ulcerative colitis,doid:0008577,ulcerative colitis
+161,Undifferentiated connective tissue disease,UCTD,0,0
+161,Undifferentiated connective tissue disease,Undifferentiated connective tissue disease,0,0
+161,Undifferentiated connective tissue disease,Undifferentiated connective tissue syndrome,0,0
+162,Urticarial vasculitis,Urticarial vasculitis,0,0
+163,Uveitis,Uveitis,doid:0013141,uveitis
+163,Uveitis,Autoimmune uveitis,doid:0040088,autoimmune uveitis
+163,Uveitis,Idiopathic uveitis,0,0
+164,Vitiligo,Vitiligo,doid:0012306,vitiligo
+164,Vitiligo,Leukoderma,0,0
+165,Vogt-Koyanagi-Harada disease,Vogt-Koyanagi-Harada disease,doid:0012297,Vogt-Koyanagi-Harada disease
+166,Warm autoimmune hemolytic anemia,Warm autoimmune hemolytic anemia,0,0
+166,Warm autoimmune hemolytic anemia,Acquired autoimmune hemolytic anemia,0,0
+166,Warm autoimmune hemolytic anemia,Idiopathic autoimmune hemolytic anemia,0,0
+166,Warm autoimmune hemolytic anemia,Immune hemolytic anemia,0,0
+166,Warm autoimmune hemolytic anemia,Immunohemolytic anemia,0,0

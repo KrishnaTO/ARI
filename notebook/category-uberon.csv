@@ -1,0 +1,15 @@
+Category,Category_uberon_reference
+Skin,prefix='uberon' identifier='0000014' name='zone of skin'
+Blood,prefix='uberon' identifier='0000178' name='blood'
+Nervous System,prefix='uberon' identifier='0001016' name='nervous system'
+Vascular system,prefix='uberon' identifier='0007798' name='vascular system'
+Glands,prefix='uberon' identifier='0002530' name='gland'
+Systemic,
+Musculoskeletal,
+Kidney,prefix='uberon' identifier='0002113' name='kidney'
+Digestive system,prefix='uberon' identifier='0001007' name='digestive system'
+Liver,prefix='uberon' identifier='0002107' name='liver'
+Pancreas,prefix='uberon' identifier='0001264' name='pancreas'
+Bladder,prefix='uberon' identifier='0001255' name='urinary bladder'
+Lungs,prefix='uberon' identifier='0002048' name='lung'
+Heart,prefix='uberon' identifier='0000948' name='heart'
