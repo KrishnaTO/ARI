@@ -1,0 +1,1631 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/doid/translations/doid-international.owl#"
+     xml:base="http://purl.obolibrary.org/obo/doid/translations/doid-international.owl"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/doid/translations/doid-international.owl">
+        <obo:IAO_0000700 rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+        <dc:description xml:lang="es">La Disease Ontology se ha desarrollado como una ontología estandarizada para las enfermedades humanas con el propósito de proporcionar a la comunidad biomédica descripciones coherentes, reutilizables y sostenibles de términos de enfermedades humanas, características de fenotipos y conceptos de enfermedades del vocabulario médico relacionados.</dc:description>
+        <dc:description xml:lang="en">The Disease Ontology has been developed as a standardized ontology for human disease with the purpose of providing the biomedical community with consistent, reusable and sustainable descriptions of human disease terms, phenotype characteristics and related medical vocabulary disease concepts.</dc:description>
+        <dc:language>en</dc:language>
+        <dc:language>es</dc:language>
+        <dc:title>Human Disease Ontology</dc:title>
+        <terms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+        <oboInOwl:date>28:02:2026 20:09</oboInOwl:date>
+        <oboInOwl:default-namespace>disease_ontology</oboInOwl:default-namespace>
+        <oboInOwl:hasOBOFormatVersion>1.2</oboInOwl:hasOBOFormatVersion>
+        <oboInOwl:saved-by>lschriml</oboInOwl:saved-by>
+        <rdfs:comment xml:lang="en">The Disease Ontology content is available via the Creative Commons Public Domain Dedication CC0 1.0 Universal license (https://creativecommons.org/publicdomain/zero/1.0/).</rdfs:comment>
+        <owl:versionInfo>2026-02-28</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <obo:IAO_0000115>The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
+        <rdfs:label>definition</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>url:http://purl.obolibrary.org/obo/iao.owl</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000700 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000700"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/language -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/language"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/type -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/type">
+        <obo:IAO_0000115>The dc:type.</obo:IAO_0000115>
+        <rdfs:label>dc:type</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.org/dc/elements/1.1/type"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The dc:type.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>url:http://purl.org/dc/elements/1.1/type</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#creation_date -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#creation_date">
+        <obo:IAO_0000115>Date class was created.</obo:IAO_0000115>
+        <rdfs:label>creation_date</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Date class was created.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>url:http://www.geneontology.org/formats/oboInOwl#creation_date</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#date -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#date"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#default-namespace -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#default-namespace"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasAlternativeId -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId">
+        <obo:IAO_0000115>ID of merged class.</obo:IAO_0000115>
+        <rdfs:label>has_alternative_id</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>ID of merged class.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>url:http://www.geneontology.org/formats/oboInOwl#hasAlternativeId</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
+        <obo:IAO_0000115>Reference database or publication source.</obo:IAO_0000115>
+        <rdfs:label>database_cross_reference</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Reference database or publication source.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>url:http://www.geneontology.org/formats/oboInOwl#hasDbXref</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <obo:IAO_0000115>Exact synonym.</obo:IAO_0000115>
+        <rdfs:label>has_exact_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Exact synonym.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>url:http://www.geneontology.org/formats/oboInOwl#hasExactSynonym</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
+        <obo:IAO_0000115>Name space of the ontology.</obo:IAO_0000115>
+        <rdfs:comment>disease_ontology</rdfs:comment>
+        <rdfs:label>has_obo_namespace</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Name space of the ontology.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>url:http://www.geneontology.org/formats/oboInOwl#hasOBONamespace</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasSynonymType -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasSynonymType">
+        <rdfs:label>has_synonym_type</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id">
+        <obo:IAO_0000115>An identifier for an individual entity.</obo:IAO_0000115>
+        <obo:IAO_0000115>An identifier is an information content entity that is the outcome of a dubbing process and is used to refer to one instance of entity shared by a group of people to refer to that individual entity.</obo:IAO_0000115>
+        <rdfs:label>id</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An identifier for an individual entity.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>url:http://purl.obolibrary.org/obo/IAO_0020000</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An identifier is an information content entity that is the outcome of a dubbing process and is used to refer to one instance of entity shared by a group of people to refer to that individual entity.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>url:http://purl.obolibrary.org/obo/IAO_0020000</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
+        <obo:IAO_0000115>In subset.</obo:IAO_0000115>
+        <rdfs:label>in_subset</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>In subset.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>url:http://www.geneontology.org/formats/oboInOwl#inSubset</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#saved-by -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#saved-by"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#comment">
+        <obo:IAO_0000115>Comment.</obo:IAO_0000115>
+        <rdfs:label>comment</rdfs:label>
+    </rdf:Description>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Comment.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>url:http://www.w3.org/2000/01/rdf-schema#comment</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
+        <obo:IAO_0000115>A human readable name for this class.</obo:IAO_0000115>
+        <rdfs:label>label</rdfs:label>
+        <rdfs:label xml:lang="en">label</rdfs:label>
+    </rdf:Description>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A human readable name for this class.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>url:http://www.w3.org/2000/01/rdf-schema#label</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A human readable name for this class.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>url:http://www.w3.org/2000/01/rdf-schema#label</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>url:https://www.w3.org/TR/owl-guide/</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#exactMatch -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#exactMatch">
+        <obo:IAO_0000115>A skos concept mapping used to link two concepts, indicating a high degree of confidence that the concepts can be used interchangeably.</obo:IAO_0000115>
+        <rdfs:label>has exact match</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A skos concept mapping used to link two concepts, indicating a high degree of confidence that the concepts can be used interchangeably.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>url:https://www.w3.org/2009/08/skos-reference/skos.html#exactMatch</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#narrowMatch -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#narrowMatch">
+        <obo:IAO_0000115>A skos concept mapping used to state a hierarchical mapping link between two concepts where the DO concept is narrow (DO represents subtypes) and the xref is broad.</obo:IAO_0000115>
+        <rdfs:label>has narrower match</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.w3.org/2004/02/skos/core#narrowMatch"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A skos concept mapping used to state a hierarchical mapping link between two concepts where the DO concept is narrow (DO represents subtypes) and the xref is broad.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>url:https://www.w3.org/2009/08/skos-reference/skos.html#narrowMatch</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0040088 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0040088">
+        <obo:IAO_0000115 xml:lang="en">An autoimmune disease of eyes, ear, nose and throat that is located_in the uvea.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="es">Una enfermedad autoinmune de ojos, oídos, nariz y garganta que se_ubica_en la úvea.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:0040088</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_IEDB_slim"/>
+        <rdfs:label xml:lang="en">autoimmune uveitis</rdfs:label>
+        <rdfs:label xml:lang="es">uveítis autoinmune</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_0040088"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">An autoimmune disease of eyes, ear, nose and throat that is located_in the uvea.</owl:annotatedTarget>
+        <dc:type rdf:resource="http://purl.obolibrary.org/obo/ECO_0007645"/>
+        <oboInOwl:hasDbXref>url:https://www.ncbi.nlm.nih.gov/pubmed/12938234</oboInOwl:hasDbXref>
+        <rdfs:comment>IEDB:RV</rdfs:comment>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0040090 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0040090">
+        <obo:IAO_0000115 xml:lang="en">An autoimmune disease of gastrointestinal tract that is located_in the stomach.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="es">Enfermedad autoinmune del tracto gastrointestinal que se_ubica_en el estómago.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:0040090</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_IEDB_slim"/>
+        <rdfs:label xml:lang="en">autoimmune gastritis</rdfs:label>
+        <rdfs:label xml:lang="es">gastritis autoinmune</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_0040090"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">An autoimmune disease of gastrointestinal tract that is located_in the stomach.</owl:annotatedTarget>
+        <dc:type rdf:resource="http://purl.obolibrary.org/obo/ECO_0007645"/>
+        <oboInOwl:hasDbXref>url:https://www.ncbi.nlm.nih.gov/pubmed/12645953</oboInOwl:hasDbXref>
+        <rdfs:comment>IEDB:RV</rdfs:comment>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0040091 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0040091">
+        <obo:IAO_0000115 xml:lang="en">An autoimmune disease of endocrine system that is located_in the pancreas.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="es">Una enfermedad autoinmune del sistema endocrino que se_ubica_en el páncreas.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>MESH:D000081012</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:448542008</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C2609129</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:0040091</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_IEDB_slim"/>
+        <rdfs:label xml:lang="en">autoimmune pancreatitis</rdfs:label>
+        <rdfs:label xml:lang="es">pancreatitis autoinmune</rdfs:label>
+        <skos:exactMatch>MESH:D000081012</skos:exactMatch>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_0040091"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">An autoimmune disease of endocrine system that is located_in the pancreas.</owl:annotatedTarget>
+        <dc:type rdf:resource="http://purl.obolibrary.org/obo/ECO_0007645"/>
+        <oboInOwl:hasDbXref>url:https://www.ncbi.nlm.nih.gov/pubmed/19940298</oboInOwl:hasDbXref>
+        <rdfs:comment>IEDB:RV</rdfs:comment>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0040095 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0040095">
+        <obo:IAO_0000115 xml:lang="en">An autoimmune disease of cardiovascular system that is characterized by deterioration of the function of the heart muscle.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="es">Enfermedad autoinmune del sistema cardiovascular que se caracteriza por el deterioro de la función del músculo cardiaco.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:0040095</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_IEDB_slim"/>
+        <rdfs:label xml:lang="en">autoimmune cardiomyopathy</rdfs:label>
+        <rdfs:label xml:lang="es">cardiomiopatía autoinmune</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_0040095"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">An autoimmune disease of cardiovascular system that is characterized by deterioration of the function of the heart muscle.</owl:annotatedTarget>
+        <dc:type rdf:resource="http://purl.obolibrary.org/obo/ECO_0007645"/>
+        <oboInOwl:hasDbXref>url:https://www.ncbi.nlm.nih.gov/pubmed/10762456</oboInOwl:hasDbXref>
+        <rdfs:comment>IEDB:RV</rdfs:comment>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0040097 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0040097">
+        <obo:IAO_0000115 xml:lang="en">An autoimmune disease of cardiovascular system that is characterized by inflammation of the blood vessels.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="es">Enfermedad autoinmune del sistema cardiovascular que se caracteriza por la inflamación de los vasos sanguíneos.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:427213005</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C1328843</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:0040097</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_IEDB_slim"/>
+        <rdfs:label xml:lang="en">autoimmune vasculitis</rdfs:label>
+        <rdfs:label xml:lang="es">vasculitis autoinmune</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_0040097"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">An autoimmune disease of cardiovascular system that is characterized by inflammation of the blood vessels.</owl:annotatedTarget>
+        <dc:type rdf:resource="http://purl.obolibrary.org/obo/ECO_0007645"/>
+        <oboInOwl:hasDbXref>url:https://www.ncbi.nlm.nih.gov/pubmed/23549081</oboInOwl:hasDbXref>
+        <rdfs:comment>IEDB:RV</rdfs:comment>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0050156 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0050156">
+        <obo:IAO_0000115 xml:lang="en">A pulmonary fibrosis that is characterized by scarring of the lung characterized by stiffness in the lungs and makes it difficult to breathe.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>EFO:0000768</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GARD:8609</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:J84.112</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9CM:516.31</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D054990</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C35716</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:28168000</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C1800706</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">FIBROCYSTIC PULMONARY DYSPLASIA</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">IDIOPATHIC PULMONARY FIBROSIS, FAMILIAL</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="es">alveolitis fibrosante criptogénica</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">cryptogenic fibrosing alveolitis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="es">displasia pulmonar fibroquística</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="es">fibrosis pulmonar idiopática familiar</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:0050156</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_rare_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#NCIthesaurus"/>
+        <rdfs:comment xml:lang="en">OMIM mapping confirmed by DO. [SN].</rdfs:comment>
+        <rdfs:label xml:lang="es">fibrosis pulmonar idiopática</rdfs:label>
+        <rdfs:label xml:lang="en">idiopathic pulmonary fibrosis</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_0050156"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A pulmonary fibrosis that is characterized by scarring of the lung characterized by stiffness in the lungs and makes it difficult to breathe.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>url:https://pubmed.ncbi.nlm.nih.gov/32855221/</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>url:https://www.ncbi.nlm.nih.gov/books/NBK448162/</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>url:https://www.nhlbi.nih.gov/health/idiopathic-pulmonary-fibrosis</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>url:https://www.pulmonaryfibrosis.org/life-with-pf/about-ipf</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0050157 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0050157">
+        <obo:IAO_0000115 xml:lang="en">An idiopathic interstitial pneumonia characterized by lung inflammation and scarring that obstructs the small airways and air sacs of the lungs (alveoli). A flu-like illness, with a cough, fever, a feeling of illness (malaise), fatigue, and weight loss, heralds the onset in about 50% of people. Frequent presence of crackling sounds (called Velcro crackles) when the doctor listens with a stethoscope.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="es">Neumonía intersticial idiopática caracterizada por una inflamación y cicatrización pulmonar que obstruye las pequeñas vías respiratorias y los sacos de aire de los pulmones (alvéolos). Una enfermedad parecida a la gripe, con tos, fiebre, sensación de enfermedad (malestar), fatiga y pérdida de peso, anuncia su aparición en alrededor del 50% de las personas. Presencia frecuente de sonidos crepitantes (llamados crepitaciones de velcro) cuando el médico escucha con un estetoscopio.</obo:IAO_0000115>
+        <oboInOwl:hasAlternativeId>DOID:2798</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>GARD:1620</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:J84.116</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9CM:516.36</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D018549</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C62586</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:129458007</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0242770</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">BOOP</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Cryptogenic organising pneumonitis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Cryptogenic organizing pneumonitis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">bronchiolitis obliterans organising pneumonia</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">bronchiolitis obliterans organizing pneumonia</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="es">bronquiolitis obliterante con neumonía organizada</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="es">bronquiolitis obliterante idiopática con neumonía organizada</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">cryptogenic organising pneumonia</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">idiopathic bronchiolitis obliterans with organising pneumonia</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">idiopathic bronchiolitis obliterans with organizing pneumonia</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="es">neumonitis organizada criptogénica</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="es">neumonía organizada criptogénica</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:0050157</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_rare_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#NCIthesaurus"/>
+        <rdfs:label xml:lang="en">cryptogenic organizing pneumonia</rdfs:label>
+        <rdfs:label xml:lang="es">neumonía organizativa criptogénica</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_0050157"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">An idiopathic interstitial pneumonia characterized by lung inflammation and scarring that obstructs the small airways and air sacs of the lungs (alveoli). A flu-like illness, with a cough, fever, a feeling of illness (malaise), fatigue, and weight loss, heralds the onset in about 50% of people. Frequent presence of crackling sounds (called Velcro crackles) when the doctor listens with a stethoscope.</owl:annotatedTarget>
+        <dc:type rdf:resource="http://purl.obolibrary.org/obo/ECO_0007637"/>
+        <dc:type rdf:resource="http://purl.obolibrary.org/obo/ECO_0007645"/>
+        <oboInOwl:hasDbXref>url:http://www.merck.com/mmhe/sec04/ch050/ch050b.html?qt=idiopathic%20interstitial%20pneumonia&amp;alt=sh</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>url:https://www.ncbi.nlm.nih.gov/pubmed/11790668</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_0050157"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">BOOP</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/OMO_0003012"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0050167 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0050167">
+        <obo:IAO_0000115 xml:lang="en">An autoimmune polyendocrine syndrome that is inherited in an autosomal recessive fashion, which is characterized by abnormal functioning of the immune system that causes auto-reactivity against endocrine organs.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="es">Síndrome polendocrino autoinmune que se hereda de forma autosómica recesiva y que se caracteriza por un funcionamiento anormal del sistema inmunitario que provoca una autorreactividad contra los órganos endocrinos.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>GARD:8466</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MIM:240300</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">Autoimmune Polyglandular Syndrome I</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Whitaker syndrome</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">autoimmune polyendocrinopathy-candidiasis-ectodermal dystrophy</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="es">síndrome de Whitaker</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:0050167</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_rare_slim"/>
+        <rdfs:label xml:lang="en">autoimmune polyendocrine syndrome type 1</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_0050167"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">An autoimmune polyendocrine syndrome that is inherited in an autosomal recessive fashion, which is characterized by abnormal functioning of the immune system that causes auto-reactivity against endocrine organs.</owl:annotatedTarget>
+        <dc:type rdf:resource="http://purl.obolibrary.org/obo/ECO_0007637"/>
+        <oboInOwl:hasDbXref>url:https://rarediseases.info.nih.gov/diseases/8466/autoimmune-polyglandular-syndrome-type-1</oboInOwl:hasDbXref>
+        <rdfs:comment>sn:IEDB</rdfs:comment>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0050168 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0050168">
+        <obo:IAO_0000115 xml:lang="en">An autoimmune polyendocrine syndrome that is characterized by abnormal functioning of the immune system that causes auto-reactivity against endocrine organs. It is more heterogeneous and has not been linked to one gene.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="es">Síndrome polendocrino autoinmune que se caracteriza por un funcionamiento anormal del sistema inmunitario que provoca una autorreactividad contra los órganos endocrinos. Es más heterogénea y no se ha relacionado con un solo gen.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>GARD:7611</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MIM:269200</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">Schmidt syndrome</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="es">síndrome de Schmidt</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:0050168</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_rare_slim"/>
+        <rdfs:label xml:lang="en">autoimmune polyendocrine syndrome type 2</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_0050168"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">An autoimmune polyendocrine syndrome that is characterized by abnormal functioning of the immune system that causes auto-reactivity against endocrine organs. It is more heterogeneous and has not been linked to one gene.</owl:annotatedTarget>
+        <dc:type rdf:resource="http://purl.obolibrary.org/obo/ECO_0007638"/>
+        <oboInOwl:hasDbXref>url:http://en.wikipedia.org/wiki/Autoimmune_polyendocrine_syndrome_type_2</oboInOwl:hasDbXref>
+        <rdfs:comment>sn:IEDB</rdfs:comment>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0050169 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0050169">
+        <obo:IAO_0000115 xml:lang="en">A lupus erythematosus that causes skin lesions on parts of the body that are exposed to sunlight.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="es">Un lupus eritematoso que provoca lesiones cutáneas en las partes del cuerpo expuestas a la luz solar.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>GARD:6225</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:0050169</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_rare_slim"/>
+        <rdfs:label xml:lang="en">cutaneous lupus erythematosus</rdfs:label>
+        <rdfs:label xml:lang="es">lupus eritematoso cutáneo</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_0050169"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A lupus erythematosus that causes skin lesions on parts of the body that are exposed to sunlight.</owl:annotatedTarget>
+        <dc:type rdf:resource="http://purl.obolibrary.org/obo/ECO_0007645"/>
+        <oboInOwl:hasDbXref>url:https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3927537/</oboInOwl:hasDbXref>
+        <rdfs:comment>sn:IEDB</rdfs:comment>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0050214 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0050214">
+        <obo:IAO_0000115 xml:lang="en">A neuromuscular junction disease that is characterized by an abnormality of acetylcholine (ACh) release at the neuromuscular junction which results from an autoimmune attack against voltage-gated calcium channels (VGCC) on the presynaptic motor nerve terminal.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="es">Enfermedad de la unión neuromuscular que se caracteriza por una anomalía de la liberación de acetilcolina (ACh) en la unión neuromuscular que resulta de un ataque autoinmune contra los canales de calcio activados por voltaje (VGCC) en la terminal nerviosa motora presináptica.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>ICD10CM:G70.80</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9CM:358.3</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D015624</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C3155</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:230688006</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0022972</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">Eaton-Lambert syndrome</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">LEMS</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Lambert-Eaton syndrome</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="es">síndrome de Eaton-Lambert</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="es">síndrome de Lambert-Eaton</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:0050214</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#NCIthesaurus"/>
+        <rdfs:label xml:lang="en">Lambert-Eaton myasthenic syndrome</rdfs:label>
+        <rdfs:label xml:lang="es">síndrome miasténico de Lambert-Eaton</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_0050214"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A neuromuscular junction disease that is characterized by an abnormality of acetylcholine (ACh) release at the neuromuscular junction which results from an autoimmune attack against voltage-gated calcium channels (VGCC) on the presynaptic motor nerve terminal.</owl:annotatedTarget>
+        <dc:type rdf:resource="http://purl.obolibrary.org/obo/ECO_0007638"/>
+        <oboInOwl:hasDbXref>url:http://en.wikipedia.org/wiki/Lambert%E2%80%93Eaton_myasthenic_syndrome</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_0050214"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">LEMS</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/OMO_0003012"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0050425 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0050425">
+        <obo:IAO_0000115 xml:lang="en">A central nervous system disease characterized by throbbing, pulling creeping or other unpleasant sensations in the legs and the irresistible urge to move them.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="es">Enfermedad del sistema nervioso central caracterizada por palpitaciones, tirones u otras sensaciones desagradables en las piernas y el impulso irresistible de moverlas.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>EFO:0004270</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GARD:11926</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:G25.81</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9CM:333.94</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D012148</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MIM:PS102300</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C84501</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:32914008</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0035258</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">WED</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Willis-Ekbom disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Wittmaack-Ekbom syndrome</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="es">enfermedad de Willis-Ekbom</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="es">síndrome de Wittmaack-Ekbom</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:0050425</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_rare_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#NCIthesaurus"/>
+        <rdfs:comment xml:lang="en">Xref MGI.</rdfs:comment>
+        <rdfs:label xml:lang="en">restless legs syndrome</rdfs:label>
+        <rdfs:label xml:lang="es">síndrome de las piernas inquietas</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_0050425"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A central nervous system disease characterized by throbbing, pulling creeping or other unpleasant sensations in the legs and the irresistible urge to move them.</owl:annotatedTarget>
+        <dc:type rdf:resource="http://purl.obolibrary.org/obo/ECO_0007638"/>
+        <oboInOwl:hasDbXref>url:http://en.wikipedia.org/wiki/Restless_legs_syndrome</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>url:http://www.ninds.nih.gov/disorders/restless_legs/detail_restless_legs.htm</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_0050425"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">WED</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/OMO_0003012"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0050589 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0050589">
+        <obo:IAO_0000115 xml:lang="en">An intestinal disease characterized by inflammation located in all parts of digestive tract.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="es">Enfermedad intestinal caracterizada por una inflamación localizada en todas las partes del tubo digestivo.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>EFO:0003767</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KEGG:05321</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D015212</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MIM:PS266600</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C3138</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:155759008</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0021390</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:0050589</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_FlyBase_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#NCIthesaurus"/>
+        <rdfs:comment xml:lang="en">Xref MGI. OMIM mapping confirmed by DO. [SN].</rdfs:comment>
+        <rdfs:label xml:lang="es">enfermedad inflamatoria intestinal</rdfs:label>
+        <rdfs:label xml:lang="en">inflammatory bowel disease</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_0050589"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">An intestinal disease characterized by inflammation located in all parts of digestive tract.</owl:annotatedTarget>
+        <dc:type rdf:resource="http://purl.obolibrary.org/obo/ECO_0007637"/>
+        <dc:type rdf:resource="http://purl.obolibrary.org/obo/ECO_0007638"/>
+        <oboInOwl:hasDbXref>url:http://en.wikipedia.org/wiki/Inflammatory_bowel_disease</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>url:http://www.mayoclinic.org/diseases-conditions/inflammatory-bowel-disease/basics/definition/con-20034908</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0050634 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0050634">
+        <obo:IAO_0000115 xml:lang="es">Alopecia caracterizada por la pérdida total del cabello en el cuero cabelludo y el cuerpo.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An alopecia characterized by the complete loss of hair on the scalp and body.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>GARD:614</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:C537055</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MIM:203655</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">ALOPECIA UNIVERSALIS CONGENITA</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:0050634</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_rare_slim"/>
+        <rdfs:label xml:lang="es">alopecia universal</rdfs:label>
+        <rdfs:label xml:lang="en">alopecia universalis</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_0050634"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">An alopecia characterized by the complete loss of hair on the scalp and body.</owl:annotatedTarget>
+        <dc:type rdf:resource="http://purl.obolibrary.org/obo/ECO_0007637"/>
+        <oboInOwl:hasDbXref>url:https://rarediseases.info.nih.gov/diseases/614/alopecia-universalis</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0050639 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0050639">
+        <obo:IAO_0000115 xml:lang="en">An amyloidosis characterized by pruritus, skin scratching and by deposits of amyloid in the dermis.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="es">Una amiloidosis caracterizada por prurito, rascado de la piel y por depósitos de amiloide en la dermis.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>GARD:132</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MIM:PS105250</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ORDO:137807</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ORDO:353220</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">PCA</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="es">amiloidosis cutánea primaria familiar localizada</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">familial primary localized cutaneous amyloidosis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:0050639</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_rare_slim"/>
+        <rdfs:comment xml:lang="en">Xref MGI. OMIM mapping confirmed by DO. [SN].</rdfs:comment>
+        <rdfs:label xml:lang="es">amiloidosis cutánea primaria</rdfs:label>
+        <rdfs:label xml:lang="en">primary cutaneous amyloidosis</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_0050639"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">An amyloidosis characterized by pruritus, skin scratching and by deposits of amyloid in the dermis.</owl:annotatedTarget>
+        <dc:type rdf:resource="http://purl.obolibrary.org/obo/ECO_0007645"/>
+        <oboInOwl:hasDbXref>url:https://www.ncbi.nlm.nih.gov/pubmed/19663869</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_0050639"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">PCA</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/OMO_0003012"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0050784 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0050784">
+        <obo:IAO_0000115 xml:lang="en">A multiple sclerosis that is characterized by steady worsening of neurologic functioning, without any distinct relapses or periods of remission. The rate of progression may vary over time, with occasional plateaus or temporary improvements, but the progression is continuous.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="es">Esclerosis múltiple que se caracteriza por un empeoramiento constante del funcionamiento neurológico, sin recaídas ni periodos de remisión definidos. El ritmo de progresión puede variar con el tiempo, con mesetas ocasionales o mejoras temporales, pero la progresión es continua.</obo:IAO_0000115>
+        <oboInOwl:creation_date>2013-11-07T11:26:58Z</oboInOwl:creation_date>
+        <oboInOwl:hasDbXref>MESH:D020528</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:428700003</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0751964</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="es">EM primaria progresiva</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">PPMS</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Primary-progressive MS</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:0050784</oboInOwl:id>
+        <rdfs:label xml:lang="es">esclerosis múltiple primaria progresiva</rdfs:label>
+        <rdfs:label xml:lang="en">primary progressive multiple sclerosis</rdfs:label>
+        <skos:narrowMatch>MESH:D020528</skos:narrowMatch>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_0050784"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A multiple sclerosis that is characterized by steady worsening of neurologic functioning, without any distinct relapses or periods of remission. The rate of progression may vary over time, with occasional plateaus or temporary improvements, but the progression is continuous.</owl:annotatedTarget>
+        <dc:type rdf:resource="http://purl.obolibrary.org/obo/ECO_0007637"/>
+        <oboInOwl:hasDbXref>url:http://www.mayoclinic.org/multiple-sclerosis/types.html</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>url:http://www.nationalmssociety.org/about-multiple-sclerosis/progressive-ms/primary-progressive-ms/index.aspx</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_0050784"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">PPMS</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/OMO_0003012"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0060182 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0060182">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050589"/>
+        <obo:IAO_0000115 xml:lang="en">A colitis that can only be diagnosed_by the examination of colon tissue under a microscope.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="es">Una colitis que solo se_diagnostica_por el examen del tejido del colon al microscopio.</obo:IAO_0000115>
+        <oboInOwl:creation_date>2014-09-12T14:49:18Z</oboInOwl:creation_date>
+        <oboInOwl:hasDbXref>ICD10CM:K52.83</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D046728</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C38504</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ORDO:58220</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:235753003</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0400821</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:0060182</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_rare_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#NCIthesaurus"/>
+        <rdfs:label xml:lang="es">colitis microscópica</rdfs:label>
+        <rdfs:label xml:lang="en">microscopic colitis</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_0060182"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A colitis that can only be diagnosed_by the examination of colon tissue under a microscope.</owl:annotatedTarget>
+        <dc:type rdf:resource="http://purl.obolibrary.org/obo/ECO_0007637"/>
+        <dc:type rdf:resource="http://purl.obolibrary.org/obo/ECO_0007638"/>
+        <oboInOwl:hasDbXref>url:http://en.wikipedia.org/wiki/Microscopic_colitis</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>url:http://www.mayoclinic.org/diseases-conditions/microscopic-colitis/basics/definition/con-20026232</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>url:https://www.niddk.nih.gov/health-information/digestive-diseases/microscopic-colitis</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0060188 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0060188">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050589"/>
+        <obo:IAO_0000115 xml:lang="en">An inflammatory bowel disease that is characterized by patchy areas of inflammation located_in jejunum, has_symptom abdominal pain, has_symptom diarrhea, has_symptom cramps and has_symptom formation of fistulas.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="es">Enfermedad inflamatoria intestinal que se caracteriza por áreas parcheadas de inflamación que se_ubica_en el yeyuno, tiene_como_síntoma dolor abdominal, tiene_como_síntoma diarrea, tiene_como_síntoma calambres y tiene_como_síntoma formación de fístulas.</obo:IAO_0000115>
+        <oboInOwl:creation_date>2014-09-15T10:51:02Z</oboInOwl:creation_date>
+        <oboInOwl:hasDbXref>ICD10CM:K50.0</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:0060188</oboInOwl:id>
+        <rdfs:label xml:lang="en">jejunoileitis</rdfs:label>
+        <rdfs:label xml:lang="es">yeyunoileítis</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_0060188"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">An inflammatory bowel disease that is characterized by patchy areas of inflammation located_in jejunum, has_symptom abdominal pain, has_symptom diarrhea, has_symptom cramps and has_symptom formation of fistulas.</owl:annotatedTarget>
+        <dc:type rdf:resource="http://purl.obolibrary.org/obo/ECO_0007638"/>
+        <dc:type rdf:resource="http://purl.obolibrary.org/obo/ECO_0007645"/>
+        <oboInOwl:hasDbXref>url:http://en.wikipedia.org/wiki/Crohn%27s_disease</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>url:https://www.ncbi.nlm.nih.gov/pubmed/15973125</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0060190 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0060190">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050589"/>
+        <obo:IAO_0000115 xml:lang="en">An inflammatory bowel disease characterized by inflammation located_in colon and located_in ileum, has_symptom diarrhea, has_symptom weight loss, has_symptom abdominal pain in middle or lower right part. The most common type of Crohn&apos;s disease.</obo:IAO_0000115>
+        <oboInOwl:creation_date>2014-09-15T12:22:19Z</oboInOwl:creation_date>
+        <oboInOwl:hasDbXref>ICD10CM:K52.9</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MEDDRA:10062647</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:0060190</oboInOwl:id>
+        <rdfs:comment xml:lang="en">OWL classification.</rdfs:comment>
+        <rdfs:label xml:lang="en">ileocolitis</rdfs:label>
+        <rdfs:label xml:lang="es">ileocolitis</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_0060190"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">An inflammatory bowel disease characterized by inflammation located_in colon and located_in ileum, has_symptom diarrhea, has_symptom weight loss, has_symptom abdominal pain in middle or lower right part. The most common type of Crohn&apos;s disease.</owl:annotatedTarget>
+        <dc:type rdf:resource="http://purl.obolibrary.org/obo/ECO_0007636"/>
+        <oboInOwl:hasDbXref>url:https://my.clevelandclinic.org/health/diseases/9357-crohns-disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0060191 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0060191">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050589"/>
+        <obo:IAO_0000115 xml:lang="en">An inflammatory bowel disease characterized by inflammation located_in stomach and located_in duodenum, has_symptom nausea, has_symptom vomiting, has_symptom weight loss and has_symptom loss of appetite.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="es">Enfermedad inflamatoria intestinal caracterizada por inflamación que se_ubica_en el estómago y se_ubica_en el duodeno, tiene_como_síntoma náuseas, tiene_como_síntoma vómitos, tiene_como_síntoma pérdida de peso y tiene_como_síntoma pérdida de apetito.</obo:IAO_0000115>
+        <oboInOwl:creation_date>2014-09-15T12:35:28Z</oboInOwl:creation_date>
+        <oboInOwl:hasDbXref>ICD10CM:K50.0</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">upper GI Crohn&apos;s disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:0060191</oboInOwl:id>
+        <rdfs:label xml:lang="es">enfermedad de Crohn gastroduodenal</rdfs:label>
+        <rdfs:label xml:lang="en">gastroduodenal Crohn&apos;s disease</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_0060191"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">An inflammatory bowel disease characterized by inflammation located_in stomach and located_in duodenum, has_symptom nausea, has_symptom vomiting, has_symptom weight loss and has_symptom loss of appetite.</owl:annotatedTarget>
+        <dc:type rdf:resource="http://purl.obolibrary.org/obo/ECO_0007638"/>
+        <dc:type rdf:resource="http://purl.obolibrary.org/obo/ECO_0007645"/>
+        <oboInOwl:hasDbXref>url:http://en.wikipedia.org/wiki/Crohn%27s_disease</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>url:https://www.ncbi.nlm.nih.gov/pubmed/12769447</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0060192 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0060192">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050589"/>
+        <obo:IAO_0000115 xml:lang="en">An inflammatory bowel disease characterized by inflammation located_in colon only, has_symptom diarrhea, has_symptom rectal bleeding, has_symptom skin lesions and has_symptom formation of ulcers, fistulas and abscesses around the anus.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="es">Enfermedad inflamatoria intestinal caracterizada por una inflamación que se_ubica_en el colon únicamente, tiene_como_síntoma diarrea, tiene_como_síntoma hemorragia rectal, tiene_como_síntoma lesiones cutáneas y tiene_como_síntoma formación de úlceras, fístulas y abscesos alrededor del ano.</obo:IAO_0000115>
+        <oboInOwl:creation_date>2014-09-15T12:50:24Z</oboInOwl:creation_date>
+        <oboInOwl:hasDbXref>ICD10CM:K50.1</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9CM:555.1</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D003424</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C37262</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:7620006</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0156147</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:0060192</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#NCIthesaurus"/>
+        <rdfs:comment xml:lang="en">OWL classification.</rdfs:comment>
+        <rdfs:label xml:lang="en">Crohn&apos;s colitis</rdfs:label>
+        <rdfs:label xml:lang="es">colitis de Crohn</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_0060192"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">An inflammatory bowel disease characterized by inflammation located_in colon only, has_symptom diarrhea, has_symptom rectal bleeding, has_symptom skin lesions and has_symptom formation of ulcers, fistulas and abscesses around the anus.</owl:annotatedTarget>
+        <dc:type rdf:resource="http://purl.obolibrary.org/obo/ECO_0007638"/>
+        <oboInOwl:hasDbXref>url:http://en.wikipedia.org/wiki/Crohn%27s_disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0060215 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0060215">
+        <obo:IAO_0000115 xml:lang="en">A multiple sclerosis that is characterized by concentric layers of demyelinated tissues, tumor-like lesions larger than two centimeters and symptoms similar to those of a brain tumor.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="es">Esclerosis múltiple que se caracteriza por capas concéntricas de tejidos desmielinizados, lesiones de aspecto tumoral de más de dos centímetros y síntomas similares a los de un tumor cerebral.</obo:IAO_0000115>
+        <oboInOwl:creation_date>2014-09-18T15:02:17Z</oboInOwl:creation_date>
+        <oboInOwl:hasDbXref>GARD:5885</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:G37.0</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9CM:341.1</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D002549</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C84670</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:44875002</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0007795</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">Balo disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Balo&apos;s concentric sclerosis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Tumefactive multiple sclerosis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="es">enfermedad de Baló</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="es">esclerosis concéntrica de Baló</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="es">esclerosis múltiple tumefacta</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:0060215</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_rare_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#NCIthesaurus"/>
+        <rdfs:comment xml:lang="en">Similar to standard multiple sclerosis.</rdfs:comment>
+        <rdfs:label xml:lang="en">Balo concentric sclerosis</rdfs:label>
+        <rdfs:label xml:lang="es">esclerosis concéntrica de Baló</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_0060215"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A multiple sclerosis that is characterized by concentric layers of demyelinated tissues, tumor-like lesions larger than two centimeters and symptoms similar to those of a brain tumor.</owl:annotatedTarget>
+        <dc:type rdf:resource="http://purl.obolibrary.org/obo/ECO_0007638"/>
+        <oboInOwl:hasDbXref>url:http://en.wikipedia.org/wiki/Balo_concentric_sclerosis</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>url:https://pubmed.ncbi.nlm.nih.gov/32140322/</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>url:https://www.cedars-sinai.edu/Patients/Health-Conditions/Tumefactive-Multiple-Sclerosis.aspx</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>url:https://www.ncbi.nlm.nih.gov/articles/PMC3110404/</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0060216 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0060216">
+        <obo:IAO_0000115 xml:lang="en">An eye disease characterized by nonsyphilitic interstitial keratitis located_in cornea, has_symptom fever, has_symptom fatigue.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="es">Enfermedad ocular caracterizada por queratitis intersticial no sifilítica que se_ubica_en córnea, tiene_como_síntoma fiebre, tiene_como_síntoma fatiga.</obo:IAO_0000115>
+        <oboInOwl:creation_date>2014-09-22T16:29:20Z</oboInOwl:creation_date>
+        <oboInOwl:hasDbXref>GARD:1421</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:H16.32</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D055952</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ORDO:1467</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:231906002</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0271270</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">Cogan&apos;s syndrome</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">diffuse interstitual keratitis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="es">síndrome de Cogan</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:0060216</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_rare_slim"/>
+        <rdfs:comment xml:lang="en">OWL also bilateral audiovestibular deficits.</rdfs:comment>
+        <rdfs:label xml:lang="en">Cogan syndrome</rdfs:label>
+        <rdfs:label xml:lang="es">síndrome de Cogan</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_0060216"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">An eye disease characterized by nonsyphilitic interstitial keratitis located_in cornea, has_symptom fever, has_symptom fatigue.</owl:annotatedTarget>
+        <dc:type rdf:resource="http://purl.obolibrary.org/obo/ECO_0007638"/>
+        <oboInOwl:hasDbXref>url:http://en.wikipedia.org/wiki/Cogan_syndrome</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0060218 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0060218">
+        <obo:IAO_0000115 xml:lang="en">A syndrome characterized by calcinosis, Raynaud&apos;s phenomeno, esophageal dysmotility, sclerodactyly and telangiectasia.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="es">Un síndrome caracterizado por calcinosis, fenómeno de Raynaud, dismotilidad esofágica, esclerodactilia y telangiectasia.</obo:IAO_0000115>
+        <oboInOwl:creation_date>2014-09-24T16:30:36Z</oboInOwl:creation_date>
+        <oboInOwl:hasDbXref>GARD:12430</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:M34.1</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D017675</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C70646</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:31848007</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:62382002</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0206138</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C1527226</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:0060218</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_rare_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#NCIthesaurus"/>
+        <rdfs:label xml:lang="en">CREST syndrome</rdfs:label>
+        <rdfs:label xml:lang="es">síndrome de CREST</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_0060218"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A syndrome characterized by calcinosis, Raynaud&apos;s phenomeno, esophageal dysmotility, sclerodactyly and telangiectasia.</owl:annotatedTarget>
+        <dc:type rdf:resource="http://purl.obolibrary.org/obo/ECO_0007638"/>
+        <oboInOwl:hasDbXref>url:http://en.wikipedia.org/wiki/CREST_syndrome</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0060220 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0060220">
+        <obo:IAO_0000115 xml:lang="en">An urticaria induced by external physical influences.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="es">Una urticaria inducida por influencias físicas externas.</obo:IAO_0000115>
+        <oboInOwl:creation_date>2014-11-21T15:51:38Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:0060220</oboInOwl:id>
+        <rdfs:comment xml:lang="en">WD correction.</rdfs:comment>
+        <rdfs:label xml:lang="en">physical urticaria</rdfs:label>
+        <rdfs:label xml:lang="es">urticaria física</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_0060220"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">An urticaria induced by external physical influences.</owl:annotatedTarget>
+        <dc:type rdf:resource="http://purl.obolibrary.org/obo/ECO_0007638"/>
+        <oboInOwl:hasDbXref>url:http://en.wikipedia.org/wiki/Physical_urticaria</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>url:http://www.dermnetnz.org/reactions/urticaria.html</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0060234 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0060234">
+        <obo:IAO_0000115 xml:lang="en">An acrocephalosyndactylia characterized by craniosynostosis, acrocephaly, obesity, syndactyly and polydactyly.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="es">Una acrocefalosindactilia caracterizada por craneosinostosis, acrocefalia, obesidad, sindactilia y polidactilia.</obo:IAO_0000115>
+        <oboInOwl:creation_date>2015-01-23T16:06:03Z</oboInOwl:creation_date>
+        <oboInOwl:hasDbXref>GARD:6003</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:C563187</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MIM:PS201000</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C98873</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ORDO:65759</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:403767009</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C1275078</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="es">acrocefalopolisindactilia tipo II</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">acrocephalopolysyndactyly type II</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:0060234</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_rare_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#NCIthesaurus"/>
+        <rdfs:comment xml:lang="en">NT MGI.</rdfs:comment>
+        <rdfs:label xml:lang="en">Carpenter syndrome</rdfs:label>
+        <rdfs:label xml:lang="es">síndrome de Carpenter</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_0060234"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">An acrocephalosyndactylia characterized by craniosynostosis, acrocephaly, obesity, syndactyly and polydactyly.</owl:annotatedTarget>
+        <dc:type rdf:resource="http://purl.obolibrary.org/obo/ECO_0007636"/>
+        <dc:type rdf:resource="http://purl.obolibrary.org/obo/ECO_0007637"/>
+        <dc:type rdf:resource="http://purl.obolibrary.org/obo/ECO_0007638"/>
+        <oboInOwl:hasDbXref>url:http://en.wikipedia.org/wiki/Carpenter_syndrome</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>url:http://ghr.nlm.nih.gov/condition/carpenter-syndrome</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>url:https://www.rarediseases.org/rare-disease-information/rare-diseases/byID/612/viewAbstract</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0060284 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0060284">
+        <obo:IAO_0000115 xml:lang="en">An acquired hemolytic anemia that is characterized by abdominal pain, hematuria, esophageal dysmotility and thrombosis, has_material_basis_in defect in the cell membrane glycosyl phosphatidylinositols that protect red blood cells from the innate complement immune system.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="es">Una anemia hemolítica adquirida que se caracteriza por dolor abdominal, hematuria, dismotilidad esofágica y trombosis, que tiene_como_base un defecto en los glicosil fosfatidilinositoles de la membrana celular que protegen a los glóbulos rojos del sistema inmunitario innato del complemento.</obo:IAO_0000115>
+        <oboInOwl:creation_date>2015-02-04T16:30:50Z</oboInOwl:creation_date>
+        <oboInOwl:hasDbXref>GARD:7337</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:D59.5</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:D59.6</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D006457</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MIM:300818</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MIM:615399</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C61233</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ORDO:447</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:1468004</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:154805009</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:191226006</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0019050</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0024790</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0086774</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:0060284</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_rare_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#NCIthesaurus"/>
+        <rdfs:comment xml:lang="en">NT MGI.</rdfs:comment>
+        <rdfs:label xml:lang="es">hemoglobinuria paroxística nocturna</rdfs:label>
+        <rdfs:label xml:lang="en">paroxysmal nocturnal hemoglobinuria</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_0060284"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">An acquired hemolytic anemia that is characterized by abdominal pain, hematuria, esophageal dysmotility and thrombosis, has_material_basis_in defect in the cell membrane glycosyl phosphatidylinositols that protect red blood cells from the innate complement immune system.</owl:annotatedTarget>
+        <dc:type rdf:resource="http://purl.obolibrary.org/obo/ECO_0007638"/>
+        <oboInOwl:hasDbXref>url:https://en.wikipedia.org/wiki/Paroxysmal_nocturnal_hemoglobinuria</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0060643 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0060643">
+        <obo:IAO_0000115 xml:lang="en">A sclerosing cholangitis characterized by fibroobliterative inflammation of the biliary tract, leading to cirrhosis and portal hypertension.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="es">Una colangitis esclerosante caracterizada por la inflamación fibroobliterativa del tracto biliar, que conduce a la cirrosis y a la hipertensión portal.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>GARD:1280</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:K83.01</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D015209</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MIM:613806</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C4828</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ORDO:171</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:4032000</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0566602</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:0060643</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_rare_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#NCIthesaurus"/>
+        <rdfs:label xml:lang="es">colangitis esclerosante primaria</rdfs:label>
+        <rdfs:label xml:lang="en">primary sclerosing cholangitis</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_0060643"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A sclerosing cholangitis characterized by fibroobliterative inflammation of the biliary tract, leading to cirrhosis and portal hypertension.</owl:annotatedTarget>
+        <dc:type rdf:resource="http://purl.obolibrary.org/obo/ECO_0007645"/>
+        <oboInOwl:hasDbXref>url:https://www.ncbi.nlm.nih.gov/pubmed/7877651</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0060645 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0060645">
+        <obo:IAO_0000115 xml:lang="en">An osteomyelitis characterized by multiple foci of painful swelling of bones, mainly in the metaphyses of the long bones, in addition to the pelvis, the shoulder girdle and the spine.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="es">Una osteomielitis caracterizada por múltiples focos de inflamación dolorosa de los huesos, principalmente en las metáfisis de los huesos largos, además de la pelvis, la cintura escapular y la columna vertebral.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>ICD10CM:M86.3</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:C535456</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MIM:259680</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ORDO:324964</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">CRMO</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">chronic multifocal osteomyelitis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="es">osteomielitis multifocal crónica</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:0060645</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_infectious_disease_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_rare_slim"/>
+        <rdfs:label xml:lang="en">chronic recurrent multifocal osteomyelitis</rdfs:label>
+        <rdfs:label xml:lang="es">osteomielitis multifocal recurrente crónica</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_0060645"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">An osteomyelitis characterized by multiple foci of painful swelling of bones, mainly in the metaphyses of the long bones, in addition to the pelvis, the shoulder girdle and the spine.</owl:annotatedTarget>
+        <dc:type rdf:resource="http://purl.obolibrary.org/obo/ECO_0007638"/>
+        <dc:type rdf:resource="http://purl.obolibrary.org/obo/ECO_0007645"/>
+        <oboInOwl:hasDbXref>url:https://en.wikipedia.org/wiki/Chronic_recurrent_multifocal_osteomyelitis</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>url:https://www.ncbi.nlm.nih.gov/pubmed/11973628</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>url:https://www.ncbi.nlm.nih.gov/pubmed/4403064</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>url:https://www.nomidalliance.org/crmo.php</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_0060645"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">CRMO</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/OMO_0003012"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0060851 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0060851">
+        <obo:IAO_0000115 xml:lang="en">A pemphigus characterized by autosomal dominant blisters and erosions on the skin and mucous membranes erosions cause by autoantibodies to intercellular cement substance.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="es">Un pénfigo caracterizado por ampollas y erosiones autosómicas dominantes en la piel y las membranas mucosas. Las erosiones son causadas por autoanticuerpos contra la sustancia cementante intercelular.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>GARD:7355</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:L10.0</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D010392</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MIM:169610</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C34910</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ORDO:704</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:49420001</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0030809</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">familial pemphigus vulgaris</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="es">pénfigo vulgar familiar</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:0060851</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_rare_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#NCIthesaurus"/>
+        <rdfs:label xml:lang="en">pemphigus vulgaris</rdfs:label>
+        <rdfs:label xml:lang="es">pénfigo vulgar</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_0060851"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A pemphigus characterized by autosomal dominant blisters and erosions on the skin and mucous membranes erosions cause by autoantibodies to intercellular cement substance.</owl:annotatedTarget>
+        <dc:type rdf:resource="http://purl.obolibrary.org/obo/ECO_0007645"/>
+        <oboInOwl:hasDbXref>url:https://www.ncbi.nlm.nih.gov/pubmed/2217197</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>url:https://www.ncbi.nlm.nih.gov/pubmed/4577497</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0080162 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0080162">
+        <obo:IAO_0000115 xml:lang="en">A glomerulonephritis that is characterized by inflammation of the kidneys resulting from systemic lupus erythematosus.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>GARD:10747</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D008181</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:0080162</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_rare_slim"/>
+        <rdfs:label xml:lang="en">lupus nephritis</rdfs:label>
+        <rdfs:label xml:lang="es">nefritis lúpica</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_0080162"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A glomerulonephritis that is characterized by inflammation of the kidneys resulting from systemic lupus erythematosus.</owl:annotatedTarget>
+        <dc:type rdf:resource="http://purl.obolibrary.org/obo/ECO_0007638"/>
+        <oboInOwl:hasDbXref>url:https://en.wikipedia.org/wiki/Lupus_nephritis#cite_note-1</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>url:https://medlineplus.gov/ency/article/000481.htm</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0080356 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0080356">
+        <obo:IAO_0000115 xml:lang="en">An autoimmune disease that is characterized by tumefactive lesions, a dense lymphoplasmacytic infiltrate rich in IgG4-positive plasma cells, storiform fibrosis, obliterative phlebitis, autoimmune pancreatitis, and sometimes elevated serum IgG4 levels affecting various organs.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="es">Enfermedad autoinmune que se caracteriza por lesiones tumefactivas, un denso infiltrado linfoplasmocitario rico en células plasmáticas IgG4 positivas, fibrosis estoriforme, flebitis obliterativa, pancreatitis autoinmune y, en ocasiones, niveles séricos elevados de IgG4 que afectan a diversos órganos.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>GARD:12521</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ORDO:284264</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:0080356</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_rare_slim"/>
+        <rdfs:label xml:lang="en">IgG4-related disease</rdfs:label>
+        <rdfs:label xml:lang="es">enfermedad relacionada con IgG4</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_0080356"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">An autoimmune disease that is characterized by tumefactive lesions, a dense lymphoplasmacytic infiltrate rich in IgG4-positive plasma cells, storiform fibrosis, obliterative phlebitis, autoimmune pancreatitis, and sometimes elevated serum IgG4 levels affecting various organs.</owl:annotatedTarget>
+        <dc:type rdf:resource="http://purl.obolibrary.org/obo/ECO_0007637"/>
+        <dc:type rdf:resource="http://purl.obolibrary.org/obo/ECO_0007645"/>
+        <oboInOwl:hasDbXref>url:https://rarediseases.info.nih.gov/diseases/12521/index</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>url:https://www.ncbi.nlm.nih.gov/articles/PMC4760655/</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>url:https://www.nejm.org/doi/full/10.1056/NEJMra1104650</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0080743 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0080743">
+        <obo:IAO_0000115 xml:lang="en">A myelitis that is characterized by a band-like sensation across the trunk of the body, with sensory changes below.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="es">Una mielitis que se caracteriza por una sensación en forma de banda a lo largo del tronco del cuerpo, con cambios sensoriales por debajo.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:0080743</oboInOwl:id>
+        <rdfs:label xml:lang="es">mielitis transversa</rdfs:label>
+        <rdfs:label xml:lang="en">transverse myelitis</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_0080743"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A myelitis that is characterized by a band-like sensation across the trunk of the body, with sensory changes below.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>url:https://www.mayoclinic.org/diseases-conditions/transverse-myelitis/symptoms-causes/syc-20354726</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>url:https://www.ninds.nih.gov/health-information/disorders/transverse-myelitis</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0080744 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0080744">
+        <obo:IAO_0000115 xml:lang="en">An autoimmune disease that is characterized by myositis, arthralgia, Raynaud phenomenon, mechanic hands, interstitial lung disease, and serum autoantibodies to aminoacyl transfer RNA synthetases.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="es">Enfermedad autoinmune que se caracteriza por miositis, artralgia, fenómeno de Raynaud, manos mecánicas, enfermedad pulmonar intersticial y autoanticuerpos séricos contra las aminoacil ARN de transferencia sintetasas.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>GARD:735</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:C537778</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ORDO:81</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:0080744</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_rare_slim"/>
+        <rdfs:label xml:lang="es">Síndrome antisintetasa</rdfs:label>
+        <rdfs:label xml:lang="en">antisynthetase syndrome</rdfs:label>
+        <skos:exactMatch>MESH:C537778</skos:exactMatch>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_0080744"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">An autoimmune disease that is characterized by myositis, arthralgia, Raynaud phenomenon, mechanic hands, interstitial lung disease, and serum autoantibodies to aminoacyl transfer RNA synthetases.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>url:https://en.wikipedia.org/wiki/Antisynthetase_syndrome</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>url:https://pubmed.ncbi.nlm.nih.gov/27594777/</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0080745 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0080745">
+        <obo:IAO_0000115 xml:lang="en">A myositis that is characterized by muscle weakness affecting both sides of your body.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="es">Miositis caracterizada por debilidad muscular que afecta a ambos lados del cuerpo.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>GARD:7425</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D017285</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:0080745</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_rare_slim"/>
+        <rdfs:label xml:lang="es">polimiositis</rdfs:label>
+        <rdfs:label xml:lang="en">polymyositis</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_0080745"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A myositis that is characterized by muscle weakness affecting both sides of your body.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>url:https://my.clevelandclinic.org/health/diseases/12053-polymyositis</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>url:https://www.mayoclinic.org/diseases-conditions/polymyositis/symptoms-causes/syc-20353208</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0080747 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0080747">
+        <obo:IAO_0000115 xml:lang="en">An urticaria that is characterized by the presence of urticaria for a period exceeding 6 weeks, assuming symptoms for most days of the week.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="es">Urticaria que se caracteriza por la presencia de urticaria durante un periodo superior a 6 semanas, asumiendo los síntomas durante la mayoría de los días de la semana.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>MESH:D000080223</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:0080747</oboInOwl:id>
+        <rdfs:label xml:lang="en">chronic urticaria</rdfs:label>
+        <rdfs:label xml:lang="es">urticaria crónica</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_0080747"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">An urticaria that is characterized by the presence of urticaria for a period exceeding 6 weeks, assuming symptoms for most days of the week.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>url:https://pubmed.ncbi.nlm.nih.gov/30033911/</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0080749 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0080749">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0080747"/>
+        <obo:IAO_0000115 xml:lang="en">A chronic urticaria that is characterized by urticaria independent of any exogenous stimulus.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="es">Urticaria crónica que se caracteriza por una urticaria independiente de cualquier estímulo exógeno.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">chronic idiopathic urticaria</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="es">urticaria idiopática crónica</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:0080749</oboInOwl:id>
+        <rdfs:label xml:lang="en">chronic spontaneous urticaria</rdfs:label>
+        <rdfs:label xml:lang="es">urticaria crónica espontánea</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_0080749"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A chronic urticaria that is characterized by urticaria independent of any exogenous stimulus.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>url:https://pubmed.ncbi.nlm.nih.gov/14501436/</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>url:https://pubmed.ncbi.nlm.nih.gov/28671445/</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>url:https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6061968/</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0080750 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0080750">
+        <obo:IAO_0000115 xml:lang="en">A panniculitis that is characterized by sudden onset of painful, erythematous, subcutaneous nodules mainly localized to the pretibial areas. Lesions are usually bilateral and symmetrical, ranging from 1 to 5 cm in diameter.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="es">Paniculitis que se caracteriza por la aparición súbita de nódulos subcutáneos eritematosos y dolorosos localizados principalmente en las zonas pretibiales. Las lesiones suelen ser bilaterales y simétricas, y su diámetro oscila entre 1 y 5 cm.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>MESH:D004893</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:0080750</oboInOwl:id>
+        <rdfs:label xml:lang="es">eritema nodoso</rdfs:label>
+        <rdfs:label xml:lang="en">erythema nodosum</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_0080750"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A panniculitis that is characterized by sudden onset of painful, erythematous, subcutaneous nodules mainly localized to the pretibial areas. Lesions are usually bilateral and symmetrical, ranging from 1 to 5 cm in diameter.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>url:https://en.wikipedia.org/wiki/Erythema_nodosum</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>url:https://pubmed.ncbi.nlm.nih.gov/30269303/</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0080767 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0080767">
+        <obo:IAO_0000115 xml:lang="en">An autoimmune disease of cardiovascular system that is characterized by inflammation of the heart muscle.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="es">Enfermedad autoinmune del sistema cardiovascular que se caracteriza por la inflamación del músculo cardíaco.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>GARD:9519</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:0080767</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_rare_slim"/>
+        <rdfs:label xml:lang="en">autoimmune myocarditis</rdfs:label>
+        <rdfs:label xml:lang="es">miocarditis autoinmune</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_0080767"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">An autoimmune disease of cardiovascular system that is characterized by inflammation of the heart muscle.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>url:https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5706653/</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0080848 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0080848">
+        <obo:IAO_0000115 xml:lang="en">A Coronavirus infectious disease that is characterized by long-term persistent and fluctuating symptoms, in individuals with COVID-19, persisting beyond three to four weeks, including the loss of the ability to smell and taste, breathlessness, fatigue, difficulty in breathing, difficulty concentrating, memory loss, confusion, headache, heart palpitations, chest pain, pain with deep breaths, dizziness, and tachycardia.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="es">Enfermedad infecciosa por Coronavirus que se caracteriza por síntomas persistentes y fluctuantes a largo plazo, en individuos con COVID-19, que persisten más allá de tres o cuatro semanas, incluyendo la pérdida de la capacidad olfativa y gustativa, disnea, fatiga, dificultad para respirar, dificultad para concentrarse, pérdida de memoria, confusión, dolor de cabeza, palpitaciones, dolor torácico, dolor con respiraciones profundas, mareos y taquicardia.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="es">COVID-19 crónico</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">PASC</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">chronic COVID-19</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">post-COVID syndrome</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">post-acute sequelae of SARS-CoV-2 infection</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="es">secuelas posagudas de la infección por SARS-CoV-2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="es">síndrome post-COVID</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:0080848</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_infectious_disease_slim"/>
+        <rdfs:label xml:lang="es">COVID largo</rdfs:label>
+        <rdfs:label xml:lang="en">long COVID</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_0080848"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A Coronavirus infectious disease that is characterized by long-term persistent and fluctuating symptoms, in individuals with COVID-19, persisting beyond three to four weeks, including the loss of the ability to smell and taste, breathlessness, fatigue, difficulty in breathing, difficulty concentrating, memory loss, confusion, headache, heart palpitations, chest pain, pain with deep breaths, dizziness, and tachycardia.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>url:https://www.bmj.com/content/371/bmj.m4470</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>url:https://www.medrxiv.org/content/10.1101/2020.10.07.20208249v1</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>url:https://www.medrxiv.org/content/10.1101/2020.10.07.20208702v1</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>url:https://www.medrxiv.org/content/10.1101/2020.10.13.20211854v1</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>url:https://www.nature.com/articles/d41586-020-02796-2</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_0080848"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">PASC</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/OMO_0003012"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0080850 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0080850">
+        <obo:IAO_0000115 xml:lang="en">A pemphigus that is characterized by blistering lesions on otherwise healthy-looking skin.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="es">Pénfigo caracterizado por lesiones ampollosas en una piel de aspecto sano.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>GARD:7354</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:L10.2</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D010392</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ORDO:79481</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:35154004</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0263313</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">pemphigus foliaceous</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:0080850</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_rare_slim"/>
+        <rdfs:label xml:lang="es">Pénfigo foliáceo</rdfs:label>
+        <rdfs:label xml:lang="en">pemphigus foliaceus</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_0080850"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A pemphigus that is characterized by blistering lesions on otherwise healthy-looking skin.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>url:https://dermnetnz.org/topics/pemphigus-foliaceus/</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0081120 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0081120">
+        <obo:IAO_0000115 xml:lang="en">An autoimmune disease of eyes, ear, nose and throat that is characterized by upper eyelid retraction, lid lag, swelling, redness, conjunctivitis, and bulging eyes.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="es">Enfermedad autoinmune de ojos, oído, nariz y garganta que se caracteriza por retracción del párpado superior, lag del párpado, hinchazón, enrojecimiento, conjuntivitis y ojos saltones.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>MESH:D049970</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">Graves orbitopathy</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="es">Oftalmopatía asociada al tiroides</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="es">Orbitopatía de Graves</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Thyroid associated ophthalmopathy</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="es">enfermedad ocular tiroidea</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">thyroid eye disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:0081120</oboInOwl:id>
+        <rdfs:label xml:lang="en">Graves ophthalmopathy</rdfs:label>
+        <rdfs:label xml:lang="es">Oftalmopatía de Graves</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_0081120"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">An autoimmune disease of eyes, ear, nose and throat that is characterized by upper eyelid retraction, lid lag, swelling, redness, conjunctivitis, and bulging eyes.</owl:annotatedTarget>
+        <dc:type rdf:resource="http://purl.obolibrary.org/obo/ECO_0007645"/>
+        <oboInOwl:hasDbXref>url:https://en.wikipedia.org/wiki/Graves%27_ophthalmopathy</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0111079 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0111079">
+        <obo:IAO_0000115 xml:lang="en">A posterior uveitis characterized by multiple small, hypopigmented, cream-colored choroidal lesions scattered symmetrically in the fundus primarily around the optic disc that presents in patients as blurred vision, floaters, photopsia, scotoma and nyctalopia.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="es">La uveítis posterior se caracteriza por múltiples lesiones coroideas pequeñas, hipopigmentadas y de color crema, diseminadas simétricamente en el fondo de ojo principalmente alrededor del disco óptico, que se presenta en los pacientes como visión borrosa, moscas volantes, fotopsia, escotoma y nictalopía.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>GARD:5926</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D000080365</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MIM:605808</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ORDO:179</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:231981005</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C1853959</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">BSCR</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">birdshot chorioretinitis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">birdshot retinochoroiditis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">birdshot retinochoroidopathy</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">vitiliginous choroiditis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:0111079</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_rare_slim"/>
+        <rdfs:label xml:lang="en">birdshot chorioretinopathy</rdfs:label>
+        <rdfs:label xml:lang="es">coriorretinopatía perdigonada</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_0111079"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A posterior uveitis characterized by multiple small, hypopigmented, cream-colored choroidal lesions scattered symmetrically in the fundus primarily around the optic disc that presents in patients as blurred vision, floaters, photopsia, scotoma and nyctalopia.</owl:annotatedTarget>
+        <dc:type rdf:resource="http://purl.obolibrary.org/obo/ECO_0007645"/>
+        <oboInOwl:hasDbXref>url:https://www.ncbi.nlm.nih.gov/pubmed/11226280</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>url:https://www.ncbi.nlm.nih.gov/pubmed/16263368</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>url:https://www.ncbi.nlm.nih.gov/pubmed/18214792</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_0111079"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">BSCR</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/OMO_0003012"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0111157 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0111157">
+        <obo:IAO_0000115 xml:lang="en">A lymphoproliferative syndrome characterized by one or more enlarged lymph nodes containing cells with hyaline-vascular, plasmacytic, or mixed appearance microscopically.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="es">El síndrome linfoproliferativo se caracteriza por uno o más ganglios linfáticos agrandados que contienen células con aspecto hialino-vascular, plasmocitario o mixto microscópicamente.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>GARD:12656</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:D47.Z2</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:C536362</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D005871</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C3056</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ORDO:160</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:207036003</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0017531</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C2931179</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="es">Hamartoma linfoide</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="es">Hiperplasia de ganglios linfáticos gigantes</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="es">Hiperplasia de los ganglios linfáticos angiofoliculares</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">angiofollicular lymph hyperplasia</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">angiofollicular lymph node hyperplasia</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">giant lymph node hyperplasia</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="es">hiperplasia linfática angiofolicular</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">lymphoid hamartoma</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:0111157</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_rare_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#NCIthesaurus"/>
+        <rdfs:label xml:lang="en">Castleman disease</rdfs:label>
+        <rdfs:label xml:lang="es">enfermedad de Castleman</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_0111157"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A lymphoproliferative syndrome characterized by one or more enlarged lymph nodes containing cells with hyaline-vascular, plasmacytic, or mixed appearance microscopically.</owl:annotatedTarget>
+        <dc:type rdf:resource="http://purl.obolibrary.org/obo/ECO_0007636"/>
+        <oboInOwl:hasDbXref>url:https://rarediseases.org/rare-diseases/castlemans-disease/</oboInOwl:hasDbXref>
+    </owl:Axiom>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29) https://github.com/owlcs/owlapi -->
+

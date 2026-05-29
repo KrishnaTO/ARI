@@ -1,0 +1,48 @@
+,Abbreviation,Short Name,Last Updated,Restriction Level (?,
+umls,MDR,MedDRA,2025AB,3,"(umls)<-[:IMPORTS]-(mdr:ns {name:'MDR', label:'MedDRA'})"
+umls,HGNC,HUGO Gene Nomenclature Committee,2025AB,0,"(umls)<-[:IMPORTS]-(hgnc:ns {name:'HGNC', label:'HUGO Gene Nomenclature Committee'})"
+umls,NCI,NCI Thesaurus,2025AB,0,"(umls)<-[:IMPORTS]-(nci:ns {name:'NCI', label:'NCI Thesaurus'})"
+umls,NCBI,NCBI Taxonomy,2025AB,0,"(umls)<-[:IMPORTS]-(ncbi:ns {name:'NCBI', label:'NCBI Taxonomy'})"
+umls,GO,Gene Ontology,2025AB,0,"(umls)<-[:IMPORTS]-(go:ns {name:'GO', label:'Gene Ontology'})"
+icd,ICD10CM,"International Classification of Diseases, Tenth Revision, Clinical Modification",2025AB,4,"(icd)<-[:IMPORTS]-(icd10cm:ns {name:'ICD10CM', label:'International Classification of Diseases, Tenth Revision, Clinical Modification'})"
+umls,ORPHANET,ORPHANET,2025AB,1,"(umls)<-[:IMPORTS]-(orphanet:ns {name:'ORPHANET', label:'ORPHANET'})"
+umls,SNOMEDCT_US,"SNOMED CT, US Edition",2025AB,9,"(umls)<-[:IMPORTS]-(snomedct_us:ns {name:'SNOMEDCT_US', label:'SNOMED CT, US Edition'})"
+umls,OMIM,Online Mendelian Inheritance in Man,2025AB,0,"(umls)<-[:IMPORTS]-(omim:ns {name:'OMIM', label:'Online Mendelian Inheritance in Man'})"
+umls,HPO,Human Phenotype Ontology,2025AB,0,"(umls)<-[:IMPORTS]-(hpo:ns {name:'HPO', label:'Human Phenotype Ontology'})"
+umls,MSH,MeSH,2025AB,0,"(umls)<-[:IMPORTS]-(msh:ns {name:'MSH', label:'MeSH'})"
+umls,LNC,Logical Observation Identifiers Names and Codes terminology,2025AB,0,"(umls)<-[:IMPORTS]-(lnc:ns {name:'LNC', label:'Logical Observation Identifiers Names and Codes terminology'})"
+umls,NEU,Neuronames Brain Hierarchy,2023AB,3,"(umls)<-[:IMPORTS]-(neu:ns {name:'NEU', label:'Neuronames Brain Hierarchy'})"
+,MTHCMSFRF,Metathesaurus CMS Formulary Reference File,2025AB,0,
+,ICD10PCS,ICD-10 Procedure Coding System,2025AB,0,
+,CDCREC,Race & Ethnicity - CDC,2025AB,0,
+,CDT,Code on Dental Procedures and Nomenclature,2025AB,3,
+,MEDLINEPLUS,MedlinePlus Health Topics,2025AB,0,
+,NUCCHCPT,National Uniform Claim Committee - Health Care Provider Taxonomy,2025AB,3,
+,MEDCIN,MEDCIN,2025AB,3,
+,HL7V3.0,HL7 Version 3.0,2025AB,0,
+,MMSL,Multum,2025AB,1,
+,MMX,Micromedex,2025AB,3,
+,NDDF,FDB MedKnowledge,2025AB,3,
+,RXNORM,RXNORM,2025AB,0,
+,VANDF,National Drug File,2025AB,0,
+,MTHSPL,FDA Structured Product Labels,2025AB,0,
+,GS,Gold Standard Drug Database,2025AB,3,
+,ATC,Anatomical Therapeutic Chemical Classification System,2025AB,0,
+,CVX,Vaccines Administered,2025AB,0,
+,DRUGBANK,DrugBank,2025AB,0,
+,USP,USP Compendial Nomenclature,2025AB,0,
+,MED-RT,Medication Reference Terminology,2025AB,0,
+,CPT,CPT - Current Procedural Terminology,2025AA,3,
+,CCSR_ICD10PCS,Clinical Classifications Software Refined for ICD-10-PCS,2025AA,0,
+,CCSR_ICD10CM,Clinical Classifications Software Refined for ICD-10-CM,2025AA,0,
+,SNOMEDCT_VET,"SNOMED CT, Veterinary Extension",2025AA,9,
+,PNDS,Perioperative Nursing Data Set,2025AA,3,
+,MVX,Manufacturers of Vaccines,2025AA,0,
+,HCPCS,HCPCS - Healthcare Common Procedure Coding System,2025AA,0,
+,HCPT,CPT in HCPCS,2025AA,3,
+,NIC,Nursing Interventions Classification,2024AB,3,
+,NOC,Nursing Outcomes Classification,2024AB,3,
+,USPMG,USP Model Guidelines,2024AA,0,
+,HCDT,CDT in HCPCS,2023AA,3,
+,UMD,UMDNS,2023AA,1,
+,ICNP,International Classification for Nursing Practice,2023AA,3,

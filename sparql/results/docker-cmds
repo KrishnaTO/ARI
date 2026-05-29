@@ -1,0 +1,25 @@
+docker run -it -v $(pwd):/tools/tmp obolibrary/odkfull \
+robot extract --method TOP \
+    --input tmp/doid.owl \
+    --term-file tmp/related_terms.txt \
+    --copy-ontology-annotations true \
+    -individuals exclude \
+    --output tmp/results/related_terms.owl
+
+
+docker run -it -v $(pwd):/tools/tmp obolibrary/odkfull \
+robot extract --method TOP \
+    --input tmp/uberon.owl \
+    --term UBERON:0010000 \
+    --copy-ontology-annotations true \
+    -individuals exclude \
+    --output tmp/results/related_terms.owl
+
+NS=mondo
+docker run -it -v $(pwd):/tools/tmp obolibrary/odkfull \
+robot query \
+    --input tmp/mondo.owl \
+    --query tmp/related.sparql \
+    tmp/results/${NS}_related_terms.csv
+
+    #--input tmp/results/related_terms.owl \

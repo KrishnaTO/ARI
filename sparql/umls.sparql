@@ -1,0 +1,11 @@
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX OBO: <http://www.geneontology.org/formats/oboInOwl#>
+PREFIX IAO: <http://purl.obolibrary.org/obo/IAO_>
+
+SELECT DISTINCT ?disease ?dbxref
+WHERE {
+    ?disease a owl:Class .
+    OPTIONAL{?disease OBO:hasDbXref ?dbxref .}
+    FILTER (STRSTARTS(STR(?dbxref), STR("UMLS")))
+ }
