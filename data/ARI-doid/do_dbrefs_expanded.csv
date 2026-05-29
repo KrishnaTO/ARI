@@ -1,0 +1,2501 @@
+id,label,source,source_id
+DOID:0040002,aspirin allergy,SNOMEDCT_US_2025_09_01,293586001
+DOID:0040002,aspirin allergy,UMLS_CUI,C0004058
+DOID:0040003,benzylpenicillin allergy,SNOMEDCT_US_2025_09_01,294499007
+DOID:0040003,benzylpenicillin allergy,UMLS_CUI,C0571411
+DOID:0040004,amoxicillin allergy,SNOMEDCT_US_2025_09_01,294505008
+DOID:0040004,amoxicillin allergy,UMLS_CUI,C0571417
+DOID:0040005,ceftriaxone allergy,SNOMEDCT_US_2025_09_01,294551009
+DOID:0040005,ceftriaxone allergy,UMLS_CUI,C0571463
+DOID:0040006,carbamazepine allergy,SNOMEDCT_US_2025_09_01,293867002
+DOID:0040006,carbamazepine allergy,UMLS_CUI,C0570787
+DOID:0040008,isoniazide allergy,ICD10CM,Z88.1
+DOID:0040009,lidocaine allergy,SNOMEDCT_US_2025_09_01,293722000
+DOID:0040009,lidocaine allergy,UMLS_CUI,C0570646
+DOID:0040010,mepivacaine allergy,ICD10CM,Z88.4
+DOID:0040011,phenobarbital allergy,SNOMEDCT_US_2025_09_01,293865005
+DOID:0040011,phenobarbital allergy,UMLS_CUI,C0570785
+DOID:0040012,phenytoin allergy,SNOMEDCT_US_2025_09_01,293869004
+DOID:0040012,phenytoin allergy,UMLS_CUI,C0570789
+DOID:0040013,ranitidine allergy,SNOMEDCT_US_2025_09_01,293653009
+DOID:0040013,ranitidine allergy,UMLS_CUI,C0570577
+DOID:0040015,sulfonamide allergy,SNOMEDCT_US_2025_09_01,91939003
+DOID:0040015,sulfonamide allergy,UMLS_CUI,C0038757
+DOID:0040018,thiopental allergy,SNOMEDCT_US_2025_09_01,293709008
+DOID:0040018,thiopental allergy,UMLS_CUI,C0570633
+DOID:0040019,D-mannitol allergy,SNOMEDCT_US_2025_09_01,295019008
+DOID:0040019,D-mannitol allergy,UMLS_CUI,C0571922
+DOID:0040020,cefotaxime allergy,SNOMEDCT_US_2025_09_01,294545004
+DOID:0040020,cefotaxime allergy,UMLS_CUI,C0571457
+DOID:0040021,cephalosporin allergy,SNOMEDCT_US_2025_09_01,294532003
+DOID:0040021,cephalosporin allergy,UMLS_CUI,C0571444
+DOID:0040022,amodiaquine allergy,SNOMEDCT_US_2025_09_01,294390007
+DOID:0040022,amodiaquine allergy,UMLS_CUI,C0571303
+DOID:0040023,cefaclor allergy,SNOMEDCT_US_2025_09_01,294541008
+DOID:0040023,cefaclor allergy,UMLS_CUI,C0571453
+DOID:0040024,ceftazidime allergy,SNOMEDCT_US_2025_09_01,294546003
+DOID:0040024,ceftazidime allergy,UMLS_CUI,C0571458
+DOID:0040025,cefuroxime allergy,SNOMEDCT_US_2025_09_01,294542001
+DOID:0040025,cefuroxime allergy,UMLS_CUI,C0571454
+DOID:0040026,chlorhexidine allergy,SNOMEDCT_US_2025_09_01,294431008
+DOID:0040026,chlorhexidine allergy,UMLS_CUI,C0571344
+DOID:0040027,cyclophosphamide allergy,SNOMEDCT_US_2025_09_01,293748008
+DOID:0040027,cyclophosphamide allergy,UMLS_CUI,C0570670
+DOID:0040028,succinylcholine allergy,SNOMEDCT_US_2025_09_01,294224007
+DOID:0040028,succinylcholine allergy,UMLS_CUI,C0571140
+DOID:0040029,trimethoprim allergy,SNOMEDCT_US_2025_09_01,294477004
+DOID:0040029,trimethoprim allergy,UMLS_CUI,C0571390
+DOID:0040030,cefixime allergy,SNOMEDCT_US_2025_09_01,294548002
+DOID:0040030,cefixime allergy,UMLS_CUI,C0571460
+DOID:0040031,diclofenac allergy,SNOMEDCT_US_2025_09_01,293613006
+DOID:0040031,diclofenac allergy,UMLS_CUI,C0570540
+DOID:0040032,carbapenem allergy,SNOMEDCT_US_2025_09_01,294531005
+DOID:0040032,carbapenem allergy,UMLS_CUI,C0571443
+DOID:0040033,piperacillin allergy,SNOMEDCT_US_2025_09_01,294515002
+DOID:0040033,piperacillin allergy,UMLS_CUI,C0571427
+DOID:0040034,rocuronium allergy,SNOMEDCT_US_2025_09_01,294233009
+DOID:0040034,rocuronium allergy,UMLS_CUI,C0571149
+DOID:0040035,sulfasalazine allergy,SNOMEDCT_US_2025_09_01,293663001
+DOID:0040035,sulfasalazine allergy,UMLS_CUI,C0570587
+DOID:0040036,tubocurarine allergy,SNOMEDCT_US_2025_09_01,294231006
+DOID:0040036,tubocurarine allergy,UMLS_CUI,C0571147
+DOID:0040037,aztreonam allergy,SNOMEDCT_US_2025_09_01,294565006
+DOID:0040037,aztreonam allergy,UMLS_CUI,C0571476
+DOID:0040046,nickel allergic contact dermatitis,ICD10CM,L23.0
+DOID:0040056,chromium allergic contact dermatitis,ICD10CM,L23.0
+DOID:0040057,benzoic acid allergic contact dermatitis,SNOMEDCT_US_2025_09_01,294186000
+DOID:0040057,benzoic acid allergic contact dermatitis,UMLS_CUI,C0571102
+DOID:0040060,ketoprofen photoallergic dermatitis,SNOMEDCT_US_2025_09_01,293621000
+DOID:0040060,ketoprofen photoallergic dermatitis,UMLS_CUI,C0570547
+DOID:0040065,quinidine allergy,SNOMEDCT_US_2025_09_01,294978001
+DOID:0040065,quinidine allergy,UMLS_CUI,C0571881
+DOID:0040066,melphalan allergy,SNOMEDCT_US_2025_09_01,293751001
+DOID:0040066,melphalan allergy,UMLS_CUI,C0570673
+DOID:0040067,neomycin sulfate allergic contact dermatitis,SNOMEDCT_US_2025_09_01,409640001
+DOID:0040067,neomycin sulfate allergic contact dermatitis,UMLS_CUI,C1443961
+DOID:0040070,co-trimoxazole allergy,SNOMEDCT_US_2025_09_01,294594004
+DOID:0040070,co-trimoxazole allergy,UMLS_CUI,C0571504
+DOID:0040071,sodium aurothiomalate allergy,SNOMEDCT_US_2025_09_01,294239008
+DOID:0040071,sodium aurothiomalate allergy,UMLS_CUI,C0571155
+DOID:0040074,formaldehyde allergic contact dermatitis,SNOMEDCT_US_2025_09_01,294426006
+DOID:0040074,formaldehyde allergic contact dermatitis,UMLS_CUI,C0571339
+DOID:0040076,phthalyl group allergy,SNOMEDCT_US_2025_09_01,294571000
+DOID:0040076,phthalyl group allergy,UMLS_CUI,C0571482
+DOID:0040078,gallamine allergy,SNOMEDCT_US_2025_09_01,294229002
+DOID:0040078,gallamine allergy,UMLS_CUI,C0571145
+DOID:0040091,autoimmune pancreatitis,MESH,D000081012
+DOID:0040091,autoimmune pancreatitis,SNOMEDCT_US_2025_09_01,448542008
+DOID:0040091,autoimmune pancreatitis,UMLS_CUI,C2609129
+DOID:0040092,juvenile ankylosing spondylitis,ICD10CM,M08.1
+DOID:0040092,juvenile ankylosing spondylitis,NCI,C197919
+DOID:0040092,juvenile ankylosing spondylitis,SNOMEDCT_US_2025_09_01,201802002
+DOID:0040092,juvenile ankylosing spondylitis,UMLS_CUI,C0409675
+DOID:0040093,drug-induced lupus erythematosus,ICD10CM,M32.0
+DOID:0040093,drug-induced lupus erythematosus,MESH,C000730515
+DOID:0040093,drug-induced lupus erythematosus,NCI,C114354
+DOID:0040093,drug-induced lupus erythematosus,ORDO,231111
+DOID:0040093,drug-induced lupus erythematosus,SNOMEDCT_US_2025_09_01,80258006
+DOID:0040093,drug-induced lupus erythematosus,UMLS_CUI,C0263591
+DOID:0040097,autoimmune vasculitis,SNOMEDCT_US_2025_09_01,427213005
+DOID:0040097,autoimmune vasculitis,UMLS_CUI,C1328843
+DOID:0040098,pemphigus gestationis,ICD10CM,O26.4
+DOID:0040100,Hirata disease,SNOMEDCT_US_2025_09_01,408539000
+DOID:0040100,Hirata disease,UMLS_CUI,C0854359
+DOID:0050120,hemophagocytic lymphohistiocytosis,GARD,6589
+DOID:0050120,hemophagocytic lymphohistiocytosis,ICD10CM,D76.1
+DOID:0050120,hemophagocytic lymphohistiocytosis,MESH,D051359
+DOID:0050120,hemophagocytic lymphohistiocytosis,MIM,PS267700
+DOID:0050120,hemophagocytic lymphohistiocytosis,NCI,C34792
+DOID:0050120,hemophagocytic lymphohistiocytosis,ORDO,540
+DOID:0050120,hemophagocytic lymphohistiocytosis,SNOMEDCT_US_2025_09_01,190958003
+DOID:0050120,hemophagocytic lymphohistiocytosis,UMLS_CUI,C0024291
+DOID:0050138,podoconiosis,MESH,D004604
+DOID:0050167,autoimmune polyendocrine syndrome type 1,GARD,8466
+DOID:0050167,autoimmune polyendocrine syndrome type 1,MIM,240300
+DOID:0050168,autoimmune polyendocrine syndrome type 2,GARD,7611
+DOID:0050168,autoimmune polyendocrine syndrome type 2,MIM,269200
+DOID:0050169,cutaneous lupus erythematosus,GARD,6225
+DOID:0050185,erythema multiforme,GARD,6372
+DOID:0050185,erythema multiforme,MESH,D004892
+DOID:0050214,Lambert-Eaton myasthenic syndrome,ICD10CM,G70.80
+DOID:0050214,Lambert-Eaton myasthenic syndrome,ICD9CM,358.3
+DOID:0050214,Lambert-Eaton myasthenic syndrome,MESH,D015624
+DOID:0050214,Lambert-Eaton myasthenic syndrome,NCI,C3155
+DOID:0050214,Lambert-Eaton myasthenic syndrome,SNOMEDCT_US_2025_09_01,230688006
+DOID:0050214,Lambert-Eaton myasthenic syndrome,UMLS_CUI,C0022972
+DOID:0050419,complement factor I deficiency,MESH,C572568
+DOID:0050419,complement factor I deficiency,MIM,610984
+DOID:0050429,Hailey-Hailey disease,GARD,6559
+DOID:0050429,Hailey-Hailey disease,ICD10CM,Q82.8
+DOID:0050429,Hailey-Hailey disease,MESH,D016506
+DOID:0050429,Hailey-Hailey disease,MIM,169600
+DOID:0050429,Hailey-Hailey disease,NCI,C82865
+DOID:0050429,Hailey-Hailey disease,SNOMEDCT_US_2025_09_01,79468000
+DOID:0050429,Hailey-Hailey disease,UMLS_CUI,C0085106
+DOID:0050523,adult T-cell leukemia/lymphoma,GARD,13103
+DOID:0050523,adult T-cell leukemia/lymphoma,ICD10CM,C91.5
+DOID:0050523,adult T-cell leukemia/lymphoma,ICDO,Mar-27
+DOID:0050523,adult T-cell leukemia/lymphoma,MESH,D015459
+DOID:0050523,adult T-cell leukemia/lymphoma,NCI,C3184
+DOID:0050523,adult T-cell leukemia/lymphoma,SNOMEDCT_US_2025_09_01,77430005
+DOID:0050523,adult T-cell leukemia/lymphoma,UMLS_CUI,C0023493
+DOID:0050553,proteasome-associated autoinflammatory syndrome 1,GARD,10988
+DOID:0050553,proteasome-associated autoinflammatory syndrome 1,GARD,3916
+DOID:0050553,proteasome-associated autoinflammatory syndrome 1,GARD,3917
+DOID:0050553,proteasome-associated autoinflammatory syndrome 1,MIM,256040
+DOID:0050553,proteasome-associated autoinflammatory syndrome 1,ORDO,324999
+DOID:0050580,hereditary lymphedema,GARD,7220
+DOID:0050580,hereditary lymphedema,ICD9CM,757
+DOID:0050580,hereditary lymphedema,MIM,PS153100
+DOID:0050580,hereditary lymphedema,ORDO,79452
+DOID:0050580,hereditary lymphedema,SNOMEDCT_US_2025_09_01,205542007
+DOID:0050580,hereditary lymphedema,UMLS_CUI,C1313885
+DOID:0050744,anaplastic large cell lymphoma,ICDO,Mar-14
+DOID:0050744,anaplastic large cell lymphoma,NCI,C3720
+DOID:0050745,diffuse large B-cell lymphoma,GARD,3178
+DOID:0050745,diffuse large B-cell lymphoma,ICD11,2A81.Z
+DOID:0050745,diffuse large B-cell lymphoma,ICDO,Mar-80
+DOID:0050745,diffuse large B-cell lymphoma,MESH,D016403
+DOID:0050745,diffuse large B-cell lymphoma,NCI,C80280
+DOID:0050746,mantle cell lymphoma,GARD,6969
+DOID:0050746,mantle cell lymphoma,ICDO,Mar-73
+DOID:0050746,mantle cell lymphoma,MESH,D020522
+DOID:0050748,marginal zone lymphoma,ICDO,Mar-99
+DOID:0050748,marginal zone lymphoma,MESH,D018442
+DOID:0050749,peripheral T-cell lymphoma,GARD,7368
+DOID:0050750,splenic marginal zone lymphoma,NCI,C4663
+DOID:0050751,T-cell large granular lymphocyte leukemia,ICDO,Mar-31
+DOID:0050751,T-cell large granular lymphocyte leukemia,NCI,C4664
+DOID:0050783,secondary progressive multiple sclerosis,ICD10CM,G35.C
+DOID:0050783,secondary progressive multiple sclerosis,MESH,D020528
+DOID:0050783,secondary progressive multiple sclerosis,SNOMEDCT_US_2025_09_01,425500002
+DOID:0050783,secondary progressive multiple sclerosis,UMLS_CUI,C0751965
+DOID:0050784,primary progressive multiple sclerosis,MESH,D020528
+DOID:0050784,primary progressive multiple sclerosis,ICD10CM,G35.B
+DOID:0050784,primary progressive multiple sclerosis,SNOMEDCT_US_2025_09_01,428700003
+DOID:0050784,primary progressive multiple sclerosis,UMLS_CUI,C0751964
+DOID:0050785,progressive relapsing multiple sclerosis,MESH,D020528
+DOID:0050785,progressive relapsing multiple sclerosis,SNOMEDCT_US_2025_09_01,724778008
+DOID:0050785,progressive relapsing multiple sclerosis,UMLS_CUI,C0393666
+DOID:0050873,follicular lymphoma,GARD,2356
+DOID:0050873,follicular lymphoma,ICDO,Mar-90
+DOID:0050873,follicular lymphoma,MESH,D008224
+DOID:0050909,extranodal marginal zone lymphoma of mucosa-associated lymphoid tissue,ICDO,Mar-99
+DOID:0050909,extranodal marginal zone lymphoma of mucosa-associated lymphoid tissue,MIM,137245
+DOID:0050909,extranodal marginal zone lymphoma of mucosa-associated lymphoid tissue,NCI,C3898
+DOID:0051056,immunodeficiency 113,MIM,620565
+DOID:0060008,janus kinase-3 deficiency,MIM,600802
+DOID:0060009,MHC class I deficiency,MIM,604571
+DOID:0060010,Omenn syndrome,GARD,8198
+DOID:0060010,Omenn syndrome,ICD10CM,D81.8
+DOID:0060010,Omenn syndrome,MIM,603554
+DOID:0060013,X-linked severe combined immunodeficiency,GARD,5618
+DOID:0060013,X-linked severe combined immunodeficiency,MESH,D053632
+DOID:0060013,X-linked severe combined immunodeficiency,MIM,300400
+DOID:0060013,X-linked severe combined immunodeficiency,NCI,C4682
+DOID:0060013,X-linked severe combined immunodeficiency,SNOMEDCT_US_2025_09_01,203592006
+DOID:0060013,X-linked severe combined immunodeficiency,UMLS_CUI,C1279481
+DOID:0060019,coronin-1A deficiency,MIM,615401
+DOID:0060020,reticular dysgenesis,GARD,8625
+DOID:0060020,reticular dysgenesis,MESH,C538361
+DOID:0060020,reticular dysgenesis,MIM,267500
+DOID:0060020,reticular dysgenesis,NCI,C27070
+DOID:0060020,reticular dysgenesis,SNOMEDCT_US_2025_09_01,111584000
+DOID:0060020,reticular dysgenesis,UMLS_CUI,C0272167
+DOID:0060021,DNA ligase IV deficiency,MIM,606593
+DOID:0060022,CD40 ligand deficiency,MIM,308230
+DOID:0060023,immunodeficiency with hyper IgM type 3,GARD,10579
+DOID:0060023,immunodeficiency with hyper IgM type 3,MESH,D053306
+DOID:0060023,immunodeficiency with hyper IgM type 3,MIM,606843
+DOID:0060023,immunodeficiency with hyper IgM type 3,NCI,C176416
+DOID:0060023,immunodeficiency with hyper IgM type 3,ORDO,101090
+DOID:0060023,immunodeficiency with hyper IgM type 3,SNOMEDCT_US_2025_09_01,1362020006
+DOID:0060023,immunodeficiency with hyper IgM type 3,UMLS_CUI,C1720957
+DOID:0060025,immunoglobulin alpha deficiency,GARD,10197
+DOID:0060025,immunoglobulin alpha deficiency,MESH,D017098
+DOID:0060025,immunoglobulin alpha deficiency,MIM,137100
+DOID:0060025,immunoglobulin alpha deficiency,MIM,269650
+DOID:0060025,immunoglobulin alpha deficiency,MIM,609529
+DOID:0060025,immunoglobulin alpha deficiency,ORDO,69127
+DOID:0060025,immunoglobulin alpha deficiency,SNOMEDCT_US_2025_09_01,29260007
+DOID:0060025,immunoglobulin alpha deficiency,UMLS_CUI,C0162538
+DOID:0060027,agammaglobulinemia 4,MIM,613502
+DOID:0060058,lymphoma,ICD10CM,C85.9
+DOID:0060058,lymphoma,ICDO,Mar-90
+DOID:0060058,lymphoma,MESH,D008223
+DOID:0060058,lymphoma,NCI,C3208
+DOID:0060058,lymphoma,NCI,C7065
+DOID:0060058,lymphoma,SNOMEDCT_US_2025_09_01,269627002
+DOID:0060058,lymphoma,SNOMEDCT_US_2025_09_01,414628006
+DOID:0060058,lymphoma,UMLS_CUI,C0024299
+DOID:0060058,lymphoma,UMLS_CUI,C0598798
+DOID:0060060,non-Hodgkin lymphoma,ICD10CM,C85.9
+DOID:0060060,non-Hodgkin lymphoma,ICDO,Mar-91
+DOID:0060060,non-Hodgkin lymphoma,MESH,D008228
+DOID:0060060,non-Hodgkin lymphoma,MIM,605027
+DOID:0060060,non-Hodgkin lymphoma,NCI,C3211
+DOID:0060060,non-Hodgkin lymphoma,ORDO,547
+DOID:0060060,non-Hodgkin lymphoma,SNOMEDCT_US_2025_09_01,118601006
+DOID:0060060,non-Hodgkin lymphoma,UMLS_CUI,C0024305
+DOID:0060061,primary cutaneous T-cell non-Hodgkin lymphoma,GARD,6226
+DOID:0060061,primary cutaneous T-cell non-Hodgkin lymphoma,MESH,D016410
+DOID:0060061,primary cutaneous T-cell non-Hodgkin lymphoma,NCI,C3467
+DOID:0060083,immune system cancer,ICDO,Mar-92
+DOID:0060125,heavy chain disease,ICD10CM,C88.2
+DOID:0060125,heavy chain disease,ICDO,Mar-62
+DOID:0060125,heavy chain disease,MESH,D006362
+DOID:0060125,heavy chain disease,NCI,C3082
+DOID:0060125,heavy chain disease,NCI,C3083
+DOID:0060125,heavy chain disease,NCI,C3892
+DOID:0060125,heavy chain disease,SNOMEDCT_US_2025_09_01,61493004
+DOID:0060125,heavy chain disease,SNOMEDCT_US_2025_09_01,6381009
+DOID:0060125,heavy chain disease,SNOMEDCT_US_2025_09_01,68979007
+DOID:0060125,heavy chain disease,UMLS_CUI,C0018852
+DOID:0060125,heavy chain disease,UMLS_CUI,C0018854
+DOID:0060125,heavy chain disease,UMLS_CUI,C0242310
+DOID:0060127,gamma heavy chain disease,GARD,10346
+DOID:0060157,diffuse alopecia areata,SNOMEDCT_US_2025_09_01,46586006
+DOID:0060157,diffuse alopecia areata,UMLS_CUI,C0263479
+DOID:0060215,Balo concentric sclerosis,GARD,5885
+DOID:0060215,Balo concentric sclerosis,ICD10CM,G37.0
+DOID:0060215,Balo concentric sclerosis,ICD9CM,341.1
+DOID:0060215,Balo concentric sclerosis,MESH,D002549
+DOID:0060215,Balo concentric sclerosis,NCI,C84670
+DOID:0060215,Balo concentric sclerosis,SNOMEDCT_US_2025_09_01,44875002
+DOID:0060215,Balo concentric sclerosis,UMLS_CUI,C0007795
+DOID:0060295,complement component 2 deficiency,GARD,1452
+DOID:0060295,complement component 2 deficiency,ICD10CM,D84.1
+DOID:0060295,complement component 2 deficiency,MIM,217000
+DOID:0060295,complement component 2 deficiency,ORDO,169147
+DOID:0060297,complement component 4a deficiency,ICD10CM,D84.1
+DOID:0060297,complement component 4a deficiency,ORDO,169147
+DOID:0060297,complement component 4a deficiency,MESH,C565167
+DOID:0060297,complement component 4a deficiency,MIM,614380
+DOID:0060298,complement component 4b deficiency,ICD10CM,D84.1
+DOID:0060298,complement component 4b deficiency,ORDO,169147
+DOID:0060298,complement component 4b deficiency,MIM,614379
+DOID:0060299,complement component 6 deficiency,ICD10CM,D84.1
+DOID:0060299,complement component 6 deficiency,MESH,C567307
+DOID:0060299,complement component 6 deficiency,MIM,612446
+DOID:0060299,complement component 6 deficiency,ORDO,169150
+DOID:0060300,complement component 7 deficiency,ICD10CM,D84.1
+DOID:0060300,complement component 7 deficiency,MESH,C566443
+DOID:0060300,complement component 7 deficiency,MIM,610102
+DOID:0060300,complement component 7 deficiency,ORDO,1695150
+DOID:0060301,type I complement component 8 deficiency,ICD10CM,D84.1
+DOID:0060301,type I complement component 8 deficiency,ORDO,169150
+DOID:0060301,type I complement component 8 deficiency,MIM,613790
+DOID:0060302,type II complement component 8 deficiency,ICD10CM,D84.1
+DOID:0060302,type II complement component 8 deficiency,ORDO,169150
+DOID:0060302,type II complement component 8 deficiency,MIM,613789
+DOID:0060303,complement component 9 deficiency,ICD10CM,D84.1
+DOID:0060303,complement component 9 deficiency,ORDO,169150
+DOID:0060303,complement component 9 deficiency,MIM,613825
+DOID:0060366,Hennekam syndrome,GARD,3318
+DOID:0060366,Hennekam syndrome,MESH,C537255
+DOID:0060366,Hennekam syndrome,MIM,235510
+DOID:0060366,Hennekam syndrome,MIM,616006
+DOID:0060366,Hennekam syndrome,ORDO,2136
+DOID:0060366,Hennekam syndrome,SNOMEDCT_US_2025_09_01,234146006
+DOID:0060366,Hennekam syndrome,UMLS_CUI,C0340834
+DOID:0060386,Chilblain lupus,MESH,C535924
+DOID:0060386,Chilblain lupus,MIM,610448
+DOID:0060386,Chilblain lupus,MIM,614415
+DOID:0060386,Chilblain lupus,ORDO,90280
+DOID:0060386,Chilblain lupus,UMLS_CUI,C0024145
+DOID:0060591,WHIM syndrome 1,GARD,9297
+DOID:0060591,WHIM syndrome 1,MESH,C536697
+DOID:0060591,WHIM syndrome 1,MIM,193670
+DOID:0060591,WHIM syndrome 1,NCI,C176819
+DOID:0060591,WHIM syndrome 1,SNOMEDCT_US_2025_09_01,234571003
+DOID:0060591,WHIM syndrome 1,UMLS_CUI,C0472817
+DOID:0060592,B-cell adult acute lymphocytic leukemia,NCI,C9143
+DOID:0060704,lymphoproliferative syndrome,MIM,PS308240
+DOID:0060704,lymphoproliferative syndrome,ORDO,538963
+DOID:0060705,X-linked lymphoproliferative syndrome 1,GARD,7906
+DOID:0060705,X-linked lymphoproliferative syndrome 1,ICD10CM,D82.3
+DOID:0060705,X-linked lymphoproliferative syndrome 1,MIM,308240
+DOID:0060706,X-linked lymphoproliferative syndrome 2,ICD10CM,D82.3
+DOID:0060706,X-linked lymphoproliferative syndrome 2,GARD,10916
+DOID:0060706,X-linked lymphoproliferative syndrome 2,MIM,300635
+DOID:0060707,lymphoproliferative syndrome 1,ICD10CM,D47.9
+DOID:0060707,lymphoproliferative syndrome 1,MIM,613011
+DOID:0060708,lymphoproliferative syndrome 2,ICD10CM,D47.9
+DOID:0060708,lymphoproliferative syndrome 2,MIM,615122
+DOID:0060758,immunodeficiency with hyper-IgM type 2,MESH,D053306
+DOID:0060758,immunodeficiency with hyper-IgM type 2,GARD,10578
+DOID:0060758,immunodeficiency with hyper-IgM type 2,MIM,605258
+DOID:0060758,immunodeficiency with hyper-IgM type 2,NCI,C129074
+DOID:0060758,immunodeficiency with hyper-IgM type 2,ORDO,101089
+DOID:0060758,immunodeficiency with hyper-IgM type 2,UMLS_CUI,C1720956
+DOID:0060759,immunodeficiency with hyper IgM type 5,MESH,D053306
+DOID:0060759,immunodeficiency with hyper IgM type 5,GARD,10581
+DOID:0060759,immunodeficiency with hyper IgM type 5,MIM,608106
+DOID:0060759,immunodeficiency with hyper IgM type 5,ORDO,101092
+DOID:0060759,immunodeficiency with hyper IgM type 5,SNOMEDCT_US_2025_09_01,1351569004
+DOID:0060759,immunodeficiency with hyper IgM type 5,UMLS_CUI,C1720958
+DOID:0060760,immunodeficiency with hyper-IgM type 4,GARD,10580
+DOID:0060760,immunodeficiency with hyper-IgM type 4,MESH,C564277
+DOID:0060760,immunodeficiency with hyper-IgM type 4,MIM,608184
+DOID:0060760,immunodeficiency with hyper-IgM type 4,ORDO,101091
+DOID:0060760,immunodeficiency with hyper-IgM type 4,UMLS_CUI,C1842413
+DOID:0060769,"T-cell immunodeficiency, congenital alopecia, and nail dystrophy",ICD10CM,D82.8
+DOID:0060769,"T-cell immunodeficiency, congenital alopecia, and nail dystrophy",MESH,C536781
+DOID:0060769,"T-cell immunodeficiency, congenital alopecia, and nail dystrophy",MIM,601705
+DOID:0060769,"T-cell immunodeficiency, congenital alopecia, and nail dystrophy",ORDO,169095
+DOID:0060851,pemphigus vulgaris,GARD,7355
+DOID:0060851,pemphigus vulgaris,ICD10CM,L10.0
+DOID:0060851,pemphigus vulgaris,MESH,D010392
+DOID:0060851,pemphigus vulgaris,MIM,169610
+DOID:0060851,pemphigus vulgaris,NCI,C34910
+DOID:0060851,pemphigus vulgaris,ORDO,704
+DOID:0060851,pemphigus vulgaris,SNOMEDCT_US_2025_09_01,49420001
+DOID:0060851,pemphigus vulgaris,UMLS_CUI,C0030809
+DOID:0060901,lymphoplasmacytic lymphoma,GARD,7872
+DOID:0060901,lymphoplasmacytic lymphoma,ICD10CM,C88.0
+DOID:0060901,lymphoplasmacytic lymphoma,ICD9CM,273.3
+DOID:0060901,lymphoplasmacytic lymphoma,ICDO,Mar-71
+DOID:0060901,lymphoplasmacytic lymphoma,MESH,D008258
+DOID:0060901,lymphoplasmacytic lymphoma,MIM,153600
+DOID:0060901,lymphoplasmacytic lymphoma,MIM,610430
+DOID:0060901,lymphoplasmacytic lymphoma,NCI,C115212
+DOID:0060901,lymphoplasmacytic lymphoma,NCI,C80307
+DOID:0060901,lymphoplasmacytic lymphoma,ORDO,33226
+DOID:0060901,lymphoplasmacytic lymphoma,SNOMEDCT_US_2025_09_01,35562000
+DOID:0060901,lymphoplasmacytic lymphoma,UMLS_CUI,C0024419
+DOID:0060901,lymphoplasmacytic lymphoma,UMLS_CUI,C2936755
+DOID:0060913,proteosome-associated autoinflammatory syndrome,MIM,PS256040
+DOID:0060913,proteosome-associated autoinflammatory syndrome,ORDO,324977
+DOID:0060914,proteosome-associated autoinflammatory syndrome 2,MIM,618048
+DOID:0060915,proteosome-associated autoinflammatory syndrome 4,MIM,619183
+DOID:0060916,proteasome-associated autoinflammatory syndrome 3,MIM,617591
+DOID:0060919,proteosome-associated autoinflammatory syndrome 5,MIM,619175
+DOID:0060973,WHIM syndrome 2,MIM,619407
+DOID:0061051,immunodeficiency 80,MIM,619313
+DOID:0061052,immunodeficiency 81,MIM,619374
+DOID:0061053,immunodeficiency 82,MIM,619381
+DOID:0061054,immunodeficiency 84,MIM,619437
+DOID:0061055,immunodeficiency 85,MIM,619510
+DOID:0061056,immunodeficiency 86,MIM,619549
+DOID:0061057,immunodeficiency 87,MIM,619573
+DOID:0061058,immunodeficiency 88,MIM,619630
+DOID:0061059,immunodeficiency 89,MIM,619632
+DOID:0061060,immunodeficiency 90,MIM,613759
+DOID:0061061,immunodeficiency 91,MIM,619644
+DOID:0061062,immunodeficiency 92,MIM,619652
+DOID:0061063,immunodeficiency 93,MIM,619705
+DOID:0061064,immunodeficiency 94,MIM,619750
+DOID:0061065,immunodeficiency 95,MIM,619773
+DOID:0061066,immunodeficiency 96,MIM,619774
+DOID:0061067,immunodeficiency 97,MIM,619802
+DOID:0061068,immunodeficiency 98,MIM,301078
+DOID:0061069,immunodeficiency 99,MIM,619846
+DOID:0061070,immunodeficiency 100,MIM,618042
+DOID:0061071,immunodeficiency 101,MIM,619872
+DOID:0061072,immunodeficiency 102,MIM,301082
+DOID:0061074,severe combined immunodeficiency 105,MIM,619924
+DOID:0061075,immunodeficiency 106,MIM,619935
+DOID:0061076,immunodeficiency 107,MIM,619986
+DOID:0061077,immunodeficiency 108,MIM,260570
+DOID:0061078,immunodeficiency 109,MIM,620282
+DOID:0061079,immunodeficiency 112,MIM,620449
+DOID:0061080,immunodeficiency 114,MIM,620603
+DOID:0061081,immunodeficiency 115,MIM,620632
+DOID:0061082,immunodeficiency 116,MIM,608957
+DOID:0061083,immunodeficiency 117,MIM,620668
+DOID:0061084,immunodeficiency 118,MIM,301115
+DOID:0061085,immunodeficiency 119,MIM,620825
+DOID:0061086,immunodeficiency 120,MIM,620836
+DOID:0061087,immunodeficiency 121,MIM,620807
+DOID:0061088,immunodeficiency 122,MIM,620869
+DOID:0061089,immunodeficiency 123,MIM,620901
+DOID:0061090,severe combined immunodeficiency 124,MIM,611291
+DOID:0061091,immunodeficiency 125,MIM,620926
+DOID:0061092,immunodeficiency 127,MIM,620977
+DOID:0061093,immunodeficiency 128,MIM,620983
+DOID:0061094,immunodeficiency 129,MIM,618307
+DOID:0061096,immunodeficiency 133,MIM,621254
+DOID:0061097,immunodeficiency 132B,MIM,621096
+DOID:0061101,immunodeficiency 132A,MIM,614849
+DOID:0061125,immunodeficiency 131,MIM,621097
+DOID:0061159,infantile onset multisystem autoimmune disease,MIM,PS615952
+DOID:0061160,infantile onset multisystem autoimmune disease 1,MIM,615952
+DOID:0061161,infantile onset multisystem autoimmune disease 2,MIM,617006
+DOID:0061162,infantile onset multisystem autoimmune disease 3,MIM,620430
+DOID:0061163,infantile onset multisystem autoimmune disease 4,MIM,621004
+DOID:0061164,infantile onset multisystem autoimmune disease 5,MIM,621235
+DOID:0061169,"autosomal dominant autoinflammation, panniculitis, and dermatosis syndrome",MIM,621030
+DOID:0061170,"autoinflammation, panniculitis, and dermatosis syndrome",MIM,PS617099
+DOID:0061171,immunodeficiency 130 with HPV-related verrucosis,MIM,618309
+DOID:0061191,neonatal nephrocutaneous inflammatory syndrome,MIM,616069
+DOID:0061192,neonatal inflammatory skin and bowel disease 1,MIM,614328
+DOID:0061224,Majeed syndrome,MIM,609628
+DOID:0061224,Majeed syndrome,ORDO,77297
+DOID:0061225,interleukin-1 receptor antagonist deficiency,GARD,10516
+DOID:0061225,interleukin-1 receptor antagonist deficiency,MIM,612852
+DOID:0061225,interleukin-1 receptor antagonist deficiency,ORDO,210115
+DOID:0070191,autosomal recessive chronic granulomatous disease 2,MIM,233710
+DOID:0070192,autosomal recessive chronic granulomatous disease 1,MIM,233700
+DOID:0070193,autosomal recessive chronic granulomatous disease 4,MIM,233690
+DOID:0070194,autosomal recessive chronic granulomatous disease 3,MIM,613960
+DOID:0070195,X-linked chronic granulomatous disease,MIM,306400
+DOID:0070208,hereditary lymphedema IC,MIM,613480
+DOID:0070209,hereditary lymphedema ID,MIM,615907
+DOID:0070210,hereditary lymphedema IA,MIM,153100
+DOID:0070211,hereditary lymphedema IB,MIM,611944
+DOID:0070212,hereditary lymphedema I,GARD,7220
+DOID:0070212,hereditary lymphedema I,ORDO,79452
+DOID:0070212,hereditary lymphedema I,MESH,D008209
+DOID:0070212,hereditary lymphedema I,SNOMEDCT_US_2025_09_01,268355000
+DOID:0070212,hereditary lymphedema I,UMLS_CUI,C1704423
+DOID:0070213,hereditary lymphedema II,GARD,3324
+DOID:0070213,hereditary lymphedema II,ICD10CM,I89.0
+DOID:0070213,hereditary lymphedema II,MESH,C562467
+DOID:0070213,hereditary lymphedema II,MIM,153200
+DOID:0070213,hereditary lymphedema II,ORDO,90186
+DOID:0070213,hereditary lymphedema II,SNOMEDCT_US_2025_09_01,234098006
+DOID:0070213,hereditary lymphedema II,SNOMEDCT_US_2025_09_01,400040008
+DOID:0070213,hereditary lymphedema II,UMLS_CUI,C0238261
+DOID:0070213,hereditary lymphedema II,UMLS_CUI,C1704424
+DOID:0070324,systemic Epstein-Barr virus positive T-cell lymphoma of childhood,ICDO,Mar-24
+DOID:0070324,systemic Epstein-Barr virus positive T-cell lymphoma of childhood,NCI,C80374
+DOID:0070324,systemic Epstein-Barr virus positive T-cell lymphoma of childhood,ORDO,364033
+DOID:0070324,systemic Epstein-Barr virus positive T-cell lymphoma of childhood,SNOMEDCT_US_2023_03_01,721311006
+DOID:0070324,systemic Epstein-Barr virus positive T-cell lymphoma of childhood,SNOMEDCT_US_2025_09_01,721311006
+DOID:0070324,systemic Epstein-Barr virus positive T-cell lymphoma of childhood,UMLS_CUI,C2699747
+DOID:0070358,primary biliary cholangitis 1,MIM,109720
+DOID:0070359,primary biliary cholangitis 2,MIM,613007
+DOID:0070360,primary biliary cholangitis 3,MIM,613008
+DOID:0070361,primary biliary cholangitis 4,MIM,614220
+DOID:0070362,primary biliary cholangitis 5,MIM,614221
+DOID:0070368,autosomal recessive chronic granulomatous disease 5,MIM,618935
+DOID:0070615,"autoinflammation, antibody deficiency, and immune dysregulation syndrome",GARD,17486
+DOID:0070615,"autoinflammation, antibody deficiency, and immune dysregulation syndrome",MIM,614878
+DOID:0070615,"autoinflammation, antibody deficiency, and immune dysregulation syndrome",ORDO,324530
+DOID:0070615,"autoinflammation, antibody deficiency, and immune dysregulation syndrome",SNOMEDCT_US_2025_09_01,778004006
+DOID:0070615,"autoinflammation, antibody deficiency, and immune dysregulation syndrome",UMLS_CUI,C3553961
+DOID:0070623,B-lymphoblastic leukemia with MEF2D rearrangement,ICDO,Mar-11
+DOID:0070623,B-lymphoblastic leukemia with MEF2D rearrangement,NCI,C199233
+DOID:0070623,B-lymphoblastic leukemia with MEF2D rearrangement,UMLS_CUI,C5855479
+DOID:0070624,B-lymphoblastic leukemia with MYC rearrangement,ICDO,Mar-11
+DOID:0070624,B-lymphoblastic leukemia with MYC rearrangement,NCI,C199230
+DOID:0070624,B-lymphoblastic leukemia with MYC rearrangement,UMLS_CUI,C5855476
+DOID:0070625,B-lymphoblastic leukemia with NUTM1 rearrangement,ICDO,Mar-11
+DOID:0070625,B-lymphoblastic leukemia with NUTM1 rearrangement,NCI,C199239
+DOID:0070625,B-lymphoblastic leukemia with NUTM1 rearrangement,UMLS_CUI,C5855485
+DOID:0070626,B-lymphoblastic leukemia with PAX5alt,ICDO,Mar-11
+DOID:0070626,B-lymphoblastic leukemia with PAX5alt,NCI,C199264
+DOID:0070626,B-lymphoblastic leukemia with PAX5alt,UMLS_CUI,C5855502
+DOID:0070627,B-lymphoblastic leukemia with TCF3-HLF fusion,ICDO,Mar-11
+DOID:0070627,B-lymphoblastic leukemia with TCF3-HLF fusion,NCI,C200587
+DOID:0070627,B-lymphoblastic leukemia with TCF3-HLF fusion,ORDO,641375
+DOID:0070627,B-lymphoblastic leukemia with TCF3-HLF fusion,UMLS_CUI,C5856321
+DOID:0070628,B-lymphoblastic leukemia with ZNF384 rearrangement,ICDO,Mar-11
+DOID:0070628,B-lymphoblastic leukemia with ZNF384 rearrangement,NCI,C199234
+DOID:0070628,B-lymphoblastic leukemia with ZNF384 rearrangement,UMLS_CUI,C5855480
+DOID:0070659,alpha-gal syndrome,ICD10CM,Z91.014
+DOID:0070659,alpha-gal syndrome,MESH,C000655084
+DOID:0070659,alpha-gal syndrome,SNOMEDCT_US_2025_09_01,418815008
+DOID:0070659,alpha-gal syndrome,UMLS_CUI,C1630645
+DOID:0070662,subcutaneous panniculitis-like T-cell lymphoma,ICD10CM,C86.3
+DOID:0070662,subcutaneous panniculitis-like T-cell lymphoma,ICDO,Mar-08
+DOID:0070662,subcutaneous panniculitis-like T-cell lymphoma,MESH,C537503
+DOID:0070662,subcutaneous panniculitis-like T-cell lymphoma,MIM,618398
+DOID:0070662,subcutaneous panniculitis-like T-cell lymphoma,NCI,C6918
+DOID:0070662,subcutaneous panniculitis-like T-cell lymphoma,ORDO,86884
+DOID:0070662,subcutaneous panniculitis-like T-cell lymphoma,SNOMEDCT_US_2025_09_01,404133000
+DOID:0070662,subcutaneous panniculitis-like T-cell lymphoma,UMLS_CUI,C0522624
+DOID:0080145,childhood T-cell acute lymphoblastic leukemia,NCI,C5640
+DOID:0080145,childhood T-cell acute lymphoblastic leukemia,UMLS_CUI,C1332997
+DOID:0080146,childhood B-cell acute lymphoblastic leukemia,NCI,C9140
+DOID:0080147,lymphoblastic lymphoma,GARD,3329
+DOID:0080148,T-cell childhood lymphoblastic lymphoma,NCI,C7210
+DOID:0080163,"autosomal recessive autoinflammation, panniculitis, and dermatosis syndrome",GARD,13198
+DOID:0080163,"autosomal recessive autoinflammation, panniculitis, and dermatosis syndrome",MIM,617099
+DOID:0080163,"autosomal recessive autoinflammation, panniculitis, and dermatosis syndrome",NCI,C174441
+DOID:0080163,"autosomal recessive autoinflammation, panniculitis, and dermatosis syndrome",ORDO,500062
+DOID:0080163,"autosomal recessive autoinflammation, panniculitis, and dermatosis syndrome",SNOMEDCT_US_2025_09_01,765435009
+DOID:0080163,"autosomal recessive autoinflammation, panniculitis, and dermatosis syndrome",UMLS_CUI,C4310614
+DOID:0080202,adenoid cystic carcinoma,GARD,5743
+DOID:0080202,adenoid cystic carcinoma,ICDO,Mar-00
+DOID:0080202,adenoid cystic carcinoma,MESH,D003528
+DOID:0080202,adenoid cystic carcinoma,NCI,C2970
+DOID:0080210,primary mediastinal B-cell lymphoma,ICD10CM,C85.2
+DOID:0080210,primary mediastinal B-cell lymphoma,ORDO,98838
+DOID:0080211,nodal marginal zone lymphoma,NCI,C8863
+DOID:0080301,atypical hemolytic-uremic syndrome,GARD,8702
+DOID:0080301,atypical hemolytic-uremic syndrome,MESH,D065766
+DOID:0080301,atypical hemolytic-uremic syndrome,ORDO,2134
+DOID:0080319,"X-linked immunodeficiency with magnesium defect, Epstein-Barr virus infection, and neoplasia",MIM,300853
+DOID:0080356,IgG4-related disease,GARD,12521
+DOID:0080356,IgG4-related disease,ORDO,284264
+DOID:0080474,pustular psoriasis 14,ICD10CM,L40.1
+DOID:0080474,pustular psoriasis 14,MIM,614204
+DOID:0080474,pustular psoriasis 14,ORDO,404546
+DOID:0080475,psoriasis 2,MIM,602723
+DOID:0080492,leukocyte adhesion deficiency 2,ORDO,99843
+DOID:0080544,hyper IgM syndrome,MESH,D053306
+DOID:0080544,hyper IgM syndrome,MIM,PS308230
+DOID:0080544,hyper IgM syndrome,NCI,C3990
+DOID:0080544,hyper IgM syndrome,SNOMEDCT_US_2025_09_01,82286005
+DOID:0080544,hyper IgM syndrome,UMLS_CUI,C0272236
+DOID:0080545,hyper IgE syndrome,GARD,10956
+DOID:0080545,hyper IgE syndrome,MIM,PS147060
+DOID:0080588,agammaglobulinemia 5,MIM,613506
+DOID:0080594,hyper IgE recurrent infection syndrome 2,GARD,2816
+DOID:0080594,hyper IgE recurrent infection syndrome 2,MIM,243700
+DOID:0080594,hyper IgE recurrent infection syndrome 2,ORDO,217390
+DOID:0080595,autosomal recessive hyper-IgE syndrome 3 with recurrent infections,MIM,618282
+DOID:0080596,hyper IgE recurrent infection syndrome 4,MIM,618523
+DOID:0080603,ankylosing spondylitis 1,MIM,106300
+DOID:0080604,ankylosing spondylitis 2,MIM,183840
+DOID:0080605,ankylosing spondylitis 3,MIM,613238
+DOID:0080617,lymph node benign neoplasm,NCI,C3636
+DOID:0080617,lymph node benign neoplasm,SNOMEDCT_US_2021_09_01,92197001
+DOID:0080630,B-lymphoblastic leukemia/lymphoma,ICDO,Mar-36
+DOID:0080630,B-lymphoblastic leukemia/lymphoma,NCI,C8936
+DOID:0080630,B-lymphoblastic leukemia/lymphoma,SNOMEDCT_US_2025_09_01,1162660006
+DOID:0080630,B-lymphoblastic leukemia/lymphoma,UMLS_CUI,C0862030
+DOID:0080638,B-cell acute lymphoblastic leukemia,NCI,C8644
+DOID:0080643,B-lymphoblastic leukemia/lymphoma with BCR-ABL1,ICDO,Mar-12
+DOID:0080643,B-lymphoblastic leukemia/lymphoma with BCR-ABL1,NCI,C80331
+DOID:0080643,B-lymphoblastic leukemia/lymphoma with BCR-ABL1,ORDO,585909
+DOID:0080643,B-lymphoblastic leukemia/lymphoma with BCR-ABL1,SNOMEDCT_US_2025_09_01,450950002
+DOID:0080643,B-lymphoblastic leukemia/lymphoma with BCR-ABL1,UMLS_CUI,C2698317
+DOID:0080643,B-lymphoblastic leukemia/lymphoma with BCR-ABL1,UMLS_CUI,C5680319
+DOID:0080644,B-lymphoblastic leukemia/lymphoma MLL rearranged,ICDO,Mar-13
+DOID:0080644,B-lymphoblastic leukemia/lymphoma MLL rearranged,NCI,C80342
+DOID:0080644,B-lymphoblastic leukemia/lymphoma MLL rearranged,ORDO,585918
+DOID:0080645,B-lymphoblastic leukemia/lymphoma with ETV6-RUNX1,ICDO,Mar-14
+DOID:0080645,B-lymphoblastic leukemia/lymphoma with ETV6-RUNX1,NCI,C80343
+DOID:0080645,B-lymphoblastic leukemia/lymphoma with ETV6-RUNX1,ORDO,585929
+DOID:0080646,B-lymphoblastic leukemia/lymphoma with hyperdiploidy,ICDO,Mar-15
+DOID:0080646,B-lymphoblastic leukemia/lymphoma with hyperdiploidy,NCI,C80335
+DOID:0080646,B-lymphoblastic leukemia/lymphoma with hyperdiploidy,ORDO,585936
+DOID:0080646,B-lymphoblastic leukemia/lymphoma with hyperdiploidy,SNOMEDCT_US_2025_09_01,838346000
+DOID:0080646,B-lymphoblastic leukemia/lymphoma with hyperdiploidy,UMLS_CUI,C2698311
+DOID:0080647,B-lymphoblastic leukemia/lymphoma with hypodiploidy,ICDO,Mar-16
+DOID:0080647,B-lymphoblastic leukemia/lymphoma with hypodiploidy,NCI,C80338
+DOID:0080647,B-lymphoblastic leukemia/lymphoma with hypodiploidy,ORDO,585942
+DOID:0080647,B-lymphoblastic leukemia/lymphoma with hypodiploidy,SNOMEDCT_US_2025_09_01,838344002
+DOID:0080647,B-lymphoblastic leukemia/lymphoma with hypodiploidy,UMLS_CUI,C2698312
+DOID:0080648,B-lymphoblastic leukemia/lymphoma with IGH::IL3 fusion,ICDO,Mar-17
+DOID:0080648,B-lymphoblastic leukemia/lymphoma with IGH::IL3 fusion,NCI,C80346
+DOID:0080648,B-lymphoblastic leukemia/lymphoma with IGH::IL3 fusion,ORDO,585948
+DOID:0080649,B-lymphoblastic leukemia/lymphoma with TCF3-PBX1,ICDO,Mar-18
+DOID:0080649,B-lymphoblastic leukemia/lymphoma with TCF3-PBX1,NCI,C80347
+DOID:0080649,B-lymphoblastic leukemia/lymphoma with TCF3-PBX1,ORDO,585956
+DOID:0080649,B-lymphoblastic leukemia/lymphoma with TCF3-PBX1,UMLS_CUI,C2698306
+DOID:0080650,"B-lymphoblastic leukemia/lymphoma, BCR-ABL1ï¿½ï¿½ï",ICDO,Mar-19
+DOID:0080651,B-lymphoblastic leukemia/lymphoma with iAMP21,NCI,C130039
+DOID:0080741,limbic encephalitis,GARD,8742
+DOID:0080741,limbic encephalitis,MESH,D020363
+DOID:0080744,antisynthetase syndrome,GARD,735
+DOID:0080744,antisynthetase syndrome,MESH,C537778
+DOID:0080744,antisynthetase syndrome,ORDO,81
+DOID:0080745,polymyositis,GARD,7425
+DOID:0080745,polymyositis,MESH,D017285
+DOID:0080746,Sweet syndrome,MESH,D016463
+DOID:0080767,autoimmune myocarditis,GARD,9519
+DOID:0080779,plasmablastic lymphoma,ICDO,Mar-35
+DOID:0080779,plasmablastic lymphoma,MESH,D000069293
+DOID:0080779,plasmablastic lymphoma,NCI,C7224
+DOID:0080797,nasal type extranodal NK/T-cell lymphoma,ICDO,Mar-19
+DOID:0080797,nasal type extranodal NK/T-cell lymphoma,NCI,C4684
+DOID:0080846,latent autoimmune diabetes in adults,MESH,D000071698
+DOID:0080850,pemphigus foliaceus,MESH,D010392
+DOID:0080850,pemphigus foliaceus,GARD,7354
+DOID:0080850,pemphigus foliaceus,ICD10CM,L10.2
+DOID:0080850,pemphigus foliaceus,ORDO,79481
+DOID:0080850,pemphigus foliaceus,SNOMEDCT_US_2025_09_01,35154004
+DOID:0080850,pemphigus foliaceus,UMLS_CUI,C0263313
+DOID:0080851,IgA pemphigus,SNOMEDCT_US_2025_09_01,402717008
+DOID:0080851,IgA pemphigus,UMLS_CUI,C1274167
+DOID:0080852,paraneoplastic pemphigus,ICD10CM,L10.81
+DOID:0080852,paraneoplastic pemphigus,UMLS_CUI,C1112570
+DOID:0080936,serum amyloid A amyloidosis,ICD10CM,E85.3
+DOID:0080944,familial Behcet-like autoinflammatory syndrome,MIM,616744
+DOID:0080996,diffuse large B-cell lymphoma activated B-cell type,NCI,C36081
+DOID:0080997,diffuse large B-cell lymphoma germinal center B-cell type,NCI,C36080
+DOID:0081004,high-grade B-cell lymphoma double-hit/triple-hit,NCI,C125904
+DOID:0081030,central conducting lymphatic anomaly,MIM,617300
+DOID:0081036,mixed phenotype acute leukemia with BCR-ABL1,ICDO,Mar-06
+DOID:0081036,mixed phenotype acute leukemia with BCR-ABL1,NCI,C82192
+DOID:0081037,mixed phenotype acute leukemia with MLL rearranged,ICDO,Mar-07
+DOID:0081037,mixed phenotype acute leukemia with MLL rearranged,NCI,C82203
+DOID:0081037,mixed phenotype acute leukemia with MLL rearranged,SNOMEDCT_US_2025_09_01,450915005
+DOID:0081037,mixed phenotype acute leukemia with MLL rearranged,UMLS_CUI,C2826048
+DOID:0081038,"mixed phenotype acute leukemia, B/myeloid",ICDO,Mar-08
+DOID:0081038,"mixed phenotype acute leukemia, B/myeloid",NCI,C82212
+DOID:0081039,"mixed phenotype acute leukemia, T/myeloid",ICDO,Mar-09
+DOID:0081041,B-cell prolymphocytic leukemia,GARD,8223
+DOID:0081041,B-cell prolymphocytic leukemia,ICDO,Mar-33
+DOID:0081041,B-cell prolymphocytic leukemia,NCI,C4753
+DOID:0081041,B-cell prolymphocytic leukemia,ORDO,86852
+DOID:0081042,T-cell prolymphocytic leukemia,ICDO,Mar-34
+DOID:0081042,T-cell prolymphocytic leukemia,NCI,C4752
+DOID:0081042,T-cell prolymphocytic leukemia,ORDO,86871
+DOID:0081049,hepatosplenic T-cell lymphoma,NCI,C8459
+DOID:0081049,hepatosplenic T-cell lymphoma,ORDO,86882
+DOID:0081050,primary cutaneous gamma-delta T-cell lymphoma,NCI,C45340
+DOID:0081050,primary cutaneous gamma-delta T-cell lymphoma,SNOMEDCT_US_2025_09_01,733627006
+DOID:0081050,primary cutaneous gamma-delta T-cell lymphoma,UMLS_CUI,C1707547
+DOID:0081064,BN2 diffuse large B-cell lymphoma,NCI,C148395
+DOID:0081065,EZB diffuse large B-cell lymphoma,NCI,C148398
+DOID:0081066,MCD diffuse large B-cell lymphoma,NCI,C148394
+DOID:0081067,N1 diffuse large B-cell lymphoma,NCI,C148396
+DOID:0081077,ectodermal dysplasia and immune deficiency,GARD,9936
+DOID:0081077,ectodermal dysplasia and immune deficiency,MIM,PS300291
+DOID:0081078,ectodermal dysplasia and immunodeficiency 1,MIM,300291
+DOID:0081078,ectodermal dysplasia and immunodeficiency 1,ORDO,69088
+DOID:0081079,ectodermal dysplasia and immunodeficiency 2,MIM,612132
+DOID:0081120,Graves ophthalmopathy,MESH,D049970
+DOID:0081135,agammaglobulinemia 2,MIM,613500
+DOID:0081136,agammaglobulinemia 1,MIM,601495
+DOID:0081137,agammaglobulinemia 3,MIM,613501
+DOID:0081138,agammaglobulinemia 6,MIM,612692
+DOID:0081139,agammaglobulinemia 7,MIM,615214
+DOID:0081140,agammaglobulinemia 8A,MIM,616941
+DOID:0081141,agammaglobulinemia 9,MIM,619693
+DOID:0081142,agammaglobulinemia 10,MIM,619707
+DOID:0081143,agammaglobulinemia 8B,MIM,619824
+DOID:0081144,common variable immunodeficiency 1,MIM,607594
+DOID:0081145,common variable immunodeficiency 2,MIM,240500
+DOID:0081146,common variable immunodeficiency 3,MIM,613493
+DOID:0081147,common variable immunodeficiency 4,MIM,613494
+DOID:0081148,common variable immunodeficiency 5,MIM,613495
+DOID:0081149,common variable immunodeficiency 6,MIM,613496
+DOID:0081150,common variable immunodeficiency 7,MIM,614699
+DOID:0081151,common variable immunodeficiency 8,MIM,614700
+DOID:0081152,common variable immunodeficiency 10,MIM,615577
+DOID:0081153,common variable immunodeficiency 11,MIM,615767
+DOID:0081154,common variable immunodeficiency 12,MIM,616576
+DOID:0081155,common variable immunodeficiency 13,MIM,616873
+DOID:0081156,common variable immunodeficiency 14,MIM,617765
+DOID:0081242,"autoimmune interstitial lung, joint, and kidney disease",MIM,616414
+DOID:0081242,"autoimmune interstitial lung, joint, and kidney disease",ORDO,444092
+DOID:0081267,graft-versus-host disease,ICD11,4B24
+DOID:0081267,graft-versus-host disease,MESH,D006086
+DOID:0081267,graft-versus-host disease,MIM,614395
+DOID:0081267,graft-versus-host disease,ORDO,39812
+DOID:0081307,lymphomatoid granulomatosis,ICD10CM,C83.8
+DOID:0081307,lymphomatoid granulomatosis,ICDO,Jan-66
+DOID:0081307,lymphomatoid granulomatosis,MESH,D008230
+DOID:0081307,lymphomatoid granulomatosis,NCI,C7930
+DOID:0081307,lymphomatoid granulomatosis,SNOMEDCT_US_2025_09_01,60337005
+DOID:0081307,lymphomatoid granulomatosis,UMLS_CUI,C0024307
+DOID:0081308,grade I lymphomatoid granulomatosis,ICDO,Jan-66
+DOID:0081308,grade I lymphomatoid granulomatosis,NCI,C7931
+DOID:0081308,grade I lymphomatoid granulomatosis,UMLS_CUI,C0279065
+DOID:0081309,grade II lymphomatoid granulomatosis,ICDO,Jan-66
+DOID:0081310,grade III lymphomatoid granulomatosis,ICDO,Mar-66
+DOID:0081311,intravascular large B-cell lymphoma,ICDO,Mar-12
+DOID:0081311,intravascular large B-cell lymphoma,NCI,C4342
+DOID:0081312,T-cell non-Hodgkin lymphoma,ICDO,Mar-02
+DOID:0081312,T-cell non-Hodgkin lymphoma,MESH,D016399
+DOID:0081312,T-cell non-Hodgkin lymphoma,NCI,C3466
+DOID:0081312,T-cell non-Hodgkin lymphoma,SNOMEDCT_US_2025_09_01,3172003
+DOID:0081312,T-cell non-Hodgkin lymphoma,UMLS_CUI,C0079772
+DOID:0081313,primary diffuse large B-cell lymphoma of the central nervous system,ICDO,Mar-80
+DOID:0081313,primary diffuse large B-cell lymphoma of the central nervous system,NCI,C212057
+DOID:0081313,primary diffuse large B-cell lymphoma of the central nervous system,SNOMEDCT_US_2025_09_01,734066005
+DOID:0081313,primary diffuse large B-cell lymphoma of the central nervous system,UMLS_CUI,C2026186
+DOID:0081411,B-lymphoblastic leukemia with PAX5 p.P80R,ICDO,Mar-11
+DOID:0081411,B-lymphoblastic leukemia with PAX5 p.P80R,NCI,C199260
+DOID:0081412,B-lymphoblastic leukemia with DUX4 rearrangement,ICDO,Mar-11
+DOID:0081412,B-lymphoblastic leukemia with DUX4 rearrangement,NCI,C199232
+DOID:0081450,hyperimmunoglobulinemia D periodic fever syndrome,GARD,2788
+DOID:0081450,hyperimmunoglobulinemia D periodic fever syndrome,MIM,260920
+DOID:0081450,hyperimmunoglobulinemia D periodic fever syndrome,ORDO,343
+DOID:0081451,PFAPA syndrome,GARD,5657
+DOID:0081451,PFAPA syndrome,ORDO,42642
+DOID:0090012,severe combined immunodeficiency with sensitivity to ionizing radiation,ICD10CM,D81.1
+DOID:0090012,severe combined immunodeficiency with sensitivity to ionizing radiation,MESH,C537589
+DOID:0090012,severe combined immunodeficiency with sensitivity to ionizing radiation,MIM,602450
+DOID:0090012,severe combined immunodeficiency with sensitivity to ionizing radiation,ORDO,275
+DOID:0090013,"severe combined immunodeficiency, autosomal recessive, T cell-negative, B cell-negative, Nk cell-positive",ICD10CM,D81.1
+DOID:0090013,"severe combined immunodeficiency, autosomal recessive, T cell-negative, B cell-negative, Nk cell-positive",MESH,C563311
+DOID:0090013,"severe combined immunodeficiency, autosomal recessive, T cell-negative, B cell-negative, Nk cell-positive",MIM,601457
+DOID:0090013,"severe combined immunodeficiency, autosomal recessive, T cell-negative, B cell-negative, Nk cell-positive",ORDO,331206
+DOID:0090014,severe combined immunodeficiency 104,ICD10CM,D81.2
+DOID:0090014,severe combined immunodeficiency 104,MESH,C563822
+DOID:0090014,severe combined immunodeficiency 104,MIM,608971
+DOID:0090014,severe combined immunodeficiency 104,ORDO,169154
+DOID:0090018,TNF receptorï¿½ï¿½ï¿½associated periodic sy,GARD,8457
+DOID:0090018,TNF receptorï¿½ï¿½ï¿½associated periodic sy,ICD10CM,E85.0
+DOID:0090018,TNF receptorï¿½ï¿½ï¿½associated periodic sy,MIM,142680
+DOID:0090018,TNF receptorï¿½ï¿½ï¿½associated periodic sy,ORDO,32960
+DOID:0090029,CINCA Syndrome,ICD10CM,E85.0
+DOID:0090029,CINCA Syndrome,MIM,607115
+DOID:0090029,CINCA Syndrome,ORDO,1451
+DOID:0090061,familial cold autoinflammatory syndrome,ICD10CM,L50.2
+DOID:0090061,familial cold autoinflammatory syndrome,MIM,PS120100
+DOID:0090061,familial cold autoinflammatory syndrome,ORDO,47045
+DOID:0090062,familial cold autoinflammatory syndrome 1,ICD10CM,L50.2
+DOID:0090062,familial cold autoinflammatory syndrome 1,ORDO,47045
+DOID:0090062,familial cold autoinflammatory syndrome 1,MIM,120100
+DOID:0090063,familial cold autoinflammatory syndrome 2,MESH,C567090
+DOID:0090063,familial cold autoinflammatory syndrome 2,MIM,611762
+DOID:0090064,familial cold autoinflammatory syndrome 3,ICD10CM,L50.2
+DOID:0090064,familial cold autoinflammatory syndrome 3,MIM,614468
+DOID:0090064,familial cold autoinflammatory syndrome 3,ORDO,300359
+DOID:0090065,familial cold autoinflammatory syndrome 4,ICD10CM,L50.2
+DOID:0090065,familial cold autoinflammatory syndrome 4,ORDO,47045
+DOID:0090065,familial cold autoinflammatory syndrome 4,MIM,616115
+DOID:0090110,immune dysregulation-polyendocrinopathy-enteropathy-X-linked syndrome,GARD,1850
+DOID:0090110,immune dysregulation-polyendocrinopathy-enteropathy-X-linked syndrome,ICD10CM,E31.0
+DOID:0090110,immune dysregulation-polyendocrinopathy-enteropathy-X-linked syndrome,MESH,C580192
+DOID:0090110,immune dysregulation-polyendocrinopathy-enteropathy-X-linked syndrome,MIM,304790
+DOID:0090110,immune dysregulation-polyendocrinopathy-enteropathy-X-linked syndrome,ORDO,37042
+DOID:0110098,atopic dermatitis 2,MIM,605803
+DOID:0110099,atopic dermatitis 3,MIM,605804
+DOID:0110100,atopic dermatitis 4,MIM,605805
+DOID:0110101,atopic dermatitis 5,MIM,605844
+DOID:0110102,atopic dermatitis 6,MIM,605845
+DOID:0110103,atopic dermatitis 7,MIM,613064
+DOID:0110104,atopic dermatitis 8,MIM,613518
+DOID:0110105,atopic dermatitis 9,MIM,613519
+DOID:0110115,autoimmune lymphoproliferative syndrome type 2A,ICD10CM,D47.9
+DOID:0110115,autoimmune lymphoproliferative syndrome type 2A,MESH,C565833
+DOID:0110115,autoimmune lymphoproliferative syndrome type 2A,MIM,603909
+DOID:0110116,autoimmune lymphoproliferative syndrome type 2B,ICD10CM,D47.9
+DOID:0110116,autoimmune lymphoproliferative syndrome type 2B,MIM,607271
+DOID:0110116,autoimmune lymphoproliferative syndrome type 2B,ORDO,275517
+DOID:0110117,autoimmune lymphoproliferative syndrome type 4,ICD10CM,D72.8
+DOID:0110117,autoimmune lymphoproliferative syndrome type 4,MIM,614470
+DOID:0110117,autoimmune lymphoproliferative syndrome type 4,ORDO,268114
+DOID:0110119,autoimmune lymphoproliferative syndrome type 3,MIM,615559
+DOID:0110741,type 1 diabetes mellitus 2,ICD10CM,E10
+DOID:0110741,type 1 diabetes mellitus 2,MIM,125852
+DOID:0110742,type 1 diabetes mellitus 3,ICD10CM,E10
+DOID:0110742,type 1 diabetes mellitus 3,MIM,600318
+DOID:0110743,type 1 diabetes mellitus 4,ICD10CM,E10
+DOID:0110743,type 1 diabetes mellitus 4,MIM,600319
+DOID:0110744,type 1 diabetes mellitus 5,ICD10CM,E10
+DOID:0110744,type 1 diabetes mellitus 5,MIM,600320
+DOID:0110745,type 1 diabetes mellitus 6,ICD10CM,E10
+DOID:0110745,type 1 diabetes mellitus 6,MIM,601941
+DOID:0110746,type 1 diabetes mellitus 7,ICD10CM,E10
+DOID:0110746,type 1 diabetes mellitus 7,MIM,600321
+DOID:0110747,type 1 diabetes mellitus 8,ICD10CM,E10
+DOID:0110747,type 1 diabetes mellitus 8,MIM,600883
+DOID:0110749,type 1 diabetes mellitus 10,ICD10CM,E10
+DOID:0110749,type 1 diabetes mellitus 10,MIM,601942
+DOID:0110750,type 1 diabetes mellitus 11,ICD10CM,E10
+DOID:0110750,type 1 diabetes mellitus 11,MIM,601208
+DOID:0110751,type 1 diabetes mellitus 12,ICD10CM,E10
+DOID:0110751,type 1 diabetes mellitus 12,MIM,601388
+DOID:0110752,type 1 diabetes mellitus 13,ICD10CM,E10
+DOID:0110752,type 1 diabetes mellitus 13,MIM,601318
+DOID:0110753,type 1 diabetes mellitus 15,ICD10CM,E10
+DOID:0110753,type 1 diabetes mellitus 15,MIM,601666
+DOID:0110754,type 1 diabetes mellitus 17,ICD10CM,E10
+DOID:0110754,type 1 diabetes mellitus 17,MIM,603266
+DOID:0110755,type 1 diabetes mellitus 18,ICD10CM,E10
+DOID:0110755,type 1 diabetes mellitus 18,MIM,605598
+DOID:0110756,type 1 diabetes mellitus 19,ICD10CM,E10
+DOID:0110756,type 1 diabetes mellitus 19,MIM,610155
+DOID:0110757,type 1 diabetes mellitus 20,ICD10CM,E10
+DOID:0110757,type 1 diabetes mellitus 20,MIM,612520
+DOID:0110758,type 1 diabetes mellitus 21,ICD10CM,E10
+DOID:0110758,type 1 diabetes mellitus 21,MIM,612521
+DOID:0110759,type 1 diabetes mellitus 22,ICD10CM,E10
+DOID:0110759,type 1 diabetes mellitus 22,MIM,612522
+DOID:0110760,type 1 diabetes mellitus 23,ICD10CM,E10
+DOID:0110760,type 1 diabetes mellitus 23,MIM,612622
+DOID:0110761,type 1 diabetes mellitus 24,ICD10CM,E10
+DOID:0110761,type 1 diabetes mellitus 24,MIM,613006
+DOID:0110910,leukocyte adhesion deficiency 1,MIM,116920
+DOID:0110910,leukocyte adhesion deficiency 1,ORDO,99842
+DOID:0110912,leukocyte adhesion deficiency 3,MIM,612840
+DOID:0110912,leukocyte adhesion deficiency 3,ORDO,99844
+DOID:0110921,familial hemophagocytic lymphohistiocytosis 1,MIM,267700
+DOID:0110922,familial hemophagocytic lymphohistiocytosis 2,GARD,9922
+DOID:0110922,familial hemophagocytic lymphohistiocytosis 2,MIM,603553
+DOID:0110923,familial hemophagocytic lymphohistiocytosis 3,GARD,9928
+DOID:0110923,familial hemophagocytic lymphohistiocytosis 3,MIM,608898
+DOID:0110924,familial hemophagocytic lymphohistiocytosis 4,GARD,9929
+DOID:0110924,familial hemophagocytic lymphohistiocytosis 4,MIM,603552
+DOID:0110925,familial hemophagocytic lymphohistiocytosis 5,MIM,613101
+DOID:0111147,angioimmunoblastic T-cell lymphoma,GARD,11973
+DOID:0111147,angioimmunoblastic T-cell lymphoma,ICD10CM,C86.5
+DOID:0111147,angioimmunoblastic T-cell lymphoma,ICDO,Mar-05
+DOID:0111147,angioimmunoblastic T-cell lymphoma,MEDDRA,10002449
+DOID:0111147,angioimmunoblastic T-cell lymphoma,MESH,D007119
+DOID:0111147,angioimmunoblastic T-cell lymphoma,NCI,C7528
+DOID:0111147,angioimmunoblastic T-cell lymphoma,ORDO,86886
+DOID:0111147,angioimmunoblastic T-cell lymphoma,SNOMEDCT_US_2025_09_01,52097008
+DOID:0111147,angioimmunoblastic T-cell lymphoma,UMLS_CUI,C0020981
+DOID:0111152,multicentric Castleman disease,GARD,9644
+DOID:0111152,multicentric Castleman disease,MESH,C537372
+DOID:0111152,multicentric Castleman disease,NCI,C27855
+DOID:0111152,multicentric Castleman disease,ORDO,93686
+DOID:0111152,multicentric Castleman disease,SNOMEDCT_US_2025_09_01,1156805003
+DOID:0111152,multicentric Castleman disease,UMLS_CUI,C1334815
+DOID:0111157,Castleman disease,GARD,12656
+DOID:0111157,Castleman disease,ICD10CM,D47.Z2
+DOID:0111157,Castleman disease,MESH,C536362
+DOID:0111157,Castleman disease,MESH,D005871
+DOID:0111157,Castleman disease,NCI,C3056
+DOID:0111157,Castleman disease,ORDO,160
+DOID:0111157,Castleman disease,SNOMEDCT_US_2025_09_01,207036003
+DOID:0111157,Castleman disease,UMLS_CUI,C0017531
+DOID:0111157,Castleman disease,UMLS_CUI,C2931179
+DOID:0111279,psoriasis 7,MIM,605606
+DOID:0111280,psoriasis 4,MIM,603935
+DOID:0111281,psoriasis 15,MIM,616106
+DOID:0111282,psoriasis 5,MIM,604316
+DOID:0111283,psoriasis 3,MIM,601454
+DOID:0111284,psoriasis 9,MIM,607857
+DOID:0111285,psoriasis 11,MIM,612599
+DOID:0111286,psoriasis 1,MIM,177900
+DOID:0111287,psoriasis 13,MIM,614070
+DOID:0111288,psoriasis 8,MIM,610707
+DOID:0111289,psoriasis 10,MIM,612410
+DOID:0111290,psoriasis 6,MIM,605364
+DOID:0111291,psoriasis 12,MIM,612950
+DOID:0111457,STING-associated vasculopathy with onset in infancy,GARD,12357
+DOID:0111457,STING-associated vasculopathy with onset in infancy,MIM,615934
+DOID:0111457,STING-associated vasculopathy with onset in infancy,ORDO,425120
+DOID:0111768,X-linked properdin deficiency,GARD,9913
+DOID:0111768,X-linked properdin deficiency,MESH,C537241
+DOID:0111768,X-linked properdin deficiency,MIM,312060
+DOID:0111768,X-linked properdin deficiency,ORDO,2966
+DOID:0111768,X-linked properdin deficiency,SNOMEDCT_US_2025_09_01,81166004
+DOID:0111768,X-linked properdin deficiency,UMLS_CUI,C0398762
+DOID:0111768,X-linked properdin deficiency,UMLS_CUI,C1839454
+DOID:0111934,immunodeficiency 38,MIM,616126
+DOID:0111934,immunodeficiency 38,ORDO,319563
+DOID:0111935,immunodeficiency 16,MIM,615593
+DOID:0111935,immunodeficiency 16,ORDO,431149
+DOID:0111935,immunodeficiency 16,SNOMEDCT_US_2025_09_01,766879006
+DOID:0111935,immunodeficiency 16,UMLS_CUI,C3810053
+DOID:0111935,immunodeficiency 16,UMLS_CUI,C4707864
+DOID:0111936,immunodeficiency 14,GARD,11983
+DOID:0111936,immunodeficiency 14,MESH,C585640
+DOID:0111936,immunodeficiency 14,MIM,615513
+DOID:0111936,immunodeficiency 14,NCI,C187988
+DOID:0111936,immunodeficiency 14,ORDO,397596
+DOID:0111936,immunodeficiency 14,SNOMEDCT_US_2025_09_01,711480000
+DOID:0111936,immunodeficiency 14,UMLS_CUI,C3714976
+DOID:0111937,immunodeficiency 22,MIM,615758
+DOID:0111937,immunodeficiency 22,NCI,C176808
+DOID:0111937,immunodeficiency 22,ORDO,280142
+DOID:0111937,immunodeficiency 22,UMLS_CUI,C4014233
+DOID:0111938,immunodeficiency 24,MIM,615897
+DOID:0111938,immunodeficiency 24,ORDO,420573
+DOID:0111938,immunodeficiency 24,UMLS_CUI,C4014617
+DOID:0111939,immunodeficiency 37,MIM,616098
+DOID:0111939,immunodeficiency 37,UMLS_CUI,C4015195
+DOID:0111940,immunodeficiency 42,MIM,616622
+DOID:0111940,immunodeficiency 42,ORDO,477857
+DOID:0111941,immunodeficiency 20,MIM,615707
+DOID:0111941,immunodeficiency 20,ORDO,437552
+DOID:0111942,immunodeficiency 25,MESH,C565712
+DOID:0111942,immunodeficiency 25,MIM,610163
+DOID:0111942,immunodeficiency 25,UMLS_CUI,C1857798
+DOID:0111943,immunodeficiency 48,GARD,387
+DOID:0111943,immunodeficiency 48,MESH,C537590
+DOID:0111943,immunodeficiency 48,MIM,269840
+DOID:0111943,immunodeficiency 48,ORDO,911
+DOID:0111943,immunodeficiency 48,UMLS_CUI,C1849236
+DOID:0111944,immunodeficiency 31B,MIM,613796
+DOID:0111944,immunodeficiency 31B,ORDO,391311
+DOID:0111945,immunodeficiency 31A,MIM,614892
+DOID:0111945,immunodeficiency 31A,ORDO,319595
+DOID:0111946,immunodeficiency 31C,MIM,614162
+DOID:0111946,immunodeficiency 31C,ORDO,391487
+DOID:0111947,immunodeficiency 21,GARD,10934
+DOID:0111947,immunodeficiency 21,MESH,D000077428
+DOID:0111947,immunodeficiency 21,MIM,614172
+DOID:0111947,immunodeficiency 21,NCI,C126349
+DOID:0111947,immunodeficiency 21,ORDO,228423
+DOID:0111948,immunodeficiency 46,MIM,616740
+DOID:0111948,immunodeficiency 46,ORDO,476113
+DOID:0111948,immunodeficiency 46,SNOMEDCT_US_2025_09_01,1179288008
+DOID:0111948,immunodeficiency 46,UMLS_CUI,C5568133
+DOID:0111949,immunodeficiency 36,MIM,616005
+DOID:0111949,immunodeficiency 36,NCI,C176703
+DOID:0111949,immunodeficiency 36,UMLS_CUI,C4014934
+DOID:0111950,immunodeficiency 29,MIM,614890
+DOID:0111950,immunodeficiency 29,ORDO,319558
+DOID:0111951,immunodeficiency 40,GARD,12653
+DOID:0111951,immunodeficiency 40,MIM,616433
+DOID:0111951,immunodeficiency 40,NCI,C176799
+DOID:0111951,immunodeficiency 40,ORDO,447737
+DOID:0111951,immunodeficiency 40,SNOMEDCT_US_2025_09_01,1197479002
+DOID:0111951,immunodeficiency 40,UMLS_CUI,C4225328
+DOID:0111952,immunodeficiency 57,MIM,618108
+DOID:0111952,immunodeficiency 57,ORDO,529977
+DOID:0111953,immunodeficiency 23,GARD,4331
+DOID:0111953,immunodeficiency 23,MIM,615816
+DOID:0111953,immunodeficiency 23,NCI,C126339
+DOID:0111953,immunodeficiency 23,ORDO,443811
+DOID:0111953,immunodeficiency 23,SNOMEDCT_US_2025_09_01,1187623009
+DOID:0111953,immunodeficiency 23,UMLS_CUI,C4014371
+DOID:0111954,immunodeficiency 60,MIM,618394
+DOID:0111954,immunodeficiency 60,UMLS_CUI,C5193072
+DOID:0111955,immunodeficiency 27A,MESH,C535530
+DOID:0111955,immunodeficiency 27A,MIM,209950
+DOID:0111955,immunodeficiency 27A,ORDO,319569
+DOID:0111956,immunodeficiency 27B,MIM,615978
+DOID:0111956,immunodeficiency 27B,ORDO,319581
+DOID:0111957,immunodeficiency 11A,MIM,615206
+DOID:0111957,immunodeficiency 11A,ORDO,357237
+DOID:0111957,immunodeficiency 11A,UMLS_CUI,C3554686
+DOID:0111958,immunodeficiency 11B,MIM,617638
+DOID:0111958,immunodeficiency 11B,NCI,C176630
+DOID:0111958,immunodeficiency 11B,UMLS_CUI,C4539957
+DOID:0111959,immunodeficiency 15B,MIM,615592
+DOID:0111959,immunodeficiency 15B,UMLS_CUI,C4747743
+DOID:0111960,immunodeficiency 15A,MIM,618204
+DOID:0111960,immunodeficiency 15A,UMLS_CUI,C4748694
+DOID:0111961,immunodeficiency 26,MIM,615966
+DOID:0111961,immunodeficiency 26,NCI,C176795
+DOID:0111961,immunodeficiency 26,ORDO,317425
+DOID:0111961,immunodeficiency 26,UMLS_CUI,C4014833
+DOID:0111962,combined immunodeficiency,NCI,C27871
+DOID:0111967,immunodeficiency 54,MESH,C566492
+DOID:0111967,immunodeficiency 54,MIM,609981
+DOID:0111967,immunodeficiency 54,NCI,C123729
+DOID:0111967,immunodeficiency 54,ORDO,75391
+DOID:0111967,immunodeficiency 54,UMLS_CUI,C1864947
+DOID:0111968,immunodeficiency 41,MESH,C565232
+DOID:0111968,immunodeficiency 41,MIM,606367
+DOID:0111968,immunodeficiency 41,ORDO,169100
+DOID:0111969,immunodeficiency 39,MIM,616345
+DOID:0111970,immunodeficiency 10,MESH,C557827
+DOID:0111970,immunodeficiency 10,MIM,612783
+DOID:0111970,immunodeficiency 10,ORDO,317430
+DOID:0111970,immunodeficiency 10,UMLS_CUI,C2748557
+DOID:0111971,immunodeficiency 18,MIM,615615
+DOID:0111972,immunodeficiency 19,MIM,615617
+DOID:0111972,immunodeficiency 19,UMLS_CUI,C3810147
+DOID:0111973,immunodeficiency 17,SNOMEDCT_US_2025_09_01,766879006
+DOID:0111973,immunodeficiency 17,MIM,615607
+DOID:0111973,immunodeficiency 17,ORDO,169082
+DOID:0111973,immunodeficiency 17,UMLS_CUI,C3810107
+DOID:0111973,immunodeficiency 17,UMLS_CUI,C4510864
+DOID:0111974,immunodeficiency 59,MESH,C565535
+DOID:0111974,immunodeficiency 59,MIM,233600
+DOID:0111974,immunodeficiency 59,UMLS_CUI,C1856263
+DOID:0111975,immunodeficiency 44,MIM,616636
+DOID:0111976,immunodeficiency 9,MESH,C557826
+DOID:0111976,immunodeficiency 9,MIM,612782
+DOID:0111976,immunodeficiency 9,ORDO,317428
+DOID:0111976,immunodeficiency 9,UMLS_CUI,C2748568
+DOID:0111977,immunodeficiency 7,MIM,615387
+DOID:0111977,immunodeficiency 7,ORDO,397959
+DOID:0111977,immunodeficiency 7,SNOMEDCT_US_2025_09_01,782750002
+DOID:0111977,immunodeficiency 7,UMLS_CUI,C3809332
+DOID:0111977,immunodeficiency 7,UMLS_CUI,C5190592
+DOID:0111978,immunodeficiency 65,MIM,618648
+DOID:0111979,immunodeficiency 49,MIM,617237
+DOID:0111979,immunodeficiency 49,UMLS_CUI,C4310656
+DOID:0111980,immunodeficiency 64,MIM,618534
+DOID:0111981,immunodeficiency 43,MESH,C565476
+DOID:0111981,immunodeficiency 43,MIM,241600
+DOID:0111982,immunodeficiency 56,MIM,615207
+DOID:0111982,immunodeficiency 56,ORDO,357329
+DOID:0111982,immunodeficiency 56,UMLS_CUI,C3554687
+DOID:0111983,immunodeficiency 52,MIM,617514
+DOID:0111983,immunodeficiency 52,ORDO,504523
+DOID:0111983,immunodeficiency 52,SNOMEDCT_US_2025_09_01,1179284005
+DOID:0111983,immunodeficiency 52,UMLS_CUI,C4479588
+DOID:0111984,immunodeficiency 58,MIM,618131
+DOID:0111984,immunodeficiency 58,ORDO,542301
+DOID:0111984,immunodeficiency 58,SNOMEDCT_US_2025_09_01,1186712009
+DOID:0111984,immunodeficiency 58,UMLS_CUI,C4748304
+DOID:0111984,immunodeficiency 58,UMLS_CUI,C5568557
+DOID:0111985,immunodeficiency 32B,MIM,226990
+DOID:0111986,immunodeficiency 32A,MIM,614893
+DOID:0111986,immunodeficiency 32A,ORDO,319600
+DOID:0111986,immunodeficiency 32A,SNOMEDCT_US_2025_09_01,723385003
+DOID:0111986,immunodeficiency 32A,UMLS_CUI,C3808589
+DOID:0111986,immunodeficiency 32A,UMLS_CUI,C4509854
+DOID:0111987,immunodeficiency 13,GARD,12375
+DOID:0111987,immunodeficiency 13,MIM,615518
+DOID:0111987,immunodeficiency 13,ORDO,228000
+DOID:0111987,immunodeficiency 13,SNOMEDCT_US_2025_09_01,763713000
+DOID:0111987,immunodeficiency 13,UMLS_CUI,C4706550
+DOID:0111988,immunodeficiency 12,MIM,615468
+DOID:0111988,immunodeficiency 12,ORDO,397964
+DOID:0111989,immunodeficiency 35,MESH,C566928
+DOID:0111989,immunodeficiency 35,MIM,611521
+DOID:0111989,immunodeficiency 35,ORDO,331226
+DOID:0111990,immunodeficiency 30,MIM,614891
+DOID:0111990,immunodeficiency 30,NCI,C176800
+DOID:0111990,immunodeficiency 30,ORDO,319552
+DOID:0111990,immunodeficiency 30,UMLS_CUI,C4013949
+DOID:0111991,immunodeficiency 62,MIM,618459
+DOID:0111991,immunodeficiency 62,ORDO,696942
+DOID:0111991,immunodeficiency 62,UMLS_CUI,C5193109
+DOID:0111991,immunodeficiency 62,UMLS_CUI,C6012259
+DOID:0111992,immunodeficiency 53,MIM,617585
+DOID:0111993,immunodeficiency 55,MIM,617827
+DOID:0111993,immunodeficiency 55,ORDO,505227
+DOID:0111994,immunodeficiency 45,MIM,616669
+DOID:0111995,immunodeficiency 28,MIM,614889
+DOID:0111995,immunodeficiency 28,ORDO,319547
+DOID:0111996,immunodeficiency 51,MIM,613953
+DOID:0111997,immunodeficiency 63,MIM,618495
+DOID:0111997,immunodeficiency 63,UMLS_CUI,C5193126
+DOID:0111998,immunodeficiency 66,MIM,618847
+DOID:0111999,immunodeficiency 61,MESH,C538057
+DOID:0111999,immunodeficiency 61,MIM,300310
+DOID:0111999,immunodeficiency 61,UMLS_CUI,C1845903
+DOID:0112000,immunodeficiency 34,MESH,C567068
+DOID:0112000,immunodeficiency 34,MIM,300645
+DOID:0112000,immunodeficiency 34,UMLS_CUI,C1970859
+DOID:0112001,immunodeficiency 50,MIM,300988
+DOID:0112001,immunodeficiency 50,ORDO,504530
+DOID:0112002,immunodeficiency 47,MIM,300972
+DOID:0112002,immunodeficiency 47,ORDO,692790
+DOID:0112002,immunodeficiency 47,UMLS_CUI,C4310819
+DOID:0112002,immunodeficiency 47,UMLS_CUI,C6012366
+DOID:0112003,immunodeficiency 33,MIM,300636
+DOID:0112004,immunodeficiency 71,MIM,617718
+DOID:0112005,immunodeficiency 70,MIM,618969
+DOID:0112006,immunodeficiency 69,MIM,618963
+DOID:0112015,immunodeficiency 72,MIM,618982
+DOID:0112061,immunodeficiency 73b with defective neutrophil chemotaxis and lymphopenia,MIM,618986
+DOID:0112062,immunodeficiency 73c with defective neutrophil chemotaxis and hypogammaglobulinemia,MIM,618987
+DOID:0112063,X-Linked immunodeficiency 74,MIM,301051
+DOID:0112064,immunodeficiency 73a with defective neutrophil chemotaxis and leukocytosis,MESH,C564275
+DOID:0112064,immunodeficiency 73a with defective neutrophil chemotaxis and leukocytosis,MIM,608203
+DOID:0112064,immunodeficiency 73a with defective neutrophil chemotaxis and leukocytosis,ORDO,183707
+DOID:0112064,immunodeficiency 73a with defective neutrophil chemotaxis and leukocytosis,SNOMEDCT_US_2025_09_01,723443003
+DOID:0112064,immunodeficiency 73a with defective neutrophil chemotaxis and leukocytosis,UMLS_CUI,C1842398
+DOID:0112253,combined cellular and humoral immune defects with granulomas,GARD,13587
+DOID:0112253,combined cellular and humoral immune defects with granulomas,MESH,C567115
+DOID:0112253,combined cellular and humoral immune defects with granulomas,MIM,233650
+DOID:0112253,combined cellular and humoral immune defects with granulomas,ORDO,157949
+DOID:0112277,immunodeficiency 79,MIM,619238
+DOID:10011,thyroid lymphoma,NCI,C5265
+DOID:10011,thyroid lymphoma,SNOMEDCT_US_2025_09_01,278051002
+DOID:10011,thyroid lymphoma,UMLS_CUI,C1336753
+DOID:10146,thymus lymphoma,NCI,C6451
+DOID:10146,thymus lymphoma,UMLS_CUI,C1336745
+DOID:10290,prostate lymphoma,NCI,C5533
+DOID:10290,prostate lymphoma,UMLS_CUI,C1335512
+DOID:10322,berylliosis,ICD10CM,J63.2
+DOID:10322,berylliosis,MESH,D001607
+DOID:10322,berylliosis,NCI,C197848
+DOID:10322,berylliosis,SNOMEDCT_US_2025_09_01,8247009
+DOID:10322,berylliosis,UMLS_CUI,C0005138
+DOID:1039,prolymphocytic leukemia,ICDO,Mar-32
+DOID:1039,prolymphocytic leukemia,MESH,D015463
+DOID:1039,prolymphocytic leukemia,NCI,C3181
+DOID:1039,prolymphocytic leukemia,SNOMEDCT_US_2025_09_01,110006004
+DOID:1039,prolymphocytic leukemia,UMLS_CUI,C0023486
+DOID:1040,chronic lymphocytic leukemia,EFO,95
+DOID:1040,chronic lymphocytic leukemia,GARD,6104
+DOID:1040,chronic lymphocytic leukemia,ICD10CM,C91.10
+DOID:1040,chronic lymphocytic leukemia,ICD9CM,204.1
+DOID:1040,chronic lymphocytic leukemia,MESH,D015451
+DOID:1040,chronic lymphocytic leukemia,MIM,109543
+DOID:1040,chronic lymphocytic leukemia,MIM,151400
+DOID:1040,chronic lymphocytic leukemia,MIM,609630
+DOID:1040,chronic lymphocytic leukemia,MIM,612557
+DOID:1040,chronic lymphocytic leukemia,MIM,612558
+DOID:1040,chronic lymphocytic leukemia,MIM,612559
+DOID:1040,chronic lymphocytic leukemia,NCI,C3163
+DOID:1040,chronic lymphocytic leukemia,ORDO,67038
+DOID:1040,chronic lymphocytic leukemia,SNOMEDCT_US_2025_09_01,51092000
+DOID:1040,chronic lymphocytic leukemia,UMLS_CUI,C0023434
+DOID:10540,gastric lymphoma,GARD,6485
+DOID:10540,gastric lymphoma,NCI,C4636
+DOID:10540,gastric lymphoma,SNOMEDCT_US_2025_09_01,276811008
+DOID:10540,gastric lymphoma,UMLS_CUI,C0349532
+DOID:106,pleural tuberculosis,ICD10CM,A15.6
+DOID:106,pleural tuberculosis,ICD9CM,10.1
+DOID:106,pleural tuberculosis,ICD9CM,12
+DOID:106,pleural tuberculosis,MESH,D014396
+DOID:106,pleural tuberculosis,NCI,C26898
+DOID:106,pleural tuberculosis,SNOMEDCT_US_2025_09_01,186172004
+DOID:106,pleural tuberculosis,SNOMEDCT_US_2025_09_01,68706009
+DOID:106,pleural tuberculosis,UMLS_CUI,C0041326
+DOID:106,pleural tuberculosis,UMLS_CUI,C0152531
+DOID:10608,celiac disease,EFO,1060
+DOID:10608,celiac disease,GARD,11998
+DOID:10608,celiac disease,ICD10CM,K90.0
+DOID:10608,celiac disease,ICD9CM,579
+DOID:10608,celiac disease,MESH,D002446
+DOID:10608,celiac disease,MIM,607202
+DOID:10608,celiac disease,MIM,609754
+DOID:10608,celiac disease,MIM,611598
+DOID:10608,celiac disease,MIM,612005
+DOID:10608,celiac disease,MIM,612006
+DOID:10608,celiac disease,MIM,612007
+DOID:10608,celiac disease,MIM,612008
+DOID:10608,celiac disease,MIM,612009
+DOID:10608,celiac disease,MIM,612011
+DOID:10608,celiac disease,NCI,C26714
+DOID:10608,celiac disease,ORDO,555
+DOID:10608,celiac disease,SNOMEDCT_US_2025_09_01,197477005
+DOID:10608,celiac disease,UMLS_CUI,C0007570
+DOID:10612,allergic urticaria,ICD10CM,L50.0
+DOID:10612,allergic urticaria,ICD9CM,708
+DOID:10612,allergic urticaria,SNOMEDCT_US_2025_09_01,201260002
+DOID:10612,allergic urticaria,UMLS_CUI,C0149526
+DOID:10619,lymph node cancer,GARD,6932
+DOID:10619,lymph node cancer,NCI,C35497
+DOID:10619,lymph node cancer,SNOMEDCT_US_2025_09_01,127232002
+DOID:10619,lymph node cancer,UMLS_CUI,C0596869
+DOID:10699,paragonimiasis,GARD,9815
+DOID:10699,paragonimiasis,ICD10CM,B66.4
+DOID:10699,paragonimiasis,ICD9CM,121.2
+DOID:10699,paragonimiasis,MESH,D010237
+DOID:10699,paragonimiasis,NCI,C84995
+DOID:10699,paragonimiasis,SNOMEDCT_US_2025_09_01,30369007
+DOID:10699,paragonimiasis,UMLS_CUI,C0030424
+DOID:10773,bubonic plague,MESH,D010930
+DOID:10773,bubonic plague,GARD,183
+DOID:10773,bubonic plague,ICD10CM,A20.0
+DOID:10773,bubonic plague,ICD9CM,20
+DOID:10773,bubonic plague,SNOMEDCT_US_2025_09_01,50797007
+DOID:10773,bubonic plague,UMLS_CUI,C0282312
+DOID:10782,mesenteric lymphadenitis,ICD10CM,I88.0
+DOID:10782,mesenteric lymphadenitis,ICD9CM,289.2
+DOID:10782,mesenteric lymphadenitis,MESH,D008640
+DOID:10782,mesenteric lymphadenitis,NCI,C26830
+DOID:10782,mesenteric lymphadenitis,SNOMEDCT_US_2025_09_01,191376006
+DOID:10782,mesenteric lymphadenitis,UMLS_CUI,C0025469
+DOID:10813,nasal cavity lymphoma,NCI,C6074
+DOID:10813,nasal cavity lymphoma,UMLS_CUI,C1334921
+DOID:11042,Felty's syndrome,GARD,8234
+DOID:11042,Felty's syndrome,ICD10CM,M05.0
+DOID:11042,Felty's syndrome,ICD9CM,714.1
+DOID:11042,Felty's syndrome,MESH,D005258
+DOID:11042,Felty's syndrome,MIM,134750
+DOID:11042,Felty's syndrome,NCI,C84712
+DOID:11042,Felty's syndrome,SNOMEDCT_US_2025_09_01,57160007
+DOID:11042,Felty's syndrome,UMLS_CUI,C0015773
+DOID:1106,esophagus lymphoma,NCI,C5687
+DOID:1106,esophagus lymphoma,UMLS_CUI,C1333459
+DOID:11123,IgA vasculitis,GARD,8204
+DOID:11123,IgA vasculitis,ICD10CM,D69.0
+DOID:11123,IgA vasculitis,ICD9CM,287
+DOID:11123,IgA vasculitis,MESH,D011695
+DOID:11123,IgA vasculitis,NCI,C34963
+DOID:11123,IgA vasculitis,ORDO,761
+DOID:11123,IgA vasculitis,SNOMEDCT_US_2025_09_01,191306005
+DOID:11123,IgA vasculitis,UMLS_CUI,C0034152
+DOID:11200,T cell deficiency,NCI,C27145
+DOID:11200,T cell deficiency,NCI,C27872
+DOID:11200,T cell deficiency,SNOMEDCT_US_2025_09_01,402792003
+DOID:11200,T cell deficiency,UMLS_CUI,C1274233
+DOID:11200,T cell deficiency,UMLS_CUI,C1333147
+DOID:11203,Angelucci's syndrome,ICD10CM,H10.1
+DOID:11203,Angelucci's syndrome,ICD9CM,372.05
+DOID:11203,Angelucci's syndrome,NCI,C34353
+DOID:11203,Angelucci's syndrome,SNOMEDCT_US_2025_09_01,193863004
+DOID:11203,Angelucci's syndrome,UMLS_CUI,C0001309
+DOID:11204,allergic conjunctivitis,MESH,D003233
+DOID:11204,allergic conjunctivitis,NCI,C34506
+DOID:11204,allergic conjunctivitis,SNOMEDCT_US_2025_09_01,231854006
+DOID:11204,allergic conjunctivitis,UMLS_CUI,C0009766
+DOID:11241,appendix lymphoma,NCI,C5513
+DOID:11241,appendix lymphoma,SNOMEDCT_US_2025_09_01,1153357001
+DOID:11241,appendix lymphoma,UMLS_CUI,C1332328
+DOID:11258,cat-scratch disease,ICD10CM,A28.1
+DOID:11258,cat-scratch disease,ICD9CM,78.3
+DOID:11258,cat-scratch disease,MESH,D002372
+DOID:11258,cat-scratch disease,NCI,C84620
+DOID:11258,cat-scratch disease,SNOMEDCT_US_2025_09_01,123319006
+DOID:11258,cat-scratch disease,UMLS_CUI,C0007361
+DOID:11289,ventilation pneumonitis,ICD10CM,J67.7
+DOID:11289,ventilation pneumonitis,ICD9CM,495.7
+DOID:11289,ventilation pneumonitis,NCI,C196790
+DOID:11289,ventilation pneumonitis,SNOMEDCT_US_2025_09_01,48347002
+DOID:11289,ventilation pneumonitis,UMLS_CUI,C0155891
+DOID:11335,sarcoidosis,GARD,7607
+DOID:11335,sarcoidosis,ICD10CM,D86
+DOID:11335,sarcoidosis,ICD9CM,135
+DOID:11335,sarcoidosis,MESH,D012507
+DOID:11335,sarcoidosis,NCI,C34995
+DOID:11335,sarcoidosis,ORDO,797
+DOID:11335,sarcoidosis,SNOMEDCT_US_2025_09_01,154425004
+DOID:11335,sarcoidosis,UMLS_CUI,C0036202
+DOID:11558,acute allergic serous otitis media,ICD9CM,381.04
+DOID:11558,acute allergic serous otitis media,SNOMEDCT_US_2025_09_01,194241005
+DOID:11558,acute allergic serous otitis media,UMLS_CUI,C0155418
+DOID:11656,cicatricial pemphigoid,GARD,5913
+DOID:11656,cicatricial pemphigoid,ICD10CM,L12.1
+DOID:11656,cicatricial pemphigoid,ICD9CM,694.6
+DOID:11656,cicatricial pemphigoid,ICD9CM,694.61
+DOID:11656,cicatricial pemphigoid,MESH,D010390
+DOID:11656,cicatricial pemphigoid,MIM,164185
+DOID:11656,cicatricial pemphigoid,NCI,C34907
+DOID:11656,cicatricial pemphigoid,SNOMEDCT_US_2025_09_01,34250006
+DOID:11656,cicatricial pemphigoid,SNOMEDCT_US_2025_09_01,76092003
+DOID:11656,cicatricial pemphigoid,UMLS_CUI,C0030804
+DOID:11656,cicatricial pemphigoid,UMLS_CUI,C0157721
+DOID:11701,selective IgA deficiency disease,MESH,D017098
+DOID:11701,selective IgA deficiency disease,SNOMEDCT_US_2025_09_01,29260007
+DOID:11701,selective IgA deficiency disease,UMLS_CUI,C0162538
+DOID:11702,dysgammaglobulinemia,MESH,D004406
+DOID:11702,dysgammaglobulinemia,SNOMEDCT_US_2025_09_01,127389001
+DOID:11702,dysgammaglobulinemia,UMLS_CUI,C0013374
+DOID:11786,splenic sequestration,ICD9CM,289.52
+DOID:11786,splenic sequestration,NCI,C208365
+DOID:11786,splenic sequestration,UMLS_CUI,C1260402
+DOID:11787,chronic congestive splenomegaly,ICD10CM,D73.2
+DOID:11787,chronic congestive splenomegaly,ICD9CM,289.51
+DOID:11787,chronic congestive splenomegaly,SNOMEDCT_US_2025_09_01,191382009
+DOID:11787,chronic congestive splenomegaly,UMLS_CUI,C0398661
+DOID:11821,bladder lymphoma,NCI,C6164
+DOID:11821,bladder lymphoma,UMLS_CUI,C1332561
+DOID:12001,tracheal lymphoma,NCI,C6248
+DOID:12001,tracheal lymphoma,UMLS_CUI,C1336773
+DOID:1205,allergic disease,ICD10CM,T78.40
+DOID:1205,allergic disease,MESH,D006967
+DOID:1205,allergic disease,NCI,C3114
+DOID:1205,allergic disease,SNOMEDCT_US_2025_09_01,257550005
+DOID:1205,allergic disease,UMLS_CUI,C0020517
+DOID:12055,sarcoid meningitis,ICD10CM,D86.81
+DOID:12055,sarcoid meningitis,ICD9CM,321.4
+DOID:12055,sarcoid meningitis,SNOMEDCT_US_2025_09_01,192673008
+DOID:12055,sarcoid meningitis,UMLS_CUI,C0154648
+DOID:12132,granulomatosis with polyangiitis,GARD,7880
+DOID:12132,granulomatosis with polyangiitis,ICD10CM,M31.3
+DOID:12132,granulomatosis with polyangiitis,ICD9CM,446.4
+DOID:12132,granulomatosis with polyangiitis,MESH,D014890
+DOID:12132,granulomatosis with polyangiitis,MIM,608710
+DOID:12132,granulomatosis with polyangiitis,NCI,C3444
+DOID:12132,granulomatosis with polyangiitis,SNOMEDCT_US_2025_09_01,195353004
+DOID:12132,granulomatosis with polyangiitis,UMLS_CUI,C3495801
+DOID:12177,common variable immunodeficiency,GARD,6140
+DOID:12177,common variable immunodeficiency,ICD10CM,D83
+DOID:12177,common variable immunodeficiency,ICD9CM,279.06
+DOID:12177,common variable immunodeficiency,MESH,D017074
+DOID:12177,common variable immunodeficiency,MIM,PS607594
+DOID:12177,common variable immunodeficiency,NCI,C26725
+DOID:12177,common variable immunodeficiency,ORDO,1572
+DOID:12177,common variable immunodeficiency,SNOMEDCT_US_2025_09_01,23238000
+DOID:12177,common variable immunodeficiency,UMLS_CUI,C0009447
+DOID:12236,primary biliary cholangitis,EFO,4267
+DOID:12236,primary biliary cholangitis,GARD,7459
+DOID:12236,primary biliary cholangitis,ICD10CM,K74.3
+DOID:12236,primary biliary cholangitis,ICD10CM,K74.5
+DOID:12236,primary biliary cholangitis,ICD9CM,571.6
+DOID:12236,primary biliary cholangitis,MESH,D008105
+DOID:12236,primary biliary cholangitis,MIM,PS109720
+DOID:12236,primary biliary cholangitis,NCI,C27167
+DOID:12236,primary biliary cholangitis,NCI,C51225
+DOID:12236,primary biliary cholangitis,ORDO,186
+DOID:12236,primary biliary cholangitis,SNOMEDCT_US_2025_09_01,1761006
+DOID:12236,primary biliary cholangitis,SNOMEDCT_US_2025_09_01,31712002
+DOID:12236,primary biliary cholangitis,UMLS_CUI,C0008312
+DOID:12236,primary biliary cholangitis,UMLS_CUI,C0023892
+DOID:12253,testicular lymphoma,NCI,C6810
+DOID:12253,testicular lymphoma,SNOMEDCT_US_2025_09_01,277664004
+DOID:12253,testicular lymphoma,UMLS_CUI,C0349644
+DOID:12297,Vogt-Koyanagi-Harada disease,GARD,7862
+DOID:12297,Vogt-Koyanagi-Harada disease,ICD10CM,H20.82
+DOID:12297,Vogt-Koyanagi-Harada disease,ICD9CM,364.24
+DOID:12297,Vogt-Koyanagi-Harada disease,MESH,D014607
+DOID:12297,Vogt-Koyanagi-Harada disease,NCI,C85218
+DOID:12297,Vogt-Koyanagi-Harada disease,SNOMEDCT_US_2025_09_01,44923005
+DOID:12297,Vogt-Koyanagi-Harada disease,UMLS_CUI,C0042170
+DOID:12306,vitiligo,EFO,4208
+DOID:12306,vitiligo,GARD,10751
+DOID:12306,vitiligo,ICD10CM,L80
+DOID:12306,vitiligo,ICD9CM,709.01
+DOID:12306,vitiligo,MESH,D014820
+DOID:12306,vitiligo,MIM,193200
+DOID:12306,vitiligo,NCI,C26915
+DOID:12306,vitiligo,SNOMEDCT_US_2025_09_01,156437000
+DOID:12306,vitiligo,UMLS_CUI,C0042900
+DOID:12339,retroperitoneal lymphoma,NCI,C7353
+DOID:12339,retroperitoneal lymphoma,UMLS_CUI,C1335779
+DOID:12361,Graves' disease,EFO,4237
+DOID:12361,Graves' disease,ICD10CM,E05.0
+DOID:12361,Graves' disease,MESH,D006111
+DOID:12361,Graves' disease,MIM,275000
+DOID:12361,Graves' disease,NCI,C3071
+DOID:12361,Graves' disease,SNOMEDCT_US_2025_09_01,154655004
+DOID:12361,Graves' disease,UMLS_CUI,C0018213
+DOID:12522,bagassosis,MESH,D011009
+DOID:12522,bagassosis,ICD10CM,J67.1
+DOID:12522,bagassosis,ICD9CM,495.1
+DOID:12522,bagassosis,NCI,C34409
+DOID:12522,bagassosis,SNOMEDCT_US_2025_09_01,67242002
+DOID:12522,bagassosis,UMLS_CUI,C0004681
+DOID:12842,Guillain-Barre syndrome,GARD,6554
+DOID:12842,Guillain-Barre syndrome,ICD10CM,G61.0
+DOID:12842,Guillain-Barre syndrome,MESH,D020275
+DOID:12842,Guillain-Barre syndrome,MIM,139393
+DOID:12842,Guillain-Barre syndrome,NCI,C116345
+DOID:12842,Guillain-Barre syndrome,SNOMEDCT_US_2025_09_01,155082001
+DOID:12842,Guillain-Barre syndrome,UMLS_CUI,C0018378
+DOID:12889,Miller Fisher syndrome,ICD10CM,G61.0
+DOID:12889,Miller Fisher syndrome,GARD,3668
+DOID:12889,Miller Fisher syndrome,MESH,D019846
+DOID:12889,Miller Fisher syndrome,NCI,C116958
+DOID:12889,Miller Fisher syndrome,SNOMEDCT_US_2025_09_01,1767005
+DOID:12889,Miller Fisher syndrome,UMLS_CUI,C0393799
+DOID:12894,Sjogren's syndrome,GARD,10252
+DOID:12894,Sjogren's syndrome,ICD10CM,M35.0
+DOID:12894,Sjogren's syndrome,ICD9CM,710.2
+DOID:12894,Sjogren's syndrome,MESH,D012859
+DOID:12894,Sjogren's syndrome,MIM,270150
+DOID:12894,Sjogren's syndrome,NCI,C26883
+DOID:12894,Sjogren's syndrome,NCI,C70647
+DOID:12894,Sjogren's syndrome,SNOMEDCT_US_2025_09_01,267875002
+DOID:12894,Sjogren's syndrome,SNOMEDCT_US_2025_09_01,83901003
+DOID:12894,Sjogren's syndrome,UMLS_CUI,C0086981
+DOID:12894,Sjogren's syndrome,UMLS_CUI,C1527336
+DOID:12900,Mikulicz disease,ICD10CM,K11.8
+DOID:12900,Mikulicz disease,GARD,7043
+DOID:12900,Mikulicz disease,MESH,D008882
+DOID:12900,Mikulicz disease,NCI,C34819
+DOID:12900,Mikulicz disease,SNOMEDCT_US_2025_09_01,7826003
+DOID:12900,Mikulicz disease,UMLS_CUI,C0026103
+DOID:12972,intrapelvic lymph node leukemic reticuloendotheliosis,ICD9CM,202.46
+DOID:12972,intrapelvic lymph node leukemic reticuloendotheliosis,SNOMEDCT_US_2025_09_01,188650008
+DOID:12972,intrapelvic lymph node leukemic reticuloendotheliosis,UMLS_CUI,C0153831
+DOID:13005,intra-abdominal lymph node mast cell malignancy,ICD9CM,202.63
+DOID:13005,intra-abdominal lymph node mast cell malignancy,SNOMEDCT_US_2025_09_01,188664008
+DOID:13005,intra-abdominal lymph node mast cell malignancy,UMLS_CUI,C0153844
+DOID:13080,Jaccoud's syndrome,ICD10CM,M12.0
+DOID:13080,Jaccoud's syndrome,ICD9CM,714.4
+DOID:13080,Jaccoud's syndrome,SNOMEDCT_US_2025_09_01,84801008
+DOID:13080,Jaccoud's syndrome,UMLS_CUI,C0152084
+DOID:13166,allergic bronchopulmonary aspergillosis,GARD,602
+DOID:13166,allergic bronchopulmonary aspergillosis,ICD10CM,B44.81
+DOID:13166,allergic bronchopulmonary aspergillosis,ICD9CM,518.6
+DOID:13166,allergic bronchopulmonary aspergillosis,MESH,D001229
+DOID:13166,allergic bronchopulmonary aspergillosis,MIM,103920
+DOID:13166,allergic bronchopulmonary aspergillosis,NCI,C84547
+DOID:13166,allergic bronchopulmonary aspergillosis,SNOMEDCT_US_2025_09_01,37981002
+DOID:13166,allergic bronchopulmonary aspergillosis,UMLS_CUI,C0004031
+DOID:13241,Behcet's disease,EFO,3780
+DOID:13241,Behcet's disease,GARD,848
+DOID:13241,Behcet's disease,ICD10CM,M35.2
+DOID:13241,Behcet's disease,ICD9CM,136.1
+DOID:13241,Behcet's disease,MESH,D001528
+DOID:13241,Behcet's disease,MIM,109650
+DOID:13241,Behcet's disease,NCI,C34416
+DOID:13241,Behcet's disease,SNOMEDCT_US_2025_09_01,310701003
+DOID:13241,Behcet's disease,UMLS_CUI,C0004943
+DOID:13375,temporal arteritis,ICD9CM,446.5
+DOID:13375,temporal arteritis,MESH,D013700
+DOID:13375,temporal arteritis,MIM,187360
+DOID:13375,temporal arteritis,NCI,C35065
+DOID:13375,temporal arteritis,ORDO,397
+DOID:13375,temporal arteritis,SNOMEDCT_US_2025_09_01,195354005
+DOID:13375,temporal arteritis,UMLS_CUI,C0039483
+DOID:13378,Kawasaki disease,EFO,4246
+DOID:13378,Kawasaki disease,GARD,6816
+DOID:13378,Kawasaki disease,ICD10CM,M30.3
+DOID:13378,Kawasaki disease,ICD9CM,446.1
+DOID:13378,Kawasaki disease,MESH,D009080
+DOID:13378,Kawasaki disease,MIM,611775
+DOID:13378,Kawasaki disease,NCI,C34825
+DOID:13378,Kawasaki disease,SNOMEDCT_US_2025_09_01,75053002
+DOID:13378,Kawasaki disease,UMLS_CUI,C0026691
+DOID:13402,skin sarcoidosis,ICD10CM,D86.3
+DOID:13402,skin sarcoidosis,NCI,C34996
+DOID:13402,skin sarcoidosis,SNOMEDCT_US_2025_09_01,55941000
+DOID:13402,skin sarcoidosis,UMLS_CUI,C0036203
+DOID:13403,neurosarcoidosis,NCI,C35441
+DOID:13403,neurosarcoidosis,SNOMEDCT_US_2025_09_01,111936002
+DOID:13403,neurosarcoidosis,UMLS_CUI,C0398676
+DOID:13404,uveoparotid fever,ICD10CM,D86.89
+DOID:13404,uveoparotid fever,MESH,D014608
+DOID:13404,uveoparotid fever,SNOMEDCT_US_2025_09_01,31541009
+DOID:13404,uveoparotid fever,UMLS_CUI,C0042171
+DOID:13405,cardiac sarcoidosis,NCI,C35589
+DOID:13405,cardiac sarcoidosis,SNOMEDCT_US_2025_09_01,75403004
+DOID:13405,cardiac sarcoidosis,UMLS_CUI,C0392077
+DOID:13406,pulmonary sarcoidosis,ICD10CM,D86.0
+DOID:13406,pulmonary sarcoidosis,MEDDRA,10037430
+DOID:13406,pulmonary sarcoidosis,MESH,D017565
+DOID:13406,pulmonary sarcoidosis,NCI,C34997
+DOID:13406,pulmonary sarcoidosis,SNOMEDCT_US_2025_09_01,187230004
+DOID:13406,pulmonary sarcoidosis,UMLS_CUI,C0036205
+DOID:13407,hypercalcemic sarcoidosis,NCI,C35807
+DOID:13407,hypercalcemic sarcoidosis,UMLS_CUI,C1334067
+DOID:1355,paranasal sinus lymphoma,NCI,C6068
+DOID:1355,paranasal sinus lymphoma,UMLS_CUI,C1335339
+DOID:13777,epidermodysplasia verruciformis,GARD,6357
+DOID:13777,epidermodysplasia verruciformis,MESH,D004819
+DOID:13777,epidermodysplasia verruciformis,MIM,PS226400
+DOID:13777,epidermodysplasia verruciformis,NCI,C126877
+DOID:13777,epidermodysplasia verruciformis,ORDO,302
+DOID:13777,epidermodysplasia verruciformis,SNOMEDCT_US_2025_09_01,19138001
+DOID:13777,epidermodysplasia verruciformis,UMLS_CUI,C0014522
+DOID:13891,bird fancier's lung,ICD10CM,J67.2
+DOID:13891,bird fancier's lung,ICD9CM,495.2
+DOID:13891,bird fancier's lung,MESH,D001716
+DOID:13891,bird fancier's lung,NCI,C34425
+DOID:13891,bird fancier's lung,SNOMEDCT_US_2025_09_01,69339004
+DOID:13891,bird fancier's lung,UMLS_CUI,C0005592
+DOID:13996,small intestine lymphoma,NCI,C4007
+DOID:13996,small intestine lymphoma,SNOMEDCT_US_2025_09_01,449074003
+DOID:13996,small intestine lymphoma,UMLS_CUI,C0278805
+DOID:14040,autoimmune polyendocrine syndrome,ICD10CM,E31.0
+DOID:14040,autoimmune polyendocrine syndrome,MESH,D016884
+DOID:14040,autoimmune polyendocrine syndrome,NCI,C84576
+DOID:14040,autoimmune polyendocrine syndrome,SNOMEDCT_US_2025_09_01,41864002
+DOID:14040,autoimmune polyendocrine syndrome,UMLS_CUI,C0085409
+DOID:14043,neonatal myasthenia gravis,ICD9CM,775.2
+DOID:14043,neonatal myasthenia gravis,MESH,D020941
+DOID:14043,neonatal myasthenia gravis,SNOMEDCT_US_2025_09_01,82178003
+DOID:14043,neonatal myasthenia gravis,UMLS_CUI,C0158982
+DOID:14139,anus lymphoma,NCI,C5601
+DOID:14139,anus lymphoma,SNOMEDCT_US_2025_09_01,1153356005
+DOID:14139,anus lymphoma,UMLS_CUI,C1332268
+DOID:14150,spinal cord lymphoma,NCI,C5157
+DOID:14150,spinal cord lymphoma,UMLS_CUI,C1336044
+DOID:14176,selective IgG deficiency disease,GARD,10371
+DOID:14176,selective IgG deficiency disease,ICD10CM,D80.3
+DOID:14176,selective IgG deficiency disease,MESH,D017099
+DOID:14176,selective IgG deficiency disease,NCI,C27142
+DOID:14176,selective IgG deficiency disease,SNOMEDCT_US_2025_09_01,1.2631E+13
+DOID:14176,selective IgG deficiency disease,UMLS_CUI,C0162539
+DOID:14177,congenital hypogammaglobulinemia,ICD9CM,279.04
+DOID:14177,congenital hypogammaglobulinemia,SNOMEDCT_US_2025_09_01,190983003
+DOID:14177,congenital hypogammaglobulinemia,UMLS_CUI,C1457897
+DOID:14179,X-linked agammaglobulinemia,MESH,C537409
+DOID:14179,X-linked agammaglobulinemia,MIM,300755
+DOID:14179,X-linked agammaglobulinemia,NCI,C3822
+DOID:14179,X-linked agammaglobulinemia,ORDO,47
+DOID:14179,X-linked agammaglobulinemia,SNOMEDCT_US_2025_09_01,65880007
+DOID:14179,X-linked agammaglobulinemia,UMLS_CUI,C0221026
+DOID:14256,adult-onset Still's disease,GARD,436
+DOID:14256,adult-onset Still's disease,ICD10CM,M06.1
+DOID:14256,adult-onset Still's disease,MESH,D016706
+DOID:14256,adult-onset Still's disease,NCI,C197832
+DOID:14256,adult-onset Still's disease,SNOMEDCT_US_2025_09_01,239920006
+DOID:14256,adult-onset Still's disease,UMLS_CUI,C0085253
+DOID:14453,farmer's lung,GARD,6427
+DOID:14453,farmer's lung,ICD10CM,J67.0
+DOID:14453,farmer's lung,ICD9CM,495
+DOID:14453,farmer's lung,MESH,D005203
+DOID:14453,farmer's lung,NCI,C34605
+DOID:14453,farmer's lung,SNOMEDCT_US_2025_09_01,155581001
+DOID:14453,farmer's lung,UMLS_CUI,C0015634
+DOID:14482,pemphigoid gestationis,ICD10CM,O26.4
+DOID:14482,pemphigoid gestationis,MESH,D006559
+DOID:14482,pemphigoid gestationis,NCI,C85003
+DOID:14482,pemphigoid gestationis,SNOMEDCT_US_2025_09_01,86081009
+DOID:14482,pemphigoid gestationis,UMLS_CUI,C0019343
+DOID:14489,ureteral lymphoma,NCI,C6175
+DOID:14489,ureteral lymphoma,UMLS_CUI,C1336876
+DOID:1522,cecum lymphoma,NCI,C5515
+DOID:1522,cecum lymphoma,UMLS_CUI,C1332867
+DOID:1523,colon lymphoma,NCI,C4793
+DOID:1523,colon lymphoma,SNOMEDCT_US_2025_09_01,1.33751E+14
+DOID:1523,colon lymphoma,UMLS_CUI,C0519037
+DOID:1556,arthus reaction,ICD10CM,T78.41
+DOID:1556,arthus reaction,ICD9CM,995.21
+DOID:1556,arthus reaction,MESH,D001183
+DOID:1556,arthus reaction,NCI,C34400
+DOID:1556,arthus reaction,SNOMEDCT_US_2025_09_01,402413008
+DOID:1556,arthus reaction,UMLS_CUI,C0003907
+DOID:1557,hypersensitivity reaction type III disease,MESH,D007105
+DOID:1557,hypersensitivity reaction type III disease,UMLS_CUI,C0020951
+DOID:1602,lymphadenitis,ICD10CM,I88.1
+DOID:1602,lymphadenitis,ICD10CM,L04
+DOID:1602,lymphadenitis,ICD9CM,289.1
+DOID:1602,lymphadenitis,ICD9CM,683
+DOID:1602,lymphadenitis,MESH,D008199
+DOID:1602,lymphadenitis,NCI,C26821
+DOID:1602,lymphadenitis,NCI,C26966
+DOID:1602,lymphadenitis,NCI,C26978
+DOID:1602,lymphadenitis,SNOMEDCT_US_2025_09_01,154836001
+DOID:1602,lymphadenitis,SNOMEDCT_US_2025_09_01,156318008
+DOID:1602,lymphadenitis,SNOMEDCT_US_2025_09_01,19471005
+DOID:1602,lymphadenitis,UMLS_CUI,C0024205
+DOID:1602,lymphadenitis,UMLS_CUI,C0154304
+DOID:1602,lymphadenitis,UMLS_CUI,C0157705
+DOID:1703,Richter's syndrome,GARD,7578
+DOID:1703,Richter's syndrome,ICD10CM,C91.1
+DOID:1703,Richter's syndrome,NCI,C35424
+DOID:1703,Richter's syndrome,SNOMEDCT_US_2025_09_01,277550009
+DOID:1703,Richter's syndrome,UMLS_CUI,C0349631
+DOID:1792,pancreas lymphoma,NCI,C5714
+DOID:1792,pancreas lymphoma,UMLS_CUI,C1335307
+DOID:1895,allergic contact dermatitis of eyelid,ICD9CM,373.32
+DOID:1895,allergic contact dermatitis of eyelid,SNOMEDCT_US_2025_09_01,402249007
+DOID:1895,allergic contact dermatitis of eyelid,UMLS_CUI,C0155178
+DOID:1975,thymus lipoma,NCI,C6452
+DOID:1975,thymus lipoma,SNOMEDCT_US_2025_09_01,447137005
+DOID:1975,thymus lipoma,UMLS_CUI,C1336744
+DOID:1988,rectum lymphoma,NCI,C5553
+DOID:1988,rectum lymphoma,UMLS_CUI,C1335685
+DOID:2012,Nezelof syndrome,ICD10CM,D81.4
+DOID:2012,Nezelof syndrome,ICD9CM,279.13
+DOID:2012,Nezelof syndrome,MIM,242700
+DOID:2012,Nezelof syndrome,ORDO,83471
+DOID:2012,Nezelof syndrome,SNOMEDCT_US_2025_09_01,55602000
+DOID:2012,Nezelof syndrome,UMLS_CUI,C0152094
+DOID:2048,autoimmune hepatitis,GARD,5871
+DOID:2048,autoimmune hepatitis,ICD9CM,571.42
+DOID:2048,autoimmune hepatitis,MESH,D019693
+DOID:2048,autoimmune hepatitis,NCI,C27778
+DOID:2048,autoimmune hepatitis,SNOMEDCT_US_2025_09_01,1.60985E+16
+DOID:2048,autoimmune hepatitis,UMLS_CUI,C0241910
+DOID:2048,autoimmune hepatitis,UMLS_CUI,C1332355
+DOID:2115,B cell deficiency,ICD9CM,279.03
+DOID:2115,B cell deficiency,SNOMEDCT_US_2025_09_01,190982008
+DOID:2115,B cell deficiency,UMLS_CUI,C0154276
+DOID:2150,ovarian lymphoma,NCI,C40021
+DOID:2150,ovarian lymphoma,UMLS_CUI,C1518720
+DOID:2314,malt worker's lung,ICD10CM,J67.4
+DOID:2314,malt worker's lung,ICD9CM,495.4
+DOID:2314,malt worker's lung,NCI,C197929
+DOID:2314,malt worker's lung,SNOMEDCT_US_2025_09_01,25897000
+DOID:2314,malt worker's lung,UMLS_CUI,C0155888
+DOID:2377,multiple sclerosis,GARD,10255
+DOID:2377,multiple sclerosis,ICD10CM,G35
+DOID:2377,multiple sclerosis,ICD9CM,340
+DOID:2377,multiple sclerosis,MESH,D009103
+DOID:2377,multiple sclerosis,MIM,612594
+DOID:2377,multiple sclerosis,MIM,612595
+DOID:2377,multiple sclerosis,MIM,612596
+DOID:2377,multiple sclerosis,NCI,C3243
+DOID:2377,multiple sclerosis,SNOMEDCT_US_2025_09_01,155023009
+DOID:2377,multiple sclerosis,UMLS_CUI,C0026769
+DOID:2378,relapsing-remitting multiple sclerosis,EFO,3929
+DOID:2378,relapsing-remitting multiple sclerosis,ICD10CM,G35.A
+DOID:2378,relapsing-remitting multiple sclerosis,MESH,D020529
+DOID:2378,relapsing-remitting multiple sclerosis,NCI,C165675
+DOID:2378,relapsing-remitting multiple sclerosis,SNOMEDCT_US_2025_09_01,426373005
+DOID:2378,relapsing-remitting multiple sclerosis,UMLS_CUI,C0751967
+DOID:2529,splenic disease,ICD10CM,D73
+DOID:2529,splenic disease,ICD9CM,289.5
+DOID:2529,splenic disease,MESH,D013158
+DOID:2529,splenic disease,NCI,C35823
+DOID:2529,splenic disease,SNOMEDCT_US_2025_09_01,51244008
+DOID:2529,splenic disease,UMLS_CUI,C0037997
+DOID:2530,splenic abscess,ICD10CM,D73.3
+DOID:2530,splenic abscess,NCI,C35347
+DOID:2530,splenic abscess,SNOMEDCT_US_2025_09_01,82053000
+DOID:2530,splenic abscess,UMLS_CUI,C0272412
+DOID:2533,splenic infarction,GARD,9973
+DOID:2533,splenic infarction,ICD10CM,D73.5
+DOID:2533,splenic infarction,MESH,D013159
+DOID:2533,splenic infarction,SNOMEDCT_US_2025_09_01,22996003
+DOID:2533,splenic infarction,UMLS_CUI,C0037998
+DOID:2556,relapsing polychondritis,GARD,7417
+DOID:2556,relapsing polychondritis,ICD10CM,M94.1
+DOID:2556,relapsing polychondritis,MESH,D011081
+DOID:2556,relapsing polychondritis,NCI,C157268
+DOID:2556,relapsing polychondritis,SNOMEDCT_US_2025_09_01,72275000
+DOID:2556,relapsing polychondritis,UMLS_CUI,C0032453
+DOID:256,hemangioma of spleen,NCI,C8541
+DOID:256,hemangioma of spleen,SNOMEDCT_US_2025_09_01,93472004
+DOID:256,hemangioma of spleen,UMLS_CUI,C0685201
+DOID:2570,malignant histiocytic disease,MESH,D015620
+DOID:2570,malignant histiocytic disease,SNOMEDCT_US_2025_09_01,127070008
+DOID:2570,malignant histiocytic disease,UMLS_CUI,C0019613
+DOID:2571,Langerhans-cell histiocytosis,ICD10CM,C96.0
+DOID:2571,Langerhans-cell histiocytosis,ICD10CM,C96.6
+DOID:2571,Langerhans-cell histiocytosis,ICD9CM,202.5
+DOID:2571,Langerhans-cell histiocytosis,ICDO,Jan-51
+DOID:2571,Langerhans-cell histiocytosis,MESH,D006646
+DOID:2571,Langerhans-cell histiocytosis,MIM,246400
+DOID:2571,Langerhans-cell histiocytosis,MIM,604856
+DOID:2571,Langerhans-cell histiocytosis,NCI,C3107
+DOID:2571,Langerhans-cell histiocytosis,NCI,C3160
+DOID:2571,Langerhans-cell histiocytosis,SNOMEDCT_US_2025_09_01,154583006
+DOID:2571,Langerhans-cell histiocytosis,SNOMEDCT_US_2025_09_01,234439008
+DOID:2571,Langerhans-cell histiocytosis,UMLS_CUI,C0019621
+DOID:2571,Langerhans-cell histiocytosis,UMLS_CUI,C0023381
+DOID:2583,agammaglobulinemia,ICD10CM,D80.1
+DOID:2583,agammaglobulinemia,ICD9CM,279
+DOID:2583,agammaglobulinemia,MESH,D000361
+DOID:2583,agammaglobulinemia,MIM,PS601495
+DOID:2583,agammaglobulinemia,NCI,C26931
+DOID:2583,agammaglobulinemia,SNOMEDCT_US_2025_09_01,119250001
+DOID:2583,agammaglobulinemia,SNOMEDCT_US_2025_09_01,267512002
+DOID:2583,agammaglobulinemia,UMLS_CUI,C0001768
+DOID:2583,agammaglobulinemia,UMLS_CUI,C0086438
+DOID:265,spleen angiosarcoma,NCI,C4564
+DOID:265,spleen angiosarcoma,SNOMEDCT_US_2025_09_01,187821001
+DOID:265,spleen angiosarcoma,UMLS_CUI,C0346424
+DOID:2689,lymphangiosarcoma,ICDO,Mar-70
+DOID:2689,lymphangiosarcoma,MESH,C537491
+DOID:2689,lymphangiosarcoma,MESH,D008204
+DOID:2689,lymphangiosarcoma,NCI,C3205
+DOID:2689,lymphangiosarcoma,NCI,C4490
+DOID:2689,lymphangiosarcoma,SNOMEDCT_US_2025_09_01,403986008
+DOID:2689,lymphangiosarcoma,SNOMEDCT_US_2025_09_01,62497000
+DOID:2689,lymphangiosarcoma,UMLS_CUI,C0024224
+DOID:2689,lymphangiosarcoma,UMLS_CUI,C0346082
+DOID:2708,mushroom workers' lung,MESH,D005203
+DOID:2708,mushroom workers' lung,ICD10CM,J67.5
+DOID:2708,mushroom workers' lung,ICD9CM,495.5
+DOID:2708,mushroom workers' lung,NCI,C197937
+DOID:2708,mushroom workers' lung,SNOMEDCT_US_2025_09_01,52333004
+DOID:2708,mushroom workers' lung,UMLS_CUI,C0155889
+DOID:2710,sick building syndrome,MESH,D018877
+DOID:2710,sick building syndrome,SNOMEDCT_US_2025_09_01,19076009
+DOID:2710,sick building syndrome,UMLS_CUI,C0037050
+DOID:285,hairy cell leukemia,GARD,6560
+DOID:285,hairy cell leukemia,ICD10CM,C91.4
+DOID:285,hairy cell leukemia,ICD9CM,202.4
+DOID:285,hairy cell leukemia,ICDO,Mar-40
+DOID:285,hairy cell leukemia,MESH,D007943
+DOID:285,hairy cell leukemia,NCI,C7402
+DOID:285,hairy cell leukemia,SNOMEDCT_US_2025_09_01,118613001
+DOID:285,hairy cell leukemia,UMLS_CUI,C0023443
+DOID:2916,hypersensitivity reaction type IV disease,ICD10CM,C88.90
+DOID:2916,hypersensitivity reaction type IV disease,MESH,D007160
+DOID:2916,hypersensitivity reaction type IV disease,SNOMEDCT_US_2025_09_01,127071007
+DOID:2916,hypersensitivity reaction type IV disease,UMLS_CUI,C0021070
+DOID:2917,cryoglobulinemia,GARD,6217
+DOID:2917,cryoglobulinemia,ICD10CM,D89.1
+DOID:2917,cryoglobulinemia,MESH,D003449
+DOID:2917,cryoglobulinemia,NCI,C26736
+DOID:2917,cryoglobulinemia,SNOMEDCT_US_2025_09_01,30911005
+DOID:2917,cryoglobulinemia,UMLS_CUI,C0010403
+DOID:2959,hyperimmunoglobulin syndrome,NCI,C27579
+DOID:2959,hyperimmunoglobulin syndrome,UMLS_CUI,C1334069
+DOID:2987,familial Mediterranean fever,ICD10CM,M04.1
+DOID:2987,familial Mediterranean fever,GARD,6421
+DOID:2987,familial Mediterranean fever,ICD9CM,277.31
+DOID:2987,familial Mediterranean fever,MESH,D010505
+DOID:2987,familial Mediterranean fever,MIM,134610
+DOID:2987,familial Mediterranean fever,MIM,249100
+DOID:2987,familial Mediterranean fever,NCI,C84707
+DOID:2987,familial Mediterranean fever,ORDO,342
+DOID:2987,familial Mediterranean fever,SNOMEDCT_US_2025_09_01,12579009
+DOID:2987,familial Mediterranean fever,UMLS_CUI,C0031069
+DOID:2988,antiphospholipid syndrome,GARD,5824
+DOID:2988,antiphospholipid syndrome,ICD10CM,D68.61
+DOID:2988,antiphospholipid syndrome,MESH,D016736
+DOID:2988,antiphospholipid syndrome,MIM,107320
+DOID:2988,antiphospholipid syndrome,NCI,C61283
+DOID:2988,antiphospholipid syndrome,SNOMEDCT_US_2025_09_01,201450008
+DOID:2988,antiphospholipid syndrome,UMLS_CUI,C0085278
+DOID:3042,allergic contact dermatitis,ICD10CM,L23
+DOID:3042,allergic contact dermatitis,MESH,D017449
+DOID:3042,allergic contact dermatitis,NCI,C26998
+DOID:3042,allergic contact dermatitis,SNOMEDCT_US_2025_09_01,200841005
+DOID:3042,allergic contact dermatitis,UMLS_CUI,C0162820
+DOID:3044,food allergy,MESH,D005512
+DOID:3044,food allergy,NCI,C172304
+DOID:3044,food allergy,SNOMEDCT_US_2025_09_01,213018006
+DOID:3044,food allergy,UMLS_CUI,C0016470
+DOID:3234,central nervous system lymphoma,ICD10CM,C83.390
+DOID:3234,central nervous system lymphoma,ICD9CM,200.5
+DOID:3234,central nervous system lymphoma,NCI,C9301
+DOID:3234,central nervous system lymphoma,SNOMEDCT_US_2025_09_01,307649006
+DOID:3234,central nervous system lymphoma,UMLS_CUI,C0280803
+DOID:3261,autosomal dominant hyper-IgE syndrome 1 with recurrent infections,GARD,6800
+DOID:3261,autosomal dominant hyper-IgE syndrome 1 with recurrent infections,MESH,D007589
+DOID:3261,autosomal dominant hyper-IgE syndrome 1 with recurrent infections,MIM,147060
+DOID:3261,autosomal dominant hyper-IgE syndrome 1 with recurrent infections,NCI,C126342
+DOID:3261,autosomal dominant hyper-IgE syndrome 1 with recurrent infections,ORDO,2314
+DOID:3261,autosomal dominant hyper-IgE syndrome 1 with recurrent infections,SNOMEDCT_US_2025_09_01,50926003
+DOID:3261,autosomal dominant hyper-IgE syndrome 1 with recurrent infections,UMLS_CUI,C2936739
+DOID:3262,phagocyte bactericidal dysfunction,MESH,D010585
+DOID:3262,phagocyte bactericidal dysfunction,UMLS_CUI,C0031306
+DOID:3265,chronic granulomatous disease,GARD,6100
+DOID:3265,chronic granulomatous disease,ICD10CM,D71.8
+DOID:3265,chronic granulomatous disease,MESH,D006105
+DOID:3265,chronic granulomatous disease,MIM,PS306400
+DOID:3265,chronic granulomatous disease,NCI,C26788
+DOID:3265,chronic granulomatous disease,ORDO,379
+DOID:3265,chronic granulomatous disease,SNOMEDCT_US_2025_09_01,11210002
+DOID:3265,chronic granulomatous disease,UMLS_CUI,C0018203
+DOID:3275,thymoma,ICDO,Mar-80
+DOID:3275,thymoma,MESH,D013945
+DOID:3275,thymoma,NCI,C3411
+DOID:3275,thymoma,SNOMEDCT_US_2025_09_01,444231005
+DOID:3275,thymoma,UMLS_CUI,C0040100
+DOID:3277,thymus cancer,ICD10CM,C37
+DOID:3277,thymus cancer,ICD9CM,164
+DOID:3277,thymus cancer,MESH,D013953
+DOID:3277,thymus cancer,NCI,C4962
+DOID:3277,thymus cancer,SNOMEDCT_US_2025_09_01,94096009
+DOID:3277,thymus cancer,UMLS_CUI,C0751552
+DOID:3278,encapsulated thymoma,NCI,C7386
+DOID:3278,encapsulated thymoma,UMLS_CUI,C1333383
+DOID:3279,spindle cell thymoma,NCI,C6454
+DOID:3279,spindle cell thymoma,SNOMEDCT_US_2025_09_01,1144928005
+DOID:3279,spindle cell thymoma,UMLS_CUI,C1266091
+DOID:3280,mixed type thymoma,NCI,C6885
+DOID:3280,mixed type thymoma,SNOMEDCT_US_2025_09_01,1144922006
+DOID:3280,mixed type thymoma,UMLS_CUI,C1266092
+DOID:3282,thymoma type B,NCI,C7114
+DOID:3282,thymoma type B,ORDO,263317
+DOID:3282,thymoma type B,SNOMEDCT_US_2025_09_01,1144924007
+DOID:3282,thymoma type B,UMLS_CUI,C1328042
+DOID:3283,invasive malignant thymoma,NCI,C6453
+DOID:3283,invasive malignant thymoma,UMLS_CUI,C0278846
+DOID:3284,thymic carcinoma,MESH,D013945
+DOID:3284,thymic carcinoma,ICDO,Mar-86
+DOID:3284,thymic carcinoma,NCI,C7569
+DOID:3284,thymic carcinoma,SNOMEDCT_US_2025_09_01,128717008
+DOID:3284,thymic carcinoma,UMLS_CUI,C0205969
+DOID:3310,atopic dermatitis,EFO,274
+DOID:3310,atopic dermatitis,ICD10CM,L20
+DOID:3310,atopic dermatitis,MESH,D003876
+DOID:3310,atopic dermatitis,MIM,603165
+DOID:3310,atopic dermatitis,MIM,PS603165
+DOID:3310,atopic dermatitis,NCI,C211594
+DOID:3310,atopic dermatitis,SNOMEDCT_US_2025_09_01,156331003
+DOID:3310,atopic dermatitis,UMLS_CUI,C0011615
+DOID:3405,histiocytosis,MESH,D015614
+DOID:3405,histiocytosis,NCI,C3106
+DOID:3405,histiocytosis,SNOMEDCT_US_2025_09_01,60657004
+DOID:3405,histiocytosis,UMLS_CUI,C0019618
+DOID:3492,mixed connective tissue disease,GARD,7051
+DOID:3492,mixed connective tissue disease,ICD10CM,M35.1
+DOID:3492,mixed connective tissue disease,MESH,D008947
+DOID:3492,mixed connective tissue disease,NCI,C84892
+DOID:3492,mixed connective tissue disease,SNOMEDCT_US_2025_09_01,33110008
+DOID:3492,mixed connective tissue disease,UMLS_CUI,C0026272
+DOID:3660,wheat allergy,MESH,D021182
+DOID:3660,wheat allergy,SNOMEDCT_US_2025_09_01,420174000
+DOID:3660,wheat allergy,UMLS_CUI,C0949570
+DOID:3720,extramedullary plasmacytoma,ICD10CM,C90.2
+DOID:3720,extramedullary plasmacytoma,NCI,C4002
+DOID:3720,extramedullary plasmacytoma,SNOMEDCT_US_2025_09_01,128921005
+DOID:3720,extramedullary plasmacytoma,UMLS_CUI,C0278619
+DOID:3721,plasmacytoma,ICD10CM,C90.3
+DOID:3721,plasmacytoma,ICDO,Mar-31
+DOID:3721,plasmacytoma,MESH,D010954
+DOID:3721,plasmacytoma,NCI,C9349
+DOID:3721,plasmacytoma,SNOMEDCT_US_2025_09_01,302852008
+DOID:3721,plasmacytoma,UMLS_CUI,C0032131
+DOID:3722,solitary osseous plasmacytoma,NCI,C7812
+DOID:3722,solitary osseous plasmacytoma,SNOMEDCT_US_2025_09_01,42215000
+DOID:3722,solitary osseous plasmacytoma,UMLS_CUI,C0272256
+DOID:3723,solitary plasmacytoma of chest wall,NCI,C6711
+DOID:3723,solitary plasmacytoma of chest wall,UMLS_CUI,C1332936
+DOID:3728,acute allergic sanguinous otitis media,ICD9CM,381.06
+DOID:3728,acute allergic sanguinous otitis media,SNOMEDCT_US_2025_09_01,17866004
+DOID:3728,acute allergic sanguinous otitis media,UMLS_CUI,C0155420
+DOID:3818,photoallergic dermatitis,MESH,D017454
+DOID:3818,photoallergic dermatitis,SNOMEDCT_US_2025_09_01,111209006
+DOID:3818,photoallergic dermatitis,UMLS_CUI,C0162824
+DOID:3819,toxicodendron dermatitis,MESH,D011040
+DOID:3819,toxicodendron dermatitis,SNOMEDCT_US_2025_09_01,410049000
+DOID:3819,toxicodendron dermatitis,UMLS_CUI,C0032342
+DOID:417,autoimmune disease,ICD9CM,720
+DOID:417,autoimmune disease,MIM,109100
+DOID:417,autoimmune disease,UMLS_CUI,C0003089
+DOID:4294,adenoid basal cell carcinoma,NCI,C27535
+DOID:4313,epidermolysis bullosa acquisita,ICD10CM,L12.3
+DOID:4313,epidermolysis bullosa acquisita,MESH,D016107
+DOID:4313,epidermolysis bullosa acquisita,NCI,C84690
+DOID:4313,epidermolysis bullosa acquisita,SNOMEDCT_US_2025_09_01,2772003
+DOID:4313,epidermolysis bullosa acquisita,UMLS_CUI,C0079293
+DOID:4329,Erdheim-Chester disease,ICDO,Mar-49
+DOID:4329,Erdheim-Chester disease,GARD,6369
+DOID:4329,Erdheim-Chester disease,MESH,D031249
+DOID:4329,Erdheim-Chester disease,NCI,C53972
+DOID:4329,Erdheim-Chester disease,SNOMEDCT_US_2025_09_01,699537002
+DOID:4329,Erdheim-Chester disease,UMLS_CUI,C0878675
+DOID:4330,non-Langerhans-cell histiocytosis,GARD,8231
+DOID:4330,non-Langerhans-cell histiocytosis,MESH,D015616
+DOID:4330,non-Langerhans-cell histiocytosis,SNOMEDCT_US_2025_09_01,127069007
+DOID:4330,non-Langerhans-cell histiocytosis,UMLS_CUI,C0019624
+DOID:4334,splenic manifestation of prolymphocytic leukemia,NCI,C7297
+DOID:4334,splenic manifestation of prolymphocytic leukemia,UMLS_CUI,C1336066
+DOID:4347,lymphocele,MESH,D008210
+DOID:4347,lymphocele,NCI,C78442
+DOID:4347,lymphocele,SNOMEDCT_US_2025_09_01,234109007
+DOID:4347,lymphocele,UMLS_CUI,C0024248
+DOID:437,myasthenia gravis,GARD,7122
+DOID:437,myasthenia gravis,ICD10CM,G70.0
+DOID:437,myasthenia gravis,ICD10CM,G70.00
+DOID:437,myasthenia gravis,ICD9CM,358
+DOID:437,myasthenia gravis,ICD9CM,358
+DOID:437,myasthenia gravis,MESH,D009157
+DOID:437,myasthenia gravis,MIM,254200
+DOID:437,myasthenia gravis,NCI,C60989
+DOID:437,myasthenia gravis,SNOMEDCT_US_2025_09_01,155092009
+DOID:437,myasthenia gravis,UMLS_CUI,C0026896
+DOID:437,myasthenia gravis,UMLS_CUI,C1260409
+DOID:4371,Schnitzler syndrome,GARD,12390
+DOID:4371,Schnitzler syndrome,MESH,D019873
+DOID:4371,Schnitzler syndrome,SNOMEDCT_US_2025_09_01,402415001
+DOID:4371,Schnitzler syndrome,UMLS_CUI,C0524988
+DOID:4376,milk allergy,MESH,D016269
+DOID:4376,milk allergy,UMLS_CUI,C0079840
+DOID:4377,egg allergy,MESH,D021181
+DOID:4377,egg allergy,NCI,C172313
+DOID:4377,egg allergy,SNOMEDCT_US_2025_09_01,213019003
+DOID:4377,egg allergy,UMLS_CUI,C0559469
+DOID:4378,peanut allergy,MESH,D021183
+DOID:4378,peanut allergy,SNOMEDCT_US_2025_09_01,91935009
+DOID:4378,peanut allergy,UMLS_CUI,C0559470
+DOID:4379,nut allergy,MESH,D021184
+DOID:4379,nut allergy,NCI,C175521
+DOID:4379,nut allergy,SNOMEDCT_US_2025_09_01,395654004
+DOID:4379,nut allergy,UMLS_CUI,C0577620
+DOID:438,autoimmune disease of the nervous system,MESH,D020274
+DOID:438,autoimmune disease of the nervous system,NCI,C99383
+DOID:438,autoimmune disease of the nervous system,UMLS_CUI,C0751871
+DOID:4394,reticulohistiocytic granuloma,MESH,D015616
+DOID:4394,reticulohistiocytic granuloma,GARD,12967
+DOID:4394,reticulohistiocytic granuloma,NCI,C3356
+DOID:4394,reticulohistiocytic granuloma,SNOMEDCT_US_2025_09_01,15960008
+DOID:4394,reticulohistiocytic granuloma,UMLS_CUI,C0035290
+DOID:4424,juvenile xanthogranuloma,ICDO,Jan-49
+DOID:4424,juvenile xanthogranuloma,MESH,D014972
+DOID:4424,juvenile xanthogranuloma,NCI,C3451
+DOID:4424,juvenile xanthogranuloma,SNOMEDCT_US_2025_09_01,71709009
+DOID:4424,juvenile xanthogranuloma,UMLS_CUI,C0043324
+DOID:4481,allergic rhinitis,EFO,3956
+DOID:4481,allergic rhinitis,MIM,607154
+DOID:4481,allergic rhinitis,NCI,C34987
+DOID:4481,allergic rhinitis,SNOMEDCT_US_2025_09_01,38103000
+DOID:4481,allergic rhinitis,UMLS_CUI,C0002103
+DOID:4553,thymus large cell carcinoma,NCI,C6461
+DOID:4553,thymus large cell carcinoma,UMLS_CUI,C1334364
+DOID:4554,type C thymoma,NCI,C7612
+DOID:4554,type C thymoma,SNOMEDCT_US_2025_09_01,15949004
+DOID:4554,type C thymoma,UMLS_CUI,C1322286
+DOID:4636,submandibular adenitis,NCI,C27016
+DOID:4636,submandibular adenitis,SNOMEDCT_US_2025_09_01,15170009
+DOID:4636,submandibular adenitis,UMLS_CUI,C0235591
+DOID:4637,cervical adenitis,NCI,C26937
+DOID:4637,cervical adenitis,SNOMEDCT_US_2025_09_01,3502005
+DOID:4637,cervical adenitis,UMLS_CUI,C0149642
+DOID:4638,postauricular lymphadenitis,NCI,C27332
+DOID:4638,postauricular lymphadenitis,UMLS_CUI,C0919638
+DOID:4639,suppurative lymphadenitis,NCI,C27135
+DOID:4639,suppurative lymphadenitis,SNOMEDCT_US_2025_09_01,48573006
+DOID:4639,suppurative lymphadenitis,UMLS_CUI,C0392051
+DOID:4640,axillary adenitis,NCI,C27333
+DOID:4640,axillary adenitis,UMLS_CUI,C0919797
+DOID:4678,thymus mucoepidermoid carcinoma,NCI,C6457
+DOID:4678,thymus mucoepidermoid carcinoma,UMLS_CUI,C1334814
+DOID:4780,anti-basement membrane glomerulonephritis,NCI,C35798
+DOID:4780,anti-basement membrane glomerulonephritis,UMLS_CUI,C1332309
+DOID:4889,lymph node tuberculosis,ICD10CM,A18.2
+DOID:4889,lymph node tuberculosis,MESH,D014388
+DOID:4889,lymph node tuberculosis,MESH,D018601
+DOID:4889,lymph node tuberculosis,NCI,C26896
+DOID:4889,lymph node tuberculosis,SNOMEDCT_US_2025_09_01,10893003
+DOID:4889,lymph node tuberculosis,UMLS_CUI,C0041316
+DOID:4889,lymph node tuberculosis,UMLS_CUI,C0242830
+DOID:4923,thymus adenocarcinoma,NCI,C6459
+DOID:4923,thymus adenocarcinoma,UMLS_CUI,C1336743
+DOID:4976,elephantiasis,MESH,D004604
+DOID:4976,elephantiasis,NCI,C34569
+DOID:4976,elephantiasis,SNOMEDCT_US_2025_09_01,155485008
+DOID:4976,elephantiasis,UMLS_CUI,C0013882
+DOID:4977,lymphedema,MESH,D008209
+DOID:4977,lymphedema,NCI,C3207
+DOID:4977,lymphedema,SNOMEDCT_US_2025_09_01,266334008
+DOID:4977,lymphedema,UMLS_CUI,C0024236
+DOID:5213,chronic inflammatory demyelinating polyradiculoneuropathy,ICD10CM,G61.81
+DOID:5213,chronic inflammatory demyelinating polyradiculoneuropathy,ICD9CM,357.81
+DOID:5213,chronic inflammatory demyelinating polyradiculoneuropathy,MESH,D020277
+DOID:5213,chronic inflammatory demyelinating polyradiculoneuropathy,NCI,C84636
+DOID:5213,chronic inflammatory demyelinating polyradiculoneuropathy,SNOMEDCT_US_2025_09_01,128209004
+DOID:5213,chronic inflammatory demyelinating polyradiculoneuropathy,UMLS_CUI,C0393819
+DOID:5213,chronic inflammatory demyelinating polyradiculoneuropathy,GARD,6102
+DOID:533,thymus gland disease,ICD10CM,E32
+DOID:533,thymus gland disease,ICD9CM,254
+DOID:533,thymus gland disease,NCI,C26962
+DOID:533,thymus gland disease,SNOMEDCT_US_2025_09_01,20673009
+DOID:533,thymus gland disease,UMLS_CUI,C0154199
+DOID:5524,adenoid squamous cell carcinoma,NCI,C4200
+DOID:5524,adenoid squamous cell carcinoma,SNOMEDCT_US_2025_09_01,15176003
+DOID:5524,adenoid squamous cell carcinoma,SNOMEDCT_US_2025_09_01,403901001
+DOID:5524,adenoid squamous cell carcinoma,UMLS_CUI,C0334250
+DOID:5524,adenoid squamous cell carcinoma,UMLS_CUI,C0334393
+DOID:5530,thymus squamous cell carcinoma,NCI,C6455
+DOID:5530,thymus squamous cell carcinoma,UMLS_CUI,C1336082
+DOID:5595,papillary thymic adenocarcinoma,NCI,C27937
+DOID:5595,papillary thymic adenocarcinoma,UMLS_CUI,C1335327
+DOID:5602,T-cell adult acute lymphocytic leukemia,NCI,C9142
+DOID:5602,T-cell adult acute lymphocytic leukemia,UMLS_CUI,C0279592
+DOID:5603,T-cell acute lymphoblastic leukemia,ICDO,Mar-29
+DOID:5603,T-cell acute lymphoblastic leukemia,ICDO,Mar-37
+DOID:5603,T-cell acute lymphoblastic leukemia,MESH,D015458
+DOID:5603,T-cell acute lymphoblastic leukemia,UMLS_CUI,C0023492
+DOID:5626,thymus adenosquamous carcinoma,NCI,C6458
+DOID:5626,thymus adenosquamous carcinoma,UMLS_CUI,C1332171
+DOID:5748,rheumatic pulmonary valve disease,ICD10CM,I09.89
+DOID:5748,rheumatic pulmonary valve disease,ICD9CM,397.1
+DOID:5748,rheumatic pulmonary valve disease,SNOMEDCT_US_2025_09_01,18687009
+DOID:5748,rheumatic pulmonary valve disease,UMLS_CUI,C0155579
+DOID:5810,adenosine deaminase deficiency,GARD,5748
+DOID:5810,adenosine deaminase deficiency,ICD10CM,D81.30
+DOID:5810,adenosine deaminase deficiency,MIM,102700
+DOID:5810,adenosine deaminase deficiency,SNOMEDCT_US_2025_09_01,190999009
+DOID:5810,adenosine deaminase deficiency,UMLS_CUI,C0268124
+DOID:5812,MHC class II deficiency,ICD10CM,D81.6
+DOID:5812,MHC class II deficiency,MESH,D016511
+DOID:5812,MHC class II deficiency,MIM,209920
+DOID:5812,MHC class II deficiency,NCI,C3895
+DOID:5812,MHC class II deficiency,SNOMEDCT_US_2025_09_01,71904008
+DOID:5812,MHC class II deficiency,UMLS_CUI,C0242583
+DOID:5813,purine nucleoside phosphorylase deficiency,GARD,4606
+DOID:5813,purine nucleoside phosphorylase deficiency,ICD10CM,D81.5
+DOID:5813,purine nucleoside phosphorylase deficiency,MESH,C562587
+DOID:5813,purine nucleoside phosphorylase deficiency,MIM,613179
+DOID:5813,purine nucleoside phosphorylase deficiency,NCI,C176817
+DOID:5813,purine nucleoside phosphorylase deficiency,ORDO,760
+DOID:5813,purine nucleoside phosphorylase deficiency,SNOMEDCT_US_2025_09_01,60743005
+DOID:5813,purine nucleoside phosphorylase deficiency,UMLS_CUI,C0268125
+DOID:5815,cerebral lymphoma,NCI,C7611
+DOID:5815,cerebral lymphoma,SNOMEDCT_US_2025_09_01,276836002
+DOID:5815,cerebral lymphoma,UMLS_CUI,C0240803
+DOID:5820,composite lymphoma,MESH,D058617
+DOID:5820,composite lymphoma,NCI,C38661
+DOID:5820,composite lymphoma,SNOMEDCT_US_2025_09_01,1156403002
+DOID:5820,composite lymphoma,UMLS_CUI,C0545080
+DOID:5821,methotrexate-associated lymphoproliferation,NCI,C7184
+DOID:5821,methotrexate-associated lymphoproliferation,SNOMEDCT_US_2025_09_01,771073006
+DOID:5821,methotrexate-associated lymphoproliferation,UMLS_CUI,C1334749
+DOID:5822,gray zone lymphoma,GARD,10897
+DOID:5822,gray zone lymphoma,NCI,C37869
+DOID:5822,gray zone lymphoma,SNOMEDCT_US_2025_09_01,722954005
+DOID:5822,gray zone lymphoma,UMLS_CUI,C1333878
+DOID:5823,childhood lymphoma,NCI,C5165
+DOID:5823,childhood lymphoma,UMLS_CUI,C1332979
+DOID:5825,adult lymphoma,NCI,C7587
+DOID:5825,adult lymphoma,UMLS_CUI,C1332206
+DOID:5826,breast lymphoma,SNOMEDCT_US_2025_09_01,278052009
+DOID:5826,breast lymphoma,UMLS_CUI,C0349669
+DOID:6024,selective IgE deficiency disease,NCI,C27143
+DOID:6024,selective IgE deficiency disease,SNOMEDCT_US_2025_09_01,234540007
+DOID:6024,selective IgE deficiency disease,UMLS_CUI,C0398694
+DOID:6025,selective immunoglobulin deficiency disease,NCI,C27870
+DOID:6025,selective immunoglobulin deficiency disease,UMLS_CUI,C1335942
+DOID:612,primary immunodeficiency disease,ICD10CM,D84.9
+DOID:612,primary immunodeficiency disease,ICD9CM,279.3
+DOID:612,primary immunodeficiency disease,KEGG,5340
+DOID:612,primary immunodeficiency disease,MESH,D007153
+DOID:612,primary immunodeficiency disease,MIM,242850
+DOID:612,primary immunodeficiency disease,MIM,PS300755
+DOID:612,primary immunodeficiency disease,NCI,C39725
+DOID:612,primary immunodeficiency disease,SNOMEDCT_US_2025_09_01,191005003
+DOID:612,primary immunodeficiency disease,UMLS_CUI,C0021051
+DOID:6196,reactive arthritis,GARD,5693
+DOID:6196,reactive arthritis,ICD10CM,M02.10
+DOID:6196,reactive arthritis,ICD10CM,M02.3
+DOID:6196,reactive arthritis,ICD9CM,99.3
+DOID:6196,reactive arthritis,ICD9CM,711.3
+DOID:6196,reactive arthritis,MESH,D016918
+DOID:6196,reactive arthritis,NCI,C34975
+DOID:6196,reactive arthritis,SNOMEDCT_US_2025_09_01,201506009
+DOID:6196,reactive arthritis,SNOMEDCT_US_2025_09_01,266212009
+DOID:6196,reactive arthritis,UMLS_CUI,C0035012
+DOID:6196,reactive arthritis,UMLS_CUI,C0152085
+DOID:624,transient hypogammaglobulinemia of infancy,ICD10CM,D80.7
+DOID:624,transient hypogammaglobulinemia of infancy,NCI,C27071
+DOID:624,transient hypogammaglobulinemia of infancy,SNOMEDCT_US_2025_09_01,88714009
+DOID:624,transient hypogammaglobulinemia of infancy,UMLS_CUI,C0272238
+DOID:625,transient hypogammaglobulinemia,NCI,C27319
+DOID:625,transient hypogammaglobulinemia,UMLS_CUI,C0859960
+DOID:626,complement deficiency,ICD10CM,D84.1
+DOID:626,complement deficiency,MESH,D000081208
+DOID:626,complement deficiency,NCI,C4691
+DOID:626,complement deficiency,SNOMEDCT_US_2025_09_01,191014008
+DOID:626,complement deficiency,UMLS_CUI,C0272242
+DOID:627,severe combined immunodeficiency,MESH,D016511
+DOID:627,severe combined immunodeficiency,GARD,7628
+DOID:627,severe combined immunodeficiency,NCI,C3472
+DOID:627,severe combined immunodeficiency,SNOMEDCT_US_2025_09_01,190994004
+DOID:627,severe combined immunodeficiency,UMLS_CUI,C0085110
+DOID:628,combined T cell and B cell immunodeficiency,NCI,C27871
+DOID:628,combined T cell and B cell immunodeficiency,ICD10CM,D81
+DOID:628,combined T cell and B cell immunodeficiency,ICD9CM,279.2
+DOID:628,combined T cell and B cell immunodeficiency,ORDO,101972
+DOID:628,combined T cell and B cell immunodeficiency,SNOMEDCT_US_2025_09_01,442459007
+DOID:628,combined T cell and B cell immunodeficiency,UMLS_CUI,C2711630
+DOID:6307,ectopic thymus,NCI,C27804
+DOID:6307,ectopic thymus,UMLS_CUI,C1333375
+DOID:6354,chronic lymphocytic leukemia/small lymphocytic lymphoma,ICDO,Mar-23
+DOID:6354,chronic lymphocytic leukemia/small lymphocytic lymphoma,NCI,C27911
+DOID:6354,chronic lymphocytic leukemia/small lymphocytic lymphoma,SNOMEDCT_US_2025_09_01,399607007
+DOID:6354,chronic lymphocytic leukemia/small lymphocytic lymphoma,UMLS_CUI,C1302547
+DOID:6376,hypersplenism,ICD10CM,D73.1
+DOID:6376,hypersplenism,ICD9CM,289.4
+DOID:6376,hypersplenism,MESH,D006971
+DOID:6376,hypersplenism,NCI,C34714
+DOID:6376,hypersplenism,SNOMEDCT_US_2025_09_01,154839008
+DOID:6376,hypersplenism,UMLS_CUI,C0020532
+DOID:6530,thymoma type B2,NCI,C6888
+DOID:6530,thymoma type B2,SNOMEDCT_US_2025_09_01,128713007
+DOID:6530,thymoma type B2,UMLS_CUI,C1266095
+DOID:6536,plasma cell neoplasm,EFO,200
+DOID:6536,plasma cell neoplasm,MESH,D010265
+DOID:6536,plasma cell neoplasm,SNOMEDCT_US_2025_09_01,71390001
+DOID:6536,plasma cell neoplasm,UMLS_CUI,C1136084
+DOID:6547,heart lymphoma,NCI,C5368
+DOID:6547,heart lymphoma,UMLS_CUI,C1332850
+DOID:6612,leukocyte adhesion deficiency,GARD,9544
+DOID:6612,leukocyte adhesion deficiency,MESH,D018370
+DOID:6612,leukocyte adhesion deficiency,ORDO,2968
+DOID:6612,leukocyte adhesion deficiency,UMLS_CUI,C0242597
+DOID:6620,X-linked hyper IgM syndrome,MIM,308230
+DOID:6620,X-linked hyper IgM syndrome,GARD,73
+DOID:6620,X-linked hyper IgM syndrome,MESH,D053307
+DOID:6620,X-linked hyper IgM syndrome,NCI,C158531
+DOID:6620,X-linked hyper IgM syndrome,ORDO,101088
+DOID:6620,X-linked hyper IgM syndrome,SNOMEDCT_US_2025_09_01,403835002
+DOID:6620,X-linked hyper IgM syndrome,UMLS_CUI,C0398689
+DOID:6688,autoimmune lymphoproliferative syndrome,GARD,8686
+DOID:6688,autoimmune lymphoproliferative syndrome,ICD10CM,D89.82
+DOID:6688,autoimmune lymphoproliferative syndrome,ICD9CM,279.41
+DOID:6688,autoimmune lymphoproliferative syndrome,MESH,D056735
+DOID:6688,autoimmune lymphoproliferative syndrome,MIM,601859
+DOID:6688,autoimmune lymphoproliferative syndrome,NCI,C37864
+DOID:6688,autoimmune lymphoproliferative syndrome,ORDO,3261
+DOID:6688,autoimmune lymphoproliferative syndrome,SNOMEDCT_US_2025_09_01,702444009
+DOID:6688,autoimmune lymphoproliferative syndrome,UMLS_CUI,C1328840
+DOID:672,spleen cancer,GARD,7683
+DOID:672,spleen cancer,ICD10CM,C26.1
+DOID:672,spleen cancer,MESH,D013160
+DOID:672,spleen cancer,NCI,C3383
+DOID:672,spleen cancer,NCI,C3539
+DOID:672,spleen cancer,SNOMEDCT_US_2025_09_01,127230005
+DOID:672,spleen cancer,SNOMEDCT_US_2025_09_01,94071006
+DOID:672,spleen cancer,UMLS_CUI,C0037999
+DOID:672,spleen cancer,UMLS_CUI,C0153470
+DOID:6723,malignant type AB thymoma,NCI,C6886
+DOID:6723,malignant type AB thymoma,SNOMEDCT_US_2025_09_01,128710005
+DOID:6723,malignant type AB thymoma,UMLS_CUI,C1266093
+DOID:6758,chest wall lymphoma,NCI,C4580
+DOID:6758,chest wall lymphoma,NCI,C6712
+DOID:6758,chest wall lymphoma,SNOMEDCT_US_2025_09_01,93754006
+DOID:6758,chest wall lymphoma,UMLS_CUI,C0346948
+DOID:6758,chest wall lymphoma,UMLS_CUI,C1332933
+DOID:6759,bone lymphoma,NCI,C6620
+DOID:6759,bone lymphoma,SNOMEDCT_US_2025_09_01,766935007
+DOID:6759,bone lymphoma,UMLS_CUI,C1332582
+DOID:676,systemic juvenile rheumatoid arthritis,GARD,3067
+DOID:676,systemic juvenile rheumatoid arthritis,ICD10CM,M08.4
+DOID:676,systemic juvenile rheumatoid arthritis,ICD9CM,714.3
+DOID:676,systemic juvenile rheumatoid arthritis,ICD9CM,714.31
+DOID:676,systemic juvenile rheumatoid arthritis,ICD9CM,714.32
+DOID:676,systemic juvenile rheumatoid arthritis,ICD9CM,714.33
+DOID:676,systemic juvenile rheumatoid arthritis,MIM,604302
+DOID:676,systemic juvenile rheumatoid arthritis,NCI,C26979
+DOID:676,systemic juvenile rheumatoid arthritis,NCI,C61279
+DOID:676,systemic juvenile rheumatoid arthritis,ORDO,92
+DOID:676,systemic juvenile rheumatoid arthritis,SNOMEDCT_US_2025_09_01,201798003
+DOID:676,systemic juvenile rheumatoid arthritis,SNOMEDCT_US_2025_09_01,74391003
+DOID:676,systemic juvenile rheumatoid arthritis,SNOMEDCT_US_2025_09_01,7441009
+DOID:676,systemic juvenile rheumatoid arthritis,SNOMEDCT_US_2025_09_01,83793004
+DOID:676,systemic juvenile rheumatoid arthritis,UMLS_CUI,C0157916
+DOID:676,systemic juvenile rheumatoid arthritis,UMLS_CUI,C0157917
+DOID:676,systemic juvenile rheumatoid arthritis,UMLS_CUI,C0157918
+DOID:676,systemic juvenile rheumatoid arthritis,UMLS_CUI,C0409667
+DOID:6760,lung lymphoma,UMLS_CUI,C0519063
+DOID:6762,sternum lymphoma,NCI,C6716
+DOID:6762,sternum lymphoma,UMLS_CUI,C1336504
+DOID:6867,mediastinal gray zone lymphoma,NCI,C37870
+DOID:6867,mediastinal gray zone lymphoma,UMLS_CUI,C1334657
+DOID:6868,mediastinal malignant lymphoma,NCI,C6633
+DOID:6868,mediastinal malignant lymphoma,UMLS_CUI,C1334665
+DOID:6903,eye lymphoma,NCI,C35690
+DOID:6903,eye lymphoma,SNOMEDCT_US_2025_09_01,312939009
+DOID:6903,eye lymphoma,UMLS_CUI,C0730306
+DOID:6917,predominantly cortical thymoma,NCI,C6887
+DOID:6917,predominantly cortical thymoma,SNOMEDCT_US_2025_09_01,128711009
+DOID:6917,predominantly cortical thymoma,UMLS_CUI,C1266094
+DOID:7050,thymus basaloid carcinoma,NCI,C6456
+DOID:7050,thymus basaloid carcinoma,UMLS_CUI,C1332464
+DOID:706,mature B-cell neoplasm,EFO,96
+DOID:706,mature B-cell neoplasm,NCI,C27910
+DOID:706,mature B-cell neoplasm,UMLS_CUI,C1334633
+DOID:707,B-cell lymphoma,GARD,5877
+DOID:707,B-cell lymphoma,MESH,D016393
+DOID:707,B-cell lymphoma,NCI,C3457
+DOID:707,B-cell lymphoma,SNOMEDCT_US_2025_09_01,109979007
+DOID:707,B-cell lymphoma,UMLS_CUI,C0079731
+DOID:709,splenic manifestation of hairy cell leukemia,ICD9CM,202.47
+DOID:709,splenic manifestation of hairy cell leukemia,NCI,C7301
+DOID:709,splenic manifestation of hairy cell leukemia,SNOMEDCT_US_2025_09_01,93151007
+DOID:709,splenic manifestation of hairy cell leukemia,UMLS_CUI,C0153832
+DOID:709,splenic manifestation of hairy cell leukemia,UMLS_CUI,C1336064
+DOID:710,splenic manifestation of leukemia,NCI,C7296
+DOID:710,splenic manifestation of leukemia,UMLS_CUI,C1336065
+DOID:711,refractory hairy cell leukemia,ICD10CM,C91.42
+DOID:711,refractory hairy cell leukemia,NCI,C142882
+DOID:711,refractory hairy cell leukemia,UMLS_CUI,C0279780
+DOID:713,HCL-V,NCI,C7401
+DOID:713,HCL-V,SNOMEDCT_US_2025_09_01,54087003
+DOID:713,HCL-V,UMLS_CUI,C0349633
+DOID:7142,thymus small cell carcinoma,NCI,C6460
+DOID:7142,thymus small cell carcinoma,UMLS_CUI,C1335980
+DOID:7147,ankylosing spondylitis,EFO,3898
+DOID:7147,ankylosing spondylitis,GARD,9518
+DOID:7147,ankylosing spondylitis,ICD10CM,M45
+DOID:7147,ankylosing spondylitis,ICD9CM,720
+DOID:7147,ankylosing spondylitis,MESH,D013167
+DOID:7147,ankylosing spondylitis,MIM,PS106300
+DOID:7147,ankylosing spondylitis,NCI,C84564
+DOID:7147,ankylosing spondylitis,ORDO,825
+DOID:7147,ankylosing spondylitis,SNOMEDCT_US_2025_09_01,156619005
+DOID:7147,ankylosing spondylitis,UMLS_CUI,C0038013
+DOID:7148,rheumatoid arthritis,EFO,685
+DOID:7148,rheumatoid arthritis,ICD10CM,M06.9
+DOID:7148,rheumatoid arthritis,ICD9CM,714
+DOID:7148,rheumatoid arthritis,KEGG,5323
+DOID:7148,rheumatoid arthritis,MESH,D001172
+DOID:7148,rheumatoid arthritis,MIM,180300
+DOID:7148,rheumatoid arthritis,NCI,C2884
+DOID:7148,rheumatoid arthritis,SNOMEDCT_US_2025_09_01,156471009
+DOID:7148,rheumatoid arthritis,UMLS_CUI,C0003873
+DOID:718,autoimmune hemolytic anemia,GARD,5870
+DOID:718,autoimmune hemolytic anemia,ICD9CM,283
+DOID:718,autoimmune hemolytic anemia,MESH,D000744
+DOID:718,autoimmune hemolytic anemia,MIM,205700
+DOID:718,autoimmune hemolytic anemia,NCI,C34378
+DOID:718,autoimmune hemolytic anemia,SNOMEDCT_US_2025_09_01,25121006
+DOID:718,autoimmune hemolytic anemia,UMLS_CUI,C0002880
+DOID:7188,autoimmune thyroiditis,ICD10CM,E06.3
+DOID:7188,autoimmune thyroiditis,MESH,D013967
+DOID:7188,autoimmune thyroiditis,NCI,C38766
+DOID:7188,autoimmune thyroiditis,SNOMEDCT_US_2025_09_01,190297000
+DOID:7188,autoimmune thyroiditis,UMLS_CUI,C0920350
+DOID:7214,noninvasive malignant thymoma,NCI,C9080
+DOID:7214,noninvasive malignant thymoma,UMLS_CUI,C0278847
+DOID:7230,postgerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma,NCI,C37201
+DOID:7230,postgerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma,UMLS_CUI,C1333037
+DOID:7263,selective IgD deficiency disease,NCI,C27144
+DOID:7263,selective IgD deficiency disease,SNOMEDCT_US_2025_09_01,234541006
+DOID:7263,selective IgD deficiency disease,UMLS_CUI,C0398695
+DOID:7350,thymic dysplasia,NCI,C27802
+DOID:7350,thymic dysplasia,UMLS_CUI,C1331541
+DOID:7465,chronic NK-cell lymphocytosis,NCI,C39591
+DOID:7465,chronic NK-cell lymphocytosis,SNOMEDCT_US_2025_09_01,722955006
+DOID:7465,chronic NK-cell lymphocytosis,UMLS_CUI,C1512709
+DOID:75,lymphatic system disease,MESH,D008206
+DOID:75,lymphatic system disease,SNOMEDCT_US_2025_09_01,266326002
+DOID:75,lymphatic system disease,UMLS_CUI,C0024228
+DOID:7599,lymphoepithelioma-like thymic carcinoma,NCI,C7998
+DOID:7599,lymphoepithelioma-like thymic carcinoma,UMLS_CUI,C0279706
+DOID:774,retina lymphoma,NCI,C4365
+DOID:774,retina lymphoma,SNOMEDCT_US_2025_09_01,232075002
+DOID:774,retina lymphoma,UMLS_CUI,C0339556
+DOID:775,intraocular lymphoma,MESH,D064090
+DOID:775,intraocular lymphoma,NCI,C9184
+DOID:775,intraocular lymphoma,UMLS_CUI,C0281658
+DOID:7875,adult xanthogranuloma,NCI,C27514
+DOID:7875,adult xanthogranuloma,UMLS_CUI,C1332220
+DOID:7926,epithelial malignant thymoma,NCI,C7997
+DOID:7926,epithelial malignant thymoma,SNOMEDCT_US_2025_09_01,128716004
+DOID:7926,epithelial malignant thymoma,UMLS_CUI,C0279705
+DOID:7927,malignant type A thymoma,NCI,C7999
+DOID:7927,malignant type A thymoma,SNOMEDCT_US_2025_09_01,128708008
+DOID:7927,malignant type A thymoma,UMLS_CUI,C0279707
+DOID:8135,gallbladder lymphoma,NCI,C5734
+DOID:8135,gallbladder lymphoma,UMLS_CUI,C1333748
+DOID:8137,thymus clear cell carcinoma,NCI,C6462
+DOID:8137,thymus clear cell carcinoma,UMLS_CUI,C1333069
+DOID:8138,thymus sarcomatoid carcinoma,NCI,C6463
+DOID:8138,thymus sarcomatoid carcinoma,UMLS_CUI,C1335924
+DOID:8144,pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma,NCI,C37204
+DOID:8144,pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma,UMLS_CUI,C1333038
+DOID:8158,complement component 5 deficiency,ORDO,169150
+DOID:8158,complement component 5 deficiency,MESH,C537005
+DOID:8158,complement component 5 deficiency,MIM,609536
+DOID:8158,complement component 5 deficiency,NCI,C9469
+DOID:8304,lymph node palisaded myofibroblastoma,NCI,C6584
+DOID:8304,lymph node palisaded myofibroblastoma,SNOMEDCT_US_2025_09_01,449078000
+DOID:8304,lymph node palisaded myofibroblastoma,UMLS_CUI,C3164851
+DOID:8354,complement component 3 deficiency,MIM,613779
+DOID:8354,complement component 3 deficiency,NCI,C9468
+DOID:8354,complement component 3 deficiency,ORDO,280133
+DOID:8354,complement component 3 deficiency,SNOMEDCT_US_2025_09_01,771443008
+DOID:8354,complement component 3 deficiency,UMLS_CUI,C1332655
+DOID:840,cork-handlers' disease,ICD10CM,J67.3
+DOID:840,cork-handlers' disease,ICD9CM,495.3
+DOID:840,cork-handlers' disease,NCI,C197971
+DOID:840,cork-handlers' disease,SNOMEDCT_US_2025_09_01,13394002
+DOID:840,cork-handlers' disease,UMLS_CUI,C0152108
+DOID:841,extrinsic allergic alveolitis,SNOMEDCT_US_2025_09_01,155581001
+DOID:841,extrinsic allergic alveolitis,GARD,12
+DOID:841,extrinsic allergic alveolitis,ICD10CM,J67.9
+DOID:841,extrinsic allergic alveolitis,ICD9CM,495
+DOID:841,extrinsic allergic alveolitis,MESH,D000542
+DOID:841,extrinsic allergic alveolitis,NCI,C34369
+DOID:841,extrinsic allergic alveolitis,UMLS_CUI,C0002390
+DOID:849,rheumatoid arthritis interstitial lung disease,ICD9CM,714.81
+DOID:8506,bullous pemphigoid,GARD,5972
+DOID:8506,bullous pemphigoid,ICD10CM,L12.0
+DOID:8506,bullous pemphigoid,ICD9CM,694.5
+DOID:8506,bullous pemphigoid,MESH,D010391
+DOID:8506,bullous pemphigoid,NCI,C84389
+DOID:8506,bullous pemphigoid,SNOMEDCT_US_2025_09_01,77090002
+DOID:8506,bullous pemphigoid,UMLS_CUI,C0030805
+DOID:853,polymyalgia rheumatica,ICD10CM,M35.3
+DOID:853,polymyalgia rheumatica,ICD9CM,725
+DOID:853,polymyalgia rheumatica,MESH,D011111
+DOID:853,polymyalgia rheumatica,NCI,C85018
+DOID:853,polymyalgia rheumatica,SNOMEDCT_US_2025_09_01,202834009
+DOID:853,polymyalgia rheumatica,UMLS_CUI,C0032533
+DOID:8538,reticulosarcoma,MESH,D008228
+DOID:8538,reticulosarcoma,ICD9CM,200
+DOID:8538,reticulosarcoma,MIM,267730
+DOID:8538,reticulosarcoma,NCI,C27824
+DOID:8538,reticulosarcoma,SNOMEDCT_US_2025_09_01,154579006
+DOID:8538,reticulosarcoma,UMLS_CUI,C0024302
+DOID:8541,Sezary's disease,GARD,7629
+DOID:8541,Sezary's disease,ICD10CM,C84.1
+DOID:8541,Sezary's disease,ICD9CM,202.2
+DOID:8541,Sezary's disease,MESH,D012751
+DOID:8541,Sezary's disease,NCI,C3366
+DOID:8541,Sezary's disease,SNOMEDCT_US_2025_09_01,4950009
+DOID:8541,Sezary's disease,UMLS_CUI,C0036920
+DOID:8543,"Hodgkin's lymphoma, lymphocytic-histiocytic predominance",ICD10CM,C81.4
+DOID:8543,"Hodgkin's lymphoma, lymphocytic-histiocytic predominance",ICD9CM,201.4
+DOID:8543,"Hodgkin's lymphoma, lymphocytic-histiocytic predominance",MESH,D006689
+DOID:8543,"Hodgkin's lymphoma, lymphocytic-histiocytic predominance",NCI,C6913
+DOID:8543,"Hodgkin's lymphoma, lymphocytic-histiocytic predominance",SNOMEDCT_US_2025_09_01,128799007
+DOID:8543,"Hodgkin's lymphoma, lymphocytic-histiocytic predominance",UMLS_CUI,C1266194
+DOID:8567,Hodgkin's lymphoma,MESH,D006689
+DOID:8567,Hodgkin's lymphoma,EFO,183
+DOID:8567,Hodgkin's lymphoma,GARD,2714
+DOID:8567,Hodgkin's lymphoma,ICD10CM,C81
+DOID:8567,Hodgkin's lymphoma,ICD9CM,201
+DOID:8567,Hodgkin's lymphoma,MIM,236000
+DOID:8567,Hodgkin's lymphoma,MIM,300221
+DOID:8567,Hodgkin's lymphoma,MIM,400021
+DOID:8567,Hodgkin's lymphoma,NCI,C9357
+DOID:8567,Hodgkin's lymphoma,ORDO,98293
+DOID:8567,Hodgkin's lymphoma,SNOMEDCT_US_2025_09_01,118599009
+DOID:8567,Hodgkin's lymphoma,UMLS_CUI,C0019829
+DOID:8577,ulcerative colitis,EFO,729
+DOID:8577,ulcerative colitis,ICD10CM,K51
+DOID:8577,ulcerative colitis,ICD9CM,556
+DOID:8577,ulcerative colitis,ICD9CM,556.5
+DOID:8577,ulcerative colitis,MESH,D003093
+DOID:8577,ulcerative colitis,NCI,C2952
+DOID:8577,ulcerative colitis,SNOMEDCT_US_2025_09_01,196988003
+DOID:8577,ulcerative colitis,SNOMEDCT_US_2025_09_01,441971007
+DOID:8577,ulcerative colitis,UMLS_CUI,C0009324
+DOID:8577,ulcerative colitis,UMLS_CUI,C0375359
+DOID:8584,Burkitt lymphoma,GARD,5973
+DOID:8584,Burkitt lymphoma,ICD10CM,C83.7
+DOID:8584,Burkitt lymphoma,ICD9CM,200.2
+DOID:8584,Burkitt lymphoma,ICDO,Mar-87
+DOID:8584,Burkitt lymphoma,MESH,D002051
+DOID:8584,Burkitt lymphoma,MIM,113970
+DOID:8584,Burkitt lymphoma,NCI,C2912
+DOID:8584,Burkitt lymphoma,ORDO,543
+DOID:8584,Burkitt lymphoma,SNOMEDCT_US_2025_09_01,118617000
+DOID:8584,Burkitt lymphoma,UMLS_CUI,C0006413
+DOID:8628,"Hodgkin's lymphoma, lymphocytic depletion",MESH,D006689
+DOID:8628,"Hodgkin's lymphoma, lymphocytic depletion",ICD10CM,C81.3
+DOID:8628,"Hodgkin's lymphoma, lymphocytic depletion",ICD9CM,201.7
+DOID:8628,"Hodgkin's lymphoma, lymphocytic depletion",NCI,C9283
+DOID:8628,"Hodgkin's lymphoma, lymphocytic depletion",SNOMEDCT_US_2025_09_01,112687003
+DOID:8628,"Hodgkin's lymphoma, lymphocytic depletion",UMLS_CUI,C0152267
+DOID:8642,Hodgkin's paragranuloma,MESH,D006689
+DOID:8642,Hodgkin's paragranuloma,ICD10CM,C81
+DOID:8642,Hodgkin's paragranuloma,ICD9CM,201
+DOID:8642,Hodgkin's paragranuloma,NCI,C9357
+DOID:8642,Hodgkin's paragranuloma,SNOMEDCT_US_2025_09_01,118599009
+DOID:8642,Hodgkin's paragranuloma,UMLS_CUI,C0019829
+DOID:8654,"Hodgkin's lymphoma, mixed cellularity",MESH,D006689
+DOID:8654,"Hodgkin's lymphoma, mixed cellularity",ICD10CM,C81.2
+DOID:8654,"Hodgkin's lymphoma, mixed cellularity",ICD9CM,201.6
+DOID:8654,"Hodgkin's lymphoma, mixed cellularity",NCI,C3517
+DOID:8654,"Hodgkin's lymphoma, mixed cellularity",SNOMEDCT_US_2025_09_01,118609008
+DOID:8654,"Hodgkin's lymphoma, mixed cellularity",UMLS_CUI,C0152266
+DOID:8691,mycosis fungoides,GARD,3863
+DOID:8691,mycosis fungoides,ICD10CM,C84.0
+DOID:8691,mycosis fungoides,ICD9CM,202.1
+DOID:8691,mycosis fungoides,ICDO,Mar-00
+DOID:8691,mycosis fungoides,MESH,D009182
+DOID:8691,mycosis fungoides,MIM,254400
+DOID:8691,mycosis fungoides,NCI,C3246
+DOID:8691,mycosis fungoides,SNOMEDCT_US_2025_09_01,118618005
+DOID:8691,mycosis fungoides,UMLS_CUI,C0026948
+DOID:8838,"Hodgkin's lymphoma, nodular sclerosis",ICD10CM,C81.1
+DOID:8838,"Hodgkin's lymphoma, nodular sclerosis",ICD9CM,201.5
+DOID:8838,"Hodgkin's lymphoma, nodular sclerosis",NCI,C3518
+DOID:8838,"Hodgkin's lymphoma, nodular sclerosis",SNOMEDCT_US_2025_09_01,52248008
+DOID:8838,"Hodgkin's lymphoma, nodular sclerosis",UMLS_CUI,C0152268
+DOID:8857,lupus erythematosus,ICD10CM,L93
+DOID:8857,lupus erythematosus,ICD9CM,695.4
+DOID:8857,lupus erythematosus,NCI,C27153
+DOID:8857,lupus erythematosus,SNOMEDCT_US_2025_09_01,200936003
+DOID:8857,lupus erythematosus,UMLS_CUI,C0409974
+DOID:8858,tonsil cancer,ICD10CM,C09
+DOID:8858,tonsil cancer,ICD9CM,146
+DOID:8858,tonsil cancer,MESH,D014067
+DOID:8858,tonsil cancer,NCI,C7404
+DOID:8858,tonsil cancer,SNOMEDCT_US_2025_09_01,93937006
+DOID:8858,tonsil cancer,UMLS_CUI,C0751560
+DOID:8869,neuromyelitis optica,EFO,4256
+DOID:8869,neuromyelitis optica,GARD,6267
+DOID:8869,neuromyelitis optica,ICD10CM,G36.0
+DOID:8869,neuromyelitis optica,ICD9CM,341
+DOID:8869,neuromyelitis optica,MESH,D009471
+DOID:8869,neuromyelitis optica,NCI,C84934
+DOID:8869,neuromyelitis optica,SNOMEDCT_US_2025_09_01,25044007
+DOID:8869,neuromyelitis optica,UMLS_CUI,C0027873
+DOID:8893,psoriasis,MESH,D011565
+DOID:8893,psoriasis,EFO,676
+DOID:8893,psoriasis,GARD,10262
+DOID:8893,psoriasis,ICD10CM,L40
+DOID:8893,psoriasis,MIM,PS177900
+DOID:8893,psoriasis,NCI,C3346
+DOID:8893,psoriasis,SNOMEDCT_US_2025_09_01,156369008
+DOID:8893,psoriasis,UMLS_CUI,C0033860
+DOID:8924,autoimmune thrombocytopenic purpura,ICD10CM,D69.3
+DOID:8924,autoimmune thrombocytopenic purpura,ICD9CM,287.31
+DOID:8924,autoimmune thrombocytopenic purpura,MESH,D016553
+DOID:8924,autoimmune thrombocytopenic purpura,MIM,188030
+DOID:8924,autoimmune thrombocytopenic purpura,NCI,C3446
+DOID:8924,autoimmune thrombocytopenic purpura,SNOMEDCT_US_2025_09_01,234490009
+DOID:8924,autoimmune thrombocytopenic purpura,UMLS_CUI,C0398650
+DOID:8925,primary thrombocytopenia,ICD10CM,D69.4
+DOID:8925,primary thrombocytopenia,ICD9CM,287.39
+DOID:8925,primary thrombocytopenia,NCI,C195002
+DOID:8925,primary thrombocytopenia,SNOMEDCT_US_2025_09_01,191435001
+DOID:8925,primary thrombocytopenia,UMLS_CUI,C0477317
+DOID:8931,Evans' syndrome,GARD,6389
+DOID:8931,Evans' syndrome,ICD10CM,D69.41
+DOID:8931,Evans' syndrome,ICD9CM,287.32
+DOID:8931,Evans' syndrome,MESH,C536380
+DOID:8931,Evans' syndrome,NCI,C61284
+DOID:8931,Evans' syndrome,SNOMEDCT_US_2025_09_01,75331009
+DOID:8931,Evans' syndrome,UMLS_CUI,C0272126
+DOID:8937,Waldeyer's ring cancer,ICD10CM,C14.2
+DOID:8937,Waldeyer's ring cancer,ICD9CM,149.1
+DOID:8937,Waldeyer's ring cancer,NCI,C194063
+DOID:8937,Waldeyer's ring cancer,SNOMEDCT_US_2025_09_01,94144008
+DOID:8937,Waldeyer's ring cancer,UMLS_CUI,C0153406
+DOID:9008,psoriatic arthritis,EFO,3778
+DOID:9008,psoriatic arthritis,ICD10CM,L40.5
+DOID:9008,psoriatic arthritis,ICD9CM,696
+DOID:9008,psoriatic arthritis,MESH,D015535
+DOID:9008,psoriatic arthritis,NCI,C61277
+DOID:9008,psoriatic arthritis,SNOMEDCT_US_2025_09_01,33339001
+DOID:9008,psoriatic arthritis,UMLS_CUI,C0003872
+DOID:901,liver lymphoma,NCI,C4949
+DOID:901,liver lymphoma,UMLS_CUI,C1112746
+DOID:903,gastrointestinal lymphoma,NCI,C38162
+DOID:903,gastrointestinal lymphoma,SNOMEDCT_US_2025_09_01,449072004
+DOID:903,gastrointestinal lymphoma,UMLS_CUI,C0740372
+DOID:9074,systemic lupus erythematosus,GARD,10253
+DOID:9074,systemic lupus erythematosus,ICD10CM,M32.9
+DOID:9074,systemic lupus erythematosus,ICD9CM,710
+DOID:9074,systemic lupus erythematosus,KEGG,5322
+DOID:9074,systemic lupus erythematosus,MESH,D008180
+DOID:9074,systemic lupus erythematosus,MIM,152700
+DOID:9074,systemic lupus erythematosus,MIM,300809
+DOID:9074,systemic lupus erythematosus,MIM,605480
+DOID:9074,systemic lupus erythematosus,MIM,608437
+DOID:9074,systemic lupus erythematosus,MIM,609903
+DOID:9074,systemic lupus erythematosus,MIM,609939
+DOID:9074,systemic lupus erythematosus,MIM,610065
+DOID:9074,systemic lupus erythematosus,MIM,610066
+DOID:9074,systemic lupus erythematosus,MIM,612254
+DOID:9074,systemic lupus erythematosus,MIM,612378
+DOID:9074,systemic lupus erythematosus,MIM,613145
+DOID:9074,systemic lupus erythematosus,MIM,614420
+DOID:9074,systemic lupus erythematosus,NCI,C3201
+DOID:9074,systemic lupus erythematosus,ORDO,536
+DOID:9074,systemic lupus erythematosus,SNOMEDCT_US_2025_09_01,156450004
+DOID:9074,systemic lupus erythematosus,UMLS_CUI,C0024141
+DOID:9088,parapsoriasis,GARD,7328
+DOID:9088,parapsoriasis,ICD10CM,L41
+DOID:9088,parapsoriasis,ICD9CM,696.2
+DOID:9088,parapsoriasis,MESH,D010267
+DOID:9088,parapsoriasis,NCI,C3312
+DOID:9088,parapsoriasis,SNOMEDCT_US_2025_09_01,267851002
+DOID:9088,parapsoriasis,UMLS_CUI,C0030491
+DOID:9146,visceral leishmaniasis,ICD10CM,B55.0
+DOID:9146,visceral leishmaniasis,ICD9CM,85
+DOID:9146,visceral leishmaniasis,MESH,D007898
+DOID:9146,visceral leishmaniasis,MIM,608207
+DOID:9146,visceral leishmaniasis,MIM,611381
+DOID:9146,visceral leishmaniasis,MIM,611382
+DOID:9146,visceral leishmaniasis,NCI,C34771
+DOID:9146,visceral leishmaniasis,SNOMEDCT_US_2025_09_01,48115004
+DOID:9146,visceral leishmaniasis,UMLS_CUI,C0023290
+DOID:9182,pemphigus,MESH,D010392
+DOID:9182,pemphigus,GARD,7352
+DOID:9182,pemphigus,ICD10CM,L10
+DOID:9182,pemphigus,ICD9CM,694.4
+DOID:9182,pemphigus,NCI,C34909
+DOID:9182,pemphigus,SNOMEDCT_US_2025_09_01,156355008
+DOID:9182,pemphigus,UMLS_CUI,C0030807
+DOID:9305,splenic tuberculosis,ICD10CM,A18.85
+DOID:9305,splenic tuberculosis,ICD9CM,17.7
+DOID:9305,splenic tuberculosis,MESH,D014400
+DOID:9305,splenic tuberculosis,SNOMEDCT_US_2025_09_01,28399005
+DOID:9305,splenic tuberculosis,UMLS_CUI,C0041331
+DOID:9317,lymphangitis,ICD10CM,I89.1
+DOID:9317,lymphangitis,ICD9CM,457.2
+DOID:9317,lymphangitis,MESH,D008205
+DOID:9317,lymphangitis,NCI,C34790
+DOID:9317,lymphangitis,SNOMEDCT_US_2025_09_01,1415005
+DOID:9317,lymphangitis,UMLS_CUI,C0024225
+DOID:9415,allergic asthma,ICD10CM,J45
+DOID:9415,allergic asthma,ICD9CM,493
+DOID:9415,allergic asthma,SNOMEDCT_US_2025_09_01,195968006
+DOID:9415,allergic asthma,UMLS_CUI,C0155877
+DOID:9503,Loeffler syndrome,MESH,D011657
+DOID:9503,Loeffler syndrome,ICD10CM,J82.82
+DOID:9503,Loeffler syndrome,NCI,C35301
+DOID:9503,Loeffler syndrome,SNOMEDCT_US_2025_09_01,64936001
+DOID:9503,Loeffler syndrome,UMLS_CUI,C0242459
+DOID:9513,plasma cell leukemia,GARD,9373
+DOID:9513,plasma cell leukemia,ICD10CM,C90.1
+DOID:9513,plasma cell leukemia,ICD9CM,203.1
+DOID:9513,plasma cell leukemia,ICDO,Mar-33
+DOID:9513,plasma cell leukemia,MESH,D007952
+DOID:9513,plasma cell leukemia,NCI,C3180
+DOID:9513,plasma cell leukemia,SNOMEDCT_US_2025_09_01,269630009
+DOID:9513,plasma cell leukemia,UMLS_CUI,C0023484
+DOID:9735,acute allergic mucoid otitis media,ICD9CM,381.05
+DOID:9735,acute allergic mucoid otitis media,SNOMEDCT_US_2025_09_01,194242003
+DOID:9735,acute allergic mucoid otitis media,UMLS_CUI,C0155419
+DOID:9744,type 1 diabetes mellitus,ICD10CM,E10
+DOID:9744,type 1 diabetes mellitus,GARD,10268
+DOID:9744,type 1 diabetes mellitus,KEGG,4940
+DOID:9744,type 1 diabetes mellitus,MESH,D003922
+DOID:9744,type 1 diabetes mellitus,MIM,222100
+DOID:9744,type 1 diabetes mellitus,NCI,C2986
+DOID:9744,type 1 diabetes mellitus,SNOMEDCT_US_2025_09_01,46635009
+DOID:9744,type 1 diabetes mellitus,UMLS_CUI,C0011854
+DOID:9808,Goodpasture syndrome,GARD,2551
+DOID:9808,Goodpasture syndrome,ICD10CM,M31.0
+DOID:9808,Goodpasture syndrome,ICD9CM,446.21
+DOID:9808,Goodpasture syndrome,MESH,D019867
+DOID:9808,Goodpasture syndrome,MIM,233450
+DOID:9808,Goodpasture syndrome,NCI,C84566
+DOID:9808,Goodpasture syndrome,SNOMEDCT_US_2025_09_01,788613004
+DOID:9808,Goodpasture syndrome,UMLS_CUI,C0403529
+DOID:9809,hypersensitivity vasculitis,ICD10CM,M31.0
+DOID:9809,hypersensitivity vasculitis,GARD,7851
+DOID:9809,hypersensitivity vasculitis,ICD9CM,446.2
+DOID:9809,hypersensitivity vasculitis,MESH,D018366
+DOID:9809,hypersensitivity vasculitis,NCI,C35119
+DOID:9809,hypersensitivity vasculitis,SNOMEDCT_US_2025_09_01,195350001
+DOID:9809,hypersensitivity vasculitis,UMLS_CUI,C0151436
+DOID:986,alopecia areata,EFO,4192
+DOID:986,alopecia areata,GARD,5782
+DOID:986,alopecia areata,ICD10CM,L63
+DOID:986,alopecia areata,ICD9CM,704.01
+DOID:986,alopecia areata,MESH,D000506
+DOID:986,alopecia areata,MIM,104000
+DOID:986,alopecia areata,MIM,610753
+DOID:986,alopecia areata,SNOMEDCT_US_2025_09_01,201131001
+DOID:986,alopecia areata,UMLS_CUI,C0002171
+DOID:9942,lymph node disease,NCI,C35346
+DOID:9942,lymph node disease,SNOMEDCT_US_2025_09_01,76616003
+DOID:9942,lymph node disease,UMLS_CUI,C0272394
+DOID:9953,acute biphenotypic leukemia,ICD10CM,C95.0
+DOID:9953,acute biphenotypic leukemia,ICDO,Mar-05
+DOID:9953,acute biphenotypic leukemia,MESH,D015456
+DOID:9953,acute biphenotypic leukemia,NCI,C4673
+DOID:9953,acute biphenotypic leukemia,SNOMEDCT_US_2025_09_01,128818009
+DOID:9953,acute biphenotypic leukemia,UMLS_CUI,C0023464
+DOID:9986,orbit lymphoma,GARD,9719
+DOID:9986,orbit lymphoma,MESH,C537131
+DOID:9986,orbit lymphoma,NCI,C6244
+DOID:9986,orbit lymphoma,SNOMEDCT_US_2025_09_01,13048006
+DOID:9986,orbit lymphoma,UMLS_CUI,C0271333
