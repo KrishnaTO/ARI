@@ -1,1 +1,13 @@
 autoimmune
+.env
+.claude
+data/databases
+~$*
+*.log
+*.pyc
+sparql/doid.owl
+sparql/mondo.owl
+sparql/uberon.owl
+data/immune-extractor/Archive/*
+data/master/*
+data/LLM-derived/*
