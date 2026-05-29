@@ -1,0 +1,1271 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.aurint.org/ontologies/immunological-data-model#"
+     xml:base="http://www.aurint.org/ontologies/immunological-data-model"
+     xmlns:imo="http://www.aurint.org/ontologies/immunological-data-model#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.aurint.org/ontologies/immunological-data-model">
+        <rdfs:comment xml:lang="en">An OWL 2 ontology representing the immunological disease data model, covering disease identity, etiology, innate and adaptive immunity, signalling, pathophysiology, clinical profile, evidence, epidemiology, biomarkers, and standard terminology codes.</rdfs:comment>
+        <rdfs:label xml:lang="en">Immunological Disease Data Model Ontology</rdfs:label>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#affectsCellTissueOrOrgan -->
+
+    <owl:ObjectProperty rdf:about="http://www.aurint.org/ontologies/immunological-data-model#affectsCellTissueOrOrgan">
+        <rdfs:domain rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#ImmunologicalDisease"/>
+        <rdfs:range rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#AffectedCellTissueOrOrgan"/>
+        <rdfs:comment xml:lang="en">Specific cells, tissues, or organs damaged by the immune-mediated process.</rdfs:comment>
+        <rdfs:label xml:lang="en">affects cell, tissue or organ</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#associatedWithAutoimmune -->
+
+    <owl:ObjectProperty rdf:about="http://www.aurint.org/ontologies/immunological-data-model#associatedWithAutoimmune">
+        <rdfs:domain rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#ImmunologicalDisease"/>
+        <rdfs:range rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#AutoimmuneDisease"/>
+        <rdfs:comment xml:lang="en">Co-occurring or overlapping autoimmune conditions observed in patients with this disease.</rdfs:comment>
+        <rdfs:label xml:lang="en">associated with autoimmune disease</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#hasAcutePhaseReactant -->
+
+    <owl:ObjectProperty rdf:about="http://www.aurint.org/ontologies/immunological-data-model#hasAcutePhaseReactant">
+        <rdfs:domain rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#ImmunologicalDisease"/>
+        <rdfs:range rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#AcutePhaseReactant"/>
+        <rdfs:label xml:lang="en">has acute phase reactant</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#hasAnimalCellEvidence -->
+
+    <owl:ObjectProperty rdf:about="http://www.aurint.org/ontologies/immunological-data-model#hasAnimalCellEvidence">
+        <rdfs:domain rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#ImmunologicalDisease"/>
+        <rdfs:range rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#InVitroAnimalCellEvidence"/>
+        <rdfs:label xml:lang="en">has in vitro animal cell evidence</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#hasAutoantibody -->
+
+    <owl:ObjectProperty rdf:about="http://www.aurint.org/ontologies/immunological-data-model#hasAutoantibody">
+        <rdfs:domain rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#ImmunologicalDisease"/>
+        <rdfs:range rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#Antibody"/>
+        <rdfs:comment xml:lang="en">Autoantibodies produced in the disease, with diagnostic and/or pathogenic relevance.</rdfs:comment>
+        <rdfs:label xml:lang="en">has autoantibody</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#hasBiomarker -->
+
+    <owl:ObjectProperty rdf:about="http://www.aurint.org/ontologies/immunological-data-model#hasBiomarker">
+        <rdfs:domain rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#ImmunologicalDisease"/>
+        <rdfs:range rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#Biomarker"/>
+        <rdfs:label xml:lang="en">has biomarker</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#hasCardinalSymptom -->
+
+    <owl:ObjectProperty rdf:about="http://www.aurint.org/ontologies/immunological-data-model#hasCardinalSymptom">
+        <rdfs:domain rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#ImmunologicalDisease"/>
+        <rdfs:range rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#CardinalSymptom"/>
+        <rdfs:label xml:lang="en">has cardinal symptom</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#hasCaseReport -->
+
+    <owl:ObjectProperty rdf:about="http://www.aurint.org/ontologies/immunological-data-model#hasCaseReport">
+        <rdfs:domain rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#ImmunologicalDisease"/>
+        <rdfs:range rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#CaseReport"/>
+        <rdfs:label xml:lang="en">has case report</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#hasClinicalFeature -->
+
+    <owl:ObjectProperty rdf:about="http://www.aurint.org/ontologies/immunological-data-model#hasClinicalFeature">
+        <rdfs:domain rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#ImmunologicalDisease"/>
+        <rdfs:range rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#ClinicalFeature"/>
+        <rdfs:label xml:lang="en">has clinical feature</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#hasEnvironmentalTrigger -->
+
+    <owl:ObjectProperty rdf:about="http://www.aurint.org/ontologies/immunological-data-model#hasEnvironmentalTrigger">
+        <rdfs:domain rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#ImmunologicalDisease"/>
+        <rdfs:range rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#EnvironmentalTrigger"/>
+        <rdfs:label xml:lang="en">has environmental trigger</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#hasEpidemiologyProfile -->
+
+    <owl:ObjectProperty rdf:about="http://www.aurint.org/ontologies/immunological-data-model#hasEpidemiologyProfile">
+        <rdfs:domain rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#ImmunologicalDisease"/>
+        <rdfs:range rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#EpidemiologyProfile"/>
+        <rdfs:label xml:lang="en">has epidemiology profile</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#hasEtiologicalFactor -->
+
+    <owl:ObjectProperty rdf:about="http://www.aurint.org/ontologies/immunological-data-model#hasEtiologicalFactor">
+        <rdfs:domain rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#ImmunologicalDisease"/>
+        <rdfs:range rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#EtiologicalFactor"/>
+        <rdfs:label xml:lang="en">has etiological factor</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#hasEvidenceRecord -->
+
+    <owl:ObjectProperty rdf:about="http://www.aurint.org/ontologies/immunological-data-model#hasEvidenceRecord">
+        <rdfs:domain rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#ImmunologicalDisease"/>
+        <rdfs:range rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#EvidenceRecord"/>
+        <rdfs:label xml:lang="en">has evidence record</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#hasGeneRegion -->
+
+    <owl:ObjectProperty rdf:about="http://www.aurint.org/ontologies/immunological-data-model#hasGeneRegion">
+        <rdfs:domain rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#ImmunologicalDisease"/>
+        <rdfs:range rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#GeneRegion"/>
+        <rdfs:label xml:lang="en">has gene region</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#hasGeneticFactor -->
+
+    <owl:ObjectProperty rdf:about="http://www.aurint.org/ontologies/immunological-data-model#hasGeneticFactor">
+        <rdfs:domain rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#ImmunologicalDisease"/>
+        <rdfs:range rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#GeneticFactor"/>
+        <rdfs:label xml:lang="en">has genetic factor</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#hasHLAAssociation -->
+
+    <owl:ObjectProperty rdf:about="http://www.aurint.org/ontologies/immunological-data-model#hasHLAAssociation">
+        <rdfs:domain rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#ImmunologicalDisease"/>
+        <rdfs:range rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#HLAGeneRegion"/>
+        <rdfs:comment xml:lang="en">Associates a disease with specific HLA alleles conferring risk or protection.</rdfs:comment>
+        <rdfs:label xml:lang="en">has HLA association</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#hasHumanCellEvidence -->
+
+    <owl:ObjectProperty rdf:about="http://www.aurint.org/ontologies/immunological-data-model#hasHumanCellEvidence">
+        <rdfs:domain rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#ImmunologicalDisease"/>
+        <rdfs:range rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#InVitroHumanCellEvidence"/>
+        <rdfs:label xml:lang="en">has in vitro human cell evidence</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#hasHypersensitivityType -->
+
+    <owl:ObjectProperty rdf:about="http://www.aurint.org/ontologies/immunological-data-model#hasHypersensitivityType">
+        <rdfs:domain rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#ImmunologicalDisease"/>
+        <rdfs:range rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#HypersensitivityReaction"/>
+        <rdfs:label xml:lang="en">has hypersensitivity type</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#hasImmunityPolymorphism -->
+
+    <owl:ObjectProperty rdf:about="http://www.aurint.org/ontologies/immunological-data-model#hasImmunityPolymorphism">
+        <rdfs:domain rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#ImmunologicalDisease"/>
+        <rdfs:range rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#ImmunityGenePolymorphism"/>
+        <rdfs:label xml:lang="en">has immunity gene polymorphism</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#hasInflammationPolymorphism -->
+
+    <owl:ObjectProperty rdf:about="http://www.aurint.org/ontologies/immunological-data-model#hasInflammationPolymorphism">
+        <rdfs:domain rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#ImmunologicalDisease"/>
+        <rdfs:range rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#InflammationGenePolymorphism"/>
+        <rdfs:label xml:lang="en">has inflammation gene polymorphism</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#hasInheritedSusceptibility -->
+
+    <owl:ObjectProperty rdf:about="http://www.aurint.org/ontologies/immunological-data-model#hasInheritedSusceptibility">
+        <rdfs:domain rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#ImmunologicalDisease"/>
+        <rdfs:range rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#InheritedDiseaseSusceptibility"/>
+        <rdfs:label xml:lang="en">has inherited disease susceptibility</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#hasObjectiveSign -->
+
+    <owl:ObjectProperty rdf:about="http://www.aurint.org/ontologies/immunological-data-model#hasObjectiveSign">
+        <rdfs:domain rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#ImmunologicalDisease"/>
+        <rdfs:range rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#ObjectiveSign"/>
+        <rdfs:label xml:lang="en">has objective sign</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#hasParentDisease -->
+
+    <owl:ObjectProperty rdf:about="http://www.aurint.org/ontologies/immunological-data-model#hasParentDisease">
+        <rdfs:domain rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#ImmunologicalDisease"/>
+        <rdfs:range rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#ImmunologicalDisease"/>
+        <rdfs:label xml:lang="en">has parent disease</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#hasPathogenesisMechanism -->
+
+    <owl:ObjectProperty rdf:about="http://www.aurint.org/ontologies/immunological-data-model#hasPathogenesisMechanism">
+        <rdfs:domain rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#ImmunologicalDisease"/>
+        <rdfs:range rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#PathogenesisMechanism"/>
+        <rdfs:label xml:lang="en">has pathogenesis mechanism</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#hasPathophysiologyTarget -->
+
+    <owl:ObjectProperty rdf:about="http://www.aurint.org/ontologies/immunological-data-model#hasPathophysiologyTarget">
+        <rdfs:domain rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#ImmunologicalDisease"/>
+        <rdfs:range rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#PathophysiologyTarget"/>
+        <rdfs:label xml:lang="en">has pathophysiology target</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#hasSerologicalMarker -->
+
+    <owl:ObjectProperty rdf:about="http://www.aurint.org/ontologies/immunological-data-model#hasSerologicalMarker">
+        <rdfs:domain rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#ImmunologicalDisease"/>
+        <rdfs:range rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#SerologicalMarker"/>
+        <rdfs:label xml:lang="en">has serological marker</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#hasStandardCode -->
+
+    <owl:ObjectProperty rdf:about="http://www.aurint.org/ontologies/immunological-data-model#hasStandardCode">
+        <rdfs:domain rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#ImmunologicalDisease"/>
+        <rdfs:range rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#StandardCode"/>
+        <rdfs:label xml:lang="en">has standard code</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#involvesAPC -->
+
+    <owl:ObjectProperty rdf:about="http://www.aurint.org/ontologies/immunological-data-model#involvesAPC">
+        <rdfs:domain rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#ImmunologicalDisease"/>
+        <rdfs:range rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#AntigenPresentingCell"/>
+        <rdfs:label xml:lang="en">involves antigen presenting cell</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#involvesComplement -->
+
+    <owl:ObjectProperty rdf:about="http://www.aurint.org/ontologies/immunological-data-model#involvesComplement">
+        <rdfs:domain rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#ImmunologicalDisease"/>
+        <rdfs:range rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#ComplementComponent"/>
+        <rdfs:comment xml:lang="en">Complement pathway components activated, consumed, or deficient in the disease.</rdfs:comment>
+        <rdfs:label xml:lang="en">involves complement</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#involvesCytokine -->
+
+    <owl:ObjectProperty rdf:about="http://www.aurint.org/ontologies/immunological-data-model#involvesCytokine">
+        <rdfs:domain rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#ImmunologicalDisease"/>
+        <rdfs:range rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#Cytokine"/>
+        <rdfs:label xml:lang="en">involves cytokine</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#involvesInflammasome -->
+
+    <owl:ObjectProperty rdf:about="http://www.aurint.org/ontologies/immunological-data-model#involvesInflammasome">
+        <rdfs:domain rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#ImmunologicalDisease"/>
+        <rdfs:range rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#Inflammasome"/>
+        <rdfs:label xml:lang="en">involves inflammasome</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#involvesInnateReceptor -->
+
+    <owl:ObjectProperty rdf:about="http://www.aurint.org/ontologies/immunological-data-model#involvesInnateReceptor">
+        <rdfs:domain rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#ImmunologicalDisease"/>
+        <rdfs:range rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#InnateReceptor"/>
+        <rdfs:label xml:lang="en">involves innate receptor</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#involvesNETosis -->
+
+    <owl:ObjectProperty rdf:about="http://www.aurint.org/ontologies/immunological-data-model#involvesNETosis">
+        <rdfs:domain rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#ImmunologicalDisease"/>
+        <rdfs:range rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#NETosis"/>
+        <rdfs:label xml:lang="en">involves NETosis</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#involvesReceptor -->
+
+    <owl:ObjectProperty rdf:about="http://www.aurint.org/ontologies/immunological-data-model#involvesReceptor">
+        <rdfs:domain rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#ImmunologicalDisease"/>
+        <rdfs:range rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#Receptor"/>
+        <rdfs:label xml:lang="en">involves receptor</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#involvesTCell -->
+
+    <owl:ObjectProperty rdf:about="http://www.aurint.org/ontologies/immunological-data-model#involvesTCell">
+        <rdfs:domain rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#ImmunologicalDisease"/>
+        <rdfs:range rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#TCell"/>
+        <rdfs:label xml:lang="en">involves T-Cell</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#involvesTranscriptionFactor -->
+
+    <owl:ObjectProperty rdf:about="http://www.aurint.org/ontologies/immunological-data-model#involvesTranscriptionFactor">
+        <rdfs:domain rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#ImmunologicalDisease"/>
+        <rdfs:range rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#TranscriptionFactor"/>
+        <rdfs:label xml:lang="en">involves transcription factor</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#targetsAntigen -->
+
+    <owl:ObjectProperty rdf:about="http://www.aurint.org/ontologies/immunological-data-model#targetsAntigen">
+        <rdfs:domain rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#ImmunologicalDisease"/>
+        <rdfs:range rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#Antigen"/>
+        <rdfs:comment xml:lang="en">Self-antigens targeted by the autoimmune response driving the disease.</rdfs:comment>
+        <rdfs:label xml:lang="en">targets antigen</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#antibodyIsotype -->
+
+    <owl:DatatypeProperty rdf:about="http://www.aurint.org/ontologies/immunological-data-model#antibodyIsotype">
+        <rdfs:domain rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#Antibody"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Immunoglobulin isotype: IgG, IgM, IgA, IgE.</rdfs:comment>
+        <rdfs:label xml:lang="en">antibody isotype</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#antigenLocation -->
+
+    <owl:DatatypeProperty rdf:about="http://www.aurint.org/ontologies/immunological-data-model#antigenLocation">
+        <rdfs:domain rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#Antigen"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Sub-cellular or tissue location of the target antigen (e.g., nuclear, cytoplasmic, surface).</rdfs:comment>
+        <rdfs:label xml:lang="en">antigen location</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#chromosomalLocus -->
+
+    <owl:DatatypeProperty rdf:about="http://www.aurint.org/ontologies/immunological-data-model#chromosomalLocus">
+        <rdfs:domain rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#GeneRegion"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Cytogenetic location (e.g., 1q23, 6p21).</rdfs:comment>
+        <rdfs:label xml:lang="en">chromosomal locus</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#complementPathway -->
+
+    <owl:DatatypeProperty rdf:about="http://www.aurint.org/ontologies/immunological-data-model#complementPathway">
+        <rdfs:domain rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#ComplementComponent"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Classical, alternative, or lectin pathway involvement.</rdfs:comment>
+        <rdfs:label xml:lang="en">complement pathway</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#cytokineFamily -->
+
+    <owl:DatatypeProperty rdf:about="http://www.aurint.org/ontologies/immunological-data-model#cytokineFamily">
+        <rdfs:domain rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#Cytokine"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Cytokine superfamily: interleukin, interferon, TNF-family, chemokine, TGF-beta.</rdfs:comment>
+        <rdfs:label xml:lang="en">cytokine family</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#demographicBias -->
+
+    <owl:DatatypeProperty rdf:about="http://www.aurint.org/ontologies/immunological-data-model#demographicBias">
+        <rdfs:domain rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#EpidemiologyProfile"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Documented skew toward specific sex, age group, or ancestral population.</rdfs:comment>
+        <rdfs:label xml:lang="en">demographic bias</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#gellCoombsType -->
+
+    <owl:DatatypeProperty rdf:about="http://www.aurint.org/ontologies/immunological-data-model#gellCoombsType">
+        <rdfs:domain rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#HypersensitivityReaction"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Type I, II, III, or IV classification of the hypersensitivity mechanism.</rdfs:comment>
+        <rdfs:label xml:lang="en">Gell-Coombs type</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#hasCategory -->
+
+    <owl:DatatypeProperty rdf:about="http://www.aurint.org/ontologies/immunological-data-model#hasCategory">
+        <rdfs:domain rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#ImmunologicalDisease"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Broad classification: autoimmune, autoinflammatory, primary immunodeficiency.</rdfs:comment>
+        <rdfs:label xml:lang="en">has category</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#hasEvidenceQuality -->
+
+    <owl:DatatypeProperty rdf:about="http://www.aurint.org/ontologies/immunological-data-model#hasEvidenceQuality">
+        <rdfs:domain rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#ImmunologicalDisease"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Overall quality of evidence: High / Moderate / Low / Expert Opinion.</rdfs:comment>
+        <rdfs:label xml:lang="en">has evidence quality</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#hasSynonym -->
+
+    <owl:DatatypeProperty rdf:about="http://www.aurint.org/ontologies/immunological-data-model#hasSynonym">
+        <rdfs:domain rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#ImmunologicalDisease"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Alternative names or abbreviations for the disease.</rdfs:comment>
+        <rdfs:label xml:lang="en">has synonym</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#hasSystemicInvolvement -->
+
+    <owl:DatatypeProperty rdf:about="http://www.aurint.org/ontologies/immunological-data-model#hasSystemicInvolvement">
+        <rdfs:domain rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#ImmunologicalDisease"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:comment xml:lang="en">Whether the disease affects multiple organ systems simultaneously.</rdfs:comment>
+        <rdfs:label xml:lang="en">has systemic involvement</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#hlaCodes -->
+
+    <owl:DatatypeProperty rdf:about="http://www.aurint.org/ontologies/immunological-data-model#hlaCodes">
+        <rdfs:domain rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#HLAGeneRegion"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Specific HLA allele designations (e.g., DRB1*1501).</rdfs:comment>
+        <rdfs:label xml:lang="en">HLA allele codes</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#icd10Code -->
+
+    <owl:DatatypeProperty rdf:about="http://www.aurint.org/ontologies/immunological-data-model#icd10Code">
+        <rdfs:domain rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#StandardCode"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">International Classification of Diseases 10th revision code.</rdfs:comment>
+        <rdfs:label xml:lang="en">ICD-10 code</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#inflammasomeComplex -->
+
+    <owl:DatatypeProperty rdf:about="http://www.aurint.org/ontologies/immunological-data-model#inflammasomeComplex">
+        <rdfs:domain rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#Inflammasome"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Specific inflammasome complex: NLRP3, NLRP1, AIM2, PYRIN, etc.</rdfs:comment>
+        <rdfs:label xml:lang="en">inflammasome complex</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#isAutoimmune -->
+
+    <owl:DatatypeProperty rdf:about="http://www.aurint.org/ontologies/immunological-data-model#isAutoimmune">
+        <rdfs:domain rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#ImmunologicalDisease"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:comment xml:lang="en">Boolean flag indicating whether the disease involves self-directed adaptive immune attack.</rdfs:comment>
+        <rdfs:label xml:lang="en">is autoimmune</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#isGeneticOrInherited -->
+
+    <owl:DatatypeProperty rdf:about="http://www.aurint.org/ontologies/immunological-data-model#isGeneticOrInherited">
+        <rdfs:domain rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#ImmunologicalDisease"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Whether the disease has a hereditary component: Yes / No / Partial.</rdfs:comment>
+        <rdfs:label xml:lang="en">is genetic or inherited</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#markerSensitivity -->
+
+    <owl:DatatypeProperty rdf:about="http://www.aurint.org/ontologies/immunological-data-model#markerSensitivity">
+        <rdfs:domain rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#Biomarker"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <rdfs:comment xml:lang="en">Diagnostic sensitivity of the biomarker expressed as a percentage.</rdfs:comment>
+        <rdfs:label xml:lang="en">marker sensitivity</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#markerSpecificity -->
+
+    <owl:DatatypeProperty rdf:about="http://www.aurint.org/ontologies/immunological-data-model#markerSpecificity">
+        <rdfs:domain rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#Biomarker"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <rdfs:comment xml:lang="en">Diagnostic specificity of the biomarker expressed as a percentage.</rdfs:comment>
+        <rdfs:label xml:lang="en">marker specificity</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#mechanismDescription -->
+
+    <owl:DatatypeProperty rdf:about="http://www.aurint.org/ontologies/immunological-data-model#mechanismDescription">
+        <rdfs:domain rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#MolecularMechanism"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Narrative description of the molecular mechanism (e.g., molecular mimicry, loss of tolerance).</rdfs:comment>
+        <rdfs:label xml:lang="en">mechanism description</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#mondoID -->
+
+    <owl:DatatypeProperty rdf:about="http://www.aurint.org/ontologies/immunological-data-model#mondoID">
+        <rdfs:domain rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#MONDOCode"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Monarch Disease Ontology identifier (format: MONDO followed by 7 digits).</rdfs:comment>
+        <rdfs:label xml:lang="en">MONDO ID</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#netosisEvidence -->
+
+    <owl:DatatypeProperty rdf:about="http://www.aurint.org/ontologies/immunological-data-model#netosisEvidence">
+        <rdfs:domain rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#NETosis"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Description of NETosis role and supporting experimental evidence.</rdfs:comment>
+        <rdfs:label xml:lang="en">NETosis evidence</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#organSystem -->
+
+    <owl:DatatypeProperty rdf:about="http://www.aurint.org/ontologies/immunological-data-model#organSystem">
+        <rdfs:domain rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#AffectedCellTissueOrOrgan"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Organ system affected: renal, dermal, musculoskeletal, CNS, haematological, pulmonary.</rdfs:comment>
+        <rdfs:label xml:lang="en">organ system</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#prevalencePer100k -->
+
+    <owl:DatatypeProperty rdf:about="http://www.aurint.org/ontologies/immunological-data-model#prevalencePer100k">
+        <rdfs:domain rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#EpidemiologyProfile"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <rdfs:comment xml:lang="en">Point prevalence expressed per 100,000 population.</rdfs:comment>
+        <rdfs:label xml:lang="en">prevalence per 100000</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#receptorClass -->
+
+    <owl:DatatypeProperty rdf:about="http://www.aurint.org/ontologies/immunological-data-model#receptorClass">
+        <rdfs:domain rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#Receptor"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Receptor class: cytokine receptor, Fc receptor, death receptor, inhibitory receptor.</rdfs:comment>
+        <rdfs:label xml:lang="en">receptor class</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#receptorFamily -->
+
+    <owl:DatatypeProperty rdf:about="http://www.aurint.org/ontologies/immunological-data-model#receptorFamily">
+        <rdfs:domain rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#InnateReceptor"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">PRR family: TLR, NLR, CLR, RLR, or cGAS-STING.</rdfs:comment>
+        <rdfs:label xml:lang="en">receptor family</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#siblingRelativeRisk -->
+
+    <owl:DatatypeProperty rdf:about="http://www.aurint.org/ontologies/immunological-data-model#siblingRelativeRisk">
+        <rdfs:domain rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#InheritedDiseaseSusceptibility"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <rdfs:comment xml:lang="en">Sibling relative risk (lambda-s) quantifying familial aggregation of disease.</rdfs:comment>
+        <rdfs:label xml:lang="en">sibling relative risk</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#snomedCode -->
+
+    <owl:DatatypeProperty rdf:about="http://www.aurint.org/ontologies/immunological-data-model#snomedCode">
+        <rdfs:domain rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#SNOMEDCode"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">SNOMED Clinical Terms numeric concept identifier.</rdfs:comment>
+        <rdfs:label xml:lang="en">SNOMED CT code</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#tCellSubset -->
+
+    <owl:DatatypeProperty rdf:about="http://www.aurint.org/ontologies/immunological-data-model#tCellSubset">
+        <rdfs:domain rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#TCell"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Specific T-cell subset: Th1, Th2, Th17, Tfh, Treg, CD8+ CTL.</rdfs:comment>
+        <rdfs:label xml:lang="en">T-cell subset</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#transcriptionFactorFamily -->
+
+    <owl:DatatypeProperty rdf:about="http://www.aurint.org/ontologies/immunological-data-model#transcriptionFactorFamily">
+        <rdfs:domain rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#TranscriptionFactor"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">TF family: STAT, IRF, NF-kB, AP-1, ROR, T-bet, GATA.</rdfs:comment>
+        <rdfs:label xml:lang="en">transcription factor family</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#umlsCUI -->
+
+    <owl:DatatypeProperty rdf:about="http://www.aurint.org/ontologies/immunological-data-model#umlsCUI">
+        <rdfs:domain rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#UMLSCode"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Unified Medical Language System Concept Unique Identifier (format: C followed by 7 digits).</rdfs:comment>
+        <rdfs:label xml:lang="en">UMLS CUI</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#variantIdentifier -->
+
+    <owl:DatatypeProperty rdf:about="http://www.aurint.org/ontologies/immunological-data-model#variantIdentifier">
+        <rdfs:domain rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#GenePolymorphism"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">rsID or HGVS notation for the variant.</rdfs:comment>
+        <rdfs:label xml:lang="en">variant identifier</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IMM_0000096 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IMM_0000096">
+        <rdfs:label xml:lang="en">Scientific Data</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IMM_0000097 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IMM_0000097">
+        <rdfs:label xml:lang="en">Process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IMM_0000098 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IMM_0000098">
+        <rdfs:label xml:lang="en">Disposition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IMM_0000099 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IMM_0000099">
+        <rdfs:label xml:lang="en">Component</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#AcutePhaseReactant -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/immunological-data-model#AcutePhaseReactant">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#InnateImmuneComponent"/>
+        <rdfs:comment xml:lang="en">Acute-phase proteins elevated or depressed during active disease (CRP, SAA, ferritin, ESR).</rdfs:comment>
+        <rdfs:label xml:lang="en">Acute Phase Reactant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#AdaptiveImmuneComponent -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/immunological-data-model#AdaptiveImmuneComponent">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IMM_0000099"/>
+        <rdfs:comment xml:lang="en">A cellular or molecular component of the adaptive immune system implicated in disease pathogenesis.</rdfs:comment>
+        <rdfs:label xml:lang="en">Adaptive Immune Component</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#AffectedCellTissueOrOrgan -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/immunological-data-model#AffectedCellTissueOrOrgan">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#PathophysiologyTarget"/>
+        <rdfs:comment xml:lang="en">Specific cell types, tissues, and organs targeted at granular level (e.g., glomerular podocytes, keratinocytes, synoviocytes).</rdfs:comment>
+        <rdfs:label xml:lang="en">Affected Cell, Tissue or Organ</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#Antibody -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/immunological-data-model#Antibody">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#AdaptiveImmuneComponent"/>
+        <rdfs:comment xml:lang="en">Disease-specific autoantibodies, their diagnostic sensitivity/specificity, and pathogenic roles.</rdfs:comment>
+        <rdfs:label xml:lang="en">Antibody</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#Antigen -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/immunological-data-model#Antigen">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#AdaptiveImmuneComponent"/>
+        <rdfs:comment xml:lang="en">Self-antigens targeted by the autoimmune response, driving adaptive immune activation.</rdfs:comment>
+        <rdfs:label xml:lang="en">Antigen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#AntigenPresentingCell -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/immunological-data-model#AntigenPresentingCell">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#AdaptiveImmuneComponent"/>
+        <rdfs:comment xml:lang="en">Professional APCs (dendritic cells, macrophages, B-cells) and their specific dysfunction in disease.</rdfs:comment>
+        <rdfs:label xml:lang="en">Antigen Presenting Cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#AutoimmuneDisease -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/immunological-data-model#AutoimmuneDisease">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#ImmunologicalDisease"/>
+        <rdfs:comment xml:lang="en">A disease characterised by self-directed adaptive immune responses that damage host tissues.</rdfs:comment>
+        <rdfs:label xml:lang="en">Autoimmune Disease</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#AutoinflammatoryDisease -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/immunological-data-model#AutoinflammatoryDisease">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#ImmunologicalDisease"/>
+        <rdfs:comment xml:lang="en">A disease driven primarily by innate immune dysregulation without high-titre autoantibodies.</rdfs:comment>
+        <rdfs:label xml:lang="en">Autoinflammatory Disease</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#Biomarker -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/immunological-data-model#Biomarker">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IMM_0000098"/>
+        <rdfs:comment xml:lang="en">A measurable biological indicator used for diagnosis, monitoring, or prognosis of disease.</rdfs:comment>
+        <rdfs:label xml:lang="en">Biomarker</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#CardinalSymptom -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/immunological-data-model#CardinalSymptom">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#ClinicalFeature"/>
+        <rdfs:comment xml:lang="en">Patient-reported subjective experiences constituting core presenting symptoms.</rdfs:comment>
+        <rdfs:label xml:lang="en">Cardinal Symptom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#CaseReport -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/immunological-data-model#CaseReport">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#ClinicalFeature"/>
+        <rdfs:comment xml:lang="en">Published case reports illustrating atypical presentations, triggers, or treatment responses.</rdfs:comment>
+        <rdfs:label xml:lang="en">Case Report</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#ClinicalFeature -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/immunological-data-model#ClinicalFeature">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IMM_0000096"/>
+        <rdfs:comment xml:lang="en">Any patient-reported or clinician-observed manifestation of the disease.</rdfs:comment>
+        <rdfs:label xml:lang="en">Clinical Feature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#ComplementComponent -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/immunological-data-model#ComplementComponent">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#InnateImmuneComponent"/>
+        <rdfs:comment xml:lang="en">Complement system proteins, pathways, or deficiencies contributing to disease pathogenesis.</rdfs:comment>
+        <rdfs:label xml:lang="en">Complement Component</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#Cytokine -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/immunological-data-model#Cytokine">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#SignalingMolecule"/>
+        <rdfs:comment xml:lang="en">Signalling proteins (interleukins, interferons, chemokines, TNF-family) driving inflammation or immune dysregulation.</rdfs:comment>
+        <rdfs:label xml:lang="en">Cytokine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#EnvironmentalTrigger -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/immunological-data-model#EnvironmentalTrigger">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#EtiologicalFactor"/>
+        <rdfs:comment xml:lang="en">Non-genetic external stimuli that initiate or exacerbate disease (UV, infections, chemicals, hormones).</rdfs:comment>
+        <rdfs:label xml:lang="en">Environmental Trigger</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#EpidemiologyProfile -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/immunological-data-model#EpidemiologyProfile">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IMM_0000096"/>
+        <rdfs:comment xml:lang="en">Population-level data describing disease frequency, distribution, and demographic risk factors.</rdfs:comment>
+        <rdfs:label xml:lang="en">Epidemiology Profile</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#EtiologicalFactor -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/immunological-data-model#EtiologicalFactor">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IMM_0000098"/>
+        <rdfs:comment xml:lang="en">Any genetic, environmental, or molecular factor that contributes to the initiation of an immunological disease.</rdfs:comment>
+        <rdfs:label xml:lang="en">Etiological Factor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#EvidenceRecord -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/immunological-data-model#EvidenceRecord">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IMM_0000096"/>
+        <rdfs:comment xml:lang="en">A category of scientific evidence supporting pathogenic hypotheses for the disease.</rdfs:comment>
+        <rdfs:label xml:lang="en">Evidence Record</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#GenePolymorphism -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/immunological-data-model#GenePolymorphism">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#GeneticFactor"/>
+        <rdfs:comment xml:lang="en">Single-nucleotide variants or other polymorphisms in genes affecting immune pathways.</rdfs:comment>
+        <rdfs:label xml:lang="en">Gene Polymorphism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#GeneRegion -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/immunological-data-model#GeneRegion">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#GeneticFactor"/>
+        <rdfs:comment xml:lang="en">Non-HLA chromosomal loci or gene regions implicated by GWAS or linkage studies.</rdfs:comment>
+        <rdfs:label xml:lang="en">Gene Region</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#GeneticFactor -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/immunological-data-model#GeneticFactor">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#EtiologicalFactor"/>
+        <rdfs:comment xml:lang="en">A heritable or de novo genetic element contributing to disease susceptibility.</rdfs:comment>
+        <rdfs:label xml:lang="en">Genetic Factor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#HLAGeneRegion -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/immunological-data-model#HLAGeneRegion">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#GeneticFactor"/>
+        <rdfs:comment xml:lang="en">Specific HLA/MHC alleles or haplotypes associated with disease susceptibility or severity (e.g., HLA-DR2, HLA-DR3).</rdfs:comment>
+        <rdfs:label xml:lang="en">HLA Gene Region</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#HypersensitivityReaction -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/immunological-data-model#HypersensitivityReaction">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#PathogenesisMechanism"/>
+        <rdfs:comment xml:lang="en">Gell-Coombs classification of hypersensitivity (Type I-IV) driving pathology.</rdfs:comment>
+        <rdfs:label xml:lang="en">Hypersensitivity Reaction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#ImmunityGenePolymorphism -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/immunological-data-model#ImmunityGenePolymorphism">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#GenePolymorphism"/>
+        <rdfs:comment xml:lang="en">Genetic variants affecting adaptive immune tolerance or signalling (e.g., PTPN22, CTLA4, BLK).</rdfs:comment>
+        <rdfs:label xml:lang="en">Gene Polymorphism - Immunity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#ImmunologicalDisease -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/immunological-data-model#ImmunologicalDisease">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IMM_0000096"/>
+        <rdfs:comment xml:lang="en">A disease involving dysregulation or pathological activation of the immune system, including autoimmune, autoinflammatory, and primary immunodeficiency conditions.</rdfs:comment>
+        <rdfs:label xml:lang="en">Immunological Disease</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#InVitroAnimalCellEvidence -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/immunological-data-model#InVitroAnimalCellEvidence">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#EvidenceRecord"/>
+        <rdfs:comment xml:lang="en">Cell-based findings from animal model experiments supporting the proposed pathogenic mechanism.</rdfs:comment>
+        <rdfs:label xml:lang="en">In Vitro Animal Cell Evidence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#InVitroHumanCellEvidence -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/immunological-data-model#InVitroHumanCellEvidence">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#EvidenceRecord"/>
+        <rdfs:comment xml:lang="en">Human cell-based laboratory findings confirming pathogenic hypotheses.</rdfs:comment>
+        <rdfs:label xml:lang="en">In Vitro Human Cell Evidence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#Inflammasome -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/immunological-data-model#Inflammasome">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#InnateImmuneComponent"/>
+        <rdfs:comment xml:lang="en">Inflammasome complexes (e.g., NLRP3) activated in disease, driving caspase-1 cleavage and IL-1beta/IL-18 release.</rdfs:comment>
+        <rdfs:label xml:lang="en">Inflammasome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#InflammationGenePolymorphism -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/immunological-data-model#InflammationGenePolymorphism">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#GenePolymorphism"/>
+        <rdfs:comment xml:lang="en">Genetic variants in inflammatory pathway genes (e.g., IRF5, STAT4, TNFAIP3).</rdfs:comment>
+        <rdfs:label xml:lang="en">Gene Polymorphism - Inflammation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#InheritedDiseaseSusceptibility -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/immunological-data-model#InheritedDiseaseSusceptibility">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#GeneticFactor"/>
+        <rdfs:comment xml:lang="en">Quantified heritable susceptibility, including risk loci, sibling relative risk (lambda-s), or familial aggregation data.</rdfs:comment>
+        <rdfs:label xml:lang="en">Inherited Disease Susceptibility</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#InnateImmuneComponent -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/immunological-data-model#InnateImmuneComponent">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IMM_0000099"/>
+        <rdfs:comment xml:lang="en">A cellular or molecular component of the innate immune system implicated in disease pathogenesis.</rdfs:comment>
+        <rdfs:label xml:lang="en">Innate Immune Component</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#InnateReceptor -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/immunological-data-model#InnateReceptor">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#InnateImmuneComponent"/>
+        <rdfs:comment xml:lang="en">Pattern-recognition receptor (PRR) activated or dysregulated in disease, including TLRs, NLRs, CLRs, and cGAS-STING.</rdfs:comment>
+        <rdfs:label xml:lang="en">Innate Receptor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#MONDOCode -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/immunological-data-model#MONDOCode">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#StandardCode"/>
+        <rdfs:comment xml:lang="en">Monarch Disease Ontology identifier; also cross-mapped to ICD-10.</rdfs:comment>
+        <rdfs:label xml:lang="en">MONDO Code</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#MolecularMechanism -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/immunological-data-model#MolecularMechanism">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#PathogenesisMechanism"/>
+        <rdfs:comment xml:lang="en">The specific molecular mechanism, e.g., molecular mimicry, loss of tolerance, bystander activation, epitope spreading.</rdfs:comment>
+        <rdfs:label xml:lang="en">Molecular Mechanism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#NETosis -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/immunological-data-model#NETosis">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#InnateImmuneComponent"/>
+        <rdfs:comment xml:lang="en">The process of Neutrophil Extracellular Trap (NET) formation and its pathogenic role in releasing nuclear autoantigens and activating innate sensors.</rdfs:comment>
+        <rdfs:label xml:lang="en">NETosis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#ObjectiveSign -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/immunological-data-model#ObjectiveSign">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#ClinicalFeature"/>
+        <rdfs:comment xml:lang="en">Clinically observable or measurable manifestations detectable on examination or investigation.</rdfs:comment>
+        <rdfs:label xml:lang="en">Objective Sign</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#PathogenesisMechanism -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/immunological-data-model#PathogenesisMechanism">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IMM_0000097"/>
+        <rdfs:comment xml:lang="en">A molecular or cellular mechanism through which immune dysregulation leads to tissue damage.</rdfs:comment>
+        <rdfs:label xml:lang="en">Pathogenesis Mechanism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#PathophysiologyTarget -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/immunological-data-model#PathophysiologyTarget">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IMM_0000099"/>
+        <rdfs:comment xml:lang="en">The biological substrate (cell, tissue, or organ) damaged by the immune-mediated process.</rdfs:comment>
+        <rdfs:label xml:lang="en">Pathophysiology Target</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#PrimaryImmunodeficiency -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/immunological-data-model#PrimaryImmunodeficiency">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#ImmunologicalDisease"/>
+        <rdfs:comment xml:lang="en">An inherited or de novo defect in one or more immune system components leading to increased susceptibility to infection.</rdfs:comment>
+        <rdfs:label xml:lang="en">Primary Immunodeficiency</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#Receptor -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/immunological-data-model#Receptor">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#SignalingMolecule"/>
+        <rdfs:comment xml:lang="en">Surface or intracellular receptors with altered expression or function contributing to pathogenesis.</rdfs:comment>
+        <rdfs:label xml:lang="en">Receptor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#SNOMEDCode -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/immunological-data-model#SNOMEDCode">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#StandardCode"/>
+        <rdfs:comment xml:lang="en">SNOMED Clinical Terms identifier for the disease.</rdfs:comment>
+        <rdfs:label xml:lang="en">SNOMED CT Code</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#SerologicalMarker -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/immunological-data-model#SerologicalMarker">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#Biomarker"/>
+        <rdfs:comment xml:lang="en">Serum-based biomarkers including autoantibodies, complement levels, and acute-phase proteins.</rdfs:comment>
+        <rdfs:label xml:lang="en">Serological Marker</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#SignalingMolecule -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/immunological-data-model#SignalingMolecule">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IMM_0000099"/>
+        <rdfs:comment xml:lang="en">An intracellular or extracellular molecule that mediates immune signalling in disease.</rdfs:comment>
+        <rdfs:label xml:lang="en">Signaling Molecule</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#StandardCode -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/immunological-data-model#StandardCode">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IMM_0000096"/>
+        <rdfs:comment xml:lang="en">A controlled vocabulary or terminology code mapping the disease to an interoperability standard.</rdfs:comment>
+        <rdfs:label xml:lang="en">Standard Code</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#TCell -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/immunological-data-model#TCell">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#AdaptiveImmuneComponent"/>
+        <rdfs:comment xml:lang="en">T-cell subsets (Th1, Th2, Th17, Tfh, Treg) and their pro- or anti-inflammatory roles in disease.</rdfs:comment>
+        <rdfs:label xml:lang="en">T-Cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#TranscriptionFactor -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/immunological-data-model#TranscriptionFactor">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#SignalingMolecule"/>
+        <rdfs:comment xml:lang="en">Intracellular master regulators of immune gene expression altered in disease (STAT4, IRF5, NF-kB, RORgt).</rdfs:comment>
+        <rdfs:label xml:lang="en">Transcription Factor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/immunological-data-model#UMLSCode -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/immunological-data-model#UMLSCode">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/immunological-data-model#StandardCode"/>
+        <rdfs:comment xml:lang="en">Unified Medical Language System Concept Unique Identifier.</rdfs:comment>
+        <rdfs:label xml:lang="en">UMLS CUI</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
