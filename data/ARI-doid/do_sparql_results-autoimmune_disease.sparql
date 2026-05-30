@@ -1,0 +1,72 @@
+# Extract all descendants of "autoimmune disease" (DOID:417) from the Disease Ontology.
+# Returns one row per class with selected annotations as named columns.
+# Multi-valued properties (synonyms, xrefs, subsets, matches) are pipe-delimited.
+#
+# Usage (Apache Jena arq):
+#   arq --data databases/doid.owl --query sparql/autoimmune_disease_children.sparql
+#
+# Usage (rdflib / Python):
+#   from rdflib import Graph
+#   g = Graph(); g.parse("databases/doid.owl")
+#   results = g.query(open("sparql/autoimmune_disease_children.sparql").read())
+#
+# Uses rdfs:subClassOf+ for all transitive descendants.
+# Change + to nothing (rdfs:subClassOf) for direct children only.
+
+PREFIX rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:     <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX obo:      <http://purl.obolibrary.org/obo/>
+PREFIX oboInOwl: <http://www.geneontology.org/formats/oboInOwl#>
+PREFIX skos:     <http://www.w3.org/2004/02/skos/core#>
+
+SELECT
+    ?child
+    (GROUP_CONCAT(DISTINCT ?_label;         SEPARATOR=" | ") AS ?label)
+    (GROUP_CONCAT(DISTINCT ?_id;            SEPARATOR=" | ") AS ?id)
+    (GROUP_CONCAT(DISTINCT ?_definition;    SEPARATOR=" | ") AS ?definition)
+    (GROUP_CONCAT(DISTINCT ?_exactSyn;      SEPARATOR=" | ") AS ?exact_synonym)
+    (GROUP_CONCAT(DISTINCT ?_relatedSyn;    SEPARATOR=" | ") AS ?related_synonym)
+    (GROUP_CONCAT(DISTINCT ?_altId;         SEPARATOR=" | ") AS ?alternative_id)
+    (GROUP_CONCAT(DISTINCT ?_dbXref;        SEPARATOR=" | ") AS ?db_xref)
+    (GROUP_CONCAT(DISTINCT ?_inSubset;      SEPARATOR=" | ") AS ?in_subset)
+    (GROUP_CONCAT(DISTINCT ?_namespace;     SEPARATOR=" | ") AS ?obo_namespace)
+    (GROUP_CONCAT(DISTINCT ?_exactMatch;    SEPARATOR=" | ") AS ?skos_exact_match)
+    (GROUP_CONCAT(DISTINCT ?_narrowMatch;   SEPARATOR=" | ") AS ?skos_narrow_match)
+    (GROUP_CONCAT(DISTINCT ?_comment;       SEPARATOR=" | ") AS ?comment)
+    (GROUP_CONCAT(DISTINCT ?_creationDate;  SEPARATOR=" | ") AS ?creation_date)
+WHERE {
+    # DOID:417 = "autoimmune disease"
+    ?child rdfs:subClassOf+ obo:DOID_417 .
+
+    # Named classes only — exclude anonymous OWL restriction blank nodes
+    FILTER ( isIRI(?child) )
+
+    # rdfs:label
+    OPTIONAL { ?child rdfs:label                 ?_label        . }
+    # oboInOwl:id
+    OPTIONAL { ?child oboInOwl:id                ?_id           . }
+    # IAO_0000115 = definition
+    OPTIONAL { ?child obo:IAO_0000115            ?_definition   . }
+    # oboInOwl:hasExactSynonym
+    OPTIONAL { ?child oboInOwl:hasExactSynonym   ?_exactSyn     . }
+    # oboInOwl:hasRelatedSynonym
+    OPTIONAL { ?child oboInOwl:hasRelatedSynonym ?_relatedSyn   . }
+    # oboInOwl:hasAlternativeId
+    OPTIONAL { ?child oboInOwl:hasAlternativeId  ?_altId        . }
+    # oboInOwl:hasDbXref
+    OPTIONAL { ?child oboInOwl:hasDbXref         ?_dbXref       . }
+    # oboInOwl:inSubset
+    OPTIONAL { ?child oboInOwl:inSubset          ?_inSubset     . }
+    # oboInOwl:hasOBONamespace
+    OPTIONAL { ?child oboInOwl:hasOBONamespace   ?_namespace    . }
+    # skos:exactMatch
+    OPTIONAL { ?child skos:exactMatch            ?_exactMatch   . }
+    # skos:narrowMatch
+    OPTIONAL { ?child skos:narrowMatch           ?_narrowMatch  . }
+    # rdfs:comment
+    OPTIONAL { ?child rdfs:comment               ?_comment      . }
+    # oboInOwl:creation_date
+    OPTIONAL { ?child oboInOwl:creation_date     ?_creationDate . }
+}
+GROUP BY ?child
+ORDER BY ?child
