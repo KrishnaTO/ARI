@@ -1,0 +1,1512 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xml:base="http://www.aurint.org/ontologies/ari-disease"
+         xmlns="http://www.aurint.org/ontologies/ari-disease#">
+
+<owl:Ontology rdf:about="http://www.aurint.org/ontologies/ari-disease"/>
+
+<owl:ObjectProperty rdf:about="#hasParentDisease"/>
+
+<owl:ObjectProperty rdf:about="#hasSymptom"/>
+
+<owl:ObjectProperty rdf:about="#hasEnvironmentalTrigger"/>
+
+<owl:ObjectProperty rdf:about="#hasAntibody"/>
+
+<owl:ObjectProperty rdf:about="#hasGeneticAssociation"/>
+
+<owl:ObjectProperty rdf:about="#hasTreatment"/>
+
+<owl:ObjectProperty rdf:about="#hasEtiologyFactor"/>
+
+<owl:ObjectProperty rdf:about="#hasBiomarker"/>
+
+<owl:ObjectProperty rdf:about="#hasPathwayStep"/>
+
+<owl:ObjectProperty rdf:about="#targetsTissue"/>
+
+<owl:ObjectProperty rdf:about="#hasParentCategory"/>
+
+<owl:ObjectProperty rdf:about="#involvesCytokine"/>
+
+<owl:ObjectProperty rdf:about="#involvesTCell"/>
+
+<owl:ObjectProperty rdf:about="#involvesAPC"/>
+
+<owl:ObjectProperty rdf:about="#involvesTranscriptionFactor"/>
+
+<owl:ObjectProperty rdf:about="#involvesInnateComponent"/>
+
+<owl:ObjectProperty rdf:about="#involvesComplement"/>
+
+<owl:ObjectProperty rdf:about="#involvesReceptor"/>
+
+<owl:ObjectProperty rdf:about="#involvesNETosis"/>
+
+<owl:ObjectProperty rdf:about="#involvesInflammasome"/>
+
+<owl:ObjectProperty rdf:about="#involvesAcutePhaseReactant"/>
+
+<owl:ObjectProperty rdf:about="#involvesAntigen"/>
+
+<owl:DatatypeProperty rdf:about="#evidenceQuality">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#diseaseCategory">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#prevalencePer100k">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#prevalenceValue">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#incidenceRate">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#demographicBias">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#ageRange">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#sourcePMID">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#likelihood">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#symptomDescription">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#triggerDescription">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#antibodyFrequency">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#antibodyDiagnosticValue">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#geneticProduct">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#geneticRiskEffect">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#geneticOddsRatio">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#chromosomalLocus">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hlaEffect">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hlaMechanism">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#treatmentType">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#treatmentDescription">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#treatmentFdaStatus">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#etiologyDescription">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#etiologyOriginType">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#etiologyExcerpt">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#markerDiagnosticUse">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#mediatorDescription">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#componentRelevance">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#tCellRole">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#stepOrder">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#stepCategory">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#stepDescription">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:AnnotationProperty rdf:about="#ARI_ID"/>
+
+<owl:AnnotationProperty rdf:about="#ARI_Synonym"/>
+
+<owl:AnnotationProperty rdf:about="#ARI_Version"/>
+
+<owl:AnnotationProperty rdf:about="#ARI_ChangeLog"/>
+
+<owl:AnnotationProperty rdf:about="#ARI_SNOMED"/>
+
+<owl:AnnotationProperty rdf:about="#ARI_DOID"/>
+
+<owl:AnnotationProperty rdf:about="#ARI_UMLS"/>
+
+<owl:AnnotationProperty rdf:about="#ARI_MONDO"/>
+
+<owl:AnnotationProperty rdf:about="#ARI_ICD10"/>
+
+<owl:AnnotationProperty rdf:about="#ARI_PrevalenceDesc"/>
+
+<owl:AnnotationProperty rdf:about="#ARI_Pubmed"/>
+
+<owl:AnnotationProperty rdf:about="#ARI_DefSource"/>
+
+<owl:AnnotationProperty rdf:about="#ARI_Obsolete"/>
+
+<owl:Class rdf:about="#MulticellularAnatomicalStructure">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0010000</ARI_ID>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Multicellular anatomical structure</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#AnatomicalSystem">
+  <rdfs:subClassOf rdf:resource="#MulticellularAnatomicalStructure"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anatomical system</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#EndocrineSystem">
+  <rdfs:subClassOf rdf:resource="#AnatomicalSystem"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Endocrine system</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#Pancreas">
+  <rdfs:subClassOf rdf:resource="#EndocrineSystem"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pancreas</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#IsletOfLangerhans">
+  <rdfs:subClassOf rdf:resource="#Pancreas"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Islet of Langerhans</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#BetaCell">
+  <rdfs:subClassOf rdf:resource="#IsletOfLangerhans"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pancreatic beta cell</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#DiseaseCategory">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#EndocrineDisease">
+  <rdfs:subClassOf rdf:resource="#DiseaseCategory"/>
+</owl:Class>
+
+<owl:Class rdf:about="#AutoimmuneDisease">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Symptom">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#EnvironmentalFactor">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Autoantibody">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GeneticFactor">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#HLAAssociation">
+  <rdfs:subClassOf rdf:resource="#GeneticFactor"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GeneVariant">
+  <rdfs:subClassOf rdf:resource="#GeneticFactor"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Treatment">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#EtiologyOrigin">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#BiochemicalMarker">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#PathwayStep">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Cytokine">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#TCellSubset">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#APC">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#TranscriptionFactor">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#InnateComponent">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#ComplementComponent">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Receptor">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#NETosisComponent">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Inflammasome">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#AcutePhaseReactant">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Antigen">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:NamedIndividual rdf:about="#Tissue_BetaCell">
+  <rdf:type rdf:resource="#BetaCell"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pancreatic beta cell</rdfs:label>
+  <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000169</ARI_ID>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Tissue_Islet">
+  <rdf:type rdf:resource="#IsletOfLangerhans"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Islet of Langerhans</rdfs:label>
+  <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0000006</ARI_ID>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Tissue_Pancreas">
+  <rdf:type rdf:resource="#Pancreas"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pancreas</rdfs:label>
+  <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0001264</ARI_ID>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Category_Endocrine">
+  <rdf:type rdf:resource="#EndocrineDisease"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Endocrine disease</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#T1D_0001">
+  <rdf:type rdf:resource="#AutoimmuneDisease"/>
+  <targetsTissue rdf:resource="#Tissue_BetaCell"/>
+  <targetsTissue rdf:resource="#Tissue_Islet"/>
+  <targetsTissue rdf:resource="#Tissue_Pancreas"/>
+  <hasParentCategory rdf:resource="#Category_Endocrine"/>
+  <hasSymptom rdf:resource="#Sym_Polyuria"/>
+  <hasSymptom rdf:resource="#Sym_Polydipsia"/>
+  <hasSymptom rdf:resource="#Sym_WeightLoss"/>
+  <hasSymptom rdf:resource="#Sym_Fatigue"/>
+  <hasSymptom rdf:resource="#Sym_BlurredVision"/>
+  <hasSymptom rdf:resource="#Sym_DKA"/>
+  <hasSymptom rdf:resource="#Sym_RecInfections"/>
+  <hasSymptom rdf:resource="#Sym_Nocturia"/>
+  <hasSymptom rdf:resource="#Sym_Irritability"/>
+  <hasSymptom rdf:resource="#Sym_Polyphagia"/>
+  <hasEnvironmentalTrigger rdf:resource="#Env_Enterovirus"/>
+  <hasEnvironmentalTrigger rdf:resource="#Env_CowMilk"/>
+  <hasEnvironmentalTrigger rdf:resource="#Env_VitaminD"/>
+  <hasEnvironmentalTrigger rdf:resource="#Env_MaternalAge"/>
+  <hasEnvironmentalTrigger rdf:resource="#Env_CSection"/>
+  <hasEnvironmentalTrigger rdf:resource="#Env_InfantWeight"/>
+  <hasEnvironmentalTrigger rdf:resource="#Env_Gluten"/>
+  <hasAntibody rdf:resource="#Ab_GAD65"/>
+  <hasAntibody rdf:resource="#Ab_IA2"/>
+  <hasAntibody rdf:resource="#Ab_IAA"/>
+  <hasAntibody rdf:resource="#Ab_ZnT8"/>
+  <hasAntibody rdf:resource="#Ab_ICA"/>
+  <hasGeneticAssociation rdf:resource="#Gene_HLA_DR3"/>
+  <hasGeneticAssociation rdf:resource="#Gene_HLA_DR4"/>
+  <hasGeneticAssociation rdf:resource="#Gene_INS"/>
+  <hasGeneticAssociation rdf:resource="#Gene_PTPN22"/>
+  <hasGeneticAssociation rdf:resource="#Gene_CTLA4"/>
+  <hasGeneticAssociation rdf:resource="#Gene_IL2RA"/>
+  <hasGeneticAssociation rdf:resource="#Gene_IFIH1"/>
+  <hasGeneticAssociation rdf:resource="#Gene_PTPN2"/>
+  <hasGeneticAssociation rdf:resource="#HLA_DR3DQ2"/>
+  <hasGeneticAssociation rdf:resource="#HLA_DR4DQ8"/>
+  <hasGeneticAssociation rdf:resource="#HLA_DR2DQ6"/>
+  <hasGeneticAssociation rdf:resource="#HLA_DR4_0403"/>
+  <hasTreatment rdf:resource="#Tx_Insulin"/>
+  <hasTreatment rdf:resource="#Tx_Pump"/>
+  <hasTreatment rdf:resource="#Tx_CGM"/>
+  <hasTreatment rdf:resource="#Tx_Teplizumab"/>
+  <hasTreatment rdf:resource="#Tx_ClosedLoop"/>
+  <hasTreatment rdf:resource="#Tx_Transplant"/>
+  <hasTreatment rdf:resource="#Tx_Pramlintide"/>
+  <hasEtiologyFactor rdf:resource="#Et_Genetic"/>
+  <hasEtiologyFactor rdf:resource="#Et_Viral"/>
+  <hasEtiologyFactor rdf:resource="#Et_Tolerance"/>
+  <hasEtiologyFactor rdf:resource="#Et_Mimicry"/>
+  <hasEtiologyFactor rdf:resource="#Et_ERStress"/>
+  <hasBiomarker rdf:resource="#Mark_Cpeptide"/>
+  <hasBiomarker rdf:resource="#Mark_HbA1c"/>
+  <hasBiomarker rdf:resource="#Mark_FastingGlucose"/>
+  <hasBiomarker rdf:resource="#Mark_RandomGlucose"/>
+  <hasBiomarker rdf:resource="#Mark_Ketones"/>
+  <hasBiomarker rdf:resource="#Mark_OGTT"/>
+  <hasPathwayStep rdf:resource="#Path_1_Genetic"/>
+  <hasPathwayStep rdf:resource="#Path_2_Trigger"/>
+  <hasPathwayStep rdf:resource="#Path_3_Tolerance"/>
+  <hasPathwayStep rdf:resource="#Path_4_Presentation"/>
+  <hasPathwayStep rdf:resource="#Path_5_Autoantibodies"/>
+  <hasPathwayStep rdf:resource="#Path_6_Insulitis"/>
+  <hasPathwayStep rdf:resource="#Path_7_BetaDeath"/>
+  <hasPathwayStep rdf:resource="#Path_8_Insulin"/>
+  <involvesCytokine rdf:resource="#Cyto_IL1B"/>
+  <involvesCytokine rdf:resource="#Cyto_IFNG"/>
+  <involvesCytokine rdf:resource="#Cyto_TNF"/>
+  <involvesCytokine rdf:resource="#Cyto_IL10"/>
+  <involvesCytokine rdf:resource="#Cyto_IL21"/>
+  <involvesCytokine rdf:resource="#Cyto_IL17"/>
+  <involvesTCell rdf:resource="#T_Th1"/>
+  <involvesTCell rdf:resource="#T_Th17"/>
+  <involvesTCell rdf:resource="#T_Treg"/>
+  <involvesTCell rdf:resource="#T_Tfh"/>
+  <involvesTCell rdf:resource="#T_CD8"/>
+  <involvesAPC rdf:resource="#APC_DC"/>
+  <involvesAPC rdf:resource="#APC_Macro"/>
+  <involvesAPC rdf:resource="#APC_BCell"/>
+  <involvesTranscriptionFactor rdf:resource="#TF_STAT4"/>
+  <involvesTranscriptionFactor rdf:resource="#TF_Tbet"/>
+  <involvesTranscriptionFactor rdf:resource="#TF_FoxP3"/>
+  <involvesTranscriptionFactor rdf:resource="#TF_RORgt"/>
+  <involvesInnateComponent rdf:resource="#Innate_TLR2"/>
+  <involvesInnateComponent rdf:resource="#Innate_TLR4"/>
+  <involvesInnateComponent rdf:resource="#Innate_IFIH1"/>
+  <involvesComplement rdf:resource="#Comp_C3"/>
+  <involvesComplement rdf:resource="#Comp_C4"/>
+  <involvesReceptor rdf:resource="#Rec_IL2R"/>
+  <involvesReceptor rdf:resource="#Rec_CTLA4"/>
+  <involvesReceptor rdf:resource="#Rec_PD1"/>
+  <involvesReceptor rdf:resource="#Rec_Fas"/>
+  <involvesNETosis rdf:resource="#NET_NETs"/>
+  <involvesNETosis rdf:resource="#NET_PAD4"/>
+  <involvesNETosis rdf:resource="#NET_MPO"/>
+  <involvesInflammasome rdf:resource="#Inf_NLRP3"/>
+  <involvesInflammasome rdf:resource="#Inf_Caspase1"/>
+  <involvesInflammasome rdf:resource="#Inf_ASC"/>
+  <involvesAcutePhaseReactant rdf:resource="#APR_CRP"/>
+  <involvesAcutePhaseReactant rdf:resource="#APR_SAA"/>
+  <involvesAcutePhaseReactant rdf:resource="#APR_Fibrinogen"/>
+  <involvesAntigen rdf:resource="#Antigen_Insulin"/>
+  <involvesAntigen rdf:resource="#Antigen_GAD65"/>
+  <involvesAntigen rdf:resource="#Antigen_IA2"/>
+  <involvesAntigen rdf:resource="#Antigen_ZnT8"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Type 1 diabetes mellitus</rdfs:label>
+  <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001</ARI_ID>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Type 1 diabetes is a chronic autoimmune disease characterized by the destruction of pancreatic beta cells in the islets of Langerhans, leading to absolute insulin deficiency and hyperglycemia. The autoimmune attack is mediated by autoreactive T-cells targeting beta-cell antigens including insulin, GAD65, IA-2, and ZnT8.</rdfs:comment>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T1D</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Type 1 diabetes</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Insulin-dependent diabetes mellitus</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IDDM</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Juvenile-onset diabetes</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diabetes mellitus type 1</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Juvenile diabetes</ARI_Synonym>
+  <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">46635009</ARI_SNOMED>
+  <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9744</ARI_DOID>
+  <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0011854</ARI_UMLS>
+  <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MONDO:0005147</ARI_MONDO>
+  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E10</ARI_ICD10>
+  <ARI_Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.0</ARI_Version>
+  <ARI_PrevalenceDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">~0.5% global, ~1.6M US. ~500/100k globally.</ARI_PrevalenceDesc>
+  <ARI_Pubmed rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/?term=type+1+diabetes+epidemiology</ARI_Pubmed>
+  <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADA Standards of Care 2025; PMID: 38393374</ARI_DefSource>
+  <evidenceQuality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">High</evidenceQuality>
+  <diseaseCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune</diseaseCategory>
+  <prevalencePer100k rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">500.0</prevalencePer100k>
+  <prevalenceValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1600000.0</prevalenceValue>
+  <incidenceRate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12-15/100k/yr in US</incidenceRate>
+  <demographicBias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male predominance 1.3:1; highest in Scandinavia (~60/100k/yr), lowest in East Asia (~1/100k/yr)</demographicBias>
+  <ageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bimodal: 4-7y and 10-14y peaks; adult-onset LADA form</ageRange>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-12 | System | Initial T1D entry creation</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-12 | System | 10 symptoms, 7 triggers, 5 antibodies, 12 genetic, 7 treatments, 5 etiology, 6 markers, 8 pathway steps, immune components, NETosis/inflammasome/APR/antigens, 2 subtypes</ARI_ChangeLog>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_Polyuria">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Polyuria</rdfs:label>
+  <likelihood rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Very common (&gt;=90%)</likelihood>
+  <symptomDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Excessive urination due to osmotic diuresis from hyperglycemia</symptomDescription>
+  <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0100626</rdfs:seeAlso>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/30609683/</sourcePMID>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_Polydipsia">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Polydipsia</rdfs:label>
+  <likelihood rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Very common (&gt;=90%)</likelihood>
+  <symptomDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Excessive thirst caused by dehydration from osmotic diuresis</symptomDescription>
+  <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0100627</rdfs:seeAlso>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/30609683/</sourcePMID>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_WeightLoss">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unintended weight loss</rdfs:label>
+  <likelihood rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Common (60-80%)</likelihood>
+  <symptomDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Weight loss despite normal/increased appetite</symptomDescription>
+  <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0001824</rdfs:seeAlso>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/27063042/</sourcePMID>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_Fatigue">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fatigue</rdfs:label>
+  <likelihood rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Common (60-80%)</likelihood>
+  <symptomDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chronic tiredness from metabolic dysregulation</symptomDescription>
+  <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0012378</rdfs:seeAlso>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/28734308/</sourcePMID>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_BlurredVision">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Blurred vision</rdfs:label>
+  <likelihood rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Moderate (20-40%)</likelihood>
+  <symptomDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lens swelling due to hyperglycemia</symptomDescription>
+  <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0025147</rdfs:seeAlso>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/17514992/</sourcePMID>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_DKA">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diabetic ketoacidosis (DKA)</rdfs:label>
+  <likelihood rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Variable (25-40%)</likelihood>
+  <symptomDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Metabolic decompensation with ketone production</symptomDescription>
+  <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0001953</rdfs:seeAlso>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/30229690/</sourcePMID>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_RecInfections">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Recurrent infections</rdfs:label>
+  <likelihood rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Moderate</likelihood>
+  <symptomDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Increased susceptibility to skin, UT, and yeast infections</symptomDescription>
+  <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0002718</rdfs:seeAlso>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/29987771/</sourcePMID>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_Nocturia">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nocturia</rdfs:label>
+  <likelihood rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Moderate (30-50%)</likelihood>
+  <symptomDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nighttime urination from impaired renal concentrating ability</symptomDescription>
+  <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0000017</rdfs:seeAlso>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/30609683/</sourcePMID>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_Irritability">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Irritability / mood changes</rdfs:label>
+  <likelihood rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Common (40-60%)</likelihood>
+  <symptomDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Behavioral changes from hyperglycemia</symptomDescription>
+  <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0000737</rdfs:seeAlso>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/29570362/</sourcePMID>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_Polyphagia">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Increased appetite (polyphagia)</rdfs:label>
+  <likelihood rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Common (50-70%)</likelihood>
+  <symptomDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Excessive hunger despite high blood glucose</symptomDescription>
+  <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0002591</rdfs:seeAlso>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/30609683/</sourcePMID>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Env_Enterovirus">
+  <rdf:type rdf:resource="#EnvironmentalFactor"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enterovirus (Coxsackie B)</rdfs:label>
+  <triggerDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Viral molecular mimicry triggers beta-cell autoimmunity; viral RNA in pancreatic islets</triggerDescription>
+  <likelihood rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Moderate</likelihood>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/28958587/</sourcePMID>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Env_CowMilk">
+  <rdf:type rdf:resource="#EnvironmentalFactor"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Early cow's milk exposure</rdfs:label>
+  <triggerDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hypothesized antigen mimicry between bovine and human insulin</triggerDescription>
+  <likelihood rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Low-Moderate</likelihood>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/32484217/</sourcePMID>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Env_VitaminD">
+  <rdf:type rdf:resource="#EnvironmentalFactor"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vitamin D deficiency</rdfs:label>
+  <triggerDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Immunomodulatory role in T-cell regulation</triggerDescription>
+  <likelihood rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Low-Moderate</likelihood>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/25573198/</sourcePMID>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Env_MaternalAge">
+  <rdf:type rdf:resource="#EnvironmentalFactor"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Advanced maternal age</rdfs:label>
+  <triggerDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Modest increase in T1D risk in offspring</triggerDescription>
+  <likelihood rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Weak</likelihood>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/30095980/</sourcePMID>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Env_CSection">
+  <rdf:type rdf:resource="#EnvironmentalFactor"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C-section delivery</rdfs:label>
+  <triggerDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Altered microbiome may influence immune programming</triggerDescription>
+  <likelihood rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Weak</likelihood>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/29977825/</sourcePMID>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Env_InfantWeight">
+  <rdf:type rdf:resource="#EnvironmentalFactor"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rapid weight gain in infancy</rdfs:label>
+  <triggerDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Increased metabolic demand on beta-cells</triggerDescription>
+  <likelihood rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Moderate</likelihood>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/25489210/</sourcePMID>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Env_Gluten">
+  <rdf:type rdf:resource="#EnvironmentalFactor"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Early gluten exposure</rdfs:label>
+  <triggerDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">May modulate gut permeability and immune response</triggerDescription>
+  <likelihood rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Low</likelihood>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/30531442/</sourcePMID>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Ab_GAD65">
+  <rdf:type rdf:resource="#Autoantibody"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anti-GAD65 (GADA)</rdfs:label>
+  <antibodyFrequency rdf:datatype="http://www.w3.org/2001/XMLSchema#string">70-80%</antibodyFrequency>
+  <antibodyDiagnosticValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Persistent marker; slower progression in adults</antibodyDiagnosticValue>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/25614315/</sourcePMID>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Ab_IA2">
+  <rdf:type rdf:resource="#Autoantibody"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anti-IA-2 (IA-2A)</rdfs:label>
+  <antibodyFrequency rdf:datatype="http://www.w3.org/2001/XMLSchema#string">50-70%</antibodyFrequency>
+  <antibodyDiagnosticValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Predictive of rapid progression</antibodyDiagnosticValue>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/25614315/</sourcePMID>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Ab_IAA">
+  <rdf:type rdf:resource="#Autoantibody"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anti-insulin (IAA)</rdfs:label>
+  <antibodyFrequency rdf:datatype="http://www.w3.org/2001/XMLSchema#string">50-70% child, 10-30% adult</antibodyFrequency>
+  <antibodyDiagnosticValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Earliest predictor in young children</antibodyDiagnosticValue>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/25614315/</sourcePMID>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Ab_ZnT8">
+  <rdf:type rdf:resource="#Autoantibody"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anti-ZnT8 (ZnT8A)</rdfs:label>
+  <antibodyFrequency rdf:datatype="http://www.w3.org/2001/XMLSchema#string">60-80%</antibodyFrequency>
+  <antibodyDiagnosticValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Increases diagnostic sensitivity in combination</antibodyDiagnosticValue>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/25614315/</sourcePMID>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Ab_ICA">
+  <rdf:type rdf:resource="#Autoantibody"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Islet Cell Antibodies (ICA)</rdfs:label>
+  <antibodyFrequency rdf:datatype="http://www.w3.org/2001/XMLSchema#string">70-80%</antibodyFrequency>
+  <antibodyDiagnosticValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Classic marker; replaced by specific antigen assays</antibodyDiagnosticValue>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/25614315/</sourcePMID>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">true</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Gene_HLA_DR3">
+  <rdf:type rdf:resource="#GeneVariant"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DR3-DQ2 (DRB1*03:01-DQA1*05:01-DQB1*02:01)</rdfs:label>
+  <chromosomalLocus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6p21.32</chromosomalLocus>
+  <geneticProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MHC class II molecules</geneticProduct>
+  <geneticRiskEffect rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Strongest risk; DR3/DR4 heterozygotes highest</geneticRiskEffect>
+  <geneticOddsRatio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">~5-7</geneticOddsRatio>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/25471517/</sourcePMID>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Gene_HLA_DR4">
+  <rdf:type rdf:resource="#GeneVariant"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DR4-DQ8 (DRB1*04:01-DQA1*03:01-DQB1*03:02)</rdfs:label>
+  <chromosomalLocus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6p21.32</chromosomalLocus>
+  <geneticProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MHC class II molecules</geneticProduct>
+  <geneticRiskEffect rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Strongest risk; DR3/DR4 heterozygotes highest</geneticRiskEffect>
+  <geneticOddsRatio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">~5-7</geneticOddsRatio>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/25471517/</sourcePMID>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Gene_INS">
+  <rdf:type rdf:resource="#GeneVariant"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INS VNTR</rdfs:label>
+  <chromosomalLocus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11p15.5</chromosomalLocus>
+  <geneticProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Insulin regulatory region</geneticProduct>
+  <geneticRiskEffect rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VNTR affects thymic insulin expression</geneticRiskEffect>
+  <geneticOddsRatio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">~2-3</geneticOddsRatio>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/25471517/</sourcePMID>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Gene_PTPN22">
+  <rdf:type rdf:resource="#GeneVariant"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTPN22 R620W (C1858T)</rdfs:label>
+  <chromosomalLocus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1p13.2</chromosomalLocus>
+  <geneticProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Protein tyrosine phosphatase N22</geneticProduct>
+  <geneticRiskEffect rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOF impairs TCR signalling and tolerance</geneticRiskEffect>
+  <geneticOddsRatio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">~1.5-2</geneticOddsRatio>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/25471517/</sourcePMID>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Gene_CTLA4">
+  <rdf:type rdf:resource="#GeneVariant"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTLA4</rdfs:label>
+  <chromosomalLocus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2q33.2</chromosomalLocus>
+  <geneticProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTLA-4 checkpoint protein</geneticProduct>
+  <geneticRiskEffect rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Impaired Treg function from reduced expression</geneticRiskEffect>
+  <geneticOddsRatio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">~1.2-1.5</geneticOddsRatio>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/25471517/</sourcePMID>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Gene_IL2RA">
+  <rdf:type rdf:resource="#GeneVariant"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IL2RA (CD25)</rdfs:label>
+  <chromosomalLocus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10p15.1</chromosomalLocus>
+  <geneticProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IL-2R alpha chain</geneticProduct>
+  <geneticRiskEffect rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Affects Treg development</geneticRiskEffect>
+  <geneticOddsRatio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">~1.1-1.3</geneticOddsRatio>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/25471517/</sourcePMID>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Gene_IFIH1">
+  <rdf:type rdf:resource="#GeneVariant"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IFIH1 (MDA5)</rdfs:label>
+  <chromosomalLocus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2q24.2</chromosomalLocus>
+  <geneticProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Viral RNA helicase</geneticProduct>
+  <geneticRiskEffect rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Innate antiviral sensor; LOF variants protective</geneticRiskEffect>
+  <geneticOddsRatio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">~1.2-1.4</geneticOddsRatio>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/25471517/</sourcePMID>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Gene_PTPN2">
+  <rdf:type rdf:resource="#GeneVariant"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTPN2</rdfs:label>
+  <chromosomalLocus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18p11.21</chromosomalLocus>
+  <geneticProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TC-PTP phosphatase</geneticProduct>
+  <geneticRiskEffect rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beta-cell apoptosis susceptibility</geneticRiskEffect>
+  <geneticOddsRatio rdf:datatype="http://www.w3.org/2001/XMLSchema#string">~1.1-1.3</geneticOddsRatio>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/25471517/</sourcePMID>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#HLA_DR3DQ2">
+  <rdf:type rdf:resource="#HLAAssociation"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRB1*03:01-DQA1*05:01-DQB1*02:01</rdfs:label>
+  <hlaEffect rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Strong susceptibility</hlaEffect>
+  <hlaMechanism rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Presents proinsulin and GAD65 to CD4+ T-cells</hlaMechanism>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/25471517/</sourcePMID>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#HLA_DR4DQ8">
+  <rdf:type rdf:resource="#HLAAssociation"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRB1*04:01-DQA1*03:01-DQB1*03:02</rdfs:label>
+  <hlaEffect rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Strong susceptibility</hlaEffect>
+  <hlaMechanism rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enhanced insulin B:9-23 epitope presentation</hlaMechanism>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/25471517/</sourcePMID>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#HLA_DR2DQ6">
+  <rdf:type rdf:resource="#HLAAssociation"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRB1*15:01-DQA1*01:02-DQB1*06:02</rdfs:label>
+  <hlaEffect rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Strong protection</hlaEffect>
+  <hlaMechanism rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Negative selection of autoreactive T-cells</hlaMechanism>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/25471517/</sourcePMID>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#HLA_DR4_0403">
+  <rdf:type rdf:resource="#HLAAssociation"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRB1*04:03-DQB1*03:02</rdfs:label>
+  <hlaEffect rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dominant protection</hlaEffect>
+  <hlaMechanism rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Position 57 alters antigen binding pocket</hlaMechanism>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/25471517/</sourcePMID>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Tx_Insulin">
+  <rdf:type rdf:resource="#Treatment"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exogenous insulin therapy</rdfs:label>
+  <treatmentType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pharmacotherapy</treatmentType>
+  <treatmentDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Basal-bolus: rapid-acting (lispro, aspart, glulisine) + long-acting (glargine, detemir, degludec)</treatmentDescription>
+  <treatmentFdaStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Approved</treatmentFdaStatus>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/29595638/</sourcePMID>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Tx_Pump">
+  <rdf:type rdf:resource="#Treatment"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CSII (insulin pump)</rdfs:label>
+  <treatmentType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Medical device</treatmentType>
+  <treatmentDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Continuous subcutaneous insulin infusion; improves HbA1c</treatmentDescription>
+  <treatmentFdaStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Approved</treatmentFdaStatus>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/29595638/</sourcePMID>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Tx_CGM">
+  <rdf:type rdf:resource="#Treatment"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Continuous glucose monitor</rdfs:label>
+  <treatmentType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Medical device</treatmentType>
+  <treatmentDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real-time interstitial glucose: Dexcom G7, Libre 3, Guardian 4</treatmentDescription>
+  <treatmentFdaStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Approved</treatmentFdaStatus>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/29595638/</sourcePMID>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Tx_Teplizumab">
+  <rdf:type rdf:resource="#Treatment"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Teplizumab (anti-CD3)</rdfs:label>
+  <treatmentType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Immunotherapy</treatmentType>
+  <treatmentDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Delays T1D onset in stage 2 at-risk individuals</treatmentDescription>
+  <treatmentFdaStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FDA 2022</treatmentFdaStatus>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/31167052/</sourcePMID>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Tx_ClosedLoop">
+  <rdf:type rdf:resource="#Treatment"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hybrid closed-loop system</rdfs:label>
+  <treatmentType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Medical device</treatmentType>
+  <treatmentDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Algorithm-driven CGM+pump; artificial pancreas</treatmentDescription>
+  <treatmentFdaStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Approved</treatmentFdaStatus>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/31163012/</sourcePMID>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Tx_Transplant">
+  <rdf:type rdf:resource="#Treatment"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pancreatic/islet transplant</rdfs:label>
+  <treatmentType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Surgical</treatmentType>
+  <treatmentDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">For severe T1D with hypoglycemia unawareness</treatmentDescription>
+  <treatmentFdaStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Select cases</treatmentFdaStatus>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/28686848/</sourcePMID>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Tx_Pramlintide">
+  <rdf:type rdf:resource="#Treatment"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pramlintide (amylin analog)</rdfs:label>
+  <treatmentType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pharmacotherapy</treatmentType>
+  <treatmentDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Slows gastric emptying; adjunctive to insulin</treatmentDescription>
+  <treatmentFdaStatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Approved</treatmentFdaStatus>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/26612240/</sourcePMID>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Et_Genetic">
+  <rdf:type rdf:resource="#EtiologyOrigin"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Genetic susceptibility</rdfs:label>
+  <etiologyOriginType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Genetic</etiologyOriginType>
+  <etiologyDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">~50% MZ twin concordance; polygenic risk (HLA, INS, PTPN22, CTLA4, IL2RA, IFIH1)</etiologyDescription>
+  <etiologyExcerpt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">"The HLA region accounts for approximately 50% of the genetic risk of type 1 diabetes."</etiologyExcerpt>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/21447697/</sourcePMID>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Et_Viral">
+  <rdf:type rdf:resource="#EtiologyOrigin"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Viral trigger</rdfs:label>
+  <etiologyOriginType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">External</etiologyOriginType>
+  <etiologyDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enterovirus precedes seroconversion; viral RNA detected in islets</etiologyDescription>
+  <etiologyExcerpt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">"Enteroviral infection is associated with the appearance of islet autoimmunity and clinical type 1 diabetes."</etiologyExcerpt>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/28958587/</sourcePMID>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Et_Tolerance">
+  <rdf:type rdf:resource="#EtiologyOrigin"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Loss of immune tolerance</rdfs:label>
+  <etiologyOriginType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Idiopathic</etiologyOriginType>
+  <etiologyDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Defective central/peripheral tolerance; impaired Treg function</etiologyDescription>
+  <etiologyExcerpt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">"Breakdown of self-tolerance to beta-cell antigens underlies disease initiation."</etiologyExcerpt>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/25614315/</sourcePMID>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Et_Mimicry">
+  <rdf:type rdf:resource="#EtiologyOrigin"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molecular mimicry</rdfs:label>
+  <etiologyOriginType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">External</etiologyOriginType>
+  <etiologyDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coxsackie P2-C / GAD65 homology drives cross-reactive T-cells</etiologyDescription>
+  <etiologyExcerpt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">"Sequence homology between Coxsackievirus P2-C and GAD65 may elicit cross-reactive responses."</etiologyExcerpt>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/24814487/</sourcePMID>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Et_ERStress">
+  <rdf:type rdf:resource="#EtiologyOrigin"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beta-cell ER stress</rdfs:label>
+  <etiologyOriginType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Idiopathic</etiologyOriginType>
+  <etiologyDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unfolded protein response increases beta-cell immunogenicity</etiologyDescription>
+  <etiologyExcerpt rdf:datatype="http://www.w3.org/2001/XMLSchema#string">"ER stress in beta cells generates neoantigens that promote autoimmunity."</etiologyExcerpt>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/30269450/</sourcePMID>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Mark_Cpeptide">
+  <rdf:type rdf:resource="#BiochemicalMarker"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C-peptide</rdfs:label>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Endogenous insulin measure; low/undetectable in T1D</rdfs:comment>
+  <markerDiagnosticUse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagnosis, staging</markerDiagnosticUse>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/27062967/</sourcePMID>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Mark_HbA1c">
+  <rdf:type rdf:resource="#BiochemicalMarker"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HbA1c</rdfs:label>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3-month glucose average; diagnosis &gt;=6.5%</rdfs:comment>
+  <markerDiagnosticUse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagnosis, monitoring</markerDiagnosticUse>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/30609683/</sourcePMID>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Mark_FastingGlucose">
+  <rdf:type rdf:resource="#BiochemicalMarker"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fasting plasma glucose</rdfs:label>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&gt;=126 mg/dL after &gt;=8h fast</rdfs:comment>
+  <markerDiagnosticUse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagnosis</markerDiagnosticUse>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/30609683/</sourcePMID>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Mark_RandomGlucose">
+  <rdf:type rdf:resource="#BiochemicalMarker"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Random plasma glucose</rdfs:label>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&gt;=200 mg/dL with symptoms</rdfs:comment>
+  <markerDiagnosticUse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagnosis</markerDiagnosticUse>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/30609683/</sourcePMID>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Mark_Ketones">
+  <rdf:type rdf:resource="#BiochemicalMarker"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ketones (beta-hydroxybutyrate)</rdfs:label>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Elevated in DKA</rdfs:comment>
+  <markerDiagnosticUse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DKA detection</markerDiagnosticUse>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/30229690/</sourcePMID>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Mark_OGTT">
+  <rdf:type rdf:resource="#BiochemicalMarker"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OGTT</rdfs:label>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">75g load; 2h &gt;=200 mg/dL</rdfs:comment>
+  <markerDiagnosticUse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagnosis, screening</markerDiagnosticUse>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/30609683/</sourcePMID>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Path_1_Genetic">
+  <rdf:type rdf:resource="#PathwayStep"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Genetic susceptibility</rdfs:label>
+  <stepOrder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</stepOrder>
+  <stepCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Genetic</stepCategory>
+  <stepDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HLA-DR3/DR4-DQ, INS VNTR, PTPN22, CTLA4 establish a permissive genetic background.</stepDescription>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/25471517/</sourcePMID>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Path_2_Trigger">
+  <rdf:type rdf:resource="#PathwayStep"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Environmental trigger</rdfs:label>
+  <stepOrder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</stepOrder>
+  <stepCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trigger</stepCategory>
+  <stepDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enteroviral infection or dietary antigens precipitate islet autoimmunity in genetically susceptible hosts.</stepDescription>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/28958587/</sourcePMID>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Path_3_Tolerance">
+  <rdf:type rdf:resource="#PathwayStep"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Loss of immune tolerance</rdfs:label>
+  <stepOrder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</stepOrder>
+  <stepCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Immune</stepCategory>
+  <stepDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Impaired central/peripheral tolerance and defective Treg function permit autoreactive clones.</stepDescription>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/25614315/</sourcePMID>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Path_4_Presentation">
+  <rdf:type rdf:resource="#PathwayStep"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antigen presentation</rdfs:label>
+  <stepOrder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</stepOrder>
+  <stepCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Immune</stepCategory>
+  <stepDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dendritic cells and macrophages present beta-cell antigens in pancreatic lymph nodes.</stepDescription>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/25614315/</sourcePMID>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Path_5_Autoantibodies">
+  <rdf:type rdf:resource="#PathwayStep"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoantibody production</rdfs:label>
+  <stepOrder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</stepOrder>
+  <stepCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antibody</stepCategory>
+  <stepDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B-cells produce GADA, IA-2A, IAA and ZnT8A, the serological hallmark of islet autoimmunity.</stepDescription>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/25614315/</sourcePMID>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Path_6_Insulitis">
+  <rdf:type rdf:resource="#PathwayStep"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T-cell insulitis</rdfs:label>
+  <stepOrder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</stepOrder>
+  <stepCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Immune</stepCategory>
+  <stepDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CD8+ cytotoxic and CD4+ Th1 cells infiltrate the islets (insulitis).</stepDescription>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/25614315/</sourcePMID>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Path_7_BetaDeath">
+  <rdf:type rdf:resource="#PathwayStep"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beta-cell destruction</rdfs:label>
+  <stepOrder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</stepOrder>
+  <stepCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TissueDamage</stepCategory>
+  <stepDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Perforin/granzyme, Fas-FasL and cytokine (IL-1B, IFN-g, TNF) toxicity destroy beta cells.</stepDescription>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/30269450/</sourcePMID>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Path_8_Insulin">
+  <rdf:type rdf:resource="#PathwayStep"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Insulin deficiency &amp; hyperglycemia</rdfs:label>
+  <stepOrder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</stepOrder>
+  <stepCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Outcome</stepCategory>
+  <stepDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Loss of &gt;80-90% beta-cell mass yields absolute insulin deficiency and clinical hyperglycemia.</stepDescription>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/30609683/</sourcePMID>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Cyto_IL1B">
+  <rdf:type rdf:resource="#Cytokine"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IL-1B</rdfs:label>
+  <mediatorDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pro-inflammatory; beta-cell apoptosis via NF-kB and NO</mediatorDescription>
+  <componentRelevance rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beta-cell toxicity</componentRelevance>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/25614315/</sourcePMID>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Cyto_IFNG">
+  <rdf:type rdf:resource="#Cytokine"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IFN-g</rdfs:label>
+  <mediatorDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Macrophage activation; MHC-I upregulation</mediatorDescription>
+  <componentRelevance rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pro-inflammatory</componentRelevance>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/25614315/</sourcePMID>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Cyto_TNF">
+  <rdf:type rdf:resource="#Cytokine"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TNF-a</rdfs:label>
+  <mediatorDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Insulitis and beta-cell damage</mediatorDescription>
+  <componentRelevance rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pro-inflammatory</componentRelevance>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/25614315/</sourcePMID>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Cyto_IL10">
+  <rdf:type rdf:resource="#Cytokine"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IL-10</rdfs:label>
+  <mediatorDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regulatory; impaired in T1D</mediatorDescription>
+  <componentRelevance rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regulatory (dysregulated)</componentRelevance>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/25614315/</sourcePMID>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Cyto_IL21">
+  <rdf:type rdf:resource="#Cytokine"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IL-21</rdfs:label>
+  <mediatorDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tfh-derived B-cell differentiation</mediatorDescription>
+  <componentRelevance rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pro-inflammatory</componentRelevance>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/25614315/</sourcePMID>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Cyto_IL17">
+  <rdf:type rdf:resource="#Cytokine"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IL-17A</rdfs:label>
+  <mediatorDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neutrophil recruitment to islets</mediatorDescription>
+  <componentRelevance rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pro-inflammatory</componentRelevance>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/25614315/</sourcePMID>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#T_Th1">
+  <rdf:type rdf:resource="#TCellSubset"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CD4+ Th1 cells</rdfs:label>
+  <tCellRole rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IFN-g mediated; dominant pathogenic subset</tCellRole>
+  <componentRelevance rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dominant pathogenic</componentRelevance>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/25614315/</sourcePMID>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#T_Th17">
+  <rdf:type rdf:resource="#TCellSubset"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CD4+ Th17 cells</rdfs:label>
+  <tCellRole rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IL-17; neutrophil recruitment</tCellRole>
+  <componentRelevance rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Contributory</componentRelevance>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/25614315/</sourcePMID>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#T_Treg">
+  <rdf:type rdf:resource="#TCellSubset"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CD4+ Treg cells</rdfs:label>
+  <tCellRole rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Impaired FoxP3 and suppressive function</tCellRole>
+  <componentRelevance rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Defective regulation</componentRelevance>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/25614315/</sourcePMID>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#T_Tfh">
+  <rdf:type rdf:resource="#TCellSubset"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CD4+ Tfh cells</rdfs:label>
+  <tCellRole rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B-cell maturation and autoantibody production</tCellRole>
+  <componentRelevance rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drive autoantibodies</componentRelevance>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/25614315/</sourcePMID>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#T_CD8">
+  <rdf:type rdf:resource="#TCellSubset"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CD8+ cytotoxic T-cells</rdfs:label>
+  <tCellRole rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beta-cell destruction via perforin/granzyme, Fas-FasL</tCellRole>
+  <componentRelevance rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Primary effector</componentRelevance>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/25614315/</sourcePMID>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#APC_DC">
+  <rdf:type rdf:resource="#APC"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dendritic cells</rdfs:label>
+  <mediatorDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Present antigens in pancreatic lymph nodes</mediatorDescription>
+  <componentRelevance rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Initiation</componentRelevance>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/25614315/</sourcePMID>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#APC_Macro">
+  <rdf:type rdf:resource="#APC"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Macrophages</rdfs:label>
+  <mediatorDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pro-inflammatory cytokines in islets</mediatorDescription>
+  <componentRelevance rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inflammation</componentRelevance>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/25614315/</sourcePMID>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#APC_BCell">
+  <rdf:type rdf:resource="#APC"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B-cells</rdfs:label>
+  <mediatorDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APC in lymph nodes; autoantibody production</mediatorDescription>
+  <componentRelevance rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoantibodies</componentRelevance>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/25614315/</sourcePMID>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#TF_STAT4">
+  <rdf:type rdf:resource="#TranscriptionFactor"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">STAT4</rdfs:label>
+  <mediatorDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Th1 differentiation; GWAS locus</mediatorDescription>
+  <componentRelevance rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Th1 diff</componentRelevance>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/25471517/</sourcePMID>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#TF_Tbet">
+  <rdf:type rdf:resource="#TranscriptionFactor"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T-bet (TBX21)</rdfs:label>
+  <mediatorDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Master Th1 regulator</mediatorDescription>
+  <componentRelevance rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Th1 lineage</componentRelevance>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/25471517/</sourcePMID>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#TF_FoxP3">
+  <rdf:type rdf:resource="#TranscriptionFactor"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FoxP3</rdfs:label>
+  <mediatorDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Master Treg regulator; reduced in T1D</mediatorDescription>
+  <componentRelevance rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Treg</componentRelevance>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/25471517/</sourcePMID>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#TF_RORgt">
+  <rdf:type rdf:resource="#TranscriptionFactor"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RORgt (RORC)</rdfs:label>
+  <mediatorDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Master Th17 regulator</mediatorDescription>
+  <componentRelevance rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Th17 lineage</componentRelevance>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/25471517/</sourcePMID>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Innate_TLR2">
+  <rdf:type rdf:resource="#InnateComponent"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TLR2</rdfs:label>
+  <mediatorDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DAMPs from stressed beta-cells</mediatorDescription>
+  <componentRelevance rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DAMP</componentRelevance>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/28958587/</sourcePMID>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Innate_TLR4">
+  <rdf:type rdf:resource="#InnateComponent"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TLR4</rdfs:label>
+  <mediatorDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HMGB1 from necrotic beta-cells</mediatorDescription>
+  <componentRelevance rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DAMP</componentRelevance>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/28958587/</sourcePMID>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Innate_IFIH1">
+  <rdf:type rdf:resource="#InnateComponent"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IFIH1/MDA5</rdfs:label>
+  <mediatorDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Viral RNA sensor; GWAS</mediatorDescription>
+  <componentRelevance rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Viral sensing</componentRelevance>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/28958587/</sourcePMID>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Comp_C3">
+  <rdf:type rdf:resource="#ComplementComponent"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Complement C3</rdfs:label>
+  <mediatorDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Central complement; elevated in T1D</mediatorDescription>
+  <componentRelevance rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Islet inflammation</componentRelevance>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/25614315/</sourcePMID>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Comp_C4">
+  <rdf:type rdf:resource="#ComplementComponent"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Complement C4</rdfs:label>
+  <mediatorDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C4d deposition in islets</mediatorDescription>
+  <componentRelevance rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Classical pathway</componentRelevance>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/25614315/</sourcePMID>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Rec_IL2R">
+  <rdf:type rdf:resource="#Receptor"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IL-2R (CD25)</rdfs:label>
+  <mediatorDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Treg maintenance; GWAS locus</mediatorDescription>
+  <componentRelevance rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Treg</componentRelevance>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/25471517/</sourcePMID>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Rec_CTLA4">
+  <rdf:type rdf:resource="#Receptor"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTLA-4 (CD152)</rdfs:label>
+  <mediatorDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Checkpoint; reduced in T1D</mediatorDescription>
+  <componentRelevance rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Checkpoint</componentRelevance>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/25471517/</sourcePMID>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Rec_PD1">
+  <rdf:type rdf:resource="#Receptor"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PD-1 (CD279)</rdfs:label>
+  <mediatorDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inhibitory; T1D polymorphisms</mediatorDescription>
+  <componentRelevance rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exhaustion</componentRelevance>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/25471517/</sourcePMID>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Rec_Fas">
+  <rdf:type rdf:resource="#Receptor"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fas (CD95)</rdfs:label>
+  <mediatorDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Death receptor on beta-cells</mediatorDescription>
+  <componentRelevance rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Apoptosis</componentRelevance>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/25471517/</sourcePMID>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#NET_NETs">
+  <rdf:type rdf:resource="#NETosisComponent"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neutrophil extracellular traps (NETs)</rdfs:label>
+  <mediatorDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Increased NETosis precedes T1D onset; NET components deposit in islets</mediatorDescription>
+  <componentRelevance rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Early autoimmunity</componentRelevance>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/25614315/</sourcePMID>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#NET_PAD4">
+  <rdf:type rdf:resource="#NETosisComponent"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PAD4 (citrullination)</rdfs:label>
+  <mediatorDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peptidylarginine deiminase 4 drives NET formation and neoantigen citrullination</mediatorDescription>
+  <componentRelevance rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neoantigen generation</componentRelevance>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/25614315/</sourcePMID>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#NET_MPO">
+  <rdf:type rdf:resource="#NETosisComponent"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Myeloperoxidase (MPO)</rdfs:label>
+  <mediatorDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NET-associated enzyme; elevated neutrophil activity in new-onset T1D</mediatorDescription>
+  <componentRelevance rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inflammatory marker</componentRelevance>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/25614315/</sourcePMID>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Inf_NLRP3">
+  <rdf:type rdf:resource="#Inflammasome"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NLRP3 inflammasome</rdfs:label>
+  <mediatorDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Activated by beta-cell DAMPs; drives caspase-1 cleavage and IL-1B maturation</mediatorDescription>
+  <componentRelevance rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IL-1B activation</componentRelevance>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/30269450/</sourcePMID>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Inf_Caspase1">
+  <rdf:type rdf:resource="#Inflammasome"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Caspase-1</rdfs:label>
+  <mediatorDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Effector protease converting pro-IL-1B/pro-IL-18 to active cytokines</mediatorDescription>
+  <componentRelevance rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cytokine maturation</componentRelevance>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/30269450/</sourcePMID>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Inf_ASC">
+  <rdf:type rdf:resource="#Inflammasome"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ASC (PYCARD)</rdfs:label>
+  <mediatorDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adaptor protein nucleating inflammasome assembly</mediatorDescription>
+  <componentRelevance rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inflammasome scaffold</componentRelevance>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/30269450/</sourcePMID>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#APR_CRP">
+  <rdf:type rdf:resource="#AcutePhaseReactant"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C-reactive protein (CRP)</rdfs:label>
+  <mediatorDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Low-grade elevation reflects subclinical inflammation in T1D</mediatorDescription>
+  <componentRelevance rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inflammation marker</componentRelevance>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/25614315/</sourcePMID>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#APR_SAA">
+  <rdf:type rdf:resource="#AcutePhaseReactant"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Serum amyloid A (SAA)</rdfs:label>
+  <mediatorDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acute-phase protein raised during islet inflammation</mediatorDescription>
+  <componentRelevance rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inflammation marker</componentRelevance>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/25614315/</sourcePMID>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#APR_Fibrinogen">
+  <rdf:type rdf:resource="#AcutePhaseReactant"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fibrinogen</rdfs:label>
+  <mediatorDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Elevated in T1D; contributes to vascular complication risk</mediatorDescription>
+  <componentRelevance rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vascular risk</componentRelevance>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/25614315/</sourcePMID>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Antigen_Insulin">
+  <rdf:type rdf:resource="#Antigen"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Pro)insulin</rdfs:label>
+  <mediatorDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Primary autoantigen; B:9-23 epitope central to disease initiation</mediatorDescription>
+  <componentRelevance rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Primary autoantigen</componentRelevance>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/25614315/</sourcePMID>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Antigen_GAD65">
+  <rdf:type rdf:resource="#Antigen"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAD65 (glutamic acid decarboxylase 65)</rdfs:label>
+  <mediatorDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Major islet autoantigen targeted by GADA</mediatorDescription>
+  <componentRelevance rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Major autoantigen</componentRelevance>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/25614315/</sourcePMID>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Antigen_IA2">
+  <rdf:type rdf:resource="#Antigen"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IA-2 (tyrosine phosphatase)</rdfs:label>
+  <mediatorDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Islet autoantigen; target of IA-2A</mediatorDescription>
+  <componentRelevance rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoantigen</componentRelevance>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/25614315/</sourcePMID>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Antigen_ZnT8">
+  <rdf:type rdf:resource="#Antigen"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZnT8 (zinc transporter 8)</rdfs:label>
+  <mediatorDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beta-cell zinc transporter; target of ZnT8A</mediatorDescription>
+  <componentRelevance rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoantigen</componentRelevance>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/25614315/</sourcePMID>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#T1D_0002">
+  <rdf:type rdf:resource="#AutoimmuneDisease"/>
+  <hasParentDisease rdf:resource="#T1D_0001"/>
+  <hasParentCategory rdf:resource="#Category_Endocrine"/>
+  <targetsTissue rdf:resource="#Tissue_BetaCell"/>
+  <targetsTissue rdf:resource="#Tissue_Islet"/>
+  <hasSymptom rdf:resource="#Sym_LADA_Thirst"/>
+  <hasSymptom rdf:resource="#Sym_LADA_WeightLoss"/>
+  <hasAntibody rdf:resource="#Ab_LADA_GAD65"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Latent autoimmune diabetes in adults (LADA)</rdfs:label>
+  <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0002</ARI_ID>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LADA is a slowly progressive form of autoimmune diabetes presenting in adulthood, characterized by GAD65 autoantibodies and gradual beta-cell failure that initially does not require insulin, bridging type 1 and type 2 diabetes phenotypes.</rdfs:comment>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+  <ARI_Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.0</ARI_Version>
+  <diseaseCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune</diseaseCategory>
+  <evidenceQuality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Moderate</evidenceQuality>
+  <ageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adult-onset, typically &gt;30 years</ageRange>
+  <prevalencePer100k rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8.0</prevalencePer100k>
+  <ARI_PrevalenceDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">~5-10% of adult-onset diabetes; ~8/100k.</ARI_PrevalenceDesc>
+  <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diabetes Care LADA consensus; PMID: 32086290</ARI_DefSource>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LADA</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Type 1.5 diabetes</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Slowly progressive IDDM</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Latent autoimmune diabetes</ARI_Synonym>
+  <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9744</ARI_DOID>
+  <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C2987933</ARI_UMLS>
+  <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MONDO:0011027</ARI_MONDO>
+  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E10</ARI_ICD10>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-12 | System | Initial subtype entry</ARI_ChangeLog>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_LADA_Thirst">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Polydipsia</rdfs:label>
+  <likelihood rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Common (50-70%)</likelihood>
+  <symptomDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gradual onset thirst as beta-cell function declines</symptomDescription>
+  <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0100627</rdfs:seeAlso>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/26494507/</sourcePMID>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_LADA_WeightLoss">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gradual weight loss</rdfs:label>
+  <likelihood rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Moderate</likelihood>
+  <symptomDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Slow weight loss over months to years</symptomDescription>
+  <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0001824</rdfs:seeAlso>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/26494507/</sourcePMID>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Ab_LADA_GAD65">
+  <rdf:type rdf:resource="#Autoantibody"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anti-GAD65 (GADA)</rdfs:label>
+  <antibodyFrequency rdf:datatype="http://www.w3.org/2001/XMLSchema#string">90-100%</antibodyFrequency>
+  <antibodyDiagnosticValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Defining serological marker of LADA</antibodyDiagnosticValue>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/26494507/</sourcePMID>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#T1D_0003">
+  <rdf:type rdf:resource="#AutoimmuneDisease"/>
+  <hasParentDisease rdf:resource="#T1D_0001"/>
+  <hasParentCategory rdf:resource="#Category_Endocrine"/>
+  <targetsTissue rdf:resource="#Tissue_BetaCell"/>
+  <targetsTissue rdf:resource="#Tissue_Islet"/>
+  <hasSymptom rdf:resource="#Sym_Ful_DKA"/>
+  <hasSymptom rdf:resource="#Sym_Ful_Flu"/>
+  <hasAntibody rdf:resource="#Ab_Ful_GAD65"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fulminant type 1 diabetes</rdfs:label>
+  <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0003</ARI_ID>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fulminant T1D is a rare, abrupt-onset subtype characterized by very rapid beta-cell destruction over days, near-normal HbA1c at presentation despite severe hyperglycemia, and frequent absence of islet autoantibodies. Most cases are reported in East Asia.</rdfs:comment>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+  <ARI_Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.0</ARI_Version>
+  <diseaseCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune</diseaseCategory>
+  <evidenceQuality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Moderate</evidenceQuality>
+  <ageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any age; often associated with pregnancy</ageRange>
+  <prevalencePer100k rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</prevalencePer100k>
+  <ARI_PrevalenceDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rare; predominantly East Asian populations. &lt;1/100k.</ARI_PrevalenceDesc>
+  <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Japan Diabetes Society criteria; PMID: 22912766</ARI_DefSource>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fulminant diabetes</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acute-onset type 1 diabetes</ARI_Synonym>
+  <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C2349037</ARI_UMLS>
+  <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MONDO:0014523</ARI_MONDO>
+  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E10</ARI_ICD10>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-12 | System | Initial subtype entry</ARI_ChangeLog>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_Ful_DKA">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fulminant ketoacidosis</rdfs:label>
+  <likelihood rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Very common (&gt;=90%)</likelihood>
+  <symptomDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Severe DKA within days of symptom onset</symptomDescription>
+  <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0001953</rdfs:seeAlso>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/17456842/</sourcePMID>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_Ful_Flu">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flu-like prodrome</rdfs:label>
+  <likelihood rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Common (70%)</likelihood>
+  <symptomDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Preceding viral-like illness before abrupt onset</symptomDescription>
+  <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HP:0033273</rdfs:seeAlso>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/17456842/</sourcePMID>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Ab_Ful_GAD65">
+  <rdf:type rdf:resource="#Autoantibody"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anti-GAD65 (GADA)</rdfs:label>
+  <antibodyFrequency rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&lt;5%</antibodyFrequency>
+  <antibodyDiagnosticValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Usually negative, distinguishing it from classic T1D</antibodyDiagnosticValue>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/17456842/</sourcePMID>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+
+</rdf:RDF>
