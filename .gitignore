@@ -13,3 +13,4 @@ data/1-master/Copy of ARI Master List - Edited Version by Professors of Immunolo
 data/2-databases/*
 *archive/
 *.zip
+notebook/ari-grounding/doid_records.json
