@@ -108,6 +108,11 @@ $('#tree-pane').addEventListener('click', e => {
 });
 
 // ----------------------------------------------------------------- SEARCH
+// Sub-label for a result: the match reason (synonym/tissue) when the hit wasn't
+// on the name, otherwise the local ontology id.
+function searchSub(r){
+  return (r.match && r.match !== 'name') ? r.match : r.local_name;
+}
 let searchTimer;
 $('#search').addEventListener('input', e => {
   clearTimeout(searchTimer);
@@ -118,7 +123,7 @@ $('#search').addEventListener('input', e => {
     if (!rs.length){ $('#search-results').innerHTML = '<div class="node-row" style="padding:8px;color:var(--muted)">No matches</div>'; }
     else {
       let html = rs.slice(0, 12).map(r =>
-        `<div class="node-row" data-iri="${esc(r.iri)}" style="border-bottom:1px solid var(--border)${r.obsolete?';opacity:.5':''}">${esc(r.name)} <span class="sub">${esc(r.local_name)}</span></div>`
+        `<div class="node-row" data-iri="${esc(r.iri)}" style="border-bottom:1px solid var(--border)${r.obsolete?';opacity:.5':''}">${esc(r.name)} <span class="sub">${esc(searchSub(r))}</span></div>`
       ).join('');
       // Footer option: open the full results page in the middle pane.
       html += `<div class="node-row search-all-row" data-search-all="${esc(q)}">🔍 View all ${rs.length} result${rs.length===1?'':'s'} for &ldquo;${esc(q)}&rdquo;</div>`;
@@ -157,7 +162,7 @@ async function showSearchResultsPage(q){
     for (const r of rows){
       h += `<div class="search-result-row${r.obsolete?' obsolete':''}" data-iri="${esc(r.iri)}">`+
         `<span class="srr-name">${esc(r.name)}${r.obsolete?' <span class="obsolete-tag">(obsolete)</span>':''}</span>`+
-        `<span class="srr-sub">${esc(r.local_name)}</span></div>`;
+        `<span class="srr-sub">${esc(searchSub(r))}</span></div>`;
     }
     return h + '</div>';
   };
