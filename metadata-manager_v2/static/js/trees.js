@@ -117,15 +117,54 @@ $('#search').addEventListener('input', e => {
     const rs = await api('/api/v2/search?q=' + encodeURIComponent(q));
     if (!rs.length){ $('#search-results').innerHTML = '<div class="node-row" style="padding:8px;color:var(--muted)">No matches</div>'; }
     else {
-      $('#search-results').innerHTML = rs.slice(0, 20).map(r =>
+      let html = rs.slice(0, 12).map(r =>
         `<div class="node-row" data-iri="${esc(r.iri)}" style="border-bottom:1px solid var(--border)${r.obsolete?';opacity:.5':''}">${esc(r.name)} <span class="sub">${esc(r.local_name)}</span></div>`
       ).join('');
+      // Footer option: open the full results page in the middle pane.
+      html += `<div class="node-row search-all-row" data-search-all="${esc(q)}">🔍 View all ${rs.length} result${rs.length===1?'':'s'} for &ldquo;${esc(q)}&rdquo;</div>`;
+      $('#search-results').innerHTML = html;
     }
     $('#search-results').classList.remove('hidden');
   }, 200);
 });
 $('#search-results').addEventListener('click', e => {
+  const all = e.target.closest('[data-search-all]');
+  if (all){ showSearchResultsPage(all.dataset.searchAll); $('#search-results').classList.add('hidden'); return; }
   const r = e.target.closest('[data-iri]');
   if (r){ selectDisease(r.dataset.iri); $('#search-results').classList.add('hidden'); $('#search').value = ''; }
 });
+$('#search').addEventListener('keydown', e => {
+  if (e.key === 'Enter'){ const q = e.target.value.trim(); if (q){ showSearchResultsPage(q); $('#search-results').classList.add('hidden'); } }
+});
 $('#search').addEventListener('blur', () => setTimeout(() => $('#search-results').classList.add('hidden'), 200));
+
+// Full search-results page rendered in the middle pane.
+async function showSearchResultsPage(q){
+  state.activeIri = null;
+  $('#tree-pane').querySelectorAll('.selected').forEach(el => el.classList.remove('selected'));
+  showLoading('#detail-pane');
+  let rs;
+  try { rs = await api('/api/v2/search?q=' + encodeURIComponent(q)); }
+  catch(err){ $('#detail-pane').innerHTML = '<div class="empty-state">Search failed.</div>'; return; }
+  const diseases = rs.filter(r => r.is_disease);
+  const others = rs.filter(r => !r.is_disease);
+  let html = `<div class="search-page"><h1>Search results</h1>`+
+    `<div class="search-page-sub">${rs.length} match${rs.length===1?'':'es'} for &ldquo;<strong>${esc(q)}</strong>&rdquo;</div>`;
+  if (!rs.length){ html += '<div class="empty-state">No matches found.</div>'; }
+  const section = (title, rows) => {
+    if (!rows.length) return '';
+    let h = `<div class="section-label">${title} (${rows.length})</div><div class="search-results-list">`;
+    for (const r of rows){
+      h += `<div class="search-result-row${r.obsolete?' obsolete':''}" data-iri="${esc(r.iri)}">`+
+        `<span class="srr-name">${esc(r.name)}${r.obsolete?' <span class="obsolete-tag">(obsolete)</span>':''}</span>`+
+        `<span class="srr-sub">${esc(r.local_name)}</span></div>`;
+    }
+    return h + '</div>';
+  };
+  html += section('Diseases', diseases);
+  html += section('Other matches', others);
+  html += '</div>';
+  $('#detail-pane').innerHTML = html;
+  $('#detail-pane').querySelectorAll('[data-iri]').forEach(row =>
+    row.addEventListener('click', () => selectDisease(row.dataset.iri)));
+}

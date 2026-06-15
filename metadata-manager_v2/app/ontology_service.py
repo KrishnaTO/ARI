@@ -7,6 +7,7 @@ from pathlib import Path
 
 from owlready2 import World, label, comment, destroy_entity
 
+from .feedback_service import FeedbackStore
 from .schema import CATEGORIES, SEEALSO_IRI
 
 
@@ -15,6 +16,7 @@ class OntologyService:
         self.path = Path(path)
         if not self.path.exists():
             raise FileNotFoundError(f"Ontology file not found: {self.path}")
+        self.feedback = FeedbackStore(self.path.parent.parent / "feedback")
         self._load()
 
     def _load(self):
@@ -389,6 +391,7 @@ class OntologyService:
 
     def search(self, query: str) -> list:
         q = query.lower()
+        disease_iris = {d.iri for d in self._all_diseases()}
         results = []
         for ind in self.onto.individuals():
             nm = self._get_label(ind).lower()
@@ -398,8 +401,11 @@ class OntologyService:
                     "name": self._get_label(ind),
                     "local_name": ind.name,
                     "obsolete": self._is_obsolete(ind),
+                    "is_disease": ind.iri in disease_iris,
                 })
-        return results[:50]
+        # diseases first, then by name
+        results.sort(key=lambda r: (not r["is_disease"], r["name"].lower()))
+        return results[:100]
 
     # --------------------------------------------------------- WRITE API
     # Editable disease fields -> (kind, property-iri-suffix, caster)
@@ -653,4 +659,9 @@ class OntologyService:
         records = self.list_releases()
         records.append(record)
         self._manifest_path.write_text(json.dumps(records, indent=2), encoding="utf-8")
+
+        # Expire per-term feedback (entries flagged "keep" are retained).
+        fb = self.feedback.archive_on_release(version)
+        record["feedback_archived"] = fb["archived"]
+        record["feedback_retained"] = fb["retained"]
         return record

@@ -185,5 +185,6 @@ function boxDefs(d){
     { key:'apr', icon:'⚡', label:'Acute Phase Reactants', count: d.acute_phase_reactants?.length||0, show: d.acute_phase_reactants?.length },
     { key:'antigens', icon:'🎯', label:'Antigens', count: d.antigens?.length||0, show: d.antigens?.length },
     { key:'changelog', icon:'📋', label:'Change Log', count: d.changelog?.length||0, show: true, note:'history' },
+    { key:'feedback', icon:'💬', label:'Feedback', count: 0, show: true, note:'comment' },
   ];
 }

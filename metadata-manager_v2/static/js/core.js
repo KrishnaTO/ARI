@@ -33,8 +33,8 @@ const STORY_GROUPS = [
     keys:['biomarkers','treatments'] },
   { num:5, title:'Prevalence', hint:'Epidemiology and disease burden',
     keys:['prevalence'] },
-  { num:null, title:'Record', hint:'Edit and release history',
-    keys:['changelog'] },
+  { num:null, title:'Record', hint:'Edit and release history, and curator feedback',
+    keys:['changelog','feedback'] },
 ];
 
 // Aspect category + concept description for each box, derived from the
@@ -62,6 +62,7 @@ const BOX_META = {
   treatments:     { aspect:'Management',               desc:'Known treatments from medically recognised sources and clinical studies.' },
   prevalence:     { aspect:'Epidemiology',             desc:'Total number of cases per defined population; varies by geography and ethnicity.' },
   changelog:      { aspect:'Record',                   desc:'Edit and release history for this disease record.' },
+  feedback:       { aspect:'Record',                   desc:'Leave comments about this term. Feedback is cleared at the next version release unless marked “keep after release”.' },
 };
 
 function toast(msg){
