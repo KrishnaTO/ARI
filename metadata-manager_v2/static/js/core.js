@@ -94,6 +94,9 @@ function xrefLink(kind, id){
     case 'doid': return `https://disease-ontology.org/?id=DOID:${num}`;
     case 'umls': return `https://uts.nlm.nih.gov/uts/umls/concept/${id}`;
     case 'mondo': return `https://www.ebi.ac.uk/ols4/ontologies/mondo/classes?short_form=MONDO_${num}`;
+    case 'mesh': return `https://meshb.nlm.nih.gov/record/ui?ui=${num}`;
+    case 'nci': return `https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&code=${num}`;
+    case 'omop': return `https://athena.ohdsi.org/search-terms/terms/${num}`;
     default: return '#';
   }
 }
