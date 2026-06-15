@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ARI Disease Metadata Manager v2</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/d3-cloud@1.2.7/build/d3.layout.cloud.js"></script>
+<link rel="stylesheet" href="css/styles.css?v=4">
+</head>
+<body>
+<header>
+  <div class="brand">ARI <span>Disease Manager</span></div>
+  <div id="onto-meta"></div>
+  <div class="search-wrap">
+    <input id="search" placeholder="Search..." autocomplete="off">
+    <div id="search-results" class="dropdown hidden"></div>
+  </div>
+  <button id="edit-toggle" class="hbtn" disabled>&#9998; Edit</button>
+  <button id="admin-btn" class="hbtn">&#9881; Admin</button>
+</header>
+
+<div class="layout" id="layout">
+  <div class="left-col">
+    <div class="tabs">
+      <button class="tab active" data-view="alphabetical">Alphabetical</button>
+      <button class="tab" data-view="tissue">Tissue Target</button>
+      <button class="tab" data-view="symptoms">Symptoms</button>
+    </div>
+    <div class="pane" id="tree-pane"><div class="loading">Loading...</div></div>
+  </div>
+
+  <div class="mid-col" id="mid-col">
+    <div id="detail-pane">
+      <div class="empty-state">
+        <p style="font-size:24px;margin:0 0 8px">&#128203;</p>
+        <p>Select a disease from the list to view details.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="right-col" id="right-col">
+    <div class="right-panel" id="right-panel-content"></div>
+  </div>
+</div>
+
+<!-- App modules — classic scripts, loaded in dependency order (shared global scope) -->
+<script src="js/core.js?v=4"></script>
+<script src="js/trees.js?v=4"></script>
+<script src="js/detail.js?v=4"></script>
+<script src="js/panels.js?v=4"></script>
+<script src="js/graph.js?v=4"></script>
+<script src="js/editor.js?v=4"></script>
+<script src="js/main.js?v=4"></script>
+</body>
+</html>
