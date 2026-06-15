@@ -34,6 +34,11 @@ async def not_found(request: Request, exc: KeyError):
     return JSONResponse(status_code=404, content={"detail": str(exc.args[0])})
 
 
+@app.exception_handler(ValueError)
+async def bad_request(request: Request, exc: ValueError):
+    return JSONResponse(status_code=400, content={"detail": str(exc)})
+
+
 @app.get("/api/v2/overview")
 async def overview():
     return service.overview()
@@ -117,6 +122,32 @@ async def create_release(payload: dict = Body(default={})):
 @app.get("/api/v2/search")
 async def search(q: str = ""):
     return service.search(q)
+
+
+# ----------------------------------------------------------------- FEEDBACK
+@app.get("/api/v2/feedback")
+async def feedback_list(disease: str = ""):
+    return service.feedback.list(disease or None)
+
+
+@app.post("/api/v2/feedback")
+async def feedback_add(payload: dict = Body(...)):
+    """Add feedback for a term. Body: {disease, term, message, keep, author}."""
+    return service.feedback.add(
+        payload.get("disease", ""), payload.get("term", ""), payload.get("message", ""),
+        keep=payload.get("keep", False), author=payload.get("author", "anonymous"))
+
+
+@app.put("/api/v2/feedback/{fid}")
+async def feedback_update(fid: str, payload: dict = Body(...)):
+    """Edit feedback. Body: {message?, keep?, author?}."""
+    return service.feedback.update(fid, message=payload.get("message"),
+                                   keep=payload.get("keep"), author=payload.get("author"))
+
+
+@app.delete("/api/v2/feedback/{fid}")
+async def feedback_delete(fid: str):
+    return service.feedback.delete(fid)
 
 
 app.mount("/", StaticFiles(directory=STATIC_DIR, html=True), name="static")

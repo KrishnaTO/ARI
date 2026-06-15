@@ -15,7 +15,7 @@ function renderReadView(d, key, panel){
     prevalence: renderPrevalence, symptoms: renderSymptoms, environmental: renderEnvironmental,
     antibodies: renderAntibodies, treatments: renderTreatments, etiology: renderEtiology,
     genetic: renderGenetic, biomarkers: renderBiomarkers, pathophysiology: renderPathophysiology,
-    changelog: renderChangelog,
+    changelog: renderChangelog, feedback: renderFeedback,
   };
   try {
     if (handlers[key]) handlers[key](d, panel);

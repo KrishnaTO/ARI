@@ -311,6 +311,24 @@ def import_into(onto_path: Path, reports: Path) -> dict:
             by_ari[str(a)] = ind
         by_tokens.setdefault(name_tokens(get_label(ind)), ind)
 
+    # Diseases are created under the registry namespace from the report's IRI
+    # column (https://diseases.autoimmuneregistry.org/disease/...) rather than the
+    # ontology's own aurint.org namespace.
+    ns_cache = {}
+
+    def get_ns(base_iri):
+        if base_iri not in ns_cache:
+            ns_cache[base_iri] = onto.get_namespace(base_iri)
+        return ns_cache[base_iri]
+
+    def split_iri(iri):
+        """Split a full IRI into (namespace_base, local_name)."""
+        if "#" in iri:
+            b, _, n = iri.rpartition("#")
+            return b + "#", n
+        b, _, n = iri.rpartition("/")
+        return b + "/", n
+
     tissue_cache = {}
 
     def tissue_individual(region):
@@ -356,19 +374,27 @@ def import_into(onto_path: Path, reports: Path) -> dict:
 
     for ari, rec in core.items():
         pref = s(rec.get("Preferred Name"))
+        report_iri = s(rec.get("IRI"))
         # locate or create the disease individual
         ind = by_ari.get(ari) or by_tokens.get(name_tokens(pref))
         is_new = ind is None
         if is_new:
-            local = local_from_ari(ari)
-            ind = world[base + local]
+            ind = world[report_iri] if report_iri else world[base + local_from_ari(ari)]
             if ind is None:
-                with onto:
-                    ind = Disease(local)
+                if report_iri:
+                    iri_base, iri_name = split_iri(report_iri)
+                    with onto:
+                        ind = Disease(iri_name, namespace=get_ns(iri_base))
+                else:
+                    with onto:
+                        ind = Disease(local_from_ari(ari))
                 label[ind] = [pref]
             P("ARI_Obsolete")[ind] = ["false"]
             created += 1
         else:
+            # curated disease being merged (e.g. T1D): adopt the registry IRI
+            if report_iri and ind.iri != report_iri:
+                ind.iri = report_iri
             enriched += 1
 
         # ----- identifiers -----
