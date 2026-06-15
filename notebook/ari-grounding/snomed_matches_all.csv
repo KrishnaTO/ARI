@@ -24,189 +24,188 @@ ARI:0001022,Atypical hemolytic uremic syndrome with anti-factor H autoantibodies
 ARI:0001023,Autoimmune angioedema,402401003,Autoimmune angioedema,0.778,name,(preferred name),4224624,,402401003,Yes
 ARI:0001024,Autoimmune cerebellar ataxia,,,,,no match,,,,
 ARI:0001025,Autoimmune diabetes insipidus (neurogenic),,,,,no match,,,,
-ARI:0001026,Autoimmune disease,85828009,Autoimmune disease,0.778,name,(preferred name),434621,,85828009,Yes
-ARI:0001027,Autoimmune disorder of inner ear,232308006,Autoimmune disorder of inner ear,0.778,name,(preferred name),4337463,,"232308006, 13445001",Yes
-ARI:0001028,Autoimmune encephalitis,95643007,Autoimmune encephalitis,0.778,name,(preferred name),4318558,,95643007,Yes
-ARI:0001029,Autoimmune encephalitis caused by N-methyl D-aspartate receptor antibody,452281000124106,Autoimmune encephalitis caused by N-methyl D-aspartate receptor antibody,0.778,name,(preferred name),764228,,"452281000124106, 716684004",Yes
-ARI:0001030,Autoimmune ganglionopathy,838330008,Autoimmune ganglionopathy,0.778,name,(preferred name),3654638,,"838330008, 838321000",Yes
-ARI:0001031,Autoimmune gastritis,84568007,Atrophic gastritis,0.778,name,Atrophic gastritis,192667,,"84568007, 235728001, 84027009",Yes
-ARI:0001032,Autoimmune hemolytic anemia,413603009,Autoimmune hemolytic anemia,0.778,name,(preferred name),441269,,"413603009, 718716008",Yes
-ARI:0001033,Autoimmune hepatitis,408335007,Autoimmune hepatitis,0.778,name,(preferred name),200762,,"408335007, 721711009, 721712002, 721713007, 16098491000119109",Yes
-ARI:0001034,Autoimmune hypoparathyroidism,75316000,Autoimmune hypoparathyroidism,0.778,name,(preferred name),4326738,,75316000,Yes
-ARI:0001035,Autoimmune hypophysitis,237706000,Autoimmune hypophysitis,0.778,name,(preferred name),4030201,,237706000,Yes
-ARI:0001036,Autoimmune-Inflammatory Syndrome Induced by Adjuvants,,,,,no match,,,,
-ARI:0001037,Autoimmune limbic encephalitis,1300193002,Autoimmune limbic encephalitis,0.778,name,(preferred name),1245375,,1300193002,Yes
-ARI:0001038,Autoimmune lymphoproliferative syndrome,702444009,Autoimmune lymphoproliferative syndrome,0.778,name,(preferred name),45765493,,702444009,Yes
-ARI:0001039,Autoimmune necrotizing myopathy,715863001,Autoimmune necrotizing myopathy,0.778,name,(preferred name),37396156,,715863001,Yes
-ARI:0001040,Autoimmune neutropenia,234425008,Autoimmune neutropenia,0.778,name,(preferred name),4125635,,234425008,Yes
-ARI:0001041,Autoimmune oophoritis,721198006,Premature ovarian failure due to autoimmune oophoritis,0.778,name,Premature ovarian failure due to autoimmune oophoritis,36717453,,721198006,Yes
-ARI:0001042,Autoimmune optic neuropathy,838324008,Autoimmune optic neuropathy,0.778,name,(preferred name),3654632,,838324008,Yes
-ARI:0001043,Autoimmune pancreatitis,448542008,Autoimmune pancreatitis,0.778,name,(preferred name),40490446,,"448542008, 722872000, 1197740007",Yes
-ARI:0001044,Autoimmune progesterone dermatitis,838551007,Autoimmune progesterone dermatitis,0.778,name,(preferred name),3661498,,838551007,Yes
-ARI:0001045,Autoimmune pulmonary alveolar proteinosis,707443007,Autoimmune pulmonary alveolar proteinosis,0.778,name,(preferred name),45768909,,707443007,Yes
-ARI:0001046,Autoimmune retinal vasculitis,,,,,no match,,,,
-ARI:0001047,Autoimmune retinopathy,724809006,Autoimmune retinopathy,0.778,name,(preferred name),37110540,,724809006,Yes
-ARI:0001048,Autoimmune thyroiditis,66944004,Autoimmune thyroiditis,0.778,name,(preferred name),4281109,,"66944004, 21983002",Yes
-ARI:0001049,Autoimmune urticaria,402397006,Autoimmune urticaria,0.778,name,(preferred name),4224623,,402397006,Yes
-ARI:0001050,Autoimmune urticaria and/or angioedema,402402005,Autoimmune urticaria and/or angioedema,0.778,name,(preferred name),4221673,,402402005,Yes
-ARI:0001051,Autoimmune vasculitis,427213005,Autoimmune vasculitis,0.778,name,(preferred name),4146124,,427213005,Yes
-ARI:0001052,Balo concentric sclerosis,230380005,Balo concentric sclerosis,0.778,name,(preferred name),4046110,,230380005,Yes
-ARI:0001053,Behçet's syndrome,310701003,Behcet's syndrome,0.778,name,Behcet's syndrome,436642,,"310701003, 721226005",Yes
-ARI:0001054,Benign mucous membrane pemphigoid,34250006,Benign mucous membrane pemphigoid,0.778,name,(preferred name),4142060,,"34250006, 314757003",Yes
-ARI:0001055,Bickerstaff's brainstem encephalitis,427086003,Bickerstaff's brainstem encephalitis,0.778,name,(preferred name),4141686,,427086003,Yes
-ARI:0001056,Birdshot chorioretinopathy,231981005,Birdshot chorioretinitis,0.778,name,Birdshot chorioretinitis,4334133,,231981005,Yes
-ARI:0001057,Bullous pemphigoid,77090002,Bullous pemphigoid,0.778,name,(preferred name),4298692,,77090002,Yes
-ARI:0001058,Bullous systemic lupus erythematosus,239889005,Bullous systemic lupus erythematosus,0.778,name,(preferred name),4346976,,239889005,Yes
-ARI:0001059,Calcinosis due to childhood type dermatomyositis,838312001,Calcinosis due to childhood type dermatomyositis,0.778,name,(preferred name),3654620,,838312001,Yes
-ARI:0001060,Cataplexy and narcolepsy,193042000,Cataplexy and narcolepsy,0.778,name,(preferred name),437854,,"193042000, 735676003",Yes
-ARI:0001061,Celiac disease,396331005,Celiac disease,0.778,name,(preferred name),194992,,"91867008, 396331005",Yes
-ARI:0001062,Chronic Fatigue Syndrome,52702003,Chronic fatigue syndrome,0.772,name,(preferred name),432738,,52702003,Yes
-ARI:0001063,Chronic inflammatory demyelinating polyradiculoneuropathy,128209004,Chronic inflammatory demyelinating polyradiculoneuropathy,0.778,name,(preferred name),381009,,"128209004, 230564004",Yes
-ARI:0001064,Chronic interstitial cystitis,38731000087104,Chronic primary bladder pain syndrome,0.556,synonym,(preferred name),1450471,,197834003,
-ARI:0001065,Chronic Lyme disease,23502006,Lyme disease,0.778,name,Lyme disease,440638,,"33937009, 23502006",Yes
-ARI:0001066,Chronic multifocal osteomyelitis,,,,,no match,,,240151005,
-ARI:0001067,Chronic post-COVID-19 syndrome,,,,,no match,,,1119304009,
-ARI:0001068,Cogan's syndrome,405810005,Cogan's syndrome,0.778,name,(preferred name),4233620,,405810005,Yes
-ARI:0001069,Cold agglutinin disease,398937006,Cold autoimmune hemolytic anemia,0.778,name,Cold autoimmune hemolytic anemia,4160887,,"398937006, 127055007",Yes
-ARI:0001070,Combined immunodeficiency due to LRBA deficiency,1197477000,Combined immunodeficiency due to LRBA deficiency,0.778,name,(preferred name),37162777,,1197477000,Yes
-ARI:0001071,Complex regional pain syndrome,128200000,Complex regional pain syndrome,0.778,name,(preferred name),4134577,,"128200000, 408751001, 734947007",Yes
-ARI:0001072,COPA syndrome,,,,,no match,,,,
-ARI:0001073,Crohn's disease,34000006,Crohn's disease,0.778,name,(preferred name),201606,,34000006,Yes
-ARI:0001074,Cryptogenic organizing pneumonia,719218000,Cryptogenic organizing pneumonia,0.778,name,(preferred name),36714118,,719218000,Yes
-ARI:0001075,CTLA4 haploinsufficiency,,,,,no match,,,,
-ARI:0001076,Cutaneous lupus erythematosus,7119001,Cutaneous lupus erythematosus,0.778,name,(preferred name),4324123,,"238927000, 7119001, 200938002, 403495008, 200941006, 239891002",Yes
-ARI:0001077,Cutaneous mastocytosis,397012002,Cutaneous mastocytosis,0.778,name,(preferred name),4246283,,397012002,Yes
-ARI:0001078,Dermatitis herpetiformis,111196000,Dermatitis herpetiformis,0.778,name,(preferred name),140487,,111196000,Yes
-ARI:0001079,Dermatomyositis,396230008,Dermatomyositis,0.778,name,(preferred name),80182,,"396230008, 1212005",Yes
-ARI:0001080,Diabetes mellitus type 1,46635009,Type 1 diabetes mellitus,0.778,name,Type 1 diabetes mellitus,201254,,46635009,Yes
-ARI:0001081,Eaton-Lambert syndrome,56989000,Eaton-Lambert syndrome,0.778,name,(preferred name),4237155,,56989000,Yes
-ARI:0001082,Encephalitis caused by anti-gamma-aminobutyric acid-A receptor antibody,,,,,no match,,,,
-ARI:0001083,Encephalopathy caused by anti-IgLON5 antibody,,,,,no match,,,,
-ARI:0001084,Endometriosis,129103003,Endometriosis (clinical),0.556,synonym,(preferred name),433527,,129103003,Yes
-ARI:0001085,Enthesitis,359643005,Enthesitis,0.778,name,(preferred name),4231746,,359643005,Yes
-ARI:0001086,Eosinophilic esophagitis,235599003,Eosinophilic esophagitis,0.778,name,(preferred name),27918,,235599003,Yes
-ARI:0001087,Epilepsy,84757009,Epilepsy,0.778,name,(preferred name),380378,,84757009,Yes
-ARI:0001088,Episcleritis,815008,Episcleritis,0.778,name,(preferred name),4218083,,815008,Yes
-ARI:0001089,Erythema nodosum,32861005,Erythema nodosum,0.778,name,(preferred name),140176,,32861005,Yes
-ARI:0001090,Essential mixed cryoglobulinemia,239947001,Essential mixed cryoglobulinemia,0.778,name,(preferred name),4347067,,239947001,Yes
-ARI:0001091,Evans syndrome,75331009,Evans syndrome,0.778,name,(preferred name),436956,,75331009,Yes
-ARI:0001092,Fasciitis with eosinophilia syndrome,24129002,Fasciitis with eosinophilia syndrome,0.778,name,(preferred name),4083100,,24129002,Yes
-ARI:0001093,Felty syndrome,57160007,Felty's syndrome,0.778,name,Felty's syndrome,81097,,57160007,Yes
-ARI:0001094,Female infertility due to antisperm antibodies,414238007,Female infertility due to antisperm antibody,0.772,name,(preferred name),4188008,,"414238007, 236816007",Yes
-ARI:0001095,Fibromyalgia,203082005,Fibromyalgia,0.778,name,(preferred name),40405599,,203082005,Yes
-ARI:0001096,Graves' disease,353295004,Graves' disease,0.778,name,(preferred name),4232076,,"353295004, 90739004, 237499004",Yes
-ARI:0001097,Guillain-Barré syndrome,40956001,Guillain-Barré syndrome,0.778,name,(preferred name),4164770,,"715770009, 1767005, 40956001, 716723000",Yes
-ARI:0001098,Hemophilia B Leyden,1336117005,Hemophilia B Leyden,0.778,name,(preferred name),1076202,,1336117005,Yes
-ARI:0001099,Herpes gestationis,86081009,Herpes gestationis,0.778,name,(preferred name),4311256,,86081009,Yes
-ARI:0001100,Hidradenitis suppurativa,59393003,Hidradenitis suppurativa,0.778,name,(preferred name),4241223,,59393003,Yes
-ARI:0001101,Hypersensitivity angiitis,60555002,Hypersensitivity angiitis,0.778,name,(preferred name),196431,,60555002,Yes
-ARI:0001102,Idiopathic membranous glomerulonephritis,722119002,Idiopathic membranous glomerulonephritis,0.778,name,(preferred name),36716199,,722119002,Yes
-ARI:0001103,Idiopathic pulmonary fibrosis,700250006,Idiopathic pulmonary fibrosis,0.778,name,(preferred name),45763750,,700250006,Yes
-ARI:0001104,IgA nephropathy,236407003,IgA nephropathy,0.778,name,(preferred name),4128061,,236407003,Yes
-ARI:0001105,Immune checkpoint inhibitor-induced autoimmunity,,,,,no match,,,,
-ARI:0001106,"Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome",,,,,no match,,,,
-ARI:0001107,Immune thrombocytopenia,2897005,Immune thrombocytopenia,0.778,name,(preferred name),4103532,,"13172003, 128092005, 2897005, 438476003, 32273002, 128091003",Yes
-ARI:0001108,Immunoglobulin A vasculitis,191306005,Immunoglobulin A vasculitis,0.778,name,(preferred name),4101602,,191306005,Yes
-ARI:0001109,Immunoglobulin G4 related disease,10743271000119103,Immunoglobulin G4 related disease,0.778,name,(preferred name),36717255,,"10743271000119103, 234549008, 722870008",Yes
-ARI:0001110,Immunoglobulin G4 related ophthalmic disease,1187510006,Immunoglobulin G4 related ophthalmic disease,0.778,name,(preferred name),37162346,,1187510006,Yes
-ARI:0001111,Inclusion body myositis,72315009,Inclusion body myositis,0.778,name,(preferred name),4216406,,72315009,Yes
-ARI:0001112,Inflammatory Bowel Disease,24526004,Inflammatory bowel disease,0.772,name,(preferred name),4074815,,24526004,Yes
-ARI:0001113,Insulin autoimmune syndrome,408539000,Insulin autoimmune syndrome,0.778,name,(preferred name),4252384,,408539000,Yes
-ARI:0001114,Insulin resistance - type B,237652003,Insulin resistance - type B,0.778,name,(preferred name),4129525,,237652003,Yes
-ARI:0001115,Intermediate uveitis,314429009,Intermediate uveitis,0.778,name,(preferred name),4197155,,"314429009, 1231232007, 45688009",Yes
-ARI:0001116,Interstitial lung disease,233703007,Interstitial lung disease,0.778,name,(preferred name),4119786,,233703007,Yes
-ARI:0001117,Juvenile Rheumatoid Arthritis,410502007,Juvenile idiopathic arthritis,0.778,name,Juvenile idiopathic arthritis,4259507,,"410795001, 239796000",
-ARI:0001118,Lichen planus,4776004,Lichen planus,0.778,name,(preferred name),132703,,4776004,Yes
-ARI:0001119,Lichen sclerosus,895454001,Lichen sclerosus,0.778,name,(preferred name),619430,,"895454001, 25674000",Yes
-ARI:0001120,Ligneous conjunctivitis,403435005,Ligneous conjunctivitis,0.778,name,(preferred name),4296491,,403435005,Yes
-ARI:0001121,Limbic encephalitis,230192003,Limbic encephalitis,0.778,name,(preferred name),4041673,,230192003,Yes
-ARI:0001122,Limbic encephalitis with dipeptidyl-peptidase 6 antibodies,773395008,Limbic encephalitis with dipeptidyl-peptidase 6 antibodies,0.778,name,(preferred name),36676495,,773395008,Yes
-ARI:0001123,Limbic encephalitis with leucine-rich glioma-inactivated 1 antibodies,763794005,Limbic encephalitis with leucine-rich glioma-inactivated 1 antibodies,0.778,name,(preferred name),35607961,,763794005,Yes
-ARI:0001124,Linear IgA dermatosis,95330001,Linear IgA dermatosis,0.778,name,(preferred name),4317262,,95330001,Yes
-ARI:0001125,Lipomatosis dolorosa,71404003,Lipomatosis dolorosa,0.778,name,(preferred name),4324974,,71404003,Yes
-ARI:0001126,Lupus vasculitis,239944008,Lupus vasculitis,0.778,name,(preferred name),4344495,,239944008,Yes
-ARI:0001127,Male infertility associated with antisperm antibodies,,,,,no match,,,414643008,
-ARI:0001128,Microscopic colitis,235753003,Microscopic colitis,0.778,name,(preferred name),4340799,,235753003,Yes
-ARI:0001129,Microscopic polyangiitis,1144805008,Microscopic polyangiitis,0.778,name,(preferred name),606328,,1144805008,Yes
-ARI:0001130,Mixed collagen vascular disease,398049005,Mixed collagen vascular disease,0.778,name,(preferred name),4134867,,398049005,Yes
-ARI:0001131,Mooren's ulcer,22440001,Mooren's ulcer,0.778,name,(preferred name),435271,,22440001,Yes
-ARI:0001132,Morphea,201049004,Morphea,0.778,name,(preferred name),4066845,,"201048007, 201049004",Yes
-ARI:0001133,Motor neuropathy with multiple conduction block,230591002,Motor neuropathy with multiple conduction block,0.778,name,(preferred name),4046338,,230591002,Yes
-ARI:0001134,Moyamoya disease,69116000,Moyamoya disease,0.778,name,(preferred name),378774,,69116000,Yes
-ARI:0001135,Multiple sclerosis,24700007,Multiple sclerosis,0.778,name,(preferred name),374919,,"24700007, 428700003, 426373005, 49692006, 128460000",Yes
-ARI:0001136,Myasthenia gravis,91637004,Myasthenia gravis,0.778,name,(preferred name),76685,,91637004,Yes
-ARI:0001137,Myelin oligodendrocyte glycoprotein antibody-associated disease,1237194006,Myelin oligodendrocyte glycoprotein antibody-associated disease,0.778,name,(preferred name),37164973,,"1237194006, 718213001",Yes
-ARI:0001138,Myocarditis due to autoimmune disease,871640001,Myocarditis due to autoimmune disease,0.778,name,(preferred name),3656114,,"871640001, 37217002",Yes
-ARI:0001139,Myositis,26889001,Myositis,0.778,name,(preferred name),73001,,"722991004, 715863001, 702380008, 26889001",Yes
-ARI:0001140,Necrotizing vasculitis,11791001,Necrotizing vasculitis,0.778,name,(preferred name),4039691,,11791001,Yes
-ARI:0001141,Neonatal lupus erythematosus,95609003,Neonatal lupus erythematosus,0.778,name,(preferred name),4316373,,95609003,Yes
-ARI:0001142,Neuralgic amyotrophy,26609002,Neuralgic amyotrophy,0.778,name,(preferred name),377271,,"3548001, 26609002",Yes
-ARI:0001143,Neuromyelitis optica,25044007,Neuromyelitis optica,0.778,name,(preferred name),380995,,25044007,Yes
-ARI:0001144,Neuromyotonia,305719002,Neuromyotonia,0.778,name,(preferred name),4125693,,305719002,Yes
-ARI:0001145,Ocular myasthenia gravis,,,,,no match,,,230684008,
-ARI:0001146,Ophthalmoplegia due to Graves' disease,104461000119104,Ophthalmoplegia due to Graves' disease,0.778,name,(preferred name),45757069,,"104461000119104, 276177000",Yes
-ARI:0001147,Opsoclonus-myoclonus syndrome,230350000,Opsoclonus-myoclonus syndrome,0.778,name,(preferred name),4043399,,230350000,Yes
-ARI:0001148,Palindromic rheumatism,50442003,Palindromic rheumatism,0.778,name,(preferred name),76196,,50442003,Yes
-ARI:0001149,Paraneoplastic cerebellar degeneration,192877007,Paraneoplastic cerebellar degeneration,0.778,name,(preferred name),4102330,,192877007,Yes
-ARI:0001150,Paraneoplastic pemphigus,,,,,no match,,,,
-ARI:0001151,Paroxysmal cold hemoglobinuria,127057004,Paroxysmal cold hemoglobinuria,0.778,name,(preferred name),4131917,,127057004,Yes
-ARI:0001152,Paroxysmal nocturnal hemoglobinuria,1963002,Paroxysmal nocturnal hemoglobinuria,0.778,name,(preferred name),4024671,,1963002,Yes
-ARI:0001153,Pediatric autoimmune neuropsychiatric disorder associated with streptococcal infection,446682003,Pediatric autoimmune neuropsychiatric disorder associated with streptococcal infection,0.778,name,(preferred name),40488855,,446682003,Yes
-ARI:0001154,Pemphigus,65172003,Pemphigus,0.778,name,(preferred name),135338,,"46459009, 200907003, 65172003, 36739006, 35154004, 402718003, 49420001",Yes
-ARI:0001155,POEMS syndrome,79268002,POEMS syndrome,0.778,name,(preferred name),4193776,,79268002,Yes
-ARI:0001156,Polyarteritis nodosa,155441006,Polyarteritis nodosa,0.778,name,(preferred name),320749,,155441006,Yes
-ARI:0001157,Polyglandular autoimmune syndrome type 1,11244009,"Polyglandular autoimmune syndrome, type 1",0.556,synonym,Autoimmune polyendocrinopathy-candidiasis-ectodermal dystrophy,4008545,,11244009,Yes
-ARI:0001158,Polyglandular autoimmune syndrome type 2,403767009,Acrocephalopolysyndactyly type II,0.556,synonym,Carpenter syndrome,4301299,,83728000,
-ARI:0001159,Polyglandular autoimmune syndrome type 3,449731009,Autoimmune polyendocrine syndrome type 3,0.778,name,Autoimmune polyendocrine syndrome type 3,42709859,,449731009,Yes
-ARI:0001160,Polyglandular autoimmune syndrome type 4,449730005,Autoimmune polyendocrine syndrome type 4,0.778,name,Autoimmune polyendocrine syndrome type 4,42709858,,449730005,Yes
-ARI:0001161,Polymyalgia rheumatica,65323003,Polymyalgia rheumatica,0.778,name,(preferred name),255348,,65323003,Yes
-ARI:0001162,Polymyositis,31384009,Polymyositis,0.778,name,(preferred name),80800,,31384009,Yes
-ARI:0001163,Postmyocardial infarction syndrome,1258984009,Post-cardiac injury syndrome,0.778,name,Post-cardiac injury syndrome,37166030,,"827164008, 66189004, 58600007, 278536002",
-ARI:0001164,Postural orthostatic tachycardia syndrome,371073003,Postural orthostatic tachycardia syndrome,0.778,name,(preferred name),4159659,,371073003,Yes
-ARI:0001165,Primary acquired chylomicronemia,402475008,Primary acquired chylomicronemia,0.778,name,(preferred name),4223495,,402475008,Yes
-ARI:0001166,Primary biliary cholangitis,31712002,Primary biliary cholangitis,0.778,name,(preferred name),4135822,,31712002,Yes
-ARI:0001167,Primary idiopathic dilated cardiomyopathy,53043001,Primary idiopathic dilated cardiomyopathy,0.778,name,(preferred name),4203149,,53043001,Yes
-ARI:0001168,Primary immune deficiency,,,,,no match,,,"442459007, 362993009, 36138009, 31323000, 37548006",
-ARI:0001169,Primary sclerosing cholangitis,197441003,Primary sclerosing cholangitis,0.778,name,(preferred name),4058821,,197441003,Yes
-ARI:0001170,Progressive hemifacial atrophy,718224004,Progressive hemifacial atrophy,0.778,name,(preferred name),37397558,,718224004,Yes
-ARI:0001171,Psoriasis,9014002,Psoriasis,0.778,name,(preferred name),140168,,"37042000, 9014002",Yes
-ARI:0001172,Psoriatic arthritis,156370009,Psoriatic arthritis,0.778,name,(preferred name),40319772,,"156370009, 33339001",Yes
-ARI:0001173,Pure red cell aplasia,50715003,Pure red cell aplasia,0.778,name,(preferred name),140065,,50715003,Yes
-ARI:0001174,Pyoderma gangrenosum,74578003,Pyoderma gangrenosum,0.778,name,(preferred name),133283,,74578003,Yes
-ARI:0001175,Rasmussen syndrome,230191005,Rasmussen syndrome,0.778,name,(preferred name),4041672,,"230191005, 435341000124104",Yes
-ARI:0001176,Secondary Raynaud's phenomenon,356198000,Secondary Raynaud's phenomenon,0.778,name,(preferred name),4229162,,"356198000, 266261006",Yes
-ARI:0001177,Reactive arthritis,201736002,Reactive arthritis,0.778,name,(preferred name),40399768,,"201736002, 67224007",Yes
-ARI:0001178,Relapsing polychondritis,72275000,Relapsing polychondritis,0.778,name,(preferred name),4216873,,72275000,Yes
-ARI:0001179,Restless legs,32914008,Restless legs,0.778,name,(preferred name),73754,,32914008,Yes
-ARI:0001180,Retinocochleocerebral vasculopathy,702575003,Retinocochleocerebral vasculopathy,0.778,name,(preferred name),45765600,,702575003,Yes
-ARI:0001181,Rheumatic Chorea,46826000,Rheumatic chorea,0.772,name,(preferred name),444120,,46826000,Yes
-ARI:0001182,Rheumatic fever,58718002,Rheumatic fever,0.778,name,(preferred name),442313,,"58718002, 194709000",Yes
-ARI:0001183,Rheumatoid aortitis,38877003,Rheumatoid aortitis,0.778,name,(preferred name),4306357,,38877003,Yes
-ARI:0001184,Rheumatoid arthritis,69896004,Rheumatoid arthritis,0.778,name,(preferred name),80809,,69896004,Yes
-ARI:0001185,Rheumatoid vasculitis,400054000,Rheumatoid vasculitis,0.778,name,(preferred name),4271003,,400054000,Yes
-ARI:0001186,Sarcoidosis,31541009,Sarcoidosis,0.778,name,(preferred name),438688,,"72470008, 238676008, 31541009",Yes
-ARI:0001187,Schnitzler syndrome,402415001,Schnitzler syndrome,0.778,name,(preferred name),4297647,,402415001,Yes
-ARI:0001188,Scleritis,78370002,Scleritis,0.778,name,(preferred name),434944,,78370002,Yes
-ARI:0001189,Sjögren's disease,302896008,Keratoconjunctivitis sicca,0.778,name,Keratoconjunctivitis sicca,4120320,,83901003,
-ARI:0001190,SLE glomerulonephritis syndrome,68815009,SLE glomerulonephritis syndrome,0.778,name,(preferred name),4285717,,68815009,Yes
-ARI:0001191,Small fiber neuropathy,709489006,Small fiber neuropathy,0.778,name,(preferred name),46271378,,709489006,Yes
-ARI:0001192,Steroid-responsive encephalopathy associated with autoimmune thyroiditis,771271000,Steroid-responsive encephalopathy associated with autoimmune thyroiditis,0.778,name,(preferred name),36674282,,771271000,Yes
-ARI:0001193,Stiff-person syndrome,5217008,Stiff-person syndrome,0.778,name,(preferred name),379008,,5217008,Yes
-ARI:0001194,Subacute bacterial endocarditis,73774007,Subacute bacterial endocarditis,0.778,name,(preferred name),4249899,,73774007,Yes
-ARI:0001195,Sympathetic uveitis,75315001,Sympathetic uveitis,0.778,name,(preferred name),438739,,75315001,Yes
-ARI:0001196,Systemic lupus erythematosus,55464009,Systemic lupus erythematosus,0.778,name,(preferred name),257628,,55464009,Yes
-ARI:0001197,Systemic mast cell disease,397016004,Systemic mast cell disease,0.778,name,(preferred name),4246284,,397016004,Yes
-ARI:0001198,Systemic sclerosis,89155008,Systemic sclerosis,0.778,name,(preferred name),134442,,89155008,Yes
-ARI:0001199,Systemic sclerosis with limited cutaneous involvement,298285004,Systemic sclerosis with limited cutaneous involvement,0.778,name,(preferred name),4185187,,"298285004, 31848007, 128461001",Yes
-ARI:0001200,Takayasu's arteritis,359789008,Takayasu's disease,0.778,name,Takayasu's disease,440740,,359789008,Yes
-ARI:0001201,Temporal arteritis,400130008,Temporal arteritis,0.778,name,(preferred name),4290976,,400130008,Yes
-ARI:0001202,TIF1-gamma positive dermatomyositis,,,,,no match,,,,
-ARI:0001203,Tolosa-Hunt syndrome,95794005,Tolosa-Hunt syndrome,0.778,name,(preferred name),4317989,,95794005,Yes
-ARI:0001204,Transverse myelitis,16631009,Transverse myelopathy syndrome,0.556,synonym,(preferred name),443904,,16631009,Yes
-ARI:0001205,Ulcerative colitis,64766004,Ulcerative colitis,0.778,name,(preferred name),81893,,64766004,Yes
-ARI:0001206,Undifferentiated connective tissue disease,239918008,Undifferentiated connective tissue disease,0.778,name,(preferred name),4344165,,239918008,Yes
-ARI:0001207,Urticarial vasculitis,,,,,no match,,,402656007,
-ARI:0001208,Uveitis,128473001,Uveitis,0.778,name,(preferred name),4028363,,"128473001, 231947004",Yes
-ARI:0001209,Vitiligo,56727007,Vitiligo,0.778,name,(preferred name),138502,,56727007,Yes
-ARI:0001210,Vogt-Koyanagi-Harada disease,193497004,Vogt-Koyanagi-Harada disease,0.778,name,(preferred name),4108968,,193497004,Yes
-ARI:0001211,Warm autoimmune hemolytic anemia,3978000,Warm autoimmune hemolytic anemia,0.778,name,(preferred name),4219853,,3978000,Yes
+ARI:0001026,Autoimmune disorder of inner ear,232308006,Autoimmune disorder of inner ear,0.778,name,(preferred name),4337463,,"232308006, 13445001",Yes
+ARI:0001027,Autoimmune encephalitis,95643007,Autoimmune encephalitis,0.778,name,(preferred name),4318558,,95643007,Yes
+ARI:0001028,Autoimmune encephalitis caused by N-methyl D-aspartate receptor antibody,452281000124106,Autoimmune encephalitis caused by N-methyl D-aspartate receptor antibody,0.778,name,(preferred name),764228,,"452281000124106, 716684004",Yes
+ARI:0001029,Autoimmune ganglionopathy,838330008,Autoimmune ganglionopathy,0.778,name,(preferred name),3654638,,"838330008, 838321000",Yes
+ARI:0001030,Autoimmune gastritis,84568007,Atrophic gastritis,0.778,name,Atrophic gastritis,192667,,"84568007, 235728001, 84027009",Yes
+ARI:0001031,Autoimmune hemolytic anemia,413603009,Autoimmune hemolytic anemia,0.778,name,(preferred name),441269,,"413603009, 718716008",Yes
+ARI:0001032,Autoimmune hepatitis,408335007,Autoimmune hepatitis,0.778,name,(preferred name),200762,,"408335007, 721711009, 721712002, 721713007, 16098491000119109",Yes
+ARI:0001033,Autoimmune hypoparathyroidism,75316000,Autoimmune hypoparathyroidism,0.778,name,(preferred name),4326738,,75316000,Yes
+ARI:0001034,Autoimmune hypophysitis,237706000,Autoimmune hypophysitis,0.778,name,(preferred name),4030201,,237706000,Yes
+ARI:0001035,Autoimmune-Inflammatory Syndrome Induced by Adjuvants,,,,,no match,,,,
+ARI:0001036,Autoimmune limbic encephalitis,1300193002,Autoimmune limbic encephalitis,0.778,name,(preferred name),1245375,,1300193002,Yes
+ARI:0001037,Autoimmune lymphoproliferative syndrome,702444009,Autoimmune lymphoproliferative syndrome,0.778,name,(preferred name),45765493,,702444009,Yes
+ARI:0001038,Autoimmune necrotizing myopathy,715863001,Autoimmune necrotizing myopathy,0.778,name,(preferred name),37396156,,715863001,Yes
+ARI:0001039,Autoimmune neutropenia,234425008,Autoimmune neutropenia,0.778,name,(preferred name),4125635,,234425008,Yes
+ARI:0001040,Autoimmune oophoritis,721198006,Premature ovarian failure due to autoimmune oophoritis,0.778,name,Premature ovarian failure due to autoimmune oophoritis,36717453,,721198006,Yes
+ARI:0001041,Autoimmune optic neuropathy,838324008,Autoimmune optic neuropathy,0.778,name,(preferred name),3654632,,838324008,Yes
+ARI:0001042,Autoimmune pancreatitis,448542008,Autoimmune pancreatitis,0.778,name,(preferred name),40490446,,"448542008, 722872000, 1197740007",Yes
+ARI:0001043,Autoimmune progesterone dermatitis,838551007,Autoimmune progesterone dermatitis,0.778,name,(preferred name),3661498,,838551007,Yes
+ARI:0001044,Autoimmune pulmonary alveolar proteinosis,707443007,Autoimmune pulmonary alveolar proteinosis,0.778,name,(preferred name),45768909,,707443007,Yes
+ARI:0001045,Autoimmune retinal vasculitis,,,,,no match,,,,
+ARI:0001046,Autoimmune retinopathy,724809006,Autoimmune retinopathy,0.778,name,(preferred name),37110540,,724809006,Yes
+ARI:0001047,Autoimmune thyroiditis,66944004,Autoimmune thyroiditis,0.778,name,(preferred name),4281109,,"66944004, 21983002",Yes
+ARI:0001048,Autoimmune urticaria,402397006,Autoimmune urticaria,0.778,name,(preferred name),4224623,,402397006,Yes
+ARI:0001049,Autoimmune urticaria and/or angioedema,402402005,Autoimmune urticaria and/or angioedema,0.778,name,(preferred name),4221673,,402402005,Yes
+ARI:0001050,Autoimmune vasculitis,427213005,Autoimmune vasculitis,0.778,name,(preferred name),4146124,,427213005,Yes
+ARI:0001051,Balo concentric sclerosis,230380005,Balo concentric sclerosis,0.778,name,(preferred name),4046110,,230380005,Yes
+ARI:0001052,Behçet's syndrome,310701003,Behcet's syndrome,0.778,name,Behcet's syndrome,436642,,"310701003, 721226005",Yes
+ARI:0001053,Benign mucous membrane pemphigoid,34250006,Benign mucous membrane pemphigoid,0.778,name,(preferred name),4142060,,"34250006, 314757003",Yes
+ARI:0001054,Bickerstaff's brainstem encephalitis,427086003,Bickerstaff's brainstem encephalitis,0.778,name,(preferred name),4141686,,427086003,Yes
+ARI:0001055,Birdshot chorioretinopathy,231981005,Birdshot chorioretinitis,0.778,name,Birdshot chorioretinitis,4334133,,231981005,Yes
+ARI:0001056,Bullous pemphigoid,77090002,Bullous pemphigoid,0.778,name,(preferred name),4298692,,77090002,Yes
+ARI:0001057,Bullous systemic lupus erythematosus,239889005,Bullous systemic lupus erythematosus,0.778,name,(preferred name),4346976,,239889005,Yes
+ARI:0001058,Calcinosis due to childhood type dermatomyositis,838312001,Calcinosis due to childhood type dermatomyositis,0.778,name,(preferred name),3654620,,838312001,Yes
+ARI:0001059,Cataplexy and narcolepsy,193042000,Cataplexy and narcolepsy,0.778,name,(preferred name),437854,,"193042000, 735676003",Yes
+ARI:0001060,Celiac disease,396331005,Celiac disease,0.778,name,(preferred name),194992,,"91867008, 396331005",Yes
+ARI:0001061,Chronic Fatigue Syndrome,52702003,Chronic fatigue syndrome,0.772,name,(preferred name),432738,,52702003,Yes
+ARI:0001062,Chronic inflammatory demyelinating polyradiculoneuropathy,128209004,Chronic inflammatory demyelinating polyradiculoneuropathy,0.778,name,(preferred name),381009,,"128209004, 230564004",Yes
+ARI:0001063,Chronic interstitial cystitis,38731000087104,Chronic primary bladder pain syndrome,0.556,synonym,(preferred name),1450471,,197834003,
+ARI:0001064,Chronic Lyme disease,23502006,Lyme disease,0.778,name,Lyme disease,440638,,"33937009, 23502006",Yes
+ARI:0001065,Chronic multifocal osteomyelitis,,,,,no match,,,240151005,
+ARI:0001066,Chronic post-COVID-19 syndrome,,,,,no match,,,1119304009,
+ARI:0001067,Cogan's syndrome,405810005,Cogan's syndrome,0.778,name,(preferred name),4233620,,405810005,Yes
+ARI:0001068,Cold agglutinin disease,398937006,Cold autoimmune hemolytic anemia,0.778,name,Cold autoimmune hemolytic anemia,4160887,,"398937006, 127055007",Yes
+ARI:0001069,Combined immunodeficiency due to LRBA deficiency,1197477000,Combined immunodeficiency due to LRBA deficiency,0.778,name,(preferred name),37162777,,1197477000,Yes
+ARI:0001070,Complex regional pain syndrome,128200000,Complex regional pain syndrome,0.778,name,(preferred name),4134577,,"128200000, 408751001, 734947007",Yes
+ARI:0001071,COPA syndrome,,,,,no match,,,,
+ARI:0001072,Crohn's disease,34000006,Crohn's disease,0.778,name,(preferred name),201606,,34000006,Yes
+ARI:0001073,Cryptogenic organizing pneumonia,719218000,Cryptogenic organizing pneumonia,0.778,name,(preferred name),36714118,,719218000,Yes
+ARI:0001074,CTLA4 haploinsufficiency,,,,,no match,,,,
+ARI:0001075,Cutaneous lupus erythematosus,7119001,Cutaneous lupus erythematosus,0.778,name,(preferred name),4324123,,"238927000, 7119001, 200938002, 403495008, 200941006, 239891002",Yes
+ARI:0001076,Cutaneous mastocytosis,397012002,Cutaneous mastocytosis,0.778,name,(preferred name),4246283,,397012002,Yes
+ARI:0001077,Dermatitis herpetiformis,111196000,Dermatitis herpetiformis,0.778,name,(preferred name),140487,,111196000,Yes
+ARI:0001078,Dermatomyositis,396230008,Dermatomyositis,0.778,name,(preferred name),80182,,"396230008, 1212005",Yes
+ARI:0001079,Diabetes mellitus type 1,46635009,Type 1 diabetes mellitus,0.778,name,Type 1 diabetes mellitus,201254,,46635009,Yes
+ARI:0001080,Eaton-Lambert syndrome,56989000,Eaton-Lambert syndrome,0.778,name,(preferred name),4237155,,56989000,Yes
+ARI:0001081,Encephalitis caused by anti-gamma-aminobutyric acid-A receptor antibody,,,,,no match,,,,
+ARI:0001082,Encephalopathy caused by anti-IgLON5 antibody,,,,,no match,,,,
+ARI:0001083,Endometriosis,129103003,Endometriosis (clinical),0.556,synonym,(preferred name),433527,,129103003,Yes
+ARI:0001084,Enthesitis,359643005,Enthesitis,0.778,name,(preferred name),4231746,,359643005,Yes
+ARI:0001085,Eosinophilic esophagitis,235599003,Eosinophilic esophagitis,0.778,name,(preferred name),27918,,235599003,Yes
+ARI:0001086,Epilepsy,84757009,Epilepsy,0.778,name,(preferred name),380378,,84757009,Yes
+ARI:0001087,Episcleritis,815008,Episcleritis,0.778,name,(preferred name),4218083,,815008,Yes
+ARI:0001088,Erythema nodosum,32861005,Erythema nodosum,0.778,name,(preferred name),140176,,32861005,Yes
+ARI:0001089,Essential mixed cryoglobulinemia,239947001,Essential mixed cryoglobulinemia,0.778,name,(preferred name),4347067,,239947001,Yes
+ARI:0001090,Evans syndrome,75331009,Evans syndrome,0.778,name,(preferred name),436956,,75331009,Yes
+ARI:0001091,Fasciitis with eosinophilia syndrome,24129002,Fasciitis with eosinophilia syndrome,0.778,name,(preferred name),4083100,,24129002,Yes
+ARI:0001092,Felty syndrome,57160007,Felty's syndrome,0.778,name,Felty's syndrome,81097,,57160007,Yes
+ARI:0001093,Female infertility due to antisperm antibodies,414238007,Female infertility due to antisperm antibody,0.772,name,(preferred name),4188008,,"414238007, 236816007",Yes
+ARI:0001094,Fibromyalgia,203082005,Fibromyalgia,0.778,name,(preferred name),40405599,,203082005,Yes
+ARI:0001095,Graves' disease,353295004,Graves' disease,0.778,name,(preferred name),4232076,,"353295004, 90739004, 237499004",Yes
+ARI:0001096,Guillain-Barré syndrome,40956001,Guillain-Barré syndrome,0.778,name,(preferred name),4164770,,"715770009, 1767005, 40956001, 716723000",Yes
+ARI:0001097,Hemophilia B Leyden,1336117005,Hemophilia B Leyden,0.778,name,(preferred name),1076202,,1336117005,Yes
+ARI:0001098,Herpes gestationis,86081009,Herpes gestationis,0.778,name,(preferred name),4311256,,86081009,Yes
+ARI:0001099,Hidradenitis suppurativa,59393003,Hidradenitis suppurativa,0.778,name,(preferred name),4241223,,59393003,Yes
+ARI:0001100,Hypersensitivity angiitis,60555002,Hypersensitivity angiitis,0.778,name,(preferred name),196431,,60555002,Yes
+ARI:0001101,Idiopathic membranous glomerulonephritis,722119002,Idiopathic membranous glomerulonephritis,0.778,name,(preferred name),36716199,,722119002,Yes
+ARI:0001102,Idiopathic pulmonary fibrosis,700250006,Idiopathic pulmonary fibrosis,0.778,name,(preferred name),45763750,,700250006,Yes
+ARI:0001103,IgA nephropathy,236407003,IgA nephropathy,0.778,name,(preferred name),4128061,,236407003,Yes
+ARI:0001104,Immune checkpoint inhibitor-induced autoimmunity,,,,,no match,,,,
+ARI:0001105,"Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome",,,,,no match,,,,
+ARI:0001106,Immune thrombocytopenia,2897005,Immune thrombocytopenia,0.778,name,(preferred name),4103532,,"13172003, 128092005, 2897005, 438476003, 32273002, 128091003",Yes
+ARI:0001107,Immunoglobulin A vasculitis,191306005,Immunoglobulin A vasculitis,0.778,name,(preferred name),4101602,,191306005,Yes
+ARI:0001108,Immunoglobulin G4 related disease,10743271000119103,Immunoglobulin G4 related disease,0.778,name,(preferred name),36717255,,"10743271000119103, 234549008, 722870008",Yes
+ARI:0001109,Immunoglobulin G4 related ophthalmic disease,1187510006,Immunoglobulin G4 related ophthalmic disease,0.778,name,(preferred name),37162346,,1187510006,Yes
+ARI:0001110,Inclusion body myositis,72315009,Inclusion body myositis,0.778,name,(preferred name),4216406,,72315009,Yes
+ARI:0001111,Inflammatory Bowel Disease,24526004,Inflammatory bowel disease,0.772,name,(preferred name),4074815,,24526004,Yes
+ARI:0001112,Insulin autoimmune syndrome,408539000,Insulin autoimmune syndrome,0.778,name,(preferred name),4252384,,408539000,Yes
+ARI:0001113,Insulin resistance - type B,237652003,Insulin resistance - type B,0.778,name,(preferred name),4129525,,237652003,Yes
+ARI:0001114,Intermediate uveitis,314429009,Intermediate uveitis,0.778,name,(preferred name),4197155,,"314429009, 1231232007, 45688009",Yes
+ARI:0001115,Interstitial lung disease,233703007,Interstitial lung disease,0.778,name,(preferred name),4119786,,233703007,Yes
+ARI:0001116,Juvenile Rheumatoid Arthritis,410502007,Juvenile idiopathic arthritis,0.778,name,Juvenile idiopathic arthritis,4259507,,"410795001, 239796000",
+ARI:0001117,Lichen planus,4776004,Lichen planus,0.778,name,(preferred name),132703,,4776004,Yes
+ARI:0001118,Lichen sclerosus,895454001,Lichen sclerosus,0.778,name,(preferred name),619430,,"895454001, 25674000",Yes
+ARI:0001119,Ligneous conjunctivitis,403435005,Ligneous conjunctivitis,0.778,name,(preferred name),4296491,,403435005,Yes
+ARI:0001120,Limbic encephalitis,230192003,Limbic encephalitis,0.778,name,(preferred name),4041673,,230192003,Yes
+ARI:0001121,Limbic encephalitis with dipeptidyl-peptidase 6 antibodies,773395008,Limbic encephalitis with dipeptidyl-peptidase 6 antibodies,0.778,name,(preferred name),36676495,,773395008,Yes
+ARI:0001122,Limbic encephalitis with leucine-rich glioma-inactivated 1 antibodies,763794005,Limbic encephalitis with leucine-rich glioma-inactivated 1 antibodies,0.778,name,(preferred name),35607961,,763794005,Yes
+ARI:0001123,Linear IgA dermatosis,95330001,Linear IgA dermatosis,0.778,name,(preferred name),4317262,,95330001,Yes
+ARI:0001124,Lipomatosis dolorosa,71404003,Lipomatosis dolorosa,0.778,name,(preferred name),4324974,,71404003,Yes
+ARI:0001125,Lupus vasculitis,239944008,Lupus vasculitis,0.778,name,(preferred name),4344495,,239944008,Yes
+ARI:0001126,Male infertility associated with antisperm antibodies,,,,,no match,,,414643008,
+ARI:0001127,Microscopic colitis,235753003,Microscopic colitis,0.778,name,(preferred name),4340799,,235753003,Yes
+ARI:0001128,Microscopic polyangiitis,1144805008,Microscopic polyangiitis,0.778,name,(preferred name),606328,,1144805008,Yes
+ARI:0001129,Mixed collagen vascular disease,398049005,Mixed collagen vascular disease,0.778,name,(preferred name),4134867,,398049005,Yes
+ARI:0001130,Mooren's ulcer,22440001,Mooren's ulcer,0.778,name,(preferred name),435271,,22440001,Yes
+ARI:0001131,Morphea,201049004,Morphea,0.778,name,(preferred name),4066845,,"201048007, 201049004",Yes
+ARI:0001132,Motor neuropathy with multiple conduction block,230591002,Motor neuropathy with multiple conduction block,0.778,name,(preferred name),4046338,,230591002,Yes
+ARI:0001133,Moyamoya disease,69116000,Moyamoya disease,0.778,name,(preferred name),378774,,69116000,Yes
+ARI:0001134,Multiple sclerosis,24700007,Multiple sclerosis,0.778,name,(preferred name),374919,,"24700007, 428700003, 426373005, 49692006, 128460000",Yes
+ARI:0001135,Myasthenia gravis,91637004,Myasthenia gravis,0.778,name,(preferred name),76685,,91637004,Yes
+ARI:0001136,Myelin oligodendrocyte glycoprotein antibody-associated disease,1237194006,Myelin oligodendrocyte glycoprotein antibody-associated disease,0.778,name,(preferred name),37164973,,"1237194006, 718213001",Yes
+ARI:0001137,Myocarditis due to autoimmune disease,871640001,Myocarditis due to autoimmune disease,0.778,name,(preferred name),3656114,,"871640001, 37217002",Yes
+ARI:0001138,Myositis,26889001,Myositis,0.778,name,(preferred name),73001,,"722991004, 715863001, 702380008, 26889001",Yes
+ARI:0001139,Necrotizing vasculitis,11791001,Necrotizing vasculitis,0.778,name,(preferred name),4039691,,11791001,Yes
+ARI:0001140,Neonatal lupus erythematosus,95609003,Neonatal lupus erythematosus,0.778,name,(preferred name),4316373,,95609003,Yes
+ARI:0001141,Neuralgic amyotrophy,26609002,Neuralgic amyotrophy,0.778,name,(preferred name),377271,,"3548001, 26609002",Yes
+ARI:0001142,Neuromyelitis optica,25044007,Neuromyelitis optica,0.778,name,(preferred name),380995,,25044007,Yes
+ARI:0001143,Neuromyotonia,305719002,Neuromyotonia,0.778,name,(preferred name),4125693,,305719002,Yes
+ARI:0001144,Ocular myasthenia gravis,,,,,no match,,,230684008,
+ARI:0001145,Ophthalmoplegia due to Graves' disease,104461000119104,Ophthalmoplegia due to Graves' disease,0.778,name,(preferred name),45757069,,"104461000119104, 276177000",Yes
+ARI:0001146,Opsoclonus-myoclonus syndrome,230350000,Opsoclonus-myoclonus syndrome,0.778,name,(preferred name),4043399,,230350000,Yes
+ARI:0001147,Palindromic rheumatism,50442003,Palindromic rheumatism,0.778,name,(preferred name),76196,,50442003,Yes
+ARI:0001148,Paraneoplastic cerebellar degeneration,192877007,Paraneoplastic cerebellar degeneration,0.778,name,(preferred name),4102330,,192877007,Yes
+ARI:0001149,Paraneoplastic pemphigus,,,,,no match,,,,
+ARI:0001150,Paroxysmal cold hemoglobinuria,127057004,Paroxysmal cold hemoglobinuria,0.778,name,(preferred name),4131917,,127057004,Yes
+ARI:0001151,Paroxysmal nocturnal hemoglobinuria,1963002,Paroxysmal nocturnal hemoglobinuria,0.778,name,(preferred name),4024671,,1963002,Yes
+ARI:0001152,Pediatric autoimmune neuropsychiatric disorder associated with streptococcal infection,446682003,Pediatric autoimmune neuropsychiatric disorder associated with streptococcal infection,0.778,name,(preferred name),40488855,,446682003,Yes
+ARI:0001153,Pemphigus,65172003,Pemphigus,0.778,name,(preferred name),135338,,"46459009, 200907003, 65172003, 36739006, 35154004, 402718003, 49420001",Yes
+ARI:0001154,POEMS syndrome,79268002,POEMS syndrome,0.778,name,(preferred name),4193776,,79268002,Yes
+ARI:0001155,Polyarteritis nodosa,155441006,Polyarteritis nodosa,0.778,name,(preferred name),320749,,155441006,Yes
+ARI:0001156,Polyglandular autoimmune syndrome type 1,11244009,"Polyglandular autoimmune syndrome, type 1",0.556,synonym,Autoimmune polyendocrinopathy-candidiasis-ectodermal dystrophy,4008545,,11244009,Yes
+ARI:0001157,Polyglandular autoimmune syndrome type 2,403767009,Acrocephalopolysyndactyly type II,0.556,synonym,Carpenter syndrome,4301299,,83728000,
+ARI:0001158,Polyglandular autoimmune syndrome type 3,449731009,Autoimmune polyendocrine syndrome type 3,0.778,name,Autoimmune polyendocrine syndrome type 3,42709859,,449731009,Yes
+ARI:0001159,Polyglandular autoimmune syndrome type 4,449730005,Autoimmune polyendocrine syndrome type 4,0.778,name,Autoimmune polyendocrine syndrome type 4,42709858,,449730005,Yes
+ARI:0001160,Polymyalgia rheumatica,65323003,Polymyalgia rheumatica,0.778,name,(preferred name),255348,,65323003,Yes
+ARI:0001161,Polymyositis,31384009,Polymyositis,0.778,name,(preferred name),80800,,31384009,Yes
+ARI:0001162,Postmyocardial infarction syndrome,1258984009,Post-cardiac injury syndrome,0.778,name,Post-cardiac injury syndrome,37166030,,"827164008, 66189004, 58600007, 278536002",
+ARI:0001163,Postural orthostatic tachycardia syndrome,371073003,Postural orthostatic tachycardia syndrome,0.778,name,(preferred name),4159659,,371073003,Yes
+ARI:0001164,Primary acquired chylomicronemia,402475008,Primary acquired chylomicronemia,0.778,name,(preferred name),4223495,,402475008,Yes
+ARI:0001165,Primary biliary cholangitis,31712002,Primary biliary cholangitis,0.778,name,(preferred name),4135822,,31712002,Yes
+ARI:0001166,Primary idiopathic dilated cardiomyopathy,53043001,Primary idiopathic dilated cardiomyopathy,0.778,name,(preferred name),4203149,,53043001,Yes
+ARI:0001167,Primary immune deficiency,,,,,no match,,,"442459007, 362993009, 36138009, 31323000, 37548006",
+ARI:0001168,Primary sclerosing cholangitis,197441003,Primary sclerosing cholangitis,0.778,name,(preferred name),4058821,,197441003,Yes
+ARI:0001169,Progressive hemifacial atrophy,718224004,Progressive hemifacial atrophy,0.778,name,(preferred name),37397558,,718224004,Yes
+ARI:0001170,Psoriasis,9014002,Psoriasis,0.778,name,(preferred name),140168,,"37042000, 9014002",Yes
+ARI:0001171,Psoriatic arthritis,156370009,Psoriatic arthritis,0.778,name,(preferred name),40319772,,"156370009, 33339001",Yes
+ARI:0001172,Pure red cell aplasia,50715003,Pure red cell aplasia,0.778,name,(preferred name),140065,,50715003,Yes
+ARI:0001173,Pyoderma gangrenosum,74578003,Pyoderma gangrenosum,0.778,name,(preferred name),133283,,74578003,Yes
+ARI:0001174,Rasmussen syndrome,230191005,Rasmussen syndrome,0.778,name,(preferred name),4041672,,"230191005, 435341000124104",Yes
+ARI:0001175,Secondary Raynaud's phenomenon,356198000,Secondary Raynaud's phenomenon,0.778,name,(preferred name),4229162,,"356198000, 266261006",Yes
+ARI:0001176,Reactive arthritis,201736002,Reactive arthritis,0.778,name,(preferred name),40399768,,"201736002, 67224007",Yes
+ARI:0001177,Relapsing polychondritis,72275000,Relapsing polychondritis,0.778,name,(preferred name),4216873,,72275000,Yes
+ARI:0001178,Restless legs,32914008,Restless legs,0.778,name,(preferred name),73754,,32914008,Yes
+ARI:0001179,Retinocochleocerebral vasculopathy,702575003,Retinocochleocerebral vasculopathy,0.778,name,(preferred name),45765600,,702575003,Yes
+ARI:0001180,Rheumatic Chorea,46826000,Rheumatic chorea,0.772,name,(preferred name),444120,,46826000,Yes
+ARI:0001181,Rheumatic fever,58718002,Rheumatic fever,0.778,name,(preferred name),442313,,"58718002, 194709000",Yes
+ARI:0001182,Rheumatoid aortitis,38877003,Rheumatoid aortitis,0.778,name,(preferred name),4306357,,38877003,Yes
+ARI:0001183,Rheumatoid arthritis,69896004,Rheumatoid arthritis,0.778,name,(preferred name),80809,,69896004,Yes
+ARI:0001184,Rheumatoid vasculitis,400054000,Rheumatoid vasculitis,0.778,name,(preferred name),4271003,,400054000,Yes
+ARI:0001185,Sarcoidosis,31541009,Sarcoidosis,0.778,name,(preferred name),438688,,"72470008, 238676008, 31541009",Yes
+ARI:0001186,Schnitzler syndrome,402415001,Schnitzler syndrome,0.778,name,(preferred name),4297647,,402415001,Yes
+ARI:0001187,Scleritis,78370002,Scleritis,0.778,name,(preferred name),434944,,78370002,Yes
+ARI:0001188,Sjögren's disease,302896008,Keratoconjunctivitis sicca,0.778,name,Keratoconjunctivitis sicca,4120320,,83901003,
+ARI:0001189,SLE glomerulonephritis syndrome,68815009,SLE glomerulonephritis syndrome,0.778,name,(preferred name),4285717,,68815009,Yes
+ARI:0001190,Small fiber neuropathy,709489006,Small fiber neuropathy,0.778,name,(preferred name),46271378,,709489006,Yes
+ARI:0001191,Steroid-responsive encephalopathy associated with autoimmune thyroiditis,771271000,Steroid-responsive encephalopathy associated with autoimmune thyroiditis,0.778,name,(preferred name),36674282,,771271000,Yes
+ARI:0001192,Stiff-person syndrome,5217008,Stiff-person syndrome,0.778,name,(preferred name),379008,,5217008,Yes
+ARI:0001193,Subacute bacterial endocarditis,73774007,Subacute bacterial endocarditis,0.778,name,(preferred name),4249899,,73774007,Yes
+ARI:0001194,Sympathetic uveitis,75315001,Sympathetic uveitis,0.778,name,(preferred name),438739,,75315001,Yes
+ARI:0001195,Systemic lupus erythematosus,55464009,Systemic lupus erythematosus,0.778,name,(preferred name),257628,,55464009,Yes
+ARI:0001196,Systemic mast cell disease,397016004,Systemic mast cell disease,0.778,name,(preferred name),4246284,,397016004,Yes
+ARI:0001197,Systemic sclerosis,89155008,Systemic sclerosis,0.778,name,(preferred name),134442,,89155008,Yes
+ARI:0001198,Systemic sclerosis with limited cutaneous involvement,298285004,Systemic sclerosis with limited cutaneous involvement,0.778,name,(preferred name),4185187,,"298285004, 31848007, 128461001",Yes
+ARI:0001199,Takayasu's arteritis,359789008,Takayasu's disease,0.778,name,Takayasu's disease,440740,,359789008,Yes
+ARI:0001200,Temporal arteritis,400130008,Temporal arteritis,0.778,name,(preferred name),4290976,,400130008,Yes
+ARI:0001201,TIF1-gamma positive dermatomyositis,,,,,no match,,,,
+ARI:0001202,Tolosa-Hunt syndrome,95794005,Tolosa-Hunt syndrome,0.778,name,(preferred name),4317989,,95794005,Yes
+ARI:0001203,Transverse myelitis,16631009,Transverse myelopathy syndrome,0.556,synonym,(preferred name),443904,,16631009,Yes
+ARI:0001204,Ulcerative colitis,64766004,Ulcerative colitis,0.778,name,(preferred name),81893,,64766004,Yes
+ARI:0001205,Undifferentiated connective tissue disease,239918008,Undifferentiated connective tissue disease,0.778,name,(preferred name),4344165,,239918008,Yes
+ARI:0001206,Urticarial vasculitis,,,,,no match,,,402656007,
+ARI:0001207,Uveitis,128473001,Uveitis,0.778,name,(preferred name),4028363,,"128473001, 231947004",Yes
+ARI:0001208,Vitiligo,56727007,Vitiligo,0.778,name,(preferred name),138502,,56727007,Yes
+ARI:0001209,Vogt-Koyanagi-Harada disease,193497004,Vogt-Koyanagi-Harada disease,0.778,name,(preferred name),4108968,,193497004,Yes
+ARI:0001210,Warm autoimmune hemolytic anemia,3978000,Warm autoimmune hemolytic anemia,0.778,name,(preferred name),4219853,,3978000,Yes
