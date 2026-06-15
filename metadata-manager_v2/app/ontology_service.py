@@ -391,18 +391,49 @@ class OntologyService:
 
     def search(self, query: str) -> list:
         q = query.lower()
-        disease_iris = {d.iri for d in self._all_diseases()}
+        base = self.base
+        diseases = self._all_diseases()
+        disease_iris = {d.iri for d in diseases}
         results = []
+        seen = set()
+
+        def add(ind, is_disease, match):
+            if ind.iri in seen:
+                return
+            seen.add(ind.iri)
+            results.append({
+                "iri": ind.iri,
+                "name": self._get_label(ind),
+                "local_name": ind.name,
+                "obsolete": self._is_obsolete(ind),
+                "is_disease": is_disease,
+                "match": match,
+            })
+
+        def matches(text):
+            return text and q in text.lower()
+
+        # Diseases: match on label / local name, then synonyms, then target tissue.
+        for d in diseases:
+            if matches(self._get_label(d)) or (hasattr(d, "name") and matches(d.name)):
+                add(d, True, "name")
+                continue
+            syn = next((s for s in self._get_annotation(d, base + "ARI_Synonym") if matches(s)), None)
+            if syn:
+                add(d, True, f"synonym: {syn}")
+                continue
+            tis = next((self._get_label(t) for t in self._get_objects(d, base + "targetsTissue")
+                        if matches(self._get_label(t))), None)
+            if tis:
+                add(d, True, f"tissue: {tis}")
+
+        # Other individuals: match on label / local name.
         for ind in self.onto.individuals():
-            nm = self._get_label(ind).lower()
-            if q in nm or q in (ind.name.lower() if hasattr(ind, 'name') else ""):
-                results.append({
-                    "iri": ind.iri,
-                    "name": self._get_label(ind),
-                    "local_name": ind.name,
-                    "obsolete": self._is_obsolete(ind),
-                    "is_disease": ind.iri in disease_iris,
-                })
+            if ind.iri in disease_iris:
+                continue
+            if matches(self._get_label(ind)) or (hasattr(ind, "name") and matches(ind.name)):
+                add(ind, False, "name")
+
         # diseases first, then by name
         results.sort(key=lambda r: (not r["is_disease"], r["name"].lower()))
         return results[:100]
