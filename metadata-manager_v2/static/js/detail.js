@@ -56,7 +56,8 @@ function renderDetail(d){
   // Database cross-references as linkouts
   const xrefs = [
     ['icd10','ICD-10', d.icd10], ['snomed','SNOMED', d.snomed], ['doid','DOID', d.doid],
-    ['umls','UMLS', d.umls], ['mondo','MONDO', d.mondo],
+    ['umls','UMLS', d.umls], ['mondo','MONDO', d.mondo], ['mesh','MeSH', d.mesh],
+    ['nci','NCI', d.nci], ['omop','OMOP', d.omop],
   ].filter(x => x[2]?.length);
   if (xrefs.length){
     html += '<div class="section-label">Database cross-references</div><div class="xref-row">';
@@ -74,6 +75,37 @@ function renderDetail(d){
 
   if (d.tissue_targets?.length){
     html += `<div class="section-label">Target tissue</div><div style="font-size:12px;margin-bottom:4px">${d.tissue_targets.map(t => `<span style="display:inline-block;background:#e0f2fe;padding:1px 7px;border-radius:4px;margin:1px 2px;font-size:11px">${esc(t.name)}</span>`).join('')}</div>`;
+  }
+
+  // Clinical subtypes / variants (from the report Subtypes sheet): "name - description"
+  if (d.clinical_subtypes?.length){
+    html += `<div class="section-label">Clinical subtypes</div><ul class="subtype-list">`;
+    for (const sub of d.clinical_subtypes){
+      const [name, ...rest] = String(sub).split(' - ');
+      const desc = rest.join(' - ');
+      html += `<li><strong>${esc(name)}</strong>${desc ? ' &mdash; ' + esc(desc) : ''}</li>`;
+    }
+    html += `</ul>`;
+  }
+
+  // External reference links (Cleveland Clinic, Mayo, Healthline, registries, ...)
+  if (d.ref_links?.length){
+    html += `<div class="section-label">External references</div><div class="ref-links">`;
+    for (const ref of d.ref_links){
+      const idx = String(ref).lastIndexOf(' | ');
+      const text = idx >= 0 ? ref.slice(0, idx) : ref;
+      const url = idx >= 0 ? ref.slice(idx + 3) : ref;
+      html += `<a class="ref-link" href="${esc(url)}" target="_blank" rel="noopener">${esc(text)} &#8599;</a>`;
+    }
+    html += `</div>`;
+  }
+
+  // Profile authorship / byline
+  if (d.authors?.length){
+    const [who, link] = String(d.authors[0]).split(' | ');
+    const date = d.author_date?.length ? ` (${esc(d.author_date[0])})` : '';
+    const whoHtml = link ? `<a href="${esc(link)}" target="_blank" rel="noopener">${esc(who)}</a>` : esc(who);
+    html += `<div class="byline">Profile by ${whoHtml}${date}</div>`;
   }
 
   // Disease data organized as a narrative story; boxes grouped by aspect category
