@@ -2927,7 +2927,6 @@ HHV-8-negative/idiopathic multicentric Castleman disease (iMCD)</rdfs:comment>
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7147</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0038013</ARI_UMLS>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">M45</ARI_ICD10>
-  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">720.0</ARI_ICD10>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D013167</ARI_MESH>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C84564</ARI_NCI>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">437082</ARI_OMOP>
@@ -2937,7 +2936,6 @@ HHV-8-negative/idiopathic multicentric Castleman disease (iMCD)</rdfs:comment>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spondyloarthritis</ARI_Synonym>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bakland 2005 ; https://onlinelibrary.wiley.com/doi/full/10.1002/art.21577</ARI_DefSource>
   <evidenceQuality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unconfirmed</evidenceQuality>
-  <diseaseCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unconfirmed</diseaseCategory>
   <ARI_Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</ARI_Version>
   <prevalencePer100k rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">302574.0</prevalencePer100k>
   <ARI_PrevalenceDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female 120140/100k; Male 182433/100k; F:M ratio 0.658543</ARI_PrevalenceDesc>
@@ -2955,6 +2953,8 @@ HHV-8-negative/idiopathic multicentric Castleman disease (iMCD)</rdfs:comment>
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-03</ARI_AuthorDate>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AS</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <diseaseCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">confirmed</diseaseCategory>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-18 13:36 | curator | Edited: age_range, def_source, definition, demographic_bias, disease_category, doid, evidence_quality, icd10, incidence_rate, mondo, name, obsolete, prevalence_desc, prevalence_per_100k, prevalence_value, pubmed, snomed, synonyms, umls</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Tissue_Musculoskeletal">
@@ -3068,7 +3068,6 @@ HHV-8-negative/idiopathic multicentric Castleman disease (iMCD)</rdfs:comment>
   <rdf:type rdf:resource="#AutoimmuneDisease"/>
   <targetsTissue rdf:resource="#Tissue_NervousSystem"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anti-CASPR2 autoimmune encephalitis</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
   <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001013</ARI_ID>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">763803004</ARI_SNOMED>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">35622356</ARI_OMOP>
@@ -3077,6 +3076,8 @@ HHV-8-negative/idiopathic multicentric Castleman disease (iMCD)</rdfs:comment>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1; Nervous System</ARI_DefSource>
   <ARI_Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.1</ARI_Version>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-18 13:39 | curator | Edited: age_range, def_source, definition, demographic_bias, disease_category, doid, evidence_quality, icd10, incidence_rate, mondo, name, obsolete, prevalence_desc, prevalence_per_100k, prevalence_value, pubmed, snomed, synonyms, umls</ARI_ChangeLog>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">true</ARI_Obsolete>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001014">
