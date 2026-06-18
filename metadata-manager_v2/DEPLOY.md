@@ -14,15 +14,21 @@ Releases are handled on GitHub (there is no in-app Admin/release dialog).
 
 ## 1. GitHub OAuth App
 GitHub → Settings → Developer settings → OAuth Apps → New OAuth App.
-- Homepage URL: `https://editor.example.com`
-- Authorization callback URL: `https://editor.example.com/auth/github/callback`
+This deployment uses the bare Lightsail IP over **HTTP** (no domain/TLS), so use
+the public IP in both URLs (replace `IP` with your instance's static IP):
+- Homepage URL: `http://IP`
+- Authorization callback URL: `http://IP/auth/github/callback`
 Note the Client ID + secret.
+
+> Running without TLS is insecure — see "Security: running over HTTP" at the
+> bottom before exposing this beyond a trusted network.
 
 ## 2. Lightsail instance
 
 > Prerequisite: push the branch to GitHub first (`git push origin feature/metadata-manager_v2/ARI`)
 > and choose a plan with **>= 1 GB RAM** (or rely on the swap step below).
-- Create an Ubuntu 22.04 instance; attach a static IP; open ports 80 and 443.
+- Create an Ubuntu 22.04 instance; attach a **static IP**; open **port 80** in the
+  Lightsail firewall (no 443 needed without TLS). No domain required.
 - Point your domain's A record at the static IP.
 
 ## 3. Install + deploy
@@ -56,7 +62,8 @@ sudo -u ariapp /opt/ari/venv/bin/pip install --no-cache-dir -r metadata-manager_
 # config (secrets server-side only)
 cd metadata-manager_v2
 sudo -u ariapp cp .env.example .env
-sudo -u ariapp nano .env     # client id/secret; APP_BASE_URL=https://editor.example.com; SESSION_SECRET=$(openssl rand -hex 32)
+sudo -u ariapp nano .env     # client id/secret; APP_BASE_URL=http://IP ; SESSION_SECRET=$(openssl rand -hex 32)
+# (APP_BASE_URL must be http://<your static IP> so the OAuth redirect + cookie match)
 sudo chmod 600 .env
 ```
 
@@ -71,21 +78,17 @@ sudo systemctl enable --now ari-mm-update.timer   # pulls the branch every 10 mi
 # allow the app user to restart the service from update.sh
 echo 'ariapp ALL=(root) NOPASSWD: /bin/systemctl restart ari-mm' | sudo tee /etc/sudoers.d/ari-mm
 
-sudo cp nginx.conf /etc/nginx/sites-available/ari-mm
-sudo sed -i 's/editor.example.com/YOUR_DOMAIN/' /etc/nginx/sites-available/ari-mm
+sudo cp nginx.conf /etc/nginx/sites-available/ari-mm   # HTTP-only, server_name _
 sudo ln -sf /etc/nginx/sites-available/ari-mm /etc/nginx/sites-enabled/ari-mm
 sudo rm -f /etc/nginx/sites-enabled/default
-# nginx.conf is HTTP-only at this point, so this passes even before any cert exists:
 sudo nginx -t && sudo systemctl reload nginx
-# Obtain the cert AND auto-add the TLS server block + 80->443 redirect:
-sudo apt install -y certbot python3-certbot-nginx
-sudo certbot --nginx -d YOUR_DOMAIN
-# (No domain yet? Skip certbot — Let's Encrypt can't issue for a bare IP —
-#  set `server_name _;` and use http://<instance-ip> for testing.)
+# No certbot / no TLS: the app is served at  http://<your static IP>
+# When you later get a domain, point its A record here and run:
+#   sudo apt install -y certbot python3-certbot-nginx && sudo certbot --nginx -d YOUR_DOMAIN
 ```
 
 ## 5. Verify
-- `https://editor.example.com` loads; `/api/v2/me` shows `github_enabled: true`.
+- `http://<your static IP>` loads; `/api/v2/me` shows `github_enabled: true`.
 - Sign in, edit a disease, Publish → PR opens on `edit/<you>/<disease-slug>-<ts>`
   against `GITHUB_BASE_BRANCH`, authored by you.
 - After a branch update merges, the timer pulls it and the app reflects it within ~10 min
@@ -118,3 +121,33 @@ command as the wrong user, mark the path safe for the service user:
 ```bash
 sudo -u ariapp git config --global --add safe.directory /opt/ari/repo
 ```
+
+## Security: running over HTTP (no TLS)
+
+Serving over a bare IP means all browser <-> server traffic is **unencrypted**.
+The GitHub *access token* still stays server-side (it's never sent to the browser),
+but the risks that remain are real:
+
+- **Session-cookie theft = acting as you on GitHub.** Login is tracked by a
+  session cookie that maps to your server-side GitHub token. Over HTTP that
+  cookie crosses the network in clear text and (because the site isn't HTTPS) is
+  not marked `Secure`. Anyone who can sniff the connection (shared Wi-Fi, an
+  upstream network hop) can copy it and publish commits/PRs to the repo **as you**.
+- **OAuth code interception.** The `?code=...` returned by GitHub travels over
+  HTTP on the way back to the app. It's single-use and short-lived, but on an
+  open network it can be grabbed and replayed before you use it.
+- **No server authentication / MITM.** Users can't verify they're talking to the
+  real instance; a man-in-the-middle could impersonate it, harvest the OAuth
+  flow, or alter responses. The server->GitHub API calls themselves are HTTPS, so
+  only the browser<->server leg is exposed.
+- **Credentials in the open.** Anything typed into the page (commit messages,
+  etc.) is visible in transit.
+
+Mitigations while on HTTP (treat this as a private preview, not public):
+- Lock the Lightsail firewall to **your own IP(s)** only.
+- Set `ALLOWED_LOGINS` in `.env` so only named GitHub users can publish.
+- Use a fine-grained GitHub OAuth App scope and rotate the client secret if exposed.
+- Prefer reaching it over an **SSH tunnel** (`ssh -L 8001:127.0.0.1:8001 ...`) instead
+  of opening port 80 publicly.
+- Move to a domain + free TLS (certbot or Cloudflare) before any real/multi-user use —
+  it's a 2-minute `certbot --nginx` step once a domain points at the IP.
