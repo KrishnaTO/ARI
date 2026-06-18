@@ -25,7 +25,11 @@ Note the Client ID + secret.
 ## 3. Install + deploy
 ```bash
 sudo apt update && sudo apt install -y nginx git python3-venv
-sudo useradd --system --create-home --home-dir /opt/ari ariapp
+sudo useradd --system --create-home --home-dir /opt/ari --shell /usr/sbin/nologin ariapp
+# make the app dir traversable so you can inspect it as your own user
+sudo chmod 755 /opt/ari
+# to run commands AS the service user (its shell is nologin):
+#   sudo -u ariapp bash    # then cd /opt/ari/repo, git, etc.
 
 # clone the repo and check out the tracked branch
 sudo -u ariapp git clone https://github.com/KrishnaTO/ARI.git /opt/ari/repo
@@ -72,3 +76,25 @@ sudo certbot --nginx -d editor.example.com
 - App bound to `127.0.0.1:8001`; only nginx is public; HTTPS enforced.
 - GitHub token is held server-side (session holds only an opaque id); never sent to the browser.
 - Set `ALLOWED_LOGINS` to restrict who may publish.
+
+## Troubleshooting
+
+**`cd /opt/ari/repo` → Permission denied.** The repo is owned by the `ariapp`
+service user and `/opt/ari` is that user's home, so your login user can't enter it.
+Either make it traversable:
+```bash
+sudo chmod 755 /opt/ari
+```
+or operate as the service user:
+```bash
+sudo -u ariapp bash
+cd /opt/ari/repo
+```
+Never `chown` the tree to your personal user — the service runs as `ariapp` and
+its `.env`/checkout must stay owned by `ariapp` (with `.env` at `chmod 600`).
+
+**`git pull` / update.sh fails with "dubious ownership".** If you ran any git
+command as the wrong user, mark the path safe for the service user:
+```bash
+sudo -u ariapp git config --global --add safe.directory /opt/ari/repo
+```
