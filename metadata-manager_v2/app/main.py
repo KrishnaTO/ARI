@@ -40,7 +40,7 @@ GH_CLIENT_ID = os.environ.get("GITHUB_CLIENT_ID", "")
 GH_CLIENT_SECRET = os.environ.get("GITHUB_CLIENT_SECRET", "")
 GH_OWNER = os.environ.get("GITHUB_OWNER", "")
 GH_REPO = os.environ.get("GITHUB_REPO", "")
-GH_BASE_BRANCH = os.environ.get("GITHUB_BASE_BRANCH", "main")
+GH_BASE_BRANCH = os.environ.get("GITHUB_BASE_BRANCH", "feature/metadata-manager_v2/ARI")
 GH_ONTOLOGY_PATH = os.environ.get(
     "GITHUB_ONTOLOGY_PATH", "metadata-manager_v2/ontologies/ari_t1d.owl")
 APP_BASE_URL = os.environ.get("APP_BASE_URL", "http://localhost:8001").rstrip("/")

@@ -1,0 +1,8 @@
+# /etc/systemd/system/ari-mm-update.timer  ->  enable with: systemctl enable --now ari-mm-update.timer
+[Unit]
+Description=Periodically refresh the ARI manager from its tracked branch
+[Timer]
+OnBootSec=2min
+OnUnitActiveSec=10min
+[Install]
+WantedBy=timers.target
