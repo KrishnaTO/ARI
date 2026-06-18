@@ -71,11 +71,17 @@ sudo systemctl enable --now ari-mm-update.timer   # pulls the branch every 10 mi
 # allow the app user to restart the service from update.sh
 echo 'ariapp ALL=(root) NOPASSWD: /bin/systemctl restart ari-mm' | sudo tee /etc/sudoers.d/ari-mm
 
-sudo cp nginx.conf /etc/nginx/sites-available/ari-mm   # edit server_name
-sudo ln -s /etc/nginx/sites-available/ari-mm /etc/nginx/sites-enabled/
+sudo cp nginx.conf /etc/nginx/sites-available/ari-mm
+sudo sed -i 's/editor.example.com/YOUR_DOMAIN/' /etc/nginx/sites-available/ari-mm
+sudo ln -sf /etc/nginx/sites-available/ari-mm /etc/nginx/sites-enabled/ari-mm
+sudo rm -f /etc/nginx/sites-enabled/default
+# nginx.conf is HTTP-only at this point, so this passes even before any cert exists:
 sudo nginx -t && sudo systemctl reload nginx
+# Obtain the cert AND auto-add the TLS server block + 80->443 redirect:
 sudo apt install -y certbot python3-certbot-nginx
-sudo certbot --nginx -d editor.example.com
+sudo certbot --nginx -d YOUR_DOMAIN
+# (No domain yet? Skip certbot — Let's Encrypt can't issue for a bare IP —
+#  set `server_name _;` and use http://<instance-ip> for testing.)
 ```
 
 ## 5. Verify
