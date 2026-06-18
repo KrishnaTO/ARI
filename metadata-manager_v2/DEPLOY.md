@@ -19,6 +19,9 @@ GitHub → Settings → Developer settings → OAuth Apps → New OAuth App.
 Note the Client ID + secret.
 
 ## 2. Lightsail instance
+
+> Prerequisite: push the branch to GitHub first (`git push origin feature/metadata-manager_v2/ARI`)
+> and choose a plan with **>= 1 GB RAM** (or rely on the swap step below).
 - Create an Ubuntu 22.04 instance; attach a static IP; open ports 80 and 443.
 - Point your domain's A record at the static IP.
 
@@ -34,10 +37,21 @@ sudo chmod 755 /opt/ari
 # clone the repo and check out the tracked branch
 sudo -u ariapp git clone https://github.com/KrishnaTO/ARI.git /opt/ari/repo
 cd /opt/ari/repo && sudo -u ariapp git checkout feature/metadata-manager_v2/ARI
+# the checkout (and everything git touches) must be owned by the service user,
+# or `sudo -u ariapp git ...` and the auto-update timer get Permission denied:
+sudo chown -R ariapp:ariapp /opt/ari
 
-# python env
+# add swap FIRST on small instances — owlready2 compiles from source and is
+# OOM-killed (pip exits with code -9) on <2 GB RAM without swap:
+if ! sudo swapon --show | grep -q /swapfile; then
+  sudo fallocate -l 2G /swapfile && sudo chmod 600 /swapfile
+  sudo mkswap /swapfile && sudo swapon /swapfile
+  echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab
+fi
+
+# python env (--no-cache-dir keeps peak memory down)
 sudo -u ariapp python3 -m venv /opt/ari/venv
-sudo -u ariapp /opt/ari/venv/bin/pip install -r metadata-manager_v2/requirements.txt
+sudo -u ariapp /opt/ari/venv/bin/pip install --no-cache-dir -r metadata-manager_v2/requirements.txt
 
 # config (secrets server-side only)
 cd metadata-manager_v2
