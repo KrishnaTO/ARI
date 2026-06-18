@@ -3,8 +3,20 @@
 // other js/*.js modules at runtime.
 
 const $ = s => document.querySelector(s);
-const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&','<':'<','>':'>','"':'"',"'":'&#39;'}[c]));
 const first = a => (Array.isArray(a) ? a[0] : a) ?? '';
+
+// Base path for when the app is served under a subpath (e.g. /ari-editor).
+// Auto-detected from the page URL: if the first path segment matches a known
+// prefix, we use it. Falls back to empty string when served at root.
+// To set a custom prefix, put <script>window.BASE_PATH='/my-prefix'</script>
+// in the HTML <head> before loading core.js.
+const BASE_PATH = (() => {
+  if (typeof window.BASE_PATH !== 'undefined') return window.BASE_PATH;
+  const m = window.location.pathname.match(/^\/([^/]+)/);
+  const knownPrefixes = ['ari-editor'];
+  return m && knownPrefixes.includes(m[1]) ? '/' + m[1] : '';
+})();
 
 let state = { activeIri: null, activeTab: 'alphabetical', activeBox: null, editMode: false, detail: null, schema: {}, editor: 'curator' };
 
@@ -79,8 +91,10 @@ function panelDescHTML(key){
 
 // ----------------------------------------------------------------- API
 async function api(path, opts={}){
+  // Prepend BASE_PATH so API calls work when app is served under a subpath
+  const fullPath = path.startsWith('/') ? BASE_PATH + path : path;
   if (opts.body){ opts.headers = {'content-type':'application/json'}; opts.body = JSON.stringify(opts.body); }
-  const res = await fetch(path, opts);
+  const res = await fetch(fullPath, opts);
   if (!res.ok){ const d = await res.json().catch(()=>({})); throw new Error(d?.detail || res.statusText); }
   return await res.json();
 }
