@@ -30,7 +30,7 @@
       wrap.appendChild(out);
     } else {
       const login = el('<button class="hbtn">Sign in with GitHub</button>');
-      login.addEventListener('click', () => (location.href = '/auth/github'));
+      login.addEventListener('click', () => (location.href = BASE_PATH + '/auth/github'));
       wrap.appendChild(login);
     }
     header.appendChild(wrap);
