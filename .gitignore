@@ -14,3 +14,4 @@ data/2-databases/*
 *archive/
 *.zip
 notebook/ari-grounding/doid_records.json
+metadata-manager_v2/run-local.sh
