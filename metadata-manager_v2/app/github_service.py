@@ -101,3 +101,35 @@ async def publish_file(*, token: str, owner: str, repo: str, base_branch: str,
             raise ValueError(f"PR creation failed: {pr.json().get('message')}")
         prj = pr.json()
     return {"branch": branch, "pr_number": prj["number"], "pr_url": prj["html_url"]}
+
+
+async def list_branches(token: str | None, owner: str, repo: str) -> list[str]:
+    """All branch names in the repo (token optional for public repos)."""
+    hdrs = {"Accept": "application/vnd.github+json"}
+    if token:
+        hdrs["Authorization"] = f"Bearer {token}"
+    out, page = [], 1
+    async with httpx.AsyncClient(timeout=20, headers=hdrs) as c:
+        while True:
+            r = await c.get(f"{API}/repos/{owner}/{repo}/branches",
+                            params={"per_page": 100, "page": page})
+            if r.status_code >= 300:
+                raise ValueError(f"Could not list branches: {r.json().get('message')}")
+            batch = r.json()
+            out += [b["name"] for b in batch]
+            if len(batch) < 100:
+                break
+            page += 1
+    return out
+
+
+async def get_file_at(token: str | None, owner: str, repo: str, path: str, ref: str) -> bytes:
+    """Raw bytes of `path` on `ref` (token optional for public repos)."""
+    hdrs = {"Accept": "application/vnd.github.raw+json"}
+    if token:
+        hdrs["Authorization"] = f"Bearer {token}"
+    async with httpx.AsyncClient(timeout=30, headers=hdrs) as c:
+        r = await c.get(f"{API}/repos/{owner}/{repo}/contents/{path}", params={"ref": ref})
+        if r.status_code >= 300:
+            raise ValueError(f"Could not fetch {path}@{ref}: {r.status_code} {r.text[:200]}")
+        return r.content
