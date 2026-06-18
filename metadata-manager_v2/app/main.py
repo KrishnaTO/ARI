@@ -63,11 +63,6 @@ def reload_service():
     global service
     service = OntologyService(ONTOLOGY_FILE)
 
-
-def _allowed_branches(names):
-    """The working branch plus any edit/* branches."""
-    return [GH_BASE_BRANCH] + sorted(n for n in names if n.startswith("edit/"))
-
 app.add_middleware(
     SessionMiddleware,
     secret_key=os.environ.get("SESSION_SECRET", secrets.token_hex(32)),
@@ -159,8 +154,8 @@ async def add_item(iri: str, payload: dict = Body(...)):
 async def update_item(iri: str, payload: dict = Body(...)):
     """Edit a data item. Body: {category, changes:{...}, disease, editor}."""
     r = service.update_item(iri, payload["category"], payload.get("changes", {}),
-                           disease_iri=payload.get("disease", ""),
-                           editor=payload.get("editor", "user"))
+                            disease_iri=payload.get("disease", ""),
+                            editor=payload.get("editor", "user"))
     STATE["dirty"] = True
     return r
 
@@ -169,7 +164,7 @@ async def update_item(iri: str, payload: dict = Body(...)):
 async def delete_item(iri: str, payload: dict = Body(...)):
     """Delete a data item. Body: {category, disease, editor}."""
     r = service.delete_item(iri, payload.get("category", ""),
-                           payload["disease"], editor=payload.get("editor", "user"))
+                            payload["disease"], editor=payload.get("editor", "user"))
     STATE["dirty"] = True
     return r
 
@@ -282,6 +277,20 @@ async def publish(request: Request, payload: dict = Body(default={})):
         message=message, identity=u["identity"])
 
 
+# ----------------------------------------------------------------- SETTINGS / FETCH / EXPORT
+def _allowed_branches(branches):
+    """Only the working branch and edit/* branches are selectable."""
+    return [b for b in branches if b == GH_BASE_BRANCH or b.startswith("edit/")]
+
+
+async def _fetch_branch(token, branch):
+    data = await gh.get_file_at(token, GH_OWNER, GH_REPO, GH_ONTOLOGY_PATH, branch)
+    Path(ONTOLOGY_FILE).write_bytes(data)
+    reload_service()
+    STATE["source_branch"] = branch
+    STATE["dirty"] = False
+
+
 @app.get("/api/v2/settings")
 async def get_settings(request: Request):
     u = _user(request)
@@ -295,14 +304,6 @@ async def get_settings(request: Request):
     return {"github_enabled": GH_ENABLED, "authenticated": bool(u),
             "working_branch": GH_BASE_BRANCH, "source_branch": STATE["source_branch"],
             "pr_base": STATE["pr_base"], "dirty": STATE["dirty"], "branches": branches}
-
-
-async def _fetch_branch(token, branch):
-    data = await gh.get_file_at(token, GH_OWNER, GH_REPO, GH_ONTOLOGY_PATH, branch)
-    Path(ONTOLOGY_FILE).write_bytes(data)
-    reload_service()
-    STATE["source_branch"] = branch
-    STATE["dirty"] = False
 
 
 @app.post("/api/v2/fetch")
@@ -341,7 +342,7 @@ async def set_source(request: Request, payload: dict = Body(...)):
 
 @app.post("/api/v2/pr-base")
 async def set_pr_base(request: Request, payload: dict = Body(...)):
-    """Choose which branch edits are PR'd into (working or any edit/* branch)."""
+    """Set the branch that edits open PRs against."""
     if not GH_ENABLED:
         raise ValueError("GitHub integration is not configured")
     u = _user(request)

@@ -50,7 +50,7 @@
       try { const r = await api('/api/v2/pr-base', { method: 'POST', body: { branch: $('#set-prbase').value } });
         toast('PRs will target ' + r.pr_base); } catch (e) { toast('Failed: ' + e.message); }
     });
-    $('#set-export').addEventListener('click', () => { window.location = '/api/v2/export'; });
+    $('#set-export').addEventListener('click', () => { window.location = BASE_PATH + '/api/v2/export'; });
   }
 
   async function doFetch(url, body) {
