@@ -74,7 +74,7 @@ function renderDetail(d){
   }
 
   if (d.tissue_targets?.length){
-    html += `<div class="section-label">Target tissue</div><div style="font-size:12px;margin-bottom:4px">${d.tissue_targets.map(t => `<span style="display:inline-block;background:#e0f2fe;padding:1px 7px;border-radius:4px;margin:1px 2px;font-size:11px">${esc(t.name)}</span>`).join('')}</div>`;
+    html += `<div class="section-label">Target tissue</div><div style="font-size:12px;margin-bottom:4px">${d.tissue_targets.map(t => `<span class="tissue-chip">${esc(t.name)}</span>`).join('')}</div>`;
   }
 
   // Clinical subtypes / variants (from the report Subtypes sheet): "name - description"

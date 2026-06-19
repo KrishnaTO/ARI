@@ -99,6 +99,7 @@ header { display: flex; align-items: center; gap: 12px; padding: 8px 16px; borde
 .detail .meta a.tag:hover { background: var(--accent-border); }
 .section-label { font-size: 11px; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); font-weight: 700; margin: 14px 0 6px; }
 .detail .synonyms span { display: inline-block; margin: 2px 4px 2px 0; background: var(--bg-side); padding: 2px 8px; border-radius: 4px; font-size: 12px; }
+.tissue-chip { display: inline-block; background: var(--accent-soft); color: var(--accent); padding: 1px 7px; border-radius: 4px; margin: 1px 2px; font-size: 11px; font-weight: 600; }
 .xref-row { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 10px; }
 .xref { display: inline-flex; align-items: center; gap: 4px; text-decoration: none; border: 1px solid var(--border); border-radius: 6px; padding: 3px 8px; font-size: 11px; color: var(--text); }
 .xref:hover { border-color: var(--accent); background: var(--accent-soft); }
