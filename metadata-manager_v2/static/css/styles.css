@@ -6,6 +6,15 @@
   --cat-genetic: #7c3aed; --cat-trigger: #d97706; --cat-immune: #2563eb;
   --cat-antibody: #059669; --cat-tissuedamage: #dc2626; --cat-outcome: #475569;
 }
+
+[data-theme="dark"] {
+  --accent: #60a5fa; --accent-soft: #1e293b; --accent-border: #334155;
+  --bg: #0f172a; --bg-side: #1e293b; --border: #334155;
+  --text: #e2e8f0; --muted: #94a3b8;
+  --success: #34d399; --warn: #fbbf24; --danger: #f87171; --info: #22d3ee;
+  --cat-genetic: #a78bfa; --cat-trigger: #fbbf24; --cat-immune: #60a5fa;
+  --cat-antibody: #34d399; --cat-tissuedamage: #f87171; --cat-outcome: #94a3b8;
+}
 * { box-sizing: border-box; }
 body { margin: 0; font: 14px/1.5 system-ui, -apple-system, sans-serif; color: var(--text); background: var(--bg); display: flex; flex-direction: column; height: 100vh; }
 button { font: inherit; cursor: pointer; border: none; background: none; }
