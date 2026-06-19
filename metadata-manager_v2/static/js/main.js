@@ -9,4 +9,20 @@ async function init(){
   renderTab();
 }
 
+// ----------------------------------------------------------------- THEME
+function applyTheme(theme) {
+  document.documentElement.setAttribute('data-theme', theme);
+  try { localStorage.setItem('ari-theme', theme); } catch (e) {}
+}
+function initTheme() {
+  const saved = (() => { try { return localStorage.getItem('ari-theme'); } catch (e) { return ''; } })();
+  const pref = saved || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+  applyTheme(pref);
+}
+document.getElementById('theme-toggle')?.addEventListener('click', () => {
+  const cur = document.documentElement.getAttribute('data-theme');
+  applyTheme(cur === 'dark' ? 'light' : 'dark');
+});
+initTheme();
+
 init();
