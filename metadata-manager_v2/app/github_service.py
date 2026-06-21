@@ -100,6 +100,16 @@ async def publish_file(*, token: str, owner: str, repo: str, base_branch: str, p
         if pr.status_code >= 300:
             raise ValueError(f"PR creation failed: {pr.json().get('message')}")
         prj = pr.json()
+
+        # Auto-label the PR "edit term" (best effort; create the label if missing).
+        try:
+            await c.post(f"{API}/repos/{owner}/{repo}/labels",
+                         json={"name": "edit term", "color": "0e8a16",
+                               "description": "Disease term edit via the ARI Metadata Manager"})
+            await c.post(f"{API}/repos/{owner}/{repo}/issues/{prj['number']}/labels",
+                         json={"labels": ["edit term"]})
+        except Exception:
+            pass
     return {"branch": branch, "pr_number": prj["number"], "pr_url": prj["html_url"]}
 
 
