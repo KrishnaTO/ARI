@@ -38,20 +38,38 @@
     header.appendChild(wrap);
   }
 
-  async function publish() {
+  function publish() {
     const disease = state.detail?.name || '';
     const def = disease ? `Update ${disease}` : 'Update ontology';
-    const msg = window.prompt('Commit message for the pull request:', def);
-    if (msg === null) return;
-    try {
-      toast('Publishing to GitHub…');
-      const r = await api('/api/v2/publish', { method: 'POST', body: { disease, message: msg } });
-      const link = el(`<div class="toast" style="cursor:pointer">PR #${r.pr_number} opened on branch ${esc(r.branch)} — click to open</div>`);
-      link.addEventListener('click', () => window.open(r.pr_url, '_blank'));
-      document.body.appendChild(link); setTimeout(() => link.remove(), 8000);
-    } catch (e) {
-      toast('Publish failed: ' + e.message);
-    }
+    const m = el(`<div class="modal-overlay" id="pub-overlay"><div class="modal">
+      <div class="modal-head"><h2>&#11014; Publish to GitHub</h2><button class="hbtn" id="pub-close">✕</button></div>
+      <div class="modal-body">
+        <p style="font-size:13px;margin:0 0 10px">Opens a pull request with a summary of your changes (previous &rarr; new values).</p>
+        <div class="field"><label>Commit message / PR title</label><input id="pub-msg" value="${esc(def)}"></div>
+        <div class="field"><label>Comments (optional)</label><textarea id="pub-comment" placeholder="Why this change, sources, notes for reviewers..."></textarea></div>
+        <div class="edit-actions" style="margin-top:4px"><button class="hbtn primary" id="pub-go">Open pull request</button>
+          <button class="hbtn" id="pub-cancel">Cancel</button></div>
+      </div></div></div>`);
+    document.body.appendChild(m);
+    const close = () => $('#pub-overlay').remove();
+    $('#pub-close').addEventListener('click', close);
+    $('#pub-cancel').addEventListener('click', close);
+    $('#pub-overlay').addEventListener('click', e => { if (e.target.id === 'pub-overlay') close(); });
+    $('#pub-go').addEventListener('click', async () => {
+      const message = $('#pub-msg').value.trim();
+      const comment = $('#pub-comment').value.trim();
+      $('#pub-go').disabled = true; $('#pub-go').textContent = 'Publishing…';
+      try {
+        const r = await api('/api/v2/publish', { method: 'POST', body: { disease, message, comment } });
+        close();
+        const link = el(`<div class="toast" style="cursor:pointer">PR #${r.pr_number} opened on branch ${esc(r.branch)} — click to open</div>`);
+        link.addEventListener('click', () => window.open(r.pr_url, '_blank'));
+        document.body.appendChild(link); setTimeout(() => link.remove(), 8000);
+      } catch (e) {
+        toast('Publish failed: ' + e.message);
+        $('#pub-go').disabled = false; $('#pub-go').textContent = 'Open pull request';
+      }
+    });
   }
 
   if (document.readyState !== 'loading') refresh();
