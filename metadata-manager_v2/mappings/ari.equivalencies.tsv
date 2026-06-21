@@ -31,3 +31,16 @@ ARI	0001006	Addison's disease	skos:exactMatch	mesh	D000224	manual	github:Krishna
 ARI	0001006	Addison's disease	skos:exactMatch	ncit	C26689	manual	github:KrishnaTO
 ARI	0001008	Adult onset Still's disease	skos:exactMatch	SNOMEDCT	239920006	manual	github:KrishnaTO
 ARI	0001008	Adult onset Still's disease	skos:exactMatch	omop	4344166	manual	github:KrishnaTO
+ARI	0001008	Adult onset Still's disease	skos:exactMatch	umls	C0085253	manual	github:KrishnaTO
+ARI	0001008	Adult onset Still's disease	skos:exactMatch	DOID	14256	manual	github:KrishnaTO
+ARI	0001008	Adult onset Still's disease	skos:exactMatch	icd10cm	M06.1	manual	github:KrishnaTO
+ARI	0001008	Adult onset Still's disease	skos:exactMatch	mesh	D016706	manual	github:KrishnaTO
+ARI	0001008	Adult onset Still's disease	skos:exactMatch	ncit	C197832	manual	github:KrishnaTO
+ARI	0001007	Adult-onset immunodeficiency due to anti-IFN-gamma autoantibodies	skos:exactMatch	SNOMEDCT	784393004	manual	github:KrishnaTO
+ARI	0001007	Adult-onset immunodeficiency due to anti-IFN-gamma autoantibodies	skos:exactMatch	omop	37205096	manual	github:KrishnaTO
+ARI	0001009	Age related macular degeneration	skos:exactMatch	SNOMEDCT	267718000	manual	github:KrishnaTO
+ARI	0001009	Age related macular degeneration	skos:exactMatch	omop	374028	manual	github:KrishnaTO
+ARI	0001009	Age related macular degeneration	skos:exactMatch	DOID	10871	manual	github:KrishnaTO
+ARI	0001009	Age related macular degeneration	skos:exactMatch	umls	C0242383	manual	github:KrishnaTO
+ARI	0001009	Age related macular degeneration	skos:exactMatch	mesh	D008268	manual	github:KrishnaTO
+ARI	0001009	Age related macular degeneration	skos:exactMatch	ncit	C84391	manual	github:KrishnaTO
