@@ -184,6 +184,21 @@ async def create_release(payload: dict = Body(default={})):
     return service.create_release(version=version, notes=notes, editor=editor)
 
 
+@app.get("/api/v2/xrefs")
+async def xrefs():
+    """All diseases with their database cross-references, for the reference-review page."""
+    keys = ["snomed", "omop", "doid", "umls", "mondo", "icd10", "mesh", "nci", "dxcode"]
+    out = []
+    for it in service.get_diseases_list():
+        d = service.get_disease_detail(it["iri"])
+        row = {"iri": d.get("iri"), "name": d.get("name"),
+               "ari_id": (d.get("ari_id") or [None])[0]}
+        for k in keys:
+            row[k] = d.get(k) or []
+        out.append(row)
+    return out
+
+
 @app.get("/api/v2/search")
 async def search(q: str = ""):
     return service.search(q)

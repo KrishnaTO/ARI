@@ -41,6 +41,9 @@
           <input id="set-orcid" placeholder="0000-0000-0000-0000"></div>
         <div class="edit-actions" style="margin:4px 0 14px"><button class="hbtn" id="set-orcid-save">Save ORCID</button></div>
 
+        <div class="section-label">Reference review</div>
+        <div class="edit-actions" style="margin:4px 0 14px"><a class="hbtn" href="ref-edits/" target="_blank">&#128279; Open cross-reference review page</a></div>
+
         <div class="section-label">Export</div>
         <div class="edit-actions" style="margin-top:4px"><button class="hbtn" id="set-export">&#128202; Export current data to Excel</button></div>
         ${note}
