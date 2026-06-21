@@ -1,0 +1,41 @@
+# curie_map:
+#   ARI: https://diseases.autoimmuneregistry.org/disease/ARI_
+#   DOID: http://purl.obolibrary.org/obo/DOID_
+#   MONDO: http://purl.obolibrary.org/obo/MONDO_
+#   SNOMEDCT: http://snomed.info/id/
+#   ncit: http://purl.obolibrary.org/obo/NCIT_
+#   mesh: http://id.nlm.nih.gov/mesh/
+#   umls: https://uts.nlm.nih.gov/uts/umls/concept/
+#   icd10cm: http://purl.bioontology.org/ontology/ICD10CM/
+#   omop: https://athena.ohdsi.org/search-terms/terms/
+#   skos: http://www.w3.org/2004/02/skos/core#
+#   semapv: https://w3id.org/semapv/vocab/
+#   orcid: https://orcid.org/
+# mapping_set_id: https://diseases.autoimmuneregistry.org/mappings/ari.sssom.tsv
+# mapping_provider: https://www.autoimmuneregistry.org
+# mapping_set_title: ARI disease cross-reference mappings
+# license: https://creativecommons.org/publicdomain/zero/1.0/
+subject_id	subject_label	predicate_id	object_id	mapping_justification	author_id	mapping_date
+ARI:0001001	Acquired epidermolysis bullosa	skos:exactMatch	SNOMEDCT:2772003	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21
+ARI:0001001	Acquired epidermolysis bullosa	skos:exactMatch	omop:4100661	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21
+ARI:0001002	Acquired hemophilia	skos:exactMatch	SNOMEDCT:785308008	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21
+ARI:0001002	Acquired hemophilia	skos:exactMatch	omop:37203917	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21
+ARI:0001003	Acute disseminated encephalomyelitis	skos:exactMatch	SNOMEDCT:83942000	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21
+ARI:0001003	Acute disseminated encephalomyelitis	skos:exactMatch	omop:374021	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21
+ARI:0001003	Acute disseminated encephalomyelitis	skos:exactMatch	DOID:639	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21
+ARI:0001001	Acquired epidermolysis bullosa	skos:exactMatch	DOID:4313	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21
+ARI:0001001	Acquired epidermolysis bullosa	skos:exactMatch	umls:C0079293	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21
+ARI:0001001	Acquired epidermolysis bullosa	skos:exactMatch	icd10cm:L12.3	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21
+ARI:0001001	Acquired epidermolysis bullosa	skos:exactMatch	mesh:D016107	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21
+ARI:0001001	Acquired epidermolysis bullosa	skos:exactMatch	ncit:C84690	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21
+ARI:0001003	Acute disseminated encephalomyelitis	skos:exactMatch	ncit:C34578	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21
+ARI:0001003	Acute disseminated encephalomyelitis	skos:exactMatch	mesh:D004673	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21
+ARI:0001003	Acute disseminated encephalomyelitis	skos:exactMatch	umls:C0014059	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21
+ARI:0001004	Acute febrile mucocutaneous lymph node syndrome	skos:exactMatch	SNOMEDCT:75053002	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21
+ARI:0001004	Acute febrile mucocutaneous lymph node syndrome	skos:exactMatch	omop:314381	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21
+ARI:0001004	Acute febrile mucocutaneous lymph node syndrome	skos:exactMatch	DOID:13378	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21
+ARI:0001004	Acute febrile mucocutaneous lymph node syndrome	skos:exactMatch	umls:C0026691	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21
+ARI:0001004	Acute febrile mucocutaneous lymph node syndrome	skos:exactMatch	icd10cm:M30.3	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21
+ARI:0001004	Acute febrile mucocutaneous lymph node syndrome	skos:exactMatch	icd10cm:446.1	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21
+ARI:0001004	Acute febrile mucocutaneous lymph node syndrome	skos:exactMatch	mesh:D009080	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21
+ARI:0001004	Acute febrile mucocutaneous lymph node syndrome	skos:exactMatch	ncit:C34825	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21
