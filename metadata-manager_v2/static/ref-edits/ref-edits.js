@@ -183,7 +183,7 @@
   async function init() {
     try { me = await api('me'); } catch (e) { me = { github_enabled: false, authenticated: false }; }
     $('#auth').innerHTML = !me.authenticated
-      ? (me.github_enabled ? `<a class="btn" href="${new URL('../auth/github', location.href).href}">Sign in with GitHub</a>` : '<span class="muted">GitHub off — review only</span>')
+      ? (me.github_enabled ? `<a class="btn" href="${new URL('../auth/github?next=' + encodeURIComponent(location.pathname + location.search), location.href).href}">Sign in with GitHub</a>` : '<span class="muted">GitHub off — review only</span>')
       : `<span class="muted">@${esc(me.login)}</span>`;
     try { ROWS = await api('xrefs'); } catch (e) { $('#table-wrap').innerHTML = '<p class="muted" style="padding:16px">Failed to load: ' + esc(e.message) + '</p>'; return; }
     renderTable(''); counts(); initDivider();
