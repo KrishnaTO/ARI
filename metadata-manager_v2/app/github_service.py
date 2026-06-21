@@ -62,7 +62,7 @@ async def get_identity(token: str) -> dict:
             "email": email, "avatar": user.get("avatar_url", "")}
 
 
-async def publish_file(*, token: str, owner: str, repo: str, base_branch: str,
+async def publish_file(*, token: str, owner: str, repo: str, base_branch: str, pr_body: str = "",
                        path: str, content_bytes: bytes, disease_name: str,
                        message: str, identity: dict) -> dict:
     """Commit content_bytes to `path` on a new disease-named branch, open a PR."""
@@ -95,7 +95,7 @@ async def publish_file(*, token: str, owner: str, repo: str, base_branch: str,
         pr = await c.post(f"{API}/repos/{owner}/{repo}/pulls", json={
             "title": message or f"Edit {disease_name}",
             "head": branch, "base": base_branch,
-            "body": f"Edit to **{disease_name}** submitted via the ARI Metadata Manager by @{identity['login']}.",
+            "body": pr_body or f"Edit to **{disease_name}** submitted via the ARI Metadata Manager by @{identity['login']}.",
         })
         if pr.status_code >= 300:
             raise ValueError(f"PR creation failed: {pr.json().get('message')}")

@@ -11,6 +11,7 @@ from starlette.middleware.sessions import SessionMiddleware
 from .ontology_service import OntologyService
 from . import github_service as gh
 from . import export_service
+from . import diff_service
 
 
 def _load_dotenv():
@@ -270,11 +271,37 @@ async def publish(request: Request, payload: dict = Body(default={})):
         return JSONResponse(status_code=401, content={"detail": "Sign in with GitHub first"})
     disease = payload.get("disease") or "ontology"
     message = payload.get("message") or f"Update {disease}"
+    comment = (payload.get("comment") or "").strip()
     content = Path(ONTOLOGY_FILE).read_bytes()
+
+    # Diff current vs the source branch to summarise previous -> new values.
+    import tempfile, os as _os
+    summary = ""
+    tmp_path = None
+    try:
+        data = await gh.get_file_at(u["token"], GH_OWNER, GH_REPO, GH_ONTOLOGY_PATH, STATE["source_branch"])
+        tf = tempfile.NamedTemporaryFile(suffix=".owl", delete=False)
+        tf.write(data); tf.close(); tmp_path = tf.name
+        baseline = OntologyService(tmp_path)
+        summary = diff_service.build_change_summary(service, baseline)
+    except Exception:
+        summary = "_Change summary unavailable (could not load the source-branch baseline)._"
+    finally:
+        if tmp_path:
+            try: _os.unlink(tmp_path)
+            except Exception: pass
+
+    parts = []
+    if comment:
+        parts.append("**Curator comment:**\n\n" + comment)
+    parts.append(f"Submitted via the ARI Metadata Manager by @{u['identity']['login']}.")
+    parts.append("## Changes\n\n" + summary)
+    pr_body = "\n\n".join(parts)
+
     return await gh.publish_file(
         token=u["token"], owner=GH_OWNER, repo=GH_REPO, base_branch=STATE["pr_base"],
         path=GH_ONTOLOGY_PATH, content_bytes=content, disease_name=disease,
-        message=message, identity=u["identity"])
+        message=message, identity=u["identity"], pr_body=pr_body)
 
 
 # ----------------------------------------------------------------- SETTINGS / FETCH / EXPORT
