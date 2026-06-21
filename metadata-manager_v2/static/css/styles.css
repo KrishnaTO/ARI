@@ -238,7 +238,8 @@ header { display: flex; align-items: center; gap: 12px; padding: 8px 16px; borde
 .icon-btn { border: 1px solid var(--border); border-radius: 6px; padding: 2px 7px; font-size: 12px; line-height: 1.4; }
 .icon-btn:hover { background: #f1f5f9; border-color: var(--accent); }
 .icon-btn.danger:hover { background: #fef2f2; border-color: var(--danger); }
-.field select { width: 100%; padding: 6px 9px; border: 1px solid var(--border); border-radius: 6px; font: inherit; font-size: 13px; outline: none; background: var(--bg); }
+.field select { width: 100%; padding: 6px 9px; border: 1px solid var(--border); border-radius: 6px; font: inherit; font-size: 13px; outline: none; background: var(--bg); color: var(--text); }
+.field select option { background: var(--bg); color: var(--text); }
 .field select:focus { border-color: var(--accent); }
 
 /* Modal */
