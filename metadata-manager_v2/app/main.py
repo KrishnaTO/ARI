@@ -12,6 +12,7 @@ from .ontology_service import OntologyService
 from . import github_service as gh
 from . import export_service
 from . import diff_service
+from . import sssom_service
 
 
 def _load_dotenv():
@@ -306,17 +307,37 @@ async def publish(request: Request, payload: dict = Body(default={})):
             try: _os.unlink(tmp_path)
             except Exception: pass
 
+    # Confirmed cross-references -> SSSOM + equivalencies mapping files (accumulated).
+    confirmed = payload.get("confirmed") or []
+    author = payload.get("author") or f"github:{u['identity']['login']}"
+    extra_files = {}
+    SS_PATH = "metadata-manager_v2/mappings/ari.sssom.tsv"
+    EQ_PATH = "metadata-manager_v2/mappings/ari.equivalencies.tsv"
+    map_note = ""
+    if confirmed:
+        async def _read(path):
+            try:
+                return (await gh.get_file_at(u["token"], GH_OWNER, GH_REPO, path, STATE["source_branch"])).decode("utf-8")
+            except Exception:
+                return ""
+        files = sssom_service.build(confirmed, author, await _read(SS_PATH), await _read(EQ_PATH))
+        extra_files = {SS_PATH: files["sssom"].encode("utf-8"),
+                       EQ_PATH: files["equiv"].encode("utf-8")}
+        map_note = f"## Confirmed mappings\n\n{files['added']} new exact-match mapping(s) added to `{SS_PATH}` (SSSOM) and `{EQ_PATH}`."
+
     parts = []
     if comment:
         parts.append("**Curator comment:**\n\n" + comment)
     parts.append(f"Submitted via the ARI Metadata Manager by @{u['identity']['login']}.")
+    if map_note:
+        parts.append(map_note)
     parts.append("## Changes\n\n" + summary)
     pr_body = "\n\n".join(parts)
 
     return await gh.publish_file(
         token=u["token"], owner=GH_OWNER, repo=GH_REPO, base_branch=STATE["pr_base"],
         path=GH_ONTOLOGY_PATH, content_bytes=content, disease_name=disease,
-        message=message, identity=u["identity"], pr_body=pr_body)
+        message=message, identity=u["identity"], pr_body=pr_body, extra_files=extra_files)
 
 
 # ----------------------------------------------------------------- SETTINGS / FETCH / EXPORT
