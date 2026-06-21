@@ -11,6 +11,19 @@ from .feedback_service import FeedbackStore
 from .schema import CATEGORIES, SEEALSO_IRI
 
 
+def _split_csv(values):
+    """Flatten cross-reference annotation values, splitting any that contain
+    comma-separated ids into separate entries (e.g. OMOP "12345, 67890").
+    Order preserved, duplicates removed."""
+    out = []
+    for v in (values or []):
+        for part in str(v).split(","):
+            part = part.strip()
+            if part and part not in out:
+                out.append(part)
+    return out
+
+
 class OntologyService:
     def __init__(self, path: str):
         self.path = Path(path)
@@ -214,15 +227,15 @@ class OntologyService:
             "definition": self._get_comment(e),
             "obsolete": self._is_obsolete(e),
             "synonyms": self._get_annotation(e, base + "ARI_Synonym"),
-            "snomed": self._get_annotation(e, base + "ARI_SNOMED"),
-            "doid": self._get_annotation(e, base + "ARI_DOID"),
-            "umls": self._get_annotation(e, base + "ARI_UMLS"),
-            "mondo": self._get_annotation(e, base + "ARI_MONDO"),
-            "icd10": self._get_annotation(e, base + "ARI_ICD10"),
-            "mesh": self._get_annotation(e, base + "ARI_MESH"),
-            "nci": self._get_annotation(e, base + "ARI_NCI"),
-            "omop": self._get_annotation(e, base + "ARI_OMOP"),
-            "dxcode": self._get_annotation(e, base + "ARI_DXCODE"),
+            "snomed": _split_csv(self._get_annotation(e, base + "ARI_SNOMED")),
+            "doid": _split_csv(self._get_annotation(e, base + "ARI_DOID")),
+            "umls": _split_csv(self._get_annotation(e, base + "ARI_UMLS")),
+            "mondo": _split_csv(self._get_annotation(e, base + "ARI_MONDO")),
+            "icd10": _split_csv(self._get_annotation(e, base + "ARI_ICD10")),
+            "mesh": _split_csv(self._get_annotation(e, base + "ARI_MESH")),
+            "nci": _split_csv(self._get_annotation(e, base + "ARI_NCI")),
+            "omop": _split_csv(self._get_annotation(e, base + "ARI_OMOP")),
+            "dxcode": _split_csv(self._get_annotation(e, base + "ARI_DXCODE")),
             "version": self._get_annotation(e, base + "ARI_Version"),
             "prevalence_desc": self._get_annotation(e, base + "ARI_PrevalenceDesc"),
             "pubmed": self._get_annotation(e, base + "ARI_Pubmed"),
@@ -444,11 +457,15 @@ class OntologyService:
         "name":              ("label", None, str),
         "definition":        ("comment", None, str),
         "synonyms":          ("multi_ann", "ARI_Synonym", str),
-        "snomed":            ("ann", "ARI_SNOMED", str),
-        "doid":              ("ann", "ARI_DOID", str),
-        "umls":              ("ann", "ARI_UMLS", str),
-        "mondo":             ("ann", "ARI_MONDO", str),
-        "icd10":             ("ann", "ARI_ICD10", str),
+        "snomed":            ("multi_ann", "ARI_SNOMED", str),
+        "doid":              ("multi_ann", "ARI_DOID", str),
+        "umls":              ("multi_ann", "ARI_UMLS", str),
+        "mondo":             ("multi_ann", "ARI_MONDO", str),
+        "icd10":             ("multi_ann", "ARI_ICD10", str),
+        "mesh":              ("multi_ann", "ARI_MESH", str),
+        "nci":               ("multi_ann", "ARI_NCI", str),
+        "omop":              ("multi_ann", "ARI_OMOP", str),
+        "dxcode":            ("multi_ann", "ARI_DXCODE", str),
         "def_source":        ("ann", "ARI_DefSource", str),
         "pubmed":            ("ann", "ARI_Pubmed", str),
         "prevalence_desc":   ("ann", "ARI_PrevalenceDesc", str),

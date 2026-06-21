@@ -33,11 +33,14 @@ function openDiseaseFieldEditor(d){
   html += '<div class="field-grid">';
   html += fieldText('f_disease_category', 'Category', first(d.disease_category));
   html += fieldText('f_evidence_quality', 'Evidence quality', first(d.evidence_quality));
-  html += fieldText('f_icd10', 'ICD-10', first(d.icd10));
-  html += fieldText('f_snomed', 'SNOMED', first(d.snomed));
-  html += fieldText('f_doid', 'DOID', first(d.doid));
-  html += fieldText('f_umls', 'UMLS', first(d.umls));
-  html += fieldText('f_mondo', 'MONDO', first(d.mondo));
+  html += fieldText('f_icd10', 'ICD-10 (comma separated)', (d.icd10||[]).join(', '));
+  html += fieldText('f_snomed', 'SNOMED (comma separated)', (d.snomed||[]).join(', '));
+  html += fieldText('f_omop', 'OMOP (comma separated)', (d.omop||[]).join(', '));
+  html += fieldText('f_doid', 'DOID (comma separated)', (d.doid||[]).join(', '));
+  html += fieldText('f_umls', 'UMLS (comma separated)', (d.umls||[]).join(', '));
+  html += fieldText('f_mondo', 'MONDO (comma separated)', (d.mondo||[]).join(', '));
+  html += fieldText('f_mesh', 'MeSH (comma separated)', (d.mesh||[]).join(', '));
+  html += fieldText('f_nci', 'NCI (comma separated)', (d.nci||[]).join(', '));
   html += fieldText('f_prevalence_per_100k', 'Prevalence /100k', first(d.prevalence_per_100k));
   html += fieldText('f_prevalence_value', 'Estimated cases', first(d.prevalence_value));
   html += fieldText('f_incidence_rate', 'Incidence rate', first(d.incidence_rate));
@@ -62,6 +65,7 @@ async function saveEdits(){
     synonyms: v('f_synonyms'), disease_category: v('f_disease_category'),
     evidence_quality: v('f_evidence_quality'), icd10: v('f_icd10'), snomed: v('f_snomed'),
     doid: v('f_doid'), umls: v('f_umls'), mondo: v('f_mondo'),
+    omop: v('f_omop'), mesh: v('f_mesh'), nci: v('f_nci'),
     prevalence_per_100k: v('f_prevalence_per_100k'), prevalence_value: v('f_prevalence_value'),
     incidence_rate: v('f_incidence_rate'), demographic_bias: v('f_demographic_bias'),
     age_range: v('f_age_range'), prevalence_desc: v('f_prevalence_desc'),
