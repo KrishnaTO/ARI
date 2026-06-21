@@ -245,12 +245,18 @@ async def me(request: Request):
             "repo": f"{GH_OWNER}/{GH_REPO}", "base_branch": GH_BASE_BRANCH}
 
 
+def _safe_next(nxt: str) -> str:
+    """Only allow same-origin relative paths (avoid open redirects)."""
+    return nxt if nxt.startswith("/") and not nxt.startswith("//") else "/"
+
+
 @app.get("/auth/github")
-async def auth_github(request: Request):
+async def auth_github(request: Request, next: str = "/"):
     if not GH_ENABLED:
         return JSONResponse(status_code=404, content={"detail": "GitHub integration not configured"})
     st = secrets.token_hex(16)
     request.session["oauth_state"] = st
+    request.session["oauth_next"] = _safe_next(next)
     return RedirectResponse(gh.authorize_url(GH_CLIENT_ID, REDIRECT_URI, st))
 
 
@@ -268,7 +274,7 @@ async def auth_callback(request: Request, code: str = "", state: str = ""):
     SESSIONS[sid] = {"token": token, "identity": identity}
     request.session["sid"] = sid
     request.session.pop("oauth_state", None)
-    return RedirectResponse("/")
+    return RedirectResponse(_safe_next(request.session.pop("oauth_next", "/")))
 
 
 @app.post("/api/v2/logout")
