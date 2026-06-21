@@ -3741,24 +3741,6 @@ The trigger for antisynthetase syndrome is unknown, but it may be associated wit
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001026">
-  <rdf:type rdf:resource="#AutoimmuneDisease"/>
-  <targetsTissue rdf:resource="#Tissue_AllTissues"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune disease</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-  <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001026</ARI_ID>
-  <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">85828009</ARI_SNOMED>
-  <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">417</ARI_DOID>
-  <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0003089</ARI_UMLS>
-  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">720</ARI_ICD10>
-  <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">434621</ARI_OMOP>
-  <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">85828009</ARI_DXCODE>
-  <evidenceQuality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antibody</evidenceQuality>
-  <diseaseCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune</diseaseCategory>
-  <ARI_Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</ARI_Version>
-  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
-</owl:NamedIndividual>
-
 <owl:NamedIndividual rdf:about="#Tissue_AllTissues">
   <rdf:type rdf:resource="#AllTissues"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">All</rdfs:label>
