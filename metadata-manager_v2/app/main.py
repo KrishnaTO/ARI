@@ -1,5 +1,6 @@
 """FastAPI app for ARI Disease Metadata Manager v2."""
 import os
+import json
 import secrets
 from pathlib import Path
 
@@ -54,7 +55,27 @@ GH_ENABLED = bool(GH_CLIENT_ID and GH_CLIENT_SECRET and GH_OWNER and GH_REPO)
 
 # Tokens are kept SERVER-SIDE (the signed session cookie holds only an opaque id),
 # so the GitHub access token never reaches the browser.
-SESSIONS: dict[str, dict] = {}
+SESSIONS_FILE = Path(__file__).resolve().parent.parent / ".sessions.json"
+
+
+def _load_sessions() -> dict:
+    try:
+        return json.loads(SESSIONS_FILE.read_text())
+    except Exception:
+        return {}
+
+
+def _save_sessions():
+    try:
+        SESSIONS_FILE.write_text(json.dumps(SESSIONS))
+        os.chmod(SESSIONS_FILE, 0o600)
+    except Exception:
+        pass
+
+
+# Server-side token store, persisted to disk so a restart (e.g. the auto-update
+# timer) does not sign everyone out mid-session.
+SESSIONS: dict[str, dict] = _load_sessions()
 
 # Runtime settings (in-memory): which branch we populate FROM and PR INTO,
 # and whether the local ontology file has unpublished edits.
@@ -272,6 +293,7 @@ async def auth_callback(request: Request, code: str = "", state: str = ""):
         return JSONResponse(status_code=403, content={"detail": f"@{identity['login']} is not allowed"})
     sid = secrets.token_urlsafe(24)
     SESSIONS[sid] = {"token": token, "identity": identity}
+    _save_sessions()
     request.session["sid"] = sid
     request.session.pop("oauth_state", None)
     return RedirectResponse(_safe_next(request.session.pop("oauth_next", "/")))
@@ -280,6 +302,7 @@ async def auth_callback(request: Request, code: str = "", state: str = ""):
 @app.post("/api/v2/logout")
 async def logout(request: Request):
     SESSIONS.pop(request.session.pop("sid", ""), None)
+    _save_sessions()
     return {"ok": True}
 
 
@@ -316,6 +339,8 @@ async def publish(request: Request, payload: dict = Body(default={})):
     # Confirmed cross-references -> SSSOM + equivalencies mapping files (accumulated).
     confirmed = payload.get("confirmed") or []
     author = payload.get("author") or f"github:{u['identity']['login']}"
+    reuse_branch = payload.get("branch") or None
+    labels = payload.get("labels") or ["edit term"]
     extra_files = {}
     SS_PATH = "metadata-manager_v2/mappings/ari.sssom.tsv"
     EQ_PATH = "metadata-manager_v2/mappings/ari.equivalencies.tsv"
@@ -343,7 +368,8 @@ async def publish(request: Request, payload: dict = Body(default={})):
     return await gh.publish_file(
         token=u["token"], owner=GH_OWNER, repo=GH_REPO, base_branch=STATE["pr_base"],
         path=GH_ONTOLOGY_PATH, content_bytes=content, disease_name=disease,
-        message=message, identity=u["identity"], pr_body=pr_body, extra_files=extra_files)
+        message=message, identity=u["identity"], pr_body=pr_body, extra_files=extra_files,
+        reuse_branch=reuse_branch, labels=(labels + ["sssom"] if (confirmed and "sssom" not in labels) else labels))
 
 
 # ----------------------------------------------------------------- SETTINGS / FETCH / EXPORT

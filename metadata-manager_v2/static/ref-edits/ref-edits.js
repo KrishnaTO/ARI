@@ -27,9 +27,19 @@
   ];
   const DBMAP = Object.fromEntries(DBS.map(d => [d.key, d]));
 
-  let ROWS = [], me = null, reviewed = {}, edited = {}, active = null;
+  let ROWS = [], me = null, reviewed = {}, edited = {}, active = null, sessionBranch = null;
   const $ = s => document.querySelector(s);
   const cellEl = (iri, db) => document.querySelector(`[data-cell="${CSS.escape(iri + '|' + db)}"]`);
+
+  function reviewMessage() {
+    const iris = new Set();
+    Object.keys(edited).forEach(k => iris.add(k.split('|')[0]));
+    for (const [k, v] of Object.entries(reviewed)) if (v === 'ok') iris.add(k.split('|')[0]);
+    const ari = [...iris].map(i => (ROWS.find(x => x.iri === i) || {}).ari_id).filter(Boolean).sort();
+    let lab = ari.slice(0, 6).join(', ');
+    if (ari.length > 6) lab += ', +' + (ari.length - 6) + ' more';
+    return '[' + (lab || 'cross-references') + '] - mappings review';
+  }
 
   function confirmedList() {
     const out = [];
@@ -148,17 +158,22 @@
   }
 
   async function publish() {
-    const comment = window.prompt('Optional comment for the pull request (what you reviewed/changed):', 'Cross-reference review');
+    const comment = window.prompt('Optional comment for the pull request (what you reviewed/changed):', 'Mappings review');
     if (comment === null) return;
     const orcid = (localStorage.getItem('ari_editor_orcid') || '').trim();
     const author = orcid ? ('orcid:' + orcid) : (me && me.login ? ('github:' + me.login) : 'curator');
+    const message = reviewMessage();
     $('#publish').disabled = true; $('#publish').textContent = 'Publishing…';
     try {
-      const r = await api('publish', { method: 'POST', body: { disease: 'Cross-reference review', message: 'Cross-reference review', comment, confirmed: confirmedList(), author } });
-      $('#publish').textContent = 'Open PR #' + r.pr_number;
-      $('#publish').onclick = () => window.open(r.pr_url, '_blank');
-      $('#publish').disabled = false;
-    } catch (e) { alert('Publish failed: ' + e.message); $('#publish').textContent = 'Publish review (PR)'; counts(); }
+      const r = await api('publish', { method: 'POST', body: {
+        disease: 'mappings review', message, comment, confirmed: confirmedList(), author,
+        branch: sessionBranch, labels: ['edit term', 'sssom'] } });
+      sessionBranch = r.branch;                       // subsequent publishes append to the same PR
+      const pl = $('#prlink');
+      pl.textContent = 'PR #' + r.pr_number + ' ↗'; pl.href = r.pr_url; pl.style.display = '';
+      $('#publish').textContent = 'Publish more to PR #' + r.pr_number;
+      $('#publish').disabled = true;                  // re-enabled by counts() when new changes are made
+    } catch (e) { alert('Publish failed: ' + e.message); $('#publish').textContent = sessionBranch ? 'Publish more to PR' : 'Publish review (PR)'; counts(); }
   }
 
   // Draggable splitter — adjust side-panel width on all screens (mouse + touch).

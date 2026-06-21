@@ -62,71 +62,86 @@ async def get_identity(token: str) -> dict:
             "email": email, "avatar": user.get("avatar_url", "")}
 
 
-async def publish_file(*, token: str, owner: str, repo: str, base_branch: str, pr_body: str = "", extra_files: dict = None,
-                       path: str, content_bytes: bytes, disease_name: str,
-                       message: str, identity: dict) -> dict:
-    """Commit content_bytes to `path` on a new disease-named branch, open a PR."""
-    branch = f"edit/{identity['login']}/{slugify(disease_name)}-{int(time.time())}"
+async def publish_file(*, token: str, owner: str, repo: str, base_branch: str, pr_body: str = "",
+                       extra_files: dict = None, path: str, content_bytes: bytes,
+                       disease_name: str, message: str, identity: dict,
+                       reuse_branch: str = None, labels: list = None) -> dict:
+    """Commit content_bytes (+ extra_files) to a branch and open/update a PR.
+
+    If reuse_branch is given and exists, additional commits go onto that branch and
+    its existing open PR is reused (so further changes append to the same PR).
+    """
+    labels = labels or ["edit term"]
+    label_colors = {"edit term": "0e8a16", "sssom": "5319e7"}
+
+    def _author():
+        return {"name": identity["name"], "email": identity["email"]}
+
     async with httpx.AsyncClient(timeout=30, headers=_headers(token)) as c:
-        base = (await c.get(f"{API}/repos/{owner}/{repo}/git/ref/heads/{base_branch}")).json()
-        if "object" not in base:
-            raise ValueError(f"Base branch '{base_branch}' not found: {base.get('message')}")
-        base_sha = base["object"]["sha"]
+        branch = None
+        if reuse_branch:
+            ref = await c.get(f"{API}/repos/{owner}/{repo}/git/ref/heads/{reuse_branch}")
+            if ref.status_code == 200 and "object" in ref.json():
+                branch = reuse_branch
+        if not branch:
+            branch = f"edit/{identity['login']}/{slugify(disease_name)}-{int(time.time())}"
+            base = (await c.get(f"{API}/repos/{owner}/{repo}/git/ref/heads/{base_branch}")).json()
+            if "object" not in base:
+                raise ValueError(f"Base branch '{base_branch}' not found: {base.get('message')}")
+            r = await c.post(f"{API}/repos/{owner}/{repo}/git/refs",
+                             json={"ref": f"refs/heads/{branch}", "sha": base["object"]["sha"]})
+            if r.status_code >= 300:
+                raise ValueError(f"Could not create branch: {r.json().get('message')}")
 
-        r = await c.post(f"{API}/repos/{owner}/{repo}/git/refs",
-                         json={"ref": f"refs/heads/{branch}", "sha": base_sha})
-        if r.status_code >= 300:
-            raise ValueError(f"Could not create branch: {r.json().get('message')}")
-
-        # current file sha on the base branch (needed to update an existing file)
-        cur = await c.get(f"{API}/repos/{owner}/{repo}/contents/{path}", params={"ref": base_branch})
+        # commit the ontology (sha looked up on the branch itself)
+        cur = await c.get(f"{API}/repos/{owner}/{repo}/contents/{path}", params={"ref": branch})
         sha = cur.json().get("sha") if cur.status_code == 200 else None
-
         put = await c.put(f"{API}/repos/{owner}/{repo}/contents/{path}", json={
             "message": message or f"Update {disease_name}",
             "content": base64.b64encode(content_bytes).decode(),
-            "branch": branch, "sha": sha,
-            "author": {"name": identity["name"], "email": identity["email"]},
-            "committer": {"name": identity["name"], "email": identity["email"]},
+            "branch": branch, "sha": sha, "author": _author(), "committer": _author(),
         })
-        if put.status_code >= 300:
-            # tolerate an unchanged ontology if we still have mapping files to commit
-            if not extra_files:
-                raise ValueError(f"Commit failed: {put.json().get('message')}")
+        if put.status_code >= 300 and not extra_files:
+            raise ValueError(f"Commit failed: {put.json().get('message')}")
 
         for fpath, fbytes in (extra_files or {}).items():
-            cur = await c.get(f"{API}/repos/{owner}/{repo}/contents/{fpath}", params={"ref": branch})
-            fsha = cur.json().get("sha") if cur.status_code == 200 else None
+            cf = await c.get(f"{API}/repos/{owner}/{repo}/contents/{fpath}", params={"ref": branch})
+            fsha = cf.json().get("sha") if cf.status_code == 200 else None
             fput = await c.put(f"{API}/repos/{owner}/{repo}/contents/{fpath}", json={
-                "message": f"Add cross-reference mappings ({disease_name})",
+                "message": f"Cross-reference mappings ({disease_name})",
                 "content": base64.b64encode(fbytes).decode(),
-                "branch": branch, "sha": fsha,
-                "author": {"name": identity["name"], "email": identity["email"]},
-                "committer": {"name": identity["name"], "email": identity["email"]},
+                "branch": branch, "sha": fsha, "author": _author(), "committer": _author(),
             })
             if fput.status_code >= 300:
                 raise ValueError(f"Mapping commit failed for {fpath}: {fput.json().get('message')}")
 
-        pr = await c.post(f"{API}/repos/{owner}/{repo}/pulls", json={
-            "title": message or f"Edit {disease_name}",
-            "head": branch, "base": base_branch,
-            "body": pr_body or f"Edit to **{disease_name}** submitted via the ARI Metadata Manager by @{identity['login']}.",
-        })
-        if pr.status_code >= 300:
-            raise ValueError(f"PR creation failed: {pr.json().get('message')}")
-        prj = pr.json()
+        # reuse an existing open PR for this branch, else open one
+        found = await c.get(f"{API}/repos/{owner}/{repo}/pulls",
+                            params={"head": f"{owner}:{branch}", "state": "open"})
+        prs = found.json() if found.status_code == 200 else []
+        if prs:
+            prj = prs[0]
+            if message:  # keep the title current
+                await c.patch(f"{API}/repos/{owner}/{repo}/pulls/{prj['number']}", json={"title": message})
+        else:
+            pr = await c.post(f"{API}/repos/{owner}/{repo}/pulls", json={
+                "title": message or f"Edit {disease_name}", "head": branch, "base": base_branch,
+                "body": pr_body or f"Edit to **{disease_name}** by @{identity['login']}.",
+            })
+            if pr.status_code >= 300:
+                raise ValueError(f"PR creation failed: {pr.json().get('message')}")
+            prj = pr.json()
 
-        # Auto-label the PR "edit term" (best effort; create the label if missing).
+        # apply labels (create-if-missing; best effort)
         try:
-            await c.post(f"{API}/repos/{owner}/{repo}/labels",
-                         json={"name": "edit term", "color": "0e8a16",
-                               "description": "Disease term edit via the ARI Metadata Manager"})
+            for name in labels:
+                await c.post(f"{API}/repos/{owner}/{repo}/labels",
+                             json={"name": name, "color": label_colors.get(name, "ededed")})
             await c.post(f"{API}/repos/{owner}/{repo}/issues/{prj['number']}/labels",
-                         json={"labels": ["edit term"]})
+                         json={"labels": labels})
         except Exception:
             pass
     return {"branch": branch, "pr_number": prj["number"], "pr_url": prj["html_url"]}
-
 
 async def list_branches(token: str | None, owner: str, repo: str) -> list[str]:
     """All branch names in the repo (token optional for public repos)."""

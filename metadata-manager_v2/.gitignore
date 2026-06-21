@@ -10,3 +10,4 @@ releases/releases.json
 # Runtime feedback log (per-term comments saved by the feedback panel)
 feedback/
 .env
+.sessions.json
