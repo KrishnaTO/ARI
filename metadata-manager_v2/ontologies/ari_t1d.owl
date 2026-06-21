@@ -3771,19 +3771,9 @@ The trigger for antisynthetase syndrome is unknown, but it may be associated wit
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune disorder of inner ear</rdfs:label>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
   <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001027</ARI_ID>
-  <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13445001</ARI_SNOMED>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">232308006</ARI_SNOMED>
-  <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9849</ARI_DOID>
-  <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0025281</ARI_UMLS>
-  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">386.0</ARI_ICD10>
-  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H81.0</ARI_ICD10>
-  <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D008575</ARI_MESH>
-  <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C185243</ARI_NCI>
-  <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4337463, 79833</ARI_OMOP>
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">232308006, 13445001</ARI_DXCODE>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune inner ear disease (AIED) is a condition characterized by inflammation of the inner ear. It happens when the immune system mistakenly targets cells in the inner ear as if they were a virus or bacteria. AIED is uncommon, affecting fewer than one percent of the 28 million Americans with hearing loss. The symptoms of AIED are sudden hearing loss in one ear progressing rapidly to the second ear. The hearing loss can progress over weeks or months. It can happen alone or in addition to other systemic autoimmune disorders.</rdfs:comment>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ménière's disease</ARI_Synonym>
-  <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vambutas 2016; https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5113311/</ARI_DefSource>
   <evidenceQuality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Immune-mediated</evidenceQuality>
   <diseaseCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune</diseaseCategory>
   <ARI_Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</ARI_Version>
@@ -3796,6 +3786,13 @@ The trigger for antisynthetase syndrome is unknown, but it may be associated wit
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-04</ARI_AuthorDate>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIE</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIED</ARI_Synonym>
+  <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0395947</ARI_UMLS>
+  <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4337463</ARI_OMOP>
+  <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D000099105</ARI_MESH>
+  <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Vambutas 2016](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5113311/)</ARI_DefSource>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-21 17:21 | 0000-0002-2627-0696 | Edited: age_range, def_source, definition, demographic_bias, disease_category, doid, evidence_quality, icd10, incidence_rate, mesh, mondo, name, nci, obsolete, omop, prevalence_desc, prevalence_per_100k, prevalence_value, snomed, synonyms, umls</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-21 17:28 | 0000-0002-2627-0696 | Edited: age_range, def_source, definition, demographic_bias, disease_category, doid, evidence_quality, icd10, incidence_rate, mesh, mondo, name, nci, obsolete, omop, prevalence_desc, prevalence_per_100k, prevalence_value, snomed, synonyms, umls</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001027_210">
