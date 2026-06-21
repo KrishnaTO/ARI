@@ -1,0 +1,31 @@
+# curie_map:
+#   ARI: https://diseases.autoimmuneregistry.org/disease/ARI_
+#   DOID: http://purl.obolibrary.org/obo/DOID_
+#   MONDO: http://purl.obolibrary.org/obo/MONDO_
+#   SNOMEDCT: http://snomed.info/id/
+#   ncit: http://purl.obolibrary.org/obo/NCIT_
+#   mesh: http://id.nlm.nih.gov/mesh/
+#   umls: https://uts.nlm.nih.gov/uts/umls/concept/
+#   icd10cm: http://purl.bioontology.org/ontology/ICD10CM/
+#   omop: https://athena.ohdsi.org/search-terms/terms/
+#   skos: http://www.w3.org/2004/02/skos/core#
+#   semapv: https://w3id.org/semapv/vocab/
+#   orcid: https://orcid.org/
+# mapping_set_id: https://diseases.autoimmuneregistry.org/mappings/ari.sssom.tsv
+# mapping_provider: https://www.autoimmuneregistry.org
+# mapping_set_title: ARI disease cross-reference mappings
+# license: https://creativecommons.org/publicdomain/zero/1.0/
+subject_id	subject_label	predicate_id	object_id	mapping_justification	author_id	mapping_date
+ARI:0001008	Adult onset Still's disease	skos:exactMatch	umls:C0085253	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21
+ARI:0001008	Adult onset Still's disease	skos:exactMatch	DOID:14256	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21
+ARI:0001008	Adult onset Still's disease	skos:exactMatch	icd10cm:M06.1	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21
+ARI:0001008	Adult onset Still's disease	skos:exactMatch	mesh:D016706	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21
+ARI:0001008	Adult onset Still's disease	skos:exactMatch	ncit:C197832	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21
+ARI:0001007	Adult-onset immunodeficiency due to anti-IFN-gamma autoantibodies	skos:exactMatch	SNOMEDCT:784393004	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21
+ARI:0001007	Adult-onset immunodeficiency due to anti-IFN-gamma autoantibodies	skos:exactMatch	omop:37205096	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21
+ARI:0001009	Age related macular degeneration	skos:exactMatch	SNOMEDCT:267718000	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21
+ARI:0001009	Age related macular degeneration	skos:exactMatch	omop:374028	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21
+ARI:0001009	Age related macular degeneration	skos:exactMatch	DOID:10871	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21
+ARI:0001009	Age related macular degeneration	skos:exactMatch	umls:C0242383	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21
+ARI:0001009	Age related macular degeneration	skos:exactMatch	mesh:D008268	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21
+ARI:0001009	Age related macular degeneration	skos:exactMatch	ncit:C84391	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21
