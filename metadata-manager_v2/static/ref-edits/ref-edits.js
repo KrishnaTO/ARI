@@ -17,12 +17,12 @@
 
   const DBS = [
     { key: 'snomed', label: 'SNOMED', link: id => `https://browser.ihtsdotools.org/?perspective=full&conceptId1=${num(id)}&edition=MAIN`, search: n => `https://browser.ihtsdotools.org/?perspective=full&edition=MAIN&languages=en&searchText=${enc(n)}` },
-    { key: 'omop',   label: 'OMOP',   link: id => `https://athena.ohdsi.org/search-terms/terms/${num(id)}`, search: n => `https://athena.ohdsi.org/search-terms/terms?query=${enc(n)}` },
+    { key: 'omop',   label: 'OMOP', noframe: true,   link: id => `https://athena.ohdsi.org/search-terms/terms/${num(id)}`, search: n => `https://athena.ohdsi.org/search-terms/terms?query=${enc(n)}` },
     { key: 'doid',   label: 'DOID',   link: id => `https://disease-ontology.org/?id=DOID:${num(id)}`, search: n => `https://www.disease-ontology.org/?q=${enc(n)}` },
-    { key: 'umls',   label: 'UMLS',   link: id => `https://uts.nlm.nih.gov/uts/umls/concept/${id}`, search: n => `https://uts.nlm.nih.gov/uts/umls/searchResults?searchString=${enc(n)}` },
+    { key: 'umls',   label: 'UMLS', noframe: true,   link: id => `https://uts.nlm.nih.gov/uts/umls/concept/${id}`, search: n => `https://uts.nlm.nih.gov/uts/umls/searchResults?searchString=${enc(n)}` },
     { key: 'mondo',  label: 'MONDO',  link: id => `https://www.ebi.ac.uk/ols4/ontologies/mondo/classes?short_form=MONDO_${num(id)}`, search: n => `https://www.ebi.ac.uk/ols4/search?q=${enc(n)}&ontology=mondo` },
     { key: 'icd10',  label: 'ICD-10', link: id => `https://www.icd10data.com/search?s=${enc(id)}`, search: n => `https://www.icd10data.com/search?s=${enc(n)}` },
-    { key: 'mesh',   label: 'MeSH',   link: id => `https://meshb.nlm.nih.gov/record/ui?ui=${num(id)}`, search: n => `https://meshb.nlm.nih.gov/search?q=${enc(n)}` },
+    { key: 'mesh',   label: 'MeSH', noframe: true,   link: id => `https://meshb.nlm.nih.gov/record/ui?ui=${num(id)}`, search: n => `https://meshb.nlm.nih.gov/search?q=${enc(n)}` },
     { key: 'nci',    label: 'NCI',    link: id => `https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&code=${num(id)}`, search: n => `https://www.ebi.ac.uk/ols4/search?q=${enc(n)}&ontology=ncit` },
   ];
   const DBMAP = Object.fromEntries(DBS.map(d => [d.key, d]));
@@ -121,8 +121,9 @@
         <button class="btn primary" id="p-save">Save</button>
       </div>
       <div class="p-links">${linksHtml}</div>
-      <div class="p-note muted">If the page below is blank, the source site blocks embedding — use the "↗" link to open it in a new tab.</div>
-      <iframe id="p-frame" src="${esc(frameSrc)}"></iframe>`;
+      ${db.noframe
+        ? `<div class="p-note muted" style="padding:16px">${db.label} can't be previewed here (it blocks embedding${dbkey === 'umls' ? ' and requires login' : ''}). Use the "↗" link${ids.length ? 's' : ''} above to open it in a new tab.</div>`
+        : `<div class="p-note muted">If the page below is blank, the source site blocks embedding — use the "↗" link to open it in a new tab.</div><iframe id="p-frame" src="${esc(frameSrc)}"></iframe>`}`;
     $('#side').classList.add('open');
     $('#divider').classList.add('show');
     $('#p-close').addEventListener('click', closePanel);
