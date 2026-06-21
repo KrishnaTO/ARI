@@ -457,6 +457,7 @@ class OntologyService:
         "name":              ("label", None, str),
         "definition":        ("comment", None, str),
         "synonyms":          ("multi_ann", "ARI_Synonym", str),
+        "clinical_subtypes": ("multi_ann", "ARI_ClinicalSubtype", str),
         "snomed":            ("multi_ann", "ARI_SNOMED", str),
         "doid":              ("multi_ann", "ARI_DOID", str),
         "umls":              ("multi_ann", "ARI_UMLS", str),
