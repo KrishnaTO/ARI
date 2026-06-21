@@ -35,6 +35,12 @@
           <select id="set-prbase" ${dis}>${opts(s.branches, s.pr_base)}</select></div>
         <div class="edit-actions" style="margin:4px 0 14px"><button class="hbtn" id="set-prsave" ${dis}>Set PR target</button></div>
 
+        <div class="section-label">Identity</div>
+        <p style="font-size:13px;margin:0 0 8px">Edits are attributed to your GitHub name, or to your <strong>ORCID iD</strong> if set below.</p>
+        <div class="field"><label>ORCID iD (optional)</label>
+          <input id="set-orcid" placeholder="0000-0000-0000-0000"></div>
+        <div class="edit-actions" style="margin:4px 0 14px"><button class="hbtn" id="set-orcid-save">Save ORCID</button></div>
+
         <div class="section-label">Export</div>
         <div class="edit-actions" style="margin-top:4px"><button class="hbtn" id="set-export">&#128202; Export current data to Excel</button></div>
         ${note}
@@ -51,6 +57,14 @@
         toast('PRs will target ' + r.pr_base); } catch (e) { toast('Failed: ' + e.message); }
     });
     $('#set-export').addEventListener('click', () => { window.location = BASE_PATH + '/api/v2/export'; });
+    $('#set-orcid').value = (localStorage.getItem('ari_editor_orcid') || '');
+    $('#set-orcid-save').addEventListener('click', () => {
+      const v = $('#set-orcid').value.trim();
+      if (v && !/^\d{4}-\d{4}-\d{4}-\d{3}[\dX]$/.test(v)) { toast('ORCID should look like 0000-0000-0000-0000'); return; }
+      if (v) localStorage.setItem('ari_editor_orcid', v); else localStorage.removeItem('ari_editor_orcid');
+      if (typeof resolveEditor === 'function') resolveEditor();
+      toast(v ? ('Edits will be attributed to ORCID ' + v) : 'ORCID cleared — using GitHub name');
+    });
   }
 
   async function doFetch(url, body) {

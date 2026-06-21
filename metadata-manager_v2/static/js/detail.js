@@ -38,11 +38,11 @@ function renderDetail(d){
     html += `<div style="font-size:12px;margin-bottom:8px">Subtypes: ${d.subtypes.map(s => `<a href="#" class="parent-link" data-iri="${esc(s.iri)}">${esc(s.name)}</a>`).join(', ')}</div>`;
   }
 
-  if (d.definition) html += `<div class="definition">${esc(d.definition)}</div>`;
+  if (d.definition) html += `<div class="definition">${mdToHtml(d.definition)}</div>`;
   // Definition source(s) as a nested sub-hierarchical item under the definition
   if (d.def_source?.length || d.pubmed?.length){
     html += `<div class="def-sources">`;
-    for (const s of (d.def_source||[])) html += `<div class="def-source-item"><span class="src-label">Source</span> ${linkifySource(s)}</div>`;
+    for (const s of (d.def_source||[])) html += `<div class="def-source-item"><span class="src-label">Source</span> ${mdInline(esc(s))}</div>`;
     for (const p of (d.pubmed||[])) html += `<div class="def-source-item"><span class="src-label">Source</span> <a href="${esc(p)}" target="_blank" rel="noopener">&#128279; PubMed</a></div>`;
     html += `</div>`;
   }

@@ -28,7 +28,7 @@ function openDiseaseFieldEditor(d){
     <div class="edit-form" style="padding:0"><h2>Edit fields: ${esc(d.name)}</h2>
     <p style="font-size:12px;color:var(--muted);margin:0 0 12px">IRI / ARI local id is fixed. Saving appends a changelog entry and writes the OWL file.</p>`;
   html += fieldText('f_name', 'Label', d.name);
-  html += fieldArea('f_definition', 'Definition', d.definition);
+  html += fieldArea('f_definition', 'Definition (markdown)', d.definition);
   html += fieldArea('f_synonyms', 'Synonyms (comma separated)', (d.synonyms||[]).join(', '));
   html += '<div class="field-grid">';
   html += fieldText('f_disease_category', 'Category', first(d.disease_category));
@@ -48,8 +48,7 @@ function openDiseaseFieldEditor(d){
   html += fieldText('f_demographic_bias', 'Demographic bias', first(d.demographic_bias));
   html += fieldText('f_age_range', 'Age range', first(d.age_range));
   html += fieldArea('f_prevalence_desc', 'Prevalence description', first(d.prevalence_desc));
-  html += fieldText('f_def_source', 'Definition source', first(d.def_source));
-  html += fieldText('f_pubmed', 'PubMed URL', first(d.pubmed));
+  html += fieldArea('f_def_source', 'Definition source (markdown)', first(d.def_source));
   html += `<div class="field field-row"><input type="checkbox" id="f_obsolete" ${d.obsolete?'checked':''}><label style="margin:0">Mark as obsolete</label></div>`;
   html += `<div class="field"><label>Editor name</label><input id="f_editor" value="${esc(state.editor)}"></div>`;
   html += `<div class="edit-actions"><button class="hbtn primary" id="save-btn">💾 Save changes</button>
@@ -69,7 +68,7 @@ async function saveEdits(){
     prevalence_per_100k: v('f_prevalence_per_100k'), prevalence_value: v('f_prevalence_value'),
     incidence_rate: v('f_incidence_rate'), demographic_bias: v('f_demographic_bias'),
     age_range: v('f_age_range'), prevalence_desc: v('f_prevalence_desc'),
-    def_source: v('f_def_source'), pubmed: v('f_pubmed'),
+    def_source: v('f_def_source'),
     obsolete: $('#f_obsolete').checked ? 'true' : 'false',
   };
   state.editor = v('f_editor') || 'curator';
