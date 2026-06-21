@@ -18,7 +18,47 @@ const BASE_PATH = (() => {
   return m && knownPrefixes.includes(m[1]) ? '/' + m[1] : '';
 })();
 
-let state = { activeIri: null, activeTab: 'alphabetical', activeBox: null, editMode: false, detail: null, schema: {}, editor: 'curator' };
+let state = { activeIri: null, activeTab: 'alphabetical', activeBox: null, editMode: false, detail: null, schema: {}, editor: 'curator', githubName: null };
+
+// --------------------------------------------------------------- markdown
+// Minimal, HTML-safe markdown renderer (escapes first, then formats). Used for
+// disease definition and definition sources.
+function mdInline(t){
+  t = String(t == null ? '' : t);
+  t = t.replace(/`([^`]+)`/g, '<code>$1</code>');
+  t = t.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
+  t = t.replace(/(^|[^*])\*([^*\n]+)\*/g, '$1<em>$2</em>');
+  t = t.replace(/\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g, '<a href="$2" target="_blank" rel="noopener">$1</a>');
+  t = t.replace(/(^|[\s(])(https?:\/\/[^\s<)]+)/g, function(m,p,u){ return p + '<a href="' + u + '" target="_blank" rel="noopener">' + u + '</a>'; });
+  t = t.replace(/PMID:?\s*(\d+)/gi, '<a href="https://pubmed.ncbi.nlm.nih.gov/$1/" target="_blank" rel="noopener">PMID: $1</a>');
+  return t;
+}
+function mdToHtml(src){
+  var lines = esc(src == null ? '' : String(src)).split(/\r?\n/);
+  var html = '', list = null, para = [];
+  function flushPara(){ if (para.length){ html += '<p>' + mdInline(para.join('<br>')) + '</p>'; para = []; } }
+  function flushList(){ if (list){ html += '</' + list + '>'; list = null; } }
+  for (var i = 0; i < lines.length; i++){
+    var line = lines[i].trim(), m;
+    if (!line){ flushPara(); flushList(); continue; }
+    if (m = line.match(/^(#{1,6})\s+(.*)$/)){ flushPara(); flushList(); var lv = m[1].length; html += '<h' + lv + '>' + mdInline(m[2]) + '</h' + lv + '>'; continue; }
+    if (m = line.match(/^[-*+]\s+(.*)$/)){ flushPara(); if (list !== 'ul'){ flushList(); html += '<ul>'; list = 'ul'; } html += '<li>' + mdInline(m[1]) + '</li>'; continue; }
+    if (m = line.match(/^\d+\.\s+(.*)$/)){ flushPara(); if (list !== 'ol'){ flushList(); html += '<ol>'; list = 'ol'; } html += '<li>' + mdInline(m[1]) + '</li>'; continue; }
+    if (m = line.match(/^>\s?(.*)$/)){ flushPara(); flushList(); html += '<blockquote>' + mdInline(m[1]) + '</blockquote>'; continue; }
+    flushList(); para.push(line);
+  }
+  flushPara(); flushList();
+  return html;
+}
+
+// Resolve the editor identity for changelog entries: ORCID (from Settings) wins,
+// else the signed-in GitHub name, else a generic default.
+function resolveEditor(){
+  var orcid = (localStorage.getItem('ari_editor_orcid') || '').trim();
+  state.editor = orcid || state.githubName || 'curator';
+  return state.editor;
+}
+
 
 // disease-detail array key for each editable category
 const DETAIL_KEY = {
