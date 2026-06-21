@@ -233,6 +233,7 @@ header { display: flex; align-items: center; gap: 12px; padding: 8px 16px; borde
 /* Edit affordances */
 .edit-banner { background: #fffbeb; border: 1px solid #fde68a; color: #92400e; border-radius: 8px; padding: 8px 10px; font-size: 12px; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
 .edit-banner .hbtn { margin-left: auto; padding: 4px 10px; font-size: 12px; }
+[data-theme="dark"] .edit-banner { background: #3a2f12; border-color: #6b5413; color: #fcd34d; }
 .edit-items-btn { font-size: 11px; padding: 2px 9px; font-weight: 600; margin-left: 8px; vertical-align: middle; }
 .icon-btn { border: 1px solid var(--border); border-radius: 6px; padding: 2px 7px; font-size: 12px; line-height: 1.4; }
 .icon-btn:hover { background: #f1f5f9; border-color: var(--accent); }
