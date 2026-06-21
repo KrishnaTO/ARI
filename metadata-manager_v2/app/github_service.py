@@ -62,7 +62,7 @@ async def get_identity(token: str) -> dict:
             "email": email, "avatar": user.get("avatar_url", "")}
 
 
-async def publish_file(*, token: str, owner: str, repo: str, base_branch: str, pr_body: str = "",
+async def publish_file(*, token: str, owner: str, repo: str, base_branch: str, pr_body: str = "", extra_files: dict = None,
                        path: str, content_bytes: bytes, disease_name: str,
                        message: str, identity: dict) -> dict:
     """Commit content_bytes to `path` on a new disease-named branch, open a PR."""
@@ -90,7 +90,22 @@ async def publish_file(*, token: str, owner: str, repo: str, base_branch: str, p
             "committer": {"name": identity["name"], "email": identity["email"]},
         })
         if put.status_code >= 300:
-            raise ValueError(f"Commit failed: {put.json().get('message')}")
+            # tolerate an unchanged ontology if we still have mapping files to commit
+            if not extra_files:
+                raise ValueError(f"Commit failed: {put.json().get('message')}")
+
+        for fpath, fbytes in (extra_files or {}).items():
+            cur = await c.get(f"{API}/repos/{owner}/{repo}/contents/{fpath}", params={"ref": branch})
+            fsha = cur.json().get("sha") if cur.status_code == 200 else None
+            fput = await c.put(f"{API}/repos/{owner}/{repo}/contents/{fpath}", json={
+                "message": f"Add cross-reference mappings ({disease_name})",
+                "content": base64.b64encode(fbytes).decode(),
+                "branch": branch, "sha": fsha,
+                "author": {"name": identity["name"], "email": identity["email"]},
+                "committer": {"name": identity["name"], "email": identity["email"]},
+            })
+            if fput.status_code >= 300:
+                raise ValueError(f"Mapping commit failed for {fpath}: {fput.json().get('message')}")
 
         pr = await c.post(f"{API}/repos/{owner}/{repo}/pulls", json={
             "title": message or f"Edit {disease_name}",
