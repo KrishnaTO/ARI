@@ -30,6 +30,7 @@ function openDiseaseFieldEditor(d){
   html += fieldText('f_name', 'Label', d.name);
   html += fieldArea('f_definition', 'Definition (markdown)', d.definition);
   html += fieldArea('f_synonyms', 'Synonyms (comma separated)', (d.synonyms||[]).join(', '));
+  html += fieldArea('f_clinical_subtypes', 'Clinical subtypes (comma separated)', (d.clinical_subtypes||[]).join(', '));
   html += '<div class="field-grid">';
   html += fieldText('f_disease_category', 'Category', first(d.disease_category));
   html += fieldText('f_evidence_quality', 'Evidence quality', first(d.evidence_quality));
@@ -61,7 +62,8 @@ async function saveEdits(){
   const v = id => $('#'+id)?.value ?? '';
   const changes = {
     name: v('f_name'), definition: v('f_definition'),
-    synonyms: v('f_synonyms'), disease_category: v('f_disease_category'),
+    synonyms: v('f_synonyms'), clinical_subtypes: v('f_clinical_subtypes'),
+    disease_category: v('f_disease_category'),
     evidence_quality: v('f_evidence_quality'), icd10: v('f_icd10'), snomed: v('f_snomed'),
     doid: v('f_doid'), umls: v('f_umls'), mondo: v('f_mondo'),
     omop: v('f_omop'), mesh: v('f_mesh'), nci: v('f_nci'),
