@@ -2438,6 +2438,10 @@ The cause of Kawasaki's Disease is uncertain but is believed to be autoimmune.  
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NR; Systemic</ARI_DefSource>
   <ARI_Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.1</ARI_Version>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C5191336</ARI_UMLS>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-21 21:44 | user | Edited: umls</ARI_ChangeLog>
+  <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0017617</ARI_MONDO>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-21 21:44 | user | Edited: mondo</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Tissue_ImmuneSystem">
@@ -2500,6 +2504,8 @@ The cause of Kawasaki's Disease is uncertain but is believed to be autoimmune.  
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-09</ARI_AuthorDate>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AOSD</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0019355</ARI_MONDO>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-21 21:42 | user | Edited: mondo</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Tissue_Systemic">
@@ -2617,7 +2623,6 @@ The cause of Kawasaki's Disease is uncertain but is believed to be autoimmune.  
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10871</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0242383</ARI_UMLS>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H35.30</ARI_ICD10>
-  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">362.50</ARI_ICD10>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D008268</ARI_MESH>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C84391</ARI_NCI>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">374028</ARI_OMOP>
@@ -2642,6 +2647,9 @@ However, based on the research available at this time, there is no evidence that
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-09</ARI_AuthorDate>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AMD</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0005150</ARI_MONDO>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-21 21:51 | user | Edited: mondo</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-21 21:53 | user | Edited: icd10</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001009_104">
@@ -15144,6 +15152,7 @@ Patients with GO experience swelling in the tissues, muscles, and fat in the eye
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001151">
   <rdf:type rdf:resource="#AutoimmuneDisease"/>
   <targetsTissue rdf:resource="#Tissue_Blood"/>
+  <hasEtiologyFactor rdf:resource="#Et_e6c42f17"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paroxysmal cold hemoglobinuria</rdfs:label>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
   <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001151</ARI_ID>
@@ -15151,6 +15160,7 @@ Patients with GO experience swelling in the tissues, muscles, and fat in the eye
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4131917</ARI_OMOP>
   <ARI_Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.1</ARI_Version>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-22 18:14 | Krishna Udaiwal | Added Etiology origin: fgadg</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001152">
@@ -19308,6 +19318,7 @@ Patients with Schnitzler syndrome typically experience chronic rash, relapsing f
   <hasSymptom rdf:resource="#Sym_0001188_1880"/>
   <hasSymptom rdf:resource="#Sym_0001188_1881"/>
   <hasSymptom rdf:resource="#Sym_0001188_1882"/>
+  <involvesInnateComponent rdf:resource="#Innate_c8d832b6"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scleritis</rdfs:label>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
   <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001188</ARI_ID>
@@ -19339,6 +19350,7 @@ Patients with Schnitzler syndrome typically experience chronic rash, relapsing f
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-09</ARI_AuthorDate>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLER</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-22 18:13 | aaronabend | Added Innate component: asdf</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001188_1872">
@@ -21725,6 +21737,7 @@ Early symptoms may include fever, night sweats, fatigue, joint pain, and chest d
   <hasSymptom rdf:resource="#Sym_0001205_2124"/>
   <hasSymptom rdf:resource="#Sym_0001205_2125"/>
   <hasSymptom rdf:resource="#Sym_0001205_2126"/>
+  <involvesInnateComponent rdf:resource="#Innate_0106a010"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ulcerative colitis</rdfs:label>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
   <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001205</ARI_ID>
@@ -21762,6 +21775,7 @@ Both UC and CD are caused by an autoimmune response that reflects the involvemen
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-09</ARI_AuthorDate>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UC</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-22 18:11 | aaronabend | Added Innate component: sdfgsdf</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001205_2112">
@@ -22560,6 +22574,30 @@ Some cases of this disease are caused by medications and are not autoimmune.</rd
 <owl:NamedIndividual rdf:about="#Sym_0001211_2240">
   <rdf:type rdf:resource="#Symptom"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yellow eyes</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Innate_0106a010">
+  <rdf:type rdf:resource="#InnateComponent"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sdfgsdf</rdfs:label>
+  <mediatorDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zdfbzdfa</mediatorDescription>
+  <componentRelevance rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sdfgsfrg</componentRelevance>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Innate_c8d832b6">
+  <rdf:type rdf:resource="#InnateComponent"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">asdf</rdfs:label>
+  <mediatorDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">asdf</mediatorDescription>
+  <componentRelevance rdf:datatype="http://www.w3.org/2001/XMLSchema#string">asdf</componentRelevance>
+  <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">asdf</sourcePMID>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Et_e6c42f17">
+  <rdf:type rdf:resource="#EtiologyOrigin"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fgadg</rdfs:label>
+  <etiologyOriginType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">External</etiologyOriginType>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
 </owl:NamedIndividual>
 
