@@ -6,6 +6,7 @@ on a new branch — named after the disease — and open a pull request. Commits
 are therefore attributed to the editor on GitHub. The only persistent secret is
 the OAuth App client secret, which never leaves the server.
 """
+import asyncio
 import base64
 import re
 import time
@@ -68,8 +69,10 @@ async def publish_file(*, token: str, owner: str, repo: str, base_branch: str, p
                        reuse_branch: str = None, labels: list = None) -> dict:
     """Commit content_bytes (+ extra_files) to a branch and open/update a PR.
 
-    If reuse_branch is given and exists, additional commits go onto that branch and
-    its existing open PR is reused (so further changes append to the same PR).
+    Collaborators with push access commit a branch directly in the upstream repo.
+    Outside contributors (no push access) get their own fork created automatically;
+    the branch + commits go onto their fork and a cross-repo PR is opened upstream.
+    If reuse_branch exists, further changes append to the same branch/PR.
     """
     labels = labels or ["edit term"]
     label_colors = {"edit term": "0e8a16", "sssom": "5319e7"}
@@ -78,25 +81,52 @@ async def publish_file(*, token: str, owner: str, repo: str, base_branch: str, p
         return {"name": identity["name"], "email": identity["email"]}
 
     async with httpx.AsyncClient(timeout=30, headers=_headers(token)) as c:
+        # Where can this user push? Upstream if collaborator, else their fork.
+        info = await c.get(f"{API}/repos/{owner}/{repo}")
+        can_push = bool(info.json().get("permissions", {}).get("push")) if info.status_code == 200 else False
+
+        if can_push:
+            c_owner, c_repo = owner, repo
+        else:
+            login = identity["login"]
+            fk = await c.get(f"{API}/repos/{login}/{repo}")
+            if fk.status_code == 404:
+                cr = await c.post(f"{API}/repos/{owner}/{repo}/forks")
+                if cr.status_code >= 300:
+                    raise ValueError(f"Could not fork {owner}/{repo}: {cr.json().get('message')}")
+                for _ in range(15):                       # forks are async; wait for it
+                    await asyncio.sleep(2)
+                    fk = await c.get(f"{API}/repos/{login}/{repo}")
+                    if fk.status_code == 200:
+                        break
+                else:
+                    raise ValueError("Your fork is still being created — try publishing again in a moment.")
+            fj = fk.json()
+            c_owner, c_repo = fj["owner"]["login"], fj["name"]
+
+        # Base sha always comes from UPSTREAM so the branch is current even on a stale fork.
+        base = (await c.get(f"{API}/repos/{owner}/{repo}/git/ref/heads/{base_branch}")).json()
+        if "object" not in base:
+            raise ValueError(f"Base branch '{base_branch}' not found: {base.get('message')}")
+        base_sha = base["object"]["sha"]
+
         branch = None
         if reuse_branch:
-            ref = await c.get(f"{API}/repos/{owner}/{repo}/git/ref/heads/{reuse_branch}")
+            ref = await c.get(f"{API}/repos/{c_owner}/{c_repo}/git/ref/heads/{reuse_branch}")
             if ref.status_code == 200 and "object" in ref.json():
                 branch = reuse_branch
         if not branch:
             branch = f"edit/{identity['login']}/{slugify(disease_name)}-{int(time.time())}"
-            base = (await c.get(f"{API}/repos/{owner}/{repo}/git/ref/heads/{base_branch}")).json()
-            if "object" not in base:
-                raise ValueError(f"Base branch '{base_branch}' not found: {base.get('message')}")
-            r = await c.post(f"{API}/repos/{owner}/{repo}/git/refs",
-                             json={"ref": f"refs/heads/{branch}", "sha": base["object"]["sha"]})
+            r = await c.post(f"{API}/repos/{c_owner}/{c_repo}/git/refs",
+                             json={"ref": f"refs/heads/{branch}", "sha": base_sha})
             if r.status_code >= 300:
                 raise ValueError(f"Could not create branch: {r.json().get('message')}")
+        head_label = f"{c_owner}:{branch}"
 
-        # commit the ontology (sha looked up on the branch itself)
-        cur = await c.get(f"{API}/repos/{owner}/{repo}/contents/{path}", params={"ref": branch})
+        # commit the ontology (sha looked up on the branch in the commit repo)
+        cur = await c.get(f"{API}/repos/{c_owner}/{c_repo}/contents/{path}", params={"ref": branch})
         sha = cur.json().get("sha") if cur.status_code == 200 else None
-        put = await c.put(f"{API}/repos/{owner}/{repo}/contents/{path}", json={
+        put = await c.put(f"{API}/repos/{c_owner}/{c_repo}/contents/{path}", json={
             "message": message or f"Update {disease_name}",
             "content": base64.b64encode(content_bytes).decode(),
             "branch": branch, "sha": sha, "author": _author(), "committer": _author(),
@@ -105,9 +135,9 @@ async def publish_file(*, token: str, owner: str, repo: str, base_branch: str, p
             raise ValueError(f"Commit failed: {put.json().get('message')}")
 
         for fpath, fbytes in (extra_files or {}).items():
-            cf = await c.get(f"{API}/repos/{owner}/{repo}/contents/{fpath}", params={"ref": branch})
+            cf = await c.get(f"{API}/repos/{c_owner}/{c_repo}/contents/{fpath}", params={"ref": branch})
             fsha = cf.json().get("sha") if cf.status_code == 200 else None
-            fput = await c.put(f"{API}/repos/{owner}/{repo}/contents/{fpath}", json={
+            fput = await c.put(f"{API}/repos/{c_owner}/{c_repo}/contents/{fpath}", json={
                 "message": f"Cross-reference mappings ({disease_name})",
                 "content": base64.b64encode(fbytes).decode(),
                 "branch": branch, "sha": fsha, "author": _author(), "committer": _author(),
@@ -115,24 +145,25 @@ async def publish_file(*, token: str, owner: str, repo: str, base_branch: str, p
             if fput.status_code >= 300:
                 raise ValueError(f"Mapping commit failed for {fpath}: {fput.json().get('message')}")
 
-        # reuse an existing open PR for this branch, else open one
+        # PR is always opened/looked up on UPSTREAM; head may be a fork (owner:branch)
         found = await c.get(f"{API}/repos/{owner}/{repo}/pulls",
-                            params={"head": f"{owner}:{branch}", "state": "open"})
+                            params={"head": head_label, "state": "open"})
         prs = found.json() if found.status_code == 200 else []
         if prs:
             prj = prs[0]
-            if message:  # keep the title current
+            if message:
                 await c.patch(f"{API}/repos/{owner}/{repo}/pulls/{prj['number']}", json={"title": message})
         else:
             pr = await c.post(f"{API}/repos/{owner}/{repo}/pulls", json={
-                "title": message or f"Edit {disease_name}", "head": branch, "base": base_branch,
+                "title": message or f"Edit {disease_name}", "head": head_label, "base": base_branch,
+                "maintainer_can_modify": True,
                 "body": pr_body or f"Edit to **{disease_name}** by @{identity['login']}.",
             })
             if pr.status_code >= 300:
                 raise ValueError(f"PR creation failed: {pr.json().get('message')}")
             prj = pr.json()
 
-        # apply labels (create-if-missing; best effort)
+        # apply labels on the upstream PR (best effort; outside contributors can't label)
         try:
             for name in labels:
                 await c.post(f"{API}/repos/{owner}/{repo}/labels",
@@ -141,7 +172,8 @@ async def publish_file(*, token: str, owner: str, repo: str, base_branch: str, p
                          json={"labels": labels})
         except Exception:
             pass
-    return {"branch": branch, "pr_number": prj["number"], "pr_url": prj["html_url"]}
+    return {"branch": branch, "pr_number": prj["number"], "pr_url": prj["html_url"], "fork": (not can_push)}
+
 
 async def list_branches(token: str | None, owner: str, repo: str) -> list[str]:
     """All branch names in the repo (token optional for public repos)."""
