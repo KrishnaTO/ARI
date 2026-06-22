@@ -1,7 +1,9 @@
 """FastAPI app for ARI Disease Metadata Manager v2."""
 import os
 import json
+import time
 import shutil
+import asyncio
 import secrets
 import subprocess
 from pathlib import Path
@@ -116,6 +118,7 @@ def _user(request: Request):
 
 # ---- per-user working copies: each signed-in user edits their OWN ontology copy
 USER_DIR = Path(__file__).resolve().parent.parent / ".user-data"
+USER_DATA_TTL_DAYS = int(os.environ.get("USER_DATA_TTL_DAYS", "14"))
 USER_SVC: dict = {}
 USER_DIRTY: set = set()
 
@@ -168,6 +171,32 @@ def _mark_dirty(request: Request):
 def _dirty(request: Request):
     login = _login(request)
     return bool(login and login in USER_DIRTY)
+
+
+def _sweep_user_data():
+    """Delete per-user working copies idle longer than the TTL (bounds disk use).
+    A copy that is actively edited keeps a recent mtime, so it is not swept."""
+    if USER_DATA_TTL_DAYS <= 0 or not USER_DIR.exists():
+        return
+    cutoff = time.time() - USER_DATA_TTL_DAYS * 86400
+    for f in USER_DIR.glob("*.owl"):
+        try:
+            if f.stat().st_mtime < cutoff:
+                login = f.stem
+                USER_SVC.pop(login, None)
+                USER_DIRTY.discard(login)
+                f.unlink()
+        except Exception:
+            pass
+
+
+@app.on_event("startup")
+async def _start_sweeper():
+    async def loop():
+        while True:
+            _sweep_user_data()
+            await asyncio.sleep(6 * 3600)   # every 6 hours
+    asyncio.create_task(loop())
 
 
 @app.middleware("http")
