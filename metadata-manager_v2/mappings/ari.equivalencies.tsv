@@ -1,0 +1,3 @@
+source_prefix	source_id	source_name	relation	target_prefix	target_id	type	source
+ARI	0001134	Moyamoya disease	skos:exactMatch	DOID	13099	manual	github:KrishnaTO
+ARI	0001136	Myasthenia gravis	skos:exactMatch	DOID	437	manual	github:KrishnaTO
