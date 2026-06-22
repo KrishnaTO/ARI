@@ -170,7 +170,7 @@
         branch: sessionBranch, labels: ['edit term', 'sssom'] } });
       sessionBranch = r.branch;                       // subsequent publishes append to the same PR
       const pl = $('#prlink');
-      pl.textContent = 'PR #' + r.pr_number + ' ↗'; pl.href = r.pr_url; pl.style.display = '';
+      pl.textContent = 'PR #' + r.pr_number + (r.fork ? ' (from your fork) ↗' : ' ↗'); pl.href = r.pr_url; pl.style.display = '';
       $('#publish').textContent = 'Publish more to PR #' + r.pr_number;
       $('#publish').disabled = true;                  // re-enabled by counts() when new changes are made
     } catch (e) { alert('Publish failed: ' + e.message); $('#publish').textContent = sessionBranch ? 'Publish more to PR' : 'Publish review (PR)'; counts(); }
