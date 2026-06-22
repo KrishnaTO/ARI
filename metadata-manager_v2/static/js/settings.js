@@ -30,10 +30,7 @@
         </div>
 
         <div class="section-label">Pull-request target</div>
-        <p style="font-size:13px;margin:0 0 8px">Edits open PRs into this branch.</p>
-        <div class="field"><label>PR into</label>
-          <select id="set-prbase" ${dis}>${opts(s.branches, s.pr_base)}</select></div>
-        <div class="edit-actions" style="margin:4px 0 14px"><button class="hbtn" id="set-prsave" ${dis}>Set PR target</button></div>
+        <p style="font-size:13px;margin:0 0 14px">Edits open PRs into <strong>${esc(s.pr_base)}</strong> — the PR target always matches the source branch above.</p>
 
         <div class="section-label">Identity</div>
         <p style="font-size:13px;margin:0 0 8px">Edits are attributed to your GitHub name, or to your <strong>ORCID iD</strong> if set below.</p>
@@ -55,10 +52,6 @@
 
     $('#set-fetch')?.addEventListener('click', () => doFetch('/api/v2/fetch', {}));
     $('#set-switch')?.addEventListener('click', () => doFetch('/api/v2/source', { branch: $('#set-source').value }));
-    $('#set-prsave')?.addEventListener('click', async () => {
-      try { const r = await api('/api/v2/pr-base', { method: 'POST', body: { branch: $('#set-prbase').value } });
-        toast('PRs will target ' + r.pr_base); } catch (e) { toast('Failed: ' + e.message); }
-    });
     $('#set-export').addEventListener('click', () => { window.location = BASE_PATH + '/api/v2/export'; });
     $('#set-orcid').value = (localStorage.getItem('ari_editor_orcid') || '');
     $('#set-orcid-save').addEventListener('click', () => {

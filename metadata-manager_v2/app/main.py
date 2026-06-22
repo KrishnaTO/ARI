@@ -383,6 +383,7 @@ async def _fetch_branch(token, branch):
     Path(ONTOLOGY_FILE).write_bytes(data)
     reload_service()
     STATE["source_branch"] = branch
+    STATE["pr_base"] = branch          # PR target always matches the source branch
     STATE["dirty"] = False
 
 
