@@ -1,6 +1,7 @@
 """FastAPI app for ARI Disease Metadata Manager v2."""
 import os
 import json
+import shutil
 import secrets
 import subprocess
 from pathlib import Path
@@ -35,7 +36,7 @@ ONTOLOGY_FILE = os.environ.get(
     str(Path(__file__).resolve().parent.parent / "ontologies" / "ari_t1d.owl")
 )
 
-service = OntologyService(ONTOLOGY_FILE)
+BASE = OntologyService(ONTOLOGY_FILE)   # shared, source-branch baseline
 app = FastAPI(title="ARI Metadata Manager v2")
 
 STATIC_DIR = Path(__file__).resolve().parent.parent / "static"
@@ -94,12 +95,12 @@ SESSIONS: dict[str, dict] = _load_sessions()
 
 # Runtime settings (in-memory): which branch we populate FROM and PR INTO,
 # and whether the local ontology file has unpublished edits.
-STATE = {"source_branch": GH_BASE_BRANCH, "pr_base": GH_BASE_BRANCH, "dirty": False}
+STATE = {"source_branch": GH_BASE_BRANCH, "pr_base": GH_BASE_BRANCH}
 
 
-def reload_service():
-    global service
-    service = OntologyService(ONTOLOGY_FILE)
+def reload_base():
+    global BASE
+    BASE = OntologyService(ONTOLOGY_FILE)
 
 app.add_middleware(
     SessionMiddleware,
@@ -111,6 +112,62 @@ app.add_middleware(
 
 def _user(request: Request):
     return SESSIONS.get(request.session.get("sid", ""))
+
+
+# ---- per-user working copies: each signed-in user edits their OWN ontology copy
+USER_DIR = Path(__file__).resolve().parent.parent / ".user-data"
+USER_SVC: dict = {}
+USER_DIRTY: set = set()
+
+
+def _login(request: Request):
+    u = _user(request)
+    return u["identity"]["login"] if u else None
+
+
+def user_service(login, create=False):
+    if not login:
+        return BASE
+    if login in USER_SVC:
+        return USER_SVC[login]
+    if create:
+        USER_DIR.mkdir(parents=True, exist_ok=True)
+        f = USER_DIR / f"{login}.owl"
+        shutil.copy2(ONTOLOGY_FILE, f)            # snapshot the current base for this user
+        USER_SVC[login] = OntologyService(str(f))
+        return USER_SVC[login]
+    return BASE
+
+
+def service_for(request: Request, write=False):
+    """The ontology a request should read/write: a signed-in user's private copy
+    once they have started editing, otherwise the shared base."""
+    login = _login(request)
+    if write:
+        return user_service(login, create=True)
+    if login and login in USER_SVC:
+        return USER_SVC[login]
+    return BASE
+
+
+def _reset_user(login):
+    USER_SVC.pop(login, None)
+    USER_DIRTY.discard(login)
+    try:
+        (USER_DIR / f"{login}.owl").unlink()
+    except Exception:
+        pass
+
+
+def _mark_dirty(request: Request):
+    login = _login(request)
+    if login:
+        USER_DIRTY.add(login)
+
+
+def _dirty(request: Request):
+    login = _login(request)
+    return bool(login and login in USER_DIRTY)
 
 
 @app.middleware("http")
@@ -134,100 +191,102 @@ async def bad_request(request: Request, exc: ValueError):
 
 
 @app.get("/api/v2/overview")
-async def overview():
-    return {**service.overview(), "app_version": APP_VERSION}
+async def overview(request: Request):
+    return {**service_for(request).overview(), "app_version": APP_VERSION}
 
 
 @app.get("/api/v2/diseases")
-async def diseases_list():
-    return service.get_diseases_list()
+async def diseases_list(request: Request):
+    return service_for(request).get_diseases_list()
 
 
 @app.get("/api/v2/tree/alphabetical")
-async def alphabetical_tree():
-    return service.get_alphabetical_tree()
+async def alphabetical_tree(request: Request):
+    return service_for(request).get_alphabetical_tree()
 
 
 @app.get("/api/v2/tree/tissue")
-async def tissue_tree():
-    return service.get_tissue_hierarchy()
+async def tissue_tree(request: Request):
+    return service_for(request).get_tissue_hierarchy()
 
 
 @app.get("/api/v2/symptoms")
-async def symptoms_index():
-    return service.get_symptoms_index()
+async def symptoms_index(request: Request):
+    return service_for(request).get_symptoms_index()
 
 
 @app.get("/api/v2/schema")
-async def schema():
+async def schema(request: Request):
     """Field schema for editable disease-data item categories."""
-    return service.get_schema()
+    return service_for(request).get_schema()
 
 
 @app.get("/api/v2/disease/{iri:path}")
-async def disease_detail(iri: str):
-    return service.get_disease_detail(iri)
+async def disease_detail(request: Request, iri: str):
+    return service_for(request).get_disease_detail(iri)
 
 
 @app.put("/api/v2/disease/{iri:path}")
-async def update_disease(iri: str, payload: dict = Body(...)):
+async def update_disease(request: Request, iri: str, payload: dict = Body(...)):
     """Edit disease fields. Body: {"changes": {...}, "editor": "name"}."""
     changes = payload.get("changes", payload)
     editor = payload.get("editor", "user")
-    r = service.update_disease(iri, changes, editor=editor)
-    STATE["dirty"] = True
+    r = service_for(request, write=True).update_disease(iri, changes, editor=editor)
+    _mark_dirty(request)
     return r
 
 
 @app.post("/api/v2/disease/{iri:path}/item")
-async def add_item(iri: str, payload: dict = Body(...)):
+async def add_item(request: Request, iri: str, payload: dict = Body(...)):
     """Add a data item to a disease. Body: {category, values:{...}, editor}."""
-    r = service.add_item(iri, payload["category"], payload.get("values", {}),
+    r = service_for(request, write=True).add_item(iri, payload["category"], payload.get("values", {}),
                          editor=payload.get("editor", "user"))
-    STATE["dirty"] = True
+    _mark_dirty(request)
     return r
 
 
 @app.put("/api/v2/item/{iri:path}")
-async def update_item(iri: str, payload: dict = Body(...)):
+async def update_item(request: Request, iri: str, payload: dict = Body(...)):
     """Edit a data item. Body: {category, changes:{...}, disease, editor}."""
-    r = service.update_item(iri, payload["category"], payload.get("changes", {}),
+    r = service_for(request, write=True).update_item(iri, payload["category"], payload.get("changes", {}),
                             disease_iri=payload.get("disease", ""),
                             editor=payload.get("editor", "user"))
-    STATE["dirty"] = True
+    _mark_dirty(request)
     return r
 
 
 @app.delete("/api/v2/item/{iri:path}")
-async def delete_item(iri: str, payload: dict = Body(...)):
+async def delete_item(request: Request, iri: str, payload: dict = Body(...)):
     """Delete a data item. Body: {category, disease, editor}."""
-    r = service.delete_item(iri, payload.get("category", ""),
+    r = service_for(request, write=True).delete_item(iri, payload.get("category", ""),
                             payload["disease"], editor=payload.get("editor", "user"))
-    STATE["dirty"] = True
+    _mark_dirty(request)
     return r
 
 
 @app.get("/api/v2/releases")
-async def releases_list():
-    return {"current": service._current_version(), "releases": service.list_releases()}
+async def releases_list(request: Request):
+    svc = service_for(request)
+    return {"current": svc._current_version(), "releases": svc.list_releases()}
 
 
 @app.post("/api/v2/releases")
-async def create_release(payload: dict = Body(default={})):
+async def create_release(request: Request, payload: dict = Body(default={})):
     """Admin action: cut a versioned release snapshot of the ontology."""
     version = payload.get("version", "")
     notes = payload.get("notes", "")
     editor = payload.get("editor", "admin")
-    return service.create_release(version=version, notes=notes, editor=editor)
+    return service_for(request, write=True).create_release(version=version, notes=notes, editor=editor)
 
 
 @app.get("/api/v2/xrefs")
-async def xrefs():
+async def xrefs(request: Request):
     """All diseases with their database cross-references, for the reference-review page."""
     keys = ["snomed", "omop", "doid", "umls", "mondo", "icd10", "mesh", "nci", "dxcode"]
     out = []
-    for it in service.get_diseases_list():
-        d = service.get_disease_detail(it["iri"])
+    svc = service_for(request)
+    for it in svc.get_diseases_list():
+        d = svc.get_disease_detail(it["iri"])
         row = {"iri": d.get("iri"), "name": d.get("name"),
                "ari_id": (d.get("ari_id") or [None])[0]}
         for k in keys:
@@ -237,20 +296,20 @@ async def xrefs():
 
 
 @app.get("/api/v2/search")
-async def search(q: str = ""):
-    return service.search(q)
+async def search(request: Request, q: str = ""):
+    return service_for(request).search(q)
 
 
 # ----------------------------------------------------------------- FEEDBACK
 @app.get("/api/v2/feedback")
 async def feedback_list(disease: str = ""):
-    return service.feedback.list(disease or None)
+    return BASE.feedback.list(disease or None)
 
 
 @app.post("/api/v2/feedback")
 async def feedback_add(payload: dict = Body(...)):
     """Add feedback for a term. Body: {disease, term, message, keep, author}."""
-    return service.feedback.add(
+    return BASE.feedback.add(
         payload.get("disease", ""), payload.get("term", ""), payload.get("message", ""),
         keep=payload.get("keep", False), author=payload.get("author", "anonymous"))
 
@@ -258,13 +317,13 @@ async def feedback_add(payload: dict = Body(...)):
 @app.put("/api/v2/feedback/{fid}")
 async def feedback_update(fid: str, payload: dict = Body(...)):
     """Edit feedback. Body: {message?, keep?, author?}."""
-    return service.feedback.update(fid, message=payload.get("message"),
+    return BASE.feedback.update(fid, message=payload.get("message"),
                                    keep=payload.get("keep"), author=payload.get("author"))
 
 
 @app.delete("/api/v2/feedback/{fid}")
 async def feedback_delete(fid: str):
-    return service.feedback.delete(fid)
+    return BASE.feedback.delete(fid)
 
 
 # ----------------------------------------------------------------- GITHUB AUTH + PUBLISH
@@ -332,7 +391,8 @@ async def publish(request: Request, payload: dict = Body(default={})):
     disease = payload.get("disease") or "ontology"
     message = payload.get("message") or f"Update {disease}"
     comment = (payload.get("comment") or "").strip()
-    content = Path(ONTOLOGY_FILE).read_bytes()
+    svc = service_for(request)
+    content = svc.path.read_bytes()
 
     # Diff current vs the source branch to summarise previous -> new values.
     import tempfile, os as _os
@@ -343,7 +403,7 @@ async def publish(request: Request, payload: dict = Body(default={})):
         tf = tempfile.NamedTemporaryFile(suffix=".owl", delete=False)
         tf.write(data); tf.close(); tmp_path = tf.name
         baseline = OntologyService(tmp_path)
-        summary = diff_service.build_change_summary(service, baseline)
+        summary = diff_service.build_change_summary(svc, baseline)
     except Exception:
         summary = "_Change summary unavailable (could not load the source-branch baseline)._"
     finally:
@@ -393,13 +453,14 @@ def _allowed_branches(branches):
     return [b for b in branches if b == GH_BASE_BRANCH or b.startswith("edit/")]
 
 
-async def _fetch_branch(token, branch):
+async def _fetch_branch(token, branch, login=None):
     data = await gh.get_file_at(token, GH_OWNER, GH_REPO, GH_ONTOLOGY_PATH, branch)
     Path(ONTOLOGY_FILE).write_bytes(data)
-    reload_service()
+    reload_base()
     STATE["source_branch"] = branch
     STATE["pr_base"] = branch          # PR target always matches the source branch
-    STATE["dirty"] = False
+    if login:
+        _reset_user(login)
 
 
 @app.get("/api/v2/settings")
@@ -414,7 +475,7 @@ async def get_settings(request: Request):
             branches = [GH_BASE_BRANCH]
     return {"github_enabled": GH_ENABLED, "authenticated": bool(u),
             "working_branch": GH_BASE_BRANCH, "source_branch": STATE["source_branch"],
-            "pr_base": STATE["pr_base"], "dirty": STATE["dirty"], "branches": branches}
+            "pr_base": STATE["pr_base"], "dirty": _dirty(request), "branches": branches}
 
 
 @app.post("/api/v2/fetch")
@@ -425,10 +486,10 @@ async def fetch_changes(request: Request, payload: dict = Body(default={})):
     u = _user(request)
     if not u:
         return JSONResponse(status_code=401, content={"detail": "Sign in with GitHub first"})
-    if STATE["dirty"] and not payload.get("discard"):
+    if _dirty(request) and not payload.get("discard"):
         return {"needs_confirm": True,
                 "detail": "Local edits exist and will be discarded by fetching."}
-    await _fetch_branch(u["token"], STATE["source_branch"])
+    await _fetch_branch(u["token"], STATE["source_branch"], u["identity"]["login"])
     return {"ok": True, "source_branch": STATE["source_branch"]}
 
 
@@ -444,10 +505,10 @@ async def set_source(request: Request, payload: dict = Body(...)):
     allowed = _allowed_branches(await gh.list_branches(u["token"], GH_OWNER, GH_REPO))
     if branch not in allowed:
         raise ValueError(f"Branch not allowed: {branch}")
-    if STATE["dirty"] and not payload.get("discard"):
+    if _dirty(request) and not payload.get("discard"):
         return {"needs_confirm": True,
                 "detail": "Local edits exist and will be discarded by switching branch."}
-    await _fetch_branch(u["token"], branch)
+    await _fetch_branch(u["token"], branch, u["identity"]["login"])
     return {"ok": True, "source_branch": branch}
 
 
@@ -488,7 +549,7 @@ async def export_excel(request: Request):
                     _os.unlink(tmp.name)
             except Exception:
                 pass
-    xlsx = export_service.build_report(service, baseline)
+    xlsx = export_service.build_report(service_for(request), baseline)
     return StreamingResponse(
         _io.BytesIO(xlsx),
         media_type="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",

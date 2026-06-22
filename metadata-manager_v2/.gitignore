@@ -11,3 +11,4 @@ releases/releases.json
 feedback/
 .env
 .sessions.json
+.user-data/
