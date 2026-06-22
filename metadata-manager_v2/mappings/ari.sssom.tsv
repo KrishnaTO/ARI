@@ -1,0 +1,20 @@
+# curie_map:
+#   ARI: https://diseases.autoimmuneregistry.org/disease/ARI_
+#   DOID: http://purl.obolibrary.org/obo/DOID_
+#   MONDO: http://purl.obolibrary.org/obo/MONDO_
+#   SNOMEDCT: http://snomed.info/id/
+#   ncit: http://purl.obolibrary.org/obo/NCIT_
+#   mesh: http://id.nlm.nih.gov/mesh/
+#   umls: https://uts.nlm.nih.gov/uts/umls/concept/
+#   icd10cm: http://purl.bioontology.org/ontology/ICD10CM/
+#   omop: https://athena.ohdsi.org/search-terms/terms/
+#   skos: http://www.w3.org/2004/02/skos/core#
+#   semapv: https://w3id.org/semapv/vocab/
+#   orcid: https://orcid.org/
+# mapping_set_id: https://diseases.autoimmuneregistry.org/mappings/ari.sssom.tsv
+# mapping_provider: https://www.autoimmuneregistry.org
+# mapping_set_title: ARI disease cross-reference mappings
+# license: https://creativecommons.org/publicdomain/zero/1.0/
+subject_id	subject_label	predicate_id	object_id	mapping_justification	author_id	mapping_date
+ARI:0001134	Moyamoya disease	skos:exactMatch	DOID:13099	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-22
+ARI:0001136	Myasthenia gravis	skos:exactMatch	DOID:437	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-22
