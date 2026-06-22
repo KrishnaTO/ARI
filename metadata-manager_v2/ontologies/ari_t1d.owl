@@ -2794,7 +2794,6 @@ HHV-8-negative/idiopathic multicentric Castleman disease (iMCD)</rdfs:comment>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mukherjee 2022; https://pubmed.ncbi.nlm.nih.gov/34535010/</ARI_DefSource>
   <ARI_Pubmed rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/34535010/</ARI_Pubmed>
   <evidenceQuality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antibody</evidenceQuality>
-  <diseaseCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune</diseaseCategory>
   <ARI_Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</ARI_Version>
   <ARI_RefLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MCD Castleman Disease Patient Resource | https://www.castlemandisease.com/</ARI_RefLink>
   <ARI_RefLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Castleman Disease Collaborative Network | https://cdcn.org/</ARI_RefLink>
@@ -2802,12 +2801,14 @@ HHV-8-negative/idiopathic multicentric Castleman disease (iMCD)</rdfs:comment>
   <ARI_RefLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Castleman Disease Support Group | https://www.facebook.com/groups/403839776489587</ARI_RefLink>
   <ARI_RefLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Link to Healthline | https://www.healthline.com/health/multicentric-castleman-disease</ARI_RefLink>
   <ARI_RefLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Link to Cleveland Clinic | https://my.clevelandclinic.org/health/diseases/17920-castleman-disease</ARI_RefLink>
-  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Angiofollicular Lymph Node Hyperplasia, Unicentric - Affects a single lymph node.</ARI_ClinicalSubtype>
-  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Angiofollicular Lymph Node Hyperplasia, Multicentric - Involves multiple lymph nodes and systemic symptoms.</ARI_ClinicalSubtype>
   <ARI_Author rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Erica Matute-Arcos | https://www.linkedin.com/in/erica-matute/</ARI_Author>
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-11</ARI_AuthorDate>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ALH</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Angiofollicular Lymph Node Hyperplasia</ARI_ClinicalSubtype>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unicentric - Affects a single lymph node.</ARI_ClinicalSubtype>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Multicentric - Involves multiple lymph nodes and systemic symptoms.</ARI_ClinicalSubtype>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-22 19:21 | Krishna Udaiwal | Edited: age_range, clinical_subtypes, def_source, definition, demographic_bias, disease_category, doid, evidence_quality, icd10, incidence_rate, mesh, mondo, name, nci, obsolete, omop, prevalence_desc, prevalence_per_100k, prevalence_value, snomed, synonyms, umls</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001011_117">
