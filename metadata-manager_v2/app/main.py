@@ -2,6 +2,7 @@
 import os
 import json
 import secrets
+import subprocess
 from pathlib import Path
 
 from fastapi import FastAPI, Request, Body
@@ -38,6 +39,20 @@ service = OntologyService(ONTOLOGY_FILE)
 app = FastAPI(title="ARI Metadata Manager v2")
 
 STATIC_DIR = Path(__file__).resolve().parent.parent / "static"
+
+
+def _app_version() -> str:
+    """Manager version derived from git so it bumps on every update/deploy."""
+    root = Path(__file__).resolve().parent.parent.parent  # repo root
+    try:
+        g = lambda *a: subprocess.check_output(["git", "-C", str(root), *a],
+                                               text=True, stderr=subprocess.DEVNULL).strip()
+        return f"2.{g('rev-list', '--count', 'HEAD')} ({g('rev-parse', '--short', 'HEAD')}, {g('show', '-s', '--format=%cd', '--date=short', 'HEAD')})"
+    except Exception:
+        return "2.x"
+
+
+APP_VERSION = _app_version()
 
 # ----------------------------------------------------------------- GitHub config
 GH_CLIENT_ID = os.environ.get("GITHUB_CLIENT_ID", "")
@@ -120,7 +135,7 @@ async def bad_request(request: Request, exc: ValueError):
 
 @app.get("/api/v2/overview")
 async def overview():
-    return service.overview()
+    return {**service.overview(), "app_version": APP_VERSION}
 
 
 @app.get("/api/v2/diseases")
