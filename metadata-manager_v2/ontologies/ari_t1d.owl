@@ -2682,13 +2682,11 @@ However, based on the research available at this time, there is no evidence that
   <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001010</ARI_ID>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">68225006</ARI_SNOMED>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19754005</ARI_SNOMED>
-  <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">86166000</ARI_SNOMED>
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">986</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0002171</ARI_UMLS>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">704.01</ARI_ICD10>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L63</ARI_ICD10>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D000506</ARI_MESH>
-  <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">141933, 4056343, 4312756</ARI_OMOP>
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">68225006, 19754005, 86166000</ARI_DXCODE>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alopecia areata is a type of hair loss that occurs when your immune system mistakenly attacks hair follicles, which is where hair growth begins. The damage to the follicle is usually not permanent. Experts do not know why the immune system attacks the follicles.</rdfs:comment>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Benigno 2020; https://pubmed.ncbi.nlm.nih.gov/32280257/</ARI_DefSource>
@@ -2703,14 +2701,19 @@ However, based on the research available at this time, there is no evidence that
   <ARI_RefLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Link to Cleveland Clinic | https://my.clevelandclinic.org/health/diseases/12423-alopecia-areata</ARI_RefLink>
   <ARI_RefLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string">National Alopecia Areata Foundation | http://www.naaf.org/</ARI_RefLink>
   <ARI_RefLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Link to Healthline | https://www.healthline.com/health/alopecia-areata</ARI_RefLink>
-  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alopecia Areata, Totalis - Complete loss of scalp hair.</ARI_ClinicalSubtype>
-  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alopecia Areata, Universalis - Loss of all body hair.</ARI_ClinicalSubtype>
-  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alopecia Areata, Ophiasis - Hair loss in a band-like pattern around the scalp.</ARI_ClinicalSubtype>
-  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alopecia Areata, Patchy - Localized hair loss in small patches.</ARI_ClinicalSubtype>
   <ARI_Author rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fadila ElMahdaoui | https://www.linkedin.com/in/fadila-e/</ARI_Author>
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-08</ARI_AuthorDate>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AA</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ophiasis - Hair loss in a band-like pattern around the scalp.</ARI_ClinicalSubtype>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alopecia Areata</ARI_ClinicalSubtype>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Universalis - Loss of all body hair.</ARI_ClinicalSubtype>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Totalis - Complete loss of scalp hair.</ARI_ClinicalSubtype>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Patchy - Localized hair loss in small patches.</ARI_ClinicalSubtype>
+  <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4312756</ARI_OMOP>
+  <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4056343</ARI_OMOP>
+  <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">141933</ARI_OMOP>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-22 18:20 | Krishna Udaiwal | Edited: age_range, clinical_subtypes, def_source, definition, demographic_bias, disease_category, doid, evidence_quality, icd10, incidence_rate, mesh, mondo, name, nci, obsolete, omop, prevalence_desc, prevalence_per_100k, prevalence_value, snomed, synonyms, umls</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001010_109">
@@ -3203,11 +3206,13 @@ HHV-8-negative/idiopathic multicentric Castleman disease (iMCD)</rdfs:comment>
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001016">
   <rdf:type rdf:resource="#AutoimmuneDisease"/>
   <targetsTissue rdf:resource="#Tissue_Systemic"/>
+  <hasEtiologyFactor rdf:resource="#Et_548186db"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anti-MDA5 amyopathic dermatomyositis with rapidly progressive ILD</rdfs:label>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
   <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001016</ARI_ID>
   <ARI_Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.1</ARI_Version>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-22 18:58 | Krishna Udaiwal | Added Etiology origin: dsgsd</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001017">
@@ -9818,7 +9823,6 @@ ASA is not a concern except for people trying to conceive.</rdfs:comment>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">M79.7</ARI_ICD10>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D005356</ARI_MESH>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C87497</ARI_NCI>
-  <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40405599</ARI_OMOP>
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">203082005</ARI_DXCODE>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fibromyalgia is a disorder that is characterized by chronic pain and fatigue. The cause of fibromyalgia is unknown. Fibromyalgia may be accompanied by headaches, migraines, digestive problems, sensitivity to light or noise, sleep disturbances, temporomandibular joint (TMJ) dysfunction, anxiety, and depression. While fibromyalgia is mainly characterized by widespread chronic pain it does not mean that everyone who has chronic pain has fibromyalgia. There is no biomarker for fibromyalgia however lab tests or x-rays can help rule out other conditions. Fibromyalgia follows a pattern seen in many suspected (and in some cases, later confirmed) autoimmune diseases - it mostly affects women, is marked by flares, and has no other known cause. A study of mice recently reported the transference of fibromyalgia symptoms to mice using antibodies, which increases the probability that the disease is autoimmune.  If this research is validated (reproduced) it could establish fibromyalgia as an autoimmune disease.</rdfs:comment>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fibromyalgia Syndrome</ARI_Synonym>
@@ -9836,12 +9840,15 @@ ASA is not a concern except for people trying to conceive.</rdfs:comment>
   <ARI_RefLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string">National Fibromyalgia Association | http://www.fmaware.org/</ARI_RefLink>
   <ARI_RefLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rebuilding wellness with Sue Ingebretson | https://rebuildingwellness.com/blog/</ARI_RefLink>
   <ARI_RefLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Link to Cleveland Clinic | https://my.clevelandclinic.org/health/diseases/4832-fibromyalgia</ARI_RefLink>
-  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fibromyalgia, Primary - No known cause, chronic widespread pain.</ARI_ClinicalSubtype>
-  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fibromyalgia, Secondary - Occurs with other conditions like lupus or rheumatoid arthritis.</ARI_ClinicalSubtype>
   <ARI_Author rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lisa Hinckley</ARI_Author>
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2022-12</ARI_AuthorDate>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FM</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chronic widespread pain.</ARI_ClinicalSubtype>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Secondary - Occurs with other conditions like lupus or rheumatoid arthritis.</ARI_ClinicalSubtype>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fibromyalgia</ARI_ClinicalSubtype>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Primary - No known cause</ARI_ClinicalSubtype>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-22 18:56 | Krishna Udaiwal | Edited: age_range, clinical_subtypes, def_source, definition, demographic_bias, disease_category, doid, evidence_quality, icd10, incidence_rate, mesh, mondo, name, nci, obsolete, omop, prevalence_desc, prevalence_per_100k, prevalence_value, snomed, synonyms, umls</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001095_874">
@@ -22575,6 +22582,12 @@ Some cases of this disease are caused by medications and are not autoimmune.</rd
 <owl:NamedIndividual rdf:about="#Sym_0001211_2240">
   <rdf:type rdf:resource="#Symptom"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yellow eyes</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Et_548186db">
+  <rdf:type rdf:resource="#EtiologyOrigin"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dsgsd</rdfs:label>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
 </owl:NamedIndividual>
 
