@@ -19,7 +19,7 @@
   .btn.ok.on { background:var(--ok); color:#fff; border-color:var(--ok); }
   .btn.bad.on { background:var(--bad); color:#fff; border-color:var(--bad); }
   .btn:disabled { opacity:.5; cursor:not-allowed; }
-  .body { flex:1; display:flex; min-height:0; }
+  .body { flex:1; display:flex; min-height:0; position:relative; }
   #table-wrap { flex:1; overflow:auto; padding:8px; min-width:120px; }
   table { border-collapse:collapse; width:100%; font-size:12px; }
   th, td { border:1px solid var(--border); padding:5px 7px; text-align:left; vertical-align:top; }
@@ -45,6 +45,22 @@
   .p-links { padding:8px 12px; font-size:12px; }
   .p-note { padding:0 12px 8px; }
   #p-frame { flex:1; width:100%; border:0; background:#fff; }
+  .p-sub { padding:6px 12px 8px; display:flex; gap:8px; align-items:center; border-bottom:1px solid var(--border); }
+  #subtype-overlay { display:none; position:absolute; top:0; left:0; bottom:0; background:var(--bg); z-index:10; overflow:hidden; border-right:3px solid var(--accent); flex-direction:column; }
+  #subtype-overlay.open { display:flex; }
+  .so-head { padding:10px 12px; border-bottom:1px solid var(--border); display:flex; align-items:center; gap:8px; flex-shrink:0; }
+  .so-body { padding:12px; flex:1; overflow-y:auto; }
+  .so-parent-info { font-size:11px; color:var(--muted); background:var(--bg2); border:1px solid var(--border); border-radius:6px; padding:6px 9px; margin-bottom:14px; }
+  .so-field { margin-bottom:12px; }
+  .so-field label { display:block; font-size:11px; color:var(--muted); margin-bottom:3px; font-weight:600; text-transform:uppercase; letter-spacing:.04em; }
+  .so-field > input, .so-field > textarea, .so-field > select { width:100%; padding:6px 9px; border:1px solid var(--border); border-radius:6px; background:var(--bg); color:var(--text); font:inherit; font-size:13px; box-sizing:border-box; }
+  .so-field textarea { min-height:64px; resize:vertical; }
+  .so-req { color:var(--bad); }
+  .so-tissue-grid { display:flex; flex-wrap:wrap; gap:5px; margin-top:4px; }
+  .so-tissue-check { display:flex; align-items:center; gap:4px; font-size:12px; padding:3px 9px; border:1px solid var(--border); border-radius:99px; cursor:pointer; user-select:none; }
+  .so-tissue-check:hover { border-color:var(--accent); background:var(--accent-soft); }
+  .so-tissue-check input[type=checkbox] { width:auto; margin:0; padding:0; flex-shrink:0; accent-color:var(--accent); }
+  .so-actions { padding:10px 12px; border-top:1px solid var(--border); display:flex; gap:8px; flex-shrink:0; }
 </style>
 </head>
 <body>
@@ -59,6 +75,7 @@
   <a class="btn" href="../">← Back to app</a>
 </header>
 <div class="body">
+  <div id="subtype-overlay"></div>
   <div id="table-wrap"><p class="muted" style="padding:16px">Loading cross-references…</p></div>
   <div id="divider"></div>
   <div id="side"><div id="panel"></div></div>
