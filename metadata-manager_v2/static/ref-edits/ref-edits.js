@@ -168,6 +168,8 @@
       <div class="so-body">
         <div class="so-parent-info">Parent disease: <strong>${esc(r.name)}</strong><br>
           Created as a child (subtype) of this disease. Use the reference info on the right to fill the cross-reference ids below.</div>
+        <div class="so-field" id="so-existing-wrap" style="display:none"><label>Start from an existing clinical subtype</label>
+          <select id="so-existing"><option value="">— blank —</option></select></div>
         <div class="so-field"><label>Label <span class="so-req">*</span></label>
           <input id="so-label" placeholder="e.g. Juvenile-onset ${esc(r.name)}"></div>
         <div class="so-field"><label>Definition <span class="so-req">*</span></label>
@@ -191,6 +193,23 @@
     $('#so-close').addEventListener('click', closeSubtypeOverlay);
     $('#so-cancel').addEventListener('click', closeSubtypeOverlay);
     $('#so-save').addEventListener('click', () => submitSubtype(parentIri));
+    // Offer the parent's existing clinical subtypes (not in the xref row) as a
+    // starting point: picking one seeds the new child's label + definition.
+    api('disease/' + enc(parentIri)).then(det => {
+      const subs = (det && det.clinical_subtypes) || [];
+      if (!subs.length) return;
+      const sel = $('#so-existing');
+      if (!sel) return;
+      sel.innerHTML = '<option value="">— blank —</option>' +
+        subs.map((s, i) => `<option value="${i}">${esc(String(s).split(' - ')[0])}</option>`).join('');
+      sel.addEventListener('change', () => {
+        if (sel.value === '') return;
+        const raw = String(subs[sel.value]), dash = raw.indexOf(' - ');
+        $('#so-label').value = dash >= 0 ? raw.slice(0, dash) : raw;
+        if (dash >= 0) $('#so-definition').value = raw.slice(dash + 3);
+      });
+      $('#so-existing-wrap').style.display = '';
+    }).catch(() => {});   // existing-subtype picker is optional; ignore failures
     try {
       const tissues = await loadTissues();
       $('#so-tissues').innerHTML = tissues.length
