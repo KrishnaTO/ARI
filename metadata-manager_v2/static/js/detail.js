@@ -39,12 +39,32 @@ function renderDetail(d){
   }
 
   if (d.definition) html += `<div class="definition">${mdToHtml(d.definition)}</div>`;
-  // Definition source(s) as a nested sub-hierarchical item under the definition
-  if (d.def_source?.length || d.pubmed?.length){
-    html += `<div class="def-sources">`;
-    for (const s of (d.def_source||[])) html += `<div class="def-source-item"><span class="src-label">Source</span> ${mdInline(esc(s))}</div>`;
-    for (const p of (d.pubmed||[])) html += `<div class="def-source-item"><span class="src-label">Source</span> <a href="${esc(p)}" target="_blank" rel="noopener">&#128279; PubMed</a></div>`;
-    html += `</div>`;
+  // Definition source(s) — parsed as "Author Year; URL" pairs, rendered as
+  // hyperlinks.  Pubmed URLs already embedded in def_source are not shown twice.
+  if (d.def_source?.length || d.pubmed?.length) {
+    const shownUrls = new Set();
+    const cites = [];
+    for (const s of (d.def_source || [])) {
+      for (const c of parseDefSrc(String(s))) {
+        if (c.url) shownUrls.add(c.url);
+        cites.push(c);
+      }
+    }
+    for (const p of (d.pubmed || [])) {
+      const u = String(p || '').trim();
+      if (u && !shownUrls.has(u)) cites.push({ text: '', url: u });
+    }
+    if (cites.length) {
+      html += `<div class="def-sources">`;
+      for (const c of cites) {
+        if (c.url) {
+          html += `<div class="def-source-item"><a href="${esc(c.url)}" target="_blank" rel="noopener">${c.text ? esc(c.text) : 'Source'} &#8599;</a></div>`;
+        } else if (c.text) {
+          html += `<div class="def-source-item"><span class="src-label">Source</span> ${esc(c.text)}</div>`;
+        }
+      }
+      html += `</div>`;
+    }
   }
 
   html += '<div class="meta">';

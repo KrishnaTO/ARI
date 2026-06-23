@@ -92,7 +92,16 @@ footer#app-footer { flex-shrink: 0; display: flex; align-items: center; padding:
 .def-sources { margin: 0 0 12px 10px; padding: 2px 0 2px 12px; border-left: 2px solid var(--border); }
 .def-source-item { font-size: 12px; color: var(--muted); line-height: 1.5; }
 .def-source-item .src-label { font-weight: 700; color: var(--text); margin-right: 6px; }
-.def-source-item a { color: var(--accent); }
+.def-source-item a { color: var(--accent); text-decoration: none; }
+.def-source-item a:hover { text-decoration: underline; }
+
+/* Structured definition-source editor rows */
+.def-src-row { display: flex; gap: 5px; margin-bottom: 4px; align-items: center; }
+.def-src-row .f_defsrc_url { flex: 1.2; padding: 5px 8px; border: 1px solid var(--border); border-radius: 6px; font: inherit; font-size: 12px; background: var(--bg); color: var(--text); }
+.def-src-row .f_defsrc_text { flex: 1; padding: 5px 8px; border: 1px solid var(--border); border-radius: 6px; font: inherit; font-size: 12px; background: var(--bg); color: var(--text); }
+.def-src-row .f_defsrc_url:focus, .def-src-row .f_defsrc_text:focus { outline: none; border-color: var(--accent); }
+.defsrc-rm-btn { padding: 3px 8px; color: var(--muted); flex-shrink: 0; }
+.defsrc-rm-btn:hover { color: var(--danger); border-color: var(--danger); }
 .detail .meta { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 12px; }
 .detail .meta .tag { background: var(--accent-soft); color: var(--accent); padding: 2px 8px; border-radius: 99px; font-size: 11px; font-weight: 600; }
 .detail .meta .tag code { font-family: monospace; }

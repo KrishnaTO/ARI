@@ -117,6 +117,37 @@ const BOX_META = {
   feedback:       { aspect:'Record',                   desc:'Leave comments about this term. Feedback is cleared at the next version release unless marked “keep after release”.' },
 };
 
+// ----------------------------------------------------------------- DEF SOURCE PARSER
+// Parse a stored def-source string ("Author Year; URL; Author2; URL2") into
+// an array of {text, url} citation objects.  Handles PMID: references,
+// full URLs, and plain text-only entries.  Used by both display and edit form.
+function _defSrcIsUrl(s) { return /^https?:\/\//i.test(s); }
+function _defSrcIsPmid(s) { return /^PMID:?\s*\d+/i.test(s); }
+function _defSrcResolve(s) {
+  if (_defSrcIsUrl(s)) return s;
+  const m = s.match(/PMID:?\s*(\d+)/i);
+  return m ? `https://pubmed.ncbi.nlm.nih.gov/${m[1]}/` : s;
+}
+function parseDefSrc(str) {
+  const parts = String(str || '').split(/\s*;\s*/).map(p => p.trim()).filter(Boolean);
+  const cites = [];
+  let i = 0;
+  while (i < parts.length) {
+    const cur = parts[i];
+    if (_defSrcIsUrl(cur) || _defSrcIsPmid(cur)) {
+      cites.push({ text: '', url: _defSrcResolve(cur) });
+      i++;
+    } else if (i + 1 < parts.length && (_defSrcIsUrl(parts[i + 1]) || _defSrcIsPmid(parts[i + 1]))) {
+      cites.push({ text: cur, url: _defSrcResolve(parts[i + 1]) });
+      i += 2;
+    } else {
+      cites.push({ text: cur, url: '' });
+      i++;
+    }
+  }
+  return cites;
+}
+
 function toast(msg){
   const t = document.createElement('div'); t.className = 'toast'; t.textContent = msg;
   document.body.appendChild(t); setTimeout(() => t.remove(), 2600);

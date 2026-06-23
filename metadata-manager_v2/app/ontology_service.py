@@ -496,7 +496,7 @@ class OntologyService:
         "nci":               ("multi_ann", "ARI_NCI", str),
         "omop":              ("multi_ann", "ARI_OMOP", str),
         "dxcode":            ("multi_ann", "ARI_DXCODE", str),
-        "def_source":        ("ann", "ARI_DefSource", str),
+        "def_source":        ("multi_ann", "ARI_DefSource", str),
         "pubmed":            ("ann", "ARI_Pubmed", str),
         "prevalence_desc":   ("ann", "ARI_PrevalenceDesc", str),
         "obsolete":          ("ann", "ARI_Obsolete", str),
@@ -589,7 +589,11 @@ class OntologyService:
             if prop and v:
                 prop[new_d] = [v]
 
-        _ann("ARI_DefSource", data.get("def_source", ""))
+        def_src = data.get("def_source", "")
+        def_src_prop = self.world[base + "ARI_DefSource"]
+        if def_src_prop and def_src:
+            items = def_src if isinstance(def_src, list) else [str(def_src).strip()]
+            def_src_prop[new_d] = [s for s in items if s]
         _ann("ARI_Author", data.get("authors", ""))
         _ann("ARI_AuthorDate", data.get("author_date", ""))
 

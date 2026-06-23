@@ -1,6 +1,26 @@
 // Editing: the global edit toggle, the disease-field editor, the per-category
 // item CRUD (add / edit / delete) and the admin version-release dialog.
 
+// ----------------------------------------------------------------- DEF SOURCE ROW HELPER
+// Renders one URL + optional-label row for the definition-source structured editor.
+function defSrcRowHtml(text = '', url = '') {
+  return `<div class="def-src-row">` +
+    `<input class="f_defsrc_url" type="text" placeholder="URL or PMID: 12345678" value="${esc(url)}">` +
+    `<input class="f_defsrc_text" type="text" placeholder="Label / author (optional)" value="${esc(text)}">` +
+    `<button type="button" class="hbtn defsrc-rm-btn" onclick="this.closest('.def-src-row').remove()" title="Remove">&#x2715;</button>` +
+    `</div>`;
+}
+function _collectDefSrcs(listId) {
+  const srcs = [];
+  document.querySelectorAll(`#${listId} .def-src-row`).forEach(row => {
+    const url = (row.querySelector('.f_defsrc_url')?.value || '').trim();
+    const txt = (row.querySelector('.f_defsrc_text')?.value || '').trim();
+    const s = (txt && url) ? `${txt}; ${url}` : (url || txt);
+    if (s) srcs.push(s);
+  });
+  return srcs;
+}
+
 // ----------------------------------------------------------------- EDIT MODE
 $('#edit-toggle').addEventListener('click', () => {
   if (!state.detail) return;
@@ -49,13 +69,23 @@ function openDiseaseFieldEditor(d){
   html += fieldText('f_demographic_bias', 'Demographic bias', first(d.demographic_bias));
   html += fieldText('f_age_range', 'Age range', first(d.age_range));
   html += fieldArea('f_prevalence_desc', 'Prevalence description', first(d.prevalence_desc));
-  html += fieldArea('f_def_source', 'Definition source (markdown)', first(d.def_source));
+  // Structured def-source editor: parse existing citations into URL + label rows
+  const _dsCites = [];
+  for (const s of (d.def_source || [])) for (const c of parseDefSrc(String(s))) _dsCites.push(c);
+  const _dsShown = new Set(_dsCites.map(c => c.url).filter(Boolean));
+  for (const p of (d.pubmed || [])) { const u = String(p||'').trim(); if (u && !_dsShown.has(u)) _dsCites.push({text:'',url:u}); }
+  if (!_dsCites.length) _dsCites.push({text:'',url:''});
+  html += `<div class="field"><label>Definition sources <span style="font-weight:400;text-transform:none;font-size:11px;color:var(--muted)">(URL required for each; label optional)</span></label>` +
+    `<div id="f_defsrc_list">${_dsCites.map(c => defSrcRowHtml(c.text, c.url)).join('')}</div>` +
+    `<button type="button" class="hbtn" id="f_defsrc_add" style="font-size:11px;margin-top:3px">&#xFF0B; Add source</button></div>`;
   html += `<div class="field field-row"><input type="checkbox" id="f_obsolete" ${d.obsolete?'checked':''}><label style="margin:0">Mark as obsolete</label></div>`;
   html += `<div class="field"><label>Editor name</label><input id="f_editor" value="${esc(state.editor)}"></div>`;
   html += `<div class="edit-actions"><button class="hbtn primary" id="save-btn">💾 Save changes</button>
     <button class="hbtn" onclick="closeRightPanel()">Cancel</button></div></div>`;
   $('#right-panel-content').innerHTML = html;
   $('#save-btn').addEventListener('click', saveEdits);
+  $('#f_defsrc_add')?.addEventListener('click', () =>
+    $('#f_defsrc_list').insertAdjacentHTML('beforeend', defSrcRowHtml('', '')));
 }
 
 async function saveEdits(){
@@ -70,7 +100,7 @@ async function saveEdits(){
     prevalence_per_100k: v('f_prevalence_per_100k'), prevalence_value: v('f_prevalence_value'),
     incidence_rate: v('f_incidence_rate'), demographic_bias: v('f_demographic_bias'),
     age_range: v('f_age_range'), prevalence_desc: v('f_prevalence_desc'),
-    def_source: v('f_def_source'),
+    def_source: _collectDefSrcs('f_defsrc_list'),
     obsolete: $('#f_obsolete').checked ? 'true' : 'false',
   };
   state.editor = v('f_editor') || 'curator';
@@ -232,8 +262,13 @@ async function openNewDiseaseModal(prefill = {}) {
       <input id="nd_label" value="${preFill('label')}" placeholder="e.g. Type 1 Diabetes Mellitus"></div>
     <div class="field"><label>Definition / Description <span class="nd-req">&#x2a;</span></label>
       <textarea id="nd_definition" style="min-height:72px" placeholder="A chronic autoimmune condition in which…">${preFill('definition')}</textarea></div>
-    <div class="field"><label>Definition Source <span class="nd-req">&#x2a;</span></label>
-      <input id="nd_def_source" value="${preFill('def_source')}" placeholder="e.g. ADA Standards of Care 2025; PMID: 38393374"></div>
+    <div class="field"><label>Definition Sources <span class="nd-req">&#x2a;</span> <span style="font-weight:400;text-transform:none;font-size:11px;color:var(--muted)">(URL required; label optional)</span></label>
+      <div id="nd_defsrc_list">${(()=>{
+        const pr = prefill.def_source ? parseDefSrc(String(prefill.def_source)) : [];
+        if (!pr.length) pr.push({text:'',url:''});
+        return pr.map(c => defSrcRowHtml(c.text, c.url)).join('');
+      })()}</div>
+      <button type="button" class="hbtn" id="nd_defsrc_add" style="font-size:11px;margin-top:3px">&#xFF0B; Add source</button></div>
     <div class="field"><label>Target Tissue <span class="nd-req">&#x2a;</span></label>
       <div class="tissue-check-grid" id="nd_tissues">${tissueBoxes}</div></div>
 
@@ -295,6 +330,8 @@ async function openNewDiseaseModal(prefill = {}) {
   $('#nd-close').addEventListener('click', close);
   $('#nd-cancel').addEventListener('click', close);
   $('#nd-overlay').addEventListener('click', e => { if (e.target.id === 'nd-overlay') close(); });
+  $('#nd_defsrc_add')?.addEventListener('click', () =>
+    $('#nd_defsrc_list').insertAdjacentHTML('beforeend', defSrcRowHtml('', '')));
   $('#nd-save').addEventListener('click', saveNewDisease);
 }
 
@@ -302,17 +339,17 @@ async function saveNewDisease() {
   const v = id => ($(id)?.value ?? '').trim();
   const lbl = v('#nd_label');
   const defn = v('#nd_definition');
-  const src  = v('#nd_def_source');
+  const def_source = _collectDefSrcs('nd_defsrc_list');
   const tissue_iris = [...document.querySelectorAll('#nd_tissues input:checked')].map(c => c.value);
 
-  if (!lbl)            { toast('Label is required'); return; }
-  if (!defn)           { toast('Definition is required'); return; }
-  if (!src)            { toast('Definition source is required'); return; }
-  if (!tissue_iris.length) { toast('Select at least one target tissue'); return; }
+  if (!lbl)               { toast('Label is required'); return; }
+  if (!defn)              { toast('Definition is required'); return; }
+  if (!def_source.length) { toast('At least one definition source is required'); return; }
+  if (!tissue_iris.length){ toast('Select at least one target tissue'); return; }
 
   state.editor = v('#nd_editor') || 'curator';
   const data = {
-    label: lbl, definition: defn, def_source: src, tissue_iris,
+    label: lbl, definition: defn, def_source, tissue_iris,
     authors:           v('#nd_authors'),
     author_date:       v('#nd_author_date'),
     parent_iri:        v('#nd_parent'),
