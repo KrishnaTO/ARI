@@ -27,7 +27,7 @@ header { display: flex; align-items: center; gap: 12px; padding: 8px 16px; borde
 .brand span { color: var(--accent); }
 #onto-meta { color: var(--muted); font-size: 12px; }
 footer#app-footer { flex-shrink: 0; display: flex; align-items: center; padding: 6px 16px; border-top: 1px solid var(--border); background: var(--bg-side); }
-.search-wrap { position: relative; width: 240px; }
+.search-wrap { position: relative; width: 240px; margin-left: auto; }
 .search-wrap input { width: 100%; padding: 6px 10px; border: 1px solid var(--border); border-radius: 6px; outline: none; font-size: 13px; }
 .search-wrap input:focus { border-color: var(--accent); }
 .dropdown { position: absolute; top: 34px; left: 0; right: 0; background: var(--bg); border: 1px solid var(--border); border-radius: 8px; box-shadow: 0 8px 24px rgba(0,0,0,.12); max-height: 300px; overflow: auto; z-index: 50; }
@@ -110,6 +110,18 @@ footer#app-footer { flex-shrink: 0; display: flex; align-items: center; padding:
 /* Clinical subtypes, external references, authorship (imported report data) */
 .subtype-list { margin: 0 0 10px; padding-left: 18px; font-size: 12px; color: var(--text); }
 .subtype-list li { margin: 2px 0; line-height: 1.4; }
+.subtype-new-btn { padding: 1px 7px; font-size: 10px; vertical-align: middle; color: var(--accent); border-color: var(--accent-border); }
+.subtype-new-btn:hover { background: var(--accent-soft); }
+
+/* New-disease modal */
+.nd-modal { width: 640px; }
+.nd-note { font-size: 12px; color: var(--muted); margin: 0 0 12px; }
+.nd-req { color: var(--danger); }
+.nd-section-label { font-size: 11px; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; margin-bottom: 6px; border-top: 1px solid var(--border); padding-top: 12px; }
+.tissue-check-grid { display: flex; flex-wrap: wrap; gap: 5px; }
+.tissue-check { display: flex; align-items: center; gap: 4px; font-size: 12px; padding: 3px 9px; border: 1px solid var(--border); border-radius: 99px; cursor: pointer; user-select: none; }
+.tissue-check:hover { border-color: var(--accent); background: var(--accent-soft); }
+.tissue-check input[type=checkbox] { width: auto; margin: 0; accent-color: var(--accent); }
 .ref-links { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 10px; }
 .ref-link { display: inline-flex; align-items: center; gap: 4px; text-decoration: none; border: 1px solid var(--border); border-radius: 6px; padding: 3px 8px; font-size: 11px; color: var(--accent); max-width: 280px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .ref-link:hover { border-color: var(--accent); background: var(--accent-soft); }

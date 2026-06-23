@@ -83,7 +83,10 @@ function renderDetail(d){
     for (const sub of d.clinical_subtypes){
       const [name, ...rest] = String(sub).split(' - ');
       const desc = rest.join(' - ');
-      html += `<li><strong>${esc(name)}</strong>${desc ? ' &mdash; ' + esc(desc) : ''}</li>`;
+      const btn = state.editMode
+        ? ` <button class="hbtn subtype-new-btn" data-subtype-name="${esc(name)}" title="Create this subtype as a new disease (child of this disease)">&#xFF0B; New disease</button>`
+        : '';
+      html += `<li><strong>${esc(name)}</strong>${desc ? ' &mdash; ' + esc(desc) : ''}${btn}</li>`;
     }
     html += `</ul>`;
   }
@@ -146,6 +149,10 @@ function renderDetail(d){
 
   $('#detail-pane').querySelectorAll('.parent-link').forEach(a =>
     a.addEventListener('click', ev => { ev.preventDefault(); selectDisease(a.dataset.iri); }));
+
+  $('#detail-pane').querySelectorAll('.subtype-new-btn').forEach(btn =>
+    btn.addEventListener('click', () =>
+      openNewDiseaseModal({ label: btn.dataset.subtypeName, parent_iri: d.iri })));
 
   const efb = $('#edit-fields-btn');
   if (efb) efb.addEventListener('click', () => openDiseaseFieldEditor(state.detail));

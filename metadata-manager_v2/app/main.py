@@ -324,6 +324,22 @@ async def xrefs(request: Request):
     return out
 
 
+@app.get("/api/v2/tissues")
+async def tissues_list(request: Request):
+    """All tissue-target individuals for new-disease creation forms."""
+    return service_for(request).get_tissues()
+
+
+@app.post("/api/v2/disease")
+async def create_disease(request: Request, payload: dict = Body(...)):
+    """Create a new disease individual. Body: {data: {...}, editor: str}."""
+    data = payload.get("data", {})
+    editor = payload.get("editor", "user")
+    r = service_for(request, write=True).create_disease(data, editor=editor)
+    _mark_dirty(request)
+    return r
+
+
 @app.get("/api/v2/search")
 async def search(request: Request, q: str = ""):
     return service_for(request).search(q)

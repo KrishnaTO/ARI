@@ -402,6 +402,35 @@ class OntologyService:
 
         return d
 
+    def get_tissues(self) -> list:
+        """All tissue-target individuals available for new-disease creation."""
+        base = self.base
+        root = self.world[base + "MulticellularAnatomicalStructure"]
+        if root is None:
+            return []
+        tissue_classes = set()
+
+        def _collect(cls):
+            tissue_classes.add(cls)
+            for sub in cls.subclasses(world=self.world):
+                _collect(sub)
+
+        _collect(root)
+        results, seen = [], set()
+        for ind in self.onto.individuals():
+            if ind.iri in seen:
+                continue
+            for cls in getattr(ind, "is_a", []):
+                if hasattr(cls, "iri") and cls in tissue_classes:
+                    seen.add(ind.iri)
+                    results.append({
+                        "iri": ind.iri,
+                        "name": self._get_label(ind),
+                        "local_name": ind.name if hasattr(ind, "name") else "",
+                    })
+                    break
+        return sorted(results, key=lambda x: x["name"])
+
     def search(self, query: str) -> list:
         q = query.lower()
         base = self.base
@@ -527,6 +556,101 @@ class OntologyService:
             self._save()
 
         return self.get_disease_detail(iri)
+
+    def create_disease(self, data: dict, editor: str = "user") -> dict:
+        """Create a new AutoimmuneDisease individual with provisional IRI.
+
+        Required keys in data: label, definition, def_source, tissue_iris (list[str]).
+        Optional: parent_iri, synonyms, authors, author_date, clinical_subtypes,
+                  and any key from EDITABLE (disease_category, icd10, etc.).
+        """
+        base = self.base
+        dis_cls = self._disease_class()
+        if dis_cls is None:
+            raise KeyError("AutoimmuneDisease class not found")
+
+        lbl = str(data.get("label", "")).strip()
+        if not lbl:
+            raise ValueError("label is required")
+
+        local = f"ARI_new_{uuid.uuid4().hex[:8]}"
+        with self.onto:
+            new_d = dis_cls(local)
+
+        label[new_d] = [lbl]
+
+        defn = str(data.get("definition", "")).strip()
+        if defn:
+            comment[new_d] = [defn]
+
+        def _ann(suffix, val):
+            prop = self.world[base + suffix]
+            v = str(val).strip() if val else ""
+            if prop and v:
+                prop[new_d] = [v]
+
+        _ann("ARI_DefSource", data.get("def_source", ""))
+        _ann("ARI_Author", data.get("authors", ""))
+        _ann("ARI_AuthorDate", data.get("author_date", ""))
+
+        # Tissue targets (object property)
+        tis_prop = self.world[base + "targetsTissue"]
+        if tis_prop:
+            for tiri in (data.get("tissue_iris") or []):
+                tis = self.world[tiri]
+                if tis is not None:
+                    tis_prop[new_d].append(tis)
+
+        # Parent disease (object property)
+        parent_iri = str(data.get("parent_iri", "")).strip()
+        if parent_iri:
+            par_prop = self.world[base + "hasParentDisease"]
+            parent = self.world[parent_iri]
+            if par_prop and parent is not None:
+                par_prop[new_d] = [parent]
+
+        def _multi(suffix, val):
+            prop = self.world[base + suffix]
+            if not prop:
+                return
+            if isinstance(val, str):
+                items = [s.strip() for s in val.replace("\n", ",").split(",")]
+            else:
+                items = [str(s).strip() for s in (val or [])]
+            prop[new_d] = [s for s in items if s]
+
+        _multi("ARI_Synonym", data.get("synonyms", ""))
+        _multi("ARI_ClinicalSubtype", data.get("clinical_subtypes", ""))
+
+        # Other EDITABLE fields delegated generically
+        skip = {"name", "definition", "synonyms", "clinical_subtypes", "def_source", "obsolete"}
+        for key, raw in data.items():
+            if key in skip or key not in self.EDITABLE:
+                continue
+            kind, suffix, caster = self.EDITABLE[key]
+            if kind in ("label", "comment"):
+                continue
+            elif kind == "multi_ann":
+                _multi(suffix, raw)
+            elif kind == "ann":
+                prop = self.world[base + suffix]
+                if prop:
+                    prop[new_d] = [str(raw)] if str(raw).strip() else []
+            elif kind == "data":
+                prop = self.world[base + suffix]
+                if prop:
+                    sv = str(raw).strip()
+                    if not sv:
+                        prop[new_d] = []
+                    else:
+                        try:
+                            prop[new_d] = [caster(raw)]
+                        except (ValueError, TypeError):
+                            pass
+
+        self._append_changelog(new_d, editor, f"Created: {lbl}")
+        self._save()
+        return self.get_disease_detail(new_d.iri)
 
     def _save(self):
         self.onto.save(file=str(self.path), format="rdfxml")

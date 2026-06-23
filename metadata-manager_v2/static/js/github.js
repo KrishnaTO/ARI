@@ -13,6 +13,7 @@
     if (!me.github_enabled) return;          // feature off -> show nothing
     ghUser = me.authenticated ? me : null;
     state.githubName = ghUser ? (ghUser.name || ghUser.login) : null;
+    state.githubLogin = ghUser ? ghUser.login : null;
     if (typeof resolveEditor === 'function') resolveEditor();
     render();
   }
