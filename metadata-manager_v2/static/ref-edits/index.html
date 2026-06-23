@@ -53,11 +53,13 @@
   .so-parent-info { font-size:11px; color:var(--muted); background:var(--bg2); border:1px solid var(--border); border-radius:6px; padding:6px 9px; margin-bottom:14px; }
   .so-field { margin-bottom:12px; }
   .so-field label { display:block; font-size:11px; color:var(--muted); margin-bottom:3px; font-weight:600; text-transform:uppercase; letter-spacing:.04em; }
-  .so-field input, .so-field textarea { width:100%; padding:6px 9px; border:1px solid var(--border); border-radius:6px; background:var(--bg); color:var(--text); font:inherit; font-size:13px; box-sizing:border-box; }
+  .so-field > input, .so-field > textarea { width:100%; padding:6px 9px; border:1px solid var(--border); border-radius:6px; background:var(--bg); color:var(--text); font:inherit; font-size:13px; box-sizing:border-box; }
   .so-field textarea { min-height:64px; resize:vertical; }
   .so-req { color:var(--bad); }
-  .so-tissue-grid { display:flex; flex-wrap:wrap; gap:6px 14px; margin-top:4px; }
-  .so-tissue-check { font-size:12px; display:flex; align-items:center; gap:4px; cursor:pointer; }
+  .so-tissue-grid { display:flex; flex-wrap:wrap; gap:5px; margin-top:4px; }
+  .so-tissue-check { display:flex; align-items:center; gap:4px; font-size:12px; padding:3px 9px; border:1px solid var(--border); border-radius:99px; cursor:pointer; user-select:none; }
+  .so-tissue-check:hover { border-color:var(--accent); background:var(--accent-soft); }
+  .so-tissue-check input[type=checkbox] { width:auto; margin:0; padding:0; flex-shrink:0; accent-color:var(--accent); }
   .so-actions { padding:10px 12px; border-top:1px solid var(--border); display:flex; gap:8px; flex-shrink:0; }
 </style>
 </head>
