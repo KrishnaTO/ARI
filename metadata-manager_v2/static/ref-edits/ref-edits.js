@@ -27,7 +27,7 @@
   ];
   const DBMAP = Object.fromEntries(DBS.map(d => [d.key, d]));
 
-  let ROWS = [], me = null, reviewed = {}, edited = {}, active = null, sessionBranch = null;
+  let ROWS = [], me = null, reviewed = {}, edited = {}, active = null, sessionBranch = null, _tissues = null;
   const $ = s => document.querySelector(s);
   const cellEl = (iri, db) => document.querySelector(`[data-cell="${CSS.escape(iri + '|' + db)}"]`);
 
@@ -125,6 +125,8 @@
       <div class="p-q">Is this ${db.label} reference correct?
         <button class="btn ok ${reviewed[key] === 'ok' ? 'on' : ''}" id="p-ok">✓ Correct</button>
         <button class="btn bad ${reviewed[key] === 'bad' ? 'on' : ''}" id="p-bad">✗ Needs change</button></div>
+      <div class="p-sub"><span class="muted">Distinct variant of this disease?</span>
+        <button class="btn" id="p-subtype">＋ New subtype</button></div>
       <div class="p-edit">
         <label>${db.label} id(s) — comma separated (add an alternate id here)</label>
         <input id="p-ids" value="${esc(ids.join(', '))}" placeholder="e.g. 12345, 67890">
@@ -140,9 +142,91 @@
     $('#p-ok').addEventListener('click', () => setReview(iri, dbkey, 'ok'));
     $('#p-bad').addEventListener('click', () => setReview(iri, dbkey, 'bad'));
     $('#p-save').addEventListener('click', () => save(iri, dbkey));
+    $('#p-subtype').addEventListener('click', () => openSubtypeOverlay(iri));
   }
 
-  function closePanel() { $('#side').classList.remove('open'); $('#divider').classList.remove('show'); }
+  function closePanel() { closeSubtypeOverlay(); $('#side').classList.remove('open'); $('#divider').classList.remove('show'); }
+
+  // -------------------------------------------------- NEW-SUBTYPE OVERLAY
+  // Covers only the table (left) area so the reference info in the right panel
+  // stays visible while a curator fills in a new child disease.
+  async function loadTissues() {
+    if (!_tissues) _tissues = await api('tissues');
+    return _tissues;
+  }
+
+  function closeSubtypeOverlay() { $('#subtype-overlay').classList.remove('open'); }
+
+  async function openSubtypeOverlay(parentIri) {
+    const r = ROWS.find(x => x.iri === parentIri);
+    if (!r) return;
+    const ov = $('#subtype-overlay');
+    ov.style.width = $('#table-wrap').getBoundingClientRect().width + 'px';
+    ov.innerHTML = `
+      <div class="so-head"><strong>＋ New subtype</strong><span style="flex:1"></span>
+        <button class="btn" id="so-close">✕</button></div>
+      <div class="so-body">
+        <div class="so-parent-info">Parent disease: <strong>${esc(r.name)}</strong><br>
+          Created as a child (subtype) of this disease. Use the reference info on the right to fill the cross-reference ids below.</div>
+        <div class="so-field"><label>Label <span class="so-req">*</span></label>
+          <input id="so-label" placeholder="e.g. Juvenile-onset ${esc(r.name)}"></div>
+        <div class="so-field"><label>Definition <span class="so-req">*</span></label>
+          <textarea id="so-definition" placeholder="A subtype of ${esc(r.name)} characterized by…"></textarea></div>
+        <div class="so-field"><label>Definition source <span class="so-req">*</span></label>
+          <input id="so-defsrc" placeholder="URL or PMID: 12345678"></div>
+        <div class="so-field"><label>Target tissue <span class="so-req">*</span></label>
+          <div class="so-tissue-grid" id="so-tissues"><span class="muted">Loading…</span></div></div>
+        <div class="so-field"><label>Synonyms (comma separated)</label>
+          <input id="so-synonyms" placeholder="Synonym 1, Synonym 2"></div>
+        <div class="so-field"><label>Disease category</label><input id="so-category"></div>
+        <div class="so-field"><label>Clinical subtypes (comma separated)</label>
+          <input id="so-clinical" placeholder="Name - description, …"></div>
+        <div class="so-field"><label>Editor name</label>
+          <input id="so-editor" value="${esc((me && me.login) || '')}"></div>
+      </div>
+      <div class="so-actions">
+        <button class="btn primary" id="so-save">＋ Create subtype</button>
+        <button class="btn" id="so-cancel">Cancel</button></div>`;
+    ov.classList.add('open');
+    $('#so-close').addEventListener('click', closeSubtypeOverlay);
+    $('#so-cancel').addEventListener('click', closeSubtypeOverlay);
+    $('#so-save').addEventListener('click', () => submitSubtype(parentIri));
+    try {
+      const tissues = await loadTissues();
+      $('#so-tissues').innerHTML = tissues.length
+        ? tissues.map(t => `<label class="so-tissue-check"><input type="checkbox" value="${esc(t.iri)}"> ${esc(t.name)}</label>`).join('')
+        : '<span class="muted">No tissues available</span>';
+    } catch (e) { $('#so-tissues').innerHTML = '<span class="muted">Failed to load tissues: ' + esc(e.message) + '</span>'; }
+  }
+
+  async function submitSubtype(parentIri) {
+    if (!me || !me.authenticated) { alert('Sign in with GitHub first.'); return; }
+    const val = id => ($('#' + id)?.value || '').trim();
+    const label = val('so-label'), definition = val('so-definition'), defsrc = val('so-defsrc');
+    const tissue_iris = [...document.querySelectorAll('#so-tissues input:checked')].map(c => c.value);
+    if (!label)             { alert('Label is required'); return; }
+    if (!definition)        { alert('Definition is required'); return; }
+    if (!defsrc)            { alert('Definition source is required'); return; }
+    if (!tissue_iris.length){ alert('Select at least one target tissue'); return; }
+    const editor = val('so-editor') || (me && me.login) || 'curator';
+    const data = {
+      label, definition, def_source: [defsrc], tissue_iris, parent_iri: parentIri,
+      synonyms: val('so-synonyms'), disease_category: val('so-category'),
+      clinical_subtypes: val('so-clinical'),
+    };
+    const btn = $('#so-save');
+    btn.disabled = true; btn.textContent = 'Creating…';
+    try {
+      const created = await api('disease', { method: 'POST', body: { data, editor } });
+      ROWS = await api('xrefs');           // refresh so the new subtype appears in the table
+      closeSubtypeOverlay();
+      renderTable($('#filter').value); counts();
+      alert('Created subtype: ' + created.name);
+    } catch (e) {
+      alert('Create failed: ' + e.message);
+      btn.disabled = false; btn.textContent = '＋ Create subtype';
+    }
+  }
 
   async function save(iri, dbkey) {
     if (!me || !me.authenticated) { alert('Sign in with GitHub first.'); return; }
