@@ -50,7 +50,7 @@ def _app_version() -> str:
     try:
         g = lambda *a: subprocess.check_output(["git", "-C", str(root), *a],
                                                text=True, stderr=subprocess.DEVNULL).strip()
-        return f"2.{g('rev-list', '--count', 'HEAD')} ({g('rev-parse', '--short', 'HEAD')}, {g('show', '-s', '--format=%cd', '--date=short', 'HEAD')})"
+        return f"2.{g('rev-list', '--count', 'HEAD')} ({g('show', '-s', '--format=%cd', '--date=short', 'HEAD')})"
     except Exception:
         return "2.x"
 

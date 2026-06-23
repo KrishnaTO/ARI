@@ -7,12 +7,11 @@
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
 <script src="https://d3js.org/d3.v7.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/d3-cloud@1.2.7/build/d3.layout.cloud.js"></script>
-<link rel="stylesheet" href="css/styles.css?v=7">
+<link rel="stylesheet" href="css/styles.css?v=8">
 </head>
 <body>
 <header>
   <div class="brand">ARI <span>Disease Manager</span></div>
-  <div id="onto-meta"></div>
   <div class="search-wrap">
     <input id="search" placeholder="Search..." autocomplete="off">
     <div id="search-results" class="dropdown hidden"></div>
@@ -45,6 +44,10 @@
     <div class="right-panel" id="right-panel-content"></div>
   </div>
 </div>
+
+<footer id="app-footer">
+  <div id="onto-meta"></div>
+</footer>
 
 <!-- App modules — classic scripts, loaded in dependency order (shared global scope) -->
 <script src="js/core.js?v=7"></script>

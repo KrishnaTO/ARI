@@ -25,7 +25,8 @@ a { color: var(--accent); }
 header { display: flex; align-items: center; gap: 12px; padding: 8px 16px; border-bottom: 1px solid var(--border); background: var(--bg); flex-shrink: 0; }
 .brand { font-weight: 700; font-size: 15px; white-space: nowrap; }
 .brand span { color: var(--accent); }
-#onto-meta { color: var(--muted); font-size: 12px; flex: 1; }
+#onto-meta { color: var(--muted); font-size: 12px; }
+footer#app-footer { flex-shrink: 0; display: flex; align-items: center; padding: 6px 16px; border-top: 1px solid var(--border); background: var(--bg-side); }
 .search-wrap { position: relative; width: 240px; }
 .search-wrap input { width: 100%; padding: 6px 10px; border: 1px solid var(--border); border-radius: 6px; outline: none; font-size: 13px; }
 .search-wrap input:focus { border-color: var(--accent); }

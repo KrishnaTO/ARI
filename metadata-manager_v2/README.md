@@ -1,126 +1,190 @@
 # ARI Disease Metadata Manager v2
 
-A standalone web application for browsing and managing autoimmune disease data stored in a Protégé-compatible OWL ontology file. Built as an evolution of `Metadata-manager/` with a richer, disease-focused UI.
+Branch: `feature/metadata-manager_v2/ARI`
 
-## Features
+A standalone **FastAPI** web app for browsing and editing the ARI autoimmune‑disease
+catalogue, stored as a single Protégé‑compatible **OWL** ontology. Editors sign in with
+their **own GitHub account**; every saved change is committed and opened as a pull request
+under their identity, so contributions are attributed on GitHub. Deployable on AWS Lightsail
+behind nginx.
 
-- **Hierarchical disease views** (top tabs)
-  - **Alphabetical** — diseases grouped under their **parent disease**; expand a parent to reveal child subtypes (e.g. T1D → LADA, Fulminant T1D)
-  - **Tissue Target** — the *multicellular anatomical structure* (`UBERON:0010000`) hierarchy, with each disease attached as an expandable item under every tissue it targets
-  - **Symptoms** — flat list of all symptoms in the dataset (the only symptom context with enough data)
-- **Ontology detail panel** — IRI, ARI local id, label, definition, synonyms, definition source, and **database cross-references that link out** to the source databases (ICD-10, SNOMED, DOID, UMLS, MONDO). Obsolete entries render faded with an `(obsolete)` marker.
-- **Editing** — Click **Edit** to enter editing mode:
-  - **Disease fields** — label, definition, synonyms, identifiers, prevalence, demographics, sources, obsolete flag.
-  - **Data items** — add / edit / delete the individual items inside every category (symptoms, environmental factors, antibodies, genetics, treatments, etiology, biomarkers, pathway steps, and all immune/molecular components) via schema-driven forms. Each category's deep-dive panel also has an **✎ Edit items** button, so items can be managed directly from any view without toggling global edit mode (use **← Back to details** to return).
-  - Every change writes the OWL file and appends a timestamped **per-disease changelog** entry.
-- **Version release pipeline** — The **Admin** dialog cuts a versioned release: it snapshots the OWL into `releases/`, bumps the version on every disease, and records the release in each disease's changelog and a `releases.json` manifest.
-- **Disease story** — the data categories are arranged as a narrative timeline: ① triggers & onset → ② etiology → ③ pathophysiology → ④ biomarkers & treatments → ⑤ prevalence. Within each step the boxes are grouped under their **aspect category** (Clinical profile, Etiology, Genetics, Innate immune component, Adaptive immunity, Signaling & molecular, …), derived from the [Immunological Data Model v3](../data_model/Immuno-data-model-v3.xlsx). Clicking a box opens its deep-dive on the right, where the concept's **description** (also from the data model) is shown under the panel title.
-- **Rich right-panel deep dives** (the panel squashes the list + detail to the left half and opens on the right with a Close button):
-  - 📊 **Prevalence** — Chart.js chart, stat cards, **table view**, and sources
-  - 🤒 **Symptoms** — likelihood-badged table with HPO/PubMed links + D3 word cloud
-  - 🌍 **Environmental factors** — only shown when triggers exist; cards with likelihood + sources
-  - 🧬 **Autoantibodies** — the pathophysiology map with the autoantibody step highlighted, plus a selectable antibody panel
-  - 💊 **Treatments** — cards with type, description, FDA status, sources
-  - 🔬 **Etiology** — origins classified as **Genetic / External / Idiopathic**, with study excerpts and sources
-  - 🧬 **Genetic associations** — table with gene/HLA, locus, product, effect, odds ratio
-  - 🩸 **Biochemical markers** — diagnostic markers with uses and sources
-  - 🗺️ **Pathophysiology** — an interactive **force-directed pathograph graph** (D3): a numbered spine of cascade steps (genetic → trigger → tolerance → presentation → autoantibodies → insulitis → beta-cell death → hyperglycemia) with the associated genetic, antigen, antibody, T-cell, cytokine, complement, inflammasome and NETosis mediators branching off each step; drag nodes, click a step for sources
-  - **Immune / molecular components** — Cytokines, T-Cells, APCs, transcription factors, innate immunity, complement, receptors, **NETosis, inflammasome, acute phase reactants, antigens**
-  - 📋 **Change log** — per-disease edit and release history
-- **Search** — Live full-text search across all individuals
-- **Protégé-compatible** — The `.owl` file is standard RDF/XML; open and edit it in Protégé, restart to reflect external changes
-- **Curated dataset** — Type 1 Diabetes (T1D) plus two child subtypes (LADA, Fulminant T1D) as a comprehensive demonstration
+This branch evolves the earlier `Metadata-manager/` (v1) into a multi‑user, GitHub‑backed
+editor and folds in the full disease catalogue produced by the `main` report work.
 
-## Requirements
+## What this branch adds on top of `main`
 
-- Python 3.10+
-- owlready2, fastapi, uvicorn
+| Area | Change |
+| --- | --- |
+| `metadata-manager_v2/` | The entire app — backend, frontend, deploy stack, data builders (39 files). This is the substantive branch work. |
+| `data/4-reports/`, `data/README.md` | Refreshed report set + a `4-reports/README.md`. Provenance documented in `data/README.md`. |
+| `notebook/ari-grounding/*.csv` | Regenerated DOID / SNOMED grounding match tables. |
+| `.gitignore` | Ignore runtime secrets and per‑user state. |
 
-## Setup
+The app is the only area unique to this branch; the report/notebook deltas are carried
+catalogue data described under `data/README.md`.
 
-```bash
-pip install -r requirements.txt
-```
-
-## Running
-
-```bash
-python run.py
-```
-
-This starts the server at http://127.0.0.1:8001 and opens your browser automatically.
-
-To use a custom port or ontology file:
-
-```bash
-python run.py --port 8002 --file path/to/your.owl
-```
-
-## Project Structure
+## Areas (project structure)
 
 ```
 metadata-manager_v2/
-├── README.md
-├── requirements.txt
-├── run.py                    # Launcher (uvicorn + browser)
-├── app/
-│   ├── __init__.py
-│   ├── main.py               # FastAPI REST API (routes only)
-│   ├── ontology_service.py   # owlready2 service layer (reads, edits, releases)
-│   └── schema.py             # Editable disease-data item field schema
-├── scripts/
-│   └── build_t1d_ontology.py # T1D ontology generator
-├── ontologies/
-│   └── ari_t1d.owl           # Generated OWL file (T1D data)
-├── releases/                 # Versioned release snapshots
-└── static/
-    ├── index.html            # Page skeleton
-    ├── css/
-    │   └── styles.css        # All styles
-    └── js/                   # Browser app, classic scripts loaded in order
-        ├── core.js           #   state, constants, helpers, API client
-        ├── trees.js          #   tree views, tabs, search
-        ├── detail.js         #   disease detail + narrative story
-        ├── panels.js         #   category deep-dive read views
-        ├── graph.js          #   D3 pathophysiology graph
-        ├── editor.js         #   field/item editing + admin releases
-        └── main.js           #   bootstrap (init)
+├── run.py                      # Local launcher: uvicorn on 127.0.0.1:8001, opens browser
+├── requirements.txt            # owlready2, fastapi, uvicorn, httpx, itsdangerous, openpyxl
+├── instructions.md             # Original product brief for the app
+├── .env.example                # Config template (copy to .env; secrets stay server-side)
+├── DEPLOY.md                   # AWS Lightsail + nginx + Cloudflare SSL deployment guide
+│
+├── app/                        # ── Backend (FastAPI) ──
+│   ├── main.py                 #   Routes, OAuth/session, per-user services, publish, settings
+│   ├── ontology_service.py     #   owlready2 read/edit layer (one World per working copy)
+│   ├── schema.py               #   Editable data-item field schema (drives forms + writes)
+│   ├── github_service.py       #   Per-user OAuth, commit, fork, cross-repo pull request
+│   ├── sssom_service.py        #   Confirmed cross-refs -> SSSOM + equivalencies TSV
+│   ├── diff_service.py         #   Human-readable change summary for PR bodies
+│   ├── export_service.py       #   Export ontology -> 1_Core_ARI_Diseases.xlsx (marks changes)
+│   └── feedback_service.py     #   File-backed per-term feedback log
+│
+├── scripts/                    # ── Data builders ──
+│   ├── build_t1d_ontology.py   #   Generate the seed T1D ontology from scratch
+│   └── import_reports.py       #   Fold data/4-reports/ catalogue into the ontology
+│
+├── static/                     # ── Frontend (vanilla JS, no build step) ──
+│   ├── index.html              #   Main page skeleton
+│   ├── css/styles.css          #   All styles (light/dark)
+│   ├── js/                     #   Classic scripts, loaded in order:
+│   │   ├── core.js             #     state, constants, API helper, BASE_PATH detection
+│   │   ├── trees.js            #     left nav: alphabetical / tissue / symptoms trees, search
+│   │   ├── detail.js           #     middle panel: disease detail + narrative story
+│   │   ├── panels.js           #     right panel: category deep-dive read views
+│   │   ├── graph.js            #     D3 force-directed pathophysiology graph
+│   │   ├── editor.js           #     edit toggle, field/item editors, admin releases
+│   │   ├── symptoms.js         #     "search by symptoms" multi-select board
+│   │   ├── feedback.js         #     per-term feedback panel
+│   │   ├── github.js           #     sign-in + publish control
+│   │   ├── settings.js         #     fetch-from-branch, switch source, PR target
+│   │   └── main.js             #     bootstrap
+│   └── ref-edits/              #   Cross-reference review subpage
+│       ├── index.html
+│       └── ref-edits.js        #     diseases x databases grid, side-panel review, SSSOM publish
+│
+├── deploy/                     # ── Hosting (systemd + nginx) ──
+│   ├── ari-mm.service          #   uvicorn service (runs as ariapp on :8001)
+│   ├── ari-mm-update.service   #   oneshot wrapper for update.sh
+│   ├── ari-mm-update.timer     #   every 10 min: pull branch, restart only if changed
+│   ├── update.sh               #   git reset --hard origin/<branch>; restart on change
+│   └── nginx.conf              #   reverse proxy; strips the /ari-editor prefix
+│
+├── ontologies/ari_t1d.owl      # The ontology data file (RDF/XML, Protégé-compatible)
+├── releases/                   # Versioned OWL snapshots          (gitignored)
+├── feedback/                   # Runtime feedback log             (gitignored)
+├── .user-data/                 # Per-user working copies          (gitignored, auto-swept)
+└── .sessions.json              # Server-side session store        (gitignored, chmod 600)
 ```
 
-## Data Model
+## Key subsystems
 
-The ontology follows the [Immunological Data Model](https://github.com/KrishnaTO/ARI/blob/main/data_model/immunological_data_model.owl) schema, with:
+### Per-user GitHub identity & publishing
+Sign-in uses the GitHub OAuth Authorization-Code flow. The access token is held
+**server-side only** (in the session store); the browser keeps just an opaque session id.
+On **Publish**, the app commits the edited OWL on a branch named after the disease and opens
+a PR authored by the signed-in user, so GitHub attributes the contribution to them.
+Contributors without push access are handled by **forking**: the app creates a fork, commits
+there, and opens a cross-repo PR with `maintainer_can_modify`. Re-publishing the same disease
+appends commits to the existing PR. The only persistent secret is the OAuth client secret,
+which never leaves the server. `app/github_service.py` owns this logic.
 
-- **AutoimmuneDisease** class for disease individuals (parent/child diseases linked by `hasParentDisease`)
-- **22 object properties** connecting diseases to their associations (symptoms, antibodies, genetics, treatments, etiology, biomarkers, pathway steps, immune components, antigens, NETosis, inflammasome, acute phase reactants, …)
-- **32 data properties** for structured attributes
-- **13 annotation properties** for metadata, identifiers, changelog, and the `ARI_Obsolete` flag
-- **Tissue hierarchy** (UBERON-style): MulticellularAnatomicalStructure (`UBERON:0010000`) → AnatomicalSystem → EndocrineSystem → Pancreas → IsletOfLangerhans → BetaCell
+### Per-user working copies & isolation
+Each signed-in editor edits an isolated copy of the ontology at `.user-data/<login>.owl`
+(its own owlready2 World), so one editor's unpublished changes never leak into another's view
+or into the shared baseline. A startup background task sweeps idle copies older than
+`USER_DATA_TTL_DAYS` (default 14) to bound disk use. Defined in `app/main.py`.
+
+### Cross-reference review → SSSOM
+The `ref-edits` subpage lays out every disease against its database cross-references
+(SNOMED, OMOP, DOID, UMLS, MONDO, ICD-10, MeSH, NCI). A curator reviews each id in a
+resizable side panel and marks it correct or needs-change; empty cells link out to the target
+database's search. Confirmed matches become `skos:exactMatch` rows in an **SSSOM** TSV plus a
+simpler biomappings-style **equivalencies** TSV — both merged idempotently and included in the
+PR. Built by `app/sssom_service.py` + `static/ref-edits/`.
+
+### Report import
+`scripts/import_reports.py` folds the curated `data/4-reports/` catalogue (diseases, symptoms,
+age-of-onset, prevalence, clinical subtypes, authorship, and all cross-references) into
+`ontologies/ari_t1d.owl`. The import is additive and idempotent; the proposed-disease (`2_*`)
+and proposed-change (`3_*`) reports are intentionally skipped — only the confirmed catalogue
+is imported.
+
+### Versioning
+The manager reports a git-derived version, `2.<commit-count> (<sha>, <date>)`, that bumps on
+every deployed commit; it is shown in the UI and stamped onto releases.
+
+## Configuration (`.env`)
+
+Copy `.env.example` to `.env` (gitignored, `chmod 600`). Secrets are server-side only and are
+never sent to the browser.
+
+| Key | Purpose |
+| --- | --- |
+| `GITHUB_CLIENT_ID` / `GITHUB_CLIENT_SECRET` | OAuth App credentials |
+| `GITHUB_OWNER` / `GITHUB_REPO` | Repo the app may write to (`KrishnaTO/ARI`) |
+| `GITHUB_BASE_BRANCH` | Default PR target and the branch the deploy tracks |
+| `APP_BASE_URL` | Public URL incl. subpath; must match the OAuth callback |
+| `OAUTH_CALLBACK_PATH` | `/auth/github/callback` |
+| `SESSION_SECRET` | Signs the session cookie (`openssl rand -hex 32`) |
+| `ALLOWED_LOGINS` | Optional allow-list of GitHub logins (empty = any user with repo access) |
+| `PORT` | Default `8001` |
+| `USER_DATA_TTL_DAYS` | Idle per-user copy retention in days (`0` = never sweep) |
+
+## Running locally
+
+```bash
+pip install -r requirements.txt
+python run.py                 # serves http://127.0.0.1:8001 and opens the browser
+```
+
+GitHub sign-in needs a `.env` with OAuth credentials and an OAuth App whose callback is
+`http://localhost:8001/auth/github/callback`; without it the app still browses anonymously.
+Custom port / ontology: `python run.py --port 8002 --file path/to.owl`.
+
+## Deployment
+
+See **DEPLOY.md**: Ubuntu 22.04 Lightsail, uvicorn under systemd (`ari-mm`), nginx reverse
+proxy serving the app at `/ari-editor`, Cloudflare free SSL, and an auto-update timer that
+tracks `GITHUB_BASE_BRANCH`.
 
 ## REST API
 
 | Method | Path | Purpose |
 | --- | --- | --- |
 | GET | `/api/v2/overview` | Counts + current version |
+| GET | `/api/v2/diseases` | Flat disease list |
 | GET | `/api/v2/tree/alphabetical` | Parent→child disease tree |
 | GET | `/api/v2/tree/tissue` | UBERON tissue tree with diseases attached |
 | GET | `/api/v2/symptoms` | Flat symptom index |
 | GET | `/api/v2/schema` | Field schema for every editable data-item category |
 | GET | `/api/v2/disease/{iri}` | Full disease detail |
-| PUT | `/api/v2/disease/{iri}` | Edit disease fields `{ "changes": {...}, "editor": "name" }` (appends changelog) |
-| POST | `/api/v2/disease/{iri}/item` | Add a data item `{ category, values, editor }` |
-| PUT | `/api/v2/item/{iri}` | Edit a data item `{ category, changes, disease, editor }` |
-| DELETE | `/api/v2/item/{iri}` | Delete a data item `{ category, disease, editor }` |
+| PUT | `/api/v2/disease/{iri}` | Edit disease fields (appends changelog) |
+| POST | `/api/v2/disease/{iri}/item` | Add a data item |
+| PUT | `/api/v2/item/{iri}` | Edit a data item |
+| DELETE | `/api/v2/item/{iri}` | Delete a data item |
 | GET | `/api/v2/releases` | Current version + release history |
-| POST | `/api/v2/releases` | Cut a release `{ "notes": "...", "version": "" }` |
+| POST | `/api/v2/releases` | Cut a versioned release |
+| GET | `/api/v2/xrefs` | Cross-reference matrix for the review page |
 | GET | `/api/v2/search?q=` | Full-text search |
+| GET / POST / PUT / DELETE | `/api/v2/feedback[/{id}]` | Per-term feedback CRUD |
+| GET | `/api/v2/me` | Current user + `github_enabled` |
+| GET | `/auth/github` | Start OAuth (optional `next`) |
+| GET | `/auth/github/callback` | OAuth callback |
+| POST | `/api/v2/logout` | Sign out |
+| POST | `/api/v2/publish` | Commit working copy + open/append PR (+ SSSOM files) |
+| GET | `/api/v2/settings` | Source branch, PR target, allowed branches |
+| POST | `/api/v2/fetch` | Pull latest from the source branch |
+| POST | `/api/v2/source` | Switch the source branch |
+| POST | `/api/v2/pr-base` | Set the PR target branch |
+| GET | `/api/v2/export` | Download current state as `1_Core_ARI_Diseases.xlsx` |
 
-## Regenerating the Ontology
+## Data sources / provenance
 
-```bash
-python scripts/build_t1d_ontology.py
-```
-
-## Working with Protégé
-
-The generated `.owl` file is standard RDF/XML. Open it in Protégé to edit or extend. Restart the app server after making external changes.
+App data derives only from the master list and the local report build under `data/4-reports/`
+(itself built from `data/1-master/ARI Master List V 2.1 - 2026-06-04.xlsx` plus local
+`data/2-databases/` ontologies for grounding). No online data sources are pulled into the
+content — external-database identifiers are rendered as link-outs only.
