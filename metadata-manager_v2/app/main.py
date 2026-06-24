@@ -65,6 +65,8 @@ GH_REPO = os.environ.get("GITHUB_REPO", "")
 GH_BASE_BRANCH = os.environ.get("GITHUB_BASE_BRANCH", "feature/metadata-manager_v2/ARI")
 GH_ONTOLOGY_PATH = os.environ.get(
     "GITHUB_ONTOLOGY_PATH", "metadata-manager_v2/ontologies/ari_t1d.owl")
+MAPPINGS_SSSOM_PATH = "metadata-manager_v2/mappings/ari.sssom.tsv"
+MAPPINGS_EQUIV_PATH = "metadata-manager_v2/mappings/ari.equivalencies.tsv"
 APP_BASE_URL = os.environ.get("APP_BASE_URL", "http://localhost:8001").rstrip("/")
 OAUTH_CALLBACK_PATH = os.environ.get("OAUTH_CALLBACK_PATH", "/auth/github/callback")
 ALLOWED_LOGINS = [s.strip() for s in os.environ.get("ALLOWED_LOGINS", "").split(",") if s.strip()]
@@ -324,6 +326,39 @@ async def xrefs(request: Request):
     return out
 
 
+@app.get("/api/v2/mappings")
+async def mappings(request: Request):
+    """Already-curated positive/negative cross-reference judgments.
+
+    Read from the accumulated SSSOM (falling back to the equivalencies file) so
+    the review page can pre-highlight cells that were confirmed or flagged in an
+    earlier session. When signed in, the files are read from the current source
+    branch on GitHub; otherwise the local working-tree copy (if any) is used.
+    """
+    sssom_text = equiv_text = ""
+    u = _user(request) if GH_ENABLED else None
+    if u:
+        async def _read(path):
+            try:
+                return (await gh.get_file_at(u["token"], GH_OWNER, GH_REPO, path, STATE["source_branch"])).decode("utf-8")
+            except Exception:
+                return ""
+        sssom_text = await _read(MAPPINGS_SSSOM_PATH)
+        equiv_text = await _read(MAPPINGS_EQUIV_PATH)
+    if not sssom_text and not equiv_text:
+        root = Path(__file__).resolve().parent.parent.parent
+        for attr, p in (("sssom_text", MAPPINGS_SSSOM_PATH), ("equiv_text", MAPPINGS_EQUIV_PATH)):
+            try:
+                txt = (root / p).read_text(encoding="utf-8")
+            except Exception:
+                txt = ""
+            if attr == "sssom_text":
+                sssom_text = txt
+            else:
+                equiv_text = txt
+    return sssom_service.load_judgments(sssom_text, equiv_text)
+
+
 @app.get("/api/v2/tissues")
 async def tissues_list(request: Request):
     """All tissue-target individuals for new-disease creation forms."""
@@ -456,25 +491,29 @@ async def publish(request: Request, payload: dict = Body(default={})):
             try: _os.unlink(tmp_path)
             except Exception: pass
 
-    # Confirmed cross-references -> SSSOM + equivalencies mapping files (accumulated).
+    # Confirmed (positive) + flagged (negative) cross-references ->
+    # SSSOM + equivalencies mapping files (accumulated).
     confirmed = payload.get("confirmed") or []
+    flagged = payload.get("flagged") or []
     author = payload.get("author") or f"github:{u['identity']['login']}"
     reuse_branch = payload.get("branch") or None
     labels = payload.get("labels") or ["edit term"]
     extra_files = {}
-    SS_PATH = "metadata-manager_v2/mappings/ari.sssom.tsv"
-    EQ_PATH = "metadata-manager_v2/mappings/ari.equivalencies.tsv"
+    SS_PATH = MAPPINGS_SSSOM_PATH
+    EQ_PATH = MAPPINGS_EQUIV_PATH
     map_note = ""
-    if confirmed:
+    if confirmed or flagged:
         async def _read(path):
             try:
                 return (await gh.get_file_at(u["token"], GH_OWNER, GH_REPO, path, STATE["source_branch"])).decode("utf-8")
             except Exception:
                 return ""
-        files = sssom_service.build(confirmed, author, await _read(SS_PATH), await _read(EQ_PATH))
+        files = sssom_service.build(confirmed, author, await _read(SS_PATH), await _read(EQ_PATH), flagged=flagged)
         extra_files = {SS_PATH: files["sssom"].encode("utf-8"),
                        EQ_PATH: files["equiv"].encode("utf-8")}
-        map_note = f"## Confirmed mappings\n\n{files['added']} new exact-match mapping(s) added to `{SS_PATH}` (SSSOM) and `{EQ_PATH}`."
+        map_note = (f"## Reviewed mappings\n\n{files['added']} new "
+                    f"{len(confirmed)} positive / {len(flagged)} negative exact-match judgment(s) "
+                    f"added to `{SS_PATH}` (SSSOM) and `{EQ_PATH}`.")
 
     parts = []
     if comment:
@@ -489,7 +528,7 @@ async def publish(request: Request, payload: dict = Body(default={})):
         token=u["token"], owner=GH_OWNER, repo=GH_REPO, base_branch=STATE["pr_base"],
         path=GH_ONTOLOGY_PATH, content_bytes=content, disease_name=disease,
         message=message, identity=u["identity"], pr_body=pr_body, extra_files=extra_files,
-        reuse_branch=reuse_branch, labels=(labels + ["sssom"] if (confirmed and "sssom" not in labels) else labels))
+        reuse_branch=reuse_branch, labels=(labels + ["sssom"] if ((confirmed or flagged) and "sssom" not in labels) else labels))
 
 
 # ----------------------------------------------------------------- SETTINGS / FETCH / EXPORT
