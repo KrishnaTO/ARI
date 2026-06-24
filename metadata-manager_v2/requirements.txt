@@ -1,0 +1,6 @@
+owlready2>=0.46
+fastapi>=0.110
+uvicorn[standard]>=0.29
+httpx>=0.27
+itsdangerous>=2.1
+openpyxl>=3.1

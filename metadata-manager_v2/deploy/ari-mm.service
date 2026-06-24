@@ -1,0 +1,17 @@
+# /etc/systemd/system/ari-mm.service
+[Unit]
+Description=ARI Disease Metadata Manager v2 (FastAPI)
+After=network.target
+
+[Service]
+Type=simple
+User=ariapp
+WorkingDirectory=/opt/ari/repo/metadata-manager_v2
+EnvironmentFile=/opt/ari/repo/metadata-manager_v2/.env
+ExecStart=/opt/ari/venv/bin/uvicorn app.main:app --host 127.0.0.1 --port 8001 --proxy-headers
+Restart=on-failure
+NoNewPrivileges=true
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

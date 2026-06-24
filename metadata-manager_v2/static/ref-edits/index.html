@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ARI · Cross-reference review</title>
+<style>
+  :root { --bg:#fff; --bg2:#f8fafc; --border:#e2e8f0; --text:#0f172a; --muted:#64748b; --accent:#2563eb; --accent-soft:#eff6ff; --ok:#059669; --bad:#dc2626; }
+  html[data-theme="dark"] { --bg:#0f172a; --bg2:#1e293b; --border:#334155; --text:#e2e8f0; --muted:#94a3b8; --accent:#60a5fa; --accent-soft:#1e293b; --ok:#34d399; --bad:#f87171; }
+  * { box-sizing: border-box; }
+  body { margin:0; font:14px/1.5 system-ui,-apple-system,sans-serif; color:var(--text); background:var(--bg); height:100vh; display:flex; flex-direction:column; }
+  header { display:flex; align-items:center; gap:12px; padding:10px 16px; border-bottom:1px solid var(--border); flex-shrink:0; flex-wrap:wrap; }
+  header h1 { font-size:16px; margin:0; }
+  header .brand span { color:var(--accent); }
+  input#filter { padding:6px 10px; border:1px solid var(--border); border-radius:6px; background:var(--bg); color:var(--text); width:240px; }
+  .muted { color:var(--muted); font-size:12px; }
+  .btn { background:var(--bg); color:var(--text); border:1px solid var(--border); border-radius:6px; padding:5px 10px; cursor:pointer; font-size:13px; text-decoration:none; display:inline-block; }
+  .btn.primary { background:var(--accent); color:#fff; border-color:var(--accent); }
+  .btn.ok.on { background:var(--ok); color:#fff; border-color:var(--ok); }
+  .btn.bad.on { background:var(--bad); color:#fff; border-color:var(--bad); }
+  .btn:disabled { opacity:.5; cursor:not-allowed; }
+  .body { flex:1; display:flex; min-height:0; position:relative; }
+  #table-wrap { flex:1; overflow:auto; padding:8px; min-width:120px; }
+  table { border-collapse:collapse; width:100%; font-size:12px; }
+  th, td { border:1px solid var(--border); padding:5px 7px; text-align:left; vertical-align:top; }
+  th { position:sticky; top:0; background:var(--bg2); z-index:1; }
+  td.dz { font-weight:600; white-space:nowrap; position:sticky; left:0; background:var(--bg); }
+  .cell.ok { background:rgba(5,150,105,.14); }
+  .cell.bad { background:rgba(220,38,38,.14); }
+  /* Pre-highlight from already-curated mappings: a faint tint + colored edge bar,
+     visually lighter than the curator's own solid ok/bad fills. */
+  .cell.prepos { background:rgba(5,150,105,.05); box-shadow:inset 3px 0 0 var(--ok); }
+  .cell.preneg { background:rgba(220,38,38,.05); box-shadow:inset 3px 0 0 var(--bad); }
+  .cell.edited { outline:2px solid var(--accent); }
+  .legend { display:flex; align-items:center; gap:10px; font-size:11px; color:var(--muted); }
+  .legend .sw { display:inline-block; width:11px; height:11px; border-radius:2px; vertical-align:-1px; margin-right:3px; }
+  .legend .sw.pos { box-shadow:inset 3px 0 0 var(--ok); background:rgba(5,150,105,.05); }
+  .legend .sw.neg { box-shadow:inset 3px 0 0 var(--bad); background:rgba(220,38,38,.05); }
+  .xid { color:var(--accent); cursor:pointer; text-decoration:underline; margin-right:4px; white-space:nowrap; }
+  .add { color:var(--muted); cursor:pointer; }
+  #divider { width:6px; flex-shrink:0; cursor:col-resize; background:var(--border); display:none; touch-action:none; }
+  #divider.show { display:block; }
+  #side { width:0; flex-shrink:0; border-left:1px solid var(--border); overflow:hidden; transition:width .15s; }
+  #side.open { width:46%; min-width:300px; }
+  body.dragging #side { transition:none; }
+  body.dragging iframe { pointer-events:none; }
+  #panel { display:flex; flex-direction:column; height:100%; }
+  .p-head { padding:10px 12px; border-bottom:1px solid var(--border); }
+  .p-q, .p-edit { padding:10px 12px; display:flex; gap:8px; align-items:center; flex-wrap:wrap; border-bottom:1px solid var(--border); }
+  .p-edit { align-items:flex-end; }
+  .p-edit label { font-size:12px; color:var(--muted); display:block; width:100%; }
+  .p-edit input { flex:1; min-width:160px; padding:6px 9px; border:1px solid var(--border); border-radius:6px; background:var(--bg); color:var(--text); }
+  .p-links { padding:8px 12px; font-size:12px; }
+  .p-note { padding:0 12px 8px; }
+  #p-frame { flex:1; width:100%; border:0; background:#fff; }
+  .p-sub { padding:6px 12px 8px; display:flex; gap:8px; align-items:center; border-bottom:1px solid var(--border); }
+  #subtype-overlay { display:none; position:absolute; top:0; left:0; bottom:0; background:var(--bg); z-index:10; overflow:hidden; border-right:3px solid var(--accent); flex-direction:column; }
+  #subtype-overlay.open { display:flex; }
+  .so-head { padding:10px 12px; border-bottom:1px solid var(--border); display:flex; align-items:center; gap:8px; flex-shrink:0; }
+  .so-body { padding:12px; flex:1; overflow-y:auto; }
+  .so-parent-info { font-size:11px; color:var(--muted); background:var(--bg2); border:1px solid var(--border); border-radius:6px; padding:6px 9px; margin-bottom:14px; }
+  .so-field { margin-bottom:12px; }
+  .so-field label { display:block; font-size:11px; color:var(--muted); margin-bottom:3px; font-weight:600; text-transform:uppercase; letter-spacing:.04em; }
+  .so-field > input, .so-field > textarea, .so-field > select { width:100%; padding:6px 9px; border:1px solid var(--border); border-radius:6px; background:var(--bg); color:var(--text); font:inherit; font-size:13px; box-sizing:border-box; }
+  .so-field textarea { min-height:64px; resize:vertical; }
+  .so-req { color:var(--bad); }
+  .so-tissue-grid { display:flex; flex-wrap:wrap; gap:5px; margin-top:4px; }
+  .so-tissue-check { display:flex; align-items:center; gap:4px; font-size:12px; padding:3px 9px; border:1px solid var(--border); border-radius:99px; cursor:pointer; user-select:none; }
+  .so-tissue-check:hover { border-color:var(--accent); background:var(--accent-soft); }
+  .so-tissue-check input[type=checkbox] { width:auto; margin:0; padding:0; flex-shrink:0; accent-color:var(--accent); }
+  .so-actions { padding:10px 12px; border-top:1px solid var(--border); display:flex; gap:8px; flex-shrink:0; }
+</style>
+</head>
+<body>
+<header>
+  <h1 class="brand">ARI <span>Cross-reference review</span></h1>
+  <input id="filter" placeholder="Filter diseases or ids...">
+  <span id="counts" class="muted"></span>
+  <span class="legend" title="Cells already judged in the curated mappings are pre-highlighted">
+    <span><span class="sw pos"></span>prev. confirmed</span>
+    <span><span class="sw neg"></span>prev. flagged</span>
+  </span>
+  <span style="flex:1"></span>
+  <span id="auth"></span>
+  <a class="btn" id="prlink" target="_blank" rel="noopener" style="display:none"></a>
+  <button class="btn primary" id="publish" disabled>Publish review (PR)</button>
+  <a class="btn" href="../">← Back to app</a>
+</header>
+<div class="body">
+  <div id="subtype-overlay"></div>
+  <div id="table-wrap"><p class="muted" style="padding:16px">Loading cross-references…</p></div>
+  <div id="divider"></div>
+  <div id="side"><div id="panel"></div></div>
+</div>
+<script>
+  try { var t = localStorage.getItem('theme'); if (t) document.documentElement.dataset.theme = t;
+    else if (matchMedia('(prefers-color-scheme: dark)').matches) document.documentElement.dataset.theme = 'dark'; } catch(e){}
+</script>
+<script src="ref-edits.js"></script>
+</body>
+</html>

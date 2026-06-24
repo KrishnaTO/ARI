@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ARI Disease Metadata Manager v2</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/d3-cloud@1.2.7/build/d3.layout.cloud.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500&family=Source+Sans+3:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Source+Serif+4:wght@600;700&display=swap">
+<link rel="stylesheet" href="css/styles.css?v=11">
+</head>
+<body>
+<header>
+  <div class="brand">
+    <span class="brand-mark"><svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a9 9 0 00-9 9h18a9 9 0 00-9-9z"/><path d="M12 12v7a2.5 2.5 0 005 0"/></svg></span>
+    Autoimmune Registry <span>Metadata Manager</span>
+  </div>
+  <div class="search-wrap">
+    <input id="search" placeholder="Search diseases, synonyms, codes…" autocomplete="off">
+    <div id="search-results" class="dropdown hidden"></div>
+  </div>
+  <button id="new-disease-btn" class="hbtn primary" title="Create a new disease entry">&#xFF0B; New Disease</button>
+  <button id="symptom-search-btn" class="hbtn" title="Search diseases by symptom">Symptoms</button>
+  <button id="edit-toggle" class="hbtn" disabled>&#9998; Edit</button>
+  <button id="settings-btn" class="hbtn" title="Settings">&#9881;</button>
+  <button id="theme-toggle" class="hbtn" title="Toggle dark mode">&#9790;</button>
+</header>
+
+<div class="layout" id="layout">
+  <div class="left-col">
+    <div class="tabs">
+      <button class="tab active" data-view="alphabetical">Alphabetical</button>
+      <button class="tab" data-view="tissue">Tissue Target</button>
+    </div>
+    <div class="pane" id="tree-pane"><div class="loading">Loading...</div></div>
+  </div>
+
+  <div class="mid-col" id="mid-col">
+    <div id="detail-pane">
+      <div class="empty-state">
+        <p style="font-size:24px;margin:0 0 8px">&#128203;</p>
+        <p>Select a disease from the list to view details.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="right-col" id="right-col">
+    <div class="right-panel" id="right-panel-content"></div>
+  </div>
+</div>
+
+<footer id="app-footer">
+  <div id="onto-meta"></div>
+</footer>
+
+<!-- App modules — classic scripts, loaded in dependency order (shared global scope) -->
+<script src="js/core.js?v=8"></script>
+<script src="js/trees.js?v=7"></script>
+<script src="js/detail.js?v=8"></script>
+<script src="js/panels.js?v=7"></script>
+<script src="js/graph.js?v=7"></script>
+<script src="js/editor.js?v=8"></script>
+<script src="js/feedback.js?v=7"></script>
+<script src="js/github.js?v=8"></script>
+<script src="js/settings.js?v=7"></script>
+<script src="js/symptoms.js?v=7"></script>
+<script src="js/main.js?v=7"></script>
+</body>
+</html>
