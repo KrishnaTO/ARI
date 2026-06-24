@@ -27,7 +27,15 @@
   td.dz { font-weight:600; white-space:nowrap; position:sticky; left:0; background:var(--bg); }
   .cell.ok { background:rgba(5,150,105,.14); }
   .cell.bad { background:rgba(220,38,38,.14); }
+  /* Pre-highlight from already-curated mappings: a faint tint + colored edge bar,
+     visually lighter than the curator's own solid ok/bad fills. */
+  .cell.prepos { background:rgba(5,150,105,.05); box-shadow:inset 3px 0 0 var(--ok); }
+  .cell.preneg { background:rgba(220,38,38,.05); box-shadow:inset 3px 0 0 var(--bad); }
   .cell.edited { outline:2px solid var(--accent); }
+  .legend { display:flex; align-items:center; gap:10px; font-size:11px; color:var(--muted); }
+  .legend .sw { display:inline-block; width:11px; height:11px; border-radius:2px; vertical-align:-1px; margin-right:3px; }
+  .legend .sw.pos { box-shadow:inset 3px 0 0 var(--ok); background:rgba(5,150,105,.05); }
+  .legend .sw.neg { box-shadow:inset 3px 0 0 var(--bad); background:rgba(220,38,38,.05); }
   .xid { color:var(--accent); cursor:pointer; text-decoration:underline; margin-right:4px; white-space:nowrap; }
   .add { color:var(--muted); cursor:pointer; }
   #divider { width:6px; flex-shrink:0; cursor:col-resize; background:var(--border); display:none; touch-action:none; }
@@ -68,6 +76,10 @@
   <h1 class="brand">ARI <span>Cross-reference review</span></h1>
   <input id="filter" placeholder="Filter diseases or ids...">
   <span id="counts" class="muted"></span>
+  <span class="legend" title="Cells already judged in the curated mappings are pre-highlighted">
+    <span><span class="sw pos"></span>prev. confirmed</span>
+    <span><span class="sw neg"></span>prev. flagged</span>
+  </span>
   <span style="flex:1"></span>
   <span id="auth"></span>
   <a class="btn" id="prlink" target="_blank" rel="noopener" style="display:none"></a>

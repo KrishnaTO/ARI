@@ -2,8 +2,10 @@
 
 When a curator marks a disease's database cross-reference as correct in the
 reference-review page, those become exact-match mappings (ARI disease -> external
-id). This module renders/accumulates an SSSOM TSV and a simpler equivalencies TSV
-(similar in spirit to the biomappings repo's curated mappings).
+id). When they flag one as "needs change", that is recorded as a *negative*
+mapping (exactMatch with a "Not" predicate modifier, biomappings-style). This
+module renders/accumulates an SSSOM TSV and a simpler equivalencies TSV, and can
+read them back so the review page can pre-highlight already-judged cells.
 """
 import datetime
 
@@ -29,10 +31,17 @@ CURIE_MAP = {
     "orcid": "https://orcid.org/",
 }
 
-SSSOM_COLS = ["subject_id", "subject_label", "predicate_id", "object_id",
-              "mapping_justification", "author_id", "mapping_date"]
+SSSOM_COLS = ["subject_id", "subject_label", "predicate_id", "predicate_modifier",
+              "object_id", "mapping_justification", "author_id", "mapping_date"]
 EQUIV_COLS = ["source_prefix", "source_id", "source_name", "relation",
               "target_prefix", "target_id", "type", "source"]
+
+# prefix (as written in the object curie) -> review-page database key(s). One
+# prefix can back more than one column (SNOMED is used for both snomed + dxcode),
+# so the loader emits a judgment for every candidate key.
+PREFIX_TO_DBS: dict[str, list[str]] = {}
+for _db, _prefix in PREFIX.items():
+    PREFIX_TO_DBS.setdefault(_prefix, []).append(_db)
 
 
 def _object_curie(db, ident):
@@ -79,19 +88,81 @@ def _merge_tsv(existing, cols, new_rows, key_idx, header_block=""):
     return "\n".join(out) + "\n", added
 
 
-def build(confirmed, author, existing_sssom="", existing_equiv=""):
+def build(confirmed, author, existing_sssom="", existing_equiv="", flagged=None):
+    """Accumulate confirmed (positive) and flagged (negative) cross-references.
+
+    ``confirmed`` and ``flagged`` are lists of ``{ari_id, name, db, ids}``.
+    Negatives are written with a ``Not`` predicate modifier (SSSOM) and a
+    ``skos:exactMatch`` relation tagged ``negative`` in the ``type`` column
+    (equivalencies), matching the biomappings convention for incorrect mappings.
+    """
     today = datetime.date.today().isoformat()
     sssom_rows, equiv_rows = [], []
-    for c in confirmed:
-        subj = c.get("ari_id") or ""
-        name = c.get("name", "")
-        for ident in c.get("ids", []):
-            obj = _object_curie(c["db"], ident)
-            sssom_rows.append([subj, name, "skos:exactMatch", obj,
-                               "semapv:ManualMappingCuration", author, today])
-            equiv_rows.append(["ARI", (subj.split(":")[-1] if subj else ""), name,
-                               "skos:exactMatch", PREFIX.get(c["db"], c["db"]), str(ident),
-                               "manual", author])
-    sssom, n1 = _merge_tsv(existing_sssom, SSSOM_COLS, sssom_rows, (0, 2, 3), _sssom_header())
-    equiv, n2 = _merge_tsv(existing_equiv, EQUIV_COLS, equiv_rows, (0, 1, 4, 5))
+    for items, modifier, eq_type in ((confirmed or [], "", "manual"),
+                                     (flagged or [], "Not", "manual-negative")):
+        for c in items:
+            subj = c.get("ari_id") or ""
+            name = c.get("name", "")
+            for ident in c.get("ids", []):
+                obj = _object_curie(c["db"], ident)
+                sssom_rows.append([subj, name, "skos:exactMatch", modifier, obj,
+                                   "semapv:ManualMappingCuration", author, today])
+                equiv_rows.append(["ARI", (subj.split(":")[-1] if subj else ""), name,
+                                   "skos:exactMatch", PREFIX.get(c["db"], c["db"]), str(ident),
+                                   eq_type, author])
+    # Dedup on (subject, predicate, modifier, object) so a positive and a later
+    # negative for the same triple don't silently collapse into one another.
+    sssom, n1 = _merge_tsv(existing_sssom, SSSOM_COLS, sssom_rows, (0, 2, 3, 4), _sssom_header())
+    equiv, n2 = _merge_tsv(existing_equiv, EQUIV_COLS, equiv_rows, (0, 1, 4, 5, 6))
     return {"sssom": sssom, "equiv": equiv, "added": max(n1, n2)}
+
+
+def load_judgments(sssom_text="", equiv_text=""):
+    """Parse stored mapping files into per-cell judgments for pre-highlighting.
+
+    Returns a list of ``{ari_id, prefix, dbs, id, judgment}`` where ``judgment``
+    is ``"positive"`` or ``"negative"`` and ``dbs`` lists the review-page column
+    keys the prefix maps to. SSSOM is canonical; the equivalencies file is used
+    only as a fallback when no SSSOM is present.
+    """
+    out, seen = [], set()
+
+    def _add(ari_id, prefix, ident, judgment):
+        key = (ari_id, prefix, ident)
+        if not prefix or not ident or key in seen:
+            return
+        seen.add(key)
+        out.append({"ari_id": ari_id, "prefix": prefix, "id": ident,
+                    "dbs": PREFIX_TO_DBS.get(prefix, []), "judgment": judgment})
+
+    if sssom_text and sssom_text.strip():
+        cols = None
+        for line in sssom_text.splitlines():
+            if not line.strip() or line.startswith("#"):
+                continue
+            parts = line.split("\t")
+            if cols is None:
+                cols = parts
+                continue
+            row = dict(zip(cols, parts))
+            obj = row.get("object_id", "")
+            prefix, _, ident = obj.partition(":")
+            judgment = "negative" if (row.get("predicate_modifier", "").strip().lower() == "not") else "positive"
+            _add(row.get("subject_id", ""), prefix, ident, judgment)
+        return out
+
+    if equiv_text and equiv_text.strip():
+        cols = None
+        for line in equiv_text.splitlines():
+            if not line.strip() or line.startswith("#"):
+                continue
+            parts = line.split("\t")
+            if cols is None:
+                cols = parts
+                continue
+            row = dict(zip(cols, parts))
+            judgment = "negative" if "negative" in row.get("type", "").lower() else "positive"
+            ari = row.get("source_id", "")
+            _add(("ARI:" + ari) if ari and not ari.startswith("ARI:") else ari,
+                 row.get("target_prefix", ""), row.get("target_id", ""), judgment)
+    return out
