@@ -1,4 +1,17 @@
 source_prefix	source_id	source_name	relation	target_prefix	target_id	type	source
+ARI	0001008	Adult onset Still's disease	skos:exactMatch	umls	C0085253	manual	github:KrishnaTO
+ARI	0001008	Adult onset Still's disease	skos:exactMatch	DOID	14256	manual	github:KrishnaTO
+ARI	0001008	Adult onset Still's disease	skos:exactMatch	icd10cm	M06.1	manual	github:KrishnaTO
+ARI	0001008	Adult onset Still's disease	skos:exactMatch	mesh	D016706	manual	github:KrishnaTO
+ARI	0001008	Adult onset Still's disease	skos:exactMatch	ncit	C197832	manual	github:KrishnaTO
+ARI	0001007	Adult-onset immunodeficiency due to anti-IFN-gamma autoantibodies	skos:exactMatch	SNOMEDCT	784393004	manual	github:KrishnaTO
+ARI	0001007	Adult-onset immunodeficiency due to anti-IFN-gamma autoantibodies	skos:exactMatch	omop	37205096	manual	github:KrishnaTO
+ARI	0001009	Age related macular degeneration	skos:exactMatch	SNOMEDCT	267718000	manual	github:KrishnaTO
+ARI	0001009	Age related macular degeneration	skos:exactMatch	omop	374028	manual	github:KrishnaTO
+ARI	0001009	Age related macular degeneration	skos:exactMatch	DOID	10871	manual	github:KrishnaTO
+ARI	0001009	Age related macular degeneration	skos:exactMatch	umls	C0242383	manual	github:KrishnaTO
+ARI	0001009	Age related macular degeneration	skos:exactMatch	mesh	D008268	manual	github:KrishnaTO
+ARI	0001009	Age related macular degeneration	skos:exactMatch	ncit	C84391	manual	github:KrishnaTO
 ARI	0001001	Acquired epidermolysis bullosa	skos:exactMatch	SNOMEDCT	2772003	manual	github:KrishnaTO
 ARI	0001001	Acquired epidermolysis bullosa	skos:exactMatch	omop	4100661	manual	github:KrishnaTO
 ARI	0001002	Acquired hemophilia	skos:exactMatch	SNOMEDCT	785308008	manual	github:KrishnaTO

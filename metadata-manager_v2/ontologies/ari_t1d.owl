@@ -2445,6 +2445,10 @@ The cause of Kawasaki's Disease is uncertain but is believed to be autoimmune.  
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NR; Systemic</ARI_DefSource>
   <ARI_Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.1</ARI_Version>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C5191336</ARI_UMLS>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-21 21:44 | user | Edited: umls</ARI_ChangeLog>
+  <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0017617</ARI_MONDO>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-21 21:44 | user | Edited: mondo</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Tissue_ImmuneSystem">
@@ -2507,6 +2511,8 @@ The cause of Kawasaki's Disease is uncertain but is believed to be autoimmune.  
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-09</ARI_AuthorDate>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AOSD</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0019355</ARI_MONDO>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-21 21:42 | user | Edited: mondo</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Tissue_Systemic">
@@ -2624,7 +2630,6 @@ The cause of Kawasaki's Disease is uncertain but is believed to be autoimmune.  
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10871</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0242383</ARI_UMLS>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H35.30</ARI_ICD10>
-  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">362.50</ARI_ICD10>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D008268</ARI_MESH>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C84391</ARI_NCI>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">374028</ARI_OMOP>
@@ -2649,6 +2654,9 @@ However, based on the research available at this time, there is no evidence that
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-09</ARI_AuthorDate>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AMD</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0005150</ARI_MONDO>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-21 21:51 | user | Edited: mondo</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-21 21:53 | user | Edited: icd10</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001009_104">
