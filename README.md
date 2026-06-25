@@ -2,9 +2,13 @@
 
 Public editor: https://aurint.ca/ari-editor/
 
-This repository contains the curated data, ontology artifacts, mapping tables, and generated reports that support the ARI Disease Metadata Manager v2 shown on the public site.
+This repository contains the curated autoimmune disease data, ontology artifacts, and
+generated reports that support the ARI Disease Metadata Manager v2 shown on the public
+site.
 
-The editor is the primary interface for reviewing and maintaining autoimmune disease metadata. It exposes the curated registry as a searchable, editable catalog with disease detail panels and source-linked outputs.
+The editor is the main interface for reviewing and maintaining autoimmune disease
+metadata. It presents the curated registry as a searchable, editable catalog with disease
+detail panels and source-linked outputs.
 
 ## What the editor does
 
@@ -51,9 +55,10 @@ This repository supports the curated disease model behind the editor:
 
 ## Grounding workflow
 
-The grounding pipeline in `notebook/ari-grounding/` builds local DOID and SNOMED matches from repository data only.
+The grounding pipeline in `notebook/ari-grounding/` builds local DOID and SNOMED matches
+from repository data only.
 
-Scripts are run in this order:
+Scripts run in this order:
 
 1. `parse_doid_local.py`
 2. `ground_doid.py`
@@ -62,13 +67,15 @@ Scripts are run in this order:
 
 ## Source data
 
-Primary inputs are the master list in `data/1-master/` and the supporting files in `data/3-meta-database-sources/`, `ontologies/`, `mappings/`, and `sparql/results/`.
+Primary inputs are the master list in `data/1-master/` and the supporting files in
+`data/3-meta-database-sources/`, `ontologies/`, `mappings/`, and `sparql/results/`.
 
 ## Working rules
 
 - Prefer the curated master list as the source of truth.
 - Keep changes surgical and focused on one data path at a time.
-- Use local ontology and report artifacts rather than online sources when generating matching outputs.
+- Use local ontology and report artifacts rather than online sources when generating
+  matching outputs.
 - Do not read `.env` files unless explicitly authorized.
 
 ## Related documentation
