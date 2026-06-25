@@ -1,0 +1,46 @@
+# curie_map:
+#   ARI: https://diseases.autoimmuneregistry.org/disease/ARI_
+#   DOID: http://purl.obolibrary.org/obo/DOID_
+#   MONDO: http://purl.obolibrary.org/obo/MONDO_
+#   SNOMEDCT: http://snomed.info/id/
+#   ncit: http://purl.obolibrary.org/obo/NCIT_
+#   mesh: http://id.nlm.nih.gov/mesh/
+#   umls: https://uts.nlm.nih.gov/uts/umls/concept/
+#   icd10cm: http://purl.bioontology.org/ontology/ICD10CM/
+#   omop: https://athena.ohdsi.org/search-terms/terms/
+#   skos: http://www.w3.org/2004/02/skos/core#
+#   semapv: https://w3id.org/semapv/vocab/
+#   orcid: https://orcid.org/
+# mapping_set_id: https://diseases.autoimmuneregistry.org/mappings/ari.sssom.tsv
+# mapping_provider: https://www.autoimmuneregistry.org
+# mapping_set_title: ARI disease cross-reference mappings
+# license: https://creativecommons.org/publicdomain/zero/1.0/
+subject_id	subject_label	predicate_id	predicate_modifier	object_id	mapping_justification	author_id	mapping_date
+ARI:0001006	Addison's disease	skos:exactMatch		SNOMEDCT:363732003	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-25
+ARI:0001009	Age related macular degeneration	skos:exactMatch		icd10cm:362.50	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-25
+ARI:0001009	Age related macular degeneration	skos:exactMatch		icd10cm:H35.30	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-25
+ARI:0001010	Alopecia areata	skos:exactMatch		umls:C0002171	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-25
+ARI:0001011	Angiofollicular lymph node hyperplasia	skos:exactMatch		umls:C0017531	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-25
+ARI:0001012	Ankylosing spondylitis	skos:exactMatch		umls:C0038013	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-25
+ARI:0001010	Alopecia areata	skos:exactMatch		DOID:986	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-25
+ARI:0001011	Angiofollicular lymph node hyperplasia	skos:exactMatch		DOID:0111157	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-25
+ARI:0001012	Ankylosing spondylitis	skos:exactMatch		DOID:7147	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-25
+ARI:0001011	Angiofollicular lymph node hyperplasia	skos:exactMatch		SNOMEDCT:207036003	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-25
+ARI:0001012	Ankylosing spondylitis	skos:exactMatch		SNOMEDCT:9631008	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-25
+ARI:0001010	Alopecia areata	skos:exactMatch		SNOMEDCT:68225006	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-25
+ARI:0001010	Alopecia areata	skos:exactMatch		icd10cm:704.01	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-25
+ARI:0001010	Alopecia areata	skos:exactMatch		icd10cm:L63	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-25
+ARI:0001011	Angiofollicular lymph node hyperplasia	skos:exactMatch		icd10cm:D47.Z2	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-25
+ARI:0001012	Ankylosing spondylitis	skos:exactMatch		icd10cm:M45	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-25
+ARI:0001012	Ankylosing spondylitis	skos:exactMatch		icd10cm:720.0	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-25
+ARI:0001005	Acute lichenoid pityriasis	skos:exactMatch		ncit:null	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-25
+ARI:0001010	Alopecia areata	skos:exactMatch		mesh:D000506	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-25
+ARI:0001011	Angiofollicular lymph node hyperplasia	skos:exactMatch		mesh:D005871	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-25
+ARI:0001012	Ankylosing spondylitis	skos:exactMatch		mesh:D013167	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-25
+ARI:0001011	Angiofollicular lymph node hyperplasia	skos:exactMatch		ncit:C3056	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-25
+ARI:0001012	Ankylosing spondylitis	skos:exactMatch		ncit:C84564	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-25
+ARI:0001006	Addison's disease	skos:exactMatch	Not	SNOMEDCT:386584007	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-25
+ARI:0001010	Alopecia areata	skos:exactMatch	Not	SNOMEDCT:19754005	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-25
+ARI:0001010	Alopecia areata	skos:exactMatch	Not	SNOMEDCT:86166000	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-25
+ARI:0001011	Angiofollicular lymph node hyperplasia	skos:exactMatch	Not	mesh:C536362	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-25
+ARI:0001010	Alopecia areata	skos:exactMatch	Not	ncit:null	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-25
