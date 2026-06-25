@@ -27,7 +27,31 @@
   ];
   const DBMAP = Object.fromEntries(DBS.map(d => [d.key, d]));
 
+  // database key -> object-curie prefix (mirrors app/sssom_service.py PREFIX), so
+  // stored mappings can be matched back to the cell they came from.
+  const PREFIX = {
+    snomed: 'SNOMEDCT', omop: 'omop', doid: 'DOID', umls: 'umls',
+    mondo: 'MONDO', icd10: 'icd10cm', mesh: 'mesh', nci: 'ncit',
+  };
+
   let ROWS = [], me = null, reviewed = {}, edited = {}, active = null, sessionBranch = null, _tissues = null;
+  // Pre-existing curated judgments keyed `${ari_id}|${prefix}|${id}` -> 'positive'|'negative'.
+  let mappings = {};
+
+  // Has this (disease, db) cell been judged positive/negative in an earlier
+  // session (per the stored mappings)? Returns 'pos' | 'neg' | null. A positive
+  // on any id in the cell wins over a negative.
+  function preJudgment(r, dbkey) {
+    const ari = r.ari_id, prefix = PREFIX[dbkey];
+    if (!ari || !prefix) return null;
+    let neg = false;
+    for (const id of (r[dbkey] || [])) {
+      const j = mappings[ari + '|' + prefix + '|' + id];
+      if (j === 'positive') return 'pos';
+      if (j === 'negative') neg = true;
+    }
+    return neg ? 'neg' : null;
+  }
   const $ = s => document.querySelector(s);
   const cellEl = (iri, db) => document.querySelector(`[data-cell="${CSS.escape(iri + '|' + db)}"]`);
 
@@ -41,10 +65,12 @@
     return '[' + (lab || 'cross-references') + '] - mappings review';
   }
 
-  function confirmedList() {
+  // Collect this session's reviewed cells of a given verdict ('ok' positives /
+  // 'bad' negatives) into the {ari_id, iri, name, db, ids} shape publish wants.
+  function reviewedCells(verdict) {
     const out = [];
     for (const [k, v] of Object.entries(reviewed)) {
-      if (v !== 'ok') continue;
+      if (v !== verdict) continue;
       const [iri, db] = k.split('|');
       const r = ROWS.find(x => x.iri === iri);
       const ids = (r && r[db]) || [];
@@ -52,22 +78,29 @@
     }
     return out;
   }
+  const confirmedList = () => reviewedCells('ok');
+  const flaggedList = () => reviewedCells('bad');
 
   function counts() {
     const ok = Object.values(reviewed).filter(v => v === 'ok').length;
     const bad = Object.values(reviewed).filter(v => v === 'bad').length;
     const ed = Object.keys(edited).length;
-    const conf = confirmedList().length;
+    const conf = confirmedList().length, flag = flaggedList().length;
     $('#counts').textContent = `confirmed ${ok} · flagged ${bad} · edited ${ed}`;
-    $('#publish').disabled = !(me && me.authenticated && (ed > 0 || conf > 0));
+    $('#publish').disabled = !(me && me.authenticated && (ed > 0 || conf > 0 || flag > 0));
   }
 
   function setCellClass(iri, db) {
     const el = cellEl(iri, db); if (!el) return;
     const key = iri + '|' + db;
+    const r = ROWS.find(x => x.iri === iri);
+    const pre = r ? preJudgment(r, db) : null;
     el.classList.toggle('ok', reviewed[key] === 'ok');
     el.classList.toggle('bad', reviewed[key] === 'bad');
     el.classList.toggle('edited', !!edited[key]);
+    // Pre-highlight only shows through when the curator hasn't judged it yet.
+    el.classList.toggle('prepos', !reviewed[key] && pre === 'pos');
+    el.classList.toggle('preneg', !reviewed[key] && pre === 'neg');
   }
 
   function renderTable(filter) {
@@ -80,11 +113,15 @@
       for (const db of DBS) {
         const ids = r[db.key] || [];
         const key = r.iri + '|' + db.key;
-        const cls = (reviewed[key] === 'ok' ? ' ok' : reviewed[key] === 'bad' ? ' bad' : '') + (edited[key] ? ' edited' : '');
+        const pre = preJudgment(r, db.key);
+        const cls = (reviewed[key] === 'ok' ? ' ok' : reviewed[key] === 'bad' ? ' bad'
+                    : pre === 'pos' ? ' prepos' : pre === 'neg' ? ' preneg' : '')
+                    + (edited[key] ? ' edited' : '');
         const chips = ids.length
           ? ids.map(id => `<span class="xid" data-iri="${esc(r.iri)}" data-db="${db.key}" data-id="${esc(id)}">${esc(id)}</span>`).join(' ')
           : `<span class="add" data-iri="${esc(r.iri)}" data-db="${db.key}">+ add</span>`;
-        h += `<td class="cell${cls}" data-cell="${esc(key)}">${chips}</td>`;
+        const title = !reviewed[key] && pre ? ` title="Previously ${pre === 'pos' ? 'confirmed' : 'flagged'} in the curated mappings"` : '';
+        h += `<td class="cell${cls}" data-cell="${esc(key)}"${title}>${chips}</td>`;
       }
       h += '</tr>';
     }
@@ -269,7 +306,8 @@
     $('#publish').disabled = true; $('#publish').textContent = 'Publishing…';
     try {
       const r = await api('publish', { method: 'POST', body: {
-        disease: 'mappings review', message, comment, confirmed: confirmedList(), author,
+        disease: 'mappings review', message, comment,
+        confirmed: confirmedList(), flagged: flaggedList(), author,
         branch: sessionBranch, labels: ['edit term', 'sssom'] } });
       sessionBranch = r.branch;                       // subsequent publishes append to the same PR
       const pl = $('#prlink');
@@ -304,6 +342,11 @@
       ? (me.github_enabled ? `<a class="btn" href="${new URL('../auth/github?next=' + encodeURIComponent(location.pathname + location.search), location.href).href}">Sign in with GitHub</a>` : '<span class="muted">GitHub off — review only</span>')
       : `<span class="muted">@${esc(me.login)}</span>`;
     try { ROWS = await api('xrefs'); } catch (e) { $('#table-wrap').innerHTML = '<p class="muted" style="padding:16px">Failed to load: ' + esc(e.message) + '</p>'; return; }
+    // Pre-existing curated judgments pre-highlight cells; failure is non-fatal.
+    try {
+      mappings = {};
+      for (const m of await api('mappings')) mappings[m.ari_id + '|' + m.prefix + '|' + m.id] = m.judgment;
+    } catch (e) { mappings = {}; }
     renderTable(''); counts(); initDivider();
     $('#filter').addEventListener('input', e => renderTable(e.target.value));
     $('#publish').addEventListener('click', publish);
