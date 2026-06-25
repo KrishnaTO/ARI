@@ -1,0 +1,29 @@
+source_prefix	source_id	source_name	relation	target_prefix	target_id	type	source
+ARI	0001006	Addison's disease	skos:exactMatch	SNOMEDCT	363732003	manual	github:KrishnaTO
+ARI	0001009	Age related macular degeneration	skos:exactMatch	icd10cm	362.50	manual	github:KrishnaTO
+ARI	0001009	Age related macular degeneration	skos:exactMatch	icd10cm	H35.30	manual	github:KrishnaTO
+ARI	0001010	Alopecia areata	skos:exactMatch	umls	C0002171	manual	github:KrishnaTO
+ARI	0001011	Angiofollicular lymph node hyperplasia	skos:exactMatch	umls	C0017531	manual	github:KrishnaTO
+ARI	0001012	Ankylosing spondylitis	skos:exactMatch	umls	C0038013	manual	github:KrishnaTO
+ARI	0001010	Alopecia areata	skos:exactMatch	DOID	986	manual	github:KrishnaTO
+ARI	0001011	Angiofollicular lymph node hyperplasia	skos:exactMatch	DOID	0111157	manual	github:KrishnaTO
+ARI	0001012	Ankylosing spondylitis	skos:exactMatch	DOID	7147	manual	github:KrishnaTO
+ARI	0001011	Angiofollicular lymph node hyperplasia	skos:exactMatch	SNOMEDCT	207036003	manual	github:KrishnaTO
+ARI	0001012	Ankylosing spondylitis	skos:exactMatch	SNOMEDCT	9631008	manual	github:KrishnaTO
+ARI	0001010	Alopecia areata	skos:exactMatch	SNOMEDCT	68225006	manual	github:KrishnaTO
+ARI	0001010	Alopecia areata	skos:exactMatch	icd10cm	704.01	manual	github:KrishnaTO
+ARI	0001010	Alopecia areata	skos:exactMatch	icd10cm	L63	manual	github:KrishnaTO
+ARI	0001011	Angiofollicular lymph node hyperplasia	skos:exactMatch	icd10cm	D47.Z2	manual	github:KrishnaTO
+ARI	0001012	Ankylosing spondylitis	skos:exactMatch	icd10cm	M45	manual	github:KrishnaTO
+ARI	0001012	Ankylosing spondylitis	skos:exactMatch	icd10cm	720.0	manual	github:KrishnaTO
+ARI	0001005	Acute lichenoid pityriasis	skos:exactMatch	ncit	null	manual	github:KrishnaTO
+ARI	0001010	Alopecia areata	skos:exactMatch	mesh	D000506	manual	github:KrishnaTO
+ARI	0001011	Angiofollicular lymph node hyperplasia	skos:exactMatch	mesh	D005871	manual	github:KrishnaTO
+ARI	0001012	Ankylosing spondylitis	skos:exactMatch	mesh	D013167	manual	github:KrishnaTO
+ARI	0001011	Angiofollicular lymph node hyperplasia	skos:exactMatch	ncit	C3056	manual	github:KrishnaTO
+ARI	0001012	Ankylosing spondylitis	skos:exactMatch	ncit	C84564	manual	github:KrishnaTO
+ARI	0001006	Addison's disease	skos:exactMatch	SNOMEDCT	386584007	manual-negative	github:KrishnaTO
+ARI	0001010	Alopecia areata	skos:exactMatch	SNOMEDCT	19754005	manual-negative	github:KrishnaTO
+ARI	0001010	Alopecia areata	skos:exactMatch	SNOMEDCT	86166000	manual-negative	github:KrishnaTO
+ARI	0001011	Angiofollicular lymph node hyperplasia	skos:exactMatch	mesh	C536362	manual-negative	github:KrishnaTO
+ARI	0001010	Alopecia areata	skos:exactMatch	ncit	null	manual-negative	github:KrishnaTO
