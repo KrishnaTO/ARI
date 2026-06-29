@@ -72,3 +72,5 @@ ARI	1010	Alopecia areata	skos:exactMatch	SNOMEDCT	19754005	manual-negative	githu
 ARI	1010	Alopecia areata	skos:exactMatch	SNOMEDCT	86166000	manual-negative	github:KrishnaTO
 ARI	1011	Angiofollicular lymph node hyperplasia	skos:exactMatch	mesh	C536362	manual-negative	github:KrishnaTO
 ARI	1010	Alopecia areata	skos:exactMatch	ncit	null	manual-negative	github:KrishnaTO
+ARI	0001006	Addison's disease	skos:exactMatch	omop	443394	manual	github:AnjaliRH
+ARI	0001006	Addison's disease	skos:exactMatch	MONDO	0100480	manual	github:AnjaliRH
