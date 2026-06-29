@@ -11,6 +11,8 @@
 #   skos: http://www.w3.org/2004/02/skos/core#
 #   semapv: https://w3id.org/semapv/vocab/
 #   orcid: https://orcid.org/
+#   ORPHA: https://www.orpha.net/en/disease/detail/
+#   OMIM: https://omim.org/entry/
 # mapping_set_id: https://diseases.autoimmuneregistry.org/mappings/ari.sssom.tsv
 # mapping_provider: https://www.autoimmuneregistry.org
 # mapping_set_title: ARI disease cross-reference mappings
@@ -89,3 +91,5 @@ ARI:0001010	Alopecia areata	skos:exactMatch	Not	SNOMEDCT:19754005	semapv:ManualM
 ARI:0001010	Alopecia areata	skos:exactMatch	Not	SNOMEDCT:86166000	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-25
 ARI:0001011	Angiofollicular lymph node hyperplasia	skos:exactMatch	Not	mesh:C536362	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-25
 ARI:0001010	Alopecia areata	skos:exactMatch	Not	ncit:null	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-25
+ARI:0001006	Addison's disease	skos:exactMatch		omop:443394	semapv:ManualMappingCuration	github:AnjaliRH	2026-06-29
+ARI:0001006	Addison's disease	skos:exactMatch		MONDO:0100480	semapv:ManualMappingCuration	github:AnjaliRH	2026-06-29
