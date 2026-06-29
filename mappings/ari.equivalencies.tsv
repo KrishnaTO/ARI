@@ -74,3 +74,7 @@ ARI	1011	Angiofollicular lymph node hyperplasia	skos:exactMatch	mesh	C536362	man
 ARI	1010	Alopecia areata	skos:exactMatch	ncit	null	manual-negative	github:KrishnaTO
 ARI	0001006	Addison's disease	skos:exactMatch	omop	443394	manual	github:AnjaliRH
 ARI	0001006	Addison's disease	skos:exactMatch	MONDO	0100480	manual	github:AnjaliRH
+ARI	0001008	Adult onset Still's disease	skos:exactMatch	MONDO	0019355	manual	github:AnjaliRH
+ARI	0001005	Acute lichenoid pityriasis	skos:exactMatch	MONDO	0024250	manual	github:AnjaliRH
+ARI	0001005	Acute lichenoid pityriasis	skos:exactMatch	ncit	C37871	manual	github:AnjaliRH
+ARI	0001005	Acute lichenoid pityriasis	skos:exactMatch	icd10cm	L41.0	manual	github:AnjaliRH
