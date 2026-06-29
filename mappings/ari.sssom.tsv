@@ -93,3 +93,7 @@ ARI:0001011	Angiofollicular lymph node hyperplasia	skos:exactMatch	Not	mesh:C536
 ARI:0001010	Alopecia areata	skos:exactMatch	Not	ncit:null	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-25
 ARI:0001006	Addison's disease	skos:exactMatch		omop:443394	semapv:ManualMappingCuration	github:AnjaliRH	2026-06-29
 ARI:0001006	Addison's disease	skos:exactMatch		MONDO:0100480	semapv:ManualMappingCuration	github:AnjaliRH	2026-06-29
+ARI:0001008	Adult onset Still's disease	skos:exactMatch		MONDO:0019355	semapv:ManualMappingCuration	github:AnjaliRH	2026-06-29
+ARI:0001005	Acute lichenoid pityriasis	skos:exactMatch		MONDO:0024250	semapv:ManualMappingCuration	github:AnjaliRH	2026-06-29
+ARI:0001005	Acute lichenoid pityriasis	skos:exactMatch		ncit:C37871	semapv:ManualMappingCuration	github:AnjaliRH	2026-06-29
+ARI:0001005	Acute lichenoid pityriasis	skos:exactMatch		icd10cm:L41.0	semapv:ManualMappingCuration	github:AnjaliRH	2026-06-29
