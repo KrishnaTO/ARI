@@ -51,3 +51,7 @@ Matching method (reports 5-7): Gilda lexical grounding (same method as `notebook
 
 Sources: master list only, plus local `data/2-databases/doid.owl` and `data/2-databases/snomed/`. No online sources used.
 
+## External resources (2026-06-28)
+
+- [matentzn/awesome-resources-for-rare-disease](https://github.com/matentzn/awesome-resources-for-rare-disease) — curated list of data resources, ontologies, and tools for rare disease research and data integration. Not used as a data source in any report; listed here for reference only. Source: GitHub, accessed 2026-06-28.
+
