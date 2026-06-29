@@ -11,6 +11,8 @@
 #   skos: http://www.w3.org/2004/02/skos/core#
 #   semapv: https://w3id.org/semapv/vocab/
 #   orcid: https://orcid.org/
+#   ORPHA: https://www.orpha.net/en/disease/detail/
+#   OMIM: https://omim.org/entry/
 # mapping_set_id: https://diseases.autoimmuneregistry.org/mappings/ari.sssom.tsv
 # mapping_provider: https://www.autoimmuneregistry.org
 # mapping_set_title: ARI disease cross-reference mappings
