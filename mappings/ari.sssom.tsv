@@ -100,3 +100,7 @@ ARI:0001005	Acute lichenoid pityriasis	skos:exactMatch		icd10cm:L41.0	semapv:Man
 ARI:0001010	Alopecia areata	skos:exactMatch		omop:141933	semapv:ManualMappingCuration	github:AnjaliRH	2026-06-29
 ARI:0001012	Ankylosing spondylitis	skos:exactMatch		omop:437082	semapv:ManualMappingCuration	github:AnjaliRH	2026-06-29
 ARI:0001012	Ankylosing spondylitis	skos:exactMatch		MONDO:0005306	semapv:ManualMappingCuration	github:AnjaliRH	2026-06-29
+ARI:0001011	Angiofollicular lymph node hyperplasia	skos:exactMatch		omop:4118225	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-29
+ARI:0001010	Alopecia areata	skos:exactMatch	Not	omop:4056343	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-29
+ARI:0001010	Alopecia areata	skos:exactMatch	Not	omop:4312756	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-29
+ARI:0001003	Acute disseminated encephalomyelitis	skos:exactMatch	Not	omop:4249574	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-29
