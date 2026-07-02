@@ -104,3 +104,57 @@ ARI:0001011	Angiofollicular lymph node hyperplasia	skos:exactMatch		omop:4118225
 ARI:0001010	Alopecia areata	skos:exactMatch	Not	omop:4056343	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-29
 ARI:0001010	Alopecia areata	skos:exactMatch	Not	omop:4312756	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-29
 ARI:0001003	Acute disseminated encephalomyelitis	skos:exactMatch	Not	omop:4249574	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-29
+ARI:0001076	Cutaneous lupus erythematosus	skos:exactMatch		SNOMEDCT:7119001	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-29
+ARI:0001076	Cutaneous lupus erythematosus	skos:exactMatch		omop:4324123	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-29
+ARI:0001094	Female infertility due to antisperm antibodies	skos:exactMatch		SNOMEDCT:414238007	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-29
+ARI:0001094	Female infertility due to antisperm antibodies	skos:exactMatch		omop:4188008	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-29
+ARI:0001096	Graves' disease	skos:exactMatch		SNOMEDCT:353295004	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-29
+ARI:0001096	Graves' disease	skos:exactMatch		omop:4232076	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-29
+ARI:0001097	Guillain-Barré syndrome	skos:exactMatch		SNOMEDCT:40956001	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-29
+ARI:0001097	Guillain-Barré syndrome	skos:exactMatch		omop:4164770	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-29
+ARI:0001107	Immune thrombocytopenia	skos:exactMatch		SNOMEDCT:2897005	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-29
+ARI:0001107	Immune thrombocytopenia	skos:exactMatch		omop:4103532	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-29
+ARI:0001109	Immunoglobulin G4 related disease	skos:exactMatch		SNOMEDCT:10743271000119103	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-29
+ARI:0001109	Immunoglobulin G4 related disease	skos:exactMatch		omop:36717255	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-29
+ARI:0001115	Intermediate uveitis	skos:exactMatch		SNOMEDCT:314429009	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-29
+ARI:0001115	Intermediate uveitis	skos:exactMatch		omop:4197155	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-29
+ARI:0001076	Cutaneous lupus erythematosus	skos:exactMatch	Not	SNOMEDCT:239891002	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-29
+ARI:0001076	Cutaneous lupus erythematosus	skos:exactMatch	Not	SNOMEDCT:200941006	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-29
+ARI:0001076	Cutaneous lupus erythematosus	skos:exactMatch	Not	SNOMEDCT:200938002	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-29
+ARI:0001076	Cutaneous lupus erythematosus	skos:exactMatch	Not	SNOMEDCT:403495008	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-29
+ARI:0001076	Cutaneous lupus erythematosus	skos:exactMatch	Not	SNOMEDCT:238927000	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-29
+ARI:0001076	Cutaneous lupus erythematosus	skos:exactMatch	Not	omop:4081248	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-29
+ARI:0001076	Cutaneous lupus erythematosus	skos:exactMatch	Not	omop:4066824	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-29
+ARI:0001076	Cutaneous lupus erythematosus	skos:exactMatch	Not	omop:4295301	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-29
+ARI:0001076	Cutaneous lupus erythematosus	skos:exactMatch	Not	omop:4066481	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-29
+ARI:0001076	Cutaneous lupus erythematosus	skos:exactMatch	Not	omop:4343923	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-29
+ARI:0001094	Female infertility due to antisperm antibodies	skos:exactMatch	Not	SNOMEDCT:236816007	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-29
+ARI:0001094	Female infertility due to antisperm antibodies	skos:exactMatch	Not	omop:4127869	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-29
+ARI:0001096	Graves' disease	skos:exactMatch	Not	SNOMEDCT:237499004	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-29
+ARI:0001096	Graves' disease	skos:exactMatch	Not	SNOMEDCT:90739004	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-29
+ARI:0001096	Graves' disease	skos:exactMatch	Not	omop:138387	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-29
+ARI:0001096	Graves' disease	skos:exactMatch	Not	omop:4034811	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-29
+ARI:0001097	Guillain-Barré syndrome	skos:exactMatch	Not	SNOMEDCT:715770009	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-29
+ARI:0001097	Guillain-Barré syndrome	skos:exactMatch	Not	SNOMEDCT:716723000	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-29
+ARI:0001097	Guillain-Barré syndrome	skos:exactMatch	Not	SNOMEDCT:1767005	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-29
+ARI:0001097	Guillain-Barré syndrome	skos:exactMatch	Not	omop:37396086	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-29
+ARI:0001097	Guillain-Barré syndrome	skos:exactMatch	Not	omop:4070552	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-29
+ARI:0001097	Guillain-Barré syndrome	skos:exactMatch	Not	omop:37396786	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-29
+ARI:0001107	Immune thrombocytopenia	skos:exactMatch	Not	SNOMEDCT:438476003	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-29
+ARI:0001107	Immune thrombocytopenia	skos:exactMatch	Not	SNOMEDCT:13172003	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-29
+ARI:0001107	Immune thrombocytopenia	skos:exactMatch	Not	SNOMEDCT:32273002	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-29
+ARI:0001107	Immune thrombocytopenia	skos:exactMatch	Not	SNOMEDCT:128091003	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-29
+ARI:0001107	Immune thrombocytopenia	skos:exactMatch	Not	SNOMEDCT:128092005	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-29
+ARI:0001107	Immune thrombocytopenia	skos:exactMatch	Not	omop:4028065	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-29
+ARI:0001107	Immune thrombocytopenia	skos:exactMatch	Not	omop:4137430	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-29
+ARI:0001107	Immune thrombocytopenia	skos:exactMatch	Not	omop:318397	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-29
+ARI:0001107	Immune thrombocytopenia	skos:exactMatch	Not	omop:4230266	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-29
+ARI:0001107	Immune thrombocytopenia	skos:exactMatch	Not	omop:4133983	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-29
+ARI:0001109	Immunoglobulin G4 related disease	skos:exactMatch	Not	SNOMEDCT:722870008	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-29
+ARI:0001109	Immunoglobulin G4 related disease	skos:exactMatch	Not	SNOMEDCT:234549008	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-29
+ARI:0001109	Immunoglobulin G4 related disease	skos:exactMatch	Not	omop:4121282	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-29
+ARI:0001109	Immunoglobulin G4 related disease	skos:exactMatch	Not	omop:36716713	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-29
+ARI:0001115	Intermediate uveitis	skos:exactMatch	Not	SNOMEDCT:45688009	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-29
+ARI:0001115	Intermediate uveitis	skos:exactMatch	Not	SNOMEDCT:1231232007	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-29
+ARI:0001115	Intermediate uveitis	skos:exactMatch	Not	omop:37164507	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-29
+ARI:0001115	Intermediate uveitis	skos:exactMatch	Not	omop:434026	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-29
