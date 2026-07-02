@@ -2824,15 +2824,6 @@ However, based on the research available at this time, there is no evidence that
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C3056</ARI_NCI>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4118225</ARI_OMOP>
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">207036003</ARI_DXCODE>
-  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Castleman disease (CD) is a group of rare disorders that involve enlarged lymph nodes due to an unexplained activation of the immune system that leads to a hyper-inflammatory state, causing damage to multiple organs. Based on the number of regions in the body that have enlarged lymph nodes, CD can be classified as unicentric or multicentric. This difference is important because unicentric CD and multicentric CD require different treatments. There are four main types of CD:
-
-Unicentric Castleman disease (UCD)
-
-POEMS-associated multicentric Castleman disease (POEMS-MCD)
-
-HHV-8-associated multicentric Castleman disease (HHV-8+MCD)
-
-HHV-8-negative/idiopathic multicentric Castleman disease (iMCD)</rdfs:comment>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Castleman's disease</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Castleman Disease</ARI_Synonym>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mukherjee 2022; https://pubmed.ncbi.nlm.nih.gov/34535010/</ARI_DefSource>
@@ -2846,8 +2837,6 @@ HHV-8-negative/idiopathic multicentric Castleman disease (iMCD)</rdfs:comment>
   <ARI_RefLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Castleman Disease Support Group | https://www.facebook.com/groups/403839776489587</ARI_RefLink>
   <ARI_RefLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Link to Healthline | https://www.healthline.com/health/multicentric-castleman-disease</ARI_RefLink>
   <ARI_RefLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Link to Cleveland Clinic | https://my.clevelandclinic.org/health/diseases/17920-castleman-disease</ARI_RefLink>
-  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Angiofollicular Lymph Node Hyperplasia, Unicentric - Affects a single lymph node.</ARI_ClinicalSubtype>
-  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Angiofollicular Lymph Node Hyperplasia, Multicentric - Involves multiple lymph nodes and systemic symptoms.</ARI_ClinicalSubtype>
   <ARI_Author rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Erica Matute-Arcos | https://www.linkedin.com/in/erica-matute/</ARI_Author>
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-11</ARI_AuthorDate>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ALH</ARI_SurveyCode>
@@ -2855,6 +2844,15 @@ HHV-8-negative/idiopathic multicentric Castleman disease (iMCD)</rdfs:comment>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-25 03:38 | user | Edited: umls</ARI_ChangeLog>
   <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0015564</ARI_MONDO>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-25 03:40 | user | Edited: mondo</ARI_ChangeLog>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Castleman disease (CD) is a group of rare disorders that involve enlarged lymph nodes due to an unexplained activation of the immune system that leads to a hyper-inflammatory state, causing damage to multiple organs. Based on the number of regions in the body that have enlarged lymph nodes, CD can be classified as unicentric or multicentric. This difference is important because unicentric CD and multicentric CD require different treatments.</rdfs:comment>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HHV-8-negative/idiopathic multicentric Castleman disease (iMCD)</ARI_ClinicalSubtype>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HHV-8-associated multicentric Castleman disease (HHV-8+MCD)</ARI_ClinicalSubtype>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">POEMS-associated multicentric Castleman disease (POEMS-MCD)</ARI_ClinicalSubtype>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-02 16:34 | Krishna Udaiwal | Edited: age_range, clinical_subtypes, def_source, definition, demographic_bias, disease_category, doid, evidence_quality, icd10, incidence_rate, mesh, mondo, name, nci, obsolete, omop, prevalence_desc, prevalence_per_100k, prevalence_value, snomed, synonyms, umls</ARI_ChangeLog>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unicentric Angiofollicular Lymph Node Hyperplasia - Affects a single lymph node.</ARI_ClinicalSubtype>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Multicentric Angiofollicular Lymph Node Hyperplasia - Involves multiple lymph nodes and systemic symptoms.</ARI_ClinicalSubtype>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-02 16:35 | Krishna Udaiwal | Edited: age_range, clinical_subtypes, def_source, definition, demographic_bias, disease_category, doid, evidence_quality, icd10, incidence_rate, mesh, mondo, name, nci, obsolete, omop, prevalence_desc, prevalence_per_100k, prevalence_value, snomed, synonyms, umls</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-02 16:36 | Krishna Udaiwal | Edited: age_range, clinical_subtypes, def_source, definition, demographic_bias, disease_category, doid, evidence_quality, icd10, incidence_rate, mesh, mondo, name, nci, obsolete, omop, prevalence_desc, prevalence_per_100k, prevalence_value, snomed, synonyms, umls</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001011_117">
@@ -3123,11 +3121,17 @@ HHV-8-negative/idiopathic multicentric Castleman disease (iMCD)</rdfs:comment>
   <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001013</ARI_ID>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">763803004</ARI_SNOMED>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">35622356</ARI_OMOP>
-  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anti-CASPR2 autoimmune encephalitis / Morvan syndrome</rdfs:comment>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morvan syndrome</ARI_Synonym>
-  <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1; Nervous System</ARI_DefSource>
   <ARI_Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.1</ARI_Version>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0017179</ARI_MONDO>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-02 15:25 | user | Edited: mondo</ARI_ChangeLog>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anti-CASPR2 autoimmune encephalitis</rdfs:comment>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peripheral nerve hyperexcitability</ARI_ClinicalSubtype>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morvan syndrome</ARI_ClinicalSubtype>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">limbic encephalitis</ARI_ClinicalSubtype>
+  <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</ARI_DefSource>
+  <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nervous System</ARI_DefSource>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-02 15:40 | Krishna Udaiwal | Edited: age_range, clinical_subtypes, def_source, definition, demographic_bias, disease_category, doid, evidence_quality, icd10, incidence_rate, mesh, mondo, name, nci, obsolete, omop, prevalence_desc, prevalence_per_100k, prevalence_value, snomed, synonyms, umls</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001014">
@@ -22612,6 +22616,16 @@ Some cases of this disease are caused by medications and are not autoimmune.</rd
   <rdf:type rdf:resource="#Symptom"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yellow eyes</rdfs:label>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#ARI_new_5199ce2a">
+  <rdf:type rdf:resource="#AutoimmuneDisease"/>
+  <targetsTissue rdf:resource="#Tissue_NervousSystem"/>
+  <hasParentDisease rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001013"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morvan syndrome</rdfs:label>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morvan syndrome is a rare, life-threatening autoimmune disorder associated with anti- autoantibodies targeting CASPR2 (CASPR2-IgG). Morvan syndrome is characterized by the combination of severe peripheral nerve hyperexcitability with agrypnia excitata, a sleep disorder characterized by insomnia, behavioral disturbances, and visual hallucinations. There is a clinical overlap with the other autoimmune disorders associated with CASPR2-IgG, such as autoimmune limbic encephalitis, which may also feature behavioral disturbances and insomnia, and Isaacs syndrome (a peripheral nerve hyperexcitability syndrome). However, sleep, motor, and autonomic manifestations are prominent in Morvan syndrome, which also appears to have distinctive immunological features.</rdfs:comment>
+  <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.medlink.com/articles/morvan-syndrome-and-related-disorders-associated-with-caspr2-antibodies</ARI_DefSource>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-02 15:06 | KrishnaTO | Created: Morvan syndrome</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 
