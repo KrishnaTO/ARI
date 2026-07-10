@@ -176,3 +176,19 @@ ARI:0001012	Ankylosing spondylitis	skos:exactMatch	Not	icd10cm:720.0	semapv:Manu
 ARI:0001014	Anti-glomerular basement membrane disease	skos:exactMatch	Not	icd10cm:446.21	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-10
 ARI:0001014	Anti-glomerular basement membrane disease	skos:exactMatch	Not	icd10cm:M31.0	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-10
 ARI:0001017	Antineutrophil cytoplasmic antibody positive vasculitis	skos:exactMatch	Not	DOID:null	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-10
+ARI:0001208	Uveitis	skos:exactMatch		SNOMEDCT:128473001	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-07
+ARI:0001208	Uveitis	skos:exactMatch		omop:4028363	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-07
+ARI:0001208	Uveitis	skos:exactMatch		DOID:0040088	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-07
+ARI:0001199	Systemic sclerosis with limited cutaneous involvement	skos:exactMatch		SNOMEDCT:298285004	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-07
+ARI:0001199	Systemic sclerosis with limited cutaneous involvement	skos:exactMatch		omop:4185187	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-07
+ARI:0001199	Systemic sclerosis with limited cutaneous involvement	skos:exactMatch		icd10cm:M34.1	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-07
+ARI:0001208	Uveitis	skos:exactMatch	Not	SNOMEDCT:231947004	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-07
+ARI:0001208	Uveitis	skos:exactMatch	Not	omop:4335981	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-07
+ARI:0001199	Systemic sclerosis with limited cutaneous involvement	skos:exactMatch	Not	SNOMEDCT:128461001	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-07
+ARI:0001199	Systemic sclerosis with limited cutaneous involvement	skos:exactMatch	Not	SNOMEDCT:31848007	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-07
+ARI:0001199	Systemic sclerosis with limited cutaneous involvement	skos:exactMatch	Not	omop:4135937	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-07
+ARI:0001199	Systemic sclerosis with limited cutaneous involvement	skos:exactMatch	Not	omop:4027230	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-07
+ARI:0001199	Systemic sclerosis with limited cutaneous involvement	skos:exactMatch	Not	ncit:C70646	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-07
+ARI:0001199	Systemic sclerosis with limited cutaneous involvement	skos:exactMatch	Not	umls:C1527226	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-07
+ARI:0001199	Systemic sclerosis with limited cutaneous involvement	skos:exactMatch	Not	umls:C0206138	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-07
+ARI:0001199	Systemic sclerosis with limited cutaneous involvement	skos:exactMatch	Not	mesh:D017675	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-07
