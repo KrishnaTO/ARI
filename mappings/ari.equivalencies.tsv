@@ -139,3 +139,12 @@ ARI	0001115	Intermediate uveitis	skos:exactMatch	SNOMEDCT	45688009	manual-negati
 ARI	0001115	Intermediate uveitis	skos:exactMatch	SNOMEDCT	1231232007	manual-negative	github:KrishnaTO
 ARI	0001115	Intermediate uveitis	skos:exactMatch	omop	37164507	manual-negative	github:KrishnaTO
 ARI	0001115	Intermediate uveitis	skos:exactMatch	omop	434026	manual-negative	github:KrishnaTO
+ARI	0001014	Anti-glomerular basement membrane disease	skos:exactMatch	SNOMEDCT	788613004	manual	github:KrishnaTO
+ARI	0001014	Anti-glomerular basement membrane disease	skos:exactMatch	omop	37312293	manual	github:KrishnaTO
+ARI	0001017	Antineutrophil cytoplasmic antibody positive vasculitis	skos:exactMatch	SNOMEDCT	195353004	manual	github:KrishnaTO
+ARI	0001014	Anti-glomerular basement membrane disease	skos:exactMatch	SNOMEDCT	236506009	manual-negative	github:KrishnaTO
+ARI	0001014	Anti-glomerular basement membrane disease	skos:exactMatch	SNOMEDCT	62853008	manual-negative	github:KrishnaTO
+ARI	0001014	Anti-glomerular basement membrane disease	skos:exactMatch	SNOMEDCT	50581000	manual-negative	github:KrishnaTO
+ARI	0001014	Anti-glomerular basement membrane disease	skos:exactMatch	omop	4126115	manual-negative	github:KrishnaTO
+ARI	0001014	Anti-glomerular basement membrane disease	skos:exactMatch	omop	4267717	manual-negative	github:KrishnaTO
+ARI	0001014	Anti-glomerular basement membrane disease	skos:exactMatch	omop	195289	manual-negative	github:KrishnaTO
