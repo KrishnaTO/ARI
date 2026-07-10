@@ -142,9 +142,18 @@ ARI	0001115	Intermediate uveitis	skos:exactMatch	omop	434026	manual-negative	git
 ARI	0001014	Anti-glomerular basement membrane disease	skos:exactMatch	SNOMEDCT	788613004	manual	github:KrishnaTO
 ARI	0001014	Anti-glomerular basement membrane disease	skos:exactMatch	omop	37312293	manual	github:KrishnaTO
 ARI	0001017	Antineutrophil cytoplasmic antibody positive vasculitis	skos:exactMatch	SNOMEDCT	195353004	manual	github:KrishnaTO
+ARI	0001014	Anti-glomerular basement membrane disease	skos:exactMatch	DOID	9808	manual	github:KrishnaTO
+ARI	0001014	Anti-glomerular basement membrane disease	skos:exactMatch	ncit	C84566	manual	github:KrishnaTO
+ARI	0001018	Antiphospholipid syndrome	skos:exactMatch	icd10cm	D68.61	manual	github:KrishnaTO
+ARI	0001014	Anti-glomerular basement membrane disease	skos:exactMatch	umls	C0403529	manual	github:KrishnaTO
+ARI	0001014	Anti-glomerular basement membrane disease	skos:exactMatch	mesh	D019867	manual	github:KrishnaTO
 ARI	0001014	Anti-glomerular basement membrane disease	skos:exactMatch	SNOMEDCT	236506009	manual-negative	github:KrishnaTO
 ARI	0001014	Anti-glomerular basement membrane disease	skos:exactMatch	SNOMEDCT	62853008	manual-negative	github:KrishnaTO
 ARI	0001014	Anti-glomerular basement membrane disease	skos:exactMatch	SNOMEDCT	50581000	manual-negative	github:KrishnaTO
 ARI	0001014	Anti-glomerular basement membrane disease	skos:exactMatch	omop	4126115	manual-negative	github:KrishnaTO
 ARI	0001014	Anti-glomerular basement membrane disease	skos:exactMatch	omop	4267717	manual-negative	github:KrishnaTO
 ARI	0001014	Anti-glomerular basement membrane disease	skos:exactMatch	omop	195289	manual-negative	github:KrishnaTO
+ARI	0001012	Ankylosing spondylitis	skos:exactMatch	icd10cm	720.0	manual-negative	github:KrishnaTO
+ARI	0001014	Anti-glomerular basement membrane disease	skos:exactMatch	icd10cm	446.21	manual-negative	github:KrishnaTO
+ARI	0001014	Anti-glomerular basement membrane disease	skos:exactMatch	icd10cm	M31.0	manual-negative	github:KrishnaTO
+ARI	0001017	Antineutrophil cytoplasmic antibody positive vasculitis	skos:exactMatch	DOID	null	manual-negative	github:KrishnaTO
