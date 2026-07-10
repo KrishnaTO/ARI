@@ -158,3 +158,12 @@ ARI:0001115	Intermediate uveitis	skos:exactMatch	Not	SNOMEDCT:45688009	semapv:Ma
 ARI:0001115	Intermediate uveitis	skos:exactMatch	Not	SNOMEDCT:1231232007	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-29
 ARI:0001115	Intermediate uveitis	skos:exactMatch	Not	omop:37164507	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-29
 ARI:0001115	Intermediate uveitis	skos:exactMatch	Not	omop:434026	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-29
+ARI:0001014	Anti-glomerular basement membrane disease	skos:exactMatch		SNOMEDCT:788613004	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-10
+ARI:0001014	Anti-glomerular basement membrane disease	skos:exactMatch		omop:37312293	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-10
+ARI:0001017	Antineutrophil cytoplasmic antibody positive vasculitis	skos:exactMatch		SNOMEDCT:195353004	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-10
+ARI:0001014	Anti-glomerular basement membrane disease	skos:exactMatch	Not	SNOMEDCT:236506009	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-10
+ARI:0001014	Anti-glomerular basement membrane disease	skos:exactMatch	Not	SNOMEDCT:62853008	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-10
+ARI:0001014	Anti-glomerular basement membrane disease	skos:exactMatch	Not	SNOMEDCT:50581000	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-10
+ARI:0001014	Anti-glomerular basement membrane disease	skos:exactMatch	Not	omop:4126115	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-10
+ARI:0001014	Anti-glomerular basement membrane disease	skos:exactMatch	Not	omop:4267717	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-10
+ARI:0001014	Anti-glomerular basement membrane disease	skos:exactMatch	Not	omop:195289	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-10
