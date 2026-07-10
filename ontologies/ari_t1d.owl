@@ -226,6 +226,8 @@
 
 <owl:AnnotationProperty rdf:about="#ARI_OMIM"/>
 
+<owl:AnnotationProperty rdf:about="#ARI_ORPHANET"/>
+
 <owl:Class rdf:about="#MulticellularAnatomicalStructure">
   <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
   <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0010000</ARI_ID>
@@ -20982,7 +20984,6 @@ When mastocytosis is limited to the skin, it is called cutaneous mastocytosis, a
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">31848007</ARI_SNOMED>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">128461001</ARI_SNOMED>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">298285004</ARI_SNOMED>
-  <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0060218</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0206138</ARI_UMLS>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1527226</ARI_UMLS>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">M34.1</ARI_ICD10>
@@ -21021,6 +21022,15 @@ To be diagnosed with CREST, you must have 3 out of the 5 symptoms.</rdfs:comment
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-09</ARI_AuthorDate>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SSL</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1577</ARI_DOID>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-07 20:24 | user | Edited: doid</ARI_ChangeLog>
+  <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0016358</ARI_MONDO>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-07 20:25 | user | Edited: mondo</ARI_ChangeLog>
+  <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">220402</ARI_ORPHANET>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-07 20:33 | user | Edited: orphanet</ARI_ChangeLog>
+  <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C5574860</ARI_UMLS>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-07 20:41 | user | Edited: umls</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-07 20:44 | KrishnaTO | Cross-reference review: confirmed SNOMED 298285004; confirmed OMOP 4185187; confirmed ICD10 M34.1; flagged SNOMED 128461001, 31848007; flagged OMOP 4135937, 4027230; flagged NCI C70646; flagged UMLS C1527226, C0206138; flagged MESH D017675</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001199_643">
@@ -22267,6 +22277,17 @@ The most common form of autoimmune uveitis is &lt;a href="&lt;a href="https://di
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-09</ARI_AuthorDate>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UV</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0000554</ARI_MONDO>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-07 20:14 | user | Edited: mondo</ARI_ChangeLog>
+  <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C26909</ARI_NCI>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-07 20:14 | user | Edited: nci</ARI_ChangeLog>
+  <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">98715</ARI_ORPHANET>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-07 20:16 | user | Edited: orphanet</ARI_ChangeLog>
+  <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0042164</ARI_UMLS>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-07 20:17 | user | Edited: umls</ARI_ChangeLog>
+  <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D014605</ARI_MESH>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-07 20:18 | user | Edited: mesh</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-07 20:44 | KrishnaTO | Cross-reference review: confirmed SNOMED 128473001; confirmed OMOP 4028363; confirmed DOID 0040088; flagged SNOMED 231947004; flagged OMOP 4335981</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001208_2167">
@@ -22626,6 +22647,17 @@ Some cases of this disease are caused by medications and are not autoimmune.</rd
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morvan syndrome is a rare, life-threatening autoimmune disorder associated with anti- autoantibodies targeting CASPR2 (CASPR2-IgG). Morvan syndrome is characterized by the combination of severe peripheral nerve hyperexcitability with agrypnia excitata, a sleep disorder characterized by insomnia, behavioral disturbances, and visual hallucinations. There is a clinical overlap with the other autoimmune disorders associated with CASPR2-IgG, such as autoimmune limbic encephalitis, which may also feature behavioral disturbances and insomnia, and Isaacs syndrome (a peripheral nerve hyperexcitability syndrome). However, sleep, motor, and autonomic manifestations are prominent in Morvan syndrome, which also appears to have distinctive immunological features.</rdfs:comment>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.medlink.com/articles/morvan-syndrome-and-related-disorders-associated-with-caspr2-antibodies</ARI_DefSource>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-02 15:06 | KrishnaTO | Created: Morvan syndrome</ARI_ChangeLog>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001212">
+  <rdf:type rdf:resource="#AutoimmuneDisease"/>
+  <targetsTissue rdf:resource="#Tissue_Systemic"/>
+  <hasParentDisease rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001199"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CREST Syndrome</rdfs:label>
+  <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001212</ARI_ID>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calcinosis, Raynaud’s, esophageal dysfunction, sclerodactyly, telangiectasia.</rdfs:comment>
+  <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI</ARI_DefSource>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-07 20:29 | KrishnaTO | Created: CREST Syndrome</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 

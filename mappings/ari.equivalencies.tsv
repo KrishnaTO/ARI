@@ -139,3 +139,19 @@ ARI	0001115	Intermediate uveitis	skos:exactMatch	SNOMEDCT	45688009	manual-negati
 ARI	0001115	Intermediate uveitis	skos:exactMatch	SNOMEDCT	1231232007	manual-negative	github:KrishnaTO
 ARI	0001115	Intermediate uveitis	skos:exactMatch	omop	37164507	manual-negative	github:KrishnaTO
 ARI	0001115	Intermediate uveitis	skos:exactMatch	omop	434026	manual-negative	github:KrishnaTO
+ARI	0001208	Uveitis	skos:exactMatch	SNOMEDCT	128473001	manual	github:KrishnaTO
+ARI	0001208	Uveitis	skos:exactMatch	omop	4028363	manual	github:KrishnaTO
+ARI	0001208	Uveitis	skos:exactMatch	DOID	0040088	manual	github:KrishnaTO
+ARI	0001199	Systemic sclerosis with limited cutaneous involvement	skos:exactMatch	SNOMEDCT	298285004	manual	github:KrishnaTO
+ARI	0001199	Systemic sclerosis with limited cutaneous involvement	skos:exactMatch	omop	4185187	manual	github:KrishnaTO
+ARI	0001199	Systemic sclerosis with limited cutaneous involvement	skos:exactMatch	icd10cm	M34.1	manual	github:KrishnaTO
+ARI	0001208	Uveitis	skos:exactMatch	SNOMEDCT	231947004	manual-negative	github:KrishnaTO
+ARI	0001208	Uveitis	skos:exactMatch	omop	4335981	manual-negative	github:KrishnaTO
+ARI	0001199	Systemic sclerosis with limited cutaneous involvement	skos:exactMatch	SNOMEDCT	128461001	manual-negative	github:KrishnaTO
+ARI	0001199	Systemic sclerosis with limited cutaneous involvement	skos:exactMatch	SNOMEDCT	31848007	manual-negative	github:KrishnaTO
+ARI	0001199	Systemic sclerosis with limited cutaneous involvement	skos:exactMatch	omop	4135937	manual-negative	github:KrishnaTO
+ARI	0001199	Systemic sclerosis with limited cutaneous involvement	skos:exactMatch	omop	4027230	manual-negative	github:KrishnaTO
+ARI	0001199	Systemic sclerosis with limited cutaneous involvement	skos:exactMatch	ncit	C70646	manual-negative	github:KrishnaTO
+ARI	0001199	Systemic sclerosis with limited cutaneous involvement	skos:exactMatch	umls	C1527226	manual-negative	github:KrishnaTO
+ARI	0001199	Systemic sclerosis with limited cutaneous involvement	skos:exactMatch	umls	C0206138	manual-negative	github:KrishnaTO
+ARI	0001199	Systemic sclerosis with limited cutaneous involvement	skos:exactMatch	mesh	D017675	manual-negative	github:KrishnaTO
