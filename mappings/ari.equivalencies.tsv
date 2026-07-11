@@ -201,3 +201,23 @@ ARI	0001048	Autoimmune thyroiditis	skos:exactMatch	omop	4034815	manual-negative	
 ARI	0001048	Autoimmune thyroiditis	skos:exactMatch	omop	135215	manual-negative	github:KrishnaTO
 ARI	0001049	Autoimmune urticaria	skos:exactMatch	DOID	0080747	manual-negative	github:KrishnaTO
 ARI	0001049	Autoimmune urticaria	skos:exactMatch	mesh	D000080223	manual-negative	github:KrishnaTO
+ARI	0001053	Behçet's syndrome	skos:exactMatch	SNOMEDCT	310701003	manual	github:KrishnaTO
+ARI	0001053	Behçet's syndrome	skos:exactMatch	omop	436642	manual	github:KrishnaTO
+ARI	0001053	Behçet's syndrome	skos:exactMatch	DOID	13241	manual	github:KrishnaTO
+ARI	0001053	Behçet's syndrome	skos:exactMatch	ncit	C34416	manual	github:KrishnaTO
+ARI	0001053	Behçet's syndrome	skos:exactMatch	icd10cm	M35.2	manual	github:KrishnaTO
+ARI	0001053	Behçet's syndrome	skos:exactMatch	umls	C0004943	manual	github:KrishnaTO
+ARI	0001053	Behçet's syndrome	skos:exactMatch	mesh	D001528	manual	github:KrishnaTO
+ARI	0001054	Benign mucous membrane pemphigoid	skos:exactMatch	SNOMEDCT	34250006	manual	github:KrishnaTO
+ARI	0001054	Benign mucous membrane pemphigoid	skos:exactMatch	omop	4142060	manual	github:KrishnaTO
+ARI	0001054	Benign mucous membrane pemphigoid	skos:exactMatch	DOID	11656	manual	github:KrishnaTO
+ARI	0001054	Benign mucous membrane pemphigoid	skos:exactMatch	ncit	C34907	manual	github:KrishnaTO
+ARI	0001054	Benign mucous membrane pemphigoid	skos:exactMatch	icd10cm	L12.1	manual	github:KrishnaTO
+ARI	0001054	Benign mucous membrane pemphigoid	skos:exactMatch	umls	C0030804	manual	github:KrishnaTO
+ARI	0001054	Benign mucous membrane pemphigoid	skos:exactMatch	mesh	D010390	manual	github:KrishnaTO
+ARI	0001055	Bickerstaff's brainstem encephalitis	skos:exactMatch	SNOMEDCT	427086003	manual	github:KrishnaTO
+ARI	0001055	Bickerstaff's brainstem encephalitis	skos:exactMatch	omop	4141686	manual	github:KrishnaTO
+ARI	0001053	Behçet's syndrome	skos:exactMatch	SNOMEDCT	721226005	manual-negative	github:KrishnaTO
+ARI	0001053	Behçet's syndrome	skos:exactMatch	omop	36715522	manual-negative	github:KrishnaTO
+ARI	0001054	Benign mucous membrane pemphigoid	skos:exactMatch	SNOMEDCT	314757003	manual-negative	github:KrishnaTO
+ARI	0001054	Benign mucous membrane pemphigoid	skos:exactMatch	omop	4152707	manual-negative	github:KrishnaTO
