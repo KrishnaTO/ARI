@@ -228,6 +228,8 @@
 
 <owl:AnnotationProperty rdf:about="#ARI_ORPHANET"/>
 
+<owl:AnnotationProperty rdf:about="#ARI_IsGrouping"/>
+
 <owl:Class rdf:about="#MulticellularAnatomicalStructure">
   <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
   <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0010000</ARI_ID>
@@ -5162,6 +5164,8 @@ In chronic autoimmune neutropenia the body produces IgG antibodies that target a
   <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001046</ARI_ID>
   <ARI_Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.1</ARI_Version>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_IsGrouping rdf:datatype="http://www.w3.org/2001/XMLSchema#string">true</ARI_IsGrouping>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-11 03:30 | Krishna Udaiwal | Edited: age_range, clinical_subtypes, def_source, definition, demographic_bias, disease_category, evidence_quality, incidence_rate, is_grouping, name, obsolete, prevalence_desc, prevalence_per_100k, prevalence_value, synonyms</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001047">
