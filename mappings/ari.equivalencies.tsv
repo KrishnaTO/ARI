@@ -173,3 +173,31 @@ ARI	0001199	Systemic sclerosis with limited cutaneous involvement	skos:exactMatc
 ARI	0001199	Systemic sclerosis with limited cutaneous involvement	skos:exactMatch	umls	C1527226	manual-negative	github:KrishnaTO
 ARI	0001199	Systemic sclerosis with limited cutaneous involvement	skos:exactMatch	umls	C0206138	manual-negative	github:KrishnaTO
 ARI	0001199	Systemic sclerosis with limited cutaneous involvement	skos:exactMatch	mesh	D017675	manual-negative	github:KrishnaTO
+ARI	0001047	Autoimmune retinopathy	skos:exactMatch	SNOMEDCT	724809006	manual	github:KrishnaTO
+ARI	0001047	Autoimmune retinopathy	skos:exactMatch	omop	37110540	manual	github:KrishnaTO
+ARI	0001048	Autoimmune thyroiditis	skos:exactMatch	SNOMEDCT	66944004	manual	github:KrishnaTO
+ARI	0001048	Autoimmune thyroiditis	skos:exactMatch	omop	4281109	manual	github:KrishnaTO
+ARI	0001048	Autoimmune thyroiditis	skos:exactMatch	DOID	7188	manual	github:KrishnaTO
+ARI	0001048	Autoimmune thyroiditis	skos:exactMatch	ncit	C38766	manual	github:KrishnaTO
+ARI	0001048	Autoimmune thyroiditis	skos:exactMatch	icd10cm	E06.3	manual	github:KrishnaTO
+ARI	0001048	Autoimmune thyroiditis	skos:exactMatch	umls	C0920350	manual	github:KrishnaTO
+ARI	0001048	Autoimmune thyroiditis	skos:exactMatch	mesh	D013967	manual	github:KrishnaTO
+ARI	0001049	Autoimmune urticaria	skos:exactMatch	SNOMEDCT	402397006	manual	github:KrishnaTO
+ARI	0001049	Autoimmune urticaria	skos:exactMatch	omop	4224623	manual	github:KrishnaTO
+ARI	0001050	Autoimmune urticaria and/or angioedema	skos:exactMatch	SNOMEDCT	402402005	manual	github:KrishnaTO
+ARI	0001050	Autoimmune urticaria and/or angioedema	skos:exactMatch	omop	4221673	manual	github:KrishnaTO
+ARI	0001051	Autoimmune vasculitis	skos:exactMatch	SNOMEDCT	427213005	manual	github:KrishnaTO
+ARI	0001051	Autoimmune vasculitis	skos:exactMatch	omop	4146124	manual	github:KrishnaTO
+ARI	0001051	Autoimmune vasculitis	skos:exactMatch	DOID	0040097	manual	github:KrishnaTO
+ARI	0001051	Autoimmune vasculitis	skos:exactMatch	umls	C1328843	manual	github:KrishnaTO
+ARI	0001036	Autoimmune-Inflammatory Syndrome Induced by Adjuvants	skos:exactMatch	omop	1331726	manual	github:KrishnaTO
+ARI	0001052	Balo concentric sclerosis	skos:exactMatch	SNOMEDCT	230380005	manual	github:KrishnaTO
+ARI	0001052	Balo concentric sclerosis	skos:exactMatch	omop	4046110	manual	github:KrishnaTO
+ARI	0001052	Balo concentric sclerosis	skos:exactMatch	DOID	0060215	manual	github:KrishnaTO
+ARI	0001052	Balo concentric sclerosis	skos:exactMatch	mesh	D002549	manual	github:KrishnaTO
+ARI	0001048	Autoimmune thyroiditis	skos:exactMatch	SNOMEDCT	21983002	manual-negative	github:KrishnaTO
+ARI	0001048	Autoimmune thyroiditis	skos:exactMatch	omop	4130018	manual-negative	github:KrishnaTO
+ARI	0001048	Autoimmune thyroiditis	skos:exactMatch	omop	4034815	manual-negative	github:KrishnaTO
+ARI	0001048	Autoimmune thyroiditis	skos:exactMatch	omop	135215	manual-negative	github:KrishnaTO
+ARI	0001049	Autoimmune urticaria	skos:exactMatch	DOID	0080747	manual-negative	github:KrishnaTO
+ARI	0001049	Autoimmune urticaria	skos:exactMatch	mesh	D000080223	manual-negative	github:KrishnaTO
