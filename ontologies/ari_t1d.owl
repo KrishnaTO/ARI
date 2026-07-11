@@ -228,6 +228,8 @@
 
 <owl:AnnotationProperty rdf:about="#ARI_ORPHANET"/>
 
+<owl:AnnotationProperty rdf:about="#ARI_IsGrouping"/>
+
 <owl:Class rdf:about="#MulticellularAnatomicalStructure">
   <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
   <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0010000</ARI_ID>
@@ -4581,6 +4583,11 @@ When the NMDA receptor antibodies attack the NMDA receptors in the brain, certai
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ASIA syndrome</ARI_Synonym>
   <ARI_Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.1</ARI_Version>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C5577685</ARI_UMLS>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-11 04:28 | user | Edited: umls</ARI_ChangeLog>
+  <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D000099146</ARI_MESH>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-11 04:28 | user | Edited: mesh</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-11 04:34 | KrishnaTO | Cross-reference review: confirmed OMOP 1331726</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001037">
@@ -5162,6 +5169,8 @@ In chronic autoimmune neutropenia the body produces IgG antibodies that target a
   <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001046</ARI_ID>
   <ARI_Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.1</ARI_Version>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_IsGrouping rdf:datatype="http://www.w3.org/2001/XMLSchema#string">true</ARI_IsGrouping>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-11 03:30 | Krishna Udaiwal | Edited: age_range, clinical_subtypes, def_source, definition, demographic_bias, disease_category, evidence_quality, incidence_rate, is_grouping, name, obsolete, prevalence_desc, prevalence_per_100k, prevalence_value, synonyms</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001047">
@@ -5190,6 +5199,11 @@ In chronic autoimmune neutropenia the body produces IgG antibodies that target a
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-09</ARI_AuthorDate>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AR</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0100014</ARI_MONDO>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-11 03:40 | user | Edited: mondo</ARI_ChangeLog>
+  <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C3203657</ARI_UMLS>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-11 03:43 | user | Edited: umls</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-11 04:34 | KrishnaTO | Cross-reference review: confirmed SNOMED 724809006; confirmed OMOP 37110540</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001047_331">
@@ -5284,6 +5298,11 @@ Several names are used for autoimmune thyroiditis. When it is known to be autoim
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-09</ARI_AuthorDate>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AT</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0005623</ARI_MONDO>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-11 03:49 | user | Edited: mondo</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-11 04:00 | user | Edited: omim</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-11 04:01 | user | Edited: omim</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-11 04:34 | KrishnaTO | Cross-reference review: confirmed SNOMED 66944004; confirmed OMOP 4281109; confirmed DOID 7188; confirmed NCI C38766; confirmed ICD10 E06.3; confirmed UMLS C0920350; confirmed MESH D013967; flagged SNOMED 21983002; flagged OMOP 4130018, 4034815, 135215</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001048_351">
@@ -5476,6 +5495,14 @@ Urticaria can also be caused by allergic reaction to plants like poison ivy, dye
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-09</ARI_AuthorDate>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AU</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-11 04:02 | user | Edited: omop</ARI_ChangeLog>
+  <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0025513</ARI_MONDO>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-11 04:05 | user | Edited: mondo</ARI_ChangeLog>
+  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L50.8</ARI_ICD10>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-11 04:06 | user | Edited: icd10</ARI_ChangeLog>
+  <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1304191</ARI_UMLS>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-11 04:10 | user | Edited: umls</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-11 04:34 | KrishnaTO | Cross-reference review: confirmed SNOMED 402397006; confirmed OMOP 4224623; flagged DOID 0080747; flagged MESH D000080223</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001049_377">
@@ -5544,6 +5571,7 @@ While they are also diseases on their own, patients will receive a diagnosis of 
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune Urticaria/Angioedema, Mast Cell-Mediated - Caused by abnormal immune response.</ARI_ClinicalSubtype>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NULL</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-11 04:34 | KrishnaTO | Cross-reference review: confirmed SNOMED 402402005; confirmed OMOP 4221673</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001050_385">
@@ -5599,6 +5627,9 @@ There are many types of vasculitis, and most of them are rare. Vasculitis might 
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-09</ARI_AuthorDate>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AV</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0030703</ARI_MONDO>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-11 04:13 | user | Edited: mondo</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-11 04:34 | KrishnaTO | Cross-reference review: confirmed SNOMED 427213005; confirmed OMOP 4146124; confirmed DOID 0040097; confirmed UMLS C1328843</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001051_387">
@@ -5724,11 +5755,7 @@ There are many types of vasculitis, and most of them are rare. Vasculitis might 
   <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001052</ARI_ID>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">230380005</ARI_SNOMED>
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0060215</ARI_DOID>
-  <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0007795</ARI_UMLS>
-  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">341.1</ARI_ICD10>
-  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G37.0</ARI_ICD10>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D002549</ARI_MESH>
-  <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C84670</ARI_NCI>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4046110</ARI_OMOP>
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">230380005</ARI_DXCODE>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Balo's disease is a rare demyelinating disorder of the central nervous system in which the myelin (the fatty substance covering nerve cells) is damaged.</rdfs:comment>
@@ -5750,6 +5777,17 @@ There are many types of vasculitis, and most of them are rare. Vasculitis might 
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-09</ARI_AuthorDate>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BCS</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0016430</ARI_MONDO>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-11 04:29 | user | Edited: mondo</ARI_ChangeLog>
+  <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C197875</ARI_NCI>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-11 04:30 | user | Edited: nci</ARI_ChangeLog>
+  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G37.5</ARI_ICD10>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-11 04:31 | user | Edited: icd10</ARI_ChangeLog>
+  <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">228165</ARI_ORPHANET>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-11 04:31 | user | Edited: orphanet</ARI_ChangeLog>
+  <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0004712</ARI_UMLS>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-11 04:33 | user | Edited: umls</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-11 04:34 | KrishnaTO | Cross-reference review: confirmed SNOMED 230380005; confirmed OMOP 4046110; confirmed DOID 0060215; confirmed MESH D002549</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001052_407">

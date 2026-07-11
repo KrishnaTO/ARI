@@ -192,3 +192,31 @@ ARI:0001199	Systemic sclerosis with limited cutaneous involvement	skos:exactMatc
 ARI:0001199	Systemic sclerosis with limited cutaneous involvement	skos:exactMatch	Not	umls:C1527226	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-07
 ARI:0001199	Systemic sclerosis with limited cutaneous involvement	skos:exactMatch	Not	umls:C0206138	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-07
 ARI:0001199	Systemic sclerosis with limited cutaneous involvement	skos:exactMatch	Not	mesh:D017675	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-07
+ARI:0001047	Autoimmune retinopathy	skos:exactMatch		SNOMEDCT:724809006	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11
+ARI:0001047	Autoimmune retinopathy	skos:exactMatch		omop:37110540	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11
+ARI:0001048	Autoimmune thyroiditis	skos:exactMatch		SNOMEDCT:66944004	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11
+ARI:0001048	Autoimmune thyroiditis	skos:exactMatch		omop:4281109	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11
+ARI:0001048	Autoimmune thyroiditis	skos:exactMatch		DOID:7188	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11
+ARI:0001048	Autoimmune thyroiditis	skos:exactMatch		ncit:C38766	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11
+ARI:0001048	Autoimmune thyroiditis	skos:exactMatch		icd10cm:E06.3	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11
+ARI:0001048	Autoimmune thyroiditis	skos:exactMatch		umls:C0920350	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11
+ARI:0001048	Autoimmune thyroiditis	skos:exactMatch		mesh:D013967	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11
+ARI:0001049	Autoimmune urticaria	skos:exactMatch		SNOMEDCT:402397006	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11
+ARI:0001049	Autoimmune urticaria	skos:exactMatch		omop:4224623	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11
+ARI:0001050	Autoimmune urticaria and/or angioedema	skos:exactMatch		SNOMEDCT:402402005	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11
+ARI:0001050	Autoimmune urticaria and/or angioedema	skos:exactMatch		omop:4221673	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11
+ARI:0001051	Autoimmune vasculitis	skos:exactMatch		SNOMEDCT:427213005	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11
+ARI:0001051	Autoimmune vasculitis	skos:exactMatch		omop:4146124	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11
+ARI:0001051	Autoimmune vasculitis	skos:exactMatch		DOID:0040097	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11
+ARI:0001051	Autoimmune vasculitis	skos:exactMatch		umls:C1328843	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11
+ARI:0001036	Autoimmune-Inflammatory Syndrome Induced by Adjuvants	skos:exactMatch		omop:1331726	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11
+ARI:0001052	Balo concentric sclerosis	skos:exactMatch		SNOMEDCT:230380005	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11
+ARI:0001052	Balo concentric sclerosis	skos:exactMatch		omop:4046110	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11
+ARI:0001052	Balo concentric sclerosis	skos:exactMatch		DOID:0060215	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11
+ARI:0001052	Balo concentric sclerosis	skos:exactMatch		mesh:D002549	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11
+ARI:0001048	Autoimmune thyroiditis	skos:exactMatch	Not	SNOMEDCT:21983002	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11
+ARI:0001048	Autoimmune thyroiditis	skos:exactMatch	Not	omop:4130018	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11
+ARI:0001048	Autoimmune thyroiditis	skos:exactMatch	Not	omop:4034815	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11
+ARI:0001048	Autoimmune thyroiditis	skos:exactMatch	Not	omop:135215	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11
+ARI:0001049	Autoimmune urticaria	skos:exactMatch	Not	DOID:0080747	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11
+ARI:0001049	Autoimmune urticaria	skos:exactMatch	Not	mesh:D000080223	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11
