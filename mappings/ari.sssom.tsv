@@ -220,3 +220,23 @@ ARI:0001048	Autoimmune thyroiditis	skos:exactMatch	Not	omop:4034815	semapv:Manua
 ARI:0001048	Autoimmune thyroiditis	skos:exactMatch	Not	omop:135215	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11
 ARI:0001049	Autoimmune urticaria	skos:exactMatch	Not	DOID:0080747	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11
 ARI:0001049	Autoimmune urticaria	skos:exactMatch	Not	mesh:D000080223	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11
+ARI:0001053	Behçet's syndrome	skos:exactMatch		SNOMEDCT:310701003	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11
+ARI:0001053	Behçet's syndrome	skos:exactMatch		omop:436642	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11
+ARI:0001053	Behçet's syndrome	skos:exactMatch		DOID:13241	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11
+ARI:0001053	Behçet's syndrome	skos:exactMatch		ncit:C34416	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11
+ARI:0001053	Behçet's syndrome	skos:exactMatch		icd10cm:M35.2	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11
+ARI:0001053	Behçet's syndrome	skos:exactMatch		umls:C0004943	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11
+ARI:0001053	Behçet's syndrome	skos:exactMatch		mesh:D001528	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11
+ARI:0001054	Benign mucous membrane pemphigoid	skos:exactMatch		SNOMEDCT:34250006	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11
+ARI:0001054	Benign mucous membrane pemphigoid	skos:exactMatch		omop:4142060	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11
+ARI:0001054	Benign mucous membrane pemphigoid	skos:exactMatch		DOID:11656	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11
+ARI:0001054	Benign mucous membrane pemphigoid	skos:exactMatch		ncit:C34907	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11
+ARI:0001054	Benign mucous membrane pemphigoid	skos:exactMatch		icd10cm:L12.1	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11
+ARI:0001054	Benign mucous membrane pemphigoid	skos:exactMatch		umls:C0030804	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11
+ARI:0001054	Benign mucous membrane pemphigoid	skos:exactMatch		mesh:D010390	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11
+ARI:0001055	Bickerstaff's brainstem encephalitis	skos:exactMatch		SNOMEDCT:427086003	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11
+ARI:0001055	Bickerstaff's brainstem encephalitis	skos:exactMatch		omop:4141686	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11
+ARI:0001053	Behçet's syndrome	skos:exactMatch	Not	SNOMEDCT:721226005	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11
+ARI:0001053	Behçet's syndrome	skos:exactMatch	Not	omop:36715522	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11
+ARI:0001054	Benign mucous membrane pemphigoid	skos:exactMatch	Not	SNOMEDCT:314757003	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11
+ARI:0001054	Benign mucous membrane pemphigoid	skos:exactMatch	Not	omop:4152707	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11
