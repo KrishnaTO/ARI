@@ -1,18 +1,18 @@
 # curie_map:
 #   ARI: https://diseases.autoimmuneregistry.org/disease/ARI_
+#   SNOMEDCT: http://snomed.info/id/
+#   omop: https://athena.ohdsi.org/search-terms/terms/
 #   DOID: http://purl.obolibrary.org/obo/DOID_
 #   MONDO: http://purl.obolibrary.org/obo/MONDO_
-#   SNOMEDCT: http://snomed.info/id/
 #   ncit: http://purl.obolibrary.org/obo/NCIT_
-#   mesh: http://id.nlm.nih.gov/mesh/
-#   umls: https://uts.nlm.nih.gov/uts/umls/concept/
 #   icd10cm: http://purl.bioontology.org/ontology/ICD10CM/
-#   omop: https://athena.ohdsi.org/search-terms/terms/
+#   ORPHA: https://www.orpha.net/en/disease/detail/
+#   OMIM: https://omim.org/entry/
+#   umls: https://uts.nlm.nih.gov/uts/umls/concept/
+#   mesh: http://id.nlm.nih.gov/mesh/
 #   skos: http://www.w3.org/2004/02/skos/core#
 #   semapv: https://w3id.org/semapv/vocab/
 #   orcid: https://orcid.org/
-#   ORPHA: https://www.orpha.net/en/disease/detail/
-#   OMIM: https://omim.org/entry/
 # mapping_set_id: https://diseases.autoimmuneregistry.org/mappings/ari.sssom.tsv
 # mapping_provider: https://www.autoimmuneregistry.org
 # mapping_set_title: ARI disease cross-reference mappings
@@ -240,3 +240,10 @@ ARI:0001053	Behçet's syndrome	skos:exactMatch	Not	SNOMEDCT:721226005	semapv:Man
 ARI:0001053	Behçet's syndrome	skos:exactMatch	Not	omop:36715522	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11
 ARI:0001054	Benign mucous membrane pemphigoid	skos:exactMatch	Not	SNOMEDCT:314757003	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11
 ARI:0001054	Benign mucous membrane pemphigoid	skos:exactMatch	Not	omop:4152707	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11
+ARI:0001064	Chronic interstitial cystitis	skos:exactMatch		DOID:1678	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-12
+ARI:0001064	Chronic interstitial cystitis	skos:exactMatch		icd10cm:N30.1	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-12
+ARI:0001064	Chronic interstitial cystitis	skos:exactMatch		umls:C0600040	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-12
+ARI:0001064	Chronic interstitial cystitis	skos:exactMatch		mesh:D018856	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-12
+ARI:0001066	Chronic multifocal osteomyelitis	skos:exactMatch		DOID:0060645	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-12
+ARI:0001066	Chronic multifocal osteomyelitis	skos:exactMatch		icd10cm:M86.3	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-12
+ARI:0001066	Chronic multifocal osteomyelitis	skos:exactMatch		mesh:C535456	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-12
