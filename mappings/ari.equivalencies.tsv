@@ -221,3 +221,10 @@ ARI	0001053	Behçet's syndrome	skos:exactMatch	SNOMEDCT	721226005	manual-negativ
 ARI	0001053	Behçet's syndrome	skos:exactMatch	omop	36715522	manual-negative	github:KrishnaTO
 ARI	0001054	Benign mucous membrane pemphigoid	skos:exactMatch	SNOMEDCT	314757003	manual-negative	github:KrishnaTO
 ARI	0001054	Benign mucous membrane pemphigoid	skos:exactMatch	omop	4152707	manual-negative	github:KrishnaTO
+ARI	0001064	Chronic interstitial cystitis	skos:exactMatch	DOID	1678	manual	github:KrishnaTO
+ARI	0001064	Chronic interstitial cystitis	skos:exactMatch	icd10cm	N30.1	manual	github:KrishnaTO
+ARI	0001064	Chronic interstitial cystitis	skos:exactMatch	umls	C0600040	manual	github:KrishnaTO
+ARI	0001064	Chronic interstitial cystitis	skos:exactMatch	mesh	D018856	manual	github:KrishnaTO
+ARI	0001066	Chronic multifocal osteomyelitis	skos:exactMatch	DOID	0060645	manual	github:KrishnaTO
+ARI	0001066	Chronic multifocal osteomyelitis	skos:exactMatch	icd10cm	M86.3	manual	github:KrishnaTO
+ARI	0001066	Chronic multifocal osteomyelitis	skos:exactMatch	mesh	C535456	manual	github:KrishnaTO
