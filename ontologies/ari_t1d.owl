@@ -1705,6 +1705,8 @@
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
   <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0018747</ARI_MONDO>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-25 03:08 | user | Edited: mondo</ARI_ChangeLog>
+  <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">46487</ARI_ORPHANET>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-13 03:07 | user | Edited: orphanet</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Tissue_Skin">
@@ -1833,6 +1835,9 @@
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-25 03:32 | user | Edited: umls</ARI_ChangeLog>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C197822</ARI_NCI>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-25 03:42 | user | Edited: nci</ARI_ChangeLog>
+  <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">73274</ARI_ORPHANET>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-13 03:07 | user | Edited: orphanet</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-13 03:10 | KrishnaTO | Cross-reference review: flagged ORPHANET 73274</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Tissue_Blood">
@@ -1947,6 +1952,8 @@
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-25 03:11 | user | Edited: mondo</ARI_ChangeLog>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G04.0</ARI_ICD10>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-25 03:27 | user | Edited: icd10</ARI_ChangeLog>
+  <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">83597</ARI_ORPHANET>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-13 03:09 | user | Edited: orphanet</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Tissue_NervousSystem">
@@ -3264,6 +3271,8 @@ However, based on the research available at this time, there is no evidence that
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1 million</ARI_DefSource>
   <ARI_Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.1</ARI_Version>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0018977</ARI_MONDO>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-13 03:07 | user | Edited: mondo</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001016">
