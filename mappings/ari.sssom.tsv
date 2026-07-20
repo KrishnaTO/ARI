@@ -247,3 +247,4 @@ ARI:0001064	Chronic interstitial cystitis	skos:exactMatch		mesh:D018856	semapv:M
 ARI:0001066	Chronic multifocal osteomyelitis	skos:exactMatch		DOID:0060645	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-12
 ARI:0001066	Chronic multifocal osteomyelitis	skos:exactMatch		icd10cm:M86.3	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-12
 ARI:0001066	Chronic multifocal osteomyelitis	skos:exactMatch		mesh:C535456	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-12
+ARI:0001002	Acquired hemophilia	skos:exactMatch	Not	ORPHA:73274	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-13

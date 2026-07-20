@@ -228,3 +228,4 @@ ARI	0001064	Chronic interstitial cystitis	skos:exactMatch	mesh	D018856	manual	gi
 ARI	0001066	Chronic multifocal osteomyelitis	skos:exactMatch	DOID	0060645	manual	github:KrishnaTO
 ARI	0001066	Chronic multifocal osteomyelitis	skos:exactMatch	icd10cm	M86.3	manual	github:KrishnaTO
 ARI	0001066	Chronic multifocal osteomyelitis	skos:exactMatch	mesh	C535456	manual	github:KrishnaTO
+ARI	0001002	Acquired hemophilia	skos:exactMatch	ORPHA	73274	manual-negative	github:KrishnaTO
