@@ -232,3 +232,4 @@ ARI	0001002	Acquired hemophilia	skos:exactMatch	ORPHA	73274	manual-negative	gith
 ARI	0001004	Acute febrile mucocutaneous lymph node syndrome	skos:exactMatch	ORPHA	2331	manual-negative	github:KrishnaTO
 ARI	0001010	Alopecia areata	skos:exactMatch	ncit	C50575	manual-negative	github:KrishnaTO
 ARI	0001004	Acute febrile mucocutaneous lymph node syndrome	skos:exactMatch	OMIM	611775	manual-negative	github:KrishnaTO
+ARI	0001017	Antineutrophil cytoplasmic antibody positive vasculitis	skos:exactMatch	DOID	3049	manual-negative	github:KrishnaTO
