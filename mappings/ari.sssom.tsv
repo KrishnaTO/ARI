@@ -251,3 +251,4 @@ ARI:0001002	Acquired hemophilia	skos:exactMatch	Not	ORPHA:73274	semapv:ManualMap
 ARI:0001004	Acute febrile mucocutaneous lymph node syndrome	skos:exactMatch	Not	ORPHA:2331	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-22
 ARI:0001010	Alopecia areata	skos:exactMatch	Not	ncit:C50575	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-22
 ARI:0001004	Acute febrile mucocutaneous lymph node syndrome	skos:exactMatch	Not	OMIM:611775	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-22
+ARI:0001017	Antineutrophil cytoplasmic antibody positive vasculitis	skos:exactMatch	Not	DOID:3049	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-22
