@@ -229,3 +229,6 @@ ARI	0001066	Chronic multifocal osteomyelitis	skos:exactMatch	DOID	0060645	manual
 ARI	0001066	Chronic multifocal osteomyelitis	skos:exactMatch	icd10cm	M86.3	manual	github:KrishnaTO
 ARI	0001066	Chronic multifocal osteomyelitis	skos:exactMatch	mesh	C535456	manual	github:KrishnaTO
 ARI	0001002	Acquired hemophilia	skos:exactMatch	ORPHA	73274	manual-negative	github:KrishnaTO
+ARI	0001004	Acute febrile mucocutaneous lymph node syndrome	skos:exactMatch	ORPHA	2331	manual-negative	github:KrishnaTO
+ARI	0001010	Alopecia areata	skos:exactMatch	ncit	C50575	manual-negative	github:KrishnaTO
+ARI	0001004	Acute febrile mucocutaneous lymph node syndrome	skos:exactMatch	OMIM	611775	manual-negative	github:KrishnaTO
