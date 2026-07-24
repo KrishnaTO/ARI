@@ -257,3 +257,10 @@ ARI:0001092	Fasciitis with eosinophilia syndrome	skos:exactMatch		ORPHA:3165	sem
 ARI:0001092	Fasciitis with eosinophilia syndrome	skos:exactMatch		OMIM:226350	semapv:ManualMappingCuration	github:Jennyzeng25	2026-07-24
 ARI:0001092	Fasciitis with eosinophilia syndrome	skos:exactMatch		umls:C0264005	semapv:ManualMappingCuration	github:Jennyzeng25	2026-07-24
 ARI:0001092	Fasciitis with eosinophilia syndrome	skos:exactMatch		mesh:C562487	semapv:ManualMappingCuration	github:Jennyzeng25	2026-07-24
+ARI:0001102	Idiopathic membranous glomerulonephritis	skos:exactMatch		SNOMEDCT:722119002	semapv:ManualMappingCuration	github:AnjaliRH	2026-07-24
+ARI:0001102	Idiopathic membranous glomerulonephritis	skos:exactMatch		omop:36716199	semapv:ManualMappingCuration	github:AnjaliRH	2026-07-24
+ARI:0001102	Idiopathic membranous glomerulonephritis	skos:exactMatch		MONDO:0013860	semapv:ManualMappingCuration	github:AnjaliRH	2026-07-24
+ARI:0001102	Idiopathic membranous glomerulonephritis	skos:exactMatch		ncit:C123060	semapv:ManualMappingCuration	github:AnjaliRH	2026-07-24
+ARI:0001102	Idiopathic membranous glomerulonephritis	skos:exactMatch		ORPHA:97560	semapv:ManualMappingCuration	github:AnjaliRH	2026-07-24
+ARI:0001102	Idiopathic membranous glomerulonephritis	skos:exactMatch		mesh:D015433	semapv:ManualMappingCuration	github:AnjaliRH	2026-07-24
+ARI:0001102	Idiopathic membranous glomerulonephritis	skos:exactMatch	Not	OMIM:614692	semapv:ManualMappingCuration	github:AnjaliRH	2026-07-24
