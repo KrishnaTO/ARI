@@ -238,3 +238,10 @@ ARI	0001092	Fasciitis with eosinophilia syndrome	skos:exactMatch	ORPHA	3165	manu
 ARI	0001092	Fasciitis with eosinophilia syndrome	skos:exactMatch	OMIM	226350	manual	github:Jennyzeng25
 ARI	0001092	Fasciitis with eosinophilia syndrome	skos:exactMatch	umls	C0264005	manual	github:Jennyzeng25
 ARI	0001092	Fasciitis with eosinophilia syndrome	skos:exactMatch	mesh	C562487	manual	github:Jennyzeng25
+ARI	0001102	Idiopathic membranous glomerulonephritis	skos:exactMatch	SNOMEDCT	722119002	manual	github:AnjaliRH
+ARI	0001102	Idiopathic membranous glomerulonephritis	skos:exactMatch	omop	36716199	manual	github:AnjaliRH
+ARI	0001102	Idiopathic membranous glomerulonephritis	skos:exactMatch	MONDO	0013860	manual	github:AnjaliRH
+ARI	0001102	Idiopathic membranous glomerulonephritis	skos:exactMatch	ncit	C123060	manual	github:AnjaliRH
+ARI	0001102	Idiopathic membranous glomerulonephritis	skos:exactMatch	ORPHA	97560	manual	github:AnjaliRH
+ARI	0001102	Idiopathic membranous glomerulonephritis	skos:exactMatch	mesh	D015433	manual	github:AnjaliRH
+ARI	0001102	Idiopathic membranous glomerulonephritis	skos:exactMatch	OMIM	614692	manual-negative	github:AnjaliRH
