@@ -229,3 +229,12 @@ ARI	0001066	Chronic multifocal osteomyelitis	skos:exactMatch	DOID	0060645	manual
 ARI	0001066	Chronic multifocal osteomyelitis	skos:exactMatch	icd10cm	M86.3	manual	github:KrishnaTO
 ARI	0001066	Chronic multifocal osteomyelitis	skos:exactMatch	mesh	C535456	manual	github:KrishnaTO
 ARI	0001002	Acquired hemophilia	skos:exactMatch	ORPHA	73274	manual-negative	github:KrishnaTO
+ARI	0001092	Fasciitis with eosinophilia syndrome	skos:exactMatch	icd10cm	M35.4	manual	github:Jennyzeng25
+ARI	0001092	Fasciitis with eosinophilia syndrome	skos:exactMatch	SNOMEDCT	24129002	manual	github:Jennyzeng25
+ARI	0001092	Fasciitis with eosinophilia syndrome	skos:exactMatch	omop	4083100	manual	github:Jennyzeng25
+ARI	0001092	Fasciitis with eosinophilia syndrome	skos:exactMatch	MONDO	0009175	manual	github:Jennyzeng25
+ARI	0001092	Fasciitis with eosinophilia syndrome	skos:exactMatch	ncit	C112116	manual	github:Jennyzeng25
+ARI	0001092	Fasciitis with eosinophilia syndrome	skos:exactMatch	ORPHA	3165	manual	github:Jennyzeng25
+ARI	0001092	Fasciitis with eosinophilia syndrome	skos:exactMatch	OMIM	226350	manual	github:Jennyzeng25
+ARI	0001092	Fasciitis with eosinophilia syndrome	skos:exactMatch	umls	C0264005	manual	github:Jennyzeng25
+ARI	0001092	Fasciitis with eosinophilia syndrome	skos:exactMatch	mesh	C562487	manual	github:Jennyzeng25
