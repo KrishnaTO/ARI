@@ -271,5 +271,12 @@ ARI:0001103	Idiopathic pulmonary fibrosis	skos:exactMatch		MONDO:0800504	semapv:
 ARI:0001103	Idiopathic pulmonary fibrosis	skos:exactMatch		DOID:0050156	semapv:ManualMappingCuration	github:AnjaliRH	2026-07-24
 ARI:0001103	Idiopathic pulmonary fibrosis	skos:exactMatch		omop:45763750	semapv:ManualMappingCuration	github:AnjaliRH	2026-07-24
 ARI:0001103	Idiopathic pulmonary fibrosis	skos:exactMatch		SNOMEDCT:700250006	semapv:ManualMappingCuration	github:AnjaliRH	2026-07-24
+ARI:0001104	IgA nephropathy	skos:exactMatch		SNOMEDCT:236407003	semapv:ManualMappingCuration	github:AnjaliRH	2026-07-24
+ARI:0001104	IgA nephropathy	skos:exactMatch		omop:4128061	semapv:ManualMappingCuration	github:AnjaliRH	2026-07-24
+ARI:0001104	IgA nephropathy	skos:exactMatch		DOID:2986	semapv:ManualMappingCuration	github:AnjaliRH	2026-07-24
+ARI:0001104	IgA nephropathy	skos:exactMatch		MONDO:0005342	semapv:ManualMappingCuration	github:AnjaliRH	2026-07-24
+ARI:0001104	IgA nephropathy	skos:exactMatch		ncit:C34643	semapv:ManualMappingCuration	github:AnjaliRH	2026-07-24
+ARI:0001104	IgA nephropathy	skos:exactMatch		ORPHA:34145	semapv:ManualMappingCuration	github:AnjaliRH	2026-07-24
+ARI:0001104	IgA nephropathy	skos:exactMatch		mesh:D005922	semapv:ManualMappingCuration	github:AnjaliRH	2026-07-24
 ARI:0001102	Idiopathic membranous glomerulonephritis	skos:exactMatch	Not	OMIM:614692	semapv:ManualMappingCuration	github:AnjaliRH	2026-07-24
 ARI:0001103	Idiopathic pulmonary fibrosis	skos:exactMatch	Not	OMIM:178500	semapv:ManualMappingCuration	github:AnjaliRH	2026-07-24
