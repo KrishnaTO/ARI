@@ -248,6 +248,10 @@ ARI:0001066	Chronic multifocal osteomyelitis	skos:exactMatch		DOID:0060645	semap
 ARI:0001066	Chronic multifocal osteomyelitis	skos:exactMatch		icd10cm:M86.3	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-12
 ARI:0001066	Chronic multifocal osteomyelitis	skos:exactMatch		mesh:C535456	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-12
 ARI:0001002	Acquired hemophilia	skos:exactMatch	Not	ORPHA:73274	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-13
+ARI:0001004	Acute febrile mucocutaneous lymph node syndrome	skos:exactMatch	Not	ORPHA:2331	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-22
+ARI:0001010	Alopecia areata	skos:exactMatch	Not	ncit:C50575	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-22
+ARI:0001004	Acute febrile mucocutaneous lymph node syndrome	skos:exactMatch	Not	OMIM:611775	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-22
+ARI:0001017	Antineutrophil cytoplasmic antibody positive vasculitis	skos:exactMatch	Not	DOID:3049	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-22
 ARI:0001092	Fasciitis with eosinophilia syndrome	skos:exactMatch		icd10cm:M35.4	semapv:ManualMappingCuration	github:Jennyzeng25	2026-07-24
 ARI:0001092	Fasciitis with eosinophilia syndrome	skos:exactMatch		SNOMEDCT:24129002	semapv:ManualMappingCuration	github:Jennyzeng25	2026-07-24
 ARI:0001092	Fasciitis with eosinophilia syndrome	skos:exactMatch		omop:4083100	semapv:ManualMappingCuration	github:Jennyzeng25	2026-07-24
