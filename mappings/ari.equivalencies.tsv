@@ -265,3 +265,13 @@ ARI	0001104	IgA nephropathy	skos:exactMatch	ORPHA	34145	manual	github:AnjaliRH
 ARI	0001104	IgA nephropathy	skos:exactMatch	mesh	D005922	manual	github:AnjaliRH
 ARI	0001102	Idiopathic membranous glomerulonephritis	skos:exactMatch	OMIM	614692	manual-negative	github:AnjaliRH
 ARI	0001103	Idiopathic pulmonary fibrosis	skos:exactMatch	OMIM	178500	manual-negative	github:AnjaliRH
+ARI	0001093	Felty syndrome	skos:exactMatch	SNOMEDCT	57160007	manual	github:Jennyzeng25
+ARI	0001093	Felty syndrome	skos:exactMatch	omop	81097	manual	github:Jennyzeng25
+ARI	0001093	Felty syndrome	skos:exactMatch	DOID	11042	manual	github:Jennyzeng25
+ARI	0001093	Felty syndrome	skos:exactMatch	MONDO	0007603	manual	github:Jennyzeng25
+ARI	0001093	Felty syndrome	skos:exactMatch	ncit	C84712	manual	github:Jennyzeng25
+ARI	0001093	Felty syndrome	skos:exactMatch	ORPHA	47612	manual	github:Jennyzeng25
+ARI	0001093	Felty syndrome	skos:exactMatch	mesh	D005258	manual	github:Jennyzeng25
+ARI	0001093	Felty syndrome	skos:exactMatch	icd10cm	M05.0	manual-negative	github:Jennyzeng25
+ARI	0001093	Felty syndrome	skos:exactMatch	OMIM	134750	manual-negative	github:Jennyzeng25
+ARI	0001093	Felty syndrome	skos:exactMatch	umls	C0015773	manual-negative	github:Jennyzeng25
