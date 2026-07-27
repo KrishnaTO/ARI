@@ -238,3 +238,26 @@ ARI	0001092	Fasciitis with eosinophilia syndrome	skos:exactMatch	ORPHA	3165	manu
 ARI	0001092	Fasciitis with eosinophilia syndrome	skos:exactMatch	OMIM	226350	manual	github:Jennyzeng25
 ARI	0001092	Fasciitis with eosinophilia syndrome	skos:exactMatch	umls	C0264005	manual	github:Jennyzeng25
 ARI	0001092	Fasciitis with eosinophilia syndrome	skos:exactMatch	mesh	C562487	manual	github:Jennyzeng25
+ARI	0001102	Idiopathic membranous glomerulonephritis	skos:exactMatch	SNOMEDCT	722119002	manual	github:AnjaliRH
+ARI	0001102	Idiopathic membranous glomerulonephritis	skos:exactMatch	omop	36716199	manual	github:AnjaliRH
+ARI	0001102	Idiopathic membranous glomerulonephritis	skos:exactMatch	MONDO	0013860	manual	github:AnjaliRH
+ARI	0001102	Idiopathic membranous glomerulonephritis	skos:exactMatch	ncit	C123060	manual	github:AnjaliRH
+ARI	0001102	Idiopathic membranous glomerulonephritis	skos:exactMatch	ORPHA	97560	manual	github:AnjaliRH
+ARI	0001102	Idiopathic membranous glomerulonephritis	skos:exactMatch	mesh	D015433	manual	github:AnjaliRH
+ARI	0001103	Idiopathic pulmonary fibrosis	skos:exactMatch	mesh	D054990	manual	github:AnjaliRH
+ARI	0001103	Idiopathic pulmonary fibrosis	skos:exactMatch	ORPHA	2032	manual	github:AnjaliRH
+ARI	0001103	Idiopathic pulmonary fibrosis	skos:exactMatch	icd10cm	J84.112	manual	github:AnjaliRH
+ARI	0001103	Idiopathic pulmonary fibrosis	skos:exactMatch	ncit	C35716	manual	github:AnjaliRH
+ARI	0001103	Idiopathic pulmonary fibrosis	skos:exactMatch	MONDO	0800504	manual	github:AnjaliRH
+ARI	0001103	Idiopathic pulmonary fibrosis	skos:exactMatch	DOID	0050156	manual	github:AnjaliRH
+ARI	0001103	Idiopathic pulmonary fibrosis	skos:exactMatch	omop	45763750	manual	github:AnjaliRH
+ARI	0001103	Idiopathic pulmonary fibrosis	skos:exactMatch	SNOMEDCT	700250006	manual	github:AnjaliRH
+ARI	0001104	IgA nephropathy	skos:exactMatch	SNOMEDCT	236407003	manual	github:AnjaliRH
+ARI	0001104	IgA nephropathy	skos:exactMatch	omop	4128061	manual	github:AnjaliRH
+ARI	0001104	IgA nephropathy	skos:exactMatch	DOID	2986	manual	github:AnjaliRH
+ARI	0001104	IgA nephropathy	skos:exactMatch	MONDO	0005342	manual	github:AnjaliRH
+ARI	0001104	IgA nephropathy	skos:exactMatch	ncit	C34643	manual	github:AnjaliRH
+ARI	0001104	IgA nephropathy	skos:exactMatch	ORPHA	34145	manual	github:AnjaliRH
+ARI	0001104	IgA nephropathy	skos:exactMatch	mesh	D005922	manual	github:AnjaliRH
+ARI	0001102	Idiopathic membranous glomerulonephritis	skos:exactMatch	OMIM	614692	manual-negative	github:AnjaliRH
+ARI	0001103	Idiopathic pulmonary fibrosis	skos:exactMatch	OMIM	178500	manual-negative	github:AnjaliRH
