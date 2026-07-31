@@ -275,3 +275,4 @@ ARI	0001093	Felty syndrome	skos:exactMatch	mesh	D005258	manual	github:Jennyzeng2
 ARI	0001093	Felty syndrome	skos:exactMatch	icd10cm	M05.0	manual-negative	github:Jennyzeng25
 ARI	0001093	Felty syndrome	skos:exactMatch	OMIM	134750	manual-negative	github:Jennyzeng25
 ARI	0001093	Felty syndrome	skos:exactMatch	umls	C0015773	manual-negative	github:Jennyzeng25
+ARI	0001094	Female infertility due to antisperm antibodies	skos:exactMatch	DOID	null	manual-negative	github:Jennyzeng25
