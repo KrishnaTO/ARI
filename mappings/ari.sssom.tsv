@@ -284,13 +284,14 @@ ARI:0001104	IgA nephropathy	skos:exactMatch		ORPHA:34145	semapv:ManualMappingCur
 ARI:0001104	IgA nephropathy	skos:exactMatch		mesh:D005922	semapv:ManualMappingCuration	github:AnjaliRH	2026-07-24
 ARI:0001102	Idiopathic membranous glomerulonephritis	skos:exactMatch	Not	OMIM:614692	semapv:ManualMappingCuration	github:AnjaliRH	2026-07-24
 ARI:0001103	Idiopathic pulmonary fibrosis	skos:exactMatch	Not	OMIM:178500	semapv:ManualMappingCuration	github:AnjaliRH	2026-07-24
-ARI:0001093	Felty syndrome	skos:exactMatch		SNOMEDCT:57160007	semapv:ManualMappingCuration	github:Jennyzeng25	2026-07-27
-ARI:0001093	Felty syndrome	skos:exactMatch		omop:81097	semapv:ManualMappingCuration	github:Jennyzeng25	2026-07-27
-ARI:0001093	Felty syndrome	skos:exactMatch		DOID:11042	semapv:ManualMappingCuration	github:Jennyzeng25	2026-07-27
-ARI:0001093	Felty syndrome	skos:exactMatch		MONDO:0007603	semapv:ManualMappingCuration	github:Jennyzeng25	2026-07-27
-ARI:0001093	Felty syndrome	skos:exactMatch		ncit:C84712	semapv:ManualMappingCuration	github:Jennyzeng25	2026-07-27
-ARI:0001093	Felty syndrome	skos:exactMatch		ORPHA:47612	semapv:ManualMappingCuration	github:Jennyzeng25	2026-07-27
-ARI:0001093	Felty syndrome	skos:exactMatch		mesh:D005258	semapv:ManualMappingCuration	github:Jennyzeng25	2026-07-27
-ARI:0001093	Felty syndrome	skos:exactMatch	Not	icd10cm:M05.0	semapv:ManualMappingCuration	github:Jennyzeng25	2026-07-27
-ARI:0001093	Felty syndrome	skos:exactMatch	Not	OMIM:134750	semapv:ManualMappingCuration	github:Jennyzeng25	2026-07-27
-ARI:0001093	Felty syndrome	skos:exactMatch	Not	umls:C0015773	semapv:ManualMappingCuration	github:Jennyzeng25	2026-07-27
+ARI:0001093	Felty syndrome	skos:exactMatch		SNOMEDCT:57160007	semapv:ManualMappingCuration	github:Jennyzeng25	2026-07-31
+ARI:0001093	Felty syndrome	skos:exactMatch		omop:81097	semapv:ManualMappingCuration	github:Jennyzeng25	2026-07-31
+ARI:0001093	Felty syndrome	skos:exactMatch		DOID:11042	semapv:ManualMappingCuration	github:Jennyzeng25	2026-07-31
+ARI:0001093	Felty syndrome	skos:exactMatch		MONDO:0007603	semapv:ManualMappingCuration	github:Jennyzeng25	2026-07-31
+ARI:0001093	Felty syndrome	skos:exactMatch		ncit:C84712	semapv:ManualMappingCuration	github:Jennyzeng25	2026-07-31
+ARI:0001093	Felty syndrome	skos:exactMatch		ORPHA:47612	semapv:ManualMappingCuration	github:Jennyzeng25	2026-07-31
+ARI:0001093	Felty syndrome	skos:exactMatch		mesh:D005258	semapv:ManualMappingCuration	github:Jennyzeng25	2026-07-31
+ARI:0001093	Felty syndrome	skos:exactMatch	Not	icd10cm:M05.0	semapv:ManualMappingCuration	github:Jennyzeng25	2026-07-31
+ARI:0001093	Felty syndrome	skos:exactMatch	Not	OMIM:134750	semapv:ManualMappingCuration	github:Jennyzeng25	2026-07-31
+ARI:0001093	Felty syndrome	skos:exactMatch	Not	umls:C0015773	semapv:ManualMappingCuration	github:Jennyzeng25	2026-07-31
+ARI:0001094	Female infertility due to antisperm antibodies	skos:exactMatch	Not	DOID:null	semapv:ManualMappingCuration	github:Jennyzeng25	2026-07-31
