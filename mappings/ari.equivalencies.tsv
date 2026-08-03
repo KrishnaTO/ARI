@@ -332,7 +332,21 @@ ARI	0001066	Chronic multifocal osteomyelitis	skos:exactMatch	MONDO	0009813	manua
 ARI	0001066	Chronic multifocal osteomyelitis	skos:exactMatch	ncit	C119042	manual	github:KrishnaTO
 ARI	0001066	Chronic multifocal osteomyelitis	skos:exactMatch	ORPHA	324964	manual	github:KrishnaTO
 ARI	0001066	Chronic multifocal osteomyelitis	skos:exactMatch	umls	C0410422	manual	github:KrishnaTO
+ARI	0001067	Chronic post-COVID-19 syndrome	skos:exactMatch	SNOMEDCT	1119304009	manual	github:KrishnaTO
+ARI	0001067	Chronic post-COVID-19 syndrome	skos:exactMatch	omop	600589	manual	github:KrishnaTO
+ARI	0001067	Chronic post-COVID-19 syndrome	skos:exactMatch	DOID	0080848	manual	github:KrishnaTO
+ARI	0001067	Chronic post-COVID-19 syndrome	skos:exactMatch	MONDO	0100233	manual	github:KrishnaTO
+ARI	0001067	Chronic post-COVID-19 syndrome	skos:exactMatch	ncit	C179263	manual	github:KrishnaTO
+ARI	0001067	Chronic post-COVID-19 syndrome	skos:exactMatch	umls	C5433293	manual	github:KrishnaTO
+ARI	0001067	Chronic post-COVID-19 syndrome	skos:exactMatch	mesh	D000094024	manual	github:KrishnaTO
+ARI	0001068	Cogan's syndrome	skos:exactMatch	SNOMEDCT	405810005	manual	github:KrishnaTO
+ARI	0001068	Cogan's syndrome	skos:exactMatch	omop	4233620	manual	github:KrishnaTO
+ARI	0001068	Cogan's syndrome	skos:exactMatch	icd10cm	H16.32	manual	github:KrishnaTO
+ARI	0001068	Cogan's syndrome	skos:exactMatch	ORPHA	1467	manual	github:KrishnaTO
+ARI	0001068	Cogan's syndrome	skos:exactMatch	mesh	D055952	manual	github:KrishnaTO
 ARI	0001063	Chronic inflammatory demyelinating polyradiculoneuropathy	skos:exactMatch	SNOMEDCT	230564004	manual-negative	github:KrishnaTO
 ARI	0001063	Chronic inflammatory demyelinating polyradiculoneuropathy	skos:exactMatch	omop	4048024	manual-negative	github:KrishnaTO
 ARI	0001063	Chronic inflammatory demyelinating polyradiculoneuropathy	skos:exactMatch	icd10cm	357.81	manual-negative	github:KrishnaTO
 ARI	0001066	Chronic multifocal osteomyelitis	skos:exactMatch	OMIM	609628	manual-negative	github:KrishnaTO
+ARI	0001068	Cogan's syndrome	skos:exactMatch	icd10cm	370.52	manual-negative	github:KrishnaTO
+ARI	0001068	Cogan's syndrome	skos:exactMatch	umls	C0155089	manual-negative	github:KrishnaTO
