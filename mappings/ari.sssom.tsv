@@ -397,3 +397,12 @@ ARI:0001071	Complex regional pain syndrome	skos:exactMatch	Not	SNOMEDCT:40875100
 ARI:0001071	Complex regional pain syndrome	skos:exactMatch	Not	SNOMEDCT:734947007	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
 ARI:0001071	Complex regional pain syndrome	skos:exactMatch	Not	omop:42536233	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
 ARI:0001071	Complex regional pain syndrome	skos:exactMatch	Not	omop:4256912	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
+ARI:0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch		omop:28660	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-03
+ARI:0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch		DOID:0090110	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-03
+ARI:0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch		mesh:C580192	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-03
+ARI:0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch		OMIM:304790	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-03
+ARI:0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch		ORPHA:37042	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-03
+ARI:0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch		ncit:C131009	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-03
+ARI:0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch		MONDO:0010580	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-03
+ARI:0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch	Not	SNOMEDCT:237618001	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-03
+ARI:0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch	Not	icd10cm:E31.0	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-03
