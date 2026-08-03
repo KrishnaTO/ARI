@@ -386,7 +386,7 @@ ARI	0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Synd
 ARI	0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch	ORPHA	37042	manual	github:AnjaliRH
 ARI	0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch	ncit	C131009	manual	github:AnjaliRH
 ARI	0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch	MONDO	0010580	manual	github:AnjaliRH
-ARI	0001105	Immune checkpoint inhibitor-induced autoimmunity	skos:exactMatch	mesh	null	manual	github:AnjaliRH
+ARI	0001105	Immune checkpoint inhibitor-induced autoimmunity	skos:exactMatch	mesh	C580192	manual	github:AnjaliRH
 ARI	0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch	OMIM	304790	manual	github:AnjaliRH
 ARI	0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch	umls	C0342288	manual	github:AnjaliRH
 ARI	0001108	Immunoglobulin A vasculitis	skos:exactMatch	SNOMEDCT	191306005	manual	github:AnjaliRH
