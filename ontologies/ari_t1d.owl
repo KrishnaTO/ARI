@@ -6387,6 +6387,7 @@ Cicatricial pemphigoid is usually not chronic, and most patients symptoms disapp
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C5395057</ARI_UMLS>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-03 00:02 | user | Edited: umls</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-03 00:19 | KrishnaTO | Cross-reference review: confirmed SNOMED 838312001; confirmed OMOP 3654620</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-03 00:20 | KrishnaTO | Cross-reference review: confirmed SNOMED 838312001; confirmed OMOP 3654620</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001060">
@@ -6438,6 +6439,7 @@ The first reports of narcolepsy being an autoimmune disease came in 2013, but re
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D009290</ARI_MESH>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-03 00:12 | user | Edited: mesh</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-03 00:19 | KrishnaTO | Cross-reference review: confirmed SNOMED 193042000; confirmed OMOP 437854; confirmed MONDO 0016158; confirmed ICD10 G47.411; confirmed ORPHANET 2073; confirmed UMLS C0751362; flagged SNOMED 735676003; flagged OMOP 42536721</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-03 00:20 | KrishnaTO | Cross-reference review: confirmed SNOMED 193042000; confirmed OMOP 437854; confirmed MONDO 0016158; confirmed ICD10 G47.411; confirmed ORPHANET 2073; confirmed UMLS C0751362; flagged SNOMED 735676003; flagged OMOP 42536721</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001060_462">
@@ -6566,6 +6568,7 @@ CD is generally treated by eliminating gluten from the diet.  Patients with an e
   <ARI_OMIM rdf:datatype="http://www.w3.org/2001/XMLSchema#string">212750</ARI_OMIM>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-03 00:18 | user | Edited: omim</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-03 00:19 | KrishnaTO | Cross-reference review: confirmed SNOMED 396331005; confirmed OMOP 194992; confirmed DOID 10608; confirmed MONDO 0005130; confirmed NCI C26714; confirmed ICD10 K90.0; confirmed ORPHANET 555; confirmed UMLS C0007570; confirmed MESH D002446; flagged SNOMED 91867008; flagged OMOP 4241413; flagged ICD10 579.0</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-03 00:20 | KrishnaTO | Cross-reference review: confirmed SNOMED 396331005; confirmed OMOP 194992; confirmed DOID 10608; confirmed MONDO 0005130; confirmed NCI C26714; confirmed ICD10 K90.0; confirmed ORPHANET 555; confirmed UMLS C0007570; confirmed MESH D002446; flagged SNOMED 91867008; flagged OMOP 4241413; flagged ICD10 579.0</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001061_468">
