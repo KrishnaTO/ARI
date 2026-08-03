@@ -380,3 +380,4 @@ ARI	0001071	Complex regional pain syndrome	skos:exactMatch	omop	42536233	manual-
 ARI	0001071	Complex regional pain syndrome	skos:exactMatch	omop	4256912	manual-negative	github:KrishnaTO
 ARI	0001072	COPA syndrome	skos:exactMatch	DOID	0081242	manual	github:KrishnaTO
 ARI	0001072	COPA syndrome	skos:exactMatch	OMIM	616414	manual-negative	github:KrishnaTO
+ARI	0001212	CREST Syndrome	skos:exactMatch	SNOMEDCT	62382002	manual-negative	github:KrishnaTO
