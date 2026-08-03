@@ -383,5 +383,17 @@ ARI:0001070	Combined immunodeficiency due to LRBA deficiency	skos:exactMatch		MO
 ARI:0001070	Combined immunodeficiency due to LRBA deficiency	skos:exactMatch		ORPHA:445018	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
 ARI:0001070	Combined immunodeficiency due to LRBA deficiency	skos:exactMatch		OMIM:614700	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
 ARI:0001070	Combined immunodeficiency due to LRBA deficiency	skos:exactMatch		umls:C3553512	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
+ARI:0001071	Complex regional pain syndrome	skos:exactMatch		SNOMEDCT:128200000	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
+ARI:0001071	Complex regional pain syndrome	skos:exactMatch		omop:4134577	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
+ARI:0001071	Complex regional pain syndrome	skos:exactMatch		DOID:3223	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
+ARI:0001071	Complex regional pain syndrome	skos:exactMatch		MONDO:0019369	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
+ARI:0001071	Complex regional pain syndrome	skos:exactMatch		ncit:C206547	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
+ARI:0001071	Complex regional pain syndrome	skos:exactMatch		ORPHA:83452	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
+ARI:0001071	Complex regional pain syndrome	skos:exactMatch		umls:C0458219	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
+ARI:0001071	Complex regional pain syndrome	skos:exactMatch		mesh:D020918	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
 ARI:0001069	Cold agglutinin disease	skos:exactMatch	Not	SNOMEDCT:127055007	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
 ARI:0001069	Cold agglutinin disease	skos:exactMatch	Not	omop:4131128	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
+ARI:0001071	Complex regional pain syndrome	skos:exactMatch	Not	SNOMEDCT:408751001	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
+ARI:0001071	Complex regional pain syndrome	skos:exactMatch	Not	SNOMEDCT:734947007	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
+ARI:0001071	Complex regional pain syndrome	skos:exactMatch	Not	omop:42536233	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
+ARI:0001071	Complex regional pain syndrome	skos:exactMatch	Not	omop:4256912	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
