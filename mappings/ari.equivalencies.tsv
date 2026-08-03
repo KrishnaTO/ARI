@@ -378,3 +378,12 @@ ARI	0001071	Complex regional pain syndrome	skos:exactMatch	SNOMEDCT	408751001	ma
 ARI	0001071	Complex regional pain syndrome	skos:exactMatch	SNOMEDCT	734947007	manual-negative	github:KrishnaTO
 ARI	0001071	Complex regional pain syndrome	skos:exactMatch	omop	42536233	manual-negative	github:KrishnaTO
 ARI	0001071	Complex regional pain syndrome	skos:exactMatch	omop	4256912	manual-negative	github:KrishnaTO
+ARI	0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch	omop	28660	manual	github:AnjaliRH
+ARI	0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch	DOID	0090110	manual	github:AnjaliRH
+ARI	0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch	mesh	C580192	manual	github:AnjaliRH
+ARI	0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch	OMIM	304790	manual	github:AnjaliRH
+ARI	0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch	ORPHA	37042	manual	github:AnjaliRH
+ARI	0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch	ncit	C131009	manual	github:AnjaliRH
+ARI	0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch	MONDO	0010580	manual	github:AnjaliRH
+ARI	0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch	SNOMEDCT	237618001	manual-negative	github:AnjaliRH
+ARI	0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch	icd10cm	E31.0	manual-negative	github:AnjaliRH
