@@ -357,5 +357,12 @@ ARI	0001069	Cold agglutinin disease	skos:exactMatch	ncit	C208228	manual	github:K
 ARI	0001069	Cold agglutinin disease	skos:exactMatch	icd10cm	D59.12	manual	github:KrishnaTO
 ARI	0001069	Cold agglutinin disease	skos:exactMatch	ORPHA	56425	manual	github:KrishnaTO
 ARI	0001069	Cold agglutinin disease	skos:exactMatch	umls	C0175816	manual	github:KrishnaTO
+ARI	0001070	Combined immunodeficiency due to LRBA deficiency	skos:exactMatch	SNOMEDCT	1197477000	manual	github:KrishnaTO
+ARI	0001070	Combined immunodeficiency due to LRBA deficiency	skos:exactMatch	omop	37162777	manual	github:KrishnaTO
+ARI	0001070	Combined immunodeficiency due to LRBA deficiency	skos:exactMatch	DOID	0081151	manual	github:KrishnaTO
+ARI	0001070	Combined immunodeficiency due to LRBA deficiency	skos:exactMatch	MONDO	0013863	manual	github:KrishnaTO
+ARI	0001070	Combined immunodeficiency due to LRBA deficiency	skos:exactMatch	ORPHA	445018	manual	github:KrishnaTO
+ARI	0001070	Combined immunodeficiency due to LRBA deficiency	skos:exactMatch	OMIM	614700	manual	github:KrishnaTO
+ARI	0001070	Combined immunodeficiency due to LRBA deficiency	skos:exactMatch	umls	C3553512	manual	github:KrishnaTO
 ARI	0001069	Cold agglutinin disease	skos:exactMatch	SNOMEDCT	127055007	manual-negative	github:KrishnaTO
 ARI	0001069	Cold agglutinin disease	skos:exactMatch	omop	4131128	manual-negative	github:KrishnaTO
