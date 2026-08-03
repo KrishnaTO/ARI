@@ -378,6 +378,9 @@ ARI	0001071	Complex regional pain syndrome	skos:exactMatch	SNOMEDCT	408751001	ma
 ARI	0001071	Complex regional pain syndrome	skos:exactMatch	SNOMEDCT	734947007	manual-negative	github:KrishnaTO
 ARI	0001071	Complex regional pain syndrome	skos:exactMatch	omop	42536233	manual-negative	github:KrishnaTO
 ARI	0001071	Complex regional pain syndrome	skos:exactMatch	omop	4256912	manual-negative	github:KrishnaTO
+ARI	0001072	COPA syndrome	skos:exactMatch	DOID	0081242	manual	github:KrishnaTO
+ARI	0001072	COPA syndrome	skos:exactMatch	OMIM	616414	manual-negative	github:KrishnaTO
+ARI	0001212	CREST Syndrome	skos:exactMatch	SNOMEDCT	62382002	manual-negative	github:KrishnaTO
 ARI	0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch	omop	28660	manual	github:AnjaliRH
 ARI	0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch	DOID	0090110	manual	github:AnjaliRH
 ARI	0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch	ORPHA	37042	manual	github:AnjaliRH
@@ -406,6 +409,8 @@ ARI	0001112	Inflammatory Bowel Disease	skos:exactMatch	DOID	0050589	manual	githu
 ARI	0001113	Insulin autoimmune syndrome	skos:exactMatch	DOID	0040100	manual	github:AnjaliRH
 ARI	0001115	Intermediate uveitis	skos:exactMatch	DOID	12732	manual	github:AnjaliRH
 ARI	0001116	Interstitial lung disease	skos:exactMatch	DOID	3082	manual	github:AnjaliRH
+ARI	0001116	Interstitial lung disease	skos:exactMatch	ncit	C164315	manual	github:AnjaliRH
+ARI	0001115	Intermediate uveitis	skos:exactMatch	ncit	C35110	manual	github:AnjaliRH
 ARI	0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch	SNOMEDCT	237618001	manual-negative	github:AnjaliRH
 ARI	0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch	icd10cm	E31.0	manual-negative	github:AnjaliRH
 ARI	0001107	Immune thrombocytopenia	skos:exactMatch	DOID	8924	manual-negative	github:AnjaliRH
