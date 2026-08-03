@@ -350,3 +350,12 @@ ARI	0001063	Chronic inflammatory demyelinating polyradiculoneuropathy	skos:exact
 ARI	0001066	Chronic multifocal osteomyelitis	skos:exactMatch	OMIM	609628	manual-negative	github:KrishnaTO
 ARI	0001068	Cogan's syndrome	skos:exactMatch	icd10cm	370.52	manual-negative	github:KrishnaTO
 ARI	0001068	Cogan's syndrome	skos:exactMatch	umls	C0155089	manual-negative	github:KrishnaTO
+ARI	0001069	Cold agglutinin disease	skos:exactMatch	SNOMEDCT	398937006	manual	github:KrishnaTO
+ARI	0001069	Cold agglutinin disease	skos:exactMatch	omop	4160887	manual	github:KrishnaTO
+ARI	0001069	Cold agglutinin disease	skos:exactMatch	MONDO	0018922	manual	github:KrishnaTO
+ARI	0001069	Cold agglutinin disease	skos:exactMatch	ncit	C208228	manual	github:KrishnaTO
+ARI	0001069	Cold agglutinin disease	skos:exactMatch	icd10cm	D59.12	manual	github:KrishnaTO
+ARI	0001069	Cold agglutinin disease	skos:exactMatch	ORPHA	56425	manual	github:KrishnaTO
+ARI	0001069	Cold agglutinin disease	skos:exactMatch	umls	C0175816	manual	github:KrishnaTO
+ARI	0001069	Cold agglutinin disease	skos:exactMatch	SNOMEDCT	127055007	manual-negative	github:KrishnaTO
+ARI	0001069	Cold agglutinin disease	skos:exactMatch	omop	4131128	manual-negative	github:KrishnaTO
