@@ -364,5 +364,17 @@ ARI	0001070	Combined immunodeficiency due to LRBA deficiency	skos:exactMatch	MON
 ARI	0001070	Combined immunodeficiency due to LRBA deficiency	skos:exactMatch	ORPHA	445018	manual	github:KrishnaTO
 ARI	0001070	Combined immunodeficiency due to LRBA deficiency	skos:exactMatch	OMIM	614700	manual	github:KrishnaTO
 ARI	0001070	Combined immunodeficiency due to LRBA deficiency	skos:exactMatch	umls	C3553512	manual	github:KrishnaTO
+ARI	0001071	Complex regional pain syndrome	skos:exactMatch	SNOMEDCT	128200000	manual	github:KrishnaTO
+ARI	0001071	Complex regional pain syndrome	skos:exactMatch	omop	4134577	manual	github:KrishnaTO
+ARI	0001071	Complex regional pain syndrome	skos:exactMatch	DOID	3223	manual	github:KrishnaTO
+ARI	0001071	Complex regional pain syndrome	skos:exactMatch	MONDO	0019369	manual	github:KrishnaTO
+ARI	0001071	Complex regional pain syndrome	skos:exactMatch	ncit	C206547	manual	github:KrishnaTO
+ARI	0001071	Complex regional pain syndrome	skos:exactMatch	ORPHA	83452	manual	github:KrishnaTO
+ARI	0001071	Complex regional pain syndrome	skos:exactMatch	umls	C0458219	manual	github:KrishnaTO
+ARI	0001071	Complex regional pain syndrome	skos:exactMatch	mesh	D020918	manual	github:KrishnaTO
 ARI	0001069	Cold agglutinin disease	skos:exactMatch	SNOMEDCT	127055007	manual-negative	github:KrishnaTO
 ARI	0001069	Cold agglutinin disease	skos:exactMatch	omop	4131128	manual-negative	github:KrishnaTO
+ARI	0001071	Complex regional pain syndrome	skos:exactMatch	SNOMEDCT	408751001	manual-negative	github:KrishnaTO
+ARI	0001071	Complex regional pain syndrome	skos:exactMatch	SNOMEDCT	734947007	manual-negative	github:KrishnaTO
+ARI	0001071	Complex regional pain syndrome	skos:exactMatch	omop	42536233	manual-negative	github:KrishnaTO
+ARI	0001071	Complex regional pain syndrome	skos:exactMatch	omop	4256912	manual-negative	github:KrishnaTO
