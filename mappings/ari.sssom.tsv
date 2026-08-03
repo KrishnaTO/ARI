@@ -331,3 +331,20 @@ ARI:0001065	Chronic Lyme disease	skos:exactMatch	Not	DOID:11729	semapv:ManualMap
 ARI:0001065	Chronic Lyme disease	skos:exactMatch	Not	icd10cm:088.81	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
 ARI:0001065	Chronic Lyme disease	skos:exactMatch	Not	icd10cm:A69.2	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
 ARI:0001065	Chronic Lyme disease	skos:exactMatch	Not	SNOMEDCT:1269516003	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
+ARI:0001063	Chronic inflammatory demyelinating polyradiculoneuropathy	skos:exactMatch		SNOMEDCT:128209004	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
+ARI:0001063	Chronic inflammatory demyelinating polyradiculoneuropathy	skos:exactMatch		omop:381009	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
+ARI:0001063	Chronic inflammatory demyelinating polyradiculoneuropathy	skos:exactMatch		DOID:5213	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
+ARI:0001063	Chronic inflammatory demyelinating polyradiculoneuropathy	skos:exactMatch		MONDO:0006702	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
+ARI:0001063	Chronic inflammatory demyelinating polyradiculoneuropathy	skos:exactMatch		ncit:C84636	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
+ARI:0001063	Chronic inflammatory demyelinating polyradiculoneuropathy	skos:exactMatch		icd10cm:G61.81	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
+ARI:0001063	Chronic inflammatory demyelinating polyradiculoneuropathy	skos:exactMatch		ORPHA:2932	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
+ARI:0001063	Chronic inflammatory demyelinating polyradiculoneuropathy	skos:exactMatch		umls:C0393819	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
+ARI:0001063	Chronic inflammatory demyelinating polyradiculoneuropathy	skos:exactMatch		mesh:D020277	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
+ARI:0001064	Chronic interstitial cystitis	skos:exactMatch		SNOMEDCT:38731000087104	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
+ARI:0001064	Chronic interstitial cystitis	skos:exactMatch		omop:1450471	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
+ARI:0001064	Chronic interstitial cystitis	skos:exactMatch		MONDO:0018301	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
+ARI:0001064	Chronic interstitial cystitis	skos:exactMatch		ncit:C27189	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
+ARI:0001064	Chronic interstitial cystitis	skos:exactMatch		ORPHA:37202	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
+ARI:0001063	Chronic inflammatory demyelinating polyradiculoneuropathy	skos:exactMatch	Not	SNOMEDCT:230564004	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
+ARI:0001063	Chronic inflammatory demyelinating polyradiculoneuropathy	skos:exactMatch	Not	omop:4048024	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
+ARI:0001063	Chronic inflammatory demyelinating polyradiculoneuropathy	skos:exactMatch	Not	icd10cm:357.81	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
