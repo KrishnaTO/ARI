@@ -397,6 +397,9 @@ ARI:0001071	Complex regional pain syndrome	skos:exactMatch	Not	SNOMEDCT:40875100
 ARI:0001071	Complex regional pain syndrome	skos:exactMatch	Not	SNOMEDCT:734947007	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
 ARI:0001071	Complex regional pain syndrome	skos:exactMatch	Not	omop:42536233	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
 ARI:0001071	Complex regional pain syndrome	skos:exactMatch	Not	omop:4256912	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
+ARI:0001072	COPA syndrome	skos:exactMatch		DOID:0081242	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
+ARI:0001072	COPA syndrome	skos:exactMatch	Not	OMIM:616414	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
+ARI:0001212	CREST Syndrome	skos:exactMatch	Not	SNOMEDCT:62382002	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
 ARI:0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch		omop:28660	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-03
 ARI:0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch		DOID:0090110	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-03
 ARI:0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch		ORPHA:37042	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-03
@@ -425,6 +428,8 @@ ARI:0001112	Inflammatory Bowel Disease	skos:exactMatch		DOID:0050589	semapv:Manu
 ARI:0001113	Insulin autoimmune syndrome	skos:exactMatch		DOID:0040100	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-03
 ARI:0001115	Intermediate uveitis	skos:exactMatch		DOID:12732	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-03
 ARI:0001116	Interstitial lung disease	skos:exactMatch		DOID:3082	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-03
+ARI:0001116	Interstitial lung disease	skos:exactMatch		ncit:C164315	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-03
+ARI:0001115	Intermediate uveitis	skos:exactMatch		ncit:C35110	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-03
 ARI:0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch	Not	SNOMEDCT:237618001	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-03
 ARI:0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch	Not	icd10cm:E31.0	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-03
 ARI:0001107	Immune thrombocytopenia	skos:exactMatch	Not	DOID:8924	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-03
