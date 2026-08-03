@@ -351,7 +351,21 @@ ARI:0001066	Chronic multifocal osteomyelitis	skos:exactMatch		MONDO:0009813	sema
 ARI:0001066	Chronic multifocal osteomyelitis	skos:exactMatch		ncit:C119042	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
 ARI:0001066	Chronic multifocal osteomyelitis	skos:exactMatch		ORPHA:324964	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
 ARI:0001066	Chronic multifocal osteomyelitis	skos:exactMatch		umls:C0410422	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
+ARI:0001067	Chronic post-COVID-19 syndrome	skos:exactMatch		SNOMEDCT:1119304009	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
+ARI:0001067	Chronic post-COVID-19 syndrome	skos:exactMatch		omop:600589	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
+ARI:0001067	Chronic post-COVID-19 syndrome	skos:exactMatch		DOID:0080848	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
+ARI:0001067	Chronic post-COVID-19 syndrome	skos:exactMatch		MONDO:0100233	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
+ARI:0001067	Chronic post-COVID-19 syndrome	skos:exactMatch		ncit:C179263	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
+ARI:0001067	Chronic post-COVID-19 syndrome	skos:exactMatch		umls:C5433293	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
+ARI:0001067	Chronic post-COVID-19 syndrome	skos:exactMatch		mesh:D000094024	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
+ARI:0001068	Cogan's syndrome	skos:exactMatch		SNOMEDCT:405810005	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
+ARI:0001068	Cogan's syndrome	skos:exactMatch		omop:4233620	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
+ARI:0001068	Cogan's syndrome	skos:exactMatch		icd10cm:H16.32	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
+ARI:0001068	Cogan's syndrome	skos:exactMatch		ORPHA:1467	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
+ARI:0001068	Cogan's syndrome	skos:exactMatch		mesh:D055952	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
 ARI:0001063	Chronic inflammatory demyelinating polyradiculoneuropathy	skos:exactMatch	Not	SNOMEDCT:230564004	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
 ARI:0001063	Chronic inflammatory demyelinating polyradiculoneuropathy	skos:exactMatch	Not	omop:4048024	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
 ARI:0001063	Chronic inflammatory demyelinating polyradiculoneuropathy	skos:exactMatch	Not	icd10cm:357.81	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
 ARI:0001066	Chronic multifocal osteomyelitis	skos:exactMatch	Not	OMIM:609628	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
+ARI:0001068	Cogan's syndrome	skos:exactMatch	Not	icd10cm:370.52	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
+ARI:0001068	Cogan's syndrome	skos:exactMatch	Not	umls:C0155089	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
