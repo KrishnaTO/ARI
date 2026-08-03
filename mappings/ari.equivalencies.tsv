@@ -312,3 +312,20 @@ ARI	0001065	Chronic Lyme disease	skos:exactMatch	DOID	11729	manual-negative	gith
 ARI	0001065	Chronic Lyme disease	skos:exactMatch	icd10cm	088.81	manual-negative	github:KrishnaTO
 ARI	0001065	Chronic Lyme disease	skos:exactMatch	icd10cm	A69.2	manual-negative	github:KrishnaTO
 ARI	0001065	Chronic Lyme disease	skos:exactMatch	SNOMEDCT	1269516003	manual-negative	github:KrishnaTO
+ARI	0001063	Chronic inflammatory demyelinating polyradiculoneuropathy	skos:exactMatch	SNOMEDCT	128209004	manual	github:KrishnaTO
+ARI	0001063	Chronic inflammatory demyelinating polyradiculoneuropathy	skos:exactMatch	omop	381009	manual	github:KrishnaTO
+ARI	0001063	Chronic inflammatory demyelinating polyradiculoneuropathy	skos:exactMatch	DOID	5213	manual	github:KrishnaTO
+ARI	0001063	Chronic inflammatory demyelinating polyradiculoneuropathy	skos:exactMatch	MONDO	0006702	manual	github:KrishnaTO
+ARI	0001063	Chronic inflammatory demyelinating polyradiculoneuropathy	skos:exactMatch	ncit	C84636	manual	github:KrishnaTO
+ARI	0001063	Chronic inflammatory demyelinating polyradiculoneuropathy	skos:exactMatch	icd10cm	G61.81	manual	github:KrishnaTO
+ARI	0001063	Chronic inflammatory demyelinating polyradiculoneuropathy	skos:exactMatch	ORPHA	2932	manual	github:KrishnaTO
+ARI	0001063	Chronic inflammatory demyelinating polyradiculoneuropathy	skos:exactMatch	umls	C0393819	manual	github:KrishnaTO
+ARI	0001063	Chronic inflammatory demyelinating polyradiculoneuropathy	skos:exactMatch	mesh	D020277	manual	github:KrishnaTO
+ARI	0001064	Chronic interstitial cystitis	skos:exactMatch	SNOMEDCT	38731000087104	manual	github:KrishnaTO
+ARI	0001064	Chronic interstitial cystitis	skos:exactMatch	omop	1450471	manual	github:KrishnaTO
+ARI	0001064	Chronic interstitial cystitis	skos:exactMatch	MONDO	0018301	manual	github:KrishnaTO
+ARI	0001064	Chronic interstitial cystitis	skos:exactMatch	ncit	C27189	manual	github:KrishnaTO
+ARI	0001064	Chronic interstitial cystitis	skos:exactMatch	ORPHA	37202	manual	github:KrishnaTO
+ARI	0001063	Chronic inflammatory demyelinating polyradiculoneuropathy	skos:exactMatch	SNOMEDCT	230564004	manual-negative	github:KrishnaTO
+ARI	0001063	Chronic inflammatory demyelinating polyradiculoneuropathy	skos:exactMatch	omop	4048024	manual-negative	github:KrishnaTO
+ARI	0001063	Chronic inflammatory demyelinating polyradiculoneuropathy	skos:exactMatch	icd10cm	357.81	manual-negative	github:KrishnaTO
