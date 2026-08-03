@@ -397,3 +397,6 @@ ARI:0001071	Complex regional pain syndrome	skos:exactMatch	Not	SNOMEDCT:40875100
 ARI:0001071	Complex regional pain syndrome	skos:exactMatch	Not	SNOMEDCT:734947007	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
 ARI:0001071	Complex regional pain syndrome	skos:exactMatch	Not	omop:42536233	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
 ARI:0001071	Complex regional pain syndrome	skos:exactMatch	Not	omop:4256912	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
+ARI:0001072	COPA syndrome	skos:exactMatch		DOID:0081242	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
+ARI:0001072	COPA syndrome	skos:exactMatch	Not	OMIM:616414	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
+ARI:0001212	CREST Syndrome	skos:exactMatch	Not	SNOMEDCT:62382002	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
