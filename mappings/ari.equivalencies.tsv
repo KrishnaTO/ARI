@@ -326,6 +326,13 @@ ARI	0001064	Chronic interstitial cystitis	skos:exactMatch	omop	1450471	manual	gi
 ARI	0001064	Chronic interstitial cystitis	skos:exactMatch	MONDO	0018301	manual	github:KrishnaTO
 ARI	0001064	Chronic interstitial cystitis	skos:exactMatch	ncit	C27189	manual	github:KrishnaTO
 ARI	0001064	Chronic interstitial cystitis	skos:exactMatch	ORPHA	37202	manual	github:KrishnaTO
+ARI	0001066	Chronic multifocal osteomyelitis	skos:exactMatch	SNOMEDCT	1204420006	manual	github:KrishnaTO
+ARI	0001066	Chronic multifocal osteomyelitis	skos:exactMatch	omop	37163124	manual	github:KrishnaTO
+ARI	0001066	Chronic multifocal osteomyelitis	skos:exactMatch	MONDO	0009813	manual	github:KrishnaTO
+ARI	0001066	Chronic multifocal osteomyelitis	skos:exactMatch	ncit	C119042	manual	github:KrishnaTO
+ARI	0001066	Chronic multifocal osteomyelitis	skos:exactMatch	ORPHA	324964	manual	github:KrishnaTO
+ARI	0001066	Chronic multifocal osteomyelitis	skos:exactMatch	umls	C0410422	manual	github:KrishnaTO
 ARI	0001063	Chronic inflammatory demyelinating polyradiculoneuropathy	skos:exactMatch	SNOMEDCT	230564004	manual-negative	github:KrishnaTO
 ARI	0001063	Chronic inflammatory demyelinating polyradiculoneuropathy	skos:exactMatch	omop	4048024	manual-negative	github:KrishnaTO
 ARI	0001063	Chronic inflammatory demyelinating polyradiculoneuropathy	skos:exactMatch	icd10cm	357.81	manual-negative	github:KrishnaTO
+ARI	0001066	Chronic multifocal osteomyelitis	skos:exactMatch	OMIM	609628	manual-negative	github:KrishnaTO
