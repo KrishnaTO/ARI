@@ -276,3 +276,25 @@ ARI	0001093	Felty syndrome	skos:exactMatch	icd10cm	M05.0	manual-negative	github:
 ARI	0001093	Felty syndrome	skos:exactMatch	OMIM	134750	manual-negative	github:Jennyzeng25
 ARI	0001093	Felty syndrome	skos:exactMatch	umls	C0015773	manual-negative	github:Jennyzeng25
 ARI	0001094	Female infertility due to antisperm antibodies	skos:exactMatch	DOID	null	manual-negative	github:Jennyzeng25
+ARI	0001059	Calcinosis due to childhood type dermatomyositis	skos:exactMatch	SNOMEDCT	838312001	manual	github:KrishnaTO
+ARI	0001059	Calcinosis due to childhood type dermatomyositis	skos:exactMatch	omop	3654620	manual	github:KrishnaTO
+ARI	0001060	Cataplexy and narcolepsy	skos:exactMatch	SNOMEDCT	193042000	manual	github:KrishnaTO
+ARI	0001060	Cataplexy and narcolepsy	skos:exactMatch	omop	437854	manual	github:KrishnaTO
+ARI	0001060	Cataplexy and narcolepsy	skos:exactMatch	MONDO	0016158	manual	github:KrishnaTO
+ARI	0001060	Cataplexy and narcolepsy	skos:exactMatch	icd10cm	G47.411	manual	github:KrishnaTO
+ARI	0001060	Cataplexy and narcolepsy	skos:exactMatch	ORPHA	2073	manual	github:KrishnaTO
+ARI	0001060	Cataplexy and narcolepsy	skos:exactMatch	umls	C0751362	manual	github:KrishnaTO
+ARI	0001061	Celiac disease	skos:exactMatch	SNOMEDCT	396331005	manual	github:KrishnaTO
+ARI	0001061	Celiac disease	skos:exactMatch	omop	194992	manual	github:KrishnaTO
+ARI	0001061	Celiac disease	skos:exactMatch	DOID	10608	manual	github:KrishnaTO
+ARI	0001061	Celiac disease	skos:exactMatch	MONDO	0005130	manual	github:KrishnaTO
+ARI	0001061	Celiac disease	skos:exactMatch	ncit	C26714	manual	github:KrishnaTO
+ARI	0001061	Celiac disease	skos:exactMatch	icd10cm	K90.0	manual	github:KrishnaTO
+ARI	0001061	Celiac disease	skos:exactMatch	ORPHA	555	manual	github:KrishnaTO
+ARI	0001061	Celiac disease	skos:exactMatch	umls	C0007570	manual	github:KrishnaTO
+ARI	0001061	Celiac disease	skos:exactMatch	mesh	D002446	manual	github:KrishnaTO
+ARI	0001060	Cataplexy and narcolepsy	skos:exactMatch	SNOMEDCT	735676003	manual-negative	github:KrishnaTO
+ARI	0001060	Cataplexy and narcolepsy	skos:exactMatch	omop	42536721	manual-negative	github:KrishnaTO
+ARI	0001061	Celiac disease	skos:exactMatch	SNOMEDCT	91867008	manual-negative	github:KrishnaTO
+ARI	0001061	Celiac disease	skos:exactMatch	omop	4241413	manual-negative	github:KrishnaTO
+ARI	0001061	Celiac disease	skos:exactMatch	icd10cm	579.0	manual-negative	github:KrishnaTO
