@@ -298,3 +298,17 @@ ARI	0001060	Cataplexy and narcolepsy	skos:exactMatch	omop	42536721	manual-negati
 ARI	0001061	Celiac disease	skos:exactMatch	SNOMEDCT	91867008	manual-negative	github:KrishnaTO
 ARI	0001061	Celiac disease	skos:exactMatch	omop	4241413	manual-negative	github:KrishnaTO
 ARI	0001061	Celiac disease	skos:exactMatch	icd10cm	579.0	manual-negative	github:KrishnaTO
+ARI	0001062	Chronic Fatigue Syndrome	skos:exactMatch	SNOMEDCT	52702003	manual	github:KrishnaTO
+ARI	0001062	Chronic Fatigue Syndrome	skos:exactMatch	omop	432738	manual	github:KrishnaTO
+ARI	0001062	Chronic Fatigue Syndrome	skos:exactMatch	DOID	8544	manual	github:KrishnaTO
+ARI	0001062	Chronic Fatigue Syndrome	skos:exactMatch	MONDO	0005404	manual	github:KrishnaTO
+ARI	0001062	Chronic Fatigue Syndrome	skos:exactMatch	ncit	C3037	manual	github:KrishnaTO
+ARI	0001062	Chronic Fatigue Syndrome	skos:exactMatch	icd10cm	G93.32	manual	github:KrishnaTO
+ARI	0001062	Chronic Fatigue Syndrome	skos:exactMatch	ORPHA	1983	manual	github:KrishnaTO
+ARI	0001062	Chronic Fatigue Syndrome	skos:exactMatch	umls	C0015674	manual	github:KrishnaTO
+ARI	0001062	Chronic Fatigue Syndrome	skos:exactMatch	mesh	D015673	manual	github:KrishnaTO
+ARI	0001062	Chronic Fatigue Syndrome	skos:exactMatch	icd10cm	780.71	manual-negative	github:KrishnaTO
+ARI	0001065	Chronic Lyme disease	skos:exactMatch	DOID	11729	manual-negative	github:KrishnaTO
+ARI	0001065	Chronic Lyme disease	skos:exactMatch	icd10cm	088.81	manual-negative	github:KrishnaTO
+ARI	0001065	Chronic Lyme disease	skos:exactMatch	icd10cm	A69.2	manual-negative	github:KrishnaTO
+ARI	0001065	Chronic Lyme disease	skos:exactMatch	SNOMEDCT	1269516003	manual-negative	github:KrishnaTO
