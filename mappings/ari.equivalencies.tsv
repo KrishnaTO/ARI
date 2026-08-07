@@ -383,12 +383,7 @@ ARI	0001072	COPA syndrome	skos:exactMatch	OMIM	616414	manual-negative	github:Kri
 ARI	0001212	CREST Syndrome	skos:exactMatch	SNOMEDCT	62382002	manual-negative	github:KrishnaTO
 ARI	0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch	omop	28660	manual	github:AnjaliRH
 ARI	0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch	DOID	0090110	manual	github:AnjaliRH
-ARI	0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch	ORPHA	37042	manual	github:AnjaliRH
-ARI	0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch	ncit	C131009	manual	github:AnjaliRH
-ARI	0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch	MONDO	0010580	manual	github:AnjaliRH
-ARI	0001105	Immune checkpoint inhibitor-induced autoimmunity	skos:exactMatch	mesh	C580192	manual	github:AnjaliRH
-ARI	0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch	OMIM	304790	manual	github:AnjaliRH
-ARI	0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch	umls	C0342288	manual	github:AnjaliRH
+ARI	0001105	Immune checkpoint inhibitor-induced autoimmunity	skos:exactMatch	mesh	null	manual	github:AnjaliRH
 ARI	0001108	Immunoglobulin A vasculitis	skos:exactMatch	SNOMEDCT	191306005	manual	github:AnjaliRH
 ARI	0001110	Immunoglobulin G4 related ophthalmic disease	skos:exactMatch	SNOMEDCT	1187510006	manual	github:AnjaliRH
 ARI	0001111	Inclusion body myositis	skos:exactMatch	SNOMEDCT	72315009	manual	github:AnjaliRH
@@ -411,7 +406,16 @@ ARI	0001115	Intermediate uveitis	skos:exactMatch	DOID	12732	manual	github:Anjali
 ARI	0001116	Interstitial lung disease	skos:exactMatch	DOID	3082	manual	github:AnjaliRH
 ARI	0001116	Interstitial lung disease	skos:exactMatch	ncit	C164315	manual	github:AnjaliRH
 ARI	0001115	Intermediate uveitis	skos:exactMatch	ncit	C35110	manual	github:AnjaliRH
+ARI	0001110	Immunoglobulin G4 related ophthalmic disease	skos:exactMatch	mesh	null	manual	github:AnjaliRH
+ARI	0001111	Inclusion body myositis	skos:exactMatch	mesh	D018979	manual	github:AnjaliRH
+ARI	0001112	Inflammatory Bowel Disease	skos:exactMatch	mesh	D015212	manual	github:AnjaliRH
+ARI	0001113	Insulin autoimmune syndrome	skos:exactMatch	mesh	null	manual	github:AnjaliRH
+ARI	0001115	Intermediate uveitis	skos:exactMatch	mesh	D015867	manual	github:AnjaliRH
+ARI	0001116	Interstitial lung disease	skos:exactMatch	mesh	D017563	manual	github:AnjaliRH
+ARI	0001108	Immunoglobulin A vasculitis	skos:exactMatch	OMIM	null	manual	github:AnjaliRH
 ARI	0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch	SNOMEDCT	237618001	manual-negative	github:AnjaliRH
 ARI	0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch	icd10cm	E31.0	manual-negative	github:AnjaliRH
 ARI	0001107	Immune thrombocytopenia	skos:exactMatch	DOID	8924	manual-negative	github:AnjaliRH
 ARI	0001109	Immunoglobulin G4 related disease	skos:exactMatch	DOID	0080356	manual-negative	github:AnjaliRH
+ARI	0001107	Immune thrombocytopenia	skos:exactMatch	icd10cm	D69.3	manual-negative	github:AnjaliRH
+ARI	0001107	Immune thrombocytopenia	skos:exactMatch	icd10cm	287.31	manual-negative	github:AnjaliRH
