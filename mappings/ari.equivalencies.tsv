@@ -381,6 +381,25 @@ ARI	0001071	Complex regional pain syndrome	skos:exactMatch	omop	4256912	manual-n
 ARI	0001072	COPA syndrome	skos:exactMatch	DOID	0081242	manual	github:KrishnaTO
 ARI	0001072	COPA syndrome	skos:exactMatch	OMIM	616414	manual-negative	github:KrishnaTO
 ARI	0001212	CREST Syndrome	skos:exactMatch	SNOMEDCT	62382002	manual-negative	github:KrishnaTO
+ARI	0001095	Fibromyalgia	skos:exactMatch	SNOMEDCT	203082005	manual	github:Jennyzeng25
+ARI	0001095	Fibromyalgia	skos:exactMatch	omop	40405599	manual	github:Jennyzeng25
+ARI	0001095	Fibromyalgia	skos:exactMatch	DOID	631	manual	github:Jennyzeng25
+ARI	0001095	Fibromyalgia	skos:exactMatch	MONDO	0005546	manual	github:Jennyzeng25
+ARI	0001095	Fibromyalgia	skos:exactMatch	ncit	C87497	manual	github:Jennyzeng25
+ARI	0001095	Fibromyalgia	skos:exactMatch	icd10cm	M79.7	manual	github:Jennyzeng25
+ARI	0001095	Fibromyalgia	skos:exactMatch	mesh	D005356	manual	github:Jennyzeng25
+ARI	0003	Fulminant type 1 diabetes	skos:exactMatch	omop	37163452	manual	github:Jennyzeng25
+ARI	0001096	Graves' disease	skos:exactMatch	DOID	12361	manual	github:Jennyzeng25
+ARI	0001096	Graves' disease	skos:exactMatch	MONDO	0005364	manual	github:Jennyzeng25
+ARI	0001096	Graves' disease	skos:exactMatch	ncit	C3071	manual	github:Jennyzeng25
+ARI	0001096	Graves' disease	skos:exactMatch	icd10cm	E05.0	manual	github:Jennyzeng25
+ARI	0001096	Graves' disease	skos:exactMatch	OMIM	275000	manual	github:Jennyzeng25
+ARI	0001095	Fibromyalgia	skos:exactMatch	ORPHA	41842	manual	github:Jennyzeng25
+ARI	0001096	Graves' disease	skos:exactMatch	mesh	D006111	manual	github:Jennyzeng25
+ARI	0003	Fulminant type 1 diabetes	skos:exactMatch	SNOMEDCT	1217068008	manual-negative	github:Jennyzeng25
+ARI	0003	Fulminant type 1 diabetes	skos:exactMatch	DOID	null	manual-negative	github:Jennyzeng25
+ARI	0003	Fulminant type 1 diabetes	skos:exactMatch	MONDO	MONDO:0014523	manual-negative	github:Jennyzeng25
+ARI	0003	Fulminant type 1 diabetes	skos:exactMatch	icd10cm	E10	manual-negative	github:Jennyzeng25
 ARI	0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch	omop	28660	manual	github:AnjaliRH
 ARI	0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch	DOID	0090110	manual	github:AnjaliRH
 ARI	0001105	Immune checkpoint inhibitor-induced autoimmunity	skos:exactMatch	mesh	null	manual	github:AnjaliRH

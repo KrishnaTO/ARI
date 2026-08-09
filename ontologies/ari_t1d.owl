@@ -1625,6 +1625,11 @@
   <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MONDO:0014523</ARI_MONDO>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E10</ARI_ICD10>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-12 | System | Initial subtype entry</ARI_ChangeLog>
+  <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1217068008</ARI_SNOMED>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-04 17:42 | user | Edited: snomed</ARI_ChangeLog>
+  <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">37163452</ARI_OMOP>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-04 18:04 | user | Edited: omop</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-04 18:26 | Jennyzeng25 | Cross-reference review: confirmed OMOP 37163452; flagged SNOMED 1217068008; flagged DOID null; flagged MONDO MONDO:0014523; flagged ICD10 E10</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_Ful_DKA">
@@ -10101,6 +10106,7 @@ The disorder resembles a combination of autoimmune hemolytic anemia, thrombocyto
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-27 18:25 | user | Edited: orphanet</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-27 18:26 | Jennyzeng25 | Cross-reference review: confirmed SNOMED 57160007; confirmed OMOP 81097; confirmed DOID 11042; confirmed MONDO 0007603; confirmed NCI C84712; confirmed ORPHANET 47612; confirmed MESH D005258; flagged ICD10 M05.0; flagged OMIM 134750; flagged UMLS C0015773</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-31 15:41 | Jennyzeng25 | Cross-reference review: confirmed SNOMED 57160007; confirmed OMOP 81097; confirmed DOID 11042; confirmed MONDO 0007603; confirmed NCI C84712; confirmed ORPHANET 47612; confirmed MESH D005258; flagged ICD10 M05.0; flagged OMIM 134750; flagged UMLS C0015773</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-04 18:26 | Jennyzeng25 | Cross-reference review: confirmed SNOMED 57160007; confirmed OMOP 81097; confirmed DOID 11042; confirmed MONDO 0007603; confirmed NCI C84712; confirmed ORPHANET 47612; confirmed MESH D005258; flagged ICD10 M05.0; flagged OMIM 134750; flagged UMLS C0015773</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001093_864">
@@ -10182,6 +10188,7 @@ ASA is not a concern except for people trying to conceive.</rdfs:comment>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-27 18:31 | user | Edited: omop</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-31 15:37 | user | Edited: doid</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-31 15:41 | Jennyzeng25 | Cross-reference review: confirmed SNOMED 414238007; confirmed OMOP 4188008; flagged DOID null</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-04 18:26 | Jennyzeng25 | Cross-reference review: confirmed SNOMED 414238007; confirmed OMOP 4188008; flagged DOID null</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001095">
@@ -10228,6 +10235,12 @@ ASA is not a concern except for people trying to conceive.</rdfs:comment>
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2022-12</ARI_AuthorDate>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FM</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-04 16:59 | user | Edited: snomed</ARI_ChangeLog>
+  <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0005546</ARI_MONDO>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-04 17:02 | user | Edited: mondo</ARI_ChangeLog>
+  <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">41842</ARI_ORPHANET>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-04 18:23 | user | Edited: orphanet</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-04 18:26 | Jennyzeng25 | Cross-reference review: confirmed SNOMED 203082005; confirmed OMOP 40405599; confirmed DOID 631; confirmed MONDO 0005546; confirmed NCI C87497; confirmed ICD10 M79.7; confirmed MESH D005356; confirmed ORPHANET 41842</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001095_874">
@@ -10305,15 +10318,12 @@ ASA is not a concern except for people trying to conceive.</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graves' disease</rdfs:label>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
   <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001096</ARI_ID>
-  <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">237499004</ARI_SNOMED>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">353295004</ARI_SNOMED>
-  <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">90739004</ARI_SNOMED>
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12361</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0018213</ARI_UMLS>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E05.0</ARI_ICD10>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D006111</ARI_MESH>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C3071</ARI_NCI>
-  <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4232076, 138387, 4034811</ARI_OMOP>
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">353295004, 90739004, 237499004</ARI_DXCODE>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graves' disease is an autoimmune thyroid disorder that affects the thyroid gland.  The thyroid is responsible for producing hormones that regulate processes involved with energy storage and consumption (metabolism), including maintenance of weight, breathing, heart rate, and temperature. In Graves' disease, antibodies cause the thyroid to enlarge and to produce hormones, even when the body doesn't need them.  Excessive thyroid hormone production disrupts the regulation of metabolism.  The heart, skin, muscles, eyes, and other organs can be affected.  Patients often experience loss of weight, tiredness, and heat sensitivity.  Some patients develop Graves' ophthalmopathy, a subtype of Graves' disease characterized by protruding eyes. The cause of the disease is uncertain, but risk may increase with excessive stress, certain genes, infection, pregnancy, other autoimmune disorders, and smoking.  Graves' disease is more common in females than in males.  Graves' disease is a chronic condition with no cure, but symptoms are manageable through medication and surgery.</rdfs:comment>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Toxic diffuse goiter</ARI_Synonym>
@@ -10343,6 +10353,15 @@ ASA is not a concern except for people trying to conceive.</rdfs:comment>
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-09</ARI_AuthorDate>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GD</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-04 18:14 | user | Edited: snomed</ARI_ChangeLog>
+  <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4232076</ARI_OMOP>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-04 18:15 | user | Edited: omop</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-04 18:16 | user | Edited: doid</ARI_ChangeLog>
+  <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0005364</ARI_MONDO>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-04 18:19 | user | Edited: mondo</ARI_ChangeLog>
+  <ARI_OMIM rdf:datatype="http://www.w3.org/2001/XMLSchema#string">275000</ARI_OMIM>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-04 18:23 | user | Edited: omim</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-04 18:26 | Jennyzeng25 | Cross-reference review: confirmed SNOMED 353295004; confirmed OMOP 4232076; confirmed DOID 12361; confirmed MONDO 0005364; confirmed NCI C3071; confirmed ICD10 E05.0; confirmed OMIM 275000; confirmed MESH D006111</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001096_883">

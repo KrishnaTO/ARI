@@ -400,6 +400,25 @@ ARI:0001071	Complex regional pain syndrome	skos:exactMatch	Not	omop:4256912	sema
 ARI:0001072	COPA syndrome	skos:exactMatch		DOID:0081242	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
 ARI:0001072	COPA syndrome	skos:exactMatch	Not	OMIM:616414	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
 ARI:0001212	CREST Syndrome	skos:exactMatch	Not	SNOMEDCT:62382002	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
+ARI:0001095	Fibromyalgia	skos:exactMatch		SNOMEDCT:203082005	semapv:ManualMappingCuration	github:Jennyzeng25	2026-08-04
+ARI:0001095	Fibromyalgia	skos:exactMatch		omop:40405599	semapv:ManualMappingCuration	github:Jennyzeng25	2026-08-04
+ARI:0001095	Fibromyalgia	skos:exactMatch		DOID:631	semapv:ManualMappingCuration	github:Jennyzeng25	2026-08-04
+ARI:0001095	Fibromyalgia	skos:exactMatch		MONDO:0005546	semapv:ManualMappingCuration	github:Jennyzeng25	2026-08-04
+ARI:0001095	Fibromyalgia	skos:exactMatch		ncit:C87497	semapv:ManualMappingCuration	github:Jennyzeng25	2026-08-04
+ARI:0001095	Fibromyalgia	skos:exactMatch		icd10cm:M79.7	semapv:ManualMappingCuration	github:Jennyzeng25	2026-08-04
+ARI:0001095	Fibromyalgia	skos:exactMatch		mesh:D005356	semapv:ManualMappingCuration	github:Jennyzeng25	2026-08-04
+ARI:0003	Fulminant type 1 diabetes	skos:exactMatch		omop:37163452	semapv:ManualMappingCuration	github:Jennyzeng25	2026-08-04
+ARI:0001096	Graves' disease	skos:exactMatch		DOID:12361	semapv:ManualMappingCuration	github:Jennyzeng25	2026-08-04
+ARI:0001096	Graves' disease	skos:exactMatch		MONDO:0005364	semapv:ManualMappingCuration	github:Jennyzeng25	2026-08-04
+ARI:0001096	Graves' disease	skos:exactMatch		ncit:C3071	semapv:ManualMappingCuration	github:Jennyzeng25	2026-08-04
+ARI:0001096	Graves' disease	skos:exactMatch		icd10cm:E05.0	semapv:ManualMappingCuration	github:Jennyzeng25	2026-08-04
+ARI:0001096	Graves' disease	skos:exactMatch		OMIM:275000	semapv:ManualMappingCuration	github:Jennyzeng25	2026-08-04
+ARI:0001095	Fibromyalgia	skos:exactMatch		ORPHA:41842	semapv:ManualMappingCuration	github:Jennyzeng25	2026-08-04
+ARI:0001096	Graves' disease	skos:exactMatch		mesh:D006111	semapv:ManualMappingCuration	github:Jennyzeng25	2026-08-04
+ARI:0003	Fulminant type 1 diabetes	skos:exactMatch	Not	SNOMEDCT:1217068008	semapv:ManualMappingCuration	github:Jennyzeng25	2026-08-04
+ARI:0003	Fulminant type 1 diabetes	skos:exactMatch	Not	DOID:null	semapv:ManualMappingCuration	github:Jennyzeng25	2026-08-04
+ARI:0003	Fulminant type 1 diabetes	skos:exactMatch	Not	MONDO:MONDO:0014523	semapv:ManualMappingCuration	github:Jennyzeng25	2026-08-04
+ARI:0003	Fulminant type 1 diabetes	skos:exactMatch	Not	icd10cm:E10	semapv:ManualMappingCuration	github:Jennyzeng25	2026-08-04
 ARI:0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch		omop:28660	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07
 ARI:0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch		DOID:0090110	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07
 ARI:0001105	Immune checkpoint inhibitor-induced autoimmunity	skos:exactMatch		mesh:null	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07
