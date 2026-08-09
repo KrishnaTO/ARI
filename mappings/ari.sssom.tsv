@@ -419,3 +419,41 @@ ARI:0003	Fulminant type 1 diabetes	skos:exactMatch	Not	SNOMEDCT:1217068008	semap
 ARI:0003	Fulminant type 1 diabetes	skos:exactMatch	Not	DOID:null	semapv:ManualMappingCuration	github:Jennyzeng25	2026-08-04
 ARI:0003	Fulminant type 1 diabetes	skos:exactMatch	Not	MONDO:MONDO:0014523	semapv:ManualMappingCuration	github:Jennyzeng25	2026-08-04
 ARI:0003	Fulminant type 1 diabetes	skos:exactMatch	Not	icd10cm:E10	semapv:ManualMappingCuration	github:Jennyzeng25	2026-08-04
+ARI:0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch		omop:28660	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07
+ARI:0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch		DOID:0090110	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07
+ARI:0001105	Immune checkpoint inhibitor-induced autoimmunity	skos:exactMatch		mesh:null	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07
+ARI:0001108	Immunoglobulin A vasculitis	skos:exactMatch		SNOMEDCT:191306005	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07
+ARI:0001110	Immunoglobulin G4 related ophthalmic disease	skos:exactMatch		SNOMEDCT:1187510006	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07
+ARI:0001111	Inclusion body myositis	skos:exactMatch		SNOMEDCT:72315009	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07
+ARI:0001112	Inflammatory Bowel Disease	skos:exactMatch		SNOMEDCT:24526004	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07
+ARI:0001113	Insulin autoimmune syndrome	skos:exactMatch		SNOMEDCT:408539000	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07
+ARI:0001114	Insulin resistance - type B	skos:exactMatch		SNOMEDCT:237652003	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07
+ARI:0001116	Interstitial lung disease	skos:exactMatch		SNOMEDCT:233703007	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07
+ARI:0001108	Immunoglobulin A vasculitis	skos:exactMatch		omop:4101602	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07
+ARI:0001110	Immunoglobulin G4 related ophthalmic disease	skos:exactMatch		omop:37162346	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07
+ARI:0001111	Inclusion body myositis	skos:exactMatch		omop:4216406	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07
+ARI:0001112	Inflammatory Bowel Disease	skos:exactMatch		omop:4074815	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07
+ARI:0001113	Insulin autoimmune syndrome	skos:exactMatch		omop:4252384	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07
+ARI:0001114	Insulin resistance - type B	skos:exactMatch		omop:4129525	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07
+ARI:0001116	Interstitial lung disease	skos:exactMatch		omop:4119786	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07
+ARI:0001108	Immunoglobulin A vasculitis	skos:exactMatch		DOID:11123	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07
+ARI:0001111	Inclusion body myositis	skos:exactMatch		DOID:3429	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07
+ARI:0001112	Inflammatory Bowel Disease	skos:exactMatch		DOID:0050589	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07
+ARI:0001113	Insulin autoimmune syndrome	skos:exactMatch		DOID:0040100	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07
+ARI:0001115	Intermediate uveitis	skos:exactMatch		DOID:12732	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07
+ARI:0001116	Interstitial lung disease	skos:exactMatch		DOID:3082	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07
+ARI:0001116	Interstitial lung disease	skos:exactMatch		ncit:C164315	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07
+ARI:0001115	Intermediate uveitis	skos:exactMatch		ncit:C35110	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07
+ARI:0001110	Immunoglobulin G4 related ophthalmic disease	skos:exactMatch		mesh:null	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07
+ARI:0001111	Inclusion body myositis	skos:exactMatch		mesh:D018979	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07
+ARI:0001112	Inflammatory Bowel Disease	skos:exactMatch		mesh:D015212	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07
+ARI:0001113	Insulin autoimmune syndrome	skos:exactMatch		mesh:null	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07
+ARI:0001115	Intermediate uveitis	skos:exactMatch		mesh:D015867	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07
+ARI:0001116	Interstitial lung disease	skos:exactMatch		mesh:D017563	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07
+ARI:0001108	Immunoglobulin A vasculitis	skos:exactMatch		OMIM:null	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07
+ARI:0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch	Not	SNOMEDCT:237618001	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07
+ARI:0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch	Not	icd10cm:E31.0	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07
+ARI:0001107	Immune thrombocytopenia	skos:exactMatch	Not	DOID:8924	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07
+ARI:0001109	Immunoglobulin G4 related disease	skos:exactMatch	Not	DOID:0080356	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07
+ARI:0001107	Immune thrombocytopenia	skos:exactMatch	Not	icd10cm:D69.3	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07
+ARI:0001107	Immune thrombocytopenia	skos:exactMatch	Not	icd10cm:287.31	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07
