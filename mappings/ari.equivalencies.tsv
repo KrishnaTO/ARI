@@ -438,3 +438,7 @@ ARI	0001107	Immune thrombocytopenia	skos:exactMatch	DOID	8924	manual-negative	gi
 ARI	0001109	Immunoglobulin G4 related disease	skos:exactMatch	DOID	0080356	manual-negative	github:AnjaliRH
 ARI	0001107	Immune thrombocytopenia	skos:exactMatch	icd10cm	D69.3	manual-negative	github:AnjaliRH
 ARI	0001107	Immune thrombocytopenia	skos:exactMatch	icd10cm	287.31	manual-negative	github:AnjaliRH
+ARI	0001073	Crohn's disease	skos:exactMatch	SNOMEDCT	34000006	manual	github:KrishnaTO
+ARI	0001073	Crohn's disease	skos:exactMatch	MONDO	0005011	manual	github:KrishnaTO
+ARI	0001073	Crohn's disease	skos:exactMatch	DOID	8778	manual	github:KrishnaTO
+ARI	0001073	Crohn's disease	skos:exactMatch	icd10cm	555.1	manual-negative	github:KrishnaTO
