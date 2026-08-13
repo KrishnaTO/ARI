@@ -450,3 +450,7 @@ ARI	0001112	Inflammatory Bowel Disease	skos:exactMatch	umls	C0021390	manual	gith
 ARI	0001113	Insulin autoimmune syndrome	skos:exactMatch	umls	C0854359	manual	github:AnjaliRH
 ARI	0001115	Intermediate uveitis	skos:exactMatch	umls	C0042166	manual	github:AnjaliRH
 ARI	0001116	Interstitial lung disease	skos:exactMatch	umls	C0206062	manual	github:AnjaliRH
+ARI	0001073	Crohn's disease	skos:exactMatch	SNOMEDCT	34000006	manual	github:KrishnaTO
+ARI	0001073	Crohn's disease	skos:exactMatch	MONDO	0005011	manual	github:KrishnaTO
+ARI	0001073	Crohn's disease	skos:exactMatch	DOID	8778	manual	github:KrishnaTO
+ARI	0001073	Crohn's disease	skos:exactMatch	icd10cm	555.1	manual-negative	github:KrishnaTO
