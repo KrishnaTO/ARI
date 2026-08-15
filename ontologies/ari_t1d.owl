@@ -3519,7 +3519,7 @@ There's no cure for antiphospholipid syndrome, but medications can reduce the ri
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C537778</ARI_MESH>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40482477</ARI_OMOP>
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">445187004</ARI_DXCODE>
-  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antisynthetase syndrome is sometimes an autoimmune form of myositis in which antibodies destroy &lt;b&gt;tRNA synthetase&lt;/b&gt;, an enzyme that is essential for the creation of important proteins used throughout the body.  When that enzyme is destroyed, proteins that the body needs are not produced, and most noteably, proteins used to power the muscles. The result is muscle weakness, but since there are many proteins affected by the loss of tRNA synthetase, it can also impact the lungs and other parts of the body. 
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antisynthetase syndrome is sometimes an autoimmune form of myositis in which antibodies destroy **tRNA synthetase**, an enzyme that is essential for the creation of important proteins used throughout the body.  When that enzyme is destroyed, proteins that the body needs are not produced, and most notably, proteins used to power the muscles. The result is muscle weakness, but since there are many proteins affected by the loss of tRNA synthetase, it can also impact the lungs and other parts of the body. 
 
 The trigger for antisynthetase syndrome is unknown, but it may be associated with viral infection.  Patients with antisynthetase syndrome commonly experience muscle inflammation, lung disease, and joint inflammation.  This condition is seen twice as often in women than in men and typically occurs in middle age. This is a chronic disease with no cure, and disease severity and prognosis varies by individual.  Patients who only experience muscle symptoms can manage the condition well with treatment.  However, prognosis is poor for patients who develop progressive interstitial lung disease.</rdfs:comment>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anti-Jo1 syndrome</ARI_Synonym>
@@ -4372,7 +4372,7 @@ When the NMDA receptor antibodies attack the NMDA receptors in the brain, certai
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C34378</ARI_NCI>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">441269, 36713763</ARI_OMOP>
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">413603009, 718716008</ARI_DXCODE>
-  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">In autoimmune hemolytic anemia, red blood cells are destroyed by antibodies. In some cases, the antibodies are active only when the person is warm, in which case it is called &lt;a href="/Disease_Profile/warm-autoimmune-hemolytic-anemia.aspx"&gt;warm autoimmune hemolytic anemia&lt;/a&gt;. In other cases, the antibodies are active when the person is cold, and it is called &lt;a href="/Disease_Profile/cold-agglutinin-disease.aspx"&gt;cold agglutinin disease&lt;/a&gt;, and in others, the antibodies can be active regardless of the person's body temperature. There is also a form of hemolytic anemia called &lt;a href="/Disease_Profile/paroxysmal-nocturnal-hemoglobinuria.aspx"&gt;paroxysmal nocturnal hemoglobinuria&lt;/a&gt;, in which a genetic mutation causes antibodies to cause the same kind of destruction of red blood cells.</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">In autoimmune hemolytic anemia, red blood cells are destroyed by antibodies. In some cases, the antibodies are active only when the person is warm, in which case it is called warm autoimmune hemolytic anemia. In other cases, the antibodies are active when the person is cold, and it is called cold agglutinin disease, and in others, the antibodies can be active regardless of the person's body temperature. There is also a form of hemolytic anemia called paroxysmal nocturnal hemoglobinuria, in which a genetic mutation causes antibodies to cause the same kind of destruction of red blood cells.</rdfs:comment>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bozzi 2023; https://ashpublications.org/blood/article/142/Supplement%201/5202/501456/Prevalence-and-Incidence-of-Primary-Autoimmune</ARI_DefSource>
   <evidenceQuality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antibody</evidenceQuality>
   <diseaseCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune</diseaseCategory>
@@ -5608,7 +5608,7 @@ Urticaria can also be caused by allergic reaction to plants like poison ivy, dye
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">402402005</ARI_SNOMED>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4221673</ARI_OMOP>
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">402402005</ARI_DXCODE>
-  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Both &lt;a href="/Disease_Profile/autoimmune-urticaria.aspx"&gt;autoimmune urticaria&lt;/a&gt; and &lt;a href="/Disease_Profile/autoimmune-angioedema.aspx"&gt;autoimmune angioedema&lt;/a&gt; are skin conditions associated with other autoimmune diseases. Urticaria is marked by raised, itchy, and red or pale areas, known as hives. Angioedema is swelling in skin and mucous membranes, including the mouth and throat, and is a more serious condition than urticaria. 
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Both autoimmune urticaria and autoimmune angioedema are skin conditions associated with other autoimmune diseases. Urticaria is marked by raised, itchy, and red or pale areas, known as hives. Angioedema is swelling in skin and mucous membranes, including the mouth and throat, and is a more serious condition than urticaria. 
 
 While they are also diseases on their own, patients will receive a diagnosis of a chronic version of the disease because the ICD coding system used in the medical record does not have codes for either disease. The SNOMED coding system (used in Europe) has a code for each condition, and for this combined term.</rdfs:comment>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Murdaca 2023; https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9953398/</ARI_DefSource>
@@ -5627,7 +5627,7 @@ While they are also diseases on their own, patients will receive a diagnosis of 
 
 <owl:NamedIndividual rdf:about="#Sym_0001050_385">
   <rdf:type rdf:resource="#Symptom"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">See: &lt;a href="/disease_profile?disease=autoimmune-urticaria"&gt;autoimmune urticaria&lt;/a&gt; and &lt;a href="/disease_profile?disease=autoimmune-angioedema"&gt;autoimmune angioedema&lt;/a&gt;.</rdfs:label>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">See: autoimmune urticaria and autoimmune angioedema.</rdfs:label>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
 </owl:NamedIndividual>
 
@@ -11269,9 +11269,9 @@ ASA is not a concern except for people trying to conceive.</rdfs:comment>
 
 In immune thrombocytopenia, the platlets are destroyed by the antibodies produced by the immune system. However, the tests for these antibodies are not precise, so other methods are used to confirm a diagnosis, including determining if other autoimmune diseases are present. Secondary autoimmune thrombocytopenia simply refers to immune thrombocytopenia triggered by another autoimmune disease or by a non-autoimmune disease (such as COVID-19). The treatments for secondary immune thrombocytopenia are usually determined by the underlying condition.
 
-IIn autoimmune thrombotic thrombocytopenic purpura, sometimes called autoimmune TTP, autoantibodies attack ADAMTS13, an enzyme essential to regulating clot formation. The enzyme normally breaks down a protein called "ultra-large von Willebrand factor" (UL-vWF), and when that protein accumulates, platelets stick together, leading to blood clots. With the platelets stuck together, there are not enough platelets circulating in the bloodstream, which can lead to purpura (red or purple blotches on the skin). Although the symptoms of autoimmune TTP and immune thrombocytopenia are similar, the disease mechanism is very different.
+In autoimmune thrombotic thrombocytopenic purpura, sometimes called autoimmune TTP, autoantibodies attack ADAMTS13, an enzyme essential to regulating clot formation. The enzyme normally breaks down a protein called "ultra-large von Willebrand factor" (UL-vWF), and when that protein accumulates, platelets stick together, leading to blood clots. With the platelets stuck together, there are not enough platelets circulating in the bloodstream, which can lead to purpura (red or purple blotches on the skin). Although the symptoms of autoimmune TTP and immune thrombocytopenia are similar, the disease mechanism is very different.
 
-Note that thrombotic thromocytopenic purpura, TTP, is a &lt;i&gt;&lt;b&gt;genetic&lt;/i&gt;&lt;/b&gt; disease that is caused by inherited genetic mutations in the ADAMTS13 gene that lead to the same symptoms as autoimmune TTP.  TTP is not autoimmune, and a genetic test to look for mutations in the gene that produces ADAMTS13 can be performed to rule out a genetic cause and lend support to a diagnosis of the autoimmune form of the disease.</rdfs:comment>
+Note that thrombotic thrombocytopenic purpura, TTP, is a ***genetic*** disease that is caused by inherited genetic mutations in the ADAMTS13 gene that lead to the same symptoms as autoimmune TTP.  TTP is not autoimmune, and a genetic test to look for mutations in the gene that produces ADAMTS13 can be performed to rule out a genetic cause and lend support to a diagnosis of the autoimmune form of the disease.</rdfs:comment>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATP</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune thrombocytopenic purpura</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ITP</ARI_Synonym>
@@ -11816,7 +11816,7 @@ At this time, not all IgG4 diseases are documented, and many are very rare. Howe
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">314429009, 1231232007, 45688009</ARI_DXCODE>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Intermediate uveitis is a disorder that causes inflammation in the vitreous humour, the gel that fills the eye. In this condition, cells from the blood may penetrate the eye's interior and be found suspended in the vitreous humour. Normally, both eyes are affected. Patients with the pars planitis subtype of intermediate uveitis also have additional inflammation in the pars plana (the layer of the eye between the iris and the vitreous humour). This occurs when cells from the vitreous humour leak into the pars plana. This subtype is more common in children, while non-pars planitis intermediate uveitis is more common in adults. The non-pars planitis subtype is especially common in those with systemic conditions, such as sarcoidosis and multiple sclerosis, or in those who have certain infections. Some cases without infection may be caused by autoimmune activity. Patients of both pars planitis and non-pars planitis subtypes often experience floaters and blurry vision. Without medical attention, vision loss and blindness may occur in severe cases; however, treatments are available to prevent this.
 
-There are other forms of &lt;a href="/Disease_Profile/uveitis.aspx"&gt;uveitis&lt;/a&gt; that can be autoimmune.</rdfs:comment>
+There are other forms of uveitis that can be autoimmune.</rdfs:comment>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cyclochorioretinitis</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vitritis</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chronic cyclitis</ARI_Synonym>
@@ -11957,14 +11957,14 @@ There are other forms of &lt;a href="/Disease_Profile/uveitis.aspx"&gt;uveitis&l
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">410795001, 239796000</ARI_DXCODE>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Juvenile rheumatoid arthritis is a pediatric disorder affecting the joints. Damage occurs when immune cells penetrate the lining of the joints, causing inflammation. Patients typically experience joint pain and swelling, which may occur in a flare/remission pattern. Some subtypes have strong evidence of being autoimmune. The condition is diagnosed through exclusion, when joint inflammation lasts more than 6 weeks in a patient 16 years-old or younger and cannot be positively diagnosed with another condition. 
 
-There are 7 types of juvenile arthritis: &lt;br&gt;
-&lt;li&gt;1.	&lt;b&gt;Systemic juvenile idiopathic arthritis&lt;/b&gt; occurs in at least one joint accompanied by fever for 2 weeks or longer. Other possible symptoms include rash or enlargement of the lymph nodes, liver, or spleen.&lt;/li&gt;
-&lt;li&gt;2.	&lt;b&gt;Oligoarticular juvenile arthritis&lt;/b&gt; (oligoarthritis) occurs in not more than 4 joints in the 6 months following disease onset. After this point, the condition may remain stable (persistent oligoarthritis), or it may spread to additional joints (extended oligoarthritis). The eyes may also be affected.&lt;/li&gt;
-&lt;li&gt;3.	&lt;b&gt;Rheumatoid factor positive polyarticular juvenile idiopathic arthritis&lt;/b&gt; (polyarthritis and rheumatoid factor positive are alternative terms) has symptoms similar to adult rheumatoid arthritis but occurs in children. Patients typically experience arthritis in a minimum of 5 joints in the 6 months following disease onset. Blood tests reveal the presence of rheumatoid factors, a type of autoimmune antibody. The evidence suggests strongly that this subtype is autoimmune. &lt;/li&gt;
-&lt;li&gt;4.	&lt;b&gt;Rheumatoid factor negative polyarticular juvenile idiopathic arthritis&lt;/b&gt; (polyarthritis and rheumatoid factor negative are alternative terms) is marked by the same symptoms as patients with rheumatoid factor positive. The negative variety is distinguished from the positive variety by an absence of rheumatoid factors in the blood. &lt;/li&gt;
-&lt;li&gt;5.	&lt;b&gt;Psoriatic juvenile idiopathic arthritis&lt;/b&gt; causes both arthritis and red skin rashes with white scaling (psoriasis). Irregularities in the fingers, nails, or eyes may also occur.&lt;/li&gt;
-&lt;li&gt;6.	&lt;b&gt;Enthesitis-related juvenile idiopathic arthritis&lt;/b&gt; causes discomfort where the bone joins with other tissues, such as tendons and ligaments. Irritation is frequent in the hips, knees, and feet. Tissue besides the joints may also become inflamed. &lt;/li&gt;
-&lt;li&gt;7.	&lt;b&gt;Undifferentiated arthritis&lt;/b&gt; describes patients whose symptoms are not compatible with the other 6 categories of juvenile arthritis, or whose presentation includes symptoms from multiple categories.&lt;/li&gt;
+There are 7 types of juvenile arthritis:
+1. **Systemic juvenile idiopathic arthritis** occurs in at least one joint accompanied by fever for 2 weeks or longer. Other possible symptoms include rash or enlargement of the lymph nodes, liver, or spleen.
+2. **Oligoarticular juvenile arthritis** (oligoarthritis) occurs in not more than 4 joints in the 6 months following disease onset. After this point, the condition may remain stable (persistent oligoarthritis), or it may spread to additional joints (extended oligoarthritis). The eyes may also be affected.
+3. **Rheumatoid factor positive polyarticular juvenile idiopathic arthritis** (polyarthritis and rheumatoid factor positive are alternative terms) has symptoms similar to adult rheumatoid arthritis but occurs in children. Patients typically experience arthritis in a minimum of 5 joints in the 6 months following disease onset. Blood tests reveal the presence of rheumatoid factors, a type of autoimmune antibody. The evidence suggests strongly that this subtype is autoimmune. 
+4. **Rheumatoid factor negative polyarticular juvenile idiopathic arthritis** (polyarthritis and rheumatoid factor negative are alternative terms) is marked by the same symptoms as patients with rheumatoid factor positive. The negative variety is distinguished from the positive variety by an absence of rheumatoid factors in the blood. 
+5. **Psoriatic juvenile idiopathic arthritis** causes both arthritis and red skin rashes with white scaling (psoriasis). Irregularities in the fingers, nails, or eyes may also occur.
+6. **Enthesitis-related juvenile idiopathic arthritis** causes discomfort where the bone joins with other tissues, such as tendons and ligaments. Irritation is frequent in the hips, knees, and feet. Tissue besides the joints may also become inflamed. 
+7. **Undifferentiated arthritis** describes patients whose symptoms are not compatible with the other 6 categories of juvenile arthritis, or whose presentation includes symptoms from multiple categories.
 Some patients experience full relief from symptoms with medical attention, while others experience relapses throughout life. Treatments are available to control symptoms and improve function.</rdfs:comment>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JRA</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Juvenile chronic arthritis</ARI_Synonym>
@@ -13180,10 +13180,10 @@ The exact cause of both primary and secondary autoimmune orchitis is still unkno
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C38504</ARI_NCI>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4340799</ARI_OMOP>
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">235753003</ARI_DXCODE>
-  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microscopic colitis occurs with severe inflammation of the large intestine, or the colon. It results in persistent and watery diarrhea. Microscopic colitis can''t be identified with a colonoscopy, so tissue samples from the colon must be examined under a microscope. There are three different subtypes:&lt;br&gt; 
-&lt;li&gt;1. &lt;b&gt;Collagenous colitis&lt;/b&gt; results from a thick layer of the protein collagen developing in the tissue.&lt;/li&gt;
-&lt;li&gt;2. &lt;b&gt;Lymphocytic colitis&lt;/b&gt; results from an increase in white blood cells in the tissue. &lt;/li&gt;
-&lt;li&gt;3. &lt;b&gt;Incomplete microscopic colitis&lt;/b&gt; is a combination of collagenous and lymphocytic colitis. &lt;/li&gt;
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microscopic colitis occurs with severe inflammation of the large intestine, or the colon. It results in persistent and watery diarrhea. Microscopic colitis can't be identified with a colonoscopy, so tissue samples from the colon must be examined under a microscope. There are three different subtypes: 
+1. **Collagenous colitis** results from a thick layer of the protein collagen developing in the tissue.
+2. **Lymphocytic colitis** results from an increase in white blood cells in the tissue. 
+3. **Incomplete microscopic colitis** is a combination of collagenous and lymphocytic colitis. 
 It is under debate whether collagenous and lymphocytic colitis are different phases of the same condition.</rdfs:comment>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pardi 2006; https://pubmed.ncbi.nlm.nih.gov/17135309/</ARI_DefSource>
   <ARI_Pubmed rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/17135309/</ARI_Pubmed>
@@ -18733,7 +18733,7 @@ In cases where the cartilage is not visible, RP can cause heart valve abnormalit
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C84501</ARI_NCI>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">73754</ARI_OMOP>
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">32914008</ARI_DXCODE>
-  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A condition that causes an unpleasant or uncomfortable sensation in the legs and an irresistible urge to move them.  Restless leg syndrome is a symptom of several autoimmune diseases, including &lt;a href="/Disease_Profile/rheumatoid-arthritis.aspx"&gt;rheumatoid arthritis, &lt;a href="/Disease_Profile/Sj%C3%B6grens-disease.aspx"&gt;Sjögren's disease, &lt;a href="/Disease_Profile/crohns-disease.aspx"&gt;Crohn's disease&lt;/a&gt;, and other inflammatory bowel diseases.  However, since restless leg is a relatively common condition affecting 8% of the population, the correlation with autoimmune disease might not indicate a causative relationship.</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A condition that causes an unpleasant or uncomfortable sensation in the legs and an irresistible urge to move them.  Restless leg syndrome is a symptom of several autoimmune diseases, including rheumatoid arthritis, Sjögren's disease, Crohn's disease, and other inflammatory bowel diseases.  However, since restless leg is a relatively common condition affecting 8% of the population, the correlation with autoimmune disease might not indicate a causative relationship.</rdfs:comment>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Willis-Ekbom Disease</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Restless leg syndrome</ARI_Synonym>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Innes 2011 ; https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4634567/</ARI_DefSource>
@@ -19989,7 +19989,7 @@ Patients with Schnitzler syndrome typically experience chronic rash, relapsing f
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D007638</ARI_MESH>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">254443</ARI_OMOP>
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">83901003</ARI_DXCODE>
-  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sicca syndrome is marked by dry mouth and dry eyes. If these symptoms are caused by an autoimmune process, it is called Sjogren's disease. See &lt;a href="/Disease_Profile/Sj%C3%B6grens-disease.aspx"&gt;Sjögrens disease for more information.</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sicca syndrome is marked by dry mouth and dry eyes. If these symptoms are caused by an autoimmune process, it is called Sjogren's disease. See Sjögrens disease for more information.</rdfs:comment>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sjogren's disease</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sjögrens disease</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sjögren's syndrome</ARI_Synonym>
@@ -22748,7 +22748,7 @@ Urticaria can also be caused by allergic reaction to plants like poison ivy, dye
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">128473001, 231947004</ARI_DXCODE>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Uveitis is an inflammation of the uvea - a set of tissues that form a layer of eyeball that sits between the outer layers of the eye and the "vitreous chamber", which forms the main body of the eye. The uvea itself has several kinds of tissue that can be affected by immune processes, all of which are called uveitis. About half of people who receive a diagnosis of uveitis have an autoimmune form of the disease. Uveitis is a term that means "inflammation of the uvea", and not all forms of uveitis are autoimmune, and not all individuals diagnosed with uveitis have an autoimmune form of uveitis. 
 
-The most common form of autoimmune uveitis is &lt;a href="&lt;a href="https://diseases.autoimmuneregistry.org/Disease_Profile/intermediate-uveitis"&gt;intermediate uveitis&lt;/a&gt;.</rdfs:comment>
+The most common form of autoimmune uveitis is intermediate uveitis.</rdfs:comment>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Idiopathic uveitis</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Idiopathic intermediate uveitis</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune uveitis</ARI_Synonym>
@@ -23042,7 +23042,7 @@ Normally, the color of hair, skin, and eyes is determined by melanin. Vitiligo o
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3978000</ARI_SNOMED>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4219853</ARI_OMOP>
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3978000</ARI_DXCODE>
-  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Warm autoimmune hemolytic anemia is caused when a person's antibodies attack and destroy their red blood cells.  Unlike &lt;a href="/Disease_Profile/cold-agglutinin-disease.aspx"&gt;cold agglutinin disease&lt;/a&gt;, the autoimmune destruction of cells occurs when a person's body temperature is normal or above normal.  It leads to low red blood cell levels in the body.  
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Warm autoimmune hemolytic anemia is caused when a person's antibodies attack and destroy their red blood cells.  Unlike cold agglutinin disease, the autoimmune destruction of cells occurs when a person's body temperature is normal or above normal.  It leads to low red blood cell levels in the body.  
 
 Some cases of this disease are caused by medications and are not autoimmune.</rdfs:comment>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Idiopathic autoimmune hemolytic anemia</ARI_Synonym>
