@@ -71,7 +71,7 @@ for row in drows:
     mesh=_xref_group(xr,["MESH","MSH"])
     nci=_xref_group(xr,["NCI"])
     umls=_xref_group(xr,["UMLS"])
-    icd=_xref_group(xr,["ICD10","ICD9","ICD-10","ICD-9"])
+    icd=_xref_group(xr,["ICD10","ICD-10"])
     used=set(snomed.split("; ")+mesh.split("; ")+nci.split("; ")+umls.split("; ")+icd.split("; "))
     other="; ".join(x for x in xr if x not in used and not x.startswith("url:"))
     det.append([row[_idx["ARI ID"]],row[_idx["Preferred Name"]],doid,r.get("label",""),
