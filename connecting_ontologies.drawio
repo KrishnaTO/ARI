@@ -7,12 +7,6 @@
         <mxCell id="BBjC_zGj4wCQyfaJL8gR-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" value="ICD10" vertex="1">
           <mxGeometry height="80" width="120" x="290" y="160" as="geometry" />
         </mxCell>
-        <mxCell id="BBjC_zGj4wCQyfaJL8gR-4" edge="1" parent="1" source="BBjC_zGj4wCQyfaJL8gR-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="BBjC_zGj4wCQyfaJL8gR-1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="BBjC_zGj4wCQyfaJL8gR-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="ICD9" vertex="1">
-          <mxGeometry height="80" width="120" x="290" y="50" as="geometry" />
-        </mxCell>
         <mxCell id="BBjC_zGj4wCQyfaJL8gR-5" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" value="SNOMED" vertex="1">
           <mxGeometry height="80" width="120" x="460" y="160" as="geometry" />
         </mxCell>
