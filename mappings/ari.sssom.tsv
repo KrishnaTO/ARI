@@ -473,3 +473,27 @@ ARI:0001060	Cataplexy and narcolepsy	skos:exactMatch		ncit:C196015	ncit	semapv:M
 ARI:0001060	Cataplexy and narcolepsy	skos:exactMatch		mesh:D009290	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-16
 ARI:0001060	Cataplexy and narcolepsy	skos:exactMatch		OMIM:161400	OMIM	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-16
 ARI:0001060	Cataplexy and narcolepsy	skos:exactMatch	Not	DOID:8986	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-16
+ARI:0001071	Complex regional pain syndrome	skos:exactMatch		icd10cm:M89.0	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-16
+ARI:0001065	Chronic Lyme disease	skos:exactMatch		MONDO:0700280	MONDO	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-16
+ARI:0001065	Chronic Lyme disease	skos:exactMatch		ncit:C119039	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-16
+ARI:0001065	Chronic Lyme disease	skos:exactMatch		umls:C3890422	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-16
+ARI:0001065	Chronic Lyme disease	skos:exactMatch		mesh:D000077342	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-16
+ARI:0001068	Cogan's syndrome	skos:exactMatch		MONDO:0015453	MONDO	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-16
+ARI:0001069	Cold agglutinin disease	skos:exactMatch		mesh:D000744	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-16
+ARI:0001070	Combined immunodeficiency due to LRBA deficiency	skos:exactMatch		ncit:C176809	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-16
+ARI:0001065	Chronic Lyme disease	skos:exactMatch		sssom:NoTermFound	ORPHA	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-16
+ARI:0001065	Chronic Lyme disease	skos:exactMatch		sssom:NoTermFound	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-16
+ARI:0001065	Chronic Lyme disease	skos:exactMatch		sssom:NoTermFound	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-16
+ARI:0001065	Chronic Lyme disease	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-16
+ARI:0001065	Chronic Lyme disease	skos:exactMatch		sssom:NoTermFound	OMIM	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-16
+ARI:0001060	Cataplexy and narcolepsy	skos:exactMatch		sssom:NoTermFound	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-16
+ARI:0001062	Chronic Fatigue Syndrome	skos:exactMatch		sssom:NoTermFound	OMIM	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-16
+ARI:0001063	Chronic inflammatory demyelinating polyradiculoneuropathy	skos:exactMatch		sssom:NoTermFound	OMIM	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-16
+ARI:0001064	Chronic interstitial cystitis	skos:exactMatch		sssom:NoTermFound	OMIM	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-16
+ARI:0001067	Chronic post-COVID-19 syndrome	skos:exactMatch		sssom:NoTermFound	ORPHA	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-16
+ARI:0001067	Chronic post-COVID-19 syndrome	skos:exactMatch		sssom:NoTermFound	OMIM	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-16
+ARI:0001068	Cogan's syndrome	skos:exactMatch		sssom:NoTermFound	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-16
+ARI:0001068	Cogan's syndrome	skos:exactMatch		sssom:NoTermFound	OMIM	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-16
+ARI:0001069	Cold agglutinin disease	skos:exactMatch		sssom:NoTermFound	OMIM	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-16
+ARI:0001070	Combined immunodeficiency due to LRBA deficiency	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-16
+ARI:0001070	Combined immunodeficiency due to LRBA deficiency	skos:exactMatch		sssom:NoTermFound	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-16

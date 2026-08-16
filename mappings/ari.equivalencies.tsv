@@ -453,3 +453,27 @@ ARI	0001060	Cataplexy and narcolepsy	skos:exactMatch	ncit	C196015	manual	github:
 ARI	0001060	Cataplexy and narcolepsy	skos:exactMatch	mesh	D009290	manual	github:KrishnaTO
 ARI	0001060	Cataplexy and narcolepsy	skos:exactMatch	OMIM	161400	manual	github:KrishnaTO
 ARI	0001060	Cataplexy and narcolepsy	skos:exactMatch	DOID	8986	manual-negative	github:KrishnaTO
+ARI	0001071	Complex regional pain syndrome	skos:exactMatch	icd10cm	M89.0	manual	github:KrishnaTO
+ARI	0001065	Chronic Lyme disease	skos:exactMatch	MONDO	0700280	manual	github:KrishnaTO
+ARI	0001065	Chronic Lyme disease	skos:exactMatch	ncit	C119039	manual	github:KrishnaTO
+ARI	0001065	Chronic Lyme disease	skos:exactMatch	umls	C3890422	manual	github:KrishnaTO
+ARI	0001065	Chronic Lyme disease	skos:exactMatch	mesh	D000077342	manual	github:KrishnaTO
+ARI	0001068	Cogan's syndrome	skos:exactMatch	MONDO	0015453	manual	github:KrishnaTO
+ARI	0001069	Cold agglutinin disease	skos:exactMatch	mesh	D000744	manual	github:KrishnaTO
+ARI	0001070	Combined immunodeficiency due to LRBA deficiency	skos:exactMatch	ncit	C176809	manual	github:KrishnaTO
+ARI	0001065	Chronic Lyme disease	skos:exactMatch	ORPHA	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001065	Chronic Lyme disease	skos:exactMatch	DOID	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001065	Chronic Lyme disease	skos:exactMatch	SNOMEDCT	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001065	Chronic Lyme disease	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001065	Chronic Lyme disease	skos:exactMatch	OMIM	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001060	Cataplexy and narcolepsy	skos:exactMatch	DOID	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001062	Chronic Fatigue Syndrome	skos:exactMatch	OMIM	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001063	Chronic inflammatory demyelinating polyradiculoneuropathy	skos:exactMatch	OMIM	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001064	Chronic interstitial cystitis	skos:exactMatch	OMIM	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001067	Chronic post-COVID-19 syndrome	skos:exactMatch	ORPHA	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001067	Chronic post-COVID-19 syndrome	skos:exactMatch	OMIM	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001068	Cogan's syndrome	skos:exactMatch	ncit	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001068	Cogan's syndrome	skos:exactMatch	OMIM	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001069	Cold agglutinin disease	skos:exactMatch	OMIM	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001070	Combined immunodeficiency due to LRBA deficiency	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001070	Combined immunodeficiency due to LRBA deficiency	skos:exactMatch	mesh	NoTermFound	manual-absent	github:KrishnaTO
