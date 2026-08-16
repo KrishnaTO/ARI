@@ -497,3 +497,7 @@ ARI:0001068	Cogan's syndrome	skos:exactMatch		sssom:NoTermFound	OMIM	semapv:Manu
 ARI:0001069	Cold agglutinin disease	skos:exactMatch		sssom:NoTermFound	OMIM	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-16
 ARI:0001070	Combined immunodeficiency due to LRBA deficiency	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-16
 ARI:0001070	Combined immunodeficiency due to LRBA deficiency	skos:exactMatch		sssom:NoTermFound	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-16
+ARI:0001068	Cogan's syndrome	skos:exactMatch		umls:C0271270	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-16
+ARI:0001068	Cogan's syndrome	skos:exactMatch		DOID:0060216	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-16
+ARI:0001069	Cold agglutinin disease	skos:exactMatch		sssom:NoTermFound	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-16
+ARI:0001066	Chronic multifocal osteomyelitis	skos:exactMatch		sssom:NoTermFound	OMIM	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-16
