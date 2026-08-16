@@ -8452,6 +8452,7 @@ More study is needed.</rdfs:comment>
   <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001073</ARI_ID>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">34000006</ARI_SNOMED>
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8778</ARI_DOID>
+  <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0156147</ARI_UMLS>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D003424</ARI_MESH>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">201606</ARI_OMOP>
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">34000006</ARI_DXCODE>
@@ -8618,6 +8619,10 @@ Both UC and CD are caused by an autoimmune response that reflects the involvemen
   <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001074</ARI_ID>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">719218000</ARI_SNOMED>
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2797</ARI_DOID>
+  <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0085786</ARI_UMLS>
+  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J84.114</ARI_ICD10>
+  <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D000080203</ARI_MESH>
+  <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C35806</ARI_NCI>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">36714118</ARI_OMOP>
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">719218000</ARI_DXCODE>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cryptogenic organizing pneumonia is inflammation and scarring of the small airways and air sacs of the lungs. The exact cause is not understood, but an autoimmune response is suspected.</rdfs:comment>
