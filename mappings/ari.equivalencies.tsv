@@ -454,3 +454,26 @@ ARI	0001073	Crohn's disease	skos:exactMatch	SNOMEDCT	34000006	manual	github:Kris
 ARI	0001073	Crohn's disease	skos:exactMatch	MONDO	0005011	manual	github:KrishnaTO
 ARI	0001073	Crohn's disease	skos:exactMatch	DOID	8778	manual	github:KrishnaTO
 ARI	0001073	Crohn's disease	skos:exactMatch	icd10cm	555.1	manual-negative	github:KrishnaTO
+ARI	0001071	Complex regional pain syndrome	skos:exactMatch	OMIM	604335	manual	github:KrishnaTO
+ARI	0001073	Crohn's disease	skos:exactMatch	omop	201606	manual	github:KrishnaTO
+ARI	0001073	Crohn's disease	skos:exactMatch	ncit	C2965	manual	github:KrishnaTO
+ARI	0001073	Crohn's disease	skos:exactMatch	icd10cm	K50	manual	github:KrishnaTO
+ARI	0001073	Crohn's disease	skos:exactMatch	ORPHA	206	manual	github:KrishnaTO
+ARI	0001073	Crohn's disease	skos:exactMatch	mesh	D003424	manual	github:KrishnaTO
+ARI	0001074	Cryptogenic organizing pneumonia	skos:exactMatch	SNOMEDCT	719218000	manual	github:KrishnaTO
+ARI	0001074	Cryptogenic organizing pneumonia	skos:exactMatch	omop	36714118	manual	github:KrishnaTO
+ARI	0001074	Cryptogenic organizing pneumonia	skos:exactMatch	DOID	2797	manual	github:KrishnaTO
+ARI	0001074	Cryptogenic organizing pneumonia	skos:exactMatch	MONDO	0015264	manual	github:KrishnaTO
+ARI	0001074	Cryptogenic organizing pneumonia	skos:exactMatch	ORPHA	1302	manual	github:KrishnaTO
+ARI	0001076	Cutaneous lupus erythematosus	skos:exactMatch	DOID	0050169	manual	github:KrishnaTO
+ARI	0001076	Cutaneous lupus erythematosus	skos:exactMatch	MONDO	0005282	manual	github:KrishnaTO
+ARI	0001076	Cutaneous lupus erythematosus	skos:exactMatch	ncit	C26819	manual	github:KrishnaTO
+ARI	0001076	Cutaneous lupus erythematosus	skos:exactMatch	umls	C0024137	manual	github:KrishnaTO
+ARI	0001076	Cutaneous lupus erythematosus	skos:exactMatch	mesh	D008178	manual	github:KrishnaTO
+ARI	0001074	Cryptogenic organizing pneumonia	skos:exactMatch	icd10cm	516.33	manual-negative	github:KrishnaTO
+ARI	0001074	Cryptogenic organizing pneumonia	skos:exactMatch	OMIM	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001076	Cutaneous lupus erythematosus	skos:exactMatch	OMIM	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001060	Cataplexy and narcolepsy	skos:exactMatch	ncit	C196015	manual	github:KrishnaTO
+ARI	0001060	Cataplexy and narcolepsy	skos:exactMatch	mesh	D009290	manual	github:KrishnaTO
+ARI	0001060	Cataplexy and narcolepsy	skos:exactMatch	OMIM	161400	manual	github:KrishnaTO
+ARI	0001060	Cataplexy and narcolepsy	skos:exactMatch	DOID	8986	manual-negative	github:KrishnaTO
