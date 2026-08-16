@@ -1,5 +1,17 @@
 # Changelog
 
+## port-icd9-retirement-to-main
+
+- Ports #57 to `main`. That PR retired ICD-9 but merged into
+  `feature/metadata-manager_v2/ARI`, so none of it reached this branch — `main` still
+  listed ICD9/ICD9CM as active sources, still grouped ICD-9 into the report's ICD column,
+  and still drew the ICD9 node in the ontology diagram.
+- Removed the `ICD9` and `ICD9CM` rows from `data/3-meta-database-sources/meta-databases.csv`.
+- Narrowed the xref grouping in `notebook/ari-grounding/make_match_reports.py` from
+  `["ICD10", "ICD9", "ICD-10", "ICD-9"]` to `["ICD10", "ICD-10"]`, so the report's "ICD
+  xrefs" column stops picking up ICD-9.
+- Removed the ICD9 node and its edge from `connecting_ontologies.drawio`.
+- Carries no data change. The ICD-9 codes themselves are removed separately.
 ## ci-workflows-mapping-files
 
 - Added `.github/scripts/validate_mappings.py` and two workflows that run it. The checks
