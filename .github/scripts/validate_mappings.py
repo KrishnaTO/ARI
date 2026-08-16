@@ -420,7 +420,7 @@ def check_sssom_rows(rows: list[Row], report: Report) -> None:
 
         check_object_id(row, report)
 
-        object_id = fields["object_id"].strip()
+        object_id = distinct_object_id(fields)
         key = (subject, object_id, modifier)
         if key in seen:
             report.error(
@@ -638,11 +638,22 @@ def normalized_subject(curie: str) -> str:
     return f"{prefix}:{local.lstrip('0') or '0'}"
 
 
-def sssom_key(fields: dict) -> tuple:
-    """Comparable identity of an SSSOM row, exact strings so id drift shows."""
+def distinct_object_id(fields: dict) -> str:
+    """Object id that distinguishes one row from another.
+
+    Every `manual-absent` row carries the same literal `sssom:NoTermFound`
+    object, so the searched vocabulary in `object_source` is what separates
+    "no ORPHA term" from "no OMIM term" for the same subject.
+    """
     object_id = fields["object_id"].strip()
     if object_id == NO_TERM_FOUND:
-        object_id = f"{fields['object_source'].strip()}:NoTermFound"
+        return f"{fields['object_source'].strip()}:NoTermFound"
+    return object_id
+
+
+def sssom_key(fields: dict) -> tuple:
+    """Comparable identity of an SSSOM row, exact strings so id drift shows."""
+    object_id = distinct_object_id(fields)
     modifier = "Not" if fields["predicate_modifier"] == "Not" else ""
     return (
         normalized_subject(fields["subject_id"].strip()),
