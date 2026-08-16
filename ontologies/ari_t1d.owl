@@ -11224,6 +11224,8 @@ ASA is not a concern except for people trying to conceive.</rdfs:comment>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-24 20:33 | AnjaliRH | Cross-reference review: confirmed SNOMED 722119002; confirmed OMOP 36716199; confirmed MONDO 0013860; confirmed NCI C123060; confirmed ORPHANET 97560; confirmed MESH D015433; flagged OMIM 614692</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-24 20:38 | AnjaliRH | Cross-reference review: confirmed SNOMED 722119002; confirmed OMOP 36716199; confirmed MONDO 0013860; confirmed NCI C123060; confirmed ORPHANET 97560; confirmed MESH D015433; flagged OMIM 614692</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-24 20:45 | AnjaliRH | Cross-reference review: confirmed SNOMED 722119002; confirmed OMOP 36716199; confirmed MONDO 0013860; confirmed NCI C123060; confirmed ORPHANET 97560; confirmed MESH D015433; flagged OMIM 614692</ARI_ChangeLog>
+  <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0086445</ARI_UMLS>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-10 14:32 | user | Edited: umls</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001103">
@@ -11273,6 +11275,7 @@ ASA is not a concern except for people trying to conceive.</rdfs:comment>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-24 20:37 | user | Edited: mondo</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-24 20:38 | AnjaliRH | Cross-reference review: confirmed MESH D054990; confirmed ORPHANET 2032; confirmed ICD10 J84.112; confirmed NCI C35716; confirmed MONDO 0800504; confirmed DOID 0050156; confirmed OMOP 45763750; confirmed SNOMED 700250006; flagged OMIM 178500</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-24 20:45 | AnjaliRH | Cross-reference review: confirmed MESH D054990; confirmed ORPHANET 2032; confirmed ICD10 J84.112; confirmed NCI C35716; confirmed MONDO 0800504; confirmed DOID 0050156; confirmed OMOP 45763750; confirmed SNOMED 700250006; flagged OMIM 178500</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-10 14:32 | AnjaliRH | Cross-reference review: confirmed UMLS C1800706</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001103_951">
@@ -11363,6 +11366,7 @@ ASA is not a concern except for people trying to conceive.</rdfs:comment>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-24 20:43 | user | Edited: orphanet</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-24 20:45 | user | Edited: mesh</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-24 20:45 | AnjaliRH | Cross-reference review: confirmed SNOMED 236407003; confirmed OMOP 4128061; confirmed DOID 2986; confirmed MONDO 0005342; confirmed NCI C34643; confirmed ORPHANET 34145; confirmed MESH D005922</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-10 14:32 | AnjaliRH | Cross-reference review: confirmed UMLS C0017661</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001104_958">
@@ -11436,6 +11440,7 @@ ASA is not a concern except for people trying to conceive.</rdfs:comment>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-03 18:43 | AnjaliRH | Cross-reference review: confirmed MESH null</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-07 20:38 | AnjaliRH | Cross-reference review: confirmed MESH null</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-07 20:42 | AnjaliRH | Cross-reference review: confirmed MESH null</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-10 14:32 | AnjaliRH | Cross-reference review: confirmed MESH null</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001106">
@@ -11463,6 +11468,7 @@ ASA is not a concern except for people trying to conceive.</rdfs:comment>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-07 20:28 | user | Edited: mesh</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-07 20:38 | AnjaliRH | Cross-reference review: confirmed OMOP 28660; confirmed DOID 0090110; flagged SNOMED 237618001; flagged ICD10 E31.0</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-07 20:42 | AnjaliRH | Cross-reference review: confirmed OMOP 28660; confirmed DOID 0090110; flagged SNOMED 237618001; flagged ICD10 E31.0</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-10 14:32 | AnjaliRH | Cross-reference review: confirmed OMOP 28660; confirmed DOID 0090110; flagged SNOMED 237618001; flagged ICD10 E31.0</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001107">
@@ -11487,7 +11493,7 @@ ASA is not a concern except for people trying to conceive.</rdfs:comment>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
   <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001107</ARI_ID>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2897005</ARI_SNOMED>
-  <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0398650</ARI_UMLS>
+  <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0242584</ARI_UMLS>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D016553</ARI_MESH>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C3446</ARI_NCI>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Immune thrombocytopenia is a pair of autoimmune blood disorders that involves destruction of the normal blood clotting process. "Thrombocytopenia" simply means "low platelet count" and could be caused by many things. One symptom of these conditions is easy or excessive bruising and bleeding, so some names include the term "purpura", which means purple or red discolorations on the skin. The bleeding results from blood pooling under the skin because clotting is impaired.  Until scientists identified the autoimmune cause of the disease, it was called "idiopathic thrombocytopenia" because the cause was unknown, and until a cause of an individual's disease is known, that label might be used. 
@@ -11530,6 +11536,7 @@ Note that thrombotic thrombocytopenic purpura, TTP, is a ***genetic*** disease t
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-07 20:34 | user | Edited: mesh</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-07 20:38 | AnjaliRH | Cross-reference review: flagged DOID 8924; flagged ICD10 D69.3, 287.31</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-07 20:42 | AnjaliRH | Cross-reference review: flagged DOID 8924; flagged ICD10 D69.3, 287.31</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-10 14:32 | AnjaliRH | Cross-reference review: confirmed UMLS C0242584; flagged DOID 8924; flagged ICD10 D69.3, 287.31</ARI_ChangeLog>
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2897005</ARI_DXCODE>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4103532</ARI_OMOP>
 </owl:NamedIndividual>
@@ -11682,6 +11689,7 @@ This condition is usually temporary (4-6 weeks) with a full recovery for most pa
   <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0019167</ARI_MONDO>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-07 20:42 | user | Edited: mondo</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-07 20:42 | AnjaliRH | Cross-reference review: confirmed SNOMED 191306005; confirmed OMOP 4101602; confirmed DOID 11123; confirmed OMIM null</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-10 14:32 | AnjaliRH | Cross-reference review: confirmed SNOMED 191306005; confirmed OMOP 4101602; confirmed DOID 11123; confirmed OMIM null; confirmed UMLS C0034152</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001108_970">
@@ -11804,6 +11812,11 @@ At this time, not all IgG4 diseases are documented, and many are very rare. Howe
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-07 20:35 | user | Edited: mesh</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-07 20:38 | AnjaliRH | Cross-reference review: flagged DOID 0080356</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-07 20:42 | AnjaliRH | Cross-reference review: flagged DOID 0080356</ARI_ChangeLog>
+  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D89.84</ARI_ICD10>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-10 14:14 | user | Edited: icd10</ARI_ChangeLog>
+  <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C4087124</ARI_UMLS>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-10 14:31 | user | Edited: umls</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-10 14:32 | AnjaliRH | Cross-reference review: flagged DOID 0080356</ARI_ChangeLog>
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10743271000119103</ARI_DXCODE>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">36717255</ARI_OMOP>
 </owl:NamedIndividual>
@@ -11830,6 +11843,9 @@ At this time, not all IgG4 diseases are documented, and many are very rare. Howe
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">449563</ARI_ORPHANET>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-07 20:40 | user | Edited: orphanet</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-07 20:42 | AnjaliRH | Cross-reference review: confirmed SNOMED 1187510006; confirmed OMOP 37162346; confirmed MESH null</ARI_ChangeLog>
+  <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C5569009</ARI_UMLS>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-10 14:31 | user | Edited: umls</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-10 14:32 | AnjaliRH | Cross-reference review: confirmed SNOMED 1187510006; confirmed OMOP 37162346; confirmed MESH null</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001111">
@@ -11890,6 +11906,7 @@ At this time, not all IgG4 diseases are documented, and many are very rare. Howe
   <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0007827</ARI_MONDO>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-07 20:42 | user | Edited: mondo</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-07 20:42 | AnjaliRH | Cross-reference review: confirmed SNOMED 72315009; confirmed OMOP 4216406; confirmed DOID 3429; confirmed MESH D018979</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-10 14:32 | AnjaliRH | Cross-reference review: confirmed SNOMED 72315009; confirmed OMOP 4216406; confirmed DOID 3429; confirmed MESH D018979; confirmed ICD10 G72.41, 359.71; confirmed UMLS C0238190</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001111_986">
@@ -11969,6 +11986,7 @@ At this time, not all IgG4 diseases are documented, and many are very rare. Howe
   <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0005265</ARI_MONDO>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-07 20:42 | user | Edited: mondo</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-07 20:42 | AnjaliRH | Cross-reference review: confirmed SNOMED 24526004; confirmed OMOP 4074815; confirmed DOID 0050589; confirmed MESH D015212</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-10 14:32 | AnjaliRH | Cross-reference review: confirmed SNOMED 24526004; confirmed OMOP 4074815; confirmed DOID 0050589; confirmed MESH D015212; confirmed UMLS C0021390</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001113">
@@ -11992,6 +12010,7 @@ At this time, not all IgG4 diseases are documented, and many are very rare. Howe
   <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0018465</ARI_MONDO>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-07 20:42 | user | Edited: mondo</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-07 20:42 | AnjaliRH | Cross-reference review: confirmed SNOMED 408539000; confirmed OMOP 4252384; confirmed DOID 0040100; confirmed MESH null</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-10 14:32 | AnjaliRH | Cross-reference review: confirmed SNOMED 408539000; confirmed OMOP 4252384; confirmed DOID 0040100; confirmed MESH null; confirmed UMLS C0854359</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Tissue_MetabolicSystem">
@@ -12013,6 +12032,11 @@ At this time, not all IgG4 diseases are documented, and many are very rare. Howe
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-03 18:43 | AnjaliRH | Cross-reference review: confirmed SNOMED 237652003; confirmed OMOP 4129525</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-07 20:38 | AnjaliRH | Cross-reference review: confirmed SNOMED 237652003; confirmed OMOP 4129525</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-07 20:42 | AnjaliRH | Cross-reference review: confirmed SNOMED 237652003; confirmed OMOP 4129525</ARI_ChangeLog>
+  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E88.818</ARI_ICD10>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-10 14:10 | user | Edited: icd10</ARI_ChangeLog>
+  <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0342337</ARI_UMLS>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-10 14:30 | user | Edited: umls</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-10 14:32 | AnjaliRH | Cross-reference review: confirmed SNOMED 237652003; confirmed OMOP 4129525</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001115">
@@ -12068,6 +12092,7 @@ There are other forms of uveitis that can be autoimmune.</rdfs:comment>
   <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0006806</ARI_MONDO>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-07 20:42 | user | Edited: mondo</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-07 20:42 | AnjaliRH | Cross-reference review: confirmed DOID 12732; confirmed NCI C35110; confirmed MESH D015867</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-10 14:32 | AnjaliRH | Cross-reference review: confirmed DOID 12732; confirmed NCI C35110; confirmed MESH D015867; confirmed UMLS C0042166</ARI_ChangeLog>
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">314429009</ARI_DXCODE>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4197155</ARI_OMOP>
 </owl:NamedIndividual>
@@ -12146,6 +12171,7 @@ There are other forms of uveitis that can be autoimmune.</rdfs:comment>
   <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0015925</ARI_MONDO>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-07 20:41 | user | Edited: mondo</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-07 20:42 | AnjaliRH | Cross-reference review: confirmed SNOMED 233703007; confirmed OMOP 4119786; confirmed DOID 3082; confirmed NCI C164315; confirmed MESH D017563</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-10 14:32 | AnjaliRH | Cross-reference review: confirmed SNOMED 233703007; confirmed OMOP 4119786; confirmed DOID 3082; confirmed NCI C164315; confirmed MESH D017563; confirmed ICD10 J84.9; confirmed UMLS C0206062</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001117">
