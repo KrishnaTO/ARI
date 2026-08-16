@@ -460,9 +460,8 @@ ARI:0001107	Immune thrombocytopenia	skos:exactMatch	Not	icd10cm:D69.3	icd10cm	se
 ARI:0001107	Immune thrombocytopenia	skos:exactMatch	Not	icd10cm:287.31	icd10cm	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07
 ARI:0001116	Interstitial lung disease	skos:exactMatch		icd10cm:J84.9	icd10cm	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-10
 ARI:0001111	Inclusion body myositis	skos:exactMatch		icd10cm:G72.41	icd10cm	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-10
-ARI:0001111	Inclusion body myositis	skos:exactMatch		icd10cm:359.71	icd10cm	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-10
 ARI:0001103	Idiopathic pulmonary fibrosis	skos:exactMatch		umls:C1800706	umls	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-10
-ARI:0001107	Immune thrombocytopenia	skos:exactMatch		umls:C0398650	umls	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-10
+ARI:0001107	Immune thrombocytopenia	skos:exactMatch		umls:C0242584	umls	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-10
 ARI:0001104	IgA nephropathy	skos:exactMatch		umls:C0017661	umls	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-10
 ARI:0001108	Immunoglobulin A vasculitis	skos:exactMatch		umls:C0034152	umls	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-10
 ARI:0001111	Inclusion body myositis	skos:exactMatch		umls:C0238190	umls	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-10
