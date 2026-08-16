@@ -481,3 +481,7 @@ ARI:0001076	Cutaneous lupus erythematosus	skos:exactMatch		mesh:D008178	mesh	sem
 ARI:0001074	Cryptogenic organizing pneumonia	skos:exactMatch	Not	icd10cm:516.33	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-16
 ARI:0001074	Cryptogenic organizing pneumonia	skos:exactMatch		sssom:NoTermFound	OMIM	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-16
 ARI:0001076	Cutaneous lupus erythematosus	skos:exactMatch		sssom:NoTermFound	OMIM	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-16
+ARI:0001060	Cataplexy and narcolepsy	skos:exactMatch		ncit:C196015	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-16
+ARI:0001060	Cataplexy and narcolepsy	skos:exactMatch		mesh:D009290	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-16
+ARI:0001060	Cataplexy and narcolepsy	skos:exactMatch		OMIM:161400	OMIM	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-16
+ARI:0001060	Cataplexy and narcolepsy	skos:exactMatch	Not	DOID:8986	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-16
