@@ -70,6 +70,38 @@ Scripts run in this order:
 Primary inputs are the master list in `data/1-master/` and the supporting files in
 `data/3-meta-database-sources/`, `ontologies/`, `mappings/`, and `sparql/results/`.
 
+## Mapping validation
+
+`.github/scripts/validate_mappings.py` checks the two mapping exports against each other
+and against the ontology. It needs only the standard library:
+
+```bash
+python .github/scripts/validate_mappings.py
+```
+
+Add `--since main` to report only the rows a branch changed. Two workflows run it:
+
+| Workflow | Trigger | Scope |
+| --- | --- | --- |
+| `Validate mappings` | pull requests touching `mappings/` or `ontologies/` | rows the branch added or rewrote — fails the check |
+| `Audit mappings` | Mondays 07:00 UTC, or on demand | every row, so the standing backlog stays visible |
+
+What it catches:
+
+- Structural damage — wrong header, wrong column count, stray tabs, mixed line endings,
+  a byte-order mark, a prefix missing from the SSSOM `curie_map`.
+- Identifiers that are not identifiers — `mesh:null` and other placeholders, doubled
+  prefixes such as `MONDO:MONDO:0014523`, ids that do not fit their vocabulary's shape,
+  and ICD-9 codes filed under the `icd10cm` prefix.
+- Contradictions — the same pair recorded as both confirmed and flagged wrong, duplicate
+  rows, one disease under two different labels, dates in the future, unattributed edits.
+- Drift between `ari.sssom.tsv` and `ari.equivalencies.tsv`, which is how spreadsheet
+  round-trips show up: `362.50` losing its trailing zero, `0111157` losing its leading
+  ones.
+- Disagreement with the ontology — a disease id or label that does not match, a
+  cross-reference the curators flagged wrong that is still stored and still served, or a
+  confirmed one that was never stored.
+
 ## Working rules
 
 - Prefer the curated master list as the source of truth.
