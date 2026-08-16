@@ -1,5 +1,17 @@
 # Changelog
 
+## fix-ari-id-padding
+
+- Zero-padded the `source_id` column on **69 rows in `mappings/ari.equivalencies.tsv`**,
+  covering 12 diseases that were written as `1001` where the ontology and
+  `mappings/ari.sssom.tsv` both spell them `0001001`.
+- The ontology's `ARI_ID` is the one spelling; the fix reads the correct form from
+  `ontologies/ari_t1d.owl` rather than assuming a width, which matters because ARI:0002
+  and ARI:0003 are genuinely four digits there and must not be re-padded to seven.
+- Nothing else changed — only column 2 differs on every rewritten row, and no row was
+  added or removed. The effect is that all three files now join on disease id without
+  normalisation, which is what made the earlier drift between the two exports hard to see.
+
 ## remove-icd9-codes-from-data
 
 - Removed **89 ICD-9-CM codes** filed under ICD-10 fields: 61 `ARI_ICD10` values in
