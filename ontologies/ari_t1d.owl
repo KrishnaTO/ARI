@@ -599,7 +599,7 @@
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">46635009</ARI_SNOMED>
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9744</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0011854</ARI_UMLS>
-  <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MONDO:0005147</ARI_MONDO>
+  <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0005147</ARI_MONDO>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E10</ARI_ICD10>
   <ARI_Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.0</ARI_Version>
   <ARI_PrevalenceDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">~0.5% global, ~1.6M US. ~500/100k globally.</ARI_PrevalenceDesc>
@@ -1565,7 +1565,7 @@
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Latent autoimmune diabetes</ARI_Synonym>
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9744</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C2987933</ARI_UMLS>
-  <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MONDO:0011027</ARI_MONDO>
+  <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0011027</ARI_MONDO>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E10</ARI_ICD10>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-12 | System | Initial subtype entry</ARI_ChangeLog>
 </owl:NamedIndividual>
@@ -19288,7 +19288,6 @@ Since antibiotics have reduced the incidence of rheumatic fever, the incidence o
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1586</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0035436</ARI_UMLS>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0264743</ARI_UMLS>
-  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I00-I02</ARI_ICD10>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I00</ARI_ICD10>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D012213</ARI_MESH>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C34984</ARI_NCI>

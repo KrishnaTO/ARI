@@ -77,7 +77,6 @@ ARI:0001010	Alopecia areata	skos:exactMatch		SNOMEDCT:68225006	SNOMEDCT	semapv:M
 ARI:0001010	Alopecia areata	skos:exactMatch		icd10cm:L63	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-25
 ARI:0001011	Angiofollicular lymph node hyperplasia	skos:exactMatch		icd10cm:D47.Z2	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-25
 ARI:0001012	Ankylosing spondylitis	skos:exactMatch		icd10cm:M45	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-25
-ARI:0001005	Acute lichenoid pityriasis	skos:exactMatch		ncit:null	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-25
 ARI:0001010	Alopecia areata	skos:exactMatch		mesh:D000506	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-25
 ARI:0001011	Angiofollicular lymph node hyperplasia	skos:exactMatch		mesh:D005871	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-25
 ARI:0001012	Ankylosing spondylitis	skos:exactMatch		mesh:D013167	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-25
@@ -87,7 +86,6 @@ ARI:0001006	Addison's disease	skos:exactMatch	Not	SNOMEDCT:386584007	SNOMEDCT	se
 ARI:0001010	Alopecia areata	skos:exactMatch	Not	SNOMEDCT:19754005	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-25
 ARI:0001010	Alopecia areata	skos:exactMatch	Not	SNOMEDCT:86166000	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-25
 ARI:0001011	Angiofollicular lymph node hyperplasia	skos:exactMatch	Not	mesh:C536362	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-25
-ARI:0001010	Alopecia areata	skos:exactMatch	Not	ncit:null	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-25
 ARI:0001006	Addison's disease	skos:exactMatch		omop:443394	omop	semapv:ManualMappingCuration	github:AnjaliRH	2026-06-29
 ARI:0001006	Addison's disease	skos:exactMatch		MONDO:0100480	MONDO	semapv:ManualMappingCuration	github:AnjaliRH	2026-06-29
 ARI:0001008	Adult onset Still's disease	skos:exactMatch		MONDO:0019355	MONDO	semapv:ManualMappingCuration	github:AnjaliRH	2026-06-29
@@ -170,7 +168,6 @@ ARI:0001014	Anti-glomerular basement membrane disease	skos:exactMatch	Not	omop:4
 ARI:0001014	Anti-glomerular basement membrane disease	skos:exactMatch	Not	omop:4267717	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-10
 ARI:0001014	Anti-glomerular basement membrane disease	skos:exactMatch	Not	omop:195289	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-10
 ARI:0001014	Anti-glomerular basement membrane disease	skos:exactMatch	Not	icd10cm:M31.0	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-10
-ARI:0001017	Antineutrophil cytoplasmic antibody positive vasculitis	skos:exactMatch	Not	DOID:null	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-10
 ARI:0001208	Uveitis	skos:exactMatch		SNOMEDCT:128473001	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-07
 ARI:0001208	Uveitis	skos:exactMatch		omop:4028363	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-07
 ARI:0001208	Uveitis	skos:exactMatch		DOID:0040088	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-07
@@ -289,7 +286,6 @@ ARI:0001093	Felty syndrome	skos:exactMatch		mesh:D005258	mesh	semapv:ManualMappi
 ARI:0001093	Felty syndrome	skos:exactMatch	Not	icd10cm:M05.0	icd10cm	semapv:ManualMappingCuration	github:Jennyzeng25	2026-07-31
 ARI:0001093	Felty syndrome	skos:exactMatch	Not	OMIM:134750	OMIM	semapv:ManualMappingCuration	github:Jennyzeng25	2026-07-31
 ARI:0001093	Felty syndrome	skos:exactMatch	Not	umls:C0015773	umls	semapv:ManualMappingCuration	github:Jennyzeng25	2026-07-31
-ARI:0001094	Female infertility due to antisperm antibodies	skos:exactMatch	Not	DOID:null	DOID	semapv:ManualMappingCuration	github:Jennyzeng25	2026-07-31
 ARI:0001059	Calcinosis due to childhood type dermatomyositis	skos:exactMatch		SNOMEDCT:838312001	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
 ARI:0001059	Calcinosis due to childhood type dermatomyositis	skos:exactMatch		omop:3654620	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
 ARI:0001060	Cataplexy and narcolepsy	skos:exactMatch		SNOMEDCT:193042000	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
@@ -406,12 +402,10 @@ ARI:0001096	Graves' disease	skos:exactMatch		OMIM:275000	OMIM	semapv:ManualMappi
 ARI:0001095	Fibromyalgia	skos:exactMatch		ORPHA:41842	ORPHA	semapv:ManualMappingCuration	github:Jennyzeng25	2026-08-04
 ARI:0001096	Graves' disease	skos:exactMatch		mesh:D006111	mesh	semapv:ManualMappingCuration	github:Jennyzeng25	2026-08-04
 ARI:0003	Fulminant type 1 diabetes	skos:exactMatch	Not	SNOMEDCT:1217068008	SNOMEDCT	semapv:ManualMappingCuration	github:Jennyzeng25	2026-08-04
-ARI:0003	Fulminant type 1 diabetes	skos:exactMatch	Not	DOID:null	DOID	semapv:ManualMappingCuration	github:Jennyzeng25	2026-08-04
-ARI:0003	Fulminant type 1 diabetes	skos:exactMatch	Not	MONDO:MONDO:0014523	MONDO	semapv:ManualMappingCuration	github:Jennyzeng25	2026-08-04
+ARI:0003	Fulminant type 1 diabetes	skos:exactMatch	Not	MONDO:0014523	MONDO	semapv:ManualMappingCuration	github:Jennyzeng25	2026-08-04
 ARI:0003	Fulminant type 1 diabetes	skos:exactMatch	Not	icd10cm:E10	icd10cm	semapv:ManualMappingCuration	github:Jennyzeng25	2026-08-04
 ARI:0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch		omop:28660	omop	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07
 ARI:0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch		DOID:0090110	DOID	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07
-ARI:0001105	Immune checkpoint inhibitor-induced autoimmunity	skos:exactMatch		mesh:null	mesh	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07
 ARI:0001108	Immunoglobulin A vasculitis	skos:exactMatch		SNOMEDCT:191306005	SNOMEDCT	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07
 ARI:0001110	Immunoglobulin G4 related ophthalmic disease	skos:exactMatch		SNOMEDCT:1187510006	SNOMEDCT	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07
 ARI:0001111	Inclusion body myositis	skos:exactMatch		SNOMEDCT:72315009	SNOMEDCT	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07
@@ -434,13 +428,10 @@ ARI:0001115	Intermediate uveitis	skos:exactMatch		DOID:12732	DOID	semapv:ManualM
 ARI:0001116	Interstitial lung disease	skos:exactMatch		DOID:3082	DOID	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07
 ARI:0001116	Interstitial lung disease	skos:exactMatch		ncit:C164315	ncit	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07
 ARI:0001115	Intermediate uveitis	skos:exactMatch		ncit:C35110	ncit	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07
-ARI:0001110	Immunoglobulin G4 related ophthalmic disease	skos:exactMatch		mesh:null	mesh	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07
 ARI:0001111	Inclusion body myositis	skos:exactMatch		mesh:D018979	mesh	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07
 ARI:0001112	Inflammatory Bowel Disease	skos:exactMatch		mesh:D015212	mesh	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07
-ARI:0001113	Insulin autoimmune syndrome	skos:exactMatch		mesh:null	mesh	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07
 ARI:0001115	Intermediate uveitis	skos:exactMatch		mesh:D015867	mesh	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07
 ARI:0001116	Interstitial lung disease	skos:exactMatch		mesh:D017563	mesh	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07
-ARI:0001108	Immunoglobulin A vasculitis	skos:exactMatch		OMIM:null	OMIM	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07
 ARI:0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch	Not	SNOMEDCT:237618001	SNOMEDCT	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07
 ARI:0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch	Not	icd10cm:E31.0	icd10cm	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07
 ARI:0001107	Immune thrombocytopenia	skos:exactMatch	Not	DOID:8924	DOID	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07

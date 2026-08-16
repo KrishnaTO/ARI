@@ -1,5 +1,33 @@
 # Changelog
 
+## fix-remaining-mapping-errors
+
+- Clears the last 25 validation errors. The audit is now **0 errors, 17 warnings**.
+- **Removed 9 `null` cross-reference rows from each export.** Four were flagged-wrong rows,
+  which recorded a curator rejecting nothing at all. Five were *confirmations* — a mapping
+  asserted to exist against an identifier that was never written. The rows are removed
+  rather than repaired: supplying the real id is a curation judgment, and asserting
+  `NoTermFound` instead would claim the vocabulary has no term, which is demonstrably
+  false in at least one case. The nine pairs need re-review: ARI:0001005 and ARI:0001010
+  (NCIt), ARI:0001017, ARI:0001094 and ARI:0003 (DOID), ARI:0001105, ARI:0001110 and
+  ARI:0001113 (MeSH), ARI:0001108 (OMIM).
+- Worth noting on that last point: #49 supplied `mesh:C580192` for ARI:0001105 by review
+  suggestion on 2026-08-03, and a `mesh:null` row dated 2026-08-07 has since replaced it.
+  A hand-corrected value was overwritten by the same defect four days later, which is the
+  regression the new CI check exists to stop.
+- **`MONDO:MONDO:0014523` → `MONDO:0014523`** in both exports — the prefix had been
+  concatenated onto a value that already carried it.
+- **`DOID:111157` → `DOID:0111157`** in `ari.equivalencies.tsv`, resolving the last drift
+  between the two exports. The ontology stores `0111157` for ARI:0001011, so the leading
+  zeros were lost on the equivalencies side, not invented on the SSSOM side.
+- **Two `ARI_MONDO` values de-prefixed** in the ontology — ARI:0001080 and ARI:0002 stored
+  `MONDO:0005147` and `MONDO:0011027` where the other 55 MONDO values are bare digits.
+- **Removed the ICD-10 range `I00-I02`** from Rheumatic fever (ARI:0001182). Nothing is
+  lost: the disease already records `I00` as a single code alongside it, and a range is
+  not an exact match.
+- The 17 remaining warnings are unchanged and non-blocking: 11 confirmed mappings that are
+  not stored on their disease, and 6 diseases holding a DXCODE with no SNOMED counterpart.
+
 ## fix-ari-id-padding
 
 - Zero-padded the `source_id` column on **69 rows in `mappings/ari.equivalencies.tsv`**,
