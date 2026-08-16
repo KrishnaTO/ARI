@@ -426,6 +426,17 @@ ARI	0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Synd
 ARI	0001107	Immune thrombocytopenia	skos:exactMatch	DOID	8924	manual-negative	github:AnjaliRH
 ARI	0001109	Immunoglobulin G4 related disease	skos:exactMatch	DOID	0080356	manual-negative	github:AnjaliRH
 ARI	0001107	Immune thrombocytopenia	skos:exactMatch	icd10cm	D69.3	manual-negative	github:AnjaliRH
+ARI	0001116	Interstitial lung disease	skos:exactMatch	icd10cm	J84.9	manual	github:AnjaliRH
+ARI	0001111	Inclusion body myositis	skos:exactMatch	icd10cm	G72.41	manual	github:AnjaliRH
+ARI	0001103	Idiopathic pulmonary fibrosis	skos:exactMatch	umls	C1800706	manual	github:AnjaliRH
+ARI	0001107	Immune thrombocytopenia	skos:exactMatch	umls	C0242584	manual	github:AnjaliRH
+ARI	0001104	IgA nephropathy	skos:exactMatch	umls	C0017661	manual	github:AnjaliRH
+ARI	0001108	Immunoglobulin A vasculitis	skos:exactMatch	umls	C0034152	manual	github:AnjaliRH
+ARI	0001111	Inclusion body myositis	skos:exactMatch	umls	C0238190	manual	github:AnjaliRH
+ARI	0001112	Inflammatory Bowel Disease	skos:exactMatch	umls	C0021390	manual	github:AnjaliRH
+ARI	0001113	Insulin autoimmune syndrome	skos:exactMatch	umls	C0854359	manual	github:AnjaliRH
+ARI	0001115	Intermediate uveitis	skos:exactMatch	umls	C0042166	manual	github:AnjaliRH
+ARI	0001116	Interstitial lung disease	skos:exactMatch	umls	C0206062	manual	github:AnjaliRH
 ARI	0001073	Crohn's disease	skos:exactMatch	SNOMEDCT	34000006	manual	github:KrishnaTO
 ARI	0001073	Crohn's disease	skos:exactMatch	MONDO	0005011	manual	github:KrishnaTO
 ARI	0001073	Crohn's disease	skos:exactMatch	DOID	8778	manual	github:KrishnaTO
