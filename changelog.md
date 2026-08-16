@@ -1,5 +1,22 @@
 # Changelog
 
+## fix-sssom-duplicate-key
+
+- Fixed a false `duplicate-row` error in `.github/scripts/validate_mappings.py`. The
+  SSSOM duplicate check keyed rows on `object_id`, but every `manual-absent` row carries
+  the same literal `sssom:NoTermFound` object — the vocabulary that was searched lives in
+  `object_source`. So five rows recording "no ORPHA term", "no DOID term", "no SNOMEDCT
+  term", "no icd10cm term" and "no OMIM term" for one subject all collapsed to one key,
+  and four of them were reported as duplicates of the first.
+- The file already resolved this correctly in `sssom_key()` for the cross-file
+  comparison; only the intra-file duplicate check missed it. Factored that resolution
+  into `distinct_object_id()` and used it in both places, so the two cannot drift again.
+- The same value now feeds the `contradiction` check, which likewise needs to compare
+  per-vocabulary — and its message reads `ORPHA:NoTermFound` rather than a bare
+  `sssom:NoTermFound` that names no vocabulary.
+- No change to the counts on `main` (0 errors, 17 warnings before and after). PR #67,
+  which added 24 `manual-absent` rows and tripped 7 of these false errors, goes to 0.
+
 ## port-icd9-retirement-to-main
 
 - Ports #57 to `main`. That PR retired ICD-9 but merged into
