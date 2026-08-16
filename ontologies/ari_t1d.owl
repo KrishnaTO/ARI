@@ -8320,6 +8320,13 @@ More study is needed.</rdfs:comment>
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Complex Regional Pain Syndrome II - subtype of Complex regional pain syndrome (NCIT:C121572)</ARI_ClinicalSubtype>
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complex regional pain syndrome type 1 - subtype of Complex regional pain syndrome (MONDO:0011441)</ARI_ClinicalSubtype>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-15 22:38 | KrishnaTO | Enrichment from confirmed cross-references: +9 synonym(s), +4 clinical subtype(s)</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-16 00:13 | KrishnaTO | Cross-reference review: confirmed OMIM 604335</ARI_ChangeLog>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Complex regional pain syndrome I</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complex regional pain syndrome type 1</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reflex neurovascular dystrophy</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CRPS I</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reflex sympathetic dystrophy syndrome</ARI_Synonym>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-16 00:13 | KrishnaTO | Enrichment from confirmed cross-references: +5 synonym(s)</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001071_629">
@@ -8521,6 +8528,14 @@ Both UC and CD are caused by an autoimmune response that reflects the involvemen
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ileitis - subtype of Crohn's disease (DOID:0060189)</ARI_ClinicalSubtype>
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">jejunoileitis - subtype of Crohn's disease (DOID:0060188)</ARI_ClinicalSubtype>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-15 22:38 | KrishnaTO | Enrichment from confirmed cross-references: +14 synonym(s), +6 clinical subtype(s)</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-16 00:13 | KrishnaTO | Cross-reference review: confirmed OMOP 201606; confirmed NCI C2965; confirmed ICD10 K50; confirmed ORPHANET 206; confirmed MESH D003424</ARI_ChangeLog>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NON RARE IN EUROPE: Crohn disease</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crohn's Enteritis</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crohns Disease</ARI_Synonym>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crohn Disease of Rectum - subtype of Crohn's disease (NCIT:C219892)</ARI_ClinicalSubtype>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crohn Disease of Small Intestine - subtype of Crohn's disease (NCIT:C35210)</ARI_ClinicalSubtype>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crohn Colitis - subtype of Crohn's disease (NCIT:C35211)</ARI_ClinicalSubtype>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-16 00:13 | KrishnaTO | Enrichment from confirmed cross-references: +3 synonym(s), +3 clinical subtype(s)</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001073_662">
@@ -8639,6 +8654,28 @@ Both UC and CD are caused by an autoimmune response that reflects the involvemen
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-09</ARI_AuthorDate>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COP</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-16 00:13 | KrishnaTO | Cross-reference review: confirmed SNOMED 719218000; confirmed OMOP 36714118; confirmed DOID 2797; confirmed MONDO 0015264; confirmed ORPHANET 1302; flagged ICD10 516.33; no term in OMIM</ARI_ChangeLog>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organising pneumonia</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cryptogenic organizing pneumonitis</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Idiopathic fibrosing alveolitis</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">idiopathic interstitial pneumonitis</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">noninfectious pneumonia</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COP</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diffuse idiopathic pulmonary fibrosis</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Organizing Pneumonia</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bronchiolitis obliterans organizing pneumonia</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOOP</ARI_Synonym>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acute interstitial pneumonia - subtype of Cryptogenic organizing pneumonia (DOID:2800)</ARI_ClinicalSubtype>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">desquamative interstitial pneumonia - subtype of Cryptogenic organizing pneumonia (DOID:0050158)</ARI_ClinicalSubtype>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">idiopathic pleuroparenchymal fibroelastosis - subtype of Cryptogenic organizing pneumonia (MONDO:0044633)</ARI_ClinicalSubtype>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">non-specific interstitial pneumonia - subtype of Cryptogenic organizing pneumonia (MONDO:0019622)</ARI_ClinicalSubtype>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">idiopathic pulmonary fibrosis - subtype of Cryptogenic organizing pneumonia (MONDO:0800504)</ARI_ClinicalSubtype>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">follicular bronchiolits - subtype of Cryptogenic organizing pneumonia (MONDO:0800114)</ARI_ClinicalSubtype>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nonspecific interstitial pneumonia - subtype of Cryptogenic organizing pneumonia (DOID:2801)</ARI_ClinicalSubtype>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">combined pulmonary fibrosis-emphysema syndrome - subtype of Cryptogenic organizing pneumonia (MONDO:0017591)</ARI_ClinicalSubtype>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">respiratory bronchiolitis-interstitial lung disease syndrome - subtype of Cryptogenic organizing pneumonia (MONDO:0019204)</ARI_ClinicalSubtype>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lymphoid interstitial pneumonia - subtype of Cryptogenic organizing pneumonia (DOID:0050159)</ARI_ClinicalSubtype>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-16 00:13 | KrishnaTO | Enrichment from confirmed cross-references: +10 synonym(s), +10 clinical subtype(s)</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001074_677">
@@ -8729,6 +8766,19 @@ Both UC and CD are caused by an autoimmune response that reflects the involvemen
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-09</ARI_AuthorDate>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CLE</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">535</ARI_ORPHANET>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-16 00:11 | user | Edited: orphanet</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-16 00:13 | KrishnaTO | Cross-reference review: confirmed DOID 0050169; confirmed MONDO 0005282; confirmed NCI C26819; confirmed UMLS C0024137; confirmed MESH D008178; no term in OMIM</ARI_ChangeLog>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lupus Erythematosus, Cutaneous</ARI_Synonym>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Systemic Lupus Erythematosus Rash - subtype of Cutaneous lupus erythematosus (NCIT:C27171)</ARI_ClinicalSubtype>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">subacute cutaneous lupus erythematosus - subtype of Cutaneous lupus erythematosus (MONDO:0015573)</ARI_ClinicalSubtype>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chilblain lupus - subtype of Cutaneous lupus erythematosus (DOID:0060386)</ARI_ClinicalSubtype>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lupus Erythematosus Tumidus - subtype of Cutaneous lupus erythematosus (NCIT:C117112)</ARI_ClinicalSubtype>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bullous systemic lupus erythematosus - subtype of Cutaneous lupus erythematosus (MONDO:0044113)</ARI_ClinicalSubtype>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chronic cutaneous lupus erythematosus - subtype of Cutaneous lupus erythematosus (MONDO:0015574)</ARI_ClinicalSubtype>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rowell syndrome - subtype of Cutaneous lupus erythematosus (MONDO:0041186)</ARI_ClinicalSubtype>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drug Induced Cutaneous Lupus Erythematosus - subtype of Cutaneous lupus erythematosus (NCIT:C112203)</ARI_ClinicalSubtype>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-16 00:13 | KrishnaTO | Enrichment from confirmed cross-references: +1 synonym(s), +8 clinical subtype(s)</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001076_682">
