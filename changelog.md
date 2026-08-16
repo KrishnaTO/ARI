@@ -1,5 +1,30 @@
 # Changelog
 
+## ci-workflows-mapping-files
+
+- Added `.github/scripts/validate_mappings.py` and two workflows that run it. The checks
+  were derived from problems that actually reached `main` — the `mesh:null` and
+  `DOID:null` ids caught by hand in code review on #49 and #52, the ICD-9 codes #57
+  retired from the source list but not from the data, the `MONDO:MONDO:0014523` double
+  prefix, and the flagged-but-still-stored ids #60 had to clear out.
+- **`Validate mappings`** gates pull requests that touch `mappings/` or `ontologies/`. It
+  reports only rows the branch added or rewrote, so a curator submitting one disease is
+  never blocked by debt they did not introduce. Findings appear as inline annotations on
+  the changed line.
+- **`Audit mappings`** runs the same checks over every row, weekly and on demand, so the
+  standing backlog stays visible without turning every merge red.
+- The validator is standard library only, so CI needs no install step, and it runs
+  locally with `python .github/scripts/validate_mappings.py`.
+- The first full audit against `main` reports **193 errors and 17 warnings**, all
+  pre-existing and none corrected here. Two follow-up branches clear the bulk mechanically
+  — `remove-icd9-codes-from-data` (88 ICD-9 codes filed under ICD-10 fields) and
+  `fix-ari-id-padding` (69 rows whose ARI id is not padded the way the ontology spells
+  it) — which takes the audit to **25 errors and 17 warnings**.
+- What remains after those is the part that needs a curator, not a script: 18 literal
+  `null` identifiers, the `MONDO:MONDO:0014523` double prefix, two MONDO values stored
+  with their prefix where the other 55 are bare, the ICD-10 range `I00-I02`, and one
+  cross-file drift where `ari.sssom.tsv` has `DOID:0111157` against the equivalencies
+  export's `DOID:111157`.
 ## fix-remaining-mapping-errors
 
 - Clears the last 25 validation errors. The audit is now **0 errors, 17 warnings**.
