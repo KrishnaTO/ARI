@@ -2069,7 +2069,6 @@
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13378</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0026691</ARI_UMLS>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">M30.3</ARI_ICD10>
-  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">446.1</ARI_ICD10>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D009080</ARI_MESH>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C34825</ARI_NCI>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">314381</ARI_OMOP>
@@ -2676,7 +2675,6 @@ The cause of Kawasaki's Disease is uncertain but is believed to be autoimmune.  
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10871</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0242383</ARI_UMLS>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H35.30</ARI_ICD10>
-  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">362.50</ARI_ICD10>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D008268</ARI_MESH>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C84391</ARI_NCI>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">374028</ARI_OMOP>
@@ -2746,7 +2744,6 @@ However, based on the research available at this time, there is no evidence that
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">68225006</ARI_SNOMED>
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">986</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0002171</ARI_UMLS>
-  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">704.01</ARI_ICD10>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L63</ARI_ICD10>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D000506</ARI_MESH>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alopecia areata is a type of hair loss that occurs when your immune system mistakenly attacks hair follicles, which is where hair growth begins. The damage to the follicle is usually not permanent. Experts do not know why the immune system attacks the follicles.</rdfs:comment>
@@ -2993,7 +2990,6 @@ However, based on the research available at this time, there is no evidence that
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7147</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0038013</ARI_UMLS>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">M45</ARI_ICD10>
-  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">720.0</ARI_ICD10>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D013167</ARI_MESH>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C84564</ARI_NCI>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">437082</ARI_OMOP>
@@ -3627,7 +3623,6 @@ The trigger for antisynthetase syndrome is unknown, but it may be associated wit
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">306058006</ARI_SNOMED>
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12449</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0002874</ARI_UMLS>
-  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">284.9</ARI_ICD10>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D61.9</ARI_ICD10>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D000741</ARI_MESH>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C2870</ARI_NCI>
@@ -3868,7 +3863,6 @@ The trigger for antisynthetase syndrome is unknown, but it may be associated wit
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">232308006</ARI_SNOMED>
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9849</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0025281</ARI_UMLS>
-  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">386.0</ARI_ICD10>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H81.0</ARI_ICD10>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D008575</ARI_MESH>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C185243</ARI_NCI>
@@ -4355,7 +4349,6 @@ When the NMDA receptor antibodies attack the NMDA receptors in the brain, certai
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">718716008</ARI_SNOMED>
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">718</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0002880</ARI_UMLS>
-  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">283.0</ARI_ICD10>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D000744</ARI_MESH>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C34378</ARI_NCI>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">441269, 36713763</ARI_OMOP>
@@ -4463,7 +4456,6 @@ When the NMDA receptor antibodies attack the NMDA receptors in the brain, certai
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2048</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0241910</ARI_UMLS>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1332355</ARI_UMLS>
-  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">571.42</ARI_ICD10>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D019693</ARI_MESH>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C27778</ARI_NCI>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">200762, 36715923, 36717496, 36715924, 36687200</ARI_OMOP>
@@ -4655,7 +4647,6 @@ When the NMDA receptor antibodies attack the NMDA receptors in the brain, certai
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6688</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1328840</ARI_UMLS>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D89.82</ARI_ICD10>
-  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">279.41</ARI_ICD10>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D056735</ARI_MESH>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C37864</ARI_NCI>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">45765493</ARI_OMOP>
@@ -6264,7 +6255,6 @@ Cicatricial pemphigoid is usually not chronic, and most patients symptoms disapp
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8506</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0030805</ARI_UMLS>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L12.0</ARI_ICD10>
-  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">694.5</ARI_ICD10>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D010391</ARI_MESH>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C84389</ARI_NCI>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4298692, 139899</ARI_OMOP>
@@ -8914,7 +8904,6 @@ When mastocytosis is not limited to the skin, it is called systemic mastocytosis
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8505</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0011608</ARI_UMLS>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L13.0</ARI_ICD10>
-  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">694.0</ARI_ICD10>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D003874</ARI_MESH>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C26742</ARI_NCI>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">140487</ARI_OMOP>
@@ -9035,7 +9024,6 @@ When mastocytosis is not limited to the skin, it is called systemic mastocytosis
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10223</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0011633</ARI_UMLS>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">M33</ARI_ICD10>
-  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">710.3</ARI_ICD10>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D003882</ARI_MESH>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C26744</ARI_NCI>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">80182, 4005037</ARI_OMOP>
@@ -9131,7 +9119,6 @@ When mastocytosis is not limited to the skin, it is called systemic mastocytosis
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0050214</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0022972</ARI_UMLS>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G70.80</ARI_ICD10>
-  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">358.3</ARI_ICD10>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D015624</ARI_MESH>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C3155</ARI_NCI>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4237155</ARI_OMOP>
@@ -9279,7 +9266,6 @@ When mastocytosis is not limited to the skin, it is called systemic mastocytosis
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">129103003</ARI_SNOMED>
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">289</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0014175</ARI_UMLS>
-  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">617</ARI_ICD10>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">N80</ARI_ICD10>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D004715</ARI_MESH>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C3014</ARI_NCI>
@@ -9566,7 +9552,6 @@ When mastocytosis is not limited to the skin, it is called systemic mastocytosis
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13922</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0341106</ARI_UMLS>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">K20.0</ARI_ICD10>
-  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">530.13</ARI_ICD10>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D057765</ARI_MESH>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C27105</ARI_NCI>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27918</ARI_OMOP>
@@ -9688,7 +9673,6 @@ When mastocytosis is not limited to the skin, it is called systemic mastocytosis
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1826</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0014544</ARI_UMLS>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G40.909</ARI_ICD10>
-  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">345.9</ARI_ICD10>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D004827</ARI_MESH>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C3020</ARI_NCI>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">380378</ARI_OMOP>
@@ -11141,7 +11125,6 @@ ASA is not a concern except for people trying to conceive.</rdfs:comment>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">60555002</ARI_SNOMED>
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9809</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0151436</ARI_UMLS>
-  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">446.2</ARI_ICD10>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">M31.0</ARI_ICD10>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D018366</ARI_MESH>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C35119</ARI_NCI>
@@ -11242,7 +11225,6 @@ ASA is not a concern except for people trying to conceive.</rdfs:comment>
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0050156</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1800706</ARI_UMLS>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J84.112</ARI_ICD10>
-  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">516.31</ARI_ICD10>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D054990</ARI_MESH>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C35716</ARI_NCI>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">45763750</ARI_OMOP>
@@ -11645,7 +11627,6 @@ Note that thrombotic thrombocytopenic purpura, TTP, is a ***genetic*** disease t
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">191306005</ARI_SNOMED>
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11123</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0034152</ARI_UMLS>
-  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">287.0</ARI_ICD10>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D69.0</ARI_ICD10>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D011695</ARI_MESH>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C34963</ARI_NCI>
@@ -11851,7 +11832,6 @@ At this time, not all IgG4 diseases are documented, and many are very rare. Howe
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3429</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0238190</ARI_UMLS>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G72.41</ARI_ICD10>
-  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">359.71</ARI_ICD10>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D018979</ARI_MESH>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C84786</ARI_NCI>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4216406</ARI_OMOP>
@@ -12168,10 +12148,6 @@ There are other forms of uveitis that can be autoimmune.</rdfs:comment>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0157917</ARI_UMLS>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0157918</ARI_UMLS>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0157916</ARI_UMLS>
-  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">714.33</ARI_ICD10>
-  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">714.32</ARI_ICD10>
-  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">714.3</ARI_ICD10>
-  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">714.31</ARI_ICD10>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">M08.4</ARI_ICD10>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C26979</ARI_NCI>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C61279</ARI_NCI>
@@ -12276,7 +12252,6 @@ Some patients experience full relief from symptoms with medical attention, while
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9201</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0023646</ARI_UMLS>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L43</ARI_ICD10>
-  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">697.0</ARI_ICD10>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D008010</ARI_MESH>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C3189</ARI_NCI>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">132703</ARI_OMOP>
@@ -12391,7 +12366,6 @@ Most papers on lichen planus assume all cases of the disease are autoimmune or d
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25674000</ARI_SNOMED>
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13477</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0152460</ARI_UMLS>
-  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">607.81</ARI_ICD10>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C3523</ARI_NCI>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">619430, 4119189</ARI_OMOP>
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">895454001, 25674000</ARI_DXCODE>
@@ -13841,7 +13815,6 @@ It is under debate whether collagenous and lymphocytic colitis are different pha
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10439</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0155072</ARI_UMLS>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H16.05</ARI_ICD10>
-  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">370.07</ARI_ICD10>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">435271</ARI_OMOP>
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22440001</ARI_DXCODE>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mooren's Ulcer is a chronic eye condition that causes inflammation where the eye's covering (cornea) joins with the white part of the eye (sclera).  This type of inflammation is called Peripheral Ulcerative Keratitis (PUK).  These persistent peripheral ulcers of the cornea often spread into and around the eye. There are several variants of this disorder:  Aggressive Bilateral Mooren's Ulcers patients usually have an ulcer in one eye and congestion or discharge in the other eye. Pain is milder, and grey patches may develop within 2 mm of the border between the cornea and the white of the eye (limbus). Bilateral Indolent Mooren's Ulcers affect both eyes, with one eye typically showing more severity.  Discomfort may occur with minimal inflammation.  Unilateral Mooren's ulcers can occur in one or both eyes and is excessively painful.  Redness and congestion are apparent, but inflammation is seen within 3 mm of the limbus.    Mooren's Ulcer is believed to be an autoimmune disorder, but more research is needed.  The condition can be benign, with few symptoms and low risk of complications, or malignant, with severe symptoms.  Without medical care, malignant cases may lead to vision loss, but treatments are available to prevent this.</rdfs:comment>
@@ -13959,7 +13932,6 @@ It is under debate whether collagenous and lymphocytic colitis are different pha
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8472</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0036420</ARI_UMLS>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L94.0</ARI_ICD10>
-  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">701.0</ARI_ICD10>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D012594</ARI_MESH>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C72069</ARI_NCI>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">441928, 4066845</ARI_OMOP>
@@ -14135,7 +14107,6 @@ There is no cure for morphea, but treatments are available to manage symptoms.  
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13099</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0026654</ARI_UMLS>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I67.5</ARI_ICD10>
-  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">437.5</ARI_ICD10>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D009072</ARI_MESH>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C84895</ARI_NCI>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">378774</ARI_OMOP>
@@ -14253,7 +14224,6 @@ Although this rare disease most commonly affects children, adults may have this 
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24700007</ARI_SNOMED>
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2377</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0026769</ARI_UMLS>
-  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">340</ARI_ICD10>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G35</ARI_ICD10>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D009103</ARI_MESH>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C3243</ARI_NCI>
@@ -14432,10 +14402,8 @@ Although this rare disease most commonly affects children, adults may have this 
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">437</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0026896</ARI_UMLS>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1260409</ARI_UMLS>
-  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">358.0</ARI_ICD10>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G70.0</ARI_ICD10>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G70.00</ARI_ICD10>
-  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">358.00</ARI_ICD10>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D009157</ARI_MESH>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C60989</ARI_NCI>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">76685</ARI_OMOP>
@@ -15155,7 +15123,6 @@ The specific location of vasculitis inflammation determines what tissue or organ
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25044007</ARI_SNOMED>
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8869</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0027873</ARI_UMLS>
-  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">341.0</ARI_ICD10>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G36.0</ARI_ICD10>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D009471</ARI_MESH>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C84934</ARI_NCI>
@@ -15678,9 +15645,7 @@ Patients with GO experience swelling in the tissues, muscles, and fat in the eye
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1166</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0158178</ARI_UMLS>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0085574</ARI_UMLS>
-  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">719.3</ARI_ICD10>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">M12.3</ARI_ICD10>
-  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">719.31</ARI_ICD10>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C538103</ARI_MESH>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">76196</ARI_OMOP>
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">50442003</ARI_DXCODE>
@@ -16183,7 +16148,6 @@ Patients with GO experience swelling in the tissues, muscles, and fat in the eye
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9182</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0030807</ARI_UMLS>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L10</ARI_ICD10>
-  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">694.4</ARI_ICD10>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D010392</ARI_MESH>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C34909</ARI_NCI>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4262682, 4066821, 135338, 4279526, 4148690, 4291435, 4170723</ARI_OMOP>
@@ -16400,7 +16364,6 @@ Pemphigus is different from bullous pemphigoid, a blistering skin condition that
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">155441006</ARI_SNOMED>
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9810</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0031036</ARI_UMLS>
-  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">446.0</ARI_ICD10>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">M30.0</ARI_ICD10>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D010488</ARI_MESH>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C26847</ARI_NCI>
@@ -17110,7 +17073,6 @@ Pemphigus is different from bullous pemphigoid, a blistering skin condition that
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">853</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0032533</ARI_UMLS>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">M35.3</ARI_ICD10>
-  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">725</ARI_ICD10>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D011111</ARI_MESH>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C85018</ARI_NCI>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">255348</ARI_OMOP>
@@ -17378,7 +17340,6 @@ Pemphigus is different from bullous pemphigoid, a blistering skin condition that
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10507</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0152107</ARI_UMLS>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I24.1</ARI_ICD10>
-  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">411.0</ARI_ICD10>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">37311078, 319038, 4239311, 4150305</ARI_OMOP>
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">827164008, 66189004, 58600007, 278536002</ARI_DXCODE>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">All of the conditions listed here occur following a heart attack, traumatic injury to the heart or the pericardium, or an operation such as coronary artery bypass grafting (CABG), mitral valve replacement, aortic valve replacement, and pacemaker or stent implantation. 
@@ -17521,7 +17482,6 @@ To date, there is no direct or indirect evidence that post-pericardiotomy syndro
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12236</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0023892</ARI_UMLS>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0008312</ARI_UMLS>
-  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">571.6</ARI_ICD10>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">K74.3</ARI_ICD10>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">K74.5</ARI_ICD10>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D008105</ARI_MESH>
@@ -18171,7 +18131,6 @@ The development of psoriasis involves a complex cycle of immune activation and s
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9008</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0003872</ARI_UMLS>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L40.5</ARI_ICD10>
-  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">696.0</ARI_ICD10>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D015535</ARI_MESH>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C61277</ARI_NCI>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">81931, 40319772</ARI_OMOP>
@@ -18379,7 +18338,6 @@ A third type of PRCA, Diamond-Blackfan syndrome, is due to genetic mutation and 
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8553</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0085652</ARI_UMLS>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L88</ARI_ICD10>
-  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">686.01</ARI_ICD10>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D017511</ARI_MESH>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">133283</ARI_OMOP>
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">74578003</ARI_DXCODE>
@@ -18532,7 +18490,6 @@ A third type of PRCA, Diamond-Blackfan syndrome, is due to genetic mutation and 
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10300</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0034734</ARI_UMLS>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I73.0</ARI_ICD10>
-  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">443.0</ARI_ICD10>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D011928</ARI_MESH>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4143972, 4229162</ARI_OMOP>
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">356198000, 266261006</ARI_DXCODE>
@@ -18638,9 +18595,7 @@ Secondary Raynaud's is a symptom experienced (and reported) by patients with aut
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6196</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0035012</ARI_UMLS>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0152085</ARI_UMLS>
-  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">099.3</ARI_ICD10>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">M02.10</ARI_ICD10>
-  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">711.30</ARI_ICD10>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">M02.3</ARI_ICD10>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D016918</ARI_MESH>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C34975</ARI_NCI>
@@ -18949,7 +18904,6 @@ In cases where the cartilage is not visible, RP can cause heart valve abnormalit
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">32914008</ARI_SNOMED>
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0050425</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0035258</ARI_UMLS>
-  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">333.94</ARI_ICD10>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G25.81</ARI_ICD10>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D012148</ARI_MESH>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C84501</ARI_NCI>
@@ -19310,8 +19264,6 @@ Since antibiotics have reduced the incidence of rheumatic fever, the incidence o
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0264743</ARI_UMLS>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I00-I02</ARI_ICD10>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I00</ARI_ICD10>
-  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">390-392.99</ARI_ICD10>
-  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">390</ARI_ICD10>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D012213</ARI_MESH>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C34984</ARI_NCI>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">442313</ARI_OMOP>
@@ -19480,7 +19432,6 @@ Note: scarlet fever is another symptom of a strep infection but is not a separat
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">69896004</ARI_SNOMED>
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7148</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0003873</ARI_UMLS>
-  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">714.0</ARI_ICD10>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">M06.9</ARI_ICD10>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D001172</ARI_MESH>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C2884</ARI_NCI>
@@ -19779,7 +19730,6 @@ There is no cure, though treatments to manage symptoms are available.  Prognosis
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">72470008</ARI_SNOMED>
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11335</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0036202</ARI_UMLS>
-  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">135</ARI_ICD10>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D86</ARI_ICD10>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D012507</ARI_MESH>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C34995</ARI_NCI>
@@ -20087,7 +20037,6 @@ Patients with Schnitzler syndrome typically experience chronic rash, relapsing f
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13452</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0036416</ARI_UMLS>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H15.0</ARI_ICD10>
-  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">379.00</ARI_ICD10>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D015423</ARI_MESH>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C119046</ARI_NCI>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">434944</ARI_OMOP>
@@ -20863,7 +20812,6 @@ Patients with Schnitzler syndrome typically experience chronic rash, relapsing f
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13366</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0085292</ARI_UMLS>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G25.82</ARI_ICD10>
-  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">333.91</ARI_ICD10>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D016750</ARI_MESH>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C85170</ARI_NCI>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">379008</ARI_OMOP>
@@ -21102,7 +21050,6 @@ This condition most frequently occurs following surgery to a region of the body 
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">75315001</ARI_SNOMED>
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12029</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0029077</ARI_UMLS>
-  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">360.11</ARI_ICD10>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H44.13</ARI_ICD10>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D009879</ARI_MESH>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">438739</ARI_OMOP>
@@ -21223,7 +21170,6 @@ This condition most frequently occurs following surgery to a region of the body 
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">55464009</ARI_SNOMED>
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9074</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0024141</ARI_UMLS>
-  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">710.0</ARI_ICD10>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">M32.9</ARI_ICD10>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D008180</ARI_MESH>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C3201</ARI_NCI>
@@ -21521,7 +21467,6 @@ When mastocytosis is limited to the skin, it is called cutaneous mastocytosis, a
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">89155008</ARI_SNOMED>
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">418</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0036421</ARI_UMLS>
-  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">710.1</ARI_ICD10>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">M34.0</ARI_ICD10>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D012595</ARI_MESH>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C72070</ARI_NCI>
@@ -21875,7 +21820,6 @@ To be diagnosed with CREST, you must have 3 out of the 5 symptoms.</rdfs:comment
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2508</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0003490</ARI_UMLS>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0039263</ARI_UMLS>
-  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">446.7</ARI_ICD10>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">M31.4</ARI_ICD10>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D001015</ARI_MESH>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D013625</ARI_MESH>
@@ -22025,7 +21969,6 @@ Early symptoms may include fever, night sweats, fatigue, joint pain, and chest d
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">400130008</ARI_SNOMED>
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13375</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0039483</ARI_UMLS>
-  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">446.5</ARI_ICD10>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D013700</ARI_MESH>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C35065</ARI_NCI>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4290976</ARI_OMOP>
@@ -22506,9 +22449,7 @@ Early symptoms may include fever, night sweats, fatigue, joint pain, and chest d
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8577</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0009324</ARI_UMLS>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0375359</ARI_UMLS>
-  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">556.5</ARI_ICD10>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">K51</ARI_ICD10>
-  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">556</ARI_ICD10>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D003093</ARI_MESH>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C2952</ARI_NCI>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">81893</ARI_OMOP>
@@ -23061,7 +23002,6 @@ The most common form of autoimmune uveitis is intermediate uveitis.</rdfs:commen
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12306</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0042900</ARI_UMLS>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L80</ARI_ICD10>
-  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">709.01</ARI_ICD10>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D014820</ARI_MESH>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C26915</ARI_NCI>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">138502</ARI_OMOP>
@@ -23144,7 +23084,6 @@ Normally, the color of hair, skin, and eyes is determined by melanin. Vitiligo o
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">193497004</ARI_SNOMED>
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12297</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0042170</ARI_UMLS>
-  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">364.24</ARI_ICD10>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H20.82</ARI_ICD10>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D014607</ARI_MESH>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C85218</ARI_NCI>

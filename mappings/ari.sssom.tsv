@@ -52,7 +52,6 @@ ARI:0001004	Acute febrile mucocutaneous lymph node syndrome	skos:exactMatch		omo
 ARI:0001004	Acute febrile mucocutaneous lymph node syndrome	skos:exactMatch		DOID:13378	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21
 ARI:0001004	Acute febrile mucocutaneous lymph node syndrome	skos:exactMatch		umls:C0026691	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21
 ARI:0001004	Acute febrile mucocutaneous lymph node syndrome	skos:exactMatch		icd10cm:M30.3	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21
-ARI:0001004	Acute febrile mucocutaneous lymph node syndrome	skos:exactMatch		icd10cm:446.1	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21
 ARI:0001004	Acute febrile mucocutaneous lymph node syndrome	skos:exactMatch		mesh:D009080	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21
 ARI:0001004	Acute febrile mucocutaneous lymph node syndrome	skos:exactMatch		ncit:C34825	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21
 ARI:0001005	Acute lichenoid pityriasis	skos:exactMatch		SNOMEDCT:86487001	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21
@@ -65,7 +64,6 @@ ARI:0001006	Addison's disease	skos:exactMatch		ncit:C26689	ncit	semapv:ManualMap
 ARI:0001008	Adult onset Still's disease	skos:exactMatch		SNOMEDCT:239920006	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21
 ARI:0001008	Adult onset Still's disease	skos:exactMatch		omop:4344166	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21
 ARI:0001006	Addison's disease	skos:exactMatch		SNOMEDCT:363732003	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-25
-ARI:0001009	Age related macular degeneration	skos:exactMatch		icd10cm:362.50	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-25
 ARI:0001009	Age related macular degeneration	skos:exactMatch		icd10cm:H35.30	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-25
 ARI:0001010	Alopecia areata	skos:exactMatch		umls:C0002171	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-25
 ARI:0001011	Angiofollicular lymph node hyperplasia	skos:exactMatch		umls:C0017531	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-25
@@ -76,11 +74,9 @@ ARI:0001012	Ankylosing spondylitis	skos:exactMatch		DOID:7147	DOID	semapv:Manual
 ARI:0001011	Angiofollicular lymph node hyperplasia	skos:exactMatch		SNOMEDCT:207036003	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-25
 ARI:0001012	Ankylosing spondylitis	skos:exactMatch		SNOMEDCT:9631008	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-25
 ARI:0001010	Alopecia areata	skos:exactMatch		SNOMEDCT:68225006	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-25
-ARI:0001010	Alopecia areata	skos:exactMatch		icd10cm:704.01	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-25
 ARI:0001010	Alopecia areata	skos:exactMatch		icd10cm:L63	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-25
 ARI:0001011	Angiofollicular lymph node hyperplasia	skos:exactMatch		icd10cm:D47.Z2	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-25
 ARI:0001012	Ankylosing spondylitis	skos:exactMatch		icd10cm:M45	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-25
-ARI:0001012	Ankylosing spondylitis	skos:exactMatch		icd10cm:720.0	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-25
 ARI:0001005	Acute lichenoid pityriasis	skos:exactMatch		ncit:null	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-25
 ARI:0001010	Alopecia areata	skos:exactMatch		mesh:D000506	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-25
 ARI:0001011	Angiofollicular lymph node hyperplasia	skos:exactMatch		mesh:D005871	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-25
@@ -173,8 +169,6 @@ ARI:0001014	Anti-glomerular basement membrane disease	skos:exactMatch	Not	SNOMED
 ARI:0001014	Anti-glomerular basement membrane disease	skos:exactMatch	Not	omop:4126115	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-10
 ARI:0001014	Anti-glomerular basement membrane disease	skos:exactMatch	Not	omop:4267717	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-10
 ARI:0001014	Anti-glomerular basement membrane disease	skos:exactMatch	Not	omop:195289	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-10
-ARI:0001012	Ankylosing spondylitis	skos:exactMatch	Not	icd10cm:720.0	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-10
-ARI:0001014	Anti-glomerular basement membrane disease	skos:exactMatch	Not	icd10cm:446.21	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-10
 ARI:0001014	Anti-glomerular basement membrane disease	skos:exactMatch	Not	icd10cm:M31.0	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-10
 ARI:0001017	Antineutrophil cytoplasmic antibody positive vasculitis	skos:exactMatch	Not	DOID:null	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-10
 ARI:0001208	Uveitis	skos:exactMatch		SNOMEDCT:128473001	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-07
@@ -317,7 +311,6 @@ ARI:0001060	Cataplexy and narcolepsy	skos:exactMatch	Not	SNOMEDCT:735676003	SNOM
 ARI:0001060	Cataplexy and narcolepsy	skos:exactMatch	Not	omop:42536721	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
 ARI:0001061	Celiac disease	skos:exactMatch	Not	SNOMEDCT:91867008	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
 ARI:0001061	Celiac disease	skos:exactMatch	Not	omop:4241413	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
-ARI:0001061	Celiac disease	skos:exactMatch	Not	icd10cm:579.0	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
 ARI:0001062	Chronic Fatigue Syndrome	skos:exactMatch		SNOMEDCT:52702003	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
 ARI:0001062	Chronic Fatigue Syndrome	skos:exactMatch		omop:432738	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
 ARI:0001062	Chronic Fatigue Syndrome	skos:exactMatch		DOID:8544	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
@@ -327,9 +320,7 @@ ARI:0001062	Chronic Fatigue Syndrome	skos:exactMatch		icd10cm:G93.32	icd10cm	sem
 ARI:0001062	Chronic Fatigue Syndrome	skos:exactMatch		ORPHA:1983	ORPHA	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
 ARI:0001062	Chronic Fatigue Syndrome	skos:exactMatch		umls:C0015674	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
 ARI:0001062	Chronic Fatigue Syndrome	skos:exactMatch		mesh:D015673	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
-ARI:0001062	Chronic Fatigue Syndrome	skos:exactMatch	Not	icd10cm:780.71	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
 ARI:0001065	Chronic Lyme disease	skos:exactMatch	Not	DOID:11729	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
-ARI:0001065	Chronic Lyme disease	skos:exactMatch	Not	icd10cm:088.81	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
 ARI:0001065	Chronic Lyme disease	skos:exactMatch	Not	icd10cm:A69.2	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
 ARI:0001065	Chronic Lyme disease	skos:exactMatch	Not	SNOMEDCT:1269516003	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
 ARI:0001063	Chronic inflammatory demyelinating polyradiculoneuropathy	skos:exactMatch		SNOMEDCT:128209004	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
@@ -366,9 +357,7 @@ ARI:0001068	Cogan's syndrome	skos:exactMatch		ORPHA:1467	ORPHA	semapv:ManualMapp
 ARI:0001068	Cogan's syndrome	skos:exactMatch		mesh:D055952	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
 ARI:0001063	Chronic inflammatory demyelinating polyradiculoneuropathy	skos:exactMatch	Not	SNOMEDCT:230564004	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
 ARI:0001063	Chronic inflammatory demyelinating polyradiculoneuropathy	skos:exactMatch	Not	omop:4048024	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
-ARI:0001063	Chronic inflammatory demyelinating polyradiculoneuropathy	skos:exactMatch	Not	icd10cm:357.81	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
 ARI:0001066	Chronic multifocal osteomyelitis	skos:exactMatch	Not	OMIM:609628	OMIM	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
-ARI:0001068	Cogan's syndrome	skos:exactMatch	Not	icd10cm:370.52	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
 ARI:0001068	Cogan's syndrome	skos:exactMatch	Not	umls:C0155089	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
 ARI:0001069	Cold agglutinin disease	skos:exactMatch		SNOMEDCT:398937006	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
 ARI:0001069	Cold agglutinin disease	skos:exactMatch		omop:4160887	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-03
@@ -457,11 +446,9 @@ ARI:0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Synd
 ARI:0001107	Immune thrombocytopenia	skos:exactMatch	Not	DOID:8924	DOID	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07
 ARI:0001109	Immunoglobulin G4 related disease	skos:exactMatch	Not	DOID:0080356	DOID	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07
 ARI:0001107	Immune thrombocytopenia	skos:exactMatch	Not	icd10cm:D69.3	icd10cm	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07
-ARI:0001107	Immune thrombocytopenia	skos:exactMatch	Not	icd10cm:287.31	icd10cm	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07
 ARI:0001073	Crohn's disease	skos:exactMatch		SNOMEDCT:34000006	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-12
 ARI:0001073	Crohn's disease	skos:exactMatch		MONDO:0005011	MONDO	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-12
 ARI:0001073	Crohn's disease	skos:exactMatch		DOID:8778	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-12
-ARI:0001073	Crohn's disease	skos:exactMatch	Not	icd10cm:555.1	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-12
 ARI:0001071	Complex regional pain syndrome	skos:exactMatch		OMIM:604335	OMIM	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-16
 ARI:0001073	Crohn's disease	skos:exactMatch		omop:201606	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-16
 ARI:0001073	Crohn's disease	skos:exactMatch		ncit:C2965	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-16
@@ -478,7 +465,6 @@ ARI:0001076	Cutaneous lupus erythematosus	skos:exactMatch		MONDO:0005282	MONDO	s
 ARI:0001076	Cutaneous lupus erythematosus	skos:exactMatch		ncit:C26819	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-16
 ARI:0001076	Cutaneous lupus erythematosus	skos:exactMatch		umls:C0024137	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-16
 ARI:0001076	Cutaneous lupus erythematosus	skos:exactMatch		mesh:D008178	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-16
-ARI:0001074	Cryptogenic organizing pneumonia	skos:exactMatch	Not	icd10cm:516.33	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-16
 ARI:0001074	Cryptogenic organizing pneumonia	skos:exactMatch		sssom:NoTermFound	OMIM	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-16
 ARI:0001076	Cutaneous lupus erythematosus	skos:exactMatch		sssom:NoTermFound	OMIM	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-16
 ARI:0001060	Cataplexy and narcolepsy	skos:exactMatch		ncit:C196015	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-16
