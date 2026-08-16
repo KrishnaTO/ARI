@@ -1,0 +1,43 @@
+name: Validate mappings
+
+# Gate for cross-reference review pull requests. Only rows this branch adds or
+# rewrites are checked, so a curator submitting one disease is never blocked by
+# problems they did not introduce. The standing backlog is the audit workflow's
+# job.
+
+on:
+  pull_request:
+    paths:
+      - 'mappings/**'
+      - 'ontologies/**'
+      - '.github/scripts/validate_mappings.py'
+      - '.github/workflows/mappings-validate.yml'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: mappings-validate-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # The base commit has to be reachable for the diff scoping to work.
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Validate rows changed by this pull request
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+        run: |
+          python .github/scripts/validate_mappings.py \
+            --since "$BASE_SHA" \
+            --annotate \
+            --summary "$GITHUB_STEP_SUMMARY"

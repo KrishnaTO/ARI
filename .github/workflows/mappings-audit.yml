@@ -1,0 +1,30 @@
+name: Audit mappings
+
+# Whole-file audit of the standing backlog. Runs weekly and on demand rather
+# than on every push, so accumulated debt stays visible without blocking merges
+# on problems a given pull request did not cause.
+
+on:
+  schedule:
+    # 07:00 UTC every Monday.
+    - cron: '0 7 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Audit every mapping row
+        run: |
+          python .github/scripts/validate_mappings.py \
+            --annotate \
+            --summary "$GITHUB_STEP_SUMMARY"
