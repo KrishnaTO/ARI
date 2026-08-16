@@ -446,6 +446,17 @@ ARI:0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Synd
 ARI:0001107	Immune thrombocytopenia	skos:exactMatch	Not	DOID:8924	DOID	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07
 ARI:0001109	Immunoglobulin G4 related disease	skos:exactMatch	Not	DOID:0080356	DOID	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07
 ARI:0001107	Immune thrombocytopenia	skos:exactMatch	Not	icd10cm:D69.3	icd10cm	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07
+ARI:0001116	Interstitial lung disease	skos:exactMatch		icd10cm:J84.9	icd10cm	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-10
+ARI:0001111	Inclusion body myositis	skos:exactMatch		icd10cm:G72.41	icd10cm	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-10
+ARI:0001103	Idiopathic pulmonary fibrosis	skos:exactMatch		umls:C1800706	umls	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-10
+ARI:0001107	Immune thrombocytopenia	skos:exactMatch		umls:C0242584	umls	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-10
+ARI:0001104	IgA nephropathy	skos:exactMatch		umls:C0017661	umls	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-10
+ARI:0001108	Immunoglobulin A vasculitis	skos:exactMatch		umls:C0034152	umls	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-10
+ARI:0001111	Inclusion body myositis	skos:exactMatch		umls:C0238190	umls	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-10
+ARI:0001112	Inflammatory Bowel Disease	skos:exactMatch		umls:C0021390	umls	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-10
+ARI:0001113	Insulin autoimmune syndrome	skos:exactMatch		umls:C0854359	umls	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-10
+ARI:0001115	Intermediate uveitis	skos:exactMatch		umls:C0042166	umls	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-10
+ARI:0001116	Interstitial lung disease	skos:exactMatch		umls:C0206062	umls	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-10
 ARI:0001073	Crohn's disease	skos:exactMatch		SNOMEDCT:34000006	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-12
 ARI:0001073	Crohn's disease	skos:exactMatch		MONDO:0005011	MONDO	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-12
 ARI:0001073	Crohn's disease	skos:exactMatch		DOID:8778	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-12
