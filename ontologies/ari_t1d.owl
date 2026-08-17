@@ -3653,6 +3653,7 @@ The trigger for antisynthetase syndrome is unknown, but it may be associated wit
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-04</ARI_AuthorDate>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APA</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-17 18:04 | KrishnaTO | Cross-reference review: confirmed SNOMED 306058006; confirmed OMOP 137829; confirmed DOID 12449; confirmed MONDO 0015909; confirmed NCI C2870; confirmed ICD10 D61.9; confirmed OMIM 609135; confirmed UMLS C0002874; confirmed MESH D000741; flagged ORPHANET 182040</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001021_186">
@@ -6445,6 +6446,7 @@ The first reports of narcolepsy being an autoimmune disease came in 2013, but re
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-12 01:11 | KrishnaTO | Cross-reference review: confirmed SNOMED 193042000; confirmed OMOP 437854; confirmed MONDO 0016158; confirmed ICD10 G47.411; confirmed ORPHANET 2073; confirmed UMLS C0751362; flagged SNOMED 735676003; flagged OMOP 42536721</ARI_ChangeLog>
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">193042000</ARI_DXCODE>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">437854</ARI_OMOP>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-17 18:04 | KrishnaTO | Cross-reference review: confirmed NCI C196015; confirmed OMIM 161400; confirmed MESH D009290; flagged DOID 8986; no term in DOID</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001060_462">
@@ -6827,6 +6829,7 @@ The cause of this syndrome is unknown, however, researchers believe that it may 
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-03 18:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 52702003; confirmed OMOP 432738; confirmed DOID 8544; confirmed MONDO 0005404; confirmed NCI C3037; confirmed ICD10 G93.32; confirmed ORPHANET 1983; confirmed UMLS C0015674; confirmed MESH D015673; flagged ICD10 780.71</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-03 18:15 | KrishnaTO | Cross-reference review: confirmed SNOMED 52702003; confirmed OMOP 432738; confirmed DOID 8544; confirmed MONDO 0005404; confirmed NCI C3037; confirmed ICD10 G93.32; confirmed ORPHANET 1983; confirmed UMLS C0015674; confirmed MESH D015673; flagged ICD10 780.71</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-12 01:11 | KrishnaTO | Cross-reference review: confirmed SNOMED 52702003; confirmed OMOP 432738; confirmed DOID 8544; confirmed MONDO 0005404; confirmed NCI C3037; confirmed ICD10 G93.32; confirmed ORPHANET 1983; confirmed UMLS C0015674; confirmed MESH D015673; flagged ICD10 780.71</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-17 18:04 | KrishnaTO | Cross-reference review: no term in OMIM</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001062_502">
@@ -6923,6 +6926,7 @@ The cause of this syndrome is unknown, however, researchers believe that it may 
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-12 01:11 | KrishnaTO | Cross-reference review: confirmed SNOMED 128209004; confirmed OMOP 381009; confirmed DOID 5213; confirmed MONDO 0006702; confirmed NCI C84636; confirmed ICD10 G61.81; confirmed ORPHANET 2932; confirmed UMLS C0393819; confirmed MESH D020277; flagged SNOMED 230564004; flagged OMOP 4048024; flagged ICD10 357.81</ARI_ChangeLog>
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">128209004</ARI_DXCODE>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">381009</ARI_OMOP>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-17 18:04 | KrishnaTO | Cross-reference review: no term in OMIM</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001063_509">
@@ -7045,6 +7049,7 @@ Currently, the cause of interstitial cystitis is unknown. There are two main the
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-03 18:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 38731000087104; confirmed OMOP 1450471; confirmed DOID 1678; confirmed MONDO 0018301; confirmed NCI C27189; confirmed ICD10 N30.1; confirmed ORPHANET 37202; confirmed UMLS C0600040; confirmed MESH D018856</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-03 18:15 | KrishnaTO | Cross-reference review: confirmed SNOMED 38731000087104; confirmed OMOP 1450471; confirmed DOID 1678; confirmed MONDO 0018301; confirmed NCI C27189; confirmed ICD10 N30.1; confirmed ORPHANET 37202; confirmed UMLS C0600040; confirmed MESH D018856</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-12 01:11 | KrishnaTO | Cross-reference review: confirmed SNOMED 38731000087104; confirmed OMOP 1450471; confirmed DOID 1678; confirmed MONDO 0018301; confirmed NCI C27189; confirmed ICD10 N30.1; confirmed ORPHANET 37202; confirmed UMLS C0600040; confirmed MESH D018856</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-17 18:04 | KrishnaTO | Cross-reference review: no term in OMIM</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Tissue_Bladder">
@@ -7186,6 +7191,7 @@ However, in some people, the Lyme disease triggers symptoms similar to rheumatoi
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-03 18:00 | KrishnaTO | Cross-reference review: flagged DOID 11729; flagged ICD10 088.81, A69.2; flagged SNOMED 1269516003</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-03 18:15 | KrishnaTO | Cross-reference review: flagged DOID 11729; flagged ICD10 088.81, A69.2; flagged SNOMED 1269516003</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-12 01:11 | KrishnaTO | Cross-reference review: flagged DOID 11729; flagged ICD10 088.81, A69.2; flagged SNOMED 1269516003</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-17 18:04 | KrishnaTO | Cross-reference review: confirmed MONDO 0700280; confirmed NCI C119039; confirmed UMLS C3890422; confirmed MESH D000077342; no term in ORPHANET; no term in DOID; no term in SNOMED; no term in ICD10; no term in OMIM</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001065_531">
@@ -7398,6 +7404,7 @@ Chronic non-bacterial osteomyelitis (CNO) is a rare auto-inflammatory bone disor
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-03 18:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 1204420006; confirmed OMOP 37163124; confirmed DOID 0060645; confirmed MONDO 0009813; confirmed NCI C119042; confirmed ICD10 M86.3; confirmed ORPHANET 324964; confirmed UMLS C0410422; confirmed MESH C535456; flagged OMIM 609628</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-03 18:15 | KrishnaTO | Cross-reference review: confirmed SNOMED 1204420006; confirmed OMOP 37163124; confirmed DOID 0060645; confirmed MONDO 0009813; confirmed NCI C119042; confirmed ICD10 M86.3; confirmed ORPHANET 324964; confirmed UMLS C0410422; confirmed MESH C535456; flagged OMIM 609628</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-12 01:11 | KrishnaTO | Cross-reference review: confirmed SNOMED 1204420006; confirmed OMOP 37163124; confirmed DOID 0060645; confirmed MONDO 0009813; confirmed NCI C119042; confirmed ICD10 M86.3; confirmed ORPHANET 324964; confirmed UMLS C0410422; confirmed MESH C535456; flagged OMIM 609628</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-17 18:04 | KrishnaTO | Cross-reference review: no term in OMIM</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001066_557">
@@ -7629,6 +7636,7 @@ More study is needed.</rdfs:comment>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-03 18:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 1119304009; confirmed OMOP 600589; confirmed DOID 0080848; confirmed MONDO 0100233; confirmed NCI C179263; confirmed UMLS C5433293; confirmed MESH D000094024</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-03 18:15 | KrishnaTO | Cross-reference review: confirmed SNOMED 1119304009; confirmed OMOP 600589; confirmed DOID 0080848; confirmed MONDO 0100233; confirmed NCI C179263; confirmed UMLS C5433293; confirmed MESH D000094024</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-12 01:11 | KrishnaTO | Cross-reference review: confirmed SNOMED 1119304009; confirmed OMOP 600589; confirmed DOID 0080848; confirmed MONDO 0100233; confirmed NCI C179263; confirmed UMLS C5433293; confirmed MESH D000094024</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-17 18:04 | KrishnaTO | Cross-reference review: no term in ORPHANET; no term in OMIM</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001067_583">
@@ -7741,6 +7749,7 @@ More study is needed.</rdfs:comment>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-03 18:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 405810005; confirmed OMOP 4233620; confirmed ICD10 H16.32; confirmed ORPHANET 1467; confirmed MESH D055952; flagged ICD10 370.52; flagged UMLS C0155089</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-03 18:15 | KrishnaTO | Cross-reference review: confirmed SNOMED 405810005; confirmed OMOP 4233620; confirmed ICD10 H16.32; confirmed ORPHANET 1467; confirmed MESH D055952; flagged ICD10 370.52; flagged UMLS C0155089</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-12 01:11 | KrishnaTO | Cross-reference review: confirmed SNOMED 405810005; confirmed OMOP 4233620; confirmed ICD10 H16.32; confirmed ORPHANET 1467; confirmed MESH D055952; flagged ICD10 370.52; flagged UMLS C0155089</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-17 18:04 | KrishnaTO | Cross-reference review: confirmed DOID 0060216; confirmed MONDO 0015453; confirmed UMLS C0271270; no term in NCI; no term in OMIM</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001068_592">
@@ -7912,6 +7921,7 @@ More study is needed.</rdfs:comment>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-12 01:11 | KrishnaTO | Cross-reference review: confirmed SNOMED 398937006; confirmed OMOP 4160887; confirmed MONDO 0018922; confirmed NCI C208228; confirmed ICD10 D59.12; confirmed ORPHANET 56425; confirmed UMLS C0175816; flagged SNOMED 127055007; flagged OMOP 4131128</ARI_ChangeLog>
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">398937006</ARI_DXCODE>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4160887</ARI_OMOP>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-17 18:04 | KrishnaTO | Cross-reference review: confirmed MESH D000744; no term in OMIM; no term in DOID</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001069_610">
@@ -8045,6 +8055,7 @@ More study is needed.</rdfs:comment>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-03 18:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 1197477000; confirmed OMOP 37162777; confirmed DOID 0081151; confirmed MONDO 0013863; confirmed ORPHANET 445018; confirmed OMIM 614700; confirmed UMLS C3553512</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-03 18:15 | KrishnaTO | Cross-reference review: confirmed SNOMED 1197477000; confirmed OMOP 37162777; confirmed DOID 0081151; confirmed MONDO 0013863; confirmed ORPHANET 445018; confirmed OMIM 614700; confirmed UMLS C3553512</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-12 01:11 | KrishnaTO | Cross-reference review: confirmed SNOMED 1197477000; confirmed OMOP 37162777; confirmed DOID 0081151; confirmed MONDO 0013863; confirmed ORPHANET 445018; confirmed OMIM 614700; confirmed UMLS C3553512</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-17 18:04 | KrishnaTO | Cross-reference review: confirmed NCI C176809; no term in ICD10; no term in MESH</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001071">
@@ -8108,6 +8119,7 @@ More study is needed.</rdfs:comment>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-12 01:11 | KrishnaTO | Cross-reference review: confirmed SNOMED 128200000; confirmed OMOP 4134577; confirmed DOID 3223; confirmed MONDO 0019369; confirmed NCI C206547; confirmed ORPHANET 83452; confirmed UMLS C0458219; confirmed MESH D020918; flagged SNOMED 408751001, 734947007; flagged OMOP 42536233, 4256912</ARI_ChangeLog>
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">128200000</ARI_DXCODE>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4134577</ARI_OMOP>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-17 18:04 | KrishnaTO | Cross-reference review: confirmed OMIM 604335; confirmed ICD10 M89.0</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001071_629">
@@ -8278,6 +8290,7 @@ Both UC and CD are caused by an autoimmune response that reflects the involvemen
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C2965</ARI_NCI>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-12 01:01 | user | Edited: nci</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-12 01:11 | KrishnaTO | Cross-reference review: confirmed SNOMED 34000006; confirmed MONDO 0005011; confirmed DOID 8778; flagged ICD10 555.1</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-17 18:04 | KrishnaTO | Cross-reference review: confirmed ICD10 K50; confirmed NCI C2965; confirmed OMOP 201606; confirmed ORPHANET 206; confirmed MESH D003424</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001073_662">
@@ -8396,6 +8409,7 @@ Both UC and CD are caused by an autoimmune response that reflects the involvemen
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-09</ARI_AuthorDate>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COP</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-17 18:04 | KrishnaTO | Cross-reference review: confirmed SNOMED 719218000; confirmed OMOP 36714118; confirmed DOID 2797; confirmed MONDO 0015264; confirmed ORPHANET 1302; no term in OMIM</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001074_677">
@@ -8481,6 +8495,7 @@ Both UC and CD are caused by an autoimmune response that reflects the involvemen
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7119001</ARI_DXCODE>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4324123</ARI_OMOP>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-17 18:04 | KrishnaTO | Cross-reference review: confirmed DOID 0050169; confirmed MONDO 0005282; confirmed NCI C26819; confirmed UMLS C0024137; confirmed MESH D008178; no term in OMIM</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001076_682">
