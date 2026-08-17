@@ -14925,6 +14925,7 @@ The specific location of vasculitis inflammation determines what tissue or organ
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-09</ARI_AuthorDate>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NMO</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-17 18:32 | aaronabend | Cross-reference review: confirmed SNOMED 25044007; confirmed OMOP 380995; confirmed DOID 8869; confirmed MONDO 0019100; confirmed NCI C84934; confirmed ICD10 G36.0; confirmed ORPHANET 71211; confirmed MESH D009471; no term in OMIM</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001143_1338">
