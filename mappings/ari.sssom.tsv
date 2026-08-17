@@ -501,3 +501,13 @@ ARI:0001068	Cogan's syndrome	skos:exactMatch		umls:C0271270	umls	semapv:ManualMa
 ARI:0001068	Cogan's syndrome	skos:exactMatch		DOID:0060216	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-16
 ARI:0001069	Cold agglutinin disease	skos:exactMatch		sssom:NoTermFound	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-16
 ARI:0001066	Chronic multifocal osteomyelitis	skos:exactMatch		sssom:NoTermFound	OMIM	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-16
+ARI:0001021	Aplastic anemia	skos:exactMatch		SNOMEDCT:306058006	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-17
+ARI:0001021	Aplastic anemia	skos:exactMatch		omop:137829	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-17
+ARI:0001021	Aplastic anemia	skos:exactMatch		DOID:12449	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-17
+ARI:0001021	Aplastic anemia	skos:exactMatch		MONDO:0015909	MONDO	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-17
+ARI:0001021	Aplastic anemia	skos:exactMatch		ncit:C2870	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-17
+ARI:0001021	Aplastic anemia	skos:exactMatch		icd10cm:D61.9	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-17
+ARI:0001021	Aplastic anemia	skos:exactMatch		OMIM:609135	OMIM	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-17
+ARI:0001021	Aplastic anemia	skos:exactMatch		umls:C0002874	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-17
+ARI:0001021	Aplastic anemia	skos:exactMatch		mesh:D000741	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-17
+ARI:0001021	Aplastic anemia	skos:exactMatch	Not	ORPHA:182040	ORPHA	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-17

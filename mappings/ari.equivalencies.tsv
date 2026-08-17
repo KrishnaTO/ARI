@@ -481,3 +481,13 @@ ARI	0001068	Cogan's syndrome	skos:exactMatch	umls	C0271270	manual	github:Krishna
 ARI	0001068	Cogan's syndrome	skos:exactMatch	DOID	0060216	manual	github:KrishnaTO
 ARI	0001069	Cold agglutinin disease	skos:exactMatch	DOID	NoTermFound	manual-absent	github:KrishnaTO
 ARI	0001066	Chronic multifocal osteomyelitis	skos:exactMatch	OMIM	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001021	Aplastic anemia	skos:exactMatch	SNOMEDCT	306058006	manual	github:KrishnaTO
+ARI	0001021	Aplastic anemia	skos:exactMatch	omop	137829	manual	github:KrishnaTO
+ARI	0001021	Aplastic anemia	skos:exactMatch	DOID	12449	manual	github:KrishnaTO
+ARI	0001021	Aplastic anemia	skos:exactMatch	MONDO	0015909	manual	github:KrishnaTO
+ARI	0001021	Aplastic anemia	skos:exactMatch	ncit	C2870	manual	github:KrishnaTO
+ARI	0001021	Aplastic anemia	skos:exactMatch	icd10cm	D61.9	manual	github:KrishnaTO
+ARI	0001021	Aplastic anemia	skos:exactMatch	OMIM	609135	manual	github:KrishnaTO
+ARI	0001021	Aplastic anemia	skos:exactMatch	umls	C0002874	manual	github:KrishnaTO
+ARI	0001021	Aplastic anemia	skos:exactMatch	mesh	D000741	manual	github:KrishnaTO
+ARI	0001021	Aplastic anemia	skos:exactMatch	ORPHA	182040	manual-negative	github:KrishnaTO
