@@ -481,3 +481,12 @@ ARI	0001068	Cogan's syndrome	skos:exactMatch	umls	C0271270	manual	github:Krishna
 ARI	0001068	Cogan's syndrome	skos:exactMatch	DOID	0060216	manual	github:KrishnaTO
 ARI	0001069	Cold agglutinin disease	skos:exactMatch	DOID	NoTermFound	manual-absent	github:KrishnaTO
 ARI	0001066	Chronic multifocal osteomyelitis	skos:exactMatch	OMIM	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001143	Neuromyelitis optica	skos:exactMatch	SNOMEDCT	25044007	manual	github:aaronabend
+ARI	0001143	Neuromyelitis optica	skos:exactMatch	omop	380995	manual	github:aaronabend
+ARI	0001143	Neuromyelitis optica	skos:exactMatch	DOID	8869	manual	github:aaronabend
+ARI	0001143	Neuromyelitis optica	skos:exactMatch	MONDO	0019100	manual	github:aaronabend
+ARI	0001143	Neuromyelitis optica	skos:exactMatch	ncit	C84934	manual	github:aaronabend
+ARI	0001143	Neuromyelitis optica	skos:exactMatch	icd10cm	G36.0	manual	github:aaronabend
+ARI	0001143	Neuromyelitis optica	skos:exactMatch	ORPHA	71211	manual	github:aaronabend
+ARI	0001143	Neuromyelitis optica	skos:exactMatch	mesh	D009471	manual	github:aaronabend
+ARI	0001143	Neuromyelitis optica	skos:exactMatch	OMIM	NoTermFound	manual-absent	github:aaronabend
