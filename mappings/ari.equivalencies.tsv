@@ -491,3 +491,12 @@ ARI	0001021	Aplastic anemia	skos:exactMatch	OMIM	609135	manual	github:KrishnaTO
 ARI	0001021	Aplastic anemia	skos:exactMatch	umls	C0002874	manual	github:KrishnaTO
 ARI	0001021	Aplastic anemia	skos:exactMatch	mesh	D000741	manual	github:KrishnaTO
 ARI	0001021	Aplastic anemia	skos:exactMatch	ORPHA	182040	manual-negative	github:KrishnaTO
+ARI	0001143	Neuromyelitis optica	skos:exactMatch	SNOMEDCT	25044007	manual	github:aaronabend
+ARI	0001143	Neuromyelitis optica	skos:exactMatch	omop	380995	manual	github:aaronabend
+ARI	0001143	Neuromyelitis optica	skos:exactMatch	DOID	8869	manual	github:aaronabend
+ARI	0001143	Neuromyelitis optica	skos:exactMatch	MONDO	0019100	manual	github:aaronabend
+ARI	0001143	Neuromyelitis optica	skos:exactMatch	ncit	C84934	manual	github:aaronabend
+ARI	0001143	Neuromyelitis optica	skos:exactMatch	icd10cm	G36.0	manual	github:aaronabend
+ARI	0001143	Neuromyelitis optica	skos:exactMatch	ORPHA	71211	manual	github:aaronabend
+ARI	0001143	Neuromyelitis optica	skos:exactMatch	mesh	D009471	manual	github:aaronabend
+ARI	0001143	Neuromyelitis optica	skos:exactMatch	OMIM	NoTermFound	manual-absent	github:aaronabend

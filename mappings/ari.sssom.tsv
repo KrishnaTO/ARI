@@ -511,3 +511,12 @@ ARI:0001021	Aplastic anemia	skos:exactMatch		OMIM:609135	OMIM	semapv:ManualMappi
 ARI:0001021	Aplastic anemia	skos:exactMatch		umls:C0002874	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-17
 ARI:0001021	Aplastic anemia	skos:exactMatch		mesh:D000741	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-17
 ARI:0001021	Aplastic anemia	skos:exactMatch	Not	ORPHA:182040	ORPHA	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-17
+ARI:0001143	Neuromyelitis optica	skos:exactMatch		SNOMEDCT:25044007	SNOMEDCT	semapv:ManualMappingCuration	github:aaronabend	2026-08-17
+ARI:0001143	Neuromyelitis optica	skos:exactMatch		omop:380995	omop	semapv:ManualMappingCuration	github:aaronabend	2026-08-17
+ARI:0001143	Neuromyelitis optica	skos:exactMatch		DOID:8869	DOID	semapv:ManualMappingCuration	github:aaronabend	2026-08-17
+ARI:0001143	Neuromyelitis optica	skos:exactMatch		MONDO:0019100	MONDO	semapv:ManualMappingCuration	github:aaronabend	2026-08-17
+ARI:0001143	Neuromyelitis optica	skos:exactMatch		ncit:C84934	ncit	semapv:ManualMappingCuration	github:aaronabend	2026-08-17
+ARI:0001143	Neuromyelitis optica	skos:exactMatch		icd10cm:G36.0	icd10cm	semapv:ManualMappingCuration	github:aaronabend	2026-08-17
+ARI:0001143	Neuromyelitis optica	skos:exactMatch		ORPHA:71211	ORPHA	semapv:ManualMappingCuration	github:aaronabend	2026-08-17
+ARI:0001143	Neuromyelitis optica	skos:exactMatch		mesh:D009471	mesh	semapv:ManualMappingCuration	github:aaronabend	2026-08-17
+ARI:0001143	Neuromyelitis optica	skos:exactMatch		sssom:NoTermFound	OMIM	semapv:ManualMappingCuration	github:aaronabend	2026-08-17
