@@ -3653,7 +3653,27 @@ The trigger for antisynthetase syndrome is unknown, but it may be associated wit
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-04</ARI_AuthorDate>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APA</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
-  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-17 18:04 | KrishnaTO | Cross-reference review: confirmed SNOMED 306058006; confirmed OMOP 137829; confirmed DOID 12449; confirmed MONDO 0015909; confirmed NCI C2870; confirmed ICD10 D61.9; confirmed OMIM 609135; confirmed UMLS C0002874; confirmed MESH D000741; flagged ORPHANET 182040</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-18 00:06 | KrishnaTO | Cross-reference review: confirmed SNOMED 306058006; confirmed OMOP 137829; confirmed DOID 12449; confirmed MONDO 0015909; confirmed NCI C2870; confirmed ICD10 D61.9; confirmed OMIM 609135; confirmed UMLS C0002874; confirmed MESH D000741; flagged ORPHANET 182040</ARI_ChangeLog>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aplastic Anemias</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aplastic anemia, unspecified</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aplastic Anaemia</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anemia, Aplastic</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aplastic Anaemias</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anaemia, Aplastic</ARI_Synonym>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">idiopathic aplastic anemia - subtype of Aplastic anemia (MONDO:0012197)</ARI_ClinicalSubtype>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Recurrent Aplastic Anemia - subtype of Aplastic anemia (NCIT:C153293)</ARI_ClinicalSubtype>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acquired aplastic anemia - subtype of Aplastic anemia (MONDO:0015610)</ARI_ClinicalSubtype>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">congenital hypoplastic anemia - subtype of Aplastic anemia (DOID:1342)</ARI_ClinicalSubtype>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aplastic Anemia due to Infection - subtype of Aplastic anemia (NCIT:C35466)</ARI_ClinicalSubtype>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Severe Aplastic Anemia - subtype of Aplastic anemia (NCIT:C61229)</ARI_ClinicalSubtype>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inherited aplastic anemia - subtype of Aplastic anemia (MONDO:0001713)</ARI_ClinicalSubtype>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">myelophthisic anemia - subtype of Aplastic anemia (MONDO:0005868)</ARI_ClinicalSubtype>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Very Severe Aplastic Anemia - subtype of Aplastic anemia (NCIT:C173788)</ARI_ClinicalSubtype>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Non-Severe Aplastic Anemia - subtype of Aplastic anemia (NCIT:C173789)</ARI_ClinicalSubtype>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aplastic Anemia due to Radiation - subtype of Aplastic anemia (NCIT:C35465)</ARI_ClinicalSubtype>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drug/Toxin-Induced Aplastic Anemia - subtype of Aplastic anemia (NCIT:C70613)</ARI_ClinicalSubtype>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drug-Induced Aplastic Anemia - subtype of Aplastic anemia (NCIT:C35343)</ARI_ClinicalSubtype>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-18 00:06 | KrishnaTO | Enrichment from confirmed cross-references: +6 synonym(s), +13 clinical subtype(s)</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001021_186">
@@ -6446,7 +6466,26 @@ The first reports of narcolepsy being an autoimmune disease came in 2013, but re
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-12 01:11 | KrishnaTO | Cross-reference review: confirmed SNOMED 193042000; confirmed OMOP 437854; confirmed MONDO 0016158; confirmed ICD10 G47.411; confirmed ORPHANET 2073; confirmed UMLS C0751362; flagged SNOMED 735676003; flagged OMOP 42536721</ARI_ChangeLog>
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">193042000</ARI_DXCODE>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">437854</ARI_OMOP>
-  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-17 18:04 | KrishnaTO | Cross-reference review: confirmed NCI C196015; confirmed OMIM 161400; confirmed MESH D009290; flagged DOID 8986; no term in DOID</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-18 00:06 | KrishnaTO | Cross-reference review: confirmed NCI C196015; confirmed OMIM 161400; confirmed MESH D009290; flagged DOID 8986; no term in DOID</ARI_ChangeLog>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Narcoleptic Syndrome</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Syndrome, Gelineau's</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Syndromes, Gelineau's</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Syndromes, Narcoleptic</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gelineau's Syndromes</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gelineaus Syndrome</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">paroxysmal sleep</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Syndrome, Narcoleptic</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sleep, Paroxysmal</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">narcolepsy</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Narcoleptic Syndromes</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">narcolepsy with or without cataplexy</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Syndrome, Gelineau</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Narcolepsy, without cataplexy</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gelineau Syndrome</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gelineau's Syndrome</ARI_Synonym>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hereditary narcolepsy - subtype of Cataplexy and narcolepsy (MONDO:0100554)</ARI_ClinicalSubtype>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">narcolepsy-cataplexy syndrome - subtype of Cataplexy and narcolepsy (MONDO:0016158)</ARI_ClinicalSubtype>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-18 00:06 | KrishnaTO | Enrichment from confirmed cross-references: +16 synonym(s), +2 clinical subtype(s)</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001060_462">
@@ -6829,7 +6868,7 @@ The cause of this syndrome is unknown, however, researchers believe that it may 
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-03 18:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 52702003; confirmed OMOP 432738; confirmed DOID 8544; confirmed MONDO 0005404; confirmed NCI C3037; confirmed ICD10 G93.32; confirmed ORPHANET 1983; confirmed UMLS C0015674; confirmed MESH D015673; flagged ICD10 780.71</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-03 18:15 | KrishnaTO | Cross-reference review: confirmed SNOMED 52702003; confirmed OMOP 432738; confirmed DOID 8544; confirmed MONDO 0005404; confirmed NCI C3037; confirmed ICD10 G93.32; confirmed ORPHANET 1983; confirmed UMLS C0015674; confirmed MESH D015673; flagged ICD10 780.71</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-12 01:11 | KrishnaTO | Cross-reference review: confirmed SNOMED 52702003; confirmed OMOP 432738; confirmed DOID 8544; confirmed MONDO 0005404; confirmed NCI C3037; confirmed ICD10 G93.32; confirmed ORPHANET 1983; confirmed UMLS C0015674; confirmed MESH D015673; flagged ICD10 780.71</ARI_ChangeLog>
-  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-17 18:04 | KrishnaTO | Cross-reference review: no term in OMIM</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-18 00:06 | KrishnaTO | Cross-reference review: no term in OMIM</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001062_502">
@@ -6926,7 +6965,7 @@ The cause of this syndrome is unknown, however, researchers believe that it may 
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-12 01:11 | KrishnaTO | Cross-reference review: confirmed SNOMED 128209004; confirmed OMOP 381009; confirmed DOID 5213; confirmed MONDO 0006702; confirmed NCI C84636; confirmed ICD10 G61.81; confirmed ORPHANET 2932; confirmed UMLS C0393819; confirmed MESH D020277; flagged SNOMED 230564004; flagged OMOP 4048024; flagged ICD10 357.81</ARI_ChangeLog>
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">128209004</ARI_DXCODE>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">381009</ARI_OMOP>
-  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-17 18:04 | KrishnaTO | Cross-reference review: no term in OMIM</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-18 00:06 | KrishnaTO | Cross-reference review: no term in OMIM</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001063_509">
@@ -7049,7 +7088,7 @@ Currently, the cause of interstitial cystitis is unknown. There are two main the
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-03 18:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 38731000087104; confirmed OMOP 1450471; confirmed DOID 1678; confirmed MONDO 0018301; confirmed NCI C27189; confirmed ICD10 N30.1; confirmed ORPHANET 37202; confirmed UMLS C0600040; confirmed MESH D018856</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-03 18:15 | KrishnaTO | Cross-reference review: confirmed SNOMED 38731000087104; confirmed OMOP 1450471; confirmed DOID 1678; confirmed MONDO 0018301; confirmed NCI C27189; confirmed ICD10 N30.1; confirmed ORPHANET 37202; confirmed UMLS C0600040; confirmed MESH D018856</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-12 01:11 | KrishnaTO | Cross-reference review: confirmed SNOMED 38731000087104; confirmed OMOP 1450471; confirmed DOID 1678; confirmed MONDO 0018301; confirmed NCI C27189; confirmed ICD10 N30.1; confirmed ORPHANET 37202; confirmed UMLS C0600040; confirmed MESH D018856</ARI_ChangeLog>
-  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-17 18:04 | KrishnaTO | Cross-reference review: no term in OMIM</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-18 00:06 | KrishnaTO | Cross-reference review: no term in OMIM</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Tissue_Bladder">
@@ -7191,7 +7230,17 @@ However, in some people, the Lyme disease triggers symptoms similar to rheumatoi
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-03 18:00 | KrishnaTO | Cross-reference review: flagged DOID 11729; flagged ICD10 088.81, A69.2; flagged SNOMED 1269516003</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-03 18:15 | KrishnaTO | Cross-reference review: flagged DOID 11729; flagged ICD10 088.81, A69.2; flagged SNOMED 1269516003</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-12 01:11 | KrishnaTO | Cross-reference review: flagged DOID 11729; flagged ICD10 088.81, A69.2; flagged SNOMED 1269516003</ARI_ChangeLog>
-  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-17 18:04 | KrishnaTO | Cross-reference review: confirmed MONDO 0700280; confirmed NCI C119039; confirmed UMLS C3890422; confirmed MESH D000077342; no term in ORPHANET; no term in DOID; no term in SNOMED; no term in ICD10; no term in OMIM</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-18 00:06 | KrishnaTO | Cross-reference review: confirmed MONDO 0700280; confirmed NCI C119039; confirmed UMLS C3890422; confirmed MESH D000077342; no term in ORPHANET; no term in DOID; no term in SNOMED; no term in ICD10; no term in OMIM</ARI_ChangeLog>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Syndromes, Post-Lyme Disease</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTLDS</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disorder due to consequences of Lyme disease</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">post-Lyme disease</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Post-Lyme Disease Syndromes</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Syndrome, Post-Lyme Disease</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lyme Disease, Chronic</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">post-Lyme disease syndrome</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">post-treatment Lyme disease syndrome</ARI_Synonym>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-18 00:06 | KrishnaTO | Enrichment from confirmed cross-references: +9 synonym(s)</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001065_531">
@@ -7404,7 +7453,7 @@ Chronic non-bacterial osteomyelitis (CNO) is a rare auto-inflammatory bone disor
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-03 18:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 1204420006; confirmed OMOP 37163124; confirmed DOID 0060645; confirmed MONDO 0009813; confirmed NCI C119042; confirmed ICD10 M86.3; confirmed ORPHANET 324964; confirmed UMLS C0410422; confirmed MESH C535456; flagged OMIM 609628</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-03 18:15 | KrishnaTO | Cross-reference review: confirmed SNOMED 1204420006; confirmed OMOP 37163124; confirmed DOID 0060645; confirmed MONDO 0009813; confirmed NCI C119042; confirmed ICD10 M86.3; confirmed ORPHANET 324964; confirmed UMLS C0410422; confirmed MESH C535456; flagged OMIM 609628</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-12 01:11 | KrishnaTO | Cross-reference review: confirmed SNOMED 1204420006; confirmed OMOP 37163124; confirmed DOID 0060645; confirmed MONDO 0009813; confirmed NCI C119042; confirmed ICD10 M86.3; confirmed ORPHANET 324964; confirmed UMLS C0410422; confirmed MESH C535456; flagged OMIM 609628</ARI_ChangeLog>
-  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-17 18:04 | KrishnaTO | Cross-reference review: no term in OMIM</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-18 00:06 | KrishnaTO | Cross-reference review: no term in OMIM</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001066_557">
@@ -7636,7 +7685,7 @@ More study is needed.</rdfs:comment>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-03 18:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 1119304009; confirmed OMOP 600589; confirmed DOID 0080848; confirmed MONDO 0100233; confirmed NCI C179263; confirmed UMLS C5433293; confirmed MESH D000094024</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-03 18:15 | KrishnaTO | Cross-reference review: confirmed SNOMED 1119304009; confirmed OMOP 600589; confirmed DOID 0080848; confirmed MONDO 0100233; confirmed NCI C179263; confirmed UMLS C5433293; confirmed MESH D000094024</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-12 01:11 | KrishnaTO | Cross-reference review: confirmed SNOMED 1119304009; confirmed OMOP 600589; confirmed DOID 0080848; confirmed MONDO 0100233; confirmed NCI C179263; confirmed UMLS C5433293; confirmed MESH D000094024</ARI_ChangeLog>
-  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-17 18:04 | KrishnaTO | Cross-reference review: no term in ORPHANET; no term in OMIM</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-18 00:06 | KrishnaTO | Cross-reference review: no term in ORPHANET; no term in OMIM</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001067_583">
@@ -7749,7 +7798,10 @@ More study is needed.</rdfs:comment>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-03 18:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 405810005; confirmed OMOP 4233620; confirmed ICD10 H16.32; confirmed ORPHANET 1467; confirmed MESH D055952; flagged ICD10 370.52; flagged UMLS C0155089</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-03 18:15 | KrishnaTO | Cross-reference review: confirmed SNOMED 405810005; confirmed OMOP 4233620; confirmed ICD10 H16.32; confirmed ORPHANET 1467; confirmed MESH D055952; flagged ICD10 370.52; flagged UMLS C0155089</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-12 01:11 | KrishnaTO | Cross-reference review: confirmed SNOMED 405810005; confirmed OMOP 4233620; confirmed ICD10 H16.32; confirmed ORPHANET 1467; confirmed MESH D055952; flagged ICD10 370.52; flagged UMLS C0155089</ARI_ChangeLog>
-  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-17 18:04 | KrishnaTO | Cross-reference review: confirmed DOID 0060216; confirmed MONDO 0015453; confirmed UMLS C0271270; no term in NCI; no term in OMIM</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-18 00:06 | KrishnaTO | Cross-reference review: confirmed DOID 0060216; confirmed MONDO 0015453; confirmed UMLS C0271270; no term in NCI; no term in OMIM</ARI_ChangeLog>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cogan syndrome</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diffuse interstitual keratitis</ARI_Synonym>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-18 00:06 | KrishnaTO | Enrichment from confirmed cross-references: +2 synonym(s)</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001068_592">
@@ -7921,7 +7973,29 @@ More study is needed.</rdfs:comment>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-12 01:11 | KrishnaTO | Cross-reference review: confirmed SNOMED 398937006; confirmed OMOP 4160887; confirmed MONDO 0018922; confirmed NCI C208228; confirmed ICD10 D59.12; confirmed ORPHANET 56425; confirmed UMLS C0175816; flagged SNOMED 127055007; flagged OMOP 4131128</ARI_ChangeLog>
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">398937006</ARI_DXCODE>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4160887</ARI_OMOP>
-  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-17 18:04 | KrishnaTO | Cross-reference review: confirmed MESH D000744; no term in OMIM; no term in DOID</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-18 00:06 | KrishnaTO | Cross-reference review: confirmed MESH D000744; no term in OMIM; no term in DOID</ARI_ChangeLog>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anaemia, Autoimmune Haemolytic</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune Haemolytic Anaemias</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIHA</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune haemolytic anaemia</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune Hemolytic Anemias</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">autoimmune haemolytic anemia</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">autoimmune hemolytic anaemia</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">autoimmune hemolytic anemia</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anemia, Hemolytic, Autoimmune</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AHA</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anemia, Hemolytic, Acquired Autoimmune</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hemolytic Anemia, Autoimmune</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Haemolytic Anaemia, Autoimmune</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anemia, Autoimmune Hemolytic</ARI_Synonym>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Evans syndrome - subtype of Cold agglutinin disease (MONDO:0016030)</ARI_ClinicalSubtype>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neonatal autoimmune hemolytic anemia - subtype of Cold agglutinin disease (MONDO:0018358)</ARI_ClinicalSubtype>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drug-induced autoimmune hemolytic anemia - subtype of Cold agglutinin disease (MONDO:0019535)</ARI_ClinicalSubtype>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">giant cell hepatitis with autoimmune hemolytic anemia - subtype of Cold agglutinin disease (MONDO:1060166)</ARI_ClinicalSubtype>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">autoimmune hemolytic anemia, warm type - subtype of Cold agglutinin disease (MONDO:0019532)</ARI_ClinicalSubtype>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">autoimmune hemolytic anemia, cold type - subtype of Cold agglutinin disease (MONDO:0016450)</ARI_ClinicalSubtype>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mixed-type autoimmune hemolytic anemia - subtype of Cold agglutinin disease (MONDO:0019534)</ARI_ClinicalSubtype>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-18 00:06 | KrishnaTO | Enrichment from confirmed cross-references: +14 synonym(s), +7 clinical subtype(s)</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001069_610">
@@ -8055,7 +8129,10 @@ More study is needed.</rdfs:comment>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-03 18:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 1197477000; confirmed OMOP 37162777; confirmed DOID 0081151; confirmed MONDO 0013863; confirmed ORPHANET 445018; confirmed OMIM 614700; confirmed UMLS C3553512</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-03 18:15 | KrishnaTO | Cross-reference review: confirmed SNOMED 1197477000; confirmed OMOP 37162777; confirmed DOID 0081151; confirmed MONDO 0013863; confirmed ORPHANET 445018; confirmed OMIM 614700; confirmed UMLS C3553512</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-12 01:11 | KrishnaTO | Cross-reference review: confirmed SNOMED 1197477000; confirmed OMOP 37162777; confirmed DOID 0081151; confirmed MONDO 0013863; confirmed ORPHANET 445018; confirmed OMIM 614700; confirmed UMLS C3553512</ARI_ChangeLog>
-  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-17 18:04 | KrishnaTO | Cross-reference review: confirmed NCI C176809; no term in ICD10; no term in MESH</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-18 00:06 | KrishnaTO | Cross-reference review: confirmed NCI C176809; no term in ICD10; no term in MESH</ARI_ChangeLog>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Immunodeficiency, Common Variable, 8, with Autoimmunity</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CVID8</ARI_Synonym>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-18 00:06 | KrishnaTO | Enrichment from confirmed cross-references: +2 synonym(s)</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001071">
@@ -8119,7 +8196,11 @@ More study is needed.</rdfs:comment>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-12 01:11 | KrishnaTO | Cross-reference review: confirmed SNOMED 128200000; confirmed OMOP 4134577; confirmed DOID 3223; confirmed MONDO 0019369; confirmed NCI C206547; confirmed ORPHANET 83452; confirmed UMLS C0458219; confirmed MESH D020918; flagged SNOMED 408751001, 734947007; flagged OMOP 42536233, 4256912</ARI_ChangeLog>
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">128200000</ARI_DXCODE>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4134577</ARI_OMOP>
-  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-17 18:04 | KrishnaTO | Cross-reference review: confirmed OMIM 604335; confirmed ICD10 M89.0</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-18 00:06 | KrishnaTO | Cross-reference review: confirmed OMIM 604335; confirmed ICD10 M89.0</ARI_ChangeLog>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">algoneurodystrophy</ARI_Synonym>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complex regional pain syndrome type 2 - subtype of Complex regional pain syndrome (MONDO:0020572)</ARI_ClinicalSubtype>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complex regional pain syndrome type 1 - subtype of Complex regional pain syndrome (MONDO:0011441)</ARI_ClinicalSubtype>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-18 00:06 | KrishnaTO | Enrichment from confirmed cross-references: +1 synonym(s), +2 clinical subtype(s)</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001071_629">
@@ -8290,7 +8371,24 @@ Both UC and CD are caused by an autoimmune response that reflects the involvemen
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C2965</ARI_NCI>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-12 01:01 | user | Edited: nci</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-12 01:11 | KrishnaTO | Cross-reference review: confirmed SNOMED 34000006; confirmed MONDO 0005011; confirmed DOID 8778; flagged ICD10 555.1</ARI_ChangeLog>
-  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-17 18:04 | KrishnaTO | Cross-reference review: confirmed ICD10 K50; confirmed NCI C2965; confirmed OMOP 201606; confirmed ORPHANET 206; confirmed MESH D003424</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-18 00:06 | KrishnaTO | Cross-reference review: confirmed ICD10 K50; confirmed NCI C2965; confirmed OMOP 201606; confirmed ORPHANET 206; confirmed MESH D003424</ARI_ChangeLog>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">paediatric Crohn's disease</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crohn disease</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NON RARE IN EUROPE: Crohn disease</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pediatric Crohn's disease</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inflammatory Bowel Disease 1</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crohn's Enteritis</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regional enteritis</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crohn's disease of large bowel</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crohns Disease</ARI_Synonym>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">perianal Crohn disease - subtype of Crohn's disease (MONDO:0005537)</ARI_ClinicalSubtype>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crohn Disease of Rectum - subtype of Crohn's disease (NCIT:C219892)</ARI_ClinicalSubtype>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crohn disease of the esophagus - subtype of Crohn's disease (MONDO:0022901)</ARI_ClinicalSubtype>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crohn Colitis - subtype of Crohn's disease (NCIT:C35211)</ARI_ClinicalSubtype>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">small bowel Crohn disease - subtype of Crohn's disease (MONDO:0005539)</ARI_ClinicalSubtype>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oral Crohn disease - subtype of Crohn's disease (MONDO:0005535)</ARI_ClinicalSubtype>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crohn Disease of Small Intestine - subtype of Crohn's disease (NCIT:C35210)</ARI_ClinicalSubtype>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-18 00:06 | KrishnaTO | Enrichment from confirmed cross-references: +9 synonym(s), +7 clinical subtype(s)</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001073_662">
@@ -8409,7 +8507,28 @@ Both UC and CD are caused by an autoimmune response that reflects the involvemen
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-09</ARI_AuthorDate>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COP</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
-  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-17 18:04 | KrishnaTO | Cross-reference review: confirmed SNOMED 719218000; confirmed OMOP 36714118; confirmed DOID 2797; confirmed MONDO 0015264; confirmed ORPHANET 1302; no term in OMIM</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-18 00:06 | KrishnaTO | Cross-reference review: confirmed SNOMED 719218000; confirmed OMOP 36714118; confirmed DOID 2797; confirmed MONDO 0015264; confirmed ORPHANET 1302; no term in OMIM</ARI_ChangeLog>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">noninfectious pneumonia</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Idiopathic fibrosing alveolitis</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bronchiolitis obliterans organizing pneumonia</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Organizing Pneumonia</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cryptogenic organizing pneumonitis</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diffuse idiopathic pulmonary fibrosis</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">idiopathic interstitial pneumonitis</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COP</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOOP</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organising pneumonia</ARI_Synonym>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">respiratory bronchiolitis-interstitial lung disease syndrome - subtype of Cryptogenic organizing pneumonia (MONDO:0019204)</ARI_ClinicalSubtype>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">idiopathic pulmonary fibrosis - subtype of Cryptogenic organizing pneumonia (MONDO:0800504)</ARI_ClinicalSubtype>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">combined pulmonary fibrosis-emphysema syndrome - subtype of Cryptogenic organizing pneumonia (MONDO:0017591)</ARI_ClinicalSubtype>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">desquamative interstitial pneumonia - subtype of Cryptogenic organizing pneumonia (DOID:0050158)</ARI_ClinicalSubtype>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nonspecific interstitial pneumonia - subtype of Cryptogenic organizing pneumonia (DOID:2801)</ARI_ClinicalSubtype>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">follicular bronchiolits - subtype of Cryptogenic organizing pneumonia (MONDO:0800114)</ARI_ClinicalSubtype>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">non-specific interstitial pneumonia - subtype of Cryptogenic organizing pneumonia (MONDO:0019622)</ARI_ClinicalSubtype>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acute interstitial pneumonia - subtype of Cryptogenic organizing pneumonia (DOID:2800)</ARI_ClinicalSubtype>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">idiopathic pleuroparenchymal fibroelastosis - subtype of Cryptogenic organizing pneumonia (MONDO:0044633)</ARI_ClinicalSubtype>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lymphoid interstitial pneumonia - subtype of Cryptogenic organizing pneumonia (DOID:0050159)</ARI_ClinicalSubtype>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-18 00:06 | KrishnaTO | Enrichment from confirmed cross-references: +10 synonym(s), +10 clinical subtype(s)</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001074_677">
@@ -8495,7 +8614,17 @@ Both UC and CD are caused by an autoimmune response that reflects the involvemen
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7119001</ARI_DXCODE>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4324123</ARI_OMOP>
-  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-17 18:04 | KrishnaTO | Cross-reference review: confirmed DOID 0050169; confirmed MONDO 0005282; confirmed NCI C26819; confirmed UMLS C0024137; confirmed MESH D008178; no term in OMIM</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-18 00:06 | KrishnaTO | Cross-reference review: confirmed DOID 0050169; confirmed MONDO 0005282; confirmed NCI C26819; confirmed UMLS C0024137; confirmed MESH D008178; no term in OMIM</ARI_ChangeLog>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lupus Erythematosus, Cutaneous</ARI_Synonym>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">subacute cutaneous lupus erythematosus - subtype of Cutaneous lupus erythematosus (MONDO:0015573)</ARI_ClinicalSubtype>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chronic cutaneous lupus erythematosus - subtype of Cutaneous lupus erythematosus (MONDO:0015574)</ARI_ClinicalSubtype>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Systemic Lupus Erythematosus Rash - subtype of Cutaneous lupus erythematosus (NCIT:C27171)</ARI_ClinicalSubtype>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bullous systemic lupus erythematosus - subtype of Cutaneous lupus erythematosus (MONDO:0044113)</ARI_ClinicalSubtype>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lupus Erythematosus Tumidus - subtype of Cutaneous lupus erythematosus (NCIT:C117112)</ARI_ClinicalSubtype>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rowell syndrome - subtype of Cutaneous lupus erythematosus (MONDO:0041186)</ARI_ClinicalSubtype>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drug Induced Cutaneous Lupus Erythematosus - subtype of Cutaneous lupus erythematosus (NCIT:C112203)</ARI_ClinicalSubtype>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chilblain lupus - subtype of Cutaneous lupus erythematosus (DOID:0060386)</ARI_ClinicalSubtype>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-18 00:06 | KrishnaTO | Enrichment from confirmed cross-references: +1 synonym(s), +8 clinical subtype(s)</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001076_682">
