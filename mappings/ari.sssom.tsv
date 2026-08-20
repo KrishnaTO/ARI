@@ -520,3 +520,4 @@ ARI:0001143	Neuromyelitis optica	skos:exactMatch		icd10cm:G36.0	icd10cm	semapv:M
 ARI:0001143	Neuromyelitis optica	skos:exactMatch		ORPHA:71211	ORPHA	semapv:ManualMappingCuration	github:aaronabend	2026-08-17
 ARI:0001143	Neuromyelitis optica	skos:exactMatch		mesh:D009471	mesh	semapv:ManualMappingCuration	github:aaronabend	2026-08-17
 ARI:0001143	Neuromyelitis optica	skos:exactMatch		sssom:NoTermFound	OMIM	semapv:ManualMappingCuration	github:aaronabend	2026-08-17
+ARI:0001056	Birdshot chorioretinopathy	skos:exactMatch		ORPHA:179	ORPHA	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-20
