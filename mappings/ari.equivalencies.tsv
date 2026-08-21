@@ -500,5 +500,7 @@ ARI	0001143	Neuromyelitis optica	skos:exactMatch	icd10cm	G36.0	manual	github:aar
 ARI	0001143	Neuromyelitis optica	skos:exactMatch	ORPHA	71211	manual	github:aaronabend
 ARI	0001143	Neuromyelitis optica	skos:exactMatch	mesh	D009471	manual	github:aaronabend
 ARI	0001143	Neuromyelitis optica	skos:exactMatch	OMIM	NoTermFound	manual-absent	github:aaronabend
+ARI	0001019	Antisynthetase syndrome	skos:exactMatch	MONDO	0019344	manual	github:linikujp
+ARI	0001019	Antisynthetase syndrome	skos:exactMatch	ORPHA	81	manual	github:linikujp
 ARI	0001090	Essential mixed cryoglobulinemia	skos:exactMatch	MONDO	0007407	manual	github:linikujp
 ARI	0001090	Essential mixed cryoglobulinemia	skos:exactMatch	ORPHA	91138	manual	github:linikujp
