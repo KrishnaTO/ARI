@@ -181,16 +181,34 @@ row wherever a disease has more than one mapping into the same database. Built f
 | Target Mapping Name Source | Which vocabulary file or API produced the label |
 | Target URL | Resolvable link, built from the SSSOM `curie_map` |
 | Curator / Mapping Date | SSSOM `author_id` and `mapping_date` |
+| Predicted Mapping ID / Name | Best predicted match for the pair (see below) |
+| Prediction Method | `xref via curated anchor` / `lexical grounding` / `xref via lexical anchor` |
+| Prediction Support | Weighted count of the disease identifiers backing the prediction |
+| Prediction Evidence | The hub term and anchor the prediction came from |
+| Prediction vs Curated | **Colour-coded**: green = Agrees with curated, orange = Differs from curated, blue = Candidate for review, amber = Contradicts no-term finding |
+| Other Predicted IDs | Remaining candidates for the pair, best first |
+| Predicted URL | Resolvable link for the predicted term |
 
 ### Sheet 2: "Summary"
 Per database: diseases with a confirmed match, confirmed / rejected / absent mapping counts,
-and how many diseases are still unreviewed for that database.
+how many diseases are still unreviewed, how many of those unreviewed pairs carry a
+prediction, and how often the prediction agrees with or differs from the curated mapping.
 
 ### Sheet 3: "Legend"
-Meaning of each Mapping Status and the SSSOM state behind it, plus the label sources.
+Meaning of each Mapping Status and the SSSOM state behind it, each prediction method and
+verdict, plus the label sources.
+
+### Predicted matches
+1,467 of the 2,216 rows carry a predicted match — **1,022 of them on pairs no curator has
+reviewed yet**. Predictions come from Gilda lexical grounding plus cross-reference expansion
+through Mondo and DOID hub terms; a term the curators already rejected for that pair is never
+predicted, and predicted SNOMED codes are restricted to standard, non-retired concepts.
+Against the 367 curated mappings, 330 top predictions reproduce the curated term and 22
+differ. Method detail in `notebook/ari-grounding/README.md`.
 
 Coverage of the 501 curated mappings: 367 confirmed, 113 rejected, 21 recorded as having no
-term in the database. 1,715 of the 2,130 disease x database pairs are still unreviewed.
+term in the database. 1,715 of the 2,130 disease x database pairs are still unreviewed, and
+1,022 of those now arrive with a predicted candidate.
 
 Labels come from the local vocabulary copies in `data/2-databases`, except **Orphanet** and
 **NCI Thesaurus** (EBI OLS4 API — no usable local copy) and **UMLS** (labelled from the DOID

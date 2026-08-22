@@ -15,6 +15,21 @@
   local copy exists, and UMLS CUIs are labelled from the DOID or Mondo term that
   cross-references them. Every row records its label source.
 - Added `notebook/ari-grounding/build_disease_target_matrix.py`, which builds the workbook.
+- Added predicted matches to the report: 1,467 rows now carry a candidate, 1,022 of them on
+  pairs no curator has reviewed. `notebook/ari-grounding/predict_target_matches.py` combines
+  the existing Gilda lexical matches with cross-reference expansion through Mondo and DOID
+  hub terms, which reaches the seven databases lexical grounding does not cover. Hubs are
+  scored by how many of the disease's own identifiers reach them, so a candidate corroborated
+  by several hubs outranks one reached through a single broad cross-reference.
+- Two filters keep predictions from contradicting curation or the source vocabularies: a term
+  already rejected for that disease and database is never predicted, and predicted SNOMED
+  codes are restricted to standard, non-retired concepts — ontology xrefs still point at codes
+  SNOMED has deprecated, which was the largest source of wrong predictions before the filter
+  (top-1 agreement with curated mappings rose from 283/367 to 330/367).
+- New columns: Predicted Mapping ID / Name, Prediction Method, Prediction Support, Prediction
+  Evidence, Prediction vs Curated (colour-coded), Other Predicted IDs, Predicted URL. Where a
+  curator recorded "no term in database" but a prediction still surfaced (5 rows), the verdict
+  reads `Contradicts no-term finding` rather than being hidden.
 - Flagged rather than dropped two mapping subjects that are not in
   `1_Core_ARI_Diseases.xlsx`: `ARI:0001212` (CREST Syndrome) and `ARI:0003` (Fulminant
   type 1 diabetes, whose ID does not follow the `ARI:0001XXX` format).

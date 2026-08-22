@@ -1,4 +1,8 @@
-"""Resolve a label for every object_id used in mappings/ari.sssom.tsv.
+"""Resolve a label for every mapped and predicted target id.
+
+Covers every object_id in mappings/ari.sssom.tsv and every candidate in
+notebook/ari-grounding/target_predictions.json, so run predict_target_matches.py
+first.
 
 Local vocabulary/ontology copies under data/2-databases are used wherever they
 cover the vocabulary. ORPHA and NCIT have no usable local copy (the local OMOP
@@ -15,6 +19,7 @@ from pathlib import Path
 REPO = Path(__file__).resolve().parents[2]
 DB = Path("F:/1Projects/7Projects-Aurint/ARI/data/2-databases")
 SSSOM = REPO / "mappings" / "ari.sssom.tsv"
+PREDICTIONS = REPO / "notebook" / "ari-grounding" / "target_predictions.json"
 OUT = REPO / "notebook" / "ari-grounding" / "target_labels.json"
 
 lines = [l for l in SSSOM.open(encoding="utf-8") if not l.startswith("#")]
@@ -27,6 +32,12 @@ for r in rows:
         continue
     prefix, local = oid.split(":", 1)
     wanted.setdefault(prefix, set()).add(local)
+
+for key, cands in json.loads(PREDICTIONS.read_text(encoding="utf-8")).items():
+    prefix = key.split("|", 1)[1]
+    for c in cands:
+        wanted.setdefault(prefix, set()).add(c["id"])
+
 g = lambda p: wanted.get(p, set())
 
 labels = {}
