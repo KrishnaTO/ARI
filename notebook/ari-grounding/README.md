@@ -29,6 +29,8 @@ inactive/duplicate concepts.
 | `ground_doid.py` | Build DOID Gilda grounder, ground all diseases -> `doid_matches_all.csv` |
 | `ground_snomed.py` | Build SNOMED Gilda grounder (standard Condition concepts), ground all -> `snomed_matches_all.csv` |
 | `make_match_reports.py` | Format CSVs into `data/4-reports/6_DOID_Matches_All.xlsx` and `7_SNOMED_Matches_All.xlsx` |
+| `resolve_target_labels.py` | Resolve a label for every `object_id` in `mappings/ari.sssom.tsv` -> `target_labels.json` |
+| `build_disease_target_matrix.py` | Cross every disease against every target database -> `data/4-reports/8_Disease_Target_Mappings.xlsx` |
 
 Run order: `parse_doid_local.py` → `ground_doid.py` → `ground_snomed.py` → `make_match_reports.py`.
 Requires `gilda`, `openpyxl` (`pip install gilda openpyxl`).
@@ -41,3 +43,19 @@ Requires `gilda`, `openpyxl` (`pip install gilda openpyxl`).
   No-code diseases were not found in SNOMED standard Condition concepts.
 
 The SNOMED report colour-codes the `Agrees w/ Existing` column: green = agrees with master, amber = differs.
+
+## Disease x target database matrix
+
+`resolve_target_labels.py` → `build_disease_target_matrix.py` produce
+`data/4-reports/8_Disease_Target_Mappings.xlsx`: one row per (disease, target database)
+pair, so an unmapped pair is as visible as a mapped one. These two scripts are independent
+of the Gilda grounding above — they report the **curated** mappings in
+`mappings/ari.sssom.tsv`, not lexical matches.
+
+Labels come from the local vocabulary copies wherever one covers the vocabulary. Two
+exceptions are read from the EBI OLS4 API, because no usable local copy exists: **Orphanet**
+(no ORDO download in `data/2-databases`) and **NCI Thesaurus** (the local OMOP `NCIt`
+export only carries AJCC staging chapters, not NCIT concept codes). **UMLS** has no label
+source at all here, so a CUI is labelled with the DOID or Mondo term that cross-references
+it — the same route `sparql/get_UMLS_id.md` uses to extract CUIs. Every row records which
+source produced its label in `Target Mapping Name Source`.

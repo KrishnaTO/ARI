@@ -1,5 +1,24 @@
 # Changelog
 
+## disease-target-mapping-sheet
+
+- Added `data/4-reports/8_Disease_Target_Mappings.xlsx`: one row per (disease, target
+  database) pair across all 213 mapping subjects and all 10 target databases in the ARI
+  mapping set, so an unreviewed pair is as visible in the sheet as a curated one. Each row
+  carries the disease ID, name and synonyms, the target database, and — where a mapping
+  exists — its status (confirmed / rejected / no term found), SSSOM predicate and modifier,
+  target ID, target label, and the curator and date. 2,216 rows covering all 501 mappings.
+- Added `notebook/ari-grounding/resolve_target_labels.py`, which resolves a label for every
+  `object_id` in `ari.sssom.tsv` (the mapping set stores no `object_label`). All 480 distinct
+  object ids resolve. Local vocabulary copies cover SNOMED CT, OMOP, ICD-10-CM, MeSH, DOID,
+  Mondo and OMIM; Orphanet and NCI Thesaurus come from the EBI OLS4 API because no usable
+  local copy exists, and UMLS CUIs are labelled from the DOID or Mondo term that
+  cross-references them. Every row records its label source.
+- Added `notebook/ari-grounding/build_disease_target_matrix.py`, which builds the workbook.
+- Flagged rather than dropped two mapping subjects that are not in
+  `1_Core_ARI_Diseases.xlsx`: `ARI:0001212` (CREST Syndrome) and `ARI:0003` (Fulminant
+  type 1 diabetes, whose ID does not follow the `ARI:0001XXX` format).
+
 ## fix-sssom-duplicate-key
 
 - Fixed a false `duplicate-row` error in `.github/scripts/validate_mappings.py`. The

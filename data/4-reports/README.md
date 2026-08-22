@@ -161,6 +161,43 @@ definition, all synonyms, cross-references grouped by source
 
 ---
 
+## 8. `8_Disease_Target_Mappings.xlsx` — Disease x Target Database Matrix
+
+**2,216 rows** — one row for every (disease, target database) pair: 213 diseases
+(211 core + 2 mapping subjects not in the core list) x 10 target databases, plus an extra
+row wherever a disease has more than one mapping into the same database. Built from
+`mappings/ari.sssom.tsv`, so it reports **curated** mappings, not lexical matches.
+
+### Sheet 1: "Disease-Target Mappings"
+| Column | Description |
+|--------|-------------|
+| ARI ID / Disease Name / Synonyms | From `1_Core_ARI_Diseases.xlsx` |
+| In Core List | `No` for a mapping subject absent from the core list |
+| Target Database / Target Database Name | CURIE prefix and display name |
+| Mapping Status | **Colour-coded**: green = Confirmed match, red = Rejected match, amber = No term in database, grey = Not reviewed |
+| Mapping Type | `manual` / `manual-negative` / `manual-absent` |
+| Mapping Predicate / Predicate Modifier / Mapping Justification | SSSOM fields as curated |
+| Target Mapping ID / Target Mapping Name | The mapped term and its label |
+| Target Mapping Name Source | Which vocabulary file or API produced the label |
+| Target URL | Resolvable link, built from the SSSOM `curie_map` |
+| Curator / Mapping Date | SSSOM `author_id` and `mapping_date` |
+
+### Sheet 2: "Summary"
+Per database: diseases with a confirmed match, confirmed / rejected / absent mapping counts,
+and how many diseases are still unreviewed for that database.
+
+### Sheet 3: "Legend"
+Meaning of each Mapping Status and the SSSOM state behind it, plus the label sources.
+
+Coverage of the 501 curated mappings: 367 confirmed, 113 rejected, 21 recorded as having no
+term in the database. 1,715 of the 2,130 disease x database pairs are still unreviewed.
+
+Labels come from the local vocabulary copies in `data/2-databases`, except **Orphanet** and
+**NCI Thesaurus** (EBI OLS4 API — no usable local copy) and **UMLS** (labelled from the DOID
+or Mondo term cross-referencing the CUI). See `notebook/ari-grounding/README.md`.
+
+---
+
 ## Source data
 
 | Source | Location | License |
