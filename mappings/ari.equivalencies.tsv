@@ -500,3 +500,16 @@ ARI	0001143	Neuromyelitis optica	skos:exactMatch	icd10cm	G36.0	manual	github:aar
 ARI	0001143	Neuromyelitis optica	skos:exactMatch	ORPHA	71211	manual	github:aaronabend
 ARI	0001143	Neuromyelitis optica	skos:exactMatch	mesh	D009471	manual	github:aaronabend
 ARI	0001143	Neuromyelitis optica	skos:exactMatch	OMIM	NoTermFound	manual-absent	github:aaronabend
+ARI	0001135	Multiple sclerosis	skos:exactMatch	DOID	2377	manual	github:aaronabend
+ARI	0001135	Multiple sclerosis	skos:exactMatch	MONDO	0005301	manual	github:aaronabend
+ARI	0001135	Multiple sclerosis	skos:exactMatch	ncit	C3243	manual	github:aaronabend
+ARI	0001135	Multiple sclerosis	skos:exactMatch	SNOMEDCT	128460000	manual	github:aaronabend
+ARI	0001135	Multiple sclerosis	skos:exactMatch	SNOMEDCT	426373005	manual	github:aaronabend
+ARI	0001135	Multiple sclerosis	skos:exactMatch	SNOMEDCT	428700003	manual	github:aaronabend
+ARI	0001135	Multiple sclerosis	skos:exactMatch	SNOMEDCT	49692006	manual	github:aaronabend
+ARI	0001135	Multiple sclerosis	skos:exactMatch	SNOMEDCT	24700007	manual	github:aaronabend
+ARI	0001135	Multiple sclerosis	skos:exactMatch	omop	374919	manual	github:aaronabend
+ARI	0001135	Multiple sclerosis	skos:exactMatch	omop	4178929	manual	github:aaronabend
+ARI	0001135	Multiple sclerosis	skos:exactMatch	omop	4145049	manual	github:aaronabend
+ARI	0001135	Multiple sclerosis	skos:exactMatch	omop	376970	manual	github:aaronabend
+ARI	0001135	Multiple sclerosis	skos:exactMatch	omop	4027727	manual	github:aaronabend
