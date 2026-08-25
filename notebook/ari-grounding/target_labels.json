@@ -1,0 +1,7086 @@
+{
+ "DOID:0040088": [
+  "autoimmune uveitis",
+  "doid.owl"
+ ],
+ "DOID:0040090": [
+  "autoimmune gastritis",
+  "doid.owl"
+ ],
+ "DOID:0040091": [
+  "autoimmune pancreatitis",
+  "doid.owl"
+ ],
+ "DOID:0040095": [
+  "autoimmune cardiomyopathy",
+  "doid.owl"
+ ],
+ "DOID:0040097": [
+  "autoimmune vasculitis",
+  "doid.owl"
+ ],
+ "DOID:0040098": [
+  "pemphigus gestationis",
+  "doid.owl"
+ ],
+ "DOID:0040100": [
+  "Hirata disease",
+  "doid.owl"
+ ],
+ "DOID:0050156": [
+  "idiopathic pulmonary fibrosis",
+  "doid.owl"
+ ],
+ "DOID:0050157": [
+  "cryptogenic organizing pneumonia",
+  "doid.owl"
+ ],
+ "DOID:0050167": [
+  "autoimmune polyendocrine syndrome type 1",
+  "doid.owl"
+ ],
+ "DOID:0050169": [
+  "cutaneous lupus erythematosus",
+  "doid.owl"
+ ],
+ "DOID:0050214": [
+  "Lambert-Eaton myasthenic syndrome",
+  "doid.owl"
+ ],
+ "DOID:0050425": [
+  "restless legs syndrome",
+  "doid.owl"
+ ],
+ "DOID:0050589": [
+  "inflammatory bowel disease",
+  "doid.owl"
+ ],
+ "DOID:0050639": [
+  "primary cutaneous amyloidosis",
+  "doid.owl"
+ ],
+ "DOID:0060182": [
+  "microscopic colitis",
+  "doid.owl"
+ ],
+ "DOID:0060192": [
+  "Crohn&apos;s colitis",
+  "doid.owl"
+ ],
+ "DOID:0060215": [
+  "Balo concentric sclerosis",
+  "doid.owl"
+ ],
+ "DOID:0060216": [
+  "Cogan syndrome",
+  "doid.owl"
+ ],
+ "DOID:0060218": [
+  "CREST syndrome",
+  "doid.owl"
+ ],
+ "DOID:0060234": [
+  "Carpenter syndrome",
+  "doid.owl"
+ ],
+ "DOID:0060284": [
+  "paroxysmal nocturnal hemoglobinuria",
+  "doid.owl"
+ ],
+ "DOID:0060643": [
+  "primary sclerosing cholangitis",
+  "doid.owl"
+ ],
+ "DOID:0060645": [
+  "chronic recurrent multifocal osteomyelitis",
+  "doid.owl"
+ ],
+ "DOID:0060941": [
+  "interstitial lung disease 1",
+  "doid.owl"
+ ],
+ "DOID:0070701": [
+  "small fiber neuropathy",
+  "doid.owl"
+ ],
+ "DOID:0080122": [
+  "Alpers-Huttenlocher syndrome",
+  "doid.owl"
+ ],
+ "DOID:0080162": [
+  "lupus nephritis",
+  "doid.owl"
+ ],
+ "DOID:0080356": [
+  "IgG4-related disease",
+  "doid.owl"
+ ],
+ "DOID:0080741": [
+  "limbic encephalitis",
+  "doid.owl"
+ ],
+ "DOID:0080743": [
+  "transverse myelitis",
+  "doid.owl"
+ ],
+ "DOID:0080744": [
+  "antisynthetase syndrome",
+  "doid.owl"
+ ],
+ "DOID:0080745": [
+  "polymyositis",
+  "doid.owl"
+ ],
+ "DOID:0080747": [
+  "chronic urticaria",
+  "doid.owl"
+ ],
+ "DOID:0080750": [
+  "erythema nodosum",
+  "doid.owl"
+ ],
+ "DOID:0080848": [
+  "long COVID",
+  "doid.owl"
+ ],
+ "DOID:0080852": [
+  "paraneoplastic pemphigus",
+  "doid.owl"
+ ],
+ "DOID:0081120": [
+  "Graves ophthalmopathy",
+  "doid.owl"
+ ],
+ "DOID:0081151": [
+  "common variable immunodeficiency 8",
+  "doid.owl"
+ ],
+ "DOID:0081242": [
+  "autoimmune interstitial lung, joint, and kidney disease",
+  "doid.owl"
+ ],
+ "DOID:0090110": [
+  "immune dysregulation-polyendocrinopathy-enteropathy-X-linked syndrome",
+  "doid.owl"
+ ],
+ "DOID:0110892": [
+  "inflammatory bowel disease 1",
+  "doid.owl"
+ ],
+ "DOID:0111079": [
+  "birdshot chorioretinopathy",
+  "doid.owl"
+ ],
+ "DOID:0111154": [
+  "postural orthostatic tachycardia syndrome",
+  "doid.owl"
+ ],
+ "DOID:0111157": [
+  "Castleman disease",
+  "doid.owl"
+ ],
+ "DOID:10140": [
+  "dry eye syndrome",
+  "doid.owl"
+ ],
+ "DOID:10223": [
+  "dermatomyositis",
+  "doid.owl"
+ ],
+ "DOID:10300": [
+  "Raynaud disease",
+  "doid.owl"
+ ],
+ "DOID:10383": [
+  "amyotrophic neuralgia",
+  "doid.owl"
+ ],
+ "DOID:10439": [
+  "Mooren&apos;s ulcer",
+  "doid.owl"
+ ],
+ "DOID:10507": [
+  "Dressler&apos;s syndrome",
+  "doid.owl"
+ ],
+ "DOID:10608": [
+  "celiac disease",
+  "doid.owl"
+ ],
+ "DOID:10719": [
+  "toxic diffuse goiter",
+  "doid.owl"
+ ],
+ "DOID:10871": [
+  "age related macular degeneration",
+  "doid.owl"
+ ],
+ "DOID:10976": [
+  "membranous glomerulonephritis",
+  "doid.owl"
+ ],
+ "DOID:11042": [
+  "Felty&apos;s syndrome",
+  "doid.owl"
+ ],
+ "DOID:11123": [
+  "IgA vasculitis",
+  "doid.owl"
+ ],
+ "DOID:11335": [
+  "sarcoidosis",
+  "doid.owl"
+ ],
+ "DOID:11656": [
+  "cicatricial pemphigoid",
+  "doid.owl"
+ ],
+ "DOID:1166": [
+  "palindromic rheumatism",
+  "doid.owl"
+ ],
+ "DOID:11729": [
+  "Lyme disease",
+  "doid.owl"
+ ],
+ "DOID:12029": [
+  "sympathetic ophthalmia",
+  "doid.owl"
+ ],
+ "DOID:12132": [
+  "granulomatosis with polyangiitis",
+  "doid.owl"
+ ],
+ "DOID:12236": [
+  "primary biliary cholangitis",
+  "doid.owl"
+ ],
+ "DOID:12297": [
+  "Vogt-Koyanagi-Harada disease",
+  "doid.owl"
+ ],
+ "DOID:12306": [
+  "vitiligo",
+  "doid.owl"
+ ],
+ "DOID:12361": [
+  "Graves&apos; disease",
+  "doid.owl"
+ ],
+ "DOID:12449": [
+  "aplastic anemia",
+  "doid.owl"
+ ],
+ "DOID:12732": [
+  "intermediate uveitis",
+  "doid.owl"
+ ],
+ "DOID:1278": [
+  "tolosa-hunt syndrome",
+  "doid.owl"
+ ],
+ "DOID:12842": [
+  "Guillain-Barre syndrome",
+  "doid.owl"
+ ],
+ "DOID:12895": [
+  "keratoconjunctivitis sicca",
+  "doid.owl"
+ ],
+ "DOID:12930": [
+  "dilated cardiomyopathy",
+  "doid.owl"
+ ],
+ "DOID:13099": [
+  "Moyamoya disease",
+  "doid.owl"
+ ],
+ "DOID:13141": [
+  "uveitis",
+  "doid.owl"
+ ],
+ "DOID:13241": [
+  "Behcet&apos;s disease",
+  "doid.owl"
+ ],
+ "DOID:13353": [
+  "diffuse interstitial keratitis",
+  "doid.owl"
+ ],
+ "DOID:13366": [
+  "Stiff-Person syndrome",
+  "doid.owl"
+ ],
+ "DOID:13375": [
+  "temporal arteritis",
+  "doid.owl"
+ ],
+ "DOID:13378": [
+  "Kawasaki disease",
+  "doid.owl"
+ ],
+ "DOID:1340": [
+  "pure red-cell aplasia",
+  "doid.owl"
+ ],
+ "DOID:13404": [
+  "uveoparotid fever",
+  "doid.owl"
+ ],
+ "DOID:13452": [
+  "scleritis",
+  "doid.owl"
+ ],
+ "DOID:13477": [
+  "balanitis xerotica obliterans",
+  "doid.owl"
+ ],
+ "DOID:13664": [
+  "post-vaccinal encephalitis",
+  "doid.owl"
+ ],
+ "DOID:13774": [
+  "Addison&apos;s disease",
+  "doid.owl"
+ ],
+ "DOID:13922": [
+  "eosinophilic esophagitis",
+  "doid.owl"
+ ],
+ "DOID:13949": [
+  "interstitial cystitis",
+  "doid.owl"
+ ],
+ "DOID:14022": [
+  "algoneurodystrophy",
+  "doid.owl"
+ ],
+ "DOID:14039": [
+  "POEMS syndrome",
+  "doid.owl"
+ ],
+ "DOID:14256": [
+  "adult-onset Still&apos;s disease",
+  "doid.owl"
+ ],
+ "DOID:14482": [
+  "pemphigoid gestationis",
+  "doid.owl"
+ ],
+ "DOID:1577": [
+  "limited scleroderma",
+  "doid.owl"
+ ],
+ "DOID:1586": [
+  "rheumatic fever",
+  "doid.owl"
+ ],
+ "DOID:1587": [
+  "thrombocytopenia due to platelet alloimmunization",
+  "doid.owl"
+ ],
+ "DOID:1678": [
+  "chronic interstitial cystitis",
+  "doid.owl"
+ ],
+ "DOID:1757": [
+  "facial hemiatrophy",
+  "doid.owl"
+ ],
+ "DOID:1811": [
+  "reflex sympathetic dystrophy",
+  "doid.owl"
+ ],
+ "DOID:1826": [
+  "epilepsy",
+  "doid.owl"
+ ],
+ "DOID:2048": [
+  "autoimmune hepatitis",
+  "doid.owl"
+ ],
+ "DOID:2280": [
+  "hidradenitis suppurativa",
+  "doid.owl"
+ ],
+ "DOID:2377": [
+  "multiple sclerosis",
+  "doid.owl"
+ ],
+ "DOID:2508": [
+  "Takayasu&apos;s arteritis",
+  "doid.owl"
+ ],
+ "DOID:2536": [
+  "chronic inflammatory demyelinating polyneuritis",
+  "doid.owl"
+ ],
+ "DOID:2556": [
+  "relapsing polychondritis",
+  "doid.owl"
+ ],
+ "DOID:2797": [
+  "idiopathic interstitial pneumonia",
+  "doid.owl"
+ ],
+ "DOID:289": [
+  "endometriosis",
+  "doid.owl"
+ ],
+ "DOID:2986": [
+  "IgA glomerulonephritis",
+  "doid.owl"
+ ],
+ "DOID:2988": [
+  "antiphospholipid syndrome",
+  "doid.owl"
+ ],
+ "DOID:3049": [
+  "Churg-Strauss syndrome",
+  "doid.owl"
+ ],
+ "DOID:3082": [
+  "interstitial lung disease",
+  "doid.owl"
+ ],
+ "DOID:3223": [
+  "complex regional pain syndrome",
+  "doid.owl"
+ ],
+ "DOID:3429": [
+  "inclusion body myositis",
+  "doid.owl"
+ ],
+ "DOID:349": [
+  "systemic mastocytosis",
+  "doid.owl"
+ ],
+ "DOID:3492": [
+  "mixed connective tissue disease",
+  "doid.owl"
+ ],
+ "DOID:3663": [
+  "cutaneous mastocytosis",
+  "doid.owl"
+ ],
+ "DOID:3689": [
+  "brachial plexus neuritis",
+  "doid.owl"
+ ],
+ "DOID:3928": [
+  "adiposis dolorosa",
+  "doid.owl"
+ ],
+ "DOID:417": [
+  "autoimmune disease",
+  "doid.owl"
+ ],
+ "DOID:418": [
+  "systemic scleroderma",
+  "doid.owl"
+ ],
+ "DOID:4313": [
+  "epidermolysis bullosa acquisita",
+  "doid.owl"
+ ],
+ "DOID:437": [
+  "myasthenia gravis",
+  "doid.owl"
+ ],
+ "DOID:4371": [
+  "Schnitzler syndrome",
+  "doid.owl"
+ ],
+ "DOID:4448": [
+  "macular degeneration",
+  "doid.owl"
+ ],
+ "DOID:4562": [
+  "subacute bacterial endocarditis",
+  "doid.owl"
+ ],
+ "DOID:5213": [
+  "chronic inflammatory demyelinating polyradiculoneuropathy",
+  "doid.owl"
+ ],
+ "DOID:6196": [
+  "reactive arthritis",
+  "doid.owl"
+ ],
+ "DOID:631": [
+  "fibromyalgia",
+  "doid.owl"
+ ],
+ "DOID:633": [
+  "myositis",
+  "doid.owl"
+ ],
+ "DOID:639": [
+  "acute disseminated encephalomyelitis",
+  "doid.owl"
+ ],
+ "DOID:6688": [
+  "autoimmune lymphoproliferative syndrome",
+  "doid.owl"
+ ],
+ "DOID:676": [
+  "systemic juvenile rheumatoid arthritis",
+  "doid.owl"
+ ],
+ "DOID:7147": [
+  "ankylosing spondylitis",
+  "doid.owl"
+ ],
+ "DOID:7148": [
+  "rheumatoid arthritis",
+  "doid.owl"
+ ],
+ "DOID:718": [
+  "autoimmune hemolytic anemia",
+  "doid.owl"
+ ],
+ "DOID:7188": [
+  "autoimmune thyroiditis",
+  "doid.owl"
+ ],
+ "DOID:8472": [
+  "localized scleroderma",
+  "doid.owl"
+ ],
+ "DOID:8505": [
+  "dermatitis herpetiformis",
+  "doid.owl"
+ ],
+ "DOID:8506": [
+  "bullous pemphigoid",
+  "doid.owl"
+ ],
+ "DOID:853": [
+  "polymyalgia rheumatica",
+  "doid.owl"
+ ],
+ "DOID:8544": [
+  "chronic fatigue syndrome",
+  "doid.owl"
+ ],
+ "DOID:8553": [
+  "pyoderma gangrenosum",
+  "doid.owl"
+ ],
+ "DOID:8577": [
+  "ulcerative colitis",
+  "doid.owl"
+ ],
+ "DOID:8778": [
+  "Crohn&apos;s disease",
+  "doid.owl"
+ ],
+ "DOID:8869": [
+  "neuromyelitis optica",
+  "doid.owl"
+ ],
+ "DOID:8893": [
+  "psoriasis",
+  "doid.owl"
+ ],
+ "DOID:8924": [
+  "autoimmune thrombocytopenic purpura",
+  "doid.owl"
+ ],
+ "DOID:8929": [
+  "atrophic gastritis",
+  "doid.owl"
+ ],
+ "DOID:8931": [
+  "Evans&apos; syndrome",
+  "doid.owl"
+ ],
+ "DOID:8986": [
+  "narcolepsy",
+  "doid.owl"
+ ],
+ "DOID:9008": [
+  "psoriatic arthritis",
+  "doid.owl"
+ ],
+ "DOID:9074": [
+  "systemic lupus erythematosus",
+  "doid.owl"
+ ],
+ "DOID:9182": [
+  "pemphigus",
+  "doid.owl"
+ ],
+ "DOID:9201": [
+  "lichen planus",
+  "doid.owl"
+ ],
+ "DOID:9744": [
+  "type 1 diabetes mellitus",
+  "doid.owl"
+ ],
+ "DOID:9808": [
+  "Goodpasture syndrome",
+  "doid.owl"
+ ],
+ "DOID:9809": [
+  "hypersensitivity vasculitis",
+  "doid.owl"
+ ],
+ "DOID:9810": [
+  "polyarteritis nodosa",
+  "doid.owl"
+ ],
+ "DOID:9849": [
+  "Meniere&apos;s disease",
+  "doid.owl"
+ ],
+ "DOID:986": [
+  "alopecia areata",
+  "doid.owl"
+ ],
+ "MONDO:0000702": [
+  "microscopic colitis",
+  "mondo.obo"
+ ],
+ "MONDO:0001032": [
+  "Mooren ulcer",
+  "mondo.obo"
+ ],
+ "MONDO:0001049": [
+  "Dressler syndrome",
+  "mondo.obo"
+ ],
+ "MONDO:0001104": [
+  "toxic diffuse goiter",
+  "mondo.obo"
+ ],
+ "MONDO:0001332": [
+  "palindromic rheumatism",
+  "mondo.obo"
+ ],
+ "MONDO:0001694": [
+  "diffuse interstitial keratitis",
+  "mondo.obo"
+ ],
+ "MONDO:0001705": [
+  "pure red-cell aplasia",
+  "mondo.obo"
+ ],
+ "MONDO:0001718": [
+  "scleritis",
+  "mondo.obo"
+ ],
+ "MONDO:0001725": [
+  "balanitis xerotica obliterans",
+  "mondo.obo"
+ ],
+ "MONDO:0002429": [
+  "idiopathic interstitial pneumonia",
+  "mondo.obo"
+ ],
+ "MONDO:0003004": [
+  "macular degeneration",
+  "mondo.obo"
+ ],
+ "MONDO:0005011": [
+  "Crohn disease",
+  "mondo.obo"
+ ],
+ "MONDO:0005021": [
+  "dilated cardiomyopathy",
+  "mondo.obo"
+ ],
+ "MONDO:0005027": [
+  "epilepsy",
+  "mondo.obo"
+ ],
+ "MONDO:0005083": [
+  "psoriasis",
+  "mondo.obo"
+ ],
+ "MONDO:0005100": [
+  "systemic sclerosis",
+  "mondo.obo"
+ ],
+ "MONDO:0005101": [
+  "ulcerative colitis",
+  "mondo.obo"
+ ],
+ "MONDO:0005130": [
+  "celiac disease",
+  "mondo.obo"
+ ],
+ "MONDO:0005133": [
+  "endometriosis",
+  "mondo.obo"
+ ],
+ "MONDO:0005147": [
+  "type 1 diabetes mellitus",
+  "mondo.obo"
+ ],
+ "MONDO:0005150": [
+  "age-related macular degeneration",
+  "mondo.obo"
+ ],
+ "MONDO:0005265": [
+  "inflammatory bowel disease",
+  "mondo.obo"
+ ],
+ "MONDO:0005282": [
+  "cutaneous lupus erythematosus",
+  "mondo.obo"
+ ],
+ "MONDO:0005301": [
+  "multiple sclerosis",
+  "mondo.obo"
+ ],
+ "MONDO:0005306": [
+  "ankylosing spondylitis",
+  "mondo.obo"
+ ],
+ "MONDO:0005340": [
+  "alopecia areata",
+  "mondo.obo"
+ ],
+ "MONDO:0005342": [
+  "IgA glomerulonephritis",
+  "mondo.obo"
+ ],
+ "MONDO:0005361": [
+  "eosinophilic esophagitis",
+  "mondo.obo"
+ ],
+ "MONDO:0005364": [
+  "Graves disease",
+  "mondo.obo"
+ ],
+ "MONDO:0005376": [
+  "membranous glomerulonephritis",
+  "mondo.obo"
+ ],
+ "MONDO:0005388": [
+  "primary biliary cholangitis",
+  "mondo.obo"
+ ],
+ "MONDO:0005391": [
+  "restless legs syndrome",
+  "mondo.obo"
+ ],
+ "MONDO:0005404": [
+  "myalgic encephalomeyelitis/chronic fatigue syndrome",
+  "mondo.obo"
+ ],
+ "MONDO:0005463": [
+  "aortic valve calcification",
+  "mondo.obo"
+ ],
+ "MONDO:0005546": [
+  "fibromyalgia",
+  "mondo.obo"
+ ],
+ "MONDO:0005556": [
+  "lupus nephritis",
+  "mondo.obo"
+ ],
+ "MONDO:0005623": [
+  "autoimmune thyroid disease",
+  "mondo.obo"
+ ],
+ "MONDO:0005854": [
+  "mixed connective tissue disease",
+  "mondo.obo"
+ ],
+ "MONDO:0006558": [
+  "pemphigoid gestationis",
+  "mondo.obo"
+ ],
+ "MONDO:0006559": [
+  "hidradenitis suppurativa",
+  "mondo.obo"
+ ],
+ "MONDO:0006572": [
+  "lichen planus",
+  "mondo.obo"
+ ],
+ "MONDO:0006594": [
+  "pemphigus",
+  "mondo.obo"
+ ],
+ "MONDO:0006665": [
+  "chronic atrophic gastritis",
+  "mondo.obo"
+ ],
+ "MONDO:0006682": [
+  "brachial plexus neuritis",
+  "mondo.obo"
+ ],
+ "MONDO:0006702": [
+  "chronic inflammatory demyelinating polyradiculoneuropathy",
+  "mondo.obo"
+ ],
+ "MONDO:0006733": [
+  "dry eye syndrome",
+  "mondo.obo"
+ ],
+ "MONDO:0006794": [
+  "hypersensitivity vasculitis",
+  "mondo.obo"
+ ],
+ "MONDO:0006806": [
+  "intermediate uveitis",
+  "mondo.obo"
+ ],
+ "MONDO:0006981": [
+  "subacute bacterial endocarditis",
+  "mondo.obo"
+ ],
+ "MONDO:0007070": [
+  "adiposis dolorosa",
+  "mondo.obo"
+ ],
+ "MONDO:0007179": [
+  "autoimmune disease",
+  "mondo.obo"
+ ],
+ "MONDO:0007191": [
+  "Behcet disease",
+  "mondo.obo"
+ ],
+ "MONDO:0007603": [
+  "Felty syndrome",
+  "mondo.obo"
+ ],
+ "MONDO:0007699": [
+  "Hashimoto thyroiditis",
+  "mondo.obo"
+ ],
+ "MONDO:0007710": [
+  "facial hemiatrophy",
+  "mondo.obo"
+ ],
+ "MONDO:0007827": [
+  "inclusion body myositis",
+  "mondo.obo"
+ ],
+ "MONDO:0007915": [
+  "systemic lupus erythematosus",
+  "mondo.obo"
+ ],
+ "MONDO:0007972": [
+  "Meniere disease",
+  "mondo.obo"
+ ],
+ "MONDO:0008062": [
+  "narcolepsy 1",
+  "mondo.obo"
+ ],
+ "MONDO:0008076": [
+  "amyotrophic neuralgia",
+  "mondo.obo"
+ ],
+ "MONDO:0008364": [
+  "Raynaud disease",
+  "mondo.obo"
+ ],
+ "MONDO:0008383": [
+  "rheumatoid arthritis",
+  "mondo.obo"
+ ],
+ "MONDO:0008491": [
+  "stiff-person syndrome",
+  "mondo.obo"
+ ],
+ "MONDO:0008538": [
+  "temporal arteritis",
+  "mondo.obo"
+ ],
+ "MONDO:0008558": [
+  "autoimmune thrombocytopenic purpura",
+  "mondo.obo"
+ ],
+ "MONDO:0008661": [
+  "vitiligo",
+  "mondo.obo"
+ ],
+ "MONDO:0008718": [
+  "Morvan syndrome",
+  "mondo.obo"
+ ],
+ "MONDO:0009175": [
+  "eosinophilic fasciitis",
+  "mondo.obo"
+ ],
+ "MONDO:0009303": [
+  "anti-glomerular basement membrane disease",
+  "mondo.obo"
+ ],
+ "MONDO:0009411": [
+  "autoimmune polyendocrine syndrome type 1",
+  "mondo.obo"
+ ],
+ "MONDO:0009649": [
+  "moyamoya disease 1",
+  "mondo.obo"
+ ],
+ "MONDO:0009688": [
+  "myasthenia gravis",
+  "mondo.obo"
+ ],
+ "MONDO:0009813": [
+  "chronic recurrent multifocal osteomyelitis",
+  "mondo.obo"
+ ],
+ "MONDO:0009960": [
+  "inflammatory bowel disease 1",
+  "mondo.obo"
+ ],
+ "MONDO:0010580": [
+  "immune dysregulation-polyendocrinopathy-enteropathy-X-linked syndrome",
+  "mondo.obo"
+ ],
+ "MONDO:0011158": [
+  "autoimmune lymphoproliferative syndrome type 1",
+  "mondo.obo"
+ ],
+ "MONDO:0011429": [
+  "juvenile idiopathic arthritis",
+  "mondo.obo"
+ ],
+ "MONDO:0011441": [
+  "complex regional pain syndrome type 1",
+  "mondo.obo"
+ ],
+ "MONDO:0011479": [
+  "postural orthostatic tachycardia syndrome",
+  "mondo.obo"
+ ],
+ "MONDO:0011599": [
+  "birdshot chorioretinopathy",
+  "mondo.obo"
+ ],
+ "MONDO:0011849": [
+  "psoriatic arthritis",
+  "mondo.obo"
+ ],
+ "MONDO:0012105": [
+  "granulomatosis with polyangiitis",
+  "mondo.obo"
+ ],
+ "MONDO:0012579": [
+  "autoimmune pulmonary alveolar proteinosis",
+  "mondo.obo"
+ ],
+ "MONDO:0012727": [
+  "Kawasaki disease",
+  "mondo.obo"
+ ],
+ "MONDO:0013433": [
+  "primary sclerosing cholangitis",
+  "mondo.obo"
+ ],
+ "MONDO:0013860": [
+  "idiopathic membranous glomerulonephritis",
+  "mondo.obo"
+ ],
+ "MONDO:0013863": [
+  "combined immunodeficiency due to LRBA deficiency",
+  "mondo.obo"
+ ],
+ "MONDO:0014523": [
+  "juvenile-onset diabetes mellitus-central and peripheral neurodegeneration syndrome",
+  "mondo.obo"
+ ],
+ "MONDO:0014629": [
+  "autoimmune interstitial lung disease-arthritis syndrome",
+  "mondo.obo"
+ ],
+ "MONDO:0015129": [
+  "chronic primary adrenal insufficiency",
+  "mondo.obo"
+ ],
+ "MONDO:0015175": [
+  "autoimmune pancreatitis",
+  "mondo.obo"
+ ],
+ "MONDO:0015247": [
+  "opsoclonus-myoclonus syndrome",
+  "mondo.obo"
+ ],
+ "MONDO:0015264": [
+  "cryptogenic organizing pneumonia",
+  "mondo.obo"
+ ],
+ "MONDO:0015301": [
+  "primary cutaneous amyloidosis",
+  "mondo.obo"
+ ],
+ "MONDO:0015453": [
+  "Cogan syndrome",
+  "mondo.obo"
+ ],
+ "MONDO:0015564": [
+  "Castleman disease",
+  "mondo.obo"
+ ],
+ "MONDO:0015588": [
+  "limbic encephalitis",
+  "mondo.obo"
+ ],
+ "MONDO:0015592": [
+  "limbic encephalitis with LGI1 antibodies",
+  "mondo.obo"
+ ],
+ "MONDO:0015614": [
+  "dermatitis herpetiformis",
+  "mondo.obo"
+ ],
+ "MONDO:0015909": [
+  "aplastic anemia",
+  "mondo.obo"
+ ],
+ "MONDO:0015925": [
+  "interstitial lung disease",
+  "mondo.obo"
+ ],
+ "MONDO:0016019": [
+  "Rasmussen subacute encephalitis",
+  "mondo.obo"
+ ],
+ "MONDO:0016030": [
+  "Evans syndrome",
+  "mondo.obo"
+ ],
+ "MONDO:0016098": [
+  "immune-mediated necrotizing myopathy",
+  "mondo.obo"
+ ],
+ "MONDO:0016158": [
+  "narcolepsy-cataplexy syndrome",
+  "mondo.obo"
+ ],
+ "MONDO:0016218": [
+  "Guillain-Barre syndrome",
+  "mondo.obo"
+ ],
+ "MONDO:0016264": [
+  "autoimmune hepatitis",
+  "mondo.obo"
+ ],
+ "MONDO:0016358": [
+  "limited cutaneous systemic sclerosis",
+  "mondo.obo"
+ ],
+ "MONDO:0016367": [
+  "dermatomyositis",
+  "mondo.obo"
+ ],
+ "MONDO:0016422": [
+  "autoimmune polyendocrinopathy type 3",
+  "mondo.obo"
+ ],
+ "MONDO:0016423": [
+  "autoimmune polyendocrinopathy type 4",
+  "mondo.obo"
+ ],
+ "MONDO:0016430": [
+  "Balo concentric sclerosis",
+  "mondo.obo"
+ ],
+ "MONDO:0016450": [
+  "autoimmune hemolytic anemia, cold type",
+  "mondo.obo"
+ ],
+ "MONDO:0016586": [
+  "systemic mastocytosis",
+  "mondo.obo"
+ ],
+ "MONDO:0016820": [
+  "Moyamoya disease",
+  "mondo.obo"
+ ],
+ "MONDO:0017287": [
+  "immunoglobulin G4-related sclerosing disease",
+  "mondo.obo"
+ ],
+ "MONDO:0017364": [
+  "POEMS syndrome",
+  "mondo.obo"
+ ],
+ "MONDO:0017376": [
+  "reactive arthritis",
+  "mondo.obo"
+ ],
+ "MONDO:0017767": [
+  "rheumatic fever",
+  "mondo.obo"
+ ],
+ "MONDO:0017979": [
+  "autoimmune lymphoproliferative syndrome",
+  "mondo.obo"
+ ],
+ "MONDO:0017991": [
+  "Takayasu arteritis",
+  "mondo.obo"
+ ],
+ "MONDO:0018092": [
+  "Vogt-Koyanagi-Harada disease",
+  "mondo.obo"
+ ],
+ "MONDO:0018215": [
+  "paraneoplastic neurologic syndrome",
+  "mondo.obo"
+ ],
+ "MONDO:0018242": [
+  "autoimmune hypoparathyroidism",
+  "mondo.obo"
+ ],
+ "MONDO:0018301": [
+  "interstitial cystitis",
+  "mondo.obo"
+ ],
+ "MONDO:0018304": [
+  "Schnitzler syndrome",
+  "mondo.obo"
+ ],
+ "MONDO:0018360": [
+  "neonatal lupus erythematosus",
+  "mondo.obo"
+ ],
+ "MONDO:0018465": [
+  "insulin autoimmune syndrome",
+  "mondo.obo"
+ ],
+ "MONDO:0018556": [
+  "Lambert-Eaton myasthenic syndrome",
+  "mondo.obo"
+ ],
+ "MONDO:0018746": [
+  "mucous membrane pemphigoid",
+  "mondo.obo"
+ ],
+ "MONDO:0018747": [
+  "acquired epidermolysis bullosa",
+  "mondo.obo"
+ ],
+ "MONDO:0018748": [
+  "linear IgA Dermatosis",
+  "mondo.obo"
+ ],
+ "MONDO:0018756": [
+  "euthyroid Graves orbitopathy",
+  "mondo.obo"
+ ],
+ "MONDO:0018824": [
+  "pyoderma gangrenosum",
+  "mondo.obo"
+ ],
+ "MONDO:0018922": [
+  "cold agglutinin disease",
+  "mondo.obo"
+ ],
+ "MONDO:0018974": [
+  "paraneoplastic pemphigus",
+  "mondo.obo"
+ ],
+ "MONDO:0018979": [
+  "multifocal motor neuropathy",
+  "mondo.obo"
+ ],
+ "MONDO:0018983": [
+  "Tolosa-Hunt syndrome",
+  "mondo.obo"
+ ],
+ "MONDO:0019012": [
+  "Carpenter syndrome",
+  "mondo.obo"
+ ],
+ "MONDO:0019023": [
+  "cutaneous mastocytosis",
+  "mondo.obo"
+ ],
+ "MONDO:0019082": [
+  "bullous pemphigoid",
+  "mondo.obo"
+ ],
+ "MONDO:0019098": [
+  "autoimmune thrombocytopenia",
+  "mondo.obo"
+ ],
+ "MONDO:0019100": [
+  "neuromyelitis optica",
+  "mondo.obo"
+ ],
+ "MONDO:0019125": [
+  "relapsing polychondritis",
+  "mondo.obo"
+ ],
+ "MONDO:0019127": [
+  "polymyositis",
+  "mondo.obo"
+ ],
+ "MONDO:0019167": [
+  "immunoglobulin A vasculitis",
+  "mondo.obo"
+ ],
+ "MONDO:0019170": [
+  "polyarteritis nodosa",
+  "mondo.obo"
+ ],
+ "MONDO:0019198": [
+  "sympathetic ophthalmia",
+  "mondo.obo"
+ ],
+ "MONDO:0019208": [
+  "Bickerstaff brainstem encephalitis",
+  "mondo.obo"
+ ],
+ "MONDO:0019338": [
+  "sarcoidosis",
+  "mondo.obo"
+ ],
+ "MONDO:0019344": [
+  "antisynthetase syndrome",
+  "mondo.obo"
+ ],
+ "MONDO:0019355": [
+  "adult-onset Still disease",
+  "mondo.obo"
+ ],
+ "MONDO:0019369": [
+  "complex regional pain syndrome",
+  "mondo.obo"
+ ],
+ "MONDO:0019383": [
+  "acute disseminated encephalomyelitis",
+  "mondo.obo"
+ ],
+ "MONDO:0019390": [
+  "Susac syndrome",
+  "mondo.obo"
+ ],
+ "MONDO:0019399": [
+  "Isaac syndrome",
+  "mondo.obo"
+ ],
+ "MONDO:0019527": [
+  "undifferentiated connective tissue syndrome",
+  "mondo.obo"
+ ],
+ "MONDO:0019532": [
+  "autoimmune hemolytic anemia, warm type",
+  "mondo.obo"
+ ],
+ "MONDO:0019533": [
+  "paroxysmal cold hemoglobinuria",
+  "mondo.obo"
+ ],
+ "MONDO:0019562": [
+  "localized scleroderma",
+  "mondo.obo"
+ ],
+ "MONDO:0019563": [
+  "CREST syndrome",
+  "mondo.obo"
+ ],
+ "MONDO:0019632": [
+  "Lyme disease",
+  "mondo.obo"
+ ],
+ "MONDO:0019735": [
+  "polymyalgia rheumatica",
+  "mondo.obo"
+ ],
+ "MONDO:0019835": [
+  "primary hypophysitis",
+  "mondo.obo"
+ ],
+ "MONDO:0020108": [
+  "autoimmune hemolytic anemia",
+  "mondo.obo"
+ ],
+ "MONDO:0020283": [
+  "uveitis",
+  "mondo.obo"
+ ],
+ "MONDO:0020640": [
+  "autoimmune encephalitis",
+  "mondo.obo"
+ ],
+ "MONDO:0021107": [
+  "narcolepsy",
+  "mondo.obo"
+ ],
+ "MONDO:0021167": [
+  "myositis disease",
+  "mondo.obo"
+ ],
+ "MONDO:0021553": [
+  "transverse myelitis",
+  "mondo.obo"
+ ],
+ "MONDO:0024250": [
+  "acute lichenoid pityriasis",
+  "mondo.obo"
+ ],
+ "MONDO:0024419": [
+  "enthesitis",
+  "mondo.obo"
+ ],
+ "MONDO:0025513": [
+  "autoimmune urticaria",
+  "mondo.obo"
+ ],
+ "MONDO:0030701": [
+  "autoimmune cardiomyopathy",
+  "mondo.obo"
+ ],
+ "MONDO:0030703": [
+  "autoimmune vasculitis",
+  "mondo.obo"
+ ],
+ "MONDO:0031012": [
+  "autoimmune uveitis",
+  "mondo.obo"
+ ],
+ "MONDO:0031014": [
+  "autoimmune gastritis",
+  "mondo.obo"
+ ],
+ "MONDO:0043267": [
+  "rheumatoid vasculitis",
+  "mondo.obo"
+ ],
+ "MONDO:0044113": [
+  "bullous systemic lupus erythematosus",
+  "mondo.obo"
+ ],
+ "MONDO:0100014": [
+  "autoimmune retinopathy",
+  "mondo.obo"
+ ],
+ "MONDO:0100233": [
+  "long COVID-19",
+  "mondo.obo"
+ ],
+ "MONDO:0100244": [
+  "paroxysmal nocturnal hemoglobinuria",
+  "mondo.obo"
+ ],
+ "MONDO:0100480": [
+  "autoimmune primary adrenal insufficiency",
+  "mondo.obo"
+ ],
+ "MONDO:0100489": [
+  "Graves disease, susceptibility to, 1",
+  "mondo.obo"
+ ],
+ "MONDO:0700280": [
+  "post-treatment Lyme disease syndrome",
+  "mondo.obo"
+ ],
+ "MONDO:0800207": [
+  "neuropathy, small fiber",
+  "mondo.obo"
+ ],
+ "MONDO:0800504": [
+  "idiopathic pulmonary fibrosis",
+  "mondo.obo"
+ ],
+ "MONDO:0850230": [
+  "chronic urticaria",
+  "mondo.obo"
+ ],
+ "MONDO:0850231": [
+  "erythema nodosum",
+  "mondo.obo"
+ ],
+ "MONDO:8000010": [
+  "antiphospholipid syndrome",
+  "mondo.obo"
+ ],
+ "OMIM:103200": [
+  "ADIPOSIS DOLOROSA",
+  "OMIM.ttl"
+ ],
+ "OMIM:103230": [
+  "ADRENOCORTICAL HYPOFUNCTION, CHRONIC PRIMARY CONGENITAL",
+  "OMIM.ttl"
+ ],
+ "OMIM:104000": [
+  "ALOPECIA AREATA 1",
+  "OMIM.ttl"
+ ],
+ "OMIM:107320": [
+  "ANTIPHOSPHOLIPID SYNDROME, FAMILIAL",
+  "OMIM.ttl"
+ ],
+ "OMIM:109100": [
+  "AUTOIMMUNE DISEASE",
+  "OMIM.ttl"
+ ],
+ "OMIM:109650": [
+  "BEHCET SYNDROME",
+  "OMIM.ttl"
+ ],
+ "OMIM:134750": [
+  "FELTY SYNDROME",
+  "OMIM.ttl"
+ ],
+ "OMIM:139393": [
+  "GUILLAIN-BARRE SYNDROME, FAMILIAL",
+  "OMIM.ttl"
+ ],
+ "OMIM:140300": [
+  "HASHIMOTO THYROIDITIS",
+  "OMIM.ttl"
+ ],
+ "OMIM:141300": [
+  "HEMIFACIAL ATROPHY, PROGRESSIVE",
+  "OMIM.ttl"
+ ],
+ "OMIM:142690": [
+  "ACNE INVERSA, FAMILIAL, 1",
+  "OMIM.ttl"
+ ],
+ "OMIM:147421": [
+  "INCLUSION BODY MYOSITIS",
+  "OMIM.ttl"
+ ],
+ "OMIM:152700": [
+  "SYSTEMIC LUPUS ERYTHEMATOSUS",
+  "OMIM.ttl"
+ ],
+ "OMIM:154800": [
+  "MASTOCYTOSIS, CUTANEOUS",
+  "OMIM.ttl"
+ ],
+ "OMIM:156000": [
+  "MENIERE DISEASE",
+  "OMIM.ttl"
+ ],
+ "OMIM:160750": [
+  "MYOSITIS",
+  "OMIM.ttl"
+ ],
+ "OMIM:161400": [
+  "NARCOLEPSY 1",
+  "OMIM.ttl"
+ ],
+ "OMIM:161950": [
+  "IgA NEPHROPATHY, SUSCEPTIBILITY TO, 1",
+  "OMIM.ttl"
+ ],
+ "OMIM:162100": [
+  "AMYOTROPHY, HEREDITARY NEURALGIC",
+  "OMIM.ttl"
+ ],
+ "OMIM:164185": [
+  "OCULAR CICATRICIAL PEMPHIGOID",
+  "OMIM.ttl"
+ ],
+ "OMIM:178500": [
+  "INTERSTITIAL LUNG DISEASE 2",
+  "OMIM.ttl"
+ ],
+ "OMIM:179600": [
+  "RAYNAUD DISEASE",
+  "OMIM.ttl"
+ ],
+ "OMIM:180300": [
+  "RHEUMATOID ARTHRITIS",
+  "OMIM.ttl"
+ ],
+ "OMIM:181750": [
+  "SCLERODERMA, FAMILIAL PROGRESSIVE",
+  "OMIM.ttl"
+ ],
+ "OMIM:184850": [
+  "STIFF-PERSON SYNDROME",
+  "OMIM.ttl"
+ ],
+ "OMIM:187360": [
+  "TEMPORAL ARTERITIS",
+  "OMIM.ttl"
+ ],
+ "OMIM:188030": [
+  "IMMUNE THROMBOCYTOPENIA",
+  "OMIM.ttl"
+ ],
+ "OMIM:193200": [
+  "VITILIGO-ASSOCIATED MULTIPLE AUTOIMMUNE DISEASE SUSCEPTIBILITY 6",
+  "OMIM.ttl"
+ ],
+ "OMIM:203700": [
+  "MITOCHONDRIAL DNA DEPLETION SYNDROME 4A (ALPERS TYPE)",
+  "OMIM.ttl"
+ ],
+ "OMIM:205700": [
+  "ANEMIA, AUTOIMMUNE HEMOLYTIC",
+  "OMIM.ttl"
+ ],
+ "OMIM:207600": [
+  "TAKAYASU ARTERITIS",
+  "OMIM.ttl"
+ ],
+ "OMIM:222100": [
+  "TYPE 1 DIABETES MELLITUS",
+  "OMIM.ttl"
+ ],
+ "OMIM:226350": [
+  "EOSINOPHILIC FASCIITIS",
+  "OMIM.ttl"
+ ],
+ "OMIM:233450": [
+  "GOODPASTURE SYNDROME",
+  "OMIM.ttl"
+ ],
+ "OMIM:240200": [
+  "HYPOADRENOCORTICISM, FAMILIAL",
+  "OMIM.ttl"
+ ],
+ "OMIM:240300": [
+  "AUTOIMMUNE POLYENDOCRINE SYNDROME, TYPE I, WITH OR WITHOUT REVERSIBLE METAPHYSEAL DYSPLASIA",
+  "OMIM.ttl"
+ ],
+ "OMIM:252350": [
+  "MOYAMOYA DISEASE 1",
+  "OMIM.ttl"
+ ],
+ "OMIM:254200": [
+  "MYASTHENIA GRAVIS",
+  "OMIM.ttl"
+ ],
+ "OMIM:259680": [
+  "CHRONIC RECURRENT MULTIFOCAL OSTEOMYELITIS 3",
+  "OMIM.ttl"
+ ],
+ "OMIM:266600": [
+  "INFLAMMATORY BOWEL DISEASE (CROHN DISEASE) 1",
+  "OMIM.ttl"
+ ],
+ "OMIM:275000": [
+  "GRAVES DISEASE",
+  "OMIM.ttl"
+ ],
+ "OMIM:300809": [
+  "SYSTEMIC LUPUS ERYTHEMATOSUS, SUSCEPTIBILITY TO, 15",
+  "OMIM.ttl"
+ ],
+ "OMIM:300818": [
+  "PAROXYSMAL NOCTURNAL HEMOGLOBINURIA 1",
+  "OMIM.ttl"
+ ],
+ "OMIM:300845": [
+  "MOYAMOYA DISEASE 4 WITH SHORT STATURE, HYPERGONADOTROPIC HYPOGONADISM, AND FACIAL DYSMORPHISM",
+  "OMIM.ttl"
+ ],
+ "OMIM:304790": [
+  "IMMUNODYSREGULATION, POLYENDOCRINOPATHY, AND ENTEROPATHY, X-LINKED",
+  "OMIM.ttl"
+ ],
+ "OMIM:601859": [
+  "AUTOIMMUNE LYMPHOPROLIFERATIVE SYNDROME",
+  "OMIM.ttl"
+ ],
+ "OMIM:604302": [
+  "RHEUMATOID ARTHRITIS, SYSTEMIC JUVENILE",
+  "OMIM.ttl"
+ ],
+ "OMIM:604335": [
+  "REFLEX SYMPATHETIC DYSTROPHY",
+  "OMIM.ttl"
+ ],
+ "OMIM:604715": [
+  "ORTHOSTATIC INTOLERANCE",
+  "OMIM.ttl"
+ ],
+ "OMIM:605480": [
+  "SYSTEMIC LUPUS ERYTHEMATOSUS, SUSCEPTIBILITY TO, 3",
+  "OMIM.ttl"
+ ],
+ "OMIM:605808": [
+  "BIRDSHOT CHORIORETINOPATHY",
+  "OMIM.ttl"
+ ],
+ "OMIM:605841": [
+  "NARCOLEPSY 2, SUSCEPTIBILITY TO",
+  "OMIM.ttl"
+ ],
+ "OMIM:607151": [
+  "MOYAMOYA DISEASE 2",
+  "OMIM.ttl"
+ ],
+ "OMIM:607202": [
+  "CELIAC DISEASE, SUSCEPTIBILITY TO, 5",
+  "OMIM.ttl"
+ ],
+ "OMIM:608437": [
+  "SYSTEMIC LUPUS ERYTHEMATOSUS, SUSCEPTIBILITY TO, 4",
+  "OMIM.ttl"
+ ],
+ "OMIM:608710": [
+  "GRANULOMATOSIS WITH POLYANGIITIS",
+  "OMIM.ttl"
+ ],
+ "OMIM:608796": [
+  "MOYAMOYA DISEASE 3",
+  "OMIM.ttl"
+ ],
+ "OMIM:609039": [
+  "NARCOLEPSY 3",
+  "OMIM.ttl"
+ ],
+ "OMIM:609135": [
+  "APLASTIC ANEMIA",
+  "OMIM.ttl"
+ ],
+ "OMIM:609628": [
+  "MAJEED SYNDROME",
+  "OMIM.ttl"
+ ],
+ "OMIM:609754": [
+  "CELIAC DISEASE, SUSCEPTIBILITY TO, 2",
+  "OMIM.ttl"
+ ],
+ "OMIM:609903": [
+  "SYSTEMIC LUPUS ERYTHEMATOSUS, SUSCEPTIBILITY TO, 5",
+  "OMIM.ttl"
+ ],
+ "OMIM:609939": [
+  "SYSTEMIC LUPUS ERYTHEMATOSUS, SUSCEPTIBILITY TO, 6",
+  "OMIM.ttl"
+ ],
+ "OMIM:610065": [
+  "SYSTEMIC LUPUS ERYTHEMATOSUS, SUSCEPTIBILITY TO, 7",
+  "OMIM.ttl"
+ ],
+ "OMIM:610066": [
+  "SYSTEMIC LUPUS ERYTHEMATOSUS, SUSCEPTIBILITY TO, 8",
+  "OMIM.ttl"
+ ],
+ "OMIM:610247": [
+  "ESOPHAGITIS, EOSINOPHILIC, 1",
+  "OMIM.ttl"
+ ],
+ "OMIM:610753": [
+  "ALOPECIA AREATA 2",
+  "OMIM.ttl"
+ ],
+ "OMIM:610910": [
+  "PULMONARY ALVEOLAR PROTEINOSIS, ACQUIRED",
+  "OMIM.ttl"
+ ],
+ "OMIM:611598": [
+  "CELIAC DISEASE, SUSCEPTIBILITY TO, 6",
+  "OMIM.ttl"
+ ],
+ "OMIM:611775": [
+  "KAWASAKI DISEASE",
+  "OMIM.ttl"
+ ],
+ "OMIM:612005": [
+  "CELIAC DISEASE, SUSCEPTIBILITY TO, 7",
+  "OMIM.ttl"
+ ],
+ "OMIM:612006": [
+  "CELIAC DISEASE, SUSCEPTIBILITY TO, 8",
+  "OMIM.ttl"
+ ],
+ "OMIM:612007": [
+  "CELIAC DISEASE, SUSCEPTIBILITY TO, 9",
+  "OMIM.ttl"
+ ],
+ "OMIM:612008": [
+  "CELIAC DISEASE, SUSCEPTIBILITY TO, 10",
+  "OMIM.ttl"
+ ],
+ "OMIM:612009": [
+  "CELIAC DISEASE, SUSCEPTIBILITY TO, 11",
+  "OMIM.ttl"
+ ],
+ "OMIM:612011": [
+  "CELIAC DISEASE, SUSCEPTIBILITY TO, 13",
+  "OMIM.ttl"
+ ],
+ "OMIM:612254": [
+  "SYSTEMIC LUPUS ERYTHEMATOSUS, SUSCEPTIBILITY TO, 12",
+  "OMIM.ttl"
+ ],
+ "OMIM:612378": [
+  "SYSTEMIC LUPUS ERYTHEMATOSUS, SUSCEPTIBILITY TO, 13",
+  "OMIM.ttl"
+ ],
+ "OMIM:612417": [
+  "NARCOLEPSY 4, SUSCEPTIBILITY TO",
+  "OMIM.ttl"
+ ],
+ "OMIM:612594": [
+  "MULTIPLE SCLEROSIS, SUSCEPTIBILITY TO, 2",
+  "OMIM.ttl"
+ ],
+ "OMIM:612595": [
+  "MULTIPLE SCLEROSIS, SUSCEPTIBILITY TO, 3",
+  "OMIM.ttl"
+ ],
+ "OMIM:612596": [
+  "MULTIPLE SCLEROSIS, SUSCEPTIBILITY TO, 4",
+  "OMIM.ttl"
+ ],
+ "OMIM:612851": [
+  "NARCOLEPSY 5, SUSCEPTIBILITY TO",
+  "OMIM.ttl"
+ ],
+ "OMIM:613145": [
+  "SYSTEMIC LUPUS ERYTHEMATOSUS, SUSCEPTIBILITY TO, 14",
+  "OMIM.ttl"
+ ],
+ "OMIM:613412": [
+  "ESOPHAGITIS, EOSINOPHILIC, 2",
+  "OMIM.ttl"
+ ],
+ "OMIM:613736": [
+  "ACNE INVERSA, FAMILIAL, 2, WITH OR WITHOUT DOWLING-DEGOS DISEASE",
+  "OMIM.ttl"
+ ],
+ "OMIM:613737": [
+  "ACNE INVERSA, FAMILIAL, 3",
+  "OMIM.ttl"
+ ],
+ "OMIM:613806": [
+  "CHOLANGITIS, PRIMARY SCLEROSING",
+  "OMIM.ttl"
+ ],
+ "OMIM:614042": [
+  "MOYAMOYA DISEASE 5",
+  "OMIM.ttl"
+ ],
+ "OMIM:614223": [
+  "NARCOLEPSY 6, SUSCEPTIBILITY TO",
+  "OMIM.ttl"
+ ],
+ "OMIM:614250": [
+  "NARCOLEPSY 7",
+  "OMIM.ttl"
+ ],
+ "OMIM:614420": [
+  "SYSTEMIC LUPUS ERYTHEMATOSUS 16",
+  "OMIM.ttl"
+ ],
+ "OMIM:614692": [
+  "MEMBRANOUS NEPHROPATHY, SUSCEPTIBILITY TO",
+  "OMIM.ttl"
+ ],
+ "OMIM:614700": [
+  "IMMUNODEFICIENCY, COMMON VARIABLE, 8, WITH AUTOIMMUNITY",
+  "OMIM.ttl"
+ ],
+ "OMIM:615399": [
+  "PAROXYSMAL NOCTURNAL HEMOGLOBINURIA 2",
+  "OMIM.ttl"
+ ],
+ "OMIM:615750": [
+  "MOYAMOYA DISEASE 6 WITH OR WITHOUT ACHALASIA",
+  "OMIM.ttl"
+ ],
+ "OMIM:616414": [
+  "AUTOINFLAMMATION AND AUTOIMMUNITY, SYSTEMIC, WITH IMMUNE DYSREGULATION",
+  "OMIM.ttl"
+ ],
+ "OMIM:619611": [
+  "INTERSTITIAL LUNG DISEASE 1",
+  "OMIM.ttl"
+ ],
+ "ORPHA:101959": [
+  "Chronic primary adrenal insufficiency",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:103919": [
+  "Autoimmune pancreatitis",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:117": [
+  "Beh\u00e7et disease",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:1183": [
+  "Opsoclonus-myoclonus syndrome",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:1214": [
+  "Progressive hemifacial atrophy",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:1302": [
+  "Cryptogenic organizing pneumonia",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:137807": [
+  "Primary cutaneous amyloidosis",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:1467": [
+  "Cogan syndrome",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:160": [
+  "Castleman disease",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:1656": [
+  "Dermatitis herpetiformis",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:171": [
+  "Primary sclerosing cholangitis",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:179": [
+  "Birdshot chorioretinopathy",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:182040": [
+  "Rare aplastic anemia",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:182095": [
+  "Interstitial lung disease",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:186": [
+  "Primary biliary cholangitis",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:1929": [
+  "Rasmussen syndrome",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:1959": [
+  "Evans syndrome",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:1983": [
+  "NON RARE IN EUROPE: Chronic fatigue syndrome",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:2032": [
+  "Idiopathic pulmonary fibrosis",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:206": [
+  "NON RARE IN EUROPE: Crohn disease",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:206569": [
+  "Immune-mediated necrotizing myopathy",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:2073": [
+  "Narcolepsy type 1",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:2103": [
+  "Guillain-Barr\u00e9 syndrome",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:2137": [
+  "Autoimmune hepatitis",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:217604": [
+  "Dilated cardiomyopathy",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:220402": [
+  "Limited cutaneous systemic sclerosis",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:221": [
+  "Dermatomyositis",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:227982": [
+  "Autoimmune polyendocrinopathy type 3",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:227990": [
+  "Autoimmune polyendocrinopathy type 4",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:228165": [
+  "Bal\u00f3 concentric sclerosis",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:228312": [
+  "Autoimmune hemolytic anemia, cold type",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:2331": [
+  "Kawasaki disease",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:2467": [
+  "Systemic mastocytosis",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:2573": [
+  "Moyamoya disease",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:279": [
+  "NON RARE IN EUROPE: Age-related macular degeneration",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:279914": [
+  "Intermediate uveitis",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:280679": [
+  "Moyamoya angiopathy-short stature-facial dysmorphism-hypergonadotropic hypogonadism syndrome",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:284264": [
+  "IgG4-related disease",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:2905": [
+  "POEMS syndrome",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:29207": [
+  "Reactive arthritis",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:2932": [
+  "Chronic inflammatory demyelinating polyneuropathy",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:3002": [
+  "Immune thrombocytopenia",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:3099": [
+  "Rheumatic fever",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:3165": [
+  "Eosinophilic fasciitis",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:3198": [
+  "Stiff person spectrum disorder",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:324964": [
+  "Chronic nonbacterial osteomyelitis/Chronic recurrent multifocal osteomyelitis",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:3261": [
+  "Autoimmune lymphoproliferative syndrome",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:3287": [
+  "Takayasu arteritis",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:34145": [
+  "Immunoglobulin A nephropathy",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:3437": [
+  "Vogt-Koyanagi-Harada disease",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:3453": [
+  "Autoimmune polyendocrinopathy type 1",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:353220": [
+  "Familial primary localized cutaneous amyloidosis",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:36388": [
+  "Paraneoplastic neurologic syndrome",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:36397": [
+  "Adiposis dolorosa",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:36913": [
+  "Autoimmune hypoparathyroidism",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:37042": [
+  "Immune dysregulation-polyendocrinopathy-enteropathy-X-linked syndrome",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:37202": [
+  "Interstitial cystitis",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:375": [
+  "Anti-glomerular basement membrane disease",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:37748": [
+  "Schnitzler syndrome",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:397": [
+  "Giant cell arteritis",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:398124": [
+  "Neonatal lupus erythematosus",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:401945": [
+  "Moyamoya disease with early-onset achalasia",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:411593": [
+  "Insulin autoimmune syndrome",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:41842": [
+  "NON RARE IN EUROPE: Fibromyalgia",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:43393": [
+  "Lambert-Eaton myasthenic syndrome",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:443236": [
+  "Postural orthostatic tachycardia syndrome due to NET deficiency",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:444092": [
+  "Autoimmune interstitial lung disease-arthritis syndrome",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:445018": [
+  "Syndromic autoimmune enteropathy due to LRBA deficiency",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:447": [
+  "Paroxysmal nocturnal hemoglobinuria",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:46486": [
+  "Mucous membrane pemphigoid",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:46487": [
+  "Epidermolysis bullosa acquisita",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:46488": [
+  "Linear IgA dermatosis",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:466682": [
+  "Euthyroid Graves orbitopathy",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:47612": [
+  "Felty syndrome",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:48104": [
+  "Pyoderma gangrenosum",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:519408": [
+  "Mooren ulcer",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:536": [
+  "Systemic lupus erythematosus",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:555": [
+  "NON RARE IN EUROPE: Celiac disease",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:56425": [
+  "Cold agglutinin disease",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:58220": [
+  "OBSOLETE: Microscopic colitis",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:589": [
+  "Myasthenia gravis",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:596448": [
+  "IgG4-related systemic disease",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:611": [
+  "Inclusion body myositis",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:619284": [
+  "Narcolepsy",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:622014": [
+  "Autoimmune encephalitis",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:63275": [
+  "Pemphigoid gestationis",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:63455": [
+  "Paraneoplastic pemphigus",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:641": [
+  "Multifocal motor neuropathy",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:64686": [
+  "Tolosa-Hunt syndrome",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:65759": [
+  "Carpenter syndrome",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:66646": [
+  "Cutaneous mastocytosis",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:703": [
+  "Bullous pemphigoid",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:71203": [
+  "Autoimmune thrombocytopenia",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:71211": [
+  "Neuromyelitis optica spectrum disorder",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:726": [
+  "Alpers-Huttenlocher syndrome",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:728": [
+  "Relapsing polychondritis",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:732": [
+  "Polymyositis",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:73247": [
+  "NON RARE IN EUROPE: Eosinophilic esophagitis",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:73274": [
+  "OBSOLETE: Acquired hemophilia",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:747": [
+  "Autoimmune pulmonary alveolar proteinosis",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:761": [
+  "Immunoglobulin A vasculitis",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:767": [
+  "Polyarteritis nodosa",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:79098": [
+  "Sympathetic ophthalmia",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:79138": [
+  "Bickerstaff brainstem encephalitis",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:797": [
+  "Sarcoidosis",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:80": [
+  "Antiphospholipid syndrome",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:809": [
+  "Mixed connective tissue disease",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:81": [
+  "Antisynthetase syndrome",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:825": [
+  "NON RARE IN EUROPE: Ankylosing spondylitis",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:829": [
+  "Adult-onset Still disease",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:83452": [
+  "Complex regional pain syndrome",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:83467": [
+  "Morvan syndrome",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:83597": [
+  "Acute disseminated encephalomyelitis",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:838": [
+  "Susac syndrome",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:84142": [
+  "Isaacs syndrome",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:85138": [
+  "Addison disease",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:900": [
+  "Granulomatosis with polyangiitis",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:90002": [
+  "Undifferentiated connective tissue syndrome",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:90033": [
+  "Autoimmune hemolytic anemia, warm type",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:90035": [
+  "Paroxysmal cold hemoglobinuria",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:90289": [
+  "Localized scleroderma",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:90291": [
+  "Systemic sclerosis",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:91546": [
+  "Lyme disease",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:92": [
+  "Juvenile idiopathic arthritis",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:95506": [
+  "Primary hypophysitis",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:97560": [
+  "Primary membranous glomerulonephritis",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:98300": [
+  "Idiopathic interstitial pneumonia",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:98375": [
+  "Autoimmune hemolytic anemia",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:98715": [
+  "Uveitis",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:99079": [
+  "Cervical aortic arch",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:99995": [
+  "OBSOLETE: Complex regional pain syndrome type 1",
+  "EBI OLS4 (ordo)"
+ ],
+ "SNOMEDCT:104461000119104": [
+  "Ophthalmoplegia due to Graves' disease",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:10743271000119103": [
+  "Immunoglobulin G4 related disease",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:111196000": [
+  "Dermatitis herpetiformis",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:111409009": [
+  "Ulcerative cystitis",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:1119304009": [
+  "Chronic post-COVID-19 syndrome",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:11244009": [
+  "Polyglandular autoimmune syndrome, type 1",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:1144805008": [
+  "Microscopic polyangiitis",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:11791001": [
+  "Necrotizing vasculitis",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:1187510006": [
+  "Immunoglobulin G4 related ophthalmic disease",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:1197477000": [
+  "Combined immunodeficiency due to LRBA deficiency",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:1204420006": [
+  "Chronic nonbacterial osteomyelitis/chronic recurrent multifocal osteomyelitis",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:1217068008": [
+  "Fulminant type 1 diabetes mellitus",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:1231232007": [
+  "Multiple sclerosis associated intermediate uveitis",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:1237194006": [
+  "Myelin oligodendrocyte glycoprotein antibody-associated disease",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:1258984009": [
+  "Post-cardiac injury syndrome",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:1269516003": [
+  "Lyme neuroborreliosis",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:127055007": [
+  "Chronic cold agglutinin disease",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:127057004": [
+  "Paroxysmal cold hemoglobinuria",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:128091003": [
+  "Primary ITP (immune thrombocytopenia)",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:128092005": [
+  "Secondary autoimmune thrombocytopenia",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:128200000": [
+  "Complex regional pain syndrome",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:128209004": [
+  "Chronic inflammatory demyelinating polyradiculoneuropathy",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:128461001": [
+  "Systemic sclerosis sine scleroderma",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:128473001": [
+  "Uveitis",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:129103003": [
+  "Endometriosis (clinical)",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:129133005": [
+  "Post-bacterial arthropathy",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:1300193002": [
+  "Autoimmune limbic encephalitis",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:13172003": [
+  "Chronic idiopathic thrombocytopenic purpura",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:1336117005": [
+  "Hemophilia B Leyden",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:13445001": [
+  "M\u00e9ni\u00e8re's disease",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:155441006": [
+  "Polyarteritis nodosa",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:156370009": [
+  "Psoriatic arthritis",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:16098491000119109": [
+  "Chronic autoimmune hepatitis",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:16631009": [
+  "Transverse myelopathy syndrome",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:17157001": [
+  "Diffuse interstitial keratitis",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:1761006": [
+  "Biliary cirrhosis",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:1767005": [
+  "Fisher's syndrome",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:191306005": [
+  "Immunoglobulin A vasculitis",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:192877007": [
+  "Paraneoplastic cerebellar degeneration",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:193042000": [
+  "Cataplexy and narcolepsy",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:193497004": [
+  "Vogt-Koyanagi-Harada disease",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:195021004": [
+  "Primary dilated cardiomyopathy",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:195295006": [
+  "Raynaud's disease",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:195353004": [
+  "Granulomatosis with polyangiitis",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:1963002": [
+  "Paroxysmal nocturnal hemoglobinuria",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:197441003": [
+  "Primary sclerosing cholangitis",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:19754005": [
+  "Alopecia totalis",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:198033005": [
+  "Balanitis xerotica obliterans",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:200938002": [
+  "Discoid lupus erythematosus",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:200941006": [
+  "Lupus erythematosus tumidus",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:201048007": [
+  "Localized scleroderma",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:201049004": [
+  "Morphea",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:201736002": [
+  "Reactive arthritis",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:202457009": [
+  "Palindromic rheumatism of shoulder region",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:203082005": [
+  "Fibromyalgia",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:20415001": [
+  "Progressive sclerosing poliodystrophy",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:207036003": [
+  "Castleman disease",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:21983002": [
+  "Hashimoto thyroiditis",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:22440001": [
+  "Mooren's ulcer",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:230191005": [
+  "Rasmussen syndrome",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:230192003": [
+  "Limbic encephalitis",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:230350000": [
+  "Opsoclonus-myoclonus syndrome",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:230380005": [
+  "Balo concentric sclerosis",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:230564004": [
+  "Chronic inflammatory demyelinating polyradiculoneuropathy with central nervous system demyelination",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:230591002": [
+  "Motor neuropathy with multiple conduction block",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:231947004": [
+  "Idiopathic anterior uveitis",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:231981005": [
+  "Birdshot chorioretinitis",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:232308006": [
+  "Autoimmune disorder of inner ear",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:233703007": [
+  "Interstitial lung disease",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:234425008": [
+  "Autoimmune neutropenia",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:234549008": [
+  "Immunoglobulin G4 deficiency",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:23502006": [
+  "Lyme disease",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:235599003": [
+  "Eosinophilic esophagitis",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:235753003": [
+  "Microscopic colitis",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:236407003": [
+  "IgA nephropathy",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:236432001": [
+  "Pulmonary renal syndrome",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:236506009": [
+  "Goodpasture's disease",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:236816007": [
+  "Infertility associated with antisperm antibodies",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:237499004": [
+  "Thyrotoxicosis due to Graves' disease",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:237618001": [
+  "Insulin-dependent diabetes mellitus secretory diarrhea syndrome",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:237652003": [
+  "Insulin resistance - type B",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:237706000": [
+  "Autoimmune hypophysitis",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:238927000": [
+  "Chronic discoid lupus erythematosus",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:239889005": [
+  "Bullous systemic lupus erythematosus",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:239891002": [
+  "Subacute cutaneous lupus erythematosus",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:239918008": [
+  "Undifferentiated connective tissue disease",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:239920006": [
+  "Adult onset Still's disease",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:239937004": [
+  "Idiopathic aortitis",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:239944008": [
+  "Lupus vasculitis",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:239947001": [
+  "Essential mixed cryoglobulinemia",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:24129002": [
+  "Fasciitis with eosinophilia syndrome",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:24526004": [
+  "Inflammatory bowel disease",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:24700007": [
+  "Multiple sclerosis",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:25044007": [
+  "Neuromyelitis optica",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:250978003": [
+  "Aortic valve calcification",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:26609002": [
+  "Neuralgic amyotrophy",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:267374005": [
+  "Toxic diffuse goiter",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:267718000": [
+  "Age related macular degeneration",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:26843008": [
+  "Antiphospholipid syndrome",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:26889001": [
+  "Myositis",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:2772003": [
+  "Acquired epidermolysis bullosa",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:2897005": [
+  "Immune thrombocytopenia",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:298285004": [
+  "Systemic sclerosis with limited cutaneous involvement",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:299276009": [
+  "Limited systemic sclerosis",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:302896008": [
+  "Keratoconjunctivitis sicca",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:305719002": [
+  "Neuromyotonia",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:306058006": [
+  "Aplastic anemia",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:310701003": [
+  "Behcet's syndrome",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:31367003": [
+  "Postvaccinal encephalomyelitis",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:31384009": [
+  "Polymyositis",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:314429009": [
+  "Intermediate uveitis",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:314757003": [
+  "Ocular cicatricial pemphigoid",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:31541009": [
+  "Sarcoidosis",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:31712002": [
+  "Primary biliary cholangitis",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:31848007": [
+  "CREST syndrome",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:32273002": [
+  "Idiopathic thrombocytopenic purpura",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:32861005": [
+  "Erythema nodosum",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:32914008": [
+  "Restless legs",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:34000006": [
+  "Crohn's disease",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:34250006": [
+  "Benign mucous membrane pemphigoid",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:353295004": [
+  "Graves' disease",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:356198000": [
+  "Secondary Raynaud's phenomenon",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:359643005": [
+  "Enthesitis",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:359789008": [
+  "Takayasu's disease",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:363732003": [
+  "Addison's disease",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:371073003": [
+  "Postural orthostatic tachycardia syndrome",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:373662000": [
+  "Primary adrenocortical insufficiency",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:386584007": [
+  "Adrenal cortical hypofunction",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:38731000087104": [
+  "Chronic primary bladder pain syndrome",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:38877003": [
+  "Rheumatoid aortitis",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:396230008": [
+  "Dermatomyositis",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:396331005": [
+  "Celiac disease",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:397012002": [
+  "Cutaneous mastocytosis",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:397016004": [
+  "Systemic mast cell disease",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:3978000": [
+  "Warm autoimmune hemolytic anemia",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:398049005": [
+  "Mixed collagen vascular disease",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:398937006": [
+  "Cold autoimmune hemolytic anemia",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:400054000": [
+  "Rheumatoid vasculitis",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:400130008": [
+  "Temporal arteritis",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:402397006": [
+  "Autoimmune urticaria",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:402401003": [
+  "Autoimmune angioedema",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:402402005": [
+  "Autoimmune urticaria and/or angioedema",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:402415001": [
+  "Schnitzler syndrome",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:402475008": [
+  "Primary acquired chylomicronemia",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:403435005": [
+  "Ligneous conjunctivitis",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:403495008": [
+  "Discoid lupus erythematosus of oral mucosa",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:403767009": [
+  "Acrocephalopolysyndactyly type II",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:405810005": [
+  "Cogan's syndrome",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:408335007": [
+  "Autoimmune hepatitis",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:408539000": [
+  "Insulin autoimmune syndrome",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:408751001": [
+  "Complex regional pain syndrome, type II",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:40956001": [
+  "Guillain-Barr\u00e9 syndrome",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:410502007": [
+  "Juvenile idiopathic arthritis",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:413603009": [
+  "Autoimmune hemolytic anemia",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:414238007": [
+  "Female infertility due to antisperm antibody",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:422338006": [
+  "Degenerative disorder of macula",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:427086003": [
+  "Bickerstaff's brainstem encephalitis",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:427213005": [
+  "Autoimmune vasculitis",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:438476003": [
+  "Autoimmune thrombotic thrombocytopenic purpura",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:441971007": [
+  "Chronic left-sided ulcerative colitis",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:445187004": [
+  "Antisynthetase syndrome",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:446682003": [
+  "Pediatric autoimmune neuropsychiatric disorder associated with streptococcal infection",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:448542008": [
+  "Autoimmune pancreatitis",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:449730005": [
+  "Autoimmune polyendocrine syndrome type 4",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:449731009": [
+  "Autoimmune polyendocrine syndrome type 3",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:452281000124106": [
+  "Autoimmune encephalitis caused by N-methyl D-aspartate receptor antibody",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:45688009": [
+  "Pars planitis",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:46152009": [
+  "Tear film insufficiency",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:46263000": [
+  "Cataplexy",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:46635009": [
+  "Type 1 diabetes mellitus",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:46826000": [
+  "Rheumatic chorea",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:4776004": [
+  "Lichen planus",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:48982009": [
+  "Bannwarth syndrome",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:50442003": [
+  "Palindromic rheumatism",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:50581000": [
+  "Goodpasture's syndrome",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:50715003": [
+  "Pure red cell aplasia",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:51771007": [
+  "Postviral fatigue syndrome",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:5217008": [
+  "Stiff-person syndrome",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:52702003": [
+  "Chronic fatigue syndrome",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:53043001": [
+  "Primary idiopathic dilated cardiomyopathy",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:55464009": [
+  "Systemic lupus erythematosus",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:56727007": [
+  "Vitiligo",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:56989000": [
+  "Eaton-Lambert syndrome",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:57160007": [
+  "Felty's syndrome",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:58718002": [
+  "Rheumatic fever",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:59393003": [
+  "Hidradenitis suppurativa",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:60380001": [
+  "Narcolepsy",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:60555002": [
+  "Hypersensitivity angiitis",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:62382002": [
+  "CRST syndrome",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:62853008": [
+  "Anti-glomerular basement membrane tubulointerstitial nephritis",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:64667001": [
+  "Interstitial pneumonia",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:64766004": [
+  "Ulcerative colitis",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:65172003": [
+  "Pemphigus",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:65323003": [
+  "Polymyalgia rheumatica",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:66944004": [
+  "Autoimmune thyroiditis",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:68225006": [
+  "Alopecia areata",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:68409003": [
+  "Organized pneumonia",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:68779003": [
+  "Primary IgA nephropathy",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:68815009": [
+  "SLE glomerulonephritis syndrome",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:69116000": [
+  "Moyamoya disease",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:69896004": [
+  "Rheumatoid arthritis",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:700249006": [
+  "Idiopathic interstitial pneumonitis",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:700250006": [
+  "Idiopathic pulmonary fibrosis",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:702444009": [
+  "Autoimmune lymphoproliferative syndrome",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:702575003": [
+  "Retinocochleocerebral vasculopathy",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:703827008": [
+  "Cutaneous mastocytosis",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:707443007": [
+  "Autoimmune pulmonary alveolar proteinosis",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:709489006": [
+  "Small fiber neuropathy",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:7119001": [
+  "Cutaneous lupus erythematosus",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:71404003": [
+  "Lipomatosis dolorosa",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:715507005": [
+  "Infection of central nervous system caused by Borrelia burgdorferi",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:715770009": [
+  "Acute motor axonal neuropathy",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:715863001": [
+  "Autoimmune necrotizing myopathy",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:716723000": [
+  "Acute inflammatory demyelinating polyradiculoneuropathy",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:718224004": [
+  "Progressive hemifacial atrophy",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:719218000": [
+  "Cryptogenic organizing pneumonia",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:721198006": [
+  "Premature ovarian failure due to autoimmune oophoritis",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:721226005": [
+  "Hughes Stovin syndrome",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:722119002": [
+  "Idiopathic membranous glomerulonephritis",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:722191003": [
+  "Antineutrophil cytoplasmic antibody positive vasculitis",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:72275000": [
+  "Relapsing polychondritis",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:722870008": [
+  "IgG4-related sclerosing cholangitis",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:72315009": [
+  "Inclusion body myositis",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:724809006": [
+  "Autoimmune retinopathy",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:72893007": [
+  "Brachial neuritis",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:734947007": [
+  "Complex regional pain syndrome type I",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:735676003": [
+  "Narcolepsy type 1",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:73774007": [
+  "Subacute bacterial endocarditis",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:74578003": [
+  "Pyoderma gangrenosum",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:75053002": [
+  "Acute febrile mucocutaneous lymph node syndrome",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:75111000": [
+  "Painful ophthalmoplegia",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:75315001": [
+  "Sympathetic uveitis",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:75316000": [
+  "Autoimmune hypoparathyroidism",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:75331009": [
+  "Evans syndrome",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:76092003": [
+  "Benign mucous membrane pemphigoid with ocular involvement",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:7620006": [
+  "Crohn's disease of large bowel",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:763794005": [
+  "Limbic encephalitis with leucine-rich glioma-inactivated 1 antibodies",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:763803004": [
+  "Morvan syndrome",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:77090002": [
+  "Bullous pemphigoid",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:771271000": [
+  "Steroid-responsive encephalopathy associated with autoimmune thyroiditis",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:77182004": [
+  "Membranous glomerulonephritis",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:773395008": [
+  "Limbic encephalitis with dipeptidyl-peptidase 6 antibodies",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:78370002": [
+  "Scleritis",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:784393004": [
+  "Adult-onset immunodeficiency with anti-interferon-gamma autoantibodies",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:785308008": [
+  "Acquired hemophilia",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:788613004": [
+  "Anti-glomerular basement membrane disease",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:78946008": [
+  "Keratoconjunctivitis sicca, in Sj\u00f6gren's syndrome",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:79268002": [
+  "POEMS syndrome",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:815008": [
+  "Episcleritis",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:838312001": [
+  "Calcinosis due to childhood type dermatomyositis",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:838324008": [
+  "Autoimmune optic neuropathy",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:838330008": [
+  "Autoimmune ganglionopathy",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:838551007": [
+  "Autoimmune progesterone dermatitis",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:83942000": [
+  "Acute disseminated encephalomyelitis",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:84568007": [
+  "Atrophic gastritis",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:84757009": [
+  "Epilepsy",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:85828009": [
+  "Autoimmune disease",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:86081009": [
+  "Herpes gestationis",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:86166000": [
+  "Alopecia universalis",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:86487001": [
+  "Acute lichenoid pityriasis",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:871640001": [
+  "Myocarditis due to autoimmune disease",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:89142007": [
+  "Progressive intracranial arterial occlusion",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:89155008": [
+  "Systemic sclerosis",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:895454001": [
+  "Lichen sclerosus",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:9014002": [
+  "Psoriasis",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:90739004": [
+  "Thyrotoxicosis",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:91637004": [
+  "Myasthenia gravis",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:91867008": [
+  "Adult form of celiac disease",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:95330001": [
+  "Linear IgA dermatosis",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:95609003": [
+  "Neonatal lupus erythematosus",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:95643007": [
+  "Autoimmune encephalitis",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:95794005": [
+  "Tolosa-Hunt syndrome",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:9631008": [
+  "Ankylosing spondylitis",
+  "snomed/CONCEPT.csv"
+ ],
+ "icd10cm:A69.2": [
+  "Lyme disease",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:D47.01": [
+  "Cutaneous mastocytosis",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:D47.02": [
+  "Systemic mastocytosis",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:D47.Z2": [
+  "Castleman disease",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:D59.11": [
+  "Warm autoimmune hemolytic anemia",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:D59.12": [
+  "Cold autoimmune hemolytic anemia",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:D59.5": [
+  "Paroxysmal nocturnal hemoglobinuria [Marchiafava-Micheli]",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:D59.6": [
+  "Hemoglobinuria due to hemolysis from other external causes",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:D61.9": [
+  "Aplastic anemia, unspecified",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:D68.61": [
+  "Antiphospholipid syndrome",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:D69.0": [
+  "Allergic purpura",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:D69.3": [
+  "Immune thrombocytopenic purpura",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:D69.41": [
+  "Evans syndrome",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:D86": [
+  "Sarcoidosis",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:D86.89": [
+  "Sarcoidosis of other sites",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:D89.82": [
+  "Autoimmune lymphoproliferative syndrome [ALPS]",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:E05.0": [
+  "Thyrotoxicosis with diffuse goiter",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:E06.3": [
+  "Autoimmune thyroiditis",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:E10": [
+  "Type 1 diabetes mellitus",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:E27.1": [
+  "Primary adrenocortical insufficiency",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:E31.0": [
+  "Autoimmune polyglandular failure",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:E88.2": [
+  "Lipomatosis, not elsewhere classified",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:G04.02": [
+  "Postimmunization acute disseminated encephalitis, myelitis and encephalomyelitis",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:G25.81": [
+  "Restless legs syndrome",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:G25.82": [
+  "Stiff-man syndrome",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:G31.81": [
+  "Alpers disease",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:G35": [
+  "Multiple sclerosis",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:G36.0": [
+  "Neuromyelitis optica [Devic]",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:G37.0": [
+  "Diffuse sclerosis of central nervous system",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:G40": [
+  "Epilepsy and recurrent seizures",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:G40.909": [
+  "Epilepsy, unspecified, not intractable, without status epilepticus",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:G47.4": [
+  "Narcolepsy and cataplexy",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:G47.41": [
+  "Narcolepsy",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:G47.411": [
+  "Narcolepsy with cataplexy",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:G54.5": [
+  "Neuralgic amyotrophy",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:G61.0": [
+  "Guillain-Barre syndrome",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:G61.81": [
+  "Chronic inflammatory demyelinating polyneuritis",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:G61.82": [
+  "Multifocal motor neuropathy",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:G70.0": [
+  "Myasthenia gravis",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:G70.00": [
+  "Myasthenia gravis without (acute) exacerbation",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:G70.80": [
+  "Lambert-Eaton syndrome, unspecified",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:G72.41": [
+  "Inclusion body myositis [IBM]",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:G90.5": [
+  "Complex regional pain syndrome I (CRPS I)",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:G93.32": [
+  "Myalgic encephalomyelitis/chronic fatigue syndrome",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:H04.12": [
+  "Dry eye syndrome",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:H15.0": [
+  "Scleritis",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:H16.05": [
+  "Mooren's corneal ulcer",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:H16.32": [
+  "Diffuse interstitial keratitis",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:H20.82": [
+  "Vogt-Koyanagi syndrome",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:H30.81": [
+  "Harada's disease",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:H35.30": [
+  "Unspecified macular degeneration",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:H44.13": [
+  "Sympathetic uveitis",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:H81.0": [
+  "Meniere's disease",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:I00": [
+  "Rheumatic fever without heart involvement",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:I24.1": [
+  "Dressler's syndrome",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:I42.0": [
+  "Dilated cardiomyopathy",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:I67.5": [
+  "Moyamoya disease",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:I73.0": [
+  "Raynaud's syndrome",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:I95.1": [
+  "Orthostatic hypotension",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:J84.11": [
+  "Idiopathic interstitial pneumonia",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:J84.112": [
+  "Idiopathic pulmonary fibrosis",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:J84.114": [
+  "Acute interstitial pneumonitis",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:J84.116": [
+  "Cryptogenic organizing pneumonia",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:J84.9": [
+  "Interstitial pulmonary disease, unspecified",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:K20.0": [
+  "Eosinophilic esophagitis",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:K29.4": [
+  "Chronic atrophic gastritis",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:K50": [
+  "Crohn's disease [regional enteritis]",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:K50.1": [
+  "Crohn's disease of large intestine",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:K51": [
+  "Ulcerative colitis",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:K52.83": [
+  "Microscopic colitis",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:K74.3": [
+  "Primary biliary cirrhosis",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:K74.5": [
+  "Biliary cirrhosis, unspecified",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:K75.4": [
+  "Autoimmune hepatitis",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:K83.01": [
+  "Primary sclerosing cholangitis",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:K90.0": [
+  "Celiac disease",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:L10": [
+  "Pemphigus",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:L10.81": [
+  "Paraneoplastic pemphigus",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:L12.0": [
+  "Bullous pemphigoid",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:L12.1": [
+  "Cicatricial pemphigoid",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:L12.3": [
+  "Acquired epidermolysis bullosa",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:L13.0": [
+  "Dermatitis herpetiformis",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:L40": [
+  "Psoriasis",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:L40.5": [
+  "Arthropathic psoriasis",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:L41.0": [
+  "Pityriasis lichenoides et varioliformis acuta",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:L43": [
+  "Lichen planus",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:L52": [
+  "Erythema nodosum",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:L63": [
+  "Alopecia areata",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:L73.2": [
+  "Hidradenitis suppurativa",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:L80": [
+  "Vitiligo",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:L88": [
+  "Pyoderma gangrenosum",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:L94.0": [
+  "Localized scleroderma [morphea]",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:M02.10": [
+  "Postdysenteric arthropathy, unspecified site",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:M02.3": [
+  "Reiter's disease",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:M05.0": [
+  "Felty's syndrome",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:M06.1": [
+  "Adult-onset Still's disease",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:M06.9": [
+  "Rheumatoid arthritis, unspecified",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:M08.4": [
+  "Pauciarticular juvenile rheumatoid arthritis",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:M12.3": [
+  "Palindromic rheumatism",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:M30.0": [
+  "Polyarteritis nodosa",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:M30.3": [
+  "Mucocutaneous lymph node syndrome [Kawasaki]",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:M31.0": [
+  "Hypersensitivity angiitis",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:M31.3": [
+  "Wegener's granulomatosis",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:M31.4": [
+  "Aortic arch syndrome [Takayasu]",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:M32": [
+  "Systemic lupus erythematosus (SLE)",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:M32.9": [
+  "Systemic lupus erythematosus, unspecified",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:M33": [
+  "Dermatopolymyositis",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:M33.2": [
+  "Polymyositis",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:M34": [
+  "Systemic sclerosis [scleroderma]",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:M34.0": [
+  "Progressive systemic sclerosis",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:M34.1": [
+  "CR(E)ST syndrome",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:M35.1": [
+  "Other overlap syndromes",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:M35.2": [
+  "Behcet's disease",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:M35.3": [
+  "Polymyalgia rheumatica",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:M35.4": [
+  "Diffuse (eosinophilic) fasciitis",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:M45": [
+  "Ankylosing spondylitis",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:M60": [
+  "Myositis",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:M79.7": [
+  "Fibromyalgia",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:M86.3": [
+  "Chronic multifocal osteomyelitis",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:M89.0": [
+  "Algoneurodystrophy",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:M94.1": [
+  "Relapsing polychondritis",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:N06.20": [
+  "Isolated proteinuria with diffuse membranous glomerulonephritis, unspecified",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:N30.1": [
+  "Interstitial cystitis (chronic)",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:N80": [
+  "Endometriosis",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:O26.4": [
+  "Herpes gestationis",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:C535291": [
+  "Rasmussen subacute encephalitis",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:C535456": [
+  "Chronic recurrent multifocal osteomyelitis",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:C536362": [
+  "Angiofollicular ganglionic hyperplasia",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:C536380": [
+  "Evans Syndrome",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:C536397": [
+  "Neonatal Systemic lupus erythematosus",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:C536991": [
+  "Moyamoya disease 1",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:C537778": [
+  "Antisynthetase syndrome",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:C538103": [
+  "Palindromic rheumatism",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:C562487": [
+  "Eosinophilic Fasciitis",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:C562642": [
+  "Amyloidosis, Primary Cutaneous",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:C563187": [
+  "Acrocephalopolysyndactyly Type II",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:C563534": [
+  "Narcolepsy 1",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:C567049": [
+  "Pulmonary Alveolar Proteinosis, Acquired",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:C580192": [
+  "Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D000069281": [
+  "Autoimmune Hypophysitis",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D000071075": [
+  "Small Fiber Neuropathy",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D000077342": [
+  "Post-Lyme Disease Syndrome",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D000080203": [
+  "Hamman-Rich Syndrome",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D000080223": [
+  "Chronic Urticaria",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D000080365": [
+  "Birdshot Chorioretinopathy",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D000081012": [
+  "Autoimmune Pancreatitis",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D000094024": [
+  "Post-Acute COVID-19 Syndrome",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D000224": [
+  "Addison Disease",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D000274": [
+  "Adiposis Dolorosa",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D000506": [
+  "Alopecia Areata",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D000741": [
+  "Anemia, Aplastic",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D000744": [
+  "Anemia, Hemolytic, Autoimmune",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D001015": [
+  "Aortic Arch Syndromes",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D001171": [
+  "Arthritis, Juvenile",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D001172": [
+  "Arthritis, Rheumatoid",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D001327": [
+  "Autoimmune Diseases",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D001528": [
+  "Behcet Syndrome",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D002311": [
+  "Cardiomyopathy, Dilated",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D002446": [
+  "Celiac Disease",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D002549": [
+  "Diffuse Cerebral Sclerosis of Schilder",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D003093": [
+  "Colitis, Ulcerative",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D003424": [
+  "Crohn Disease",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D003874": [
+  "Dermatitis Herpetiformis",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D003882": [
+  "Dermatomyositis",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D003922": [
+  "Diabetes Mellitus, Type 1",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D004673": [
+  "Encephalomyelitis, Acute Disseminated",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D004698": [
+  "Endocarditis, Subacute Bacterial",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D004715": [
+  "Endometriosis",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D004827": [
+  "Epilepsy",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D004893": [
+  "Erythema Nodosum",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D005150": [
+  "Facial Hemiatrophy",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D005258": [
+  "Felty Syndrome",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D005356": [
+  "Fibromyalgia",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D005757": [
+  "Gastritis, Atrophic",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D005871": [
+  "Castleman Disease",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D005922": [
+  "Glomerulonephritis, IGA",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D006111": [
+  "Graves Disease",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D006457": [
+  "Hemoglobinuria, Paroxysmal",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D006559": [
+  "Pemphigoid Gestationis",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D007638": [
+  "Keratoconjunctivitis Sicca",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D008010": [
+  "Lichen Planus",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D008105": [
+  "Liver Cirrhosis, Biliary",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D008178": [
+  "Lupus Erythematosus, Cutaneous",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D008180": [
+  "Lupus Erythematosus, Systemic",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D008181": [
+  "Lupus Nephritis",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D008193": [
+  "Lyme Disease",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D008268": [
+  "Macular Degeneration",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D008575": [
+  "Meniere Disease",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D008947": [
+  "Mixed Connective Tissue Disease",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D009072": [
+  "Moyamoya Disease",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D009080": [
+  "Mucocutaneous Lymph Node Syndrome",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D009103": [
+  "Multiple Sclerosis",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D009157": [
+  "Myasthenia Gravis",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D009220": [
+  "Myositis",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D009290": [
+  "Narcolepsy",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D009471": [
+  "Neuromyelitis Optica",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D009879": [
+  "Ophthalmia, Sympathetic",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D010390": [
+  "Pemphigoid, Benign Mucous Membrane",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D010391": [
+  "Pemphigoid, Bullous",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D010392": [
+  "Pemphigus",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D010488": [
+  "Polyarteritis Nodosa",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D011081": [
+  "Polychondritis, Relapsing",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D011111": [
+  "Polymyalgia Rheumatica",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D011565": [
+  "Psoriasis",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D011695": [
+  "IgA Vasculitis",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D011928": [
+  "Raynaud Disease",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D012010": [
+  "Red-Cell Aplasia, Pure",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D012019": [
+  "Reflex Sympathetic Dystrophy",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D012148": [
+  "Restless Legs Syndrome",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D012213": [
+  "Rheumatic Fever",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D012507": [
+  "Sarcoidosis",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D012594": [
+  "Scleroderma, Localized",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D012595": [
+  "Scleroderma, Systemic",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D013167": [
+  "Spondylitis, Ankylosing",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D013625": [
+  "Takayasu Arteritis",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D013700": [
+  "Giant Cell Arteritis",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D013967": [
+  "Thyroiditis, Autoimmune",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D014605": [
+  "Uveitis",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D014607": [
+  "Uveomeningoencephalitic Syndrome",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D014608": [
+  "Uveoparotid Fever",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D014820": [
+  "Vitiligo",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D014890": [
+  "Granulomatosis with Polyangiitis",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D015209": [
+  "Cholangitis, Sclerosing",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D015212": [
+  "Inflammatory Bowel Diseases",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D015352": [
+  "Dry Eye Syndromes",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D015423": [
+  "Scleritis",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D015433": [
+  "Glomerulonephritis, Membranous",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D015535": [
+  "Arthritis, Psoriatic",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D015624": [
+  "Lambert-Eaton Myasthenic Syndrome",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D015673": [
+  "Fatigue Syndrome, Chronic",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D015867": [
+  "Uveitis, Intermediate",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D016107": [
+  "Epidermolysis Bullosa Acquisita",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D016553": [
+  "Purpura, Thrombocytopenic, Idiopathic",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D016706": [
+  "Still's Disease, Adult-Onset",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D016736": [
+  "Antiphospholipid Syndrome",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D016750": [
+  "Stiff-Person Syndrome",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D016878": [
+  "POEMS Syndrome",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D016918": [
+  "Arthritis, Reactive",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D017285": [
+  "Polymyositis",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D017497": [
+  "Hidradenitis Suppurativa",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D017511": [
+  "Pyoderma Gangrenosum",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D017563": [
+  "Lung Diseases, Interstitial",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D017675": [
+  "CREST Syndrome",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D018366": [
+  "Vasculitis, Leukocytoclastic, Cutaneous",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D018549": [
+  "Cryptogenic Organizing Pneumonia",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D018856": [
+  "Cystitis, Interstitial",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D018979": [
+  "Myositis, Inclusion Body",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D019693": [
+  "Hepatitis, Autoimmune",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D019867": [
+  "Anti-Glomerular Basement Membrane Disease",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D019873": [
+  "Schnitzler Syndrome",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D020275": [
+  "Guillain-Barre Syndrome",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D020277": [
+  "Polyradiculoneuropathy, Chronic Inflammatory Demyelinating",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D020333": [
+  "Tolosa-Hunt Syndrome",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D020363": [
+  "Limbic Encephalitis",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D020852": [
+  "Lyme Neuroborreliosis",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D020918": [
+  "Complex Regional Pain Syndromes",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D020968": [
+  "Brachial Plexus Neuritis",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D034701": [
+  "Mastocytosis, Cutaneous",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D045745": [
+  "Scleroderma, Limited",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D046728": [
+  "Colitis, Microscopic",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D049970": [
+  "Graves Ophthalmopathy",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D050031": [
+  "Hashimoto Disease",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D052798": [
+  "Balanitis Xerotica Obliterans",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D053578": [
+  "Opsoclonus-Myoclonus Syndrome",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D054972": [
+  "Postural Orthostatic Tachycardia Syndrome",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D054988": [
+  "Idiopathic Interstitial Pneumonias",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D054990": [
+  "Idiopathic Pulmonary Fibrosis",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D055952": [
+  "Cogan Syndrome",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D055955": [
+  "Susac Syndrome",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D056653": [
+  "Rheumatoid Vasculitis",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D056735": [
+  "Autoimmune Lymphoproliferative Syndrome",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D057765": [
+  "Eosinophilic Esophagitis",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D062027": [
+  "Linear IgA Bullous Dermatosis",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "ncit:C112116": [
+  "Eosinophilic Fasciitis",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C113814": [
+  "Autoimmune Primary Adrenal Insufficiency",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C114357": [
+  "Juvenile Idiopathic Arthritis",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C114470": [
+  "Enthesitis",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C116345": [
+  "Guillain-Barre Syndrome",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C116359": [
+  "Secondary Raynaud Phenomenon",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C116363": [
+  "Susac Syndrome",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C116776": [
+  "Undifferentiated Connective Tissue Disease",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C116916": [
+  "Progressive Hemifacial Atrophy",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C117104": [
+  "Bullous Systemic Lupus Erythematosus",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C119039": [
+  "Post-Treatment Lyme Disease Syndrome",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C119042": [
+  "Chronic Recurrent Multifocal Osteomyelitis",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C119046": [
+  "Scleritis",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C122414": [
+  "Autoimmune Encephalitis",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C123060": [
+  "Membranous Nephropathy - Idiopathic",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C123111": [
+  "Pauci-Immune Glomerulonephritis associated with Granulomatosis with Polyangiitis",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C123330": [
+  "Macular Degeneration",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C125384": [
+  "Rasmussen Subacute Encephalitis",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C125389": [
+  "Small Fiber Neuropathy",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C128332": [
+  "Reactive Arthritis",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C128429": [
+  "Hidradenitis Suppurativa",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C129727": [
+  "Autoimmune Polyglandular Syndrome Type 1",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C131009": [
+  "Immune Dysregulation, Polyendocrinopathy, and Enteropathy X-Linked Syndrome",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C132055": [
+  "Autoimmune Hypophysitis",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C157268": [
+  "Relapsing Polychondritis",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C162611": [
+  "Warm Antibody Autoimmune Hemolytic Anemia",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C164315": [
+  "Interstitial Lung Disease",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C17680": [
+  "Cyclin-Dependent Kinase 4",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C176809": [
+  "Immunodeficiency, Common Variable, 8, with Autoimmunity",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C179263": [
+  "Post-Acute Sequelae of COVID-19",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C185243": [
+  "Meniere Disease",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C196015": [
+  "Narcolepsy with Cataplexy",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C197832": [
+  "Adult-Onset Still's Disease",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C199391": [
+  "Primary Cutaneous Amyloidosis",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C206547": [
+  "Complex Regional Pain Syndrome",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C208228": [
+  "Cold Agglutinin Disease",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C26689": [
+  "Addison's Disease",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C26714": [
+  "Celiac Disease",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C26742": [
+  "Dermatitis Herpetiformis",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C26744": [
+  "Dermatomyositis",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C26819": [
+  "Cutaneous Lupus Erythematosus",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C26847": [
+  "Polyarteritis Nodosa",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C26909": [
+  "Uveitis",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C26915": [
+  "Vitiligo",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C26925": [
+  "Polymyositis",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C26979": [
+  "Juvenile Chronic Polyarthritis",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C27029": [
+  "Autoimmune Hepatitis",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C27105": [
+  "Eosinophilic Esophagitis",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C27167": [
+  "Primary Biliary Cirrhosis",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C27189": [
+  "Interstitial Cystitis",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C27191": [
+  "Hashimoto Thyroiditis",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C27578": [
+  "Myositis",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C27778": [
+  "Autoimmune Hepatitis with Centrilobular Necrosis",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C2870": [
+  "Aplastic Anemia",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C2884": [
+  "Rheumatoid Arthritis",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C2889": [
+  "Autoimmune Disease",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C2952": [
+  "Ulcerative Colitis",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C2965": [
+  "Crohn Disease",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C2986": [
+  "Type 1 Diabetes Mellitus",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C3014": [
+  "Endometriosis",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C3020": [
+  "Seizure Disorder",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C3037": [
+  "Chronic Fatigue Syndrome",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C3056": [
+  "Castleman Disease",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C3071": [
+  "Graves Disease",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C3138": [
+  "Inflammatory Bowel Disease",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C3155": [
+  "Lambert Eaton Myasthenic Syndrome",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C3189": [
+  "Lichen Planus",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C3201": [
+  "Systemic Lupus Erythematosus",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C3243": [
+  "Multiple Sclerosis",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C3346": [
+  "Psoriasis",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C34378": [
+  "Autoimmune Hemolytic Anemia",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C34391": [
+  "Aortic Arch Syndrome",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C34416": [
+  "Behcet Syndrome",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C3444": [
+  "Granulomatosis with Polyangiitis",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C3446": [
+  "Primary Immune Thrombocytopenia",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C34553": [
+  "Dry Eye Syndrome",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C34578": [
+  "Acute Disseminated Encephalomyelitis",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C34583": [
+  "Subacute Bacterial Endocarditis",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C34643": [
+  "IgA Nephropathy",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C34645": [
+  "Membranous Glomerulonephritis",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C34789": [
+  "Lupus Glomerulonephritis",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C34825": [
+  "Kawasaki Disease",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C34907": [
+  "Benign Mucous Membrane Pemphigoid",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C34909": [
+  "Pemphigus",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C34963": [
+  "Henoch-Sch\u00f6nlein Purpura",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C34974": [
+  "Pure Red Cell Aplasia",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C34975": [
+  "Reiter Syndrome",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C34984": [
+  "Rheumatic Fever",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C34995": [
+  "Sarcoidosis",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C35062": [
+  "Takayasu Arteritis",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C35065": [
+  "Temporal Arteritis",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C35110": [
+  "Intermediate Uveitis",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C35119": [
+  "Allergic Cutaneous Angiitis",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C3523": [
+  "Balanitis Xerotica Obliterans",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C35257": [
+  "Alper Syndrome",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C35714": [
+  "Idiopathic Interstitial Pneumonia",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C35716": [
+  "Idiopathic Pulmonary Fibrosis",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C35806": [
+  "Acute Interstitial Pneumonia",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C37262": [
+  "Granulomatous Colitis",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C37864": [
+  "Autoimmune Lymphoproliferative Syndrome",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C37871": [
+  "Pityriasis Lichenoides et Varioliformis Acuta",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C38504": [
+  "Microscopic Colitis",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C38766": [
+  "Lymphocytic Thyroiditis",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C3991": [
+  "Thrombocytopenia Due to Immune Destruction",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C45161": [
+  "Borrelia Burgdorferi Infection",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C4686": [
+  "Opsoclonus Myoclonus Syndrome",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C4828": [
+  "Primary Sclerosing Cholangitis",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C50575": [
+  "Alopecia",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C51225": [
+  "Biliary Cirrhosis",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C60989": [
+  "Myasthenia Gravis",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C61233": [
+  "Paroxysmal Nocturnal Hemoglobinuria",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C61277": [
+  "Psoriatic Arthritis",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C61279": [
+  "Oligoarticular Still Disease",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C61283": [
+  "Antiphospholipid Syndrome",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C61284": [
+  "Evans Syndrome",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C62586": [
+  "Cryptogenic Organizing Pneumonia",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C70646": [
+  "CREST Syndrome",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C7137": [
+  "Cutaneous Mastocytosis",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C72069": [
+  "Localized Scleroderma",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C72070": [
+  "Systemic Scleroderma",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C7405": [
+  "Chronic Atrophic Gastritis",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C80303": [
+  "POEMS Syndrome",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C82863": [
+  "Leukocytoclastic Vasculitis",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C84389": [
+  "Bullous Pemphigoid",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C84391": [
+  "Age-Related Macular Degeneration",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C84489": [
+  "Narcolepsy",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C84501": [
+  "Restless Leg Syndrome",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C84540": [
+  "Adiposis Dolorosa",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C84564": [
+  "Ankylosing Spondylitis",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C84566": [
+  "Anti-Glomerular Basement Membrane Disease",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C84600": [
+  "Brachial Plexus Neuritis",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C84618": [
+  "Cataplexy",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C84636": [
+  "Chronic Inflammatory Demyelinating Polyneuropathy",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C84670": [
+  "Diffuse Cerebral Sclerosis of Schilder",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C84673": [
+  "Dilated Cardiomyopathy",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C84690": [
+  "Epidermolysis Bullosa Acquisita",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C84712": [
+  "Felty Syndrome",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C84786": [
+  "Inclusion Body Myositis",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C84892": [
+  "Mixed Connective Tissue Disease",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C84895": [
+  "Moyamoya Disease",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C84934": [
+  "Neuromyelitis Optica",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C85003": [
+  "Pemphigoid Gestationis",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C85018": [
+  "Polymyalgia Rheumatica",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C85020": [
+  "Postural Orthostatic Tachycardia Syndrome",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C85042": [
+  "Complex Regional Pain Syndrome I",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C85170": [
+  "Stiff Person Syndrome",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C85193": [
+  "Tolosa-Hunt Syndrome",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C85218": [
+  "Uveomeningoencephalitic Syndrome",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C87497": [
+  "Fibromyalgia",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C9235": [
+  "Systemic Mastocytosis",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C95752": [
+  "Autoimmune Gastritis",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C95992": [
+  "IgG4-Related Disease",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C98873": [
+  "Type II Acrocephalopolysyndactyly",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C99236": [
+  "Neonatal Lupus Erythematosus",
+  "EBI OLS4 (ncit)"
+ ],
+ "omop:1076202": [
+  "Hemophilia B Leyden",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:1245375": [
+  "Autoimmune limbic encephalitis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:132703": [
+  "Lichen planus",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:1331726": [
+  "Autoimmune-Inflammatory Syndrome Induced by Adjuvants",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "omop:133283": [
+  "Pyoderma gangrenosum",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:134442": [
+  "Systemic sclerosis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:135215": [
+  "Hashimoto thyroiditis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:135338": [
+  "Pemphigus",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:137829": [
+  "Aplastic anemia",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:138387": [
+  "Thyrotoxicosis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:138502": [
+  "Vitiligo",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:138717": [
+  "Toxic diffuse goiter",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:140065": [
+  "Pure red cell aplasia",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:140168": [
+  "Psoriasis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:140176": [
+  "Erythema nodosum",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:140487": [
+  "Dermatitis herpetiformis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:141917": [
+  "Balanitis xerotica obliterans",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:141933": [
+  "Alopecia areata",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:1450471": [
+  "Chronic primary bladder pain syndrome",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:192667": [
+  "Atrophic gastritis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:192675": [
+  "Biliary cirrhosis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:194684": [
+  "Crohn's disease of large bowel",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:194992": [
+  "Celiac disease",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:195289": [
+  "Goodpasture's syndrome",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:196431": [
+  "Hypersensitivity angiitis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:200762": [
+  "Autoimmune hepatitis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:201254": [
+  "Type 1 diabetes mellitus",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:201606": [
+  "Crohn's disease",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:252365": [
+  "Membranous glomerulonephritis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:255348": [
+  "Polymyalgia rheumatica",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:257628": [
+  "Systemic lupus erythematosus",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:27918": [
+  "Eosinophilic esophagitis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:28660": [
+  "Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "omop:313223": [
+  "Granulomatosis with polyangiitis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:314381": [
+  "Acute febrile mucocutaneous lymph node syndrome",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:314962": [
+  "Raynaud's disease",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:318397": [
+  "Chronic idiopathic thrombocytopenic purpura",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:320749": [
+  "Polyarteritis nodosa",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:35607961": [
+  "Limbic encephalitis with leucine-rich glioma-inactivated 1 antibodies",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:35622356": [
+  "Morvan syndrome",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:3654620": [
+  "Calcinosis due to childhood type dermatomyositis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:3654632": [
+  "Autoimmune optic neuropathy",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:3654638": [
+  "Autoimmune ganglionopathy",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:3656114": [
+  "Myocarditis due to autoimmune disease",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:3661498": [
+  "Autoimmune progesterone dermatitis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:36674282": [
+  "Steroid-responsive encephalopathy associated with autoimmune thyroiditis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:36676495": [
+  "Limbic encephalitis with dipeptidyl-peptidase 6 antibodies",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:36687200": [
+  "Chronic autoimmune hepatitis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:36714118": [
+  "Cryptogenic organizing pneumonia",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:36715522": [
+  "Hughes Stovin syndrome",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:36716199": [
+  "Idiopathic membranous glomerulonephritis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:36716713": [
+  "IgG4-related sclerosing cholangitis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:36717255": [
+  "Immunoglobulin G4 related disease",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:36717453": [
+  "Premature ovarian failure due to autoimmune oophoritis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:37110540": [
+  "Autoimmune retinopathy",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:37162346": [
+  "Immunoglobulin G4 related ophthalmic disease",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:37162777": [
+  "Combined immunodeficiency due to LRBA deficiency",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:37163124": [
+  "Chronic nonbacterial osteomyelitis/chronic recurrent multifocal osteomyelitis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:37163452": [
+  "Fulminant type 1 diabetes mellitus",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:37164507": [
+  "Multiple sclerosis associated intermediate uveitis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:37164973": [
+  "Myelin oligodendrocyte glycoprotein antibody-associated disease",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:37166030": [
+  "Post-cardiac injury syndrome",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:37203917": [
+  "Acquired hemophilia",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:37205096": [
+  "Adult-onset immunodeficiency with anti-interferon-gamma autoantibodies",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:37312293": [
+  "Anti-glomerular basement membrane disease",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:37395903": [
+  "Infection of central nervous system caused by Borrelia burgdorferi",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:37396086": [
+  "Acute motor axonal neuropathy",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:37396156": [
+  "Autoimmune necrotizing myopathy",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:37396786": [
+  "Acute inflammatory demyelinating polyradiculoneuropathy",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:37397558": [
+  "Progressive hemifacial atrophy",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:374021": [
+  "Acute disseminated encephalomyelitis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:374028": [
+  "Age related macular degeneration",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:374919": [
+  "Multiple sclerosis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:375631": [
+  "Brachial neuritis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:376189": [
+  "Benign mucous membrane pemphigoid with ocular involvement",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:377271": [
+  "Neuralgic amyotrophy",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:378427": [
+  "Tear film insufficiency",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:378774": [
+  "Moyamoya disease",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:379008": [
+  "Stiff-person syndrome",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:380378": [
+  "Epilepsy",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:380995": [
+  "Neuromyelitis optica",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:381009": [
+  "Chronic inflammatory demyelinating polyradiculoneuropathy",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4008545": [
+  "Polyglandular autoimmune syndrome, type 1",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4009638": [
+  "Ulcerative cystitis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4024671": [
+  "Paroxysmal nocturnal hemoglobinuria",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4027230": [
+  "Systemic sclerosis sine scleroderma",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4028065": [
+  "Primary ITP (immune thrombocytopenia)",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4028363": [
+  "Uveitis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4030201": [
+  "Autoimmune hypophysitis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:40319772": [
+  "Psoriatic arthritis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4034811": [
+  "Thyrotoxicosis due to Graves' disease",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4034815": [
+  "Autoimmune hypothyroidism",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4039691": [
+  "Necrotizing vasculitis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:40399768": [
+  "Reactive arthritis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:40405599": [
+  "Fibromyalgia",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4041672": [
+  "Rasmussen syndrome",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4041673": [
+  "Limbic encephalitis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4043399": [
+  "Opsoclonus-myoclonus syndrome",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4044350": [
+  "Post-bacterial arthropathy",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4046110": [
+  "Balo concentric sclerosis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4046338": [
+  "Motor neuropathy with multiple conduction block",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4048024": [
+  "Chronic inflammatory demyelinating polyradiculoneuropathy with central nervous system demyelination",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:40481367": [
+  "Chronic left-sided ulcerative colitis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:40482477": [
+  "Antisynthetase syndrome",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:40488855": [
+  "Pediatric autoimmune neuropsychiatric disorder associated with streptococcal infection",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:40490446": [
+  "Autoimmune pancreatitis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4056343": [
+  "Alopecia totalis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4058821": [
+  "Primary sclerosing cholangitis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4066481": [
+  "Lupus erythematosus tumidus",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4066824": [
+  "Discoid lupus erythematosus",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4066845": [
+  "Morphea",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4068119": [
+  "Progressive sclerosing poliodystrophy",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4070552": [
+  "Fisher's syndrome",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4074815": [
+  "Inflammatory bowel disease",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4081248": [
+  "Chronic discoid lupus erythematosus",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4083100": [
+  "Fasciitis with eosinophilia syndrome",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4098292": [
+  "Antiphospholipid syndrome",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4100661": [
+  "Acquired epidermolysis bullosa",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4101602": [
+  "Immunoglobulin A vasculitis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4102330": [
+  "Paraneoplastic cerebellar degeneration",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4103019": [
+  "Limited systemic sclerosis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4103532": [
+  "Immune thrombocytopenia",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4108164": [
+  "Aortic valve calcification",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4108822": [
+  "Primary dilated cardiomyopathy",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4108968": [
+  "Vogt-Koyanagi-Harada disease",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4118225": [
+  "Castleman disease",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4119786": [
+  "Interstitial lung disease",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4120320": [
+  "Keratoconjunctivitis sicca",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4121282": [
+  "Immunoglobulin G4 deficiency",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4125635": [
+  "Autoimmune neutropenia",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4125693": [
+  "Neuromyotonia",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4126115": [
+  "Goodpasture's disease",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4126427": [
+  "Pulmonary renal syndrome",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4127869": [
+  "Infertility associated with antisperm antibodies",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4128061": [
+  "IgA nephropathy",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4129525": [
+  "Insulin resistance - type B",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4130018": [
+  "Hypothyroidism due to Hashimoto's thyroiditis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4131128": [
+  "Chronic cold agglutinin disease",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4131917": [
+  "Paroxysmal cold hemoglobinuria",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4133983": [
+  "Secondary autoimmune thrombocytopenia",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4134577": [
+  "Complex regional pain syndrome",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4134867": [
+  "Mixed collagen vascular disease",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4135822": [
+  "Primary biliary cholangitis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4135937": [
+  "CREST syndrome",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4137430": [
+  "Idiopathic thrombocytopenic purpura",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4141686": [
+  "Bickerstaff's brainstem encephalitis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4142060": [
+  "Benign mucous membrane pemphigoid",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4146124": [
+  "Autoimmune vasculitis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4152707": [
+  "Ocular cicatricial pemphigoid",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4159659": [
+  "Postural orthostatic tachycardia syndrome",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4160059": [
+  "Primary adrenocortical insufficiency",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4160887": [
+  "Cold autoimmune hemolytic anemia",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4164770": [
+  "Guillain-Barr\u00e9 syndrome",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4169249": [
+  "Bannwarth syndrome",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4185187": [
+  "Systemic sclerosis with limited cutaneous involvement",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4188008": [
+  "Female infertility due to antisperm antibody",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4193620": [
+  "Keratoconjunctivitis sicca, in Sj\u00f6gren's syndrome",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4193776": [
+  "POEMS syndrome",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4197155": [
+  "Intermediate uveitis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4202045": [
+  "Postviral fatigue syndrome",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4203149": [
+  "Primary idiopathic dilated cardiomyopathy",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4216406": [
+  "Inclusion body myositis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4216873": [
+  "Relapsing polychondritis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4218083": [
+  "Episcleritis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4219853": [
+  "Warm autoimmune hemolytic anemia",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4221673": [
+  "Autoimmune urticaria and/or angioedema",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4223495": [
+  "Primary acquired chylomicronemia",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4224623": [
+  "Autoimmune urticaria",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4224624": [
+  "Autoimmune angioedema",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4224741": [
+  "Degenerative disorder of macula",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4229162": [
+  "Secondary Raynaud's phenomenon",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4230266": [
+  "Autoimmune thrombotic thrombocytopenic purpura",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4230479": [
+  "Progressive intracranial arterial occlusion",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4231746": [
+  "Enthesitis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4232076": [
+  "Graves' disease",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4233620": [
+  "Cogan's syndrome",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4237155": [
+  "Eaton-Lambert syndrome",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4241223": [
+  "Hidradenitis suppurativa",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4241413": [
+  "Adult form of celiac disease",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4246283": [
+  "Cutaneous mastocytosis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4246284": [
+  "Systemic mast cell disease",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4249574": [
+  "Acute hemorrhagic leukoencephalitis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4249899": [
+  "Subacute bacterial endocarditis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4252384": [
+  "Insulin autoimmune syndrome",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:42535714": [
+  "Antineutrophil cytoplasmic antibody positive vasculitis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:42536233": [
+  "Complex regional pain syndrome type I",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:42536721": [
+  "Narcolepsy type 1",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4256912": [
+  "Complex regional pain syndrome, type II",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4259507": [
+  "Juvenile idiopathic arthritis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4263753": [
+  "Cataplexy",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4266527": [
+  "CRST syndrome",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4267717": [
+  "Anti-glomerular basement membrane tubulointerstitial nephritis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:42709858": [
+  "Autoimmune polyendocrine syndrome type 4",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:42709859": [
+  "Autoimmune polyendocrine syndrome type 3",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4271003": [
+  "Rheumatoid vasculitis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4273378": [
+  "Interstitial pneumonia",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4281109": [
+  "Autoimmune thyroiditis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4284985": [
+  "Organized pneumonia",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4285717": [
+  "SLE glomerulonephritis syndrome",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4287695": [
+  "Primary IgA nephropathy",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4290976": [
+  "Temporal arteritis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4295301": [
+  "Discoid lupus erythematosus of oral mucosa",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4296491": [
+  "Ligneous conjunctivitis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4297647": [
+  "Schnitzler syndrome",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4298692": [
+  "Bullous pemphigoid",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4301299": [
+  "Acrocephalopolysyndactyly type II",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4306357": [
+  "Rheumatoid aortitis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4311256": [
+  "Herpes gestationis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4312756": [
+  "Alopecia universalis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4314705": [
+  "Acute lichenoid pityriasis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4316373": [
+  "Neonatal lupus erythematosus",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4317262": [
+  "Linear IgA dermatosis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4317989": [
+  "Tolosa-Hunt syndrome",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4318558": [
+  "Autoimmune encephalitis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4324123": [
+  "Cutaneous lupus erythematosus",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4324974": [
+  "Lipomatosis dolorosa",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4326738": [
+  "Autoimmune hypoparathyroidism",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4327346": [
+  "Painful ophthalmoplegia",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:432738": [
+  "Chronic fatigue syndrome",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4334133": [
+  "Birdshot chorioretinitis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:433527": [
+  "Endometriosis (clinical)",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4335981": [
+  "Idiopathic anterior uveitis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4337463": [
+  "Autoimmune disorder of inner ear",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:434026": [
+  "Pars planitis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4340799": [
+  "Microscopic colitis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4343923": [
+  "Subacute cutaneous lupus erythematosus",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4344165": [
+  "Undifferentiated connective tissue disease",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4344166": [
+  "Adult onset Still's disease",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4344495": [
+  "Lupus vasculitis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:434621": [
+  "Autoimmune disease",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4346976": [
+  "Bullous systemic lupus erythematosus",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4347063": [
+  "Idiopathic aortitis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4347067": [
+  "Essential mixed cryoglobulinemia",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:434944": [
+  "Scleritis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:435271": [
+  "Mooren's ulcer",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:436100": [
+  "Narcolepsy",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:436407": [
+  "Diffuse interstitial keratitis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:436642": [
+  "Behcet's syndrome",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:436956": [
+  "Evans syndrome",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:437082": [
+  "Ankylosing spondylitis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:437854": [
+  "Cataplexy and narcolepsy",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:438688": [
+  "Sarcoidosis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:438739": [
+  "Sympathetic uveitis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:440638": [
+  "Lyme disease",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:440740": [
+  "Takayasu's disease",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:441269": [
+  "Autoimmune hemolytic anemia",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:441928": [
+  "Localized scleroderma",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:442313": [
+  "Rheumatic fever",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:443394": [
+  "Addison's disease",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:443802": [
+  "Postvaccinal encephalomyelitis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:443904": [
+  "Transverse myelopathy syndrome",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:444120": [
+  "Rheumatic chorea",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:45757069": [
+  "Ophthalmoplegia due to Graves' disease",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:45763749": [
+  "Idiopathic interstitial pneumonitis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:45763750": [
+  "Idiopathic pulmonary fibrosis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:45765493": [
+  "Autoimmune lymphoproliferative syndrome",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:45765600": [
+  "Retinocochleocerebral vasculopathy",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:45766622": [
+  "Cutaneous mastocytosis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:45768909": [
+  "Autoimmune pulmonary alveolar proteinosis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:46271378": [
+  "Small fiber neuropathy",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:600589": [
+  "Chronic post-COVID-19 syndrome",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:606328": [
+  "Microscopic polyangiitis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:619430": [
+  "Lichen sclerosus",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:73001": [
+  "Myositis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:73568": [
+  "Palindromic rheumatism of shoulder region",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:73754": [
+  "Restless legs",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:76196": [
+  "Palindromic rheumatism",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:764228": [
+  "Autoimmune encephalitis caused by N-methyl D-aspartate receptor antibody",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:76685": [
+  "Myasthenia gravis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:79833": [
+  "M\u00e9ni\u00e8re's disease",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:80182": [
+  "Dermatomyositis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:80800": [
+  "Polymyositis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:80809": [
+  "Rheumatoid arthritis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:81097": [
+  "Felty's syndrome",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:81893": [
+  "Ulcerative colitis",
+  "snomed/CONCEPT.csv"
+ ],
+ "umls:C0001403": [
+  "Addison&apos;s disease",
+  "doid.owl xref (DOID:13774)"
+ ],
+ "umls:C0001529": [
+  "adiposis dolorosa",
+  "doid.owl xref (DOID:3928)"
+ ],
+ "umls:C0002171": [
+  "alopecia areata",
+  "doid.owl xref (DOID:986)"
+ ],
+ "umls:C0002874": [
+  "aplastic anemia",
+  "doid.owl xref (DOID:12449)"
+ ],
+ "umls:C0002880": [
+  "autoimmune hemolytic anemia",
+  "doid.owl xref (DOID:718)"
+ ],
+ "umls:C0003089": [
+  "autoimmune disease",
+  "doid.owl xref (DOID:417)"
+ ],
+ "umls:C0003490": [
+  "Takayasu&apos;s arteritis",
+  "doid.owl xref (DOID:2508)"
+ ],
+ "umls:C0003872": [
+  "psoriatic arthritis",
+  "doid.owl xref (DOID:9008)"
+ ],
+ "umls:C0003873": [
+  "rheumatoid arthritis",
+  "doid.owl xref (DOID:7148)"
+ ],
+ "umls:C0004364": [
+  "autoimmune disease",
+  "mondo.obo xref (MONDO:0007179)"
+ ],
+ "umls:C0004712": [
+  "Balo concentric sclerosis",
+  "mondo.obo xref (MONDO:0016430)"
+ ],
+ "umls:C0004943": [
+  "Behcet&apos;s disease",
+  "doid.owl xref (DOID:13241)"
+ ],
+ "umls:C0007193": [
+  "dilated cardiomyopathy",
+  "doid.owl xref (DOID:12930)"
+ ],
+ "umls:C0007570": [
+  "celiac disease",
+  "doid.owl xref (DOID:10608)"
+ ],
+ "umls:C0007795": [
+  "Balo concentric sclerosis",
+  "doid.owl xref (DOID:0060215)"
+ ],
+ "umls:C0008312": [
+  "primary biliary cholangitis",
+  "doid.owl xref (DOID:12236)"
+ ],
+ "umls:C0009324": [
+  "ulcerative colitis",
+  "doid.owl xref (DOID:8577)"
+ ],
+ "umls:C0010346": [
+  "Crohn disease",
+  "mondo.obo xref (MONDO:0005011)"
+ ],
+ "umls:C0011608": [
+  "dermatitis herpetiformis",
+  "doid.owl xref (DOID:8505)"
+ ],
+ "umls:C0011633": [
+  "dermatomyositis",
+  "doid.owl xref (DOID:10223)"
+ ],
+ "umls:C0011854": [
+  "type 1 diabetes mellitus",
+  "doid.owl xref (DOID:9744)"
+ ],
+ "umls:C0013238": [
+  "dry eye syndrome",
+  "doid.owl xref (DOID:10140)"
+ ],
+ "umls:C0014059": [
+  "acute disseminated encephalomyelitis",
+  "doid.owl xref (DOID:639)"
+ ],
+ "umls:C0014122": [
+  "subacute bacterial endocarditis",
+  "doid.owl xref (DOID:4562)"
+ ],
+ "umls:C0014175": [
+  "endometriosis",
+  "doid.owl xref (DOID:289)"
+ ],
+ "umls:C0014544": [
+  "epilepsy",
+  "doid.owl xref (DOID:1826)"
+ ],
+ "umls:C0014743": [
+  "erythema nodosum",
+  "mondo.obo xref (MONDO:0850231)"
+ ],
+ "umls:C0015458": [
+  "facial hemiatrophy",
+  "doid.owl xref (DOID:1757)"
+ ],
+ "umls:C0015674": [
+  "chronic fatigue syndrome",
+  "doid.owl xref (DOID:8544)"
+ ],
+ "umls:C0015773": [
+  "Felty&apos;s syndrome",
+  "doid.owl xref (DOID:11042)"
+ ],
+ "umls:C0016053": [
+  "fibromyalgia",
+  "doid.owl xref (DOID:631)"
+ ],
+ "umls:C0017154": [
+  "atrophic gastritis",
+  "doid.owl xref (DOID:8929)"
+ ],
+ "umls:C0017531": [
+  "Castleman disease",
+  "doid.owl xref (DOID:0111157)"
+ ],
+ "umls:C0017661": [
+  "IgA glomerulonephritis",
+  "doid.owl xref (DOID:2986)"
+ ],
+ "umls:C0017665": [
+  "membranous glomerulonephritis",
+  "doid.owl xref (DOID:10976)"
+ ],
+ "umls:C0018213": [
+  "Graves&apos; disease",
+  "doid.owl xref (DOID:12361)"
+ ],
+ "umls:C0018378": [
+  "Guillain-Barre syndrome",
+  "doid.owl xref (DOID:12842)"
+ ],
+ "umls:C0019050": [
+  "paroxysmal nocturnal hemoglobinuria",
+  "doid.owl xref (DOID:0060284)"
+ ],
+ "umls:C0019343": [
+  "pemphigoid gestationis",
+  "doid.owl xref (DOID:14482)"
+ ],
+ "umls:C0021390": [
+  "inflammatory bowel disease",
+  "doid.owl xref (DOID:0050589)"
+ ],
+ "umls:C0022575": [
+  "keratoconjunctivitis sicca",
+  "doid.owl xref (DOID:12895)"
+ ],
+ "umls:C0022972": [
+  "Lambert-Eaton myasthenic syndrome",
+  "doid.owl xref (DOID:0050214)"
+ ],
+ "umls:C0023646": [
+  "lichen planus",
+  "doid.owl xref (DOID:9201)"
+ ],
+ "umls:C0023892": [
+  "primary biliary cholangitis",
+  "doid.owl xref (DOID:12236)"
+ ],
+ "umls:C0024137": [
+  "cutaneous lupus erythematosus",
+  "mondo.obo xref (MONDO:0005282)"
+ ],
+ "umls:C0024141": [
+  "systemic lupus erythematosus",
+  "doid.owl xref (DOID:9074)"
+ ],
+ "umls:C0024143": [
+  "lupus nephritis",
+  "mondo.obo xref (MONDO:0005556)"
+ ],
+ "umls:C0024198": [
+  "Lyme disease",
+  "doid.owl xref (DOID:11729)"
+ ],
+ "umls:C0024437": [
+  "macular degeneration",
+  "doid.owl xref (DOID:4448)"
+ ],
+ "umls:C0024790": [
+  "paroxysmal nocturnal hemoglobinuria",
+  "doid.owl xref (DOID:0060284)"
+ ],
+ "umls:C0025281": [
+  "Meniere&apos;s disease",
+  "doid.owl xref (DOID:9849)"
+ ],
+ "umls:C0026272": [
+  "mixed connective tissue disease",
+  "doid.owl xref (DOID:3492)"
+ ],
+ "umls:C0026654": [
+  "Moyamoya disease",
+  "doid.owl xref (DOID:13099)"
+ ],
+ "umls:C0026691": [
+  "Kawasaki disease",
+  "doid.owl xref (DOID:13378)"
+ ],
+ "umls:C0026769": [
+  "multiple sclerosis",
+  "doid.owl xref (DOID:2377)"
+ ],
+ "umls:C0026896": [
+  "myasthenia gravis",
+  "doid.owl xref (DOID:437)"
+ ],
+ "umls:C0026976": [
+  "transverse myelitis",
+  "mondo.obo xref (MONDO:0021553)"
+ ],
+ "umls:C0027121": [
+  "myositis",
+  "doid.owl xref (DOID:633)"
+ ],
+ "umls:C0027404": [
+  "narcolepsy",
+  "doid.owl xref (DOID:8986)"
+ ],
+ "umls:C0027873": [
+  "neuromyelitis optica",
+  "doid.owl xref (DOID:8869)"
+ ],
+ "umls:C0029077": [
+  "sympathetic ophthalmia",
+  "doid.owl xref (DOID:12029)"
+ ],
+ "umls:C0030804": [
+  "cicatricial pemphigoid",
+  "doid.owl xref (DOID:11656)"
+ ],
+ "umls:C0030805": [
+  "bullous pemphigoid",
+  "doid.owl xref (DOID:8506)"
+ ],
+ "umls:C0030807": [
+  "pemphigus",
+  "doid.owl xref (DOID:9182)"
+ ],
+ "umls:C0031036": [
+  "polyarteritis nodosa",
+  "doid.owl xref (DOID:9810)"
+ ],
+ "umls:C0032453": [
+  "relapsing polychondritis",
+  "doid.owl xref (DOID:2556)"
+ ],
+ "umls:C0032533": [
+  "polymyalgia rheumatica",
+  "doid.owl xref (DOID:853)"
+ ],
+ "umls:C0033860": [
+  "psoriasis",
+  "doid.owl xref (DOID:8893)"
+ ],
+ "umls:C0034152": [
+  "IgA vasculitis",
+  "doid.owl xref (DOID:11123)"
+ ],
+ "umls:C0034734": [
+  "Raynaud disease",
+  "doid.owl xref (DOID:10300)"
+ ],
+ "umls:C0034902": [
+  "pure red-cell aplasia",
+  "doid.owl xref (DOID:1340)"
+ ],
+ "umls:C0034931": [
+  "reflex sympathetic dystrophy",
+  "doid.owl xref (DOID:1811)"
+ ],
+ "umls:C0035012": [
+  "reactive arthritis",
+  "doid.owl xref (DOID:6196)"
+ ],
+ "umls:C0035258": [
+  "restless legs syndrome",
+  "doid.owl xref (DOID:0050425)"
+ ],
+ "umls:C0035436": [
+  "rheumatic fever",
+  "doid.owl xref (DOID:1586)"
+ ],
+ "umls:C0036202": [
+  "sarcoidosis",
+  "doid.owl xref (DOID:11335)"
+ ],
+ "umls:C0036416": [
+  "scleritis",
+  "doid.owl xref (DOID:13452)"
+ ],
+ "umls:C0036420": [
+  "localized scleroderma",
+  "doid.owl xref (DOID:8472)"
+ ],
+ "umls:C0036421": [
+  "systemic scleroderma",
+  "doid.owl xref (DOID:418)"
+ ],
+ "umls:C0038013": [
+  "ankylosing spondylitis",
+  "doid.owl xref (DOID:7147)"
+ ],
+ "umls:C0039263": [
+  "Takayasu&apos;s arteritis",
+  "doid.owl xref (DOID:2508)"
+ ],
+ "umls:C0039483": [
+  "temporal arteritis",
+  "doid.owl xref (DOID:13375)"
+ ],
+ "umls:C0040381": [
+  "tolosa-hunt syndrome",
+  "doid.owl xref (DOID:1278)"
+ ],
+ "umls:C0042164": [
+  "uveitis",
+  "doid.owl xref (DOID:13141)"
+ ],
+ "umls:C0042166": [
+  "intermediate uveitis",
+  "doid.owl xref (DOID:12732)"
+ ],
+ "umls:C0042170": [
+  "Vogt-Koyanagi-Harada disease",
+  "doid.owl xref (DOID:12297)"
+ ],
+ "umls:C0042171": [
+  "uveoparotid fever",
+  "doid.owl xref (DOID:13404)"
+ ],
+ "umls:C0042900": [
+  "vitiligo",
+  "doid.owl xref (DOID:12306)"
+ ],
+ "umls:C0079293": [
+  "epidermolysis bullosa acquisita",
+  "doid.owl xref (DOID:4313)"
+ ],
+ "umls:C0085253": [
+  "adult-onset Still&apos;s disease",
+  "doid.owl xref (DOID:14256)"
+ ],
+ "umls:C0085278": [
+  "antiphospholipid syndrome",
+  "doid.owl xref (DOID:2988)"
+ ],
+ "umls:C0085292": [
+  "Stiff-Person syndrome",
+  "doid.owl xref (DOID:13366)"
+ ],
+ "umls:C0085404": [
+  "POEMS syndrome",
+  "doid.owl xref (DOID:14039)"
+ ],
+ "umls:C0085435": [
+  "reactive arthritis",
+  "mondo.obo xref (MONDO:0017376)"
+ ],
+ "umls:C0085574": [
+  "palindromic rheumatism",
+  "doid.owl xref (DOID:1166)"
+ ],
+ "umls:C0085652": [
+  "pyoderma gangrenosum",
+  "doid.owl xref (DOID:8553)"
+ ],
+ "umls:C0085655": [
+  "polymyositis",
+  "mondo.obo xref (MONDO:0019127)"
+ ],
+ "umls:C0085786": [
+  "idiopathic interstitial pneumonia",
+  "doid.owl xref (DOID:2797)"
+ ],
+ "umls:C0085859": [
+  "autoimmune polyendocrine syndrome type 1",
+  "mondo.obo xref (MONDO:0009411)"
+ ],
+ "umls:C0086445": [
+  "idiopathic membranous glomerulonephritis",
+  "mondo.obo xref (MONDO:0013860)"
+ ],
+ "umls:C0086774": [
+  "paroxysmal nocturnal hemoglobinuria",
+  "doid.owl xref (DOID:0060284)"
+ ],
+ "umls:C0151436": [
+  "hypersensitivity vasculitis",
+  "doid.owl xref (DOID:9809)"
+ ],
+ "umls:C0152085": [
+  "reactive arthritis",
+  "doid.owl xref (DOID:6196)"
+ ],
+ "umls:C0152107": [
+  "Dressler&apos;s syndrome",
+  "doid.owl xref (DOID:10507)"
+ ],
+ "umls:C0152460": [
+  "balanitis xerotica obliterans",
+  "doid.owl xref (DOID:13477)"
+ ],
+ "umls:C0155072": [
+  "Mooren&apos;s ulcer",
+  "doid.owl xref (DOID:10439)"
+ ],
+ "umls:C0155089": [
+  "diffuse interstitial keratitis",
+  "doid.owl xref (DOID:13353)"
+ ],
+ "umls:C0156147": [
+  "Crohn&apos;s colitis",
+  "doid.owl xref (DOID:0060192)"
+ ],
+ "umls:C0157721": [
+  "cicatricial pemphigoid",
+  "doid.owl xref (DOID:11656)"
+ ],
+ "umls:C0157916": [
+  "systemic juvenile rheumatoid arthritis",
+  "doid.owl xref (DOID:676)"
+ ],
+ "umls:C0157917": [
+  "systemic juvenile rheumatoid arthritis",
+  "doid.owl xref (DOID:676)"
+ ],
+ "umls:C0157918": [
+  "systemic juvenile rheumatoid arthritis",
+  "doid.owl xref (DOID:676)"
+ ],
+ "umls:C0158178": [
+  "palindromic rheumatism",
+  "doid.owl xref (DOID:1166)"
+ ],
+ "umls:C0162836": [
+  "hidradenitis suppurativa",
+  "doid.owl xref (DOID:2280)"
+ ],
+ "umls:C0162852": [
+  "acute lichenoid pityriasis",
+  "mondo.obo xref (MONDO:0024250)"
+ ],
+ "umls:C0175816": [
+  "autoimmune hemolytic anemia, cold type",
+  "mondo.obo xref (MONDO:0016450)"
+ ],
+ "umls:C0205710": [
+  "Alpers-Huttenlocher syndrome",
+  "doid.owl xref (DOID:0080122)"
+ ],
+ "umls:C0205930": [
+  "algoneurodystrophy",
+  "doid.owl xref (DOID:14022)"
+ ],
+ "umls:C0206062": [
+  "interstitial lung disease",
+  "doid.owl xref (DOID:3082)"
+ ],
+ "umls:C0206138": [
+  "CREST syndrome",
+  "doid.owl xref (DOID:0060218)"
+ ],
+ "umls:C0221013": [
+  "systemic mastocytosis",
+  "doid.owl xref (DOID:349)"
+ ],
+ "umls:C0221759": [
+  "brachial plexus neuritis",
+  "doid.owl xref (DOID:3689)"
+ ],
+ "umls:C0238190": [
+  "inclusion body myositis",
+  "doid.owl xref (DOID:3429)"
+ ],
+ "umls:C0240903": [
+  "rheumatoid vasculitis",
+  "mondo.obo xref (MONDO:0043267)"
+ ],
+ "umls:C0241910": [
+  "autoimmune hepatitis",
+  "doid.owl xref (DOID:2048)"
+ ],
+ "umls:C0242287": [
+  "Isaac syndrome",
+  "mondo.obo xref (MONDO:0019399)"
+ ],
+ "umls:C0242383": [
+  "age related macular degeneration",
+  "doid.owl xref (DOID:10871)"
+ ],
+ "umls:C0242584": [
+  "autoimmune thrombocytopenia",
+  "mondo.obo xref (MONDO:0019098)"
+ ],
+ "umls:C0242770": [
+  "cryptogenic organizing pneumonia",
+  "doid.owl xref (DOID:0050157)"
+ ],
+ "umls:C0263338": [
+  "chronic urticaria",
+  "mondo.obo xref (MONDO:0850230)"
+ ],
+ "umls:C0264005": [
+  "eosinophilic fasciitis",
+  "mondo.obo xref (MONDO:0009175)"
+ ],
+ "umls:C0264743": [
+  "rheumatic fever",
+  "doid.owl xref (DOID:1586)"
+ ],
+ "umls:C0268397": [
+  "primary cutaneous amyloidosis",
+  "mondo.obo xref (MONDO:0015301)"
+ ],
+ "umls:C0271270": [
+  "Cogan syndrome",
+  "doid.owl xref (DOID:0060216)"
+ ],
+ "umls:C0271737": [
+  "autoimmune primary adrenal insufficiency",
+  "mondo.obo xref (MONDO:0100480)"
+ ],
+ "umls:C0271865": [
+  "autoimmune hypoparathyroidism",
+  "mondo.obo xref (MONDO:0018242)"
+ ],
+ "umls:C0272118": [
+  "autoimmune hemolytic anemia, warm type",
+  "mondo.obo xref (MONDO:0019532)"
+ ],
+ "umls:C0272126": [
+  "Evans&apos; syndrome",
+  "doid.owl xref (DOID:8931)"
+ ],
+ "umls:C0272286": [
+  "thrombocytopenia due to platelet alloimmunization",
+  "doid.owl xref (DOID:1587)"
+ ],
+ "umls:C0282488": [
+  "interstitial cystitis",
+  "doid.owl xref (DOID:13949)"
+ ],
+ "umls:C0338430": [
+  "limbic encephalitis",
+  "mondo.obo xref (MONDO:0015588)"
+ ],
+ "umls:C0341106": [
+  "eosinophilic esophagitis",
+  "doid.owl xref (DOID:13922)"
+ ],
+ "umls:C0342122": [
+  "toxic diffuse goiter",
+  "mondo.obo xref (MONDO:0001104)"
+ ],
+ "umls:C0342288": [
+  "immune dysregulation-polyendocrinopathy-enteropathy-X-linked syndrome",
+  "mondo.obo xref (MONDO:0010580)"
+ ],
+ "umls:C0342410": [
+  "primary hypophysitis",
+  "mondo.obo xref (MONDO:0019835)"
+ ],
+ "umls:C0375359": [
+  "ulcerative colitis",
+  "doid.owl xref (DOID:8577)"
+ ],
+ "umls:C0393626": [
+  "opsoclonus-myoclonus syndrome",
+  "mondo.obo xref (MONDO:0015247)"
+ ],
+ "umls:C0393819": [
+  "chronic inflammatory demyelinating polyneuritis",
+  "doid.owl xref (DOID:2536)"
+ ],
+ "umls:C0393847": [
+  "multifocal motor neuropathy",
+  "mondo.obo xref (MONDO:0018979)"
+ ],
+ "umls:C0398650": [
+  "autoimmune thrombocytopenic purpura",
+  "doid.owl xref (DOID:8924)"
+ ],
+ "umls:C0400821": [
+  "microscopic colitis",
+  "doid.owl xref (DOID:0060182)"
+ ],
+ "umls:C0403529": [
+  "Goodpasture syndrome",
+  "doid.owl xref (DOID:9808)"
+ ],
+ "umls:C0406650": [
+  "linear IgA Dermatosis",
+  "mondo.obo xref (MONDO:0018748)"
+ ],
+ "umls:C0409667": [
+  "systemic juvenile rheumatoid arthritis",
+  "doid.owl xref (DOID:676)"
+ ],
+ "umls:C0409977": [
+  "bullous systemic lupus erythematosus",
+  "mondo.obo xref (MONDO:0044113)"
+ ],
+ "umls:C0409979": [
+  "neonatal lupus erythematosus",
+  "mondo.obo xref (MONDO:0018360)"
+ ],
+ "umls:C0409999": [
+  "undifferentiated connective tissue syndrome",
+  "mondo.obo xref (MONDO:0019527)"
+ ],
+ "umls:C0410422": [
+  "chronic recurrent multifocal osteomyelitis",
+  "mondo.obo xref (MONDO:0009813)"
+ ],
+ "umls:C0428791": [
+  "aortic valve calcification",
+  "mondo.obo xref (MONDO:0005463)"
+ ],
+ "umls:C0458219": [
+  "complex regional pain syndrome",
+  "doid.owl xref (DOID:3223)"
+ ],
+ "umls:C0524988": [
+  "Schnitzler syndrome",
+  "doid.owl xref (DOID:4371)"
+ ],
+ "umls:C0566602": [
+  "primary sclerosing cholangitis",
+  "doid.owl xref (DOID:0060643)"
+ ],
+ "umls:C0600040": [
+  "chronic interstitial cystitis",
+  "doid.owl xref (DOID:1678)"
+ ],
+ "umls:C0677607": [
+  "Hashimoto thyroiditis",
+  "mondo.obo xref (MONDO:0007699)"
+ ],
+ "umls:C0748540": [
+  "limited scleroderma",
+  "doid.owl xref (DOID:1577)"
+ ],
+ "umls:C0751101": [
+  "post-vaccinal encephalitis",
+  "doid.owl xref (DOID:13664)"
+ ],
+ "umls:C0751362": [
+  "narcolepsy-cataplexy syndrome",
+  "mondo.obo xref (MONDO:0016158)"
+ ],
+ "umls:C0751911": [
+  "paraneoplastic neurologic syndrome",
+  "mondo.obo xref (MONDO:0018215)"
+ ],
+ "umls:C0752235": [
+  "Lyme disease",
+  "doid.owl xref (DOID:11729)"
+ ],
+ "umls:C0854359": [
+  "Hirata disease",
+  "doid.owl xref (DOID:0040100)"
+ ],
+ "umls:C0920350": [
+  "autoimmune thyroiditis",
+  "doid.owl xref (DOID:7188)"
+ ],
+ "umls:C1112570": [
+  "paraneoplastic pemphigus",
+  "doid.owl xref (DOID:0080852)"
+ ],
+ "umls:C1136033": [
+  "cutaneous mastocytosis",
+  "doid.owl xref (DOID:3663)"
+ ],
+ "umls:C1260409": [
+  "myasthenia gravis",
+  "doid.owl xref (DOID:437)"
+ ],
+ "umls:C1264008": [
+  "cold agglutinin disease",
+  "mondo.obo xref (MONDO:0018922)"
+ ],
+ "umls:C1275078": [
+  "Carpenter syndrome",
+  "doid.owl xref (DOID:0060234)"
+ ],
+ "umls:C1282952": [
+  "enthesitis",
+  "mondo.obo xref (MONDO:0024419)"
+ ],
+ "umls:C1299624": [
+  "postural orthostatic tachycardia syndrome",
+  "mondo.obo xref (MONDO:0011479)"
+ ],
+ "umls:C1304191": [
+  "autoimmune urticaria",
+  "mondo.obo xref (MONDO:0025513)"
+ ],
+ "umls:C1328840": [
+  "autoimmune lymphoproliferative syndrome",
+  "doid.owl xref (DOID:6688)"
+ ],
+ "umls:C1328843": [
+  "autoimmune vasculitis",
+  "doid.owl xref (DOID:0040097)"
+ ],
+ "umls:C1332355": [
+  "autoimmune hepatitis",
+  "doid.owl xref (DOID:2048)"
+ ],
+ "umls:C1527226": [
+  "CREST syndrome",
+  "doid.owl xref (DOID:0060218)"
+ ],
+ "umls:C1535942": [
+  "autoimmune polyendocrinopathy type 3",
+  "mondo.obo xref (MONDO:0016422)"
+ ],
+ "umls:C1800706": [
+  "idiopathic pulmonary fibrosis",
+  "doid.owl xref (DOID:0050156)"
+ ],
+ "umls:C1834304": [
+  "amyotrophic neuralgia",
+  "mondo.obo xref (MONDO:0008076)"
+ ],
+ "umls:C1834372": [
+  "narcolepsy 1",
+  "mondo.obo xref (MONDO:0008062)"
+ ],
+ "umls:C1848795": [
+  "Graves disease, susceptibility to, 1",
+  "mondo.obo xref (MONDO:0100489)"
+ ],
+ "umls:C1853959": [
+  "birdshot chorioretinopathy",
+  "doid.owl xref (DOID:0111079)"
+ ],
+ "umls:C1956391": [
+  "temporal arteritis",
+  "mondo.obo xref (MONDO:0008538)"
+ ],
+ "umls:C1960543": [
+  "Bickerstaff brainstem encephalitis",
+  "mondo.obo xref (MONDO:0019208)"
+ ],
+ "umls:C1970472": [
+  "autoimmune pulmonary alveolar proteinosis",
+  "mondo.obo xref (MONDO:0012579)"
+ ],
+ "umls:C2350236": [
+  "idiopathic interstitial pneumonia",
+  "mondo.obo xref (MONDO:0002429)"
+ ],
+ "umls:C2609129": [
+  "autoimmune pancreatitis",
+  "doid.owl xref (DOID:0040091)"
+ ],
+ "umls:C2717757": [
+  "Susac syndrome",
+  "mondo.obo xref (MONDO:0019390)"
+ ],
+ "umls:C2930868": [
+  "Rasmussen subacute encephalitis",
+  "mondo.obo xref (MONDO:0016019)"
+ ],
+ "umls:C2931179": [
+  "Castleman disease",
+  "doid.owl xref (DOID:0111157)"
+ ],
+ "umls:C2931384": [
+  "moyamoya disease 1",
+  "mondo.obo xref (MONDO:0009649)"
+ ],
+ "umls:C2973529": [
+  "hypersensitivity vasculitis",
+  "mondo.obo xref (MONDO:0006794)"
+ ],
+ "umls:C3203653": [
+  "immunoglobulin G4-related sclerosing disease",
+  "mondo.obo xref (MONDO:0017287)"
+ ],
+ "umls:C3203657": [
+  "autoimmune retinopathy",
+  "mondo.obo xref (MONDO:0100014)"
+ ],
+ "umls:C3266026": [
+  "autoimmune polyendocrinopathy type 4",
+  "mondo.obo xref (MONDO:0016423)"
+ ],
+ "umls:C3267047": [
+  "immune-mediated necrotizing myopathy",
+  "mondo.obo xref (MONDO:0016098)"
+ ],
+ "umls:C3276706": [
+  "small fiber neuropathy",
+  "doid.owl xref (DOID:0070701)"
+ ],
+ "umls:C3495559": [
+  "juvenile idiopathic arthritis",
+  "mondo.obo xref (MONDO:0011429)"
+ ],
+ "umls:C3495801": [
+  "granulomatosis with polyangiitis",
+  "doid.owl xref (DOID:12132)"
+ ],
+ "umls:C3553512": [
+  "combined immunodeficiency due to LRBA deficiency",
+  "mondo.obo xref (MONDO:0013863)"
+ ],
+ "umls:C3854373": [
+  "Morvan syndrome",
+  "mondo.obo xref (MONDO:0008718)"
+ ],
+ "umls:C3887639": [
+  "autoimmune gastritis",
+  "mondo.obo xref (MONDO:0031014)"
+ ],
+ "umls:C3888523": [
+  "autoimmune uveitis",
+  "mondo.obo xref (MONDO:0031012)"
+ ],
+ "umls:C3890422": [
+  "post-treatment Lyme disease syndrome",
+  "mondo.obo xref (MONDO:0700280)"
+ ],
+ "umls:C4706583": [
+  "limbic encephalitis with LGI1 antibodies",
+  "mondo.obo xref (MONDO:0015592)"
+ ],
+ "umls:C4721555": [
+  "autoimmune hepatitis",
+  "mondo.obo xref (MONDO:0016264)"
+ ],
+ "umls:C5433293": [
+  "long COVID-19",
+  "mondo.obo xref (MONDO:0100233)"
+ ],
+ "umls:C5441745": [
+  "interstitial lung disease",
+  "mondo.obo xref (MONDO:0015925)"
+ ],
+ "umls:C5671289": [
+  "autoimmune encephalitis",
+  "mondo.obo xref (MONDO:0020640)"
+ ],
+ "umls:C5680004": [
+  "euthyroid Graves orbitopathy",
+  "mondo.obo xref (MONDO:0018756)"
+ ],
+ "umls:C5959873": [
+  "antisynthetase syndrome",
+  "mondo.obo xref (MONDO:0019344)"
+ ]
+}
