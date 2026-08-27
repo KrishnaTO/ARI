@@ -500,6 +500,15 @@ ARI	0001143	Neuromyelitis optica	skos:exactMatch	icd10cm	G36.0	manual	github:aar
 ARI	0001143	Neuromyelitis optica	skos:exactMatch	ORPHA	71211	manual	github:aaronabend
 ARI	0001143	Neuromyelitis optica	skos:exactMatch	mesh	D009471	manual	github:aaronabend
 ARI	0001143	Neuromyelitis optica	skos:exactMatch	OMIM	NoTermFound	manual-absent	github:aaronabend
+ARI	0001056	Birdshot chorioretinopathy	skos:exactMatch	ORPHA	179	manual	github:KrishnaTO
+ARI	0001028	Autoimmune encephalitis	skos:exactMatch	omop	4318558	manual	github:aaronabend
+ARI	0001028	Autoimmune encephalitis	skos:exactMatch	SNOMEDCT	95643007	manual	github:aaronabend
+ARI	0001028	Autoimmune encephalitis	skos:exactMatch	MONDO	0020640	manual	github:aaronabend
+ARI	0001019	Antisynthetase syndrome	skos:exactMatch	SNOMEDCT	445187004	manual	github:aaronabend
+ARI	0001019	Antisynthetase syndrome	skos:exactMatch	omop	40482477	manual	github:aaronabend
+ARI	0001019	Antisynthetase syndrome	skos:exactMatch	DOID	0080744	manual	github:aaronabend
+ARI	0001019	Antisynthetase syndrome	skos:exactMatch	MONDO	0019344	manual	github:aaronabend
+ARI	0001019	Antisynthetase syndrome	skos:exactMatch	ORPHA	81	manual	github:aaronabend
 ARI	0001135	Multiple sclerosis	skos:exactMatch	DOID	2377	manual	github:aaronabend
 ARI	0001135	Multiple sclerosis	skos:exactMatch	MONDO	0005301	manual	github:aaronabend
 ARI	0001135	Multiple sclerosis	skos:exactMatch	ncit	C3243	manual	github:aaronabend
@@ -513,3 +522,4 @@ ARI	0001135	Multiple sclerosis	skos:exactMatch	omop	4178929	manual	github:aarona
 ARI	0001135	Multiple sclerosis	skos:exactMatch	omop	4145049	manual	github:aaronabend
 ARI	0001135	Multiple sclerosis	skos:exactMatch	omop	376970	manual	github:aaronabend
 ARI	0001135	Multiple sclerosis	skos:exactMatch	omop	4027727	manual	github:aaronabend
+ARI	0001028	Autoimmune encephalitis	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:aaronabend
