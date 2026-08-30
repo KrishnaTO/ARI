@@ -1,5 +1,34 @@
 # Changelog
 
+## chore/retire-app-branch
+
+**This repository was still telling agents to send app work into it.** `.claude/CLAUDE.md` — which
+is gitignored, so it steered every local session while being invisible to the `aaronabend` fork —
+read: *"Main branch for updates to app is feature/metadata-manager_v2/ARI, create feature branches
+from this branch and feed PRs into this branch."* That branch held a 41-file pre-split copy of the
+editor app and was **230 commits behind `main`**. The instruction had already cost real work: PR #57
+retired ICD-9 into that branch, reached nothing, and needed a separate `port-icd9-retirement-to-main`
+commit to recover.
+
+- **`feature/metadata-manager_v2/ARI` is retired.** Tagged `archive/metadata-manager-v2` at its
+  remote tip (`38690f0`) first, matching the existing `archive/lightsail-github-editor` convention,
+  so the history stays reachable at no cost. The local branch was 15 commits behind the remote and
+  0 ahead, so deleting it lost nothing.
+- **A committed root `CLAUDE.md` replaces the gitignored one.** Guidance that governs how the
+  repository is worked on should be reviewable and shared, not a local file only one machine sees.
+  It states the ownership contract in one sentence — *if a curator's decision changes it, it belongs
+  here; if a code change changes it, it belongs to the app* — with the table that settles the
+  contested files, and it carries the worktree, branch, PR and changelog conventions this repository
+  had no written equivalent of.
+- It also records the coupling that caused the `fix/sssom-comment-column` break: `SSSOM_COLUMNS`
+  here and `SSSOM_COLS` in the app's `app/sssom_service.py` must agree, or every curator publish
+  fails the header check.
+
+**Still to do by hand** (needs push access): delete the branch on both remotes —
+`git push origin --delete feature/metadata-manager_v2/ARI`, and ask `aaronabend` to drop their copy —
+and push the tag with `git push origin archive/metadata-manager-v2`. Delete the now-superseded local
+`.claude/CLAUDE.md`; it is gitignored, so no commit removes it.
+
 ## disease-target-mapping-sheet
 
 - Added `data/4-reports/8_Disease_Target_Mappings.xlsx`: one row per (disease, target
