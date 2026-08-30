@@ -34,14 +34,23 @@ This repository supports the curated disease model behind the editor:
 
 ## Main directories
 
-| Path | Purpose |
-| --- | --- |
-| `data/` | Master list instructions, report outputs, and supporting source tables |
-| `data_model/` | Reference spreadsheets and model snapshots |
-| `mappings/` | ARI equivalency and SSSOM mapping exports |
-| `notebook/` | Notebook-driven data preparation and grounding scripts |
-| `ontologies/` | ARI ontology artifacts |
-| `sparql/` | SPARQL queries and generated term sets |
+| Path | Purpose | In git? |
+| --- | --- | --- |
+| `data/0-archive/` | Superseded working material | no |
+| `data/1-master/` | The curated master list | yes |
+| `data/2-databases/` | Large raw ontology release dumps — local scratch, re-downloadable | **no** |
+| `data/3-meta-database-sources/` | Supporting source tables | yes |
+| `data/4-reports/` | Generated report outputs | yes |
+| `data_model/` | Reference spreadsheets and model snapshots | yes |
+| `mappings/` | Every curated cross-reference judgment | yes |
+| `notebook/` | Notebook-driven data preparation and grounding scripts | yes |
+| `ontologies/` | The ARI ontology — the sole authority | yes |
+| `sparql/` | SPARQL queries and generated term sets | yes |
+
+`data/` mixes both kinds, which is worth knowing before going looking for
+something: `2-databases/` holds roughly 11 GB of downloaded release dumps and is
+git-ignored in full, while its siblings are curated and tracked. See
+[`data/2-databases/README.md`](data/2-databases/README.md).
 
 ## Key outputs
 

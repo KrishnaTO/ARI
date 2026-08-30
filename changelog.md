@@ -1,5 +1,23 @@
 # Changelog
 
+## chore/data-layout
+
+**`data/` held 11 GB of downloaded dumps and the curated master list under one name, with nothing
+saying which was which.** `data/2-databases/` is git-ignored in full; `1-master`, `3-meta-database-sources`
+and `4-reports` beside it are tracked and curated. Someone cloning this repository got a `data/`
+directory missing its largest child, with no explanation of whether that was a mistake.
+
+- **The README's directory table now has an "In git?" column** and lists the `data/` subdirectories
+  individually rather than collapsing them into one row.
+- **`data/2-databases/README.md` explains the directory** — and, more usefully, the collision: the
+  app repository has a directory at the *same path* holding *different* files that *are* committed.
+  Here it is raw release dumps at ~11 GB; there it is the distilled `*.index.tsv` / `*.details.tsv` /
+  `*.subtypes.tsv` at ~32 MB, built from these same public releases by `scripts/fetch_databases.py`
+  and read by the editor's prediction engine. A table sets the two side by side so nobody goes
+  looking for the indexes here.
+- `.gitignore` gains `!data/2-databases/README.md` so that one file can be tracked inside an
+  otherwise-ignored directory.
+
 ## chore/adopt-full-mapping-set
 
 **The curated mapping set was split across two repositories, and the half that lived in the app
