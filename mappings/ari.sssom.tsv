@@ -521,3 +521,32 @@ ARI:0001143	Neuromyelitis optica	skos:exactMatch		ORPHA:71211	ORPHA	semapv:Manua
 ARI:0001143	Neuromyelitis optica	skos:exactMatch		mesh:D009471	mesh	semapv:ManualMappingCuration	github:aaronabend	2026-08-17
 ARI:0001143	Neuromyelitis optica	skos:exactMatch		sssom:NoTermFound	OMIM	semapv:ManualMappingCuration	github:aaronabend	2026-08-17
 ARI:0001056	Birdshot chorioretinopathy	skos:exactMatch		ORPHA:179	ORPHA	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-20
+ARI:0001028	Autoimmune encephalitis	skos:exactMatch		omop:4318558	omop	semapv:ManualMappingCuration	github:aaronabend	2026-08-27
+ARI:0001028	Autoimmune encephalitis	skos:exactMatch		SNOMEDCT:95643007	SNOMEDCT	semapv:ManualMappingCuration	github:aaronabend	2026-08-27
+ARI:0001028	Autoimmune encephalitis	skos:exactMatch		MONDO:0020640	MONDO	semapv:ManualMappingCuration	github:aaronabend	2026-08-27
+ARI:0001019	Antisynthetase syndrome	skos:exactMatch		SNOMEDCT:445187004	SNOMEDCT	semapv:ManualMappingCuration	github:aaronabend	2026-08-27
+ARI:0001019	Antisynthetase syndrome	skos:exactMatch		omop:40482477	omop	semapv:ManualMappingCuration	github:aaronabend	2026-08-27
+ARI:0001019	Antisynthetase syndrome	skos:exactMatch		DOID:0080744	DOID	semapv:ManualMappingCuration	github:aaronabend	2026-08-27
+ARI:0001019	Antisynthetase syndrome	skos:exactMatch		MONDO:0019344	MONDO	semapv:ManualMappingCuration	github:aaronabend	2026-08-27
+ARI:0001019	Antisynthetase syndrome	skos:exactMatch		ORPHA:81	ORPHA	semapv:ManualMappingCuration	github:aaronabend	2026-08-27
+ARI:0001135	Multiple sclerosis	skos:exactMatch		DOID:2377	DOID	semapv:ManualMappingCuration	github:aaronabend	2026-08-27
+ARI:0001135	Multiple sclerosis	skos:exactMatch		MONDO:0005301	MONDO	semapv:ManualMappingCuration	github:aaronabend	2026-08-27
+ARI:0001135	Multiple sclerosis	skos:exactMatch		ncit:C3243	ncit	semapv:ManualMappingCuration	github:aaronabend	2026-08-27
+ARI:0001135	Multiple sclerosis	skos:exactMatch	Not	SNOMEDCT:128460000	SNOMEDCT	semapv:ManualMappingCuration	github:aaronabend	2026-08-27
+ARI:0001135	Multiple sclerosis	skos:exactMatch	Not	SNOMEDCT:426373005	SNOMEDCT	semapv:ManualMappingCuration	github:aaronabend	2026-08-27
+ARI:0001135	Multiple sclerosis	skos:exactMatch	Not	SNOMEDCT:428700003	SNOMEDCT	semapv:ManualMappingCuration	github:aaronabend	2026-08-27
+ARI:0001135	Multiple sclerosis	skos:exactMatch	Not	SNOMEDCT:49692006	SNOMEDCT	semapv:ManualMappingCuration	github:aaronabend	2026-08-27
+ARI:0001135	Multiple sclerosis	skos:exactMatch		SNOMEDCT:24700007	SNOMEDCT	semapv:ManualMappingCuration	github:aaronabend	2026-08-27
+ARI:0001135	Multiple sclerosis	skos:exactMatch	Not	omop:374919	omop	semapv:ManualMappingCuration	github:aaronabend	2026-08-27
+ARI:0001135	Multiple sclerosis	skos:exactMatch	Not	omop:4178929	omop	semapv:ManualMappingCuration	github:aaronabend	2026-08-27
+ARI:0001135	Multiple sclerosis	skos:exactMatch	Not	omop:4145049	omop	semapv:ManualMappingCuration	github:aaronabend	2026-08-27
+ARI:0001135	Multiple sclerosis	skos:exactMatch	Not	omop:376970	omop	semapv:ManualMappingCuration	github:aaronabend	2026-08-27
+ARI:0001135	Multiple sclerosis	skos:exactMatch		omop:4027727	omop	semapv:ManualMappingCuration	github:aaronabend	2026-08-27
+ARI:0001028	Autoimmune encephalitis	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:aaronabend	2026-08-27
+ARI:0001098	Hemophilia B Leyden	skos:exactMatch		MONDO:0850054	MONDO	semapv:ManualMappingCuration	github:linikujp	2026-08-21
+ARI:0001098	Hemophilia B Leyden	skos:exactMatch		ORPHA:617930	ORPHA	semapv:ManualMappingCuration	github:linikujp	2026-08-21
+ARI:0001090	Essential mixed cryoglobulinemia	skos:exactMatch		MONDO:0007407	MONDO	semapv:ManualMappingCuration	github:linikujp	2026-08-21
+ARI:0001090	Essential mixed cryoglobulinemia	skos:exactMatch		ORPHA:91138	ORPHA	semapv:ManualMappingCuration	github:linikujp	2026-08-21
+ARI:0001019	Antisynthetase syndrome	skos:exactMatch		MONDO:0019344	MONDO	semapv:ManualMappingCuration	github:linikujp	2026-08-21
+ARI:0001019	Antisynthetase syndrome	skos:exactMatch		ORPHA:81	ORPHA	semapv:ManualMappingCuration	github:linikujp	2026-08-21
+ARI:0001056	Birdshot chorioretinopathy	skos:exactMatch		ORPHA:179	ORPHA	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-20

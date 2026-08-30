@@ -3526,6 +3526,8 @@ The trigger for antisynthetase syndrome is unknown, but it may be associated wit
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-09</ARI_AuthorDate>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ASY</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-21 17:35 | linikujp | Cross-reference review: confirmed MONDO 0019344; confirmed ORPHANET 81</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-27 17:57 | aaronabend | Cross-reference review: confirmed SNOMED 445187004; confirmed OMOP 40482477; confirmed DOID 0080744; confirmed MONDO 0019344; confirmed ORPHANET 81</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001019_176">
@@ -3976,6 +3978,7 @@ The trigger for antisynthetase syndrome is unknown, but it may be associated wit
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2025-02</ARI_AuthorDate>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AE</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-27 17:57 | aaronabend | Cross-reference review: confirmed OMOP 4318558; confirmed SNOMED 95643007; confirmed MONDO 0020640; no term in ICD10</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001028_215">
@@ -9734,6 +9737,7 @@ When mastocytosis is not limited to the skin, it is called systemic mastocytosis
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-09</ARI_AuthorDate>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EMC</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-21 17:35 | linikujp | Cross-reference review: confirmed MONDO 0007407; confirmed ORPHANET 91138</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001090_824">
@@ -10713,6 +10717,7 @@ ASA is not a concern except for people trying to conceive.</rdfs:comment>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1% of all cases of hemophilia B; NR</ARI_DefSource>
   <ARI_Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.1</ARI_Version>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-21 17:35 | linikujp | Cross-reference review: confirmed MONDO 0850054; confirmed ORPHANET 617930</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001099">
@@ -13994,8 +13999,8 @@ Although this rare disease most commonly affects children, adults may have this 
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G35</ARI_ICD10>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D009103</ARI_MESH>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C3243</ARI_NCI>
-  <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">374919, 4178929, 4145049, 376970, 4027727</ARI_OMOP>
-  <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24700007, 428700003, 426373005, 49692006, 128460000</ARI_DXCODE>
+  <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4027727</ARI_OMOP>
+  <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24700007</ARI_DXCODE>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Multiple Sclerosis (MS) is a central nervous system disease that occurs when the immune system attacks the myelin, which is a protective covering around the nerves. The nerves may then suffer permanent damage. The cause of the abnormal immune system action is unknown, but there seems to be some genetic link. The most common form of MS is relapsing-remitting which occurs when a patient has symptom-free periods, but the patient may develop a progressive form where the symptoms worsen over time. Women are affected twice as often as men. MS varies in severity, with some people losing the ability to walk.</rdfs:comment>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disseminated sclerosis</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MS</ARI_Synonym>
@@ -14029,6 +14034,7 @@ Although this rare disease most commonly affects children, adults may have this 
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-09</ARI_AuthorDate>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MS</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-27 17:57 | aaronabend | Cross-reference review: confirmed DOID 2377; confirmed MONDO 0005301; confirmed NCI C3243; confirmed SNOMED 24700007; confirmed OMOP 4027727</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001135_1241">
@@ -14926,6 +14932,8 @@ The specific location of vasculitis inflammation determines what tissue or organ
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-09</ARI_AuthorDate>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NMO</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-17 18:32 | aaronabend | Cross-reference review: confirmed SNOMED 25044007; confirmed OMOP 380995; confirmed DOID 8869; confirmed MONDO 0019100; confirmed NCI C84934; confirmed ICD10 G36.0; confirmed ORPHANET 71211; confirmed MESH D009471; no term in OMIM</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-27 17:57 | aaronabend | Cross-reference review: confirmed SNOMED 25044007; confirmed OMOP 4027727; confirmed DOID 8869; confirmed MONDO 0019100; confirmed NCI C84934; confirmed ICD10 G36.0; confirmed ORPHANET 71211; confirmed MESH D009471; no term in OMIM</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001143_1338">
