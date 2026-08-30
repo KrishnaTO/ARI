@@ -537,9 +537,9 @@ ARI:0001135	Multiple sclerosis	skos:exactMatch	Not	SNOMEDCT:426373005	SNOMEDCT	s
 ARI:0001135	Multiple sclerosis	skos:exactMatch	Not	SNOMEDCT:428700003	SNOMEDCT	semapv:ManualMappingCuration	github:aaronabend	2026-08-27
 ARI:0001135	Multiple sclerosis	skos:exactMatch	Not	SNOMEDCT:49692006	SNOMEDCT	semapv:ManualMappingCuration	github:aaronabend	2026-08-27
 ARI:0001135	Multiple sclerosis	skos:exactMatch		SNOMEDCT:24700007	SNOMEDCT	semapv:ManualMappingCuration	github:aaronabend	2026-08-27
-ARI:0001135	Multiple sclerosis	skos:exactMatch		omop:374919	omop	semapv:ManualMappingCuration	github:aaronabend	2026-08-27
-ARI:0001135	Multiple sclerosis	skos:exactMatch		omop:4178929	omop	semapv:ManualMappingCuration	github:aaronabend	2026-08-27
-ARI:0001135	Multiple sclerosis	skos:exactMatch		omop:4145049	omop	semapv:ManualMappingCuration	github:aaronabend	2026-08-27
-ARI:0001135	Multiple sclerosis	skos:exactMatch		omop:376970	omop	semapv:ManualMappingCuration	github:aaronabend	2026-08-27
+ARI:0001135	Multiple sclerosis	skos:exactMatch	Not	omop:374919	omop	semapv:ManualMappingCuration	github:aaronabend	2026-08-27
+ARI:0001135	Multiple sclerosis	skos:exactMatch	Not	omop:4178929	omop	semapv:ManualMappingCuration	github:aaronabend	2026-08-27
+ARI:0001135	Multiple sclerosis	skos:exactMatch	Not	omop:4145049	omop	semapv:ManualMappingCuration	github:aaronabend	2026-08-27
+ARI:0001135	Multiple sclerosis	skos:exactMatch	Not	omop:376970	omop	semapv:ManualMappingCuration	github:aaronabend	2026-08-27
 ARI:0001135	Multiple sclerosis	skos:exactMatch		omop:4027727	omop	semapv:ManualMappingCuration	github:aaronabend	2026-08-27
 ARI:0001028	Autoimmune encephalitis	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:aaronabend	2026-08-27
