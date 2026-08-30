@@ -532,10 +532,10 @@ ARI:0001019	Antisynthetase syndrome	skos:exactMatch		ORPHA:81	ORPHA	semapv:Manua
 ARI:0001135	Multiple sclerosis	skos:exactMatch		DOID:2377	DOID	semapv:ManualMappingCuration	github:aaronabend	2026-08-27
 ARI:0001135	Multiple sclerosis	skos:exactMatch		MONDO:0005301	MONDO	semapv:ManualMappingCuration	github:aaronabend	2026-08-27
 ARI:0001135	Multiple sclerosis	skos:exactMatch		ncit:C3243	ncit	semapv:ManualMappingCuration	github:aaronabend	2026-08-27
-ARI:0001135	Multiple sclerosis	skos:exactMatch		SNOMEDCT:128460000	SNOMEDCT	semapv:ManualMappingCuration	github:aaronabend	2026-08-27
-ARI:0001135	Multiple sclerosis	skos:exactMatch		SNOMEDCT:426373005	SNOMEDCT	semapv:ManualMappingCuration	github:aaronabend	2026-08-27
-ARI:0001135	Multiple sclerosis	skos:exactMatch		SNOMEDCT:428700003	SNOMEDCT	semapv:ManualMappingCuration	github:aaronabend	2026-08-27
-ARI:0001135	Multiple sclerosis	skos:exactMatch		SNOMEDCT:49692006	SNOMEDCT	semapv:ManualMappingCuration	github:aaronabend	2026-08-27
+ARI:0001135	Multiple sclerosis	skos:exactMatch	Not	SNOMEDCT:128460000	SNOMEDCT	semapv:ManualMappingCuration	github:aaronabend	2026-08-27
+ARI:0001135	Multiple sclerosis	skos:exactMatch	Not	SNOMEDCT:426373005	SNOMEDCT	semapv:ManualMappingCuration	github:aaronabend	2026-08-27
+ARI:0001135	Multiple sclerosis	skos:exactMatch	Not	SNOMEDCT:428700003	SNOMEDCT	semapv:ManualMappingCuration	github:aaronabend	2026-08-27
+ARI:0001135	Multiple sclerosis	skos:exactMatch	Not	SNOMEDCT:49692006	SNOMEDCT	semapv:ManualMappingCuration	github:aaronabend	2026-08-27
 ARI:0001135	Multiple sclerosis	skos:exactMatch		SNOMEDCT:24700007	SNOMEDCT	semapv:ManualMappingCuration	github:aaronabend	2026-08-27
 ARI:0001135	Multiple sclerosis	skos:exactMatch		omop:374919	omop	semapv:ManualMappingCuration	github:aaronabend	2026-08-27
 ARI:0001135	Multiple sclerosis	skos:exactMatch		omop:4178929	omop	semapv:ManualMappingCuration	github:aaronabend	2026-08-27
