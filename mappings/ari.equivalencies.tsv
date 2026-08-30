@@ -518,8 +518,8 @@ ARI	0001135	Multiple sclerosis	skos:exactMatch	SNOMEDCT	428700003	manual-negativ
 ARI	0001135	Multiple sclerosis	skos:exactMatch	SNOMEDCT	49692006	manual-negative	github:aaronabend
 ARI	0001135	Multiple sclerosis	skos:exactMatch	SNOMEDCT	24700007	manual	github:aaronabend
 ARI	0001135	Multiple sclerosis	skos:exactMatch	omop	374919	manual	github:aaronabend
-ARI	0001135	Multiple sclerosis	skos:exactMatch	omop	4178929	manual	github:aaronabend
-ARI	0001135	Multiple sclerosis	skos:exactMatch	omop	4145049	manual	github:aaronabend
-ARI	0001135	Multiple sclerosis	skos:exactMatch	omop	376970	manual	github:aaronabend
-ARI	0001135	Multiple sclerosis	skos:exactMatch	omop	4027727	manual	github:aaronabend
+ARI	0001135	Multiple sclerosis	skos:exactMatch	omop	4178929	manual-negative	github:aaronabend
+ARI	0001135	Multiple sclerosis	skos:exactMatch	omop	4145049	manual-negative	github:aaronabend
+ARI	0001135	Multiple sclerosis	skos:exactMatch	omop	376970	manual-negative	github:aaronabend
+ARI	0001135	Multiple sclerosis	skos:exactMatch	omop	4027727	manual-negative	github:aaronabend
 ARI	0001028	Autoimmune encephalitis	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:aaronabend
