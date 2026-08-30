@@ -543,3 +543,10 @@ ARI:0001135	Multiple sclerosis	skos:exactMatch	Not	omop:4145049	omop	semapv:Manu
 ARI:0001135	Multiple sclerosis	skos:exactMatch	Not	omop:376970	omop	semapv:ManualMappingCuration	github:aaronabend	2026-08-27
 ARI:0001135	Multiple sclerosis	skos:exactMatch		omop:4027727	omop	semapv:ManualMappingCuration	github:aaronabend	2026-08-27
 ARI:0001028	Autoimmune encephalitis	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:aaronabend	2026-08-27
+ARI:0001098	Hemophilia B Leyden	skos:exactMatch		MONDO:0850054	MONDO	semapv:ManualMappingCuration	github:linikujp	2026-08-21
+ARI:0001098	Hemophilia B Leyden	skos:exactMatch		ORPHA:617930	ORPHA	semapv:ManualMappingCuration	github:linikujp	2026-08-21
+ARI:0001090	Essential mixed cryoglobulinemia	skos:exactMatch		MONDO:0007407	MONDO	semapv:ManualMappingCuration	github:linikujp	2026-08-21
+ARI:0001090	Essential mixed cryoglobulinemia	skos:exactMatch		ORPHA:91138	ORPHA	semapv:ManualMappingCuration	github:linikujp	2026-08-21
+ARI:0001019	Antisynthetase syndrome	skos:exactMatch		MONDO:0019344	MONDO	semapv:ManualMappingCuration	github:linikujp	2026-08-21
+ARI:0001019	Antisynthetase syndrome	skos:exactMatch		ORPHA:81	ORPHA	semapv:ManualMappingCuration	github:linikujp	2026-08-21
+ARI:0001056	Birdshot chorioretinopathy	skos:exactMatch		ORPHA:179	ORPHA	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-20

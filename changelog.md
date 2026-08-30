@@ -1,5 +1,39 @@
 # Changelog
 
+## disease-target-mapping-sheet
+
+- Added `data/4-reports/8_Disease_Target_Mappings.xlsx`: one row per (disease, target
+  database) pair across all 213 mapping subjects and all 10 target databases in the ARI
+  mapping set, so an unreviewed pair is as visible in the sheet as a curated one. Each row
+  carries the disease ID, name and synonyms, the target database, and — where a mapping
+  exists — its status (confirmed / rejected / no term found), SSSOM predicate and modifier,
+  target ID, target label, and the curator and date. 2,216 rows covering all 501 mappings.
+- Added `notebook/ari-grounding/resolve_target_labels.py`, which resolves a label for every
+  `object_id` in `ari.sssom.tsv` (the mapping set stores no `object_label`). All 480 distinct
+  object ids resolve. Local vocabulary copies cover SNOMED CT, OMOP, ICD-10-CM, MeSH, DOID,
+  Mondo and OMIM; Orphanet and NCI Thesaurus come from the EBI OLS4 API because no usable
+  local copy exists, and UMLS CUIs are labelled from the DOID or Mondo term that
+  cross-references them. Every row records its label source.
+- Added `notebook/ari-grounding/build_disease_target_matrix.py`, which builds the workbook.
+- Added predicted matches to the report: 1,467 rows now carry a candidate, 1,022 of them on
+  pairs no curator has reviewed. `notebook/ari-grounding/predict_target_matches.py` combines
+  the existing Gilda lexical matches with cross-reference expansion through Mondo and DOID
+  hub terms, which reaches the seven databases lexical grounding does not cover. Hubs are
+  scored by how many of the disease's own identifiers reach them, so a candidate corroborated
+  by several hubs outranks one reached through a single broad cross-reference.
+- Two filters keep predictions from contradicting curation or the source vocabularies: a term
+  already rejected for that disease and database is never predicted, and predicted SNOMED
+  codes are restricted to standard, non-retired concepts — ontology xrefs still point at codes
+  SNOMED has deprecated, which was the largest source of wrong predictions before the filter
+  (top-1 agreement with curated mappings rose from 283/367 to 330/367).
+- New columns: Predicted Mapping ID / Name, Prediction Method, Prediction Support, Prediction
+  Evidence, Prediction vs Curated (colour-coded), Other Predicted IDs, Predicted URL. Where a
+  curator recorded "no term in database" but a prediction still surfaced (5 rows), the verdict
+  reads `Contradicts no-term finding` rather than being hidden.
+- Flagged rather than dropped two mapping subjects that are not in
+  `1_Core_ARI_Diseases.xlsx`: `ARI:0001212` (CREST Syndrome) and `ARI:0003` (Fulminant
+  type 1 diabetes, whose ID does not follow the `ARI:0001XXX` format).
+
 ## fix-sssom-duplicate-key
 
 - Fixed a false `duplicate-row` error in `.github/scripts/validate_mappings.py`. The
