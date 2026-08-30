@@ -530,3 +530,20 @@ ARI	0001090	Essential mixed cryoglobulinemia	skos:exactMatch	ORPHA	91138	manual	
 ARI	0001019	Antisynthetase syndrome	skos:exactMatch	MONDO	0019344	manual	github:linikujp
 ARI	0001019	Antisynthetase syndrome	skos:exactMatch	ORPHA	81	manual	github:linikujp
 ARI	0001056	Birdshot chorioretinopathy	skos:exactMatch	ORPHA	179	manual	github:KrishnaTO
+ARI	0001056	Birdshot chorioretinopathy	skos:exactMatch	omop	4334133	manual	github:KrishnaTO
+ARI	0001002	Acquired hemophilia	skos:exactMatch	MONDO	0019139	manual	github:KrishnaTO
+ARI	0001002	Acquired hemophilia	skos:exactMatch	ncit	C197822	manual	github:KrishnaTO
+ARI	0001002	Acquired hemophilia	skos:exactMatch	icd10cm	D68.311	manual	github:KrishnaTO
+ARI	0001002	Acquired hemophilia	skos:exactMatch	umls	C1096116	manual	github:KrishnaTO
+ARI	0001003	Acute disseminated encephalomyelitis	skos:exactMatch	MONDO	0019383	manual	github:KrishnaTO
+ARI	0001003	Acute disseminated encephalomyelitis	skos:exactMatch	icd10cm	G04.0	manual	github:KrishnaTO
+ARI	0001003	Acute disseminated encephalomyelitis	skos:exactMatch	ORPHA	83597	manual	github:KrishnaTO
+ARI	0001004	Acute febrile mucocutaneous lymph node syndrome	skos:exactMatch	MONDO	0012727	manual	github:KrishnaTO
+ARI	0001005	Acute lichenoid pityriasis	skos:exactMatch	umls	C0162852	manual	github:KrishnaTO
+ARI	0001006	Addison's disease	skos:exactMatch	ORPHA	85138	manual	github:KrishnaTO
+ARI	0001008	Adult onset Still's disease	skos:exactMatch	ORPHA	829	manual	github:KrishnaTO
+ARI	0001002	Acquired hemophilia	skos:exactMatch	ORPHA	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001002	Acquired hemophilia	skos:exactMatch	DOID	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001004	Acute febrile mucocutaneous lymph node syndrome	skos:exactMatch	ORPHA	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001005	Acute lichenoid pityriasis	skos:exactMatch	DOID	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001005	Acute lichenoid pityriasis	skos:exactMatch	ORPHA	NoTermFound	manual-absent	github:KrishnaTO
