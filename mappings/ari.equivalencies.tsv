@@ -512,10 +512,10 @@ ARI	0001019	Antisynthetase syndrome	skos:exactMatch	ORPHA	81	manual	github:aaron
 ARI	0001135	Multiple sclerosis	skos:exactMatch	DOID	2377	manual	github:aaronabend
 ARI	0001135	Multiple sclerosis	skos:exactMatch	MONDO	0005301	manual	github:aaronabend
 ARI	0001135	Multiple sclerosis	skos:exactMatch	ncit	C3243	manual	github:aaronabend
-ARI	0001135	Multiple sclerosis	skos:exactMatch	SNOMEDCT	128460000	manual	github:aaronabend
-ARI	0001135	Multiple sclerosis	skos:exactMatch	SNOMEDCT	426373005	manual	github:aaronabend
-ARI	0001135	Multiple sclerosis	skos:exactMatch	SNOMEDCT	428700003	manual	github:aaronabend
-ARI	0001135	Multiple sclerosis	skos:exactMatch	SNOMEDCT	49692006	manual	github:aaronabend
+ARI	0001135	Multiple sclerosis	skos:exactMatch	SNOMEDCT	128460000	manual-negative	github:aaronabend
+ARI	0001135	Multiple sclerosis	skos:exactMatch	SNOMEDCT	426373005	manual-negative	github:aaronabend
+ARI	0001135	Multiple sclerosis	skos:exactMatch	SNOMEDCT	428700003	manual-negative	github:aaronabend
+ARI	0001135	Multiple sclerosis	skos:exactMatch	SNOMEDCT	49692006	manual-negative	github:aaronabend
 ARI	0001135	Multiple sclerosis	skos:exactMatch	SNOMEDCT	24700007	manual	github:aaronabend
 ARI	0001135	Multiple sclerosis	skos:exactMatch	omop	374919	manual	github:aaronabend
 ARI	0001135	Multiple sclerosis	skos:exactMatch	omop	4178929	manual	github:aaronabend
