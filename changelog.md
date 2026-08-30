@@ -1,5 +1,37 @@
 # Changelog
 
+## chore/adopt-full-mapping-set
+
+**The curated mapping set was split across two repositories, and the half that lived in the app
+repo was the half a curator edits by hand.** `deploy/update-mappings.sh` in the editor app
+documented the workaround rather than fixing it: *"the ARI repo currently only hosts two mapping
+files; the remaining three are managed in the app repo."* This repository now hosts every mapping
+file a curator's decision can change.
+
+- **`mappings/ari.synonym_blocklist.tsv` moves here** (43 rows). It names synonyms stored on an ARI
+  disease that actually name a *different* disease, so the editor app's cross-reference predictor
+  must not match on them. Seeded by a script, but curator-editable and read by the predictor at
+  runtime — a decision, not a build product.
+- **`mappings/ari.mis_curated_synonyms.tsv` moves with it** (70 rows). It is the generated evidence
+  behind those decisions, and the blocklist's own header points at it by name; splitting the pair
+  across repositories would leave the reasoning one repository away from the ruling.
+- **`ari.predicted.sssom.tsv` deliberately stays in the app repo.** It was going to move too, on
+  the assumption that curators diff it against confirmed mappings. They cannot: nothing reads it.
+  `/api/v2/predictions` recomputes predictions live from the reference indexes on every request,
+  and `build_predicted_sssom`/`load_predictions` are exercised only by the app's own tests. It is a
+  stale export of a live computation, carrying its own twelve-column machine schema and stamped
+  `mapping_tool: ARI-metadata-manager predict_service`. Nothing about it is a curator's decision.
+- **The validator gains a blocklist check.** A blocklist row only does anything if it matches a
+  synonym the predictor actually sees, so it can rot silently two ways: a duplicate `(ari_id,
+  synonym)` pair, which is dead weight and the signature of a bad merge, and an `ari_id` no longer
+  in the ontology, which excludes nothing while still reading as a decision someone made. Both are
+  errors now. The report file is a report, so nothing validates it.
+- Both workflows already filter on `mappings/**`, so the new files are covered with no change.
+
+The real blocklist passes clean — 43 rows, no findings — and the repository totals are unchanged at
+65 errors and 25 warnings, so nothing here moved the standing backlog. Each new check verified
+against a synthetic case that should trip it and one that should not.
+
 ## fix/sssom-comment-column
 
 **The editor app and this repository disagreed about the shape of `ari.sssom.tsv`, and the next

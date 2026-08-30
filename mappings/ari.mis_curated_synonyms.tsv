@@ -1,0 +1,71 @@
+ari_id	disease_label	synonym	matched_curie	matched_label	sources	disease_anchor_curie	disease_anchor_label	verdict
+ARI:0001006	Addison's disease	Adrenal cortical hypofunction	DOID:10493	adrenal cortical hypofunction	doid	DOID:13774	Addison's disease	conflicts_with_label
+ARI:0001006	Addison's disease	Adrenal Insufficiency	MESH:D000309	Adrenal Insufficiency	mesh	DOID:13774	Addison's disease	conflicts_with_label
+ARI:0001006	Addison's disease	Primary adrenal insufficiency	MONDO:0015128	primary adrenal insufficiency	mondo,ncit,orphanet	DOID:13774	Addison's disease	conflicts_with_label
+ARI:0001012	Ankylosing spondylitis	Axial spondyloarthritis	MESH:D000089183	Axial Spondyloarthritis	mesh	DOID:7147	ankylosing spondylitis	conflicts_with_label
+ARI:0001012	Ankylosing spondylitis	Spondyloarthritis	NCIT:C116778	Spondyloarthritis	ncit	DOID:7147	ankylosing spondylitis	conflicts_with_label
+ARI:0001031	Autoimmune gastritis	Atrophic gastritis	DOID:8929	atrophic gastritis	doid	DOID:0040090	autoimmune gastritis	conflicts_with_label
+ARI:0001031	Autoimmune gastritis	Autoimmune enteropathy	MONDO:0019787	autoimmune enteropathy	mondo,ncit	DOID:0040090	autoimmune gastritis	conflicts_with_label
+ARI:0001031	Autoimmune gastritis	Eosinophilic gastritis	DOID:4030	eosinophilic gastritis	doid,mondo,ncit	DOID:0040090	autoimmune gastritis	conflicts_with_label
+ARI:0001031	Autoimmune gastritis	Macrocytic Anemia	DOID:2361	macrocytic anemia	doid,mondo,ncit	DOID:0040090	autoimmune gastritis	conflicts_with_label
+ARI:0001031	Autoimmune gastritis	Megaloblastic Anemia	DOID:13382	megaloblastic anemia	doid,mondo,ncit	DOID:0040090	autoimmune gastritis	conflicts_with_label
+ARI:0001049	Autoimmune urticaria	Chronic idiopathic urticaria	MONDO:0044212	chronic idiopathic urticaria	mondo	MONDO:0025513	autoimmune urticaria	conflicts_with_label
+ARI:0001049	Autoimmune urticaria	Chronic urticaria	DOID:0080747	chronic urticaria	doid,mesh,mondo	MONDO:0025513	autoimmune urticaria	conflicts_with_label
+ARI:0001049	Autoimmune urticaria	Physical urticaria	DOID:0060220	physical urticaria	doid,mondo	MONDO:0025513	autoimmune urticaria	conflicts_with_label
+ARI:0001053	Behçet's syndrome	Hughes Stovin syndrome	MONDO:0016425	Hughes-Stovin syndrome	mondo,orphanet	MESH:D001528	Behcet Syndrome	conflicts_with_label
+ARI:0001053	Behçet's syndrome	Hughes-Stovin syndrome	MONDO:0016425	Hughes-Stovin syndrome	mondo,orphanet	MESH:D001528	Behcet Syndrome	conflicts_with_label
+ARI:0001065	Chronic Lyme disease	Lyme Arthritis	NCIT:C119026	Lyme Arthritis	ncit	MESH:D000077342	Post-Lyme Disease Syndrome	conflicts_with_label
+ARI:0001065	Chronic Lyme disease	Lyme disease	DOID:11729	Lyme disease	doid,mesh,mondo,orphanet	MESH:D000077342	Post-Lyme Disease Syndrome	conflicts_with_label
+ARI:0001069	Cold agglutinin disease	Anemia	DOID:2355	anemia	doid,mesh,mondo,ncit	MONDO:0018922	cold agglutinin disease	conflicts_with_label
+ARI:0001073	Crohn's disease	Gastroduodenal Crohn's disease	DOID:0060191	gastroduodenal Crohn's disease	doid	DOID:8778	Crohn's disease	conflicts_with_label
+ARI:0001073	Crohn's disease	Ileocolitis	DOID:0060190	ileocolitis	doid,mondo	DOID:8778	Crohn's disease	conflicts_with_label
+ARI:0001074	Cryptogenic organizing pneumonia	idiopathic interstitial pneumonia	DOID:2797	idiopathic interstitial pneumonia	doid,mondo,ncit,orphanet	DOID:0050157	cryptogenic organizing pneumonia	conflicts_with_label
+ARI:0001074	Cryptogenic organizing pneumonia	Interstitial pneumonia	NCIT:C27006	Interstitial Pneumonia	ncit	DOID:0050157	cryptogenic organizing pneumonia	conflicts_with_label
+ARI:0001076	Cutaneous lupus erythematosus	Discoid lupus erythematosus	MONDO:0019558	discoid lupus erythematosus	mondo,ncit,orphanet	DOID:0050169	cutaneous lupus erythematosus	conflicts_with_label
+ARI:0001084	Endometriosis	Adenomyosis	MESH:D062788	Adenomyosis	mesh,mondo	DOID:289	endometriosis	conflicts_with_label
+ARI:0001085	Enthesitis	Enthesitis-related arthritis	NCIT:C119024	Enthesitis-Related Arthritis	ncit	MONDO:0024419	enthesitis	conflicts_with_label
+ARI:0001109	Immunoglobulin G4 related disease	Eosinophilic angiocentric fibrosis	MONDO:0018676	eosinophilic angiocentric fibrosis	mondo,orphanet	MESH:D000077733	Immunoglobulin G4-Related Disease	conflicts_with_label
+ARI:0001109	Immunoglobulin G4 related disease	IgG4-related retroperitoneal fibrosis	MONDO:0018848	IgG4-related retroperitoneal fibrosis	mondo,orphanet	MESH:D000077733	Immunoglobulin G4-Related Disease	conflicts_with_label
+ARI:0001109	Immunoglobulin G4 related disease	IgG4-related systemic disease	ORPHA:596448	IgG4-related systemic disease	orphanet	MESH:D000077733	Immunoglobulin G4-Related Disease	conflicts_with_label
+ARI:0001109	Immunoglobulin G4 related disease	Multifocal fibrosclerosis	NCIT:C197936	Multifocal Fibrosclerosis	ncit	MESH:D000077733	Immunoglobulin G4-Related Disease	conflicts_with_label
+ARI:0001109	Immunoglobulin G4 related disease	Retroperitoneal fibrosis	MESH:D012185	Retroperitoneal Fibrosis	mesh,ncit	MESH:D000077733	Immunoglobulin G4-Related Disease	conflicts_with_label
+ARI:0001119	Lichen sclerosus	Balanitis xerotica obliterans	DOID:13477	balanitis xerotica obliterans	doid,mesh,mondo,ncit	MESH:D018459	Lichen Sclerosus et Atrophicus	conflicts_with_label
+ARI:0001131	Mooren's ulcer	Corneal Ulcer	DOID:8463	corneal ulcer	doid,mesh,mondo,ncit	DOID:10439	Mooren's ulcer	conflicts_with_label
+ARI:0001149	Paraneoplastic cerebellar degeneration	Paraneoplastic syndrome	MONDO:0021073	paraneoplastic syndrome	mondo,ncit	MESH:D020362	Paraneoplastic Cerebellar Degeneration	conflicts_with_label
+ARI:0001155	POEMS syndrome	Osteosclerotic myeloma	DOID:9541	osteosclerotic myeloma	doid	DOID:14039	POEMS syndrome	conflicts_with_label
+ARI:0001173	Pure red cell aplasia	Acquired pure red cell aplasia	NCIT:C70548	Acquired Pure Red Cell Aplasia	ncit	DOID:1340	pure red-cell aplasia	conflicts_with_label
+ARI:0001173	Pure red cell aplasia	Adult pure red cell aplasia	MONDO:0020338	adult pure red cell aplasia	mondo	DOID:1340	pure red-cell aplasia	conflicts_with_label
+ARI:0001173	Pure red cell aplasia	Primary acquired pure red cell aplasia	ORPHA:98872	Primary acquired pure red cell aplasia	orphanet	DOID:1340	pure red-cell aplasia	conflicts_with_label
+ARI:0001179	Restless legs	Restless leg syndrome	NCIT:C84501	Restless Leg Syndrome	ncit	MESH:D012148	Restless Legs Syndrome	conflicts_with_label
+ARI:0001182	Rheumatic fever	Acute rheumatic myocarditis	NCIT:C35202	Acute Rheumatic Myocarditis	ncit	DOID:1586	rheumatic fever	conflicts_with_label
+ARI:0001198	Systemic sclerosis	Scleroderma	DOID:419	scleroderma	doid,mondo,ncit,orphanet	DOID:418	systemic scleroderma	conflicts_with_label
+ARI:0001201	Temporal arteritis	Granulomatous arteritis	NCIT:C34653	Granulomatous Arteritis	ncit	DOID:13375	temporal arteritis	conflicts_with_label
+ARI:0001208	Uveitis	Autoimmune uveitis	DOID:0040088	autoimmune uveitis	doid,mondo	DOID:13141	uveitis	conflicts_with_label
+ARI:0001211	Warm autoimmune hemolytic anemia	Immune hemolytic anemia	NCIT:C91782	Immune Hemolytic Anemia	ncit	MONDO:0019532	autoimmune hemolytic anemia, warm type	conflicts_with_label
+ARI:0001013	Anti-CASPR2 autoimmune encephalitis	Morvan syndrome	MONDO:0008718	Morvan syndrome	mondo,orphanet			synonym_only_review
+ARI:0001017	Antineutrophil cytoplasmic antibody positive vasculitis	Anti-neutrophil cytoplasmic antibody-associated vasculitis	MESH:D056648	Anti-Neutrophil Cytoplasmic Antibody-Associated Vasculitis	mesh,mondo,orphanet			synonym_only_review
+ARI:0001017	Antineutrophil cytoplasmic antibody positive vasculitis	Churg Strauss syndrome	DOID:3049	Churg-Strauss syndrome	doid,mesh			synonym_only_review
+ARI:0001027	Autoimmune disorder of inner ear	Ménière's disease	DOID:9849	Meniere's disease	doid			synonym_only_review
+ARI:0001029	Autoimmune encephalitis caused by N-methyl D-aspartate receptor antibody	Anti-N-methyl-D-aspartate receptor encephalitis	MESH:D060426	Anti-N-Methyl-D-Aspartate Receptor Encephalitis	mesh			synonym_only_review
+ARI:0001029	Autoimmune encephalitis caused by N-methyl D-aspartate receptor antibody	Anti-NMDA receptor encephalitis	MONDO:0021081	anti-NMDA receptor encephalitis	mondo,ncit			synonym_only_review
+ARI:0001060	Cataplexy and narcolepsy	Narcolepsy type 1	ORPHA:2073	Narcolepsy type 1	orphanet			synonym_only_review
+ARI:0001067	Chronic post-COVID-19 syndrome	Long COVID	DOID:0080848	long COVID	doid			synonym_only_review
+ARI:0001067	Chronic post-COVID-19 syndrome	Post-Acute Sequelae of COVID-19	NCIT:C179263	Post-Acute Sequelae of COVID-19	ncit			synonym_only_review
+ARI:0001092	Fasciitis with eosinophilia syndrome	Eosinophilic fasciitis	MONDO:0009175	eosinophilic fasciitis	mondo,ncit,orphanet			synonym_only_review
+ARI:0001110	Immunoglobulin G4 related ophthalmic disease	IgG4-related ophthalmic disease	ORPHA:449563	IgG4-related ophthalmic disease	orphanet			synonym_only_review
+ARI:0001133	Motor neuropathy with multiple conduction block	Multifocal motor neuropathy	MONDO:0018979	multifocal motor neuropathy	mondo,orphanet			synonym_only_review
+ARI:0001138	Myocarditis due to autoimmune disease	Autoimmune cardiomyopathy	DOID:0040095	autoimmune cardiomyopathy	doid,mondo			synonym_only_review
+ARI:0001138	Myocarditis due to autoimmune disease	Autoimmune myocarditis	DOID:0080767	autoimmune myocarditis	doid,mondo			synonym_only_review
+ARI:0001146	Ophthalmoplegia due to Graves' disease	Graves ophthalmopathy	DOID:0081120	Graves ophthalmopathy	doid,mesh			synonym_only_review
+ARI:0001146	Ophthalmoplegia due to Graves' disease	Graves' ophthalmopathy	DOID:0081120	Graves ophthalmopathy	doid,mesh			synonym_only_review
+ARI:0001153	Pediatric autoimmune neuropsychiatric disorder associated with streptococcal infection	PANDAS	MONDO:0019020	PANDAS	mondo,orphanet			synonym_only_review
+ARI:0001153	Pediatric autoimmune neuropsychiatric disorder associated with streptococcal infection	Pediatric Acute-onset Neuropsychiatric Syndrome	MONDO:1060178	pediatric acute-onset neuropsychiatric syndrome	mondo			synonym_only_review
+ARI:0001158	Polyglandular autoimmune syndrome type 2	Autoimmune polyendocrine syndrome type 2	DOID:0050168	autoimmune polyendocrine syndrome type 2	doid			synonym_only_review
+ARI:0001158	Polyglandular autoimmune syndrome type 2	Carpenter syndrome	DOID:0060234	Carpenter syndrome	doid,mondo,orphanet			synonym_only_review
+ARI:0001167	Primary idiopathic dilated cardiomyopathy	Dilated cardiomyopathy	DOID:12930	dilated cardiomyopathy	doid,mondo,ncit,orphanet			synonym_only_review
+ARI:0001181	Rheumatic Chorea	Sydenham chorea	MONDO:0017648	Sydenham chorea	mondo,ncit,orphanet			synonym_only_review
+ARI:0001189	Sjögren's disease	Keratoconjunctivitis sicca	DOID:12895	keratoconjunctivitis sicca	doid,mesh			synonym_only_review
+ARI:0001189	Sjögren's disease	Sicca syndrome	NCIT:C70647	Sicca Syndrome	ncit			synonym_only_review
+ARI:0001189	Sjögren's disease	Sjögren's syndrome	DOID:12894	Sjogren's syndrome	doid,mesh			synonym_only_review
+ARI:0001190	SLE glomerulonephritis syndrome	Lupus nephritis	DOID:0080162	lupus nephritis	doid,mesh,mondo			synonym_only_review
+ARI:0001199	Systemic sclerosis with limited cutaneous involvement	CREST syndrome	DOID:0060218	CREST syndrome	doid,mesh,mondo,ncit,orphanet			synonym_only_review
