@@ -1,5 +1,38 @@
 # Changelog
 
+## fix/sssom-comment-column
+
+**The editor app and this repository disagreed about the shape of `ari.sssom.tsv`, and the next
+publish would have failed CI.** The app added a tenth SSSOM column, `comment`, in its
+`29074eb` (2026-08-29), which is already on the app's `main` — and the deployed instance tracks
+`main` on a ten-minute timer. `mappings/ari.sssom.tsv` here still carried the nine-column header,
+and `split_rows` rejects a header mismatch outright, so the first cross-reference PR opened after
+that deploy would have been blocked with `Header is [...], expected [...]` and no curator could
+have cleared it from their side.
+
+- **`mappings/ari.sssom.tsv` migrated to ten columns.** Header plus all 502 data rows gain an
+  empty `comment` field. No judgment changes: the validator reports exactly the same 65 errors
+  and 25 warnings before and after, code for code.
+- **`SSSOM_COLUMNS` gains `comment`**, so the file this repository accepts is the file the app
+  writes.
+- **A recorded reversal is no longer a contradiction.** `comment` is where the app annotates the
+  withdrawn side of a reversed judgment (`SUPERSEDED_PREFIX` in `app/sssom_service.py`) rather
+  than deleting the row, so both rows survive on purpose. The `contradiction` check counted rows,
+  so every properly recorded reversal would have been reported as an error the moment the app
+  started writing markers. It now counts only *live* rows — those without the marker — and fires
+  when two live judgments disagree, which is the case it was written for. The message says so:
+  a reversal must annotate the withdrawn row, otherwise one of the two judgments has to go.
+- `SUPERSEDED_MARKER` is declared next to the other vocabularies with a note tying it to the app
+  constant, so the two cannot drift silently.
+
+Verified against a synthetic set: a reversal whose withdrawn row is marked passes, a reversal with
+neither row marked errors, and a lone confirmed row passes. The three SSSOM readers under
+`notebook/ari-grounding/` all use `csv.DictReader`, so the added column reaches them by name and
+needs no change.
+
+**Note for in-flight work:** open PRs #74 and #76 add rows under the nine-column header and will
+need the trailing field after rebasing onto this.
+
 ## disease-target-mapping-sheet
 
 - Added `data/4-reports/8_Disease_Target_Mappings.xlsx`: one row per (disease, target

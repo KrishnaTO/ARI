@@ -47,6 +47,7 @@ SSSOM_COLUMNS = [
     "mapping_justification",
     "author_id",
     "mapping_date",
+    "comment",
 ]
 EQUIV_COLUMNS = [
     "source_prefix",
@@ -58,6 +59,13 @@ EQUIV_COLUMNS = [
     "type",
     "source",
 ]
+
+# A reversed judgment keeps BOTH rows: the editor app annotates the withdrawn one
+# in `comment` instead of deleting it, so a consumer can see which of two
+# contradictory rows was withdrawn without reimplementing the ordering. Kept in
+# step with `SUPERSEDED_PREFIX` in the app's `app/sssom_service.py`. Only rows
+# without this marker count as live judgments.
+SUPERSEDED_MARKER = "Superseded by the "
 
 ALLOWED_PREDICATES = {"skos:exactMatch"}
 ALLOWED_JUSTIFICATIONS = {"semapv:ManualMappingCuration", "semapv:LexicalMatching"}
@@ -431,17 +439,20 @@ def check_sssom_rows(rows: list[Row], report: Report) -> None:
             )
         else:
             seen[key] = line
-        modifiers_by_pair[(subject, object_id)][modifier] = line
+        superseded = fields["comment"].startswith(SUPERSEDED_MARKER)
+        modifiers_by_pair[(subject, object_id)][modifier] = (line, superseded)
 
     for (subject, object_id), by_modifier in modifiers_by_pair.items():
-        if len(by_modifier) > 1:
-            lines = ", ".join(str(by_modifier[m]) for m in sorted(by_modifier))
+        live = sorted(line for line, superseded in by_modifier.values() if not superseded)
+        if len(live) > 1:
+            lines = ", ".join(str(line) for line in live)
             report.error(
                 "contradiction",
                 SSSOM_PATH,
-                min(by_modifier.values()),
+                live[0],
                 f"{subject} -> {object_id} is recorded as both confirmed and flagged-wrong "
-                f"(lines {lines}). One of the two judgments has to go.",
+                f"(lines {lines}) with neither row marked superseded. A reversal must annotate "
+                f"the withdrawn row in `comment`; otherwise one of the two judgments has to go.",
             )
 
     for subject, by_label in labels.items():
