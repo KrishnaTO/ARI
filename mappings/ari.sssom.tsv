@@ -521,15 +521,12 @@ ARI:0001143	Neuromyelitis optica	skos:exactMatch		icd10cm:G36.0	icd10cm	semapv:M
 ARI:0001143	Neuromyelitis optica	skos:exactMatch		ORPHA:71211	ORPHA	semapv:ManualMappingCuration	github:aaronabend	2026-08-17T00:00:00+00:00	
 ARI:0001143	Neuromyelitis optica	skos:exactMatch		mesh:D009471	mesh	semapv:ManualMappingCuration	github:aaronabend	2026-08-17T00:00:00+00:00	
 ARI:0001143	Neuromyelitis optica	skos:exactMatch		sssom:NoTermFound	OMIM	semapv:ManualMappingCuration	github:aaronabend	2026-08-17T00:00:00+00:00	
-ARI:0001056	Birdshot chorioretinopathy	skos:exactMatch		ORPHA:179	ORPHA	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-30T20:37:59+00:00	
 ARI:0001028	Autoimmune encephalitis	skos:exactMatch		omop:4318558	omop	semapv:ManualMappingCuration	github:aaronabend	2026-08-27T00:00:00+00:00	
 ARI:0001028	Autoimmune encephalitis	skos:exactMatch		SNOMEDCT:95643007	SNOMEDCT	semapv:ManualMappingCuration	github:aaronabend	2026-08-27T00:00:00+00:00	
 ARI:0001028	Autoimmune encephalitis	skos:exactMatch		MONDO:0020640	MONDO	semapv:ManualMappingCuration	github:aaronabend	2026-08-27T00:00:00+00:00	
 ARI:0001019	Antisynthetase syndrome	skos:exactMatch		SNOMEDCT:445187004	SNOMEDCT	semapv:ManualMappingCuration	github:aaronabend	2026-08-27T00:00:00+00:00	
 ARI:0001019	Antisynthetase syndrome	skos:exactMatch		omop:40482477	omop	semapv:ManualMappingCuration	github:aaronabend	2026-08-27T00:00:00+00:00	
 ARI:0001019	Antisynthetase syndrome	skos:exactMatch		DOID:0080744	DOID	semapv:ManualMappingCuration	github:aaronabend	2026-08-27T00:00:00+00:00	
-ARI:0001019	Antisynthetase syndrome	skos:exactMatch		MONDO:0019344	MONDO	semapv:ManualMappingCuration	github:aaronabend	2026-08-27T00:00:00+00:00	
-ARI:0001019	Antisynthetase syndrome	skos:exactMatch		ORPHA:81	ORPHA	semapv:ManualMappingCuration	github:aaronabend	2026-08-27T00:00:00+00:00	
 ARI:0001135	Multiple sclerosis	skos:exactMatch		DOID:2377	DOID	semapv:ManualMappingCuration	github:aaronabend	2026-08-27T00:00:00+00:00	
 ARI:0001135	Multiple sclerosis	skos:exactMatch		MONDO:0005301	MONDO	semapv:ManualMappingCuration	github:aaronabend	2026-08-27T00:00:00+00:00	
 ARI:0001135	Multiple sclerosis	skos:exactMatch		ncit:C3243	ncit	semapv:ManualMappingCuration	github:aaronabend	2026-08-27T00:00:00+00:00	

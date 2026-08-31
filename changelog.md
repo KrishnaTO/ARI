@@ -1,5 +1,72 @@
 # Changelog
 
+## restore-overwritten-curation
+
+- Restores curation that the editor app's saves reverted, and re-applies the cleanups they
+  undid. The audit goes from **66 errors** back to **0 errors, 6 warnings**, and every
+  confirmed mapping is now stored on its disease — `confirmed-not-stored` is at zero for the
+  first time since the check was written.
+- **The cause is not curation.** An editor save writes the whole ontology from a copy loaded
+  when the session started, so it reverts anything merged into the branch since. `0f03b91` is
+  labelled a review of one disease, ARI:0001143, and changed 453 lines. `295fb23` deleted a
+  confirmation three seconds after `17e616c` merged it in cleanly. Two curators' saves on
+  17 August landed on byte-identical stale content, which points at a shared server-side copy
+  rather than per-user browser state. **The fix for that belongs in
+  [`KrishnaTO/ARI-metadata-manager`](https://github.com/KrishnaTO/ARI-metadata-manager) and is
+  not in this change** — until a save applies a diff instead of a snapshot, the next publish
+  can revert this one.
+- **Restored 95 changelog entries, 10 synonyms and 17 clinical subtypes** from the merged
+  history, plus **208 synonyms and 57 clinical subtypes** from PR #69, the last commit before
+  the 17 August cliff. Only commits reachable from `main` were read, so nothing arrives from a
+  branch that was never accepted. Synonyms 490 → 708, clinical subtypes 355 → 429, recorded
+  cross-reference reviews 194 → 305. Verified afterwards: every distinct (disease, author,
+  review) record that ever reached `main` is present, and none was invented — 603 of 603.
+- **Stored 30 confirmed cross-references that had never been written to a disease**, across
+  16 diseases — 12 MONDO, 10 Orphanet, 3 UMLS and one each of DOID, NCIt, MeSH, ICD-10 and
+  OMIM. Confirming a term only ever affirmed an id the disease already held, so confirming one
+  the registry lacked recorded a judgment with no data behind it. That skews to MONDO and
+  Orphanet because the original ARI import carried almost nothing from either. Hemophilia B
+  Leyden (ARI:0001098) now holds MONDO:0850054 and ORPHA:617930, confirmed by linikujp on
+  21 August and absent ever since. **Writing the id at confirmation time is also an app-side
+  fix and is not in this change.**
+- **Re-applied the reverted cleanups**: 61 ICD-9 codes filed under `ARI_ICD10`, the two
+  `MONDO:`-prefixed values on ARI:0001080 and ARI:0002, and the ranges `I00-I02` and
+  `390-392.99` on Rheumatic fever. All three had landed on 16 August and were overwritten the
+  next day. Cross-references are now derived from the mapping set rather than from either
+  snapshot: a value flagged `predicate_modifier: Not` is dropped, a confirmed one is stored.
+  That reproduces aaronabend's own correction in `1f18f16` — Multiple sclerosis keeps the
+  single OMOP concept 4027727 and SNOMED 24700007 — without special-casing it.
+- **Fixed three mapping-file errors that had been invisible.** `ari.equivalencies.tsv` and
+  `ari.sssom.tsv` disagreed about which OMOP concept is Multiple sclerosis; the equivalencies
+  rows for 374919 and 4027727 were the inverted pair and now match the SSSOM side and the
+  ontology. Three judgments were recorded twice — a curator reviewed a pair, the record was
+  wiped, the pair resurfaced as unreviewed, and a second curator confirmed the same terms
+  again. The first judgment is kept in each case, so linikujp keeps the credit for
+  ARI:0001019 that was taken once already.
+- **`Validate mappings` can now fail on absence.** It ran with `--since BASE_SHA` and reported
+  only rows a branch added or rewrote, so a save that deleted 385 lines passed clean. The new
+  `check_deletions` compares the ontology against the pull request's base and reports
+  `record-deleted`, `xref-deleted` and `disease-deleted`. A cross-reference may still go — that
+  is what flagging one wrong on the review page does, and the judgment is in the mapping set —
+  but a synonym, a subtype, a changelog entry or an id no curator ruled against may not.
+  Removing a malformed value is exempt, so repairing an ICD-9 code or a doubled prefix is not
+  mistaken for a reversal. Replayed against `0f03b91`, the commit that started this: **24
+  errors**, where CI previously reported none.
+- **Restored the weekly audit's sight.** The editor began writing a tenth `comment` column into
+  `ari.sssom.tsv`; the header check rejected it, `split_rows` returned nothing, and every SSSOM
+  row check was skipped in silence — including the two that exist to catch precisely this. Ports
+  the header fix from `fix/sssom-comment-column` (validator only, none of that branch's data),
+  and widens `mapping_date` to accept the ISO 8601 timestamp the app writes: all 548 rows carry
+  one, and a timestamp sorts after the bare date it falls on, which made every row today read as
+  tomorrow.
+- Two things are deliberately left alone. Some diseases now carry the same review recorded more
+  than once under different timestamps, an artifact of the app re-recording a judgment whose
+  record had been wiped; collapsing them is a curator's call and does not belong in a
+  restoration, particularly one that adds a rule saying `ARI_ChangeLog` is append-only. And
+  Chronic Lyme disease (ARI:0001065) now holds four OMOP concepts — two curated on 16 August,
+  two the stale save put back — with no judgment on any of them; **that pair needs a curator.**
+- The six remaining warnings are the standing `dxcode-without-snomed` debt, unchanged.
+
 ## disease-target-mapping-sheet
 
 - Added `data/4-reports/8_Disease_Target_Mappings.xlsx`: one row per (disease, target
