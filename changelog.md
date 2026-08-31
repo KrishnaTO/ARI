@@ -59,13 +59,33 @@
   and widens `mapping_date` to accept the ISO 8601 timestamp the app writes: all 548 rows carry
   one, and a timestamp sorts after the bare date it falls on, which made every row today read as
   tomorrow.
-- Two things are deliberately left alone. Some diseases now carry the same review recorded more
+- **Judged the four OMOP concepts on Chronic Lyme disease (ARI:0001065)**, which the union had
+  left unreviewed. The disease is Post-Treatment Lyme Disease Syndrome, not Lyme disease: its
+  confirmed cross-references are MeSH D000077342 "Post-Lyme Disease Syndrome", MONDO:0700280,
+  NCIt C119039 and UMLS C3890422, and the curator had already rejected DOID:11729 and
+  icd10cm:A69.2 — both plain "Lyme disease" — and recorded no term in SNOMED. Resolved against
+  the local Athena vocabulary in `data/2-databases`:
+  - `omop:19137845` is MeSH D000077342, the same term already confirmed — **confirmed**.
+  - `omop:440638` is SNOMED 23502006 "Lyme disease" and `omop:4141757` is SNOMED 33937009
+    "Lyme arthritis" — the active infection and one of its manifestations, so both are
+    **flagged wrong**. Storing them contradicted the curator's own "no term in SNOMED" finding.
+  - `omop:37365579` appears in no local vocabulary file, in any column. It is left stored and
+    unjudged: an id nobody can look up is not an id anybody can rule on. **Still needs
+    Athena.**
+  - `ARI_DXCODE` held 23502006 and 33937009 — the SNOMED codes behind the two rejected OMOP
+    concepts. Flagging only the OMOP form would have left the same two concepts on the disease
+    under a second property, so both SNOMED codes are flagged too and the property is now empty.
+    That also clears one of the standing `dxcode-without-snomed` warnings, taking them from 6
+    to 5.
+- **Fixed a latent bug in the `date-future` check** found while recording the above. The app
+  stamps `mapping_date` in UTC and the check compared it against `date.today()`, the local date,
+  so an evening publish anywhere west of UTC read as tomorrow's work. CI runners are UTC and
+  never saw it; a curator in Toronto running the validator after 20:00 would have.
+- One thing is deliberately left alone. Some diseases now carry the same review recorded more
   than once under different timestamps, an artifact of the app re-recording a judgment whose
   record had been wiped; collapsing them is a curator's call and does not belong in a
-  restoration, particularly one that adds a rule saying `ARI_ChangeLog` is append-only. And
-  Chronic Lyme disease (ARI:0001065) now holds four OMOP concepts — two curated on 16 August,
-  two the stale save put back — with no judgment on any of them; **that pair needs a curator.**
-- The six remaining warnings are the standing `dxcode-without-snomed` debt, unchanged.
+  restoration, particularly one that adds a rule saying `ARI_ChangeLog` is append-only.
+- The five remaining warnings are the standing `dxcode-without-snomed` debt.
 
 ## disease-target-mapping-sheet
 

@@ -29,7 +29,7 @@ import subprocess
 import sys
 import xml.etree.ElementTree as ElementTree
 from dataclasses import dataclass
-from datetime import date
+from datetime import date, datetime, timezone
 
 REPO_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
@@ -358,7 +358,11 @@ def stored_ids(disease: Disease, prefix: str) -> dict[str, int]:
 
 
 def check_sssom_rows(rows: list[Row], report: Report) -> None:
-    today = date.today().isoformat()
+    # The app stamps `mapping_date` in UTC, so "today" has to be UTC too. Against
+    # a local date this reported every evening publish west of UTC as tomorrow's
+    # work — CI runners are UTC and never saw it, curators running the validator
+    # locally did.
+    today = datetime.now(timezone.utc).date().isoformat()
     seen: dict[tuple, int] = {}
     modifiers_by_pair: dict[tuple, dict[str, int]] = collections.defaultdict(dict)
     labels: dict[str, dict[str, int]] = collections.defaultdict(dict)
