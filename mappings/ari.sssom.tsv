@@ -565,3 +565,8 @@ ARI:0001002	Acquired hemophilia	skos:exactMatch		sssom:NoTermFound	DOID	semapv:M
 ARI:0001004	Acute febrile mucocutaneous lymph node syndrome	skos:exactMatch		sssom:NoTermFound	ORPHA	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-30T20:37:59+00:00	
 ARI:0001005	Acute lichenoid pityriasis	skos:exactMatch		sssom:NoTermFound	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-30T20:37:59+00:00	
 ARI:0001005	Acute lichenoid pityriasis	skos:exactMatch		sssom:NoTermFound	ORPHA	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-30T20:37:59+00:00	
+ARI:0001065	Chronic Lyme disease	skos:exactMatch		omop:19137845	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-31T02:09:20+00:00	
+ARI:0001065	Chronic Lyme disease	skos:exactMatch	Not	omop:440638	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-31T02:09:20+00:00	
+ARI:0001065	Chronic Lyme disease	skos:exactMatch	Not	omop:4141757	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-31T02:09:20+00:00	
+ARI:0001065	Chronic Lyme disease	skos:exactMatch	Not	SNOMEDCT:23502006	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-31T02:09:20+00:00	
+ARI:0001065	Chronic Lyme disease	skos:exactMatch	Not	SNOMEDCT:33937009	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-31T02:09:20+00:00	

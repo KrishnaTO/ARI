@@ -544,3 +544,8 @@ ARI	0001002	Acquired hemophilia	skos:exactMatch	DOID	NoTermFound	manual-absent	g
 ARI	0001004	Acute febrile mucocutaneous lymph node syndrome	skos:exactMatch	ORPHA	NoTermFound	manual-absent	github:KrishnaTO
 ARI	0001005	Acute lichenoid pityriasis	skos:exactMatch	DOID	NoTermFound	manual-absent	github:KrishnaTO
 ARI	0001005	Acute lichenoid pityriasis	skos:exactMatch	ORPHA	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001065	Chronic Lyme disease	skos:exactMatch	omop	19137845	manual	github:KrishnaTO
+ARI	0001065	Chronic Lyme disease	skos:exactMatch	omop	440638	manual-negative	github:KrishnaTO
+ARI	0001065	Chronic Lyme disease	skos:exactMatch	omop	4141757	manual-negative	github:KrishnaTO
+ARI	0001065	Chronic Lyme disease	skos:exactMatch	SNOMEDCT	23502006	manual-negative	github:KrishnaTO
+ARI	0001065	Chronic Lyme disease	skos:exactMatch	SNOMEDCT	33937009	manual-negative	github:KrishnaTO

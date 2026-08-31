@@ -7326,8 +7326,6 @@ Currently, the cause of interstitial cystitis is unknown. There are two main the
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chronic Lyme disease</rdfs:label>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
   <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001065</ARI_ID>
-  <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">440638, 4141757</ARI_OMOP>
-  <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">33937009, 23502006</ARI_DXCODE>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lyme disease (named for the town of Lyme, Connecticut where it was first identified) is a bacterial disease transmitted through the bite of an infected black-legged tick, commonly known as a deer tick. Infection is possible after 24 to 48 hours.  If the tick is not removed by then, it can transmit one of four main species of bacteria that cause Lyme disease: Borrelia burgdorferi, Borrelia mayonii, Borrelia afzelii and Borrelia garinii bacteria. The infection can be detected by a red “bulls-eye” rash or by Bell’s Palsy, a condition in which facial muscles are paralyzed. 
 
 If the disease is detected and treated (with antibiotics) recovery is usually complete and symptoms like Bell’s disappear completely. In these cases, there is no autoimmune disease.   
@@ -7398,6 +7396,7 @@ However, in some people, the Lyme disease triggers symptoms similar to rheumatoi
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">post-treatment Lyme disease syndrome</ARI_Synonym>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19137845</ARI_OMOP>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">37365579</ARI_OMOP>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-31T02:09:20+00:00 | KrishnaTO | Cross-reference review: confirmed OMOP 19137845; flagged OMOP 440638, 4141757; flagged SNOMED 23502006, 33937009</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001065_531">
