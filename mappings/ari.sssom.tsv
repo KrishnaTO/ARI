@@ -535,11 +535,11 @@ ARI:0001135	Multiple sclerosis	skos:exactMatch	Not	SNOMEDCT:426373005	SNOMEDCT	s
 ARI:0001135	Multiple sclerosis	skos:exactMatch	Not	SNOMEDCT:428700003	SNOMEDCT	semapv:ManualMappingCuration	github:aaronabend	2026-08-27T00:00:00+00:00	
 ARI:0001135	Multiple sclerosis	skos:exactMatch	Not	SNOMEDCT:49692006	SNOMEDCT	semapv:ManualMappingCuration	github:aaronabend	2026-08-27T00:00:00+00:00	
 ARI:0001135	Multiple sclerosis	skos:exactMatch		SNOMEDCT:24700007	SNOMEDCT	semapv:ManualMappingCuration	github:aaronabend	2026-08-27T00:00:00+00:00	
-ARI:0001135	Multiple sclerosis	skos:exactMatch	Not	omop:374919	omop	semapv:ManualMappingCuration	github:aaronabend	2026-08-27T00:00:00+00:00	
+ARI:0001135	Multiple sclerosis	skos:exactMatch		omop:374919	omop	semapv:ManualMappingCuration	github:aaronabend	2026-08-27T00:00:00+00:00	
 ARI:0001135	Multiple sclerosis	skos:exactMatch	Not	omop:4178929	omop	semapv:ManualMappingCuration	github:aaronabend	2026-08-27T00:00:00+00:00	
 ARI:0001135	Multiple sclerosis	skos:exactMatch	Not	omop:4145049	omop	semapv:ManualMappingCuration	github:aaronabend	2026-08-27T00:00:00+00:00	
 ARI:0001135	Multiple sclerosis	skos:exactMatch	Not	omop:376970	omop	semapv:ManualMappingCuration	github:aaronabend	2026-08-27T00:00:00+00:00	
-ARI:0001135	Multiple sclerosis	skos:exactMatch		omop:4027727	omop	semapv:ManualMappingCuration	github:aaronabend	2026-08-27T00:00:00+00:00	
+ARI:0001135	Multiple sclerosis	skos:exactMatch	Not	omop:4027727	omop	semapv:ManualMappingCuration	github:aaronabend	2026-08-27T00:00:00+00:00	
 ARI:0001028	Autoimmune encephalitis	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:aaronabend	2026-08-27T00:00:00+00:00	
 ARI:0001098	Hemophilia B Leyden	skos:exactMatch		MONDO:0850054	MONDO	semapv:ManualMappingCuration	github:linikujp	2026-08-21T00:00:00+00:00	
 ARI:0001098	Hemophilia B Leyden	skos:exactMatch		ORPHA:617930	ORPHA	semapv:ManualMappingCuration	github:linikujp	2026-08-21T00:00:00+00:00	
@@ -570,3 +570,10 @@ ARI:0001065	Chronic Lyme disease	skos:exactMatch	Not	omop:440638	omop	semapv:Man
 ARI:0001065	Chronic Lyme disease	skos:exactMatch	Not	omop:4141757	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-31T02:09:20+00:00	
 ARI:0001065	Chronic Lyme disease	skos:exactMatch	Not	SNOMEDCT:23502006	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-31T02:09:20+00:00	
 ARI:0001065	Chronic Lyme disease	skos:exactMatch	Not	SNOMEDCT:33937009	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-31T02:09:20+00:00	
+ARI:0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch		MONDO:0010580	MONDO	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-03T00:00:00+00:00	
+ARI:0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch		OMIM:304790	OMIM	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-03T00:00:00+00:00	
+ARI:0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch		ORPHA:37042	ORPHA	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-03T00:00:00+00:00	
+ARI:0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch		mesh:C580192	mesh	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-03T00:00:00+00:00	
+ARI:0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch		ncit:C131009	ncit	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-03T00:00:00+00:00	
+ARI:0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch		umls:C0342288	umls	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-03T00:00:00+00:00	
+ARI:0001107	Immune thrombocytopenia	skos:exactMatch		umls:C0398650	umls	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-10T00:00:00+00:00	

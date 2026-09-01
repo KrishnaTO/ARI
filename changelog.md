@@ -1,5 +1,43 @@
 # Changelog
 
+## fix-ms-omop-and-lost-judgments
+
+- **Corrects an error `restore-overwritten-curation` introduced.** OMOP `4027727` is
+  "Systemic sclerosis, diffuse" (SNOMED 128460000); OMOP `374919` is "Multiple sclerosis"
+  (SNOMED 24700007). The SSSOM rows for ARI:0001135 had the two verdicts swapped,
+  `ari.equivalencies.tsv` had them the right way round, and the earlier branch resolved that
+  disagreement in favour of the SSSOM side without checking either concept's label. So `main`
+  stored the systemic sclerosis concept on Multiple sclerosis and had dropped the correct one.
+  The curator's own SNOMED verdicts settle it: they confirmed 24700007 and flagged 128460000,
+  which are exactly 374919 and 4027727. Both exports and `ARI_OMOP` now say 374919.
+- The lesson generalises: a mapping row is not self-validating. Every stored OMOP concept was
+  re-checked against the SNOMED code it carries and the SNOMED codes its disease stores. Five
+  more diseases hold an OMOP concept broader or narrower than their SNOMED one — ARI:0001057
+  (Pemphigoid vs Bullous pemphigoid), ARI:0001117 (Juvenile idiopathic vs Juvenile Rheumatoid
+  Arthritis), ARI:0001138, ARI:0001144 and ARI:0001196 (Lupus erythematosus vs SLE). Those are
+  pre-existing curation questions, not errors introduced here, and are **left for a curator**.
+- **Restored six confirmations on ARI:0001106** (IPEX). AnjaliRH recorded nine judgments on
+  2026-08-03; `02938dd` wiped every row for the disease on the 4th, and her next publish on the
+  7th restored four. The six confirmations — MONDO:0010580, OMIM:304790, ORPHA:37042,
+  mesh:C580192, ncit:C131009, umls:C0342288 — never came back, though every id is still stored
+  on the disease and her changelog entry still names them. The review page therefore showed six
+  cells as never reviewed when they had been.
+- This is the first confirmed loss of *mapping rows*, as opposed to ontology records. The
+  earlier branch checked only back to PR #69 and found the mapping set additive over that
+  window; the loss is older, from the 2026-08-04 save.
+- **Added `umls:C0398650` on ARI:0001107** (Immune thrombocytopenia). The id is stored and a
+  changelog entry names AnjaliRH confirming it on 2026-08-10, but no row was ever written.
+  This creates the record that entry implies rather than restoring a deleted one.
+- Audited every disease for the same shape — an id stored, or a changelog entry naming it, with
+  no judgment in the mapping set. What remains is deliberate: 11 ICD-9 codes whose rows the
+  ICD-9 retirement removed on purpose, and one entry on ARI:0003 whose row exists under the
+  repaired `MONDO:0014523` spelling.
+- **One finding needs a curator, not a fix.** ARI:0001143 (Neuromyelitis optica) carries a
+  changelog entry from 2026-08-27 confirming OMOP `4027727` — systemic sclerosis again, on a
+  third disease. The mapping set holds the correct `omop:380995`, so the data is right and only
+  the note is wrong; but the same wrong concept reaching two diseases in one session suggests a
+  mis-click worth knowing about.
+
 ## restore-overwritten-curation
 
 - Restores curation that the editor app's saves reverted, and re-applies the cleanups they

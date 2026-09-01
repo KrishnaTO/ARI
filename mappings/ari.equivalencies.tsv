@@ -515,11 +515,11 @@ ARI	0001135	Multiple sclerosis	skos:exactMatch	SNOMEDCT	426373005	manual-negativ
 ARI	0001135	Multiple sclerosis	skos:exactMatch	SNOMEDCT	428700003	manual-negative	github:aaronabend
 ARI	0001135	Multiple sclerosis	skos:exactMatch	SNOMEDCT	49692006	manual-negative	github:aaronabend
 ARI	0001135	Multiple sclerosis	skos:exactMatch	SNOMEDCT	24700007	manual	github:aaronabend
-ARI	0001135	Multiple sclerosis	skos:exactMatch	omop	374919	manual-negative	github:aaronabend
+ARI	0001135	Multiple sclerosis	skos:exactMatch	omop	374919	manual	github:aaronabend
 ARI	0001135	Multiple sclerosis	skos:exactMatch	omop	4178929	manual-negative	github:aaronabend
 ARI	0001135	Multiple sclerosis	skos:exactMatch	omop	4145049	manual-negative	github:aaronabend
 ARI	0001135	Multiple sclerosis	skos:exactMatch	omop	376970	manual-negative	github:aaronabend
-ARI	0001135	Multiple sclerosis	skos:exactMatch	omop	4027727	manual	github:aaronabend
+ARI	0001135	Multiple sclerosis	skos:exactMatch	omop	4027727	manual-negative	github:aaronabend
 ARI	0001028	Autoimmune encephalitis	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:aaronabend
 ARI	0001098	Hemophilia B Leyden	skos:exactMatch	MONDO	0850054	manual	github:linikujp
 ARI	0001098	Hemophilia B Leyden	skos:exactMatch	ORPHA	617930	manual	github:linikujp
@@ -549,3 +549,10 @@ ARI	0001065	Chronic Lyme disease	skos:exactMatch	omop	440638	manual-negative	git
 ARI	0001065	Chronic Lyme disease	skos:exactMatch	omop	4141757	manual-negative	github:KrishnaTO
 ARI	0001065	Chronic Lyme disease	skos:exactMatch	SNOMEDCT	23502006	manual-negative	github:KrishnaTO
 ARI	0001065	Chronic Lyme disease	skos:exactMatch	SNOMEDCT	33937009	manual-negative	github:KrishnaTO
+ARI	0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch	MONDO	0010580	manual	github:AnjaliRH
+ARI	0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch	OMIM	304790	manual	github:AnjaliRH
+ARI	0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch	ORPHA	37042	manual	github:AnjaliRH
+ARI	0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch	mesh	C580192	manual	github:AnjaliRH
+ARI	0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch	ncit	C131009	manual	github:AnjaliRH
+ARI	0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch	umls	C0342288	manual	github:AnjaliRH
+ARI	0001107	Immune thrombocytopenia	skos:exactMatch	umls	C0398650	manual	github:AnjaliRH

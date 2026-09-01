@@ -11677,6 +11677,7 @@ ASA is not a concern except for people trying to conceive.</rdfs:comment>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0342288</ARI_UMLS>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C580192</ARI_MESH>
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0090110</ARI_DOID>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-01T00:10:35+00:00 | KrishnaTO | Cross-reference review: restored confirmed MONDO 0010580; OMIM 304790; ORPHANET 37042; MESH C580192; NCI C131009; UMLS C0342288</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001107">
@@ -11752,6 +11753,7 @@ Note that thrombotic thrombocytopenic purpura, TTP, is a ***genetic*** disease t
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2897005</ARI_DXCODE>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4103532</ARI_OMOP>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0242584</ARI_UMLS>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-01T00:10:35+00:00 | KrishnaTO | Cross-reference review: confirmed UMLS C0398650</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001107_335">
@@ -14505,7 +14507,7 @@ Although this rare disease most commonly affects children, adults may have this 
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G35</ARI_ICD10>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D009103</ARI_MESH>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C3243</ARI_NCI>
-  <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4027727</ARI_OMOP>
+  <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">374919</ARI_OMOP>
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24700007</ARI_DXCODE>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Multiple Sclerosis (MS) is a central nervous system disease that occurs when the immune system attacks the myelin, which is a protective covering around the nerves. The nerves may then suffer permanent damage. The cause of the abnormal immune system action is unknown, but there seems to be some genetic link. The most common form of MS is relapsing-remitting which occurs when a patient has symptom-free periods, but the patient may develop a progressive form where the symptoms worsen over time. Women are affected twice as often as men. MS varies in severity, with some people losing the ability to walk.</rdfs:comment>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disseminated sclerosis</ARI_Synonym>
@@ -14544,6 +14546,7 @@ Although this rare disease most commonly affects children, adults may have this 
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-27 17:57 | aaronabend | Cross-reference review: confirmed DOID 2377; confirmed MONDO 0005301; confirmed NCI C3243; confirmed SNOMED 128460000, 426373005, 428700003, 49692006, 24700007; confirmed OMOP 374919, 4178929, 4145049, 376970, 4027727</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-27 17:57 | aaronabend | Cross-reference review: confirmed DOID 2377; confirmed MONDO 0005301; confirmed NCI C3243; confirmed SNOMED 24700007; confirmed OMOP 4027727</ARI_ChangeLog>
   <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0005301</ARI_MONDO>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-01T00:10:35+00:00 | KrishnaTO | Cross-reference review: confirmed OMOP 374919; flagged OMOP 4027727</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001135_1241">
