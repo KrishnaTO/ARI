@@ -8656,7 +8656,6 @@ Both UC and CD are caused by an autoimmune response that reflects the involvemen
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-03T00:34:19+00:00 | KrishnaTO | Cross-reference review: flagged UMLS C0156147</ARI_ChangeLog>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">34000006</ARI_SNOMED>
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8778</ARI_DOID>
-  <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0156147</ARI_UMLS>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0010346</ARI_UMLS>
   <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0005011</ARI_MONDO>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">K50</ARI_ICD10>
@@ -8691,6 +8690,7 @@ Both UC and CD are caused by an autoimmune response that reflects the involvemen
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CRD</ARI_SurveyCode>
   <ARI_OMIM rdf:datatype="http://www.w3.org/2001/XMLSchema#string">266600</ARI_OMIM>
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">206</ARI_ORPHANET>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-03T00:46:11+00:00 | KrishnaTO | Removed flagged cross-reference: UMLS C0156147</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001073_662">
@@ -8818,19 +8818,15 @@ Both UC and CD are caused by an autoimmune response that reflects the involvemen
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-03T00:34:19+00:00 | KrishnaTO | Cross-reference review: flagged NCI C35806; flagged ICD10 J84.114; flagged UMLS C0085786; flagged MESH D000080203</ARI_ChangeLog>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">719218000</ARI_SNOMED>
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2797</ARI_DOID>
-  <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0085786</ARI_UMLS>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0242770</ARI_UMLS>
   <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0015264</ARI_MONDO>
-  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J84.114</ARI_ICD10>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J84.116</ARI_ICD10>
   <ARI_PrevalenceDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female 14787/100k; Male 12718/100k; F:M ratio 1.16268</ARI_PrevalenceDesc>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gudmundsson 2006; https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2117106/</ARI_DefSource>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">36714118</ARI_OMOP>
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">719218000</ARI_DXCODE>
-  <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D000080203</ARI_MESH>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D018549</ARI_MESH>
-  <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C35806</ARI_NCI>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C62586</ARI_NCI>
   <ARI_RefLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Link to Cleveland Clinic | https://my.clevelandclinic.org/health/diseases/24119-cryptogenic-organizing-pneumonia</ARI_RefLink>
   <ARI_Author rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune Registry</ARI_Author>
@@ -8849,6 +8845,7 @@ Both UC and CD are caused by an autoimmune response that reflects the involvemen
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lymphoid interstitial pneumonia - subtype of Cryptogenic organizing pneumonia (DOID:0050159)</ARI_ClinicalSubtype>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COP</ARI_SurveyCode>
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1302</ARI_ORPHANET>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-03T00:46:11+00:00 | KrishnaTO | Removed flagged cross-reference: NCI C35806; ICD10 J84.114; UMLS C0085786; MESH D000080203</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001074_677">
