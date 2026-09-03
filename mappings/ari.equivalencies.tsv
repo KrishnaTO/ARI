@@ -556,3 +556,9 @@ ARI	0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Synd
 ARI	0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch	ncit	C131009	manual	github:AnjaliRH
 ARI	0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch	umls	C0342288	manual	github:AnjaliRH
 ARI	0001107	Immune thrombocytopenia	skos:exactMatch	umls	C0398650	manual	github:AnjaliRH
+ARI	0001067	Chronic post-COVID-19 syndrome	skos:exactMatch	icd10cm	U09.9	manual	github:KrishnaTO
+ARI	0001073	Crohn's disease	skos:exactMatch	umls	C0156147	manual-negative	github:KrishnaTO
+ARI	0001074	Cryptogenic organizing pneumonia	skos:exactMatch	ncit	C35806	manual-negative	github:KrishnaTO
+ARI	0001074	Cryptogenic organizing pneumonia	skos:exactMatch	icd10cm	J84.114	manual-negative	github:KrishnaTO
+ARI	0001074	Cryptogenic organizing pneumonia	skos:exactMatch	umls	C0085786	manual-negative	github:KrishnaTO
+ARI	0001074	Cryptogenic organizing pneumonia	skos:exactMatch	mesh	D000080203	manual-negative	github:KrishnaTO
