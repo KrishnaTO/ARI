@@ -577,3 +577,9 @@ ARI:0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Synd
 ARI:0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch		ncit:C131009	ncit	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-03T00:00:00+00:00	
 ARI:0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch		umls:C0342288	umls	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-03T00:00:00+00:00	
 ARI:0001107	Immune thrombocytopenia	skos:exactMatch		umls:C0398650	umls	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-10T00:00:00+00:00	
+ARI:0001067	Chronic post-COVID-19 syndrome	skos:exactMatch		icd10cm:U09.9	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-03T00:34:22+00:00	
+ARI:0001073	Crohn's disease	skos:exactMatch	Not	umls:C0156147	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-03T00:34:22+00:00	
+ARI:0001074	Cryptogenic organizing pneumonia	skos:exactMatch	Not	ncit:C35806	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-03T00:34:22+00:00	
+ARI:0001074	Cryptogenic organizing pneumonia	skos:exactMatch	Not	icd10cm:J84.114	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-03T00:34:22+00:00	
+ARI:0001074	Cryptogenic organizing pneumonia	skos:exactMatch	Not	umls:C0085786	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-03T00:34:22+00:00	
+ARI:0001074	Cryptogenic organizing pneumonia	skos:exactMatch	Not	mesh:D000080203	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-03T00:34:22+00:00	
