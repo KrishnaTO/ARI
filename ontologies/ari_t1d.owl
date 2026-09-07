@@ -17875,6 +17875,7 @@ To date, there is no direct or indirect evidence that post-pericardiotomy syndro
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:49:07+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 31712002; confirmed OMOP 4135822; confirmed DOID 12236; confirmed MONDO 0005388; confirmed NCI C27167; confirmed UMLS C0008312; confirmed ORPHANET 186; confirmed ICD10 K74.3; confirmed MESH D008105; flagged NCI C51225; flagged UMLS C0023892; flagged ICD10 K74.5</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:52:07+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 31712002; confirmed OMOP 4135822; confirmed DOID 12236; confirmed MONDO 0005388; confirmed NCI C27167; confirmed UMLS C0008312; confirmed ORPHANET 186; confirmed ICD10 K74.3; confirmed MESH D008105; flagged NCI C51225; flagged UMLS C0023892; flagged ICD10 K74.5</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:53:50+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 31712002; confirmed OMOP 4135822; confirmed DOID 12236; confirmed MONDO 0005388; confirmed NCI C27167; confirmed UMLS C0008312; confirmed ORPHANET 186; confirmed ICD10 K74.3; confirmed MESH D008105; flagged NCI C51225; flagged UMLS C0023892; flagged ICD10 K74.5</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:54:53+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 31712002; confirmed OMOP 4135822; confirmed DOID 12236; confirmed MONDO 0005388; confirmed NCI C27167; confirmed UMLS C0008312; confirmed ORPHANET 186; confirmed ICD10 K74.3; confirmed MESH D008105; flagged NCI C51225; flagged UMLS C0023892; flagged ICD10 K74.5</ARI_ChangeLog>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">31712002</ARI_SNOMED>
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12236</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0008312</ARI_UMLS>
@@ -19383,6 +19384,7 @@ The severity of cases may vary, with mild cases resolving in under a year and se
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:49:07+00:00 | KrishnaTO | Stored confirmed cross-reference: MONDO 0019390; NCI C116363; MESH D055955; UMLS C2717757; ORPHANET 838</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:52:07+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 702575003; confirmed OMOP 45765600; confirmed MONDO 0019390; confirmed NCI C116363; confirmed MESH D055955; confirmed UMLS C2717757; confirmed ORPHANET 838; no term in DOID; no term in ICD10</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:53:50+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 702575003; confirmed OMOP 45765600; confirmed MONDO 0019390; confirmed NCI C116363; confirmed MESH D055955; confirmed UMLS C2717757; confirmed ORPHANET 838; no term in DOID; no term in ICD10</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:54:53+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 702575003; confirmed OMOP 45765600; confirmed MONDO 0019390; confirmed NCI C116363; confirmed MESH D055955; confirmed UMLS C2717757; confirmed ORPHANET 838; no term in DOID; no term in ICD10</ARI_ChangeLog>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">702575003</ARI_SNOMED>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C2717757</ARI_UMLS>
   <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0019390</ARI_MONDO>
@@ -20358,6 +20360,7 @@ Patients with Schnitzler syndrome typically experience chronic rash, relapsing f
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:49:07+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 402415001; confirmed OMOP 4297647; confirmed DOID 4371; confirmed MONDO 0018304; confirmed ORPHANET 37748; confirmed UMLS C0524988; confirmed MESH D019873; no term in NCI; no term in ICD10</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:52:07+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 402415001; confirmed OMOP 4297647; confirmed DOID 4371; confirmed MONDO 0018304; confirmed ORPHANET 37748; confirmed UMLS C0524988; confirmed MESH D019873; no term in NCI; no term in ICD10</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:53:50+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 402415001; confirmed OMOP 4297647; confirmed DOID 4371; confirmed MONDO 0018304; confirmed ORPHANET 37748; confirmed UMLS C0524988; confirmed MESH D019873; no term in NCI; no term in ICD10</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:54:53+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 402415001; confirmed OMOP 4297647; confirmed DOID 4371; confirmed MONDO 0018304; confirmed ORPHANET 37748; confirmed UMLS C0524988; confirmed MESH D019873; no term in NCI; no term in ICD10</ARI_ChangeLog>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">402415001</ARI_SNOMED>
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4371</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0524988</ARI_UMLS>
@@ -20791,6 +20794,7 @@ Patients with Schnitzler syndrome typically experience chronic rash, relapsing f
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:49:07+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 68815009; confirmed OMOP 4285717; confirmed DOID 0080162; confirmed MONDO 0005556; confirmed NCI C34789; confirmed UMLS C0024143; confirmed MESH D008181; no term in ICD10; no term in ORPHANET</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:52:07+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 68815009; confirmed OMOP 4285717; confirmed DOID 0080162; confirmed MONDO 0005556; confirmed NCI C34789; confirmed UMLS C0024143; confirmed MESH D008181; no term in ICD10; no term in ORPHANET</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:53:50+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 68815009; confirmed OMOP 4285717; confirmed DOID 0080162; confirmed MONDO 0005556; confirmed NCI C34789; confirmed UMLS C0024143; confirmed MESH D008181; no term in ICD10; no term in ORPHANET</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:54:53+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 68815009; confirmed OMOP 4285717; confirmed DOID 0080162; confirmed MONDO 0005556; confirmed NCI C34789; confirmed UMLS C0024143; confirmed MESH D008181; no term in ICD10; no term in ORPHANET</ARI_ChangeLog>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">68815009</ARI_SNOMED>
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0080162</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0024143</ARI_UMLS>
@@ -20947,6 +20951,7 @@ Patients with Schnitzler syndrome typically experience chronic rash, relapsing f
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:49:07+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 709489006; confirmed DOID 0070701; confirmed OMOP 46271378; confirmed MONDO 0800207; confirmed NCI C125389; confirmed UMLS C3276706; confirmed MESH D000071075; no term in ORPHANET; no term in ICD10</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:52:07+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 709489006; confirmed DOID 0070701; confirmed OMOP 46271378; confirmed MONDO 0800207; confirmed NCI C125389; confirmed UMLS C3276706; confirmed MESH D000071075; no term in ORPHANET; no term in ICD10</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:53:50+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 709489006; confirmed DOID 0070701; confirmed OMOP 46271378; confirmed MONDO 0800207; confirmed NCI C125389; confirmed UMLS C3276706; confirmed MESH D000071075; no term in ORPHANET; no term in ICD10</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:54:53+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 709489006; confirmed DOID 0070701; confirmed OMOP 46271378; confirmed MONDO 0800207; confirmed NCI C125389; confirmed UMLS C3276706; confirmed MESH D000071075; no term in ORPHANET; no term in ICD10</ARI_ChangeLog>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">709489006</ARI_SNOMED>
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0070701</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C3276706</ARI_UMLS>
@@ -21363,6 +21368,7 @@ This condition most frequently occurs following surgery to a region of the body 
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:52:07+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 73774007; confirmed OMOP 4249899; confirmed DOID 4562; confirmed MONDO 0006981; confirmed NCI C34583; confirmed MESH D004698; confirmed UMLS C0014122; no term in ICD10; no term in ORPHANET</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:52:07+00:00 | KrishnaTO | Stored confirmed cross-reference: MONDO 0006981</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:53:50+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 73774007; confirmed OMOP 4249899; confirmed DOID 4562; confirmed MONDO 0006981; confirmed NCI C34583; confirmed MESH D004698; confirmed UMLS C0014122; no term in ICD10; no term in ORPHANET</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:54:53+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 73774007; confirmed OMOP 4249899; confirmed DOID 4562; confirmed MONDO 0006981; confirmed NCI C34583; confirmed MESH D004698; confirmed UMLS C0014122; no term in ICD10; no term in ORPHANET</ARI_ChangeLog>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">73774007</ARI_SNOMED>
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4562</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0014122</ARI_UMLS>
@@ -22415,6 +22421,7 @@ Early symptoms may include fever, night sweats, fatigue, joint pain, and chest d
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:49:07+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 400130008; confirmed OMOP 4290976; confirmed DOID 13375; confirmed MONDO 0008538; confirmed NCI C35065; confirmed UMLS C0039483; confirmed ORPHANET 397; confirmed MESH D013700</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:52:07+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 400130008; confirmed OMOP 4290976; confirmed DOID 13375; confirmed MONDO 0008538; confirmed NCI C35065; confirmed UMLS C0039483; confirmed ORPHANET 397; confirmed MESH D013700</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:53:50+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 400130008; confirmed OMOP 4290976; confirmed DOID 13375; confirmed MONDO 0008538; confirmed NCI C35065; confirmed UMLS C0039483; confirmed ORPHANET 397; confirmed MESH D013700</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:54:53+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 400130008; confirmed OMOP 4290976; confirmed DOID 13375; confirmed MONDO 0008538; confirmed NCI C35065; confirmed UMLS C0039483; confirmed ORPHANET 397; confirmed MESH D013700</ARI_ChangeLog>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">400130008</ARI_SNOMED>
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13375</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0039483</ARI_UMLS>
@@ -22575,6 +22582,7 @@ Early symptoms may include fever, night sweats, fatigue, joint pain, and chest d
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew "Cancer-associated myositis" - a broader category; anti-TIF1-gamma dermatomyositis is one (cancer-enriched) serologic subtype. The entity is left with no synonyms.</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:52:07+00:00 | KrishnaTO | Cross-reference review: no term in SNOMED; no term in OMOP; no term in DOID; no term in MONDO; no term in NCI; no term in MESH; no term in UMLS; no term in ORPHANET; no term in ICD10</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:53:50+00:00 | KrishnaTO | Cross-reference review: no term in SNOMED; no term in OMOP; no term in DOID; no term in MONDO; no term in NCI; no term in MESH; no term in UMLS; no term in ORPHANET; no term in ICD10</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:54:53+00:00 | KrishnaTO | Cross-reference review: no term in SNOMED; no term in OMOP; no term in DOID; no term in MONDO; no term in NCI; no term in MESH; no term in UMLS; no term in ORPHANET; no term in ICD10</ARI_ChangeLog>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
   <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cancer-associated myositis | broader | cancer-associated myositis also covers anti-NXP2 and seronegative cases, and not all anti-TIF1-gamma patients have cancer; a broader category</ARI_SynonymWithdrawn>
 </owl:NamedIndividual>
@@ -22603,6 +22611,7 @@ Early symptoms may include fever, night sweats, fatigue, joint pain, and chest d
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:49:07+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 95794005; confirmed OMOP 4317989; confirmed DOID 1278; confirmed MONDO 0018983; confirmed NCI C85193; confirmed MESH D020333; confirmed UMLS C0040381; confirmed ORPHANET 64686; no term in ICD10</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:52:07+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 95794005; confirmed OMOP 4317989; confirmed DOID 1278; confirmed MONDO 0018983; confirmed NCI C85193; confirmed MESH D020333; confirmed UMLS C0040381; confirmed ORPHANET 64686; no term in ICD10</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:53:50+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 95794005; confirmed OMOP 4317989; confirmed DOID 1278; confirmed MONDO 0018983; confirmed NCI C85193; confirmed MESH D020333; confirmed UMLS C0040381; confirmed ORPHANET 64686; no term in ICD10</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:54:53+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 95794005; confirmed OMOP 4317989; confirmed DOID 1278; confirmed MONDO 0018983; confirmed NCI C85193; confirmed MESH D020333; confirmed UMLS C0040381; confirmed ORPHANET 64686; no term in ICD10</ARI_ChangeLog>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">95794005</ARI_SNOMED>
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1278</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0040381</ARI_UMLS>
@@ -22696,6 +22705,7 @@ Early symptoms may include fever, night sweats, fatigue, joint pain, and chest d
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:53:13+00:00 | user | Edited: icd10</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:53:50+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 16631009; confirmed OMOP 443904; confirmed DOID 0080743; confirmed MONDO 0021553; confirmed MESH D009188; confirmed UMLS C0026976; no term in NCI; no term in ORPHANET</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:53:50+00:00 | KrishnaTO | Stored confirmed cross-reference: MONDO 0021553; MESH D009188; UMLS C0026976</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:54:53+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 16631009; confirmed OMOP 443904; confirmed DOID 0080743; confirmed MONDO 0021553; confirmed MESH D009188; confirmed UMLS C0026976; no term in NCI; no term in ORPHANET</ARI_ChangeLog>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16631009</ARI_SNOMED>
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0080743</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0026976</ARI_UMLS>
@@ -23068,6 +23078,7 @@ Both UC and CD are caused by an autoimmune response that reflects the involvemen
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:49:07+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 239918008; confirmed OMOP 4344165; confirmed MONDO 0019527; confirmed NCI C116776; confirmed MESH D000074079; confirmed UMLS C0409999; confirmed ORPHANET 90002; no term in DOID</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:52:07+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 239918008; confirmed OMOP 4344165; confirmed MONDO 0019527; confirmed NCI C116776; confirmed MESH D000074079; confirmed UMLS C0409999; confirmed ORPHANET 90002; no term in DOID</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:53:50+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 239918008; confirmed OMOP 4344165; confirmed MONDO 0019527; confirmed NCI C116776; confirmed MESH D000074079; confirmed UMLS C0409999; confirmed ORPHANET 90002; no term in DOID</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:54:53+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 239918008; confirmed OMOP 4344165; confirmed MONDO 0019527; confirmed NCI C116776; confirmed MESH D000074079; confirmed UMLS C0409999; confirmed ORPHANET 90002; no term in DOID</ARI_ChangeLog>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">239918008</ARI_SNOMED>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0409999</ARI_UMLS>
   <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0019527</ARI_MONDO>
@@ -23240,6 +23251,7 @@ Urticaria can also be caused by allergic reaction to plants like poison ivy, dye
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:49:07+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 402656007; confirmed OMOP 4292532; flagged MONDO 0018227; flagged ORPHANET 36412; flagged UMLS C0343206; no term in DOID; no term in MONDO; no term in NCI; no term in ICD10; no term in MESH; no term in ORPHANET</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:52:07+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 402656007; confirmed OMOP 4292532; flagged MONDO 0018227; flagged ORPHANET 36412; flagged UMLS C0343206; no term in DOID; no term in MONDO; no term in NCI; no term in ICD10; no term in MESH; no term in ORPHANET</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:53:50+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 402656007; confirmed OMOP 4292532; flagged MONDO 0018227; flagged ORPHANET 36412; flagged UMLS C0343206; no term in DOID; no term in MONDO; no term in NCI; no term in ICD10; no term in MESH; no term in ORPHANET</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:54:53+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 402656007; confirmed OMOP 4292532; flagged MONDO 0018227; flagged ORPHANET 36412; flagged UMLS C0343206; no term in DOID; no term in MONDO; no term in NCI; no term in ICD10; no term in MESH; no term in ORPHANET</ARI_ChangeLog>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">402656007</ARI_SNOMED>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1304408</ARI_UMLS>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kolkhir 2020; https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7063238/</ARI_DefSource>
@@ -23658,7 +23670,6 @@ Normally, the color of hair, skin, and eyes is determined by melanin. Vitiligo o
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001211">
   <rdf:type rdf:resource="#AutoimmuneDisease"/>
-  <targetsTissue rdf:resource="#Tissue_Blood"/>
   <hasSymptom rdf:resource="#Sym_0001211_2195"/>
   <hasSymptom rdf:resource="#Sym_0001211_2196"/>
   <hasSymptom rdf:resource="#Sym_0001211_2197"/>
@@ -23670,35 +23681,43 @@ Normally, the color of hair, skin, and eyes is determined by melanin. Vitiligo o
   <hasSymptom rdf:resource="#Sym_0001211_2203"/>
   <hasSymptom rdf:resource="#Sym_0001211_2204"/>
   <hasSymptom rdf:resource="#Sym_0001211_2240"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Warm autoimmune hemolytic anemia</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-  <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001211</ARI_ID>
-  <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3978000</ARI_SNOMED>
-  <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4219853</ARI_OMOP>
-  <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3978000</ARI_DXCODE>
+  <targetsTissue rdf:resource="#Tissue_Blood"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Warm autoimmune hemolytic anemia is caused when a person's antibodies attack and destroy their red blood cells.  Unlike cold agglutinin disease, the autoimmune destruction of cells occurs when a person's body temperature is normal or above normal.  It leads to low red blood cell levels in the body.  
 
 Some cases of this disease are caused by medications and are not autoimmune.</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Warm autoimmune hemolytic anemia</rdfs:label>
+  <evidenceQuality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antibody</evidenceQuality>
+  <diseaseCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune</diseaseCategory>
+  <prevalencePer100k rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">121136.0</prevalencePer100k>
+  <ageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30-60 years</ageRange>
+  <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001211</ARI_ID>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Idiopathic autoimmune hemolytic anemia</ARI_Synonym>
+  <ARI_Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</ARI_Version>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew "Immune hemolytic anemia", "Acquired autoimmune hemolytic anemia" and "Immunohemolytic anemia" - broader categories; warm AIHA is one type. Kept the warm-specific synonyms (wAIHA, warm AIHA, etc.) and 'Idiopathic autoimmune hemolytic anemia' (noted).</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:54:53+00:00 | KrishnaTO | Cross-reference review: confirmed ICD10 D59.11; confirmed ORPHANET 90033; confirmed UMLS C0272118; confirmed NCI C162611; confirmed MONDO 0019532; confirmed SNOMED 3978000; confirmed OMOP 4219853; no term in DOID; no term in MESH</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:54:53+00:00 | KrishnaTO | Stored confirmed cross-reference: ICD10 D59.11; ORPHANET 90033; UMLS C0272118; NCI C162611; MONDO 0019532</ARI_ChangeLog>
+  <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3978000</ARI_SNOMED>
+  <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0272118</ARI_UMLS>
+  <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0019532</ARI_MONDO>
+  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D59.11</ARI_ICD10>
+  <ARI_PrevalenceDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female 70337/100k; Male 50799/100k; F:M ratio 1.38461</ARI_PrevalenceDesc>
+  <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eaton 2011; https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2892249/</ARI_DefSource>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+  <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4219853</ARI_OMOP>
+  <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3978000</ARI_DXCODE>
+  <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C162611</ARI_NCI>
+  <ARI_RefLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Link to Cleveland Clinic | https://my.clevelandclinic.org/health/diseases/22349-autoimmune-hemolytic-anemia</ARI_RefLink>
+  <ARI_RefLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Warm Autoimmune Hemolytic Anemia | https://www.facebook.com/groups/302296907404576/</ARI_RefLink>
+  <ARI_Author rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Darrison Haftarczyk | www.linkedin.com/in/darrison-haftarczyk-579418190</ARI_Author>
+  <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-01</ARI_AuthorDate>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WAIHA, Primary - No underlying disease.</ARI_ClinicalSubtype>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WAIHA, Secondary - Associated with lupus, lymphoma, or infections.</ARI_ClinicalSubtype>
+  <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WAHA</ARI_SurveyCode>
+  <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">90033</ARI_ORPHANET>
   <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Immune hemolytic anemia | broader | includes warm AIHA, cold agglutinin disease, paroxysmal cold haemoglobinuria, drug-induced and alloimmune haemolysis</ARI_SynonymWithdrawn>
   <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acquired autoimmune hemolytic anemia | broader | acquired AIHA covers warm, cold, mixed and drug-induced types; this entity is the warm type</ARI_SynonymWithdrawn>
   <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Immunohemolytic anemia | broader | = immune haemolytic anaemia, the broad category</ARI_SynonymWithdrawn>
-  <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eaton 2011; https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2892249/</ARI_DefSource>
-  <evidenceQuality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antibody</evidenceQuality>
-  <diseaseCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune</diseaseCategory>
-  <ARI_Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</ARI_Version>
-  <prevalencePer100k rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">121136.0</prevalencePer100k>
-  <ARI_PrevalenceDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female 70337/100k; Male 50799/100k; F:M ratio 1.38461</ARI_PrevalenceDesc>
-  <ageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30-60 years</ageRange>
-  <ARI_RefLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Link to Cleveland Clinic | https://my.clevelandclinic.org/health/diseases/22349-autoimmune-hemolytic-anemia</ARI_RefLink>
-  <ARI_RefLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Warm Autoimmune Hemolytic Anemia | https://www.facebook.com/groups/302296907404576/</ARI_RefLink>
-  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WAIHA, Primary - No underlying disease.</ARI_ClinicalSubtype>
-  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WAIHA, Secondary - Associated with lupus, lymphoma, or infections.</ARI_ClinicalSubtype>
-  <ARI_Author rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Darrison Haftarczyk | www.linkedin.com/in/darrison-haftarczyk-579418190</ARI_Author>
-  <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-01</ARI_AuthorDate>
-  <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WAHA</ARI_SurveyCode>
-  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
-  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew "Immune hemolytic anemia", "Acquired autoimmune hemolytic anemia" and "Immunohemolytic anemia" - broader categories; warm AIHA is one type. Kept the warm-specific synonyms (wAIHA, warm AIHA, etc.) and 'Idiopathic autoimmune hemolytic anemia' (noted).</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001211_2195">
