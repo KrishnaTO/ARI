@@ -1,5 +1,41 @@
 # Changelog
 
+## disease-synonyms-subtypes
+
+- **Reviews `ARI_Synonym` strings against the disease's own concept and retires the ones
+  that are not synonyms.** Each disease's synonyms were checked against the exact-synonym
+  list and subclass hierarchy of the MONDO / DOID term it maps to (via EBI OLS), with
+  clinical judgement where no mapping exists. A string that names a narrower form, a
+  broader parent, a different disease, or a downstream finding is not a synonym.
+- **New retirement mechanism.** `ARI_Synonym` stays append-only. A synonym is now retired
+  by removing its line **and** adding an `ARI_SynonymWithdrawn` marker on the same disease,
+  shaped `<synonym> | <reason> | <note>` with `<reason>` in
+  `subtype` / `broader` / `distinct` / `non-disease`. `validate_mappings.py` accepts a
+  synonym removal that carries a matching marker and still fails an unexplained one; it
+  also shape-checks the markers (`withdrawn-synonym-shape`, `-reason`, `-still-present`)
+  and treats `ARI_SynonymWithdrawn` as append-only itself. `ARI_ClinicalSubtype` and
+  `ARI_ChangeLog` are untouched — still strictly append-only.
+- **Batch 1 — 25 diseases (ARI:0001001–0001044), 69 synonym strings.** 37 kept, 13 kept
+  with a note for a curator, **19 withdrawn across 9 diseases**: 9 name an existing
+  `ARI_ClinicalSubtype` (`subtype`), 4 a broader parent (`broader`), 4 a different disease
+  (`distinct`), 2 a downstream haematologic finding (`non-disease`). Every withdrawn
+  synonym maps to a subtype already listed on the disease, so no `ARI_ClinicalSubtype`
+  lines were added or rewritten. Each edited disease carries a dated `ARI_ChangeLog` line.
+- Withdrawn: ADEM — *Nonvasculitic autoimmune inflammatory meningoencephalitis*,
+  *Hurst's disease*, *Weston-Hurst syndrome*; Addison's disease — *Adrenal Insufficiency*,
+  *Adrenal cortical hypofunction*; Ankylosing spondylitis — *Axial spondyloarthritis*,
+  *Spondyloarthritis*; Anti-CASPR2 encephalitis — *Morvan syndrome*; ANCA-associated
+  vasculitis — *Churg Strauss syndrome*, *Wegener's Granulomatosis*; Autoimmune inner-ear
+  disease — *Ménière's disease*; Autoimmune gastritis — *Megaloblastic Anemia*,
+  *Macrocytic Anemia*, *Eosinophilic gastritis*, *Autoimmune enteropathy*; Autoimmune
+  neutropenia — *Autoimmune neutropenia of infancy*, *Primary autoimmune neutropenia*;
+  Autoimmune pancreatitis — *Lymphoplasmocytic sclerosing pancreatitis*, *Nonalcoholic
+  destructive pancreatitis*.
+- **One pre-existing bug noted for a curator, not fixed here:** ARI:0001031 is labelled
+  *Autoimmune gastritis* but its `rdfs:comment` describes autoimmune enteropathy.
+- Batches 2+ (the remaining ~121 diseases with synonyms) follow once this rubric is
+  confirmed.
+
 ## fix-ms-omop-and-lost-judgments
 
 - **Corrects an error `restore-overwritten-curation` introduced.** OMOP `4027727` is

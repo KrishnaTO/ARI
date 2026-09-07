@@ -184,6 +184,8 @@
 
 <owl:AnnotationProperty rdf:about="#ARI_Synonym"/>
 
+<owl:AnnotationProperty rdf:about="#ARI_SynonymWithdrawn"/>
+
 <owl:AnnotationProperty rdf:about="#ARI_Version"/>
 
 <owl:AnnotationProperty rdf:about="#ARI_ChangeLog"/>
@@ -1926,9 +1928,9 @@
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">83942000, 72986009</ARI_DXCODE>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acute disseminated encephalomyelitis (ADEM) is caused when inflammation stemming from fever or immunization damages the myelin sheaths of nerves in the brain, spinal cord, and occasionally the optic nerves, leading to abnormal nerve function.  Onset is brief but intense and occurs predominantly in children.  Patients often experience complete recovery within 6 months and do not experience relapses. The risk of developing ADEM depends on several factors, including genetics, exposure to infectious organisms, immunization exposure, and lighter skin pigmentation. ADEM can affect people of all ethnic backgrounds globally. Between 50% to 85% of ADEM cases are linked to a prior infection or vaccination, with many following a viral or bacterial infection. Nonetheless, the specific pathogen causing ADEM is often unknown.</rdfs:comment>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADEM</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nonvasculitic autoimmune inflammatory meningoencephalitis</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hurst's disease</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Weston-Hurst syndrome</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nonvasculitic autoimmune inflammatory meningoencephalitis | distinct | NAIM/SREAT-spectrum steroid-responsive encephalopathy, a different entity from ADEM</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hurst's disease | subtype | eponym for acute haemorrhagic leukoencephalitis, the hyperacute haemorrhagic variant of ADEM (subtype "Hyperacute/Fulminant ADEM")</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Weston-Hurst syndrome | subtype | eponym for acute haemorrhagic leukoencephalitis, the hyperacute haemorrhagic variant of ADEM (subtype "Hyperacute/Fulminant ADEM")</ARI_SynonymWithdrawn>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Filippi and Rocca 2020; https://link.springer.com/chapter/10.1007/978-3-030-38621-4_5; Tenembaum 2002; https://pubmed.ncbi.nlm.nih.gov/12391351/</ARI_DefSource>
   <ARI_Pubmed rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/12391351/</ARI_Pubmed>
   <evidenceQuality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antibody</evidenceQuality>
@@ -1960,6 +1962,7 @@
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-13 03:09 | user | Edited: orphanet</ARI_ChangeLog>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">374021</ARI_OMOP>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-30T20:37:56+00:00 | KrishnaTO | Cross-reference review: confirmed MONDO 0019383; confirmed ICD10 G04.0; confirmed ORPHANET 83597</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew "Nonvasculitic autoimmune inflammatory meningoencephalitis" (distinct entity) and "Hurst's disease" / "Weston-Hurst syndrome" (name the hyperacute haemorrhagic variant AHLE; covered by subtype "Hyperacute/Fulminant ADEM").</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Tissue_NervousSystem">
@@ -2334,8 +2337,8 @@ The cause of Kawasaki's Disease is uncertain but is believed to be autoimmune.  
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C26689</ARI_NCI>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Addison's disease is a hormonal disorder that occurs when the adrenal glands do not produce enough of certain hormones. The two hormones that tend to be affected the most are cortisol and aldosterone. Symptoms may occur slowly over several months, and most people do not realize these are symptoms of Addison’s and ignore them. Early symptoms include fatigue, dizziness or fainting due to low blood pressure, sweating due to low blood sugar, upset stomach, abdominal pain, and muscle cramps or weakness. If symptoms become worse quickly, then it can develop into an adrenal crisis, resulting in death if not treated quickly enough.</rdfs:comment>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune adrenalitis</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adrenal Insufficiency</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adrenal cortical hypofunction</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adrenal Insufficiency | broader | umbrella term including secondary/tertiary and non-autoimmune adrenal insufficiency</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adrenal cortical hypofunction | broader | parent class of Addison's disease in the Disease Ontology; covers non-autoimmune causes</ARI_SynonymWithdrawn>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Primary adrenal insufficiency</ARI_Synonym>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olaffson 2016; https://pubmed.ncbi.nlm.nih.gov/26437215/</ARI_DefSource>
   <ARI_Pubmed rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/26437215/</ARI_Pubmed>
@@ -2371,6 +2374,7 @@ The cause of Kawasaki's Disease is uncertain but is believed to be autoimmune.  
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-22 15:39 | user | Edited: orphanet</ARI_ChangeLog>
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">363732003</ARI_DXCODE>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-30T20:37:56+00:00 | KrishnaTO | Cross-reference review: confirmed ORPHANET 85138</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew "Adrenal Insufficiency" and "Adrenal cortical hypofunction" as broader parent concepts of the autoimmune disease.</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Tissue_Glands">
@@ -3008,8 +3012,8 @@ However, based on the research available at this time, there is no evidence that
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">437082</ARI_OMOP>
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9631008</ARI_DXCODE>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ankylosing spondylitis, a form of arthritis, triggers inflammation in the spine's joints and ligaments, potentially extending to peripheral joints such as knees, ankles, and hips. Typically, these spinal joints and ligaments facilitate movement and flexibility. However, in ankylosing spondylitis, inflammation can induce stiffness. In severe instances, this inflammation may prompt the vertebrae to fuse together, resulting in a rigid and immobile spine. Although there's no cure, various treatments can manage symptoms effectively. These may encompass exercises, physical or occupational therapy to enhance mobility and posture, and medications to alleviate pain, reduce inflammation, improve posture, and slow disease progression. With appropriate treatment, individuals with ankylosing spondylitis can lead fulfilling lives.</rdfs:comment>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Axial spondyloarthritis</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spondyloarthritis</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Axial spondyloarthritis | broader | parent concept; ankylosing spondylitis is the radiographic subtype of axial spondyloarthritis</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spondyloarthritis | broader | disease family (includes psoriatic, reactive, enteropathic and peripheral spondyloarthritis)</ARI_SynonymWithdrawn>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bakland 2005 ; https://onlinelibrary.wiley.com/doi/full/10.1002/art.21577</ARI_DefSource>
   <evidenceQuality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unconfirmed</evidenceQuality>
   <diseaseCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unconfirmed</diseaseCategory>
@@ -3037,6 +3041,7 @@ However, based on the research available at this time, there is no evidence that
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-10 18:09 | KrishnaTO | Cross-reference review: flagged ICD10 720.0</ARI_ChangeLog>
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">825</ARI_ORPHANET>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-22 15:42 | user | Edited: orphanet</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew "Axial spondyloarthritis" and "Spondyloarthritis" as broader parent concepts.</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Tissue_Musculoskeletal">
@@ -3165,7 +3170,8 @@ However, based on the research available at this time, there is no evidence that
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</ARI_DefSource>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nervous System</ARI_DefSource>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-02 15:40 | Krishna Udaiwal | Edited: age_range, clinical_subtypes, def_source, definition, demographic_bias, disease_category, doid, evidence_quality, icd10, incidence_rate, mesh, mondo, name, nci, obsolete, omop, prevalence_desc, prevalence_per_100k, prevalence_value, snomed, synonyms, umls</ARI_ChangeLog>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morvan syndrome</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morvan syndrome | subtype | a specific CASPR2-antibody phenotype (encephalopathy + peripheral nerve hyperexcitability + dysautonomia); already an ARI_ClinicalSubtype</ARI_SynonymWithdrawn>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew "Morvan syndrome" — a CASPR2-antibody phenotype already listed as an ARI_ClinicalSubtype.</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001014">
@@ -3330,10 +3336,10 @@ However, based on the research available at this time, there is no evidence that
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">722191003, 82275008, 195353004</ARI_DXCODE>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anti-neutrophil cytoplasmic antibody (ANCA)-associated vasculitis (AAV) is a group of diseases characterized by destruction and inflammation of small vessels. The clinical signs vary and affect several organs, such as the kidney, stomach, intestine, and lung. Skin symptoms like purpura (small purple spots) may appear when small blood vessels leak under the skin. AAV occurs when the immune system produces ANCAs, which mistakenly activate neutrophils, a type of white blood cell. These activated neutrophils damage the lining of blood vessels. Though the mechanism of damage is understood, the triggers that lead to AAV are unknown.</rdfs:comment>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anti-neutrophil cytoplasmic antibody-associated vasculitis</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Churg Strauss syndrome</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Churg Strauss syndrome | subtype | eosinophilic granulomatosis with polyangiitis (EGPA); already an ARI_ClinicalSubtype</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wegener's Granulomatosis | subtype | granulomatosis with polyangiitis (GPA); already an ARI_ClinicalSubtype</ARI_SynonymWithdrawn>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANCA-associated vasculitis</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANCA vasculitis</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wegener's Granulomatosis</ARI_Synonym>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Berti 2017; https://pubmed.ncbi.nlm.nih.gov/28881446/; Mohammad 2007; https://pubmed.ncbi.nlm.nih.gov/17553910/</ARI_DefSource>
   <ARI_Pubmed rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/28881446/</ARI_Pubmed>
   <ARI_Pubmed rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/17553910/</ARI_Pubmed>
@@ -3364,6 +3370,7 @@ However, based on the research available at this time, there is no evidence that
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D056648</ARI_MESH>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-22 15:49 | user | Edited: mesh</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-22 16:03 | KrishnaTO | Cross-reference review: flagged DOID 3049</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew "Churg Strauss syndrome" (EGPA) and "Wegener's Granulomatosis" (GPA) — subtypes of ANCA-associated vasculitis already listed as ARI_ClinicalSubtypes.</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001017_161">
@@ -3916,7 +3923,7 @@ The trigger for antisynthetase syndrome is unknown, but it may be associated wit
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4337463, 79833</ARI_OMOP>
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">232308006, 13445001</ARI_DXCODE>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune inner ear disease (AIED) is a condition characterized by inflammation of the inner ear. It happens when the immune system mistakenly targets cells in the inner ear as if they were a virus or bacteria. AIED is uncommon, affecting fewer than one percent of the 28 million Americans with hearing loss. The symptoms of AIED are sudden hearing loss in one ear progressing rapidly to the second ear. The hearing loss can progress over weeks or months. It can happen alone or in addition to other systemic autoimmune disorders.</rdfs:comment>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ménière's disease</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ménière's disease | distinct | separate clinical entity (idiopathic endolymphatic hydrops); autoimmune inner-ear disease is a different diagnosis</ARI_SynonymWithdrawn>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vambutas 2016; https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5113311/</ARI_DefSource>
   <evidenceQuality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Immune-mediated</evidenceQuality>
   <diseaseCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune</diseaseCategory>
@@ -3930,6 +3937,7 @@ The trigger for antisynthetase syndrome is unknown, but it may be associated wit
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-04</ARI_AuthorDate>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIE</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew "Ménière's disease" — a distinct clinical entity, not a synonym for autoimmune inner-ear disease.</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001027_210">
@@ -4272,12 +4280,12 @@ When the NMDA receptor antibodies attack the NMDA receptors in the brain, certai
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">192667, 4341626, 432295</ARI_OMOP>
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">84568007, 235728001, 84027009</ARI_DXCODE>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune enteropathy is an extremely rare disease characterized by diarrhea that does not respond to treatment and may require intravenous feeding to sustain the patient. It is diagnosed most frequently in infants, and it is marked by the presence of antibodies to the enzyme tryptophan hydroxylase, which performs a number of functions in human biology,  Autoimmune enteropathy is increasingly being diagnosed in adults, but the symptoms are the same as many more common diseases, so correct diagnosis is difficult.   It is more frequently diagnosed in patients already diagnosed with other autoimmune diseases such as autoimmune polyendocrine syndrome 1.</rdfs:comment>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Megaloblastic Anemia</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Megaloblastic Anemia | non-disease | downstream haematologic consequence of B12 deficiency, not a name for the gastritis</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Macrocytic Anemia | non-disease | downstream haematologic consequence of B12 deficiency, not a name for the gastritis</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eosinophilic gastritis | distinct | separate disease in the eosinophilic gastrointestinal disease spectrum</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune enteropathy | distinct | separate small-bowel disease with anti-enterocyte antibodies</ARI_SynonymWithdrawn>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune atrophic gastritis</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Atrophic gastritis</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Macrocytic Anemia</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eosinophilic gastritis</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune enteropathy</ARI_Synonym>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ruemmele 2015; https://www.sciencedirect.com/topics/immunology-and-microbiology/autoimmune-enteropathy; Toh 1997; https://pubmed.ncbi.nlm.nih.gov/9358143/</ARI_DefSource>
   <ARI_Pubmed rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/9358143/</ARI_Pubmed>
   <evidenceQuality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antibody</evidenceQuality>
@@ -4293,6 +4301,7 @@ When the NMDA receptor antibodies attack the NMDA receptors in the brain, certai
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2025-02</ARI_AuthorDate>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AG</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew "Megaloblastic Anemia" / "Macrocytic Anemia" (B12-deficiency consequences) and "Eosinophilic gastritis" / "Autoimmune enteropathy" (distinct diseases).</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Tissue_DigestiveSystem">
@@ -4781,8 +4790,8 @@ Primary neutropenia is diagnosed when there are no other conditions diagnosed. S
 Primary neutropenia most often appears in infants and children. The cause may be unrelated to autoimmune disease. Most cases of childhood primary neutropenia that are autoimmune are not serious and the disease goes away in 3 to 5 years with no long term effects. However, in a relatively small number of patients, the disease becomes chronic.  Adults, mostly women, can also develop primary autoimmune neutropenia after childhood.  These cases are almost always chronic. 
 
 In chronic autoimmune neutropenia the body produces IgG antibodies that target and destroy the body's own white blood cells (“neutrophils”), which leads to a lowered white blood cell count and leaves patients with weakened immune systems susceptible to bacterial and other infections.</rdfs:comment>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune neutropenia of infancy</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Primary autoimmune neutropenia</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune neutropenia of infancy | subtype | the benign primary form of infancy/childhood; covered by ARI_ClinicalSubtype "Autoimmune Neutropenia, Primary"</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Primary autoimmune neutropenia | subtype | primary/idiopathic form; already an ARI_ClinicalSubtype ("Autoimmune Neutropenia, Primary")</ARI_SynonymWithdrawn>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chaudhari 2020; https://pubmed.ncbi.nlm.nih.gov/32809736/</ARI_DefSource>
   <ARI_Pubmed rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/32809736/</ARI_Pubmed>
   <evidenceQuality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antibody</evidenceQuality>
@@ -4797,6 +4806,7 @@ In chronic autoimmune neutropenia the body produces IgG antibodies that target a
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2025-02</ARI_AuthorDate>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AN</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew "Autoimmune neutropenia of infancy" and "Primary autoimmune neutropenia" — the primary subtype, already an ARI_ClinicalSubtype.</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001040_270">
@@ -5038,9 +5048,9 @@ In chronic autoimmune neutropenia the body produces IgG antibodies that target a
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40490446, 36716715, 37162896</ARI_OMOP>
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">448542008, 722872000, 1197740007</ARI_DXCODE>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune pancreatitis is a rare autoimmune disorder characterized by inflammation of the pancreas that may be acute or chronic. It is thought to be caused by the body's immune system attacking healthy cells of the pancreas. There are two subtypes of AIP, known as type 1 and type 2. Type 1 is the most common and it affects the pancreas, along with other organs, such as the liver, salivary glands, kidneys, lymph nodes, and gallbladder. Type 2 seems to only affect the pancreas but is associated with inflammatory bowel disease. Symptomatic patients often experience yellowing of the eyes (jaundice) and weight loss, but many patients are asymptomatic.  Autoimmune pancreatitis is a non-cancerous condition, but it is often mistaken for pancreatic cancer due to similar signs and symptoms.  There is no cure, but the condition is well-managed with treatment.</rdfs:comment>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lymphoplasmocytic sclerosing pancreatitis</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lymphoplasmocytic sclerosing pancreatitis | subtype | histopathological name for type 1 (IgG4-related) AIP; already an ARI_ClinicalSubtype</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nonalcoholic destructive pancreatitis | subtype | idiopathic duct-centric pancreatitis = type 2 AIP; already an ARI_ClinicalSubtype</ARI_SynonymWithdrawn>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tumefactive pancreatitis</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nonalcoholic destructive pancreatitis</ARI_Synonym>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cai 2017; https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5288542/</ARI_DefSource>
   <evidenceQuality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Immune-mediated</evidenceQuality>
   <diseaseCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune</diseaseCategory>
@@ -5057,6 +5067,7 @@ In chronic autoimmune neutropenia the body produces IgG antibodies that target a
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-09</ARI_AuthorDate>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AP</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew "Lymphoplasmocytic sclerosing pancreatitis" (type 1 AIP) and "Nonalcoholic destructive pancreatitis" (type 2 AIP) — subtypes already listed as ARI_ClinicalSubtypes.</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001043_306">
