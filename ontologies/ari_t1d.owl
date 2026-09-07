@@ -17872,6 +17872,10 @@ To date, there is no direct or indirect evidence that post-pericardiotomy syndro
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:44:38+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 31712002; confirmed OMOP 4135822; confirmed DOID 12236; confirmed MONDO 0005388; confirmed NCI C27167; confirmed UMLS C0008312; confirmed ORPHANET 186; confirmed ICD10 K74.3; confirmed MESH D008105; flagged NCI C51225; flagged UMLS C0023892; flagged ICD10 K74.5</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:44:38+00:00 | KrishnaTO | Stored confirmed cross-reference: MONDO 0005388; ORPHANET 186</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:44:38+00:00 | KrishnaTO | Removed flagged cross-reference: NCI C51225; UMLS C0023892; ICD10 K74.5</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:49:07+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 31712002; confirmed OMOP 4135822; confirmed DOID 12236; confirmed MONDO 0005388; confirmed NCI C27167; confirmed UMLS C0008312; confirmed ORPHANET 186; confirmed ICD10 K74.3; confirmed MESH D008105; flagged NCI C51225; flagged UMLS C0023892; flagged ICD10 K74.5</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:52:07+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 31712002; confirmed OMOP 4135822; confirmed DOID 12236; confirmed MONDO 0005388; confirmed NCI C27167; confirmed UMLS C0008312; confirmed ORPHANET 186; confirmed ICD10 K74.3; confirmed MESH D008105; flagged NCI C51225; flagged UMLS C0023892; flagged ICD10 K74.5</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:53:50+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 31712002; confirmed OMOP 4135822; confirmed DOID 12236; confirmed MONDO 0005388; confirmed NCI C27167; confirmed UMLS C0008312; confirmed ORPHANET 186; confirmed ICD10 K74.3; confirmed MESH D008105; flagged NCI C51225; flagged UMLS C0023892; flagged ICD10 K74.5</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:54:53+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 31712002; confirmed OMOP 4135822; confirmed DOID 12236; confirmed MONDO 0005388; confirmed NCI C27167; confirmed UMLS C0008312; confirmed ORPHANET 186; confirmed ICD10 K74.3; confirmed MESH D008105; flagged NCI C51225; flagged UMLS C0023892; flagged ICD10 K74.5</ARI_ChangeLog>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">31712002</ARI_SNOMED>
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12236</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0008312</ARI_UMLS>
@@ -19340,7 +19344,6 @@ In cases where the cartilage is not visible, RP can cause heart valve abnormalit
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001180">
   <rdf:type rdf:resource="#AutoimmuneDisease"/>
-  <targetsTissue rdf:resource="#Tissue_VascularSystem"/>
   <hasSymptom rdf:resource="#Sym_0001180_1752"/>
   <hasSymptom rdf:resource="#Sym_0001180_1753"/>
   <hasSymptom rdf:resource="#Sym_0001180_1754"/>
@@ -19360,37 +19363,48 @@ In cases where the cartilage is not visible, RP can cause heart valve abnormalit
   <hasSymptom rdf:resource="#Sym_0001180_1768"/>
   <hasSymptom rdf:resource="#Sym_0001180_1770"/>
   <hasSymptom rdf:resource="#Sym_0001180_1771"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Retinocochleocerebral vasculopathy</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-  <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001180</ARI_ID>
-  <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">702575003</ARI_SNOMED>
-  <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">45765600</ARI_OMOP>
-  <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">702575003</ARI_DXCODE>
+  <targetsTissue rdf:resource="#Tissue_VascularSystem"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Susac's syndrome affects three parts of the body: the brain, the retina of the eye, and the inner ear. The cause is uncertain, but the disease is believed to be autoimmune.  Swelling in the lining of the blood vessels in these three areas blocks and decreases blood flow, which results in impaired brain function and vision/ hearing loss.  Symptoms are typically unstable as the disease progresses, and patients often experience disturbance in only 2 of the 3 areas at any given time.  
 
 The severity of cases may vary, with mild cases resolving in under a year and severe cases having longer duration and causing irreparable damage.  During the course of the disease, some patients may experience symptoms in a flare-remission pattern, while others are consistently symptomatic until time of recovery.  Treatment is available to prevent permanent damage, and most patients under medical care can expect to experience complete or near complete recovery.</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Retinocochleocerebral vasculopathy</rdfs:label>
+  <evidenceQuality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antibody Suspected</evidenceQuality>
+  <diseaseCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune</diseaseCategory>
+  <ageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20-40 years</ageRange>
+  <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001180</ARI_ID>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RED-M</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SICRET</ARI_Synonym>
-  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">retinal and encephalic tissue | non-disease | a fragment of 'small infarctions of cochlear, retinal and encephalic tissue' split on a comma during import</ARI_SynonymWithdrawn>
-  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Small infarctions of cochlear | non-disease | a fragment of 'small infarctions of cochlear, retinal and encephalic tissue' split on a comma during import</ARI_SynonymWithdrawn>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Retinopathy-encephalopathy-deafness associated microangiopathy</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Susac's syndrome</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Susac syndrome</ARI_Synonym>
-  <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dörr 2013; https://pubmed.ncbi.nlm.nih.gov/23628737/</ARI_DefSource>
-  <ARI_Pubmed rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/23628737/</ARI_Pubmed>
-  <evidenceQuality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antibody Suspected</evidenceQuality>
-  <diseaseCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune</diseaseCategory>
   <ARI_Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</ARI_Version>
-  <ageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20-40 years</ageRange>
-  <ARI_RefLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Susac Syndrome Support Group | https://www.facebook.com/susacsyndromesupportgroup/</ARI_RefLink>
-  <ARI_RefLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Creaky Joints | https://creakyjoints.org/</ARI_RefLink>
-  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Retinocochleocerebral Vasculopathy, Incomplete - Partial presentation of symptoms.</ARI_ClinicalSubtype>
-  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Retinocochleocerebral Vasculopathy, Classic - Triad of retinal artery occlusion, hearing loss, and encephalopathy.</ARI_ClinicalSubtype>
-  <ARI_Author rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fabliha Hussain</ARI_Author>
-  <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-09</ARI_AuthorDate>
-  <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RCV</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew "retinal and encephalic tissue" and "Small infarctions of cochlear" - two halves of one term (the SICRET expansion) split on a comma during import. The whole phrase should be re-added by a curator.</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:49:07+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 702575003; confirmed OMOP 45765600; confirmed MONDO 0019390; confirmed NCI C116363; confirmed MESH D055955; confirmed UMLS C2717757; confirmed ORPHANET 838; no term in DOID; no term in ICD10</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:49:07+00:00 | KrishnaTO | Stored confirmed cross-reference: MONDO 0019390; NCI C116363; MESH D055955; UMLS C2717757; ORPHANET 838</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:52:07+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 702575003; confirmed OMOP 45765600; confirmed MONDO 0019390; confirmed NCI C116363; confirmed MESH D055955; confirmed UMLS C2717757; confirmed ORPHANET 838; no term in DOID; no term in ICD10</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:53:50+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 702575003; confirmed OMOP 45765600; confirmed MONDO 0019390; confirmed NCI C116363; confirmed MESH D055955; confirmed UMLS C2717757; confirmed ORPHANET 838; no term in DOID; no term in ICD10</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:54:53+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 702575003; confirmed OMOP 45765600; confirmed MONDO 0019390; confirmed NCI C116363; confirmed MESH D055955; confirmed UMLS C2717757; confirmed ORPHANET 838; no term in DOID; no term in ICD10</ARI_ChangeLog>
+  <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">702575003</ARI_SNOMED>
+  <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C2717757</ARI_UMLS>
+  <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0019390</ARI_MONDO>
+  <ARI_Pubmed rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/23628737/</ARI_Pubmed>
+  <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dörr 2013; https://pubmed.ncbi.nlm.nih.gov/23628737/</ARI_DefSource>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+  <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">45765600</ARI_OMOP>
+  <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">702575003</ARI_DXCODE>
+  <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D055955</ARI_MESH>
+  <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C116363</ARI_NCI>
+  <ARI_RefLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Susac Syndrome Support Group | https://www.facebook.com/susacsyndromesupportgroup/</ARI_RefLink>
+  <ARI_RefLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Creaky Joints | https://creakyjoints.org/</ARI_RefLink>
+  <ARI_Author rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fabliha Hussain</ARI_Author>
+  <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-09</ARI_AuthorDate>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Retinocochleocerebral Vasculopathy, Incomplete - Partial presentation of symptoms.</ARI_ClinicalSubtype>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Retinocochleocerebral Vasculopathy, Classic - Triad of retinal artery occlusion, hearing loss, and encephalopathy.</ARI_ClinicalSubtype>
+  <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RCV</ARI_SurveyCode>
+  <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">838</ARI_ORPHANET>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">retinal and encephalic tissue | non-disease | a fragment of 'small infarctions of cochlear, retinal and encephalic tissue' split on a comma during import</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Small infarctions of cochlear | non-disease | a fragment of 'small infarctions of cochlear, retinal and encephalic tissue' split on a comma during import</ARI_SynonymWithdrawn>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001180_1752">
@@ -20343,6 +20357,10 @@ Patients with Schnitzler syndrome typically experience chronic rash, relapsing f
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:44:38+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 402415001; confirmed OMOP 4297647; confirmed DOID 4371; confirmed MONDO 0018304; confirmed ORPHANET 37748; confirmed UMLS C0524988; confirmed MESH D019873; no term in NCI; no term in ICD10</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:44:38+00:00 | KrishnaTO | Stored confirmed cross-reference: MONDO 0018304; ORPHANET 37748</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:49:07+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 402415001; confirmed OMOP 4297647; confirmed DOID 4371; confirmed MONDO 0018304; confirmed ORPHANET 37748; confirmed UMLS C0524988; confirmed MESH D019873; no term in NCI; no term in ICD10</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:52:07+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 402415001; confirmed OMOP 4297647; confirmed DOID 4371; confirmed MONDO 0018304; confirmed ORPHANET 37748; confirmed UMLS C0524988; confirmed MESH D019873; no term in NCI; no term in ICD10</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:53:50+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 402415001; confirmed OMOP 4297647; confirmed DOID 4371; confirmed MONDO 0018304; confirmed ORPHANET 37748; confirmed UMLS C0524988; confirmed MESH D019873; no term in NCI; no term in ICD10</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:54:53+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 402415001; confirmed OMOP 4297647; confirmed DOID 4371; confirmed MONDO 0018304; confirmed ORPHANET 37748; confirmed UMLS C0524988; confirmed MESH D019873; no term in NCI; no term in ICD10</ARI_ChangeLog>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">402415001</ARI_SNOMED>
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4371</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0524988</ARI_UMLS>
@@ -20773,6 +20791,10 @@ Patients with Schnitzler syndrome typically experience chronic rash, relapsing f
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:44:38+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 68815009; confirmed OMOP 4285717; confirmed DOID 0080162; confirmed MONDO 0005556; confirmed NCI C34789; confirmed UMLS C0024143; confirmed MESH D008181; no term in ICD10; no term in ORPHANET</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:44:38+00:00 | KrishnaTO | Stored confirmed cross-reference: MONDO 0005556; NCI C34789; UMLS C0024143</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:49:07+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 68815009; confirmed OMOP 4285717; confirmed DOID 0080162; confirmed MONDO 0005556; confirmed NCI C34789; confirmed UMLS C0024143; confirmed MESH D008181; no term in ICD10; no term in ORPHANET</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:52:07+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 68815009; confirmed OMOP 4285717; confirmed DOID 0080162; confirmed MONDO 0005556; confirmed NCI C34789; confirmed UMLS C0024143; confirmed MESH D008181; no term in ICD10; no term in ORPHANET</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:53:50+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 68815009; confirmed OMOP 4285717; confirmed DOID 0080162; confirmed MONDO 0005556; confirmed NCI C34789; confirmed UMLS C0024143; confirmed MESH D008181; no term in ICD10; no term in ORPHANET</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:54:53+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 68815009; confirmed OMOP 4285717; confirmed DOID 0080162; confirmed MONDO 0005556; confirmed NCI C34789; confirmed UMLS C0024143; confirmed MESH D008181; no term in ICD10; no term in ORPHANET</ARI_ChangeLog>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">68815009</ARI_SNOMED>
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0080162</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0024143</ARI_UMLS>
@@ -20926,6 +20948,10 @@ Patients with Schnitzler syndrome typically experience chronic rash, relapsing f
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:44:38+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 709489006; confirmed DOID 0070701; confirmed OMOP 46271378; confirmed MONDO 0800207; confirmed NCI C125389; confirmed UMLS C3276706; confirmed MESH D000071075; no term in ORPHANET; no term in ICD10</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:44:38+00:00 | KrishnaTO | Stored confirmed cross-reference: MONDO 0800207</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:49:07+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 709489006; confirmed DOID 0070701; confirmed OMOP 46271378; confirmed MONDO 0800207; confirmed NCI C125389; confirmed UMLS C3276706; confirmed MESH D000071075; no term in ORPHANET; no term in ICD10</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:52:07+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 709489006; confirmed DOID 0070701; confirmed OMOP 46271378; confirmed MONDO 0800207; confirmed NCI C125389; confirmed UMLS C3276706; confirmed MESH D000071075; no term in ORPHANET; no term in ICD10</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:53:50+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 709489006; confirmed DOID 0070701; confirmed OMOP 46271378; confirmed MONDO 0800207; confirmed NCI C125389; confirmed UMLS C3276706; confirmed MESH D000071075; no term in ORPHANET; no term in ICD10</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:54:53+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 709489006; confirmed DOID 0070701; confirmed OMOP 46271378; confirmed MONDO 0800207; confirmed NCI C125389; confirmed UMLS C3276706; confirmed MESH D000071075; no term in ORPHANET; no term in ICD10</ARI_ChangeLog>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">709489006</ARI_SNOMED>
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0070701</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C3276706</ARI_UMLS>
@@ -21311,7 +21337,6 @@ Patients with Schnitzler syndrome typically experience chronic rash, relapsing f
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001194">
   <rdf:type rdf:resource="#AutoimmuneDisease"/>
-  <targetsTissue rdf:resource="#Tissue_Heart"/>
   <hasSymptom rdf:resource="#Sym_0001194_1975"/>
   <hasSymptom rdf:resource="#Sym_0001194_1977"/>
   <hasSymptom rdf:resource="#Sym_0001194_1978"/>
@@ -21324,41 +21349,49 @@ Patients with Schnitzler syndrome typically experience chronic rash, relapsing f
   <hasSymptom rdf:resource="#Sym_0001194_1985"/>
   <hasSymptom rdf:resource="#Sym_0001194_1986"/>
   <hasSymptom rdf:resource="#Sym_0001194_1987"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Subacute bacterial endocarditis</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-  <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001194</ARI_ID>
-  <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">73774007</ARI_SNOMED>
-  <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4562</ARI_DOID>
-  <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0014122</ARI_UMLS>
-  <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D004698</ARI_MESH>
-  <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C34583</ARI_NCI>
-  <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4249899</ARI_OMOP>
-  <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">73774007</ARI_DXCODE>
+  <targetsTissue rdf:resource="#Tissue_Heart"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Subacute bacterial endocarditis (SBE) is a type of bacterial endocarditis. Endocarditis is an infection of the inner lining of your heart chambers and heart valves (the endocardium).  In SBE, the lining inside the heart valves become infected. 
 
 SBE is not an autoimmune disease, but patients are at increased risk of developing autoimmune disease following SBE. 
 
 This condition most frequently occurs following surgery to a region of the body infected with streptococcal bacteria.  Invasive surgery in the infected tissue facilitates the spread of the bacteria to the heart valves by way of the blood.  The infection normally develops slowly during the two weeks after surgery and may persist for months.  SBE typically only occurs in patients who already have damage to their heart valves from other health conditions.  SBE is difficult to diagnosis because initial symptoms consist almost exclusively of feelings of malaise, which are also common in many other disorders.  SBE may trigger the onset of autoimmune conditions, such as vasculitis. If left untreated, complications can be fatal; however, positive outcomes are expected with early medical care.</rdfs:comment>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Subacute infective endocarditis</ARI_Synonym>
-  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Subacute native valve endocarditis | subtype | the native-valve form; already an ARI_ClinicalSubtype 'Subacute Bacterial Endocarditis, Native Valve'</ARI_SynonymWithdrawn>
-  <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cahill 2017; https://pubmed.ncbi.nlm.nih.gov/28104075/</ARI_DefSource>
-  <ARI_Pubmed rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/28104075/</ARI_Pubmed>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Subacute bacterial endocarditis</rdfs:label>
   <evidenceQuality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unconfirmed</evidenceQuality>
   <diseaseCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unconfirmed</diseaseCategory>
-  <ARI_Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</ARI_Version>
   <prevalencePer100k rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">18312.0</prevalencePer100k>
+  <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001194</ARI_ID>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Subacute infective endocarditis</ARI_Synonym>
+  <ARI_Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</ARI_Version>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew "Subacute native valve endocarditis" - the native-valve form, already an ARI_ClinicalSubtype. NB this infectious disease's place in an autoimmune registry is questionable - for a curator.</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:50:45+00:00 | user | Edited: icd10</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:52:07+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 73774007; confirmed OMOP 4249899; confirmed DOID 4562; confirmed MONDO 0006981; confirmed NCI C34583; confirmed MESH D004698; confirmed UMLS C0014122; no term in ICD10; no term in ORPHANET</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:52:07+00:00 | KrishnaTO | Stored confirmed cross-reference: MONDO 0006981</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:53:50+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 73774007; confirmed OMOP 4249899; confirmed DOID 4562; confirmed MONDO 0006981; confirmed NCI C34583; confirmed MESH D004698; confirmed UMLS C0014122; no term in ICD10; no term in ORPHANET</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:54:53+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 73774007; confirmed OMOP 4249899; confirmed DOID 4562; confirmed MONDO 0006981; confirmed NCI C34583; confirmed MESH D004698; confirmed UMLS C0014122; no term in ICD10; no term in ORPHANET</ARI_ChangeLog>
+  <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">73774007</ARI_SNOMED>
+  <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4562</ARI_DOID>
+  <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0014122</ARI_UMLS>
+  <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0006981</ARI_MONDO>
+  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I33.0</ARI_ICD10>
   <ARI_PrevalenceDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female 7508/100k; Male 10803/100k; F:M ratio 0.694992</ARI_PrevalenceDesc>
+  <ARI_Pubmed rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/28104075/</ARI_Pubmed>
+  <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cahill 2017; https://pubmed.ncbi.nlm.nih.gov/28104075/</ARI_DefSource>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+  <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4249899</ARI_OMOP>
+  <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">73774007</ARI_DXCODE>
+  <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D004698</ARI_MESH>
+  <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C34583</ARI_NCI>
   <ARI_RefLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Irish Heart Foundation | https://irishheart.ie/</ARI_RefLink>
   <ARI_RefLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string">American Heart Association | https://www.heart.org/</ARI_RefLink>
   <ARI_RefLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heart and Stroke Foundation of Canada | https://www.heartandstroke.ca</ARI_RefLink>
   <ARI_RefLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Link to Healthline | https://www.healthline.com/health/subacute-bacterial-endocarditis</ARI_RefLink>
   <ARI_RefLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Endocarditis Support Group | https://www.facebook.com/groups/1532806550342706/</ARI_RefLink>
-  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Subacute Bacterial Endocarditis, Native Valve - Affects previously normal heart valves.</ARI_ClinicalSubtype>
   <ARI_Author rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune Registry</ARI_Author>
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-09</ARI_AuthorDate>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Subacute Bacterial Endocarditis, Native Valve - Affects previously normal heart valves.</ARI_ClinicalSubtype>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SBE</ARI_SurveyCode>
-  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
-  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew "Subacute native valve endocarditis" - the native-valve form, already an ARI_ClinicalSubtype. NB this infectious disease's place in an autoimmune registry is questionable - for a curator.</ARI_ChangeLog>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Subacute native valve endocarditis | subtype | the native-valve form; already an ARI_ClinicalSubtype 'Subacute Bacterial Endocarditis, Native Valve'</ARI_SynonymWithdrawn>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001194_1975">
@@ -22385,6 +22418,10 @@ Early symptoms may include fever, night sweats, fatigue, joint pain, and chest d
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:11:29+00:00 | user | Edited: icd10</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:44:38+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 400130008; confirmed OMOP 4290976; confirmed DOID 13375; confirmed MONDO 0008538; confirmed NCI C35065; confirmed UMLS C0039483; confirmed ORPHANET 397; confirmed MESH D013700</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:44:38+00:00 | KrishnaTO | Stored confirmed cross-reference: MONDO 0008538; ORPHANET 397</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:49:07+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 400130008; confirmed OMOP 4290976; confirmed DOID 13375; confirmed MONDO 0008538; confirmed NCI C35065; confirmed UMLS C0039483; confirmed ORPHANET 397; confirmed MESH D013700</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:52:07+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 400130008; confirmed OMOP 4290976; confirmed DOID 13375; confirmed MONDO 0008538; confirmed NCI C35065; confirmed UMLS C0039483; confirmed ORPHANET 397; confirmed MESH D013700</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:53:50+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 400130008; confirmed OMOP 4290976; confirmed DOID 13375; confirmed MONDO 0008538; confirmed NCI C35065; confirmed UMLS C0039483; confirmed ORPHANET 397; confirmed MESH D013700</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:54:53+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 400130008; confirmed OMOP 4290976; confirmed DOID 13375; confirmed MONDO 0008538; confirmed NCI C35065; confirmed UMLS C0039483; confirmed ORPHANET 397; confirmed MESH D013700</ARI_ChangeLog>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">400130008</ARI_SNOMED>
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13375</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0039483</ARI_UMLS>
@@ -22539,12 +22576,15 @@ Early symptoms may include fever, night sweats, fatigue, joint pain, and chest d
   <rdf:type rdf:resource="#AutoimmuneDisease"/>
   <targetsTissue rdf:resource="#Tissue_Systemic"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TIF1-gamma positive dermatomyositis</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
   <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001202</ARI_ID>
-  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cancer-associated myositis | broader | cancer-associated myositis also covers anti-NXP2 and seronegative cases, and not all anti-TIF1-gamma patients have cancer; a broader category</ARI_SynonymWithdrawn>
   <ARI_Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.1</ARI_Version>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew "Cancer-associated myositis" - a broader category; anti-TIF1-gamma dermatomyositis is one (cancer-enriched) serologic subtype. The entity is left with no synonyms.</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:52:07+00:00 | KrishnaTO | Cross-reference review: no term in SNOMED; no term in OMOP; no term in DOID; no term in MONDO; no term in NCI; no term in MESH; no term in UMLS; no term in ORPHANET; no term in ICD10</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:53:50+00:00 | KrishnaTO | Cross-reference review: no term in SNOMED; no term in OMOP; no term in DOID; no term in MONDO; no term in NCI; no term in MESH; no term in UMLS; no term in ORPHANET; no term in ICD10</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:54:53+00:00 | KrishnaTO | Cross-reference review: no term in SNOMED; no term in OMOP; no term in DOID; no term in MONDO; no term in NCI; no term in MESH; no term in UMLS; no term in ORPHANET; no term in ICD10</ARI_ChangeLog>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cancer-associated myositis | broader | cancer-associated myositis also covers anti-NXP2 and seronegative cases, and not all anti-TIF1-gamma patients have cancer; a broader category</ARI_SynonymWithdrawn>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001203">
@@ -22568,6 +22608,10 @@ Early symptoms may include fever, night sweats, fatigue, joint pain, and chest d
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:44:38+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 95794005; confirmed OMOP 4317989; confirmed DOID 1278; confirmed MONDO 0018983; confirmed NCI C85193; confirmed MESH D020333; confirmed UMLS C0040381; confirmed ORPHANET 64686; no term in ICD10</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:44:38+00:00 | KrishnaTO | Stored confirmed cross-reference: MONDO 0018983; ORPHANET 64686</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:49:07+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 95794005; confirmed OMOP 4317989; confirmed DOID 1278; confirmed MONDO 0018983; confirmed NCI C85193; confirmed MESH D020333; confirmed UMLS C0040381; confirmed ORPHANET 64686; no term in ICD10</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:52:07+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 95794005; confirmed OMOP 4317989; confirmed DOID 1278; confirmed MONDO 0018983; confirmed NCI C85193; confirmed MESH D020333; confirmed UMLS C0040381; confirmed ORPHANET 64686; no term in ICD10</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:53:50+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 95794005; confirmed OMOP 4317989; confirmed DOID 1278; confirmed MONDO 0018983; confirmed NCI C85193; confirmed MESH D020333; confirmed UMLS C0040381; confirmed ORPHANET 64686; no term in ICD10</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:54:53+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 95794005; confirmed OMOP 4317989; confirmed DOID 1278; confirmed MONDO 0018983; confirmed NCI C85193; confirmed MESH D020333; confirmed UMLS C0040381; confirmed ORPHANET 64686; no term in ICD10</ARI_ChangeLog>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">95794005</ARI_SNOMED>
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1278</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0040381</ARI_UMLS>
@@ -22620,7 +22664,6 @@ Early symptoms may include fever, night sweats, fatigue, joint pain, and chest d
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001204">
   <rdf:type rdf:resource="#AutoimmuneDisease"/>
-  <targetsTissue rdf:resource="#Tissue_Musculoskeletal"/>
   <hasSymptom rdf:resource="#Sym_0001204_2084"/>
   <hasSymptom rdf:resource="#Sym_0001204_2085"/>
   <hasSymptom rdf:resource="#Sym_0001204_2086"/>
@@ -22648,22 +22691,32 @@ Early symptoms may include fever, night sweats, fatigue, joint pain, and chest d
   <hasSymptom rdf:resource="#Sym_0001204_2108"/>
   <hasSymptom rdf:resource="#Sym_0001204_2109"/>
   <hasSymptom rdf:resource="#Sym_0001204_2110"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transverse myelitis</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-  <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001204</ARI_ID>
-  <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16631009</ARI_SNOMED>
-  <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0080743</ARI_DOID>
-  <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">443904</ARI_OMOP>
-  <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16631009</ARI_DXCODE>
+  <targetsTissue rdf:resource="#Tissue_Musculoskeletal"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inflammation of the spinal cord with neurological effects that go in a transverse (horizontal or bandlike) manner across the body, as opposed to going up or down the spinal cord.</rdfs:comment>
-  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Secondary acute transverse myelitis | subtype | the acute form secondary to a defined cause (MS, NMO, infection, SLE, ...); narrower than transverse myelitis</ARI_SynonymWithdrawn>
-  <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Holroyd 2018; https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6078000/</ARI_DefSource>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transverse myelitis</rdfs:label>
   <evidenceQuality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antibody</evidenceQuality>
   <diseaseCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune</diseaseCategory>
-  <ARI_Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</ARI_Version>
   <prevalencePer100k rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">25284.0</prevalencePer100k>
-  <ARI_PrevalenceDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female 16166/100k; Male 9117/100k; F:M ratio 1.77317</ARI_PrevalenceDesc>
   <ageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10-30 years</ageRange>
+  <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001204</ARI_ID>
+  <ARI_Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</ARI_Version>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew "Secondary acute transverse myelitis" - a subtype (acute, secondary to a defined cause), narrower than transverse myelitis. The entity is left with no synonyms.</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:53:13+00:00 | user | Edited: icd10</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:53:50+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 16631009; confirmed OMOP 443904; confirmed DOID 0080743; confirmed MONDO 0021553; confirmed MESH D009188; confirmed UMLS C0026976; no term in NCI; no term in ORPHANET</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:53:50+00:00 | KrishnaTO | Stored confirmed cross-reference: MONDO 0021553; MESH D009188; UMLS C0026976</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:54:53+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 16631009; confirmed OMOP 443904; confirmed DOID 0080743; confirmed MONDO 0021553; confirmed MESH D009188; confirmed UMLS C0026976; no term in NCI; no term in ORPHANET</ARI_ChangeLog>
+  <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16631009</ARI_SNOMED>
+  <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0080743</ARI_DOID>
+  <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0026976</ARI_UMLS>
+  <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0021553</ARI_MONDO>
+  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G37.3</ARI_ICD10>
+  <ARI_PrevalenceDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female 16166/100k; Male 9117/100k; F:M ratio 1.77317</ARI_PrevalenceDesc>
+  <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Holroyd 2018; https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6078000/</ARI_DefSource>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+  <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">443904</ARI_OMOP>
+  <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16631009</ARI_DXCODE>
+  <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D009188</ARI_MESH>
   <ARI_RefLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Link to Healthline | https://www.healthline.com/health/multiple-sclerosis/transverse-myelitis</ARI_RefLink>
   <ARI_RefLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Christopher and Dana Reeve Foundation | https://www.christopherreeve.org/</ARI_RefLink>
   <ARI_RefLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Link to Cleveland Clinic | https://my.clevelandclinic.org/health/diseases/8980-transverse-myelitis</ARI_RefLink>
@@ -22671,13 +22724,12 @@ Early symptoms may include fever, night sweats, fatigue, joint pain, and chest d
   <ARI_RefLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transverse Myelitis Association | https://wearesrna.org/</ARI_RefLink>
   <ARI_RefLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Link to Mayo Clinic | https://www.mayoclinic.org/diseases-conditions/transverse-myelitis/symptoms-causes/syc-20354726</ARI_RefLink>
   <ARI_RefLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Siegel Rare Neuroimmune Association | https://wearesrna.org/</ARI_RefLink>
-  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transverse Myelitis, Complete - Affects the entire width of the spinal cord.</ARI_ClinicalSubtype>
-  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transverse Myelitis, Partial - Affects one side of the spinal cord.</ARI_ClinicalSubtype>
   <ARI_Author rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gin Jones</ARI_Author>
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-09</ARI_AuthorDate>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transverse Myelitis, Complete - Affects the entire width of the spinal cord.</ARI_ClinicalSubtype>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Transverse Myelitis, Partial - Affects one side of the spinal cord.</ARI_ClinicalSubtype>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TM</ARI_SurveyCode>
-  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
-  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew "Secondary acute transverse myelitis" - a subtype (acute, secondary to a defined cause), narrower than transverse myelitis. The entity is left with no synonyms.</ARI_ChangeLog>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Secondary acute transverse myelitis | subtype | the acute form secondary to a defined cause (MS, NMO, infection, SLE, ...); narrower than transverse myelitis</ARI_SynonymWithdrawn>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001204_2084">
@@ -23023,6 +23075,10 @@ Both UC and CD are caused by an autoimmune response that reflects the involvemen
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:29:56+00:00 | user | Edited: icd10</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:44:38+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 239918008; confirmed OMOP 4344165; confirmed MONDO 0019527; confirmed NCI C116776; confirmed MESH D000074079; confirmed UMLS C0409999; confirmed ORPHANET 90002; no term in DOID</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:44:38+00:00 | KrishnaTO | Stored confirmed cross-reference: MONDO 0019527; NCI C116776; MESH D000074079; UMLS C0409999; ORPHANET 90002</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:49:07+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 239918008; confirmed OMOP 4344165; confirmed MONDO 0019527; confirmed NCI C116776; confirmed MESH D000074079; confirmed UMLS C0409999; confirmed ORPHANET 90002; no term in DOID</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:52:07+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 239918008; confirmed OMOP 4344165; confirmed MONDO 0019527; confirmed NCI C116776; confirmed MESH D000074079; confirmed UMLS C0409999; confirmed ORPHANET 90002; no term in DOID</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:53:50+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 239918008; confirmed OMOP 4344165; confirmed MONDO 0019527; confirmed NCI C116776; confirmed MESH D000074079; confirmed UMLS C0409999; confirmed ORPHANET 90002; no term in DOID</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:54:53+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 239918008; confirmed OMOP 4344165; confirmed MONDO 0019527; confirmed NCI C116776; confirmed MESH D000074079; confirmed UMLS C0409999; confirmed ORPHANET 90002; no term in DOID</ARI_ChangeLog>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">239918008</ARI_SNOMED>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0409999</ARI_UMLS>
   <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0019527</ARI_MONDO>
@@ -23192,6 +23248,10 @@ Urticaria can also be caused by allergic reaction to plants like poison ivy, dye
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:38:17+00:00 | user | Edited: umls</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:44:38+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 402656007; confirmed OMOP 4292532; flagged MONDO 0018227; flagged ORPHANET 36412; flagged UMLS C0343206; no term in DOID; no term in MONDO; no term in NCI; no term in ICD10; no term in MESH; no term in ORPHANET</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:49:07+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 402656007; confirmed OMOP 4292532; flagged MONDO 0018227; flagged ORPHANET 36412; flagged UMLS C0343206; no term in DOID; no term in MONDO; no term in NCI; no term in ICD10; no term in MESH; no term in ORPHANET</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:52:07+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 402656007; confirmed OMOP 4292532; flagged MONDO 0018227; flagged ORPHANET 36412; flagged UMLS C0343206; no term in DOID; no term in MONDO; no term in NCI; no term in ICD10; no term in MESH; no term in ORPHANET</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:53:50+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 402656007; confirmed OMOP 4292532; flagged MONDO 0018227; flagged ORPHANET 36412; flagged UMLS C0343206; no term in DOID; no term in MONDO; no term in NCI; no term in ICD10; no term in MESH; no term in ORPHANET</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:54:53+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 402656007; confirmed OMOP 4292532; flagged MONDO 0018227; flagged ORPHANET 36412; flagged UMLS C0343206; no term in DOID; no term in MONDO; no term in NCI; no term in ICD10; no term in MESH; no term in ORPHANET</ARI_ChangeLog>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">402656007</ARI_SNOMED>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1304408</ARI_UMLS>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kolkhir 2020; https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7063238/</ARI_DefSource>
@@ -23610,7 +23670,6 @@ Normally, the color of hair, skin, and eyes is determined by melanin. Vitiligo o
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001211">
   <rdf:type rdf:resource="#AutoimmuneDisease"/>
-  <targetsTissue rdf:resource="#Tissue_Blood"/>
   <hasSymptom rdf:resource="#Sym_0001211_2195"/>
   <hasSymptom rdf:resource="#Sym_0001211_2196"/>
   <hasSymptom rdf:resource="#Sym_0001211_2197"/>
@@ -23622,35 +23681,43 @@ Normally, the color of hair, skin, and eyes is determined by melanin. Vitiligo o
   <hasSymptom rdf:resource="#Sym_0001211_2203"/>
   <hasSymptom rdf:resource="#Sym_0001211_2204"/>
   <hasSymptom rdf:resource="#Sym_0001211_2240"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Warm autoimmune hemolytic anemia</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-  <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001211</ARI_ID>
-  <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3978000</ARI_SNOMED>
-  <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4219853</ARI_OMOP>
-  <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3978000</ARI_DXCODE>
+  <targetsTissue rdf:resource="#Tissue_Blood"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Warm autoimmune hemolytic anemia is caused when a person's antibodies attack and destroy their red blood cells.  Unlike cold agglutinin disease, the autoimmune destruction of cells occurs when a person's body temperature is normal or above normal.  It leads to low red blood cell levels in the body.  
 
 Some cases of this disease are caused by medications and are not autoimmune.</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Warm autoimmune hemolytic anemia</rdfs:label>
+  <evidenceQuality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antibody</evidenceQuality>
+  <diseaseCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune</diseaseCategory>
+  <prevalencePer100k rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">121136.0</prevalencePer100k>
+  <ageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30-60 years</ageRange>
+  <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001211</ARI_ID>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Idiopathic autoimmune hemolytic anemia</ARI_Synonym>
+  <ARI_Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</ARI_Version>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew "Immune hemolytic anemia", "Acquired autoimmune hemolytic anemia" and "Immunohemolytic anemia" - broader categories; warm AIHA is one type. Kept the warm-specific synonyms (wAIHA, warm AIHA, etc.) and 'Idiopathic autoimmune hemolytic anemia' (noted).</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:54:53+00:00 | KrishnaTO | Cross-reference review: confirmed ICD10 D59.11; confirmed ORPHANET 90033; confirmed UMLS C0272118; confirmed NCI C162611; confirmed MONDO 0019532; confirmed SNOMED 3978000; confirmed OMOP 4219853; no term in DOID; no term in MESH</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:54:53+00:00 | KrishnaTO | Stored confirmed cross-reference: ICD10 D59.11; ORPHANET 90033; UMLS C0272118; NCI C162611; MONDO 0019532</ARI_ChangeLog>
+  <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3978000</ARI_SNOMED>
+  <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0272118</ARI_UMLS>
+  <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0019532</ARI_MONDO>
+  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D59.11</ARI_ICD10>
+  <ARI_PrevalenceDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female 70337/100k; Male 50799/100k; F:M ratio 1.38461</ARI_PrevalenceDesc>
+  <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eaton 2011; https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2892249/</ARI_DefSource>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+  <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4219853</ARI_OMOP>
+  <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3978000</ARI_DXCODE>
+  <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C162611</ARI_NCI>
+  <ARI_RefLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Link to Cleveland Clinic | https://my.clevelandclinic.org/health/diseases/22349-autoimmune-hemolytic-anemia</ARI_RefLink>
+  <ARI_RefLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Warm Autoimmune Hemolytic Anemia | https://www.facebook.com/groups/302296907404576/</ARI_RefLink>
+  <ARI_Author rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Darrison Haftarczyk | www.linkedin.com/in/darrison-haftarczyk-579418190</ARI_Author>
+  <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-01</ARI_AuthorDate>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WAIHA, Primary - No underlying disease.</ARI_ClinicalSubtype>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WAIHA, Secondary - Associated with lupus, lymphoma, or infections.</ARI_ClinicalSubtype>
+  <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WAHA</ARI_SurveyCode>
+  <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">90033</ARI_ORPHANET>
   <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Immune hemolytic anemia | broader | includes warm AIHA, cold agglutinin disease, paroxysmal cold haemoglobinuria, drug-induced and alloimmune haemolysis</ARI_SynonymWithdrawn>
   <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acquired autoimmune hemolytic anemia | broader | acquired AIHA covers warm, cold, mixed and drug-induced types; this entity is the warm type</ARI_SynonymWithdrawn>
   <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Immunohemolytic anemia | broader | = immune haemolytic anaemia, the broad category</ARI_SynonymWithdrawn>
-  <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eaton 2011; https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2892249/</ARI_DefSource>
-  <evidenceQuality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antibody</evidenceQuality>
-  <diseaseCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune</diseaseCategory>
-  <ARI_Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</ARI_Version>
-  <prevalencePer100k rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">121136.0</prevalencePer100k>
-  <ARI_PrevalenceDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female 70337/100k; Male 50799/100k; F:M ratio 1.38461</ARI_PrevalenceDesc>
-  <ageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30-60 years</ageRange>
-  <ARI_RefLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Link to Cleveland Clinic | https://my.clevelandclinic.org/health/diseases/22349-autoimmune-hemolytic-anemia</ARI_RefLink>
-  <ARI_RefLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Warm Autoimmune Hemolytic Anemia | https://www.facebook.com/groups/302296907404576/</ARI_RefLink>
-  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WAIHA, Primary - No underlying disease.</ARI_ClinicalSubtype>
-  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WAIHA, Secondary - Associated with lupus, lymphoma, or infections.</ARI_ClinicalSubtype>
-  <ARI_Author rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Darrison Haftarczyk | www.linkedin.com/in/darrison-haftarczyk-579418190</ARI_Author>
-  <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-01</ARI_AuthorDate>
-  <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WAHA</ARI_SurveyCode>
-  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
-  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew "Immune hemolytic anemia", "Acquired autoimmune hemolytic anemia" and "Immunohemolytic anemia" - broader categories; warm AIHA is one type. Kept the warm-specific synonyms (wAIHA, warm AIHA, etc.) and 'Idiopathic autoimmune hemolytic anemia' (noted).</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001211_2195">
