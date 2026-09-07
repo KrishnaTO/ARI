@@ -694,3 +694,12 @@ ARI	0001207	Urticarial vasculitis	skos:exactMatch	ncit	NoTermFound	manual-absent
 ARI	0001207	Urticarial vasculitis	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:KrishnaTO
 ARI	0001207	Urticarial vasculitis	skos:exactMatch	mesh	NoTermFound	manual-absent	github:KrishnaTO
 ARI	0001207	Urticarial vasculitis	skos:exactMatch	ORPHA	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001180	Retinocochleocerebral vasculopathy	skos:exactMatch	SNOMEDCT	702575003	manual	github:KrishnaTO
+ARI	0001180	Retinocochleocerebral vasculopathy	skos:exactMatch	omop	45765600	manual	github:KrishnaTO
+ARI	0001180	Retinocochleocerebral vasculopathy	skos:exactMatch	MONDO	0019390	manual	github:KrishnaTO
+ARI	0001180	Retinocochleocerebral vasculopathy	skos:exactMatch	ncit	C116363	manual	github:KrishnaTO
+ARI	0001180	Retinocochleocerebral vasculopathy	skos:exactMatch	mesh	D055955	manual	github:KrishnaTO
+ARI	0001180	Retinocochleocerebral vasculopathy	skos:exactMatch	umls	C2717757	manual	github:KrishnaTO
+ARI	0001180	Retinocochleocerebral vasculopathy	skos:exactMatch	ORPHA	838	manual	github:KrishnaTO
+ARI	0001180	Retinocochleocerebral vasculopathy	skos:exactMatch	DOID	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001180	Retinocochleocerebral vasculopathy	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:KrishnaTO

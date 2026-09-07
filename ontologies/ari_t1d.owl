@@ -17872,6 +17872,7 @@ To date, there is no direct or indirect evidence that post-pericardiotomy syndro
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:44:38+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 31712002; confirmed OMOP 4135822; confirmed DOID 12236; confirmed MONDO 0005388; confirmed NCI C27167; confirmed UMLS C0008312; confirmed ORPHANET 186; confirmed ICD10 K74.3; confirmed MESH D008105; flagged NCI C51225; flagged UMLS C0023892; flagged ICD10 K74.5</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:44:38+00:00 | KrishnaTO | Stored confirmed cross-reference: MONDO 0005388; ORPHANET 186</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:44:38+00:00 | KrishnaTO | Removed flagged cross-reference: NCI C51225; UMLS C0023892; ICD10 K74.5</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:49:07+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 31712002; confirmed OMOP 4135822; confirmed DOID 12236; confirmed MONDO 0005388; confirmed NCI C27167; confirmed UMLS C0008312; confirmed ORPHANET 186; confirmed ICD10 K74.3; confirmed MESH D008105; flagged NCI C51225; flagged UMLS C0023892; flagged ICD10 K74.5</ARI_ChangeLog>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">31712002</ARI_SNOMED>
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12236</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0008312</ARI_UMLS>
@@ -19340,7 +19341,6 @@ In cases where the cartilage is not visible, RP can cause heart valve abnormalit
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001180">
   <rdf:type rdf:resource="#AutoimmuneDisease"/>
-  <targetsTissue rdf:resource="#Tissue_VascularSystem"/>
   <hasSymptom rdf:resource="#Sym_0001180_1752"/>
   <hasSymptom rdf:resource="#Sym_0001180_1753"/>
   <hasSymptom rdf:resource="#Sym_0001180_1754"/>
@@ -19360,37 +19360,45 @@ In cases where the cartilage is not visible, RP can cause heart valve abnormalit
   <hasSymptom rdf:resource="#Sym_0001180_1768"/>
   <hasSymptom rdf:resource="#Sym_0001180_1770"/>
   <hasSymptom rdf:resource="#Sym_0001180_1771"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Retinocochleocerebral vasculopathy</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-  <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001180</ARI_ID>
-  <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">702575003</ARI_SNOMED>
-  <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">45765600</ARI_OMOP>
-  <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">702575003</ARI_DXCODE>
+  <targetsTissue rdf:resource="#Tissue_VascularSystem"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Susac's syndrome affects three parts of the body: the brain, the retina of the eye, and the inner ear. The cause is uncertain, but the disease is believed to be autoimmune.  Swelling in the lining of the blood vessels in these three areas blocks and decreases blood flow, which results in impaired brain function and vision/ hearing loss.  Symptoms are typically unstable as the disease progresses, and patients often experience disturbance in only 2 of the 3 areas at any given time.  
 
 The severity of cases may vary, with mild cases resolving in under a year and severe cases having longer duration and causing irreparable damage.  During the course of the disease, some patients may experience symptoms in a flare-remission pattern, while others are consistently symptomatic until time of recovery.  Treatment is available to prevent permanent damage, and most patients under medical care can expect to experience complete or near complete recovery.</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Retinocochleocerebral vasculopathy</rdfs:label>
+  <evidenceQuality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antibody Suspected</evidenceQuality>
+  <diseaseCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune</diseaseCategory>
+  <ageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20-40 years</ageRange>
+  <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001180</ARI_ID>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RED-M</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SICRET</ARI_Synonym>
-  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">retinal and encephalic tissue | non-disease | a fragment of 'small infarctions of cochlear, retinal and encephalic tissue' split on a comma during import</ARI_SynonymWithdrawn>
-  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Small infarctions of cochlear | non-disease | a fragment of 'small infarctions of cochlear, retinal and encephalic tissue' split on a comma during import</ARI_SynonymWithdrawn>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Retinopathy-encephalopathy-deafness associated microangiopathy</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Susac's syndrome</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Susac syndrome</ARI_Synonym>
-  <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dörr 2013; https://pubmed.ncbi.nlm.nih.gov/23628737/</ARI_DefSource>
-  <ARI_Pubmed rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/23628737/</ARI_Pubmed>
-  <evidenceQuality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antibody Suspected</evidenceQuality>
-  <diseaseCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune</diseaseCategory>
   <ARI_Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</ARI_Version>
-  <ageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20-40 years</ageRange>
-  <ARI_RefLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Susac Syndrome Support Group | https://www.facebook.com/susacsyndromesupportgroup/</ARI_RefLink>
-  <ARI_RefLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Creaky Joints | https://creakyjoints.org/</ARI_RefLink>
-  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Retinocochleocerebral Vasculopathy, Incomplete - Partial presentation of symptoms.</ARI_ClinicalSubtype>
-  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Retinocochleocerebral Vasculopathy, Classic - Triad of retinal artery occlusion, hearing loss, and encephalopathy.</ARI_ClinicalSubtype>
-  <ARI_Author rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fabliha Hussain</ARI_Author>
-  <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-09</ARI_AuthorDate>
-  <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RCV</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew "retinal and encephalic tissue" and "Small infarctions of cochlear" - two halves of one term (the SICRET expansion) split on a comma during import. The whole phrase should be re-added by a curator.</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:49:07+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 702575003; confirmed OMOP 45765600; confirmed MONDO 0019390; confirmed NCI C116363; confirmed MESH D055955; confirmed UMLS C2717757; confirmed ORPHANET 838; no term in DOID; no term in ICD10</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:49:07+00:00 | KrishnaTO | Stored confirmed cross-reference: MONDO 0019390; NCI C116363; MESH D055955; UMLS C2717757; ORPHANET 838</ARI_ChangeLog>
+  <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">702575003</ARI_SNOMED>
+  <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C2717757</ARI_UMLS>
+  <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0019390</ARI_MONDO>
+  <ARI_Pubmed rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/23628737/</ARI_Pubmed>
+  <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dörr 2013; https://pubmed.ncbi.nlm.nih.gov/23628737/</ARI_DefSource>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+  <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">45765600</ARI_OMOP>
+  <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">702575003</ARI_DXCODE>
+  <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D055955</ARI_MESH>
+  <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C116363</ARI_NCI>
+  <ARI_RefLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Susac Syndrome Support Group | https://www.facebook.com/susacsyndromesupportgroup/</ARI_RefLink>
+  <ARI_RefLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Creaky Joints | https://creakyjoints.org/</ARI_RefLink>
+  <ARI_Author rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fabliha Hussain</ARI_Author>
+  <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-09</ARI_AuthorDate>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Retinocochleocerebral Vasculopathy, Incomplete - Partial presentation of symptoms.</ARI_ClinicalSubtype>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Retinocochleocerebral Vasculopathy, Classic - Triad of retinal artery occlusion, hearing loss, and encephalopathy.</ARI_ClinicalSubtype>
+  <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RCV</ARI_SurveyCode>
+  <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">838</ARI_ORPHANET>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">retinal and encephalic tissue | non-disease | a fragment of 'small infarctions of cochlear, retinal and encephalic tissue' split on a comma during import</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Small infarctions of cochlear | non-disease | a fragment of 'small infarctions of cochlear, retinal and encephalic tissue' split on a comma during import</ARI_SynonymWithdrawn>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001180_1752">
@@ -20343,6 +20351,7 @@ Patients with Schnitzler syndrome typically experience chronic rash, relapsing f
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:44:38+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 402415001; confirmed OMOP 4297647; confirmed DOID 4371; confirmed MONDO 0018304; confirmed ORPHANET 37748; confirmed UMLS C0524988; confirmed MESH D019873; no term in NCI; no term in ICD10</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:44:38+00:00 | KrishnaTO | Stored confirmed cross-reference: MONDO 0018304; ORPHANET 37748</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:49:07+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 402415001; confirmed OMOP 4297647; confirmed DOID 4371; confirmed MONDO 0018304; confirmed ORPHANET 37748; confirmed UMLS C0524988; confirmed MESH D019873; no term in NCI; no term in ICD10</ARI_ChangeLog>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">402415001</ARI_SNOMED>
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4371</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0524988</ARI_UMLS>
@@ -20773,6 +20782,7 @@ Patients with Schnitzler syndrome typically experience chronic rash, relapsing f
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:44:38+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 68815009; confirmed OMOP 4285717; confirmed DOID 0080162; confirmed MONDO 0005556; confirmed NCI C34789; confirmed UMLS C0024143; confirmed MESH D008181; no term in ICD10; no term in ORPHANET</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:44:38+00:00 | KrishnaTO | Stored confirmed cross-reference: MONDO 0005556; NCI C34789; UMLS C0024143</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:49:07+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 68815009; confirmed OMOP 4285717; confirmed DOID 0080162; confirmed MONDO 0005556; confirmed NCI C34789; confirmed UMLS C0024143; confirmed MESH D008181; no term in ICD10; no term in ORPHANET</ARI_ChangeLog>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">68815009</ARI_SNOMED>
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0080162</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0024143</ARI_UMLS>
@@ -20926,6 +20936,7 @@ Patients with Schnitzler syndrome typically experience chronic rash, relapsing f
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:44:38+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 709489006; confirmed DOID 0070701; confirmed OMOP 46271378; confirmed MONDO 0800207; confirmed NCI C125389; confirmed UMLS C3276706; confirmed MESH D000071075; no term in ORPHANET; no term in ICD10</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:44:38+00:00 | KrishnaTO | Stored confirmed cross-reference: MONDO 0800207</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:49:07+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 709489006; confirmed DOID 0070701; confirmed OMOP 46271378; confirmed MONDO 0800207; confirmed NCI C125389; confirmed UMLS C3276706; confirmed MESH D000071075; no term in ORPHANET; no term in ICD10</ARI_ChangeLog>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">709489006</ARI_SNOMED>
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0070701</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C3276706</ARI_UMLS>
@@ -22385,6 +22396,7 @@ Early symptoms may include fever, night sweats, fatigue, joint pain, and chest d
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:11:29+00:00 | user | Edited: icd10</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:44:38+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 400130008; confirmed OMOP 4290976; confirmed DOID 13375; confirmed MONDO 0008538; confirmed NCI C35065; confirmed UMLS C0039483; confirmed ORPHANET 397; confirmed MESH D013700</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:44:38+00:00 | KrishnaTO | Stored confirmed cross-reference: MONDO 0008538; ORPHANET 397</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:49:07+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 400130008; confirmed OMOP 4290976; confirmed DOID 13375; confirmed MONDO 0008538; confirmed NCI C35065; confirmed UMLS C0039483; confirmed ORPHANET 397; confirmed MESH D013700</ARI_ChangeLog>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">400130008</ARI_SNOMED>
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13375</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0039483</ARI_UMLS>
@@ -22568,6 +22580,7 @@ Early symptoms may include fever, night sweats, fatigue, joint pain, and chest d
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:44:38+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 95794005; confirmed OMOP 4317989; confirmed DOID 1278; confirmed MONDO 0018983; confirmed NCI C85193; confirmed MESH D020333; confirmed UMLS C0040381; confirmed ORPHANET 64686; no term in ICD10</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:44:38+00:00 | KrishnaTO | Stored confirmed cross-reference: MONDO 0018983; ORPHANET 64686</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:49:07+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 95794005; confirmed OMOP 4317989; confirmed DOID 1278; confirmed MONDO 0018983; confirmed NCI C85193; confirmed MESH D020333; confirmed UMLS C0040381; confirmed ORPHANET 64686; no term in ICD10</ARI_ChangeLog>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">95794005</ARI_SNOMED>
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1278</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0040381</ARI_UMLS>
@@ -23023,6 +23036,7 @@ Both UC and CD are caused by an autoimmune response that reflects the involvemen
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:29:56+00:00 | user | Edited: icd10</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:44:38+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 239918008; confirmed OMOP 4344165; confirmed MONDO 0019527; confirmed NCI C116776; confirmed MESH D000074079; confirmed UMLS C0409999; confirmed ORPHANET 90002; no term in DOID</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:44:38+00:00 | KrishnaTO | Stored confirmed cross-reference: MONDO 0019527; NCI C116776; MESH D000074079; UMLS C0409999; ORPHANET 90002</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:49:07+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 239918008; confirmed OMOP 4344165; confirmed MONDO 0019527; confirmed NCI C116776; confirmed MESH D000074079; confirmed UMLS C0409999; confirmed ORPHANET 90002; no term in DOID</ARI_ChangeLog>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">239918008</ARI_SNOMED>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0409999</ARI_UMLS>
   <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0019527</ARI_MONDO>
@@ -23192,6 +23206,7 @@ Urticaria can also be caused by allergic reaction to plants like poison ivy, dye
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:38:17+00:00 | user | Edited: umls</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:44:38+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 402656007; confirmed OMOP 4292532; flagged MONDO 0018227; flagged ORPHANET 36412; flagged UMLS C0343206; no term in DOID; no term in MONDO; no term in NCI; no term in ICD10; no term in MESH; no term in ORPHANET</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T23:49:07+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 402656007; confirmed OMOP 4292532; flagged MONDO 0018227; flagged ORPHANET 36412; flagged UMLS C0343206; no term in DOID; no term in MONDO; no term in NCI; no term in ICD10; no term in MESH; no term in ORPHANET</ARI_ChangeLog>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">402656007</ARI_SNOMED>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1304408</ARI_UMLS>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kolkhir 2020; https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7063238/</ARI_DefSource>
