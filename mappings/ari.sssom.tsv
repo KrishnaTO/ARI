@@ -621,9 +621,9 @@ ARI:0001160	Polyglandular autoimmune syndrome type 4	skos:exactMatch		umls:C3266
 ARI:0001144	Neuromyotonia	skos:exactMatch	Not	omop:46272949	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T21:38:45+00:00	
 ARI:0001158	Polyglandular autoimmune syndrome type 2	skos:exactMatch	Not	MONDO:0019012	MONDO	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T21:38:45+00:00	
 ARI:0001158	Polyglandular autoimmune syndrome type 2	skos:exactMatch	Not	ORPHA:65759	ORPHA	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T21:38:45+00:00	
-	Morvan syndrome	skos:exactMatch		sssom:NoTermFound	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T21:38:45+00:00	
-	Morvan syndrome	skos:exactMatch		sssom:NoTermFound	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T21:38:45+00:00	
-	Morvan syndrome	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T21:38:45+00:00	
+ARI:0001213	Morvan syndrome	skos:exactMatch		sssom:NoTermFound	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T21:38:45+00:00	
+ARI:0001213	Morvan syndrome	skos:exactMatch		sssom:NoTermFound	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T21:38:45+00:00	
+ARI:0001213	Morvan syndrome	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T21:38:45+00:00	
 ARI:0001144	Neuromyotonia	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T21:38:45+00:00	
 ARI:0001144	Neuromyotonia	skos:exactMatch		sssom:NoTermFound	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T21:38:45+00:00	
 ARI:0001157	Polyglandular autoimmune syndrome type 1	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T21:38:45+00:00	
@@ -636,3 +636,7 @@ ARI:0001160	Polyglandular autoimmune syndrome type 4	skos:exactMatch		sssom:NoTe
 ARI:0001160	Polyglandular autoimmune syndrome type 4	skos:exactMatch		sssom:NoTermFound	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T21:38:45+00:00	
 ARI:0001160	Polyglandular autoimmune syndrome type 4	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T21:38:45+00:00	
 ARI:0001160	Polyglandular autoimmune syndrome type 4	skos:exactMatch		sssom:NoTermFound	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T21:38:45+00:00	
+ARI:0001158	Polyglandular autoimmune syndrome type 2	skos:exactMatch	Not	DOID:0060234	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T21:38:45+00:00	
+ARI:0001158	Polyglandular autoimmune syndrome type 2	skos:exactMatch	Not	umls:C1275078	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T21:38:45+00:00	
+ARI:0001158	Polyglandular autoimmune syndrome type 2	skos:exactMatch	Not	mesh:C563187	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T21:38:45+00:00	
+ARI:0001158	Polyglandular autoimmune syndrome type 2	skos:exactMatch	Not	ncit:C98873	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T21:38:45+00:00	

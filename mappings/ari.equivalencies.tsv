@@ -600,9 +600,9 @@ ARI	0001160	Polyglandular autoimmune syndrome type 4	skos:exactMatch	umls	C32660
 ARI	0001144	Neuromyotonia	skos:exactMatch	omop	46272949	manual-negative	github:KrishnaTO
 ARI	0001158	Polyglandular autoimmune syndrome type 2	skos:exactMatch	MONDO	0019012	manual-negative	github:KrishnaTO
 ARI	0001158	Polyglandular autoimmune syndrome type 2	skos:exactMatch	ORPHA	65759	manual-negative	github:KrishnaTO
-ARI		Morvan syndrome	skos:exactMatch	DOID	NoTermFound	manual-absent	github:KrishnaTO
-ARI		Morvan syndrome	skos:exactMatch	ncit	NoTermFound	manual-absent	github:KrishnaTO
-ARI		Morvan syndrome	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001213	Morvan syndrome	skos:exactMatch	DOID	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001213	Morvan syndrome	skos:exactMatch	ncit	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001213	Morvan syndrome	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:KrishnaTO
 ARI	0001144	Neuromyotonia	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:KrishnaTO
 ARI	0001144	Neuromyotonia	skos:exactMatch	DOID	NoTermFound	manual-absent	github:KrishnaTO
 ARI	0001157	Polyglandular autoimmune syndrome type 1	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:KrishnaTO
@@ -615,3 +615,7 @@ ARI	0001160	Polyglandular autoimmune syndrome type 4	skos:exactMatch	DOID	NoTerm
 ARI	0001160	Polyglandular autoimmune syndrome type 4	skos:exactMatch	ncit	NoTermFound	manual-absent	github:KrishnaTO
 ARI	0001160	Polyglandular autoimmune syndrome type 4	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:KrishnaTO
 ARI	0001160	Polyglandular autoimmune syndrome type 4	skos:exactMatch	mesh	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001158	Polyglandular autoimmune syndrome type 2	skos:exactMatch	DOID	0060234	manual-negative	github:KrishnaTO
+ARI	0001158	Polyglandular autoimmune syndrome type 2	skos:exactMatch	umls	C1275078	manual-negative	github:KrishnaTO
+ARI	0001158	Polyglandular autoimmune syndrome type 2	skos:exactMatch	mesh	C563187	manual-negative	github:KrishnaTO
+ARI	0001158	Polyglandular autoimmune syndrome type 2	skos:exactMatch	ncit	C98873	manual-negative	github:KrishnaTO

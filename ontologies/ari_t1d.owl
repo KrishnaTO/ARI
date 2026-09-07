@@ -23625,12 +23625,13 @@ Some cases of this disease are caused by medications and are not autoimmune.</rd
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#ARI_new_5199ce2a">
+<owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001213">
   <rdf:type rdf:resource="#AutoimmuneDisease"/>
   <hasParentDisease rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001013"/>
   <targetsTissue rdf:resource="#Tissue_NervousSystem"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morvan syndrome is a rare, life-threatening autoimmune disorder associated with anti- autoantibodies targeting CASPR2 (CASPR2-IgG). Morvan syndrome is characterized by the combination of severe peripheral nerve hyperexcitability with agrypnia excitata, a sleep disorder characterized by insomnia, behavioral disturbances, and visual hallucinations. There is a clinical overlap with the other autoimmune disorders associated with CASPR2-IgG, such as autoimmune limbic encephalitis, which may also feature behavioral disturbances and insomnia, and Isaacs syndrome (a peripheral nerve hyperexcitability syndrome). However, sleep, motor, and autonomic manifestations are prominent in Morvan syndrome, which also appears to have distinctive immunological features.</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morvan syndrome</rdfs:label>
+  <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001213</ARI_ID>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-02 15:06 | KrishnaTO | Created: Morvan syndrome</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T19:05:07+00:00 | user | Edited: snomed</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T19:05:36+00:00 | user | Edited: omop</ARI_ChangeLog>
