@@ -79,7 +79,17 @@
   fibrosis* / *Ormond's disease*, *periaortitis*, *inflammatory pseudotumor*, …).
 - **Pre-existing note for a curator:** ARI:0001098 *Hemophilia B Leyden* is a genetic
   F9-promoter variant; its place in an autoimmune registry is questionable.
-- Batches 5+ (the remaining ~90 diseases with synonyms) follow in the same style.
+- **Batch 5 — 20 diseases (ARI:0002, 0001115–0001142), 70 synonym strings.** 48 kept, 11 kept
+  with a note, **11 withdrawn across 9 diseases**: 5 `subtype`, 3 `broader`, 3 `distinct`.
+- Batch 5 withdrawn: Juvenile RA — *Pediatric rheumatic disease* (broader); Lichen sclerosus —
+  *Balanitis xerotica obliterans* (the male genital form); Linear IgA dermatosis —
+  *Chronic bullous dermatosis of childhood* (the childhood form); Lipomatosis dolorosa —
+  *Juxta-Articular adiposis dolorosa*; Mooren's ulcer — *Peripheral Ulcerative Keratitis*,
+  *Corneal Ulcer* (broader); MOG antibody disease — *Anti-MAG disease* and its full name
+  (anti-MAG neuropathy is a different disease — MAG vs MOG); Myocarditis due to autoimmune
+  disease — *Coxsackie myocarditis* (viral); Myositis — *Juvenile myositis*; Neonatal lupus —
+  *Congenital heart block due to maternal anti-Ro/SSA and anti-La/SSB* (the cardiac form).
+- Batches 6+ (the remaining ~70 diseases with synonyms) follow in the same style.
 
 ## fix-ms-omop-and-lost-judgments
 

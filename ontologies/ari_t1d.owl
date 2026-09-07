@@ -12484,7 +12484,7 @@ Some patients experience full relief from symptoms with medical attention, while
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JRA</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Juvenile chronic arthritis</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Juvenile arthritis</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pediatric rheumatic disease</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pediatric rheumatic disease | broader | covers paediatric lupus, dermatomyositis, vasculitis, etc., not only juvenile arthritis</ARI_SynonymWithdrawn>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JIA</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Juvenile idiopathic arthritis</ARI_Synonym>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Harrold 2017; https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5657479/</ARI_DefSource>
@@ -12505,6 +12505,7 @@ Some patients experience full relief from symptoms with medical attention, while
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-09</ARI_AuthorDate>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JRA</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew "Pediatric rheumatic disease" - a broad category, not a synonym for juvenile idiopathic arthritis.</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001117_1009">
@@ -12687,7 +12688,7 @@ Most papers on lichen planus assume all cases of the disease are autoimmune or d
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">619430, 4119189</ARI_OMOP>
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">895454001, 25674000</ARI_DXCODE>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lichen sclerosus causes patches of skin to look white, thickened and crinkly. It most often affects the skin around the vulva or anus.There is circumstantial evidence that lichen sclerosus is autoimmune but no clear evidence to support it.</rdfs:comment>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Balanitis xerotica obliterans</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Balanitis xerotica obliterans | subtype | the male genital (glans/foreskin) form of lichen sclerosus; a subtype (existing 'Lichen Sclerosus, Genital'), has its own DOID term</ARI_SynonymWithdrawn>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Melnick 2020; https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7522895/</ARI_DefSource>
   <evidenceQuality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Immune-mediated</evidenceQuality>
   <diseaseCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune</diseaseCategory>
@@ -12706,6 +12707,7 @@ Most papers on lichen planus assume all cases of the disease are autoimmune or d
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-09</ARI_AuthorDate>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LS</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew "Balanitis xerotica obliterans" - the male genital form of lichen sclerosus, a subtype rather than a synonym for the whole.</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001119_1028">
@@ -13030,7 +13032,7 @@ Most papers on lichen planus assume all cases of the disease are autoimmune or d
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">95330001</ARI_DXCODE>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Linear IgA disease causes blisters to form deep in the skin. It can affect the skin and mucus membranes such as the mouth and genitals. Its name comes from the image produced during a skin biopsy in which a line of IgA antibodies can be found just below the outer layer of skin (the epidermis).</rdfs:comment>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Linear IgA bullous disease</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chronic bullous dermatosis of childhood</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chronic bullous dermatosis of childhood | subtype | the childhood form of linear IgA disease; already an ARI_ClinicalSubtype 'Linear IgA Dermatosis, Childhood (Chronic Bullous Disease of Childhood)'</ARI_SynonymWithdrawn>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Linear IgA disease</ARI_Synonym>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fortuna 2012; https://pubmed.ncbi.nlm.nih.gov/22137225/</ARI_DefSource>
   <ARI_Pubmed rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/22137225/</ARI_Pubmed>
@@ -13045,6 +13047,7 @@ Most papers on lichen planus assume all cases of the disease are autoimmune or d
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-09</ARI_AuthorDate>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LID</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew "Chronic bullous dermatosis of childhood" - the childhood form, already an ARI_ClinicalSubtype.</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001124_1064">
@@ -13190,7 +13193,7 @@ Most papers on lichen planus assume all cases of the disease are autoimmune or d
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4324974</ARI_OMOP>
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">71404003</ARI_DXCODE>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adiposis dolorosa is characterized by the slow formation of multiple, painful growths consisting of fatty tissue (lipomas) that are found just below the surface of the skin. Pain may vary from mild discomfort when a growth is pressed or touched to severe pain that is disproportionate to the physical findings.</rdfs:comment>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Juxta-Articular adiposis dolorosa</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Juxta-Articular adiposis dolorosa | subtype | the juxta-articular type, one of the classical clinical subtypes of adiposis dolorosa (Dercum disease)</ARI_SynonymWithdrawn>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fatty tissue rheumatism</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adiposis dolorosa</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dercum's disease</ARI_Synonym>
@@ -13210,6 +13213,7 @@ Most papers on lichen planus assume all cases of the disease are autoimmune or d
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-09</ARI_AuthorDate>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LD</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew "Juxta-Articular adiposis dolorosa" - a clinical subtype of Dercum disease, not a synonym for the whole.</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001125_1082">
@@ -14135,8 +14139,8 @@ It is under debate whether collagenous and lymphocytic colitis are different pha
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">435271</ARI_OMOP>
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22440001</ARI_DXCODE>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mooren's Ulcer is a chronic eye condition that causes inflammation where the eye's covering (cornea) joins with the white part of the eye (sclera).  This type of inflammation is called Peripheral Ulcerative Keratitis (PUK).  These persistent peripheral ulcers of the cornea often spread into and around the eye. There are several variants of this disorder:  Aggressive Bilateral Mooren's Ulcers patients usually have an ulcer in one eye and congestion or discharge in the other eye. Pain is milder, and grey patches may develop within 2 mm of the border between the cornea and the white of the eye (limbus). Bilateral Indolent Mooren's Ulcers affect both eyes, with one eye typically showing more severity.  Discomfort may occur with minimal inflammation.  Unilateral Mooren's ulcers can occur in one or both eyes and is excessively painful.  Redness and congestion are apparent, but inflammation is seen within 3 mm of the limbus.    Mooren's Ulcer is believed to be an autoimmune disorder, but more research is needed.  The condition can be benign, with few symptoms and low risk of complications, or malignant, with severe symptoms.  Without medical care, malignant cases may lead to vision loss, but treatments are available to prevent this.</rdfs:comment>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peripheral Ulcerative Keratitis</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corneal Ulcer</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peripheral Ulcerative Keratitis | broader | PUK is a category with many causes (rheumatoid arthritis, GPA, relapsing polychondritis, infection, ...); Mooren's ulcer is the idiopathic form</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corneal Ulcer | broader | any ulcerative keratitis, most often infectious - far broader than Mooren's ulcer</ARI_SynonymWithdrawn>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No studies found; CONFIRMED NO DATA Sept 2021</ARI_DefSource>
   <evidenceQuality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unconfirmed</evidenceQuality>
   <diseaseCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unconfirmed</diseaseCategory>
@@ -14152,6 +14156,7 @@ It is under debate whether collagenous and lymphocytic colitis are different pha
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-09</ARI_AuthorDate>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MU</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew "Peripheral Ulcerative Keratitis" and "Corneal Ulcer" - broader categories; Mooren's ulcer is idiopathic peripheral ulcerative keratitis.</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001131_1200">
@@ -14868,10 +14873,10 @@ Although this rare disease most commonly affects children, adults may have this 
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1237194006, 718213001</ARI_DXCODE>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Myelin oligodendrocyte glycoprotein disease (MOG) is a recently recognized condition marked by the presence of antibodies against myelin oligodendrocyte glycoprotein (MOG).  The disease differs from multiple sclerosis (MS),  aquaporin-4 (AQP4) antibody disease, and neuromyelitis optica spectrum disorders (NMOSD).  MOG symptoms can range from those of neuromyelitis optica to acute demyelinating encephalomyelitis and cortical encephalitis. A correct diagnosis requires both  specific and sensitive assays for the antibody.  In brain images MOG overlaps with AQP4 antibody NMOSD but can be usually distinguished from MS.  In particular, the silent lesions typical of MS that progressively increase lesion volume are rare in MOG antibody disease. Medium-term immunosuppression appears to be protective. Permanent disability, particularly severe ambulatory and visual disability, is less frequent than in AQP4 antibody NMOSD and usually results from the onset attack.</rdfs:comment>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOG</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anti-MAG disease</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anti-MAG disease | distinct | anti-MAG (myelin-associated glycoprotein) neuropathy is a paraproteinaemic demyelinating peripheral neuropathy (IgM MGUS) - a different disease from MOG antibody disease (a CNS demyelinating disease)</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Polyneuropathy associated with monoclonal immunoglobulin M antibodies to myelin-associated glycoprotein | distinct | the full name of anti-MAG neuropathy, a different disease from MOG antibody-associated disease</ARI_SynonymWithdrawn>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anti-MOG disease</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Myelin oligodendrocyte glycoprotein disease</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Polyneuropathy associated with monoclonal immunoglobulin M antibodies to myelin-associated glycoprotein</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOG antibody disease</ARI_Synonym>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flanagan 2019; https://onlinelibrary.ectrims-congress.eu/ectrims/2019/stockholm/278755/eoin.flanagan.the.epidemiology.of.myelin.oligodendrocyte.glycoprotein.antibody.html</ARI_DefSource>
   <evidenceQuality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antibody</evidenceQuality>
@@ -14887,6 +14892,7 @@ Although this rare disease most commonly affects children, adults may have this 
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-09</ARI_AuthorDate>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOG</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew "Anti-MAG disease" and its full name - anti-MAG neuropathy is a paraproteinaemic peripheral neuropathy, a different disease from MOG antibody-associated disease (MAG vs MOG).</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001137_1277">
@@ -14984,7 +14990,7 @@ Although this rare disease most commonly affects children, adults may have this 
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Myocarditis is an inflammation of the heart wall. Myocarditis can affect both the heart's muscle cells and the heart's electrical system, leading to problems with the heart's pumping function and irregular heart rhythms. Myocarditis can also be caused by viral infections or systemic inflammatory conditions such as additional autoimmune disorders. In severe cases of myocarditis, the heart muscle weakens and cannot pump blood effectively to other parts of your body. There are 3 types of myocarditis: acute, chronic, and lymphocytic.</rdfs:comment>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune myocarditis</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune cardiomyopathy</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coxsackie myocarditis</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coxsackie myocarditis | distinct | coxsackievirus myocarditis is infectious (viral) myocarditis, not autoimmune myocarditis</ARI_SynonymWithdrawn>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lancet 2018; https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6227754/</ARI_DefSource>
   <evidenceQuality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antibody</evidenceQuality>
   <diseaseCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune</diseaseCategory>
@@ -14998,6 +15004,7 @@ Although this rare disease most commonly affects children, adults may have this 
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2025-05</ARI_AuthorDate>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MYC</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew "Coxsackie myocarditis" - viral (infectious) myocarditis, a different disease from myocarditis due to autoimmune disease.</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001138_1289">
@@ -15082,7 +15089,7 @@ Although this rare disease most commonly affects children, adults may have this 
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">36716807, 37396156, 45765443, 73001</ARI_OMOP>
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">722991004, 715863001, 702380008, 26889001</ARI_DXCODE>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Myositis and "inflammatory myopathy" both mean inflammation of the muscles, which may in turn cause muscle weakness, swelling, and pain. Polymyositis, dermatomyositis, inclusion body myositis, and juvenile myositis are all specific types of myositis that are autoimmune. However, myositis and "inflammatory myopathy" are broad terms that means muscle inflammation, and not all forms are autoimmune, and not all individuals diagnosed with myositis or inflammatory myopathy have an autoimmune form of disease. If a cause cannot be acertained, the patient may be diagnosed with an "idiopathic" condition, which simply means that the cause of the inflammation has not been found; such patients could eventually be found to have an autoimmune form of the disease.</rdfs:comment>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Juvenile myositis</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Juvenile myositis | subtype | the paediatric idiopathic inflammatory myopathies (mostly juvenile dermatomyositis), a distinct age-defined group narrower than 'myositis'</ARI_SynonymWithdrawn>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Idiopathic inflammatory myopathies</ARI_Synonym>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meyer 2014; https://pubmed.ncbi.nlm.nih.gov/25065005/</ARI_DefSource>
   <ARI_Pubmed rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/25065005/</ARI_Pubmed>
@@ -15103,6 +15110,7 @@ Although this rare disease most commonly affects children, adults may have this 
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2025-02</ARI_AuthorDate>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MYS</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew "Juvenile myositis" - the paediatric inflammatory-myopathy group, a subtype narrower than myositis. Kept 'Idiopathic inflammatory myopathies'.</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001139_1299">
@@ -15328,9 +15336,10 @@ The specific location of vasculitis inflammation determines what tissue or organ
   <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001141</ARI_ID>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">95609003</ARI_SNOMED>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4316373</ARI_OMOP>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Congenital heart block due to maternal anti-Ro/SSA and anti-La/SSB</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Congenital heart block due to maternal anti-Ro/SSA and anti-La/SSB | subtype | the cardiac manifestation of neonatal lupus (~2% of cases); neonatal lupus also presents as rash, cytopenias or hepatitis, often without heart block</ARI_SynonymWithdrawn>
   <ARI_Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.1</ARI_Version>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew "Congenital heart block due to maternal anti-Ro/SSA and anti-La/SSB" - the cardiac manifestation of neonatal lupus, not a synonym for the whole syndrome. The entity is left with no synonyms.</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001142">
