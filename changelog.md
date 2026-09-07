@@ -67,7 +67,19 @@
   `ARI_ClinicalSubtype` lists (whole AIHA / interstitial-pneumonia families); several large
   synonym lists (celiac, CFS, CIDP, cold agglutinin) carry dozens of MeSH permuted forms
   that are kept but add little.
-- Batches 4+ (the remaining ~110 diseases with synonyms) follow in the same style.
+- **Batch 4 — 18 diseases (ARI:0003, 0001094–0001114), 64 synonym strings.** 40 kept, 4 kept
+  with a note, **20 withdrawn across 5 diseases**: 17 name a manifestation/subtype
+  (`subtype`), 2 a different disease (`distinct`), 1 a broader parent (`broader`).
+- Batch 4 withdrawn: Graves' disease — *Thyrotoxicosis* (broader); Guillain-Barré syndrome —
+  *Miller-Fisher syndrome* / *MFS* / *Fisher syndrome* (a variant, already a subtype);
+  Hemophilia B Leyden — *Autoimmune hemophilia B* (acquired haemophilia B, a different
+  disease); Immune thrombocytopenia — *Immune-mediated thrombotic thrombocytopenic purpura
+  (iTTP)* (a different disease); Immunoglobulin G4 related disease — 14 organ-manifestation
+  names (*Riedel's thyroiditis*, *Küttner's tumor*, *Mikulicz's syndrome*, *retroperitoneal
+  fibrosis* / *Ormond's disease*, *periaortitis*, *inflammatory pseudotumor*, …).
+- **Pre-existing note for a curator:** ARI:0001098 *Hemophilia B Leyden* is a genetic
+  F9-promoter variant; its place in an autoimmune registry is questionable.
+- Batches 5+ (the remaining ~90 diseases with synonyms) follow in the same style.
 
 ## fix-ms-omop-and-lost-judgments
 

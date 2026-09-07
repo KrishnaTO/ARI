@@ -10808,7 +10808,7 @@ ASA is not a concern except for people trying to conceive.</rdfs:comment>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune hyperthyroidism</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parry disease</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graves' hyperthyroidism</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thyrotoxicosis</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thyrotoxicosis | broader | thyrotoxicosis is excess thyroid hormone from any cause (toxic nodular goitre, thyroiditis, factitious, etc.); Graves' disease is one cause</ARI_SynonymWithdrawn>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Basedow disease</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thyrotoxicosis due to Graves' disease</ARI_Synonym>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eaton 2011; https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2717015/</ARI_DefSource>
@@ -10840,6 +10840,7 @@ ASA is not a concern except for people trying to conceive.</rdfs:comment>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-04 18:23 | user | Edited: omim</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-04 18:26 | Jennyzeng25 | Cross-reference review: confirmed SNOMED 353295004; confirmed OMOP 4232076; confirmed DOID 12361; confirmed MONDO 0005364; confirmed NCI C3071; confirmed ICD10 E05.0; confirmed OMIM 275000; confirmed MESH D006111</ARI_ChangeLog>
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">353295004</ARI_DXCODE>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew "Thyrotoxicosis" - a broader term (excess thyroid hormone from any cause), not a synonym of Graves' disease. Kept the Graves-specific names (toxic diffuse goitre, Basedow disease, Parry disease, autoimmune hyperthyroidism, etc.).</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001096_883">
@@ -11006,10 +11007,10 @@ ASA is not a concern except for people trying to conceive.</rdfs:comment>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D020275</ARI_MESH>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C116345</ARI_NCI>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acute motor axonal neuropathy (AMAN) is an acute, rare, and variant form of Guillain–Barré syndrome. Guillain–Barré syndrome (GBS) can be divided into demyelinating and axonal subtypes. The axonal subtype is referred to as AMAN. AMAN is characterized pathologically by motor nerve fiber degeneration of variable severity and by sparing of sensory fibers. Therefore, it is a rapid onset of muscle weakness and loss of reflexes. There is little demyelination or lymphocytic inflammation involved. Potential pathophysiological reasons for this paradox may involve axonal conduction failure triggered by antibody assault without actual axonal loss, and axonal abnormalities restricted to the nerve terminal area.</rdfs:comment>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Miller-Fisher syndrome</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Miller-Fisher syndrome | subtype | the ophthalmoplegia/ataxia/areflexia variant of GBS; already an ARI_ClinicalSubtype 'GBS, Miller Fisher Syndrome'</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MFS | subtype | abbreviation for Miller-Fisher syndrome, a GBS variant; already an ARI_ClinicalSubtype</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fisher syndrome | subtype | = Miller-Fisher syndrome, a GBS variant; already an ARI_ClinicalSubtype</ARI_SynonymWithdrawn>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Guillain-Barre Syndrome</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MFS</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fisher syndrome</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GBS</ARI_Synonym>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Martinez-Agredano 2016; https://n.neurology.org/content/78/1_Supplement/P06.148; Sejvar 2011; https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5703046/</ARI_DefSource>
   <evidenceQuality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antibody</evidenceQuality>
@@ -11034,6 +11035,7 @@ ASA is not a concern except for people trying to conceive.</rdfs:comment>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">353295004, 40956001</ARI_DXCODE>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4164770</ARI_OMOP>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew "Miller-Fisher syndrome" / "MFS" / "Fisher syndrome" - a GBS variant already listed as an ARI_ClinicalSubtype. Kept 'GBS' and the label variant.</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001097_905">
@@ -11195,13 +11197,14 @@ ASA is not a concern except for people trying to conceive.</rdfs:comment>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1336117005</ARI_SNOMED>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1076202</ARI_OMOP>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NR</rdfs:comment>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune hemophilia B</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune hemophilia B | distinct | acquired haemophilia B (factor IX autoantibodies) is a different disease; haemophilia B Leyden is a genetic F9 promoter variant, not autoimmune</ARI_SynonymWithdrawn>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1% of all cases of hemophilia B; NR</ARI_DefSource>
   <ARI_Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.1</ARI_Version>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-21 17:35 | linikujp | Cross-reference review: confirmed MONDO 0850054; confirmed ORPHANET 617930</ARI_ChangeLog>
   <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0850054</ARI_MONDO>
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">617930</ARI_ORPHANET>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew "Autoimmune hemophilia B" - that names acquired (autoantibody) haemophilia B, a different disease; haemophilia B Leyden is a genetic F9-promoter variant. NB the entity's autoimmune classification is itself questionable - for a curator.</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001099">
@@ -11744,7 +11747,7 @@ Note that thrombotic thrombocytopenic purpura, TTP, is a ***genetic*** disease t
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune thrombocytopenic purpura</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ITP</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Idiopathic thrombocytopenic purpura</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Immune-mediated thrombotic thrombocytopenic purpura (iTTP)</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Immune-mediated thrombotic thrombocytopenic purpura (iTTP) | distinct | iTTP is caused by ADAMTS13 autoantibodies and is a thrombotic microangiopathy - a different disease from immune thrombocytopenia (ITP)</ARI_SynonymWithdrawn>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Segal 2006; https://pubmed.ncbi.nlm.nih.gov/16869934/</ARI_DefSource>
   <ARI_Pubmed rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/16869934/</ARI_Pubmed>
   <evidenceQuality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antibody</evidenceQuality>
@@ -11782,6 +11785,7 @@ Note that thrombotic thrombocytopenic purpura, TTP, is a ***genetic*** disease t
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4103532</ARI_OMOP>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0242584</ARI_UMLS>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-01T00:10:35+00:00 | KrishnaTO | Cross-reference review: confirmed UMLS C0398650</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew "Immune-mediated thrombotic thrombocytopenic purpura (iTTP)" - a different disease (ADAMTS13-autoantibody thrombotic microangiopathy), not a synonym for immune thrombocytopenia.</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001107_335">
@@ -12020,23 +12024,23 @@ This condition is usually temporary (4-6 weeks) with a full recovery for most pa
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Immunoglobulin G4 is a type of antibody normally found in humans. However, in some persons, the level of this antibody is elevated and it plays a role in the development of several autoimmune diseases, including myasthenia gravis, pemphigus, autoimmune thrombocytopenic purpura and autoimmune pancreatitis. IgG4-related diseases (IgG4-RD) are complex fibro-inflammatory disorder that can affect any organ. Medical practitioners assign a diagnosis based on symptoms and the organ affected.  The primary clinical feature in IgG4-RD entails a tumor-like presentation coupled with tissue-destructive lesions.For more information, see the pages on specific diseases. 
 
 At this time, not all IgG4 diseases are documented, and many are very rare. However, as this disease profile shows, IgG4-related disease has 19 synonyms and subtypes, so it may be more common as a class than thought.</rdfs:comment>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Idiopathic hypocomplementemic tubulointerstitial nephritis</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mediastinal fibrosis</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Periaortitis</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Idiopathic retroperitoneal Fibrosis</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Idiopathic hypocomplementemic tubulointerstitial nephritis | subtype | the renal (tubulointerstitial nephritis) manifestation of IgG4-related disease</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mediastinal fibrosis | subtype | the fibrosing-mediastinitis manifestation of IgG4-related disease</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Periaortitis | subtype | the IgG4-related periaortitis manifestation</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Idiopathic retroperitoneal Fibrosis | subtype | = Ormond disease, the retroperitoneal-fibrosis manifestation of IgG4-related disease</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inflammatory pseudotumor | subtype | the IgG4-related inflammatory-pseudotumor (mass-forming) manifestation</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ormond's disease | subtype | = retroperitoneal fibrosis, an IgG4-related disease manifestation</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eosinophilic angiocentric fibrosis | subtype | the sinonasal/orbital manifestation of IgG4-related disease</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Retroperitoneal fibrosis | subtype | an IgG4-related disease manifestation (a proportion of cases)</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Riedel's thyroiditis | subtype | the thyroid (Riedel/fibrosing thyroiditis) manifestation of IgG4-related disease</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Küttner's tumor | subtype | = IgG4-related sialadenitis of the submandibular gland</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Periarteritis | subtype | the IgG4-related periarteritis/periaortitis manifestation</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inflammatory aortic aneurysm | subtype | the IgG4-related (inflammatory) aortic-aneurysm manifestation</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IgG4-related retroperitoneal fibrosis | subtype | the retroperitoneal-fibrosis manifestation of IgG4-related disease</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mikulicz's syndrome | subtype | = IgG4-related dacryoadenitis and sialadenitis</ARI_SynonymWithdrawn>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Multifocal fibrosclerosis</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hyper-IgG4 disease</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inflammatory pseudotumor</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ormond's disease</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IgG4-related systemic disease</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eosinophilic angiocentric fibrosis</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Retroperitoneal fibrosis</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Riedel's thyroiditis</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Küttner's tumor</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Periarteritis</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inflammatory aortic aneurysm</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IgG4-related retroperitoneal fibrosis</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mikulicz's syndrome</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IgG4-related diseases</ARI_Synonym>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Opriţă 2017; https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5771249/</ARI_DefSource>
   <evidenceQuality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antibody</evidenceQuality>
@@ -12067,6 +12071,7 @@ At this time, not all IgG4 diseases are documented, and many are very rare. Howe
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">36717255</ARI_OMOP>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D89.84</ARI_ICD10>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C4087124</ARI_UMLS>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew 14 strings naming organ-specific manifestations of IgG4-related disease (Riedel's thyroiditis, Kuttner's tumor, Mikulicz's syndrome, retroperitoneal fibrosis / Ormond disease, periaortitis, inflammatory pseudotumor, etc.) - these are subtypes/manifestations, not synonyms for the whole disease. Kept the whole-disease synonyms (multifocal fibrosclerosis, hyper-IgG4 disease, IgG4-related systemic disease).</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001109_984">
