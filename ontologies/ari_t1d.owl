@@ -15868,14 +15868,14 @@ Patients with GO experience swelling in the tissues, muscles, and fat in the eye
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Opsoclonus-myoclonus syndrome is a rare autoimmune disorder that affects the nervous system. Inflammation in the neurological system causes this disorder. OMS typically occurs with tumors (neuroblastomas) or after a viral or bacterial infection. The immune reaction to the tumor or infection makes the body attack the nervous system. In some cases, the cause is unknown.</rdfs:comment>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">POMA syndrome</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMA syndrome</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paraneoplastic opsoclonus-myoclonus</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paraneoplastic opsoclonus-myoclonus | subtype | the cancer-associated (mostly neuroblastoma) form; already an ARI_ClinicalSubtype 'Opsoclonus-Myoclonus, Paraneoplastic'</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paraneoplastic opsoclonus-myoclonus-ataxia syndrome | subtype | the cancer-associated form; already an ARI_ClinicalSubtype 'Opsoclonus-Myoclonus, Paraneoplastic'</ARI_SynonymWithdrawn>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dancing eye-dancing feet syndrome</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ataxo-opso-myoclonus syndrome</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Opsoclonus-myoclonus-ataxia syndrome</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dancing eye syndrome</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Opsoclonus myoclonus syndrome</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMS</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paraneoplastic opsoclonus-myoclonus-ataxia syndrome</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kinsbourne syndrome</ARI_Synonym>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pranzatelli 2017; https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5604058/#:~:text=anti%2DHu%20syndrome-,Introduction,per%20million%20children%20(2).</ARI_DefSource>
   <evidenceQuality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Immune-mediated</evidenceQuality>
@@ -15890,6 +15890,7 @@ Patients with GO experience swelling in the tissues, muscles, and fat in the eye
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-09</ARI_AuthorDate>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMS</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew the two 'paraneoplastic opsoclonus-myoclonus...' strings - the cancer-associated form, already an ARI_ClinicalSubtype. Kept the whole-syndrome synonyms (Kinsbourne syndrome, dancing eye syndrome, OMS, POMA, etc.).</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001147_1381">
@@ -16094,10 +16095,10 @@ Patients with GO experience swelling in the tissues, muscles, and fat in the eye
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paraneoplastic cerebellar degeneration (PCD) is a rare autoimmune disorder that occurs in patients with carcinoma. PCD results when the immune system does not differentiate between tumor cells and healthy cells in the cerebellum and attacks both, causing damage. Cancer is often undetected in these patients until symptoms of PCD emerge. Disease progresses quickly, and patients will experience motor and cognitive difficulties that become disabling within less than a few weeks. Treatments are available to manage symptoms, but prognosis is usually poor.</rdfs:comment>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PCD</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PCA</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paraneoplastic neurological syndrome</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PNS</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paraneoplastic neurological syndrome | broader | the whole family of paraneoplastic neurological syndromes (limbic encephalitis, LEMS, sensory neuronopathy, opsoclonus-myoclonus, ...); PCD is one member</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PNS | broader | abbreviation for paraneoplastic neurological syndrome, the whole family</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paraneoplastic syndrome | broader | the entire paraneoplastic category (endocrine, haematologic, dermatologic, neurologic, ...)</ARI_SynonymWithdrawn>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paraneoplastic cerebellar ataxia</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paraneoplastic syndrome</ARI_Synonym>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vogrig 2019; https://pubmed.ncbi.nlm.nih.gov/31552550/</ARI_DefSource>
   <ARI_Pubmed rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/31552550/</ARI_Pubmed>
   <evidenceQuality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antibody</evidenceQuality>
@@ -16111,6 +16112,7 @@ Patients with GO experience swelling in the tissues, muscles, and fat in the eye
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-09</ARI_AuthorDate>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PCD</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew 'Paraneoplastic neurological syndrome' / 'PNS' / 'Paraneoplastic syndrome' - broader categories; paraneoplastic cerebellar degeneration is one paraneoplastic neurological syndrome. Kept PCD / PCA / paraneoplastic cerebellar ataxia.</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001149_1404">
@@ -16353,8 +16355,8 @@ Patients with GO experience swelling in the tissues, muscles, and fat in the eye
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">446682003</ARI_DXCODE>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pediatric Autoimmune Neuropsychiatric Disorders Associated with Streptococcus (PANDAS) affect children, adolescents, and young adults who may present with acute onset of obsessive-compulsive disorder (OCD) and/or tics following strep infection. PANDAS is a subset of Pediatric Acute-Onset Neuropsychiatric Syndrome (PANS) in which similar symptoms result from a misguided immune response following other infectious or environmental triggers such as the flu, COVID, or tick-borne diseases.</rdfs:comment>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PANDAS</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PANS</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pediatric Acute-onset Neuropsychiatric Syndrome</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PANS | broader | Pediatric Acute-onset Neuropsychiatric Syndrome is the umbrella - acute-onset OCD/tics from any trigger; PANDAS is the streptococcus-specific subset</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pediatric Acute-onset Neuropsychiatric Syndrome | broader | the PANS umbrella; PANDAS is its streptococcus-associated subset</ARI_SynonymWithdrawn>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No studies found; CONFIRMED NO DATA Sept 2021</ARI_DefSource>
   <evidenceQuality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antibody Suspected</evidenceQuality>
   <diseaseCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune</diseaseCategory>
@@ -16374,6 +16376,7 @@ Patients with GO experience swelling in the tissues, muscles, and fat in the eye
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-09</ARI_AuthorDate>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PAN</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew 'PANS' / 'Pediatric Acute-onset Neuropsychiatric Syndrome' - the broader umbrella; PANDAS is the streptococcus-associated subset of PANS.</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001153_1430">
@@ -17980,7 +17983,7 @@ To date, there is no direct or indirect evidence that post-pericardiotomy syndro
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4203149</ARI_OMOP>
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">53043001</ARI_DXCODE>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A disease in which the immune system attacks the heart muscle causing inflammation, normally beginning in the heart's left ventricle (the heart's main pumping chamber). The ventricle stretches and thins and is unable to pump blood as a healthy heart can. Not all patients experience symptoms, but for some it can be life-threatening.</rdfs:comment>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dilated cardiomyopathy</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dilated cardiomyopathy | broader | DCM is the whole category (ischaemic, genetic/familial, alcoholic, peripartum, idiopathic, autoimmune, ...); this entity is the primary idiopathic / autoimmune subset</ARI_SynonymWithdrawn>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Idiopathic dilated cardiomyopathy</ARI_Synonym>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Codd 1989; https://pubmed.ncbi.nlm.nih.gov/2766509/</ARI_DefSource>
   <ARI_Pubmed rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/2766509/</ARI_Pubmed>
@@ -17998,6 +18001,7 @@ To date, there is no direct or indirect evidence that post-pericardiotomy syndro
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-09</ARI_AuthorDate>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PIDC</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew bare 'Dilated cardiomyopathy' - the whole DCM category, broader than primary idiopathic dilated cardiomyopathy. Kept 'Idiopathic dilated cardiomyopathy' (essentially the label).</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001167_1615">

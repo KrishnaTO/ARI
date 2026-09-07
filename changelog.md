@@ -89,7 +89,15 @@
   (anti-MAG neuropathy is a different disease — MAG vs MOG); Myocarditis due to autoimmune
   disease — *Coxsackie myocarditis* (viral); Myositis — *Juvenile myositis*; Neonatal lupus —
   *Congenital heart block due to maternal anti-Ro/SSA and anti-La/SSB* (the cardiac form).
-- Batches 6+ (the remaining ~70 diseases with synonyms) follow in the same style.
+- **Batch 6 — 20 diseases (ARI:0001143–0001173), 98 synonym strings.** 77 kept, 13 kept with
+  a note, **8 withdrawn across 4 diseases**: 6 `broader`, 2 `subtype`.
+- Batch 6 withdrawn: Opsoclonus-myoclonus syndrome — *Paraneoplastic opsoclonus-myoclonus*
+  (×2, the cancer-associated subtype); Paraneoplastic cerebellar degeneration —
+  *Paraneoplastic neurological syndrome* / *PNS* / *Paraneoplastic syndrome* (broader
+  categories); PANDAS — *PANS* / *Pediatric Acute-onset Neuropsychiatric Syndrome* (the
+  broader umbrella); Primary idiopathic dilated cardiomyopathy — bare *Dilated
+  cardiomyopathy*.
+- Batches 7+ (the remaining ~50 diseases with synonyms) follow in the same style.
 
 ## fix-ms-omop-and-lost-judgments
 
