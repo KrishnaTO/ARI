@@ -5563,9 +5563,9 @@ Several names are used for autoimmune thyroiditis. When it is known to be autoim
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune urticaria occurs when the immune system attacks the normal tissues of the body, resulting in hives. The condition becomes chronic when the lesions persists longer than 6 weeks. Chronic autoimmune urticaria has been found to be associated with autoimmune thyroid disease.
 
 Urticaria can also be caused by allergic reaction to plants like poison ivy, dyes found in clothing, and cosmetics. An allergic reaction is not an autoimmune disease because there is no involvement by the adaptive immune system and auto-antibodies that attack your own cells are not involved. There are antibodies (IgE antibodies), but they target the invading molecules (e.g., poison ivy), not the cells in the skin. In autoimmune urticaria, the antibodies created are attacking the skin itself, not an invading molecule.</rdfs:comment>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chronic idiopathic urticaria</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Physical urticaria</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chronic urticaria</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chronic idiopathic urticaria | broader | chronic spontaneous/idiopathic urticaria is the parent category; autoimmune urticaria is a subset with functional autoantibodies</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Physical urticaria | distinct | the inducible/physical urticarias (dermographism, cold, cholinergic, pressure) are a mechanistically separate category, not autoimmune urticaria</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chronic urticaria | broader | umbrella term (DOID:0080747) with chronic spontaneous and chronic inducible urticaria as children</ARI_SynonymWithdrawn>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zuberbier 2010; https://pubmed.ncbi.nlm.nih.gov/20456386/</ARI_DefSource>
   <ARI_Pubmed rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/20456386/</ARI_Pubmed>
   <evidenceQuality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antibody</evidenceQuality>
@@ -5590,6 +5590,7 @@ Urticaria can also be caused by allergic reaction to plants like poison ivy, dye
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1304191</ARI_UMLS>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-11 04:10 | user | Edited: umls</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-11 04:34 | KrishnaTO | Cross-reference review: confirmed SNOMED 402397006; confirmed OMOP 4224623; flagged DOID 0080747; flagged MESH D000080223</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew "Chronic idiopathic urticaria" and "Chronic urticaria" (broader parent categories) and "Physical urticaria" (the inducible urticarias, a separate category).</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001049_377">
@@ -5958,8 +5959,8 @@ There are many types of vasculitis, and most of them are rare. Vasculitis might 
 
 This disease is not well understood but is believed to be autoimmune in nature since the symptoms are due to vasculitis. Researchers have also found several genes to be associated with Behçet’s and believe that those with these genes can trigger Behçet’s if they are exposed to a virus or bacterium.</rdfs:comment>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morbus Adamandiades-Behçet</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hughes-Stovin syndrome</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hughes Stovin syndrome</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hughes-Stovin syndrome | subtype | rare vascular variant of Behcet disease (pulmonary artery aneurysms with venous thrombosis); has its own nosologic status but is described as within the Behcet spectrum</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hughes Stovin syndrome | subtype | rare vascular variant of Behcet disease (pulmonary artery aneurysms with venous thrombosis); has its own nosologic status but is described as within the Behcet spectrum</ARI_SynonymWithdrawn>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Behçet's disease</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Behcet's syndrome</ARI_Synonym>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calamia 2009 and Mohammad 2013. ; https://pubmed.ncbi.nlm.nih.gov/19405011/</ARI_DefSource>
@@ -5989,6 +5990,7 @@ This disease is not well understood but is believed to be autoimmune in nature s
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-11 16:53 | KrishnaTO | Cross-reference review: confirmed SNOMED 310701003; confirmed OMOP 436642; confirmed DOID 13241; confirmed NCI C34416; confirmed ICD10 M35.2; confirmed UMLS C0004943; confirmed MESH D001528; flagged SNOMED 721226005; flagged OMOP 36715522</ARI_ChangeLog>
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">310701003</ARI_DXCODE>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">436642</ARI_OMOP>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew "Hughes-Stovin syndrome" / "Hughes Stovin syndrome" - a rare vascular variant of Behcet disease, not a synonym for it.</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001053_415">
@@ -6155,7 +6157,7 @@ This disease is not well understood but is believed to be autoimmune in nature s
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cicatricial pemphigoid is a rare autoimmune disease, discovered in 2002, that causes blistering of the mucous membranes. This blistering is due to autoantibodies binding to anchoring filaments of the epidermis.  A common mucous membrane that is affected is the conjunctiva of the eye.  Other areas that can be affected include the skin, nose, mouth, and genitals.
 
 Cicatricial pemphigoid is usually not chronic, and most patients symptoms disappear within 3 years.</rdfs:comment>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ocular pemphigoid</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ocular pemphigoid | subtype | the eye-restricted form (ocular cicatricial pemphigoid); covered by existing subtype "Benign Mucous Membrane Pemphigoid, Ocular"</ARI_SynonymWithdrawn>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cicatricial pemphigoid</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scarring pemphigoid</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mucous membrane pemphigoid</ARI_Synonym>
@@ -6180,6 +6182,7 @@ Cicatricial pemphigoid is usually not chronic, and most patients symptoms disapp
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-11 16:53 | KrishnaTO | Cross-reference review: confirmed SNOMED 34250006; confirmed OMOP 4142060; confirmed DOID 11656; confirmed NCI C34907; confirmed ICD10 L12.1; confirmed UMLS C0030804; confirmed MESH D010390; flagged SNOMED 314757003; flagged OMOP 4152707</ARI_ChangeLog>
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">34250006</ARI_DXCODE>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4142060</ARI_OMOP>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew "Ocular pemphigoid" - the eye-restricted form, already an ARI_ClinicalSubtype.</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001054_439">
@@ -6456,7 +6459,14 @@ Cicatricial pemphigoid is usually not chronic, and most patients symptoms disapp
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Narcolepsy is a neurologic condition that causes a person to experience extreme sleepiness during the day without warning. When combined with cataplexy, a similar onset of muscle weakness, the condition is sometimes called narcolepsy type 1 and is suspected of being caused when the immune system attacks an important chemical in brain cells called hypocretin. The destruction of this chemical leads to the symptoms experienced by patients.
 
 The first reports of narcolepsy being an autoimmune disease came in 2013, but retraction of that paper in 2014 put its status in doubt. Subsequent research and identification of the molecular mechanism by Mahoney et al. provides evidence and justifies classification as an autoimmune disease.</rdfs:comment>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Narcolepsy type 1</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Narcolepsy type 1 | subtype | NT1 (narcolepsy with cataplexy / hypocretin deficiency); already an ARI_ClinicalSubtype "Narcolepsy Type 1"</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Narcolepsy, without cataplexy | subtype | NT2; already an ARI_ClinicalSubtype "Narcolepsy Type 2"</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">narcolepsy with cataplexy | subtype | = NT1; already an ARI_ClinicalSubtype "Narcolepsy Type 1"</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">narcolepsy-cataplexy syndrome | subtype | maps to the NT1 concept (MONDO:0016158) and is already an ARI_ClinicalSubtype</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hypocretin/orexin deficiency syndrome | subtype | defines NT1 specifically (low CSF hypocretin-1); already covered by ARI_ClinicalSubtype "Narcolepsy Type 1"</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">narcolepsy caused by mutation in HCRT | subtype | narcolepsy 7 (HCRT gene); already an ARI_ClinicalSubtype "narcolepsy 7"</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HCRT narcolepsy | subtype | narcolepsy 7 (HCRT gene); already an ARI_ClinicalSubtype "narcolepsy 7"</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">narcolepsy 1 | subtype | the classic HLA-associated locus; already an ARI_ClinicalSubtype "narcolepsy 1"</ARI_SynonymWithdrawn>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scheer 2017; https://pubmed.ncbi.nlm.nih.gov/31004158/</ARI_DefSource>
   <ARI_Pubmed rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/31004158/</ARI_Pubmed>
   <evidenceQuality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antibody</evidenceQuality>
@@ -6510,18 +6520,12 @@ The first reports of narcolepsy being an autoimmune disease came in 2013, but re
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D009290</ARI_MESH>
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">193042000</ARI_DXCODE>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">437854</ARI_OMOP>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Narcolepsy, without cataplexy</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">narcolepsy with cataplexy</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">narcolepsy</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Narcolepsy-cataplexy</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">narcolepsy-cataplexy syndrome</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hypocretin/orexin deficiency syndrome</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">paroxysmal sleep</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gelineau's syndrome</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gelineau disease</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gelineau syndrome</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">narcolepsy caused by mutation in HCRT</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HCRT narcolepsy</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Narcoleptic Syndrome</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Syndrome, Gelineau's</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Syndromes, Gelineau's</ARI_Synonym>
@@ -6531,7 +6535,6 @@ The first reports of narcolepsy being an autoimmune disease came in 2013, but re
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gelineau's Syndromes</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Narcoleptic Syndromes</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Syndrome, Gelineau</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">narcolepsy 1</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sleep, Paroxysmal</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Syndromes, Narcoleptic</ARI_Synonym>
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">narcolepsy 7 - subtype of Cataplexy and narcolepsy (MONDO:0013652)</ARI_ClinicalSubtype>
@@ -6541,6 +6544,7 @@ The first reports of narcolepsy being an autoimmune disease came in 2013, but re
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gelineau Syndrome</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gelineau's Syndrome</ARI_Synonym>
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">narcolepsy-cataplexy syndrome - subtype of Cataplexy and narcolepsy (MONDO:0016158)</ARI_ClinicalSubtype>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew 8 strings naming narcolepsy subtypes (NT1 / NT2 / HCRT-locus / narcolepsy 1) that are already listed as ARI_ClinicalSubtypes; kept the umbrella synonyms (narcolepsy, Gelineau syndrome, etc.).</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001060_462">
@@ -6678,25 +6682,25 @@ CD is generally treated by eliminating gluten from the diet.  Patients with an e
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">396331005</ARI_DXCODE>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">194992</ARI_OMOP>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sprue, Nontropical</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NON RARE IN EUROPE: Nontropical sprue</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NON RARE IN EUROPE: Coeliac sprue</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NON RARE IN EUROPE: Nontropical sprue | non-disease | Orphanet epidemiological-classification label that leaked in as a synonym</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NON RARE IN EUROPE: Coeliac sprue | non-disease | Orphanet epidemiological-classification label that leaked in as a synonym</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NON RARE IN EUROPE: Coeliac disease | non-disease | Orphanet epidemiological-classification label that leaked in as a synonym</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NON RARE IN EUROPE: Gluten intolerance | non-disease | Orphanet epidemiological-classification label that leaked in as a synonym</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NON RARE IN EUROPE: Celiac disease | non-disease | Orphanet epidemiological-classification label that leaked in as a synonym</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NON RARE IN EUROPE: Celiac sprue | non-disease | Orphanet epidemiological-classification label that leaked in as a synonym</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NON RARE IN EUROPE: Idiopathic steatorrhea | non-disease | Orphanet epidemiological-classification label that leaked in as a synonym</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NON RARE IN EUROPE: Gluten-sensitive enteropathy | non-disease | Orphanet epidemiological-classification label that leaked in as a synonym</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NON RARE IN EUROPE: Gluten-induced enteropathy | non-disease | Orphanet epidemiological-classification label that leaked in as a synonym</ARI_SynonymWithdrawn>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">coeliac sprue</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enteropathy, Gluten-Sensitive</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sprue, Celiac</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NON RARE IN EUROPE: Coeliac disease</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NON RARE IN EUROPE: Gluten intolerance</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enteropathies, Gluten-Sensitive</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">idiopathic steatorrhea</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease, Celiac</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sprue</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gluten intolerance</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NON RARE IN EUROPE: Celiac disease</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NON RARE IN EUROPE: Celiac sprue</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gluten-Sensitive Enteropathies</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NON RARE IN EUROPE: Idiopathic steatorrhea</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gluten Enteropathies</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NON RARE IN EUROPE: Gluten-sensitive enteropathy</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NON RARE IN EUROPE: Gluten-induced enteropathy</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enteropathies, Gluten</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">non tropical sprue</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gluten Enteropathy</ARI_Synonym>
@@ -6707,6 +6711,7 @@ CD is generally treated by eliminating gluten from the diet.  Patients with an e
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Latent Celiac Disease - subtype of Celiac disease (NCIT:C45425)</ARI_ClinicalSubtype>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-15 22:37 | KrishnaTO | Cross-reference review: confirmed SNOMED 396331005; confirmed OMOP 194992; confirmed DOID 10608; confirmed MONDO 0005130; confirmed NCI C26714; confirmed ICD10 K90.0; confirmed ORPHANET 555; confirmed UMLS C0007570; confirmed MESH D002446; flagged SNOMED 91867008; flagged OMOP 4241413; flagged ICD10 579.0</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-15 22:38 | KrishnaTO | Enrichment from confirmed cross-references: +24 synonym(s), +4 clinical subtype(s)</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew 9 "NON RARE IN EUROPE: ..." strings - Orphanet epidemiological-classification labels that leaked in as synonyms. Real synonyms (celiac sprue, coeliac disease, gluten-sensitive enteropathy, etc.) kept.</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001061_468">
@@ -6966,7 +6971,9 @@ The cause of this syndrome is unknown, however, researchers believe that it may 
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fatigue Syndrome, Postviral</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Infectious Mononucleosis-Like Syndrome, Chronic</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fatigue Syndrome, Chronic</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NON RARE IN EUROPE: Myalgic encephalomyelitis</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NON RARE IN EUROPE: Myalgic encephalomyelitis | non-disease | Orphanet epidemiological-classification label that leaked in as a synonym</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NON RARE IN EUROPE: Chronic fatigue syndrome | non-disease | Orphanet epidemiological-classification label that leaked in as a synonym</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NON RARE IN EUROPE: Chronic fatigue immune dysfunction syndrome | non-disease | Orphanet epidemiological-classification label that leaked in as a synonym</ARI_SynonymWithdrawn>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Postviral Fatigue Syndromes</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chronic Fatigue Syndromes</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Myalgic encephalitis</ARI_Synonym>
@@ -6978,17 +6985,16 @@ The cause of this syndrome is unknown, however, researchers believe that it may 
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chronic fatigue immune dysfunction syndrome</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Postviral fatigue syndrome</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fatigue Disorder, Chronic</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NON RARE IN EUROPE: Chronic fatigue syndrome</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fatigue Syndromes, Chronic</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fatigue-Fibromyalgia Syndromes, Chronic</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chronic Fatigue Disorder</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Myalgic encephalomyelitis/chronic fatigue syndrome</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CFS</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chronic Fatigue Disorders</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NON RARE IN EUROPE: Chronic fatigue immune dysfunction syndrome</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Encephalomyelitis, Myalgic</ARI_Synonym>
   <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0005404</ARI_MONDO>
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1983</ARI_ORPHANET>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew 3 "NON RARE IN EUROPE: ..." strings - Orphanet epidemiological-classification labels that leaked in as synonyms.</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001062_502">
@@ -7239,7 +7245,7 @@ Currently, the cause of interstitial cystitis is unknown. There are two main the
   <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0018301</ARI_MONDO>
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">37202</ARI_ORPHANET>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C27189</ARI_NCI>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ulcerative cystitis</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ulcerative cystitis | subtype | the classic (Hunner-lesion) form of interstitial cystitis; covered by existing subtype "Chronic Interstitial Cystitis, Hunner's Lesions"</ARI_SynonymWithdrawn>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IC/BPS</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IC/PBS</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Interstitial Cystitides</ARI_Synonym>
@@ -7249,6 +7255,7 @@ Currently, the cause of interstitial cystitis is unknown. There are two main the
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interstitial cystitis/bladder pain syndrome</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cystitis, Interstitial</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interstitial cystitis, chronic</ARI_Synonym>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew "ulcerative cystitis" - the Hunner-lesion form, already an ARI_ClinicalSubtype.</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Tissue_Bladder">
@@ -7344,10 +7351,10 @@ Currently, the cause of interstitial cystitis is unknown. There are two main the
 If the disease is detected and treated (with antibiotics) recovery is usually complete and symptoms like Bell’s disappear completely. In these cases, there is no autoimmune disease.   
 
 However, in some people, the Lyme disease triggers symptoms similar to rheumatoid arthritis. This is called “chronic Lyme disease” and is suspected of being an autoimmune disease.</rdfs:comment>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lyme Borreliosis</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lyme disease</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lyme Arthritis</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Erythema Migrans with Polyarthritis</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lyme Borreliosis | distinct | the active tick-borne Borrelia infection; a different disease from the post-treatment/chronic syndrome this entity represents</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lyme disease | broader | the infection itself (DOID:11729); chronic/post-treatment Lyme is a sequela of it, not a synonym</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lyme Arthritis | distinct | a late manifestation of the Borrelia infection, not the post-treatment syndrome</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Erythema Migrans with Polyarthritis | distinct | describes early/disseminated active Lyme disease (the rash plus arthritis), not the chronic syndrome</ARI_SynonymWithdrawn>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No studies found; CONFIRMED NO DATA Sept 2021</ARI_DefSource>
   <evidenceQuality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unconfirmed</evidenceQuality>
   <diseaseCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unconfirmed</diseaseCategory>
@@ -7410,6 +7417,7 @@ However, in some people, the Lyme disease triggers symptoms similar to rheumatoi
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19137845</ARI_OMOP>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">37365579</ARI_OMOP>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-31T02:09:20+00:00 | KrishnaTO | Cross-reference review: confirmed OMOP 19137845; flagged OMOP 440638, 4141757; flagged SNOMED 23502006, 33937009</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew "Lyme Borreliosis", "Lyme Arthritis", "Erythema Migrans with Polyarthritis" (the active infection / its manifestations) and "Lyme disease" (broader). Kept the post-treatment Lyme disease syndrome synonyms (PTLDS, post-Lyme disease syndrome, etc.).</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001065_531">

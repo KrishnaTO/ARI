@@ -31,10 +31,26 @@
   neutropenia — *Autoimmune neutropenia of infancy*, *Primary autoimmune neutropenia*;
   Autoimmune pancreatitis — *Lymphoplasmocytic sclerosing pancreatitis*, *Nonalcoholic
   destructive pancreatitis*.
-- **One pre-existing bug noted for a curator, not fixed here:** ARI:0001031 is labelled
-  *Autoimmune gastritis* but its `rdfs:comment` describes autoimmune enteropathy.
-- Batches 2+ (the remaining ~121 diseases with synonyms) follow once this rubric is
-  confirmed.
+- **Batch 2 — 16 diseases (ARI:0001036, 0001048–0001067), 181 synonym strings.** 129 kept,
+  21 kept with a note, **31 withdrawn across 8 diseases**: 12 name an existing
+  `ARI_ClinicalSubtype` (`subtype`), 12 are `NON RARE IN EUROPE: …` Orphanet
+  epidemiological-classification labels that leaked in as synonyms (`non-disease`), 4 name a
+  different disease (`distinct`), 3 a broader parent (`broader`). No `ARI_ClinicalSubtype`
+  lines added or rewritten.
+- Batch 2 withdrawn: Autoimmune urticaria — *Chronic idiopathic urticaria*,
+  *Chronic urticaria* (broader), *Physical urticaria* (distinct); Behçet's syndrome —
+  *Hughes-Stovin syndrome* ×2 (a rare vascular variant); Benign mucous membrane pemphigoid —
+  *Ocular pemphigoid*; Cataplexy and narcolepsy — 8 NT1 / NT2 / HCRT-locus / *narcolepsy 1*
+  strings; Celiac disease — 9 *NON RARE IN EUROPE: …* strings; Chronic Fatigue Syndrome —
+  3 *NON RARE IN EUROPE: …* strings; Chronic interstitial cystitis — *ulcerative cystitis*;
+  Chronic Lyme disease — *Lyme Borreliosis*, *Lyme Arthritis*, *Erythema Migrans with
+  Polyarthritis* (the active infection), *Lyme disease* (broader).
+- **Pre-existing bugs noted for a curator, not fixed here:** ARI:0001031 is labelled
+  *Autoimmune gastritis* but its `rdfs:comment` describes autoimmune enteropathy; ARI:0001065
+  *Chronic Lyme disease* has a definition describing the acute tick-borne infection; several
+  large synonym lists (celiac, CFS, CIDP, cold agglutinin) carry dozens of MeSH permuted
+  forms that are kept but add little.
+- Batches 3+ (the remaining ~120 diseases with synonyms) follow in the same style.
 
 ## fix-ms-omop-and-lost-judgments
 
