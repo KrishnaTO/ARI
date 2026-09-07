@@ -619,3 +619,78 @@ ARI	0001158	Polyglandular autoimmune syndrome type 2	skos:exactMatch	DOID	006023
 ARI	0001158	Polyglandular autoimmune syndrome type 2	skos:exactMatch	umls	C1275078	manual-negative	github:KrishnaTO
 ARI	0001158	Polyglandular autoimmune syndrome type 2	skos:exactMatch	mesh	C563187	manual-negative	github:KrishnaTO
 ARI	0001158	Polyglandular autoimmune syndrome type 2	skos:exactMatch	ncit	C98873	manual-negative	github:KrishnaTO
+ARI	0001166	Primary biliary cholangitis	skos:exactMatch	SNOMEDCT	31712002	manual	github:KrishnaTO
+ARI	0001166	Primary biliary cholangitis	skos:exactMatch	omop	4135822	manual	github:KrishnaTO
+ARI	0001166	Primary biliary cholangitis	skos:exactMatch	DOID	12236	manual	github:KrishnaTO
+ARI	0001166	Primary biliary cholangitis	skos:exactMatch	MONDO	0005388	manual	github:KrishnaTO
+ARI	0001166	Primary biliary cholangitis	skos:exactMatch	ncit	C27167	manual	github:KrishnaTO
+ARI	0001166	Primary biliary cholangitis	skos:exactMatch	umls	C0008312	manual	github:KrishnaTO
+ARI	0001166	Primary biliary cholangitis	skos:exactMatch	ORPHA	186	manual	github:KrishnaTO
+ARI	0001166	Primary biliary cholangitis	skos:exactMatch	icd10cm	K74.3	manual	github:KrishnaTO
+ARI	0001166	Primary biliary cholangitis	skos:exactMatch	mesh	D008105	manual	github:KrishnaTO
+ARI	0001190	SLE glomerulonephritis syndrome	skos:exactMatch	SNOMEDCT	68815009	manual	github:KrishnaTO
+ARI	0001190	SLE glomerulonephritis syndrome	skos:exactMatch	omop	4285717	manual	github:KrishnaTO
+ARI	0001190	SLE glomerulonephritis syndrome	skos:exactMatch	DOID	0080162	manual	github:KrishnaTO
+ARI	0001190	SLE glomerulonephritis syndrome	skos:exactMatch	MONDO	0005556	manual	github:KrishnaTO
+ARI	0001190	SLE glomerulonephritis syndrome	skos:exactMatch	ncit	C34789	manual	github:KrishnaTO
+ARI	0001190	SLE glomerulonephritis syndrome	skos:exactMatch	umls	C0024143	manual	github:KrishnaTO
+ARI	0001190	SLE glomerulonephritis syndrome	skos:exactMatch	mesh	D008181	manual	github:KrishnaTO
+ARI	0001187	Schnitzler syndrome	skos:exactMatch	SNOMEDCT	402415001	manual	github:KrishnaTO
+ARI	0001187	Schnitzler syndrome	skos:exactMatch	omop	4297647	manual	github:KrishnaTO
+ARI	0001187	Schnitzler syndrome	skos:exactMatch	DOID	4371	manual	github:KrishnaTO
+ARI	0001187	Schnitzler syndrome	skos:exactMatch	MONDO	0018304	manual	github:KrishnaTO
+ARI	0001187	Schnitzler syndrome	skos:exactMatch	ORPHA	37748	manual	github:KrishnaTO
+ARI	0001187	Schnitzler syndrome	skos:exactMatch	umls	C0524988	manual	github:KrishnaTO
+ARI	0001187	Schnitzler syndrome	skos:exactMatch	mesh	D019873	manual	github:KrishnaTO
+ARI	0001191	Small fiber neuropathy	skos:exactMatch	SNOMEDCT	709489006	manual	github:KrishnaTO
+ARI	0001191	Small fiber neuropathy	skos:exactMatch	DOID	0070701	manual	github:KrishnaTO
+ARI	0001191	Small fiber neuropathy	skos:exactMatch	omop	46271378	manual	github:KrishnaTO
+ARI	0001191	Small fiber neuropathy	skos:exactMatch	MONDO	0800207	manual	github:KrishnaTO
+ARI	0001191	Small fiber neuropathy	skos:exactMatch	ncit	C125389	manual	github:KrishnaTO
+ARI	0001191	Small fiber neuropathy	skos:exactMatch	umls	C3276706	manual	github:KrishnaTO
+ARI	0001191	Small fiber neuropathy	skos:exactMatch	mesh	D000071075	manual	github:KrishnaTO
+ARI	0001201	Temporal arteritis	skos:exactMatch	SNOMEDCT	400130008	manual	github:KrishnaTO
+ARI	0001201	Temporal arteritis	skos:exactMatch	omop	4290976	manual	github:KrishnaTO
+ARI	0001201	Temporal arteritis	skos:exactMatch	DOID	13375	manual	github:KrishnaTO
+ARI	0001201	Temporal arteritis	skos:exactMatch	MONDO	0008538	manual	github:KrishnaTO
+ARI	0001201	Temporal arteritis	skos:exactMatch	ncit	C35065	manual	github:KrishnaTO
+ARI	0001201	Temporal arteritis	skos:exactMatch	umls	C0039483	manual	github:KrishnaTO
+ARI	0001201	Temporal arteritis	skos:exactMatch	ORPHA	397	manual	github:KrishnaTO
+ARI	0001201	Temporal arteritis	skos:exactMatch	mesh	D013700	manual	github:KrishnaTO
+ARI	0001203	Tolosa-Hunt syndrome	skos:exactMatch	SNOMEDCT	95794005	manual	github:KrishnaTO
+ARI	0001203	Tolosa-Hunt syndrome	skos:exactMatch	omop	4317989	manual	github:KrishnaTO
+ARI	0001203	Tolosa-Hunt syndrome	skos:exactMatch	DOID	1278	manual	github:KrishnaTO
+ARI	0001203	Tolosa-Hunt syndrome	skos:exactMatch	MONDO	0018983	manual	github:KrishnaTO
+ARI	0001203	Tolosa-Hunt syndrome	skos:exactMatch	ncit	C85193	manual	github:KrishnaTO
+ARI	0001203	Tolosa-Hunt syndrome	skos:exactMatch	mesh	D020333	manual	github:KrishnaTO
+ARI	0001203	Tolosa-Hunt syndrome	skos:exactMatch	umls	C0040381	manual	github:KrishnaTO
+ARI	0001203	Tolosa-Hunt syndrome	skos:exactMatch	ORPHA	64686	manual	github:KrishnaTO
+ARI	0001206	Undifferentiated connective tissue disease	skos:exactMatch	SNOMEDCT	239918008	manual	github:KrishnaTO
+ARI	0001206	Undifferentiated connective tissue disease	skos:exactMatch	omop	4344165	manual	github:KrishnaTO
+ARI	0001206	Undifferentiated connective tissue disease	skos:exactMatch	MONDO	0019527	manual	github:KrishnaTO
+ARI	0001206	Undifferentiated connective tissue disease	skos:exactMatch	ncit	C116776	manual	github:KrishnaTO
+ARI	0001206	Undifferentiated connective tissue disease	skos:exactMatch	mesh	D000074079	manual	github:KrishnaTO
+ARI	0001206	Undifferentiated connective tissue disease	skos:exactMatch	umls	C0409999	manual	github:KrishnaTO
+ARI	0001206	Undifferentiated connective tissue disease	skos:exactMatch	ORPHA	90002	manual	github:KrishnaTO
+ARI	0001207	Urticarial vasculitis	skos:exactMatch	SNOMEDCT	402656007	manual	github:KrishnaTO
+ARI	0001207	Urticarial vasculitis	skos:exactMatch	omop	4292532	manual	github:KrishnaTO
+ARI	0001166	Primary biliary cholangitis	skos:exactMatch	ncit	C51225	manual-negative	github:KrishnaTO
+ARI	0001166	Primary biliary cholangitis	skos:exactMatch	umls	C0023892	manual-negative	github:KrishnaTO
+ARI	0001166	Primary biliary cholangitis	skos:exactMatch	icd10cm	K74.5	manual-negative	github:KrishnaTO
+ARI	0001207	Urticarial vasculitis	skos:exactMatch	MONDO	0018227	manual-negative	github:KrishnaTO
+ARI	0001207	Urticarial vasculitis	skos:exactMatch	ORPHA	36412	manual-negative	github:KrishnaTO
+ARI	0001207	Urticarial vasculitis	skos:exactMatch	umls	C0343206	manual-negative	github:KrishnaTO
+ARI	0001190	SLE glomerulonephritis syndrome	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001190	SLE glomerulonephritis syndrome	skos:exactMatch	ORPHA	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001187	Schnitzler syndrome	skos:exactMatch	ncit	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001187	Schnitzler syndrome	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001191	Small fiber neuropathy	skos:exactMatch	ORPHA	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001191	Small fiber neuropathy	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001203	Tolosa-Hunt syndrome	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001206	Undifferentiated connective tissue disease	skos:exactMatch	DOID	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001207	Urticarial vasculitis	skos:exactMatch	DOID	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001207	Urticarial vasculitis	skos:exactMatch	MONDO	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001207	Urticarial vasculitis	skos:exactMatch	ncit	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001207	Urticarial vasculitis	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001207	Urticarial vasculitis	skos:exactMatch	mesh	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001207	Urticarial vasculitis	skos:exactMatch	ORPHA	NoTermFound	manual-absent	github:KrishnaTO

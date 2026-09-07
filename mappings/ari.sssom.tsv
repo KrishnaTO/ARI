@@ -640,3 +640,78 @@ ARI:0001158	Polyglandular autoimmune syndrome type 2	skos:exactMatch	Not	DOID:00
 ARI:0001158	Polyglandular autoimmune syndrome type 2	skos:exactMatch	Not	umls:C1275078	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T21:38:45+00:00	
 ARI:0001158	Polyglandular autoimmune syndrome type 2	skos:exactMatch	Not	mesh:C563187	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T21:38:45+00:00	
 ARI:0001158	Polyglandular autoimmune syndrome type 2	skos:exactMatch	Not	ncit:C98873	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T21:38:45+00:00	
+ARI:0001166	Primary biliary cholangitis	skos:exactMatch		SNOMEDCT:31712002	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T23:44:41+00:00	
+ARI:0001166	Primary biliary cholangitis	skos:exactMatch		omop:4135822	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T23:44:41+00:00	
+ARI:0001166	Primary biliary cholangitis	skos:exactMatch		DOID:12236	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T23:44:41+00:00	
+ARI:0001166	Primary biliary cholangitis	skos:exactMatch		MONDO:0005388	MONDO	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T23:44:41+00:00	
+ARI:0001166	Primary biliary cholangitis	skos:exactMatch		ncit:C27167	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T23:44:41+00:00	
+ARI:0001166	Primary biliary cholangitis	skos:exactMatch		umls:C0008312	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T23:44:41+00:00	
+ARI:0001166	Primary biliary cholangitis	skos:exactMatch		ORPHA:186	ORPHA	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T23:44:41+00:00	
+ARI:0001166	Primary biliary cholangitis	skos:exactMatch		icd10cm:K74.3	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T23:44:41+00:00	
+ARI:0001166	Primary biliary cholangitis	skos:exactMatch		mesh:D008105	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T23:44:41+00:00	
+ARI:0001190	SLE glomerulonephritis syndrome	skos:exactMatch		SNOMEDCT:68815009	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T23:44:41+00:00	
+ARI:0001190	SLE glomerulonephritis syndrome	skos:exactMatch		omop:4285717	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T23:44:41+00:00	
+ARI:0001190	SLE glomerulonephritis syndrome	skos:exactMatch		DOID:0080162	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T23:44:41+00:00	
+ARI:0001190	SLE glomerulonephritis syndrome	skos:exactMatch		MONDO:0005556	MONDO	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T23:44:41+00:00	
+ARI:0001190	SLE glomerulonephritis syndrome	skos:exactMatch		ncit:C34789	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T23:44:41+00:00	
+ARI:0001190	SLE glomerulonephritis syndrome	skos:exactMatch		umls:C0024143	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T23:44:41+00:00	
+ARI:0001190	SLE glomerulonephritis syndrome	skos:exactMatch		mesh:D008181	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T23:44:41+00:00	
+ARI:0001187	Schnitzler syndrome	skos:exactMatch		SNOMEDCT:402415001	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T23:44:41+00:00	
+ARI:0001187	Schnitzler syndrome	skos:exactMatch		omop:4297647	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T23:44:41+00:00	
+ARI:0001187	Schnitzler syndrome	skos:exactMatch		DOID:4371	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T23:44:41+00:00	
+ARI:0001187	Schnitzler syndrome	skos:exactMatch		MONDO:0018304	MONDO	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T23:44:41+00:00	
+ARI:0001187	Schnitzler syndrome	skos:exactMatch		ORPHA:37748	ORPHA	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T23:44:41+00:00	
+ARI:0001187	Schnitzler syndrome	skos:exactMatch		umls:C0524988	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T23:44:41+00:00	
+ARI:0001187	Schnitzler syndrome	skos:exactMatch		mesh:D019873	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T23:44:41+00:00	
+ARI:0001191	Small fiber neuropathy	skos:exactMatch		SNOMEDCT:709489006	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T23:44:41+00:00	
+ARI:0001191	Small fiber neuropathy	skos:exactMatch		DOID:0070701	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T23:44:41+00:00	
+ARI:0001191	Small fiber neuropathy	skos:exactMatch		omop:46271378	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T23:44:41+00:00	
+ARI:0001191	Small fiber neuropathy	skos:exactMatch		MONDO:0800207	MONDO	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T23:44:41+00:00	
+ARI:0001191	Small fiber neuropathy	skos:exactMatch		ncit:C125389	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T23:44:41+00:00	
+ARI:0001191	Small fiber neuropathy	skos:exactMatch		umls:C3276706	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T23:44:41+00:00	
+ARI:0001191	Small fiber neuropathy	skos:exactMatch		mesh:D000071075	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T23:44:41+00:00	
+ARI:0001201	Temporal arteritis	skos:exactMatch		SNOMEDCT:400130008	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T23:44:41+00:00	
+ARI:0001201	Temporal arteritis	skos:exactMatch		omop:4290976	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T23:44:41+00:00	
+ARI:0001201	Temporal arteritis	skos:exactMatch		DOID:13375	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T23:44:41+00:00	
+ARI:0001201	Temporal arteritis	skos:exactMatch		MONDO:0008538	MONDO	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T23:44:41+00:00	
+ARI:0001201	Temporal arteritis	skos:exactMatch		ncit:C35065	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T23:44:41+00:00	
+ARI:0001201	Temporal arteritis	skos:exactMatch		umls:C0039483	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T23:44:41+00:00	
+ARI:0001201	Temporal arteritis	skos:exactMatch		ORPHA:397	ORPHA	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T23:44:41+00:00	
+ARI:0001201	Temporal arteritis	skos:exactMatch		mesh:D013700	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T23:44:41+00:00	
+ARI:0001203	Tolosa-Hunt syndrome	skos:exactMatch		SNOMEDCT:95794005	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T23:44:41+00:00	
+ARI:0001203	Tolosa-Hunt syndrome	skos:exactMatch		omop:4317989	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T23:44:41+00:00	
+ARI:0001203	Tolosa-Hunt syndrome	skos:exactMatch		DOID:1278	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T23:44:41+00:00	
+ARI:0001203	Tolosa-Hunt syndrome	skos:exactMatch		MONDO:0018983	MONDO	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T23:44:41+00:00	
+ARI:0001203	Tolosa-Hunt syndrome	skos:exactMatch		ncit:C85193	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T23:44:41+00:00	
+ARI:0001203	Tolosa-Hunt syndrome	skos:exactMatch		mesh:D020333	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T23:44:41+00:00	
+ARI:0001203	Tolosa-Hunt syndrome	skos:exactMatch		umls:C0040381	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T23:44:41+00:00	
+ARI:0001203	Tolosa-Hunt syndrome	skos:exactMatch		ORPHA:64686	ORPHA	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T23:44:41+00:00	
+ARI:0001206	Undifferentiated connective tissue disease	skos:exactMatch		SNOMEDCT:239918008	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T23:44:41+00:00	
+ARI:0001206	Undifferentiated connective tissue disease	skos:exactMatch		omop:4344165	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T23:44:41+00:00	
+ARI:0001206	Undifferentiated connective tissue disease	skos:exactMatch		MONDO:0019527	MONDO	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T23:44:41+00:00	
+ARI:0001206	Undifferentiated connective tissue disease	skos:exactMatch		ncit:C116776	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T23:44:41+00:00	
+ARI:0001206	Undifferentiated connective tissue disease	skos:exactMatch		mesh:D000074079	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T23:44:41+00:00	
+ARI:0001206	Undifferentiated connective tissue disease	skos:exactMatch		umls:C0409999	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T23:44:41+00:00	
+ARI:0001206	Undifferentiated connective tissue disease	skos:exactMatch		ORPHA:90002	ORPHA	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T23:44:41+00:00	
+ARI:0001207	Urticarial vasculitis	skos:exactMatch		SNOMEDCT:402656007	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T23:44:41+00:00	
+ARI:0001207	Urticarial vasculitis	skos:exactMatch		omop:4292532	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T23:44:41+00:00	
+ARI:0001166	Primary biliary cholangitis	skos:exactMatch	Not	ncit:C51225	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T23:44:41+00:00	
+ARI:0001166	Primary biliary cholangitis	skos:exactMatch	Not	umls:C0023892	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T23:44:41+00:00	
+ARI:0001166	Primary biliary cholangitis	skos:exactMatch	Not	icd10cm:K74.5	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T23:44:41+00:00	
+ARI:0001207	Urticarial vasculitis	skos:exactMatch	Not	MONDO:0018227	MONDO	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T23:44:41+00:00	
+ARI:0001207	Urticarial vasculitis	skos:exactMatch	Not	ORPHA:36412	ORPHA	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T23:44:41+00:00	
+ARI:0001207	Urticarial vasculitis	skos:exactMatch	Not	umls:C0343206	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T23:44:41+00:00	
+ARI:0001190	SLE glomerulonephritis syndrome	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T23:44:41+00:00	
+ARI:0001190	SLE glomerulonephritis syndrome	skos:exactMatch		sssom:NoTermFound	ORPHA	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T23:44:41+00:00	
+ARI:0001187	Schnitzler syndrome	skos:exactMatch		sssom:NoTermFound	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T23:44:41+00:00	
+ARI:0001187	Schnitzler syndrome	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T23:44:41+00:00	
+ARI:0001191	Small fiber neuropathy	skos:exactMatch		sssom:NoTermFound	ORPHA	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T23:44:41+00:00	
+ARI:0001191	Small fiber neuropathy	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T23:44:41+00:00	
+ARI:0001203	Tolosa-Hunt syndrome	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T23:44:41+00:00	
+ARI:0001206	Undifferentiated connective tissue disease	skos:exactMatch		sssom:NoTermFound	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T23:44:41+00:00	
+ARI:0001207	Urticarial vasculitis	skos:exactMatch		sssom:NoTermFound	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T23:44:41+00:00	
+ARI:0001207	Urticarial vasculitis	skos:exactMatch		sssom:NoTermFound	MONDO	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T23:44:41+00:00	
+ARI:0001207	Urticarial vasculitis	skos:exactMatch		sssom:NoTermFound	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T23:44:41+00:00	
+ARI:0001207	Urticarial vasculitis	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T23:44:41+00:00	
+ARI:0001207	Urticarial vasculitis	skos:exactMatch		sssom:NoTermFound	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T23:44:41+00:00	
+ARI:0001207	Urticarial vasculitis	skos:exactMatch		sssom:NoTermFound	ORPHA	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-07T23:44:41+00:00	
