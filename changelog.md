@@ -1,5 +1,29 @@
 # Changelog
 
+## edit/KrishnaTO/mappings-review-1788817126
+
+Fixes the 19 `validate` errors the review batch raised. Both were pre-existing gaps this
+batch was the first to expose; neither is a fault in the judgments the curator recorded.
+
+- **Morvan syndrome had no ARI id.** It was created on 2026-07-02, before the metadata
+  manager started allocating sequential ids, so it kept a placeholder
+  `#ARI_new_5199ce2a` IRI and carried no `ARI_ID` at all — the only such record left in the
+  ontology. It went unnoticed until this batch exported the first mapping rows for it, and
+  the empty subject reached both files spelled differently (`ARI:` in the equivalencies,
+  empty in the SSSOM), so each file also reported the other as missing the row. Assigned
+  `ARI:0001213` and moved the individual onto the registry namespace, matching every other
+  disease. The number is the ontology's highest plus one, which is the same floor the
+  manager's own allocator uses.
+- **Recorded four judgments that were never written.** `ARI:0001158` (Polyglandular
+  autoimmune syndrome type 2) lost DOID `0060234`, umls `C1275078`, ncit `C98873` and mesh
+  `C563187`. Its changelog shows all four went through the disease record's field editor
+  (`Edited: doid`, `Edited: nci`, `Edited: umls`, `Edited: mesh`) half an hour before the
+  review was submitted. That path writes the ontology and nothing else, so the ids were
+  dropped with no decision behind them — exactly what `xref-deleted` exists to catch. The
+  replacements are right, so the four are now flagged wrong in both exports rather than
+  restored. Note that the `mesh` `NoTermFound` row the review did write does not stand in
+  for this: an absent-database verdict says nothing about the specific id that was there.
+
 ## fix-ms-omop-and-lost-judgments
 
 - **Corrects an error `restore-overwritten-curation` introduced.** OMOP `4027727` is
