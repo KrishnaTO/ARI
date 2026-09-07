@@ -113,7 +113,31 @@
   (the whole terms should be re-added); ARI:0001176 conflates primary and secondary Raynaud's;
   ARI:0001194 (subacute bacterial endocarditis, an infection) sits oddly in an autoimmune
   registry.
-- Batches 8+ (the remaining ~30 diseases with synonyms) follow in the same style.
+- **Batch 8 — 10 diseases (ARI:0001080, 0001200–0001211), 31 synonym strings.** 18 kept, 6 kept
+  with a note, **7 withdrawn across 5 diseases**: 5 `broader`, 2 `subtype`.
+- Batch 8 withdrawn: TIF1-gamma positive dermatomyositis — *Cancer-associated myositis*
+  (broader); Transverse myelitis — *Secondary acute transverse myelitis*; Uveitis —
+  *Idiopathic intermediate uveitis*; Vitiligo — *Leukoderma* (broader); Warm autoimmune
+  haemolytic anaemia — *Immune hemolytic anemia*, *Acquired autoimmune hemolytic anemia*,
+  *Immunohemolytic anemia* (broader — the whole AIHA / immune-haemolysis family, mirroring the
+  cold-agglutinin-disease finding in batch 3).
+
+### Review complete — all 146 diseases with synonyms
+
+- **708 `ARI_Synonym` strings reviewed. 450 kept, 107 kept with a curator note,
+  151 withdrawn across 56 diseases** — 63 name an existing or clear clinical subtype
+  (`subtype`), 45 a broader parent (`broader`), 23 a different disease (`distinct`),
+  20 an import artefact / downstream finding / split fragment (`non-disease`).
+- `ARI_Synonym` 708 → 557; every removal carries an `ARI_SynonymWithdrawn` marker and its
+  disease a dated `ARI_ChangeLog` line. No `ARI_ClinicalSubtype` line was added or rewritten —
+  every `subtype`-reason withdrawal already had a matching subtype (or a clearly narrower
+  clinical form) on the disease. `validate_mappings.py --since main` is clean.
+- The 107 "kept (noted)" strings are left in place with a rationale in the findings tables for
+  a curator: ambiguous broader/near-synonymous terms, historical eponyms, misspellings kept
+  pending a spelling pass, and dangerous homonyms (e.g. *SJS*, *Carpenter syndrome*).
+- Pre-existing issues surfaced but not fixed: label/definition mismatches (ARI:0001031,
+  0001065, 0001076), comma-split imports (ARI:0001180, 0001183), and mis-imported sibling
+  diseases in some `ARI_ClinicalSubtype` lists (ARI:0001069, 0001074).
 
 ## fix-ms-omop-and-lost-judgments
 

@@ -22474,9 +22474,10 @@ Early symptoms may include fever, night sweats, fatigue, joint pain, and chest d
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TIF1-gamma positive dermatomyositis</rdfs:label>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
   <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001202</ARI_ID>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cancer-associated myositis</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cancer-associated myositis | broader | cancer-associated myositis also covers anti-NXP2 and seronegative cases, and not all anti-TIF1-gamma patients have cancer; a broader category</ARI_SynonymWithdrawn>
   <ARI_Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.1</ARI_Version>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew "Cancer-associated myositis" - a broader category; anti-TIF1-gamma dermatomyositis is one (cancer-enriched) serologic subtype. The entity is left with no synonyms.</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001203">
@@ -22584,7 +22585,7 @@ Early symptoms may include fever, night sweats, fatigue, joint pain, and chest d
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">443904</ARI_OMOP>
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16631009</ARI_DXCODE>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inflammation of the spinal cord with neurological effects that go in a transverse (horizontal or bandlike) manner across the body, as opposed to going up or down the spinal cord.</rdfs:comment>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Secondary acute transverse myelitis</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Secondary acute transverse myelitis | subtype | the acute form secondary to a defined cause (MS, NMO, infection, SLE, ...); narrower than transverse myelitis</ARI_SynonymWithdrawn>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Holroyd 2018; https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6078000/</ARI_DefSource>
   <evidenceQuality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antibody</evidenceQuality>
   <diseaseCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune</diseaseCategory>
@@ -22605,6 +22606,7 @@ Early symptoms may include fever, night sweats, fatigue, joint pain, and chest d
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-09</ARI_AuthorDate>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TM</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew "Secondary acute transverse myelitis" - a subtype (acute, secondary to a defined cause), narrower than transverse myelitis. The entity is left with no synonyms.</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001204_2084">
@@ -23249,7 +23251,7 @@ Urticaria can also be caused by allergic reaction to plants like poison ivy, dye
 
 The most common form of autoimmune uveitis is intermediate uveitis.</rdfs:comment>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Idiopathic uveitis</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Idiopathic intermediate uveitis</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Idiopathic intermediate uveitis | subtype | doubly narrow (idiopathic + intermediate = pars planitis); a subtype - ARI has both an 'Uveitis, Intermediate' subtype and a separate 'Intermediate uveitis' entity (ARI:0001115)</ARI_SynonymWithdrawn>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune uveitis</ARI_Synonym>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acharya 2013; https://pubmed.ncbi.nlm.nih.gov/24008391/</ARI_DefSource>
   <ARI_Pubmed rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/24008391/</ARI_Pubmed>
@@ -23282,6 +23284,7 @@ The most common form of autoimmune uveitis is intermediate uveitis.</rdfs:commen
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-07 20:44 | KrishnaTO | Cross-reference review: confirmed SNOMED 128473001; confirmed OMOP 4028363; confirmed DOID 0040088; flagged SNOMED 231947004; flagged OMOP 4335981</ARI_ChangeLog>
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">128473001</ARI_DXCODE>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4028363</ARI_OMOP>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew "Idiopathic intermediate uveitis" - the pars planitis subtype, narrower than uveitis. Kept 'Autoimmune uveitis' and 'Idiopathic uveitis'.</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001208_2167">
@@ -23354,7 +23357,7 @@ The most common form of autoimmune uveitis is intermediate uveitis.</rdfs:commen
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vitiligo is a disease that causes the loss of skin color in blotches. The extent and rate of color loss from vitiligo is unpredictable. It can affect the skin on any part of your body. It may also affect hair, the inside of the mouth, and even the eyes.
 
 Normally, the color of hair, skin, and eyes is determined by melanin. Vitiligo occurs when the cells that produce melanin die or stop functioning.</rdfs:comment>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leukoderma</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leukoderma | broader | leukoderma is any white skin (post-inflammatory, chemical, halo nevus, piebaldism, tinea versicolor, ...); vitiligo is one cause. Commonly used loosely for vitiligo but not listed as a synonym by MONDO or DOID</ARI_SynonymWithdrawn>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zhang 2016; https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5038943/</ARI_DefSource>
   <evidenceQuality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antibody</evidenceQuality>
   <diseaseCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune</diseaseCategory>
@@ -23376,6 +23379,7 @@ Normally, the color of hair, skin, and eyes is determined by melanin. Vitiligo o
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-01</ARI_AuthorDate>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VIT</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew "Leukoderma" - a broader term for white skin of any cause; vitiligo is one cause. The entity is left with no synonyms (its subtypes carry the segmental/non-segmental split).</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001209_2177">
@@ -23545,9 +23549,9 @@ Normally, the color of hair, skin, and eyes is determined by melanin. Vitiligo o
 
 Some cases of this disease are caused by medications and are not autoimmune.</rdfs:comment>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Idiopathic autoimmune hemolytic anemia</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Immune hemolytic anemia</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acquired autoimmune hemolytic anemia</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Immunohemolytic anemia</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Immune hemolytic anemia | broader | includes warm AIHA, cold agglutinin disease, paroxysmal cold haemoglobinuria, drug-induced and alloimmune haemolysis</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acquired autoimmune hemolytic anemia | broader | acquired AIHA covers warm, cold, mixed and drug-induced types; this entity is the warm type</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Immunohemolytic anemia | broader | = immune haemolytic anaemia, the broad category</ARI_SynonymWithdrawn>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eaton 2011; https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2892249/</ARI_DefSource>
   <evidenceQuality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antibody</evidenceQuality>
   <diseaseCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune</diseaseCategory>
@@ -23563,6 +23567,7 @@ Some cases of this disease are caused by medications and are not autoimmune.</rd
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-01</ARI_AuthorDate>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WAHA</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew "Immune hemolytic anemia", "Acquired autoimmune hemolytic anemia" and "Immunohemolytic anemia" - broader categories; warm AIHA is one type. Kept the warm-specific synonyms (wAIHA, warm AIHA, etc.) and 'Idiopathic autoimmune hemolytic anemia' (noted).</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001211_2195">
