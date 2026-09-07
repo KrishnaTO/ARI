@@ -562,3 +562,56 @@ ARI	0001074	Cryptogenic organizing pneumonia	skos:exactMatch	ncit	C35806	manual-
 ARI	0001074	Cryptogenic organizing pneumonia	skos:exactMatch	icd10cm	J84.114	manual-negative	github:KrishnaTO
 ARI	0001074	Cryptogenic organizing pneumonia	skos:exactMatch	umls	C0085786	manual-negative	github:KrishnaTO
 ARI	0001074	Cryptogenic organizing pneumonia	skos:exactMatch	mesh	D000080203	manual-negative	github:KrishnaTO
+ARI	0001131	Mooren's ulcer	skos:exactMatch	ORPHA	519408	manual	github:KrishnaTO
+ARI	0001131	Mooren's ulcer	skos:exactMatch	MONDO	0001032	manual	github:KrishnaTO
+ARI	0001131	Mooren's ulcer	skos:exactMatch	DOID	10439	manual	github:KrishnaTO
+ARI	0001131	Mooren's ulcer	skos:exactMatch	SNOMEDCT	22440001	manual	github:KrishnaTO
+ARI	0001131	Mooren's ulcer	skos:exactMatch	icd10cm	H16.05	manual	github:KrishnaTO
+ARI	0001131	Mooren's ulcer	skos:exactMatch	umls	C0155072	manual	github:KrishnaTO
+ARI	0001131	Mooren's ulcer	skos:exactMatch	omop	435271	manual	github:KrishnaTO
+ARI	0001144	Neuromyotonia	skos:exactMatch	SNOMEDCT	305719002	manual	github:KrishnaTO
+ARI	0001144	Neuromyotonia	skos:exactMatch	MONDO	0019399	manual	github:KrishnaTO
+ARI	0001144	Neuromyotonia	skos:exactMatch	ncit	C202012	manual	github:KrishnaTO
+ARI	0001144	Neuromyotonia	skos:exactMatch	mesh	D020386	manual	github:KrishnaTO
+ARI	0001144	Neuromyotonia	skos:exactMatch	umls	C0242287	manual	github:KrishnaTO
+ARI	0001144	Neuromyotonia	skos:exactMatch	ORPHA	84142	manual	github:KrishnaTO
+ARI	0001144	Neuromyotonia	skos:exactMatch	omop	4125693	manual	github:KrishnaTO
+ARI	0001157	Polyglandular autoimmune syndrome type 1	skos:exactMatch	SNOMEDCT	11244009	manual	github:KrishnaTO
+ARI	0001157	Polyglandular autoimmune syndrome type 1	skos:exactMatch	omop	4008545	manual	github:KrishnaTO
+ARI	0001157	Polyglandular autoimmune syndrome type 1	skos:exactMatch	DOID	0050167	manual	github:KrishnaTO
+ARI	0001157	Polyglandular autoimmune syndrome type 1	skos:exactMatch	MONDO	0009411	manual	github:KrishnaTO
+ARI	0001157	Polyglandular autoimmune syndrome type 1	skos:exactMatch	ncit	C129727	manual	github:KrishnaTO
+ARI	0001157	Polyglandular autoimmune syndrome type 1	skos:exactMatch	ORPHA	3453	manual	github:KrishnaTO
+ARI	0001157	Polyglandular autoimmune syndrome type 1	skos:exactMatch	umls	C0085859	manual	github:KrishnaTO
+ARI	0001158	Polyglandular autoimmune syndrome type 2	skos:exactMatch	SNOMEDCT	83728000	manual	github:KrishnaTO
+ARI	0001158	Polyglandular autoimmune syndrome type 2	skos:exactMatch	omop	4308266	manual	github:KrishnaTO
+ARI	0001158	Polyglandular autoimmune syndrome type 2	skos:exactMatch	MONDO	0010012	manual	github:KrishnaTO
+ARI	0001158	Polyglandular autoimmune syndrome type 2	skos:exactMatch	ORPHA	3143	manual	github:KrishnaTO
+ARI	0001159	Polyglandular autoimmune syndrome type 3	skos:exactMatch	SNOMEDCT	449731009	manual	github:KrishnaTO
+ARI	0001159	Polyglandular autoimmune syndrome type 3	skos:exactMatch	omop	42709859	manual	github:KrishnaTO
+ARI	0001159	Polyglandular autoimmune syndrome type 3	skos:exactMatch	MONDO	0016422	manual	github:KrishnaTO
+ARI	0001159	Polyglandular autoimmune syndrome type 3	skos:exactMatch	ORPHA	227982	manual	github:KrishnaTO
+ARI	0001159	Polyglandular autoimmune syndrome type 3	skos:exactMatch	umls	C1535942	manual	github:KrishnaTO
+ARI	0001160	Polyglandular autoimmune syndrome type 4	skos:exactMatch	SNOMEDCT	449730005	manual	github:KrishnaTO
+ARI	0001160	Polyglandular autoimmune syndrome type 4	skos:exactMatch	omop	42709858	manual	github:KrishnaTO
+ARI	0001160	Polyglandular autoimmune syndrome type 4	skos:exactMatch	MONDO	0016423	manual	github:KrishnaTO
+ARI	0001160	Polyglandular autoimmune syndrome type 4	skos:exactMatch	ORPHA	227990	manual	github:KrishnaTO
+ARI	0001160	Polyglandular autoimmune syndrome type 4	skos:exactMatch	umls	C3266026	manual	github:KrishnaTO
+ARI	0001144	Neuromyotonia	skos:exactMatch	omop	46272949	manual-negative	github:KrishnaTO
+ARI	0001158	Polyglandular autoimmune syndrome type 2	skos:exactMatch	MONDO	0019012	manual-negative	github:KrishnaTO
+ARI	0001158	Polyglandular autoimmune syndrome type 2	skos:exactMatch	ORPHA	65759	manual-negative	github:KrishnaTO
+ARI		Morvan syndrome	skos:exactMatch	DOID	NoTermFound	manual-absent	github:KrishnaTO
+ARI		Morvan syndrome	skos:exactMatch	ncit	NoTermFound	manual-absent	github:KrishnaTO
+ARI		Morvan syndrome	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001144	Neuromyotonia	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001144	Neuromyotonia	skos:exactMatch	DOID	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001157	Polyglandular autoimmune syndrome type 1	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001158	Polyglandular autoimmune syndrome type 2	skos:exactMatch	mesh	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001159	Polyglandular autoimmune syndrome type 3	skos:exactMatch	DOID	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001159	Polyglandular autoimmune syndrome type 3	skos:exactMatch	ncit	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001159	Polyglandular autoimmune syndrome type 3	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001159	Polyglandular autoimmune syndrome type 3	skos:exactMatch	mesh	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001160	Polyglandular autoimmune syndrome type 4	skos:exactMatch	DOID	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001160	Polyglandular autoimmune syndrome type 4	skos:exactMatch	ncit	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001160	Polyglandular autoimmune syndrome type 4	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001160	Polyglandular autoimmune syndrome type 4	skos:exactMatch	mesh	NoTermFound	manual-absent	github:KrishnaTO
