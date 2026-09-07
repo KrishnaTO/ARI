@@ -8163,7 +8163,22 @@ More study is needed.</rdfs:comment>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cold agglutinin disease is a type of autoimmune hemolytic anemia in which the body's immune system attacks and destroys its own red blood cells.  Unlike warm autoimmune hemolytic anemia, the autoimmune destruction of cells occurs when a person is exposed to cold, or their body temperature is below normal. Some patients experience heart problems because the heart has to work harder to make sure the body gets enough healthy red blood cells</rdfs:comment>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAD</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cold autoimmune hemolytic anemia</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anemia</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anemia | broader | bare 'anemia' is the broad category, not a name for cold agglutinin disease</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">autoimmune hemolytic anemia | broader | AIHA is the parent; cold agglutinin disease is its cold-antibody subtype (warm AIHA is the other main type)</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">autoimmune hemolytic anemia, cold type | broader | cold-type AIHA (MONDO:0016450) also covers paroxysmal cold haemoglobinuria and mixed-type; broader than cold agglutinin disease proper</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">autoimmune hemolytic anaemia | broader | AIHA is the parent category, not a synonym of cold agglutinin disease</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">autoimmune haemolytic anemia | broader | AIHA is the parent category, not a synonym of cold agglutinin disease</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune haemolytic anaemia | broader | AIHA is the parent category, not a synonym of cold agglutinin disease</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIHA | broader | abbreviation for autoimmune haemolytic anaemia, the parent category</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AHA | broader | abbreviation for autoimmune haemolytic anaemia, the parent category</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anaemia, Autoimmune Haemolytic | broader | permuted AIHA, the parent category</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anemia, Autoimmune Hemolytic | broader | permuted AIHA, the parent category</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anemia, Hemolytic, Autoimmune | broader | permuted AIHA, the parent category</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anemia, Hemolytic, Acquired Autoimmune | broader | permuted AIHA, the parent category</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hemolytic Anemia, Autoimmune | broader | permuted AIHA, the parent category</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Haemolytic Anaemia, Autoimmune | broader | permuted AIHA, the parent category</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune Hemolytic Anemias | broader | permuted/plural AIHA, the parent category</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune Haemolytic Anaemias | broader | permuted/plural AIHA, the parent category</ARI_SynonymWithdrawn>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cold antibody disease</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hemolytic cold antibody</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cold antibody hemolytic anemia</ARI_Synonym>
@@ -8219,21 +8234,6 @@ More study is needed.</rdfs:comment>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cold agglutinin syndrome</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cold AIHA</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chronic cold agglutinin disease</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">autoimmune hemolytic anemia, cold type</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anaemia, Autoimmune Haemolytic</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">autoimmune hemolytic anemia</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anemia, Hemolytic, Acquired Autoimmune</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anemia, Autoimmune Hemolytic</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">autoimmune hemolytic anaemia</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">autoimmune haemolytic anemia</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anemia, Hemolytic, Autoimmune</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hemolytic Anemia, Autoimmune</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune Hemolytic Anemias</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Haemolytic Anaemia, Autoimmune</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AHA</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune haemolytic anaemia</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIHA</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune Haemolytic Anaemias</ARI_Synonym>
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Primary Cold Agglutinin Disease - subtype of Cold agglutinin disease (NCIT:C199387)</ARI_ClinicalSubtype>
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">paroxysmal cold hemoglobinuria - subtype of Cold agglutinin disease (MONDO:0019533)</ARI_ClinicalSubtype>
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mixed-type autoimmune hemolytic anemia - subtype of Cold agglutinin disease (MONDO:0019534)</ARI_ClinicalSubtype>
@@ -8243,6 +8243,7 @@ More study is needed.</rdfs:comment>
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drug-induced autoimmune hemolytic anemia - subtype of Cold agglutinin disease (MONDO:0019535)</ARI_ClinicalSubtype>
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neonatal autoimmune hemolytic anemia - subtype of Cold agglutinin disease (MONDO:0018358)</ARI_ClinicalSubtype>
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">autoimmune hemolytic anemia, cold type - subtype of Cold agglutinin disease (MONDO:0016450)</ARI_ClinicalSubtype>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew 16 strings that name autoimmune haemolytic anaemia in general (AIHA and its permutations), cold-type AIHA (broader than CAD), or bare 'anemia'. Cold agglutinin disease is the chronic cold-agglutinin subtype of AIHA; kept the CAD-specific synonyms (CAD, CAS, cold agglutinin syndrome, chronic cold agglutinin disease, etc.).</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001069_610">
@@ -8420,7 +8421,11 @@ More study is needed.</rdfs:comment>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D020918</ARI_MESH>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C206547</ARI_NCI>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Complex regional pain syndrome (CRPS) and amplified musculoskeletal pain syndromes (AMPS) are chronic pain conditions lasting at least 6 months. CRPS is often triggered by an injury followed by immobilization, and is marked by pain that does not diminish in a manner typical for the injury.  Patients experience unreasonably intense pain in the arms, legs, hands, or feet, both in response to painful and non-painful triggers. Pain can include burning, tingling, or squeezing sensations.  Redness and swelling are often present in the affected area.  There are two types of CRPS.  Patients with CRPS-I/Reflex Sympathetic Dystrophy do not have a confirmed nerve injury, whereas patients with CRPS-II/Causalgia do have an associated, confirmed nerve injury. CRPS usually occurs after an injury that caused damage to the nervous system. The cause is unknown but there are correlations with immune processes that result in swelling surrounding injury.  Treatments are available to manage symptoms, which help some patients, but not all.  Younger patients are more likely to recover than older patients, whose pain may persist and lead to disability.There is no known cause, and autoimmunity is suspected, but no evidence of autoimmunity has been definitively linked to CRPS.</rdfs:comment>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amplified musculoskeletal pain syndrome</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amplified musculoskeletal pain syndrome | distinct | AMPS is a separate (largely paediatric) chronic-pain construct; the ARI definition itself lists 'CRPS and AMPS' as two conditions</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Causalgia | subtype | the historical name for CRPS type 2 (pain with a defined nerve lesion); already an ARI_ClinicalSubtype 'CRPS Type 2'</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Complex regional pain syndrome I | subtype | CRPS type 1; already an ARI_ClinicalSubtype 'CRPS Type 1'</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complex regional pain syndrome type 1 | subtype | CRPS type 1; already an ARI_ClinicalSubtype 'CRPS Type 1'</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CRPS I | subtype | CRPS type 1; already an ARI_ClinicalSubtype 'CRPS Type 1'</ARI_SynonymWithdrawn>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sandroni 2003; https://pubmed.ncbi.nlm.nih.gov/12749974/</ARI_DefSource>
   <ARI_Pubmed rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/12749974/</ARI_Pubmed>
   <evidenceQuality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unconfirmed</evidenceQuality>
@@ -8472,20 +8477,17 @@ More study is needed.</rdfs:comment>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">algoneurodystrophy</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Complex regional pain syndromes</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CRPS (Complex Regional Pain Syndromes)</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Causalgia</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CRPS</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sudeck's atrophy</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Algodystrophy</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Complex regional pain syndrome I</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complex regional pain syndrome type 1</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reflex neurovascular dystrophy</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CRPS I</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reflex sympathetic dystrophy syndrome</ARI_Synonym>
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complex regional pain syndrome type 2 - subtype of Complex regional pain syndrome (MONDO:0020572)</ARI_ClinicalSubtype>
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Complex Regional Pain Syndrome I - subtype of Complex regional pain syndrome (NCIT:C85042)</ARI_ClinicalSubtype>
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Complex Regional Pain Syndrome II - subtype of Complex regional pain syndrome (NCIT:C121572)</ARI_ClinicalSubtype>
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complex regional pain syndrome type 1 - subtype of Complex regional pain syndrome (MONDO:0011441)</ARI_ClinicalSubtype>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">M89.0</ARI_ICD10>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew 'Amplified musculoskeletal pain syndrome' (a separate pain construct) and the CRPS-type-1 / CRPS-type-2 names ('Causalgia', 'CRPS I', etc.) that are already ARI_ClinicalSubtypes. Kept the historical whole-disease names (reflex sympathetic dystrophy, Sudeck's atrophy, algodystrophy).</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001071_629">
@@ -8630,12 +8632,13 @@ Both UC and CD are caused by an autoimmune response that reflects the involvemen
   <prevalencePer100k rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1110689.0</prevalencePer100k>
   <ageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15-35 years</ageRange>
   <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001073</ARI_ID>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gastroduodenal Crohn's disease</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gastroduodenal Crohn's disease | subtype | the upper-GI (L4) location form; already an ARI_ClinicalSubtype 'Crohn’s Disease, Gastroduodenal' and a DOID child</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crohn's colitis | subtype | the colonic (L2) location form; already an ARI_ClinicalSubtype 'Crohn’s Disease, Colonic' and a MONDO/DOID child</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ileocolitis | subtype | the ileocolonic (L3) location form; a DOID child of Crohn's disease</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Illeitis | subtype | misspelling of 'ileitis', the ileal (L1) location form; a DOID child of Crohn's disease</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crohn disease-associated growth failure | non-disease | a paediatric complication of Crohn's disease, not a name for it</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NON RARE IN EUROPE: Crohn disease | non-disease | Orphanet epidemiological-classification label that leaked in as a synonym</ARI_SynonymWithdrawn>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crohn's granulomatous</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ileocolitis</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Illeitis</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crohn's colitis</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crohn disease-associated growth failure</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Granulomatous Colitis</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inflammatory bowel disease caused by mutation in NOD2</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inflammatory bowel disease 1, Crohn disease</ARI_Synonym>
@@ -8649,7 +8652,6 @@ Both UC and CD are caused by an autoimmune response that reflects the involvemen
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inflammatory bowel disease type 1</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">paediatric Crohn's disease</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crohn disease</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NON RARE IN EUROPE: Crohn disease</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crohn's Enteritis</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crohns Disease</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inflammatory Bowel Disease 1</ARI_Synonym>
@@ -8710,6 +8712,7 @@ Both UC and CD are caused by an autoimmune response that reflects the involvemen
   <ARI_OMIM rdf:datatype="http://www.w3.org/2001/XMLSchema#string">266600</ARI_OMIM>
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">206</ARI_ORPHANET>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-03T00:46:11+00:00 | KrishnaTO | Removed flagged cross-reference: UMLS C0156147</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew the location-based forms ('Gastroduodenal Crohn's disease', 'Crohn's colitis', 'Ileocolitis', 'Illeitis') which are subtypes/children, 'Crohn disease-associated growth failure' (a complication), and the 'NON RARE IN EUROPE:' Orphanet label. Kept 'regional enteritis', the IBD1 genetic-locus names, and 'pediatric Crohn's disease' (a MONDO exact synonym).</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001073_662">
@@ -8805,16 +8808,16 @@ Both UC and CD are caused by an autoimmune response that reflects the involvemen
   <prevalencePer100k rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">27506.0</prevalencePer100k>
   <ageRange rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40-60 years</ageRange>
   <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001074</ARI_ID>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Interstitial pneumonia</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Interstitial pneumonia | broader | the whole interstitial-pneumonia category; cryptogenic organizing pneumonia is one member</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">idiopathic interstitial pneumonia | broader | the idiopathic interstitial pneumonia (IIP) group; COP is one of its members</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">idiopathic interstitial pneumonitis | broader | variant spelling of the IIP group name</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">noninfectious pneumonia | broader | a very broad category, not a synonym for cryptogenic organizing pneumonia</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Idiopathic fibrosing alveolitis | distinct | an old name for idiopathic pulmonary fibrosis (IPF), a different idiopathic interstitial pneumonia</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diffuse idiopathic pulmonary fibrosis | distinct | idiopathic pulmonary fibrosis (IPF), a different idiopathic interstitial pneumonia</ARI_SynonymWithdrawn>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bronchiolitis obliterans with organizing pneumonia</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">idiopathic interstitial pneumonia</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organising pneumonia</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cryptogenic organizing pneumonitis</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Idiopathic fibrosing alveolitis</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">idiopathic interstitial pneumonitis</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">noninfectious pneumonia</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COP</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diffuse idiopathic pulmonary fibrosis</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Organizing Pneumonia</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bronchiolitis obliterans organizing pneumonia</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOOP</ARI_Synonym>
@@ -8865,6 +8868,7 @@ Both UC and CD are caused by an autoimmune response that reflects the involvemen
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COP</ARI_SurveyCode>
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1302</ARI_ORPHANET>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-03T00:46:11+00:00 | KrishnaTO | Removed flagged cross-reference: NCI C35806; ICD10 J84.114; UMLS C0085786; MESH D000080203</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew broader category terms ('Interstitial pneumonia', 'idiopathic interstitial pneumonia/pneumonitis', 'noninfectious pneumonia') and two names for IPF ('Idiopathic fibrosing alveolitis', 'Diffuse idiopathic pulmonary fibrosis'), a different interstitial pneumonia. Kept COP / BOOP / organising pneumonia.</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001074_677">
@@ -8926,9 +8930,9 @@ Both UC and CD are caused by an autoimmune response that reflects the involvemen
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7119001</ARI_SNOMED>
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0050169</ARI_DOID>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Discoid lupus erythematosus, also referred to as DLE, is a chronic but localized skin condition where sores (lesions) form on the scalp, face, elbow, or fingertips. In DLE, the autoimmune system attacks connective tissue. The lesions are red, inflamed patches with a scaling and crusting appearance. If present in areas with a significant amount of hair, the lesions can cause scarring and hair loss in that area. Because the symptoms are similar to other skin diseases and other types of lupus, a skin biopsy must be performed to confirm a diagnosis.  The primary difference between discoid lupus erythematosus (DLE) and systemic lupus erythematosus (SLE) is that DLE mainly affects the skin, while SLE also affects the organs, such as the heart, blood vessels, nervous system, and kidneys. Patients can have both DLE and SLE.</rdfs:comment>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Discoid lupus erythematosus of oral mucosa</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Discoid lupus</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Discoid lupus erythematosus</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Discoid lupus erythematosus | subtype | discoid LE = chronic cutaneous lupus, a subtype of cutaneous lupus erythematosus; already an ARI_ClinicalSubtype 'Cutaneous Lupus, Discoid' and a MONDO child</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Discoid lupus | subtype | discoid LE = chronic cutaneous lupus, a subtype; already an ARI_ClinicalSubtype 'Cutaneous Lupus, Discoid'</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Discoid lupus erythematosus of oral mucosa | subtype | the oral-mucosa form of discoid LE, a narrow subtype of cutaneous lupus erythematosus</ARI_SynonymWithdrawn>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gauzere 2019; https://pubmed.ncbi.nlm.nih.gov/30041816/</ARI_DefSource>
   <ARI_Pubmed rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/30041816/</ARI_Pubmed>
   <evidenceQuality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antibody</evidenceQuality>
@@ -8977,6 +8981,7 @@ Both UC and CD are caused by an autoimmune response that reflects the involvemen
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0024137</ARI_UMLS>
   <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0005282</ARI_MONDO>
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">535</ARI_ORPHANET>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew the discoid-lupus strings - discoid LE is a subtype of cutaneous lupus erythematosus (already an ARI_ClinicalSubtype), not a synonym for the umbrella. NB the entity's definition text describes discoid lupus - a pre-existing label/definition mismatch for a curator.</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001076_682">
@@ -9499,10 +9504,10 @@ When mastocytosis is not limited to the skin, it is called systemic mastocytosis
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">433527</ARI_OMOP>
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">129103003</ARI_DXCODE>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A disorder where the tissue that normally lines the uterus grows outside of the uterus. The tissue can grow on the ovaries, fallopian tubes, outer wall of the uterus, intestines, or other organs in the belly.</rdfs:comment>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adenomysis uteri</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Endometriosis Uterina</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adenomyometritis</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adenomyosis</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adenomyosis | distinct | adenomyosis (endometrial tissue within the myometrium) is a separate diagnosis from endometriosis (endometrial tissue outside the uterus)</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adenomysis uteri | distinct | misspelling of 'adenomyosis uteri' - adenomyosis, a separate diagnosis from endometriosis</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adenomyometritis | distinct | an old term for adenomyosis, a separate diagnosis from endometriosis</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Endometriosis Uterina | distinct | 'endometriosis interna' = adenomyosis in historical usage; a separate diagnosis from endometriosis</ARI_SynonymWithdrawn>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eisenberg 2017; https://pubmed.ncbi.nlm.nih.gov/28444957/</ARI_DefSource>
   <ARI_Pubmed rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/28444957/</ARI_Pubmed>
   <evidenceQuality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unconfirmed</evidenceQuality>
@@ -9522,6 +9527,7 @@ When mastocytosis is not limited to the skin, it is called systemic mastocytosis
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-09</ARI_AuthorDate>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENDO</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew all four synonyms - they name adenomyosis (endometrial tissue within the myometrium), a separate diagnosis from endometriosis. Clear import error; the entity is left with no synonyms.</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001084_743">
@@ -10086,8 +10092,8 @@ When mastocytosis is not limited to the skin, it is called systemic mastocytosis
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">32861005</ARI_DXCODE>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Erythema nodosum is a condition that causes the fat layer just beneath the skin to become inflamed, forming swollen bumps 1 to 5 cm across.  These bumps most frequently occur on the shins, and sometimes the thighs and forearms as well.  The degree of inflammation may vary by day over a period of 3 to 6 weeks, after which time the bumps finally fade.  The affected area may appear bruised for a period of up to a few months afterward, but most patients experience a full recovery with no scars.  The cause is uncertain but is correlated with an over-reactive immune response following infection, medication, pregnancy, inflammatory conditions, vaccines, and autoimmune or other medical conditions.  Treatments are available to relieve discomfort.</rdfs:comment>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EN</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Idiopathic erythema nodosum</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Erythema nodosum of unknown etiology</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Idiopathic erythema nodosum | subtype | the idiopathic form; already an ARI_ClinicalSubtype 'Erythema Nodosum, Idiopathic'</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Erythema nodosum of unknown etiology | subtype | the idiopathic form; already an ARI_ClinicalSubtype 'Erythema Nodosum, Idiopathic'</ARI_SynonymWithdrawn>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Requena 2001; https://pubmed.ncbi.nlm.nih.gov/11464178/</ARI_DefSource>
   <ARI_Pubmed rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/11464178/</ARI_Pubmed>
   <evidenceQuality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unconfirmed</evidenceQuality>
@@ -10106,6 +10112,7 @@ When mastocytosis is not limited to the skin, it is called systemic mastocytosis
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-09</ARI_AuthorDate>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EN</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew 'Idiopathic erythema nodosum' and 'Erythema nodosum of unknown etiology' - the idiopathic form, already an ARI_ClinicalSubtype.</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001089_809">

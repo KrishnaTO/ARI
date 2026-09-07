@@ -45,12 +45,29 @@
   3 *NON RARE IN EUROPE: …* strings; Chronic interstitial cystitis — *ulcerative cystitis*;
   Chronic Lyme disease — *Lyme Borreliosis*, *Lyme Arthritis*, *Erythema Migrans with
   Polyarthritis* (the active infection), *Lyme disease* (broader).
+- **Batch 3 — 17 diseases (ARI:0001068–0001093), 125 synonym strings.** 60 kept, 23 kept
+  with a note, **42 withdrawn across 7 diseases**: 20 name a broader parent (`broader`),
+  13 name an existing `ARI_ClinicalSubtype` (`subtype`), 7 name a different disease
+  (`distinct`), 2 are `NON RARE IN EUROPE: …` / complication strings (`non-disease`).
+- Batch 3 withdrawn: Cold agglutinin disease — 16 strings naming autoimmune haemolytic
+  anaemia in general (CAD is its cold-agglutinin subtype); Complex regional pain syndrome —
+  *Amplified musculoskeletal pain syndrome* (distinct) and the CRPS type-1/type-2 names
+  (*Causalgia*, *CRPS I*, …); Crohn's disease — the location forms (*Crohn's colitis*,
+  *Ileocolitis*, *Gastroduodenal Crohn's disease*, *Illeitis*), *Crohn disease-associated
+  growth failure*, *NON RARE IN EUROPE: Crohn disease*; Cryptogenic organizing pneumonia —
+  broader interstitial-pneumonia terms and two names for IPF (*Idiopathic fibrosing
+  alveolitis*, *Diffuse idiopathic pulmonary fibrosis*); Cutaneous lupus erythematosus —
+  the *Discoid lupus* strings (a subtype); Endometriosis — all four synonyms, which name
+  *adenomyosis* (a separate diagnosis); Erythema nodosum — *Idiopathic erythema nodosum*.
 - **Pre-existing bugs noted for a curator, not fixed here:** ARI:0001031 is labelled
   *Autoimmune gastritis* but its `rdfs:comment` describes autoimmune enteropathy; ARI:0001065
-  *Chronic Lyme disease* has a definition describing the acute tick-borne infection; several
-  large synonym lists (celiac, CFS, CIDP, cold agglutinin) carry dozens of MeSH permuted
-  forms that are kept but add little.
-- Batches 3+ (the remaining ~120 diseases with synonyms) follow in the same style.
+  *Chronic Lyme disease* has a definition describing the acute tick-borne infection;
+  ARI:0001076 *Cutaneous lupus erythematosus* has a definition describing discoid lupus;
+  ARI:0001069 and ARI:0001074 carry many mis-imported sibling diseases in their
+  `ARI_ClinicalSubtype` lists (whole AIHA / interstitial-pneumonia families); several large
+  synonym lists (celiac, CFS, CIDP, cold agglutinin) carry dozens of MeSH permuted forms
+  that are kept but add little.
+- Batches 4+ (the remaining ~110 diseases with synonyms) follow in the same style.
 
 ## fix-ms-omop-and-lost-judgments
 
