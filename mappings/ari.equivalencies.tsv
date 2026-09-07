@@ -694,6 +694,13 @@ ARI	0001207	Urticarial vasculitis	skos:exactMatch	ncit	NoTermFound	manual-absent
 ARI	0001207	Urticarial vasculitis	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:KrishnaTO
 ARI	0001207	Urticarial vasculitis	skos:exactMatch	mesh	NoTermFound	manual-absent	github:KrishnaTO
 ARI	0001207	Urticarial vasculitis	skos:exactMatch	ORPHA	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001194	Subacute bacterial endocarditis	skos:exactMatch	SNOMEDCT	73774007	manual	github:KrishnaTO
+ARI	0001194	Subacute bacterial endocarditis	skos:exactMatch	omop	4249899	manual	github:KrishnaTO
+ARI	0001194	Subacute bacterial endocarditis	skos:exactMatch	DOID	4562	manual	github:KrishnaTO
+ARI	0001194	Subacute bacterial endocarditis	skos:exactMatch	MONDO	0006981	manual	github:KrishnaTO
+ARI	0001194	Subacute bacterial endocarditis	skos:exactMatch	ncit	C34583	manual	github:KrishnaTO
+ARI	0001194	Subacute bacterial endocarditis	skos:exactMatch	mesh	D004698	manual	github:KrishnaTO
+ARI	0001194	Subacute bacterial endocarditis	skos:exactMatch	umls	C0014122	manual	github:KrishnaTO
 ARI	0001180	Retinocochleocerebral vasculopathy	skos:exactMatch	SNOMEDCT	702575003	manual	github:KrishnaTO
 ARI	0001180	Retinocochleocerebral vasculopathy	skos:exactMatch	omop	45765600	manual	github:KrishnaTO
 ARI	0001180	Retinocochleocerebral vasculopathy	skos:exactMatch	MONDO	0019390	manual	github:KrishnaTO
@@ -701,5 +708,16 @@ ARI	0001180	Retinocochleocerebral vasculopathy	skos:exactMatch	ncit	C116363	manu
 ARI	0001180	Retinocochleocerebral vasculopathy	skos:exactMatch	mesh	D055955	manual	github:KrishnaTO
 ARI	0001180	Retinocochleocerebral vasculopathy	skos:exactMatch	umls	C2717757	manual	github:KrishnaTO
 ARI	0001180	Retinocochleocerebral vasculopathy	skos:exactMatch	ORPHA	838	manual	github:KrishnaTO
+ARI	0001194	Subacute bacterial endocarditis	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001194	Subacute bacterial endocarditis	skos:exactMatch	ORPHA	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001202	TIF1-gamma positive dermatomyositis	skos:exactMatch	SNOMEDCT	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001202	TIF1-gamma positive dermatomyositis	skos:exactMatch	omop	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001202	TIF1-gamma positive dermatomyositis	skos:exactMatch	DOID	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001202	TIF1-gamma positive dermatomyositis	skos:exactMatch	MONDO	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001202	TIF1-gamma positive dermatomyositis	skos:exactMatch	ncit	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001202	TIF1-gamma positive dermatomyositis	skos:exactMatch	mesh	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001202	TIF1-gamma positive dermatomyositis	skos:exactMatch	umls	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001202	TIF1-gamma positive dermatomyositis	skos:exactMatch	ORPHA	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001202	TIF1-gamma positive dermatomyositis	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:KrishnaTO
 ARI	0001180	Retinocochleocerebral vasculopathy	skos:exactMatch	DOID	NoTermFound	manual-absent	github:KrishnaTO
 ARI	0001180	Retinocochleocerebral vasculopathy	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:KrishnaTO
