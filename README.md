@@ -101,6 +101,11 @@ What it catches:
 - Disagreement with the ontology — a disease id or label that does not match, a
   cross-reference the curators flagged wrong that is still stored and still served, or a
   confirmed one that was never stored.
+- Curation that disappears without a decision — a synonym, clinical subtype or changelog
+  entry the branch drops rather than adds. A synonym may be retired only by pairing its
+  removal with an `ARI_SynonymWithdrawn` marker on the same disease, shaped
+  `<synonym> | <reason> | <note>` where `<reason>` is `subtype`, `broader`, `distinct` or
+  `non-disease`; the marker is itself append-only, so the review stays on record.
 
 ## Working rules
 

@@ -861,6 +861,39 @@ def check_ontology_values(diseases: dict[str, Disease], report: Report) -> None:
                             f"a {prefix} identifier (expected {ID_SHAPES[prefix]}).",
                         )
 
+        # An ARI_SynonymWithdrawn marker is what lets a synonym leave ARI_Synonym.
+        # It must be shaped "<synonym> | <reason> | <note>" with a known reason, and
+        # must not name a synonym that is still present (that is a contradiction,
+        # not a withdrawal).
+        live_synonyms = _values(disease, "ARI_Synonym")
+        for value, line in disease.annotations.get("ARI_SynonymWithdrawn", []):
+            parts = [p.strip() for p in value.split("|")]
+            if len(parts) < 3 or not parts[0] or not parts[2]:
+                report.error(
+                    "withdrawn-synonym-shape",
+                    ONTOLOGY_PATH,
+                    line,
+                    f"{disease.ari_id} has an ARI_SynonymWithdrawn value {value!r} that is not "
+                    "'<synonym> | <reason> | <note>'.",
+                )
+                continue
+            if parts[1] not in WITHDRAWAL_REASONS:
+                report.error(
+                    "withdrawn-synonym-reason",
+                    ONTOLOGY_PATH,
+                    line,
+                    f"{disease.ari_id} withdraws {parts[0]!r} with reason {parts[1]!r}; expected "
+                    f"one of {sorted(WITHDRAWAL_REASONS)}.",
+                )
+            if parts[0] in live_synonyms:
+                report.error(
+                    "withdrawn-synonym-still-present",
+                    ONTOLOGY_PATH,
+                    line,
+                    f"{disease.ari_id} still lists {parts[0]!r} as an ARI_Synonym but also marks "
+                    "it withdrawn. Remove the ARI_Synonym line or the marker.",
+                )
+
         # ARI_DXCODE mirrors ARI_SNOMED. A DXCODE value with no SNOMED counterpart is how a
         # rejected SNOMED code survives removal, so it is worth surfacing; the reverse
         # (SNOMED recorded without a DXCODE copy) is common and harmless.
@@ -921,9 +954,28 @@ APPEND_ONLY_PROPERTIES = {
     "ARI_Synonym": "synonym",
     "ARI_ClinicalSubtype": "clinical subtype",
     "ARI_ChangeLog": "changelog entry",
+    "ARI_SynonymWithdrawn": "withdrawn-synonym record",
 }
+# A synonym may leave `ARI_Synonym` only when the same disease carries an
+# `ARI_SynonymWithdrawn` marker naming it: "<synonym text> | <reason> | <note>",
+# where <reason> is one of subtype / broader / distinct / non-disease. The marker
+# is itself append-only, so the review that retired the synonym stays on record.
+WITHDRAWAL_REASONS = {"subtype", "broader", "distinct", "non-disease"}
 # How many deleted values to name before the message just gives the count.
 DELETION_SAMPLE = 3
+
+
+def _withdrawn_synonyms(disease: Disease) -> set[str]:
+    """Synonym texts this disease has an ARI_SynonymWithdrawn marker for.
+
+    Tokenised the same way as `_values` (comma-split) so the result lines up with
+    `_values(disease, "ARI_Synonym")` for set subtraction.
+    """
+    out: set[str] = set()
+    for value, _ in disease.annotations.get("ARI_SynonymWithdrawn", []):
+        head = value.split("|", 1)[0]
+        out.update(part.strip() for part in head.split(",") if part.strip())
+    return out
 
 
 def _values(disease: Disease, prop: str) -> set[str]:
@@ -948,8 +1000,10 @@ def check_deletions(ref: str, sssom_rows: list[Row], report: Report) -> None:
 
     A cross-reference may legitimately go: flagging one wrong on the review page
     is exactly how a bad code is retired, and that judgment is in the mapping set.
-    Anything else -- a synonym, a subtype, a changelog entry, or an id no curator
-    ruled against -- has no decision behind its removal.
+    A synonym may go when an `ARI_SynonymWithdrawn` marker on the same disease
+    names it, which records why (subtype / broader / distinct / non-disease).
+    Anything else -- a subtype, a changelog entry, an unmarked synonym, or an id
+    no curator ruled against -- has no decision behind its removal.
     """
     result = subprocess.run(
         ["git", "show", f"{ref}:{ONTOLOGY_PATH}"],
@@ -986,14 +1040,21 @@ def check_deletions(ref: str, sssom_rows: list[Row], report: Report) -> None:
 
         for prop, noun in APPEND_ONLY_PROPERTIES.items():
             lost = _values(was, prop) - _values(now, prop)
+            if prop == "ARI_Synonym":
+                lost -= _withdrawn_synonyms(now)
             if lost:
+                remedy = (
+                    "restore the value, or record an ARI_SynonymWithdrawn marker "
+                    "saying why it is being withdrawn"
+                    if prop == "ARI_Synonym"
+                    else "restore the value, or say in review why it is being withdrawn"
+                )
                 report.error(
                     "record-deleted",
                     ONTOLOGY_PATH,
                     0,
                     f"{ari_id} loses {len(lost)} {noun}(s) this branch did not add: "
-                    f"{summarise(lost)}. {prop} is an append-only record — restore the "
-                    f"value, or say in review why it is being withdrawn.",
+                    f"{summarise(lost)}. {prop} is an append-only record — {remedy}.",
                 )
 
         for prefix, properties in ONTOLOGY_PROPERTIES.items():

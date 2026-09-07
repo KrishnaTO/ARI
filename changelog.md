@@ -1,5 +1,144 @@
 # Changelog
 
+## disease-synonyms-subtypes
+
+- **Reviews `ARI_Synonym` strings against the disease's own concept and retires the ones
+  that are not synonyms.** Each disease's synonyms were checked against the exact-synonym
+  list and subclass hierarchy of the MONDO / DOID term it maps to (via EBI OLS), with
+  clinical judgement where no mapping exists. A string that names a narrower form, a
+  broader parent, a different disease, or a downstream finding is not a synonym.
+- **New retirement mechanism.** `ARI_Synonym` stays append-only. A synonym is now retired
+  by removing its line **and** adding an `ARI_SynonymWithdrawn` marker on the same disease,
+  shaped `<synonym> | <reason> | <note>` with `<reason>` in
+  `subtype` / `broader` / `distinct` / `non-disease`. `validate_mappings.py` accepts a
+  synonym removal that carries a matching marker and still fails an unexplained one; it
+  also shape-checks the markers (`withdrawn-synonym-shape`, `-reason`, `-still-present`)
+  and treats `ARI_SynonymWithdrawn` as append-only itself. `ARI_ClinicalSubtype` and
+  `ARI_ChangeLog` are untouched — still strictly append-only.
+- **Batch 1 — 25 diseases (ARI:0001001–0001044), 69 synonym strings.** 37 kept, 13 kept
+  with a note for a curator, **19 withdrawn across 9 diseases**: 9 name an existing
+  `ARI_ClinicalSubtype` (`subtype`), 4 a broader parent (`broader`), 4 a different disease
+  (`distinct`), 2 a downstream haematologic finding (`non-disease`). Every withdrawn
+  synonym maps to a subtype already listed on the disease, so no `ARI_ClinicalSubtype`
+  lines were added or rewritten. Each edited disease carries a dated `ARI_ChangeLog` line.
+- Withdrawn: ADEM — *Nonvasculitic autoimmune inflammatory meningoencephalitis*,
+  *Hurst's disease*, *Weston-Hurst syndrome*; Addison's disease — *Adrenal Insufficiency*,
+  *Adrenal cortical hypofunction*; Ankylosing spondylitis — *Axial spondyloarthritis*,
+  *Spondyloarthritis*; Anti-CASPR2 encephalitis — *Morvan syndrome*; ANCA-associated
+  vasculitis — *Churg Strauss syndrome*, *Wegener's Granulomatosis*; Autoimmune inner-ear
+  disease — *Ménière's disease*; Autoimmune gastritis — *Megaloblastic Anemia*,
+  *Macrocytic Anemia*, *Eosinophilic gastritis*, *Autoimmune enteropathy*; Autoimmune
+  neutropenia — *Autoimmune neutropenia of infancy*, *Primary autoimmune neutropenia*;
+  Autoimmune pancreatitis — *Lymphoplasmocytic sclerosing pancreatitis*, *Nonalcoholic
+  destructive pancreatitis*.
+- **Batch 2 — 16 diseases (ARI:0001036, 0001048–0001067), 181 synonym strings.** 129 kept,
+  21 kept with a note, **31 withdrawn across 8 diseases**: 12 name an existing
+  `ARI_ClinicalSubtype` (`subtype`), 12 are `NON RARE IN EUROPE: …` Orphanet
+  epidemiological-classification labels that leaked in as synonyms (`non-disease`), 4 name a
+  different disease (`distinct`), 3 a broader parent (`broader`). No `ARI_ClinicalSubtype`
+  lines added or rewritten.
+- Batch 2 withdrawn: Autoimmune urticaria — *Chronic idiopathic urticaria*,
+  *Chronic urticaria* (broader), *Physical urticaria* (distinct); Behçet's syndrome —
+  *Hughes-Stovin syndrome* ×2 (a rare vascular variant); Benign mucous membrane pemphigoid —
+  *Ocular pemphigoid*; Cataplexy and narcolepsy — 8 NT1 / NT2 / HCRT-locus / *narcolepsy 1*
+  strings; Celiac disease — 9 *NON RARE IN EUROPE: …* strings; Chronic Fatigue Syndrome —
+  3 *NON RARE IN EUROPE: …* strings; Chronic interstitial cystitis — *ulcerative cystitis*;
+  Chronic Lyme disease — *Lyme Borreliosis*, *Lyme Arthritis*, *Erythema Migrans with
+  Polyarthritis* (the active infection), *Lyme disease* (broader).
+- **Batch 3 — 17 diseases (ARI:0001068–0001093), 125 synonym strings.** 60 kept, 23 kept
+  with a note, **42 withdrawn across 7 diseases**: 20 name a broader parent (`broader`),
+  13 name an existing `ARI_ClinicalSubtype` (`subtype`), 7 name a different disease
+  (`distinct`), 2 are `NON RARE IN EUROPE: …` / complication strings (`non-disease`).
+- Batch 3 withdrawn: Cold agglutinin disease — 16 strings naming autoimmune haemolytic
+  anaemia in general (CAD is its cold-agglutinin subtype); Complex regional pain syndrome —
+  *Amplified musculoskeletal pain syndrome* (distinct) and the CRPS type-1/type-2 names
+  (*Causalgia*, *CRPS I*, …); Crohn's disease — the location forms (*Crohn's colitis*,
+  *Ileocolitis*, *Gastroduodenal Crohn's disease*, *Illeitis*), *Crohn disease-associated
+  growth failure*, *NON RARE IN EUROPE: Crohn disease*; Cryptogenic organizing pneumonia —
+  broader interstitial-pneumonia terms and two names for IPF (*Idiopathic fibrosing
+  alveolitis*, *Diffuse idiopathic pulmonary fibrosis*); Cutaneous lupus erythematosus —
+  the *Discoid lupus* strings (a subtype); Endometriosis — all four synonyms, which name
+  *adenomyosis* (a separate diagnosis); Erythema nodosum — *Idiopathic erythema nodosum*.
+- **Pre-existing bugs noted for a curator, not fixed here:** ARI:0001031 is labelled
+  *Autoimmune gastritis* but its `rdfs:comment` describes autoimmune enteropathy; ARI:0001065
+  *Chronic Lyme disease* has a definition describing the acute tick-borne infection;
+  ARI:0001076 *Cutaneous lupus erythematosus* has a definition describing discoid lupus;
+  ARI:0001069 and ARI:0001074 carry many mis-imported sibling diseases in their
+  `ARI_ClinicalSubtype` lists (whole AIHA / interstitial-pneumonia families); several large
+  synonym lists (celiac, CFS, CIDP, cold agglutinin) carry dozens of MeSH permuted forms
+  that are kept but add little.
+- **Batch 4 — 18 diseases (ARI:0003, 0001094–0001114), 64 synonym strings.** 40 kept, 4 kept
+  with a note, **20 withdrawn across 5 diseases**: 17 name a manifestation/subtype
+  (`subtype`), 2 a different disease (`distinct`), 1 a broader parent (`broader`).
+- Batch 4 withdrawn: Graves' disease — *Thyrotoxicosis* (broader); Guillain-Barré syndrome —
+  *Miller-Fisher syndrome* / *MFS* / *Fisher syndrome* (a variant, already a subtype);
+  Hemophilia B Leyden — *Autoimmune hemophilia B* (acquired haemophilia B, a different
+  disease); Immune thrombocytopenia — *Immune-mediated thrombotic thrombocytopenic purpura
+  (iTTP)* (a different disease); Immunoglobulin G4 related disease — 14 organ-manifestation
+  names (*Riedel's thyroiditis*, *Küttner's tumor*, *Mikulicz's syndrome*, *retroperitoneal
+  fibrosis* / *Ormond's disease*, *periaortitis*, *inflammatory pseudotumor*, …).
+- **Pre-existing note for a curator:** ARI:0001098 *Hemophilia B Leyden* is a genetic
+  F9-promoter variant; its place in an autoimmune registry is questionable.
+- **Batch 5 — 20 diseases (ARI:0002, 0001115–0001142), 70 synonym strings.** 48 kept, 11 kept
+  with a note, **11 withdrawn across 9 diseases**: 5 `subtype`, 3 `broader`, 3 `distinct`.
+- Batch 5 withdrawn: Juvenile RA — *Pediatric rheumatic disease* (broader); Lichen sclerosus —
+  *Balanitis xerotica obliterans* (the male genital form); Linear IgA dermatosis —
+  *Chronic bullous dermatosis of childhood* (the childhood form); Lipomatosis dolorosa —
+  *Juxta-Articular adiposis dolorosa*; Mooren's ulcer — *Peripheral Ulcerative Keratitis*,
+  *Corneal Ulcer* (broader); MOG antibody disease — *Anti-MAG disease* and its full name
+  (anti-MAG neuropathy is a different disease — MAG vs MOG); Myocarditis due to autoimmune
+  disease — *Coxsackie myocarditis* (viral); Myositis — *Juvenile myositis*; Neonatal lupus —
+  *Congenital heart block due to maternal anti-Ro/SSA and anti-La/SSB* (the cardiac form).
+- **Batch 6 — 20 diseases (ARI:0001143–0001173), 98 synonym strings.** 77 kept, 13 kept with
+  a note, **8 withdrawn across 4 diseases**: 6 `broader`, 2 `subtype`.
+- Batch 6 withdrawn: Opsoclonus-myoclonus syndrome — *Paraneoplastic opsoclonus-myoclonus*
+  (×2, the cancer-associated subtype); Paraneoplastic cerebellar degeneration —
+  *Paraneoplastic neurological syndrome* / *PNS* / *Paraneoplastic syndrome* (broader
+  categories); PANDAS — *PANS* / *Pediatric Acute-onset Neuropsychiatric Syndrome* (the
+  broader umbrella); Primary idiopathic dilated cardiomyopathy — bare *Dilated
+  cardiomyopathy*.
+- **Batch 7 — 20 diseases (ARI:0001176–0001199), 70 synonym strings.** 41 kept, 16 kept with
+  a note, **13 withdrawn across 9 diseases**: 4 `non-disease`, 3 `broader`, 3 `distinct`,
+  3 `subtype`.
+- Batch 7 withdrawn: Relapsing polychondritis — *Relapsing polyneuropathy* (a nerve disease);
+  Retinocochleocerebral vasculopathy — *retinal and encephalic tissue* / *Small infarctions
+  of cochlear* (one term split on a comma); Rheumatic fever — *Acute rheumatic myocarditis*;
+  Rheumatoid aortitis — *non-vasculitic)* / *Autoimmune aortitis (isolated* (one term split
+  on a comma); Secondary Raynaud's phenomenon — bare *Raynaud's phenomenon*; Sjögren's
+  disease — *Sicca syndrome*, *Keratoconjunctivitis sicca* (broader), *SJS* (Stevens-Johnson
+  collision); Subacute bacterial endocarditis — *Subacute native valve endocarditis*;
+  Systemic sclerosis — *Diffuse Systemic sclerosis*; SSc with limited cutaneous involvement —
+  *dcSSc* (the diffuse form).
+- **Pre-existing notes for a curator:** the comma-split imports on ARI:0001180 and ARI:0001183
+  (the whole terms should be re-added); ARI:0001176 conflates primary and secondary Raynaud's;
+  ARI:0001194 (subacute bacterial endocarditis, an infection) sits oddly in an autoimmune
+  registry.
+- **Batch 8 — 10 diseases (ARI:0001080, 0001200–0001211), 31 synonym strings.** 18 kept, 6 kept
+  with a note, **7 withdrawn across 5 diseases**: 5 `broader`, 2 `subtype`.
+- Batch 8 withdrawn: TIF1-gamma positive dermatomyositis — *Cancer-associated myositis*
+  (broader); Transverse myelitis — *Secondary acute transverse myelitis*; Uveitis —
+  *Idiopathic intermediate uveitis*; Vitiligo — *Leukoderma* (broader); Warm autoimmune
+  haemolytic anaemia — *Immune hemolytic anemia*, *Acquired autoimmune hemolytic anemia*,
+  *Immunohemolytic anemia* (broader — the whole AIHA / immune-haemolysis family, mirroring the
+  cold-agglutinin-disease finding in batch 3).
+
+### Review complete — all 146 diseases with synonyms
+
+- **708 `ARI_Synonym` strings reviewed. 450 kept, 107 kept with a curator note,
+  151 withdrawn across 56 diseases** — 63 name an existing or clear clinical subtype
+  (`subtype`), 45 a broader parent (`broader`), 23 a different disease (`distinct`),
+  20 an import artefact / downstream finding / split fragment (`non-disease`).
+- `ARI_Synonym` 708 → 557; every removal carries an `ARI_SynonymWithdrawn` marker and its
+  disease a dated `ARI_ChangeLog` line. No `ARI_ClinicalSubtype` line was added or rewritten —
+  every `subtype`-reason withdrawal already had a matching subtype (or a clearly narrower
+  clinical form) on the disease. `validate_mappings.py --since main` is clean.
+- The 107 "kept (noted)" strings are left in place with a rationale in the findings tables for
+  a curator: ambiguous broader/near-synonymous terms, historical eponyms, misspellings kept
+  pending a spelling pass, and dangerous homonyms (e.g. *SJS*, *Carpenter syndrome*).
+- Pre-existing issues surfaced but not fixed: label/definition mismatches (ARI:0001031,
+  0001065, 0001076), comma-split imports (ARI:0001180, 0001183), and mis-imported sibling
+  diseases in some `ARI_ClinicalSubtype` lists (ARI:0001069, 0001074).
+
 ## edit/KrishnaTO/mappings-review-1788817126
 
 Fixes the 19 `validate` errors the review batch raised. Both were pre-existing gaps this
