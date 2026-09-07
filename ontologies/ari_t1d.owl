@@ -18835,7 +18835,7 @@ A third type of PRCA, Diamond-Blackfan syndrome, is due to genetic mutation and 
 Secondary Raynaud's is a symptom experienced (and reported) by patients with autoimmune diseases.  Primary Raynaud's is when the symptoms appear without any other disease.  Therefore, primary Raynaud's is not an autoimmune disease.  However, a person suffering from Raynaud's could have an undiagnosed autoimmune disease.</rdfs:comment>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Raynaud's disease</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Secondary Raynaud's</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Raynaud's phenomenon</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Raynaud's phenomenon | broader | Raynaud's phenomenon is the sign itself (primary or secondary); this entity is the secondary form</ARI_SynonymWithdrawn>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Raynaud disease</ARI_Synonym>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Garner 2015; https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4368987/</ARI_DefSource>
   <evidenceQuality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unconfirmed</evidenceQuality>
@@ -18853,6 +18853,7 @@ Secondary Raynaud's is a symptom experienced (and reported) by patients with aut
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-09</ARI_AuthorDate>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RAY</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew bare "Raynaud's phenomenon" - the sign itself, broader than secondary Raynaud's phenomenon. NB the entity conflates primary and secondary (it carries a 'Primary' subtype) - for a curator.</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001176_1699">
@@ -19112,7 +19113,7 @@ In cases where the cartilage is not visible, RP can cause heart valve abnormalit
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Systemic chondromalacia</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chronic atrophic polychondritis</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Recurrent polychondritis</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Relapsing polyneuropathy</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Relapsing polyneuropathy | distinct | a peripheral-nerve disease (cf. chronic relapsing polyneuropathy = CIDP); an error for 'relapsing polychondritis'</ARI_SynonymWithdrawn>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Atrophic polychondritis</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meyenburg-Altherr-Uehlinger syndrome</ARI_Synonym>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kent 2004; https://pubmed.ncbi.nlm.nih.gov/14673390/</ARI_DefSource>
@@ -19131,6 +19132,7 @@ In cases where the cartilage is not visible, RP can cause heart valve abnormalit
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-09</ARI_AuthorDate>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RP</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew "Relapsing polyneuropathy" - a peripheral-nerve disease, not a synonym for relapsing polychondritis (likely a transcription error).</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001178_1727">
@@ -19320,10 +19322,10 @@ In cases where the cartilage is not visible, RP can cause heart valve abnormalit
 The severity of cases may vary, with mild cases resolving in under a year and severe cases having longer duration and causing irreparable damage.  During the course of the disease, some patients may experience symptoms in a flare-remission pattern, while others are consistently symptomatic until time of recovery.  Treatment is available to prevent permanent damage, and most patients under medical care can expect to experience complete or near complete recovery.</rdfs:comment>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RED-M</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SICRET</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">retinal and encephalic tissue</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">retinal and encephalic tissue | non-disease | a fragment of 'small infarctions of cochlear, retinal and encephalic tissue' split on a comma during import</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Small infarctions of cochlear | non-disease | a fragment of 'small infarctions of cochlear, retinal and encephalic tissue' split on a comma during import</ARI_SynonymWithdrawn>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Retinopathy-encephalopathy-deafness associated microangiopathy</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Susac's syndrome</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Small infarctions of cochlear</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Susac syndrome</ARI_Synonym>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dörr 2013; https://pubmed.ncbi.nlm.nih.gov/23628737/</ARI_DefSource>
   <ARI_Pubmed rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/23628737/</ARI_Pubmed>
@@ -19339,6 +19341,7 @@ The severity of cases may vary, with mild cases resolving in under a year and se
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-09</ARI_AuthorDate>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RCV</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew "retinal and encephalic tissue" and "Small infarctions of cochlear" - two halves of one term (the SICRET expansion) split on a comma during import. The whole phrase should be re-added by a curator.</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001180_1752">
@@ -19614,7 +19617,7 @@ Note: scarlet fever is another symptom of a strep infection but is not a separat
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acute rheumatic fever</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rheumatic arthritis</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inflammatory rheumatism</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acute rheumatic myocarditis</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acute rheumatic myocarditis | subtype | names the cardiac manifestation (rheumatic carditis) of rheumatic fever, not the whole disease</ARI_SynonymWithdrawn>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orphanet; https://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=3099</ARI_DefSource>
   <evidenceQuality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antibody</evidenceQuality>
   <diseaseCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune</diseaseCategory>
@@ -19632,6 +19635,7 @@ Note: scarlet fever is another symptom of a strep infection but is not a separat
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-09</ARI_AuthorDate>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RF</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew "Acute rheumatic myocarditis" - the cardiac manifestation of rheumatic fever, not a synonym for the whole disease.</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001182_1785">
@@ -19738,10 +19742,11 @@ Note: scarlet fever is another symptom of a strep infection but is not a separat
   <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001183</ARI_ID>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">38877003</ARI_SNOMED>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4306357</ARI_OMOP>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">non-vasculitic)</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune aortitis (isolated</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">non-vasculitic) | non-disease | a fragment of 'Autoimmune aortitis (isolated, non-vasculitic)' split on a comma during import</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune aortitis (isolated | non-disease | a fragment of 'Autoimmune aortitis (isolated, non-vasculitic)' split on a comma during import</ARI_SynonymWithdrawn>
   <ARI_Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.1</ARI_Version>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew "non-vasculitic)" and "Autoimmune aortitis (isolated" - two halves of one term split on a comma during import. The whole phrase 'Autoimmune aortitis (isolated, non-vasculitic)' should be re-added by a curator; the entity is left with no synonyms.</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001184">
@@ -20500,9 +20505,9 @@ Patients with Schnitzler syndrome typically experience chronic rash, relapsing f
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sjogren's disease</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sjögrens disease</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sjögren's syndrome</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sicca syndrome</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Keratoconjunctivitis sicca</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SJS</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sicca syndrome | broader | dry eyes + dry mouth from any cause (drugs, age, radiation, other diseases); the ARI definition itself says it is called Sjögren's disease only when autoimmune</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Keratoconjunctivitis sicca | broader | dry eye disease from any cause; a component of Sjögren's, not a synonym</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SJS | distinct | 'SJS' overwhelmingly denotes Stevens-Johnson syndrome, a different and dangerous disease; too ambiguous to keep as a Sjögren's synonym</ARI_SynonymWithdrawn>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Narváez 2020; https://pubmed.ncbi.nlm.nih.gov/32606345/</ARI_DefSource>
   <ARI_Pubmed rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/32606345/</ARI_Pubmed>
   <evidenceQuality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antibody</evidenceQuality>
@@ -20523,6 +20528,7 @@ Patients with Schnitzler syndrome typically experience chronic rash, relapsing f
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2025-02</ARI_AuthorDate>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SJ</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew "Sicca syndrome" and "Keratoconjunctivitis sicca" (broader dryness terms from any cause) and "SJS" (collides with Stevens-Johnson syndrome). Kept Sjögren's syndrome / disease spelling variants.</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001189_1883">
@@ -21273,7 +21279,7 @@ SBE is not an autoimmune disease, but patients are at increased risk of developi
 
 This condition most frequently occurs following surgery to a region of the body infected with streptococcal bacteria.  Invasive surgery in the infected tissue facilitates the spread of the bacteria to the heart valves by way of the blood.  The infection normally develops slowly during the two weeks after surgery and may persist for months.  SBE typically only occurs in patients who already have damage to their heart valves from other health conditions.  SBE is difficult to diagnosis because initial symptoms consist almost exclusively of feelings of malaise, which are also common in many other disorders.  SBE may trigger the onset of autoimmune conditions, such as vasculitis. If left untreated, complications can be fatal; however, positive outcomes are expected with early medical care.</rdfs:comment>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Subacute infective endocarditis</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Subacute native valve endocarditis</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Subacute native valve endocarditis | subtype | the native-valve form; already an ARI_ClinicalSubtype 'Subacute Bacterial Endocarditis, Native Valve'</ARI_SynonymWithdrawn>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cahill 2017; https://pubmed.ncbi.nlm.nih.gov/28104075/</ARI_DefSource>
   <ARI_Pubmed rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/28104075/</ARI_Pubmed>
   <evidenceQuality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unconfirmed</evidenceQuality>
@@ -21291,6 +21297,7 @@ This condition most frequently occurs following surgery to a region of the body 
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-09</ARI_AuthorDate>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SBE</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew "Subacute native valve endocarditis" - the native-valve form, already an ARI_ClinicalSubtype. NB this infectious disease's place in an autoimmune registry is questionable - for a curator.</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001194_1975">
@@ -21810,7 +21817,7 @@ When mastocytosis is limited to the skin, it is called cutaneous mastocytosis, a
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">89155008</ARI_DXCODE>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scleroderma is an autoimmune, rheumatic, and chronic disease that affects the body by hardening connective tissue. This disease may also cause issues in the blood vessels, organs, and digestive tract. Scleroderma is characterized as limited or diffuse, referring to the degree of skin involvement, but can both involve any vascular or organ symptoms. These symptoms occur when the body produces too much collagen, which builds up the body’s connective tissues. People who usually get scleroderma are those between the ages of 30 and 50 and tend to be female at birth.</rdfs:comment>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scleroderma</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diffuse Systemic sclerosis</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diffuse Systemic sclerosis | subtype | the diffuse cutaneous form (dcSSc); MONDO hasNarrowSynonym, and already an ARI_ClinicalSubtype 'Systemic Sclerosis, Diffuse'</ARI_SynonymWithdrawn>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Systemic scleroderma</ARI_Synonym>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Barnes 2012; https://pubmed.ncbi.nlm.nih.gov/22269658/</ARI_DefSource>
   <ARI_Pubmed rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/22269658/</ARI_Pubmed>
@@ -21831,6 +21838,7 @@ When mastocytosis is limited to the skin, it is called cutaneous mastocytosis, a
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2025-02</ARI_AuthorDate>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SS</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew "Diffuse Systemic sclerosis" - the diffuse cutaneous subtype (MONDO narrow synonym), already an ARI_ClinicalSubtype. Kept 'Scleroderma' and 'Systemic scleroderma'.</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001198_2035">
@@ -21992,7 +22000,7 @@ S - Sclerodactyly: thick and tight skin on the fingers, caused by an excess of c
 T - Telangiectasia: small red spots on the hands and face that are caused by the swelling of tiny blood vessels.
 
 To be diagnosed with CREST, you must have 3 out of the 5 symptoms.</rdfs:comment>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dcSSc</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dcSSc | distinct | diffuse cutaneous systemic sclerosis - the opposite form to this entity (limited cutaneous)</ARI_SynonymWithdrawn>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lcSSc</ARI_Synonym>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CREST syndrome</ARI_Synonym>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Efrimescu 2023; https://pubmed.ncbi.nlm.nih.gov/36686888/</ARI_DefSource>
@@ -22021,6 +22029,7 @@ To be diagnosed with CREST, you must have 3 out of the 5 symptoms.</rdfs:comment
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-07 20:44 | KrishnaTO | Cross-reference review: confirmed SNOMED 298285004; confirmed OMOP 4185187; confirmed ICD10 M34.1; flagged SNOMED 128461001, 31848007; flagged OMOP 4135937, 4027230; flagged NCI C70646; flagged UMLS C1527226, C0206138; flagged MESH D017675</ARI_ChangeLog>
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">298285004</ARI_DXCODE>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4185187</ARI_OMOP>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew "dcSSc" - diffuse cutaneous systemic sclerosis, the opposite of this entity (limited cutaneous involvement). Kept 'lcSSc' and 'CREST syndrome'.</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001199_643">

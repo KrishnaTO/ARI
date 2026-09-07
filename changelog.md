@@ -97,7 +97,23 @@
   categories); PANDAS — *PANS* / *Pediatric Acute-onset Neuropsychiatric Syndrome* (the
   broader umbrella); Primary idiopathic dilated cardiomyopathy — bare *Dilated
   cardiomyopathy*.
-- Batches 7+ (the remaining ~50 diseases with synonyms) follow in the same style.
+- **Batch 7 — 20 diseases (ARI:0001176–0001199), 70 synonym strings.** 41 kept, 16 kept with
+  a note, **13 withdrawn across 9 diseases**: 4 `non-disease`, 3 `broader`, 3 `distinct`,
+  3 `subtype`.
+- Batch 7 withdrawn: Relapsing polychondritis — *Relapsing polyneuropathy* (a nerve disease);
+  Retinocochleocerebral vasculopathy — *retinal and encephalic tissue* / *Small infarctions
+  of cochlear* (one term split on a comma); Rheumatic fever — *Acute rheumatic myocarditis*;
+  Rheumatoid aortitis — *non-vasculitic)* / *Autoimmune aortitis (isolated* (one term split
+  on a comma); Secondary Raynaud's phenomenon — bare *Raynaud's phenomenon*; Sjögren's
+  disease — *Sicca syndrome*, *Keratoconjunctivitis sicca* (broader), *SJS* (Stevens-Johnson
+  collision); Subacute bacterial endocarditis — *Subacute native valve endocarditis*;
+  Systemic sclerosis — *Diffuse Systemic sclerosis*; SSc with limited cutaneous involvement —
+  *dcSSc* (the diffuse form).
+- **Pre-existing notes for a curator:** the comma-split imports on ARI:0001180 and ARI:0001183
+  (the whole terms should be re-added); ARI:0001176 conflates primary and secondary Raynaud's;
+  ARI:0001194 (subacute bacterial endocarditis, an infection) sits oddly in an autoimmune
+  registry.
+- Batches 8+ (the remaining ~30 diseases with synonyms) follow in the same style.
 
 ## fix-ms-omop-and-lost-judgments
 
