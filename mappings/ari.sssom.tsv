@@ -766,3 +766,214 @@ ARI:0001204	Transverse myelitis	skos:exactMatch	Not	ORPHA:592873	ORPHA	semapv:Ma
 ARI:0001204	Transverse myelitis	skos:exactMatch	Not	ncit:C128378	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-23T00:26:31+00:00	
 ARI:0001204	Transverse myelitis	skos:exactMatch	Not	icd10cm:G37.3	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-23T00:26:31+00:00	
 ARI:0001204	Transverse myelitis	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-09-23T00:26:31+00:00	
+ARI:0001145	Ocular myasthenia gravis	skos:exactMatch		SNOMEDCT:230684008	SNOMEDCT	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001145	Ocular myasthenia gravis	skos:exactMatch		omop:4048782	omop	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001146	Ophthalmoplegia due to Graves' disease	skos:exactMatch		SNOMEDCT:104461000119104	SNOMEDCT	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001146	Ophthalmoplegia due to Graves' disease	skos:exactMatch		omop:45757069	omop	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001146	Ophthalmoplegia due to Graves' disease	skos:exactMatch		DOID:0081120	DOID	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001146	Ophthalmoplegia due to Graves' disease	skos:exactMatch		mesh:D049970	mesh	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001147	Opsoclonus-myoclonus syndrome	skos:exactMatch		SNOMEDCT:230350000	SNOMEDCT	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001147	Opsoclonus-myoclonus syndrome	skos:exactMatch		omop:4043399	omop	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001147	Opsoclonus-myoclonus syndrome	skos:exactMatch		MONDO:0015247	MONDO	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001147	Opsoclonus-myoclonus syndrome	skos:exactMatch		ncit:C4686	ncit	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001147	Opsoclonus-myoclonus syndrome	skos:exactMatch		ORPHA:1183	ORPHA	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001147	Opsoclonus-myoclonus syndrome	skos:exactMatch		umls:C0393626	umls	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001147	Opsoclonus-myoclonus syndrome	skos:exactMatch		mesh:D053578	mesh	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001155	POEMS syndrome	skos:exactMatch		SNOMEDCT:79268002	SNOMEDCT	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001155	POEMS syndrome	skos:exactMatch		omop:4193776	omop	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001155	POEMS syndrome	skos:exactMatch		DOID:14039	DOID	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001155	POEMS syndrome	skos:exactMatch		MONDO:0017364	MONDO	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001155	POEMS syndrome	skos:exactMatch		ncit:C80303	ncit	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001155	POEMS syndrome	skos:exactMatch		ORPHA:2905	ORPHA	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001155	POEMS syndrome	skos:exactMatch		umls:C0085404	umls	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001155	POEMS syndrome	skos:exactMatch		mesh:D016878	mesh	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001148	Palindromic rheumatism	skos:exactMatch		SNOMEDCT:50442003	SNOMEDCT	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001148	Palindromic rheumatism	skos:exactMatch		omop:76196	omop	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001148	Palindromic rheumatism	skos:exactMatch		DOID:1166	DOID	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001148	Palindromic rheumatism	skos:exactMatch		MONDO:0001332	MONDO	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001148	Palindromic rheumatism	skos:exactMatch		ncit:C215373	ncit	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001148	Palindromic rheumatism	skos:exactMatch		icd10cm:M12.3	icd10cm	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001148	Palindromic rheumatism	skos:exactMatch		umls:C0158178	umls	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001148	Palindromic rheumatism	skos:exactMatch		umls:C0085574	umls	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001148	Palindromic rheumatism	skos:exactMatch		mesh:C538103	mesh	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001149	Paraneoplastic cerebellar degeneration	skos:exactMatch		SNOMEDCT:192877007	SNOMEDCT	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001149	Paraneoplastic cerebellar degeneration	skos:exactMatch		MONDO:0018215	MONDO	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001149	Paraneoplastic cerebellar degeneration	skos:exactMatch		MONDO:0044877	MONDO	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001149	Paraneoplastic cerebellar degeneration	skos:exactMatch		ncit:C4685	ncit	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001149	Paraneoplastic cerebellar degeneration	skos:exactMatch		ORPHA:623626	ORPHA	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001149	Paraneoplastic cerebellar degeneration	skos:exactMatch		ORPHA:36388	ORPHA	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001149	Paraneoplastic cerebellar degeneration	skos:exactMatch		umls:C0393534	umls	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001149	Paraneoplastic cerebellar degeneration	skos:exactMatch		umls:C0751911	umls	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001149	Paraneoplastic cerebellar degeneration	skos:exactMatch		mesh:D020362	mesh	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001149	Paraneoplastic cerebellar degeneration	skos:exactMatch		omop:4102330	omop	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001150	Paraneoplastic pemphigus	skos:exactMatch		omop:45591627	omop	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001150	Paraneoplastic pemphigus	skos:exactMatch		DOID:0080852	DOID	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001150	Paraneoplastic pemphigus	skos:exactMatch		MONDO:0018974	MONDO	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001150	Paraneoplastic pemphigus	skos:exactMatch		icd10cm:L10.81	icd10cm	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001150	Paraneoplastic pemphigus	skos:exactMatch		ORPHA:63455	ORPHA	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001150	Paraneoplastic pemphigus	skos:exactMatch		umls:C1112570	umls	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001151	Paroxysmal cold hemoglobinuria	skos:exactMatch		SNOMEDCT:127057004	SNOMEDCT	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001151	Paroxysmal cold hemoglobinuria	skos:exactMatch		MONDO:0019533	MONDO	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001151	Paroxysmal cold hemoglobinuria	skos:exactMatch		ORPHA:90035	ORPHA	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001151	Paroxysmal cold hemoglobinuria	skos:exactMatch		umls:C0086774	umls	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001151	Paroxysmal cold hemoglobinuria	skos:exactMatch		mesh:C538618	mesh	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001151	Paroxysmal cold hemoglobinuria	skos:exactMatch		omop:4131917	omop	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001152	Paroxysmal nocturnal hemoglobinuria	skos:exactMatch		SNOMEDCT:1963002	SNOMEDCT	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001152	Paroxysmal nocturnal hemoglobinuria	skos:exactMatch		omop:4024671	omop	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001152	Paroxysmal nocturnal hemoglobinuria	skos:exactMatch		DOID:0060284	DOID	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001152	Paroxysmal nocturnal hemoglobinuria	skos:exactMatch		MONDO:0100244	MONDO	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001152	Paroxysmal nocturnal hemoglobinuria	skos:exactMatch		MONDO:0019533	MONDO	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001152	Paroxysmal nocturnal hemoglobinuria	skos:exactMatch		ncit:C61233	ncit	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001152	Paroxysmal nocturnal hemoglobinuria	skos:exactMatch		icd10cm:D59.5	icd10cm	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001152	Paroxysmal nocturnal hemoglobinuria	skos:exactMatch		ORPHA:447	ORPHA	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001152	Paroxysmal nocturnal hemoglobinuria	skos:exactMatch		ORPHA:90035	ORPHA	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001152	Paroxysmal nocturnal hemoglobinuria	skos:exactMatch		umls:C0019050	umls	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001152	Paroxysmal nocturnal hemoglobinuria	skos:exactMatch		umls:C0024790	umls	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001152	Paroxysmal nocturnal hemoglobinuria	skos:exactMatch		mesh:D006457	mesh	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001170	Progressive hemifacial atrophy	skos:exactMatch		SNOMEDCT:718224004	SNOMEDCT	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001170	Progressive hemifacial atrophy	skos:exactMatch		omop:37397558	omop	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001170	Progressive hemifacial atrophy	skos:exactMatch		MONDO:0007710	MONDO	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001170	Progressive hemifacial atrophy	skos:exactMatch		ORPHA:1214	ORPHA	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001170	Progressive hemifacial atrophy	skos:exactMatch		ncit:C116916	ncit	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001170	Progressive hemifacial atrophy	skos:exactMatch		mesh:D005150	mesh	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001145	Ocular myasthenia gravis	skos:exactMatch		MONDO:1060002	MONDO	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001154	Pemphigus	skos:exactMatch		SNOMEDCT:402718003	SNOMEDCT	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001154	Pemphigus	skos:exactMatch		SNOMEDCT:65172003	SNOMEDCT	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001154	Pemphigus	skos:exactMatch		SNOMEDCT:35154004	SNOMEDCT	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001154	Pemphigus	skos:exactMatch		SNOMEDCT:49420001	SNOMEDCT	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001154	Pemphigus	skos:exactMatch		SNOMEDCT:200907003	SNOMEDCT	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001154	Pemphigus	skos:exactMatch		omop:135338	omop	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001154	Pemphigus	skos:exactMatch		DOID:9182	DOID	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001154	Pemphigus	skos:exactMatch		MONDO:0006594	MONDO	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001154	Pemphigus	skos:exactMatch		ncit:C34909	ncit	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001154	Pemphigus	skos:exactMatch		icd10cm:L10	icd10cm	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001154	Pemphigus	skos:exactMatch		umls:C0030807	umls	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001154	Pemphigus	skos:exactMatch		mesh:D010392	mesh	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001156	Polyarteritis nodosa	skos:exactMatch		SNOMEDCT:155441006	SNOMEDCT	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001156	Polyarteritis nodosa	skos:exactMatch		omop:320749	omop	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001156	Polyarteritis nodosa	skos:exactMatch		DOID:9810	DOID	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001156	Polyarteritis nodosa	skos:exactMatch		MONDO:0019170	MONDO	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001156	Polyarteritis nodosa	skos:exactMatch		ncit:C26847	ncit	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001156	Polyarteritis nodosa	skos:exactMatch		icd10cm:M30.0	icd10cm	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001156	Polyarteritis nodosa	skos:exactMatch		ORPHA:767	ORPHA	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001156	Polyarteritis nodosa	skos:exactMatch		umls:C0031036	umls	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001156	Polyarteritis nodosa	skos:exactMatch		mesh:D010488	mesh	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001163	Postmyocardial infarction syndrome	skos:exactMatch		SNOMEDCT:827164008	SNOMEDCT	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001163	Postmyocardial infarction syndrome	skos:exactMatch		SNOMEDCT:66189004	SNOMEDCT	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001163	Postmyocardial infarction syndrome	skos:exactMatch		omop:319038	omop	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001163	Postmyocardial infarction syndrome	skos:exactMatch		DOID:10507	DOID	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001163	Postmyocardial infarction syndrome	skos:exactMatch		MONDO:0001049	MONDO	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001163	Postmyocardial infarction syndrome	skos:exactMatch		icd10cm:I24.1	icd10cm	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001163	Postmyocardial infarction syndrome	skos:exactMatch		umls:C0152107	umls	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001164	Postural orthostatic tachycardia syndrome	skos:exactMatch		SNOMEDCT:371073003	SNOMEDCT	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001164	Postural orthostatic tachycardia syndrome	skos:exactMatch		omop:4159659	omop	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001164	Postural orthostatic tachycardia syndrome	skos:exactMatch		DOID:0111154	DOID	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001164	Postural orthostatic tachycardia syndrome	skos:exactMatch		MONDO:0011479	MONDO	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001164	Postural orthostatic tachycardia syndrome	skos:exactMatch		ncit:C85020	ncit	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001164	Postural orthostatic tachycardia syndrome	skos:exactMatch		ORPHA:443236	ORPHA	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001164	Postural orthostatic tachycardia syndrome	skos:exactMatch		umls:C1299624	umls	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001164	Postural orthostatic tachycardia syndrome	skos:exactMatch		mesh:D054972	mesh	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001165	Primary acquired chylomicronemia	skos:exactMatch		SNOMEDCT:402475008	SNOMEDCT	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001165	Primary acquired chylomicronemia	skos:exactMatch		omop:4223495	omop	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001167	Primary idiopathic dilated cardiomyopathy	skos:exactMatch		SNOMEDCT:53043001	SNOMEDCT	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001167	Primary idiopathic dilated cardiomyopathy	skos:exactMatch		omop:4203149	omop	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001167	Primary idiopathic dilated cardiomyopathy	skos:exactMatch		DOID:12930	DOID	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001167	Primary idiopathic dilated cardiomyopathy	skos:exactMatch		MONDO:0005021	MONDO	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001167	Primary idiopathic dilated cardiomyopathy	skos:exactMatch		ncit:C84673	ncit	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001167	Primary idiopathic dilated cardiomyopathy	skos:exactMatch		icd10cm:I42.0	icd10cm	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001167	Primary idiopathic dilated cardiomyopathy	skos:exactMatch		ORPHA:217604	ORPHA	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001167	Primary idiopathic dilated cardiomyopathy	skos:exactMatch		umls:C0007193	umls	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001167	Primary idiopathic dilated cardiomyopathy	skos:exactMatch		mesh:D002311	mesh	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001168	Primary immune deficiency	skos:exactMatch		SNOMEDCT:31323000	SNOMEDCT	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001168	Primary immune deficiency	skos:exactMatch		SNOMEDCT:37548006	SNOMEDCT	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001168	Primary immune deficiency	skos:exactMatch		SNOMEDCT:442459007	SNOMEDCT	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001168	Primary immune deficiency	skos:exactMatch		SNOMEDCT:362993009	SNOMEDCT	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001168	Primary immune deficiency	skos:exactMatch		SNOMEDCT:36138009	SNOMEDCT	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001168	Primary immune deficiency	skos:exactMatch		omop:40483560	omop	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001168	Primary immune deficiency	skos:exactMatch		omop:4179989	omop	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001168	Primary immune deficiency	skos:exactMatch		omop:4263109	omop	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001168	Primary immune deficiency	skos:exactMatch		omop:29783	omop	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001168	Primary immune deficiency	skos:exactMatch		omop:4292707	omop	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001168	Primary immune deficiency	skos:exactMatch		DOID:0060831	DOID	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001168	Primary immune deficiency	skos:exactMatch		DOID:627	DOID	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001168	Primary immune deficiency	skos:exactMatch		DOID:628	DOID	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001168	Primary immune deficiency	skos:exactMatch		MONDO:0015974	MONDO	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001168	Primary immune deficiency	skos:exactMatch		MONDO:0018306	MONDO	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001168	Primary immune deficiency	skos:exactMatch		ncit:C27871	ncit	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001168	Primary immune deficiency	skos:exactMatch		ncit:C3472	ncit	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001168	Primary immune deficiency	skos:exactMatch		icd10cm:D81	icd10cm	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001168	Primary immune deficiency	skos:exactMatch		ORPHA:101972	ORPHA	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001168	Primary immune deficiency	skos:exactMatch		ORPHA:183660	ORPHA	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001168	Primary immune deficiency	skos:exactMatch		ORPHA:381	ORPHA	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001168	Primary immune deficiency	skos:exactMatch		umls:C0085110	umls	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001168	Primary immune deficiency	skos:exactMatch		umls:C0398794	umls	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001168	Primary immune deficiency	skos:exactMatch		umls:C2711630	umls	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001168	Primary immune deficiency	skos:exactMatch		mesh:D016511	mesh	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001168	Primary immune deficiency	skos:exactMatch		mesh:D000081207	mesh	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001173	Pure red cell aplasia	skos:exactMatch		SNOMEDCT:50715003	SNOMEDCT	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001173	Pure red cell aplasia	skos:exactMatch		omop:140065	omop	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001173	Pure red cell aplasia	skos:exactMatch		DOID:1340	DOID	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001173	Pure red cell aplasia	skos:exactMatch		MONDO:0001705	MONDO	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001173	Pure red cell aplasia	skos:exactMatch		ncit:C34974	ncit	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001173	Pure red cell aplasia	skos:exactMatch		umls:C0034902	umls	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001173	Pure red cell aplasia	skos:exactMatch		mesh:D012010	mesh	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001174	Pyoderma gangrenosum	skos:exactMatch		SNOMEDCT:74578003	SNOMEDCT	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001174	Pyoderma gangrenosum	skos:exactMatch		omop:133283	omop	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001174	Pyoderma gangrenosum	skos:exactMatch		DOID:8553	DOID	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001174	Pyoderma gangrenosum	skos:exactMatch		MONDO:0018824	MONDO	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001174	Pyoderma gangrenosum	skos:exactMatch		icd10cm:L88	icd10cm	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001174	Pyoderma gangrenosum	skos:exactMatch		ORPHA:48104	ORPHA	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001174	Pyoderma gangrenosum	skos:exactMatch		umls:C0085652	umls	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001174	Pyoderma gangrenosum	skos:exactMatch		mesh:D017511	mesh	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001175	Rasmussen syndrome	skos:exactMatch		SNOMEDCT:230191005	SNOMEDCT	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001175	Rasmussen syndrome	skos:exactMatch		omop:4041672	omop	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001175	Rasmussen syndrome	skos:exactMatch		MONDO:0016019	MONDO	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001175	Rasmussen syndrome	skos:exactMatch		ORPHA:1929	ORPHA	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001175	Rasmussen syndrome	skos:exactMatch		umls:C2930868	umls	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001146	Ophthalmoplegia due to Graves' disease	skos:exactMatch	Not	SNOMEDCT:276177000	SNOMEDCT	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001146	Ophthalmoplegia due to Graves' disease	skos:exactMatch	Not	MONDO:0001509	MONDO	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001146	Ophthalmoplegia due to Graves' disease	skos:exactMatch	Not	MONDO:0018756	MONDO	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001146	Ophthalmoplegia due to Graves' disease	skos:exactMatch	Not	ORPHA:466682	ORPHA	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001146	Ophthalmoplegia due to Graves' disease	skos:exactMatch	Not	umls:C0155264	umls	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001146	Ophthalmoplegia due to Graves' disease	skos:exactMatch	Not	umls:C5680004	umls	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001149	Paraneoplastic cerebellar degeneration	skos:exactMatch	Not	DOID:0050639	DOID	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001149	Paraneoplastic cerebellar degeneration	skos:exactMatch	Not	MONDO:0015301	MONDO	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001149	Paraneoplastic cerebellar degeneration	skos:exactMatch	Not	ncit:C199391	ncit	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001149	Paraneoplastic cerebellar degeneration	skos:exactMatch	Not	ORPHA:137807	ORPHA	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001149	Paraneoplastic cerebellar degeneration	skos:exactMatch	Not	ORPHA:353220	ORPHA	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001149	Paraneoplastic cerebellar degeneration	skos:exactMatch	Not	umls:C0268397	umls	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001149	Paraneoplastic cerebellar degeneration	skos:exactMatch	Not	mesh:C562642	mesh	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001146	Ophthalmoplegia due to Graves' disease	skos:exactMatch	Not	omop:4077943	omop	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001152	Paroxysmal nocturnal hemoglobinuria	skos:exactMatch	Not	icd10cm:D59.6	icd10cm	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001152	Paroxysmal nocturnal hemoglobinuria	skos:exactMatch	Not	umls:C0086774	umls	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001170	Progressive hemifacial atrophy	skos:exactMatch	Not	DOID:1757	DOID	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001170	Progressive hemifacial atrophy	skos:exactMatch	Not	umls:C0015458	umls	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001154	Pemphigus	skos:exactMatch	Not	SNOMEDCT:46459009	SNOMEDCT	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001154	Pemphigus	skos:exactMatch	Not	SNOMEDCT:36739006	SNOMEDCT	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001154	Pemphigus	skos:exactMatch	Not	omop:4262682	omop	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001154	Pemphigus	skos:exactMatch	Not	omop:4066821	omop	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001154	Pemphigus	skos:exactMatch	Not	omop:4279526	omop	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001154	Pemphigus	skos:exactMatch	Not	omop:4148690	omop	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001154	Pemphigus	skos:exactMatch	Not	omop:4291435	omop	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001154	Pemphigus	skos:exactMatch	Not	omop:4170723	omop	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001154	Pemphigus	skos:exactMatch	Not	MONDO:0008219	MONDO	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001154	Pemphigus	skos:exactMatch	Not	MONDO:0019323	MONDO	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001154	Pemphigus	skos:exactMatch	Not	MONDO:0019324	MONDO	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001154	Pemphigus	skos:exactMatch	Not	MONDO:0043257	MONDO	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001154	Pemphigus	skos:exactMatch	Not	ORPHA:704	ORPHA	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001154	Pemphigus	skos:exactMatch	Not	ORPHA:79481	ORPHA	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001154	Pemphigus	skos:exactMatch	Not	ORPHA:636955	ORPHA	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001154	Pemphigus	skos:exactMatch	Not	ORPHA:79480	ORPHA	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001163	Postmyocardial infarction syndrome	skos:exactMatch	Not	SNOMEDCT:58600007	SNOMEDCT	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001163	Postmyocardial infarction syndrome	skos:exactMatch	Not	SNOMEDCT:278536002	SNOMEDCT	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001163	Postmyocardial infarction syndrome	skos:exactMatch	Not	omop:37311078	omop	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001163	Postmyocardial infarction syndrome	skos:exactMatch	Not	omop:4239311	omop	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001163	Postmyocardial infarction syndrome	skos:exactMatch	Not	omop:4150305	omop	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001164	Postural orthostatic tachycardia syndrome	skos:exactMatch	Not	MONDO:0005469	MONDO	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001164	Postural orthostatic tachycardia syndrome	skos:exactMatch	Not	icd10cm:I95.1	icd10cm	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001164	Postural orthostatic tachycardia syndrome	skos:exactMatch	Not	umls:C0020651	umls	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001173	Pure red cell aplasia	skos:exactMatch	Not	ORPHA:98421	ORPHA	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001175	Rasmussen syndrome	skos:exactMatch	Not	SNOMEDCT:435341000124104	SNOMEDCT	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001175	Rasmussen syndrome	skos:exactMatch	Not	omop:763040	omop	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001175	Rasmussen syndrome	skos:exactMatch	Not	ncit:C125384	ncit	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
+ARI:0001175	Rasmussen syndrome	skos:exactMatch	Not	mesh:C535291	mesh	semapv:ManualMappingCuration	github:Luis-Manuel-Esquivel	2026-09-24T22:42:18+00:00	
