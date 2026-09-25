@@ -199,10 +199,10 @@ ARI:0001049	Autoimmune urticaria	skos:exactMatch		omop:4224623	omop	semapv:Manua
 ARI:0001050	Autoimmune urticaria and/or angioedema	skos:exactMatch		SNOMEDCT:402402005	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11T00:00:00+00:00	
 ARI:0001050	Autoimmune urticaria and/or angioedema	skos:exactMatch		omop:4221673	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11T00:00:00+00:00	
 ARI:0001051	Autoimmune vasculitis	skos:exactMatch		SNOMEDCT:427213005	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11T00:00:00+00:00	
-ARI:0001051	Autoimmune vasculitis	skos:exactMatch		omop:4146124	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11T00:00:00+00:00	
+ARI:0001051	Autoimmune vasculitis	skos:exactMatch		omop:4146124	omop	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
 ARI:0001051	Autoimmune vasculitis	skos:exactMatch		DOID:0040097	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11T00:00:00+00:00	
 ARI:0001051	Autoimmune vasculitis	skos:exactMatch		umls:C1328843	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11T00:00:00+00:00	
-ARI:0001036	Autoimmune-Inflammatory Syndrome Induced by Adjuvants	skos:exactMatch		omop:1331726	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11T00:00:00+00:00	
+ARI:0001036	Autoimmune-Inflammatory Syndrome Induced by Adjuvants	skos:exactMatch		omop:1331726	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11T00:00:00+00:00	Superseded by the negative judgment of github:JoshuaCorona-Sa on 2026-09-25T04:20:09+00:00.
 ARI:0001052	Balo concentric sclerosis	skos:exactMatch		SNOMEDCT:230380005	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11T00:00:00+00:00	
 ARI:0001052	Balo concentric sclerosis	skos:exactMatch		omop:4046110	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11T00:00:00+00:00	
 ARI:0001052	Balo concentric sclerosis	skos:exactMatch		DOID:0060215	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11T00:00:00+00:00	
@@ -547,8 +547,8 @@ ARI:0001090	Essential mixed cryoglobulinemia	skos:exactMatch		MONDO:0007407	MOND
 ARI:0001090	Essential mixed cryoglobulinemia	skos:exactMatch		ORPHA:91138	ORPHA	semapv:ManualMappingCuration	github:linikujp	2026-08-21T00:00:00+00:00	
 ARI:0001019	Antisynthetase syndrome	skos:exactMatch		MONDO:0019344	MONDO	semapv:ManualMappingCuration	github:linikujp	2026-08-21T00:00:00+00:00	
 ARI:0001019	Antisynthetase syndrome	skos:exactMatch		ORPHA:81	ORPHA	semapv:ManualMappingCuration	github:linikujp	2026-08-21T00:00:00+00:00	
-ARI:0001056	Birdshot chorioretinopathy	skos:exactMatch		ORPHA:179	ORPHA	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-20T00:00:00+00:00	
-ARI:0001056	Birdshot chorioretinopathy	skos:exactMatch		omop:4334133	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-30T20:37:59+00:00	
+ARI:0001056	Birdshot chorioretinopathy	skos:exactMatch		ORPHA:179	ORPHA	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-20T00:00:00+00:00	Superseded by the negative judgment of github:JoshuaCorona-Sa on 2026-09-25T04:20:09+00:00.
+ARI:0001056	Birdshot chorioretinopathy	skos:exactMatch		omop:4334133	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-30T20:37:59+00:00	Superseded by the negative judgment of github:JoshuaCorona-Sa on 2026-09-25T04:20:09+00:00.
 ARI:0001002	Acquired hemophilia	skos:exactMatch		MONDO:0019139	MONDO	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-30T20:37:59+00:00	
 ARI:0001002	Acquired hemophilia	skos:exactMatch		ncit:C197822	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-30T20:37:59+00:00	
 ARI:0001002	Acquired hemophilia	skos:exactMatch		icd10cm:D68.311	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-30T20:37:59+00:00	
@@ -865,3 +865,189 @@ ARI:0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	Not	umls
 ARI:0001017	Antineutrophil cytoplasmic antibody positive vasculitis	skos:exactMatch	Not	SNOMEDCT:195353004	SNOMEDCT	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
 ARI:0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	Not	DOID:9744	DOID	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
 ARI:0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	Not	MONDO:0011027	MONDO	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001038	Autoimmune lymphoproliferative syndrome	skos:exactMatch		SNOMEDCT:702444009	SNOMEDCT	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001038	Autoimmune lymphoproliferative syndrome	skos:exactMatch		DOID:6688	DOID	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001038	Autoimmune lymphoproliferative syndrome	skos:exactMatch		MONDO:0017979	MONDO	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001038	Autoimmune lymphoproliferative syndrome	skos:exactMatch		MONDO:0011158	MONDO	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001038	Autoimmune lymphoproliferative syndrome	skos:exactMatch		ncit:C37864	ncit	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001038	Autoimmune lymphoproliferative syndrome	skos:exactMatch		icd10cm:D89.82	icd10cm	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001038	Autoimmune lymphoproliferative syndrome	skos:exactMatch		icd10cm:279.41	icd10cm	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001038	Autoimmune lymphoproliferative syndrome	skos:exactMatch		ORPHA:3261	ORPHA	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001039	Autoimmune necrotizing myopathy	skos:exactMatch		SNOMEDCT:715863001	SNOMEDCT	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001039	Autoimmune necrotizing myopathy	skos:exactMatch		omop:37396156	omop	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001038	Autoimmune lymphoproliferative syndrome	skos:exactMatch		omop:45765493	omop	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001038	Autoimmune lymphoproliferative syndrome	skos:exactMatch		umls:C1328840	umls	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001038	Autoimmune lymphoproliferative syndrome	skos:exactMatch		mesh:D056735	mesh	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001039	Autoimmune necrotizing myopathy	skos:exactMatch		umls:C3267047	umls	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001040	Autoimmune neutropenia	skos:exactMatch		SNOMEDCT:234425008	SNOMEDCT	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001040	Autoimmune neutropenia	skos:exactMatch		omop:4125635	omop	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001041	Autoimmune oophoritis	skos:exactMatch		MONDO:0021950	MONDO	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001041	Autoimmune oophoritis	skos:exactMatch		umls:C0878654	umls	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001041	Autoimmune oophoritis	skos:exactMatch		mesh:C538274	mesh	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001044	Autoimmune progesterone dermatitis	skos:exactMatch		SNOMEDCT:838551007	SNOMEDCT	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001044	Autoimmune progesterone dermatitis	skos:exactMatch		omop:3661498	omop	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001044	Autoimmune progesterone dermatitis	skos:exactMatch		MONDO:0021952	MONDO	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001044	Autoimmune progesterone dermatitis	skos:exactMatch		ORPHA:728894	ORPHA	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001044	Autoimmune progesterone dermatitis	skos:exactMatch		umls:C1260879	umls	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001044	Autoimmune progesterone dermatitis	skos:exactMatch		mesh:C535299	mesh	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001045	Autoimmune pulmonary alveolar proteinosis	skos:exactMatch		SNOMEDCT:707443007	SNOMEDCT	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001045	Autoimmune pulmonary alveolar proteinosis	skos:exactMatch		omop:45768909	omop	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001045	Autoimmune pulmonary alveolar proteinosis	skos:exactMatch		MONDO:0012579	MONDO	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001045	Autoimmune pulmonary alveolar proteinosis	skos:exactMatch		ncit:C202011	ncit	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001045	Autoimmune pulmonary alveolar proteinosis	skos:exactMatch		ORPHA:747	ORPHA	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001045	Autoimmune pulmonary alveolar proteinosis	skos:exactMatch		umls:C1970472	umls	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001049	Autoimmune urticaria	skos:exactMatch		MONDO:0025513	MONDO	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001049	Autoimmune urticaria	skos:exactMatch		icd10cm:L50.8	icd10cm	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001049	Autoimmune urticaria	skos:exactMatch		umls:C1304191	umls	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001036	Autoimmune-Inflammatory Syndrome Induced by Adjuvants	skos:exactMatch		umls:C5577685	umls	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001036	Autoimmune-Inflammatory Syndrome Induced by Adjuvants	skos:exactMatch		mesh:D000099146	mesh	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001051	Autoimmune vasculitis	skos:exactMatch		MONDO:0030703	MONDO	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001056	Birdshot chorioretinopathy	skos:exactMatch		MONDO:0011599	MONDO	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001056	Birdshot chorioretinopathy	skos:exactMatch		umls:C1853959	umls	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001056	Birdshot chorioretinopathy	skos:exactMatch		mesh:D000080365	mesh	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001057	Bullous pemphigoid	skos:exactMatch		SNOMEDCT:77090002	SNOMEDCT	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001057	Bullous pemphigoid	skos:exactMatch		omop:4298692	omop	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001057	Bullous pemphigoid	skos:exactMatch		MONDO:0019082	MONDO	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001057	Bullous pemphigoid	skos:exactMatch		ncit:C84389	ncit	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001057	Bullous pemphigoid	skos:exactMatch		icd10cm:L12.0	icd10cm	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001057	Bullous pemphigoid	skos:exactMatch		ORPHA:703	ORPHA	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001057	Bullous pemphigoid	skos:exactMatch		umls:C0030805	umls	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001072	COPA syndrome	skos:exactMatch		SNOMEDCT:1222679006	SNOMEDCT	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001072	COPA syndrome	skos:exactMatch		omop:37163922	omop	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001072	COPA syndrome	skos:exactMatch		MONDO:0014629	MONDO	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001072	COPA syndrome	skos:exactMatch		ORPHA:444092	ORPHA	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001072	COPA syndrome	skos:exactMatch		umls:C5243948	umls	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001212	CREST Syndrome	skos:exactMatch		SNOMEDCT:31848007	SNOMEDCT	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001212	CREST Syndrome	skos:exactMatch		DOID:0060218	DOID	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001212	CREST Syndrome	skos:exactMatch		MONDO:0019563	MONDO	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001212	CREST Syndrome	skos:exactMatch		ncit:C70646	ncit	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001212	CREST Syndrome	skos:exactMatch		icd10cm:M34.1	icd10cm	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001212	CREST Syndrome	skos:exactMatch		ORPHA:90290	ORPHA	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001212	CREST Syndrome	skos:exactMatch		umls:C0206138	umls	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001212	CREST Syndrome	skos:exactMatch		mesh:D017675	mesh	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001075	CTLA4 haploinsufficiency	skos:exactMatch		MONDO:0014493	MONDO	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001075	CTLA4 haploinsufficiency	skos:exactMatch		ncit:C126341	ncit	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001075	CTLA4 haploinsufficiency	skos:exactMatch		umls:C4015214	umls	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001077	Cutaneous mastocytosis	skos:exactMatch		SNOMEDCT:397012002	SNOMEDCT	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001077	Cutaneous mastocytosis	skos:exactMatch		omop:4246283	omop	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001077	Cutaneous mastocytosis	skos:exactMatch		DOID:3663	DOID	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001077	Cutaneous mastocytosis	skos:exactMatch		MONDO:0019023	MONDO	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001077	Cutaneous mastocytosis	skos:exactMatch		ncit:C7137	ncit	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001077	Cutaneous mastocytosis	skos:exactMatch		ORPHA:66646	ORPHA	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001077	Cutaneous mastocytosis	skos:exactMatch		umls:C1136033	umls	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001077	Cutaneous mastocytosis	skos:exactMatch		mesh:D034701	mesh	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001078	Dermatitis herpetiformis	skos:exactMatch		SNOMEDCT:111196000	SNOMEDCT	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001078	Dermatitis herpetiformis	skos:exactMatch		omop:140487	omop	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001078	Dermatitis herpetiformis	skos:exactMatch		DOID:8505	DOID	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001078	Dermatitis herpetiformis	skos:exactMatch		MONDO:0015614	MONDO	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001078	Dermatitis herpetiformis	skos:exactMatch		ncit:C26742	ncit	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001078	Dermatitis herpetiformis	skos:exactMatch		icd10cm:L13.0	icd10cm	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001078	Dermatitis herpetiformis	skos:exactMatch		ORPHA:1656	ORPHA	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001078	Dermatitis herpetiformis	skos:exactMatch		umls:C0011608	umls	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001078	Dermatitis herpetiformis	skos:exactMatch		mesh:D003874	mesh	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001081	Eaton-Lambert syndrome	skos:exactMatch		SNOMEDCT:56989000	SNOMEDCT	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001081	Eaton-Lambert syndrome	skos:exactMatch		omop:4237155	omop	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001081	Eaton-Lambert syndrome	skos:exactMatch		DOID:0050214	DOID	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001081	Eaton-Lambert syndrome	skos:exactMatch		MONDO:0018556	MONDO	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001081	Eaton-Lambert syndrome	skos:exactMatch		umls:C0022972	umls	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001081	Eaton-Lambert syndrome	skos:exactMatch		mesh:D015624	mesh	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001039	Autoimmune necrotizing myopathy	skos:exactMatch	Not	MONDO:0016098	MONDO	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001039	Autoimmune necrotizing myopathy	skos:exactMatch	Not	ORPHA:206569	ORPHA	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001041	Autoimmune oophoritis	skos:exactMatch	Not	SNOMEDCT:721198006	SNOMEDCT	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001041	Autoimmune oophoritis	skos:exactMatch	Not	omop:36717453	omop	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001045	Autoimmune pulmonary alveolar proteinosis	skos:exactMatch	Not	mesh:C567049	mesh	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001036	Autoimmune-Inflammatory Syndrome Induced by Adjuvants	skos:exactMatch	Not	omop:1331726	omop	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001056	Birdshot chorioretinopathy	skos:exactMatch	Not	SNOMEDCT:231981005	SNOMEDCT	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001056	Birdshot chorioretinopathy	skos:exactMatch	Not	omop:4334133	omop	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001056	Birdshot chorioretinopathy	skos:exactMatch	Not	DOID:0111079	DOID	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001056	Birdshot chorioretinopathy	skos:exactMatch	Not	ORPHA:179	ORPHA	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001057	Bullous pemphigoid	skos:exactMatch	Not	omop:139899	omop	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001057	Bullous pemphigoid	skos:exactMatch	Not	DOID:8506	DOID	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001057	Bullous pemphigoid	skos:exactMatch	Not	mesh:D010391	mesh	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001212	CREST Syndrome	skos:exactMatch	Not	omop:3469412	omop	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001075	CTLA4 haploinsufficiency	skos:exactMatch	Not	ORPHA:436159	ORPHA	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001077	Cutaneous mastocytosis	skos:exactMatch	Not	icd10cm:D47.01	icd10cm	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001081	Eaton-Lambert syndrome	skos:exactMatch	Not	ncit:C3155	ncit	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001081	Eaton-Lambert syndrome	skos:exactMatch	Not	icd10cm:G70.80	icd10cm	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001081	Eaton-Lambert syndrome	skos:exactMatch	Not	ORPHA:43393	ORPHA	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001039	Autoimmune necrotizing myopathy	skos:exactMatch		sssom:NoTermFound	ncit	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001039	Autoimmune necrotizing myopathy	skos:exactMatch		sssom:NoTermFound	DOID	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001039	Autoimmune necrotizing myopathy	skos:exactMatch		sssom:NoTermFound	mesh	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001039	Autoimmune necrotizing myopathy	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001040	Autoimmune neutropenia	skos:exactMatch		sssom:NoTermFound	DOID	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001040	Autoimmune neutropenia	skos:exactMatch		sssom:NoTermFound	MONDO	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001040	Autoimmune neutropenia	skos:exactMatch		sssom:NoTermFound	ncit	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001040	Autoimmune neutropenia	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001040	Autoimmune neutropenia	skos:exactMatch		sssom:NoTermFound	ORPHA	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001040	Autoimmune neutropenia	skos:exactMatch		sssom:NoTermFound	umls	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001040	Autoimmune neutropenia	skos:exactMatch		sssom:NoTermFound	mesh	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001041	Autoimmune oophoritis	skos:exactMatch		sssom:NoTermFound	DOID	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001041	Autoimmune oophoritis	skos:exactMatch		sssom:NoTermFound	ncit	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001041	Autoimmune oophoritis	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001041	Autoimmune oophoritis	skos:exactMatch		sssom:NoTermFound	ORPHA	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001044	Autoimmune progesterone dermatitis	skos:exactMatch		sssom:NoTermFound	ncit	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001044	Autoimmune progesterone dermatitis	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001044	Autoimmune progesterone dermatitis	skos:exactMatch		sssom:NoTermFound	DOID	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001046	Autoimmune retinal vasculitis	skos:exactMatch		sssom:NoTermFound	SNOMEDCT	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001046	Autoimmune retinal vasculitis	skos:exactMatch		sssom:NoTermFound	omop	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001046	Autoimmune retinal vasculitis	skos:exactMatch		sssom:NoTermFound	DOID	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001046	Autoimmune retinal vasculitis	skos:exactMatch		sssom:NoTermFound	MONDO	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001046	Autoimmune retinal vasculitis	skos:exactMatch		sssom:NoTermFound	ncit	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001046	Autoimmune retinal vasculitis	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001046	Autoimmune retinal vasculitis	skos:exactMatch		sssom:NoTermFound	ORPHA	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001046	Autoimmune retinal vasculitis	skos:exactMatch		sssom:NoTermFound	umls	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001046	Autoimmune retinal vasculitis	skos:exactMatch		sssom:NoTermFound	mesh	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001049	Autoimmune urticaria	skos:exactMatch		sssom:NoTermFound	DOID	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001049	Autoimmune urticaria	skos:exactMatch		sssom:NoTermFound	ncit	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001049	Autoimmune urticaria	skos:exactMatch		sssom:NoTermFound	ORPHA	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001049	Autoimmune urticaria	skos:exactMatch		sssom:NoTermFound	mesh	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001050	Autoimmune urticaria and/or angioedema	skos:exactMatch		sssom:NoTermFound	DOID	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001050	Autoimmune urticaria and/or angioedema	skos:exactMatch		sssom:NoTermFound	MONDO	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001050	Autoimmune urticaria and/or angioedema	skos:exactMatch		sssom:NoTermFound	ncit	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001050	Autoimmune urticaria and/or angioedema	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001050	Autoimmune urticaria and/or angioedema	skos:exactMatch		sssom:NoTermFound	ORPHA	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001050	Autoimmune urticaria and/or angioedema	skos:exactMatch		sssom:NoTermFound	umls	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001050	Autoimmune urticaria and/or angioedema	skos:exactMatch		sssom:NoTermFound	mesh	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001036	Autoimmune-Inflammatory Syndrome Induced by Adjuvants	skos:exactMatch		sssom:NoTermFound	ncit	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001036	Autoimmune-Inflammatory Syndrome Induced by Adjuvants	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001036	Autoimmune-Inflammatory Syndrome Induced by Adjuvants	skos:exactMatch		sssom:NoTermFound	ORPHA	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001036	Autoimmune-Inflammatory Syndrome Induced by Adjuvants	skos:exactMatch		sssom:NoTermFound	DOID	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001036	Autoimmune-Inflammatory Syndrome Induced by Adjuvants	skos:exactMatch		sssom:NoTermFound	MONDO	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001045	Autoimmune pulmonary alveolar proteinosis	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001045	Autoimmune pulmonary alveolar proteinosis	skos:exactMatch		sssom:NoTermFound	DOID	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001051	Autoimmune vasculitis	skos:exactMatch		sssom:NoTermFound	ORPHA	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001051	Autoimmune vasculitis	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001051	Autoimmune vasculitis	skos:exactMatch		sssom:NoTermFound	ncit	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001051	Autoimmune vasculitis	skos:exactMatch		sssom:NoTermFound	mesh	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001036	Autoimmune-Inflammatory Syndrome Induced by Adjuvants	skos:exactMatch		sssom:NoTermFound	SNOMEDCT	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001056	Birdshot chorioretinopathy	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001056	Birdshot chorioretinopathy	skos:exactMatch		sssom:NoTermFound	ncit	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001072	COPA syndrome	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001072	COPA syndrome	skos:exactMatch		sssom:NoTermFound	ncit	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001072	COPA syndrome	skos:exactMatch		sssom:NoTermFound	mesh	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001075	CTLA4 haploinsufficiency	skos:exactMatch		sssom:NoTermFound	SNOMEDCT	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001075	CTLA4 haploinsufficiency	skos:exactMatch		sssom:NoTermFound	omop	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001075	CTLA4 haploinsufficiency	skos:exactMatch		sssom:NoTermFound	DOID	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001075	CTLA4 haploinsufficiency	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001075	CTLA4 haploinsufficiency	skos:exactMatch		sssom:NoTermFound	mesh	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001082	Encephalitis caused by anti-gamma-aminobutyric acid-A receptor antibody	skos:exactMatch		sssom:NoTermFound	SNOMEDCT	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001082	Encephalitis caused by anti-gamma-aminobutyric acid-A receptor antibody	skos:exactMatch		sssom:NoTermFound	umls	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001082	Encephalitis caused by anti-gamma-aminobutyric acid-A receptor antibody	skos:exactMatch		sssom:NoTermFound	mesh	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001082	Encephalitis caused by anti-gamma-aminobutyric acid-A receptor antibody	skos:exactMatch		sssom:NoTermFound	omop	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001082	Encephalitis caused by anti-gamma-aminobutyric acid-A receptor antibody	skos:exactMatch		sssom:NoTermFound	DOID	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001082	Encephalitis caused by anti-gamma-aminobutyric acid-A receptor antibody	skos:exactMatch		sssom:NoTermFound	MONDO	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001082	Encephalitis caused by anti-gamma-aminobutyric acid-A receptor antibody	skos:exactMatch		sssom:NoTermFound	ncit	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001082	Encephalitis caused by anti-gamma-aminobutyric acid-A receptor antibody	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001082	Encephalitis caused by anti-gamma-aminobutyric acid-A receptor antibody	skos:exactMatch		sssom:NoTermFound	ORPHA	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001083	Encephalopathy caused by anti-IgLON5 antibody	skos:exactMatch		sssom:NoTermFound	SNOMEDCT	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001083	Encephalopathy caused by anti-IgLON5 antibody	skos:exactMatch		sssom:NoTermFound	umls	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001083	Encephalopathy caused by anti-IgLON5 antibody	skos:exactMatch		sssom:NoTermFound	mesh	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001083	Encephalopathy caused by anti-IgLON5 antibody	skos:exactMatch		sssom:NoTermFound	DOID	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001083	Encephalopathy caused by anti-IgLON5 antibody	skos:exactMatch		sssom:NoTermFound	MONDO	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001083	Encephalopathy caused by anti-IgLON5 antibody	skos:exactMatch		sssom:NoTermFound	ncit	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001083	Encephalopathy caused by anti-IgLON5 antibody	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001083	Encephalopathy caused by anti-IgLON5 antibody	skos:exactMatch		sssom:NoTermFound	ORPHA	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001083	Encephalopathy caused by anti-IgLON5 antibody	skos:exactMatch		sssom:NoTermFound	omop	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001092	Fasciitis with eosinophilia syndrome	skos:exactMatch		sssom:NoTermFound	DOID	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001093	Felty syndrome	skos:exactMatch		sssom:NoTermFound	umls	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
+ARI:0001093	Felty syndrome	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:JoshuaCorona-Sa	2026-09-25T04:20:09+00:00	
