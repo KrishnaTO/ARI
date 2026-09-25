@@ -844,6 +844,8 @@ ARI	0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	umls	C29
 ARI	0001017	Antineutrophil cytoplasmic antibody positive vasculitis	skos:exactMatch	SNOMEDCT	195353004	manual-negative	github:alexlazcano248
 ARI	0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	DOID	9744	manual-negative	github:alexlazcano248
 ARI	0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	MONDO	0011027	manual-negative	github:alexlazcano248
+ARI	0001018	Antiphospholipid syndrome	skos:exactMatch	ORPHA	80	manual	github:maffersi
+ARI	0001018	Antiphospholipid syndrome	skos:exactMatch	MONDO	8000010	manual	github:maffersi
 ARI	0001018	Antiphospholipid syndrome	skos:exactMatch	SNOMEDCT	26843008	manual	github:maffersi
 ARI	0001018	Antiphospholipid syndrome	skos:exactMatch	omop	4098292	manual	github:maffersi
 ARI	0001018	Antiphospholipid syndrome	skos:exactMatch	DOID	2988	manual	github:maffersi
