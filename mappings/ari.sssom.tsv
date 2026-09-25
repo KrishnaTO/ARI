@@ -171,10 +171,10 @@ ARI:0001014	Anti-glomerular basement membrane disease	skos:exactMatch	Not	omop:1
 ARI:0001014	Anti-glomerular basement membrane disease	skos:exactMatch	Not	icd10cm:M31.0	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-10T00:00:00+00:00	
 ARI:0001208	Uveitis	skos:exactMatch		SNOMEDCT:128473001	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-07T00:00:00+00:00	
 ARI:0001208	Uveitis	skos:exactMatch		omop:4028363	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-07T00:00:00+00:00	
-ARI:0001208	Uveitis	skos:exactMatch		DOID:0040088	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-07T00:00:00+00:00	
+ARI:0001208	Uveitis	skos:exactMatch		DOID:0040088	DOID	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
 ARI:0001199	Systemic sclerosis with limited cutaneous involvement	skos:exactMatch		SNOMEDCT:298285004	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-07T00:00:00+00:00	
 ARI:0001199	Systemic sclerosis with limited cutaneous involvement	skos:exactMatch		omop:4185187	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-07T00:00:00+00:00	
-ARI:0001199	Systemic sclerosis with limited cutaneous involvement	skos:exactMatch		icd10cm:M34.1	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-07T00:00:00+00:00	
+ARI:0001199	Systemic sclerosis with limited cutaneous involvement	skos:exactMatch		icd10cm:M34.1	icd10cm	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
 ARI:0001208	Uveitis	skos:exactMatch	Not	SNOMEDCT:231947004	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-07T00:00:00+00:00	
 ARI:0001208	Uveitis	skos:exactMatch	Not	omop:4335981	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-07T00:00:00+00:00	
 ARI:0001199	Systemic sclerosis with limited cutaneous involvement	skos:exactMatch	Not	SNOMEDCT:128461001	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-07T00:00:00+00:00	
@@ -188,12 +188,12 @@ ARI:0001199	Systemic sclerosis with limited cutaneous involvement	skos:exactMatc
 ARI:0001047	Autoimmune retinopathy	skos:exactMatch		SNOMEDCT:724809006	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11T00:00:00+00:00	
 ARI:0001047	Autoimmune retinopathy	skos:exactMatch		omop:37110540	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11T00:00:00+00:00	
 ARI:0001048	Autoimmune thyroiditis	skos:exactMatch		SNOMEDCT:66944004	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11T00:00:00+00:00	
-ARI:0001048	Autoimmune thyroiditis	skos:exactMatch		omop:4281109	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11T00:00:00+00:00	
-ARI:0001048	Autoimmune thyroiditis	skos:exactMatch		DOID:7188	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11T00:00:00+00:00	
+ARI:0001048	Autoimmune thyroiditis	skos:exactMatch		omop:4281109	omop	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001048	Autoimmune thyroiditis	skos:exactMatch		DOID:7188	DOID	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
 ARI:0001048	Autoimmune thyroiditis	skos:exactMatch		ncit:C38766	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11T00:00:00+00:00	
 ARI:0001048	Autoimmune thyroiditis	skos:exactMatch		icd10cm:E06.3	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11T00:00:00+00:00	
 ARI:0001048	Autoimmune thyroiditis	skos:exactMatch		umls:C0920350	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11T00:00:00+00:00	
-ARI:0001048	Autoimmune thyroiditis	skos:exactMatch		mesh:D013967	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11T00:00:00+00:00	
+ARI:0001048	Autoimmune thyroiditis	skos:exactMatch		mesh:D013967	mesh	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
 ARI:0001049	Autoimmune urticaria	skos:exactMatch		SNOMEDCT:402397006	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11T00:00:00+00:00	
 ARI:0001049	Autoimmune urticaria	skos:exactMatch		omop:4224623	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11T00:00:00+00:00	
 ARI:0001050	Autoimmune urticaria and/or angioedema	skos:exactMatch		SNOMEDCT:402402005	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11T00:00:00+00:00	
@@ -205,7 +205,7 @@ ARI:0001051	Autoimmune vasculitis	skos:exactMatch		umls:C1328843	umls	semapv:Man
 ARI:0001036	Autoimmune-Inflammatory Syndrome Induced by Adjuvants	skos:exactMatch		omop:1331726	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11T00:00:00+00:00	
 ARI:0001052	Balo concentric sclerosis	skos:exactMatch		SNOMEDCT:230380005	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11T00:00:00+00:00	
 ARI:0001052	Balo concentric sclerosis	skos:exactMatch		omop:4046110	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11T00:00:00+00:00	
-ARI:0001052	Balo concentric sclerosis	skos:exactMatch		DOID:0060215	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11T00:00:00+00:00	
+ARI:0001052	Balo concentric sclerosis	skos:exactMatch		DOID:0060215	DOID	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
 ARI:0001052	Balo concentric sclerosis	skos:exactMatch		mesh:D002549	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11T00:00:00+00:00	
 ARI:0001048	Autoimmune thyroiditis	skos:exactMatch	Not	SNOMEDCT:21983002	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11T00:00:00+00:00	
 ARI:0001048	Autoimmune thyroiditis	skos:exactMatch	Not	omop:4130018	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11T00:00:00+00:00	
@@ -222,11 +222,11 @@ ARI:0001053	Behçet's syndrome	skos:exactMatch		umls:C0004943	umls	semapv:Manual
 ARI:0001053	Behçet's syndrome	skos:exactMatch		mesh:D001528	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11T00:00:00+00:00	
 ARI:0001054	Benign mucous membrane pemphigoid	skos:exactMatch		SNOMEDCT:34250006	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11T00:00:00+00:00	
 ARI:0001054	Benign mucous membrane pemphigoid	skos:exactMatch		omop:4142060	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11T00:00:00+00:00	
-ARI:0001054	Benign mucous membrane pemphigoid	skos:exactMatch		DOID:11656	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11T00:00:00+00:00	
-ARI:0001054	Benign mucous membrane pemphigoid	skos:exactMatch		ncit:C34907	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11T00:00:00+00:00	
+ARI:0001054	Benign mucous membrane pemphigoid	skos:exactMatch		DOID:11656	DOID	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001054	Benign mucous membrane pemphigoid	skos:exactMatch		ncit:C34907	ncit	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
 ARI:0001054	Benign mucous membrane pemphigoid	skos:exactMatch		icd10cm:L12.1	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11T00:00:00+00:00	
 ARI:0001054	Benign mucous membrane pemphigoid	skos:exactMatch		umls:C0030804	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11T00:00:00+00:00	
-ARI:0001054	Benign mucous membrane pemphigoid	skos:exactMatch		mesh:D010390	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11T00:00:00+00:00	
+ARI:0001054	Benign mucous membrane pemphigoid	skos:exactMatch		mesh:D010390	mesh	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
 ARI:0001055	Bickerstaff's brainstem encephalitis	skos:exactMatch		SNOMEDCT:427086003	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11T00:00:00+00:00	
 ARI:0001055	Bickerstaff's brainstem encephalitis	skos:exactMatch		omop:4141686	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11T00:00:00+00:00	
 ARI:0001053	Behçet's syndrome	skos:exactMatch	Not	SNOMEDCT:721226005	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11T00:00:00+00:00	
@@ -865,3 +865,203 @@ ARI:0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	Not	umls
 ARI:0001017	Antineutrophil cytoplasmic antibody positive vasculitis	skos:exactMatch	Not	SNOMEDCT:195353004	SNOMEDCT	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
 ARI:0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	Not	DOID:9744	DOID	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
 ARI:0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	Not	MONDO:0011027	MONDO	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001031	Autoimmune gastritis	skos:exactMatch		SNOMEDCT:84568007	SNOMEDCT	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001031	Autoimmune gastritis	skos:exactMatch		omop:192667	omop	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001031	Autoimmune gastritis	skos:exactMatch		DOID:0040090	DOID	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001031	Autoimmune gastritis	skos:exactMatch		MONDO:0031014	MONDO	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001031	Autoimmune gastritis	skos:exactMatch		ncit:C95752	ncit	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001031	Autoimmune gastritis	skos:exactMatch		mesh:D005757	mesh	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001032	Autoimmune hemolytic anemia	skos:exactMatch		SNOMEDCT:413603009	SNOMEDCT	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001032	Autoimmune hemolytic anemia	skos:exactMatch		omop:441269	omop	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001032	Autoimmune hemolytic anemia	skos:exactMatch		DOID:718	DOID	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001032	Autoimmune hemolytic anemia	skos:exactMatch		MONDO:0020108	MONDO	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001032	Autoimmune hemolytic anemia	skos:exactMatch		ncit:C34378	ncit	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001032	Autoimmune hemolytic anemia	skos:exactMatch		ORPHA:98375	ORPHA	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001032	Autoimmune hemolytic anemia	skos:exactMatch		mesh:D000744	mesh	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001033	Autoimmune hepatitis	skos:exactMatch		SNOMEDCT:408335007	SNOMEDCT	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001033	Autoimmune hepatitis	skos:exactMatch		omop:200762	omop	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001033	Autoimmune hepatitis	skos:exactMatch		DOID:2048	DOID	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001033	Autoimmune hepatitis	skos:exactMatch		MONDO:0016264	MONDO	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001033	Autoimmune hepatitis	skos:exactMatch		icd10cm:K75.4	icd10cm	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001033	Autoimmune hepatitis	skos:exactMatch		icd10cm:571.42	icd10cm	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001033	Autoimmune hepatitis	skos:exactMatch		ORPHA:2137	ORPHA	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001033	Autoimmune hepatitis	skos:exactMatch		mesh:D019693	mesh	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001048	Autoimmune thyroiditis	skos:exactMatch		MONDO:0005623	MONDO	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001048	Autoimmune thyroiditis	skos:exactMatch		MONDO:0007699	MONDO	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001048	Autoimmune thyroiditis	skos:exactMatch		ORPHA:855	ORPHA	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001052	Balo concentric sclerosis	skos:exactMatch		MONDO:0016430	MONDO	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001052	Balo concentric sclerosis	skos:exactMatch		ncit:C197875	ncit	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001052	Balo concentric sclerosis	skos:exactMatch		icd10cm:G37.5	icd10cm	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001052	Balo concentric sclerosis	skos:exactMatch		ORPHA:228165	ORPHA	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001053	Behçet's syndrome	skos:exactMatch		MONDO:0007191	MONDO	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001053	Behçet's syndrome	skos:exactMatch		ORPHA:117	ORPHA	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001054	Benign mucous membrane pemphigoid	skos:exactMatch		MONDO:0018746	MONDO	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001054	Benign mucous membrane pemphigoid	skos:exactMatch		ORPHA:46486	ORPHA	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001091	Evans syndrome	skos:exactMatch		SNOMEDCT:75331009	SNOMEDCT	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001091	Evans syndrome	skos:exactMatch		omop:436956	omop	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001091	Evans syndrome	skos:exactMatch		DOID:8931	DOID	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001091	Evans syndrome	skos:exactMatch		MONDO:0016030	MONDO	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001091	Evans syndrome	skos:exactMatch		ncit:C61284	ncit	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001091	Evans syndrome	skos:exactMatch		icd10cm:D69.41	icd10cm	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001091	Evans syndrome	skos:exactMatch		ORPHA:1959	ORPHA	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001091	Evans syndrome	skos:exactMatch		mesh:C536380	mesh	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001118	Lichen planus	skos:exactMatch		SNOMEDCT:4776004	SNOMEDCT	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001118	Lichen planus	skos:exactMatch		omop:132703	omop	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001118	Lichen planus	skos:exactMatch		DOID:9201	DOID	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001118	Lichen planus	skos:exactMatch		MONDO:0006572	MONDO	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001118	Lichen planus	skos:exactMatch		ncit:C3189	ncit	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001118	Lichen planus	skos:exactMatch		icd10cm:L43	icd10cm	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001118	Lichen planus	skos:exactMatch		icd10cm:697.0	icd10cm	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001118	Lichen planus	skos:exactMatch		mesh:D008010	mesh	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001119	Lichen sclerosus	skos:exactMatch		SNOMEDCT:895454001	SNOMEDCT	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001119	Lichen sclerosus	skos:exactMatch		omop:619430	omop	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001119	Lichen sclerosus	skos:exactMatch		DOID:13477	DOID	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001119	Lichen sclerosus	skos:exactMatch		MONDO:0001725	MONDO	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001119	Lichen sclerosus	skos:exactMatch		MONDO:0007899	MONDO	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001119	Lichen sclerosus	skos:exactMatch		ncit:C3523	ncit	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001119	Lichen sclerosus	skos:exactMatch		ORPHA:33409	ORPHA	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001119	Lichen sclerosus	skos:exactMatch		mesh:D018459	mesh	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001119	Lichen sclerosus	skos:exactMatch		mesh:D052798	mesh	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001125	Lipomatosis dolorosa	skos:exactMatch		SNOMEDCT:71404003	SNOMEDCT	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001125	Lipomatosis dolorosa	skos:exactMatch		omop:4324974	omop	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001125	Lipomatosis dolorosa	skos:exactMatch		DOID:3928	DOID	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001125	Lipomatosis dolorosa	skos:exactMatch		MONDO:0007070	MONDO	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001125	Lipomatosis dolorosa	skos:exactMatch		ncit:C84540	ncit	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001125	Lipomatosis dolorosa	skos:exactMatch		ORPHA:36397	ORPHA	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001125	Lipomatosis dolorosa	skos:exactMatch		mesh:D000274	mesh	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001031	Autoimmune gastritis	skos:exactMatch		umls:C3887639	umls	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001032	Autoimmune hemolytic anemia	skos:exactMatch		umls:C0002880	umls	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001052	Balo concentric sclerosis	skos:exactMatch		umls:C0004712	umls	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001091	Evans syndrome	skos:exactMatch		umls:C0272126	umls	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001118	Lichen planus	skos:exactMatch		umls:C0023646	umls	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001119	Lichen sclerosus	skos:exactMatch		umls:C0152460	umls	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001125	Lipomatosis dolorosa	skos:exactMatch		umls:C0001529	umls	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001128	Microscopic colitis	skos:exactMatch		SNOMEDCT:235753003	SNOMEDCT	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001128	Microscopic colitis	skos:exactMatch		omop:4340799	omop	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001128	Microscopic colitis	skos:exactMatch		DOID:0060182	DOID	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001128	Microscopic colitis	skos:exactMatch		MONDO:0000702	MONDO	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001128	Microscopic colitis	skos:exactMatch		ncit:C38504	ncit	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001128	Microscopic colitis	skos:exactMatch		icd10cm:K52.83	icd10cm	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001128	Microscopic colitis	skos:exactMatch		umls:C0400821	umls	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001128	Microscopic colitis	skos:exactMatch		mesh:D046728	mesh	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001130	Mixed collagen vascular disease	skos:exactMatch		SNOMEDCT:398049005	SNOMEDCT	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001130	Mixed collagen vascular disease	skos:exactMatch		omop:4134867	omop	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001130	Mixed collagen vascular disease	skos:exactMatch		DOID:3492	DOID	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001130	Mixed collagen vascular disease	skos:exactMatch		MONDO:0005854	MONDO	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001130	Mixed collagen vascular disease	skos:exactMatch		ncit:C84892	ncit	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001130	Mixed collagen vascular disease	skos:exactMatch		icd10cm:M35.1	icd10cm	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001130	Mixed collagen vascular disease	skos:exactMatch		ORPHA:809	ORPHA	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001130	Mixed collagen vascular disease	skos:exactMatch		umls:C0026272	umls	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001130	Mixed collagen vascular disease	skos:exactMatch		mesh:D008947	mesh	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001161	Polymyalgia rheumatica	skos:exactMatch		SNOMEDCT:65323003	SNOMEDCT	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001161	Polymyalgia rheumatica	skos:exactMatch		omop:255348	omop	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001161	Polymyalgia rheumatica	skos:exactMatch		DOID:853	DOID	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001161	Polymyalgia rheumatica	skos:exactMatch		MONDO:0019735	MONDO	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001161	Polymyalgia rheumatica	skos:exactMatch		ncit:C85018	ncit	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001161	Polymyalgia rheumatica	skos:exactMatch		icd10cm:M35.3	icd10cm	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001161	Polymyalgia rheumatica	skos:exactMatch		icd10cm:725	icd10cm	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001161	Polymyalgia rheumatica	skos:exactMatch		ORPHA:93569	ORPHA	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001161	Polymyalgia rheumatica	skos:exactMatch		umls:C0032533	umls	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001161	Polymyalgia rheumatica	skos:exactMatch		mesh:D011111	mesh	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001178	Relapsing polychondritis	skos:exactMatch		SNOMEDCT:72275000	SNOMEDCT	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001178	Relapsing polychondritis	skos:exactMatch		omop:4216873	omop	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001178	Relapsing polychondritis	skos:exactMatch		DOID:2556	DOID	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001178	Relapsing polychondritis	skos:exactMatch		MONDO:0019125	MONDO	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001178	Relapsing polychondritis	skos:exactMatch		ncit:C157268	ncit	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001178	Relapsing polychondritis	skos:exactMatch		icd10cm:M94.1	icd10cm	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001178	Relapsing polychondritis	skos:exactMatch		ORPHA:728	ORPHA	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001178	Relapsing polychondritis	skos:exactMatch		umls:C0032453	umls	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001178	Relapsing polychondritis	skos:exactMatch		mesh:D011081	mesh	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001197	Systemic mast cell disease	skos:exactMatch		SNOMEDCT:397016004	SNOMEDCT	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001197	Systemic mast cell disease	skos:exactMatch		omop:4246284	omop	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001197	Systemic mast cell disease	skos:exactMatch		DOID:349	DOID	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001197	Systemic mast cell disease	skos:exactMatch		MONDO:0016586	MONDO	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001197	Systemic mast cell disease	skos:exactMatch		ncit:C9235	ncit	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001197	Systemic mast cell disease	skos:exactMatch		icd10cm:D47.02	icd10cm	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001197	Systemic mast cell disease	skos:exactMatch		ORPHA:2467	ORPHA	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001197	Systemic mast cell disease	skos:exactMatch		umls:C0221013	umls	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001197	Systemic mast cell disease	skos:exactMatch		mesh:D034721	mesh	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001199	Systemic sclerosis with limited cutaneous involvement	skos:exactMatch		DOID:1577	DOID	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001199	Systemic sclerosis with limited cutaneous involvement	skos:exactMatch		MONDO:0016358	MONDO	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001199	Systemic sclerosis with limited cutaneous involvement	skos:exactMatch		ORPHA:220402	ORPHA	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001199	Systemic sclerosis with limited cutaneous involvement	skos:exactMatch		umls:C5574860	umls	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001199	Systemic sclerosis with limited cutaneous involvement	skos:exactMatch		mesh:D045745	mesh	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001205	Ulcerative colitis	skos:exactMatch		SNOMEDCT:64766004	SNOMEDCT	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001205	Ulcerative colitis	skos:exactMatch		omop:81893	omop	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001205	Ulcerative colitis	skos:exactMatch		DOID:8577	DOID	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001205	Ulcerative colitis	skos:exactMatch		MONDO:0005101	MONDO	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001205	Ulcerative colitis	skos:exactMatch		ncit:C2952	ncit	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001205	Ulcerative colitis	skos:exactMatch		icd10cm:K51	icd10cm	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001205	Ulcerative colitis	skos:exactMatch		ORPHA:771	ORPHA	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001205	Ulcerative colitis	skos:exactMatch		umls:C0009324	umls	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001205	Ulcerative colitis	skos:exactMatch		mesh:D003093	mesh	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001208	Uveitis	skos:exactMatch		ncit:C26909	ncit	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001208	Uveitis	skos:exactMatch		icd10cm:H20.9	icd10cm	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001208	Uveitis	skos:exactMatch		ORPHA:98715	ORPHA	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001208	Uveitis	skos:exactMatch		umls:C0042164	umls	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001208	Uveitis	skos:exactMatch		mesh:D014605	mesh	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001210	Vogt-Koyanagi-Harada disease	skos:exactMatch		SNOMEDCT:193497004	SNOMEDCT	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001210	Vogt-Koyanagi-Harada disease	skos:exactMatch		omop:4108968	omop	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001210	Vogt-Koyanagi-Harada disease	skos:exactMatch		DOID:12297	DOID	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001210	Vogt-Koyanagi-Harada disease	skos:exactMatch		MONDO:0018092	MONDO	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001210	Vogt-Koyanagi-Harada disease	skos:exactMatch		ORPHA:3437	ORPHA	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001210	Vogt-Koyanagi-Harada disease	skos:exactMatch		mesh:D014607	mesh	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001210	Vogt-Koyanagi-Harada disease	skos:exactMatch		icd10cm:H20.82	icd10cm	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001119	Lichen sclerosus	skos:exactMatch		icd10cm:607.81	icd10cm	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001208	Uveitis	skos:exactMatch		MONDO:0020283	MONDO	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001031	Autoimmune gastritis	skos:exactMatch	Not	SNOMEDCT:84027009	SNOMEDCT	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001031	Autoimmune gastritis	skos:exactMatch	Not	SNOMEDCT:235728001	SNOMEDCT	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001031	Autoimmune gastritis	skos:exactMatch	Not	omop:4341626	omop	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001031	Autoimmune gastritis	skos:exactMatch	Not	omop:432295	omop	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001031	Autoimmune gastritis	skos:exactMatch	Not	MONDO:0006665	MONDO	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001031	Autoimmune gastritis	skos:exactMatch	Not	MONDO:0008228	MONDO	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001031	Autoimmune gastritis	skos:exactMatch	Not	MONDO:0019787	MONDO	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001031	Autoimmune gastritis	skos:exactMatch	Not	ncit:C2871	ncit	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001031	Autoimmune gastritis	skos:exactMatch	Not	ncit:C7405	ncit	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001031	Autoimmune gastritis	skos:exactMatch	Not	ncit:C94694	ncit	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001031	Autoimmune gastritis	skos:exactMatch	Not	icd10cm:D51.0	icd10cm	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001031	Autoimmune gastritis	skos:exactMatch	Not	icd10cm:K29.4	icd10cm	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001031	Autoimmune gastritis	skos:exactMatch	Not	ORPHA:120	ORPHA	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001031	Autoimmune gastritis	skos:exactMatch	Not	ORPHA:94075	ORPHA	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001031	Autoimmune gastritis	skos:exactMatch	Not	mesh:C538273	mesh	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001031	Autoimmune gastritis	skos:exactMatch	Not	mesh:D000752	mesh	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001032	Autoimmune hemolytic anemia	skos:exactMatch	Not	SNOMEDCT:718716008	SNOMEDCT	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001032	Autoimmune hemolytic anemia	skos:exactMatch	Not	MONDO:0019534	MONDO	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001032	Autoimmune hemolytic anemia	skos:exactMatch	Not	ORPHA:90036	ORPHA	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001033	Autoimmune hepatitis	skos:exactMatch	Not	SNOMEDCT:16098491000119109	SNOMEDCT	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001033	Autoimmune hepatitis	skos:exactMatch	Not	SNOMEDCT:721711009	SNOMEDCT	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001033	Autoimmune hepatitis	skos:exactMatch	Not	SNOMEDCT:721713007	SNOMEDCT	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001033	Autoimmune hepatitis	skos:exactMatch	Not	SNOMEDCT:721712002	SNOMEDCT	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001033	Autoimmune hepatitis	skos:exactMatch	Not	omop:36715923	omop	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001033	Autoimmune hepatitis	skos:exactMatch	Not	omop:36717496	omop	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001033	Autoimmune hepatitis	skos:exactMatch	Not	omop:36715924	omop	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001033	Autoimmune hepatitis	skos:exactMatch	Not	omop:36687200	omop	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001033	Autoimmune hepatitis	skos:exactMatch	Not	MONDO:0005543	MONDO	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001033	Autoimmune hepatitis	skos:exactMatch	Not	MONDO:0021176	MONDO	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001033	Autoimmune hepatitis	skos:exactMatch	Not	MONDO:0021177	MONDO	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001033	Autoimmune hepatitis	skos:exactMatch	Not	ORPHA:563576	ORPHA	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001033	Autoimmune hepatitis	skos:exactMatch	Not	ORPHA:563581	ORPHA	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001054	Benign mucous membrane pemphigoid	skos:exactMatch	Not	ORPHA:99922	ORPHA	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001119	Lichen sclerosus	skos:exactMatch	Not	SNOMEDCT:25674000	SNOMEDCT	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001119	Lichen sclerosus	skos:exactMatch	Not	omop:4119189	omop	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001119	Lichen sclerosus	skos:exactMatch	Not	icd10cm:L90.0	icd10cm	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001125	Lipomatosis dolorosa	skos:exactMatch	Not	icd10cm:E88.2	icd10cm	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001031	Autoimmune gastritis	skos:exactMatch	Not	umls:C0002892	umls	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001031	Autoimmune gastritis	skos:exactMatch	Not	umls:C0017154	umls	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001031	Autoimmune gastritis	skos:exactMatch	Not	umls:C0341305	umls	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001033	Autoimmune hepatitis	skos:exactMatch	Not	umls:C0241910	umls	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001033	Autoimmune hepatitis	skos:exactMatch	Not	umls:C1332355	umls	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001205	Ulcerative colitis	skos:exactMatch	Not	umls:C0375359	umls	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001208	Uveitis	skos:exactMatch	Not	MONDO:0000554	MONDO	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001210	Vogt-Koyanagi-Harada disease	skos:exactMatch	Not	ncit:C85218	ncit	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001210	Vogt-Koyanagi-Harada disease	skos:exactMatch	Not	umls:C0042170	umls	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001032	Autoimmune hemolytic anemia	skos:exactMatch	Not	omop:36713763	omop	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001205	Ulcerative colitis	skos:exactMatch	Not	icd10cm:556.5	icd10cm	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001205	Ulcerative colitis	skos:exactMatch	Not	icd10cm:556	icd10cm	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001210	Vogt-Koyanagi-Harada disease	skos:exactMatch	Not	icd10cm:364.24	icd10cm	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+		skos:exactMatch	Not	ncit:C27778	ncit	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+		skos:exactMatch	Not	ncit:C38766	ncit	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001032	Autoimmune hemolytic anemia	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001118	Lichen planus	skos:exactMatch		sssom:NoTermFound	ORPHA	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001199	Systemic sclerosis with limited cutaneous involvement	skos:exactMatch		sssom:NoTermFound	ncit	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
+ARI:0001128	Microscopic colitis	skos:exactMatch		sssom:NoTermFound	ORPHA	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
