@@ -844,3 +844,198 @@ ARI	0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	umls	C29
 ARI	0001017	Antineutrophil cytoplasmic antibody positive vasculitis	skos:exactMatch	SNOMEDCT	195353004	manual-negative	github:alexlazcano248
 ARI	0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	DOID	9744	manual-negative	github:alexlazcano248
 ARI	0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	MONDO	0011027	manual-negative	github:alexlazcano248
+ARI	0001086	Eosinophilic esophagitis	skos:exactMatch	SNOMEDCT	235599003	manual	github:dileryfuentes
+ARI	0001086	Eosinophilic esophagitis	skos:exactMatch	DOID	13922	manual	github:dileryfuentes
+ARI	0001086	Eosinophilic esophagitis	skos:exactMatch	omop	27918	manual	github:dileryfuentes
+ARI	0001086	Eosinophilic esophagitis	skos:exactMatch	MONDO	0005361	manual	github:dileryfuentes
+ARI	0001086	Eosinophilic esophagitis	skos:exactMatch	ncit	C27105	manual	github:dileryfuentes
+ARI	0001086	Eosinophilic esophagitis	skos:exactMatch	icd10cm	K20.0	manual	github:dileryfuentes
+ARI	0001086	Eosinophilic esophagitis	skos:exactMatch	ORPHA	73247	manual	github:dileryfuentes
+ARI	0001086	Eosinophilic esophagitis	skos:exactMatch	mesh	D057765	manual	github:dileryfuentes
+ARI	0001089	Erythema nodosum	skos:exactMatch	SNOMEDCT	32861005	manual	github:dileryfuentes
+ARI	0001089	Erythema nodosum	skos:exactMatch	omop	140176	manual	github:dileryfuentes
+ARI	0001089	Erythema nodosum	skos:exactMatch	DOID	0080750	manual	github:dileryfuentes
+ARI	0001089	Erythema nodosum	skos:exactMatch	MONDO	0850231	manual	github:dileryfuentes
+ARI	0001089	Erythema nodosum	skos:exactMatch	icd10cm	L52	manual	github:dileryfuentes
+ARI	0001089	Erythema nodosum	skos:exactMatch	mesh	D004893	manual	github:dileryfuentes
+ARI	0001117	Juvenile Rheumatoid Arthritis	skos:exactMatch	SNOMEDCT	410795001	manual	github:dileryfuentes
+ARI	0001117	Juvenile Rheumatoid Arthritis	skos:exactMatch	omop	4079731	manual	github:dileryfuentes
+ARI	0001117	Juvenile Rheumatoid Arthritis	skos:exactMatch	omop	4259507	manual	github:dileryfuentes
+ARI	0001117	Juvenile Rheumatoid Arthritis	skos:exactMatch	omop	4253901	manual	github:dileryfuentes
+ARI	0001117	Juvenile Rheumatoid Arthritis	skos:exactMatch	DOID	676	manual	github:dileryfuentes
+ARI	0001117	Juvenile Rheumatoid Arthritis	skos:exactMatch	MONDO	0011429	manual	github:dileryfuentes
+ARI	0001117	Juvenile Rheumatoid Arthritis	skos:exactMatch	MONDO	0024281	manual	github:dileryfuentes
+ARI	0001117	Juvenile Rheumatoid Arthritis	skos:exactMatch	ncit	C26979	manual	github:dileryfuentes
+ARI	0001117	Juvenile Rheumatoid Arthritis	skos:exactMatch	ncit	C61279	manual	github:dileryfuentes
+ARI	0001086	Eosinophilic esophagitis	skos:exactMatch	umls	C0341106	manual	github:dileryfuentes
+ARI	0001126	Lupus vasculitis	skos:exactMatch	SNOMEDCT	239944008	manual	github:dileryfuentes
+ARI	0001126	Lupus vasculitis	skos:exactMatch	omop	4344495	manual	github:dileryfuentes
+ARI	0001129	Microscopic polyangiitis	skos:exactMatch	SNOMEDCT	1144805008	manual	github:dileryfuentes
+ARI	0001129	Microscopic polyangiitis	skos:exactMatch	MONDO	0019124	manual	github:dileryfuentes
+ARI	0001129	Microscopic polyangiitis	skos:exactMatch	ncit	C70549	manual	github:dileryfuentes
+ARI	0001129	Microscopic polyangiitis	skos:exactMatch	icd10cm	M31.7	manual	github:dileryfuentes
+ARI	0001129	Microscopic polyangiitis	skos:exactMatch	ORPHA	727	manual	github:dileryfuentes
+ARI	0001129	Microscopic polyangiitis	skos:exactMatch	mesh	D055953	manual	github:dileryfuentes
+ARI	0001117	Juvenile Rheumatoid Arthritis	skos:exactMatch	mesh	D001171	manual	github:dileryfuentes
+ARI	0001134	Moyamoya disease	skos:exactMatch	SNOMEDCT	69116000	manual	github:dileryfuentes
+ARI	0001134	Moyamoya disease	skos:exactMatch	omop	378774	manual	github:dileryfuentes
+ARI	0001134	Moyamoya disease	skos:exactMatch	DOID	13099	manual	github:dileryfuentes
+ARI	0001134	Moyamoya disease	skos:exactMatch	MONDO	0016820	manual	github:dileryfuentes
+ARI	0001134	Moyamoya disease	skos:exactMatch	ncit	C84895	manual	github:dileryfuentes
+ARI	0001134	Moyamoya disease	skos:exactMatch	icd10cm	I67.5	manual	github:dileryfuentes
+ARI	0001134	Moyamoya disease	skos:exactMatch	ORPHA	2573	manual	github:dileryfuentes
+ARI	0001134	Moyamoya disease	skos:exactMatch	umls	C0026654	manual	github:dileryfuentes
+ARI	0001134	Moyamoya disease	skos:exactMatch	mesh	D009072	manual	github:dileryfuentes
+ARI	0001136	Myasthenia gravis	skos:exactMatch	SNOMEDCT	91637004	manual	github:dileryfuentes
+ARI	0001136	Myasthenia gravis	skos:exactMatch	DOID	437	manual	github:dileryfuentes
+ARI	0001136	Myasthenia gravis	skos:exactMatch	MONDO	0009688	manual	github:dileryfuentes
+ARI	0001136	Myasthenia gravis	skos:exactMatch	ncit	C60989	manual	github:dileryfuentes
+ARI	0001136	Myasthenia gravis	skos:exactMatch	icd10cm	G70.0	manual	github:dileryfuentes
+ARI	0001136	Myasthenia gravis	skos:exactMatch	ORPHA	589	manual	github:dileryfuentes
+ARI	0001136	Myasthenia gravis	skos:exactMatch	umls	C0026896	manual	github:dileryfuentes
+ARI	0001136	Myasthenia gravis	skos:exactMatch	mesh	D009157	manual	github:dileryfuentes
+ARI	0001138	Myocarditis due to autoimmune disease	skos:exactMatch	SNOMEDCT	37217002	manual	github:dileryfuentes
+ARI	0001138	Myocarditis due to autoimmune disease	skos:exactMatch	SNOMEDCT	871640001	manual	github:dileryfuentes
+ARI	0001200	Takayasu's arteritis	skos:exactMatch	SNOMEDCT	359789008	manual	github:dileryfuentes
+ARI	0001200	Takayasu's arteritis	skos:exactMatch	omop	440740	manual	github:dileryfuentes
+ARI	0001200	Takayasu's arteritis	skos:exactMatch	DOID	2508	manual	github:dileryfuentes
+ARI	0001200	Takayasu's arteritis	skos:exactMatch	MONDO	0017991	manual	github:dileryfuentes
+ARI	0001200	Takayasu's arteritis	skos:exactMatch	ncit	C35062	manual	github:dileryfuentes
+ARI	0001200	Takayasu's arteritis	skos:exactMatch	icd10cm	M31.4	manual	github:dileryfuentes
+ARI	0001200	Takayasu's arteritis	skos:exactMatch	ORPHA	3287	manual	github:dileryfuentes
+ARI	0001200	Takayasu's arteritis	skos:exactMatch	umls	C0039263	manual	github:dileryfuentes
+ARI	0001200	Takayasu's arteritis	skos:exactMatch	mesh	D013625	manual	github:dileryfuentes
+ARI	0001189	Sjögren's disease	skos:exactMatch	SNOMEDCT	83901003	manual	github:dileryfuentes
+ARI	0001189	Sjögren's disease	skos:exactMatch	omop	254443	manual	github:dileryfuentes
+ARI	0001189	Sjögren's disease	skos:exactMatch	MONDO	0010030	manual	github:dileryfuentes
+ARI	0001189	Sjögren's disease	skos:exactMatch	ncit	C26883	manual	github:dileryfuentes
+ARI	0001189	Sjögren's disease	skos:exactMatch	ncit	C70647	manual	github:dileryfuentes
+ARI	0001189	Sjögren's disease	skos:exactMatch	icd10cm	M35.0	manual	github:dileryfuentes
+ARI	0001189	Sjögren's disease	skos:exactMatch	ORPHA	378	manual	github:dileryfuentes
+ARI	0001189	Sjögren's disease	skos:exactMatch	umls	C0022575	manual	github:dileryfuentes
+ARI	0001189	Sjögren's disease	skos:exactMatch	mesh	D007638	manual	github:dileryfuentes
+ARI	0001176	Secondary Raynaud's phenomenon	skos:exactMatch	SNOMEDCT	356198000	manual	github:dileryfuentes
+ARI	0001176	Secondary Raynaud's phenomenon	skos:exactMatch	SNOMEDCT	266261006	manual	github:dileryfuentes
+ARI	0001176	Secondary Raynaud's phenomenon	skos:exactMatch	omop	4229162	manual	github:dileryfuentes
+ARI	0001176	Secondary Raynaud's phenomenon	skos:exactMatch	DOID	10300	manual	github:dileryfuentes
+ARI	0001176	Secondary Raynaud's phenomenon	skos:exactMatch	MONDO	0008364	manual	github:dileryfuentes
+ARI	0001176	Secondary Raynaud's phenomenon	skos:exactMatch	ncit	C116359	manual	github:dileryfuentes
+ARI	0001176	Secondary Raynaud's phenomenon	skos:exactMatch	icd10cm	I73.0	manual	github:dileryfuentes
+ARI	0001176	Secondary Raynaud's phenomenon	skos:exactMatch	umls	C0034734	manual	github:dileryfuentes
+ARI	0001176	Secondary Raynaud's phenomenon	skos:exactMatch	mesh	D011928	manual	github:dileryfuentes
+ARI	0001140	Necrotizing vasculitis	skos:exactMatch	SNOMEDCT	11791001	manual	github:dileryfuentes
+ARI	0001140	Necrotizing vasculitis	skos:exactMatch	omop	4039691	manual	github:dileryfuentes
+ARI	0001140	Necrotizing vasculitis	skos:exactMatch	MONDO	0800113	manual	github:dileryfuentes
+ARI	0001140	Necrotizing vasculitis	skos:exactMatch	ncit	C70635	manual	github:dileryfuentes
+ARI	0001140	Necrotizing vasculitis	skos:exactMatch	umls	C1318520	manual	github:dileryfuentes
+ARI	0001169	Primary sclerosing cholangitis	skos:exactMatch	SNOMEDCT	197441003	manual	github:dileryfuentes
+ARI	0001169	Primary sclerosing cholangitis	skos:exactMatch	omop	4058821	manual	github:dileryfuentes
+ARI	0001169	Primary sclerosing cholangitis	skos:exactMatch	DOID	0060643	manual	github:dileryfuentes
+ARI	0001169	Primary sclerosing cholangitis	skos:exactMatch	MONDO	0013433	manual	github:dileryfuentes
+ARI	0001169	Primary sclerosing cholangitis	skos:exactMatch	ncit	C4828	manual	github:dileryfuentes
+ARI	0001169	Primary sclerosing cholangitis	skos:exactMatch	icd10cm	K83.01	manual	github:dileryfuentes
+ARI	0001169	Primary sclerosing cholangitis	skos:exactMatch	ORPHA	171	manual	github:dileryfuentes
+ARI	0001169	Primary sclerosing cholangitis	skos:exactMatch	ORPHA	447771	manual	github:dileryfuentes
+ARI	0001169	Primary sclerosing cholangitis	skos:exactMatch	umls	C0566602	manual	github:dileryfuentes
+ARI	0001169	Primary sclerosing cholangitis	skos:exactMatch	mesh	D015209	manual	github:dileryfuentes
+ARI	0001172	Psoriatic arthritis	skos:exactMatch	SNOMEDCT	33339001	manual	github:dileryfuentes
+ARI	0001172	Psoriatic arthritis	skos:exactMatch	SNOMEDCT	156370009	manual	github:dileryfuentes
+ARI	0001172	Psoriatic arthritis	skos:exactMatch	omop	40319772	manual	github:dileryfuentes
+ARI	0001172	Psoriatic arthritis	skos:exactMatch	DOID	9008	manual	github:dileryfuentes
+ARI	0001172	Psoriatic arthritis	skos:exactMatch	MONDO	0011849	manual	github:dileryfuentes
+ARI	0001172	Psoriatic arthritis	skos:exactMatch	ncit	C61277	manual	github:dileryfuentes
+ARI	0001172	Psoriatic arthritis	skos:exactMatch	icd10cm	L40.5	manual	github:dileryfuentes
+ARI	0001172	Psoriatic arthritis	skos:exactMatch	ORPHA	40050	manual	github:dileryfuentes
+ARI	0001172	Psoriatic arthritis	skos:exactMatch	umls	C0003872	manual	github:dileryfuentes
+ARI	0001172	Psoriatic arthritis	skos:exactMatch	mesh	D015535	manual	github:dileryfuentes
+ARI	0001185	Rheumatoid vasculitis	skos:exactMatch	SNOMEDCT	400054000	manual	github:dileryfuentes
+ARI	0001185	Rheumatoid vasculitis	skos:exactMatch	omop	4271003	manual	github:dileryfuentes
+ARI	0001185	Rheumatoid vasculitis	skos:exactMatch	MONDO	0043267	manual	github:dileryfuentes
+ARI	0001185	Rheumatoid vasculitis	skos:exactMatch	umls	C0240903	manual	github:dileryfuentes
+ARI	0001185	Rheumatoid vasculitis	skos:exactMatch	mesh	D056653	manual	github:dileryfuentes
+ARI	0001177	Reactive arthritis	skos:exactMatch	SNOMEDCT	201736002	manual	github:dileryfuentes
+ARI	0001177	Reactive arthritis	skos:exactMatch	SNOMEDCT	67224007	manual	github:dileryfuentes
+ARI	0001177	Reactive arthritis	skos:exactMatch	omop	40399768	manual	github:dileryfuentes
+ARI	0001177	Reactive arthritis	skos:exactMatch	omop	78357	manual	github:dileryfuentes
+ARI	0001177	Reactive arthritis	skos:exactMatch	DOID	6196	manual	github:dileryfuentes
+ARI	0001177	Reactive arthritis	skos:exactMatch	MONDO	0017376	manual	github:dileryfuentes
+ARI	0001177	Reactive arthritis	skos:exactMatch	ncit	C34975	manual	github:dileryfuentes
+ARI	0001177	Reactive arthritis	skos:exactMatch	icd10cm	M02.3	manual	github:dileryfuentes
+ARI	0001177	Reactive arthritis	skos:exactMatch	ORPHA	29207	manual	github:dileryfuentes
+ARI	0001177	Reactive arthritis	skos:exactMatch	umls	C0035012	manual	github:dileryfuentes
+ARI	0001177	Reactive arthritis	skos:exactMatch	mesh	D016918	manual	github:dileryfuentes
+ARI	0001023	Autoimmune angioedema	skos:exactMatch	SNOMEDCT	402401003	manual	github:dileryfuentes
+ARI	0001023	Autoimmune angioedema	skos:exactMatch	omop	4224624	manual	github:dileryfuentes
+ARI	0001138	Myocarditis due to autoimmune disease	skos:exactMatch	omop	3656114	manual	github:dileryfuentes
+ARI	0001138	Myocarditis due to autoimmune disease	skos:exactMatch	DOID	0040095	manual	github:dileryfuentes
+ARI	0001138	Myocarditis due to autoimmune disease	skos:exactMatch	MONDO	0030701	manual	github:dileryfuentes
+ARI	0001138	Myocarditis due to autoimmune disease	skos:exactMatch	MONDO	0022519	manual	github:dileryfuentes
+ARI	0001138	Myocarditis due to autoimmune disease	skos:exactMatch	umls	C1608389	manual	github:dileryfuentes
+ARI	0001179	Restless legs	skos:exactMatch	SNOMEDCT	32914008	manual	github:dileryfuentes
+ARI	0001179	Restless legs	skos:exactMatch	omop	73754	manual	github:dileryfuentes
+ARI	0001179	Restless legs	skos:exactMatch	DOID	0050425	manual	github:dileryfuentes
+ARI	0001179	Restless legs	skos:exactMatch	MONDO	0005391	manual	github:dileryfuentes
+ARI	0001179	Restless legs	skos:exactMatch	ncit	C84501	manual	github:dileryfuentes
+ARI	0001179	Restless legs	skos:exactMatch	icd10cm	G25.81	manual	github:dileryfuentes
+ARI	0001179	Restless legs	skos:exactMatch	umls	C0035258	manual	github:dileryfuentes
+ARI	0001179	Restless legs	skos:exactMatch	mesh	D012148	manual	github:dileryfuentes
+ARI	0001184	Rheumatoid arthritis	skos:exactMatch	SNOMEDCT	69896004	manual	github:dileryfuentes
+ARI	0001184	Rheumatoid arthritis	skos:exactMatch	omop	80809	manual	github:dileryfuentes
+ARI	0001184	Rheumatoid arthritis	skos:exactMatch	DOID	7148	manual	github:dileryfuentes
+ARI	0001184	Rheumatoid arthritis	skos:exactMatch	MONDO	0008383	manual	github:dileryfuentes
+ARI	0001184	Rheumatoid arthritis	skos:exactMatch	ncit	C2884	manual	github:dileryfuentes
+ARI	0001184	Rheumatoid arthritis	skos:exactMatch	icd10cm	M06.9	manual	github:dileryfuentes
+ARI	0001184	Rheumatoid arthritis	skos:exactMatch	ORPHA	284130	manual	github:dileryfuentes
+ARI	0001184	Rheumatoid arthritis	skos:exactMatch	umls	C0003873	manual	github:dileryfuentes
+ARI	0001184	Rheumatoid arthritis	skos:exactMatch	mesh	D001172	manual	github:dileryfuentes
+ARI	0001186	Sarcoidosis	skos:exactMatch	SNOMEDCT	31541009	manual	github:dileryfuentes
+ARI	0001186	Sarcoidosis	skos:exactMatch	omop	438688	manual	github:dileryfuentes
+ARI	0001186	Sarcoidosis	skos:exactMatch	DOID	11335	manual	github:dileryfuentes
+ARI	0001186	Sarcoidosis	skos:exactMatch	MONDO	0019338	manual	github:dileryfuentes
+ARI	0001186	Sarcoidosis	skos:exactMatch	ncit	C34995	manual	github:dileryfuentes
+ARI	0001186	Sarcoidosis	skos:exactMatch	icd10cm	D86	manual	github:dileryfuentes
+ARI	0001186	Sarcoidosis	skos:exactMatch	ORPHA	797	manual	github:dileryfuentes
+ARI	0001186	Sarcoidosis	skos:exactMatch	umls	C0036202	manual	github:dileryfuentes
+ARI	0001186	Sarcoidosis	skos:exactMatch	mesh	D012507	manual	github:dileryfuentes
+ARI	0001129	Microscopic polyangiitis	skos:exactMatch	omop	606328	manual	github:dileryfuentes
+ARI	0001089	Erythema nodosum	skos:exactMatch	umls	C0014743	manual-negative	github:dileryfuentes
+ARI	0001117	Juvenile Rheumatoid Arthritis	skos:exactMatch	SNOMEDCT	239796000	manual-negative	github:dileryfuentes
+ARI	0001117	Juvenile Rheumatoid Arthritis	skos:exactMatch	icd10cm	M08.4	manual-negative	github:dileryfuentes
+ARI	0001117	Juvenile Rheumatoid Arthritis	skos:exactMatch	ORPHA	92	manual-negative	github:dileryfuentes
+ARI	0001117	Juvenile Rheumatoid Arthritis	skos:exactMatch	ORPHA	85410	manual-negative	github:dileryfuentes
+ARI	0001117	Juvenile Rheumatoid Arthritis	skos:exactMatch	umls	C0409667	manual-negative	github:dileryfuentes
+ARI	0001117	Juvenile Rheumatoid Arthritis	skos:exactMatch	umls	C0157917	manual-negative	github:dileryfuentes
+ARI	0001117	Juvenile Rheumatoid Arthritis	skos:exactMatch	umls	C0157918	manual-negative	github:dileryfuentes
+ARI	0001117	Juvenile Rheumatoid Arthritis	skos:exactMatch	umls	C0157916	manual-negative	github:dileryfuentes
+ARI	0001117	Juvenile Rheumatoid Arthritis	skos:exactMatch	mesh	C536312	manual-negative	github:dileryfuentes
+ARI	0001129	Microscopic polyangiitis	skos:exactMatch	umls	C2347126	manual-negative	github:dileryfuentes
+ARI	0001134	Moyamoya disease	skos:exactMatch	MONDO	0009649	manual-negative	github:dileryfuentes
+ARI	0001134	Moyamoya disease	skos:exactMatch	ORPHA	280679	manual-negative	github:dileryfuentes
+ARI	0001134	Moyamoya disease	skos:exactMatch	ORPHA	401945	manual-negative	github:dileryfuentes
+ARI	0001136	Myasthenia gravis	skos:exactMatch	omop	76685	manual-negative	github:dileryfuentes
+ARI	0001136	Myasthenia gravis	skos:exactMatch	icd10cm	G70.00	manual-negative	github:dileryfuentes
+ARI	0001200	Takayasu's arteritis	skos:exactMatch	ncit	C34391	manual-negative	github:dileryfuentes
+ARI	0001200	Takayasu's arteritis	skos:exactMatch	ORPHA	99079	manual-negative	github:dileryfuentes
+ARI	0001200	Takayasu's arteritis	skos:exactMatch	umls	C0003490	manual-negative	github:dileryfuentes
+ARI	0001200	Takayasu's arteritis	skos:exactMatch	mesh	D001015	manual-negative	github:dileryfuentes
+ARI	0001189	Sjögren's disease	skos:exactMatch	DOID	12895	manual-negative	github:dileryfuentes
+ARI	0001189	Sjögren's disease	skos:exactMatch	MONDO	0000948	manual-negative	github:dileryfuentes
+ARI	0001189	Sjögren's disease	skos:exactMatch	MONDO	0006733	manual-negative	github:dileryfuentes
+ARI	0001189	Sjögren's disease	skos:exactMatch	MONDO	0800120	manual-negative	github:dileryfuentes
+ARI	0001189	Sjögren's disease	skos:exactMatch	ncit	C34553	manual-negative	github:dileryfuentes
+ARI	0001189	Sjögren's disease	skos:exactMatch	ncit	C34503	manual-negative	github:dileryfuentes
+ARI	0001189	Sjögren's disease	skos:exactMatch	icd10cm	H04.12	manual-negative	github:dileryfuentes
+ARI	0001189	Sjögren's disease	skos:exactMatch	ORPHA	289390	manual-negative	github:dileryfuentes
+ARI	0001189	Sjögren's disease	skos:exactMatch	ORPHA	800	manual-negative	github:dileryfuentes
+ARI	0001176	Secondary Raynaud's phenomenon	skos:exactMatch	omop	4143972	manual-negative	github:dileryfuentes
+ARI	0001162	Polymyositis	skos:exactMatch	omop	80800	manual-negative	github:dileryfuentes
+ARI	0001136	Myasthenia gravis	skos:exactMatch	umls	C1260409	manual-negative	github:dileryfuentes
+ARI	0001172	Psoriatic arthritis	skos:exactMatch	omop	81931	manual-negative	github:dileryfuentes
+ARI	0001177	Reactive arthritis	skos:exactMatch	icd10cm	M02.10	manual-negative	github:dileryfuentes
+ARI	0001177	Reactive arthritis	skos:exactMatch	umls	C0152085	manual-negative	github:dileryfuentes
+ARI	0001138	Myocarditis due to autoimmune disease	skos:exactMatch	omop	321578	manual-negative	github:dileryfuentes
+ARI	0001186	Sarcoidosis	skos:exactMatch	SNOMEDCT	238676008	manual-negative	github:dileryfuentes
+ARI	0001186	Sarcoidosis	skos:exactMatch	SNOMEDCT	72470008	manual-negative	github:dileryfuentes
+ARI	0001186	Sarcoidosis	skos:exactMatch	omop	4081069	manual-negative	github:dileryfuentes
+ARI	0001186	Sarcoidosis	skos:exactMatch	omop	4216556	manual-negative	github:dileryfuentes
+ARI	0001186	Sarcoidosis	skos:exactMatch	MONDO	0020666	manual-negative	github:dileryfuentes
