@@ -844,3 +844,203 @@ ARI	0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	umls	C29
 ARI	0001017	Antineutrophil cytoplasmic antibody positive vasculitis	skos:exactMatch	SNOMEDCT	195353004	manual-negative	github:alexlazcano248
 ARI	0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	DOID	9744	manual-negative	github:alexlazcano248
 ARI	0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	MONDO	0011027	manual-negative	github:alexlazcano248
+ARI	0001031	Autoimmune gastritis	skos:exactMatch	SNOMEDCT	84568007	manual	github:medinatinajeropablo-dot
+ARI	0001031	Autoimmune gastritis	skos:exactMatch	omop	192667	manual	github:medinatinajeropablo-dot
+ARI	0001031	Autoimmune gastritis	skos:exactMatch	DOID	0040090	manual	github:medinatinajeropablo-dot
+ARI	0001031	Autoimmune gastritis	skos:exactMatch	MONDO	0031014	manual	github:medinatinajeropablo-dot
+ARI	0001031	Autoimmune gastritis	skos:exactMatch	ncit	C95752	manual	github:medinatinajeropablo-dot
+ARI	0001031	Autoimmune gastritis	skos:exactMatch	mesh	D005757	manual	github:medinatinajeropablo-dot
+ARI	0001032	Autoimmune hemolytic anemia	skos:exactMatch	SNOMEDCT	413603009	manual	github:medinatinajeropablo-dot
+ARI	0001032	Autoimmune hemolytic anemia	skos:exactMatch	omop	441269	manual	github:medinatinajeropablo-dot
+ARI	0001032	Autoimmune hemolytic anemia	skos:exactMatch	DOID	718	manual	github:medinatinajeropablo-dot
+ARI	0001032	Autoimmune hemolytic anemia	skos:exactMatch	MONDO	0020108	manual	github:medinatinajeropablo-dot
+ARI	0001032	Autoimmune hemolytic anemia	skos:exactMatch	ncit	C34378	manual	github:medinatinajeropablo-dot
+ARI	0001032	Autoimmune hemolytic anemia	skos:exactMatch	ORPHA	98375	manual	github:medinatinajeropablo-dot
+ARI	0001032	Autoimmune hemolytic anemia	skos:exactMatch	mesh	D000744	manual	github:medinatinajeropablo-dot
+ARI	0001033	Autoimmune hepatitis	skos:exactMatch	SNOMEDCT	408335007	manual	github:medinatinajeropablo-dot
+ARI	0001033	Autoimmune hepatitis	skos:exactMatch	omop	200762	manual	github:medinatinajeropablo-dot
+ARI	0001033	Autoimmune hepatitis	skos:exactMatch	DOID	2048	manual	github:medinatinajeropablo-dot
+ARI	0001033	Autoimmune hepatitis	skos:exactMatch	MONDO	0016264	manual	github:medinatinajeropablo-dot
+ARI	0001033	Autoimmune hepatitis	skos:exactMatch	icd10cm	K75.4	manual	github:medinatinajeropablo-dot
+ARI	0001033	Autoimmune hepatitis	skos:exactMatch	icd10cm	571.42	manual	github:medinatinajeropablo-dot
+ARI	0001033	Autoimmune hepatitis	skos:exactMatch	ORPHA	2137	manual	github:medinatinajeropablo-dot
+ARI	0001033	Autoimmune hepatitis	skos:exactMatch	mesh	D019693	manual	github:medinatinajeropablo-dot
+ARI	0001048	Autoimmune thyroiditis	skos:exactMatch	MONDO	0005623	manual	github:medinatinajeropablo-dot
+ARI	0001048	Autoimmune thyroiditis	skos:exactMatch	MONDO	0007699	manual	github:medinatinajeropablo-dot
+ARI	0001048	Autoimmune thyroiditis	skos:exactMatch	ORPHA	855	manual	github:medinatinajeropablo-dot
+ARI	0001052	Balo concentric sclerosis	skos:exactMatch	MONDO	0016430	manual	github:medinatinajeropablo-dot
+ARI	0001052	Balo concentric sclerosis	skos:exactMatch	ncit	C197875	manual	github:medinatinajeropablo-dot
+ARI	0001052	Balo concentric sclerosis	skos:exactMatch	icd10cm	G37.5	manual	github:medinatinajeropablo-dot
+ARI	0001052	Balo concentric sclerosis	skos:exactMatch	ORPHA	228165	manual	github:medinatinajeropablo-dot
+ARI	0001053	Behçet's syndrome	skos:exactMatch	MONDO	0007191	manual	github:medinatinajeropablo-dot
+ARI	0001053	Behçet's syndrome	skos:exactMatch	ORPHA	117	manual	github:medinatinajeropablo-dot
+ARI	0001054	Benign mucous membrane pemphigoid	skos:exactMatch	MONDO	0018746	manual	github:medinatinajeropablo-dot
+ARI	0001054	Benign mucous membrane pemphigoid	skos:exactMatch	ORPHA	46486	manual	github:medinatinajeropablo-dot
+ARI	0001091	Evans syndrome	skos:exactMatch	SNOMEDCT	75331009	manual	github:medinatinajeropablo-dot
+ARI	0001091	Evans syndrome	skos:exactMatch	omop	436956	manual	github:medinatinajeropablo-dot
+ARI	0001091	Evans syndrome	skos:exactMatch	DOID	8931	manual	github:medinatinajeropablo-dot
+ARI	0001091	Evans syndrome	skos:exactMatch	MONDO	0016030	manual	github:medinatinajeropablo-dot
+ARI	0001091	Evans syndrome	skos:exactMatch	ncit	C61284	manual	github:medinatinajeropablo-dot
+ARI	0001091	Evans syndrome	skos:exactMatch	icd10cm	D69.41	manual	github:medinatinajeropablo-dot
+ARI	0001091	Evans syndrome	skos:exactMatch	ORPHA	1959	manual	github:medinatinajeropablo-dot
+ARI	0001091	Evans syndrome	skos:exactMatch	mesh	C536380	manual	github:medinatinajeropablo-dot
+ARI	0001118	Lichen planus	skos:exactMatch	SNOMEDCT	4776004	manual	github:medinatinajeropablo-dot
+ARI	0001118	Lichen planus	skos:exactMatch	omop	132703	manual	github:medinatinajeropablo-dot
+ARI	0001118	Lichen planus	skos:exactMatch	DOID	9201	manual	github:medinatinajeropablo-dot
+ARI	0001118	Lichen planus	skos:exactMatch	MONDO	0006572	manual	github:medinatinajeropablo-dot
+ARI	0001118	Lichen planus	skos:exactMatch	ncit	C3189	manual	github:medinatinajeropablo-dot
+ARI	0001118	Lichen planus	skos:exactMatch	icd10cm	L43	manual	github:medinatinajeropablo-dot
+ARI	0001118	Lichen planus	skos:exactMatch	icd10cm	697.0	manual	github:medinatinajeropablo-dot
+ARI	0001118	Lichen planus	skos:exactMatch	mesh	D008010	manual	github:medinatinajeropablo-dot
+ARI	0001119	Lichen sclerosus	skos:exactMatch	SNOMEDCT	895454001	manual	github:medinatinajeropablo-dot
+ARI	0001119	Lichen sclerosus	skos:exactMatch	omop	619430	manual	github:medinatinajeropablo-dot
+ARI	0001119	Lichen sclerosus	skos:exactMatch	DOID	13477	manual	github:medinatinajeropablo-dot
+ARI	0001119	Lichen sclerosus	skos:exactMatch	MONDO	0001725	manual	github:medinatinajeropablo-dot
+ARI	0001119	Lichen sclerosus	skos:exactMatch	MONDO	0007899	manual	github:medinatinajeropablo-dot
+ARI	0001119	Lichen sclerosus	skos:exactMatch	ncit	C3523	manual	github:medinatinajeropablo-dot
+ARI	0001119	Lichen sclerosus	skos:exactMatch	ORPHA	33409	manual	github:medinatinajeropablo-dot
+ARI	0001119	Lichen sclerosus	skos:exactMatch	mesh	D018459	manual	github:medinatinajeropablo-dot
+ARI	0001119	Lichen sclerosus	skos:exactMatch	mesh	D052798	manual	github:medinatinajeropablo-dot
+ARI	0001125	Lipomatosis dolorosa	skos:exactMatch	SNOMEDCT	71404003	manual	github:medinatinajeropablo-dot
+ARI	0001125	Lipomatosis dolorosa	skos:exactMatch	omop	4324974	manual	github:medinatinajeropablo-dot
+ARI	0001125	Lipomatosis dolorosa	skos:exactMatch	DOID	3928	manual	github:medinatinajeropablo-dot
+ARI	0001125	Lipomatosis dolorosa	skos:exactMatch	MONDO	0007070	manual	github:medinatinajeropablo-dot
+ARI	0001125	Lipomatosis dolorosa	skos:exactMatch	ncit	C84540	manual	github:medinatinajeropablo-dot
+ARI	0001125	Lipomatosis dolorosa	skos:exactMatch	ORPHA	36397	manual	github:medinatinajeropablo-dot
+ARI	0001125	Lipomatosis dolorosa	skos:exactMatch	mesh	D000274	manual	github:medinatinajeropablo-dot
+ARI	0001031	Autoimmune gastritis	skos:exactMatch	umls	C3887639	manual	github:medinatinajeropablo-dot
+ARI	0001032	Autoimmune hemolytic anemia	skos:exactMatch	umls	C0002880	manual	github:medinatinajeropablo-dot
+ARI	0001052	Balo concentric sclerosis	skos:exactMatch	umls	C0004712	manual	github:medinatinajeropablo-dot
+ARI	0001091	Evans syndrome	skos:exactMatch	umls	C0272126	manual	github:medinatinajeropablo-dot
+ARI	0001118	Lichen planus	skos:exactMatch	umls	C0023646	manual	github:medinatinajeropablo-dot
+ARI	0001119	Lichen sclerosus	skos:exactMatch	umls	C0152460	manual	github:medinatinajeropablo-dot
+ARI	0001125	Lipomatosis dolorosa	skos:exactMatch	umls	C0001529	manual	github:medinatinajeropablo-dot
+ARI	0001128	Microscopic colitis	skos:exactMatch	SNOMEDCT	235753003	manual	github:medinatinajeropablo-dot
+ARI	0001128	Microscopic colitis	skos:exactMatch	omop	4340799	manual	github:medinatinajeropablo-dot
+ARI	0001128	Microscopic colitis	skos:exactMatch	DOID	0060182	manual	github:medinatinajeropablo-dot
+ARI	0001128	Microscopic colitis	skos:exactMatch	MONDO	0000702	manual	github:medinatinajeropablo-dot
+ARI	0001128	Microscopic colitis	skos:exactMatch	ncit	C38504	manual	github:medinatinajeropablo-dot
+ARI	0001128	Microscopic colitis	skos:exactMatch	icd10cm	K52.83	manual	github:medinatinajeropablo-dot
+ARI	0001128	Microscopic colitis	skos:exactMatch	umls	C0400821	manual	github:medinatinajeropablo-dot
+ARI	0001128	Microscopic colitis	skos:exactMatch	mesh	D046728	manual	github:medinatinajeropablo-dot
+ARI	0001130	Mixed collagen vascular disease	skos:exactMatch	SNOMEDCT	398049005	manual	github:medinatinajeropablo-dot
+ARI	0001130	Mixed collagen vascular disease	skos:exactMatch	omop	4134867	manual	github:medinatinajeropablo-dot
+ARI	0001130	Mixed collagen vascular disease	skos:exactMatch	DOID	3492	manual	github:medinatinajeropablo-dot
+ARI	0001130	Mixed collagen vascular disease	skos:exactMatch	MONDO	0005854	manual	github:medinatinajeropablo-dot
+ARI	0001130	Mixed collagen vascular disease	skos:exactMatch	ncit	C84892	manual	github:medinatinajeropablo-dot
+ARI	0001130	Mixed collagen vascular disease	skos:exactMatch	icd10cm	M35.1	manual	github:medinatinajeropablo-dot
+ARI	0001130	Mixed collagen vascular disease	skos:exactMatch	ORPHA	809	manual	github:medinatinajeropablo-dot
+ARI	0001130	Mixed collagen vascular disease	skos:exactMatch	umls	C0026272	manual	github:medinatinajeropablo-dot
+ARI	0001130	Mixed collagen vascular disease	skos:exactMatch	mesh	D008947	manual	github:medinatinajeropablo-dot
+ARI	0001161	Polymyalgia rheumatica	skos:exactMatch	SNOMEDCT	65323003	manual	github:medinatinajeropablo-dot
+ARI	0001161	Polymyalgia rheumatica	skos:exactMatch	omop	255348	manual	github:medinatinajeropablo-dot
+ARI	0001161	Polymyalgia rheumatica	skos:exactMatch	DOID	853	manual	github:medinatinajeropablo-dot
+ARI	0001161	Polymyalgia rheumatica	skos:exactMatch	MONDO	0019735	manual	github:medinatinajeropablo-dot
+ARI	0001161	Polymyalgia rheumatica	skos:exactMatch	ncit	C85018	manual	github:medinatinajeropablo-dot
+ARI	0001161	Polymyalgia rheumatica	skos:exactMatch	icd10cm	M35.3	manual	github:medinatinajeropablo-dot
+ARI	0001161	Polymyalgia rheumatica	skos:exactMatch	icd10cm	725	manual	github:medinatinajeropablo-dot
+ARI	0001161	Polymyalgia rheumatica	skos:exactMatch	ORPHA	93569	manual	github:medinatinajeropablo-dot
+ARI	0001161	Polymyalgia rheumatica	skos:exactMatch	umls	C0032533	manual	github:medinatinajeropablo-dot
+ARI	0001161	Polymyalgia rheumatica	skos:exactMatch	mesh	D011111	manual	github:medinatinajeropablo-dot
+ARI	0001178	Relapsing polychondritis	skos:exactMatch	SNOMEDCT	72275000	manual	github:medinatinajeropablo-dot
+ARI	0001178	Relapsing polychondritis	skos:exactMatch	omop	4216873	manual	github:medinatinajeropablo-dot
+ARI	0001178	Relapsing polychondritis	skos:exactMatch	DOID	2556	manual	github:medinatinajeropablo-dot
+ARI	0001178	Relapsing polychondritis	skos:exactMatch	MONDO	0019125	manual	github:medinatinajeropablo-dot
+ARI	0001178	Relapsing polychondritis	skos:exactMatch	ncit	C157268	manual	github:medinatinajeropablo-dot
+ARI	0001178	Relapsing polychondritis	skos:exactMatch	icd10cm	M94.1	manual	github:medinatinajeropablo-dot
+ARI	0001178	Relapsing polychondritis	skos:exactMatch	ORPHA	728	manual	github:medinatinajeropablo-dot
+ARI	0001178	Relapsing polychondritis	skos:exactMatch	umls	C0032453	manual	github:medinatinajeropablo-dot
+ARI	0001178	Relapsing polychondritis	skos:exactMatch	mesh	D011081	manual	github:medinatinajeropablo-dot
+ARI	0001197	Systemic mast cell disease	skos:exactMatch	SNOMEDCT	397016004	manual	github:medinatinajeropablo-dot
+ARI	0001197	Systemic mast cell disease	skos:exactMatch	omop	4246284	manual	github:medinatinajeropablo-dot
+ARI	0001197	Systemic mast cell disease	skos:exactMatch	DOID	349	manual	github:medinatinajeropablo-dot
+ARI	0001197	Systemic mast cell disease	skos:exactMatch	MONDO	0016586	manual	github:medinatinajeropablo-dot
+ARI	0001197	Systemic mast cell disease	skos:exactMatch	ncit	C9235	manual	github:medinatinajeropablo-dot
+ARI	0001197	Systemic mast cell disease	skos:exactMatch	icd10cm	D47.02	manual	github:medinatinajeropablo-dot
+ARI	0001197	Systemic mast cell disease	skos:exactMatch	ORPHA	2467	manual	github:medinatinajeropablo-dot
+ARI	0001197	Systemic mast cell disease	skos:exactMatch	umls	C0221013	manual	github:medinatinajeropablo-dot
+ARI	0001197	Systemic mast cell disease	skos:exactMatch	mesh	D034721	manual	github:medinatinajeropablo-dot
+ARI	0001199	Systemic sclerosis with limited cutaneous involvement	skos:exactMatch	DOID	1577	manual	github:medinatinajeropablo-dot
+ARI	0001199	Systemic sclerosis with limited cutaneous involvement	skos:exactMatch	MONDO	0016358	manual	github:medinatinajeropablo-dot
+ARI	0001199	Systemic sclerosis with limited cutaneous involvement	skos:exactMatch	ORPHA	220402	manual	github:medinatinajeropablo-dot
+ARI	0001199	Systemic sclerosis with limited cutaneous involvement	skos:exactMatch	umls	C5574860	manual	github:medinatinajeropablo-dot
+ARI	0001199	Systemic sclerosis with limited cutaneous involvement	skos:exactMatch	mesh	D045745	manual	github:medinatinajeropablo-dot
+ARI	0001205	Ulcerative colitis	skos:exactMatch	SNOMEDCT	64766004	manual	github:medinatinajeropablo-dot
+ARI	0001205	Ulcerative colitis	skos:exactMatch	omop	81893	manual	github:medinatinajeropablo-dot
+ARI	0001205	Ulcerative colitis	skos:exactMatch	DOID	8577	manual	github:medinatinajeropablo-dot
+ARI	0001205	Ulcerative colitis	skos:exactMatch	MONDO	0005101	manual	github:medinatinajeropablo-dot
+ARI	0001205	Ulcerative colitis	skos:exactMatch	ncit	C2952	manual	github:medinatinajeropablo-dot
+ARI	0001205	Ulcerative colitis	skos:exactMatch	icd10cm	K51	manual	github:medinatinajeropablo-dot
+ARI	0001205	Ulcerative colitis	skos:exactMatch	ORPHA	771	manual	github:medinatinajeropablo-dot
+ARI	0001205	Ulcerative colitis	skos:exactMatch	umls	C0009324	manual	github:medinatinajeropablo-dot
+ARI	0001205	Ulcerative colitis	skos:exactMatch	mesh	D003093	manual	github:medinatinajeropablo-dot
+ARI	0001208	Uveitis	skos:exactMatch	ncit	C26909	manual	github:medinatinajeropablo-dot
+ARI	0001208	Uveitis	skos:exactMatch	icd10cm	H20.9	manual	github:medinatinajeropablo-dot
+ARI	0001208	Uveitis	skos:exactMatch	ORPHA	98715	manual	github:medinatinajeropablo-dot
+ARI	0001208	Uveitis	skos:exactMatch	umls	C0042164	manual	github:medinatinajeropablo-dot
+ARI	0001208	Uveitis	skos:exactMatch	mesh	D014605	manual	github:medinatinajeropablo-dot
+ARI	0001210	Vogt-Koyanagi-Harada disease	skos:exactMatch	SNOMEDCT	193497004	manual	github:medinatinajeropablo-dot
+ARI	0001210	Vogt-Koyanagi-Harada disease	skos:exactMatch	omop	4108968	manual	github:medinatinajeropablo-dot
+ARI	0001210	Vogt-Koyanagi-Harada disease	skos:exactMatch	DOID	12297	manual	github:medinatinajeropablo-dot
+ARI	0001210	Vogt-Koyanagi-Harada disease	skos:exactMatch	MONDO	0018092	manual	github:medinatinajeropablo-dot
+ARI	0001210	Vogt-Koyanagi-Harada disease	skos:exactMatch	ORPHA	3437	manual	github:medinatinajeropablo-dot
+ARI	0001210	Vogt-Koyanagi-Harada disease	skos:exactMatch	mesh	D014607	manual	github:medinatinajeropablo-dot
+ARI	0001210	Vogt-Koyanagi-Harada disease	skos:exactMatch	icd10cm	H20.82	manual	github:medinatinajeropablo-dot
+ARI	0001119	Lichen sclerosus	skos:exactMatch	icd10cm	607.81	manual	github:medinatinajeropablo-dot
+ARI	0001208	Uveitis	skos:exactMatch	MONDO	0020283	manual	github:medinatinajeropablo-dot
+ARI	0001031	Autoimmune gastritis	skos:exactMatch	SNOMEDCT	84027009	manual-negative	github:medinatinajeropablo-dot
+ARI	0001031	Autoimmune gastritis	skos:exactMatch	SNOMEDCT	235728001	manual-negative	github:medinatinajeropablo-dot
+ARI	0001031	Autoimmune gastritis	skos:exactMatch	omop	4341626	manual-negative	github:medinatinajeropablo-dot
+ARI	0001031	Autoimmune gastritis	skos:exactMatch	omop	432295	manual-negative	github:medinatinajeropablo-dot
+ARI	0001031	Autoimmune gastritis	skos:exactMatch	MONDO	0006665	manual-negative	github:medinatinajeropablo-dot
+ARI	0001031	Autoimmune gastritis	skos:exactMatch	MONDO	0008228	manual-negative	github:medinatinajeropablo-dot
+ARI	0001031	Autoimmune gastritis	skos:exactMatch	MONDO	0019787	manual-negative	github:medinatinajeropablo-dot
+ARI	0001031	Autoimmune gastritis	skos:exactMatch	ncit	C2871	manual-negative	github:medinatinajeropablo-dot
+ARI	0001031	Autoimmune gastritis	skos:exactMatch	ncit	C7405	manual-negative	github:medinatinajeropablo-dot
+ARI	0001031	Autoimmune gastritis	skos:exactMatch	ncit	C94694	manual-negative	github:medinatinajeropablo-dot
+ARI	0001031	Autoimmune gastritis	skos:exactMatch	icd10cm	D51.0	manual-negative	github:medinatinajeropablo-dot
+ARI	0001031	Autoimmune gastritis	skos:exactMatch	icd10cm	K29.4	manual-negative	github:medinatinajeropablo-dot
+ARI	0001031	Autoimmune gastritis	skos:exactMatch	ORPHA	120	manual-negative	github:medinatinajeropablo-dot
+ARI	0001031	Autoimmune gastritis	skos:exactMatch	ORPHA	94075	manual-negative	github:medinatinajeropablo-dot
+ARI	0001031	Autoimmune gastritis	skos:exactMatch	mesh	C538273	manual-negative	github:medinatinajeropablo-dot
+ARI	0001031	Autoimmune gastritis	skos:exactMatch	mesh	D000752	manual-negative	github:medinatinajeropablo-dot
+ARI	0001032	Autoimmune hemolytic anemia	skos:exactMatch	SNOMEDCT	718716008	manual-negative	github:medinatinajeropablo-dot
+ARI	0001032	Autoimmune hemolytic anemia	skos:exactMatch	MONDO	0019534	manual-negative	github:medinatinajeropablo-dot
+ARI	0001032	Autoimmune hemolytic anemia	skos:exactMatch	ORPHA	90036	manual-negative	github:medinatinajeropablo-dot
+ARI	0001033	Autoimmune hepatitis	skos:exactMatch	SNOMEDCT	16098491000119109	manual-negative	github:medinatinajeropablo-dot
+ARI	0001033	Autoimmune hepatitis	skos:exactMatch	SNOMEDCT	721711009	manual-negative	github:medinatinajeropablo-dot
+ARI	0001033	Autoimmune hepatitis	skos:exactMatch	SNOMEDCT	721713007	manual-negative	github:medinatinajeropablo-dot
+ARI	0001033	Autoimmune hepatitis	skos:exactMatch	SNOMEDCT	721712002	manual-negative	github:medinatinajeropablo-dot
+ARI	0001033	Autoimmune hepatitis	skos:exactMatch	omop	36715923	manual-negative	github:medinatinajeropablo-dot
+ARI	0001033	Autoimmune hepatitis	skos:exactMatch	omop	36717496	manual-negative	github:medinatinajeropablo-dot
+ARI	0001033	Autoimmune hepatitis	skos:exactMatch	omop	36715924	manual-negative	github:medinatinajeropablo-dot
+ARI	0001033	Autoimmune hepatitis	skos:exactMatch	omop	36687200	manual-negative	github:medinatinajeropablo-dot
+ARI	0001033	Autoimmune hepatitis	skos:exactMatch	MONDO	0005543	manual-negative	github:medinatinajeropablo-dot
+ARI	0001033	Autoimmune hepatitis	skos:exactMatch	MONDO	0021176	manual-negative	github:medinatinajeropablo-dot
+ARI	0001033	Autoimmune hepatitis	skos:exactMatch	MONDO	0021177	manual-negative	github:medinatinajeropablo-dot
+ARI	0001033	Autoimmune hepatitis	skos:exactMatch	ORPHA	563576	manual-negative	github:medinatinajeropablo-dot
+ARI	0001033	Autoimmune hepatitis	skos:exactMatch	ORPHA	563581	manual-negative	github:medinatinajeropablo-dot
+ARI	0001054	Benign mucous membrane pemphigoid	skos:exactMatch	ORPHA	99922	manual-negative	github:medinatinajeropablo-dot
+ARI	0001119	Lichen sclerosus	skos:exactMatch	SNOMEDCT	25674000	manual-negative	github:medinatinajeropablo-dot
+ARI	0001119	Lichen sclerosus	skos:exactMatch	omop	4119189	manual-negative	github:medinatinajeropablo-dot
+ARI	0001119	Lichen sclerosus	skos:exactMatch	icd10cm	L90.0	manual-negative	github:medinatinajeropablo-dot
+ARI	0001125	Lipomatosis dolorosa	skos:exactMatch	icd10cm	E88.2	manual-negative	github:medinatinajeropablo-dot
+ARI	0001031	Autoimmune gastritis	skos:exactMatch	umls	C0002892	manual-negative	github:medinatinajeropablo-dot
+ARI	0001031	Autoimmune gastritis	skos:exactMatch	umls	C0017154	manual-negative	github:medinatinajeropablo-dot
+ARI	0001031	Autoimmune gastritis	skos:exactMatch	umls	C0341305	manual-negative	github:medinatinajeropablo-dot
+ARI	0001033	Autoimmune hepatitis	skos:exactMatch	umls	C0241910	manual-negative	github:medinatinajeropablo-dot
+ARI	0001033	Autoimmune hepatitis	skos:exactMatch	umls	C1332355	manual-negative	github:medinatinajeropablo-dot
+ARI	0001205	Ulcerative colitis	skos:exactMatch	umls	C0375359	manual-negative	github:medinatinajeropablo-dot
+ARI	0001208	Uveitis	skos:exactMatch	MONDO	0000554	manual-negative	github:medinatinajeropablo-dot
+ARI	0001210	Vogt-Koyanagi-Harada disease	skos:exactMatch	ncit	C85218	manual-negative	github:medinatinajeropablo-dot
+ARI	0001210	Vogt-Koyanagi-Harada disease	skos:exactMatch	umls	C0042170	manual-negative	github:medinatinajeropablo-dot
+ARI	0001032	Autoimmune hemolytic anemia	skos:exactMatch	omop	36713763	manual-negative	github:medinatinajeropablo-dot
+ARI	0001205	Ulcerative colitis	skos:exactMatch	icd10cm	556.5	manual-negative	github:medinatinajeropablo-dot
+ARI	0001205	Ulcerative colitis	skos:exactMatch	icd10cm	556	manual-negative	github:medinatinajeropablo-dot
+ARI	0001210	Vogt-Koyanagi-Harada disease	skos:exactMatch	icd10cm	364.24	manual-negative	github:medinatinajeropablo-dot
+ARI			skos:exactMatch	ncit	C27778	manual-negative	github:medinatinajeropablo-dot
+ARI			skos:exactMatch	ncit	C38766	manual-negative	github:medinatinajeropablo-dot
+ARI	0001032	Autoimmune hemolytic anemia	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:medinatinajeropablo-dot
+ARI	0001118	Lichen planus	skos:exactMatch	ORPHA	NoTermFound	manual-absent	github:medinatinajeropablo-dot
+ARI	0001199	Systemic sclerosis with limited cutaneous involvement	skos:exactMatch	ncit	NoTermFound	manual-absent	github:medinatinajeropablo-dot
+ARI	0001128	Microscopic colitis	skos:exactMatch	ORPHA	NoTermFound	manual-absent	github:medinatinajeropablo-dot
