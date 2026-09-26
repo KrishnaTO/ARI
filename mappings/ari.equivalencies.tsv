@@ -844,3 +844,111 @@ ARI	0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	umls	C29
 ARI	0001017	Antineutrophil cytoplasmic antibody positive vasculitis	skos:exactMatch	SNOMEDCT	195353004	manual-negative	github:alexlazcano248
 ARI	0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	DOID	9744	manual-negative	github:alexlazcano248
 ARI	0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	MONDO	0011027	manual-negative	github:alexlazcano248
+ARI	0001002	Acquired hemophilia	skos:exactMatch	ORPHA	599480	manual	github:Ari2215
+ARI	0001002	Acquired hemophilia	skos:exactMatch	mesh	C536392	manual	github:Ari2215
+ARI	0001005	Acute lichenoid pityriasis	skos:exactMatch	mesh	D017514	manual	github:Ari2215
+ARI	0001009	Age related macular degeneration	skos:exactMatch	MONDO	0005150	manual	github:Ari2215
+ARI	0001009	Age related macular degeneration	skos:exactMatch	ORPHA	279	manual	github:Ari2215
+ARI	0001010	Alopecia areata	skos:exactMatch	MONDO	0005340	manual	github:Ari2215
+ARI	0001011	Angiofollicular lymph node hyperplasia	skos:exactMatch	MONDO	0015564	manual	github:Ari2215
+ARI	0001011	Angiofollicular lymph node hyperplasia	skos:exactMatch	ORPHA	160	manual	github:Ari2215
+ARI	0001020	Aortic valve calcification	skos:exactMatch	SNOMEDCT	250978003	manual	github:Ari2215
+ARI	0001020	Aortic valve calcification	skos:exactMatch	omop	4108164	manual	github:Ari2215
+ARI	0001020	Aortic valve calcification	skos:exactMatch	MONDO	0005463	manual	github:Ari2215
+ARI	0001020	Aortic valve calcification	skos:exactMatch	umls	C0428791	manual	github:Ari2215
+ARI	0001027	Autoimmune disorder of inner ear	skos:exactMatch	SNOMEDCT	232308006	manual	github:Ari2215
+ARI	0001027	Autoimmune disorder of inner ear	skos:exactMatch	omop	4337463	manual	github:Ari2215
+ARI	0001027	Autoimmune disorder of inner ear	skos:exactMatch	icd10cm	H81.0	manual	github:Ari2215
+ARI	0001027	Autoimmune disorder of inner ear	skos:exactMatch	umls	C0025281	manual	github:Ari2215
+ARI	0001027	Autoimmune disorder of inner ear	skos:exactMatch	mesh	D008575	manual	github:Ari2215
+ARI	0001029	Autoimmune encephalitis caused by N-methyl D-aspartate receptor antibody	skos:exactMatch	SNOMEDCT	716684004	manual	github:Ari2215
+ARI	0001029	Autoimmune encephalitis caused by N-methyl D-aspartate receptor antibody	skos:exactMatch	omop	764228	manual	github:Ari2215
+ARI	0001029	Autoimmune encephalitis caused by N-methyl D-aspartate receptor antibody	skos:exactMatch	omop	37399546	manual	github:Ari2215
+ARI	0001029	Autoimmune encephalitis caused by N-methyl D-aspartate receptor antibody	skos:exactMatch	MONDO	0021081	manual	github:Ari2215
+ARI	0001029	Autoimmune encephalitis caused by N-methyl D-aspartate receptor antibody	skos:exactMatch	ORPHA	217253	manual	github:Ari2215
+ARI	0001029	Autoimmune encephalitis caused by N-methyl D-aspartate receptor antibody	skos:exactMatch	umls	C2986717	manual	github:Ari2215
+ARI	0001029	Autoimmune encephalitis caused by N-methyl D-aspartate receptor antibody	skos:exactMatch	umls	C5700343	manual	github:Ari2215
+ARI	0001029	Autoimmune encephalitis caused by N-methyl D-aspartate receptor antibody	skos:exactMatch	mesh	D060426	manual	github:Ari2215
+ARI	0001037	Autoimmune limbic encephalitis	skos:exactMatch	SNOMEDCT	1300193002	manual	github:Ari2215
+ARI	0001037	Autoimmune limbic encephalitis	skos:exactMatch	omop	1245375	manual	github:Ari2215
+ARI	0001037	Autoimmune limbic encephalitis	skos:exactMatch	MONDO	0850097	manual	github:Ari2215
+ARI	0001037	Autoimmune limbic encephalitis	skos:exactMatch	ORPHA	623615	manual	github:Ari2215
+ARI	0001037	Autoimmune limbic encephalitis	skos:exactMatch	umls	C2930824	manual	github:Ari2215
+ARI	0001037	Autoimmune limbic encephalitis	skos:exactMatch	mesh	C531729	manual	github:Ari2215
+ARI	0001042	Autoimmune optic neuropathy	skos:exactMatch	SNOMEDCT	838324008	manual	github:Ari2215
+ARI	0001042	Autoimmune optic neuropathy	skos:exactMatch	omop	3654632	manual	github:Ari2215
+ARI	0001055	Bickerstaff's brainstem encephalitis	skos:exactMatch	icd10cm	G04.81	manual	github:Ari2215
+ARI	0001055	Bickerstaff's brainstem encephalitis	skos:exactMatch	umls	C1960543	manual	github:Ari2215
+ARI	0001121	Limbic encephalitis	skos:exactMatch	SNOMEDCT	230192003	manual	github:Ari2215
+ARI	0001121	Limbic encephalitis	skos:exactMatch	omop	4041673	manual	github:Ari2215
+ARI	0001121	Limbic encephalitis	skos:exactMatch	DOID	0080741	manual	github:Ari2215
+ARI	0001121	Limbic encephalitis	skos:exactMatch	MONDO	0015588	manual	github:Ari2215
+ARI	0001121	Limbic encephalitis	skos:exactMatch	ncit	C4350	manual	github:Ari2215
+ARI	0001121	Limbic encephalitis	skos:exactMatch	ORPHA	163892	manual	github:Ari2215
+ARI	0001121	Limbic encephalitis	skos:exactMatch	umls	C0338430	manual	github:Ari2215
+ARI	0001121	Limbic encephalitis	skos:exactMatch	mesh	D020363	manual	github:Ari2215
+ARI	0001002	Acquired hemophilia	skos:exactMatch	ORPHA	98878	manual-negative	github:Ari2215
+ARI	0001003	Acute disseminated encephalomyelitis	skos:exactMatch	SNOMEDCT	72986009	manual-negative	github:Ari2215
+ARI	0001001	Acquired epidermolysis bullosa	skos:exactMatch	ncit	C84690	manual-negative	github:Ari2215
+ARI	0001001	Acquired epidermolysis bullosa	skos:exactMatch	mesh	D016107	manual-negative	github:Ari2215
+ARI	0001002	Acquired hemophilia	skos:exactMatch	DOID	12134	manual-negative	github:Ari2215
+ARI	0001007	Adult-onset immunodeficiency due to anti-IFN-gamma autoantibodies	skos:exactMatch	SNOMEDCT	784393004	manual-negative	github:Ari2215
+ARI	0001007	Adult-onset immunodeficiency due to anti-IFN-gamma autoantibodies	skos:exactMatch	omop	37205096	manual-negative	github:Ari2215
+ARI	0001007	Adult-onset immunodeficiency due to anti-IFN-gamma autoantibodies	skos:exactMatch	MONDO	0017617	manual-negative	github:Ari2215
+ARI	0001007	Adult-onset immunodeficiency due to anti-IFN-gamma autoantibodies	skos:exactMatch	ORPHA	306431	manual-negative	github:Ari2215
+ARI	0001007	Adult-onset immunodeficiency due to anti-IFN-gamma autoantibodies	skos:exactMatch	umls	C5191336	manual-negative	github:Ari2215
+ARI	0001013	Anti-CASPR2 autoimmune encephalitis	skos:exactMatch	SNOMEDCT	763803004	manual-negative	github:Ari2215
+ARI	0001013	Anti-CASPR2 autoimmune encephalitis	skos:exactMatch	omop	35622356	manual-negative	github:Ari2215
+ARI	0001013	Anti-CASPR2 autoimmune encephalitis	skos:exactMatch	MONDO	0017179	manual-negative	github:Ari2215
+ARI	0001013	Anti-CASPR2 autoimmune encephalitis	skos:exactMatch	ORPHA	83467	manual-negative	github:Ari2215
+ARI	0001013	Anti-CASPR2 autoimmune encephalitis	skos:exactMatch	ORPHA	276402	manual-negative	github:Ari2215
+ARI	0001013	Anti-CASPR2 autoimmune encephalitis	skos:exactMatch	umls	C3854373	manual-negative	github:Ari2215
+ARI	0001013	Anti-CASPR2 autoimmune encephalitis	skos:exactMatch	umls	C4706582	manual-negative	github:Ari2215
+ARI	0001027	Autoimmune disorder of inner ear	skos:exactMatch	SNOMEDCT	13445001	manual-negative	github:Ari2215
+ARI	0001027	Autoimmune disorder of inner ear	skos:exactMatch	omop	79833	manual-negative	github:Ari2215
+ARI	0001027	Autoimmune disorder of inner ear	skos:exactMatch	DOID	9849	manual-negative	github:Ari2215
+ARI	0001027	Autoimmune disorder of inner ear	skos:exactMatch	MONDO	0007972	manual-negative	github:Ari2215
+ARI	0001027	Autoimmune disorder of inner ear	skos:exactMatch	ncit	C185243	manual-negative	github:Ari2215
+ARI	0001027	Autoimmune disorder of inner ear	skos:exactMatch	ORPHA	45360	manual-negative	github:Ari2215
+ARI	0001029	Autoimmune encephalitis caused by N-methyl D-aspartate receptor antibody	skos:exactMatch	SNOMEDCT	452281000124106	manual-negative	github:Ari2215
+ARI	0001029	Autoimmune encephalitis caused by N-methyl D-aspartate receptor antibody	skos:exactMatch	ncit	C94853	manual-negative	github:Ari2215
+ARI	0001055	Bickerstaff's brainstem encephalitis	skos:exactMatch	MONDO	0019208	manual-negative	github:Ari2215
+ARI	0001055	Bickerstaff's brainstem encephalitis	skos:exactMatch	ORPHA	79138	manual-negative	github:Ari2215
+ARI	0001024	Autoimmune cerebellar ataxia	skos:exactMatch	DOID	0050753	manual-negative	github:Ari2215
+ARI	0001024	Autoimmune cerebellar ataxia	skos:exactMatch	MONDO	0000437	manual-negative	github:Ari2215
+ARI	0001024	Autoimmune cerebellar ataxia	skos:exactMatch	ncit	C82341	manual-negative	github:Ari2215
+ARI	0001024	Autoimmune cerebellar ataxia	skos:exactMatch	ORPHA	624268	manual-negative	github:Ari2215
+ARI	0001024	Autoimmune cerebellar ataxia	skos:exactMatch	ORPHA	102002	manual-negative	github:Ari2215
+ARI	0001024	Autoimmune cerebellar ataxia	skos:exactMatch	umls	C5576703	manual-negative	github:Ari2215
+ARI	0001024	Autoimmune cerebellar ataxia	skos:exactMatch	umls	C0007758	manual-negative	github:Ari2215
+ARI	0001024	Autoimmune cerebellar ataxia	skos:exactMatch	mesh	D002524	manual-negative	github:Ari2215
+ARI	0001025	Autoimmune diabetes insipidus (neurogenic)	skos:exactMatch	SNOMEDCT	45369008	manual-negative	github:Ari2215
+ARI	0001025	Autoimmune diabetes insipidus (neurogenic)	skos:exactMatch	DOID	0081055	manual-negative	github:Ari2215
+ARI	0001025	Autoimmune diabetes insipidus (neurogenic)	skos:exactMatch	DOID	12388	manual-negative	github:Ari2215
+ARI	0001025	Autoimmune diabetes insipidus (neurogenic)	skos:exactMatch	MONDO	0015790	manual-negative	github:Ari2215
+ARI	0001025	Autoimmune diabetes insipidus (neurogenic)	skos:exactMatch	MONDO	0007450	manual-negative	github:Ari2215
+ARI	0001025	Autoimmune diabetes insipidus (neurogenic)	skos:exactMatch	MONDO	0019846	manual-negative	github:Ari2215
+ARI	0001025	Autoimmune diabetes insipidus (neurogenic)	skos:exactMatch	ncit	C84933	manual-negative	github:Ari2215
+ARI	0001025	Autoimmune diabetes insipidus (neurogenic)	skos:exactMatch	icd10cm	E23.2	manual-negative	github:Ari2215
+ARI	0001025	Autoimmune diabetes insipidus (neurogenic)	skos:exactMatch	ORPHA	178029	manual-negative	github:Ari2215
+ARI	0001025	Autoimmune diabetes insipidus (neurogenic)	skos:exactMatch	ORPHA	30925	manual-negative	github:Ari2215
+ARI	0001025	Autoimmune diabetes insipidus (neurogenic)	skos:exactMatch	ORPHA	95626	manual-negative	github:Ari2215
+ARI	0001025	Autoimmune diabetes insipidus (neurogenic)	skos:exactMatch	umls	C0687720	manual-negative	github:Ari2215
+ARI	0001025	Autoimmune diabetes insipidus (neurogenic)	skos:exactMatch	umls	C5680256	manual-negative	github:Ari2215
+ARI	0001025	Autoimmune diabetes insipidus (neurogenic)	skos:exactMatch	umls	C0342394	manual-negative	github:Ari2215
+ARI	0001025	Autoimmune diabetes insipidus (neurogenic)	skos:exactMatch	umls	C5680110	manual-negative	github:Ari2215
+ARI	0001025	Autoimmune diabetes insipidus (neurogenic)	skos:exactMatch	mesh	D020790	manual-negative	github:Ari2215
+ARI	0001042	Autoimmune optic neuropathy	skos:exactMatch	DOID	0060499	manual-negative	github:Ari2215
+ARI	0001042	Autoimmune optic neuropathy	skos:exactMatch	DOID	0040087	manual-negative	github:Ari2215
+ARI	0001042	Autoimmune optic neuropathy	skos:exactMatch	DOID	1891	manual-negative	github:Ari2215
+ARI	0001042	Autoimmune optic neuropathy	skos:exactMatch	MONDO	0044685	manual-negative	github:Ari2215
+ARI	0001042	Autoimmune optic neuropathy	skos:exactMatch	MONDO	0000774	manual-negative	github:Ari2215
+ARI	0001042	Autoimmune optic neuropathy	skos:exactMatch	ncit	C118711	manual-negative	github:Ari2215
+ARI	0001042	Autoimmune optic neuropathy	skos:exactMatch	ncit	C79698	manual-negative	github:Ari2215
+ARI	0001042	Autoimmune optic neuropathy	skos:exactMatch	ORPHA	499047	manual-negative	github:Ari2215
+ARI	0001042	Autoimmune optic neuropathy	skos:exactMatch	ORPHA	519335	manual-negative	github:Ari2215
+ARI	0001042	Autoimmune optic neuropathy	skos:exactMatch	umls	C5681239	manual-negative	github:Ari2215
+ARI	0001042	Autoimmune optic neuropathy	skos:exactMatch	umls	C0029132	manual-negative	github:Ari2215
+ARI	0001042	Autoimmune optic neuropathy	skos:exactMatch	umls	C2748363	manual-negative	github:Ari2215
+ARI	0001042	Autoimmune optic neuropathy	skos:exactMatch	mesh	D009901	manual-negative	github:Ari2215
+ARI	0001024	Autoimmune cerebellar ataxia	skos:exactMatch	SNOMEDCT	85102008	manual-negative	github:Ari2215
