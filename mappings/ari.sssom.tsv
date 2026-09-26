@@ -23,41 +23,41 @@ subject_id	subject_label	predicate_id	predicate_modifier	object_id	object_source
 ARI:0001008	Adult onset Still's disease	skos:exactMatch		umls:C0085253	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21T00:00:00+00:00	
 ARI:0001008	Adult onset Still's disease	skos:exactMatch		DOID:14256	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21T00:00:00+00:00	
 ARI:0001008	Adult onset Still's disease	skos:exactMatch		icd10cm:M06.1	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21T00:00:00+00:00	
-ARI:0001008	Adult onset Still's disease	skos:exactMatch		mesh:D016706	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21T00:00:00+00:00	
+ARI:0001008	Adult onset Still's disease	skos:exactMatch		mesh:D016706	mesh	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
 ARI:0001008	Adult onset Still's disease	skos:exactMatch		ncit:C197832	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21T00:00:00+00:00	
-ARI:0001007	Adult-onset immunodeficiency due to anti-IFN-gamma autoantibodies	skos:exactMatch		SNOMEDCT:784393004	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21T00:00:00+00:00	
-ARI:0001007	Adult-onset immunodeficiency due to anti-IFN-gamma autoantibodies	skos:exactMatch		omop:37205096	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21T00:00:00+00:00	
-ARI:0001009	Age related macular degeneration	skos:exactMatch		SNOMEDCT:267718000	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21T00:00:00+00:00	
-ARI:0001009	Age related macular degeneration	skos:exactMatch		omop:374028	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21T00:00:00+00:00	
-ARI:0001009	Age related macular degeneration	skos:exactMatch		DOID:10871	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21T00:00:00+00:00	
-ARI:0001009	Age related macular degeneration	skos:exactMatch		umls:C0242383	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21T00:00:00+00:00	
-ARI:0001009	Age related macular degeneration	skos:exactMatch		mesh:D008268	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21T00:00:00+00:00	
-ARI:0001009	Age related macular degeneration	skos:exactMatch		ncit:C84391	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21T00:00:00+00:00	
-ARI:0001001	Acquired epidermolysis bullosa	skos:exactMatch		SNOMEDCT:2772003	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21T00:00:00+00:00	
-ARI:0001001	Acquired epidermolysis bullosa	skos:exactMatch		omop:4100661	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21T00:00:00+00:00	
+ARI:0001007	Adult-onset immunodeficiency due to anti-IFN-gamma autoantibodies	skos:exactMatch		SNOMEDCT:784393004	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21T00:00:00+00:00	Superseded by the negative judgment of github:Ari2215 on 2026-09-26T02:09:36+00:00.
+ARI:0001007	Adult-onset immunodeficiency due to anti-IFN-gamma autoantibodies	skos:exactMatch		omop:37205096	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21T00:00:00+00:00	Superseded by the negative judgment of github:Ari2215 on 2026-09-26T02:09:36+00:00.
+ARI:0001009	Age related macular degeneration	skos:exactMatch		SNOMEDCT:267718000	SNOMEDCT	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001009	Age related macular degeneration	skos:exactMatch		omop:374028	omop	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001009	Age related macular degeneration	skos:exactMatch		DOID:10871	DOID	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001009	Age related macular degeneration	skos:exactMatch		umls:C0242383	umls	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001009	Age related macular degeneration	skos:exactMatch		mesh:D008268	mesh	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001009	Age related macular degeneration	skos:exactMatch		ncit:C84391	ncit	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001001	Acquired epidermolysis bullosa	skos:exactMatch		SNOMEDCT:2772003	SNOMEDCT	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001001	Acquired epidermolysis bullosa	skos:exactMatch		omop:4100661	omop	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
 ARI:0001002	Acquired hemophilia	skos:exactMatch		SNOMEDCT:785308008	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21T00:00:00+00:00	
-ARI:0001002	Acquired hemophilia	skos:exactMatch		omop:37203917	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21T00:00:00+00:00	
-ARI:0001003	Acute disseminated encephalomyelitis	skos:exactMatch		SNOMEDCT:83942000	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21T00:00:00+00:00	
+ARI:0001002	Acquired hemophilia	skos:exactMatch		omop:37203917	omop	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001003	Acute disseminated encephalomyelitis	skos:exactMatch		SNOMEDCT:83942000	SNOMEDCT	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
 ARI:0001003	Acute disseminated encephalomyelitis	skos:exactMatch		omop:374021	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21T00:00:00+00:00	
 ARI:0001003	Acute disseminated encephalomyelitis	skos:exactMatch		DOID:639	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21T00:00:00+00:00	
-ARI:0001001	Acquired epidermolysis bullosa	skos:exactMatch		DOID:4313	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21T00:00:00+00:00	
+ARI:0001001	Acquired epidermolysis bullosa	skos:exactMatch		DOID:4313	DOID	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
 ARI:0001001	Acquired epidermolysis bullosa	skos:exactMatch		umls:C0079293	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21T00:00:00+00:00	
-ARI:0001001	Acquired epidermolysis bullosa	skos:exactMatch		icd10cm:L12.3	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21T00:00:00+00:00	
-ARI:0001001	Acquired epidermolysis bullosa	skos:exactMatch		mesh:D016107	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21T00:00:00+00:00	
-ARI:0001001	Acquired epidermolysis bullosa	skos:exactMatch		ncit:C84690	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21T00:00:00+00:00	
+ARI:0001001	Acquired epidermolysis bullosa	skos:exactMatch		icd10cm:L12.3	icd10cm	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001001	Acquired epidermolysis bullosa	skos:exactMatch		mesh:D016107	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21T00:00:00+00:00	Superseded by the negative judgment of github:Ari2215 on 2026-09-26T02:09:36+00:00.
+ARI:0001001	Acquired epidermolysis bullosa	skos:exactMatch		ncit:C84690	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21T00:00:00+00:00	Superseded by the negative judgment of github:Ari2215 on 2026-09-26T02:09:36+00:00.
 ARI:0001003	Acute disseminated encephalomyelitis	skos:exactMatch		ncit:C34578	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21T00:00:00+00:00	
 ARI:0001003	Acute disseminated encephalomyelitis	skos:exactMatch		mesh:D004673	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21T00:00:00+00:00	
 ARI:0001003	Acute disseminated encephalomyelitis	skos:exactMatch		umls:C0014059	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21T00:00:00+00:00	
 ARI:0001004	Acute febrile mucocutaneous lymph node syndrome	skos:exactMatch		SNOMEDCT:75053002	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21T00:00:00+00:00	
-ARI:0001004	Acute febrile mucocutaneous lymph node syndrome	skos:exactMatch		omop:314381	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21T00:00:00+00:00	
-ARI:0001004	Acute febrile mucocutaneous lymph node syndrome	skos:exactMatch		DOID:13378	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21T00:00:00+00:00	
+ARI:0001004	Acute febrile mucocutaneous lymph node syndrome	skos:exactMatch		omop:314381	omop	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001004	Acute febrile mucocutaneous lymph node syndrome	skos:exactMatch		DOID:13378	DOID	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
 ARI:0001004	Acute febrile mucocutaneous lymph node syndrome	skos:exactMatch		umls:C0026691	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21T00:00:00+00:00	
-ARI:0001004	Acute febrile mucocutaneous lymph node syndrome	skos:exactMatch		icd10cm:M30.3	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21T00:00:00+00:00	
-ARI:0001004	Acute febrile mucocutaneous lymph node syndrome	skos:exactMatch		mesh:D009080	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21T00:00:00+00:00	
-ARI:0001004	Acute febrile mucocutaneous lymph node syndrome	skos:exactMatch		ncit:C34825	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21T00:00:00+00:00	
-ARI:0001005	Acute lichenoid pityriasis	skos:exactMatch		SNOMEDCT:86487001	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21T00:00:00+00:00	
-ARI:0001005	Acute lichenoid pityriasis	skos:exactMatch		omop:4314705	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21T00:00:00+00:00	
-ARI:0001006	Addison's disease	skos:exactMatch		DOID:13774	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21T00:00:00+00:00	
+ARI:0001004	Acute febrile mucocutaneous lymph node syndrome	skos:exactMatch		icd10cm:M30.3	icd10cm	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001004	Acute febrile mucocutaneous lymph node syndrome	skos:exactMatch		mesh:D009080	mesh	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001004	Acute febrile mucocutaneous lymph node syndrome	skos:exactMatch		ncit:C34825	ncit	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001005	Acute lichenoid pityriasis	skos:exactMatch		SNOMEDCT:86487001	SNOMEDCT	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001005	Acute lichenoid pityriasis	skos:exactMatch		omop:4314705	omop	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001006	Addison's disease	skos:exactMatch		DOID:13774	DOID	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
 ARI:0001006	Addison's disease	skos:exactMatch		umls:C0001403	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21T00:00:00+00:00	
 ARI:0001006	Addison's disease	skos:exactMatch		icd10cm:E27.1	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21T00:00:00+00:00	
 ARI:0001006	Addison's disease	skos:exactMatch		mesh:D000224	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21T00:00:00+00:00	
@@ -65,23 +65,23 @@ ARI:0001006	Addison's disease	skos:exactMatch		ncit:C26689	ncit	semapv:ManualMap
 ARI:0001008	Adult onset Still's disease	skos:exactMatch		SNOMEDCT:239920006	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21T00:00:00+00:00	
 ARI:0001008	Adult onset Still's disease	skos:exactMatch		omop:4344166	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-21T00:00:00+00:00	
 ARI:0001006	Addison's disease	skos:exactMatch		SNOMEDCT:363732003	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-25T00:00:00+00:00	
-ARI:0001009	Age related macular degeneration	skos:exactMatch		icd10cm:H35.30	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-25T00:00:00+00:00	
-ARI:0001010	Alopecia areata	skos:exactMatch		umls:C0002171	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-25T00:00:00+00:00	
-ARI:0001011	Angiofollicular lymph node hyperplasia	skos:exactMatch		umls:C0017531	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-25T00:00:00+00:00	
+ARI:0001009	Age related macular degeneration	skos:exactMatch		icd10cm:H35.30	icd10cm	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001010	Alopecia areata	skos:exactMatch		umls:C0002171	umls	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001011	Angiofollicular lymph node hyperplasia	skos:exactMatch		umls:C0017531	umls	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
 ARI:0001012	Ankylosing spondylitis	skos:exactMatch		umls:C0038013	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-25T00:00:00+00:00	
-ARI:0001010	Alopecia areata	skos:exactMatch		DOID:986	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-25T00:00:00+00:00	
-ARI:0001011	Angiofollicular lymph node hyperplasia	skos:exactMatch		DOID:0111157	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-25T00:00:00+00:00	
+ARI:0001010	Alopecia areata	skos:exactMatch		DOID:986	DOID	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001011	Angiofollicular lymph node hyperplasia	skos:exactMatch		DOID:0111157	DOID	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
 ARI:0001012	Ankylosing spondylitis	skos:exactMatch		DOID:7147	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-25T00:00:00+00:00	
-ARI:0001011	Angiofollicular lymph node hyperplasia	skos:exactMatch		SNOMEDCT:207036003	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-25T00:00:00+00:00	
+ARI:0001011	Angiofollicular lymph node hyperplasia	skos:exactMatch		SNOMEDCT:207036003	SNOMEDCT	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
 ARI:0001012	Ankylosing spondylitis	skos:exactMatch		SNOMEDCT:9631008	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-25T00:00:00+00:00	
-ARI:0001010	Alopecia areata	skos:exactMatch		SNOMEDCT:68225006	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-25T00:00:00+00:00	
-ARI:0001010	Alopecia areata	skos:exactMatch		icd10cm:L63	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-25T00:00:00+00:00	
-ARI:0001011	Angiofollicular lymph node hyperplasia	skos:exactMatch		icd10cm:D47.Z2	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-25T00:00:00+00:00	
+ARI:0001010	Alopecia areata	skos:exactMatch		SNOMEDCT:68225006	SNOMEDCT	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001010	Alopecia areata	skos:exactMatch		icd10cm:L63	icd10cm	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001011	Angiofollicular lymph node hyperplasia	skos:exactMatch		icd10cm:D47.Z2	icd10cm	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
 ARI:0001012	Ankylosing spondylitis	skos:exactMatch		icd10cm:M45	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-25T00:00:00+00:00	
-ARI:0001010	Alopecia areata	skos:exactMatch		mesh:D000506	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-25T00:00:00+00:00	
-ARI:0001011	Angiofollicular lymph node hyperplasia	skos:exactMatch		mesh:D005871	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-25T00:00:00+00:00	
+ARI:0001010	Alopecia areata	skos:exactMatch		mesh:D000506	mesh	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001011	Angiofollicular lymph node hyperplasia	skos:exactMatch		mesh:D005871	mesh	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
 ARI:0001012	Ankylosing spondylitis	skos:exactMatch		mesh:D013167	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-25T00:00:00+00:00	
-ARI:0001011	Angiofollicular lymph node hyperplasia	skos:exactMatch		ncit:C3056	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-25T00:00:00+00:00	
+ARI:0001011	Angiofollicular lymph node hyperplasia	skos:exactMatch		ncit:C3056	ncit	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
 ARI:0001012	Ankylosing spondylitis	skos:exactMatch		ncit:C84564	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-25T00:00:00+00:00	
 ARI:0001006	Addison's disease	skos:exactMatch	Not	SNOMEDCT:386584007	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-25T00:00:00+00:00	
 ARI:0001010	Alopecia areata	skos:exactMatch	Not	SNOMEDCT:19754005	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-25T00:00:00+00:00	
@@ -89,14 +89,14 @@ ARI:0001010	Alopecia areata	skos:exactMatch	Not	SNOMEDCT:86166000	SNOMEDCT	semap
 ARI:0001011	Angiofollicular lymph node hyperplasia	skos:exactMatch	Not	mesh:C536362	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-25T00:00:00+00:00	
 ARI:0001006	Addison's disease	skos:exactMatch		omop:443394	omop	semapv:ManualMappingCuration	github:AnjaliRH	2026-06-29T00:00:00+00:00	
 ARI:0001006	Addison's disease	skos:exactMatch		MONDO:0100480	MONDO	semapv:ManualMappingCuration	github:AnjaliRH	2026-06-29T00:00:00+00:00	
-ARI:0001008	Adult onset Still's disease	skos:exactMatch		MONDO:0019355	MONDO	semapv:ManualMappingCuration	github:AnjaliRH	2026-06-29T00:00:00+00:00	
+ARI:0001008	Adult onset Still's disease	skos:exactMatch		MONDO:0019355	MONDO	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
 ARI:0001005	Acute lichenoid pityriasis	skos:exactMatch		MONDO:0024250	MONDO	semapv:ManualMappingCuration	github:AnjaliRH	2026-06-29T00:00:00+00:00	
-ARI:0001005	Acute lichenoid pityriasis	skos:exactMatch		ncit:C37871	ncit	semapv:ManualMappingCuration	github:AnjaliRH	2026-06-29T00:00:00+00:00	
-ARI:0001005	Acute lichenoid pityriasis	skos:exactMatch		icd10cm:L41.0	icd10cm	semapv:ManualMappingCuration	github:AnjaliRH	2026-06-29T00:00:00+00:00	
-ARI:0001010	Alopecia areata	skos:exactMatch		omop:141933	omop	semapv:ManualMappingCuration	github:AnjaliRH	2026-06-29T00:00:00+00:00	
+ARI:0001005	Acute lichenoid pityriasis	skos:exactMatch		ncit:C37871	ncit	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001005	Acute lichenoid pityriasis	skos:exactMatch		icd10cm:L41.0	icd10cm	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001010	Alopecia areata	skos:exactMatch		omop:141933	omop	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
 ARI:0001012	Ankylosing spondylitis	skos:exactMatch		omop:437082	omop	semapv:ManualMappingCuration	github:AnjaliRH	2026-06-29T00:00:00+00:00	
 ARI:0001012	Ankylosing spondylitis	skos:exactMatch		MONDO:0005306	MONDO	semapv:ManualMappingCuration	github:AnjaliRH	2026-06-29T00:00:00+00:00	
-ARI:0001011	Angiofollicular lymph node hyperplasia	skos:exactMatch		omop:4118225	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-29T00:00:00+00:00	
+ARI:0001011	Angiofollicular lymph node hyperplasia	skos:exactMatch		omop:4118225	omop	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
 ARI:0001010	Alopecia areata	skos:exactMatch	Not	omop:4056343	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-29T00:00:00+00:00	
 ARI:0001010	Alopecia areata	skos:exactMatch	Not	omop:4312756	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-29T00:00:00+00:00	
 ARI:0001003	Acute disseminated encephalomyelitis	skos:exactMatch	Not	omop:4249574	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-06-29T00:00:00+00:00	
@@ -227,8 +227,8 @@ ARI:0001054	Benign mucous membrane pemphigoid	skos:exactMatch		ncit:C34907	ncit	
 ARI:0001054	Benign mucous membrane pemphigoid	skos:exactMatch		icd10cm:L12.1	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11T00:00:00+00:00	
 ARI:0001054	Benign mucous membrane pemphigoid	skos:exactMatch		umls:C0030804	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11T00:00:00+00:00	
 ARI:0001054	Benign mucous membrane pemphigoid	skos:exactMatch		mesh:D010390	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11T00:00:00+00:00	
-ARI:0001055	Bickerstaff's brainstem encephalitis	skos:exactMatch		SNOMEDCT:427086003	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11T00:00:00+00:00	
-ARI:0001055	Bickerstaff's brainstem encephalitis	skos:exactMatch		omop:4141686	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11T00:00:00+00:00	
+ARI:0001055	Bickerstaff's brainstem encephalitis	skos:exactMatch		SNOMEDCT:427086003	SNOMEDCT	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001055	Bickerstaff's brainstem encephalitis	skos:exactMatch		omop:4141686	omop	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
 ARI:0001053	Behçet's syndrome	skos:exactMatch	Not	SNOMEDCT:721226005	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11T00:00:00+00:00	
 ARI:0001053	Behçet's syndrome	skos:exactMatch	Not	omop:36715522	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11T00:00:00+00:00	
 ARI:0001054	Benign mucous membrane pemphigoid	skos:exactMatch	Not	SNOMEDCT:314757003	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-07-11T00:00:00+00:00	
@@ -551,15 +551,15 @@ ARI:0001056	Birdshot chorioretinopathy	skos:exactMatch		ORPHA:179	ORPHA	semapv:M
 ARI:0001056	Birdshot chorioretinopathy	skos:exactMatch		omop:4334133	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-30T20:37:59+00:00	
 ARI:0001002	Acquired hemophilia	skos:exactMatch		MONDO:0019139	MONDO	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-30T20:37:59+00:00	
 ARI:0001002	Acquired hemophilia	skos:exactMatch		ncit:C197822	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-30T20:37:59+00:00	
-ARI:0001002	Acquired hemophilia	skos:exactMatch		icd10cm:D68.311	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-30T20:37:59+00:00	
+ARI:0001002	Acquired hemophilia	skos:exactMatch		icd10cm:D68.311	icd10cm	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
 ARI:0001002	Acquired hemophilia	skos:exactMatch		umls:C1096116	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-30T20:37:59+00:00	
 ARI:0001003	Acute disseminated encephalomyelitis	skos:exactMatch		MONDO:0019383	MONDO	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-30T20:37:59+00:00	
-ARI:0001003	Acute disseminated encephalomyelitis	skos:exactMatch		icd10cm:G04.0	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-30T20:37:59+00:00	
-ARI:0001003	Acute disseminated encephalomyelitis	skos:exactMatch		ORPHA:83597	ORPHA	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-30T20:37:59+00:00	
-ARI:0001004	Acute febrile mucocutaneous lymph node syndrome	skos:exactMatch		MONDO:0012727	MONDO	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-30T20:37:59+00:00	
+ARI:0001003	Acute disseminated encephalomyelitis	skos:exactMatch		icd10cm:G04.0	icd10cm	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001003	Acute disseminated encephalomyelitis	skos:exactMatch		ORPHA:83597	ORPHA	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001004	Acute febrile mucocutaneous lymph node syndrome	skos:exactMatch		MONDO:0012727	MONDO	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
 ARI:0001005	Acute lichenoid pityriasis	skos:exactMatch		umls:C0162852	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-30T20:37:59+00:00	
-ARI:0001006	Addison's disease	skos:exactMatch		ORPHA:85138	ORPHA	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-30T20:37:59+00:00	
-ARI:0001008	Adult onset Still's disease	skos:exactMatch		ORPHA:829	ORPHA	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-30T20:37:59+00:00	
+ARI:0001006	Addison's disease	skos:exactMatch		ORPHA:85138	ORPHA	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001008	Adult onset Still's disease	skos:exactMatch		ORPHA:829	ORPHA	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
 ARI:0001002	Acquired hemophilia	skos:exactMatch		sssom:NoTermFound	ORPHA	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-30T20:37:59+00:00	
 ARI:0001002	Acquired hemophilia	skos:exactMatch		sssom:NoTermFound	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-30T20:37:59+00:00	
 ARI:0001004	Acute febrile mucocutaneous lymph node syndrome	skos:exactMatch		sssom:NoTermFound	ORPHA	semapv:ManualMappingCuration	github:KrishnaTO	2026-08-30T20:37:59+00:00	
@@ -804,8 +804,8 @@ ARI:0001162	Polymyositis	skos:exactMatch		icd10cm:M33.2	icd10cm	semapv:ManualMap
 ARI:0001162	Polymyositis	skos:exactMatch		ORPHA:732	ORPHA	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
 ARI:0001162	Polymyositis	skos:exactMatch		umls:C0085655	umls	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
 ARI:0001162	Polymyositis	skos:exactMatch		mesh:D017285	mesh	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
-ARI:0001001	Acquired epidermolysis bullosa	skos:exactMatch		MONDO:0018747	MONDO	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
-ARI:0001001	Acquired epidermolysis bullosa	skos:exactMatch		ORPHA:46487	ORPHA	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001001	Acquired epidermolysis bullosa	skos:exactMatch		MONDO:0018747	MONDO	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001001	Acquired epidermolysis bullosa	skos:exactMatch		ORPHA:46487	ORPHA	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
 ARI:0001012	Ankylosing spondylitis	skos:exactMatch		ORPHA:825	ORPHA	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
 ARI:0001015	Anti-MAG neuropathy	skos:exactMatch		MONDO:0018977	MONDO	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
 ARI:0001015	Anti-MAG neuropathy	skos:exactMatch		ORPHA:639	ORPHA	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
@@ -865,3 +865,111 @@ ARI:0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	Not	umls
 ARI:0001017	Antineutrophil cytoplasmic antibody positive vasculitis	skos:exactMatch	Not	SNOMEDCT:195353004	SNOMEDCT	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
 ARI:0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	Not	DOID:9744	DOID	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
 ARI:0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	Not	MONDO:0011027	MONDO	semapv:ManualMappingCuration	github:alexlazcano248	2026-09-24T12:40:43+00:00	
+ARI:0001002	Acquired hemophilia	skos:exactMatch		ORPHA:599480	ORPHA	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001002	Acquired hemophilia	skos:exactMatch		mesh:C536392	mesh	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001005	Acute lichenoid pityriasis	skos:exactMatch		mesh:D017514	mesh	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001009	Age related macular degeneration	skos:exactMatch		MONDO:0005150	MONDO	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001009	Age related macular degeneration	skos:exactMatch		ORPHA:279	ORPHA	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001010	Alopecia areata	skos:exactMatch		MONDO:0005340	MONDO	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001011	Angiofollicular lymph node hyperplasia	skos:exactMatch		MONDO:0015564	MONDO	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001011	Angiofollicular lymph node hyperplasia	skos:exactMatch		ORPHA:160	ORPHA	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001020	Aortic valve calcification	skos:exactMatch		SNOMEDCT:250978003	SNOMEDCT	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001020	Aortic valve calcification	skos:exactMatch		omop:4108164	omop	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001020	Aortic valve calcification	skos:exactMatch		MONDO:0005463	MONDO	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001020	Aortic valve calcification	skos:exactMatch		umls:C0428791	umls	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001027	Autoimmune disorder of inner ear	skos:exactMatch		SNOMEDCT:232308006	SNOMEDCT	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001027	Autoimmune disorder of inner ear	skos:exactMatch		omop:4337463	omop	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001027	Autoimmune disorder of inner ear	skos:exactMatch		icd10cm:H81.0	icd10cm	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001027	Autoimmune disorder of inner ear	skos:exactMatch		umls:C0025281	umls	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001027	Autoimmune disorder of inner ear	skos:exactMatch		mesh:D008575	mesh	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001029	Autoimmune encephalitis caused by N-methyl D-aspartate receptor antibody	skos:exactMatch		SNOMEDCT:716684004	SNOMEDCT	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001029	Autoimmune encephalitis caused by N-methyl D-aspartate receptor antibody	skos:exactMatch		omop:764228	omop	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001029	Autoimmune encephalitis caused by N-methyl D-aspartate receptor antibody	skos:exactMatch		omop:37399546	omop	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001029	Autoimmune encephalitis caused by N-methyl D-aspartate receptor antibody	skos:exactMatch		MONDO:0021081	MONDO	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001029	Autoimmune encephalitis caused by N-methyl D-aspartate receptor antibody	skos:exactMatch		ORPHA:217253	ORPHA	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001029	Autoimmune encephalitis caused by N-methyl D-aspartate receptor antibody	skos:exactMatch		umls:C2986717	umls	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001029	Autoimmune encephalitis caused by N-methyl D-aspartate receptor antibody	skos:exactMatch		umls:C5700343	umls	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001029	Autoimmune encephalitis caused by N-methyl D-aspartate receptor antibody	skos:exactMatch		mesh:D060426	mesh	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001037	Autoimmune limbic encephalitis	skos:exactMatch		SNOMEDCT:1300193002	SNOMEDCT	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001037	Autoimmune limbic encephalitis	skos:exactMatch		omop:1245375	omop	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001037	Autoimmune limbic encephalitis	skos:exactMatch		MONDO:0850097	MONDO	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001037	Autoimmune limbic encephalitis	skos:exactMatch		ORPHA:623615	ORPHA	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001037	Autoimmune limbic encephalitis	skos:exactMatch		umls:C2930824	umls	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001037	Autoimmune limbic encephalitis	skos:exactMatch		mesh:C531729	mesh	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001042	Autoimmune optic neuropathy	skos:exactMatch		SNOMEDCT:838324008	SNOMEDCT	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001042	Autoimmune optic neuropathy	skos:exactMatch		omop:3654632	omop	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001055	Bickerstaff's brainstem encephalitis	skos:exactMatch		icd10cm:G04.81	icd10cm	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001055	Bickerstaff's brainstem encephalitis	skos:exactMatch		umls:C1960543	umls	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001121	Limbic encephalitis	skos:exactMatch		SNOMEDCT:230192003	SNOMEDCT	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001121	Limbic encephalitis	skos:exactMatch		omop:4041673	omop	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001121	Limbic encephalitis	skos:exactMatch		DOID:0080741	DOID	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001121	Limbic encephalitis	skos:exactMatch		MONDO:0015588	MONDO	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001121	Limbic encephalitis	skos:exactMatch		ncit:C4350	ncit	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001121	Limbic encephalitis	skos:exactMatch		ORPHA:163892	ORPHA	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001121	Limbic encephalitis	skos:exactMatch		umls:C0338430	umls	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001121	Limbic encephalitis	skos:exactMatch		mesh:D020363	mesh	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001002	Acquired hemophilia	skos:exactMatch	Not	ORPHA:98878	ORPHA	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001003	Acute disseminated encephalomyelitis	skos:exactMatch	Not	SNOMEDCT:72986009	SNOMEDCT	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001001	Acquired epidermolysis bullosa	skos:exactMatch	Not	ncit:C84690	ncit	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001001	Acquired epidermolysis bullosa	skos:exactMatch	Not	mesh:D016107	mesh	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001002	Acquired hemophilia	skos:exactMatch	Not	DOID:12134	DOID	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001007	Adult-onset immunodeficiency due to anti-IFN-gamma autoantibodies	skos:exactMatch	Not	SNOMEDCT:784393004	SNOMEDCT	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001007	Adult-onset immunodeficiency due to anti-IFN-gamma autoantibodies	skos:exactMatch	Not	omop:37205096	omop	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001007	Adult-onset immunodeficiency due to anti-IFN-gamma autoantibodies	skos:exactMatch	Not	MONDO:0017617	MONDO	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001007	Adult-onset immunodeficiency due to anti-IFN-gamma autoantibodies	skos:exactMatch	Not	ORPHA:306431	ORPHA	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001007	Adult-onset immunodeficiency due to anti-IFN-gamma autoantibodies	skos:exactMatch	Not	umls:C5191336	umls	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001013	Anti-CASPR2 autoimmune encephalitis	skos:exactMatch	Not	SNOMEDCT:763803004	SNOMEDCT	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001013	Anti-CASPR2 autoimmune encephalitis	skos:exactMatch	Not	omop:35622356	omop	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001013	Anti-CASPR2 autoimmune encephalitis	skos:exactMatch	Not	MONDO:0017179	MONDO	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001013	Anti-CASPR2 autoimmune encephalitis	skos:exactMatch	Not	ORPHA:83467	ORPHA	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001013	Anti-CASPR2 autoimmune encephalitis	skos:exactMatch	Not	ORPHA:276402	ORPHA	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001013	Anti-CASPR2 autoimmune encephalitis	skos:exactMatch	Not	umls:C3854373	umls	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001013	Anti-CASPR2 autoimmune encephalitis	skos:exactMatch	Not	umls:C4706582	umls	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001027	Autoimmune disorder of inner ear	skos:exactMatch	Not	SNOMEDCT:13445001	SNOMEDCT	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001027	Autoimmune disorder of inner ear	skos:exactMatch	Not	omop:79833	omop	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001027	Autoimmune disorder of inner ear	skos:exactMatch	Not	DOID:9849	DOID	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001027	Autoimmune disorder of inner ear	skos:exactMatch	Not	MONDO:0007972	MONDO	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001027	Autoimmune disorder of inner ear	skos:exactMatch	Not	ncit:C185243	ncit	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001027	Autoimmune disorder of inner ear	skos:exactMatch	Not	ORPHA:45360	ORPHA	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001029	Autoimmune encephalitis caused by N-methyl D-aspartate receptor antibody	skos:exactMatch	Not	SNOMEDCT:452281000124106	SNOMEDCT	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001029	Autoimmune encephalitis caused by N-methyl D-aspartate receptor antibody	skos:exactMatch	Not	ncit:C94853	ncit	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001055	Bickerstaff's brainstem encephalitis	skos:exactMatch	Not	MONDO:0019208	MONDO	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001055	Bickerstaff's brainstem encephalitis	skos:exactMatch	Not	ORPHA:79138	ORPHA	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001024	Autoimmune cerebellar ataxia	skos:exactMatch	Not	DOID:0050753	DOID	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001024	Autoimmune cerebellar ataxia	skos:exactMatch	Not	MONDO:0000437	MONDO	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001024	Autoimmune cerebellar ataxia	skos:exactMatch	Not	ncit:C82341	ncit	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001024	Autoimmune cerebellar ataxia	skos:exactMatch	Not	ORPHA:624268	ORPHA	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001024	Autoimmune cerebellar ataxia	skos:exactMatch	Not	ORPHA:102002	ORPHA	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001024	Autoimmune cerebellar ataxia	skos:exactMatch	Not	umls:C5576703	umls	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001024	Autoimmune cerebellar ataxia	skos:exactMatch	Not	umls:C0007758	umls	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001024	Autoimmune cerebellar ataxia	skos:exactMatch	Not	mesh:D002524	mesh	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001025	Autoimmune diabetes insipidus (neurogenic)	skos:exactMatch	Not	SNOMEDCT:45369008	SNOMEDCT	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001025	Autoimmune diabetes insipidus (neurogenic)	skos:exactMatch	Not	DOID:0081055	DOID	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001025	Autoimmune diabetes insipidus (neurogenic)	skos:exactMatch	Not	DOID:12388	DOID	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001025	Autoimmune diabetes insipidus (neurogenic)	skos:exactMatch	Not	MONDO:0015790	MONDO	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001025	Autoimmune diabetes insipidus (neurogenic)	skos:exactMatch	Not	MONDO:0007450	MONDO	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001025	Autoimmune diabetes insipidus (neurogenic)	skos:exactMatch	Not	MONDO:0019846	MONDO	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001025	Autoimmune diabetes insipidus (neurogenic)	skos:exactMatch	Not	ncit:C84933	ncit	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001025	Autoimmune diabetes insipidus (neurogenic)	skos:exactMatch	Not	icd10cm:E23.2	icd10cm	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001025	Autoimmune diabetes insipidus (neurogenic)	skos:exactMatch	Not	ORPHA:178029	ORPHA	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001025	Autoimmune diabetes insipidus (neurogenic)	skos:exactMatch	Not	ORPHA:30925	ORPHA	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001025	Autoimmune diabetes insipidus (neurogenic)	skos:exactMatch	Not	ORPHA:95626	ORPHA	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001025	Autoimmune diabetes insipidus (neurogenic)	skos:exactMatch	Not	umls:C0687720	umls	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001025	Autoimmune diabetes insipidus (neurogenic)	skos:exactMatch	Not	umls:C5680256	umls	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001025	Autoimmune diabetes insipidus (neurogenic)	skos:exactMatch	Not	umls:C0342394	umls	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001025	Autoimmune diabetes insipidus (neurogenic)	skos:exactMatch	Not	umls:C5680110	umls	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001025	Autoimmune diabetes insipidus (neurogenic)	skos:exactMatch	Not	mesh:D020790	mesh	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001042	Autoimmune optic neuropathy	skos:exactMatch	Not	DOID:0060499	DOID	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001042	Autoimmune optic neuropathy	skos:exactMatch	Not	DOID:0040087	DOID	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001042	Autoimmune optic neuropathy	skos:exactMatch	Not	DOID:1891	DOID	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001042	Autoimmune optic neuropathy	skos:exactMatch	Not	MONDO:0044685	MONDO	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001042	Autoimmune optic neuropathy	skos:exactMatch	Not	MONDO:0000774	MONDO	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001042	Autoimmune optic neuropathy	skos:exactMatch	Not	ncit:C118711	ncit	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001042	Autoimmune optic neuropathy	skos:exactMatch	Not	ncit:C79698	ncit	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001042	Autoimmune optic neuropathy	skos:exactMatch	Not	ORPHA:499047	ORPHA	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001042	Autoimmune optic neuropathy	skos:exactMatch	Not	ORPHA:519335	ORPHA	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001042	Autoimmune optic neuropathy	skos:exactMatch	Not	umls:C5681239	umls	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001042	Autoimmune optic neuropathy	skos:exactMatch	Not	umls:C0029132	umls	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001042	Autoimmune optic neuropathy	skos:exactMatch	Not	umls:C2748363	umls	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001042	Autoimmune optic neuropathy	skos:exactMatch	Not	mesh:D009901	mesh	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001024	Autoimmune cerebellar ataxia	skos:exactMatch	Not	SNOMEDCT:85102008	SNOMEDCT	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
