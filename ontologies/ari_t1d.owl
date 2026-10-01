@@ -1708,6 +1708,9 @@
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-25 03:08 | user | Edited: mondo</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-24T12:40:40+00:00 | alexlazcano248 | Cross-reference review: confirmed MONDO 0018747; confirmed ORPHANET 46487</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-26T02:09:33+00:00 | Ari2215 | Removed flagged cross-reference: NCI C84690; MESH D016107</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-26T02:09:33+00:00 | Ari2215 | Cross-reference review: confirmed SNOMED 2772003; confirmed OMOP 4100661; confirmed DOID 4313; confirmed MONDO 0018747; confirmed ICD10 L12.3; confirmed ORPHANET 46487; flagged NCI C84690; flagged MESH D016107</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-01T00:00:00+00:00 | Ari2215 | PR #96 review: restored NCI C84690 (rejection reversed); restored MESH D016107 (rejection reversed)</ARI_ChangeLog>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2772003</ARI_SNOMED>
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4313</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0079293</ARI_UMLS>
@@ -1865,6 +1868,10 @@
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-30T20:32:42+00:00 | user | Edited: doid</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-30T20:37:56+00:00 | KrishnaTO | Cross-reference review: confirmed MONDO 0019139; confirmed NCI C197822; confirmed ICD10 D68.311; confirmed UMLS C1096116; no term in ORPHANET; no term in DOID</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27T20:00:00+00:00 | KrishnaTO | Cross-reference correction: removed DOID 12134 - DOID:12134 is factor VIII deficiency (congenital haemophilia A); DOID has no acquired-haemophilia term (already recorded as NoTermFound).</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-26T02:09:33+00:00 | Ari2215 | Stored confirmed cross-reference: ORPHANET 599480</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-26T02:09:33+00:00 | Ari2215 | Cross-reference review: confirmed OMOP 37203917; confirmed ORPHANET 599480; confirmed MESH C536392; confirmed ICD10 D68.311; flagged ORPHANET 98878; flagged DOID 12134</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-26T02:09:33+00:00 | Ari2215 | Removed flagged cross-reference: DOID 12134</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-01T00:00:00+00:00 | Ari2215 | PR #96 review: removed ORPHANET 599480 (acquired hemophilia A, a subtype; ORPHANET has no term for the disease)</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Tissue_Blood">
@@ -1940,12 +1947,11 @@
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
   <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001003</ARI_ID>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">83942000</ARI_SNOMED>
-  <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">72986009</ARI_SNOMED>
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">639</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0014059</ARI_UMLS>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D004673</ARI_MESH>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C34578</ARI_NCI>
-  <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">83942000, 72986009</ARI_DXCODE>
+  <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">83942000</ARI_DXCODE>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acute disseminated encephalomyelitis (ADEM) is caused when inflammation stemming from fever or immunization damages the myelin sheaths of nerves in the brain, spinal cord, and occasionally the optic nerves, leading to abnormal nerve function.  Onset is brief but intense and occurs predominantly in children.  Patients often experience complete recovery within 6 months and do not experience relapses. The risk of developing ADEM depends on several factors, including genetics, exposure to infectious organisms, immunization exposure, and lighter skin pigmentation. ADEM can affect people of all ethnic backgrounds globally. Between 50% to 85% of ADEM cases are linked to a prior infection or vaccination, with many following a viral or bacterial infection. Nonetheless, the specific pathogen causing ADEM is often unknown.</rdfs:comment>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADEM</ARI_Synonym>
   <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nonvasculitic autoimmune inflammatory meningoencephalitis | distinct | NAIM/SREAT-spectrum steroid-responsive encephalopathy, a different entity from ADEM</ARI_SynonymWithdrawn>
@@ -1983,6 +1989,8 @@
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">374021</ARI_OMOP>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-30T20:37:56+00:00 | KrishnaTO | Cross-reference review: confirmed MONDO 0019383; confirmed ICD10 G04.0; confirmed ORPHANET 83597</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew "Nonvasculitic autoimmune inflammatory meningoencephalitis" (distinct entity) and "Hurst's disease" / "Weston-Hurst syndrome" (name the hyperacute haemorrhagic variant AHLE; covered by subtype "Hyperacute/Fulminant ADEM").</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-26T02:09:33+00:00 | Ari2215 | Cross-reference review: confirmed SNOMED 83942000; confirmed ICD10 G04.0; confirmed ORPHANET 83597; flagged SNOMED 72986009</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-26T02:09:33+00:00 | Ari2215 | Removed flagged cross-reference: SNOMED 72986009</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Tissue_NervousSystem">
@@ -2133,6 +2141,7 @@ The cause of Kawasaki's Disease is uncertain but is believed to be autoimmune.  
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-22 16:03 | KrishnaTO | Cross-reference review: flagged ORPHANET 2331; flagged OMIM 611775</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-30T20:37:56+00:00 | KrishnaTO | Cross-reference review: confirmed MONDO 0012727; no term in ORPHANET</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27 | Claude | Synonym review (second pass): withdrew "Lymph node syndrome" (broader).</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-26T02:09:33+00:00 | Ari2215 | Cross-reference review: confirmed OMOP 314381; confirmed DOID 13378; confirmed MONDO 0012727; confirmed NCI C34825; confirmed ICD10 M30.3; confirmed MESH D009080</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Tissue_VascularSystem">
@@ -2297,9 +2306,10 @@ The cause of Kawasaki's Disease is uncertain but is believed to be autoimmune.  
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-25 03:45 | user | Edited: nci</ARI_ChangeLog>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0162852</ARI_UMLS>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-25 03:46 | user | Edited: umls</ARI_ChangeLog>
-  <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D017514</ARI_MESH>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-30T20:37:01+00:00 | user | Edited: mesh</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-30T20:37:56+00:00 | KrishnaTO | Cross-reference review: confirmed UMLS C0162852; no term in DOID; no term in ORPHANET</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-26T02:09:33+00:00 | Ari2215 | Cross-reference review: confirmed ICD10 L41.0; confirmed MESH D017514; confirmed SNOMED 86487001; confirmed OMOP 4314705; confirmed NCI C37871</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-01T00:00:00+00:00 | Ari2215 | PR #96 review: removed MESH D017514 (pityriasis lichenoides, broader; MESH has no term for the disease)</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001005_63">
@@ -2396,6 +2406,7 @@ The cause of Kawasaki's Disease is uncertain but is believed to be autoimmune.  
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">363732003</ARI_DXCODE>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-30T20:37:56+00:00 | KrishnaTO | Cross-reference review: confirmed ORPHANET 85138</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew "Adrenal Insufficiency" and "Adrenal cortical hypofunction" as broader parent concepts of the autoimmune disease.</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-26T02:09:33+00:00 | Ari2215 | Cross-reference review: confirmed DOID 13774; confirmed ORPHANET 85138</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Tissue_Glands">
@@ -2527,6 +2538,10 @@ The cause of Kawasaki's Disease is uncertain but is believed to be autoimmune.  
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-25 03:12 | user | Edited: mondo</ARI_ChangeLog>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C5191336</ARI_UMLS>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-25 03:36 | user | Edited: umls</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-26T02:09:33+00:00 | Ari2215 | Cross-reference review: flagged SNOMED 784393004; flagged OMOP 37205096; flagged MONDO 0017617; flagged ORPHANET 306431; flagged UMLS C5191336</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-26T02:09:33+00:00 | Ari2215 | Removed flagged cross-reference: SNOMED 784393004; OMOP 37205096; MONDO 0017617; UMLS C5191336</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-01T00:00:00+00:00 | Ari2215 | PR #96 review: restored SNOMED 784393004, OMOP 37205096, MONDO 0017617, ORPHANET 306431, UMLS C5191336 (rejections reversed)</ARI_ChangeLog>
+  <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">306431</ARI_ORPHANET>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Tissue_ImmuneSystem">
@@ -2594,6 +2609,7 @@ The cause of Kawasaki's Disease is uncertain but is believed to be autoimmune.  
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">829</ARI_ORPHANET>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-22 15:40 | user | Edited: orphanet</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-30T20:37:56+00:00 | KrishnaTO | Cross-reference review: confirmed ORPHANET 829</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-26T02:09:33+00:00 | Ari2215 | Cross-reference review: confirmed ORPHANET 829; confirmed MONDO 0019355; confirmed MESH D016706</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Tissue_Systemic">
@@ -2739,6 +2755,7 @@ However, based on the research available at this time, there is no evidence that
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-25 03:13 | user | Edited: mondo</ARI_ChangeLog>
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">279</ARI_ORPHANET>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-22 15:40 | user | Edited: orphanet</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-26T02:09:33+00:00 | Ari2215 | Cross-reference review: confirmed SNOMED 267718000; confirmed OMOP 374028; confirmed DOID 10871; confirmed MONDO 0005150; confirmed NCI C84391; confirmed ICD10 H35.30; confirmed ORPHANET 279; confirmed UMLS C0242383; confirmed MESH D008268</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001009_104">
@@ -2807,6 +2824,7 @@ However, based on the research available at this time, there is no evidence that
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-25 03:40 | user | Edited: mondo</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-22 15:44 | KrishnaTO | Cross-reference review: flagged NCI C50575</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-22 16:03 | KrishnaTO | Cross-reference review: flagged NCI C50575</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-26T02:09:33+00:00 | Ari2215 | Cross-reference review: confirmed SNOMED 68225006; confirmed OMOP 141933; confirmed DOID 986; confirmed MONDO 0005340; confirmed ICD10 L63; confirmed UMLS C0002171; confirmed MESH D000506</ARI_ChangeLog>
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">68225006</ARI_DXCODE>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">141933</ARI_OMOP>
 </owl:NamedIndividual>
@@ -2907,6 +2925,7 @@ However, based on the research available at this time, there is no evidence that
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-02 16:36 | Krishna Udaiwal | Edited: age_range, clinical_subtypes, def_source, definition, demographic_bias, disease_category, doid, evidence_quality, icd10, incidence_rate, mesh, mondo, name, nci, obsolete, omop, prevalence_desc, prevalence_per_100k, prevalence_value, snomed, synonyms, umls</ARI_ChangeLog>
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">160</ARI_ORPHANET>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-22 15:42 | user | Edited: orphanet</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-26T02:09:33+00:00 | Ari2215 | Cross-reference review: confirmed SNOMED 207036003; confirmed OMOP 4118225; confirmed DOID 0111157; confirmed MONDO 0015564; confirmed NCI C3056; confirmed ICD10 D47.Z2; confirmed ORPHANET 160; confirmed UMLS C0017531; confirmed MESH D005871</ARI_ChangeLog>
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Angiofollicular Lymph Node Hyperplasia, Unicentric - Affects a single lymph node.</ARI_ClinicalSubtype>
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Angiofollicular Lymph Node Hyperplasia, Multicentric - Involves multiple lymph nodes and systemic symptoms.</ARI_ClinicalSubtype>
 </owl:NamedIndividual>
@@ -3179,11 +3198,8 @@ However, based on the research available at this time, there is no evidence that
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anti-CASPR2 autoimmune encephalitis</rdfs:label>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
   <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001013</ARI_ID>
-  <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">763803004</ARI_SNOMED>
-  <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">35622356</ARI_OMOP>
   <ARI_Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.1</ARI_Version>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
-  <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0017179</ARI_MONDO>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-02 15:25 | user | Edited: mondo</ARI_ChangeLog>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anti-CASPR2 autoimmune encephalitis</rdfs:comment>
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peripheral nerve hyperexcitability</ARI_ClinicalSubtype>
@@ -3194,6 +3210,8 @@ However, based on the research available at this time, there is no evidence that
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-02 15:40 | Krishna Udaiwal | Edited: age_range, clinical_subtypes, def_source, definition, demographic_bias, disease_category, doid, evidence_quality, icd10, incidence_rate, mesh, mondo, name, nci, obsolete, omop, prevalence_desc, prevalence_per_100k, prevalence_value, snomed, synonyms, umls</ARI_ChangeLog>
   <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morvan syndrome | subtype | a specific CASPR2-antibody phenotype (encephalopathy + peripheral nerve hyperexcitability + dysautonomia); already an ARI_ClinicalSubtype</ARI_SynonymWithdrawn>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew "Morvan syndrome" — a CASPR2-antibody phenotype already listed as an ARI_ClinicalSubtype.</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-26T02:09:33+00:00 | Ari2215 | Removed flagged cross-reference: SNOMED 763803004; OMOP 35622356; MONDO 0017179</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-26T02:09:33+00:00 | Ari2215 | Cross-reference review: flagged SNOMED 763803004; flagged OMOP 35622356; flagged MONDO 0017179; flagged ORPHANET 83467, 276402; flagged UMLS C3854373, C4706582</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001014">
@@ -3650,6 +3668,10 @@ The trigger for antisynthetase syndrome is unknown, but it may be associated wit
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4108164</ARI_OMOP>
   <ARI_Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.1</ARI_Version>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-26T02:09:33+00:00 | Ari2215 | Stored confirmed cross-reference: MONDO 0005463; UMLS C0428791</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-26T02:09:33+00:00 | Ari2215 | Cross-reference review: confirmed SNOMED 250978003; confirmed OMOP 4108164; confirmed MONDO 0005463; confirmed UMLS C0428791</ARI_ChangeLog>
+  <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0428791</ARI_UMLS>
+  <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0005463</ARI_MONDO>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Tissue_Heart">
@@ -3924,6 +3946,7 @@ The trigger for antisynthetase syndrome is unknown, but it may be associated wit
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1 million</ARI_DefSource>
   <ARI_Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.1</ARI_Version>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-26T02:09:33+00:00 | Ari2215 | Cross-reference review: flagged DOID 0050753; flagged MONDO 0000437; flagged NCI C82341; flagged ORPHANET 624268, 102002; flagged UMLS C5576703, C0007758; flagged MESH D002524; flagged SNOMED 85102008</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001025">
@@ -3934,6 +3957,7 @@ The trigger for antisynthetase syndrome is unknown, but it may be associated wit
   <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001025</ARI_ID>
   <ARI_Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.1</ARI_Version>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-26T02:09:33+00:00 | Ari2215 | Cross-reference review: flagged SNOMED 45369008; flagged DOID 0081055, 12388; flagged MONDO 0015790, 0007450, 0019846; flagged NCI C84933; flagged ICD10 E23.2; flagged ORPHANET 178029, 30925, 95626; flagged UMLS C0687720, C5680256, C0342394, C5680110; flagged MESH D020790</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Tissue_AllTissues">
@@ -3951,15 +3975,8 @@ The trigger for antisynthetase syndrome is unknown, but it may be associated wit
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune disorder of inner ear</rdfs:label>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
   <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001027</ARI_ID>
-  <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13445001</ARI_SNOMED>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">232308006</ARI_SNOMED>
-  <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9849</ARI_DOID>
-  <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0025281</ARI_UMLS>
-  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H81.0</ARI_ICD10>
-  <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D008575</ARI_MESH>
-  <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C185243</ARI_NCI>
-  <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4337463, 79833</ARI_OMOP>
-  <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">232308006, 13445001</ARI_DXCODE>
+  <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">232308006</ARI_DXCODE>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune inner ear disease (AIED) is a condition characterized by inflammation of the inner ear. It happens when the immune system mistakenly targets cells in the inner ear as if they were a virus or bacteria. AIED is uncommon, affecting fewer than one percent of the 28 million Americans with hearing loss. The symptoms of AIED are sudden hearing loss in one ear progressing rapidly to the second ear. The hearing loss can progress over weeks or months. It can happen alone or in addition to other systemic autoimmune disorders.</rdfs:comment>
   <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ménière's disease | distinct | separate clinical entity (idiopathic endolymphatic hydrops); autoimmune inner-ear disease is a different diagnosis</ARI_SynonymWithdrawn>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vambutas 2016; https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5113311/</ARI_DefSource>
@@ -3976,6 +3993,12 @@ The trigger for antisynthetase syndrome is unknown, but it may be associated wit
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AIE</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew "Ménière's disease" — a distinct clinical entity, not a synonym for autoimmune inner-ear disease.</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-26T02:09:33+00:00 | Ari2215 | Cross-reference review: confirmed SNOMED 232308006; confirmed OMOP 4337463; confirmed ICD10 H81.0; confirmed UMLS C0025281; confirmed MESH D008575; flagged SNOMED 13445001; flagged OMOP 79833; flagged DOID 9849; flagged MONDO 0007972; flagged NCI C185243; flagged ORPHANET 45360</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-26T02:09:33+00:00 | Ari2215 | Removed flagged cross-reference: SNOMED 13445001; OMOP 79833; DOID 9849; NCI C185243</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-01T00:00:00+00:00 | Ari2215 | PR #96 review: replaced ICD10 H81.0 with H83.8X9 and UMLS C0025281 with C0395947 (Meniere disease, a different disease); removed MESH D008575 (Meniere disease; MESH has no term for the disease)</ARI_ChangeLog>
+  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H83.8X9</ARI_ICD10>
+  <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0395947</ARI_UMLS>
+  <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4337463</ARI_OMOP>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001027_210">
@@ -4153,9 +4176,6 @@ The trigger for antisynthetase syndrome is unknown, but it may be associated wit
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
   <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001029</ARI_ID>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">452281000124106</ARI_SNOMED>
-  <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">716684004</ARI_SNOMED>
-  <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">764228, 37399546</ARI_OMOP>
-  <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">452281000124106, 716684004</ARI_DXCODE>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anti-NMDA receptor encephalitis is an autoimmune disorder in which the body attacks the brain’s NMDA receptors. N-Methyl-D-Aspartate (NMDA) receptors are proteins that play a significant role in learning and memory.
 
 When the NMDA receptor antibodies attack the NMDA receptors in the brain, certain functions of the brain are disrupted and brain swelling, or encephalitis, occurs. At disease onset, patients often have symptoms consistent with those caused by a virus.  Within 3 months of onset, patients develop psychological or neurological problems, including seizures and perceptual and behavioral changes.  As the disorder progresses, patients become verbally unresponsive and experience difficulty with movement.  With time, problems with regulation of autonomic processes, such as heart rate and breathing, emerge.  Some cases of this disease have been associated with tumors, especially of the ovary. In severe cases, complications can result in relapse, chronic cognitive problems, or death.  However, if treatment and medical supervision is received, most patients can expect to fully recover.</rdfs:comment>
@@ -4191,6 +4211,18 @@ When the NMDA receptor antibodies attack the NMDA receptors in the brain, certai
   <ARI_AuthorDate rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2024-09</ARI_AuthorDate>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NMDA</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-26T02:09:33+00:00 | Ari2215 | Cross-reference review: confirmed SNOMED 716684004; confirmed OMOP 764228, 37399546; confirmed MONDO 0021081; confirmed ORPHANET 217253; confirmed UMLS C2986717, C5700343; confirmed MESH D060426; flagged SNOMED 452281000124106; flagged NCI C94853</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-26T02:09:33+00:00 | Ari2215 | Stored confirmed cross-reference: MONDO 0021081; ORPHANET 217253; UMLS C2986717, C5700343; MESH D060426</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-26T02:09:33+00:00 | Ari2215 | Removed flagged cross-reference: SNOMED 452281000124106</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-01T00:00:00+00:00 | Ari2215 | PR #96 review: removed SNOMED 716684004 and OMOP 37399546 (SNOMED 452281000124106 and OMOP 764228 map the disease); restored SNOMED 452281000124106 and NCI C94853 (rejections reversed)</ARI_ChangeLog>
+  <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C94853</ARI_NCI>
+  <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C5700343</ARI_UMLS>
+  <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C2986717</ARI_UMLS>
+  <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0021081</ARI_MONDO>
+  <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">764228</ARI_OMOP>
+  <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">452281000124106</ARI_DXCODE>
+  <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D060426</ARI_MESH>
+  <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">217253</ARI_ORPHANET>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001029_2223">
@@ -4763,6 +4795,12 @@ When the NMDA receptor antibodies attack the NMDA receptors in the brain, certai
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1245375</ARI_OMOP>
   <ARI_Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.1</ARI_Version>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-26T02:09:33+00:00 | Ari2215 | Cross-reference review: confirmed SNOMED 1300193002; confirmed OMOP 1245375; confirmed MONDO 0850097; confirmed ORPHANET 623615; confirmed UMLS C2930824; confirmed MESH C531729</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-26T02:09:33+00:00 | Ari2215 | Stored confirmed cross-reference: MONDO 0850097; ORPHANET 623615; UMLS C2930824; MESH C531729</ARI_ChangeLog>
+  <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C2930824</ARI_UMLS>
+  <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0850097</ARI_MONDO>
+  <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C531729</ARI_MESH>
+  <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">623615</ARI_ORPHANET>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001038">
@@ -5106,6 +5144,11 @@ In chronic autoimmune neutropenia the body produces IgG antibodies that target a
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3654632</ARI_OMOP>
   <ARI_Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.1</ARI_Version>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-26T02:09:33+00:00 | Ari2215 | Cross-reference review: confirmed SNOMED 838324008; confirmed OMOP 3654632; flagged DOID 0060499, 0040087, 1891; flagged MONDO 0044685, 0000774; flagged NCI C118711, C79698; flagged ORPHANET 499047, 519335; flagged UMLS C5681239, C0029132, C2748363; flagged MESH D009901</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-01T00:00:00+00:00 | Ari2215 | PR #96 review: restored MONDO 0044685, ORPHANET 499047, UMLS C5681239 (rejections reversed)</ARI_ChangeLog>
+  <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0044685</ARI_MONDO>
+  <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">499047</ARI_ORPHANET>
+  <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C5681239</ARI_UMLS>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Tissue_Eye">
@@ -6407,6 +6450,9 @@ Cicatricial pemphigoid is usually not chronic, and most patients symptoms disapp
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1960543</ARI_UMLS>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-11 16:28 | user | Edited: umls</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-11 16:53 | KrishnaTO | Cross-reference review: confirmed SNOMED 427086003; confirmed OMOP 4141686</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-26T02:09:33+00:00 | Ari2215 | Removed flagged cross-reference: MONDO 0019208; ORPHANET 79138</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-26T02:09:33+00:00 | Ari2215 | Cross-reference review: confirmed SNOMED 427086003; confirmed OMOP 4141686; confirmed ICD10 G04.81; confirmed UMLS C1960543; flagged MONDO 0019208; flagged ORPHANET 79138</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-01T00:00:00+00:00 | Ari2215 | PR #96 review: restored MONDO 0019208, ORPHANET 79138 (rejections reversed)</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001056">
@@ -13236,6 +13282,12 @@ Most papers on lichen planus assume all cases of the disease are autoimmune or d
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nervous System; Anti-AMPAR encephalitis; Autoimmune limbic encephalitis (seronegative); NR</ARI_DefSource>
   <ARI_Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.1</ARI_Version>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-26T02:09:33+00:00 | Ari2215 | Cross-reference review: confirmed SNOMED 230192003; confirmed OMOP 4041673; confirmed DOID 0080741; confirmed MONDO 0015588; confirmed NCI C4350; confirmed ORPHANET 163892; confirmed UMLS C0338430; confirmed MESH D020363</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-26T02:09:33+00:00 | Ari2215 | Stored confirmed cross-reference: MONDO 0015588; NCI C4350; ORPHANET 163892; UMLS C0338430</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-01T00:00:00+00:00 | Ari2215 | PR #96 review: removed ORPHANET 163892 (obsolete Orphanet entry)</ARI_ChangeLog>
+  <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0338430</ARI_UMLS>
+  <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0015588</ARI_MONDO>
+  <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C4350</ARI_NCI>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001122">

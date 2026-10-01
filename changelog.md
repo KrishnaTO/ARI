@@ -1,5 +1,35 @@
 # Changelog
 
+## edit/Ari2215/mappings-review-1790388580
+
+Applies the line review of ARI#96 (`mappings/ari.equivalencies.tsv`). Each marked row is
+re-judged in both mapping exports with its original attribution kept, and the disease record
+and its `ARI_ChangeLog` follow.
+
+- **Rejected (confirmation -> `manual-negative` / `Not`), id removed from the record:**
+  - `ARI:0001002` Acquired hemophilia: ORPHA `599480` (acquired hemophilia A, a subtype; the
+    existing ORPHA "no term" row stands)
+  - `ARI:0001029` Anti-NMDA receptor encephalitis: SNOMED `716684004`, OMOP `37399546` (SNOMED
+    `452281000124106` and OMOP `764228` map the disease)
+  - `ARI:0001121` Limbic encephalitis: ORPHA `163892` (obsolete)
+- **Rejected and recorded as "no term":** `ARI:0001005` Acute lichenoid pityriasis MeSH
+  `D017514` (pityriasis lichenoides, broader); `ARI:0001027` Autoimmune disorder of inner ear
+  MeSH `D008575` (Meniere disease).
+- **Replaced:** `ARI:0001027` ICD-10 `H81.0` -> `H83.8X9` and UMLS `C0025281` -> `C0395947`
+  (the old ids are Meniere disease).
+- **Rejections reversed (`manual-negative` -> `manual`), id restored to the record:**
+  - `ARI:0001007` Adult-onset immunodeficiency due to anti-IFN-gamma autoantibodies: MONDO
+    `0017617`, ORPHA `306431`, UMLS `C5191336`
+  - `ARI:0001029`: SNOMED `452281000124106`, NCIt `C94853`
+  - `ARI:0001042` Autoimmune optic neuropathy: MONDO `0044685`, ORPHA `499047`, UMLS `C5681239`
+  - `ARI:0001055` Bickerstaff's brainstem encephalitis: MONDO `0019208`, ORPHA `79138`
+- **Rejections reversed where KrishnaTO's June confirmation already exists:** the rejection rows
+  are dropped and the older rows' "Superseded" notes cleared, ids restored: `ARI:0001001` NCIt
+  `C84690`, MeSH `D016107`; `ARI:0001007` SNOMED `784393004`, OMOP `37205096`.
+- **Rejections kept, reason recorded:** `ARI:0001013` Anti-CASPR2 autoimmune encephalitis:
+  SNOMED `763803004`, OMOP `35622356`, MONDO `0017179`, ORPHA `83467`, UMLS `C3854373`,
+  `C4706582` (subtypes: Morvan syndrome, CASPR2 limbic encephalitis); ORPHA `276402` (obsolete).
+
 ## edit/maffersi/mappings-review-1790310362
 
 Applies the line review of ARI#95 (`mappings/ari.equivalencies.tsv`). Each marked row is

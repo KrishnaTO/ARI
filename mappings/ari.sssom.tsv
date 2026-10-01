@@ -1942,3 +1942,110 @@ ARI:0001124	Linear IgA dermatosis	skos:exactMatch		icd10cm:L13.8	icd10cm	semapv:
 ARI:0001122	Limbic encephalitis with dipeptidyl-peptidase 6 antibodies	skos:exactMatch		sssom:NoTermFound	ORPHA	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001123	Limbic encephalitis with leucine-rich glioma-inactivated 1 antibodies	skos:exactMatch		sssom:NoTermFound	ORPHA	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
 ARI:0001058	Bullous systemic lupus erythematosus	skos:exactMatch		sssom:NoTermFound	ORPHA	semapv:ManualMappingCuration	github:maffersi	2026-09-25T04:32:19+00:00	
+ARI:0001002	Acquired hemophilia	skos:exactMatch	Not	ORPHA:599480	ORPHA	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	PR review: subtype of disease; no ORPHA term for the disease.
+ARI:0001002	Acquired hemophilia	skos:exactMatch		mesh:C536392	mesh	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001005	Acute lichenoid pityriasis	skos:exactMatch	Not	mesh:D017514	mesh	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	PR review: broader disease; no MeSH term for the disease.
+ARI:0001005	Acute lichenoid pityriasis	skos:exactMatch		sssom:NoTermFound	mesh	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	PR review: replaces mesh:D017514.
+ARI:0001009	Age related macular degeneration	skos:exactMatch		MONDO:0005150	MONDO	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001009	Age related macular degeneration	skos:exactMatch		ORPHA:279	ORPHA	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001010	Alopecia areata	skos:exactMatch		MONDO:0005340	MONDO	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001011	Angiofollicular lymph node hyperplasia	skos:exactMatch		MONDO:0015564	MONDO	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001011	Angiofollicular lymph node hyperplasia	skos:exactMatch		ORPHA:160	ORPHA	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001020	Aortic valve calcification	skos:exactMatch		SNOMEDCT:250978003	SNOMEDCT	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001020	Aortic valve calcification	skos:exactMatch		omop:4108164	omop	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001020	Aortic valve calcification	skos:exactMatch		MONDO:0005463	MONDO	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001020	Aortic valve calcification	skos:exactMatch		umls:C0428791	umls	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001027	Autoimmune disorder of inner ear	skos:exactMatch		SNOMEDCT:232308006	SNOMEDCT	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001027	Autoimmune disorder of inner ear	skos:exactMatch		omop:4337463	omop	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001027	Autoimmune disorder of inner ear	skos:exactMatch	Not	icd10cm:H81.0	icd10cm	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	PR review: different disease.
+ARI:0001027	Autoimmune disorder of inner ear	skos:exactMatch		icd10cm:H83.8X9	icd10cm	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	PR review: replaces icd10cm:H81.0.
+ARI:0001027	Autoimmune disorder of inner ear	skos:exactMatch	Not	umls:C0025281	umls	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	PR review: different disease.
+ARI:0001027	Autoimmune disorder of inner ear	skos:exactMatch		umls:C0395947	umls	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	PR review: replaces umls:C0025281.
+ARI:0001027	Autoimmune disorder of inner ear	skos:exactMatch	Not	mesh:D008575	mesh	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	PR review: different disease; no MeSH term for the disease.
+ARI:0001027	Autoimmune disorder of inner ear	skos:exactMatch		sssom:NoTermFound	mesh	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	PR review: replaces mesh:D008575.
+ARI:0001029	Autoimmune encephalitis caused by N-methyl D-aspartate receptor antibody	skos:exactMatch	Not	SNOMEDCT:716684004	SNOMEDCT	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	PR review: different concept; SNOMED 452281000124106 maps the disease.
+ARI:0001029	Autoimmune encephalitis caused by N-methyl D-aspartate receptor antibody	skos:exactMatch		omop:764228	omop	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001029	Autoimmune encephalitis caused by N-methyl D-aspartate receptor antibody	skos:exactMatch	Not	omop:37399546	omop	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	PR review: different concept; OMOP 764228 maps the disease.
+ARI:0001029	Autoimmune encephalitis caused by N-methyl D-aspartate receptor antibody	skos:exactMatch		MONDO:0021081	MONDO	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001029	Autoimmune encephalitis caused by N-methyl D-aspartate receptor antibody	skos:exactMatch		ORPHA:217253	ORPHA	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001029	Autoimmune encephalitis caused by N-methyl D-aspartate receptor antibody	skos:exactMatch		umls:C2986717	umls	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001029	Autoimmune encephalitis caused by N-methyl D-aspartate receptor antibody	skos:exactMatch		umls:C5700343	umls	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001029	Autoimmune encephalitis caused by N-methyl D-aspartate receptor antibody	skos:exactMatch		mesh:D060426	mesh	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001037	Autoimmune limbic encephalitis	skos:exactMatch		SNOMEDCT:1300193002	SNOMEDCT	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001037	Autoimmune limbic encephalitis	skos:exactMatch		omop:1245375	omop	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001037	Autoimmune limbic encephalitis	skos:exactMatch		MONDO:0850097	MONDO	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001037	Autoimmune limbic encephalitis	skos:exactMatch		ORPHA:623615	ORPHA	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001037	Autoimmune limbic encephalitis	skos:exactMatch		umls:C2930824	umls	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001037	Autoimmune limbic encephalitis	skos:exactMatch		mesh:C531729	mesh	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001042	Autoimmune optic neuropathy	skos:exactMatch		SNOMEDCT:838324008	SNOMEDCT	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001042	Autoimmune optic neuropathy	skos:exactMatch		omop:3654632	omop	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001055	Bickerstaff's brainstem encephalitis	skos:exactMatch		icd10cm:G04.81	icd10cm	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001055	Bickerstaff's brainstem encephalitis	skos:exactMatch		umls:C1960543	umls	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001121	Limbic encephalitis	skos:exactMatch		SNOMEDCT:230192003	SNOMEDCT	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001121	Limbic encephalitis	skos:exactMatch		omop:4041673	omop	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001121	Limbic encephalitis	skos:exactMatch		DOID:0080741	DOID	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001121	Limbic encephalitis	skos:exactMatch		MONDO:0015588	MONDO	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001121	Limbic encephalitis	skos:exactMatch		ncit:C4350	ncit	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001121	Limbic encephalitis	skos:exactMatch	Not	ORPHA:163892	ORPHA	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	PR review: obsolete target.
+ARI:0001121	Limbic encephalitis	skos:exactMatch		umls:C0338430	umls	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001121	Limbic encephalitis	skos:exactMatch		mesh:D020363	mesh	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001002	Acquired hemophilia	skos:exactMatch	Not	ORPHA:98878	ORPHA	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001003	Acute disseminated encephalomyelitis	skos:exactMatch	Not	SNOMEDCT:72986009	SNOMEDCT	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001007	Adult-onset immunodeficiency due to anti-IFN-gamma autoantibodies	skos:exactMatch		MONDO:0017617	MONDO	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	Rejection reversed in PR review.
+ARI:0001007	Adult-onset immunodeficiency due to anti-IFN-gamma autoantibodies	skos:exactMatch		ORPHA:306431	ORPHA	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	Rejection reversed in PR review.
+ARI:0001007	Adult-onset immunodeficiency due to anti-IFN-gamma autoantibodies	skos:exactMatch		umls:C5191336	umls	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	Rejection reversed in PR review.
+ARI:0001013	Anti-CASPR2 autoimmune encephalitis	skos:exactMatch	Not	SNOMEDCT:763803004	SNOMEDCT	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	PR review: subtype of disease.
+ARI:0001013	Anti-CASPR2 autoimmune encephalitis	skos:exactMatch	Not	omop:35622356	omop	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	PR review: subtype of disease.
+ARI:0001013	Anti-CASPR2 autoimmune encephalitis	skos:exactMatch	Not	MONDO:0017179	MONDO	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	PR review: subtype of disease.
+ARI:0001013	Anti-CASPR2 autoimmune encephalitis	skos:exactMatch	Not	ORPHA:83467	ORPHA	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	PR review: subtype of disease.
+ARI:0001013	Anti-CASPR2 autoimmune encephalitis	skos:exactMatch	Not	ORPHA:276402	ORPHA	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	PR review: obsolete target.
+ARI:0001013	Anti-CASPR2 autoimmune encephalitis	skos:exactMatch	Not	umls:C3854373	umls	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	PR review: subtype of disease.
+ARI:0001013	Anti-CASPR2 autoimmune encephalitis	skos:exactMatch	Not	umls:C4706582	umls	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	PR review: subtype of disease.
+ARI:0001027	Autoimmune disorder of inner ear	skos:exactMatch	Not	SNOMEDCT:13445001	SNOMEDCT	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001027	Autoimmune disorder of inner ear	skos:exactMatch	Not	omop:79833	omop	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001027	Autoimmune disorder of inner ear	skos:exactMatch	Not	DOID:9849	DOID	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001027	Autoimmune disorder of inner ear	skos:exactMatch	Not	MONDO:0007972	MONDO	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001027	Autoimmune disorder of inner ear	skos:exactMatch	Not	ncit:C185243	ncit	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001027	Autoimmune disorder of inner ear	skos:exactMatch	Not	ORPHA:45360	ORPHA	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001029	Autoimmune encephalitis caused by N-methyl D-aspartate receptor antibody	skos:exactMatch		SNOMEDCT:452281000124106	SNOMEDCT	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	Rejection reversed in PR review.
+ARI:0001029	Autoimmune encephalitis caused by N-methyl D-aspartate receptor antibody	skos:exactMatch		ncit:C94853	ncit	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	Rejection reversed in PR review.
+ARI:0001055	Bickerstaff's brainstem encephalitis	skos:exactMatch		MONDO:0019208	MONDO	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	Rejection reversed in PR review.
+ARI:0001055	Bickerstaff's brainstem encephalitis	skos:exactMatch		ORPHA:79138	ORPHA	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	Rejection reversed in PR review.
+ARI:0001024	Autoimmune cerebellar ataxia	skos:exactMatch	Not	DOID:0050753	DOID	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001024	Autoimmune cerebellar ataxia	skos:exactMatch	Not	MONDO:0000437	MONDO	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001024	Autoimmune cerebellar ataxia	skos:exactMatch	Not	ncit:C82341	ncit	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001024	Autoimmune cerebellar ataxia	skos:exactMatch	Not	ORPHA:624268	ORPHA	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001024	Autoimmune cerebellar ataxia	skos:exactMatch	Not	ORPHA:102002	ORPHA	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001024	Autoimmune cerebellar ataxia	skos:exactMatch	Not	umls:C5576703	umls	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001024	Autoimmune cerebellar ataxia	skos:exactMatch	Not	umls:C0007758	umls	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001024	Autoimmune cerebellar ataxia	skos:exactMatch	Not	mesh:D002524	mesh	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001025	Autoimmune diabetes insipidus (neurogenic)	skos:exactMatch	Not	SNOMEDCT:45369008	SNOMEDCT	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001025	Autoimmune diabetes insipidus (neurogenic)	skos:exactMatch	Not	DOID:0081055	DOID	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001025	Autoimmune diabetes insipidus (neurogenic)	skos:exactMatch	Not	DOID:12388	DOID	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001025	Autoimmune diabetes insipidus (neurogenic)	skos:exactMatch	Not	MONDO:0015790	MONDO	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001025	Autoimmune diabetes insipidus (neurogenic)	skos:exactMatch	Not	MONDO:0007450	MONDO	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001025	Autoimmune diabetes insipidus (neurogenic)	skos:exactMatch	Not	MONDO:0019846	MONDO	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001025	Autoimmune diabetes insipidus (neurogenic)	skos:exactMatch	Not	ncit:C84933	ncit	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001025	Autoimmune diabetes insipidus (neurogenic)	skos:exactMatch	Not	icd10cm:E23.2	icd10cm	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001025	Autoimmune diabetes insipidus (neurogenic)	skos:exactMatch	Not	ORPHA:178029	ORPHA	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001025	Autoimmune diabetes insipidus (neurogenic)	skos:exactMatch	Not	ORPHA:30925	ORPHA	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001025	Autoimmune diabetes insipidus (neurogenic)	skos:exactMatch	Not	ORPHA:95626	ORPHA	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001025	Autoimmune diabetes insipidus (neurogenic)	skos:exactMatch	Not	umls:C0687720	umls	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001025	Autoimmune diabetes insipidus (neurogenic)	skos:exactMatch	Not	umls:C5680256	umls	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001025	Autoimmune diabetes insipidus (neurogenic)	skos:exactMatch	Not	umls:C0342394	umls	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001025	Autoimmune diabetes insipidus (neurogenic)	skos:exactMatch	Not	umls:C5680110	umls	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001025	Autoimmune diabetes insipidus (neurogenic)	skos:exactMatch	Not	mesh:D020790	mesh	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001042	Autoimmune optic neuropathy	skos:exactMatch	Not	DOID:0060499	DOID	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001042	Autoimmune optic neuropathy	skos:exactMatch	Not	DOID:0040087	DOID	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001042	Autoimmune optic neuropathy	skos:exactMatch	Not	DOID:1891	DOID	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001042	Autoimmune optic neuropathy	skos:exactMatch		MONDO:0044685	MONDO	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	Rejection reversed in PR review.
+ARI:0001042	Autoimmune optic neuropathy	skos:exactMatch	Not	MONDO:0000774	MONDO	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001042	Autoimmune optic neuropathy	skos:exactMatch	Not	ncit:C118711	ncit	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001042	Autoimmune optic neuropathy	skos:exactMatch	Not	ncit:C79698	ncit	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001042	Autoimmune optic neuropathy	skos:exactMatch		ORPHA:499047	ORPHA	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	Rejection reversed in PR review.
+ARI:0001042	Autoimmune optic neuropathy	skos:exactMatch	Not	ORPHA:519335	ORPHA	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001042	Autoimmune optic neuropathy	skos:exactMatch		umls:C5681239	umls	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	Rejection reversed in PR review.
+ARI:0001042	Autoimmune optic neuropathy	skos:exactMatch	Not	umls:C0029132	umls	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001042	Autoimmune optic neuropathy	skos:exactMatch	Not	umls:C2748363	umls	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001042	Autoimmune optic neuropathy	skos:exactMatch	Not	mesh:D009901	mesh	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001024	Autoimmune cerebellar ataxia	skos:exactMatch	Not	SNOMEDCT:85102008	SNOMEDCT	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
