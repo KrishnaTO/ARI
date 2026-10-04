@@ -667,6 +667,10 @@
   "Crohn&apos;s disease",
   "doid.owl"
  ],
+ "DOID:8857": [
+  "lupus erythematosus",
+  "doid.owl"
+ ],
  "DOID:8869": [
   "neuromyelitis optica",
   "doid.owl"
@@ -793,6 +797,10 @@
  ],
  "MONDO:0004004": [
   "motor nerve neuritis",
+  "mondo.obo"
+ ],
+ "MONDO:0004670": [
+  "lupus erythematosus",
   "mondo.obo"
  ],
  "MONDO:0005011": [
@@ -2591,6 +2599,10 @@
   "Mooren ulcer",
   "EBI OLS4 (ordo)"
  ],
+ "ORPHA:535": [
+  "Rare cutaneous lupus erythematosus",
+  "EBI OLS4 (ordo)"
+ ],
  "ORPHA:536": [
   "Systemic lupus erythematosus",
   "EBI OLS4 (ordo)"
@@ -3149,6 +3161,10 @@
  ],
  "SNOMEDCT:200907003": [
   "Drug-induced pemphigus",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:200936003": [
+  "Lupus erythematosus",
   "snomed/CONCEPT.csv"
  ],
  "SNOMEDCT:200938002": [
@@ -4719,6 +4735,14 @@
   "Lichen sclerosus et atrophicus",
   "mesh-icd-ncit-clinvar/CONCEPT.csv"
  ],
+ "icd10cm:L93": [
+  "Lupus erythematosus",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:L93.0": [
+  "Discoid lupus erythematosus",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
  "icd10cm:L94.0": [
   "Localized scleroderma [morphea]",
   "mesh-icd-ncit-clinvar/CONCEPT.csv"
@@ -5845,6 +5869,10 @@
  ],
  "ncit:C27105": [
   "Eosinophilic Esophagitis",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C27153": [
+  "Lupus Erythematosus",
   "EBI OLS4 (ncit)"
  ],
  "ncit:C27167": [
@@ -8382,6 +8410,10 @@
  "umls:C0409667": [
   "systemic juvenile rheumatoid arthritis",
   "doid.owl xref (DOID:676)"
+ ],
+ "umls:C0409974": [
+  "lupus erythematosus",
+  "doid.owl xref (DOID:8857)"
  ],
  "umls:C0409977": [
   "bullous systemic lupus erythematosus",

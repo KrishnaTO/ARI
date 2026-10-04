@@ -4990,7 +4990,7 @@
    "method": "xref via curated anchor",
    "name": "Crohn's disease",
    "routes": 3,
-   "support": 18
+   "support": 20
   },
   {
    "evidence": "MONDO:0009960 xref, curated SNOMEDCT:34000006",
@@ -5016,23 +5016,13 @@
    "method": "xref via curated anchor",
    "name": "Crohn disease",
    "routes": 1,
-   "support": 11
+   "support": 13
   },
   {
    "evidence": "MONDO:0009960 from curated SNOMEDCT:34000006",
    "id": "0009960",
    "method": "xref via curated anchor",
    "name": "inflammatory bowel disease 1",
-   "routes": 1,
-   "support": 3
-  }
- ],
- "ARI:0001073|OMIM": [
-  {
-   "evidence": "MONDO:0009960 xref, curated SNOMEDCT:34000006",
-   "id": "266600",
-   "method": "xref via curated anchor",
-   "name": "",
    "routes": 1,
    "support": 3
   }
@@ -5044,7 +5034,7 @@
    "method": "xref via curated anchor",
    "name": "Crohn's disease of large bowel",
    "routes": 3,
-   "support": 18
+   "support": 20
   },
   {
    "evidence": "MONDO:0009960 xref, curated SNOMEDCT:34000006",
@@ -5062,7 +5052,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 11
+   "support": 13
   },
   {
    "evidence": "DOID:0060192 xref, curated mesh:D003424",
@@ -5080,7 +5070,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 3,
-   "support": 18
+   "support": 20
   }
  ],
  "ARI:0001073|ncit": [
@@ -5090,7 +5080,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 11
+   "support": 13
   },
   {
    "evidence": "DOID:0060192 xref, curated mesh:D003424",
@@ -5108,7 +5098,7 @@
    "method": "xref via curated anchor",
    "name": "Crohn's disease of large bowel",
    "routes": 3,
-   "support": 18
+   "support": 20
   },
   {
    "evidence": "MONDO:0009960 xref SCTID:34000006, curated SNOMEDCT:34000006",
@@ -5126,7 +5116,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 11
+   "support": 13
   }
  ],
  "ARI:0001074|DOID": [
@@ -5136,7 +5126,7 @@
    "method": "xref via curated anchor",
    "name": "cryptogenic organizing pneumonia",
    "routes": 3,
-   "support": 15
+   "support": 31
   }
  ],
  "ARI:0001074|MONDO": [
@@ -5146,7 +5136,7 @@
    "method": "xref via curated anchor",
    "name": "cryptogenic organizing pneumonia",
    "routes": 1,
-   "support": 10
+   "support": 18
   }
  ],
  "ARI:0001074|ORPHA": [
@@ -5156,7 +5146,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 10
+   "support": 18
   }
  ],
  "ARI:0001074|SNOMEDCT": [
@@ -5166,7 +5156,7 @@
    "method": "xref via curated anchor",
    "name": "Cryptogenic organizing pneumonia",
    "routes": 2,
-   "support": 12
+   "support": 20
   },
   {
    "evidence": "MONDO:0015264 xref, curated SNOMEDCT:719218000",
@@ -5174,7 +5164,7 @@
    "method": "xref via curated anchor",
    "name": "Organized pneumonia",
    "routes": 1,
-   "support": 10
+   "support": 18
   }
  ],
  "ARI:0001074|icd10cm": [
@@ -5184,7 +5174,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 13
+   "support": 29
   }
  ],
  "ARI:0001074|mesh": [
@@ -5194,7 +5184,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 13
+   "support": 29
   }
  ],
  "ARI:0001074|ncit": [
@@ -5204,7 +5194,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 13
+   "support": 29
   }
  ],
  "ARI:0001074|omop": [
@@ -5214,7 +5204,7 @@
    "method": "xref via curated anchor",
    "name": "Cryptogenic organizing pneumonia",
    "routes": 2,
-   "support": 12
+   "support": 20
   },
   {
    "evidence": "MONDO:0015264 xref SCTID:68409003, curated SNOMEDCT:719218000",
@@ -5222,7 +5212,7 @@
    "method": "xref via curated anchor",
    "name": "Organized pneumonia",
    "routes": 1,
-   "support": 10
+   "support": 18
   }
  ],
  "ARI:0001074|umls": [
@@ -5232,7 +5222,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 13
+   "support": 29
   }
  ],
  "ARI:0001075|MONDO": [
@@ -5283,6 +5273,14 @@
    "name": "cutaneous lupus erythematosus",
    "routes": 3,
    "support": 19
+  },
+  {
+   "evidence": "DOID:8857 from curated icd10cm:L93",
+   "id": "8857",
+   "method": "xref via curated anchor",
+   "name": "lupus erythematosus",
+   "routes": 2,
+   "support": 4
   }
  ],
  "ARI:0001076|MONDO": [
@@ -5293,6 +5291,14 @@
    "name": "cutaneous lupus erythematosus",
    "routes": 1,
    "support": 14
+  },
+  {
+   "evidence": "MONDO:0004670 from curated icd10cm:L93",
+   "id": "0004670",
+   "method": "xref via curated anchor",
+   "name": "lupus erythematosus",
+   "routes": 1,
+   "support": 2
   }
  ],
  "ARI:0001076|SNOMEDCT": [
@@ -5303,6 +5309,24 @@
    "name": "Cutaneous lupus erythematosus",
    "routes": 2,
    "support": 16
+  },
+  {
+   "evidence": "DOID:8857 xref, curated icd10cm:L93",
+   "id": "200936003",
+   "method": "xref via curated anchor",
+   "name": "Lupus erythematosus",
+   "routes": 2,
+   "support": 4
+  }
+ ],
+ "ARI:0001076|icd10cm": [
+  {
+   "evidence": "DOID:8857 xref, curated icd10cm:L93",
+   "id": "L93",
+   "method": "xref via curated anchor",
+   "name": "",
+   "routes": 2,
+   "support": 4
   }
  ],
  "ARI:0001076|mesh": [
@@ -5323,6 +5347,14 @@
    "name": "",
    "routes": 1,
    "support": 14
+  },
+  {
+   "evidence": "DOID:8857 xref, curated icd10cm:L93",
+   "id": "C27153",
+   "method": "xref via curated anchor",
+   "name": "",
+   "routes": 2,
+   "support": 4
   }
  ],
  "ARI:0001076|omop": [
@@ -5333,6 +5365,14 @@
    "name": "Cutaneous lupus erythematosus",
    "routes": 2,
    "support": 16
+  },
+  {
+   "evidence": "DOID:8857 xref SCTID:200936003, curated icd10cm:L93",
+   "id": "255891",
+   "method": "xref via curated anchor",
+   "name": "Lupus erythematosus",
+   "routes": 2,
+   "support": 4
   }
  ],
  "ARI:0001076|umls": [
@@ -5343,6 +5383,14 @@
    "name": "",
    "routes": 1,
    "support": 14
+  },
+  {
+   "evidence": "DOID:8857 xref, curated icd10cm:L93",
+   "id": "C0409974",
+   "method": "xref via curated anchor",
+   "name": "",
+   "routes": 2,
+   "support": 4
   }
  ],
  "ARI:0001077|DOID": [

@@ -8950,11 +8950,11 @@ Both UC and CD are caused by an autoimmune response that reflects the involvemen
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crohn Disease of Small Intestine - subtype of Crohn's disease (NCIT:C35210)</ARI_ClinicalSubtype>
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crohn Colitis - subtype of Crohn's disease (NCIT:C35211)</ARI_ClinicalSubtype>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CRD</ARI_SurveyCode>
-  <ARI_OMIM rdf:datatype="http://www.w3.org/2001/XMLSchema#string">266600</ARI_OMIM>
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">206</ARI_ORPHANET>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-03T00:46:11+00:00 | KrishnaTO | Removed flagged cross-reference: UMLS C0156147</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew the location-based forms ('Gastroduodenal Crohn's disease', 'Crohn's colitis', 'Ileocolitis', 'Illeitis') which are subtypes/children, 'Crohn disease-associated growth failure' (a complication), and the 'NON RARE IN EUROPE:' Orphanet label. Kept 'regional enteritis', the IBD1 genetic-locus names, and 'pediatric Crohn's disease' (a MONDO exact synonym).</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27 | Claude | Synonym review (second pass): withdrew "inflammatory bowel disease caused by mutation in NOD2" / "inflammatory bowel disease 1, Crohn disease" / "inflammatory bowel disease 1" / "inflammatory bowel disease (Crohn disease) 1" / "NOD2 inflammatory bowel disease" / "inflammatory bowel disease type 1" / "Inflammatory Bowel Disease 1" (subtype).</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T19:15:00+00:00 | KrishnaTO | Cross-reference review: confirmed UMLS C0010346; flagged OMIM 266600 (a susceptibility locus)</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001073_662">
@@ -9112,6 +9112,7 @@ Both UC and CD are caused by an autoimmune response that reflects the involvemen
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-03T00:46:11+00:00 | KrishnaTO | Removed flagged cross-reference: NCI C35806; ICD10 J84.114; UMLS C0085786; MESH D000080203</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew broader category terms ('Interstitial pneumonia', 'idiopathic interstitial pneumonia/pneumonitis', 'noninfectious pneumonia') and two names for IPF ('Idiopathic fibrosing alveolitis', 'Diffuse idiopathic pulmonary fibrosis'), a different interstitial pneumonia. Kept COP / BOOP / organising pneumonia.</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27T20:00:00+00:00 | KrishnaTO | Cross-reference correction: replaced DOID 2797 with DOID 0050157 - DOID:2797 is idiopathic interstitial pneumonia (the parent class); replaced by DOID:0050157 cryptogenic organizing pneumonia.</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T19:15:00+00:00 | KrishnaTO | Cross-reference review: confirmed ICD10 J84.116; confirmed MESH D018549; confirmed NCI C62586; confirmed UMLS C0242770</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001074_677">
@@ -9227,13 +9228,13 @@ Both UC and CD are caused by an autoimmune response that reflects the involvemen
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chronic cutaneous lupus erythematosus - subtype of Cutaneous lupus erythematosus (MONDO:0015574)</ARI_ClinicalSubtype>
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rowell syndrome - subtype of Cutaneous lupus erythematosus (MONDO:0041186)</ARI_ClinicalSubtype>
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drug Induced Cutaneous Lupus Erythematosus - subtype of Cutaneous lupus erythematosus (NCIT:C112203)</ARI_ClinicalSubtype>
-  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L93.0</ARI_ICD10>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D008178</ARI_MESH>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C26819</ARI_NCI>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0024137</ARI_UMLS>
   <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0005282</ARI_MONDO>
-  <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">535</ARI_ORPHANET>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew the discoid-lupus strings - discoid LE is a subtype of cutaneous lupus erythematosus (already an ARI_ClinicalSubtype), not a synonym for the umbrella. NB the entity's definition text describes discoid lupus - a pre-existing label/definition mismatch for a curator.</ARI_ChangeLog>
+  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L93</ARI_ICD10>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T19:15:00+00:00 | KrishnaTO | Cross-reference review: flagged ICD10 L93.0 (a subtype); confirmed ICD10 L93; flagged ORPHANET 535 (a grouping); no term in ORPHANET</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001076_682">

@@ -2322,3 +2322,13 @@ ARI	0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	MONDO	08
 ARI	0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	umls	C1739108	manual	github:KrishnaTO
 ARI	0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	omop	4145827	manual	github:KrishnaTO
 ARI	0001215	Fulminant type 1 diabetes	skos:exactMatch	SNOMEDCT	1217068008	manual	github:KrishnaTO
+ARI	0001073	Crohn's disease	skos:exactMatch	umls	C0010346	manual	github:KrishnaTO
+ARI	0001073	Crohn's disease	skos:exactMatch	OMIM	266600	manual-negative	github:KrishnaTO
+ARI	0001074	Cryptogenic organizing pneumonia	skos:exactMatch	icd10cm	J84.116	manual	github:KrishnaTO
+ARI	0001074	Cryptogenic organizing pneumonia	skos:exactMatch	mesh	D018549	manual	github:KrishnaTO
+ARI	0001074	Cryptogenic organizing pneumonia	skos:exactMatch	ncit	C62586	manual	github:KrishnaTO
+ARI	0001074	Cryptogenic organizing pneumonia	skos:exactMatch	umls	C0242770	manual	github:KrishnaTO
+ARI	0001076	Cutaneous lupus erythematosus	skos:exactMatch	icd10cm	L93.0	manual-negative	github:KrishnaTO
+ARI	0001076	Cutaneous lupus erythematosus	skos:exactMatch	icd10cm	L93	manual	github:KrishnaTO
+ARI	0001076	Cutaneous lupus erythematosus	skos:exactMatch	ORPHA	535	manual-negative	github:KrishnaTO
+ARI	0001076	Cutaneous lupus erythematosus	skos:exactMatch	ORPHA	NoTermFound	manual-absent	github:KrishnaTO

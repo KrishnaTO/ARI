@@ -50,10 +50,22 @@ to both mapping exports.
 - **Reversed the rejection of SNOMED `1217068008` on `ARI:0001215`** (Fulminant type 1
   diabetes). SNOMED labels it "Fulminant type 1 diabetes mellitus", and OMOP `37163452`, which
   the same review confirmed, is this concept. The id is stored again.
-- Four further audits, of `ARI:0001117` to `ARI:0001141`, `ARI:0001142` to `ARI:0001166`,
-  `ARI:0001167` to `ARI:0001191` and `ARI:0001192` to `ARI:0001216`, found no lost mappings.
-  Every other removal in those ranges came from the ICD-9 cleanup, a documented PR review, or
-  the retirement of `ARI:0001168`.
+- **Judged the ids entered in the field editor on 2026-08-16 that no review recorded.**
+  - Confirmed UMLS `C0010346` on `ARI:0001073` Crohn's disease.
+  - Confirmed ICD-10 `J84.116`, MeSH `D018549`, NCIt `C62586` and UMLS `C0242770` on
+    `ARI:0001074` Cryptogenic organizing pneumonia. MONDO cross-references each of them.
+  - Rejected OMIM `266600` on Crohn's disease. It is a susceptibility-locus entry that also
+    names ulcerative colitis.
+  - Rejected ICD-10 `L93.0` (Discoid lupus erythematosus, a subtype) on `ARI:0001076`
+    Cutaneous lupus erythematosus, and confirmed the `L93` category in its place.
+  - Rejected Orphanet `535` ("Rare cutaneous lupus erythematosus", a grouping) on the same
+    disease. Orphanet has no general term, so it gets a `sssom:NoTermFound` row.
+
+  The rejected ids are removed from the records.
+- Five further audits, of `ARI:0001067` to `ARI:0001091`, `ARI:0001117` to `ARI:0001141`,
+  `ARI:0001142` to `ARI:0001166`, `ARI:0001167` to `ARI:0001191` and `ARI:0001192` to
+  `ARI:0001216`, found no lost mappings. Every other removal in those ranges came from the
+  ICD-9 cleanup, a documented PR review, or the retirement of `ARI:0001168`.
 - Still for a curator on `ARI:0001215`: the stored UMLS `C2349037` could not be verified, the
   DOID "no term" judgment was deleted in `1cad398`, and NCIt, Orphanet and MeSH were never
   reviewed. `ARI:0001216` Hashimoto's thyroiditis has not yet been reviewed for DOID, UMLS,
