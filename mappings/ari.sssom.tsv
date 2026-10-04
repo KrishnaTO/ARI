@@ -2049,3 +2049,71 @@ ARI:0001042	Autoimmune optic neuropathy	skos:exactMatch	Not	umls:C0029132	umls	s
 ARI:0001042	Autoimmune optic neuropathy	skos:exactMatch	Not	umls:C2748363	umls	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
 ARI:0001042	Autoimmune optic neuropathy	skos:exactMatch	Not	mesh:D009901	mesh	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
 ARI:0001024	Autoimmune cerebellar ataxia	skos:exactMatch	Not	SNOMEDCT:85102008	SNOMEDCT	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
+ARI:0001019	Antisynthetase syndrome	skos:exactMatch		umls:C2609059	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:07:13+00:00	
+ARI:0001019	Antisynthetase syndrome	skos:exactMatch		umls:C5959873	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:07:13+00:00	
+ARI:0001019	Antisynthetase syndrome	skos:exactMatch		mesh:C537778	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:07:13+00:00	
+ARI:0001177	Reactive arthritis	skos:exactMatch		ncit:C128332	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:07:13+00:00	
+ARI:0001048	Autoimmune thyroiditis	skos:exactMatch		ncit:C27191	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:07:13+00:00	
+ARI:0001046	Autoimmune retinal vasculitis	skos:exactMatch	Not	SNOMEDCT:427213005	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:07:13+00:00	
+ARI:0001046	Autoimmune retinal vasculitis	skos:exactMatch	Not	SNOMEDCT:77628002	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:07:13+00:00	
+ARI:0001046	Autoimmune retinal vasculitis	skos:exactMatch	Not	icd10cm:H35.06	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:07:13+00:00	
+ARI:0001046	Autoimmune retinal vasculitis	skos:exactMatch	Not	mesh:D031300	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:07:13+00:00	
+ARI:0001046	Autoimmune retinal vasculitis	skos:exactMatch	Not	umls:C1328843	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:07:13+00:00	
+ARI:0001046	Autoimmune retinal vasculitis	skos:exactMatch	Not	umls:C0152026	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:07:13+00:00	
+ARI:0001046	Autoimmune retinal vasculitis	skos:exactMatch	Not	MONDO:0006950	MONDO	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:07:13+00:00	
+ARI:0001046	Autoimmune retinal vasculitis	skos:exactMatch	Not	MONDO:0030703	MONDO	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:07:13+00:00	
+ARI:0001046	Autoimmune retinal vasculitis	skos:exactMatch	Not	DOID:11563	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:07:13+00:00	
+ARI:0001046	Autoimmune retinal vasculitis	skos:exactMatch	Not	DOID:0040097	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:07:13+00:00	
+		skos:exactMatch	Not	MONDO:0005623	MONDO	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:07:13+00:00	
+		skos:exactMatch	Not	mesh:C567049	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:07:13+00:00	
+ARI:0001007	Adult-onset immunodeficiency due to anti-IFN-gamma autoantibodies	skos:exactMatch		sssom:NoTermFound	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:07:13+00:00	
+ARI:0001007	Adult-onset immunodeficiency due to anti-IFN-gamma autoantibodies	skos:exactMatch		sssom:NoTermFound	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:07:13+00:00	
+ARI:0001007	Adult-onset immunodeficiency due to anti-IFN-gamma autoantibodies	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:07:13+00:00	
+ARI:0001007	Adult-onset immunodeficiency due to anti-IFN-gamma autoantibodies	skos:exactMatch		sssom:NoTermFound	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:07:13+00:00	
+ARI:0001010	Alopecia areata	skos:exactMatch		sssom:NoTermFound	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:07:13+00:00	
+ARI:0001010	Alopecia areata	skos:exactMatch		sssom:NoTermFound	ORPHA	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:07:13+00:00	
+ARI:0001013	Anti-CASPR2 autoimmune encephalitis	skos:exactMatch		sssom:NoTermFound	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:07:13+00:00	
+ARI:0001013	Anti-CASPR2 autoimmune encephalitis	skos:exactMatch		sssom:NoTermFound	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:07:13+00:00	
+ARI:0001013	Anti-CASPR2 autoimmune encephalitis	skos:exactMatch		sssom:NoTermFound	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:07:13+00:00	
+ARI:0001013	Anti-CASPR2 autoimmune encephalitis	skos:exactMatch		sssom:NoTermFound	MONDO	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:07:13+00:00	
+ARI:0001013	Anti-CASPR2 autoimmune encephalitis	skos:exactMatch		sssom:NoTermFound	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:07:13+00:00	
+ARI:0001013	Anti-CASPR2 autoimmune encephalitis	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:07:13+00:00	
+ARI:0001013	Anti-CASPR2 autoimmune encephalitis	skos:exactMatch		sssom:NoTermFound	ORPHA	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:07:13+00:00	
+ARI:0001013	Anti-CASPR2 autoimmune encephalitis	skos:exactMatch		sssom:NoTermFound	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:07:13+00:00	
+ARI:0001013	Anti-CASPR2 autoimmune encephalitis	skos:exactMatch		sssom:NoTermFound	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:07:13+00:00	
+ARI:0001015	Anti-MAG neuropathy	skos:exactMatch		sssom:NoTermFound	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:07:13+00:00	
+ARI:0001015	Anti-MAG neuropathy	skos:exactMatch		sssom:NoTermFound	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:07:13+00:00	
+ARI:0001015	Anti-MAG neuropathy	skos:exactMatch		sssom:NoTermFound	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:07:13+00:00	
+ARI:0001015	Anti-MAG neuropathy	skos:exactMatch		sssom:NoTermFound	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:07:13+00:00	
+ARI:0001015	Anti-MAG neuropathy	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:07:13+00:00	
+ARI:0001015	Anti-MAG neuropathy	skos:exactMatch		sssom:NoTermFound	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:07:13+00:00	
+ARI:0001016	Anti-MDA5 amyopathic dermatomyositis with rapidly progressive ILD	skos:exactMatch		sssom:NoTermFound	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:07:13+00:00	
+ARI:0001016	Anti-MDA5 amyopathic dermatomyositis with rapidly progressive ILD	skos:exactMatch		sssom:NoTermFound	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:07:13+00:00	
+ARI:0001016	Anti-MDA5 amyopathic dermatomyositis with rapidly progressive ILD	skos:exactMatch		sssom:NoTermFound	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:07:13+00:00	
+ARI:0001016	Anti-MDA5 amyopathic dermatomyositis with rapidly progressive ILD	skos:exactMatch		sssom:NoTermFound	MONDO	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:07:13+00:00	
+ARI:0001016	Anti-MDA5 amyopathic dermatomyositis with rapidly progressive ILD	skos:exactMatch		sssom:NoTermFound	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:07:13+00:00	
+ARI:0001016	Anti-MDA5 amyopathic dermatomyositis with rapidly progressive ILD	skos:exactMatch		sssom:NoTermFound	ORPHA	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:07:13+00:00	
+ARI:0001016	Anti-MDA5 amyopathic dermatomyositis with rapidly progressive ILD	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:07:13+00:00	
+ARI:0001016	Anti-MDA5 amyopathic dermatomyositis with rapidly progressive ILD	skos:exactMatch		sssom:NoTermFound	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:07:13+00:00	
+ARI:0001016	Anti-MDA5 amyopathic dermatomyositis with rapidly progressive ILD	skos:exactMatch		sssom:NoTermFound	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:07:13+00:00	
+ARI:0001014	Anti-glomerular basement membrane disease	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:07:13+00:00	
+ARI:0001017	Antineutrophil cytoplasmic antibody positive vasculitis	skos:exactMatch		sssom:NoTermFound	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:07:13+00:00	
+ARI:0001019	Antisynthetase syndrome	skos:exactMatch		sssom:NoTermFound	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:07:13+00:00	
+ARI:0001019	Antisynthetase syndrome	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:07:13+00:00	
+ARI:0001020	Aortic valve calcification	skos:exactMatch		sssom:NoTermFound	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:07:13+00:00	
+ARI:0001020	Aortic valve calcification	skos:exactMatch		sssom:NoTermFound	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:07:13+00:00	
+ARI:0001020	Aortic valve calcification	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:07:13+00:00	
+ARI:0001020	Aortic valve calcification	skos:exactMatch		sssom:NoTermFound	ORPHA	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:07:13+00:00	
+ARI:0001210	Vogt-Koyanagi-Harada disease	skos:exactMatch		sssom:NoTermFound	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:07:13+00:00	
+ARI:0001185	Rheumatoid vasculitis	skos:exactMatch		sssom:NoTermFound	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:07:13+00:00	
+ARI:0001185	Rheumatoid vasculitis	skos:exactMatch		sssom:NoTermFound	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:07:13+00:00	
+ARI:0001185	Rheumatoid vasculitis	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:07:13+00:00	
+ARI:0001185	Rheumatoid vasculitis	skos:exactMatch		sssom:NoTermFound	ORPHA	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:07:13+00:00	
+ARI:0001179	Restless legs	skos:exactMatch		sssom:NoTermFound	ORPHA	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:07:13+00:00	
+ARI:0001177	Reactive arthritis	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:07:13+00:00	
+ARI:0001047	Autoimmune retinopathy	skos:exactMatch		sssom:NoTermFound	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:07:13+00:00	
+ARI:0001047	Autoimmune retinopathy	skos:exactMatch		sssom:NoTermFound	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:07:13+00:00	
+ARI:0001047	Autoimmune retinopathy	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:07:13+00:00	
+ARI:0001047	Autoimmune retinopathy	skos:exactMatch		sssom:NoTermFound	ORPHA	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:07:13+00:00	
+ARI:0001047	Autoimmune retinopathy	skos:exactMatch		sssom:NoTermFound	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:07:13+00:00	
+ARI:0001045	Autoimmune pulmonary alveolar proteinosis	skos:exactMatch		sssom:NoTermFound	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:07:13+00:00	
