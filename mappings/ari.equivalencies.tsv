@@ -2340,3 +2340,4 @@ ARI	0001020	Aortic valve calcification	skos:exactMatch	mesh	C562942	manual	githu
 ARI	0001021	Aplastic anemia	skos:exactMatch	ORPHA	164823	manual	github:KrishnaTO
 ARI	0001030	Autoimmune ganglionopathy	skos:exactMatch	umls	C5395071	manual	github:KrishnaTO
 ARI	0001033	Autoimmune hepatitis	skos:exactMatch	ncit	C27029	manual	github:KrishnaTO
+ARI	0001215	Fulminant type 1 diabetes	skos:exactMatch	icd10cm	E10	manual	github:KrishnaTO

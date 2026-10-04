@@ -1653,6 +1653,8 @@
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27 | Claude | Synonym review (second pass): withdrew "Acute-onset type 1 diabetes" (distinct).</ARI_ChangeLog>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1217068008</ARI_SNOMED>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T18:56:00+00:00 | KrishnaTO | PR review: reversed the rejection of SNOMED 1217068008, the concept behind the confirmed OMOP 37163452</ARI_ChangeLog>
+  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E10</ARI_ICD10>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T22:30:00+00:00 | KrishnaTO | PR review: reversed the rejection of ICD10 E10; ICD-10-CM has no code for fulminant type 1 diabetes</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_Ful_DKA">
