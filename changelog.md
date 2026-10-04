@@ -1,5 +1,22 @@
 # Changelog
 
+## claude/hashimotos-thyroiditis-mappings-d13221
+
+Adds `ARI:0001216` Hashimoto's thyroiditis as a subtype (`hasParentDisease`) of `ARI:0001048`
+Autoimmune thyroiditis. The cross-references on the parent that name Hashimoto thyroiditis
+move to it. The parent keeps its own terms: SNOMED `66944004`, OMOP `4281109`, DOID `7188`,
+MONDO `0005623`, ICD-10 `E06.3`, UMLS `C0920350` and MeSH `D013967`.
+
+- **Moved off the parent:** ORPHA `855` and NCIt `C27191` are both Hashimoto thyroiditis. The
+  parent now rejects them (`manual-negative` / `Not`, with the earlier ORPHA confirmation
+  marked superseded) and stores neither.
+- **Confirmed on the subtype:** MONDO `0007699`, ORPHA `855`, NCIt `C27191`, SNOMED `21983002`
+  (also the DXCODE) and OMOP `135215`. The first, fourth and fifth were already rejected on the
+  parent as "the subtype", and those rejections stand.
+- **Synonyms:** "Hashimoto thyroiditis", "Hashimoto's disease", "Hashimoto's thyroiditis" and
+  "Chronic lymphocytic thyroiditis" are withdrawn from the parent (`subtype`). The subtype
+  lists all of them except its own label. `9_Synonym_Review.tsv` records the new verdicts.
+
 ## claude/autoimmune-thyroiditis-mondo-mapping-1b8434
 
 Reverses the ARI#93 line-review rejection of `ARI:0001048` Autoimmune thyroiditis -> MONDO

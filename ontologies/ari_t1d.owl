@@ -5491,14 +5491,13 @@ In chronic autoimmune neutropenia the body produces IgG antibodies that target a
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0920350</ARI_UMLS>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E06.3</ARI_ICD10>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D013967</ARI_MESH>
-  <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C27191</ARI_NCI>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune thyroiditis is a chronic disorder where the immune system creates antibodies that attack the thyroid and cause inflammation. This inflammation may initially cause excess release of thyroid hormones (hyperthyroidism ) but over time, this damage leads to insufficient thyroid hormone production (hypothyroidism), causing fatigue, weight gain, and depression. Genetic and environmental factors may play a role in the development of this disorder. There is no cure, but hormone treatments are available to manage symptoms.  
 
 Several names are used for autoimmune thyroiditis. When it is known to be autoimmune, it is called Hashimoto's when the thyroid gland is enlarged (called a goiter), and (less commonly) Ord's thyroiditis, when the thyroid gland shrinks.</rdfs:comment>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hashimoto thyroiditis</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hashimoto's disease</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hashimoto's thyroiditis</ARI_Synonym>
-  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chronic lymphocytic thyroiditis</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hashimoto thyroiditis | subtype | names Hashimoto's thyroiditis (MONDO:0007699), now its own subtype entry ARI:0001216</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hashimoto's disease | subtype | names Hashimoto's thyroiditis (MONDO:0007699), now its own subtype entry ARI:0001216</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hashimoto's thyroiditis | subtype | names Hashimoto's thyroiditis (MONDO:0007699), now its own subtype entry ARI:0001216</ARI_SynonymWithdrawn>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chronic lymphocytic thyroiditis | subtype | names Hashimoto's thyroiditis (MONDO:0007699), now its own subtype entry ARI:0001216</ARI_SynonymWithdrawn>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eaton 2011; https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2892249/</ARI_DefSource>
   <evidenceQuality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antibody</evidenceQuality>
   <diseaseCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune</diseaseCategory>
@@ -5529,10 +5528,33 @@ Several names are used for autoimmune thyroiditis. When it is known to be autoim
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:02:58+00:00 | medinatinajeropablo-dot | Cross-reference review: confirmed OMOP 4281109; confirmed MONDO 0005623, 0007699; confirmed DOID 7188; confirmed ORPHANET 855; confirmed MESH D013967; flagged NCI C38766</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:02:58+00:00 | medinatinajeropablo-dot | Stored confirmed cross-reference: MONDO 0007699; ORPHANET 855</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T03:56:59+00:00 | user | Edited: nci</ARI_ChangeLog>
-  <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">855</ARI_ORPHANET>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27T23:00:00+00:00 | medinatinajeropablo-dot | PR #93 review: removed MONDO 0005623 (broader than the disease); removed MONDO 0007699 (a subtype of the disease)</ARI_ChangeLog>
   <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0005623</ARI_MONDO>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T16:55:37+00:00 | medinatinajeropablo-dot | PR #93 review: restored MONDO 0005623 (rejection reversed)</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T17:03:25+00:00 | KrishnaTO | Created subtype ARI:0001216 Hashimoto's thyroiditis and moved to it ORPHANET 855 and NCI C27191 (both Hashimoto thyroiditis) and the synonyms "Hashimoto thyroiditis", "Hashimoto's disease", "Hashimoto's thyroiditis", "Chronic lymphocytic thyroiditis"</ARI_ChangeLog>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001216">
+  <rdf:type rdf:resource="#AutoimmuneDisease"/>
+  <hasParentDisease rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001048"/>
+  <targetsTissue rdf:resource="#Tissue_Glands"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hashimoto's thyroiditis</rdfs:label>
+  <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001216</ARI_ID>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An autoimmune disorder caused by the production of autoantibodies against thyroid tissue. There is progressive destruction of the thyroid follicles leading to hypothyroidism.</rdfs:comment>
+  <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI Thesaurus C27191</ARI_DefSource>
+  <diseaseCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune</diseaseCategory>
+  <evidenceQuality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antibody</evidenceQuality>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hashimoto thyroiditis</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hashimoto's disease</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chronic lymphocytic thyroiditis</ARI_Synonym>
+  <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0007699</ARI_MONDO>
+  <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">855</ARI_ORPHANET>
+  <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C27191</ARI_NCI>
+  <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21983002</ARI_SNOMED>
+  <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21983002</ARI_DXCODE>
+  <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">135215</ARI_OMOP>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T17:03:25+00:00 | KrishnaTO | Created: Hashimoto's thyroiditis, subtype of ARI:0001048 Autoimmune thyroiditis. Moved from the parent: ORPHANET 855, NCI C27191 and the Hashimoto synonyms. Confirmed MONDO 0007699, SNOMED 21983002 and OMOP 135215, which the parent rejects as this subtype</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001048_351">
