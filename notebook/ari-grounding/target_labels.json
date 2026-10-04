@@ -351,6 +351,10 @@
   "sarcoidosis",
   "doid.owl"
  ],
+ "DOID:11563": [
+  "retinal vasculitis",
+  "doid.owl"
+ ],
  "DOID:11656": [
   "cicatricial pemphigoid",
   "doid.owl"
@@ -1025,6 +1029,10 @@
  ],
  "MONDO:0006806": [
   "intermediate uveitis",
+  "mondo.obo"
+ ],
+ "MONDO:0006950": [
+  "retinal vasculitis",
   "mondo.obo"
  ],
  "MONDO:0006981": [
@@ -4231,6 +4239,10 @@
   "Limbic encephalitis with dipeptidyl-peptidase 6 antibodies",
   "snomed/CONCEPT.csv"
  ],
+ "SNOMEDCT:77628002": [
+  "Retinal vasculitis",
+  "snomed/CONCEPT.csv"
+ ],
  "SNOMEDCT:78370002": [
   "Scleritis",
   "snomed/CONCEPT.csv"
@@ -4629,6 +4641,10 @@
  ],
  "icd10cm:H30.81": [
   "Harada's disease",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:H35.06": [
+  "Retinal vasculitis",
   "mesh-icd-ncit-clinvar/CONCEPT.csv"
  ],
  "icd10cm:H35.30": [
@@ -5597,6 +5613,10 @@
  ],
  "mesh:D020968": [
   "Brachial Plexus Neuritis",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D031300": [
+  "Retinal Vasculitis",
   "mesh-icd-ncit-clinvar/CONCEPT.csv"
  ],
  "mesh:D034701": [
@@ -8190,6 +8210,10 @@
  "umls:C0151436": [
   "hypersensitivity vasculitis",
   "doid.owl xref (DOID:9809)"
+ ],
+ "umls:C0152026": [
+  "retinal vasculitis",
+  "doid.owl xref (DOID:11563)"
  ],
  "umls:C0152085": [
   "reactive arthritis",

@@ -1420,7 +1420,7 @@
    "method": "xref via curated anchor",
    "name": "antisynthetase syndrome",
    "routes": 3,
-   "support": 17
+   "support": 23
   }
  ],
  "ARI:0001019|MONDO": [
@@ -1430,7 +1430,7 @@
    "method": "xref via curated anchor",
    "name": "antisynthetase syndrome",
    "routes": 1,
-   "support": 10
+   "support": 14
   }
  ],
  "ARI:0001019|ORPHA": [
@@ -1440,7 +1440,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 15
+   "support": 21
   }
  ],
  "ARI:0001019|SNOMEDCT": [
@@ -1450,7 +1450,7 @@
    "method": "xref via curated anchor",
    "name": "Antisynthetase syndrome",
    "routes": 2,
-   "support": 12
+   "support": 16
   }
  ],
  "ARI:0001019|mesh": [
@@ -1460,7 +1460,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 15
+   "support": 21
   }
  ],
  "ARI:0001019|omop": [
@@ -1470,7 +1470,7 @@
    "method": "xref via curated anchor",
    "name": "Antisynthetase syndrome",
    "routes": 2,
-   "support": 12
+   "support": 16
   }
  ],
  "ARI:0001019|umls": [
@@ -1480,7 +1480,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 10
+   "support": 14
   }
  ],
  "ARI:0001020|MONDO": [
@@ -13370,7 +13370,7 @@
    "method": "xref via curated anchor",
    "name": "reactive arthritis",
    "routes": 3,
-   "support": 18
+   "support": 20
   }
  ],
  "ARI:0001177|MONDO": [
@@ -13380,7 +13380,7 @@
    "method": "xref via curated anchor",
    "name": "reactive arthritis",
    "routes": 1,
-   "support": 9
+   "support": 11
   }
  ],
  "ARI:0001177|ORPHA": [
@@ -13390,7 +13390,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 9
+   "support": 11
   }
  ],
  "ARI:0001177|SNOMEDCT": [
@@ -13400,7 +13400,7 @@
    "method": "xref via curated anchor",
    "name": "Post-bacterial arthropathy",
    "routes": 1,
-   "support": 9
+   "support": 11
   },
   {
    "evidence": "Gilda score 0.778 via (preferred name)",
@@ -13418,7 +13418,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 16
+   "support": 18
   }
  ],
  "ARI:0001177|ncit": [
@@ -13428,7 +13428,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 9
+   "support": 11
   }
  ],
  "ARI:0001177|omop": [
@@ -13438,7 +13438,7 @@
    "method": "xref via curated anchor",
    "name": "Post-bacterial arthropathy",
    "routes": 1,
-   "support": 9
+   "support": 11
   },
   {
    "evidence": "Gilda score 0.778 via (preferred name)",
@@ -13456,7 +13456,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 9
+   "support": 11
   },
   {
    "evidence": "DOID:6196 xref, curated DOID:6196",
