@@ -1420,7 +1420,7 @@
    "method": "xref via curated anchor",
    "name": "antisynthetase syndrome",
    "routes": 3,
-   "support": 17
+   "support": 23
   }
  ],
  "ARI:0001019|MONDO": [
@@ -1430,7 +1430,7 @@
    "method": "xref via curated anchor",
    "name": "antisynthetase syndrome",
    "routes": 1,
-   "support": 10
+   "support": 14
   }
  ],
  "ARI:0001019|ORPHA": [
@@ -1440,7 +1440,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 15
+   "support": 21
   }
  ],
  "ARI:0001019|SNOMEDCT": [
@@ -1450,7 +1450,7 @@
    "method": "xref via curated anchor",
    "name": "Antisynthetase syndrome",
    "routes": 2,
-   "support": 12
+   "support": 16
   }
  ],
  "ARI:0001019|mesh": [
@@ -1460,7 +1460,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 15
+   "support": 21
   }
  ],
  "ARI:0001019|omop": [
@@ -1470,7 +1470,7 @@
    "method": "xref via curated anchor",
    "name": "Antisynthetase syndrome",
    "routes": 2,
-   "support": 12
+   "support": 16
   }
  ],
  "ARI:0001019|umls": [
@@ -1480,7 +1480,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 10
+   "support": 14
   }
  ],
  "ARI:0001020|MONDO": [
@@ -7690,7 +7690,7 @@
    "method": "xref via curated anchor",
    "name": "idiopathic membranous glomerulonephritis",
    "routes": 1,
-   "support": 9
+   "support": 11
   },
   {
    "evidence": "MONDO:0005376 from curated mesh:D015433",
@@ -7708,7 +7708,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 9
+   "support": 11
   }
  ],
  "ARI:0001102|SNOMEDCT": [
@@ -7718,7 +7718,7 @@
    "method": "xref via curated anchor",
    "name": "Idiopathic membranous glomerulonephritis",
    "routes": 2,
-   "support": 11
+   "support": 13
   },
   {
    "evidence": "MONDO:0005376 xref, curated mesh:D015433",
@@ -7756,7 +7756,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 9
+   "support": 11
   },
   {
    "evidence": "DOID:10976 xref, curated mesh:D015433",
@@ -7774,7 +7774,7 @@
    "method": "xref via curated anchor",
    "name": "Idiopathic membranous glomerulonephritis",
    "routes": 2,
-   "support": 11
+   "support": 13
   },
   {
    "evidence": "MONDO:0005376 xref SCTID:77182004, curated mesh:D015433",
@@ -7792,7 +7792,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 9
+   "support": 11
   },
   {
    "evidence": "DOID:10976 xref, curated mesh:D015433",
@@ -8093,8 +8093,8 @@
    "id": "1587",
    "method": "xref via curated anchor",
    "name": "thrombocytopenia due to platelet alloimmunization",
-   "routes": 1,
-   "support": 3
+   "routes": 2,
+   "support": 5
   }
  ],
  "ARI:0001107|MONDO": [
@@ -8104,7 +8104,15 @@
    "method": "xref via curated anchor",
    "name": "autoimmune thrombocytopenic purpura",
    "routes": 1,
-   "support": 3
+   "support": 7
+  },
+  {
+   "evidence": "MONDO:0002048 from curated MONDO:0002048",
+   "id": "0002048",
+   "method": "xref via curated anchor",
+   "name": "thrombocytopenia due to immune destruction",
+   "routes": 1,
+   "support": 2
   },
   {
    "evidence": "MONDO:0019098 from curated umls:C0242584",
@@ -8122,7 +8130,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 3
+   "support": 7
   }
  ],
  "ARI:0001107|ORPHA": [
@@ -8132,7 +8140,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 3
+   "support": 7
   },
   {
    "evidence": "MONDO:0019098 xref, curated umls:C0242584",
@@ -8160,15 +8168,15 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 3
+   "support": 7
   },
   {
    "evidence": "DOID:1587 xref, curated SNOMEDCT:2897005",
    "id": "C3991",
    "method": "xref via curated anchor",
    "name": "",
-   "routes": 1,
-   "support": 3
+   "routes": 2,
+   "support": 5
   }
  ],
  "ARI:0001107|omop": [
@@ -8183,20 +8191,20 @@
  ],
  "ARI:0001107|umls": [
   {
-   "evidence": "DOID:1587 xref, curated SNOMEDCT:2897005",
-   "id": "C0272286",
-   "method": "xref via curated anchor",
-   "name": "",
-   "routes": 1,
-   "support": 3
-  },
-  {
    "evidence": "MONDO:0008558 xref, curated umls:C0398650",
    "id": "C0398650",
    "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 3
+   "support": 7
+  },
+  {
+   "evidence": "DOID:1587 xref, curated SNOMEDCT:2897005",
+   "id": "C0272286",
+   "method": "xref via curated anchor",
+   "name": "",
+   "routes": 2,
+   "support": 5
   },
   {
    "evidence": "MONDO:0019098 xref, curated umls:C0242584",
@@ -8214,7 +8222,7 @@
    "method": "xref via curated anchor",
    "name": "IgA vasculitis",
    "routes": 3,
-   "support": 18
+   "support": 24
   }
  ],
  "ARI:0001108|MONDO": [
@@ -8224,7 +8232,7 @@
    "method": "xref via curated anchor",
    "name": "immunoglobulin A vasculitis",
    "routes": 1,
-   "support": 8
+   "support": 12
   }
  ],
  "ARI:0001108|ORPHA": [
@@ -8234,7 +8242,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 16
+   "support": 22
   }
  ],
  "ARI:0001108|SNOMEDCT": [
@@ -8244,7 +8252,7 @@
    "method": "xref via curated anchor",
    "name": "Immunoglobulin A vasculitis",
    "routes": 3,
-   "support": 18
+   "support": 24
   }
  ],
  "ARI:0001108|icd10cm": [
@@ -8254,7 +8262,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 16
+   "support": 22
   }
  ],
  "ARI:0001108|mesh": [
@@ -8264,7 +8272,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 16
+   "support": 22
   }
  ],
  "ARI:0001108|ncit": [
@@ -8274,7 +8282,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 16
+   "support": 22
   }
  ],
  "ARI:0001108|omop": [
@@ -8284,7 +8292,7 @@
    "method": "xref via curated anchor",
    "name": "Immunoglobulin A vasculitis",
    "routes": 3,
-   "support": 18
+   "support": 24
   }
  ],
  "ARI:0001108|umls": [
@@ -8294,35 +8302,45 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 16
+   "support": 22
+  }
+ ],
+ "ARI:0001109|DOID": [
+  {
+   "evidence": "DOID:0080356 from curated DOID:0080356",
+   "id": "0080356",
+   "method": "xref via curated anchor",
+   "name": "IgG4-related disease",
+   "routes": 3,
+   "support": 10
   }
  ],
  "ARI:0001109|MONDO": [
   {
-   "evidence": "MONDO:0017287 from lexical match DOID:0080356 (Gilda 0.778 via IgG4-related diseases)",
+   "evidence": "MONDO:0017287 from curated MONDO:0017287",
    "id": "0017287",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "immunoglobulin G4-related sclerosing disease",
    "routes": 1,
-   "support": 1
+   "support": 5
   }
  ],
  "ARI:0001109|ORPHA": [
   {
-   "evidence": "MONDO:0017287 xref, lexical match DOID:0080356 (Gilda 0.778 via IgG4-related diseases)",
+   "evidence": "DOID:0080356 xref, curated DOID:0080356",
    "id": "284264",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
-   "routes": 1,
-   "support": 1
+   "routes": 2,
+   "support": 8
   },
   {
-   "evidence": "MONDO:0017287 xref, lexical match DOID:0080356 (Gilda 0.778 via IgG4-related diseases)",
+   "evidence": "MONDO:0017287 xref, curated MONDO:0017287",
    "id": "596448",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 1
+   "support": 5
   }
  ],
  "ARI:0001109|SNOMEDCT": [
@@ -8337,12 +8355,12 @@
  ],
  "ARI:0001109|ncit": [
   {
-   "evidence": "MONDO:0017287 xref, lexical match DOID:0080356 (Gilda 0.778 via IgG4-related diseases)",
+   "evidence": "MONDO:0017287 xref, curated MONDO:0017287",
    "id": "C95992",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 1
+   "support": 5
   }
  ],
  "ARI:0001109|omop": [
@@ -8357,12 +8375,32 @@
  ],
  "ARI:0001109|umls": [
   {
-   "evidence": "MONDO:0017287 xref, lexical match DOID:0080356 (Gilda 0.778 via IgG4-related diseases)",
+   "evidence": "MONDO:0017287 xref, curated MONDO:0017287",
    "id": "C3203653",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 1
+   "support": 5
+  }
+ ],
+ "ARI:0001110|MONDO": [
+  {
+   "evidence": "MONDO:0018675 from curated ORPHA:449563",
+   "id": "0018675",
+   "method": "xref via curated anchor",
+   "name": "IgG4-related ophthalmic disorder",
+   "routes": 1,
+   "support": 4
+  }
+ ],
+ "ARI:0001110|ORPHA": [
+  {
+   "evidence": "MONDO:0018675 xref, curated ORPHA:449563",
+   "id": "449563",
+   "method": "xref via curated anchor",
+   "name": "",
+   "routes": 1,
+   "support": 4
   }
  ],
  "ARI:0001110|SNOMEDCT": [
@@ -8385,6 +8423,16 @@
    "support": 2
   }
  ],
+ "ARI:0001110|umls": [
+  {
+   "evidence": "MONDO:0018675 xref, curated ORPHA:449563",
+   "id": "C5569009",
+   "method": "xref via curated anchor",
+   "name": "",
+   "routes": 1,
+   "support": 4
+  }
+ ],
  "ARI:0001111|DOID": [
   {
    "evidence": "DOID:3429 from curated SNOMEDCT:72315009",
@@ -8392,7 +8440,7 @@
    "method": "xref via curated anchor",
    "name": "inclusion body myositis",
    "routes": 3,
-   "support": 26
+   "support": 36
   }
  ],
  "ARI:0001111|MONDO": [
@@ -8402,7 +8450,7 @@
    "method": "xref via curated anchor",
    "name": "inclusion body myositis",
    "routes": 1,
-   "support": 12
+   "support": 18
   }
  ],
  "ARI:0001111|OMIM": [
@@ -8412,7 +8460,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 24
+   "support": 34
   }
  ],
  "ARI:0001111|ORPHA": [
@@ -8422,7 +8470,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 24
+   "support": 34
   }
  ],
  "ARI:0001111|SNOMEDCT": [
@@ -8432,7 +8480,7 @@
    "method": "xref via curated anchor",
    "name": "Inclusion body myositis",
    "routes": 3,
-   "support": 26
+   "support": 36
   }
  ],
  "ARI:0001111|icd10cm": [
@@ -8442,7 +8490,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 24
+   "support": 34
   }
  ],
  "ARI:0001111|mesh": [
@@ -8452,7 +8500,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 24
+   "support": 34
   }
  ],
  "ARI:0001111|ncit": [
@@ -8462,7 +8510,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 24
+   "support": 34
   }
  ],
  "ARI:0001111|omop": [
@@ -8472,7 +8520,7 @@
    "method": "xref via curated anchor",
    "name": "Inclusion body myositis",
    "routes": 3,
-   "support": 26
+   "support": 36
   }
  ],
  "ARI:0001111|umls": [
@@ -8482,7 +8530,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 24
+   "support": 34
   }
  ],
  "ARI:0001112|DOID": [
@@ -8492,7 +8540,7 @@
    "method": "xref via curated anchor",
    "name": "inflammatory bowel disease",
    "routes": 3,
-   "support": 19
+   "support": 21
   }
  ],
  "ARI:0001112|MONDO": [
@@ -8502,7 +8550,7 @@
    "method": "xref via curated anchor",
    "name": "inflammatory bowel disease",
    "routes": 1,
-   "support": 10
+   "support": 12
   }
  ],
  "ARI:0001112|OMIM": [
@@ -8522,7 +8570,7 @@
    "method": "xref via curated anchor",
    "name": "Inflammatory bowel disease",
    "routes": 2,
-   "support": 12
+   "support": 14
   }
  ],
  "ARI:0001112|mesh": [
@@ -8532,7 +8580,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 17
+   "support": 19
   }
  ],
  "ARI:0001112|ncit": [
@@ -8542,7 +8590,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 17
+   "support": 19
   }
  ],
  "ARI:0001112|omop": [
@@ -8552,7 +8600,7 @@
    "method": "xref via curated anchor",
    "name": "Inflammatory bowel disease",
    "routes": 2,
-   "support": 12
+   "support": 14
   }
  ],
  "ARI:0001112|umls": [
@@ -8562,7 +8610,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 17
+   "support": 19
   }
  ],
  "ARI:0001113|DOID": [
@@ -8572,7 +8620,7 @@
    "method": "xref via curated anchor",
    "name": "Hirata disease",
    "routes": 3,
-   "support": 18
+   "support": 22
   }
  ],
  "ARI:0001113|MONDO": [
@@ -8582,7 +8630,7 @@
    "method": "xref via curated anchor",
    "name": "insulin autoimmune syndrome",
    "routes": 1,
-   "support": 8
+   "support": 12
   }
  ],
  "ARI:0001113|ORPHA": [
@@ -8592,7 +8640,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 8
+   "support": 12
   }
  ],
  "ARI:0001113|SNOMEDCT": [
@@ -8602,7 +8650,7 @@
    "method": "xref via curated anchor",
    "name": "Insulin autoimmune syndrome",
    "routes": 3,
-   "support": 18
+   "support": 22
   }
  ],
  "ARI:0001113|omop": [
@@ -8612,7 +8660,7 @@
    "method": "xref via curated anchor",
    "name": "Insulin autoimmune syndrome",
    "routes": 3,
-   "support": 18
+   "support": 22
   }
  ],
  "ARI:0001113|umls": [
@@ -8622,7 +8670,27 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 16
+   "support": 20
+  }
+ ],
+ "ARI:0001114|MONDO": [
+  {
+   "evidence": "MONDO:0016464 from curated umls:C0342337",
+   "id": "0016464",
+   "method": "xref via curated anchor",
+   "name": "insulin-resistance syndrome type B",
+   "routes": 1,
+   "support": 2
+  }
+ ],
+ "ARI:0001114|ORPHA": [
+  {
+   "evidence": "MONDO:0016464 xref, curated umls:C0342337",
+   "id": "2298",
+   "method": "xref via curated anchor",
+   "name": "",
+   "routes": 1,
+   "support": 2
   }
  ],
  "ARI:0001114|SNOMEDCT": [
@@ -8645,6 +8713,16 @@
    "support": 2
   }
  ],
+ "ARI:0001114|umls": [
+  {
+   "evidence": "MONDO:0016464 xref, curated umls:C0342337",
+   "id": "C0342337",
+   "method": "xref via curated anchor",
+   "name": "",
+   "routes": 1,
+   "support": 2
+  }
+ ],
  "ARI:0001115|DOID": [
   {
    "evidence": "DOID:12732 from curated SNOMEDCT:314429009",
@@ -8652,7 +8730,7 @@
    "method": "xref via curated anchor",
    "name": "intermediate uveitis",
    "routes": 3,
-   "support": 26
+   "support": 30
   }
  ],
  "ARI:0001115|MONDO": [
@@ -8662,7 +8740,7 @@
    "method": "xref via curated anchor",
    "name": "intermediate uveitis",
    "routes": 1,
-   "support": 12
+   "support": 16
   }
  ],
  "ARI:0001115|ORPHA": [
@@ -8672,7 +8750,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 12
+   "support": 16
   }
  ],
  "ARI:0001115|SNOMEDCT": [
@@ -8682,7 +8760,7 @@
    "method": "xref via curated anchor",
    "name": "Intermediate uveitis",
    "routes": 3,
-   "support": 26
+   "support": 30
   }
  ],
  "ARI:0001115|mesh": [
@@ -8692,7 +8770,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 24
+   "support": 28
   }
  ],
  "ARI:0001115|ncit": [
@@ -8702,7 +8780,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 24
+   "support": 28
   }
  ],
  "ARI:0001115|omop": [
@@ -8712,7 +8790,7 @@
    "method": "xref via curated anchor",
    "name": "Intermediate uveitis",
    "routes": 3,
-   "support": 26
+   "support": 30
   }
  ],
  "ARI:0001115|umls": [
@@ -8722,7 +8800,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 24
+   "support": 28
   }
  ],
  "ARI:0001116|DOID": [
@@ -8732,7 +8810,7 @@
    "method": "xref via curated anchor",
    "name": "interstitial lung disease",
    "routes": 3,
-   "support": 23
+   "support": 27
   }
  ],
  "ARI:0001116|MONDO": [
@@ -8742,7 +8820,7 @@
    "method": "xref via curated anchor",
    "name": "interstitial lung disease",
    "routes": 1,
-   "support": 10
+   "support": 14
   }
  ],
  "ARI:0001116|OMIM": [
@@ -8762,7 +8840,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 10
+   "support": 14
   }
  ],
  "ARI:0001116|SNOMEDCT": [
@@ -8772,7 +8850,7 @@
    "method": "xref via curated anchor",
    "name": "Interstitial lung disease",
    "routes": 2,
-   "support": 12
+   "support": 16
   },
   {
    "evidence": "DOID:3082 xref, curated DOID:3082",
@@ -8785,20 +8863,20 @@
  ],
  "ARI:0001116|icd10cm": [
   {
+   "evidence": "MONDO:0015925 xref, curated SNOMEDCT:233703007",
+   "id": "J80-J84",
+   "method": "xref via curated anchor",
+   "name": "",
+   "routes": 1,
+   "support": 14
+  },
+  {
    "evidence": "DOID:3082 xref, curated DOID:3082",
    "id": "J84.9",
    "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
    "support": 11
-  },
-  {
-   "evidence": "MONDO:0015925 xref, curated SNOMEDCT:233703007",
-   "id": "J80-J84",
-   "method": "xref via curated anchor",
-   "name": "",
-   "routes": 1,
-   "support": 10
   }
  ],
  "ARI:0001116|mesh": [
@@ -8808,7 +8886,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 21
+   "support": 25
   }
  ],
  "ARI:0001116|ncit": [
@@ -8818,7 +8896,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 21
+   "support": 25
   }
  ],
  "ARI:0001116|omop": [
@@ -8828,7 +8906,7 @@
    "method": "xref via curated anchor",
    "name": "Interstitial lung disease",
    "routes": 2,
-   "support": 12
+   "support": 16
   },
   {
    "evidence": "DOID:3082 xref SCTID:64667001, curated DOID:3082",
@@ -8841,20 +8919,20 @@
  ],
  "ARI:0001116|umls": [
   {
+   "evidence": "MONDO:0015925 xref, curated SNOMEDCT:233703007",
+   "id": "C5441745",
+   "method": "xref via curated anchor",
+   "name": "",
+   "routes": 1,
+   "support": 14
+  },
+  {
    "evidence": "DOID:3082 xref, curated DOID:3082",
    "id": "C0206062",
    "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
    "support": 11
-  },
-  {
-   "evidence": "MONDO:0015925 xref, curated SNOMEDCT:233703007",
-   "id": "C5441745",
-   "method": "xref via curated anchor",
-   "name": "",
-   "routes": 1,
-   "support": 10
   }
  ],
  "ARI:0001117|MONDO": [
@@ -13370,7 +13448,7 @@
    "method": "xref via curated anchor",
    "name": "reactive arthritis",
    "routes": 3,
-   "support": 18
+   "support": 20
   }
  ],
  "ARI:0001177|MONDO": [
@@ -13380,7 +13458,7 @@
    "method": "xref via curated anchor",
    "name": "reactive arthritis",
    "routes": 1,
-   "support": 9
+   "support": 11
   }
  ],
  "ARI:0001177|ORPHA": [
@@ -13390,7 +13468,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 9
+   "support": 11
   }
  ],
  "ARI:0001177|SNOMEDCT": [
@@ -13400,7 +13478,7 @@
    "method": "xref via curated anchor",
    "name": "Post-bacterial arthropathy",
    "routes": 1,
-   "support": 9
+   "support": 11
   },
   {
    "evidence": "Gilda score 0.778 via (preferred name)",
@@ -13418,7 +13496,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 16
+   "support": 18
   }
  ],
  "ARI:0001177|ncit": [
@@ -13428,7 +13506,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 9
+   "support": 11
   }
  ],
  "ARI:0001177|omop": [
@@ -13438,7 +13516,7 @@
    "method": "xref via curated anchor",
    "name": "Post-bacterial arthropathy",
    "routes": 1,
-   "support": 9
+   "support": 11
   },
   {
    "evidence": "Gilda score 0.778 via (preferred name)",
@@ -13456,7 +13534,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 9
+   "support": 11
   },
   {
    "evidence": "DOID:6196 xref, curated DOID:6196",

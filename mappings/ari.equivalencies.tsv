@@ -2273,3 +2273,28 @@ ARI	0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	omop	NoT
 ARI	0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	ncit	NoTermFound	manual-absent	github:KrishnaTO
 ARI	0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:KrishnaTO
 ARI	0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	ORPHA	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001102	Idiopathic membranous glomerulonephritis	skos:exactMatch	umls	C0086445	manual	github:AnjaliRH
+ARI	0001107	Immune thrombocytopenia	skos:exactMatch	MONDO	0002048	manual	github:AnjaliRH
+ARI	0001107	Immune thrombocytopenia	skos:exactMatch	ORPHA	3002	manual	github:AnjaliRH
+ARI	0001107	Immune thrombocytopenia	skos:exactMatch	OMIM	188030	manual	github:AnjaliRH
+ARI	0001108	Immunoglobulin A vasculitis	skos:exactMatch	MONDO	0019167	manual	github:AnjaliRH
+ARI	0001108	Immunoglobulin A vasculitis	skos:exactMatch	ORPHA	761	manual	github:AnjaliRH
+ARI	0001109	Immunoglobulin G4 related disease	skos:exactMatch	mesh	D000077733	manual	github:AnjaliRH
+ARI	0001109	Immunoglobulin G4 related disease	skos:exactMatch	icd10cm	D89.84	manual	github:AnjaliRH
+ARI	0001109	Immunoglobulin G4 related disease	skos:exactMatch	umls	C4087124	manual	github:AnjaliRH
+ARI	0001110	Immunoglobulin G4 related ophthalmic disease	skos:exactMatch	ORPHA	449563	manual	github:AnjaliRH
+ARI	0001110	Immunoglobulin G4 related ophthalmic disease	skos:exactMatch	umls	C5569009	manual	github:AnjaliRH
+ARI	0001111	Inclusion body myositis	skos:exactMatch	MONDO	0007827	manual	github:AnjaliRH
+ARI	0001111	Inclusion body myositis	skos:exactMatch	ORPHA	611	manual	github:AnjaliRH
+ARI	0001111	Inclusion body myositis	skos:exactMatch	OMIM	147421	manual	github:AnjaliRH
+ARI	0001112	Inflammatory Bowel Disease	skos:exactMatch	MONDO	0005265	manual	github:AnjaliRH
+ARI	0001113	Insulin autoimmune syndrome	skos:exactMatch	MONDO	0018465	manual	github:AnjaliRH
+ARI	0001113	Insulin autoimmune syndrome	skos:exactMatch	ORPHA	411593	manual	github:AnjaliRH
+ARI	0001114	Insulin resistance - type B	skos:exactMatch	icd10cm	E88.818	manual	github:AnjaliRH
+ARI	0001114	Insulin resistance - type B	skos:exactMatch	umls	C0342337	manual	github:AnjaliRH
+ARI	0001115	Intermediate uveitis	skos:exactMatch	MONDO	0006806	manual	github:AnjaliRH
+ARI	0001115	Intermediate uveitis	skos:exactMatch	ORPHA	279914	manual	github:AnjaliRH
+ARI	0001116	Interstitial lung disease	skos:exactMatch	MONDO	0015925	manual	github:AnjaliRH
+ARI	0001116	Interstitial lung disease	skos:exactMatch	ORPHA	182095	manual	github:AnjaliRH
+ARI	0001109	Immunoglobulin G4 related disease	skos:exactMatch	MONDO	0017287	manual	github:AnjaliRH
+ARI	0001109	Immunoglobulin G4 related disease	skos:exactMatch	DOID	0080356	manual	github:KrishnaTO

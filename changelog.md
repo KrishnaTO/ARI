@@ -1,5 +1,33 @@
 # Changelog
 
+## claude/restore-curator-mappings-1092-1116
+
+An audit of the history of `ARI:0001092` to `ARI:0001116` across every branch and PR head
+found curator mappings that were lost or never written to the mapping set. This adds 25 rows
+to both mapping exports.
+
+- **Restored MONDO `0017287` on `ARI:0001109`** (IgG4-related disease). AnjaliRH entered it on
+  2026-08-03 at 18:07 UTC. Her stale editor save at 18:43 (`e9919b5`) removed it, along with
+  MONDO on eight other diseases and six IPEX ids. The others came back (re-entered on 08-07,
+  or restored in `1ccffdf`), but this one did not. The id is stored again and has its mapping
+  row, credited to AnjaliRH.
+- **Recorded 23 ids that AnjaliRH entered through the field editor between 2026-08-07 and
+  2026-08-10.** They were stored on the diseases (`ARI_*`), but no review ever wrote a mapping
+  row for them. They cover MONDO, Orphanet, OMIM, MeSH, ICD-10 and UMLS on `ARI:0001102` and
+  `ARI:0001107` to `ARI:0001116`. Each row is credited to AnjaliRH and dated by the
+  `Edited: <field>` changelog entry that stored it.
+- **Reversed the rejection of DOID `0080356` on `ARI:0001109`.** DOID labels it
+  "IgG4-related disease", and MONDO `0017287` cross-references it. The curator's `Not` row is
+  marked superseded, and a confirmation credited to `github:KrishnaTO` is added.
+- Each touched record gains an `ARI_ChangeLog` line. Predictions, target labels and report 8
+  are regenerated. They had not been rerun since ARI#108, so `ARI:0001019` and `ARI:0001177`
+  also change.
+- Not changed, and needing a curator: the five "no term" judgments deleted as `null` rows in
+  `1cad398` (`ARI:0001094` DOID, `ARI:0001105` MeSH, `ARI:0001108` OMIM, `ARI:0001110` and
+  `ARI:0001113` MeSH), and the never-reviewed `ARI:0001099` to `ARI:0001101` and `ARI:0001105`.
+  The #49 suggestion of MeSH `C580192` for `ARI:0001105` is not restored. It is the IPEX
+  descriptor, which belongs to `ARI:0001106`.
+
 ## claude/disease-mapping-gaps-prs-cd484c
 
 Records "no term in database" for the 146 diseases reviewed in the curator mappings reviews

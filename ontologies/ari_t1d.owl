@@ -11784,6 +11784,7 @@ ASA is not a concern except for people trying to conceive.</rdfs:comment>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-24 20:45 | AnjaliRH | Cross-reference review: confirmed SNOMED 722119002; confirmed OMOP 36716199; confirmed MONDO 0013860; confirmed NCI C123060; confirmed ORPHANET 97560; confirmed MESH D015433; flagged OMIM 614692</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-10 14:32 | user | Edited: umls</ARI_ChangeLog>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0086445</ARI_UMLS>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T17:50:00+00:00 | KrishnaTO | Cross-reference review: recorded mapping rows for ids AnjaliRH entered in the field editor: UMLS C0086445</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001103">
@@ -12117,6 +12118,7 @@ Note that thrombotic thrombocytopenic purpura, TTP, is a ***genetic*** disease t
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0242584</ARI_UMLS>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-01T00:10:35+00:00 | KrishnaTO | Cross-reference review: confirmed UMLS C0398650</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew "Immune-mediated thrombotic thrombocytopenic purpura (iTTP)" - a different disease (ADAMTS13-autoantibody thrombotic microangiopathy), not a synonym for immune thrombocytopenia.</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T17:50:00+00:00 | KrishnaTO | Cross-reference review: recorded mapping rows for ids AnjaliRH entered in the field editor: MONDO 0002048; ORPHANET 3002; OMIM 188030</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001107_335">
@@ -12270,6 +12272,7 @@ This condition is usually temporary (4-6 weeks) with a full recovery for most pa
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-10 14:32 | AnjaliRH | Cross-reference review: confirmed SNOMED 191306005; confirmed OMOP 4101602; confirmed DOID 11123; confirmed OMIM null; confirmed UMLS C0034152</ARI_ChangeLog>
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">761</ARI_ORPHANET>
   <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0019167</ARI_MONDO>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T17:50:00+00:00 | KrishnaTO | Cross-reference review: recorded mapping rows for ids AnjaliRH entered in the field editor: MONDO 0019167; ORPHANET 761</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001108_970">
@@ -12403,6 +12406,11 @@ At this time, not all IgG4 diseases are documented, and many are very rare. Howe
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D89.84</ARI_ICD10>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C4087124</ARI_UMLS>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew 14 strings naming organ-specific manifestations of IgG4-related disease (Riedel's thyroiditis, Kuttner's tumor, Mikulicz's syndrome, retroperitoneal fibrosis / Ormond disease, periaortitis, inflammatory pseudotumor, etc.) - these are subtypes/manifestations, not synonyms for the whole disease. Kept the whole-disease synonyms (multifocal fibrosclerosis, hyper-IgG4 disease, IgG4-related systemic disease).</ARI_ChangeLog>
+  <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0017287</ARI_MONDO>
+  <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0080356</ARI_DOID>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T17:50:00+00:00 | KrishnaTO | Cross-reference review: recorded mapping rows for ids AnjaliRH entered in the field editor: MESH D000077733; ICD10 D89.84; UMLS C4087124</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T17:50:00+00:00 | KrishnaTO | Cross-reference review: restored confirmed MONDO 0017287 (entered by AnjaliRH 2026-08-03, removed by a stale editor save)</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T17:50:00+00:00 | KrishnaTO | PR review: reversed the rejection of DOID 0080356, which DOID labels IgG4-related disease</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001109_984">
@@ -12432,6 +12440,7 @@ At this time, not all IgG4 diseases are documented, and many are very rare. Howe
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-10 14:32 | AnjaliRH | Cross-reference review: confirmed SNOMED 1187510006; confirmed OMOP 37162346; confirmed MESH null</ARI_ChangeLog>
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">449563</ARI_ORPHANET>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C5569009</ARI_UMLS>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T17:50:00+00:00 | KrishnaTO | Cross-reference review: recorded mapping rows for ids AnjaliRH entered in the field editor: ORPHANET 449563; UMLS C5569009</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001111">
@@ -12495,6 +12504,7 @@ At this time, not all IgG4 diseases are documented, and many are very rare. Howe
   <ARI_OMIM rdf:datatype="http://www.w3.org/2001/XMLSchema#string">147421</ARI_OMIM>
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">611</ARI_ORPHANET>
   <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0007827</ARI_MONDO>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T17:50:00+00:00 | KrishnaTO | Cross-reference review: recorded mapping rows for ids AnjaliRH entered in the field editor: MONDO 0007827; ORPHANET 611; OMIM 147421</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001111_986">
@@ -12578,6 +12588,7 @@ At this time, not all IgG4 diseases are documented, and many are very rare. Howe
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-07 20:42 | user | Edited: mondo</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-10 14:32 | AnjaliRH | Cross-reference review: confirmed SNOMED 24526004; confirmed OMOP 4074815; confirmed DOID 0050589; confirmed MESH D015212; confirmed UMLS C0021390</ARI_ChangeLog>
   <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0005265</ARI_MONDO>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T17:50:00+00:00 | KrishnaTO | Cross-reference review: recorded mapping rows for ids AnjaliRH entered in the field editor: MONDO 0005265</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001113">
@@ -12605,6 +12616,7 @@ At this time, not all IgG4 diseases are documented, and many are very rare. Howe
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-10 14:32 | AnjaliRH | Cross-reference review: confirmed SNOMED 408539000; confirmed OMOP 4252384; confirmed DOID 0040100; confirmed MESH null; confirmed UMLS C0854359</ARI_ChangeLog>
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">411593</ARI_ORPHANET>
   <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0018465</ARI_MONDO>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T17:50:00+00:00 | KrishnaTO | Cross-reference review: recorded mapping rows for ids AnjaliRH entered in the field editor: MONDO 0018465; ORPHANET 411593</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Tissue_MetabolicSystem">
@@ -12633,6 +12645,7 @@ At this time, not all IgG4 diseases are documented, and many are very rare. Howe
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-10 14:32 | AnjaliRH | Cross-reference review: confirmed SNOMED 237652003; confirmed OMOP 4129525</ARI_ChangeLog>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E88.818</ARI_ICD10>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0342337</ARI_UMLS>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T17:50:00+00:00 | KrishnaTO | Cross-reference review: recorded mapping rows for ids AnjaliRH entered in the field editor: ICD10 E88.818; UMLS C0342337</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001115">
@@ -12695,6 +12708,7 @@ There are other forms of uveitis that can be autoimmune.</rdfs:comment>
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">314429009</ARI_DXCODE>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4197155</ARI_OMOP>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27 | Claude | Synonym review (second pass): withdrew "Vitritis" (non-disease).</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T17:50:00+00:00 | KrishnaTO | Cross-reference review: recorded mapping rows for ids AnjaliRH entered in the field editor: MONDO 0006806; ORPHANET 279914</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001115_1001">
@@ -12775,6 +12789,7 @@ There are other forms of uveitis that can be autoimmune.</rdfs:comment>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-10 14:32 | AnjaliRH | Cross-reference review: confirmed SNOMED 233703007; confirmed OMOP 4119786; confirmed DOID 3082; confirmed NCI C164315; confirmed MESH D017563; confirmed ICD10 J84.9; confirmed UMLS C0206062</ARI_ChangeLog>
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">182095</ARI_ORPHANET>
   <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0015925</ARI_MONDO>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T17:50:00+00:00 | KrishnaTO | Cross-reference review: recorded mapping rows for ids AnjaliRH entered in the field editor: MONDO 0015925; ORPHANET 182095</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001117">

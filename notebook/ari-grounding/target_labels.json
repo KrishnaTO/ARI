@@ -351,6 +351,10 @@
   "sarcoidosis",
   "doid.owl"
  ],
+ "DOID:11563": [
+  "retinal vasculitis",
+  "doid.owl"
+ ],
  "DOID:11656": [
   "cicatricial pemphigoid",
   "doid.owl"
@@ -859,6 +863,10 @@
   "balanitis xerotica obliterans",
   "mondo.obo"
  ],
+ "MONDO:0002048": [
+  "thrombocytopenia due to immune destruction",
+  "mondo.obo"
+ ],
  "MONDO:0003004": [
   "macular degeneration",
   "mondo.obo"
@@ -1025,6 +1033,10 @@
  ],
  "MONDO:0006806": [
   "intermediate uveitis",
+  "mondo.obo"
+ ],
+ "MONDO:0006950": [
+  "retinal vasculitis",
   "mondo.obo"
  ],
  "MONDO:0006981": [
@@ -1343,6 +1355,10 @@
   "autoimmune hemolytic anemia, cold type",
   "mondo.obo"
  ],
+ "MONDO:0016464": [
+  "insulin-resistance syndrome type B",
+  "mondo.obo"
+ ],
  "MONDO:0016499": [
   "autoimmune autonomic ganglionopathy",
   "mondo.obo"
@@ -1453,6 +1469,10 @@
  ],
  "MONDO:0018646": [
   "sclerosing cholangitis",
+  "mondo.obo"
+ ],
+ "MONDO:0018675": [
+  "IgG4-related ophthalmic disorder",
   "mondo.obo"
  ],
  "MONDO:0018746": [
@@ -2443,6 +2463,10 @@
   "Autoimmune hemolytic anemia, cold type",
   "EBI OLS4 (ordo)"
  ],
+ "ORPHA:2298": [
+  "Insulin-resistance syndrome type B",
+  "EBI OLS4 (ordo)"
+ ],
  "ORPHA:231457": [
   "Acute pandysautonomia",
   "EBI OLS4 (ordo)"
@@ -2681,6 +2705,10 @@
  ],
  "ORPHA:447771": [
   "Sclerosing cholangitis",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:449563": [
+  "IgG4-related ophthalmic disease",
   "EBI OLS4 (ordo)"
  ],
  "ORPHA:45360": [
@@ -4231,6 +4259,10 @@
   "Limbic encephalitis with dipeptidyl-peptidase 6 antibodies",
   "snomed/CONCEPT.csv"
  ],
+ "SNOMEDCT:77628002": [
+  "Retinal vasculitis",
+  "snomed/CONCEPT.csv"
+ ],
  "SNOMEDCT:78370002": [
   "Scleritis",
   "snomed/CONCEPT.csv"
@@ -4459,6 +4491,10 @@
   "Autoimmune lymphoproliferative syndrome [ALPS]",
   "mesh-icd-ncit-clinvar/CONCEPT.csv"
  ],
+ "icd10cm:D89.84": [
+  "IgG4-related disease",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
  "icd10cm:E05.0": [
   "Thyrotoxicosis with diffuse goiter",
   "mesh-icd-ncit-clinvar/CONCEPT.csv"
@@ -4489,6 +4525,10 @@
  ],
  "icd10cm:E88.2": [
   "Lipomatosis, not elsewhere classified",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:E88.818": [
+  "Other insulin resistance",
   "mesh-icd-ncit-clinvar/CONCEPT.csv"
  ],
  "icd10cm:G04.0": [
@@ -4629,6 +4669,10 @@
  ],
  "icd10cm:H30.81": [
   "Harada's disease",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:H35.06": [
+  "Retinal vasculitis",
   "mesh-icd-ncit-clinvar/CONCEPT.csv"
  ],
  "icd10cm:H35.30": [
@@ -5097,6 +5141,10 @@
  ],
  "mesh:D000077342": [
   "Post-Lyme Disease Syndrome",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D000077733": [
+  "Immunoglobulin G4-Related Disease",
   "mesh-icd-ncit-clinvar/CONCEPT.csv"
  ],
  "mesh:D000080203": [
@@ -5597,6 +5645,10 @@
  ],
  "mesh:D020968": [
   "Brachial Plexus Neuritis",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D031300": [
+  "Retinal Vasculitis",
   "mesh-icd-ncit-clinvar/CONCEPT.csv"
  ],
  "mesh:D034701": [
@@ -8191,6 +8243,10 @@
   "hypersensitivity vasculitis",
   "doid.owl xref (DOID:9809)"
  ],
+ "umls:C0152026": [
+  "retinal vasculitis",
+  "doid.owl xref (DOID:11563)"
+ ],
  "umls:C0152085": [
   "reactive arthritis",
   "doid.owl xref (DOID:6196)"
@@ -8390,6 +8446,10 @@
  "umls:C0342288": [
   "immune dysregulation-polyendocrinopathy-enteropathy-X-linked syndrome",
   "mondo.obo xref (MONDO:0010580)"
+ ],
+ "umls:C0342337": [
+  "insulin-resistance syndrome type B",
+  "mondo.obo xref (MONDO:0016464)"
  ],
  "umls:C0342394": [
   "neurohypophyseal diabetes insipidus",
@@ -8786,6 +8846,10 @@
  "umls:C5554054": [
   "myelin oligodendrocyte glycoprotein antibody-associated disease",
   "mondo.obo xref (MONDO:1040024)"
+ ],
+ "umls:C5569009": [
+  "IgG4-related ophthalmic disorder",
+  "mondo.obo xref (MONDO:0018675)"
  ],
  "umls:C5576703": [
   "non-specific autoimmune cerebellar ataxia without characteristic antibodies",
