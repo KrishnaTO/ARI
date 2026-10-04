@@ -2035,3 +2035,68 @@ ARI	0001216	Hashimoto's thyroiditis	skos:exactMatch	ORPHA	855	manual	github:Kris
 ARI	0001216	Hashimoto's thyroiditis	skos:exactMatch	ncit	C27191	manual	github:KrishnaTO
 ARI	0001216	Hashimoto's thyroiditis	skos:exactMatch	SNOMEDCT	21983002	manual	github:KrishnaTO
 ARI	0001216	Hashimoto's thyroiditis	skos:exactMatch	omop	135215	manual	github:KrishnaTO
+ARI	0001019	Antisynthetase syndrome	skos:exactMatch	umls	C2609059	manual	github:KrishnaTO
+ARI	0001019	Antisynthetase syndrome	skos:exactMatch	umls	C5959873	manual	github:KrishnaTO
+ARI	0001019	Antisynthetase syndrome	skos:exactMatch	mesh	C537778	manual	github:KrishnaTO
+ARI	0001177	Reactive arthritis	skos:exactMatch	ncit	C128332	manual	github:KrishnaTO
+ARI	0001046	Autoimmune retinal vasculitis	skos:exactMatch	SNOMEDCT	427213005	manual-negative	github:KrishnaTO
+ARI	0001046	Autoimmune retinal vasculitis	skos:exactMatch	SNOMEDCT	77628002	manual-negative	github:KrishnaTO
+ARI	0001046	Autoimmune retinal vasculitis	skos:exactMatch	icd10cm	H35.06	manual-negative	github:KrishnaTO
+ARI	0001046	Autoimmune retinal vasculitis	skos:exactMatch	mesh	D031300	manual-negative	github:KrishnaTO
+ARI	0001046	Autoimmune retinal vasculitis	skos:exactMatch	umls	C1328843	manual-negative	github:KrishnaTO
+ARI	0001046	Autoimmune retinal vasculitis	skos:exactMatch	umls	C0152026	manual-negative	github:KrishnaTO
+ARI	0001046	Autoimmune retinal vasculitis	skos:exactMatch	MONDO	0006950	manual-negative	github:KrishnaTO
+ARI	0001046	Autoimmune retinal vasculitis	skos:exactMatch	MONDO	0030703	manual-negative	github:KrishnaTO
+ARI	0001046	Autoimmune retinal vasculitis	skos:exactMatch	DOID	11563	manual-negative	github:KrishnaTO
+ARI	0001046	Autoimmune retinal vasculitis	skos:exactMatch	DOID	0040097	manual-negative	github:KrishnaTO
+ARI	0001007	Adult-onset immunodeficiency due to anti-IFN-gamma autoantibodies	skos:exactMatch	DOID	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001007	Adult-onset immunodeficiency due to anti-IFN-gamma autoantibodies	skos:exactMatch	ncit	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001007	Adult-onset immunodeficiency due to anti-IFN-gamma autoantibodies	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001007	Adult-onset immunodeficiency due to anti-IFN-gamma autoantibodies	skos:exactMatch	mesh	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001010	Alopecia areata	skos:exactMatch	ncit	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001010	Alopecia areata	skos:exactMatch	ORPHA	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001013	Anti-CASPR2 autoimmune encephalitis	skos:exactMatch	SNOMEDCT	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001013	Anti-CASPR2 autoimmune encephalitis	skos:exactMatch	omop	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001013	Anti-CASPR2 autoimmune encephalitis	skos:exactMatch	DOID	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001013	Anti-CASPR2 autoimmune encephalitis	skos:exactMatch	MONDO	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001013	Anti-CASPR2 autoimmune encephalitis	skos:exactMatch	ncit	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001013	Anti-CASPR2 autoimmune encephalitis	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001013	Anti-CASPR2 autoimmune encephalitis	skos:exactMatch	ORPHA	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001013	Anti-CASPR2 autoimmune encephalitis	skos:exactMatch	umls	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001013	Anti-CASPR2 autoimmune encephalitis	skos:exactMatch	mesh	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001015	Anti-MAG neuropathy	skos:exactMatch	SNOMEDCT	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001015	Anti-MAG neuropathy	skos:exactMatch	omop	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001015	Anti-MAG neuropathy	skos:exactMatch	DOID	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001015	Anti-MAG neuropathy	skos:exactMatch	ncit	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001015	Anti-MAG neuropathy	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001015	Anti-MAG neuropathy	skos:exactMatch	mesh	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001016	Anti-MDA5 amyopathic dermatomyositis with rapidly progressive ILD	skos:exactMatch	SNOMEDCT	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001016	Anti-MDA5 amyopathic dermatomyositis with rapidly progressive ILD	skos:exactMatch	omop	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001016	Anti-MDA5 amyopathic dermatomyositis with rapidly progressive ILD	skos:exactMatch	DOID	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001016	Anti-MDA5 amyopathic dermatomyositis with rapidly progressive ILD	skos:exactMatch	MONDO	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001016	Anti-MDA5 amyopathic dermatomyositis with rapidly progressive ILD	skos:exactMatch	umls	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001016	Anti-MDA5 amyopathic dermatomyositis with rapidly progressive ILD	skos:exactMatch	ORPHA	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001016	Anti-MDA5 amyopathic dermatomyositis with rapidly progressive ILD	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001016	Anti-MDA5 amyopathic dermatomyositis with rapidly progressive ILD	skos:exactMatch	ncit	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001016	Anti-MDA5 amyopathic dermatomyositis with rapidly progressive ILD	skos:exactMatch	mesh	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001014	Anti-glomerular basement membrane disease	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001017	Antineutrophil cytoplasmic antibody positive vasculitis	skos:exactMatch	DOID	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001019	Antisynthetase syndrome	skos:exactMatch	ncit	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001019	Antisynthetase syndrome	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001020	Aortic valve calcification	skos:exactMatch	DOID	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001020	Aortic valve calcification	skos:exactMatch	ncit	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001020	Aortic valve calcification	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001020	Aortic valve calcification	skos:exactMatch	ORPHA	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001210	Vogt-Koyanagi-Harada disease	skos:exactMatch	ncit	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001185	Rheumatoid vasculitis	skos:exactMatch	DOID	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001185	Rheumatoid vasculitis	skos:exactMatch	ncit	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001185	Rheumatoid vasculitis	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001185	Rheumatoid vasculitis	skos:exactMatch	ORPHA	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001179	Restless legs	skos:exactMatch	ORPHA	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001177	Reactive arthritis	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001047	Autoimmune retinopathy	skos:exactMatch	DOID	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001047	Autoimmune retinopathy	skos:exactMatch	ncit	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001047	Autoimmune retinopathy	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001047	Autoimmune retinopathy	skos:exactMatch	ORPHA	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001047	Autoimmune retinopathy	skos:exactMatch	mesh	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001045	Autoimmune pulmonary alveolar proteinosis	skos:exactMatch	mesh	NoTermFound	manual-absent	github:KrishnaTO

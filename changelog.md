@@ -1,5 +1,20 @@
 # Changelog
 
+## edit/KrishnaTO/mappings-review-1791133633 (PR #108)
+
+Editor mappings review covering 16 diseases. It adds 51 "no term" markers, confirms UMLS
+`C2609059` and `C5959873` plus MeSH `C537778` on `ARI:0001019` and NCIt `C128332` on
+`ARI:0001177`, and rejects 10 predicted ids on `ARI:0001046`. Repairs before merge:
+
+- **Blank-subject flags dropped:** the editor's parked field removals published `Not` rows
+  for MONDO `0005623` and MeSH `C567049` with no subject (app defect, see ARI#88). MeSH
+  `C567049` was already rejected on `ARI:0001045`.
+- **Autoimmune thyroiditis (`ARI:0001048`) kept as on main:** the review session predates
+  PR #107 and PR #109, so it removed MONDO `0005623` again and confirmed NCIt `C27191`, which
+  #109 moved to the subtype `ARI:0001216`. Both edits are reverted.
+- **Merged `main`:** the ontology is main plus this PR's per-record line changes, so the
+  editor's synonym, subtype and element reordering is dropped.
+
 ## claude/hashimotos-thyroiditis-mappings-d13221
 
 Adds `ARI:0001216` Hashimoto's thyroiditis as a subtype (`hasParentDisease`) of `ARI:0001048`
