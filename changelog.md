@@ -1,5 +1,14 @@
 # Changelog
 
+## claude/fulminant-t1d-e10-equivalencies
+
+Credits the `E10` confirmation on `ARI:0001215` Fulminant type 1 diabetes to Jennyzeng25's
+original 2026-08-04 row instead of a separate KrishnaTO row. In both `ari.equivalencies.tsv`
+and `ari.sssom.tsv`, Jennyzeng25's row becomes a confirmed match (`manual`, no `Not`, no
+"Superseded" note) and the KrishnaTO row from #115 is removed. The validator requires the two
+exports to match row for row. Report 8 is regenerated. The record's `ARI_ChangeLog` line from
+#115 is kept as history.
+
 ## claude/fulminant-t1d-e10
 
 Confirms ICD-10 `E10` (Type 1 diabetes mellitus) as an exact match for `ARI:0001215` Fulminant

@@ -383,7 +383,7 @@ ARI	0001095	Fibromyalgia	skos:exactMatch	ORPHA	41842	manual	github:Jennyzeng25
 ARI	0001096	Graves' disease	skos:exactMatch	mesh	D006111	manual	github:Jennyzeng25
 ARI	0001215	Fulminant type 1 diabetes	skos:exactMatch	SNOMEDCT	1217068008	manual-negative	github:Jennyzeng25
 ARI	0001215	Fulminant type 1 diabetes	skos:exactMatch	MONDO	0014523	manual-negative	github:Jennyzeng25
-ARI	0001215	Fulminant type 1 diabetes	skos:exactMatch	icd10cm	E10	manual-negative	github:Jennyzeng25
+ARI	0001215	Fulminant type 1 diabetes	skos:exactMatch	icd10cm	E10	manual	github:Jennyzeng25
 ARI	0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch	omop	28660	manual	github:AnjaliRH
 ARI	0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch	DOID	0090110	manual	github:AnjaliRH
 ARI	0001108	Immunoglobulin A vasculitis	skos:exactMatch	SNOMEDCT	191306005	manual	github:AnjaliRH
@@ -2340,4 +2340,3 @@ ARI	0001020	Aortic valve calcification	skos:exactMatch	mesh	C562942	manual	githu
 ARI	0001021	Aplastic anemia	skos:exactMatch	ORPHA	164823	manual	github:KrishnaTO
 ARI	0001030	Autoimmune ganglionopathy	skos:exactMatch	umls	C5395071	manual	github:KrishnaTO
 ARI	0001033	Autoimmune hepatitis	skos:exactMatch	ncit	C27029	manual	github:KrishnaTO
-ARI	0001215	Fulminant type 1 diabetes	skos:exactMatch	icd10cm	E10	manual	github:KrishnaTO
