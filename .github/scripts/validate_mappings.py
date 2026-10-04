@@ -147,8 +147,11 @@ AUTHOR_RE = re.compile(r"github:[A-Za-z0-9](?:[A-Za-z0-9-]{0,37}[A-Za-z0-9])?")
 DATE_RE = re.compile(r"\d{4}-\d{2}-\d{2}(?:T\d{2}:\d{2}:\d{2}(?:Z|[+-]\d{2}:\d{2})?)?")
 ICD9_RE = re.compile(r"\d{2,3}(\.\d{1,2})?")
 
-ENTITY_OPEN_RE = re.compile(r"<owl:(?:NamedIndividual|Class)\b")
-ENTITY_CLOSE_RE = re.compile(r"</owl:(?:NamedIndividual|Class)>")
+# An entity is any top-level node element with an rdf:about. RDF/XML writes the
+# same individual as `<owl:NamedIndividual>` with an `rdf:type` child or as a
+# typed node such as `<AutoimmuneDisease>`, so the element name is not what
+# makes it a disease; its ARI_ID is.
+ENTITY_OPEN_RE = re.compile(r"^<([\w:.-]+)\s[^>]*\brdf:about=")
 ANNOTATION_RE = re.compile(r"<(ARI_\w+)[^>]*>(.*?)</\1>")
 LABEL_RE = re.compile(r"<rdfs:label[^>]*>(.*?)</rdfs:label>")
 CURIE_MAP_RE = re.compile(r"#\s{2,}([A-Za-z0-9_.]+):\s")
@@ -308,8 +311,16 @@ def parse_ontology(text: str, report: Report | None = None) -> dict[str, Disease
     diseases: dict[str, Disease] = {}
     current: dict | None = None
     for index, line in enumerate(text.replace("\r\n", "\n").split("\n"), start=1):
-        if ENTITY_OPEN_RE.search(line):
-            current = {"label": None, "annotations": collections.defaultdict(list)}
+        open_match = ENTITY_OPEN_RE.match(line)
+        if open_match:
+            if line.rstrip().endswith("/>"):
+                current = None  # a bare declaration carries no annotations
+                continue
+            current = {
+                "close": f"</{open_match.group(1)}>",
+                "label": None,
+                "annotations": collections.defaultdict(list),
+            }
         if current is None:
             continue
         label_match = LABEL_RE.search(line)
@@ -317,7 +328,7 @@ def parse_ontology(text: str, report: Report | None = None) -> dict[str, Disease
             current["label"] = html.unescape(label_match.group(1)).strip()
         for prop, value in ANNOTATION_RE.findall(line):
             current["annotations"][prop].append((html.unescape(value).strip(), index))
-        if ENTITY_CLOSE_RE.search(line):
+        if line.startswith(current["close"]):
             ids = current["annotations"].get("ARI_ID", [])
             ari_id = ids[0][0] if ids else None
             if ari_id and ari_id.startswith("ARI:"):

@@ -1,5 +1,15 @@
 # Changelog
 
+## validator-typed-node-elements
+
+The validator now recognises a disease written as a typed node element
+(`<AutoimmuneDisease rdf:about=...>`) as well as `<owl:NamedIndividual>`. Both are the same
+individual in RDF/XML, but the line parser only matched `owl:NamedIndividual`/`owl:Class`, so
+when the editor app wrote `ARI:0001013` the typed way (ARI#105) the disease looked deleted and
+the build failed with `disease-deleted`. An entity is now any top-level element with an
+`rdf:about`, and a disease is whichever of those carries an `ARI_ID`. Results on `main` are
+unchanged (214 diseases, identical annotations).
+
 ## edit/Ari2215/mappings-review-1790388580
 
 Applies the line review of ARI#96 (`mappings/ari.equivalencies.tsv`). Each marked row is
