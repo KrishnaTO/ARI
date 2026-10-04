@@ -2273,3 +2273,70 @@ ARI	0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	omop	NoT
 ARI	0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	ncit	NoTermFound	manual-absent	github:KrishnaTO
 ARI	0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:KrishnaTO
 ARI	0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	ORPHA	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001102	Idiopathic membranous glomerulonephritis	skos:exactMatch	umls	C0086445	manual	github:AnjaliRH
+ARI	0001107	Immune thrombocytopenia	skos:exactMatch	MONDO	0002048	manual	github:AnjaliRH
+ARI	0001107	Immune thrombocytopenia	skos:exactMatch	ORPHA	3002	manual	github:AnjaliRH
+ARI	0001107	Immune thrombocytopenia	skos:exactMatch	OMIM	188030	manual	github:AnjaliRH
+ARI	0001108	Immunoglobulin A vasculitis	skos:exactMatch	MONDO	0019167	manual	github:AnjaliRH
+ARI	0001108	Immunoglobulin A vasculitis	skos:exactMatch	ORPHA	761	manual	github:AnjaliRH
+ARI	0001109	Immunoglobulin G4 related disease	skos:exactMatch	mesh	D000077733	manual	github:AnjaliRH
+ARI	0001109	Immunoglobulin G4 related disease	skos:exactMatch	icd10cm	D89.84	manual	github:AnjaliRH
+ARI	0001109	Immunoglobulin G4 related disease	skos:exactMatch	umls	C4087124	manual	github:AnjaliRH
+ARI	0001110	Immunoglobulin G4 related ophthalmic disease	skos:exactMatch	ORPHA	449563	manual	github:AnjaliRH
+ARI	0001110	Immunoglobulin G4 related ophthalmic disease	skos:exactMatch	umls	C5569009	manual	github:AnjaliRH
+ARI	0001111	Inclusion body myositis	skos:exactMatch	MONDO	0007827	manual	github:AnjaliRH
+ARI	0001111	Inclusion body myositis	skos:exactMatch	ORPHA	611	manual	github:AnjaliRH
+ARI	0001111	Inclusion body myositis	skos:exactMatch	OMIM	147421	manual	github:AnjaliRH
+ARI	0001112	Inflammatory Bowel Disease	skos:exactMatch	MONDO	0005265	manual	github:AnjaliRH
+ARI	0001113	Insulin autoimmune syndrome	skos:exactMatch	MONDO	0018465	manual	github:AnjaliRH
+ARI	0001113	Insulin autoimmune syndrome	skos:exactMatch	ORPHA	411593	manual	github:AnjaliRH
+ARI	0001114	Insulin resistance - type B	skos:exactMatch	icd10cm	E88.818	manual	github:AnjaliRH
+ARI	0001114	Insulin resistance - type B	skos:exactMatch	umls	C0342337	manual	github:AnjaliRH
+ARI	0001115	Intermediate uveitis	skos:exactMatch	MONDO	0006806	manual	github:AnjaliRH
+ARI	0001115	Intermediate uveitis	skos:exactMatch	ORPHA	279914	manual	github:AnjaliRH
+ARI	0001116	Interstitial lung disease	skos:exactMatch	MONDO	0015925	manual	github:AnjaliRH
+ARI	0001116	Interstitial lung disease	skos:exactMatch	ORPHA	182095	manual	github:AnjaliRH
+ARI	0001109	Immunoglobulin G4 related disease	skos:exactMatch	MONDO	0017287	manual	github:AnjaliRH
+ARI	0001109	Immunoglobulin G4 related disease	skos:exactMatch	DOID	0080356	manual	github:KrishnaTO
+ARI	0001131	Mooren's ulcer	skos:exactMatch	mesh	D003320	manual-negative	github:KrishnaTO
+ARI	0001131	Mooren's ulcer	skos:exactMatch	ncit	C50515	manual-negative	github:KrishnaTO
+ARI	0001131	Mooren's ulcer	skos:exactMatch	mesh	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001131	Mooren's ulcer	skos:exactMatch	ncit	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001135	Multiple sclerosis	skos:exactMatch	icd10cm	G35	manual	github:KrishnaTO
+ARI	0001135	Multiple sclerosis	skos:exactMatch	mesh	D009103	manual	github:KrishnaTO
+ARI	0001135	Multiple sclerosis	skos:exactMatch	umls	C0026769	manual	github:KrishnaTO
+ARI	0001157	Polyglandular autoimmune syndrome type 1	skos:exactMatch	mesh	C538275	manual	github:KrishnaTO
+ARI	0001158	Polyglandular autoimmune syndrome type 2	skos:exactMatch	DOID	0050168	manual	github:KrishnaTO
+ARI	0001158	Polyglandular autoimmune syndrome type 2	skos:exactMatch	ncit	C129728	manual	github:KrishnaTO
+ARI	0001158	Polyglandular autoimmune syndrome type 2	skos:exactMatch	umls	C0085860	manual	github:KrishnaTO
+ARI	0001143	Neuromyelitis optica	skos:exactMatch	umls	C0027873	manual	github:KrishnaTO
+ARI	0001158	Polyglandular autoimmune syndrome type 2	skos:exactMatch	icd10cm	E31.0	manual-negative	github:KrishnaTO
+ARI	0001158	Polyglandular autoimmune syndrome type 2	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001194	Subacute bacterial endocarditis	skos:exactMatch	icd10cm	I33.0	manual-negative	github:KrishnaTO
+ARI	0001201	Temporal arteritis	skos:exactMatch	icd10cm	M31.6	manual	github:KrishnaTO
+ARI	0001206	Undifferentiated connective tissue disease	skos:exactMatch	icd10cm	M35.9	manual	github:KrishnaTO
+ARI	0001207	Urticarial vasculitis	skos:exactMatch	umls	C1304408	manual	github:KrishnaTO
+ARI	0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	SNOMEDCT	426875007	manual	github:KrishnaTO
+ARI	0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	DOID	0080846	manual	github:KrishnaTO
+ARI	0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	MONDO	0850306	manual	github:KrishnaTO
+ARI	0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	umls	C1739108	manual	github:KrishnaTO
+ARI	0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	omop	4145827	manual	github:KrishnaTO
+ARI	0001215	Fulminant type 1 diabetes	skos:exactMatch	SNOMEDCT	1217068008	manual	github:KrishnaTO
+ARI	0001073	Crohn's disease	skos:exactMatch	umls	C0010346	manual	github:KrishnaTO
+ARI	0001073	Crohn's disease	skos:exactMatch	OMIM	266600	manual-negative	github:KrishnaTO
+ARI	0001074	Cryptogenic organizing pneumonia	skos:exactMatch	icd10cm	J84.116	manual	github:KrishnaTO
+ARI	0001074	Cryptogenic organizing pneumonia	skos:exactMatch	mesh	D018549	manual	github:KrishnaTO
+ARI	0001074	Cryptogenic organizing pneumonia	skos:exactMatch	ncit	C62586	manual	github:KrishnaTO
+ARI	0001074	Cryptogenic organizing pneumonia	skos:exactMatch	umls	C0242770	manual	github:KrishnaTO
+ARI	0001076	Cutaneous lupus erythematosus	skos:exactMatch	icd10cm	L93.0	manual-negative	github:KrishnaTO
+ARI	0001076	Cutaneous lupus erythematosus	skos:exactMatch	icd10cm	L93	manual	github:KrishnaTO
+ARI	0001076	Cutaneous lupus erythematosus	skos:exactMatch	ORPHA	535	manual-negative	github:KrishnaTO
+ARI	0001076	Cutaneous lupus erythematosus	skos:exactMatch	ORPHA	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001053	Behçet's syndrome	skos:exactMatch	OMIM	109650	manual	github:KrishnaTO
+ARI	0001061	Celiac disease	skos:exactMatch	OMIM	212750	manual	github:KrishnaTO
+ARI	0001012	Ankylosing spondylitis	skos:exactMatch	OMIM	106300	manual-negative	github:KrishnaTO
+ARI	0001014	Anti-glomerular basement membrane disease	skos:exactMatch	OMIM	233450	manual	github:KrishnaTO
+ARI	0001020	Aortic valve calcification	skos:exactMatch	mesh	C562942	manual	github:KrishnaTO
+ARI	0001021	Aplastic anemia	skos:exactMatch	ORPHA	164823	manual	github:KrishnaTO
+ARI	0001030	Autoimmune ganglionopathy	skos:exactMatch	umls	C5395071	manual	github:KrishnaTO
+ARI	0001033	Autoimmune hepatitis	skos:exactMatch	ncit	C27029	manual	github:KrishnaTO

@@ -667,6 +667,10 @@
   "Crohn&apos;s disease",
   "doid.owl"
  ],
+ "DOID:8857": [
+  "lupus erythematosus",
+  "doid.owl"
+ ],
  "DOID:8869": [
   "neuromyelitis optica",
   "doid.owl"
@@ -783,12 +787,20 @@
   "balanitis xerotica obliterans",
   "mondo.obo"
  ],
+ "MONDO:0002048": [
+  "thrombocytopenia due to immune destruction",
+  "mondo.obo"
+ ],
  "MONDO:0003004": [
   "macular degeneration",
   "mondo.obo"
  ],
  "MONDO:0004004": [
   "motor nerve neuritis",
+  "mondo.obo"
+ ],
+ "MONDO:0004670": [
+  "lupus erythematosus",
   "mondo.obo"
  ],
  "MONDO:0005011": [
@@ -1051,6 +1063,10 @@
   "Morvan syndrome",
   "mondo.obo"
  ],
+ "MONDO:0008930": [
+  "celiac disease, susceptibility to, 1",
+  "mondo.obo"
+ ],
  "MONDO:0009009": [
   "hypoplasminogenemia",
   "mondo.obo"
@@ -1207,6 +1223,10 @@
   "limbic encephalitis with LGI1 antibodies",
   "mondo.obo"
  ],
+ "MONDO:0015610": [
+  "acquired aplastic anemia",
+  "mondo.obo"
+ ],
  "MONDO:0015614": [
   "dermatitis herpetiformis",
   "mondo.obo"
@@ -1269,6 +1289,10 @@
  ],
  "MONDO:0016450": [
   "autoimmune hemolytic anemia, cold type",
+  "mondo.obo"
+ ],
+ "MONDO:0016464": [
+  "insulin-resistance syndrome type B",
   "mondo.obo"
  ],
  "MONDO:0016499": [
@@ -1381,6 +1405,10 @@
  ],
  "MONDO:0018646": [
   "sclerosing cholangitis",
+  "mondo.obo"
+ ],
+ "MONDO:0018675": [
+  "IgG4-related ophthalmic disorder",
   "mondo.obo"
  ],
  "MONDO:0018746": [
@@ -1767,6 +1795,10 @@
   "ALOPECIA AREATA 1",
   "OMIM.ttl"
  ],
+ "OMIM:106300": [
+  "SPONDYLOARTHROPATHY, SUSCEPTIBILITY TO, 1",
+  "OMIM.ttl"
+ ],
  "OMIM:107320": [
   "ANTIPHOSPHOLIPID SYNDROME, FAMILIAL",
   "OMIM.ttl"
@@ -1877,6 +1909,10 @@
  ],
  "OMIM:207600": [
   "TAKAYASU ARTERITIS",
+  "OMIM.ttl"
+ ],
+ "OMIM:212750": [
+  "CELIAC DISEASE, SUSCEPTIBILITY TO, 1",
   "OMIM.ttl"
  ],
  "OMIM:222100": [
@@ -2191,6 +2227,10 @@
   "OBSOLETE: Limbic encephalitis",
   "EBI OLS4 (ordo)"
  ],
+ "ORPHA:164823": [
+  "Rare acquired aplastic anemia",
+  "EBI OLS4 (ordo)"
+ ],
  "ORPHA:1656": [
   "Dermatitis herpetiformis",
   "EBI OLS4 (ordo)"
@@ -2289,6 +2329,10 @@
  ],
  "ORPHA:228312": [
   "Autoimmune hemolytic anemia, cold type",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:2298": [
+  "Insulin-resistance syndrome type B",
   "EBI OLS4 (ordo)"
  ],
  "ORPHA:231457": [
@@ -2531,6 +2575,10 @@
   "Sclerosing cholangitis",
   "EBI OLS4 (ordo)"
  ],
+ "ORPHA:449563": [
+  "IgG4-related ophthalmic disease",
+  "EBI OLS4 (ordo)"
+ ],
  "ORPHA:45360": [
   "NON RARE IN EUROPE: Meni\u00e8re disease",
   "EBI OLS4 (ordo)"
@@ -2569,6 +2617,10 @@
  ],
  "ORPHA:519408": [
   "Mooren ulcer",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:535": [
+  "Rare cutaneous lupus erythematosus",
   "EBI OLS4 (ordo)"
  ],
  "ORPHA:536": [
@@ -3131,6 +3183,10 @@
   "Drug-induced pemphigus",
   "snomed/CONCEPT.csv"
  ],
+ "SNOMEDCT:200936003": [
+  "Lupus erythematosus",
+  "snomed/CONCEPT.csv"
+ ],
  "SNOMEDCT:200938002": [
   "Discoid lupus erythematosus",
   "snomed/CONCEPT.csv"
@@ -3647,6 +3703,10 @@
   "Relapsing remitting multiple sclerosis",
   "snomed/CONCEPT.csv"
  ],
+ "SNOMEDCT:426875007": [
+  "Latent autoimmune diabetes mellitus in adult",
+  "snomed/CONCEPT.csv"
+ ],
  "SNOMEDCT:427086003": [
   "Bickerstaff's brainstem encephalitis",
   "snomed/CONCEPT.csv"
@@ -3773,6 +3833,10 @@
  ],
  "SNOMEDCT:55464009": [
   "Systemic lupus erythematosus",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:55907008": [
+  "Acquired aplastic anemia",
   "snomed/CONCEPT.csv"
  ],
  "SNOMEDCT:56727007": [
@@ -4311,6 +4375,10 @@
   "Autoimmune lymphoproliferative syndrome [ALPS]",
   "mesh-icd-ncit-clinvar/CONCEPT.csv"
  ],
+ "icd10cm:D89.84": [
+  "IgG4-related disease",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
  "icd10cm:E05.0": [
   "Thyrotoxicosis with diffuse goiter",
   "mesh-icd-ncit-clinvar/CONCEPT.csv"
@@ -4341,6 +4409,10 @@
  ],
  "icd10cm:E88.2": [
   "Lipomatosis, not elsewhere classified",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:E88.818": [
+  "Other insulin resistance",
   "mesh-icd-ncit-clinvar/CONCEPT.csv"
  ],
  "icd10cm:G04.0": [
@@ -4515,6 +4587,10 @@
   "Dressler's syndrome",
   "mesh-icd-ncit-clinvar/CONCEPT.csv"
  ],
+ "icd10cm:I33.0": [
+  "Acute and subacute infective endocarditis",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
  "icd10cm:I42.0": [
   "Dilated cardiomyopathy",
   "mesh-icd-ncit-clinvar/CONCEPT.csv"
@@ -4683,6 +4759,14 @@
   "Lichen sclerosus et atrophicus",
   "mesh-icd-ncit-clinvar/CONCEPT.csv"
  ],
+ "icd10cm:L93": [
+  "Lupus erythematosus",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:L93.0": [
+  "Discoid lupus erythematosus",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
  "icd10cm:L94.0": [
   "Localized scleroderma [morphea]",
   "mesh-icd-ncit-clinvar/CONCEPT.csv"
@@ -4733,6 +4817,10 @@
  ],
  "icd10cm:M31.4": [
   "Aortic arch syndrome [Takayasu]",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:M31.6": [
+  "Other giant cell arteritis",
   "mesh-icd-ncit-clinvar/CONCEPT.csv"
  ],
  "icd10cm:M31.7": [
@@ -4789,6 +4877,10 @@
  ],
  "icd10cm:M35.4": [
   "Diffuse (eosinophilic) fasciitis",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:M35.9": [
+  "Systemic involvement of connective tissue, unspecified",
   "mesh-icd-ncit-clinvar/CONCEPT.csv"
  ],
  "icd10cm:M45": [
@@ -4895,6 +4987,10 @@
   "Autoimmune oophoritis",
   "mesh-icd-ncit-clinvar/CONCEPT.csv"
  ],
+ "mesh:C538275": [
+  "Autoimmune polyendocrinopathy syndrome, type 1",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
  "mesh:C538618": [
   "Donath-Landsteiner hemolytic anemia",
   "mesh-icd-ncit-clinvar/CONCEPT.csv"
@@ -4905,6 +5001,10 @@
  ],
  "mesh:C562642": [
   "Amyloidosis, Primary Cutaneous",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:C562942": [
+  "Aortic Valve, Calcification of",
   "mesh-icd-ncit-clinvar/CONCEPT.csv"
  ],
  "mesh:C563187": [
@@ -4953,6 +5053,10 @@
  ],
  "mesh:D000077342": [
   "Post-Lyme Disease Syndrome",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D000077733": [
+  "Immunoglobulin G4-Related Disease",
   "mesh-icd-ncit-clinvar/CONCEPT.csv"
  ],
  "mesh:D000080203": [
@@ -5041,6 +5145,10 @@
  ],
  "mesh:D003093": [
   "Colitis, Ulcerative",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D003320": [
+  "Corneal Ulcer",
   "mesh-icd-ncit-clinvar/CONCEPT.csv"
  ],
  "mesh:D003424": [
@@ -5791,6 +5899,10 @@
   "Eosinophilic Esophagitis",
   "EBI OLS4 (ncit)"
  ],
+ "ncit:C27153": [
+  "Lupus Erythematosus",
+  "EBI OLS4 (ncit)"
+ ],
  "ncit:C27167": [
   "Primary Biliary Cirrhosis",
   "EBI OLS4 (ncit)"
@@ -6049,6 +6161,10 @@
  ],
  "ncit:C4828": [
   "Primary Sclerosing Cholangitis",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C50515": [
+  "Corneal Ulcer",
   "EBI OLS4 (ncit)"
  ],
  "ncit:C50575": [
@@ -6999,6 +7115,10 @@
   "Relapsing remitting multiple sclerosis",
   "snomed/CONCEPT.csv"
  ],
+ "omop:4145827": [
+  "Latent autoimmune diabetes mellitus in adult",
+  "snomed/CONCEPT.csv"
+ ],
  "omop:4146124": [
   "Autoimmune vasculitis",
   "snomed/CONCEPT.csv"
@@ -7037,6 +7157,10 @@
  ],
  "omop:4178929": [
   "Primary progressive multiple sclerosis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4184758": [
+  "Acquired aplastic anemia",
   "snomed/CONCEPT.csv"
  ],
  "omop:4185187": [
@@ -8211,6 +8335,10 @@
   "autoimmune hypoparathyroidism",
   "mondo.obo xref (MONDO:0018242)"
  ],
+ "umls:C0271907": [
+  "acquired aplastic anemia",
+  "mondo.obo xref (MONDO:0015610)"
+ ],
  "umls:C0272118": [
   "autoimmune hemolytic anemia, warm type",
   "mondo.obo xref (MONDO:0019532)"
@@ -8254,6 +8382,10 @@
  "umls:C0342288": [
   "immune dysregulation-polyendocrinopathy-enteropathy-X-linked syndrome",
   "mondo.obo xref (MONDO:0010580)"
+ ],
+ "umls:C0342337": [
+  "insulin-resistance syndrome type B",
+  "mondo.obo xref (MONDO:0016464)"
  ],
  "umls:C0342394": [
   "neurohypophyseal diabetes insipidus",
@@ -8314,6 +8446,10 @@
  "umls:C0409667": [
   "systemic juvenile rheumatoid arthritis",
   "doid.owl xref (DOID:676)"
+ ],
+ "umls:C0409974": [
+  "lupus erythematosus",
+  "doid.owl xref (DOID:8857)"
  ],
  "umls:C0409977": [
   "bullous systemic lupus erythematosus",
@@ -8503,6 +8639,10 @@
   "birdshot chorioretinopathy",
   "doid.owl xref (DOID:0111079)"
  ],
+ "umls:C1859310": [
+  "celiac disease, susceptibility to, 1",
+  "mondo.obo xref (MONDO:0008930)"
+ ],
  "umls:C1956391": [
   "temporal arteritis",
   "mondo.obo xref (MONDO:0008538)"
@@ -8650,6 +8790,10 @@
  "umls:C5554054": [
   "myelin oligodendrocyte glycoprotein antibody-associated disease",
   "mondo.obo xref (MONDO:1040024)"
+ ],
+ "umls:C5569009": [
+  "IgG4-related ophthalmic disorder",
+  "mondo.obo xref (MONDO:0018675)"
  ],
  "umls:C5576703": [
   "non-specific autoimmune cerebellar ataxia without characteristic antibodies",
