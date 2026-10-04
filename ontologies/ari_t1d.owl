@@ -5455,7 +5455,6 @@ In chronic autoimmune neutropenia the body produces IgG antibodies that target a
   <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0012579</ARI_MONDO>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C202011</ARI_NCI>
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">747</ARI_ORPHANET>
-  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T17:07:10+00:00 | KrishnaTO | Cross-reference review: flagged MESH C567049; no term in MESH</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T23:00:17+00:00 | KrishnaTO | Cross-reference review: no term in MESH</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T23:28:09+00:00 | KrishnaTO | Cross-reference review: no term in MESH</ARI_ChangeLog>
 </owl:NamedIndividual>
@@ -5616,17 +5615,12 @@ Several names are used for autoimmune thyroiditis. When it is known to be autoim
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:02:58+00:00 | medinatinajeropablo-dot | Stored confirmed cross-reference: MONDO 0007699; ORPHANET 855</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T03:56:59+00:00 | user | Edited: nci</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27T23:00:00+00:00 | medinatinajeropablo-dot | PR #93 review: removed MONDO 0005623 (broader than the disease); removed MONDO 0007699 (a subtype of the disease)</ARI_ChangeLog>
+  <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0005623</ARI_MONDO>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T16:55:37+00:00 | medinatinajeropablo-dot | PR #93 review: restored MONDO 0005623 (rejection reversed)</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T17:03:25+00:00 | KrishnaTO | Created subtype ARI:0001216 Hashimoto's thyroiditis and moved to it ORPHANET 855 and NCI C27191 (both Hashimoto thyroiditis) and the synonyms "Hashimoto thyroiditis", "Hashimoto's disease", "Hashimoto's thyroiditis", "Chronic lymphocytic thyroiditis"</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T15:56:06+00:00 | user | Edited: mondo</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T16:03:51+00:00 | user | Edited: mondo</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T17:37:37+00:00 | KrishnaTO | Cross-reference review: no term in NCI; no term in ORPHANET</ARI_ChangeLog>
-  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T17:07:10+00:00 | KrishnaTO | Cross-reference review: confirmed NCI C27191; flagged MONDO 0005623</ARI_ChangeLog>
-  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T17:07:10+00:00 | KrishnaTO | Removed flagged cross-reference: MONDO 0005623</ARI_ChangeLog>
-  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T23:00:17+00:00 | KrishnaTO | Cross-reference review: confirmed NCI C27191</ARI_ChangeLog>
-  <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C27191</ARI_NCI>
-  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T23:00:17+00:00 | KrishnaTO | Stored confirmed cross-reference: NCI C27191</ARI_ChangeLog>
-  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T23:28:09+00:00 | KrishnaTO | Cross-reference review: confirmed NCI C27191</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001216">

@@ -2050,7 +2050,7 @@ ARI:0001042	Autoimmune optic neuropathy	skos:exactMatch	Not	umls:C2748363	umls	s
 ARI:0001042	Autoimmune optic neuropathy	skos:exactMatch	Not	mesh:D009901	mesh	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
 ARI:0001024	Autoimmune cerebellar ataxia	skos:exactMatch	Not	SNOMEDCT:85102008	SNOMEDCT	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
 ARI:0001048	Autoimmune thyroiditis	skos:exactMatch	Not	ORPHA:855	ORPHA	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:03:25+00:00	Hashimoto thyroiditis, moved to subtype ARI:0001216.
-ARI:0001048	Autoimmune thyroiditis	skos:exactMatch	Not	ncit:C27191	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:03:25+00:00	Superseded by the positive judgment of github:KrishnaTO on 2026-10-04T23:28:12+00:00.
+ARI:0001048	Autoimmune thyroiditis	skos:exactMatch	Not	ncit:C27191	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:03:25+00:00	Hashimoto thyroiditis, moved to subtype ARI:0001216.
 ARI:0001216	Hashimoto's thyroiditis	skos:exactMatch		MONDO:0007699	MONDO	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:03:25+00:00	Moved from ARI:0001048 Autoimmune thyroiditis.
 ARI:0001216	Hashimoto's thyroiditis	skos:exactMatch		ORPHA:855	ORPHA	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:03:25+00:00	Moved from ARI:0001048 Autoimmune thyroiditis.
 ARI:0001216	Hashimoto's thyroiditis	skos:exactMatch		ncit:C27191	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:03:25+00:00	Moved from ARI:0001048 Autoimmune thyroiditis.
@@ -2312,7 +2312,7 @@ ARI:0001112	Inflammatory Bowel Disease	skos:exactMatch		MONDO:0005265	MONDO	sema
 ARI:0001113	Insulin autoimmune syndrome	skos:exactMatch		MONDO:0018465	MONDO	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07T20:42:00+00:00	Entered by the curator in the field editor and stored on the disease, but no review recorded a mapping row. Restored from the ontology on 2026-10-04.
 ARI:0001113	Insulin autoimmune syndrome	skos:exactMatch		ORPHA:411593	ORPHA	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07T20:40:00+00:00	Entered by the curator in the field editor and stored on the disease, but no review recorded a mapping row. Restored from the ontology on 2026-10-04.
 ARI:0001114	Insulin resistance - type B	skos:exactMatch		icd10cm:E88.818	icd10cm	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-10T14:10:00+00:00	Entered by the curator in the field editor and stored on the disease, but no review recorded a mapping row. Restored from the ontology on 2026-10-04.
-ARI:0001114	Insulin resistance - type B	skos:exactMatch		umls:C0342337	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001114	Insulin resistance - type B	skos:exactMatch		umls:C0342337	umls	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-10T14:30:00+00:00	Entered by the curator in the field editor and stored on the disease, but no review recorded a mapping row. Restored from the ontology on 2026-10-04.
 ARI:0001115	Intermediate uveitis	skos:exactMatch		MONDO:0006806	MONDO	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07T20:42:00+00:00	Entered by the curator in the field editor and stored on the disease, but no review recorded a mapping row. Restored from the ontology on 2026-10-04.
 ARI:0001115	Intermediate uveitis	skos:exactMatch		ORPHA:279914	ORPHA	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07T20:39:00+00:00	Entered by the curator in the field editor and stored on the disease, but no review recorded a mapping row. Restored from the ontology on 2026-10-04.
 ARI:0001116	Interstitial lung disease	skos:exactMatch		MONDO:0015925	MONDO	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07T20:41:00+00:00	Entered by the curator in the field editor and stored on the disease, but no review recorded a mapping row. Restored from the ontology on 2026-10-04.
@@ -2401,7 +2401,6 @@ ARI:0001101	Hypersensitivity angiitis	skos:exactMatch		icd10cm:M31.0	icd10cm	sem
 ARI:0001101	Hypersensitivity angiitis	skos:exactMatch		ORPHA:889	ORPHA	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
 ARI:0001101	Hypersensitivity angiitis	skos:exactMatch		umls:C0151436	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
 ARI:0001101	Hypersensitivity angiitis	skos:exactMatch		mesh:D018366	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
-ARI:0001048	Autoimmune thyroiditis	skos:exactMatch		ncit:C27191	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
 ARI:0001135	Multiple sclerosis	skos:exactMatch		ORPHA:802	ORPHA	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
 ARI:0001028	Autoimmune encephalitis	skos:exactMatch		ncit:C122414	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
 ARI:0001028	Autoimmune encephalitis	skos:exactMatch		umls:C5671289	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
@@ -2412,6 +2411,7 @@ ARI:0001215	Fulminant type 1 diabetes	skos:exactMatch		MONDO:0005147	MONDO	semap
 ARI:0001215	Fulminant type 1 diabetes	skos:exactMatch		ncit:C2986	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
 ARI:0001215	Fulminant type 1 diabetes	skos:exactMatch		mesh:D003922	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
 ARI:0001215	Fulminant type 1 diabetes	skos:exactMatch		ORPHA:243377	ORPHA	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001215	Fulminant type 1 diabetes	skos:exactMatch		umls:C3495814	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
 ARI:0001097	Guillain-Barré syndrome	skos:exactMatch		DOID:12842	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
 ARI:0001097	Guillain-Barré syndrome	skos:exactMatch		MONDO:0016218	MONDO	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
 ARI:0001097	Guillain-Barré syndrome	skos:exactMatch		ncit:C116345	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
@@ -2456,6 +2456,7 @@ ARI:0001215	Fulminant type 1 diabetes	skos:exactMatch	Not	DOID:0110742	DOID	sema
 ARI:0001215	Fulminant type 1 diabetes	skos:exactMatch	Not	DOID:0110741	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
 ARI:0001215	Fulminant type 1 diabetes	skos:exactMatch	Not	MONDO:0009100	MONDO	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
 ARI:0001215	Fulminant type 1 diabetes	skos:exactMatch	Not	mesh:D000071698	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001215	Fulminant type 1 diabetes	skos:exactMatch	Not	umls:C2349037	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
 ARI:0001216	Hashimoto's thyroiditis	skos:exactMatch	Not	DOID:7188	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
 ARI:0001216	Hashimoto's thyroiditis	skos:exactMatch	Not	umls:C0920350	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
 ARI:0001216	Hashimoto's thyroiditis	skos:exactMatch	Not	mesh:D013967	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
