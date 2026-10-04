@@ -12223,8 +12223,8 @@ Note that thrombotic thrombocytopenic purpura, TTP, is a ***genetic*** disease t
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D69.3</ARI_ICD10>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T23:06:03+00:00 | user | Edited: icd10</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T23:28:09+00:00 | KrishnaTO | Cross-reference review: confirmed DOID 1587; confirmed NCI C3446; confirmed MESH D016553</ARI_ChangeLog>
-  <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1587</ARI_DOID>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T23:28:09+00:00 | KrishnaTO | Stored confirmed cross-reference: DOID 1587</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T23:43:00+00:00 | KrishnaTO | PR #117 review: removed DOID 1587 (thrombocytopenia due to platelet alloimmunization); reversed the rejection of ICD10 D69.3</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001107_335">

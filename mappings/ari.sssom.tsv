@@ -437,7 +437,7 @@ ARI:0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Synd
 ARI:0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch	Not	icd10cm:E31.0	icd10cm	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07T00:00:00+00:00	
 ARI:0001107	Immune thrombocytopenia	skos:exactMatch	Not	DOID:8924	DOID	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07T00:00:00+00:00	
 ARI:0001109	Immunoglobulin G4 related disease	skos:exactMatch	Not	DOID:0080356	DOID	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07T00:00:00+00:00	Superseded by the positive judgment of github:KrishnaTO on 2026-10-04T17:50:00+00:00.
-ARI:0001107	Immune thrombocytopenia	skos:exactMatch	Not	icd10cm:D69.3	icd10cm	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07T00:00:00+00:00	
+ARI:0001107	Immune thrombocytopenia	skos:exactMatch		icd10cm:D69.3	icd10cm	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07T00:00:00+00:00	
 ARI:0001116	Interstitial lung disease	skos:exactMatch		icd10cm:J84.9	icd10cm	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-10T00:00:00+00:00	
 ARI:0001111	Inclusion body myositis	skos:exactMatch		icd10cm:G72.41	icd10cm	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-10T00:00:00+00:00	
 ARI:0001103	Idiopathic pulmonary fibrosis	skos:exactMatch		umls:C1800706	umls	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-10T00:00:00+00:00	
@@ -2367,7 +2367,7 @@ ARI:0001109	Immunoglobulin G4 related disease	skos:exactMatch		ORPHA:596448	ORPH
 ARI:0001108	Immunoglobulin A vasculitis	skos:exactMatch		ncit:C34963	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
 ARI:0001108	Immunoglobulin A vasculitis	skos:exactMatch		mesh:D011695	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
 ARI:0001108	Immunoglobulin A vasculitis	skos:exactMatch		icd10cm:D69.0	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
-ARI:0001107	Immune thrombocytopenia	skos:exactMatch		DOID:1587	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001107	Immune thrombocytopenia	skos:exactMatch	Not	DOID:1587	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	PR review: thrombocytopenia due to platelet alloimmunization, an alloimmune disorder, not immune thrombocytopenia.
 ARI:0001107	Immune thrombocytopenia	skos:exactMatch		ncit:C3446	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
 ARI:0001107	Immune thrombocytopenia	skos:exactMatch		mesh:D016553	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
 ARI:0001098	Hemophilia B Leyden	skos:exactMatch		SNOMEDCT:1336117005	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
