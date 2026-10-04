@@ -10,8 +10,10 @@ other anchor reaches one to four hubs, so only type 1 diabetes changes: DOID and
 `9744` and `222100`, and its other keys lose the support `E10` added. The top prediction still
 reproduces 1,230 of 1,363 live confirmed mappings, the same as before.
 
-Also regenerates the outputs for the ARI#108 review, which merged after #109's regeneration:
-15 predictions change support, 6 new ids get labels, and report 8 grows from 2506 to 2529 rows.
+Also regenerates the outputs for the ARI#108 review and the #112 "no term" backfill, both
+merged without a rerun: 15 predictions change support, 6 new ids get labels, and report 8
+grows from 2506 to 2603 rows (1363 confirmed, 471 rejected, 429 no term, 340 not reviewed).
+#112 changes report 8 only.
 
 ## claude/disease-mapping-gaps-prs-cd484c
 
