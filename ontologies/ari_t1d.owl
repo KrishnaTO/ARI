@@ -15979,6 +15979,7 @@ The specific location of vasculitis inflammation determines what tissue or organ
   <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0019100</ARI_MONDO>
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">71211</ARI_ORPHANET>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27 | Claude | Synonym review (second pass): withdrew "NMOSD" (broader).</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T18:44:00+00:00 | KrishnaTO | Cross-reference review: confirmed UMLS C0027873</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001143_1338">
@@ -16404,6 +16405,7 @@ The specific location of vasculitis inflammation determines what tissue or organ
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APS-1, Classic - Childhood onset, includes Addison’s disease, hypoparathyroidism, and candidiasis.</ARI_ClinicalSubtype>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PAS1</ARI_SurveyCode>
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3453</ARI_ORPHANET>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T18:44:00+00:00 | KrishnaTO | Cross-reference review: confirmed MESH C538275</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001157_1484">
@@ -16534,7 +16536,6 @@ The specific location of vasculitis inflammation determines what tissue or organ
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0050168</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0085860</ARI_UMLS>
   <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0010012</ARI_MONDO>
-  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E31.0</ARI_ICD10>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No studies found; CONFIRMED NO DATA Sept 2021</ARI_DefSource>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4308266</ARI_OMOP>
@@ -16546,6 +16547,7 @@ The specific location of vasculitis inflammation determines what tissue or organ
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PAS2</ARI_SurveyCode>
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3143</ARI_ORPHANET>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27 | Claude | Synonym review (second pass): withdrew "Carpenter syndrome" (distinct).</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T18:44:00+00:00 | KrishnaTO | Cross-reference review: confirmed DOID 0050168; confirmed NCI C129728; confirmed UMLS C0085860; flagged ICD10 E31.0 (broader); no term in ICD10</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001158_1498">

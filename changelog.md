@@ -25,8 +25,17 @@ to both mapping exports.
   Mooren's ulcer term, so each gets a `sssom:NoTermFound` row.
 - **Confirmed ICD-10 `G35`, MeSH `D009103` and UMLS `C0026769` on `ARI:0001135`** (Multiple
   sclerosis). They were stored at import and the ARI#76 review did not cover them.
-- A second audit, of `ARI:0001117` to `ARI:0001141`, found no lost mappings. Every other
-  removal there came from the ICD-9 cleanup or a documented PR review.
+- **Confirmed five stored ids that no review had recorded.** MeSH `C538275` on `ARI:0001157`
+  and DOID `0050168`, NCIt `C129728` and UMLS `C0085860` on `ARI:0001158` were entered in the
+  field editor on 2026-09-07. UMLS `C0027873` on `ARI:0001143` (Neuromyelitis optica) was
+  stored at import. MONDO cross-references every one of them from the disease's confirmed
+  MONDO term.
+- **Rejected ICD-10 `E31.0` on `ARI:0001158`** (Polyglandular autoimmune syndrome type 2).
+  "Autoimmune polyglandular failure" is not specific to type 2, and types 1, 3 and 4 record no
+  ICD-10 term. It is removed from the record and replaced by a `sssom:NoTermFound` row.
+- Two further audits, of `ARI:0001117` to `ARI:0001141` and `ARI:0001142` to `ARI:0001166`,
+  found no lost mappings. Every other removal in those ranges came from the ICD-9 cleanup or a
+  documented PR review.
 - Each touched record gains an `ARI_ChangeLog` line. Predictions, target labels and report 8
   are regenerated on top of the #113 prediction fan-out cap.
 - Not changed, and needing a curator: the five "no term" judgments deleted as `null` rows in

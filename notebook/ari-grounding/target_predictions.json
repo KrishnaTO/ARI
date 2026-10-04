@@ -10654,7 +10654,7 @@
    "method": "xref via curated anchor",
    "name": "neuromyelitis optica",
    "routes": 3,
-   "support": 30
+   "support": 34
   }
  ],
  "ARI:0001143|MONDO": [
@@ -10664,7 +10664,7 @@
    "method": "xref via curated anchor",
    "name": "neuromyelitis optica",
    "routes": 1,
-   "support": 16
+   "support": 18
   }
  ],
  "ARI:0001143|ORPHA": [
@@ -10674,7 +10674,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 16
+   "support": 18
   }
  ],
  "ARI:0001143|SNOMEDCT": [
@@ -10684,7 +10684,7 @@
    "method": "xref via curated anchor",
    "name": "Neuromyelitis optica",
    "routes": 3,
-   "support": 30
+   "support": 34
   }
  ],
  "ARI:0001143|icd10cm": [
@@ -10694,7 +10694,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 28
+   "support": 32
   }
  ],
  "ARI:0001143|mesh": [
@@ -10704,7 +10704,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 28
+   "support": 32
   }
  ],
  "ARI:0001143|ncit": [
@@ -10714,7 +10714,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 28
+   "support": 32
   }
  ],
  "ARI:0001143|omop": [
@@ -10724,7 +10724,7 @@
    "method": "xref via curated anchor",
    "name": "Neuromyelitis optica",
    "routes": 3,
-   "support": 30
+   "support": 34
   }
  ],
  "ARI:0001143|umls": [
@@ -10734,7 +10734,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 28
+   "support": 32
   }
  ],
  "ARI:0001144|MONDO": [
@@ -11799,12 +11799,12 @@
  ],
  "ARI:0001158|DOID": [
   {
-   "evidence": "MONDO:0010012 xref, curated SNOMEDCT:83728000",
+   "evidence": "DOID:0050168 from curated DOID:0050168",
    "id": "0050168",
    "method": "xref via curated anchor",
    "name": "autoimmune polyendocrine syndrome type 2",
    "routes": 3,
-   "support": 11
+   "support": 19
   }
  ],
  "ARI:0001158|MONDO": [
@@ -11814,17 +11814,17 @@
    "method": "xref via curated anchor",
    "name": "autoimmune polyendocrinopathy type 2",
    "routes": 1,
-   "support": 8
+   "support": 14
   }
  ],
  "ARI:0001158|OMIM": [
   {
-   "evidence": "MONDO:0010012 xref, curated SNOMEDCT:83728000",
+   "evidence": "DOID:0050168 xref, curated DOID:0050168",
    "id": "269200",
    "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 9
+   "support": 17
   }
  ],
  "ARI:0001158|ORPHA": [
@@ -11834,7 +11834,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 8
+   "support": 14
   }
  ],
  "ARI:0001158|SNOMEDCT": [
@@ -11844,7 +11844,7 @@
    "method": "xref via curated anchor",
    "name": "Polyglandular autoimmune syndrome, type 2",
    "routes": 2,
-   "support": 10
+   "support": 16
   }
  ],
  "ARI:0001158|ncit": [
@@ -11854,7 +11854,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 8
+   "support": 14
   }
  ],
  "ARI:0001158|omop": [
@@ -11864,7 +11864,7 @@
    "method": "xref via curated anchor",
    "name": "Polyglandular autoimmune syndrome, type 2",
    "routes": 2,
-   "support": 10
+   "support": 16
   }
  ],
  "ARI:0001158|umls": [
@@ -11874,7 +11874,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 8
+   "support": 14
   }
  ],
  "ARI:0001159|MONDO": [

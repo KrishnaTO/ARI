@@ -4923,6 +4923,10 @@
   "Autoimmune oophoritis",
   "mesh-icd-ncit-clinvar/CONCEPT.csv"
  ],
+ "mesh:C538275": [
+  "Autoimmune polyendocrinopathy syndrome, type 1",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
  "mesh:C538618": [
   "Donath-Landsteiner hemolytic anemia",
   "mesh-icd-ncit-clinvar/CONCEPT.csv"

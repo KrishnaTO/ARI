@@ -2305,3 +2305,10 @@ ARI	0001131	Mooren's ulcer	skos:exactMatch	ncit	NoTermFound	manual-absent	github
 ARI	0001135	Multiple sclerosis	skos:exactMatch	icd10cm	G35	manual	github:KrishnaTO
 ARI	0001135	Multiple sclerosis	skos:exactMatch	mesh	D009103	manual	github:KrishnaTO
 ARI	0001135	Multiple sclerosis	skos:exactMatch	umls	C0026769	manual	github:KrishnaTO
+ARI	0001157	Polyglandular autoimmune syndrome type 1	skos:exactMatch	mesh	C538275	manual	github:KrishnaTO
+ARI	0001158	Polyglandular autoimmune syndrome type 2	skos:exactMatch	DOID	0050168	manual	github:KrishnaTO
+ARI	0001158	Polyglandular autoimmune syndrome type 2	skos:exactMatch	ncit	C129728	manual	github:KrishnaTO
+ARI	0001158	Polyglandular autoimmune syndrome type 2	skos:exactMatch	umls	C0085860	manual	github:KrishnaTO
+ARI	0001143	Neuromyelitis optica	skos:exactMatch	umls	C0027873	manual	github:KrishnaTO
+ARI	0001158	Polyglandular autoimmune syndrome type 2	skos:exactMatch	icd10cm	E31.0	manual-negative	github:KrishnaTO
+ARI	0001158	Polyglandular autoimmune syndrome type 2	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:KrishnaTO
