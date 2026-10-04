@@ -1,5 +1,24 @@
 # Changelog
 
+## claude/disease-mapping-gaps-prs-cd484c
+
+Records "no term in database" for the 146 diseases reviewed in the curator mappings reviews
+ARI#88, #89 and #92-#96. A disease gets a no-term row wherever a vocabulary has no confirmed
+mapping, no id stored on the record, and no existing no-term row. Counted after ARI#108, that
+is 173 rows across 54 diseases. 74 are in vocabularies where the review rejected every
+candidate (Anti-CASPR2 autoimmune encephalitis, Autoimmune cerebellar ataxia and Autoimmune
+diabetes insipidus had no mapping left at all). The other 99 are in vocabularies where no
+candidate was ever offered. OMIM is left out, because it is a Mendelian catalogue these
+diseases mostly have no entry in.
+
+- Each row is `sssom:NoTermFound` / `manual-absent`, credited to `github:KrishnaTO`, with the
+  comment `No term confirmed in the ARI#<n> mappings review.` Rows are added to
+  `mappings/ari.sssom.tsv` and `mappings/ari.equivalencies.tsv`.
+- Each of the 54 records gains one `ARI_ChangeLog` line in the editor's format
+  (`Cross-reference review: no term in DOID; no term in NCI; ...`).
+- `ARI:0002` from ARI#88 is counted under its current id, `ARI:0001214` (LADA). Ids stored on a
+  record without an SSSOM row (e.g. LADA's SNOMED, DOID, MONDO and UMLS) count as mappings.
+
 ## edit/KrishnaTO/mappings-review-1791133633 (PR #108)
 
 Editor mappings review covering 16 diseases. It adds 51 "no term" markers, confirms UMLS
