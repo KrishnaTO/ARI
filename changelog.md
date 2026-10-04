@@ -50,10 +50,10 @@ to both mapping exports.
 - **Reversed the rejection of SNOMED `1217068008` on `ARI:0001215`** (Fulminant type 1
   diabetes). SNOMED labels it "Fulminant type 1 diabetes mellitus", and OMOP `37163452`, which
   the same review confirmed, is this concept. The id is stored again.
-- Three further audits, of `ARI:0001117` to `ARI:0001141`, `ARI:0001142` to `ARI:0001166` and
-  `ARI:0001167` to `ARI:0001191`, found no lost mappings. The fourth, of `ARI:0001192` to
-  `ARI:0001216`, found none either. Every other removal in those ranges came from the ICD-9
-  cleanup, a documented PR review, or the retirement of `ARI:0001168`.
+- Four further audits, of `ARI:0001117` to `ARI:0001141`, `ARI:0001142` to `ARI:0001166`,
+  `ARI:0001167` to `ARI:0001191` and `ARI:0001192` to `ARI:0001216`, found no lost mappings.
+  Every other removal in those ranges came from the ICD-9 cleanup, a documented PR review, or
+  the retirement of `ARI:0001168`.
 - Still for a curator on `ARI:0001215`: the stored UMLS `C2349037` could not be verified, the
   DOID "no term" judgment was deleted in `1cad398`, and NCIt, Orphanet and MeSH were never
   reviewed. `ARI:0001216` Hashimoto's thyroiditis has not yet been reviewed for DOID, UMLS,
