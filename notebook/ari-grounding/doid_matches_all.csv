@@ -212,3 +212,4 @@ ARI:0001212,CREST Syndrome,DOID:0060218,CREST syndrome,0.772,name,(preferred nam
 ARI:0001213,Morvan syndrome,,,,,no match,,
 ARI:0001214,Latent autoimmune diabetes in adults (LADA),DOID:0080846,latent autoimmune diabetes in adults,0.556,synonym,LADA,,
 ARI:0001215,Fulminant type 1 diabetes,,,,,no match,,
+ARI:0001216,Hashimoto's thyroiditis,DOID:7188,autoimmune thyroiditis,0.556,synonym,(preferred name),190297000,
