@@ -1223,6 +1223,10 @@
   "limbic encephalitis with LGI1 antibodies",
   "mondo.obo"
  ],
+ "MONDO:0015610": [
+  "acquired aplastic anemia",
+  "mondo.obo"
+ ],
  "MONDO:0015614": [
   "dermatitis herpetiformis",
   "mondo.obo"
@@ -1791,6 +1795,10 @@
   "ALOPECIA AREATA 1",
   "OMIM.ttl"
  ],
+ "OMIM:106300": [
+  "SPONDYLOARTHROPATHY, SUSCEPTIBILITY TO, 1",
+  "OMIM.ttl"
+ ],
  "OMIM:107320": [
   "ANTIPHOSPHOLIPID SYNDROME, FAMILIAL",
   "OMIM.ttl"
@@ -2217,6 +2225,10 @@
  ],
  "ORPHA:163892": [
   "OBSOLETE: Limbic encephalitis",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:164823": [
+  "Rare acquired aplastic anemia",
   "EBI OLS4 (ordo)"
  ],
  "ORPHA:1656": [
@@ -3823,6 +3835,10 @@
   "Systemic lupus erythematosus",
   "snomed/CONCEPT.csv"
  ],
+ "SNOMEDCT:55907008": [
+  "Acquired aplastic anemia",
+  "snomed/CONCEPT.csv"
+ ],
  "SNOMEDCT:56727007": [
   "Vitiligo",
   "snomed/CONCEPT.csv"
@@ -4985,6 +5001,10 @@
  ],
  "mesh:C562642": [
   "Amyloidosis, Primary Cutaneous",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:C562942": [
+  "Aortic Valve, Calcification of",
   "mesh-icd-ncit-clinvar/CONCEPT.csv"
  ],
  "mesh:C563187": [
@@ -7139,6 +7159,10 @@
   "Primary progressive multiple sclerosis",
   "snomed/CONCEPT.csv"
  ],
+ "omop:4184758": [
+  "Acquired aplastic anemia",
+  "snomed/CONCEPT.csv"
+ ],
  "omop:4185187": [
   "Systemic sclerosis with limited cutaneous involvement",
   "snomed/CONCEPT.csv"
@@ -8310,6 +8334,10 @@
  "umls:C0271865": [
   "autoimmune hypoparathyroidism",
   "mondo.obo xref (MONDO:0018242)"
+ ],
+ "umls:C0271907": [
+  "acquired aplastic anemia",
+  "mondo.obo xref (MONDO:0015610)"
  ],
  "umls:C0272118": [
   "autoimmune hemolytic anemia, warm type",

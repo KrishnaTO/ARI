@@ -67,11 +67,22 @@ to both mapping exports.
     cross-references it.
   - OMIM `212750` on `ARI:0001061` Celiac disease (entered 2026-08-03). MONDO
     cross-references the 212750 phenotypic series.
-- Six further audits found no lost mappings. They covered `ARI:0001042` to `ARI:0001091`, and
-  `ARI:0001117` to `ARI:0001216` in four ranges of 25. Every other removal in those ranges came
-  from the ICD-9 cleanup, a documented PR review, or the retirement of `ARI:0001168`. OMOP
-  `37365579` on `ARI:0001065` remains unjudged, as `e97cde9` left it, until it can be looked
-  up in Athena.
+- **Judged six more ids that were stored on the disease but never recorded:**
+  - Confirmed OMIM `233450` on `ARI:0001014` Anti-glomerular basement membrane disease.
+  - Confirmed MeSH `C562942` on `ARI:0001020` Aortic valve calcification.
+  - Confirmed Orphanet `164823` ("Rare acquired aplastic anemia") on `ARI:0001021` Aplastic
+    anemia.
+  - Confirmed UMLS `C5395071` on `ARI:0001030` Autoimmune ganglionopathy.
+  - Confirmed NCIt `C27029` on `ARI:0001033` Autoimmune hepatitis.
+  - Rejected OMIM `106300` on `ARI:0001012` Ankylosing spondylitis, a susceptibility-locus
+    entry that MONDO does not link. It is removed from the record.
+- Further audits covered every other disease, `ARI:0001001` to `ARI:0001091` and `ARI:0001117`
+  to `ARI:0001216`, and found no lost mappings. Every other removal came from the ICD-9
+  cleanup, a documented PR review, the retirement of `ARI:0001168`, or the removal of the
+  generic "Autoimmune disease" entry `ARI:0001026` in June. OMOP `37365579` on `ARI:0001065`
+  remains unjudged, as `e97cde9` left it, until it can be looked up in Athena.
+  `ARI:0001028` Autoimmune encephalitis has not been reviewed for DOID, NCIt, Orphanet, UMLS
+  or MeSH.
 - Still for a curator on `ARI:0001215`: the stored UMLS `C2349037` could not be verified, the
   DOID "no term" judgment was deleted in `1cad398`, and NCIt, Orphanet and MeSH were never
   reviewed. `ARI:0001216` Hashimoto's thyroiditis has not yet been reviewed for DOID, UMLS,

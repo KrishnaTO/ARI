@@ -1134,7 +1134,7 @@
    "method": "xref via curated anchor",
    "name": "Goodpasture syndrome",
    "routes": 3,
-   "support": 27
+   "support": 31
   }
  ],
  "ARI:0001014|MONDO": [
@@ -1144,7 +1144,7 @@
    "method": "xref via curated anchor",
    "name": "anti-glomerular basement membrane disease",
    "routes": 1,
-   "support": 13
+   "support": 15
   }
  ],
  "ARI:0001014|OMIM": [
@@ -1154,7 +1154,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 25
+   "support": 29
   }
  ],
  "ARI:0001014|ORPHA": [
@@ -1164,7 +1164,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 13
+   "support": 15
   }
  ],
  "ARI:0001014|SNOMEDCT": [
@@ -1174,7 +1174,7 @@
    "method": "xref via curated anchor",
    "name": "Anti-glomerular basement membrane disease",
    "routes": 2,
-   "support": 14
+   "support": 16
   },
   {
    "evidence": "MONDO:0009303 xref, curated DOID:9808",
@@ -1182,7 +1182,7 @@
    "method": "xref via curated anchor",
    "name": "Pulmonary renal syndrome",
    "routes": 1,
-   "support": 13
+   "support": 15
   }
  ],
  "ARI:0001014|mesh": [
@@ -1192,7 +1192,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 25
+   "support": 29
   }
  ],
  "ARI:0001014|ncit": [
@@ -1202,7 +1202,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 25
+   "support": 29
   }
  ],
  "ARI:0001014|omop": [
@@ -1212,7 +1212,7 @@
    "method": "xref via curated anchor",
    "name": "Anti-glomerular basement membrane disease",
    "routes": 2,
-   "support": 14
+   "support": 16
   },
   {
    "evidence": "MONDO:0009303 xref SCTID:236432001, curated DOID:9808",
@@ -1220,7 +1220,7 @@
    "method": "xref via curated anchor",
    "name": "Pulmonary renal syndrome",
    "routes": 1,
-   "support": 13
+   "support": 15
   }
  ],
  "ARI:0001014|umls": [
@@ -1230,7 +1230,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 25
+   "support": 29
   }
  ],
  "ARI:0001015|MONDO": [
@@ -1541,6 +1541,14 @@
    "name": "aplastic anemia",
    "routes": 1,
    "support": 16
+  },
+  {
+   "evidence": "MONDO:0015610 from curated ORPHA:164823",
+   "id": "0015610",
+   "method": "xref via curated anchor",
+   "name": "acquired aplastic anemia",
+   "routes": 1,
+   "support": 2
   }
  ],
  "ARI:0001021|OMIM": [
@@ -1553,6 +1561,16 @@
    "support": 29
   }
  ],
+ "ARI:0001021|ORPHA": [
+  {
+   "evidence": "MONDO:0015610 xref, curated ORPHA:164823",
+   "id": "164823",
+   "method": "xref via curated anchor",
+   "name": "",
+   "routes": 1,
+   "support": 2
+  }
+ ],
  "ARI:0001021|SNOMEDCT": [
   {
    "evidence": "MONDO:0015909 xref, curated SNOMEDCT:306058006",
@@ -1561,6 +1579,14 @@
    "name": "Aplastic anemia",
    "routes": 2,
    "support": 18
+  },
+  {
+   "evidence": "MONDO:0015610 xref, curated ORPHA:164823",
+   "id": "55907008",
+   "method": "xref via curated anchor",
+   "name": "Acquired aplastic anemia",
+   "routes": 1,
+   "support": 2
   }
  ],
  "ARI:0001021|icd10cm": [
@@ -1601,6 +1627,14 @@
    "name": "Aplastic anemia",
    "routes": 2,
    "support": 18
+  },
+  {
+   "evidence": "MONDO:0015610 xref SCTID:55907008, curated ORPHA:164823",
+   "id": "4184758",
+   "method": "xref via curated anchor",
+   "name": "Acquired aplastic anemia",
+   "routes": 1,
+   "support": 2
   }
  ],
  "ARI:0001021|umls": [
@@ -1611,6 +1645,14 @@
    "name": "",
    "routes": 2,
    "support": 29
+  },
+  {
+   "evidence": "MONDO:0015610 xref, curated ORPHA:164823",
+   "id": "C0271907",
+   "method": "xref via curated anchor",
+   "name": "",
+   "routes": 1,
+   "support": 2
   }
  ],
  "ARI:0001022|MONDO": [
@@ -2046,7 +2088,7 @@
    "method": "xref via curated anchor",
    "name": "autoimmune hepatitis",
    "routes": 3,
-   "support": 21
+   "support": 23
   }
  ],
  "ARI:0001033|MONDO": [
@@ -2056,7 +2098,7 @@
    "method": "xref via curated anchor",
    "name": "autoimmune hepatitis",
    "routes": 1,
-   "support": 14
+   "support": 16
   }
  ],
  "ARI:0001033|ORPHA": [
@@ -2066,7 +2108,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 14
+   "support": 16
   }
  ],
  "ARI:0001033|SNOMEDCT": [
@@ -2076,7 +2118,7 @@
    "method": "xref via curated anchor",
    "name": "Autoimmune hepatitis",
    "routes": 2,
-   "support": 16
+   "support": 18
   }
  ],
  "ARI:0001033|icd10cm": [
@@ -2086,7 +2128,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 14
+   "support": 16
   }
  ],
  "ARI:0001033|mesh": [
@@ -2096,7 +2138,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 19
+   "support": 21
   }
  ],
  "ARI:0001033|ncit": [
@@ -2106,7 +2148,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 14
+   "support": 16
   }
  ],
  "ARI:0001033|omop": [
@@ -2116,7 +2158,7 @@
    "method": "xref via curated anchor",
    "name": "Autoimmune hepatitis",
    "routes": 2,
-   "support": 16
+   "support": 18
   }
  ],
  "ARI:0001033|umls": [
@@ -2126,7 +2168,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 14
+   "support": 16
   }
  ],
  "ARI:0001034|MONDO": [

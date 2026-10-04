@@ -2334,3 +2334,9 @@ ARI	0001076	Cutaneous lupus erythematosus	skos:exactMatch	ORPHA	535	manual-negat
 ARI	0001076	Cutaneous lupus erythematosus	skos:exactMatch	ORPHA	NoTermFound	manual-absent	github:KrishnaTO
 ARI	0001053	Behçet's syndrome	skos:exactMatch	OMIM	109650	manual	github:KrishnaTO
 ARI	0001061	Celiac disease	skos:exactMatch	OMIM	212750	manual	github:KrishnaTO
+ARI	0001012	Ankylosing spondylitis	skos:exactMatch	OMIM	106300	manual-negative	github:KrishnaTO
+ARI	0001014	Anti-glomerular basement membrane disease	skos:exactMatch	OMIM	233450	manual	github:KrishnaTO
+ARI	0001020	Aortic valve calcification	skos:exactMatch	mesh	C562942	manual	github:KrishnaTO
+ARI	0001021	Aplastic anemia	skos:exactMatch	ORPHA	164823	manual	github:KrishnaTO
+ARI	0001030	Autoimmune ganglionopathy	skos:exactMatch	umls	C5395071	manual	github:KrishnaTO
+ARI	0001033	Autoimmune hepatitis	skos:exactMatch	ncit	C27029	manual	github:KrishnaTO
