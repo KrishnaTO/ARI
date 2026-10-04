@@ -1,5 +1,23 @@
 # Changelog
 
+## claude/disease-mapping-gaps-prs-cd484c
+
+Records "no term in database" for the 146 diseases reviewed in the curator mappings reviews
+ARI#88, #89 and #92-#96. A disease gets a no-term row wherever a vocabulary has no confirmed
+mapping, no id stored on the record, and no existing no-term row: 215 rows across 67 diseases.
+That covers vocabularies where the review rejected every candidate (e.g. Autoimmune cerebellar
+ataxia and Autoimmune diabetes insipidus, which had no mapping left at all) and vocabularies
+where no candidate was ever offered. OMIM is left out, because it is a Mendelian catalogue
+these diseases mostly have no entry in.
+
+- Each row is `sssom:NoTermFound` / `manual-absent`, credited to `github:KrishnaTO`, with the
+  comment `No term confirmed in the ARI#<n> mappings review.` Rows are added to
+  `mappings/ari.sssom.tsv` and `mappings/ari.equivalencies.tsv`.
+- Each of the 67 records gains one `ARI_ChangeLog` line in the editor's format
+  (`Cross-reference review: no term in DOID; no term in NCI; ...`).
+- `ARI:0002` from ARI#88 is counted under its current id, `ARI:0001214` (LADA). Ids stored on a
+  record without an SSSOM row (e.g. LADA's SNOMED, DOID, MONDO and UMLS) count as mappings.
+
 ## claude/hashimotos-thyroiditis-mappings-d13221
 
 Adds `ARI:0001216` Hashimoto's thyroiditis as a subtype (`hasParentDisease`) of `ARI:0001048`
