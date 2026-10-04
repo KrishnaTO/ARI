@@ -1063,6 +1063,10 @@
   "Morvan syndrome",
   "mondo.obo"
  ],
+ "MONDO:0008930": [
+  "celiac disease, susceptibility to, 1",
+  "mondo.obo"
+ ],
  "MONDO:0009009": [
   "hypoplasminogenemia",
   "mondo.obo"
@@ -1897,6 +1901,10 @@
  ],
  "OMIM:207600": [
   "TAKAYASU ARTERITIS",
+  "OMIM.ttl"
+ ],
+ "OMIM:212750": [
+  "CELIAC DISEASE, SUSCEPTIBILITY TO, 1",
   "OMIM.ttl"
  ],
  "OMIM:222100": [
@@ -8602,6 +8610,10 @@
  "umls:C1853959": [
   "birdshot chorioretinopathy",
   "doid.owl xref (DOID:0111079)"
+ ],
+ "umls:C1859310": [
+  "celiac disease, susceptibility to, 1",
+  "mondo.obo xref (MONDO:0008930)"
  ],
  "umls:C1956391": [
   "temporal arteritis",

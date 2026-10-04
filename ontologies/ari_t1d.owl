@@ -6203,6 +6203,7 @@ This disease is not well understood but is believed to be autoimmune in nature s
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:02:58+00:00 | medinatinajeropablo-dot | Stored confirmed cross-reference: ORPHANET 117</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:02:58+00:00 | medinatinajeropablo-dot | Cross-reference review: confirmed MONDO 0007191; confirmed ORPHANET 117</ARI_ChangeLog>
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">117</ARI_ORPHANET>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T19:40:00+00:00 | KrishnaTO | Cross-reference review: confirmed OMIM 109650</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001053_415">
@@ -6947,6 +6948,7 @@ CD is generally treated by eliminating gluten from the diet.  Patients with an e
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-15 22:37 | KrishnaTO | Cross-reference review: confirmed SNOMED 396331005; confirmed OMOP 194992; confirmed DOID 10608; confirmed MONDO 0005130; confirmed NCI C26714; confirmed ICD10 K90.0; confirmed ORPHANET 555; confirmed UMLS C0007570; confirmed MESH D002446; flagged SNOMED 91867008; flagged OMOP 4241413; flagged ICD10 579.0</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-15 22:38 | KrishnaTO | Enrichment from confirmed cross-references: +24 synonym(s), +4 clinical subtype(s)</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew 9 "NON RARE IN EUROPE: ..." strings - Orphanet epidemiological-classification labels that leaked in as synonyms. Real synonyms (celiac sprue, coeliac disease, gluten-sensitive enteropathy, etc.) kept.</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T19:40:00+00:00 | KrishnaTO | Cross-reference review: confirmed OMIM 212750</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001061_468">

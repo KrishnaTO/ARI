@@ -62,10 +62,16 @@ to both mapping exports.
     disease. Orphanet has no general term, so it gets a `sssom:NoTermFound` row.
 
   The rejected ids are removed from the records.
-- Five further audits, of `ARI:0001067` to `ARI:0001091`, `ARI:0001117` to `ARI:0001141`,
-  `ARI:0001142` to `ARI:0001166`, `ARI:0001167` to `ARI:0001191` and `ARI:0001192` to
-  `ARI:0001216`, found no lost mappings. Every other removal in those ranges came from the
-  ICD-9 cleanup, a documented PR review, or the retirement of `ARI:0001168`.
+- **Confirmed two OMIM ids that no review had recorded.**
+  - OMIM `109650` on `ARI:0001053` Behçet's syndrome (entered 2026-07-11). MONDO
+    cross-references it.
+  - OMIM `212750` on `ARI:0001061` Celiac disease (entered 2026-08-03). MONDO
+    cross-references the 212750 phenotypic series.
+- Six further audits found no lost mappings. They covered `ARI:0001042` to `ARI:0001091`, and
+  `ARI:0001117` to `ARI:0001216` in four ranges of 25. Every other removal in those ranges came
+  from the ICD-9 cleanup, a documented PR review, or the retirement of `ARI:0001168`. OMOP
+  `37365579` on `ARI:0001065` remains unjudged, as `e97cde9` left it, until it can be looked
+  up in Athena.
 - Still for a curator on `ARI:0001215`: the stored UMLS `C2349037` could not be verified, the
   DOID "no term" judgment was deleted in `1cad398`, and NCIt, Orphanet and MeSH were never
   reviewed. `ARI:0001216` Hashimoto's thyroiditis has not yet been reviewed for DOID, UMLS,

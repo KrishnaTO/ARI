@@ -2332,3 +2332,5 @@ ARI	0001076	Cutaneous lupus erythematosus	skos:exactMatch	icd10cm	L93.0	manual-n
 ARI	0001076	Cutaneous lupus erythematosus	skos:exactMatch	icd10cm	L93	manual	github:KrishnaTO
 ARI	0001076	Cutaneous lupus erythematosus	skos:exactMatch	ORPHA	535	manual-negative	github:KrishnaTO
 ARI	0001076	Cutaneous lupus erythematosus	skos:exactMatch	ORPHA	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001053	Behçet's syndrome	skos:exactMatch	OMIM	109650	manual	github:KrishnaTO
+ARI	0001061	Celiac disease	skos:exactMatch	OMIM	212750	manual	github:KrishnaTO

@@ -3120,7 +3120,7 @@
    "method": "xref via curated anchor",
    "name": "Behcet's disease",
    "routes": 3,
-   "support": 32
+   "support": 36
   }
  ],
  "ARI:0001053|MONDO": [
@@ -3130,7 +3130,7 @@
    "method": "xref via curated anchor",
    "name": "Behcet disease",
    "routes": 1,
-   "support": 16
+   "support": 18
   }
  ],
  "ARI:0001053|OMIM": [
@@ -3140,7 +3140,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 30
+   "support": 34
   }
  ],
  "ARI:0001053|ORPHA": [
@@ -3150,7 +3150,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 16
+   "support": 18
   }
  ],
  "ARI:0001053|SNOMEDCT": [
@@ -3160,7 +3160,7 @@
    "method": "xref via curated anchor",
    "name": "Behcet's syndrome",
    "routes": 3,
-   "support": 32
+   "support": 36
   }
  ],
  "ARI:0001053|icd10cm": [
@@ -3170,7 +3170,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 14
+   "support": 16
   }
  ],
  "ARI:0001053|mesh": [
@@ -3180,7 +3180,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 30
+   "support": 34
   }
  ],
  "ARI:0001053|ncit": [
@@ -3190,7 +3190,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 30
+   "support": 34
   }
  ],
  "ARI:0001053|omop": [
@@ -3200,7 +3200,7 @@
    "method": "xref via curated anchor",
    "name": "Behcet's syndrome",
    "routes": 3,
-   "support": 32
+   "support": 36
   }
  ],
  "ARI:0001053|umls": [
@@ -3210,7 +3210,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 30
+   "support": 34
   }
  ],
  "ARI:0001054|DOID": [
@@ -3759,6 +3759,14 @@
    "name": "celiac disease",
    "routes": 1,
    "support": 16
+  },
+  {
+   "evidence": "MONDO:0008930 from curated OMIM:212750",
+   "id": "0008930",
+   "method": "xref via curated anchor",
+   "name": "celiac disease, susceptibility to, 1",
+   "routes": 1,
+   "support": 2
   }
  ],
  "ARI:0001061|OMIM": [
@@ -3833,6 +3841,14 @@
    "name": "",
    "routes": 1,
    "support": 13
+  },
+  {
+   "evidence": "MONDO:0008930 xref, curated OMIM:212750",
+   "id": "212750",
+   "method": "xref via curated anchor",
+   "name": "",
+   "routes": 1,
+   "support": 2
   }
  ],
  "ARI:0001061|ORPHA": [
@@ -3903,6 +3919,14 @@
    "name": "",
    "routes": 2,
    "support": 29
+  },
+  {
+   "evidence": "MONDO:0008930 xref, curated OMIM:212750",
+   "id": "C1859310",
+   "method": "xref via curated anchor",
+   "name": "",
+   "routes": 1,
+   "support": 2
   }
  ],
  "ARI:0001062|DOID": [
