@@ -45,7 +45,7 @@ Requires `gilda`, `openpyxl` (`pip install gilda openpyxl`).
 ## Results (all 213 active ontology diseases)
 
 - **DOID**: 128 matched, 85 unmatched. Matching resolves synonyms (e.g. Kawasaki, Castleman, Goodpasture).
-- **SNOMED**: 189 matched; 185 agree with a SNOMED code the ontology already stores.
+- **SNOMED**: 189 matched; 182 agree with a SNOMED code the ontology already stores.
 
 The SNOMED report colour-codes the `Agrees w/ Existing` column: green = agrees with the ontology's code, amber = differs.
 

@@ -1,5 +1,22 @@
 # Changelog
 
+## claude/regenerate-grounding-outputs
+
+Regenerates the `notebook/ari-grounding/` outputs against the current `ontologies/ari_t1d.owl`
+and `mappings/ari.sssom.tsv`, picking up the line reviews merged since PR #104 (ARI#92-#96,
+#105, #107). No script changes.
+
+- `target_predictions.json`: 1380 -> 1435 (disease, database) keys; 678 keys differ. 81
+  change their predicted ids, 73 are new and 18 are gone (51 diseases in all); the other 506
+  only change support/evidence, mostly because their anchor is now a curated mapping rather
+  than a lexical match (429 predictions move to `xref via curated anchor`).
+- `target_labels.json`: 354 newly resolved ids, none changed.
+- `snomed_matches_all.csv`: the existing-SNOMED column follows the reviewed codes; agreement
+  with the ontology falls 185 -> 182 (Autoimmune oophoritis and Birdshot chorioretinopathy no
+  longer store a SNOMED code; Morphea's stored code is now `201048007`). DOID matches unchanged.
+- `data/4-reports/5`-`8` rebuilt; report 8 now has 2505 rows (1362 confirmed, 462 rejected,
+  205 no term, 476 not reviewed).
+
 ## claude/autoimmune-thyroiditis-mondo-mapping-1b8434
 
 Reverses the ARI#93 line-review rejection of `ARI:0001048` Autoimmune thyroiditis -> MONDO
