@@ -5384,7 +5384,7 @@ In chronic autoimmune neutropenia the body produces IgG antibodies that target a
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T17:04:22+00:00 | user | Edited: mesh</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:20:06+00:00 | JoshuaCorona-Sa | Cross-reference review: confirmed SNOMED 707443007; confirmed OMOP 45768909; confirmed MONDO 0012579; confirmed NCI C202011; confirmed ORPHANET 747; confirmed UMLS C1970472; flagged MESH C567049; no term in ICD10; no term in DOID</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T17:06:19+00:00 | user | Edited: mesh</ARI_ChangeLog>
-  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T17:07:10+00:00 | KrishnaTO | Cross-reference review: flagged MESH C567049; no term in MESH</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T17:07:10+00:00 | KrishnaTO | Cross-reference review: no term in MESH</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:20:06+00:00 | JoshuaCorona-Sa | Stored confirmed cross-reference: MONDO 0012579; NCI C202011; ORPHANET 747; UMLS C1970472</ARI_ChangeLog>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">707443007</ARI_SNOMED>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1970472</ARI_UMLS>
@@ -5525,10 +5525,9 @@ Several names are used for autoimmune thyroiditis. When it is known to be autoim
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:02:58+00:00 | medinatinajeropablo-dot | Stored confirmed cross-reference: MONDO 0007699; ORPHANET 855</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-11 03:49 | user | Edited: mondo</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:02:58+00:00 | medinatinajeropablo-dot | Cross-reference review: confirmed OMOP 4281109; confirmed MONDO 0005623, 0007699; confirmed DOID 7188; confirmed ORPHANET 855; confirmed MESH D013967; flagged NCI C38766</ARI_ChangeLog>
+  <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0005623</ARI_MONDO>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T16:55:37+00:00 | medinatinajeropablo-dot | PR #93 review: restored MONDO 0005623 (rejection reversed)</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T16:03:51+00:00 | user | Edited: mondo</ARI_ChangeLog>
-  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T17:07:10+00:00 | KrishnaTO | Removed flagged cross-reference: MONDO 0005623</ARI_ChangeLog>
-  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T17:07:10+00:00 | KrishnaTO | Cross-reference review: confirmed NCI C27191; flagged MONDO 0005623</ARI_ChangeLog>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">66944004</ARI_SNOMED>
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7188</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0920350</ARI_UMLS>

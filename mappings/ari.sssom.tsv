@@ -2053,7 +2053,6 @@ ARI:0001019	Antisynthetase syndrome	skos:exactMatch		umls:C2609059	umls	semapv:M
 ARI:0001019	Antisynthetase syndrome	skos:exactMatch		umls:C5959873	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:07:13+00:00	
 ARI:0001019	Antisynthetase syndrome	skos:exactMatch		mesh:C537778	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:07:13+00:00	
 ARI:0001177	Reactive arthritis	skos:exactMatch		ncit:C128332	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:07:13+00:00	
-ARI:0001048	Autoimmune thyroiditis	skos:exactMatch		ncit:C27191	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:07:13+00:00	
 ARI:0001046	Autoimmune retinal vasculitis	skos:exactMatch	Not	SNOMEDCT:427213005	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:07:13+00:00	
 ARI:0001046	Autoimmune retinal vasculitis	skos:exactMatch	Not	SNOMEDCT:77628002	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:07:13+00:00	
 ARI:0001046	Autoimmune retinal vasculitis	skos:exactMatch	Not	icd10cm:H35.06	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:07:13+00:00	
@@ -2064,8 +2063,6 @@ ARI:0001046	Autoimmune retinal vasculitis	skos:exactMatch	Not	MONDO:0006950	MOND
 ARI:0001046	Autoimmune retinal vasculitis	skos:exactMatch	Not	MONDO:0030703	MONDO	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:07:13+00:00	
 ARI:0001046	Autoimmune retinal vasculitis	skos:exactMatch	Not	DOID:11563	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:07:13+00:00	
 ARI:0001046	Autoimmune retinal vasculitis	skos:exactMatch	Not	DOID:0040097	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:07:13+00:00	
-		skos:exactMatch	Not	MONDO:0005623	MONDO	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:07:13+00:00	
-		skos:exactMatch	Not	mesh:C567049	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:07:13+00:00	
 ARI:0001007	Adult-onset immunodeficiency due to anti-IFN-gamma autoantibodies	skos:exactMatch		sssom:NoTermFound	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:07:13+00:00	
 ARI:0001007	Adult-onset immunodeficiency due to anti-IFN-gamma autoantibodies	skos:exactMatch		sssom:NoTermFound	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:07:13+00:00	
 ARI:0001007	Adult-onset immunodeficiency due to anti-IFN-gamma autoantibodies	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:07:13+00:00	
