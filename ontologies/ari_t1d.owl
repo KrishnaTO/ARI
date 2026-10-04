@@ -1587,6 +1587,8 @@
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diabetes Care LADA consensus; PMID: 32086290</ARI_DefSource>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D000071698</ARI_MESH>
+  <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4145827</ARI_OMOP>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T18:56:00+00:00 | KrishnaTO | Cross-reference review: confirmed SNOMED 426875007; confirmed DOID 0080846; confirmed MONDO 0850306; confirmed UMLS C1739108; confirmed OMOP 4145827</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_LADA_Thirst">
@@ -1649,6 +1651,8 @@
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-04 18:04 | user | Edited: omop</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-04 18:26 | Jennyzeng25 | Cross-reference review: confirmed OMOP 37163452; flagged SNOMED 1217068008; flagged DOID null; flagged MONDO MONDO:0014523; flagged ICD10 E10</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27 | Claude | Synonym review (second pass): withdrew "Acute-onset type 1 diabetes" (distinct).</ARI_ChangeLog>
+  <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1217068008</ARI_SNOMED>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T18:56:00+00:00 | KrishnaTO | PR review: reversed the rejection of SNOMED 1217068008, the concept behind the confirmed OMOP 37163452</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_Ful_DKA">
@@ -20365,7 +20369,6 @@ This condition most frequently occurs following surgery to a region of the body 
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4562</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0014122</ARI_UMLS>
   <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0006981</ARI_MONDO>
-  <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I33.0</ARI_ICD10>
   <ARI_PrevalenceDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female 7508/100k; Male 10803/100k; F:M ratio 0.694992</ARI_PrevalenceDesc>
   <ARI_Pubmed rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/28104075/</ARI_Pubmed>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cahill 2017; https://pubmed.ncbi.nlm.nih.gov/28104075/</ARI_DefSource>
@@ -20384,6 +20387,7 @@ This condition most frequently occurs following surgery to a region of the body 
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Subacute Bacterial Endocarditis, Native Valve - Affects previously normal heart valves.</ARI_ClinicalSubtype>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SBE</ARI_SurveyCode>
   <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Subacute native valve endocarditis | subtype | the native-valve form; already an ARI_ClinicalSubtype 'Subacute Bacterial Endocarditis, Native Valve'</ARI_SynonymWithdrawn>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T18:56:00+00:00 | KrishnaTO | Cross-reference review: flagged ICD10 I33.0 (broader); no term in ICD10</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001194_1975">
@@ -21474,6 +21478,7 @@ Early symptoms may include fever, night sweats, fatigue, joint pain, and chest d
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TA</ARI_SurveyCode>
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">397</ARI_ORPHANET>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27 | Claude | Synonym review (second pass): withdrew "Granulomatous arteritis" (broader).</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T18:56:00+00:00 | KrishnaTO | Cross-reference review: confirmed ICD10 M31.6</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001201_2056">
@@ -22136,6 +22141,7 @@ Both UC and CD are caused by an autoimmune response that reflects the involvemen
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UCTD, Stable - Persistent but does not progress into a defined autoimmune disease.</ARI_ClinicalSubtype>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UCTD</ARI_SurveyCode>
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">90002</ARI_ORPHANET>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T18:56:00+00:00 | KrishnaTO | Cross-reference review: confirmed ICD10 M35.9</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001206_2128">
@@ -22301,6 +22307,7 @@ Urticaria can also be caused by allergic reaction to plants like poison ivy, dye
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Urticarial Vasculitis, Normocomplementemic - Mild, normal complement levels.</ARI_ClinicalSubtype>
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Urticarial Vasculitis, Hypocomplementemic - More severe, with low complement levels.</ARI_ClinicalSubtype>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">URTV</ARI_SurveyCode>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T18:56:00+00:00 | KrishnaTO | Cross-reference review: confirmed UMLS C1304408</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001207_2148">

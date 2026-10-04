@@ -2312,3 +2312,13 @@ ARI	0001158	Polyglandular autoimmune syndrome type 2	skos:exactMatch	umls	C00858
 ARI	0001143	Neuromyelitis optica	skos:exactMatch	umls	C0027873	manual	github:KrishnaTO
 ARI	0001158	Polyglandular autoimmune syndrome type 2	skos:exactMatch	icd10cm	E31.0	manual-negative	github:KrishnaTO
 ARI	0001158	Polyglandular autoimmune syndrome type 2	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001194	Subacute bacterial endocarditis	skos:exactMatch	icd10cm	I33.0	manual-negative	github:KrishnaTO
+ARI	0001201	Temporal arteritis	skos:exactMatch	icd10cm	M31.6	manual	github:KrishnaTO
+ARI	0001206	Undifferentiated connective tissue disease	skos:exactMatch	icd10cm	M35.9	manual	github:KrishnaTO
+ARI	0001207	Urticarial vasculitis	skos:exactMatch	umls	C1304408	manual	github:KrishnaTO
+ARI	0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	SNOMEDCT	426875007	manual	github:KrishnaTO
+ARI	0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	DOID	0080846	manual	github:KrishnaTO
+ARI	0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	MONDO	0850306	manual	github:KrishnaTO
+ARI	0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	umls	C1739108	manual	github:KrishnaTO
+ARI	0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	omop	4145827	manual	github:KrishnaTO
+ARI	0001215	Fulminant type 1 diabetes	skos:exactMatch	SNOMEDCT	1217068008	manual	github:KrishnaTO

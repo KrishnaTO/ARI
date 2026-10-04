@@ -3667,6 +3667,10 @@
   "Relapsing remitting multiple sclerosis",
   "snomed/CONCEPT.csv"
  ],
+ "SNOMEDCT:426875007": [
+  "Latent autoimmune diabetes mellitus in adult",
+  "snomed/CONCEPT.csv"
+ ],
  "SNOMEDCT:427086003": [
   "Bickerstaff's brainstem encephalitis",
   "snomed/CONCEPT.csv"
@@ -4543,6 +4547,10 @@
   "Dressler's syndrome",
   "mesh-icd-ncit-clinvar/CONCEPT.csv"
  ],
+ "icd10cm:I33.0": [
+  "Acute and subacute infective endocarditis",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
  "icd10cm:I42.0": [
   "Dilated cardiomyopathy",
   "mesh-icd-ncit-clinvar/CONCEPT.csv"
@@ -4763,6 +4771,10 @@
   "Aortic arch syndrome [Takayasu]",
   "mesh-icd-ncit-clinvar/CONCEPT.csv"
  ],
+ "icd10cm:M31.6": [
+  "Other giant cell arteritis",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
  "icd10cm:M31.7": [
   "Microscopic polyangiitis",
   "mesh-icd-ncit-clinvar/CONCEPT.csv"
@@ -4817,6 +4829,10 @@
  ],
  "icd10cm:M35.4": [
   "Diffuse (eosinophilic) fasciitis",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:M35.9": [
+  "Systemic involvement of connective tissue, unspecified",
   "mesh-icd-ncit-clinvar/CONCEPT.csv"
  ],
  "icd10cm:M45": [
@@ -7041,6 +7057,10 @@
  ],
  "omop:4145049": [
   "Relapsing remitting multiple sclerosis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4145827": [
+  "Latent autoimmune diabetes mellitus in adult",
   "snomed/CONCEPT.csv"
  ],
  "omop:4146124": [

@@ -16262,17 +16262,17 @@
    "method": "xref via curated anchor",
    "name": "latent autoimmune diabetes in adults",
    "routes": 3,
-   "support": 6
+   "support": 14
   }
  ],
  "ARI:0001214|MONDO": [
   {
-   "evidence": "MONDO:0850306 from lexical match DOID:0080846 (Gilda 0.556 via LADA)",
+   "evidence": "MONDO:0850306 from curated DOID:0080846",
    "id": "0850306",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "latent autoimmune diabetes in adults",
    "routes": 1,
-   "support": 1
+   "support": 7
   }
  ],
  "ARI:0001214|mesh": [
@@ -16282,17 +16282,17 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 3
+   "support": 5
   }
  ],
  "ARI:0001214|umls": [
   {
-   "evidence": "MONDO:0850306 xref, lexical match DOID:0080846 (Gilda 0.556 via LADA)",
+   "evidence": "MONDO:0850306 xref, curated DOID:0080846",
    "id": "C1739108",
-   "method": "xref via lexical anchor",
+   "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 1
+   "support": 7
   }
  ],
  "ARI:0001216|MONDO": [

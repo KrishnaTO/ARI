@@ -33,9 +33,31 @@ to both mapping exports.
 - **Rejected ICD-10 `E31.0` on `ARI:0001158`** (Polyglandular autoimmune syndrome type 2).
   "Autoimmune polyglandular failure" is not specific to type 2, and types 1, 3 and 4 record no
   ICD-10 term. It is removed from the record and replaced by a `sssom:NoTermFound` row.
-- Two further audits, of `ARI:0001117` to `ARI:0001141` and `ARI:0001142` to `ARI:0001166`,
-  found no lost mappings. Every other removal in those ranges came from the ICD-9 cleanup or a
-  documented PR review.
+- **Confirmed stored ids that no review had recorded:**
+  - ICD-10 `M31.6` on `ARI:0001201` Temporal arteritis
+  - ICD-10 `M35.9` on `ARI:0001206` Undifferentiated connective tissue disease
+  - UMLS `C1304408` on `ARI:0001207` Urticarial vasculitis
+  - SNOMED `426875007`, DOID `0080846`, MONDO `0850306` and UMLS `C1739108` on `ARI:0001214`
+    LADA
+
+  The first three were entered in the field editor on 2026-09-07; LADA's four on 09-09 and
+  09-20.
+- **Confirmed OMOP `4145827` on LADA.** It is the standard concept for SNOMED `426875007`, so
+  #112's "no term in OMOP" row for LADA is marked superseded.
+- **Rejected ICD-10 `I33.0` on `ARI:0001194`** (Subacute bacterial endocarditis). "Acute and
+  subacute infective endocarditis" is broader, and the 2026-09-07 review recorded no ICD-10
+  term. The code is removed from the record.
+- **Reversed the rejection of SNOMED `1217068008` on `ARI:0001215`** (Fulminant type 1
+  diabetes). SNOMED labels it "Fulminant type 1 diabetes mellitus", and OMOP `37163452`, which
+  the same review confirmed, is this concept. The id is stored again.
+- Three further audits, of `ARI:0001117` to `ARI:0001141`, `ARI:0001142` to `ARI:0001166` and
+  `ARI:0001167` to `ARI:0001191`, found no lost mappings. The fourth, of `ARI:0001192` to
+  `ARI:0001216`, found none either. Every other removal in those ranges came from the ICD-9
+  cleanup, a documented PR review, or the retirement of `ARI:0001168`.
+- Still for a curator on `ARI:0001215`: the stored UMLS `C2349037` could not be verified, the
+  DOID "no term" judgment was deleted in `1cad398`, and NCIt, Orphanet and MeSH were never
+  reviewed. `ARI:0001216` Hashimoto's thyroiditis has not yet been reviewed for DOID, UMLS,
+  MeSH or ICD-10.
 - Each touched record gains an `ARI_ChangeLog` line. Predictions, target labels and report 8
   are regenerated on top of the #113 prediction fan-out cap.
 - Not changed, and needing a curator: the five "no term" judgments deleted as `null` rows in
