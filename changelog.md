@@ -1,5 +1,13 @@
 # Changelog
 
+## claude/autoimmune-thyroiditis-mondo-mapping-1b8434
+
+Reverses the ARI#93 line-review rejection of `ARI:0001048` Autoimmune thyroiditis -> MONDO
+`0005623` autoimmune thyroid disease. The review comment on that row ("Specific subtype")
+described the Hashimoto row below it (MONDO `0007699`, which stays rejected). The row goes back
+to `manual` with medinatinajeropablo-dot's attribution, and `0005623` is stored on the record
+again with a dated `ARI_ChangeLog` line.
+
 ## validator-typed-node-elements
 
 The validator now recognises a disease written as a typed node element

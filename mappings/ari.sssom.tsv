@@ -1278,7 +1278,7 @@ ARI:0001033	Autoimmune hepatitis	skos:exactMatch		MONDO:0016264	MONDO	semapv:Man
 ARI:0001033	Autoimmune hepatitis	skos:exactMatch		icd10cm:K75.4	icd10cm	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
 ARI:0001033	Autoimmune hepatitis	skos:exactMatch		ORPHA:2137	ORPHA	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
 ARI:0001033	Autoimmune hepatitis	skos:exactMatch		mesh:D019693	mesh	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
-ARI:0001048	Autoimmune thyroiditis	skos:exactMatch	Not	MONDO:0005623	MONDO	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	PR review: broader disease.
+ARI:0001048	Autoimmune thyroiditis	skos:exactMatch		MONDO:0005623	MONDO	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	Rejection reversed in PR review.
 ARI:0001048	Autoimmune thyroiditis	skos:exactMatch	Not	MONDO:0007699	MONDO	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	PR review: subtype of disease.
 ARI:0001048	Autoimmune thyroiditis	skos:exactMatch		ORPHA:855	ORPHA	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
 ARI:0001052	Balo concentric sclerosis	skos:exactMatch		MONDO:0016430	MONDO	semapv:ManualMappingCuration	github:medinatinajeropablo-dot	2026-09-25T04:03:00+00:00	
