@@ -199,86 +199,6 @@
   "immune dysregulation-polyendocrinopathy-enteropathy-X-linked syndrome",
   "doid.owl"
  ],
- "DOID:0110741": [
-  "type 1 diabetes mellitus 2",
-  "doid.owl"
- ],
- "DOID:0110742": [
-  "type 1 diabetes mellitus 3",
-  "doid.owl"
- ],
- "DOID:0110743": [
-  "type 1 diabetes mellitus 4",
-  "doid.owl"
- ],
- "DOID:0110744": [
-  "type 1 diabetes mellitus 5",
-  "doid.owl"
- ],
- "DOID:0110745": [
-  "type 1 diabetes mellitus 6",
-  "doid.owl"
- ],
- "DOID:0110746": [
-  "type 1 diabetes mellitus 7",
-  "doid.owl"
- ],
- "DOID:0110747": [
-  "type 1 diabetes mellitus 8",
-  "doid.owl"
- ],
- "DOID:0110749": [
-  "type 1 diabetes mellitus 10",
-  "doid.owl"
- ],
- "DOID:0110750": [
-  "type 1 diabetes mellitus 11",
-  "doid.owl"
- ],
- "DOID:0110751": [
-  "type 1 diabetes mellitus 12",
-  "doid.owl"
- ],
- "DOID:0110752": [
-  "type 1 diabetes mellitus 13",
-  "doid.owl"
- ],
- "DOID:0110753": [
-  "type 1 diabetes mellitus 15",
-  "doid.owl"
- ],
- "DOID:0110754": [
-  "type 1 diabetes mellitus 17",
-  "doid.owl"
- ],
- "DOID:0110755": [
-  "type 1 diabetes mellitus 18",
-  "doid.owl"
- ],
- "DOID:0110756": [
-  "type 1 diabetes mellitus 19",
-  "doid.owl"
- ],
- "DOID:0110757": [
-  "type 1 diabetes mellitus 20",
-  "doid.owl"
- ],
- "DOID:0110758": [
-  "type 1 diabetes mellitus 21",
-  "doid.owl"
- ],
- "DOID:0110759": [
-  "type 1 diabetes mellitus 22",
-  "doid.owl"
- ],
- "DOID:0110760": [
-  "type 1 diabetes mellitus 23",
-  "doid.owl"
- ],
- "DOID:0110761": [
-  "type 1 diabetes mellitus 24",
-  "doid.owl"
- ],
  "DOID:0110892": [
   "inflammatory bowel disease 1",
   "doid.owl"
@@ -1871,10 +1791,6 @@
   "CRYOGLOBULINEMIA, FAMILIAL MIXED",
   "OMIM.ttl"
  ],
- "OMIM:125852": [
-  "TYPE 1 DIABETES MELLITUS 2",
-  "OMIM.ttl"
- ],
  "OMIM:134750": [
   "FELTY SYNDROME",
   "OMIM.ttl"
@@ -2039,60 +1955,12 @@
   "IMMUNODYSREGULATION, POLYENDOCRINOPATHY, AND ENTEROPATHY, X-LINKED",
   "OMIM.ttl"
  ],
- "OMIM:600318": [
-  "TYPE 1 DIABETES MELLITUS 3",
-  "OMIM.ttl"
- ],
- "OMIM:600319": [
-  "TYPE 1 DIABETES MELLITUS 4",
-  "OMIM.ttl"
- ],
- "OMIM:600320": [
-  "TYPE 1 DIABETES MELLITUS 5",
-  "OMIM.ttl"
- ],
- "OMIM:600321": [
-  "TYPE 1 DIABETES MELLITUS 7",
-  "OMIM.ttl"
- ],
- "OMIM:600883": [
-  "TYPE 1 DIABETES MELLITUS 8",
-  "OMIM.ttl"
- ],
- "OMIM:601208": [
-  "TYPE 1 DIABETES MELLITUS 11",
-  "OMIM.ttl"
- ],
- "OMIM:601318": [
-  "TYPE 1 DIABETES MELLITUS 13",
-  "OMIM.ttl"
- ],
- "OMIM:601388": [
-  "TYPE 1 DIABETES MELLITUS 12",
-  "OMIM.ttl"
- ],
- "OMIM:601666": [
-  "TYPE 1 DIABETES MELLITUS 15",
-  "OMIM.ttl"
- ],
  "OMIM:601859": [
   "AUTOIMMUNE LYMPHOPROLIFERATIVE SYNDROME",
   "OMIM.ttl"
  ],
- "OMIM:601941": [
-  "TYPE 1 DIABETES MELLITUS 6",
-  "OMIM.ttl"
- ],
- "OMIM:601942": [
-  "TYPE 1 DIABETES MELLITUS 10",
-  "OMIM.ttl"
- ],
  "OMIM:602081": [
   "SPEECH-LANGUAGE DISORDER 1",
-  "OMIM.ttl"
- ],
- "OMIM:603266": [
-  "TYPE 1 DIABETES MELLITUS 17",
   "OMIM.ttl"
  ],
  "OMIM:604302": [
@@ -2109,10 +1977,6 @@
  ],
  "OMIM:605480": [
   "SYSTEMIC LUPUS ERYTHEMATOSUS, SUSCEPTIBILITY TO, 3",
-  "OMIM.ttl"
- ],
- "OMIM:605598": [
-  "TYPE 1 DIABETES MELLITUS 18",
   "OMIM.ttl"
  ],
  "OMIM:605808": [
@@ -2161,10 +2025,6 @@
  ],
  "OMIM:610066": [
   "SYSTEMIC LUPUS ERYTHEMATOSUS, SUSCEPTIBILITY TO, 8",
-  "OMIM.ttl"
- ],
- "OMIM:610155": [
-  "TYPE 1 DIABETES MELLITUS 19",
   "OMIM.ttl"
  ],
  "OMIM:610247": [
@@ -2219,18 +2079,6 @@
   "SYSTEMIC LUPUS ERYTHEMATOSUS, SUSCEPTIBILITY TO, 13",
   "OMIM.ttl"
  ],
- "OMIM:612520": [
-  "TYPE 1 DIABETES MELLITUS 20",
-  "OMIM.ttl"
- ],
- "OMIM:612521": [
-  "TYPE 1 DIABETES MELLITUS 21",
-  "OMIM.ttl"
- ],
- "OMIM:612522": [
-  "TYPE 1 DIABETES MELLITUS 22",
-  "OMIM.ttl"
- ],
  "OMIM:612594": [
   "MULTIPLE SCLEROSIS, SUSCEPTIBILITY TO, 2",
   "OMIM.ttl"
@@ -2241,14 +2089,6 @@
  ],
  "OMIM:612596": [
   "MULTIPLE SCLEROSIS, SUSCEPTIBILITY TO, 4",
-  "OMIM.ttl"
- ],
- "OMIM:612622": [
-  "TYPE 1 DIABETES MELLITUS 23",
-  "OMIM.ttl"
- ],
- "OMIM:613006": [
-  "TYPE 1 DIABETES MELLITUS 24",
   "OMIM.ttl"
  ],
  "OMIM:613145": [

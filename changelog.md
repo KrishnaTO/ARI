@@ -28,13 +28,27 @@ to both mapping exports.
 - A second audit, of `ARI:0001117` to `ARI:0001141`, found no lost mappings. Every other
   removal there came from the ICD-9 cleanup or a documented PR review.
 - Each touched record gains an `ARI_ChangeLog` line. Predictions, target labels and report 8
-  are regenerated. They had not been rerun since ARI#108, so `ARI:0001019` and `ARI:0001177`
-  also change.
+  are regenerated on top of the #113 prediction fan-out cap.
 - Not changed, and needing a curator: the five "no term" judgments deleted as `null` rows in
   `1cad398` (`ARI:0001094` DOID, `ARI:0001105` MeSH, `ARI:0001108` OMIM, `ARI:0001110` and
   `ARI:0001113` MeSH), and the never-reviewed `ARI:0001099` to `ARI:0001101` and `ARI:0001105`.
   The #49 suggestion of MeSH `C580192` for `ARI:0001105` is not restored. It is the IPEX
   descriptor, which belongs to `ARI:0001106`.
+
+## claude/prediction-fanout-cap
+
+Fixes #111. `predict_target_matches.py` no longer expands an anchor that more than four
+Mondo/DOID hub terms cross-reference (`MAX_ANCHOR_HUBS = 4`). The curated ICD-10 `E10` on
+`ARI:0001080` Type 1 diabetes mellitus reaches 22 hubs, including every DOID type 1 diabetes
+subtype, so it predicted 20 extra DOID subtypes and their 20 OMIM susceptibility loci. Every
+other anchor reaches one to four hubs, so only type 1 diabetes changes: DOID and OMIM drop to
+`9744` and `222100`, and its other keys lose the support `E10` added. The top prediction still
+reproduces 1,230 of 1,363 live confirmed mappings, the same as before.
+
+Also regenerates the outputs for the ARI#108 review and the #112 "no term" backfill, both
+merged without a rerun: 15 predictions change support, 6 new ids get labels, and report 8
+grows from 2506 to 2603 rows (1363 confirmed, 471 rejected, 429 no term, 340 not reviewed).
+#112 changes report 8 only.
 
 ## claude/disease-mapping-gaps-prs-cd484c
 
