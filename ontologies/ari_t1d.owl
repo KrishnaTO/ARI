@@ -1578,6 +1578,7 @@
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-24T12:40:40+00:00 | alexlazcano248 | Cross-reference review: confirmed MESH D000071698; flagged SNOMED 46635009; flagged NCI C2986; flagged ICD10 E10; flagged ORPHANET 243377; flagged MESH D003922, C563359; flagged UMLS C2987933; flagged DOID 9744; flagged MONDO 0011027</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-09T03:55:39+00:00 | user | Edited: umls</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-24T12:40:41+00:00 | alexlazcano248 | Stored confirmed cross-reference: MESH D000071698</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T17:37:37+00:00 | KrishnaTO | Cross-reference review: no term in OMOP; no term in NCI; no term in ICD10; no term in ORPHANET</ARI_ChangeLog>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">426875007</ARI_SNOMED>
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0080846</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1739108</ARI_UMLS>
@@ -3877,6 +3878,7 @@ The trigger for antisynthetase syndrome is unknown, but it may be associated wit
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27 | Claude | Synonym review (second pass): withdrew "Acquired angiodema" (broader).</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T03:50:21+00:00 | dileryfuentes | Cross-reference review: confirmed SNOMED 402401003; confirmed OMOP 4224624</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T17:37:37+00:00 | KrishnaTO | Cross-reference review: no term in DOID; no term in MONDO; no term in NCI; no term in ICD10; no term in ORPHANET; no term in UMLS; no term in MESH</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001023_200">
@@ -3938,6 +3940,7 @@ The trigger for antisynthetase syndrome is unknown, but it may be associated wit
   <ARI_Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.1</ARI_Version>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-26T02:09:33+00:00 | Ari2215 | Cross-reference review: flagged DOID 0050753; flagged MONDO 0000437; flagged NCI C82341; flagged ORPHANET 624268, 102002; flagged UMLS C5576703, C0007758; flagged MESH D002524; flagged SNOMED 85102008</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T17:37:37+00:00 | KrishnaTO | Cross-reference review: no term in SNOMED; no term in OMOP; no term in DOID; no term in MONDO; no term in NCI; no term in ICD10; no term in ORPHANET; no term in UMLS; no term in MESH</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001025">
@@ -3949,6 +3952,7 @@ The trigger for antisynthetase syndrome is unknown, but it may be associated wit
   <ARI_Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.1</ARI_Version>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-26T02:09:33+00:00 | Ari2215 | Cross-reference review: flagged SNOMED 45369008; flagged DOID 0081055, 12388; flagged MONDO 0015790, 0007450, 0019846; flagged NCI C84933; flagged ICD10 E23.2; flagged ORPHANET 178029, 30925, 95626; flagged UMLS C0687720, C5680256, C0342394, C5680110; flagged MESH D020790</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T17:37:37+00:00 | KrishnaTO | Cross-reference review: no term in SNOMED; no term in OMOP; no term in DOID; no term in MONDO; no term in NCI; no term in ICD10; no term in ORPHANET; no term in UMLS; no term in MESH</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Tissue_AllTissues">
@@ -3987,6 +3991,7 @@ The trigger for antisynthetase syndrome is unknown, but it may be associated wit
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-26T02:09:33+00:00 | Ari2215 | Cross-reference review: confirmed SNOMED 232308006; confirmed OMOP 4337463; confirmed ICD10 H81.0; confirmed UMLS C0025281; confirmed MESH D008575; flagged SNOMED 13445001; flagged OMOP 79833; flagged DOID 9849; flagged MONDO 0007972; flagged NCI C185243; flagged ORPHANET 45360</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-26T02:09:33+00:00 | Ari2215 | Removed flagged cross-reference: SNOMED 13445001; OMOP 79833; DOID 9849; NCI C185243</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-01T00:00:00+00:00 | Ari2215 | PR #96 review: replaced ICD10 H81.0 with H83.8X9 and UMLS C0025281 with C0395947 (Meniere disease, a different disease); removed MESH D008575 (Meniere disease; MESH has no term for the disease)</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T17:37:37+00:00 | KrishnaTO | Cross-reference review: no term in DOID; no term in MONDO; no term in NCI; no term in ORPHANET</ARI_ChangeLog>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H83.8X9</ARI_ICD10>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0395947</ARI_UMLS>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4337463</ARI_OMOP>
@@ -4206,6 +4211,7 @@ When the NMDA receptor antibodies attack the NMDA receptors in the brain, certai
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-26T02:09:33+00:00 | Ari2215 | Stored confirmed cross-reference: MONDO 0021081; ORPHANET 217253; UMLS C2986717, C5700343; MESH D060426</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-26T02:09:33+00:00 | Ari2215 | Removed flagged cross-reference: SNOMED 452281000124106</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-01T00:00:00+00:00 | Ari2215 | PR #96 review: removed SNOMED 716684004 and OMOP 37399546 (SNOMED 452281000124106 and OMOP 764228 map the disease); restored SNOMED 452281000124106 and NCI C94853 (rejections reversed)</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T17:37:37+00:00 | KrishnaTO | Cross-reference review: no term in DOID; no term in ICD10</ARI_ChangeLog>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C94853</ARI_NCI>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C5700343</ARI_UMLS>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C2986717</ARI_UMLS>
@@ -4312,6 +4318,7 @@ When the NMDA receptor antibodies attack the NMDA receptors in the brain, certai
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-09T03:34:28+00:00 | user | Edited: umls</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-24T12:40:41+00:00 | alexlazcano248 | Removed flagged cross-reference: OMOP 3654629; SNOMED 838321000</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-24T12:40:40+00:00 | alexlazcano248 | Cross-reference review: confirmed SNOMED 838330008; confirmed OMOP 3654638; confirmed MONDO 0016499; flagged OMOP 3654629; flagged ORPHANET 231457; flagged SNOMED 838321000</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T17:37:37+00:00 | KrishnaTO | Cross-reference review: no term in DOID; no term in NCI; no term in ICD10; no term in ORPHANET; no term in MESH</ARI_ChangeLog>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">838330008</ARI_SNOMED>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C5395071</ARI_UMLS>
   <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0016499</ARI_MONDO>
@@ -4374,6 +4381,7 @@ When the NMDA receptor antibodies attack the NMDA receptors in the brain, certai
   <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0031014</ARI_MONDO>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C95752</ARI_NCI>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27T23:00:00+00:00 | medinatinajeropablo-dot | PR #93 review: removed MESH D005757 (broader than the disease)</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T17:37:37+00:00 | KrishnaTO | Cross-reference review: no term in ICD10; no term in ORPHANET; no term in MESH</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Tissue_DigestiveSystem">
@@ -4623,6 +4631,7 @@ When the NMDA receptor antibodies attack the NMDA receptors in the brain, certai
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">K75.4</ARI_ICD10>
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2137</ARI_ORPHANET>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27T23:00:00+00:00 | medinatinajeropablo-dot | PR #93 review: removed ICD10 571.42 (an ICD-9 code, not ICD-10)</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T17:37:37+00:00 | KrishnaTO | Cross-reference review: no term in UMLS</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Tissue_Liver">
@@ -4774,6 +4783,7 @@ When the NMDA receptor antibodies attack the NMDA receptors in the brain, certai
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-11 04:34 | KrishnaTO | Cross-reference review: confirmed OMOP 1331726</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:20:06+00:00 | JoshuaCorona-Sa | Cross-reference review: confirmed UMLS C5577685; confirmed MESH D000099146; flagged OMOP 1331726; no term in NCI; no term in ICD10; no term in ORPHANET; no term in DOID; no term in MONDO; no term in SNOMED</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:20:06+00:00 | JoshuaCorona-Sa | Removed flagged cross-reference: OMOP 1331726</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T17:37:37+00:00 | KrishnaTO | Cross-reference review: no term in OMOP</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001037">
@@ -4788,6 +4798,7 @@ When the NMDA receptor antibodies attack the NMDA receptors in the brain, certai
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-26T02:09:33+00:00 | Ari2215 | Cross-reference review: confirmed SNOMED 1300193002; confirmed OMOP 1245375; confirmed MONDO 0850097; confirmed ORPHANET 623615; confirmed UMLS C2930824; confirmed MESH C531729</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-26T02:09:33+00:00 | Ari2215 | Stored confirmed cross-reference: MONDO 0850097; ORPHANET 623615; UMLS C2930824; MESH C531729</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T17:37:37+00:00 | KrishnaTO | Cross-reference review: no term in DOID; no term in NCI; no term in ICD10</ARI_ChangeLog>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C2930824</ARI_UMLS>
   <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0850097</ARI_MONDO>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C531729</ARI_MESH>
@@ -5018,6 +5029,7 @@ In chronic autoimmune neutropenia the body produces IgG antibodies that target a
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:20:06+00:00 | JoshuaCorona-Sa | Removed flagged cross-reference: SNOMED 721198006; OMOP 36717453</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:20:06+00:00 | JoshuaCorona-Sa | Cross-reference review: confirmed MONDO 0021950; confirmed UMLS C0878654; confirmed MESH C538274; flagged SNOMED 721198006; flagged OMOP 36717453; no term in DOID; no term in NCI; no term in ICD10; no term in ORPHANET</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:20:06+00:00 | JoshuaCorona-Sa | Stored confirmed cross-reference: MONDO 0021950; UMLS C0878654; MESH C538274</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T17:37:37+00:00 | KrishnaTO | Cross-reference review: no term in SNOMED; no term in OMOP</ARI_ChangeLog>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0878654</ARI_UMLS>
   <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0021950</ARI_MONDO>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C538274</ARI_MESH>
@@ -5137,6 +5149,7 @@ In chronic autoimmune neutropenia the body produces IgG antibodies that target a
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-26T02:09:33+00:00 | Ari2215 | Cross-reference review: confirmed SNOMED 838324008; confirmed OMOP 3654632; flagged DOID 0060499, 0040087, 1891; flagged MONDO 0044685, 0000774; flagged NCI C118711, C79698; flagged ORPHANET 499047, 519335; flagged UMLS C5681239, C0029132, C2748363; flagged MESH D009901</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-01T00:00:00+00:00 | Ari2215 | PR #96 review: restored MONDO 0044685, ORPHANET 499047, UMLS C5681239 (rejections reversed)</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T17:37:37+00:00 | KrishnaTO | Cross-reference review: no term in DOID; no term in NCI; no term in ICD10; no term in MESH</ARI_ChangeLog>
   <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0044685</ARI_MONDO>
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">499047</ARI_ORPHANET>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C5681239</ARI_UMLS>
@@ -5552,6 +5565,7 @@ Several names are used for autoimmune thyroiditis. When it is known to be autoim
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T17:03:25+00:00 | KrishnaTO | Created subtype ARI:0001216 Hashimoto's thyroiditis and moved to it ORPHANET 855 and NCI C27191 (both Hashimoto thyroiditis) and the synonyms "Hashimoto thyroiditis", "Hashimoto's disease", "Hashimoto's thyroiditis", "Chronic lymphocytic thyroiditis"</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T15:56:06+00:00 | user | Edited: mondo</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T16:03:51+00:00 | user | Edited: mondo</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T17:37:37+00:00 | KrishnaTO | Cross-reference review: no term in NCI; no term in ORPHANET</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001216">
@@ -6475,6 +6489,7 @@ Cicatricial pemphigoid is usually not chronic, and most patients symptoms disapp
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-26T02:09:33+00:00 | Ari2215 | Removed flagged cross-reference: MONDO 0019208; ORPHANET 79138</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-26T02:09:33+00:00 | Ari2215 | Cross-reference review: confirmed SNOMED 427086003; confirmed OMOP 4141686; confirmed ICD10 G04.81; confirmed UMLS C1960543; flagged MONDO 0019208; flagged ORPHANET 79138</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-01T00:00:00+00:00 | Ari2215 | PR #96 review: restored MONDO 0019208, ORPHANET 79138 (rejections reversed)</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T17:37:37+00:00 | KrishnaTO | Cross-reference review: no term in DOID; no term in NCI; no term in MESH</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001056">
@@ -6497,6 +6512,7 @@ Cicatricial pemphigoid is usually not chronic, and most patients symptoms disapp
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:20:06+00:00 | JoshuaCorona-Sa | Removed flagged cross-reference: SNOMED 231981005; OMOP 4334133; DOID 0111079; ORPHANET 179</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:20:06+00:00 | JoshuaCorona-Sa | Stored confirmed cross-reference: MONDO 0011599</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:20:06+00:00 | JoshuaCorona-Sa | Cross-reference review: confirmed MONDO 0011599; confirmed UMLS C1853959; confirmed MESH D000080365; flagged SNOMED 231981005; flagged OMOP 4334133; flagged DOID 0111079; flagged ORPHANET 179; no term in ICD10; no term in NCI</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T17:37:37+00:00 | KrishnaTO | Cross-reference review: no term in SNOMED; no term in OMOP; no term in DOID; no term in ORPHANET</ARI_ChangeLog>
   <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0011599</ARI_MONDO>
 </owl:NamedIndividual>
 
@@ -6650,6 +6666,7 @@ Cicatricial pemphigoid is usually not chronic, and most patients symptoms disapp
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-03 17:22 | KrishnaTO | Cross-reference review: confirmed SNOMED 838312001; confirmed OMOP 3654620</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-03 14:09 | KrishnaTO | Cross-reference review: confirmed SNOMED 838312001; confirmed OMOP 3654620</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-03 00:44 | KrishnaTO | Cross-reference review: confirmed SNOMED 838312001; confirmed OMOP 3654620</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T17:37:37+00:00 | KrishnaTO | Cross-reference review: no term in DOID; no term in MONDO; no term in NCI; no term in ICD10; no term in ORPHANET; no term in MESH</ARI_ChangeLog>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">838312001</ARI_SNOMED>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C5395057</ARI_UMLS>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
@@ -9140,6 +9157,7 @@ Both UC and CD are caused by an autoimmune response that reflects the involvemen
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1197361002</ARI_SNOMED>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">37162742</ARI_OMOP>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-30T00:00:00+00:00 | JoshuaCorona-Sa | PR #94 review: added SNOMED 1197361002 (recorded as no term; the vocabulary has one); added OMOP 37162742 (recorded as no term; the vocabulary has one)</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T17:37:37+00:00 | KrishnaTO | Cross-reference review: no term in ORPHANET</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001076">
@@ -9308,6 +9326,7 @@ When mastocytosis is not limited to the skin, it is called systemic mastocytosis
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:20:06+00:00 | JoshuaCorona-Sa | Stored confirmed cross-reference: MONDO 0019023; ORPHANET 66646</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:20:06+00:00 | JoshuaCorona-Sa | Cross-reference review: confirmed SNOMED 397012002; confirmed OMOP 4246283; confirmed DOID 3663; confirmed MONDO 0019023; confirmed NCI C7137; confirmed ORPHANET 66646; confirmed UMLS C1136033; confirmed MESH D034701; flagged ICD10 D47.01</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:20:06+00:00 | JoshuaCorona-Sa | Removed flagged cross-reference: ICD10 D47.01</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T17:37:37+00:00 | KrishnaTO | Cross-reference review: no term in ICD10</ARI_ChangeLog>
   <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0019023</ARI_MONDO>
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">66646</ARI_ORPHANET>
 </owl:NamedIndividual>
@@ -9522,6 +9541,7 @@ When mastocytosis is not limited to the skin, it is called systemic mastocytosis
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:25:55+00:00 | maffersi | Cross-reference review: confirmed SNOMED 396230008; confirmed OMOP 80182; confirmed DOID 10223; confirmed MONDO 0016367; confirmed NCI C26744; confirmed ORPHANET 221; confirmed UMLS C0011633; confirmed MESH D003882; confirmed ICD10 710.3; flagged MONDO 0008054; flagged ICD10 M33; flagged SNOMED 1212005; flagged OMOP 4005037; flagged ORPHANET 93672</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:25:55+00:00 | maffersi | Stored confirmed cross-reference: MONDO 0016367; ORPHANET 221; ICD10 710.3</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-30T00:00:00+00:00 | maffersi | PR #95 review: removed ICD10 710.3 (an ICD-9 code, not ICD-10)</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T17:37:37+00:00 | KrishnaTO | Cross-reference review: no term in ICD10</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001079_712">
@@ -10300,6 +10320,7 @@ When mastocytosis is not limited to the skin, it is called systemic mastocytosis
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-24T12:40:41+00:00 | alexlazcano248 | Stored confirmed cross-reference: UMLS C0014583; NCI C112189</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-24T12:40:40+00:00 | alexlazcano248 | Cross-reference review: confirmed UMLS C0014583; confirmed NCI C112189; confirmed OMOP 4218083; confirmed SNOMED 815008</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T17:37:37+00:00 | KrishnaTO | Cross-reference review: no term in DOID; no term in MONDO; no term in ICD10; no term in ORPHANET; no term in MESH</ARI_ChangeLog>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">815008</ARI_SNOMED>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0014583</ARI_UMLS>
   <ARI_PrevalenceDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female 40149/100k; Male 15553/100k; F:M ratio 2.58143</ARI_PrevalenceDesc>
@@ -10396,6 +10417,7 @@ When mastocytosis is not limited to the skin, it is called systemic mastocytosis
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew 'Idiopathic erythema nodosum' and 'Erythema nodosum of unknown etiology' - the idiopathic form, already an ARI_ClinicalSubtype.</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T03:50:21+00:00 | dileryfuentes | Cross-reference review: confirmed SNOMED 32861005; confirmed OMOP 140176; confirmed DOID 0080750; confirmed MONDO 0850231; confirmed ICD10 L52; confirmed MESH D004893; flagged UMLS C0014743</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T03:50:21+00:00 | dileryfuentes | Stored confirmed cross-reference: MONDO 0850231; ICD10 L52</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T17:37:37+00:00 | KrishnaTO | Cross-reference review: no term in NCI; no term in ORPHANET; no term in UMLS</ARI_ChangeLog>
   <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0850231</ARI_MONDO>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L52</ARI_ICD10>
 </owl:NamedIndividual>
@@ -10509,6 +10531,7 @@ When mastocytosis is not limited to the skin, it is called systemic mastocytosis
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:32:16+00:00 | maffersi | Cross-reference review: confirmed SNOMED 239947001; confirmed OMOP 4347067; confirmed ORPHANET 91138; confirmed MONDO 0007407; confirmed UMLS C0340992; flagged UMLS C1852456; flagged MESH C565141; no term in DOID; no term in NCI; no term in ICD10</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-21 17:35 | linikujp | Cross-reference review: confirmed MONDO 0007407; confirmed ORPHANET 91138</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-30T00:00:00+00:00 | maffersi | PR #95 review: restored UMLS C1852456 (rejection reversed; target label matches a synonym)</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T17:37:37+00:00 | KrishnaTO | Cross-reference review: no term in MESH</ARI_ChangeLog>
   <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0007407</ARI_MONDO>
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">91138</ARI_ORPHANET>
 </owl:NamedIndividual>
@@ -12812,6 +12835,7 @@ Some patients experience full relief from symptoms with medical attention, while
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T03:50:21+00:00 | dileryfuentes | Removed flagged cross-reference: SNOMED 239796000; ICD10 M08.4; UMLS C0409667, C0157917, C0157918, C0157916</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T03:50:21+00:00 | dileryfuentes | Stored confirmed cross-reference: MONDO 0011429, 0024281; MESH D001171</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27T22:00:00+00:00 | dileryfuentes | PR #92 review: removed DOID 676 (a subtype of the disease); removed NCI C61279 (a different disease)</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T17:37:37+00:00 | KrishnaTO | Cross-reference review: no term in DOID; no term in ICD10; no term in ORPHANET; no term in UMLS</ARI_ChangeLog>
   <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0011429</ARI_MONDO>
   <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0024281</ARI_MONDO>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D001171</ARI_MESH>
@@ -13027,6 +13051,7 @@ Most papers on lichen planus assume all cases of the disease are autoimmune or d
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">33409</ARI_ORPHANET>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L90.0</ARI_ICD10>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27T23:00:00+00:00 | medinatinajeropablo-dot | PR #93 review: removed DOID 13477 (a subtype of the disease); removed MONDO 0001725 (a subtype of the disease); removed NCI C3523 (a subtype of the disease); removed MESH D052798 (a subtype of the disease); removed UMLS C0152460 (a subtype of the disease); removed ICD10 607.81 (an ICD-9 code, not ICD-10); restored ICD10 L90.0 (rejection reversed); added NCI C26817 (replaces NCI C3523); added UMLS C0023652 (replaces UMLS C0152460)</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T17:37:37+00:00 | KrishnaTO | Cross-reference review: no term in DOID</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001119_1028">
@@ -13174,6 +13199,7 @@ Most papers on lichen planus assume all cases of the disease are autoimmune or d
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:25:55+00:00 | maffersi | Stored confirmed cross-reference: MONDO 0009009, 0100560; ICD10 H10.51; ORPHANET 97231; UMLS C1274789</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-30T00:00:00+00:00 | maffersi | PR #95 review: removed MONDO 0009009 (hypoplasminogenemia, not the disease)</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27 | Claude | Synonym review (second pass): withdrew "Adult Onset Ligneous conjunctivitis" (subtype).</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T17:37:37+00:00 | KrishnaTO | Cross-reference review: no term in DOID; no term in MESH</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001120_1044">
@@ -13307,6 +13333,7 @@ Most papers on lichen planus assume all cases of the disease are autoimmune or d
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-26T02:09:33+00:00 | Ari2215 | Cross-reference review: confirmed SNOMED 230192003; confirmed OMOP 4041673; confirmed DOID 0080741; confirmed MONDO 0015588; confirmed NCI C4350; confirmed ORPHANET 163892; confirmed UMLS C0338430; confirmed MESH D020363</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-26T02:09:33+00:00 | Ari2215 | Stored confirmed cross-reference: MONDO 0015588; NCI C4350; ORPHANET 163892; UMLS C0338430</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-01T00:00:00+00:00 | Ari2215 | PR #96 review: removed ORPHANET 163892 (obsolete Orphanet entry)</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T17:37:37+00:00 | KrishnaTO | Cross-reference review: no term in ICD10; no term in ORPHANET</ARI_ChangeLog>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0338430</ARI_UMLS>
   <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0015588</ARI_MONDO>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C4350</ARI_NCI>
@@ -13793,6 +13820,7 @@ Most papers on lichen planus assume all cases of the disease are autoimmune or d
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LV</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T03:50:21+00:00 | dileryfuentes | Cross-reference review: confirmed SNOMED 239944008; confirmed OMOP 4344495</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T17:37:37+00:00 | KrishnaTO | Cross-reference review: no term in DOID; no term in MONDO; no term in NCI; no term in ICD10; no term in ORPHANET; no term in UMLS; no term in MESH</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001126_1110">
@@ -14022,6 +14050,7 @@ The exact cause of both primary and secondary autoimmune orchitis is still unkno
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IgG - Affects fertilization and sperm transport</ARI_ClinicalSubtype>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ASAM</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27 | Claude | Synonym review (second pass): withdrew "Autoimmune orchitis" (distinct).</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T17:37:37+00:00 | KrishnaTO | Cross-reference review: no term in DOID; no term in MONDO; no term in NCI; no term in ICD10; no term in ORPHANET; no term in UMLS; no term in MESH</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001127_996">
@@ -14192,6 +14221,7 @@ It is under debate whether collagenous and lymphocytic colitis are different pha
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T03:50:21+00:00 | dileryfuentes | Stored confirmed cross-reference: MONDO 0019124; NCI C70549; ICD10 M31.7; ORPHANET 727; MESH D055953</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T03:50:21+00:00 | dileryfuentes | Cross-reference review: confirmed SNOMED 1144805008; confirmed MONDO 0019124; confirmed NCI C70549; confirmed ICD10 M31.7; confirmed ORPHANET 727; confirmed MESH D055953; confirmed OMOP 606328; flagged UMLS C2347126</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T17:37:37+00:00 | KrishnaTO | Cross-reference review: no term in DOID; no term in UMLS</ARI_ChangeLog>
   <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0019124</ARI_MONDO>
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">M31.7</ARI_ICD10>
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D055953</ARI_MESH>
@@ -15423,6 +15453,7 @@ Although this rare disease most commonly affects children, adults may have this 
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T03:50:21+00:00 | dileryfuentes | Cross-reference review: confirmed SNOMED 37217002, 871640001; confirmed OMOP 3656114; confirmed DOID 0040095; confirmed MONDO 0030701, 0022519; confirmed UMLS C1608389; flagged OMOP 321578</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T03:50:21+00:00 | dileryfuentes | Stored confirmed cross-reference: MONDO 0030701, 0022519; UMLS C1608389</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27T22:00:00+00:00 | dileryfuentes | PR #92 review: removed SNOMED 37217002 (a different disease); removed DOID 0040095 (a different disease); removed MONDO 0030701 (a different disease)</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T17:37:37+00:00 | KrishnaTO | Cross-reference review: no term in DOID; no term in NCI; no term in ICD10; no term in ORPHANET; no term in MESH</ARI_ChangeLog>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1608389</ARI_UMLS>
   <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0022519</ARI_MONDO>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3656114</ARI_OMOP>
@@ -15511,6 +15542,7 @@ Although this rare disease most commonly affects children, adults may have this 
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-24T12:40:41+00:00 | alexlazcano248 | Stored confirmed cross-reference: MONDO 0021167</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-24T12:40:40+00:00 | alexlazcano248 | Cross-reference review: confirmed SNOMED 26889001; confirmed OMOP 73001; confirmed DOID 633; confirmed MONDO 0021167; confirmed NCI C27578; confirmed ICD10 M60; confirmed MESH D009220; confirmed UMLS C0027121; flagged SNOMED 715863001, 722991004, 702380008; flagged OMOP 45765443, 37396156, 36716807; flagged MONDO 0016098, 0600023; flagged ORPHANET 206569</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-24T12:40:41+00:00 | alexlazcano248 | Removed flagged cross-reference: SNOMED 702380008, 722991004, 715863001; OMOP 36716807, 37396156, 45765443</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T17:37:37+00:00 | KrishnaTO | Cross-reference review: no term in ORPHANET</ARI_ChangeLog>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26889001</ARI_SNOMED>
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">633</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0027121</ARI_UMLS>
@@ -15643,6 +15675,7 @@ The specific location of vasculitis inflammation determines what tissue or organ
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T03:50:21+00:00 | dileryfuentes | Cross-reference review: confirmed SNOMED 11791001; confirmed OMOP 4039691; confirmed MONDO 0800113; confirmed NCI C70635; confirmed UMLS C1318520</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T03:50:21+00:00 | dileryfuentes | Stored confirmed cross-reference: MONDO 0800113; NCI C70635; UMLS C1318520</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T17:37:37+00:00 | KrishnaTO | Cross-reference review: no term in DOID; no term in ICD10; no term in ORPHANET; no term in MESH</ARI_ChangeLog>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1318520</ARI_UMLS>
   <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0800113</ARI_MONDO>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C70635</ARI_NCI>
@@ -16202,6 +16235,7 @@ The specific location of vasculitis inflammation determines what tissue or organ
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew 'PANS' / 'Pediatric Acute-onset Neuropsychiatric Syndrome' - the broader umbrella; PANDAS is the streptococcus-associated subset of PANS.</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-24T12:40:40+00:00 | alexlazcano248 | Cross-reference review: confirmed SNOMED 446682003; confirmed OMOP 40488855; confirmed MONDO 0019020; confirmed ORPHANET 66624; confirmed UMLS C2931429; confirmed MESH C537163</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T17:37:37+00:00 | KrishnaTO | Cross-reference review: no term in DOID; no term in NCI; no term in ICD10</ARI_ChangeLog>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">446682003</ARI_SNOMED>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C2931429</ARI_UMLS>
   <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0019020</ARI_MONDO>
@@ -17772,6 +17806,7 @@ Secondary Raynaud's is a symptom experienced (and reported) by patients with aut
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T03:50:21+00:00 | dileryfuentes | Cross-reference review: confirmed SNOMED 356198000, 266261006; confirmed OMOP 4229162; confirmed DOID 10300; confirmed MONDO 0008364; confirmed NCI C116359; confirmed ICD10 I73.0; confirmed UMLS C0034734; confirmed MESH D011928; flagged OMOP 4143972</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T03:50:21+00:00 | dileryfuentes | Stored confirmed cross-reference: MONDO 0008364; NCI C116359</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27T22:00:00+00:00 | dileryfuentes | PR #92 review: removed SNOMED 266261006 (broader than the disease); removed DOID 10300 (broader than the disease); removed MONDO 0008364 (broader than the disease); removed ICD10 I73.0 (broader than the disease); removed UMLS C0034734 (broader than the disease); removed MESH D011928 (broader than the disease)</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T17:37:37+00:00 | KrishnaTO | Cross-reference review: no term in MONDO; no term in ICD10; no term in ORPHANET; no term in UMLS; no term in MESH</ARI_ChangeLog>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4229162</ARI_OMOP>
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">356198000</ARI_DXCODE>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C116359</ARI_NCI>
@@ -22807,6 +22842,7 @@ Some cases of this disease are caused by medications and are not autoimmune.</rd
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T21:38:43+00:00 | KrishnaTO | Cross-reference review: no term in DOID; no term in NCI; no term in ICD10</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T19:05:07+00:00 | user | Edited: snomed</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T19:08:44+00:00 | user | Edited: mesh</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T17:37:37+00:00 | KrishnaTO | Cross-reference review: no term in MESH</ARI_ChangeLog>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">763803004</ARI_SNOMED>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C3854373</ARI_UMLS>
   <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0008718</ARI_MONDO>
@@ -22861,6 +22897,7 @@ Some cases of this disease are caused by medications and are not autoimmune.</rd
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-24T22:42:16+00:00 | Luis-Manuel-Esquivel | Stored confirmed cross-reference: MONDO 1060002</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-24T22:42:15+00:00 | Luis-Manuel-Esquivel | Cross-reference review: confirmed SNOMED 230684008; confirmed OMOP 4048782; confirmed MONDO 1060002</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T17:37:37+00:00 | KrishnaTO | Cross-reference review: no term in DOID; no term in NCI; no term in ICD10; no term in ORPHANET; no term in UMLS; no term in MESH</ARI_ChangeLog>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">230684008</ARI_SNOMED>
   <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1060002</ARI_MONDO>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
@@ -22900,6 +22937,7 @@ Patients with GO experience swelling in the tissues, muscles, and fat in the eye
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-24T22:42:15+00:00 | Luis-Manuel-Esquivel | Cross-reference review: confirmed SNOMED 104461000119104; confirmed OMOP 45757069; confirmed DOID 0081120; confirmed MESH D049970; flagged SNOMED 276177000; flagged MONDO 0001509, 0018756; flagged ORPHANET 466682; flagged UMLS C0155264, C5680004; flagged OMOP 4077943</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-24T22:42:16+00:00 | Luis-Manuel-Esquivel | Removed flagged cross-reference: SNOMED 276177000; OMOP 4077943</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T17:37:37+00:00 | KrishnaTO | Cross-reference review: no term in MONDO; no term in NCI; no term in ICD10; no term in ORPHANET; no term in UMLS</ARI_ChangeLog>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">104461000119104</ARI_SNOMED>
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0081120</ARI_DOID>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Perros 2017; https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5397790/</ARI_DefSource>
@@ -22954,6 +22992,7 @@ Patients with GO experience swelling in the tissues, muscles, and fat in the eye
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew the two 'paraneoplastic opsoclonus-myoclonus...' strings - the cancer-associated form, already an ARI_ClinicalSubtype. Kept the whole-syndrome synonyms (Kinsbourne syndrome, dancing eye syndrome, OMS, POMA, etc.).</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-24T22:42:15+00:00 | Luis-Manuel-Esquivel | Cross-reference review: confirmed SNOMED 230350000; confirmed OMOP 4043399; confirmed MONDO 0015247; confirmed NCI C4686; confirmed ORPHANET 1183; confirmed UMLS C0393626; confirmed MESH D053578</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T17:37:37+00:00 | KrishnaTO | Cross-reference review: no term in DOID; no term in ICD10</ARI_ChangeLog>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">230350000</ARI_SNOMED>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0393626</ARI_UMLS>
   <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0015247</ARI_MONDO>
@@ -23001,6 +23040,7 @@ Patients with GO experience swelling in the tissues, muscles, and fat in the eye
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-24T22:42:16+00:00 | Luis-Manuel-Esquivel | Stored confirmed cross-reference: MONDO 0001332; NCI C215373</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-24T22:42:15+00:00 | Luis-Manuel-Esquivel | Cross-reference review: confirmed SNOMED 50442003; confirmed OMOP 76196; confirmed DOID 1166; confirmed MONDO 0001332; confirmed NCI C215373; confirmed ICD10 M12.3; confirmed UMLS C0158178, C0085574; confirmed MESH C538103</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T17:37:37+00:00 | KrishnaTO | Cross-reference review: no term in ORPHANET</ARI_ChangeLog>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">50442003</ARI_SNOMED>
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1166</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0085574</ARI_UMLS>
@@ -23061,6 +23101,7 @@ Patients with GO experience swelling in the tissues, muscles, and fat in the eye
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-24T22:42:15+00:00 | Luis-Manuel-Esquivel | Cross-reference review: confirmed SNOMED 192877007; confirmed MONDO 0018215, 0044877; confirmed NCI C4685; confirmed ORPHANET 623626, 36388; confirmed UMLS C0393534, C0751911; confirmed MESH D020362; confirmed OMOP 4102330; flagged DOID 0050639; flagged MONDO 0015301; flagged NCI C199391; flagged ORPHANET 137807, 353220; flagged UMLS C0268397; flagged MESH C562642</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-24T22:42:16+00:00 | Luis-Manuel-Esquivel | Removed flagged cross-reference: DOID 0050639</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew 'Paraneoplastic neurological syndrome' / 'PNS' / 'Paraneoplastic syndrome' - broader categories; paraneoplastic cerebellar degeneration is one paraneoplastic neurological syndrome. Kept PCD / PCA / paraneoplastic cerebellar ataxia.</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T17:37:37+00:00 | KrishnaTO | Cross-reference review: no term in DOID; no term in ICD10</ARI_ChangeLog>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">192877007</ARI_SNOMED>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0393534</ARI_UMLS>
   <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0044877</ARI_MONDO>
@@ -23090,6 +23131,7 @@ Patients with GO experience swelling in the tissues, muscles, and fat in the eye
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-24T22:42:16+00:00 | Luis-Manuel-Esquivel | Stored confirmed cross-reference: MONDO 0018974; ORPHANET 63455</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-24T22:42:15+00:00 | Luis-Manuel-Esquivel | Cross-reference review: confirmed OMOP 45591627; confirmed DOID 0080852; confirmed MONDO 0018974; confirmed ICD10 L10.81; confirmed ORPHANET 63455; confirmed UMLS C1112570</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T17:37:37+00:00 | KrishnaTO | Cross-reference review: no term in SNOMED; no term in NCI; no term in MESH</ARI_ChangeLog>
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0080852</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1112570</ARI_UMLS>
   <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0018974</ARI_MONDO>
@@ -23108,6 +23150,7 @@ Patients with GO experience swelling in the tissues, muscles, and fat in the eye
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-24T22:42:16+00:00 | Luis-Manuel-Esquivel | Stored confirmed cross-reference: MONDO 0019533; ORPHANET 90035; UMLS C0086774; MESH C538618</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-24T22:42:15+00:00 | Luis-Manuel-Esquivel | Cross-reference review: confirmed SNOMED 127057004; confirmed MONDO 0019533; confirmed ORPHANET 90035; confirmed UMLS C0086774; confirmed MESH C538618; confirmed OMOP 4131917</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T17:37:37+00:00 | KrishnaTO | Cross-reference review: no term in DOID; no term in NCI; no term in ICD10</ARI_ChangeLog>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">127057004</ARI_SNOMED>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0086774</ARI_UMLS>
   <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0019533</ARI_MONDO>
@@ -23143,6 +23186,7 @@ Patients with GO experience swelling in the tissues, muscles, and fat in the eye
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-24T22:42:16+00:00 | Luis-Manuel-Esquivel | Stored confirmed cross-reference: MONDO 0100244, 0019533; ORPHANET 447, 90035</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-24T22:42:16+00:00 | Luis-Manuel-Esquivel | Removed flagged cross-reference: ICD10 D59.6; UMLS C0086774</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T17:37:37+00:00 | KrishnaTO | Cross-reference review: no term in MESH</ARI_ChangeLog>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1963002</ARI_SNOMED>
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0060284</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0024790</ARI_UMLS>
@@ -23195,6 +23239,7 @@ Pemphigus is different from bullous pemphigoid, a blistering skin condition that
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-24T22:42:16+00:00 | Luis-Manuel-Esquivel | Stored confirmed cross-reference: MONDO 0006594</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-24T22:42:16+00:00 | Luis-Manuel-Esquivel | Removed flagged cross-reference: SNOMED 46459009, 36739006; OMOP 4262682, 4066821, 4279526, 4148690, 4291435, 4170723</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T17:37:37+00:00 | KrishnaTO | Cross-reference review: no term in ORPHANET</ARI_ChangeLog>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">65172003</ARI_SNOMED>
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9182</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0030807</ARI_UMLS>
@@ -23247,6 +23292,7 @@ Pemphigus is different from bullous pemphigoid, a blistering skin condition that
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-24T22:42:16+00:00 | Luis-Manuel-Esquivel | Stored confirmed cross-reference: MONDO 0017364; ORPHANET 2905</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-24T22:42:15+00:00 | Luis-Manuel-Esquivel | Cross-reference review: confirmed SNOMED 79268002; confirmed OMOP 4193776; confirmed DOID 14039; confirmed MONDO 0017364; confirmed NCI C80303; confirmed ORPHANET 2905; confirmed UMLS C0085404; confirmed MESH D016878</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T17:37:37+00:00 | KrishnaTO | Cross-reference review: no term in ICD10</ARI_ChangeLog>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">79268002</ARI_SNOMED>
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14039</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0085404</ARI_UMLS>
@@ -23377,6 +23423,7 @@ To date, there is no direct or indirect evidence that post-pericardiotomy syndro
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dressler Syndrome, Classic - Pericarditis after heart attack or surgery.</ARI_ClinicalSubtype>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMIS</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27 | Claude | Synonym review (second pass): withdrew "Post-cardiac injury syndrome" (broader).</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T17:37:37+00:00 | KrishnaTO | Cross-reference review: no term in NCI; no term in ORPHANET; no term in MESH</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001164">
@@ -23390,6 +23437,7 @@ To date, there is no direct or indirect evidence that post-pericardiotomy syndro
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-24T22:42:16+00:00 | Luis-Manuel-Esquivel | Stored confirmed cross-reference: MONDO 0011479; NCI C85020; ORPHANET 443236; UMLS C1299624</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-24T22:42:16+00:00 | Luis-Manuel-Esquivel | Removed flagged cross-reference: ICD10 I95.1</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T17:37:37+00:00 | KrishnaTO | Cross-reference review: no term in ICD10</ARI_ChangeLog>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">371073003</ARI_SNOMED>
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0111154</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1299624</ARI_UMLS>
@@ -23410,6 +23458,7 @@ To date, there is no direct or indirect evidence that post-pericardiotomy syndro
   <ARI_Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.1</ARI_Version>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-24T22:42:15+00:00 | Luis-Manuel-Esquivel | Cross-reference review: confirmed SNOMED 402475008; confirmed OMOP 4223495</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T17:37:37+00:00 | KrishnaTO | Cross-reference review: no term in DOID; no term in MONDO; no term in NCI; no term in ICD10; no term in ORPHANET; no term in UMLS; no term in MESH</ARI_ChangeLog>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">402475008</ARI_SNOMED>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4223495</ARI_OMOP>
@@ -23440,6 +23489,7 @@ To date, there is no direct or indirect evidence that post-pericardiotomy syndro
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew bare 'Dilated cardiomyopathy' - the whole DCM category, broader than primary idiopathic dilated cardiomyopathy. Kept 'Idiopathic dilated cardiomyopathy' (essentially the label).</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-24T22:42:15+00:00 | Luis-Manuel-Esquivel | Cross-reference review: confirmed SNOMED 53043001; confirmed OMOP 4203149; confirmed DOID 12930; confirmed MONDO 0005021; confirmed NCI C84673; confirmed ICD10 I42.0; confirmed ORPHANET 217604; confirmed UMLS C0007193; confirmed MESH D002311</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T17:37:37+00:00 | KrishnaTO | Cross-reference review: no term in DOID; no term in MONDO; no term in NCI; no term in ICD10; no term in ORPHANET; no term in MESH</ARI_ChangeLog>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">53043001</ARI_SNOMED>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1449563</ARI_UMLS>
   <ARI_Pubmed rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/2766509/</ARI_Pubmed>
@@ -23497,6 +23547,7 @@ To date, there is no direct or indirect evidence that post-pericardiotomy syndro
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-24T22:42:16+00:00 | Luis-Manuel-Esquivel | Stored confirmed cross-reference: MONDO 0007710; ORPHANET 1214; NCI C116916; MESH D005150</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-24T22:42:15+00:00 | Luis-Manuel-Esquivel | Cross-reference review: confirmed SNOMED 718224004; confirmed OMOP 37397558; confirmed MONDO 0007710; confirmed ORPHANET 1214; confirmed NCI C116916; confirmed MESH D005150; flagged DOID 1757; flagged UMLS C0015458</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T17:37:37+00:00 | KrishnaTO | Cross-reference review: no term in ICD10</ARI_ChangeLog>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">718224004</ARI_SNOMED>
   <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0007710</ARI_MONDO>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gupta 2016; https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4991159/</ARI_DefSource>
@@ -23568,6 +23619,7 @@ A third type of PRCA, Diamond-Blackfan syndrome, is due to genetic mutation and 
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red Cell Aplasia, Autoimmune - Associated with immune-mediated suppression.</ARI_ClinicalSubtype>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRCA</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27 | Claude | Synonym review (second pass): withdrew "Adult pure red cell aplasia" / "Idiopathic pure red cell aplasia" / "Primary acquired PRCA" / "Acquired pure red cell aplasia" / "Primary acquired pure red cell aplasia" (subtype).</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T17:37:37+00:00 | KrishnaTO | Cross-reference review: no term in ICD10; no term in ORPHANET</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001174">
@@ -23589,6 +23641,7 @@ A third type of PRCA, Diamond-Blackfan syndrome, is due to genetic mutation and 
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-24T22:42:15+00:00 | Luis-Manuel-Esquivel | Cross-reference review: confirmed SNOMED 74578003; confirmed OMOP 133283; confirmed DOID 8553; confirmed MONDO 0018824; confirmed ICD10 L88; confirmed ORPHANET 48104; confirmed UMLS C0085652; confirmed MESH D017511</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-24T22:42:16+00:00 | Luis-Manuel-Esquivel | Stored confirmed cross-reference: MONDO 0018824; ORPHANET 48104</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T17:37:37+00:00 | KrishnaTO | Cross-reference review: no term in NCI</ARI_ChangeLog>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">74578003</ARI_SNOMED>
   <ARI_DOID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8553</ARI_DOID>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0085652</ARI_UMLS>
@@ -23635,6 +23688,7 @@ A third type of PRCA, Diamond-Blackfan syndrome, is due to genetic mutation and 
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-24T22:42:16+00:00 | Luis-Manuel-Esquivel | Removed flagged cross-reference: SNOMED 435341000124104; OMOP 763040</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-24T22:42:15+00:00 | Luis-Manuel-Esquivel | Cross-reference review: confirmed SNOMED 230191005; confirmed OMOP 4041672; confirmed MONDO 0016019; confirmed ORPHANET 1929; confirmed UMLS C2930868; flagged SNOMED 435341000124104; flagged OMOP 763040; flagged NCI C125384; flagged MESH C535291</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T17:37:37+00:00 | KrishnaTO | Cross-reference review: no term in DOID; no term in ICD10</ARI_ChangeLog>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">230191005</ARI_SNOMED>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C2930868</ARI_UMLS>
   <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0016019</ARI_MONDO>
