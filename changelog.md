@@ -1,5 +1,18 @@
 # Changelog
 
+## claude/prediction-fanout-cap
+
+Fixes #111. `predict_target_matches.py` no longer expands an anchor that more than four
+Mondo/DOID hub terms cross-reference (`MAX_ANCHOR_HUBS = 4`). The curated ICD-10 `E10` on
+`ARI:0001080` Type 1 diabetes mellitus reaches 22 hubs, including every DOID type 1 diabetes
+subtype, so it predicted 20 extra DOID subtypes and their 20 OMIM susceptibility loci. Every
+other anchor reaches one to four hubs, so only type 1 diabetes changes: DOID and OMIM drop to
+`9744` and `222100`, and its other keys lose the support `E10` added. The top prediction still
+reproduces 1,230 of 1,363 live confirmed mappings, the same as before.
+
+Also regenerates the outputs for the ARI#108 review, which merged after #109's regeneration:
+15 predictions change support, 6 new ids get labels, and report 8 has 2528 rows.
+
 ## edit/KrishnaTO/mappings-review-1791133633 (PR #108)
 
 Editor mappings review covering 16 diseases. It adds 51 "no term" markers, confirms UMLS

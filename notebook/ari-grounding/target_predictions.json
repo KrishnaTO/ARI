@@ -5702,167 +5702,7 @@
    "method": "xref via curated anchor",
    "name": "type 1 diabetes mellitus",
    "routes": 3,
-   "support": 32
-  },
-  {
-   "evidence": "DOID:0110741 from curated icd10cm:E10",
-   "id": "0110741",
-   "method": "xref via curated anchor",
-   "name": "type 1 diabetes mellitus 2",
-   "routes": 1,
-   "support": 2
-  },
-  {
-   "evidence": "DOID:0110742 from curated icd10cm:E10",
-   "id": "0110742",
-   "method": "xref via curated anchor",
-   "name": "type 1 diabetes mellitus 3",
-   "routes": 1,
-   "support": 2
-  },
-  {
-   "evidence": "DOID:0110743 from curated icd10cm:E10",
-   "id": "0110743",
-   "method": "xref via curated anchor",
-   "name": "type 1 diabetes mellitus 4",
-   "routes": 1,
-   "support": 2
-  },
-  {
-   "evidence": "DOID:0110744 from curated icd10cm:E10",
-   "id": "0110744",
-   "method": "xref via curated anchor",
-   "name": "type 1 diabetes mellitus 5",
-   "routes": 1,
-   "support": 2
-  },
-  {
-   "evidence": "DOID:0110745 from curated icd10cm:E10",
-   "id": "0110745",
-   "method": "xref via curated anchor",
-   "name": "type 1 diabetes mellitus 6",
-   "routes": 1,
-   "support": 2
-  },
-  {
-   "evidence": "DOID:0110746 from curated icd10cm:E10",
-   "id": "0110746",
-   "method": "xref via curated anchor",
-   "name": "type 1 diabetes mellitus 7",
-   "routes": 1,
-   "support": 2
-  },
-  {
-   "evidence": "DOID:0110747 from curated icd10cm:E10",
-   "id": "0110747",
-   "method": "xref via curated anchor",
-   "name": "type 1 diabetes mellitus 8",
-   "routes": 1,
-   "support": 2
-  },
-  {
-   "evidence": "DOID:0110749 from curated icd10cm:E10",
-   "id": "0110749",
-   "method": "xref via curated anchor",
-   "name": "type 1 diabetes mellitus 10",
-   "routes": 1,
-   "support": 2
-  },
-  {
-   "evidence": "DOID:0110750 from curated icd10cm:E10",
-   "id": "0110750",
-   "method": "xref via curated anchor",
-   "name": "type 1 diabetes mellitus 11",
-   "routes": 1,
-   "support": 2
-  },
-  {
-   "evidence": "DOID:0110751 from curated icd10cm:E10",
-   "id": "0110751",
-   "method": "xref via curated anchor",
-   "name": "type 1 diabetes mellitus 12",
-   "routes": 1,
-   "support": 2
-  },
-  {
-   "evidence": "DOID:0110752 from curated icd10cm:E10",
-   "id": "0110752",
-   "method": "xref via curated anchor",
-   "name": "type 1 diabetes mellitus 13",
-   "routes": 1,
-   "support": 2
-  },
-  {
-   "evidence": "DOID:0110753 from curated icd10cm:E10",
-   "id": "0110753",
-   "method": "xref via curated anchor",
-   "name": "type 1 diabetes mellitus 15",
-   "routes": 1,
-   "support": 2
-  },
-  {
-   "evidence": "DOID:0110754 from curated icd10cm:E10",
-   "id": "0110754",
-   "method": "xref via curated anchor",
-   "name": "type 1 diabetes mellitus 17",
-   "routes": 1,
-   "support": 2
-  },
-  {
-   "evidence": "DOID:0110755 from curated icd10cm:E10",
-   "id": "0110755",
-   "method": "xref via curated anchor",
-   "name": "type 1 diabetes mellitus 18",
-   "routes": 1,
-   "support": 2
-  },
-  {
-   "evidence": "DOID:0110756 from curated icd10cm:E10",
-   "id": "0110756",
-   "method": "xref via curated anchor",
-   "name": "type 1 diabetes mellitus 19",
-   "routes": 1,
-   "support": 2
-  },
-  {
-   "evidence": "DOID:0110757 from curated icd10cm:E10",
-   "id": "0110757",
-   "method": "xref via curated anchor",
-   "name": "type 1 diabetes mellitus 20",
-   "routes": 1,
-   "support": 2
-  },
-  {
-   "evidence": "DOID:0110758 from curated icd10cm:E10",
-   "id": "0110758",
-   "method": "xref via curated anchor",
-   "name": "type 1 diabetes mellitus 21",
-   "routes": 1,
-   "support": 2
-  },
-  {
-   "evidence": "DOID:0110759 from curated icd10cm:E10",
-   "id": "0110759",
-   "method": "xref via curated anchor",
-   "name": "type 1 diabetes mellitus 22",
-   "routes": 1,
-   "support": 2
-  },
-  {
-   "evidence": "DOID:0110760 from curated icd10cm:E10",
-   "id": "0110760",
-   "method": "xref via curated anchor",
-   "name": "type 1 diabetes mellitus 23",
-   "routes": 1,
-   "support": 2
-  },
-  {
-   "evidence": "DOID:0110761 from curated icd10cm:E10",
-   "id": "0110761",
-   "method": "xref via curated anchor",
-   "name": "type 1 diabetes mellitus 24",
-   "routes": 1,
-   "support": 2
+   "support": 28
   }
  ],
  "ARI:0001080|MONDO": [
@@ -5872,7 +5712,7 @@
    "method": "xref via curated anchor",
    "name": "type 1 diabetes mellitus",
    "routes": 1,
-   "support": 16
+   "support": 14
   }
  ],
  "ARI:0001080|OMIM": [
@@ -5882,167 +5722,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 30
-  },
-  {
-   "evidence": "DOID:0110741 xref, curated icd10cm:E10",
-   "id": "125852",
-   "method": "xref via curated anchor",
-   "name": "",
-   "routes": 1,
-   "support": 2
-  },
-  {
-   "evidence": "DOID:0110742 xref, curated icd10cm:E10",
-   "id": "600318",
-   "method": "xref via curated anchor",
-   "name": "",
-   "routes": 1,
-   "support": 2
-  },
-  {
-   "evidence": "DOID:0110743 xref, curated icd10cm:E10",
-   "id": "600319",
-   "method": "xref via curated anchor",
-   "name": "",
-   "routes": 1,
-   "support": 2
-  },
-  {
-   "evidence": "DOID:0110744 xref, curated icd10cm:E10",
-   "id": "600320",
-   "method": "xref via curated anchor",
-   "name": "",
-   "routes": 1,
-   "support": 2
-  },
-  {
-   "evidence": "DOID:0110746 xref, curated icd10cm:E10",
-   "id": "600321",
-   "method": "xref via curated anchor",
-   "name": "",
-   "routes": 1,
-   "support": 2
-  },
-  {
-   "evidence": "DOID:0110747 xref, curated icd10cm:E10",
-   "id": "600883",
-   "method": "xref via curated anchor",
-   "name": "",
-   "routes": 1,
-   "support": 2
-  },
-  {
-   "evidence": "DOID:0110750 xref, curated icd10cm:E10",
-   "id": "601208",
-   "method": "xref via curated anchor",
-   "name": "",
-   "routes": 1,
-   "support": 2
-  },
-  {
-   "evidence": "DOID:0110752 xref, curated icd10cm:E10",
-   "id": "601318",
-   "method": "xref via curated anchor",
-   "name": "",
-   "routes": 1,
-   "support": 2
-  },
-  {
-   "evidence": "DOID:0110751 xref, curated icd10cm:E10",
-   "id": "601388",
-   "method": "xref via curated anchor",
-   "name": "",
-   "routes": 1,
-   "support": 2
-  },
-  {
-   "evidence": "DOID:0110753 xref, curated icd10cm:E10",
-   "id": "601666",
-   "method": "xref via curated anchor",
-   "name": "",
-   "routes": 1,
-   "support": 2
-  },
-  {
-   "evidence": "DOID:0110745 xref, curated icd10cm:E10",
-   "id": "601941",
-   "method": "xref via curated anchor",
-   "name": "",
-   "routes": 1,
-   "support": 2
-  },
-  {
-   "evidence": "DOID:0110749 xref, curated icd10cm:E10",
-   "id": "601942",
-   "method": "xref via curated anchor",
-   "name": "",
-   "routes": 1,
-   "support": 2
-  },
-  {
-   "evidence": "DOID:0110754 xref, curated icd10cm:E10",
-   "id": "603266",
-   "method": "xref via curated anchor",
-   "name": "",
-   "routes": 1,
-   "support": 2
-  },
-  {
-   "evidence": "DOID:0110755 xref, curated icd10cm:E10",
-   "id": "605598",
-   "method": "xref via curated anchor",
-   "name": "",
-   "routes": 1,
-   "support": 2
-  },
-  {
-   "evidence": "DOID:0110756 xref, curated icd10cm:E10",
-   "id": "610155",
-   "method": "xref via curated anchor",
-   "name": "",
-   "routes": 1,
-   "support": 2
-  },
-  {
-   "evidence": "DOID:0110757 xref, curated icd10cm:E10",
-   "id": "612520",
-   "method": "xref via curated anchor",
-   "name": "",
-   "routes": 1,
-   "support": 2
-  },
-  {
-   "evidence": "DOID:0110758 xref, curated icd10cm:E10",
-   "id": "612521",
-   "method": "xref via curated anchor",
-   "name": "",
-   "routes": 1,
-   "support": 2
-  },
-  {
-   "evidence": "DOID:0110759 xref, curated icd10cm:E10",
-   "id": "612522",
-   "method": "xref via curated anchor",
-   "name": "",
-   "routes": 1,
-   "support": 2
-  },
-  {
-   "evidence": "DOID:0110760 xref, curated icd10cm:E10",
-   "id": "612622",
-   "method": "xref via curated anchor",
-   "name": "",
-   "routes": 1,
-   "support": 2
-  },
-  {
-   "evidence": "DOID:0110761 xref, curated icd10cm:E10",
-   "id": "613006",
-   "method": "xref via curated anchor",
-   "name": "",
-   "routes": 1,
-   "support": 2
+   "support": 26
   }
  ],
  "ARI:0001080|SNOMEDCT": [
@@ -6052,17 +5732,17 @@
    "method": "xref via curated anchor",
    "name": "Type 1 diabetes mellitus",
    "routes": 3,
-   "support": 32
+   "support": 28
   }
  ],
  "ARI:0001080|icd10cm": [
   {
-   "evidence": "DOID:0110741 xref, curated icd10cm:E10",
+   "evidence": "DOID:9744 xref, curated SNOMEDCT:46635009",
    "id": "E10",
    "method": "xref via curated anchor",
    "name": "",
-   "routes": 22,
-   "support": 70
+   "routes": 2,
+   "support": 26
   }
  ],
  "ARI:0001080|mesh": [
@@ -6072,7 +5752,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 30
+   "support": 26
   }
  ],
  "ARI:0001080|ncit": [
@@ -6082,7 +5762,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 30
+   "support": 26
   }
  ],
  "ARI:0001080|omop": [
@@ -6092,7 +5772,7 @@
    "method": "xref via curated anchor",
    "name": "Type 1 diabetes mellitus",
    "routes": 3,
-   "support": 32
+   "support": 28
   }
  ],
  "ARI:0001080|umls": [
@@ -6102,7 +5782,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 30
+   "support": 26
   }
  ],
  "ARI:0001081|DOID": [
