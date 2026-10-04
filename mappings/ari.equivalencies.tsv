@@ -2298,3 +2298,10 @@ ARI	0001116	Interstitial lung disease	skos:exactMatch	MONDO	0015925	manual	githu
 ARI	0001116	Interstitial lung disease	skos:exactMatch	ORPHA	182095	manual	github:AnjaliRH
 ARI	0001109	Immunoglobulin G4 related disease	skos:exactMatch	MONDO	0017287	manual	github:AnjaliRH
 ARI	0001109	Immunoglobulin G4 related disease	skos:exactMatch	DOID	0080356	manual	github:KrishnaTO
+ARI	0001131	Mooren's ulcer	skos:exactMatch	mesh	D003320	manual-negative	github:KrishnaTO
+ARI	0001131	Mooren's ulcer	skos:exactMatch	ncit	C50515	manual-negative	github:KrishnaTO
+ARI	0001131	Mooren's ulcer	skos:exactMatch	mesh	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001131	Mooren's ulcer	skos:exactMatch	ncit	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001135	Multiple sclerosis	skos:exactMatch	icd10cm	G35	manual	github:KrishnaTO
+ARI	0001135	Multiple sclerosis	skos:exactMatch	mesh	D009103	manual	github:KrishnaTO
+ARI	0001135	Multiple sclerosis	skos:exactMatch	umls	C0026769	manual	github:KrishnaTO

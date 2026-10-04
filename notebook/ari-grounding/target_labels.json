@@ -5235,6 +5235,10 @@
   "Colitis, Ulcerative",
   "mesh-icd-ncit-clinvar/CONCEPT.csv"
  ],
+ "mesh:D003320": [
+  "Corneal Ulcer",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
  "mesh:D003424": [
   "Crohn Disease",
   "mesh-icd-ncit-clinvar/CONCEPT.csv"
@@ -6241,6 +6245,10 @@
  ],
  "ncit:C4828": [
   "Primary Sclerosing Cholangitis",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C50515": [
+  "Corneal Ulcer",
   "EBI OLS4 (ncit)"
  ],
  "ncit:C50575": [

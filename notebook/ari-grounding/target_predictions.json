@@ -10344,7 +10344,7 @@
    "method": "xref via curated anchor",
    "name": "multiple sclerosis",
    "routes": 3,
-   "support": 17
+   "support": 29
   }
  ],
  "ARI:0001135|MONDO": [
@@ -10354,7 +10354,7 @@
    "method": "xref via curated anchor",
    "name": "multiple sclerosis",
    "routes": 1,
-   "support": 10
+   "support": 16
   }
  ],
  "ARI:0001135|OMIM": [
@@ -10364,7 +10364,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 5
+   "support": 11
   },
   {
    "evidence": "DOID:2377 xref, curated DOID:2377",
@@ -10372,7 +10372,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 5
+   "support": 11
   },
   {
    "evidence": "DOID:2377 xref, curated DOID:2377",
@@ -10380,7 +10380,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 1,
-   "support": 5
+   "support": 11
   }
  ],
  "ARI:0001135|SNOMEDCT": [
@@ -10390,7 +10390,7 @@
    "method": "xref via curated anchor",
    "name": "Multiple sclerosis",
    "routes": 2,
-   "support": 12
+   "support": 18
   }
  ],
  "ARI:0001135|icd10cm": [
@@ -10400,7 +10400,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 15
+   "support": 27
   }
  ],
  "ARI:0001135|mesh": [
@@ -10410,7 +10410,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 15
+   "support": 27
   }
  ],
  "ARI:0001135|ncit": [
@@ -10420,7 +10420,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 15
+   "support": 27
   }
  ],
  "ARI:0001135|omop": [
@@ -10430,7 +10430,7 @@
    "method": "xref via curated anchor",
    "name": "Multiple sclerosis",
    "routes": 2,
-   "support": 12
+   "support": 18
   }
  ],
  "ARI:0001135|umls": [
@@ -10440,7 +10440,7 @@
    "method": "xref via curated anchor",
    "name": "",
    "routes": 2,
-   "support": 15
+   "support": 27
   }
  ],
  "ARI:0001136|DOID": [

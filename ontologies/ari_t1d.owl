@@ -14577,8 +14577,6 @@ It is under debate whether collagenous and lymphocytic colitis are different pha
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">435271</ARI_OMOP>
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22440001</ARI_DXCODE>
-  <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D003320</ARI_MESH>
-  <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C50515</ARI_NCI>
   <ARI_RefLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corneal Dystrophy Foundation | https://www.cornealdystrophyfoundation.org/</ARI_RefLink>
   <ARI_RefLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cornea Research Foundation of America | http://www.cornea.org/</ARI_RefLink>
   <ARI_Author rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Katelynn Hunter</ARI_Author>
@@ -14588,6 +14586,7 @@ It is under debate whether collagenous and lymphocytic colitis are different pha
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MU</ARI_SurveyCode>
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">519408</ARI_ORPHANET>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew "Peripheral Ulcerative Keratitis" and "Corneal Ulcer" - broader categories; Mooren's ulcer is idiopathic peripheral ulcerative keratitis.</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T18:17:00+00:00 | KrishnaTO | PR review: removed MESH D003320 and NCI C50515 (both 'Corneal Ulcer', broader than the disease); no term in MESH; no term in NCI</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001131_1200">
@@ -15034,6 +15033,7 @@ Although this rare disease most commonly affects children, adults may have this 
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-08-27 17:57 | aaronabend | Cross-reference review: confirmed DOID 2377; confirmed MONDO 0005301; confirmed NCI C3243; confirmed SNOMED 24700007; confirmed OMOP 4027727</ARI_ChangeLog>
   <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0005301</ARI_MONDO>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-01T00:10:35+00:00 | KrishnaTO | Cross-reference review: confirmed OMOP 374919; flagged OMOP 4027727</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T18:17:00+00:00 | KrishnaTO | Cross-reference review: confirmed ICD10 G35; confirmed MESH D009103; confirmed UMLS C0026769</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001135_1241">

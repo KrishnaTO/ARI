@@ -1,6 +1,6 @@
 # Changelog
 
-## claude/restore-curator-mappings-1092-1116
+## claude/restore-curator-mappings-1092-1116 (PR #114)
 
 An audit of the history of `ARI:0001092` to `ARI:0001116` across every branch and PR head
 found curator mappings that were lost or never written to the mapping set. This adds 25 rows
@@ -19,6 +19,14 @@ to both mapping exports.
 - **Reversed the rejection of DOID `0080356` on `ARI:0001109`.** DOID labels it
   "IgG4-related disease", and MONDO `0017287` cross-references it. The curator's `Not` row is
   marked superseded, and a confirmation credited to `github:KrishnaTO` is added.
+- **Rejected MeSH `D003320` and NCIt `C50515` on `ARI:0001131`** (Mooren's ulcer). Both are
+  "Corneal Ulcer", which is broader than the disease. They were entered in the field editor on
+  2026-09-07 but never confirmed. Both are removed from the record. Neither vocabulary has a
+  Mooren's ulcer term, so each gets a `sssom:NoTermFound` row.
+- **Confirmed ICD-10 `G35`, MeSH `D009103` and UMLS `C0026769` on `ARI:0001135`** (Multiple
+  sclerosis). They were stored at import and the ARI#76 review did not cover them.
+- A second audit, of `ARI:0001117` to `ARI:0001141`, found no lost mappings. Every other
+  removal there came from the ICD-9 cleanup or a documented PR review.
 - Each touched record gains an `ARI_ChangeLog` line. Predictions, target labels and report 8
   are regenerated. They had not been rerun since ARI#108, so `ARI:0001019` and `ARI:0001177`
   also change.
