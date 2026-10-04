@@ -1736,50 +1736,9 @@
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">46487</ARI_ORPHANET>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#Tissue_Skin">
-  <rdf:type rdf:resource="#Skin"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skin</rdfs:label>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#Sym_0001001_2">
-  <rdf:type rdf:resource="#Symptom"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tense, blood- or pus-filled blisters, mostly on the hands, knees, knuckles, elbows and ankles</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</owl:NamedIndividual>
-
 <owl:NamedIndividual rdf:about="#Sym_0001001_3">
   <rdf:type rdf:resource="#Symptom"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Blisters</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#Sym_0001001_4">
-  <rdf:type rdf:resource="#Symptom"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mucous-membrane blisters that rupture easily</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#Sym_0001001_5">
-  <rdf:type rdf:resource="#Symptom"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">When blisters heal they form scars and sometimes tiny white bumps</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#Sym_0001001_7">
-  <rdf:type rdf:resource="#Symptom"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Widespread blisters that are not localized to trauma-prone sites</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#Sym_0001001_8">
-  <rdf:type rdf:resource="#Symptom"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Widespread redness and itching</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#Sym_0001001_9">
-  <rdf:type rdf:resource="#Symptom"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Healing with minimal scarring</rdfs:label>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
 </owl:NamedIndividual>
 
@@ -1789,9 +1748,9 @@
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#Sym_0001001_12">
+<owl:NamedIndividual rdf:about="#Sym_0001001_7">
   <rdf:type rdf:resource="#Symptom"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scarring</rdfs:label>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Widespread blisters that are not localized to trauma-prone sites</rdfs:label>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
 </owl:NamedIndividual>
 
@@ -1807,10 +1766,51 @@
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
 </owl:NamedIndividual>
 
+<owl:NamedIndividual rdf:about="#Sym_0001001_4">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mucous-membrane blisters that rupture easily</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001001_12">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scarring</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001001_5">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">When blisters heal they form scars and sometimes tiny white bumps</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001001_9">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Healing with minimal scarring</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
 <owl:NamedIndividual rdf:about="#Sym_0001001_16">
   <rdf:type rdf:resource="#Symptom"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Involves mucous membranes</rdfs:label>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001001_2">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tense, blood- or pus-filled blisters, mostly on the hands, knees, knuckles, elbows and ankles</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001001_8">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Widespread redness and itching</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Tissue_Skin">
+  <rdf:type rdf:resource="#Skin"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skin</rdfs:label>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001002">
@@ -3085,86 +3085,9 @@ However, based on the research available at this time, there is no evidence that
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">825</ARI_ORPHANET>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#Tissue_Musculoskeletal">
-  <rdf:type rdf:resource="#Musculoskeletal"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Musculoskeletal</rdfs:label>
-</owl:NamedIndividual>
-
 <owl:NamedIndividual rdf:about="#Sym_0001012_132">
   <rdf:type rdf:resource="#Symptom"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pain</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#Sym_0001012_134">
-  <rdf:type rdf:resource="#Symptom"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Weight loss</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#Sym_0001012_135">
-  <rdf:type rdf:resource="#Symptom"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stiffness</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#Sym_0001012_136">
-  <rdf:type rdf:resource="#Symptom"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eye inflammation</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#Sym_0001012_137">
-  <rdf:type rdf:resource="#Symptom"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pain in ligaments</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#Sym_0001012_138">
-  <rdf:type rdf:resource="#Symptom"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Back pain</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#Sym_0001012_139">
-  <rdf:type rdf:resource="#Symptom"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hip stiffness</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#Sym_0001012_140">
-  <rdf:type rdf:resource="#Symptom"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lower back stiffness</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#Sym_0001012_141">
-  <rdf:type rdf:resource="#Symptom"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heel stiffness</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#Sym_0001012_142">
-  <rdf:type rdf:resource="#Symptom"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stiffness of the buttocks</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#Sym_0001012_143">
-  <rdf:type rdf:resource="#Symptom"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pain in buttocks</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#Sym_0001012_144">
-  <rdf:type rdf:resource="#Symptom"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heel pain</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#Sym_0001012_145">
-  <rdf:type rdf:resource="#Symptom"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hip pain</rdfs:label>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
 </owl:NamedIndividual>
 
@@ -3174,9 +3097,51 @@ However, based on the research available at this time, there is no evidence that
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#Sym_0001012_147">
+<owl:NamedIndividual rdf:about="#Sym_0001012_141">
   <rdf:type rdf:resource="#Symptom"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Difficulty breathing</rdfs:label>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heel stiffness</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001012_134">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Weight loss</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001012_144">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heel pain</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001012_140">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lower back stiffness</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001012_137">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pain in ligaments</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001012_136">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eye inflammation</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001012_139">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hip stiffness</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001012_145">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hip pain</rdfs:label>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
 </owl:NamedIndividual>
 
@@ -3192,26 +3157,39 @@ However, based on the research available at this time, there is no evidence that
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001013">
-  <rdf:type rdf:resource="#AutoimmuneDisease"/>
-  <targetsTissue rdf:resource="#Tissue_NervousSystem"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anti-CASPR2 autoimmune encephalitis</rdfs:label>
+<owl:NamedIndividual rdf:about="#Sym_0001012_147">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Difficulty breathing</rdfs:label>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-  <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001013</ARI_ID>
-  <ARI_Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.1</ARI_Version>
-  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
-  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-02 15:25 | user | Edited: mondo</ARI_ChangeLog>
-  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anti-CASPR2 autoimmune encephalitis</rdfs:comment>
-  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peripheral nerve hyperexcitability</ARI_ClinicalSubtype>
-  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morvan syndrome</ARI_ClinicalSubtype>
-  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">limbic encephalitis</ARI_ClinicalSubtype>
-  <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</ARI_DefSource>
-  <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nervous System</ARI_DefSource>
-  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-02 15:40 | Krishna Udaiwal | Edited: age_range, clinical_subtypes, def_source, definition, demographic_bias, disease_category, doid, evidence_quality, icd10, incidence_rate, mesh, mondo, name, nci, obsolete, omop, prevalence_desc, prevalence_per_100k, prevalence_value, snomed, synonyms, umls</ARI_ChangeLog>
-  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morvan syndrome | subtype | a specific CASPR2-antibody phenotype (encephalopathy + peripheral nerve hyperexcitability + dysautonomia); already an ARI_ClinicalSubtype</ARI_SynonymWithdrawn>
-  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew "Morvan syndrome" — a CASPR2-antibody phenotype already listed as an ARI_ClinicalSubtype.</ARI_ChangeLog>
-  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-26T02:09:33+00:00 | Ari2215 | Removed flagged cross-reference: SNOMED 763803004; OMOP 35622356; MONDO 0017179</ARI_ChangeLog>
-  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-26T02:09:33+00:00 | Ari2215 | Cross-reference review: flagged SNOMED 763803004; flagged OMOP 35622356; flagged MONDO 0017179; flagged ORPHANET 83467, 276402; flagged UMLS C3854373, C4706582</ARI_ChangeLog>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001012_143">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pain in buttocks</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001012_138">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Back pain</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001012_142">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stiffness of the buttocks</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001012_135">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stiffness</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Tissue_Musculoskeletal">
+  <rdf:type rdf:resource="#Musculoskeletal"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Musculoskeletal</rdfs:label>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001014">
@@ -3268,14 +3246,15 @@ However, based on the research available at this time, there is no evidence that
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">375</ARI_ORPHANET>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#Tissue_Kidney">
-  <rdf:type rdf:resource="#Kidney"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kidney</rdfs:label>
-</owl:NamedIndividual>
-
 <owl:NamedIndividual rdf:about="#Sym_0001014_151">
   <rdf:type rdf:resource="#Symptom"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pain</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001014_159">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Burning</rdfs:label>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
 </owl:NamedIndividual>
 
@@ -3285,9 +3264,9 @@ However, based on the research available at this time, there is no evidence that
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#Sym_0001014_153">
+<owl:NamedIndividual rdf:about="#Sym_0001014_156">
   <rdf:type rdf:resource="#Symptom"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nausea</rdfs:label>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Difficulty breathing</rdfs:label>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
 </owl:NamedIndividual>
 
@@ -3297,21 +3276,9 @@ However, based on the research available at this time, there is no evidence that
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#Sym_0001014_155">
+<owl:NamedIndividual rdf:about="#Sym_0001014_153">
   <rdf:type rdf:resource="#Symptom"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Weakness</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#Sym_0001014_156">
-  <rdf:type rdf:resource="#Symptom"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Difficulty breathing</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#Sym_0001014_157">
-  <rdf:type rdf:resource="#Symptom"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chest pain</rdfs:label>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nausea</rdfs:label>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
 </owl:NamedIndividual>
 
@@ -3321,10 +3288,21 @@ However, based on the research available at this time, there is no evidence that
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#Sym_0001014_159">
+<owl:NamedIndividual rdf:about="#Sym_0001014_157">
   <rdf:type rdf:resource="#Symptom"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Burning</rdfs:label>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chest pain</rdfs:label>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001014_155">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Weakness</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Tissue_Kidney">
+  <rdf:type rdf:resource="#Kidney"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kidney</rdfs:label>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001015">
@@ -3416,21 +3394,15 @@ However, based on the research available at this time, there is no evidence that
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">156152</ARI_ORPHANET>
 </owl:NamedIndividual>
 
+<owl:NamedIndividual rdf:about="#Sym_0001017_168">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Weakness</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
 <owl:NamedIndividual rdf:about="#Sym_0001017_161">
   <rdf:type rdf:resource="#Symptom"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fever</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#Sym_0001017_162">
-  <rdf:type rdf:resource="#Symptom"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Headache</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#Sym_0001017_163">
-  <rdf:type rdf:resource="#Symptom"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fatigue</rdfs:label>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
 </owl:NamedIndividual>
 
@@ -3446,9 +3418,9 @@ However, based on the research available at this time, there is no evidence that
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#Sym_0001017_166">
+<owl:NamedIndividual rdf:about="#Sym_0001017_162">
   <rdf:type rdf:resource="#Symptom"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rash</rdfs:label>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Headache</rdfs:label>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
 </owl:NamedIndividual>
 
@@ -3458,15 +3430,21 @@ However, based on the research available at this time, there is no evidence that
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#Sym_0001017_168">
-  <rdf:type rdf:resource="#Symptom"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Weakness</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</owl:NamedIndividual>
-
 <owl:NamedIndividual rdf:about="#Sym_0001017_169">
   <rdf:type rdf:resource="#Symptom"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pain</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001017_163">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fatigue</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001017_166">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rash</rdfs:label>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
 </owl:NamedIndividual>
 
@@ -5453,9 +5431,9 @@ In chronic autoimmune neutropenia the body produces IgG antibodies that target a
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AR</ARI_SurveyCode>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#Sym_0001047_331">
+<owl:NamedIndividual rdf:about="#Sym_0001047_333">
   <rdf:type rdf:resource="#Symptom"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vision problems</rdfs:label>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Apparent flashes of light</rdfs:label>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
 </owl:NamedIndividual>
 
@@ -5465,9 +5443,9 @@ In chronic autoimmune neutropenia the body produces IgG antibodies that target a
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#Sym_0001047_333">
+<owl:NamedIndividual rdf:about="#Sym_0001047_331">
   <rdf:type rdf:resource="#Symptom"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Apparent flashes of light</rdfs:label>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vision problems</rdfs:label>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
 </owl:NamedIndividual>
 
@@ -10303,15 +10281,15 @@ When mastocytosis is not limited to the skin, it is called systemic mastocytosis
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#Sym_0001088_805">
+<owl:NamedIndividual rdf:about="#Sym_0001088_808">
   <rdf:type rdf:resource="#Symptom"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Burning/gritty sensation in eyes</rdfs:label>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sensitivity to light</rdfs:label>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#Sym_0001088_806">
+<owl:NamedIndividual rdf:about="#Sym_0001088_805">
   <rdf:type rdf:resource="#Symptom"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Watery eyes</rdfs:label>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Burning/gritty sensation in eyes</rdfs:label>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
 </owl:NamedIndividual>
 
@@ -10321,9 +10299,9 @@ When mastocytosis is not limited to the skin, it is called systemic mastocytosis
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#Sym_0001088_808">
+<owl:NamedIndividual rdf:about="#Sym_0001088_806">
   <rdf:type rdf:resource="#Symptom"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sensitivity to light</rdfs:label>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Watery eyes</rdfs:label>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
 </owl:NamedIndividual>
 
@@ -15514,21 +15492,45 @@ Although this rare disease most commonly affects children, adults may have this 
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MYS</ARI_SurveyCode>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#Sym_0001139_1299">
-  <rdf:type rdf:resource="#Symptom"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Weakness in arms</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</owl:NamedIndividual>
-
 <owl:NamedIndividual rdf:about="#Sym_0001139_1300">
   <rdf:type rdf:resource="#Symptom"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Muscle pain</rdfs:label>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#Sym_0001139_1301">
+<owl:NamedIndividual rdf:about="#Sym_0001139_1304">
   <rdf:type rdf:resource="#Symptom"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Difficulty climbing stairs</rdfs:label>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Difficulty swallowing</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001139_1308">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Weakness</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001139_1305">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trouble rising from a chair</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001139_1307">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pain</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001139_1299">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Weakness in arms</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001139_1306">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tired feeling after standing or walking</rdfs:label>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
 </owl:NamedIndividual>
 
@@ -15544,33 +15546,9 @@ Although this rare disease most commonly affects children, adults may have this 
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#Sym_0001139_1304">
+<owl:NamedIndividual rdf:about="#Sym_0001139_1301">
   <rdf:type rdf:resource="#Symptom"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Difficulty swallowing</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#Sym_0001139_1305">
-  <rdf:type rdf:resource="#Symptom"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trouble rising from a chair</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#Sym_0001139_1306">
-  <rdf:type rdf:resource="#Symptom"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tired feeling after standing or walking</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#Sym_0001139_1307">
-  <rdf:type rdf:resource="#Symptom"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pain</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#Sym_0001139_1308">
-  <rdf:type rdf:resource="#Symptom"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Weakness</rdfs:label>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Difficulty climbing stairs</rdfs:label>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
 </owl:NamedIndividual>
 
@@ -15810,27 +15788,9 @@ The specific location of vasculitis inflammation determines what tissue or organ
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27 | Claude | Synonym review (second pass): withdrew "Brachial plexus disorder" / "Brachial neuropathy" (broader).</ARI_ChangeLog>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#Sym_0001142_1330">
-  <rdf:type rdf:resource="#Symptom"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Weakness</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#Sym_0001142_1331">
-  <rdf:type rdf:resource="#Symptom"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prickling sensations</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</owl:NamedIndividual>
-
 <owl:NamedIndividual rdf:about="#Sym_0001142_1332">
   <rdf:type rdf:resource="#Symptom"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Joint pain</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#Sym_0001142_1333">
-  <rdf:type rdf:resource="#Symptom"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Winged shoulder blade</rdfs:label>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
 </owl:NamedIndividual>
 
@@ -15846,9 +15806,27 @@ The specific location of vasculitis inflammation determines what tissue or organ
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
 </owl:NamedIndividual>
 
+<owl:NamedIndividual rdf:about="#Sym_0001142_1330">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Weakness</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001142_1331">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prickling sensations</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
 <owl:NamedIndividual rdf:about="#Sym_0001142_1336">
   <rdf:type rdf:resource="#Symptom"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pain</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001142_1333">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Winged shoulder blade</rdfs:label>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
 </owl:NamedIndividual>
 
@@ -16204,57 +16182,9 @@ The specific location of vasculitis inflammation determines what tissue or organ
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">66624</ARI_ORPHANET>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#Sym_0001153_1430">
+<owl:NamedIndividual rdf:about="#Sym_0001153_1440">
   <rdf:type rdf:resource="#Symptom"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Development regression</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#Sym_0001153_1431">
-  <rdf:type rdf:resource="#Symptom"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sensory impairment</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#Sym_0001153_1432">
-  <rdf:type rdf:resource="#Symptom"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Behavioral changes</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#Sym_0001153_1433">
-  <rdf:type rdf:resource="#Symptom"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tics</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#Sym_0001153_1434">
-  <rdf:type rdf:resource="#Symptom"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Depression</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#Sym_0001153_1435">
-  <rdf:type rdf:resource="#Symptom"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Irritability</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#Sym_0001153_1436">
-  <rdf:type rdf:resource="#Symptom"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aggression</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#Sym_0001153_1437">
-  <rdf:type rdf:resource="#Symptom"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Deterioration in school performance</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#Sym_0001153_1438">
-  <rdf:type rdf:resource="#Symptom"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ocd</rdfs:label>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sleep problems</rdfs:label>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
 </owl:NamedIndividual>
 
@@ -16264,9 +16194,57 @@ The specific location of vasculitis inflammation determines what tissue or organ
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#Sym_0001153_1440">
+<owl:NamedIndividual rdf:about="#Sym_0001153_1443">
   <rdf:type rdf:resource="#Symptom"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sleep problems</rdfs:label>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bedwetting</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001153_1432">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Behavioral changes</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001153_1437">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Deterioration in school performance</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001153_1431">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sensory impairment</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001153_1434">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Depression</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001153_1436">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aggression</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001153_1433">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tics</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001153_1438">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ocd</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001153_1435">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Irritability</rdfs:label>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
 </owl:NamedIndividual>
 
@@ -16276,9 +16254,9 @@ The specific location of vasculitis inflammation determines what tissue or organ
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#Sym_0001153_1443">
+<owl:NamedIndividual rdf:about="#Sym_0001153_1430">
   <rdf:type rdf:resource="#Symptom"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bedwetting</rdfs:label>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Development regression</rdfs:label>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
 </owl:NamedIndividual>
 
@@ -17071,51 +17049,9 @@ The specific location of vasculitis inflammation determines what tissue or organ
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">732</ARI_ORPHANET>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#Sym_0001162_1568">
-  <rdf:type rdf:resource="#Symptom"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Weakness in joints</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#Sym_0001162_1569">
-  <rdf:type rdf:resource="#Symptom"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Muscle pain</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#Sym_0001162_1570">
-  <rdf:type rdf:resource="#Symptom"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Difficulty swallowing</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#Sym_0001162_1571">
-  <rdf:type rdf:resource="#Symptom"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Difficulty breathing</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#Sym_0001162_1572">
-  <rdf:type rdf:resource="#Symptom"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Difficulty moving from sitting to standing</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#Sym_0001162_1573">
-  <rdf:type rdf:resource="#Symptom"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Difficulty climbing stairs</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</owl:NamedIndividual>
-
 <owl:NamedIndividual rdf:about="#Sym_0001162_1574">
   <rdf:type rdf:resource="#Symptom"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Difficulty speaking</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#Sym_0001162_1575">
-  <rdf:type rdf:resource="#Symptom"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Falling</rdfs:label>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
 </owl:NamedIndividual>
 
@@ -17125,27 +17061,9 @@ The specific location of vasculitis inflammation determines what tissue or organ
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#Sym_0001162_1577">
+<owl:NamedIndividual rdf:about="#Sym_0001162_1570">
   <rdf:type rdf:resource="#Symptom"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fever</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#Sym_0001162_1578">
-  <rdf:type rdf:resource="#Symptom"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Weight loss</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#Sym_0001162_1579">
-  <rdf:type rdf:resource="#Symptom"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Joint pain</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#Sym_0001162_1580">
-  <rdf:type rdf:resource="#Symptom"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Weakness</rdfs:label>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Difficulty swallowing</rdfs:label>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
 </owl:NamedIndividual>
 
@@ -17158,6 +17076,66 @@ The specific location of vasculitis inflammation determines what tissue or organ
 <owl:NamedIndividual rdf:about="#Sym_0001162_1582">
   <rdf:type rdf:resource="#Symptom"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shortness of breath</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001162_1580">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Weakness</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001162_1571">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Difficulty breathing</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001162_1578">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Weight loss</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001162_1569">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Muscle pain</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001162_1572">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Difficulty moving from sitting to standing</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001162_1575">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Falling</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001162_1573">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Difficulty climbing stairs</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001162_1568">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Weakness in joints</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001162_1579">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Joint pain</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001162_1577">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fever</rdfs:label>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
 </owl:NamedIndividual>
 
@@ -22890,66 +22868,6 @@ Patients with GO experience swelling in the tissues, muscles, and fat in the eye
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GED</ARI_SurveyCode>
 </owl:NamedIndividual>
 
-<Symptom rdf:about="#Sym_0001146_1369">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eye irritation</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001146_1370">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Watery eyes</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001146_1371">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Forward displacement of eye</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001146_1372">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sensitivity to light</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001146_1373">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Double vision</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001146_1374">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dry eyes</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001146_1376">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inability to move the eye</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001146_1377">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corneal ulceration</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001146_1378">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vision loss</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001146_1380">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vision problems</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001147">
   <rdf:type rdf:resource="#AutoimmuneDisease"/>
   <hasSymptom rdf:resource="#Sym_0001147_1385"/>
@@ -23005,72 +22923,6 @@ Patients with GO experience swelling in the tissues, muscles, and fat in the eye
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1183</ARI_ORPHANET>
 </owl:NamedIndividual>
 
-<Symptom rdf:about="#Sym_0001147_1381">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Irritability in children</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001147_1382">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Weakness</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001147_1383">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fatigue</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001147_1384">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Muscle spasms</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001147_1385">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anxiety in children</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001147_1386">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Impaired coordination</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001147_1387">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fast, irregular eye movements</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001147_1388">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sleep problems</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001147_1389">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rage attacks</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001147_1391">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brain fog</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001147_1392">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unsteady gait</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001148">
   <rdf:type rdf:resource="#AutoimmuneDisease"/>
   <hasSymptom rdf:resource="#Sym_0001148_1394"/>
@@ -23123,66 +22975,6 @@ Patients with GO experience swelling in the tissues, muscles, and fat in the eye
   <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Palindromic Rheumatism, Pre-Rheumatoid - May develop into rheumatoid arthritis.</ARI_ClinicalSubtype>
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR</ARI_SurveyCode>
 </owl:NamedIndividual>
-
-<Symptom rdf:about="#Sym_0001148_1393">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pain</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001148_1394">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stiffness</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001148_1395">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Joint pain</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001148_1396">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tendon pain</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001148_1397">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Joint stiffness</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001148_1398">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Swollen joints</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001148_1399">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fever</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001148_1400">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fatigue</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001148_1401">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Restricted mobility</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001148_1402">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Swelling</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001149">
   <rdf:type rdf:resource="#AutoimmuneDisease"/>
@@ -23238,90 +23030,6 @@ Patients with GO experience swelling in the tissues, muscles, and fat in the eye
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PCD</ARI_SurveyCode>
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">623626</ARI_ORPHANET>
 </owl:NamedIndividual>
-
-<Symptom rdf:about="#Sym_0001149_1404">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unsteady gait</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001149_1405">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fast, irregular eye movements</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001149_1406">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Impaired coordination</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001149_1407">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Double vision</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001149_1408">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Difficulty speaking</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001149_1409">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Difficulty swallowing</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001149_1410">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dizziness</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001149_1411">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nausea</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001149_1412">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vertigo</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001149_1413">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Memory problems</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001149_1415">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vision problems</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001149_1416">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hand tremor</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001149_1417">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Involuntary movements</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001149_1418">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tremor</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001150">
   <rdf:type rdf:resource="#AutoimmuneDisease"/>
@@ -23407,66 +23115,6 @@ Patients with GO experience swelling in the tissues, muscles, and fat in the eye
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">447</ARI_ORPHANET>
 </owl:NamedIndividual>
 
-<Symptom rdf:about="#Sym_0001152_1419">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Headache</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001152_1420">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abdominal pain</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001152_1421">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Muscle spasms</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001152_1422">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dark urine</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001152_1423">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fatigue</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001152_1424">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shortness of breath</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001152_1425">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trouble breathing when you exercise</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001152_1426">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Irregular heartbeat</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001152_1427">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Erectile dysfunction</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001152_1428">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pain</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001154">
   <rdf:type rdf:resource="#AutoimmuneDisease"/>
   <hasSymptom rdf:resource="#Sym_0001154_1451"/>
@@ -23520,72 +23168,6 @@ Pemphigus is different from bullous pemphigoid, a blistering skin condition that
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PEM</ARI_SurveyCode>
 </owl:NamedIndividual>
 
-<Symptom rdf:about="#Sym_0001154_1444">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Blisters</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001154_1445">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Blisters that rupture easily, leaving open sores, which may ooze and become infected.</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001154_1446">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skin blisters</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001154_1448">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Blisters are painful but do not itch</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001154_1449">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Blister inside throat</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001154_1450">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Blister inside mouth</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001154_1451">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Genital blisters</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001154_1453">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Causes blisters on the chest, back and shoulders</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001154_1454">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Does not cause mouth blisters</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001154_1455">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Itchy blisters</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001154_1457">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pain</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001155">
   <rdf:type rdf:resource="#AutoimmuneDisease"/>
   <hasSymptom rdf:resource="#Sym_0001155_1466"/>
@@ -23634,60 +23216,6 @@ Pemphigus is different from bullous pemphigoid, a blistering skin condition that
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">POEM</ARI_SurveyCode>
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2905</ARI_ORPHANET>
 </owl:NamedIndividual>
-
-<Symptom rdf:about="#Sym_0001155_1459">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Progressive weakness in the legs</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001155_1460">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Progressive weakness in the arms</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001155_1461">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Excessive sweating</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001155_1462">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vision problems</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001155_1463">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fatigue</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001155_1464">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Problems with metabolism</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001155_1465">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skin discoloration</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001155_1466">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skin hardening</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001155_1467">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Weakness</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001156">
   <rdf:type rdf:resource="#AutoimmuneDisease"/>
@@ -23750,96 +23278,6 @@ Pemphigus is different from bullous pemphigoid, a blistering skin condition that
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27 | Claude | Synonym review (second pass): withdrew "c-PAN" (subtype).</ARI_ChangeLog>
 </owl:NamedIndividual>
 
-<Symptom rdf:about="#Sym_0001156_1468">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nausea</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001156_1469">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vomiting</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001156_1470">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rash</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001156_1471">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coldness</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001156_1472">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Weakness</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001156_1473">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fever</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001156_1474">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Weight loss</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001156_1475">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fatigue</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001156_1476">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Night sweats</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001156_1477">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Joint pain</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001156_1478">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Muscle pain</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001156_1479">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abdominal pain</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001156_1480">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vision loss</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001156_1482">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pain</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001156_1483">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vision problems</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001163">
   <rdf:type rdf:resource="#AutoimmuneDisease"/>
   <hasSymptom rdf:resource="#Sym_0001163_1586"/>
@@ -23890,66 +23328,6 @@ To date, there is no direct or indirect evidence that post-pericardiotomy syndro
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMIS</ARI_SurveyCode>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27 | Claude | Synonym review (second pass): withdrew "Post-cardiac injury syndrome" (broader).</ARI_ChangeLog>
 </owl:NamedIndividual>
-
-<Symptom rdf:about="#Sym_0001163_1584">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heart palpitations</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001163_1585">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fever</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001163_1586">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chest pain</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001163_1587">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shortness of breath</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001163_1588">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Difficulty breathing</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001163_1589">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rapid heartbeat</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001163_1590">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fatigue</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001163_1591">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Irritability</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001163_1592">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Joint pain</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001163_1594">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pain</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001164">
   <rdf:type rdf:resource="#AutoimmuneDisease"/>
@@ -24030,54 +23408,6 @@ To date, there is no direct or indirect evidence that post-pericardiotomy syndro
   <ARI_SurveyCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PIDC</ARI_SurveyCode>
 </owl:NamedIndividual>
 
-<Symptom rdf:about="#Sym_0001167_1615">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Difficulty exercising</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001167_1616">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heart palpitations</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001167_1617">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fatigue</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001167_1618">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shortness of breath</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001167_1619">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chest pain</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001167_1620">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Weight gain</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001167_1621">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Swelling</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001167_1623">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pain</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001170">
   <rdf:type rdf:resource="#AutoimmuneDisease"/>
   <hasSymptom rdf:resource="#Sym_0001170_1640"/>
@@ -24137,132 +23467,6 @@ To date, there is no direct or indirect evidence that post-pericardiotomy syndro
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1214</ARI_ORPHANET>
 </owl:NamedIndividual>
 
-<Symptom rdf:about="#Sym_0001170_1637">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Burning</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001170_1638">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Burning sensation</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001170_1640">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Misalignment of teeth</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001170_1641">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eyelid drooping</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001170_1642">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skin discoloration</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001170_1643">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pain</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001170_1644">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skull depressions</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001170_1645">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Misalignment of jaw</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001170_1646">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Facial pain</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001170_1647">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thinning or shrinking of facial tissues</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001170_1648">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bald patches</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001170_1649">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Absence of eyelashes</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001170_1650">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whitening of hair</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001170_1651">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Difficulty chewing</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001170_1652">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Difficulty moving jaw</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001170_1653">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Curling of upper lip</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001170_1654">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Migraine headaches</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001170_1655">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seizures</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001170_1656">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prickling sensations</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001170_1657">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Backwards displacement of eye</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001170_1658">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Different colored eyes</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001173">
   <rdf:type rdf:resource="#AutoimmuneDisease"/>
   <hasSymptom rdf:resource="#Sym_0001173_1679"/>
@@ -24316,36 +23520,6 @@ A third type of PRCA, Diamond-Blackfan syndrome, is due to genetic mutation and 
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-27 | Claude | Synonym review (second pass): withdrew "Adult pure red cell aplasia" / "Idiopathic pure red cell aplasia" / "Primary acquired PRCA" / "Acquired pure red cell aplasia" / "Primary acquired pure red cell aplasia" (subtype).</ARI_ChangeLog>
 </owl:NamedIndividual>
 
-<Symptom rdf:about="#Sym_0001173_1678">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fatigue</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001173_1679">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dizziness</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001173_1680">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shortness of breath</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001173_1681">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Difficulty breathing</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001173_1682">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Easy bruising</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001174">
   <rdf:type rdf:resource="#AutoimmuneDisease"/>
   <hasSymptom rdf:resource="#Sym_0001174_1688"/>
@@ -24389,42 +23563,6 @@ A third type of PRCA, Diamond-Blackfan syndrome, is due to genetic mutation and 
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">48104</ARI_ORPHANET>
 </owl:NamedIndividual>
 
-<Symptom rdf:about="#Sym_0001174_1685">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skin sores</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001174_1686">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Muscle pain</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001174_1687">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Joint pain</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001174_1688">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fever</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001174_1689">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Small red bumps</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
-<Symptom rdf:about="#Sym_0001174_1690">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pain</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</Symptom>
-
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001175">
   <rdf:type rdf:resource="#AutoimmuneDisease"/>
   <hasSymptom rdf:resource="#Sym_0001175_1696"/>
@@ -24465,15 +23603,880 @@ A third type of PRCA, Diamond-Blackfan syndrome, is due to genetic mutation and 
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1929</ARI_ORPHANET>
 </owl:NamedIndividual>
 
-<Symptom rdf:about="#Sym_0001175_1692">
+<AutoimmuneDisease rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001013">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <targetsTissue rdf:resource="#Tissue_NervousSystem"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anti-CASPR2 autoimmune encephalitis</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anti-CASPR2 autoimmune encephalitis</rdfs:label>
+  <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001013</ARI_ID>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CASPR2-antibody encephalitis</ARI_Synonym>
+  <ARI_SynonymWithdrawn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morvan syndrome | subtype | a specific CASPR2-antibody phenotype (encephalopathy + peripheral nerve hyperexcitability + dysautonomia); already an ARI_ClinicalSubtype</ARI_SynonymWithdrawn>
+  <ARI_Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.1</ARI_Version>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07 | Claude | Synonym review: withdrew "Morvan syndrome" — a CASPR2-antibody phenotype already listed as an ARI_ClinicalSubtype.</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-26T02:09:33+00:00 | Ari2215 | Removed flagged cross-reference: SNOMED 763803004; OMOP 35622356; MONDO 0017179</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T15:35:08+00:00 | Krishna Udaiwal | Edited: age_range, clinical_subtypes, def_source, definition, demographic_bias, disease_category, evidence_quality, incidence_rate, is_grouping, name, obsolete, prevalence_desc, prevalence_per_100k, prevalence_value, synonyms</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-02 15:25 | user | Edited: mondo</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-26T02:09:33+00:00 | Ari2215 | Cross-reference review: flagged SNOMED 763803004; flagged OMOP 35622356; flagged MONDO 0017179; flagged ORPHANET 83467, 276402; flagged UMLS C3854373, C4706582</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-07-02 15:40 | Krishna Udaiwal | Edited: age_range, clinical_subtypes, def_source, definition, demographic_bias, disease_category, doid, evidence_quality, icd10, incidence_rate, mesh, mondo, name, nci, obsolete, omop, prevalence_desc, prevalence_per_100k, prevalence_value, snomed, synonyms, umls</ARI_ChangeLog>
+  <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</ARI_DefSource>
+  <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nervous System</ARI_DefSource>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">limbic encephalitis</ARI_ClinicalSubtype>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morvan syndrome</ARI_ClinicalSubtype>
+  <ARI_ClinicalSubtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peripheral nerve hyperexcitability</ARI_ClinicalSubtype>
+  <ARI_IsGrouping rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_IsGrouping>
+</AutoimmuneDisease>
+
+<Symptom rdf:about="#Sym_0001146_1373">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Double vision</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001146_1372">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sensitivity to light</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001146_1377">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corneal ulceration</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001146_1380">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vision problems</rdfs:label>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
 </Symptom>
 
-<Symptom rdf:about="#Sym_0001175_1693">
+<Symptom rdf:about="#Sym_0001146_1371">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Forward displacement of eye</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001146_1369">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eye irritation</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001146_1374">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dry eyes</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001146_1370">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Watery eyes</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001146_1378">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vision loss</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001146_1376">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inability to move the eye</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001147_1385">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anxiety in children</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001147_1384">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Muscle spasms</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001147_1381">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Irritability in children</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001147_1389">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rage attacks</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001147_1392">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unsteady gait</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001147_1387">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fast, irregular eye movements</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001147_1391">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brain fog</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001147_1383">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fatigue</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001147_1388">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sleep problems</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001147_1382">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Weakness</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001147_1386">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Impaired coordination</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001148_1394">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stiffness</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001148_1401">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Restricted mobility</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001148_1402">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Swelling</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001148_1393">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pain</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001148_1398">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Swollen joints</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001148_1396">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tendon pain</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001148_1399">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fever</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001148_1397">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Joint stiffness</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001148_1400">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fatigue</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001148_1395">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Joint pain</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001149_1410">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dizziness</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001149_1411">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nausea</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001149_1416">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hand tremor</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001149_1413">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Memory problems</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001149_1418">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tremor</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001149_1417">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Involuntary movements</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001149_1408">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Difficulty speaking</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001149_1404">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unsteady gait</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001149_1407">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Double vision</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001149_1415">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vision problems</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001149_1405">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fast, irregular eye movements</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001149_1412">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vertigo</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001149_1409">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Difficulty swallowing</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001149_1406">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Impaired coordination</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001152_1423">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fatigue</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001152_1427">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Erectile dysfunction</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001152_1419">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Headache</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001152_1424">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shortness of breath</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001152_1428">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pain</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001152_1426">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Irregular heartbeat</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001152_1425">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trouble breathing when you exercise</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001152_1421">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Muscle spasms</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001152_1420">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abdominal pain</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001152_1422">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dark urine</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001154_1451">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Genital blisters</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001154_1449">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Blister inside throat</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001154_1444">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Blisters</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001154_1457">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pain</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001154_1453">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Causes blisters on the chest, back and shoulders</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001154_1446">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skin blisters</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001154_1448">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Blisters are painful but do not itch</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001154_1454">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Does not cause mouth blisters</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001154_1445">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Blisters that rupture easily, leaving open sores, which may ooze and become infected.</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001154_1450">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Blister inside mouth</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001154_1455">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Itchy blisters</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001155_1466">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skin hardening</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001155_1467">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Weakness</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001155_1459">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Progressive weakness in the legs</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001155_1465">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skin discoloration</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001155_1464">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Problems with metabolism</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001155_1461">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Excessive sweating</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001155_1462">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vision problems</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001155_1463">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fatigue</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001155_1460">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Progressive weakness in the arms</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001156_1469">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vomiting</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001156_1471">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coldness</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001156_1475">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fatigue</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001156_1474">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Weight loss</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001156_1477">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Joint pain</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001156_1476">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Night sweats</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001156_1482">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pain</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001156_1483">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vision problems</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001156_1473">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fever</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001156_1472">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Weakness</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001156_1470">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rash</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001156_1480">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vision loss</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001156_1479">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abdominal pain</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001156_1468">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nausea</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001156_1478">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Muscle pain</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001163_1586">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chest pain</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001163_1584">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heart palpitations</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001163_1589">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rapid heartbeat</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001163_1587">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shortness of breath</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001163_1588">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Difficulty breathing</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001163_1585">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fever</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001163_1591">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Irritability</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001163_1594">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pain</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001163_1592">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Joint pain</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001163_1590">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fatigue</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001167_1618">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shortness of breath</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001167_1621">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Swelling</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001167_1617">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fatigue</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001167_1615">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Difficulty exercising</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001167_1623">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pain</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001167_1619">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chest pain</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001167_1620">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Weight gain</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001167_1616">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heart palpitations</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001170_1640">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Misalignment of teeth</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001170_1642">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skin discoloration</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001170_1649">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Absence of eyelashes</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001170_1638">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Burning sensation</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001170_1645">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Misalignment of jaw</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001170_1650">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whitening of hair</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001170_1653">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Curling of upper lip</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001170_1656">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prickling sensations</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001170_1641">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eyelid drooping</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001170_1637">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Burning</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001170_1651">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Difficulty chewing</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001170_1657">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Backwards displacement of eye</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001170_1643">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pain</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001170_1654">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Migraine headaches</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001170_1652">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Difficulty moving jaw</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001170_1658">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Different colored eyes</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001170_1646">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Facial pain</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001170_1644">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skull depressions</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001170_1655">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seizures</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001170_1648">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bald patches</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001170_1647">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thinning or shrinking of facial tissues</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001173_1679">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dizziness</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001173_1678">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fatigue</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001173_1681">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Difficulty breathing</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001173_1680">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shortness of breath</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001173_1682">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Easy bruising</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001174_1688">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fever</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001174_1690">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pain</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001174_1685">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skin sores</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001174_1687">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Joint pain</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001174_1686">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Muscle pain</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001174_1689">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Small red bumps</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001175_1696">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Loss of motor skills</rdfs:label>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</Symptom>
+
+<Symptom rdf:about="#Sym_0001175_1692">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vision problems</rdfs:label>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
 </Symptom>
 
@@ -24489,9 +24492,9 @@ A third type of PRCA, Diamond-Blackfan syndrome, is due to genetic mutation and 
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
 </Symptom>
 
-<Symptom rdf:about="#Sym_0001175_1696">
+<Symptom rdf:about="#Sym_0001175_1693">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Loss of motor skills</rdfs:label>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seizures</rdfs:label>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
 </Symptom>
 
