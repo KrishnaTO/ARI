@@ -1,5 +1,35 @@
 # Changelog
 
+## claude/hashimotos-thyroiditis-mappings-d13221
+
+Adds `ARI:0001216` Hashimoto's thyroiditis as a subtype (`hasParentDisease`) of `ARI:0001048`
+Autoimmune thyroiditis. The cross-references on the parent that name Hashimoto thyroiditis
+move to it. The parent keeps its own terms: SNOMED `66944004`, OMOP `4281109`, DOID `7188`,
+MONDO `0005623`, ICD-10 `E06.3`, UMLS `C0920350` and MeSH `D013967`.
+
+- **Moved off the parent:** ORPHA `855` and NCIt `C27191` are both Hashimoto thyroiditis. The
+  parent now rejects them (`manual-negative` / `Not`, with the earlier ORPHA confirmation
+  marked superseded) and stores neither.
+- **Confirmed on the subtype:** MONDO `0007699`, ORPHA `855`, NCIt `C27191`, SNOMED `21983002`
+  (also the DXCODE) and OMOP `135215`. The first, fourth and fifth were already rejected on the
+  parent as "the subtype", and those rejections stand.
+- **Synonyms:** "Hashimoto thyroiditis", "Hashimoto's disease", "Hashimoto's thyroiditis" and
+  "Chronic lymphocytic thyroiditis" are withdrawn from the parent (`subtype`). The subtype
+  lists all of them except its own label. `9_Synonym_Review.tsv` records the new verdicts.
+- **Prediction engine** (`notebook/ari-grounding/predict_target_matches.py`):
+  - SSSOM rows marked `Superseded by the …` are ignored. The old ORPHA `855` confirmation on
+    the parent had still been anchoring predictions, and 10 other diseases carry such rows.
+  - A term confirmed for a disease's parent or subtype (`hasParentDisease`, read by the new
+    `ari_diseases.parents()`) is no longer predicted for it, unless the disease confirms it
+    too. A hub term the disease rejected, or one its relative claims, is no longer expanded.
+    As a result, the parent no longer gets OMIM `140300`, MeSH `D050031` or UMLS `C0677607`
+    (through the rejected MONDO `0007699`), and the subtype no longer gets the parent's
+    DOID `7188`, ICD-10 `E06.3`, MeSH `D013967`, NCIt `C38766` or UMLS `C0920350`.
+  - `build_disease_target_matrix.py` drops superseded rows too, so report 8 shows only live
+    judgements.
+  - Grounding, predictions, labels and reports 5-8 are regenerated. This also picks up every
+    mapping change since #104.
+
 ## claude/autoimmune-thyroiditis-mondo-mapping-1b8434
 
 Reverses the ARI#93 line-review rejection of `ARI:0001048` Autoimmune thyroiditis -> MONDO

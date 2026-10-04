@@ -2028,3 +2028,10 @@ ARI	0001042	Autoimmune optic neuropathy	skos:exactMatch	umls	C0029132	manual-neg
 ARI	0001042	Autoimmune optic neuropathy	skos:exactMatch	umls	C2748363	manual-negative	github:Ari2215
 ARI	0001042	Autoimmune optic neuropathy	skos:exactMatch	mesh	D009901	manual-negative	github:Ari2215
 ARI	0001024	Autoimmune cerebellar ataxia	skos:exactMatch	SNOMEDCT	85102008	manual-negative	github:Ari2215
+ARI	0001048	Autoimmune thyroiditis	skos:exactMatch	ORPHA	855	manual-negative	github:KrishnaTO
+ARI	0001048	Autoimmune thyroiditis	skos:exactMatch	ncit	C27191	manual-negative	github:KrishnaTO
+ARI	0001216	Hashimoto's thyroiditis	skos:exactMatch	MONDO	0007699	manual	github:KrishnaTO
+ARI	0001216	Hashimoto's thyroiditis	skos:exactMatch	ORPHA	855	manual	github:KrishnaTO
+ARI	0001216	Hashimoto's thyroiditis	skos:exactMatch	ncit	C27191	manual	github:KrishnaTO
+ARI	0001216	Hashimoto's thyroiditis	skos:exactMatch	SNOMEDCT	21983002	manual	github:KrishnaTO
+ARI	0001216	Hashimoto's thyroiditis	skos:exactMatch	omop	135215	manual	github:KrishnaTO
