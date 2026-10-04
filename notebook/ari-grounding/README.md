@@ -82,13 +82,22 @@ arrives with a candidate rather than a blank. Two offline routes feed it:
 Each hub is scored by how many of the disease's own identifiers reach it (curated anchors
 count double), and candidate ranking sums those scores across routes — so a candidate
 corroborated by several hubs outranks one reached through a single broad cross-reference.
-Two filters keep the output honest: a term the curators already **rejected** for that
-disease and database is never predicted, and predicted SNOMED codes are restricted to
-**standard, non-retired** concepts (ontology xrefs still point at codes SNOMED has since
-deprecated — that alone accounted for most early false predictions).
+Three filters keep the output honest. A term the curators already **rejected** for that
+disease and database is never predicted. Neither is a term they **confirmed for the
+disease's parent or subtype** (`hasParentDisease`), since a term that is exactly one of the
+pair is not exactly the other (unless the curators confirmed it for both), and a hub term excluded either way is not expanded. Predicted
+SNOMED codes are restricted to **standard, non-retired** concepts (ontology xrefs still point
+at codes SNOMED has since deprecated — that alone accounted for most early false
+predictions). SSSOM rows marked `Superseded by the …` are past judgements and are ignored.
 
 Validation against the 715 curated confirmed mappings (2026-09-27): **651 top predictions
 reproduce the curated term**, 28 name a different one, 36 produce nothing; for 17 of the 28
 the curated term is still present further down the candidate list. Grounding from the
 ontology's current synonyms instead of the master-list snapshot moved this from 641 / 38 / 34
 (measured on the 713 mappings before PR #104 added two).
+
+Re-measured on 2026-10-04 over every live confirmed row in `ari.sssom.tsv` (1,359): **1,227 top
+predictions reproduce the curated term**, 54 name a different one, 78 produce nothing. Without the
+parent/subtype and superseded-row filters the same rows give 1,229 / 55 / 75. Each top match
+those filters lose had been reached only through a hub term the curators rejected for the
+disease, or one confirmed for its subtype.

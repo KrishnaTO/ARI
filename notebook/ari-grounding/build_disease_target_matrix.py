@@ -69,7 +69,9 @@ for rec in ws_core.iter_rows(min_row=2, values_only=True):
 wb_core.close()
 
 lines = [l for l in SSSOM.open(encoding="utf-8") if not l.startswith("#")]
-mappings = list(csv.DictReader(lines, delimiter="\t"))
+# A row marked superseded is a judgement a later row reversed; only the live one is reported.
+mappings = [m for m in csv.DictReader(lines, delimiter="\t")
+            if not m["comment"].startswith("Superseded by the ")]
 labels = json.loads(LABELS.read_text(encoding="utf-8"))
 
 predictions = json.loads(PREDICTIONS.read_text(encoding="utf-8"))
@@ -292,8 +294,8 @@ for verdict, meaning in [
     ws3.cell(ws3.max_row, 1).fill = VERDICT_FILL[verdict]
 ws3.append([])
 ws3.append(["Predictions never include a term the curators rejected for that disease and "
-            "database, and predicted SNOMED codes are restricted to standard, non-retired "
-            "concepts."])
+            "database, or one they confirmed for its parent or subtype disease, and predicted "
+            "SNOMED codes are restricted to standard, non-retired concepts."])
 ws3.append([])
 ws3.append(["Target Mapping Name sources"])
 ws3.cell(ws3.max_row, 1).font = Font(bold=True)
