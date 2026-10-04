@@ -4,19 +4,35 @@
 
 Records "no term in database" for the 146 diseases reviewed in the curator mappings reviews
 ARI#88, #89 and #92-#96. A disease gets a no-term row wherever a vocabulary has no confirmed
-mapping, no id stored on the record, and no existing no-term row: 215 rows across 67 diseases.
-That covers vocabularies where the review rejected every candidate (e.g. Autoimmune cerebellar
-ataxia and Autoimmune diabetes insipidus, which had no mapping left at all) and vocabularies
-where no candidate was ever offered. OMIM is left out, because it is a Mendelian catalogue
-these diseases mostly have no entry in.
+mapping, no id stored on the record, and no existing no-term row. Counted after ARI#108, that
+is 173 rows across 54 diseases. 74 are in vocabularies where the review rejected every
+candidate (Anti-CASPR2 autoimmune encephalitis, Autoimmune cerebellar ataxia and Autoimmune
+diabetes insipidus had no mapping left at all). The other 99 are in vocabularies where no
+candidate was ever offered. OMIM is left out, because it is a Mendelian catalogue these
+diseases mostly have no entry in.
 
 - Each row is `sssom:NoTermFound` / `manual-absent`, credited to `github:KrishnaTO`, with the
   comment `No term confirmed in the ARI#<n> mappings review.` Rows are added to
   `mappings/ari.sssom.tsv` and `mappings/ari.equivalencies.tsv`.
-- Each of the 67 records gains one `ARI_ChangeLog` line in the editor's format
+- Each of the 54 records gains one `ARI_ChangeLog` line in the editor's format
   (`Cross-reference review: no term in DOID; no term in NCI; ...`).
 - `ARI:0002` from ARI#88 is counted under its current id, `ARI:0001214` (LADA). Ids stored on a
   record without an SSSOM row (e.g. LADA's SNOMED, DOID, MONDO and UMLS) count as mappings.
+
+## edit/KrishnaTO/mappings-review-1791133633 (PR #108)
+
+Editor mappings review covering 16 diseases. It adds 51 "no term" markers, confirms UMLS
+`C2609059` and `C5959873` plus MeSH `C537778` on `ARI:0001019` and NCIt `C128332` on
+`ARI:0001177`, and rejects 10 predicted ids on `ARI:0001046`. Repairs before merge:
+
+- **Blank-subject flags dropped:** the editor's parked field removals published `Not` rows
+  for MONDO `0005623` and MeSH `C567049` with no subject (app defect, see ARI#88). MeSH
+  `C567049` was already rejected on `ARI:0001045`.
+- **Autoimmune thyroiditis (`ARI:0001048`) kept as on main:** the review session predates
+  PR #107 and PR #109, so it removed MONDO `0005623` again and confirmed NCIt `C27191`, which
+  #109 moved to the subtype `ARI:0001216`. Both edits are reverted.
+- **Merged `main`:** the ontology is main plus this PR's per-record line changes, so the
+  editor's synonym, subtype and element reordering is dropped.
 
 ## claude/hashimotos-thyroiditis-mappings-d13221
 
