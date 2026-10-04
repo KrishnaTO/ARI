@@ -2050,77 +2050,77 @@ ARI:0001042	Autoimmune optic neuropathy	skos:exactMatch	Not	umls:C2748363	umls	s
 ARI:0001042	Autoimmune optic neuropathy	skos:exactMatch	Not	mesh:D009901	mesh	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
 ARI:0001024	Autoimmune cerebellar ataxia	skos:exactMatch	Not	SNOMEDCT:85102008	SNOMEDCT	semapv:ManualMappingCuration	github:Ari2215	2026-09-26T02:09:36+00:00	
 ARI:0001048	Autoimmune thyroiditis	skos:exactMatch	Not	ORPHA:855	ORPHA	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:03:25+00:00	Hashimoto thyroiditis, moved to subtype ARI:0001216.
-ARI:0001048	Autoimmune thyroiditis	skos:exactMatch	Not	ncit:C27191	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:03:25+00:00	Superseded by the positive judgment of github:KrishnaTO on 2026-10-04T23:00:21+00:00.
+ARI:0001048	Autoimmune thyroiditis	skos:exactMatch	Not	ncit:C27191	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:03:25+00:00	Superseded by the positive judgment of github:KrishnaTO on 2026-10-04T23:28:12+00:00.
 ARI:0001216	Hashimoto's thyroiditis	skos:exactMatch		MONDO:0007699	MONDO	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:03:25+00:00	Moved from ARI:0001048 Autoimmune thyroiditis.
 ARI:0001216	Hashimoto's thyroiditis	skos:exactMatch		ORPHA:855	ORPHA	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:03:25+00:00	Moved from ARI:0001048 Autoimmune thyroiditis.
 ARI:0001216	Hashimoto's thyroiditis	skos:exactMatch		ncit:C27191	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:03:25+00:00	Moved from ARI:0001048 Autoimmune thyroiditis.
 ARI:0001216	Hashimoto's thyroiditis	skos:exactMatch		SNOMEDCT:21983002	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:03:25+00:00	Moved from ARI:0001048 Autoimmune thyroiditis.
 ARI:0001216	Hashimoto's thyroiditis	skos:exactMatch		omop:135215	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:03:25+00:00	Moved from ARI:0001048 Autoimmune thyroiditis.
-ARI:0001019	Antisynthetase syndrome	skos:exactMatch		umls:C2609059	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001019	Antisynthetase syndrome	skos:exactMatch		umls:C5959873	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001019	Antisynthetase syndrome	skos:exactMatch		mesh:C537778	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001177	Reactive arthritis	skos:exactMatch		ncit:C128332	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001046	Autoimmune retinal vasculitis	skos:exactMatch	Not	SNOMEDCT:427213005	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001046	Autoimmune retinal vasculitis	skos:exactMatch	Not	SNOMEDCT:77628002	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001046	Autoimmune retinal vasculitis	skos:exactMatch	Not	icd10cm:H35.06	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001046	Autoimmune retinal vasculitis	skos:exactMatch	Not	mesh:D031300	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001046	Autoimmune retinal vasculitis	skos:exactMatch	Not	umls:C1328843	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001046	Autoimmune retinal vasculitis	skos:exactMatch	Not	umls:C0152026	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001046	Autoimmune retinal vasculitis	skos:exactMatch	Not	MONDO:0006950	MONDO	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001046	Autoimmune retinal vasculitis	skos:exactMatch	Not	MONDO:0030703	MONDO	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001046	Autoimmune retinal vasculitis	skos:exactMatch	Not	DOID:11563	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001046	Autoimmune retinal vasculitis	skos:exactMatch	Not	DOID:0040097	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001007	Adult-onset immunodeficiency due to anti-IFN-gamma autoantibodies	skos:exactMatch		sssom:NoTermFound	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001007	Adult-onset immunodeficiency due to anti-IFN-gamma autoantibodies	skos:exactMatch		sssom:NoTermFound	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001007	Adult-onset immunodeficiency due to anti-IFN-gamma autoantibodies	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001007	Adult-onset immunodeficiency due to anti-IFN-gamma autoantibodies	skos:exactMatch		sssom:NoTermFound	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001010	Alopecia areata	skos:exactMatch		sssom:NoTermFound	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001010	Alopecia areata	skos:exactMatch		sssom:NoTermFound	ORPHA	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001013	Anti-CASPR2 autoimmune encephalitis	skos:exactMatch		sssom:NoTermFound	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001013	Anti-CASPR2 autoimmune encephalitis	skos:exactMatch		sssom:NoTermFound	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001013	Anti-CASPR2 autoimmune encephalitis	skos:exactMatch		sssom:NoTermFound	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001013	Anti-CASPR2 autoimmune encephalitis	skos:exactMatch		sssom:NoTermFound	MONDO	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001013	Anti-CASPR2 autoimmune encephalitis	skos:exactMatch		sssom:NoTermFound	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001013	Anti-CASPR2 autoimmune encephalitis	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001013	Anti-CASPR2 autoimmune encephalitis	skos:exactMatch		sssom:NoTermFound	ORPHA	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001013	Anti-CASPR2 autoimmune encephalitis	skos:exactMatch		sssom:NoTermFound	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001013	Anti-CASPR2 autoimmune encephalitis	skos:exactMatch		sssom:NoTermFound	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001015	Anti-MAG neuropathy	skos:exactMatch		sssom:NoTermFound	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001015	Anti-MAG neuropathy	skos:exactMatch		sssom:NoTermFound	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001015	Anti-MAG neuropathy	skos:exactMatch		sssom:NoTermFound	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001015	Anti-MAG neuropathy	skos:exactMatch		sssom:NoTermFound	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001015	Anti-MAG neuropathy	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001015	Anti-MAG neuropathy	skos:exactMatch		sssom:NoTermFound	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001016	Anti-MDA5 amyopathic dermatomyositis with rapidly progressive ILD	skos:exactMatch		sssom:NoTermFound	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001016	Anti-MDA5 amyopathic dermatomyositis with rapidly progressive ILD	skos:exactMatch		sssom:NoTermFound	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001016	Anti-MDA5 amyopathic dermatomyositis with rapidly progressive ILD	skos:exactMatch		sssom:NoTermFound	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001016	Anti-MDA5 amyopathic dermatomyositis with rapidly progressive ILD	skos:exactMatch		sssom:NoTermFound	MONDO	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001016	Anti-MDA5 amyopathic dermatomyositis with rapidly progressive ILD	skos:exactMatch		sssom:NoTermFound	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001016	Anti-MDA5 amyopathic dermatomyositis with rapidly progressive ILD	skos:exactMatch		sssom:NoTermFound	ORPHA	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001016	Anti-MDA5 amyopathic dermatomyositis with rapidly progressive ILD	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001016	Anti-MDA5 amyopathic dermatomyositis with rapidly progressive ILD	skos:exactMatch		sssom:NoTermFound	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001016	Anti-MDA5 amyopathic dermatomyositis with rapidly progressive ILD	skos:exactMatch		sssom:NoTermFound	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001014	Anti-glomerular basement membrane disease	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001017	Antineutrophil cytoplasmic antibody positive vasculitis	skos:exactMatch		sssom:NoTermFound	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001019	Antisynthetase syndrome	skos:exactMatch		sssom:NoTermFound	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001019	Antisynthetase syndrome	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001020	Aortic valve calcification	skos:exactMatch		sssom:NoTermFound	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001020	Aortic valve calcification	skos:exactMatch		sssom:NoTermFound	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001020	Aortic valve calcification	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001020	Aortic valve calcification	skos:exactMatch		sssom:NoTermFound	ORPHA	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001210	Vogt-Koyanagi-Harada disease	skos:exactMatch		sssom:NoTermFound	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001185	Rheumatoid vasculitis	skos:exactMatch		sssom:NoTermFound	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001185	Rheumatoid vasculitis	skos:exactMatch		sssom:NoTermFound	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001185	Rheumatoid vasculitis	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001185	Rheumatoid vasculitis	skos:exactMatch		sssom:NoTermFound	ORPHA	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001179	Restless legs	skos:exactMatch		sssom:NoTermFound	ORPHA	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001177	Reactive arthritis	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001047	Autoimmune retinopathy	skos:exactMatch		sssom:NoTermFound	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001047	Autoimmune retinopathy	skos:exactMatch		sssom:NoTermFound	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001047	Autoimmune retinopathy	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001047	Autoimmune retinopathy	skos:exactMatch		sssom:NoTermFound	ORPHA	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001047	Autoimmune retinopathy	skos:exactMatch		sssom:NoTermFound	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001045	Autoimmune pulmonary alveolar proteinosis	skos:exactMatch		sssom:NoTermFound	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
+ARI:0001019	Antisynthetase syndrome	skos:exactMatch		umls:C2609059	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001019	Antisynthetase syndrome	skos:exactMatch		umls:C5959873	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001019	Antisynthetase syndrome	skos:exactMatch		mesh:C537778	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001177	Reactive arthritis	skos:exactMatch		ncit:C128332	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001046	Autoimmune retinal vasculitis	skos:exactMatch	Not	SNOMEDCT:427213005	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001046	Autoimmune retinal vasculitis	skos:exactMatch	Not	SNOMEDCT:77628002	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001046	Autoimmune retinal vasculitis	skos:exactMatch	Not	icd10cm:H35.06	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001046	Autoimmune retinal vasculitis	skos:exactMatch	Not	mesh:D031300	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001046	Autoimmune retinal vasculitis	skos:exactMatch	Not	umls:C1328843	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001046	Autoimmune retinal vasculitis	skos:exactMatch	Not	umls:C0152026	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001046	Autoimmune retinal vasculitis	skos:exactMatch	Not	MONDO:0006950	MONDO	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001046	Autoimmune retinal vasculitis	skos:exactMatch	Not	MONDO:0030703	MONDO	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001046	Autoimmune retinal vasculitis	skos:exactMatch	Not	DOID:11563	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001046	Autoimmune retinal vasculitis	skos:exactMatch	Not	DOID:0040097	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001007	Adult-onset immunodeficiency due to anti-IFN-gamma autoantibodies	skos:exactMatch		sssom:NoTermFound	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001007	Adult-onset immunodeficiency due to anti-IFN-gamma autoantibodies	skos:exactMatch		sssom:NoTermFound	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001007	Adult-onset immunodeficiency due to anti-IFN-gamma autoantibodies	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001007	Adult-onset immunodeficiency due to anti-IFN-gamma autoantibodies	skos:exactMatch		sssom:NoTermFound	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001010	Alopecia areata	skos:exactMatch		sssom:NoTermFound	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001010	Alopecia areata	skos:exactMatch		sssom:NoTermFound	ORPHA	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001013	Anti-CASPR2 autoimmune encephalitis	skos:exactMatch		sssom:NoTermFound	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001013	Anti-CASPR2 autoimmune encephalitis	skos:exactMatch		sssom:NoTermFound	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001013	Anti-CASPR2 autoimmune encephalitis	skos:exactMatch		sssom:NoTermFound	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001013	Anti-CASPR2 autoimmune encephalitis	skos:exactMatch		sssom:NoTermFound	MONDO	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001013	Anti-CASPR2 autoimmune encephalitis	skos:exactMatch		sssom:NoTermFound	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001013	Anti-CASPR2 autoimmune encephalitis	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001013	Anti-CASPR2 autoimmune encephalitis	skos:exactMatch		sssom:NoTermFound	ORPHA	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001013	Anti-CASPR2 autoimmune encephalitis	skos:exactMatch		sssom:NoTermFound	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001013	Anti-CASPR2 autoimmune encephalitis	skos:exactMatch		sssom:NoTermFound	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001015	Anti-MAG neuropathy	skos:exactMatch		sssom:NoTermFound	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001015	Anti-MAG neuropathy	skos:exactMatch		sssom:NoTermFound	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001015	Anti-MAG neuropathy	skos:exactMatch		sssom:NoTermFound	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001015	Anti-MAG neuropathy	skos:exactMatch		sssom:NoTermFound	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001015	Anti-MAG neuropathy	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001015	Anti-MAG neuropathy	skos:exactMatch		sssom:NoTermFound	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001016	Anti-MDA5 amyopathic dermatomyositis with rapidly progressive ILD	skos:exactMatch		sssom:NoTermFound	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001016	Anti-MDA5 amyopathic dermatomyositis with rapidly progressive ILD	skos:exactMatch		sssom:NoTermFound	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001016	Anti-MDA5 amyopathic dermatomyositis with rapidly progressive ILD	skos:exactMatch		sssom:NoTermFound	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001016	Anti-MDA5 amyopathic dermatomyositis with rapidly progressive ILD	skos:exactMatch		sssom:NoTermFound	MONDO	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001016	Anti-MDA5 amyopathic dermatomyositis with rapidly progressive ILD	skos:exactMatch		sssom:NoTermFound	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001016	Anti-MDA5 amyopathic dermatomyositis with rapidly progressive ILD	skos:exactMatch		sssom:NoTermFound	ORPHA	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001016	Anti-MDA5 amyopathic dermatomyositis with rapidly progressive ILD	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001016	Anti-MDA5 amyopathic dermatomyositis with rapidly progressive ILD	skos:exactMatch		sssom:NoTermFound	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001016	Anti-MDA5 amyopathic dermatomyositis with rapidly progressive ILD	skos:exactMatch		sssom:NoTermFound	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001014	Anti-glomerular basement membrane disease	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001017	Antineutrophil cytoplasmic antibody positive vasculitis	skos:exactMatch		sssom:NoTermFound	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001019	Antisynthetase syndrome	skos:exactMatch		sssom:NoTermFound	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001019	Antisynthetase syndrome	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001020	Aortic valve calcification	skos:exactMatch		sssom:NoTermFound	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001020	Aortic valve calcification	skos:exactMatch		sssom:NoTermFound	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001020	Aortic valve calcification	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001020	Aortic valve calcification	skos:exactMatch		sssom:NoTermFound	ORPHA	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001210	Vogt-Koyanagi-Harada disease	skos:exactMatch		sssom:NoTermFound	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001185	Rheumatoid vasculitis	skos:exactMatch		sssom:NoTermFound	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001185	Rheumatoid vasculitis	skos:exactMatch		sssom:NoTermFound	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001185	Rheumatoid vasculitis	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001185	Rheumatoid vasculitis	skos:exactMatch		sssom:NoTermFound	ORPHA	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001179	Restless legs	skos:exactMatch		sssom:NoTermFound	ORPHA	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001177	Reactive arthritis	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001047	Autoimmune retinopathy	skos:exactMatch		sssom:NoTermFound	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001047	Autoimmune retinopathy	skos:exactMatch		sssom:NoTermFound	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001047	Autoimmune retinopathy	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001047	Autoimmune retinopathy	skos:exactMatch		sssom:NoTermFound	ORPHA	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001047	Autoimmune retinopathy	skos:exactMatch		sssom:NoTermFound	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001045	Autoimmune pulmonary alveolar proteinosis	skos:exactMatch		sssom:NoTermFound	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
 ARI:0001023	Autoimmune angioedema	skos:exactMatch		sssom:NoTermFound	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:37:37+00:00	No term confirmed in the ARI#92 mappings review.
 ARI:0001023	Autoimmune angioedema	skos:exactMatch		sssom:NoTermFound	MONDO	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:37:37+00:00	No term confirmed in the ARI#92 mappings review.
 ARI:0001023	Autoimmune angioedema	skos:exactMatch		sssom:NoTermFound	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:37:37+00:00	No term confirmed in the ARI#92 mappings review.
@@ -2167,10 +2167,10 @@ ARI:0001037	Autoimmune limbic encephalitis	skos:exactMatch		sssom:NoTermFound	nc
 ARI:0001037	Autoimmune limbic encephalitis	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:37:37+00:00	No term confirmed in the ARI#96 mappings review.
 ARI:0001041	Autoimmune oophoritis	skos:exactMatch		sssom:NoTermFound	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:37:37+00:00	No term confirmed in the ARI#94 mappings review.
 ARI:0001041	Autoimmune oophoritis	skos:exactMatch		sssom:NoTermFound	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:37:37+00:00	No term confirmed in the ARI#94 mappings review.
-ARI:0001042	Autoimmune optic neuropathy	skos:exactMatch		sssom:NoTermFound	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001042	Autoimmune optic neuropathy	skos:exactMatch		sssom:NoTermFound	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001042	Autoimmune optic neuropathy	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001042	Autoimmune optic neuropathy	skos:exactMatch		sssom:NoTermFound	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
+ARI:0001042	Autoimmune optic neuropathy	skos:exactMatch		sssom:NoTermFound	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001042	Autoimmune optic neuropathy	skos:exactMatch		sssom:NoTermFound	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001042	Autoimmune optic neuropathy	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001042	Autoimmune optic neuropathy	skos:exactMatch		sssom:NoTermFound	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
 ARI:0001048	Autoimmune thyroiditis	skos:exactMatch		sssom:NoTermFound	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:37:37+00:00	No term confirmed in the ARI#93 mappings review.
 ARI:0001048	Autoimmune thyroiditis	skos:exactMatch		sssom:NoTermFound	ORPHA	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:37:37+00:00	No term confirmed in the ARI#93 mappings review.
 ARI:0001055	Bickerstaff's brainstem encephalitis	skos:exactMatch		sssom:NoTermFound	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T17:37:37+00:00	No term confirmed in the ARI#96 mappings review.
@@ -2312,7 +2312,7 @@ ARI:0001112	Inflammatory Bowel Disease	skos:exactMatch		MONDO:0005265	MONDO	sema
 ARI:0001113	Insulin autoimmune syndrome	skos:exactMatch		MONDO:0018465	MONDO	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07T20:42:00+00:00	Entered by the curator in the field editor and stored on the disease, but no review recorded a mapping row. Restored from the ontology on 2026-10-04.
 ARI:0001113	Insulin autoimmune syndrome	skos:exactMatch		ORPHA:411593	ORPHA	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07T20:40:00+00:00	Entered by the curator in the field editor and stored on the disease, but no review recorded a mapping row. Restored from the ontology on 2026-10-04.
 ARI:0001114	Insulin resistance - type B	skos:exactMatch		icd10cm:E88.818	icd10cm	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-10T14:10:00+00:00	Entered by the curator in the field editor and stored on the disease, but no review recorded a mapping row. Restored from the ontology on 2026-10-04.
-ARI:0001114	Insulin resistance - type B	skos:exactMatch		umls:C0342337	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
+ARI:0001114	Insulin resistance - type B	skos:exactMatch		umls:C0342337	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
 ARI:0001115	Intermediate uveitis	skos:exactMatch		MONDO:0006806	MONDO	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07T20:42:00+00:00	Entered by the curator in the field editor and stored on the disease, but no review recorded a mapping row. Restored from the ontology on 2026-10-04.
 ARI:0001115	Intermediate uveitis	skos:exactMatch		ORPHA:279914	ORPHA	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07T20:39:00+00:00	Entered by the curator in the field editor and stored on the disease, but no review recorded a mapping row. Restored from the ontology on 2026-10-04.
 ARI:0001116	Interstitial lung disease	skos:exactMatch		MONDO:0015925	MONDO	semapv:ManualMappingCuration	github:AnjaliRH	2026-08-07T20:41:00+00:00	Entered by the curator in the field editor and stored on the disease, but no review recorded a mapping row. Restored from the ontology on 2026-10-04.
@@ -2323,9 +2323,9 @@ ARI:0001131	Mooren's ulcer	skos:exactMatch	Not	mesh:D003320	mesh	semapv:ManualMa
 ARI:0001131	Mooren's ulcer	skos:exactMatch	Not	ncit:C50515	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T18:17:00+00:00	PR review: broader term ('Corneal Ulcer'); Mooren's ulcer is one kind of corneal ulcer.
 ARI:0001131	Mooren's ulcer	skos:exactMatch		sssom:NoTermFound	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T18:17:00+00:00	PR review: replaces mesh:D003320; MeSH has no Mooren's ulcer term.
 ARI:0001131	Mooren's ulcer	skos:exactMatch		sssom:NoTermFound	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T18:17:00+00:00	PR review: replaces ncit:C50515; NCIt has no Mooren's ulcer term.
-ARI:0001135	Multiple sclerosis	skos:exactMatch		icd10cm:G35	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001135	Multiple sclerosis	skos:exactMatch		mesh:D009103	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001135	Multiple sclerosis	skos:exactMatch		umls:C0026769	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
+ARI:0001135	Multiple sclerosis	skos:exactMatch		icd10cm:G35	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001135	Multiple sclerosis	skos:exactMatch		mesh:D009103	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001135	Multiple sclerosis	skos:exactMatch		umls:C0026769	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
 ARI:0001157	Polyglandular autoimmune syndrome type 1	skos:exactMatch		mesh:C538275	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T18:44:00+00:00	PR review: confirmed the stored id ('Autoimmune polyendocrinopathy syndrome, type 1'), entered in the field editor on 2026-09-07 but never recorded.
 ARI:0001158	Polyglandular autoimmune syndrome type 2	skos:exactMatch		DOID:0050168	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T18:44:00+00:00	PR review: confirmed the stored id, which no review had recorded; MONDO cross-references it.
 ARI:0001158	Polyglandular autoimmune syndrome type 2	skos:exactMatch		ncit:C129728	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T18:44:00+00:00	PR review: confirmed the stored id, which no review had recorded; MONDO cross-references it.
@@ -2359,79 +2359,142 @@ ARI:0001012	Ankylosing spondylitis	skos:exactMatch	Not	OMIM:106300	OMIM	semapv:M
 ARI:0001014	Anti-glomerular basement membrane disease	skos:exactMatch		OMIM:233450	OMIM	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T20:00:00+00:00	PR review: confirmed the id stored on the disease, which no review had recorded; MONDO cross-references it.
 ARI:0001020	Aortic valve calcification	skos:exactMatch		mesh:C562942	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T20:00:00+00:00	PR review: confirmed the id stored on the disease, which no review had recorded. MeSH labels it 'Aortic Valve, Calcification of'.
 ARI:0001021	Aplastic anemia	skos:exactMatch		ORPHA:164823	ORPHA	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T20:00:00+00:00	PR review: confirmed the id stored on the disease, which no review had recorded. 'Rare acquired aplastic anemia' is the acquired, autoimmune form; it replaced the rejected ORPHA:182040.
-ARI:0001030	Autoimmune ganglionopathy	skos:exactMatch		umls:C5395071	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
+ARI:0001030	Autoimmune ganglionopathy	skos:exactMatch		umls:C5395071	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
 ARI:0001033	Autoimmune hepatitis	skos:exactMatch		ncit:C27029	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T20:00:00+00:00	PR review: confirmed the id stored on the disease, which no review had recorded; MONDO cross-references it.
-ARI:0001135	Multiple sclerosis	skos:exactMatch		ORPHA:802	ORPHA	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001028	Autoimmune encephalitis	skos:exactMatch		ncit:C122414	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001028	Autoimmune encephalitis	skos:exactMatch		umls:C5671289	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001028	Autoimmune encephalitis	skos:exactMatch		ORPHA:622014	ORPHA	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001095	Fibromyalgia	skos:exactMatch		umls:C0016053	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001215	Fulminant type 1 diabetes	skos:exactMatch		DOID:9744	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001215	Fulminant type 1 diabetes	skos:exactMatch		MONDO:0005147	MONDO	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001215	Fulminant type 1 diabetes	skos:exactMatch		ncit:C2986	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001215	Fulminant type 1 diabetes	skos:exactMatch		mesh:D003922	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001215	Fulminant type 1 diabetes	skos:exactMatch		ORPHA:243377	ORPHA	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001097	Guillain-Barré syndrome	skos:exactMatch		DOID:12842	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001097	Guillain-Barré syndrome	skos:exactMatch		MONDO:0016218	MONDO	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001097	Guillain-Barré syndrome	skos:exactMatch		ncit:C116345	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001097	Guillain-Barré syndrome	skos:exactMatch		icd10cm:G61.0	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001097	Guillain-Barré syndrome	skos:exactMatch		ORPHA:2103	ORPHA	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001097	Guillain-Barré syndrome	skos:exactMatch		umls:C0018378	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001097	Guillain-Barré syndrome	skos:exactMatch		mesh:D020275	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001216	Hashimoto's thyroiditis	skos:exactMatch		icd10cm:E06.3	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001216	Hashimoto's thyroiditis	skos:exactMatch		umls:C0677607	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001216	Hashimoto's thyroiditis	skos:exactMatch		mesh:D050031	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001096	Graves' disease	skos:exactMatch		umls:C0018213	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001114	Insulin resistance - type B	skos:exactMatch		MONDO:0016464	MONDO	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001114	Insulin resistance - type B	skos:exactMatch		ORPHA:2298	ORPHA	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001112	Inflammatory Bowel Disease	skos:exactMatch		ncit:C3138	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001111	Inclusion body myositis	skos:exactMatch		ncit:C84786	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001048	Autoimmune thyroiditis	skos:exactMatch		ncit:C27191	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001028	Autoimmune encephalitis	skos:exactMatch	Not	umls:C0393639	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001215	Fulminant type 1 diabetes	skos:exactMatch	Not	DOID:0080846	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001215	Fulminant type 1 diabetes	skos:exactMatch	Not	DOID:0110761	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001215	Fulminant type 1 diabetes	skos:exactMatch	Not	DOID:0110760	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001215	Fulminant type 1 diabetes	skos:exactMatch	Not	DOID:0110759	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001215	Fulminant type 1 diabetes	skos:exactMatch	Not	DOID:0110758	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001215	Fulminant type 1 diabetes	skos:exactMatch	Not	DOID:0110757	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001215	Fulminant type 1 diabetes	skos:exactMatch	Not	DOID:0110756	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001215	Fulminant type 1 diabetes	skos:exactMatch	Not	DOID:0110755	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001215	Fulminant type 1 diabetes	skos:exactMatch	Not	DOID:0110754	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001215	Fulminant type 1 diabetes	skos:exactMatch	Not	DOID:0110753	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001215	Fulminant type 1 diabetes	skos:exactMatch	Not	DOID:0110752	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001215	Fulminant type 1 diabetes	skos:exactMatch	Not	DOID:0110751	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001215	Fulminant type 1 diabetes	skos:exactMatch	Not	DOID:0110750	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001215	Fulminant type 1 diabetes	skos:exactMatch	Not	DOID:0110749	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001215	Fulminant type 1 diabetes	skos:exactMatch	Not	DOID:0110747	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001215	Fulminant type 1 diabetes	skos:exactMatch	Not	DOID:0110746	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001215	Fulminant type 1 diabetes	skos:exactMatch	Not	DOID:0110745	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001215	Fulminant type 1 diabetes	skos:exactMatch	Not	DOID:0110744	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001215	Fulminant type 1 diabetes	skos:exactMatch	Not	DOID:0110743	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001215	Fulminant type 1 diabetes	skos:exactMatch	Not	DOID:0110742	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001215	Fulminant type 1 diabetes	skos:exactMatch	Not	DOID:0110741	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001215	Fulminant type 1 diabetes	skos:exactMatch	Not	MONDO:0009100	MONDO	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001215	Fulminant type 1 diabetes	skos:exactMatch	Not	mesh:D000071698	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001216	Hashimoto's thyroiditis	skos:exactMatch	Not	DOID:7188	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001216	Hashimoto's thyroiditis	skos:exactMatch	Not	umls:C0920350	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001216	Hashimoto's thyroiditis	skos:exactMatch	Not	mesh:D013967	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001102	Idiopathic membranous glomerulonephritis	skos:exactMatch	Not	DOID:10976	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-		skos:exactMatch	Not	umls:C2349037	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001028	Autoimmune encephalitis	skos:exactMatch		sssom:NoTermFound	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001028	Autoimmune encephalitis	skos:exactMatch		sssom:NoTermFound	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001096	Graves' disease	skos:exactMatch		sssom:NoTermFound	ORPHA	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001094	Female infertility due to antisperm antibodies	skos:exactMatch		sssom:NoTermFound	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001094	Female infertility due to antisperm antibodies	skos:exactMatch		sssom:NoTermFound	MONDO	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001094	Female infertility due to antisperm antibodies	skos:exactMatch		sssom:NoTermFound	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001094	Female infertility due to antisperm antibodies	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001094	Female infertility due to antisperm antibodies	skos:exactMatch		sssom:NoTermFound	ORPHA	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001094	Female infertility due to antisperm antibodies	skos:exactMatch		sssom:NoTermFound	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001216	Hashimoto's thyroiditis	skos:exactMatch		sssom:NoTermFound	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001115	Intermediate uveitis	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001114	Insulin resistance - type B	skos:exactMatch		sssom:NoTermFound	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001114	Insulin resistance - type B	skos:exactMatch		sssom:NoTermFound	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001114	Insulin resistance - type B	skos:exactMatch		sssom:NoTermFound	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001113	Insulin autoimmune syndrome	skos:exactMatch		sssom:NoTermFound	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001113	Insulin autoimmune syndrome	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001113	Insulin autoimmune syndrome	skos:exactMatch		sssom:NoTermFound	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001112	Inflammatory Bowel Disease	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
-ARI:0001112	Inflammatory Bowel Disease	skos:exactMatch		sssom:NoTermFound	ORPHA	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:00:21+00:00	
+ARI:0001110	Immunoglobulin G4 related ophthalmic disease	skos:exactMatch		MONDO:0018675	MONDO	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001109	Immunoglobulin G4 related disease	skos:exactMatch		ncit:C95992	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001109	Immunoglobulin G4 related disease	skos:exactMatch		ORPHA:596448	ORPHA	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001108	Immunoglobulin A vasculitis	skos:exactMatch		ncit:C34963	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001108	Immunoglobulin A vasculitis	skos:exactMatch		mesh:D011695	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001108	Immunoglobulin A vasculitis	skos:exactMatch		icd10cm:D69.0	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001107	Immune thrombocytopenia	skos:exactMatch		DOID:1587	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001107	Immune thrombocytopenia	skos:exactMatch		ncit:C3446	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001107	Immune thrombocytopenia	skos:exactMatch		mesh:D016553	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001098	Hemophilia B Leyden	skos:exactMatch		SNOMEDCT:1336117005	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001098	Hemophilia B Leyden	skos:exactMatch		omop:1076202	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001098	Hemophilia B Leyden	skos:exactMatch		umls:C5848256	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001099	Herpes gestationis	skos:exactMatch		SNOMEDCT:86081009	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001099	Herpes gestationis	skos:exactMatch		omop:4311256	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001099	Herpes gestationis	skos:exactMatch		DOID:14482	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001099	Herpes gestationis	skos:exactMatch		MONDO:0006558	MONDO	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001099	Herpes gestationis	skos:exactMatch		ncit:C85003	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001099	Herpes gestationis	skos:exactMatch		icd10cm:O26.4	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001099	Herpes gestationis	skos:exactMatch		ORPHA:63275	ORPHA	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001099	Herpes gestationis	skos:exactMatch		umls:C0019343	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001099	Herpes gestationis	skos:exactMatch		mesh:D006559	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001100	Hidradenitis suppurativa	skos:exactMatch		SNOMEDCT:59393003	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001100	Hidradenitis suppurativa	skos:exactMatch		omop:4241223	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001100	Hidradenitis suppurativa	skos:exactMatch		DOID:2280	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001100	Hidradenitis suppurativa	skos:exactMatch		MONDO:0006559	MONDO	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001100	Hidradenitis suppurativa	skos:exactMatch		ncit:C128429	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001100	Hidradenitis suppurativa	skos:exactMatch		icd10cm:L73.2	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001100	Hidradenitis suppurativa	skos:exactMatch		ORPHA:387	ORPHA	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001100	Hidradenitis suppurativa	skos:exactMatch		umls:C0162836	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001100	Hidradenitis suppurativa	skos:exactMatch		mesh:D017497	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001101	Hypersensitivity angiitis	skos:exactMatch		SNOMEDCT:60555002	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001101	Hypersensitivity angiitis	skos:exactMatch		omop:196431	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001101	Hypersensitivity angiitis	skos:exactMatch		DOID:9809	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001101	Hypersensitivity angiitis	skos:exactMatch		MONDO:0001290	MONDO	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001101	Hypersensitivity angiitis	skos:exactMatch		MONDO:0006794	MONDO	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001101	Hypersensitivity angiitis	skos:exactMatch		ncit:C35119	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001101	Hypersensitivity angiitis	skos:exactMatch		icd10cm:M31.0	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001101	Hypersensitivity angiitis	skos:exactMatch		ORPHA:889	ORPHA	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001101	Hypersensitivity angiitis	skos:exactMatch		umls:C0151436	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001101	Hypersensitivity angiitis	skos:exactMatch		mesh:D018366	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001048	Autoimmune thyroiditis	skos:exactMatch		ncit:C27191	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001135	Multiple sclerosis	skos:exactMatch		ORPHA:802	ORPHA	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001028	Autoimmune encephalitis	skos:exactMatch		ncit:C122414	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001028	Autoimmune encephalitis	skos:exactMatch		umls:C5671289	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001028	Autoimmune encephalitis	skos:exactMatch		ORPHA:622014	ORPHA	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001095	Fibromyalgia	skos:exactMatch		umls:C0016053	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001215	Fulminant type 1 diabetes	skos:exactMatch		DOID:9744	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001215	Fulminant type 1 diabetes	skos:exactMatch		MONDO:0005147	MONDO	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001215	Fulminant type 1 diabetes	skos:exactMatch		ncit:C2986	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001215	Fulminant type 1 diabetes	skos:exactMatch		mesh:D003922	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001215	Fulminant type 1 diabetes	skos:exactMatch		ORPHA:243377	ORPHA	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001097	Guillain-Barré syndrome	skos:exactMatch		DOID:12842	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001097	Guillain-Barré syndrome	skos:exactMatch		MONDO:0016218	MONDO	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001097	Guillain-Barré syndrome	skos:exactMatch		ncit:C116345	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001097	Guillain-Barré syndrome	skos:exactMatch		icd10cm:G61.0	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001097	Guillain-Barré syndrome	skos:exactMatch		ORPHA:2103	ORPHA	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001097	Guillain-Barré syndrome	skos:exactMatch		umls:C0018378	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001097	Guillain-Barré syndrome	skos:exactMatch		mesh:D020275	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001216	Hashimoto's thyroiditis	skos:exactMatch		icd10cm:E06.3	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001216	Hashimoto's thyroiditis	skos:exactMatch		umls:C0677607	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001216	Hashimoto's thyroiditis	skos:exactMatch		mesh:D050031	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001096	Graves' disease	skos:exactMatch		umls:C0018213	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001114	Insulin resistance - type B	skos:exactMatch		MONDO:0016464	MONDO	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001114	Insulin resistance - type B	skos:exactMatch		ORPHA:2298	ORPHA	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001112	Inflammatory Bowel Disease	skos:exactMatch		ncit:C3138	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001111	Inclusion body myositis	skos:exactMatch		ncit:C84786	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001109	Immunoglobulin G4 related disease	skos:exactMatch	Not	ORPHA:284264	ORPHA	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001105	Immune checkpoint inhibitor-induced autoimmunity	skos:exactMatch	Not	ncit:C177001	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001105	Immune checkpoint inhibitor-induced autoimmunity	skos:exactMatch	Not	ncit:C223950	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001105	Immune checkpoint inhibitor-induced autoimmunity	skos:exactMatch	Not	ORPHA:714829	ORPHA	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001101	Hypersensitivity angiitis	skos:exactMatch	Not	MONDO:0019509	MONDO	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001028	Autoimmune encephalitis	skos:exactMatch	Not	umls:C0393639	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001215	Fulminant type 1 diabetes	skos:exactMatch	Not	DOID:0080846	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001215	Fulminant type 1 diabetes	skos:exactMatch	Not	DOID:0110761	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001215	Fulminant type 1 diabetes	skos:exactMatch	Not	DOID:0110760	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001215	Fulminant type 1 diabetes	skos:exactMatch	Not	DOID:0110759	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001215	Fulminant type 1 diabetes	skos:exactMatch	Not	DOID:0110758	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001215	Fulminant type 1 diabetes	skos:exactMatch	Not	DOID:0110757	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001215	Fulminant type 1 diabetes	skos:exactMatch	Not	DOID:0110756	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001215	Fulminant type 1 diabetes	skos:exactMatch	Not	DOID:0110755	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001215	Fulminant type 1 diabetes	skos:exactMatch	Not	DOID:0110754	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001215	Fulminant type 1 diabetes	skos:exactMatch	Not	DOID:0110753	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001215	Fulminant type 1 diabetes	skos:exactMatch	Not	DOID:0110752	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001215	Fulminant type 1 diabetes	skos:exactMatch	Not	DOID:0110751	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001215	Fulminant type 1 diabetes	skos:exactMatch	Not	DOID:0110750	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001215	Fulminant type 1 diabetes	skos:exactMatch	Not	DOID:0110749	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001215	Fulminant type 1 diabetes	skos:exactMatch	Not	DOID:0110747	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001215	Fulminant type 1 diabetes	skos:exactMatch	Not	DOID:0110746	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001215	Fulminant type 1 diabetes	skos:exactMatch	Not	DOID:0110745	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001215	Fulminant type 1 diabetes	skos:exactMatch	Not	DOID:0110744	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001215	Fulminant type 1 diabetes	skos:exactMatch	Not	DOID:0110743	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001215	Fulminant type 1 diabetes	skos:exactMatch	Not	DOID:0110742	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001215	Fulminant type 1 diabetes	skos:exactMatch	Not	DOID:0110741	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001215	Fulminant type 1 diabetes	skos:exactMatch	Not	MONDO:0009100	MONDO	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001215	Fulminant type 1 diabetes	skos:exactMatch	Not	mesh:D000071698	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001216	Hashimoto's thyroiditis	skos:exactMatch	Not	DOID:7188	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001216	Hashimoto's thyroiditis	skos:exactMatch	Not	umls:C0920350	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001216	Hashimoto's thyroiditis	skos:exactMatch	Not	mesh:D013967	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001102	Idiopathic membranous glomerulonephritis	skos:exactMatch	Not	DOID:10976	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001110	Immunoglobulin G4 related ophthalmic disease	skos:exactMatch		sssom:NoTermFound	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001110	Immunoglobulin G4 related ophthalmic disease	skos:exactMatch		sssom:NoTermFound	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001110	Immunoglobulin G4 related ophthalmic disease	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001110	Immunoglobulin G4 related ophthalmic disease	skos:exactMatch		sssom:NoTermFound	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch		sssom:NoTermFound	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001102	Idiopathic membranous glomerulonephritis	skos:exactMatch		sssom:NoTermFound	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001105	Immune checkpoint inhibitor-induced autoimmunity	skos:exactMatch		sssom:NoTermFound	SNOMEDCT	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001105	Immune checkpoint inhibitor-induced autoimmunity	skos:exactMatch		sssom:NoTermFound	omop	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001105	Immune checkpoint inhibitor-induced autoimmunity	skos:exactMatch		sssom:NoTermFound	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001105	Immune checkpoint inhibitor-induced autoimmunity	skos:exactMatch		sssom:NoTermFound	MONDO	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001105	Immune checkpoint inhibitor-induced autoimmunity	skos:exactMatch		sssom:NoTermFound	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001105	Immune checkpoint inhibitor-induced autoimmunity	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001105	Immune checkpoint inhibitor-induced autoimmunity	skos:exactMatch		sssom:NoTermFound	ORPHA	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001105	Immune checkpoint inhibitor-induced autoimmunity	skos:exactMatch		sssom:NoTermFound	umls	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001105	Immune checkpoint inhibitor-induced autoimmunity	skos:exactMatch		sssom:NoTermFound	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001098	Hemophilia B Leyden	skos:exactMatch		sssom:NoTermFound	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001098	Hemophilia B Leyden	skos:exactMatch		sssom:NoTermFound	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001098	Hemophilia B Leyden	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001028	Autoimmune encephalitis	skos:exactMatch		sssom:NoTermFound	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001028	Autoimmune encephalitis	skos:exactMatch		sssom:NoTermFound	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001096	Graves' disease	skos:exactMatch		sssom:NoTermFound	ORPHA	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001094	Female infertility due to antisperm antibodies	skos:exactMatch		sssom:NoTermFound	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001094	Female infertility due to antisperm antibodies	skos:exactMatch		sssom:NoTermFound	MONDO	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001094	Female infertility due to antisperm antibodies	skos:exactMatch		sssom:NoTermFound	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001094	Female infertility due to antisperm antibodies	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001094	Female infertility due to antisperm antibodies	skos:exactMatch		sssom:NoTermFound	ORPHA	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001094	Female infertility due to antisperm antibodies	skos:exactMatch		sssom:NoTermFound	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001216	Hashimoto's thyroiditis	skos:exactMatch		sssom:NoTermFound	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001115	Intermediate uveitis	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001114	Insulin resistance - type B	skos:exactMatch		sssom:NoTermFound	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001114	Insulin resistance - type B	skos:exactMatch		sssom:NoTermFound	DOID	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001114	Insulin resistance - type B	skos:exactMatch		sssom:NoTermFound	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001113	Insulin autoimmune syndrome	skos:exactMatch		sssom:NoTermFound	mesh	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001113	Insulin autoimmune syndrome	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001113	Insulin autoimmune syndrome	skos:exactMatch		sssom:NoTermFound	ncit	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001112	Inflammatory Bowel Disease	skos:exactMatch		sssom:NoTermFound	icd10cm	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
+ARI:0001112	Inflammatory Bowel Disease	skos:exactMatch		sssom:NoTermFound	ORPHA	semapv:ManualMappingCuration	github:KrishnaTO	2026-10-04T23:28:12+00:00	
