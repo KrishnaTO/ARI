@@ -11,7 +11,7 @@ other anchor reaches one to four hubs, so only type 1 diabetes changes: DOID and
 reproduces 1,230 of 1,363 live confirmed mappings, the same as before.
 
 Also regenerates the outputs for the ARI#108 review, which merged after #109's regeneration:
-15 predictions change support, 6 new ids get labels, and report 8 has 2528 rows.
+15 predictions change support, 6 new ids get labels, and report 8 grows from 2506 to 2529 rows.
 
 ## edit/KrishnaTO/mappings-review-1791133633 (PR #108)
 
