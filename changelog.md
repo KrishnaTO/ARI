@@ -1,15 +1,5 @@
 # Changelog
 
-## claude/fulminant-t1d-e10
-
-Confirms ICD-10 `E10` (Type 1 diabetes mellitus) as an exact match for `ARI:0001215` Fulminant
-type 1 diabetes, reversing the 2026-08-04 rejection from the #51 review. ICD-10-CM has no code
-for fulminant type 1 diabetes, so it is coded under `E10`. The rejection row is marked
-superseded, `E10` is stored on the record again (#60 had removed it), and the record gains an
-`ARI_ChangeLog` line. `E10` is now confirmed for both this disease and its parent
-`ARI:0001080`. Report 8 is regenerated. Predictions do not change, because `E10` reaches 22 hub
-terms and is never expanded (#111).
-
 ## claude/restore-curator-mappings-1092-1116 (PR #114)
 
 An audit of the history of `ARI:0001092` to `ARI:0001116` across every branch and PR head
