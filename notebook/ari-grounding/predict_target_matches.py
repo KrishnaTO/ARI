@@ -9,7 +9,8 @@ Two prediction routes, both offline:
    cross-references into every other target database. Starting from an anchor
    (a curated `skos:exactMatch`, or a lexical match) the hub term that is or
    cross-references that anchor is located, and its own cross-references become
-   predictions for the remaining databases.
+   predictions for the remaining databases. An anchor shared by more than
+   `MAX_ANCHOR_HUBS` hub terms is too broad to expand.
 
 A candidate the curators already rejected for that disease and database is
 dropped — the rejection is the more recent judgement. So is a candidate the
@@ -254,6 +255,10 @@ def add(ari_id, prefix, local, name, method, evidence, weight):
 
 ORDER = {"xref via curated anchor": 0, "lexical grounding": 1, "xref via lexical anchor": 2}
 ANCHOR_WEIGHT = {"curated": 2, "lexical": 1}
+# An anchor cross-referenced by more hub terms than this is broader than the
+# disease, so it is not expanded. ICD-10 E10 is an xref of 22 hubs (every DOID
+# type 1 diabetes subtype); every other curated or lexical anchor reaches 1-4.
+MAX_ANCHOR_HUBS = 4
 
 for ari_id in sorted(set(confirmed) | set(lexical)):
     anchors = []                                   # (prefix, local, grade, evidence)
@@ -270,7 +275,10 @@ for ari_id in sorted(set(confirmed) | set(lexical)):
     hub_grade = {}
     hub_evidence = {}
     for prefix, local, grade, evidence in anchors:
-        for hub in sorted(xref_to_hub.get((prefix, local), ())):
+        hubs = xref_to_hub.get((prefix, local), ())
+        if len(hubs) > MAX_ANCHOR_HUBS:
+            continue
+        for hub in sorted(hubs):
             hub_score[hub] += ANCHOR_WEIGHT[grade]
             if grade == "curated" or hub not in hub_grade:
                 if hub_grade.get(hub) != "curated":

@@ -82,6 +82,10 @@ arrives with a candidate rather than a blank. Two offline routes feed it:
 Each hub is scored by how many of the disease's own identifiers reach it (curated anchors
 count double), and candidate ranking sums those scores across routes — so a candidate
 corroborated by several hubs outranks one reached through a single broad cross-reference.
+An anchor that more than four hub terms cross-reference (`MAX_ANCHOR_HUBS`) is too broad
+to expand at all: ICD-10 `E10` is an xref of 22 DOID terms, one per type 1 diabetes subtype,
+and would otherwise predict each of them and its OMIM locus (#111). Every other anchor reaches
+one to four hubs.
 Three filters keep the output honest. A term the curators already **rejected** for that
 disease and database is never predicted. Neither is a term they **confirmed for the
 disease's parent or subtype** (`hasParentDisease`), since a term that is exactly one of the
@@ -101,3 +105,8 @@ predictions reproduce the curated term**, 54 name a different one, 78 produce no
 parent/subtype and superseded-row filters the same rows give 1,229 / 55 / 75. Each top match
 those filters lose had been reached only through a hub term the curators rejected for the
 disease, or one confirmed for its subtype.
+
+After the ARI#108 review and the fan-out cap (2026-10-04), over 1,363 live confirmed rows:
+**1,230** reproduce the curated term, 55 name a different one, 78 produce nothing. The cap
+changes none of these; it only removes 20 low-support DOID and 20 OMIM candidates from type 1
+diabetes.
