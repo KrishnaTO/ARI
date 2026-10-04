@@ -383,7 +383,7 @@ ARI	0001095	Fibromyalgia	skos:exactMatch	ORPHA	41842	manual	github:Jennyzeng25
 ARI	0001096	Graves' disease	skos:exactMatch	mesh	D006111	manual	github:Jennyzeng25
 ARI	0001215	Fulminant type 1 diabetes	skos:exactMatch	SNOMEDCT	1217068008	manual-negative	github:Jennyzeng25
 ARI	0001215	Fulminant type 1 diabetes	skos:exactMatch	MONDO	0014523	manual-negative	github:Jennyzeng25
-ARI	0001215	Fulminant type 1 diabetes	skos:exactMatch	icd10cm	E10	manual-negative	github:Jennyzeng25
+ARI	0001215	Fulminant type 1 diabetes	skos:exactMatch	icd10cm	E10	manual	github:Jennyzeng25
 ARI	0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch	omop	28660	manual	github:AnjaliRH
 ARI	0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch	DOID	0090110	manual	github:AnjaliRH
 ARI	0001108	Immunoglobulin A vasculitis	skos:exactMatch	SNOMEDCT	191306005	manual	github:AnjaliRH
@@ -2100,3 +2100,243 @@ ARI	0001047	Autoimmune retinopathy	skos:exactMatch	icd10cm	NoTermFound	manual-ab
 ARI	0001047	Autoimmune retinopathy	skos:exactMatch	ORPHA	NoTermFound	manual-absent	github:KrishnaTO
 ARI	0001047	Autoimmune retinopathy	skos:exactMatch	mesh	NoTermFound	manual-absent	github:KrishnaTO
 ARI	0001045	Autoimmune pulmonary alveolar proteinosis	skos:exactMatch	mesh	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001023	Autoimmune angioedema	skos:exactMatch	DOID	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001023	Autoimmune angioedema	skos:exactMatch	MONDO	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001023	Autoimmune angioedema	skos:exactMatch	ncit	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001023	Autoimmune angioedema	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001023	Autoimmune angioedema	skos:exactMatch	ORPHA	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001023	Autoimmune angioedema	skos:exactMatch	umls	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001023	Autoimmune angioedema	skos:exactMatch	mesh	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001024	Autoimmune cerebellar ataxia	skos:exactMatch	SNOMEDCT	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001024	Autoimmune cerebellar ataxia	skos:exactMatch	omop	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001024	Autoimmune cerebellar ataxia	skos:exactMatch	DOID	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001024	Autoimmune cerebellar ataxia	skos:exactMatch	MONDO	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001024	Autoimmune cerebellar ataxia	skos:exactMatch	ncit	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001024	Autoimmune cerebellar ataxia	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001024	Autoimmune cerebellar ataxia	skos:exactMatch	ORPHA	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001024	Autoimmune cerebellar ataxia	skos:exactMatch	umls	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001024	Autoimmune cerebellar ataxia	skos:exactMatch	mesh	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001025	Autoimmune diabetes insipidus (neurogenic)	skos:exactMatch	SNOMEDCT	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001025	Autoimmune diabetes insipidus (neurogenic)	skos:exactMatch	omop	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001025	Autoimmune diabetes insipidus (neurogenic)	skos:exactMatch	DOID	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001025	Autoimmune diabetes insipidus (neurogenic)	skos:exactMatch	MONDO	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001025	Autoimmune diabetes insipidus (neurogenic)	skos:exactMatch	ncit	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001025	Autoimmune diabetes insipidus (neurogenic)	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001025	Autoimmune diabetes insipidus (neurogenic)	skos:exactMatch	ORPHA	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001025	Autoimmune diabetes insipidus (neurogenic)	skos:exactMatch	umls	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001025	Autoimmune diabetes insipidus (neurogenic)	skos:exactMatch	mesh	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001027	Autoimmune disorder of inner ear	skos:exactMatch	DOID	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001027	Autoimmune disorder of inner ear	skos:exactMatch	MONDO	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001027	Autoimmune disorder of inner ear	skos:exactMatch	ncit	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001027	Autoimmune disorder of inner ear	skos:exactMatch	ORPHA	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001029	Autoimmune encephalitis caused by N-methyl D-aspartate receptor antibody	skos:exactMatch	DOID	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001029	Autoimmune encephalitis caused by N-methyl D-aspartate receptor antibody	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001030	Autoimmune ganglionopathy	skos:exactMatch	DOID	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001030	Autoimmune ganglionopathy	skos:exactMatch	ncit	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001030	Autoimmune ganglionopathy	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001030	Autoimmune ganglionopathy	skos:exactMatch	ORPHA	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001030	Autoimmune ganglionopathy	skos:exactMatch	mesh	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001031	Autoimmune gastritis	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001031	Autoimmune gastritis	skos:exactMatch	ORPHA	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001031	Autoimmune gastritis	skos:exactMatch	mesh	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001033	Autoimmune hepatitis	skos:exactMatch	umls	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001036	Autoimmune-Inflammatory Syndrome Induced by Adjuvants	skos:exactMatch	omop	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001037	Autoimmune limbic encephalitis	skos:exactMatch	DOID	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001037	Autoimmune limbic encephalitis	skos:exactMatch	ncit	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001037	Autoimmune limbic encephalitis	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001041	Autoimmune oophoritis	skos:exactMatch	SNOMEDCT	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001041	Autoimmune oophoritis	skos:exactMatch	omop	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001042	Autoimmune optic neuropathy	skos:exactMatch	DOID	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001042	Autoimmune optic neuropathy	skos:exactMatch	ncit	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001042	Autoimmune optic neuropathy	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001042	Autoimmune optic neuropathy	skos:exactMatch	mesh	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001048	Autoimmune thyroiditis	skos:exactMatch	ncit	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001048	Autoimmune thyroiditis	skos:exactMatch	ORPHA	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001055	Bickerstaff's brainstem encephalitis	skos:exactMatch	DOID	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001055	Bickerstaff's brainstem encephalitis	skos:exactMatch	ncit	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001055	Bickerstaff's brainstem encephalitis	skos:exactMatch	mesh	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001056	Birdshot chorioretinopathy	skos:exactMatch	SNOMEDCT	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001056	Birdshot chorioretinopathy	skos:exactMatch	omop	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001056	Birdshot chorioretinopathy	skos:exactMatch	DOID	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001056	Birdshot chorioretinopathy	skos:exactMatch	ORPHA	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001059	Calcinosis due to childhood type dermatomyositis	skos:exactMatch	DOID	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001059	Calcinosis due to childhood type dermatomyositis	skos:exactMatch	MONDO	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001059	Calcinosis due to childhood type dermatomyositis	skos:exactMatch	ncit	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001059	Calcinosis due to childhood type dermatomyositis	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001059	Calcinosis due to childhood type dermatomyositis	skos:exactMatch	ORPHA	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001059	Calcinosis due to childhood type dermatomyositis	skos:exactMatch	mesh	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001075	CTLA4 haploinsufficiency	skos:exactMatch	ORPHA	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001077	Cutaneous mastocytosis	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001079	Dermatomyositis	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001088	Episcleritis	skos:exactMatch	DOID	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001088	Episcleritis	skos:exactMatch	MONDO	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001088	Episcleritis	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001088	Episcleritis	skos:exactMatch	ORPHA	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001088	Episcleritis	skos:exactMatch	mesh	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001089	Erythema nodosum	skos:exactMatch	ncit	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001089	Erythema nodosum	skos:exactMatch	ORPHA	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001089	Erythema nodosum	skos:exactMatch	umls	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001090	Essential mixed cryoglobulinemia	skos:exactMatch	mesh	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001117	Juvenile Rheumatoid Arthritis	skos:exactMatch	DOID	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001117	Juvenile Rheumatoid Arthritis	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001117	Juvenile Rheumatoid Arthritis	skos:exactMatch	ORPHA	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001117	Juvenile Rheumatoid Arthritis	skos:exactMatch	umls	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001119	Lichen sclerosus	skos:exactMatch	DOID	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001120	Ligneous conjunctivitis	skos:exactMatch	DOID	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001120	Ligneous conjunctivitis	skos:exactMatch	mesh	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001121	Limbic encephalitis	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001121	Limbic encephalitis	skos:exactMatch	ORPHA	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001126	Lupus vasculitis	skos:exactMatch	DOID	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001126	Lupus vasculitis	skos:exactMatch	MONDO	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001126	Lupus vasculitis	skos:exactMatch	ncit	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001126	Lupus vasculitis	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001126	Lupus vasculitis	skos:exactMatch	ORPHA	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001126	Lupus vasculitis	skos:exactMatch	umls	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001126	Lupus vasculitis	skos:exactMatch	mesh	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001127	Male infertility associated with antisperm antibodies	skos:exactMatch	DOID	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001127	Male infertility associated with antisperm antibodies	skos:exactMatch	MONDO	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001127	Male infertility associated with antisperm antibodies	skos:exactMatch	ncit	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001127	Male infertility associated with antisperm antibodies	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001127	Male infertility associated with antisperm antibodies	skos:exactMatch	ORPHA	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001127	Male infertility associated with antisperm antibodies	skos:exactMatch	umls	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001127	Male infertility associated with antisperm antibodies	skos:exactMatch	mesh	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001129	Microscopic polyangiitis	skos:exactMatch	DOID	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001129	Microscopic polyangiitis	skos:exactMatch	umls	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001138	Myocarditis due to autoimmune disease	skos:exactMatch	DOID	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001138	Myocarditis due to autoimmune disease	skos:exactMatch	ncit	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001138	Myocarditis due to autoimmune disease	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001138	Myocarditis due to autoimmune disease	skos:exactMatch	ORPHA	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001138	Myocarditis due to autoimmune disease	skos:exactMatch	mesh	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001139	Myositis	skos:exactMatch	ORPHA	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001140	Necrotizing vasculitis	skos:exactMatch	DOID	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001140	Necrotizing vasculitis	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001140	Necrotizing vasculitis	skos:exactMatch	ORPHA	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001140	Necrotizing vasculitis	skos:exactMatch	mesh	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001145	Ocular myasthenia gravis	skos:exactMatch	DOID	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001145	Ocular myasthenia gravis	skos:exactMatch	ncit	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001145	Ocular myasthenia gravis	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001145	Ocular myasthenia gravis	skos:exactMatch	ORPHA	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001145	Ocular myasthenia gravis	skos:exactMatch	umls	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001145	Ocular myasthenia gravis	skos:exactMatch	mesh	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001146	Ophthalmoplegia due to Graves' disease	skos:exactMatch	MONDO	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001146	Ophthalmoplegia due to Graves' disease	skos:exactMatch	ncit	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001146	Ophthalmoplegia due to Graves' disease	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001146	Ophthalmoplegia due to Graves' disease	skos:exactMatch	ORPHA	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001146	Ophthalmoplegia due to Graves' disease	skos:exactMatch	umls	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001147	Opsoclonus-myoclonus syndrome	skos:exactMatch	DOID	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001147	Opsoclonus-myoclonus syndrome	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001148	Palindromic rheumatism	skos:exactMatch	ORPHA	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001149	Paraneoplastic cerebellar degeneration	skos:exactMatch	DOID	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001149	Paraneoplastic cerebellar degeneration	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001150	Paraneoplastic pemphigus	skos:exactMatch	SNOMEDCT	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001150	Paraneoplastic pemphigus	skos:exactMatch	ncit	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001150	Paraneoplastic pemphigus	skos:exactMatch	mesh	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001151	Paroxysmal cold hemoglobinuria	skos:exactMatch	DOID	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001151	Paroxysmal cold hemoglobinuria	skos:exactMatch	ncit	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001151	Paroxysmal cold hemoglobinuria	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001152	Paroxysmal nocturnal hemoglobinuria	skos:exactMatch	mesh	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001153	Pediatric autoimmune neuropsychiatric disorder associated with streptococcal infection	skos:exactMatch	DOID	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001153	Pediatric autoimmune neuropsychiatric disorder associated with streptococcal infection	skos:exactMatch	ncit	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001153	Pediatric autoimmune neuropsychiatric disorder associated with streptococcal infection	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001154	Pemphigus	skos:exactMatch	ORPHA	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001155	POEMS syndrome	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001163	Postmyocardial infarction syndrome	skos:exactMatch	ncit	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001163	Postmyocardial infarction syndrome	skos:exactMatch	ORPHA	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001163	Postmyocardial infarction syndrome	skos:exactMatch	mesh	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001164	Postural orthostatic tachycardia syndrome	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001165	Primary acquired chylomicronemia	skos:exactMatch	DOID	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001165	Primary acquired chylomicronemia	skos:exactMatch	MONDO	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001165	Primary acquired chylomicronemia	skos:exactMatch	ncit	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001165	Primary acquired chylomicronemia	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001165	Primary acquired chylomicronemia	skos:exactMatch	ORPHA	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001165	Primary acquired chylomicronemia	skos:exactMatch	umls	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001165	Primary acquired chylomicronemia	skos:exactMatch	mesh	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001167	Primary idiopathic dilated cardiomyopathy	skos:exactMatch	DOID	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001167	Primary idiopathic dilated cardiomyopathy	skos:exactMatch	MONDO	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001167	Primary idiopathic dilated cardiomyopathy	skos:exactMatch	ncit	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001167	Primary idiopathic dilated cardiomyopathy	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001167	Primary idiopathic dilated cardiomyopathy	skos:exactMatch	ORPHA	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001167	Primary idiopathic dilated cardiomyopathy	skos:exactMatch	mesh	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001170	Progressive hemifacial atrophy	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001173	Pure red cell aplasia	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001173	Pure red cell aplasia	skos:exactMatch	ORPHA	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001174	Pyoderma gangrenosum	skos:exactMatch	ncit	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001175	Rasmussen syndrome	skos:exactMatch	DOID	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001175	Rasmussen syndrome	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001176	Secondary Raynaud's phenomenon	skos:exactMatch	MONDO	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001176	Secondary Raynaud's phenomenon	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001176	Secondary Raynaud's phenomenon	skos:exactMatch	ORPHA	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001176	Secondary Raynaud's phenomenon	skos:exactMatch	umls	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001176	Secondary Raynaud's phenomenon	skos:exactMatch	mesh	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001213	Morvan syndrome	skos:exactMatch	mesh	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	omop	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	ncit	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	ORPHA	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001102	Idiopathic membranous glomerulonephritis	skos:exactMatch	umls	C0086445	manual	github:AnjaliRH
+ARI	0001107	Immune thrombocytopenia	skos:exactMatch	MONDO	0002048	manual	github:AnjaliRH
+ARI	0001107	Immune thrombocytopenia	skos:exactMatch	ORPHA	3002	manual	github:AnjaliRH
+ARI	0001107	Immune thrombocytopenia	skos:exactMatch	OMIM	188030	manual	github:AnjaliRH
+ARI	0001108	Immunoglobulin A vasculitis	skos:exactMatch	MONDO	0019167	manual	github:AnjaliRH
+ARI	0001108	Immunoglobulin A vasculitis	skos:exactMatch	ORPHA	761	manual	github:AnjaliRH
+ARI	0001109	Immunoglobulin G4 related disease	skos:exactMatch	mesh	D000077733	manual	github:AnjaliRH
+ARI	0001109	Immunoglobulin G4 related disease	skos:exactMatch	icd10cm	D89.84	manual	github:AnjaliRH
+ARI	0001109	Immunoglobulin G4 related disease	skos:exactMatch	umls	C4087124	manual	github:AnjaliRH
+ARI	0001110	Immunoglobulin G4 related ophthalmic disease	skos:exactMatch	ORPHA	449563	manual	github:AnjaliRH
+ARI	0001110	Immunoglobulin G4 related ophthalmic disease	skos:exactMatch	umls	C5569009	manual	github:AnjaliRH
+ARI	0001111	Inclusion body myositis	skos:exactMatch	MONDO	0007827	manual	github:AnjaliRH
+ARI	0001111	Inclusion body myositis	skos:exactMatch	ORPHA	611	manual	github:AnjaliRH
+ARI	0001111	Inclusion body myositis	skos:exactMatch	OMIM	147421	manual	github:AnjaliRH
+ARI	0001112	Inflammatory Bowel Disease	skos:exactMatch	MONDO	0005265	manual	github:AnjaliRH
+ARI	0001113	Insulin autoimmune syndrome	skos:exactMatch	MONDO	0018465	manual	github:AnjaliRH
+ARI	0001113	Insulin autoimmune syndrome	skos:exactMatch	ORPHA	411593	manual	github:AnjaliRH
+ARI	0001114	Insulin resistance - type B	skos:exactMatch	icd10cm	E88.818	manual	github:AnjaliRH
+ARI	0001114	Insulin resistance - type B	skos:exactMatch	umls	C0342337	manual	github:AnjaliRH
+ARI	0001115	Intermediate uveitis	skos:exactMatch	MONDO	0006806	manual	github:AnjaliRH
+ARI	0001115	Intermediate uveitis	skos:exactMatch	ORPHA	279914	manual	github:AnjaliRH
+ARI	0001116	Interstitial lung disease	skos:exactMatch	MONDO	0015925	manual	github:AnjaliRH
+ARI	0001116	Interstitial lung disease	skos:exactMatch	ORPHA	182095	manual	github:AnjaliRH
+ARI	0001109	Immunoglobulin G4 related disease	skos:exactMatch	MONDO	0017287	manual	github:AnjaliRH
+ARI	0001109	Immunoglobulin G4 related disease	skos:exactMatch	DOID	0080356	manual	github:KrishnaTO
+ARI	0001131	Mooren's ulcer	skos:exactMatch	mesh	D003320	manual-negative	github:KrishnaTO
+ARI	0001131	Mooren's ulcer	skos:exactMatch	ncit	C50515	manual-negative	github:KrishnaTO
+ARI	0001131	Mooren's ulcer	skos:exactMatch	mesh	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001131	Mooren's ulcer	skos:exactMatch	ncit	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001135	Multiple sclerosis	skos:exactMatch	icd10cm	G35	manual	github:KrishnaTO
+ARI	0001135	Multiple sclerosis	skos:exactMatch	mesh	D009103	manual	github:KrishnaTO
+ARI	0001135	Multiple sclerosis	skos:exactMatch	umls	C0026769	manual	github:KrishnaTO
+ARI	0001157	Polyglandular autoimmune syndrome type 1	skos:exactMatch	mesh	C538275	manual	github:KrishnaTO
+ARI	0001158	Polyglandular autoimmune syndrome type 2	skos:exactMatch	DOID	0050168	manual	github:KrishnaTO
+ARI	0001158	Polyglandular autoimmune syndrome type 2	skos:exactMatch	ncit	C129728	manual	github:KrishnaTO
+ARI	0001158	Polyglandular autoimmune syndrome type 2	skos:exactMatch	umls	C0085860	manual	github:KrishnaTO
+ARI	0001143	Neuromyelitis optica	skos:exactMatch	umls	C0027873	manual	github:KrishnaTO
+ARI	0001158	Polyglandular autoimmune syndrome type 2	skos:exactMatch	icd10cm	E31.0	manual-negative	github:KrishnaTO
+ARI	0001158	Polyglandular autoimmune syndrome type 2	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001194	Subacute bacterial endocarditis	skos:exactMatch	icd10cm	I33.0	manual-negative	github:KrishnaTO
+ARI	0001201	Temporal arteritis	skos:exactMatch	icd10cm	M31.6	manual	github:KrishnaTO
+ARI	0001206	Undifferentiated connective tissue disease	skos:exactMatch	icd10cm	M35.9	manual	github:KrishnaTO
+ARI	0001207	Urticarial vasculitis	skos:exactMatch	umls	C1304408	manual	github:KrishnaTO
+ARI	0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	SNOMEDCT	426875007	manual	github:KrishnaTO
+ARI	0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	DOID	0080846	manual	github:KrishnaTO
+ARI	0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	MONDO	0850306	manual	github:KrishnaTO
+ARI	0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	umls	C1739108	manual	github:KrishnaTO
+ARI	0001214	Latent autoimmune diabetes in adults (LADA)	skos:exactMatch	omop	4145827	manual	github:KrishnaTO
+ARI	0001215	Fulminant type 1 diabetes	skos:exactMatch	SNOMEDCT	1217068008	manual	github:KrishnaTO
+ARI	0001073	Crohn's disease	skos:exactMatch	umls	C0010346	manual	github:KrishnaTO
+ARI	0001073	Crohn's disease	skos:exactMatch	OMIM	266600	manual-negative	github:KrishnaTO
+ARI	0001074	Cryptogenic organizing pneumonia	skos:exactMatch	icd10cm	J84.116	manual	github:KrishnaTO
+ARI	0001074	Cryptogenic organizing pneumonia	skos:exactMatch	mesh	D018549	manual	github:KrishnaTO
+ARI	0001074	Cryptogenic organizing pneumonia	skos:exactMatch	ncit	C62586	manual	github:KrishnaTO
+ARI	0001074	Cryptogenic organizing pneumonia	skos:exactMatch	umls	C0242770	manual	github:KrishnaTO
+ARI	0001076	Cutaneous lupus erythematosus	skos:exactMatch	icd10cm	L93.0	manual-negative	github:KrishnaTO
+ARI	0001076	Cutaneous lupus erythematosus	skos:exactMatch	icd10cm	L93	manual	github:KrishnaTO
+ARI	0001076	Cutaneous lupus erythematosus	skos:exactMatch	ORPHA	535	manual-negative	github:KrishnaTO
+ARI	0001076	Cutaneous lupus erythematosus	skos:exactMatch	ORPHA	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001053	Behçet's syndrome	skos:exactMatch	OMIM	109650	manual	github:KrishnaTO
+ARI	0001061	Celiac disease	skos:exactMatch	OMIM	212750	manual	github:KrishnaTO
+ARI	0001012	Ankylosing spondylitis	skos:exactMatch	OMIM	106300	manual-negative	github:KrishnaTO
+ARI	0001014	Anti-glomerular basement membrane disease	skos:exactMatch	OMIM	233450	manual	github:KrishnaTO
+ARI	0001020	Aortic valve calcification	skos:exactMatch	mesh	C562942	manual	github:KrishnaTO
+ARI	0001021	Aplastic anemia	skos:exactMatch	ORPHA	164823	manual	github:KrishnaTO
+ARI	0001030	Autoimmune ganglionopathy	skos:exactMatch	umls	C5395071	manual	github:KrishnaTO
+ARI	0001033	Autoimmune hepatitis	skos:exactMatch	ncit	C27029	manual	github:KrishnaTO

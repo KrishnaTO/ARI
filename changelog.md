@@ -1,5 +1,153 @@
 # Changelog
 
+## claude/fulminant-t1d-e10-equivalencies
+
+Credits the `E10` confirmation on `ARI:0001215` Fulminant type 1 diabetes to Jennyzeng25's
+original 2026-08-04 row instead of a separate KrishnaTO row. In both `ari.equivalencies.tsv`
+and `ari.sssom.tsv`, Jennyzeng25's row becomes a confirmed match (`manual`, no `Not`, no
+"Superseded" note) and the KrishnaTO row from #115 is removed. The validator requires the two
+exports to match row for row. Report 8 is regenerated. The record's `ARI_ChangeLog` line from
+#115 is kept as history.
+
+## claude/fulminant-t1d-e10
+
+Confirms ICD-10 `E10` (Type 1 diabetes mellitus) as an exact match for `ARI:0001215` Fulminant
+type 1 diabetes, reversing the 2026-08-04 rejection from the #51 review. ICD-10-CM has no code
+for fulminant type 1 diabetes, so it is coded under `E10`. The rejection row is marked
+superseded, `E10` is stored on the record again (#60 had removed it), and the record gains an
+`ARI_ChangeLog` line. `E10` is now confirmed for both this disease and its parent
+`ARI:0001080`. Report 8 is regenerated. Predictions do not change, because `E10` reaches 22 hub
+terms and is never expanded (#111).
+
+## claude/restore-curator-mappings-1092-1116 (PR #114)
+
+An audit of the history of `ARI:0001092` to `ARI:0001116` across every branch and PR head
+found curator mappings that were lost or never written to the mapping set. This adds 25 rows
+to both mapping exports.
+
+- **Restored MONDO `0017287` on `ARI:0001109`** (IgG4-related disease). AnjaliRH entered it on
+  2026-08-03 at 18:07 UTC. Her stale editor save at 18:43 (`e9919b5`) removed it, along with
+  MONDO on eight other diseases and six IPEX ids. The others came back (re-entered on 08-07,
+  or restored in `1ccffdf`), but this one did not. The id is stored again and has its mapping
+  row, credited to AnjaliRH.
+- **Recorded 23 ids that AnjaliRH entered through the field editor between 2026-08-07 and
+  2026-08-10.** They were stored on the diseases (`ARI_*`), but no review ever wrote a mapping
+  row for them. They cover MONDO, Orphanet, OMIM, MeSH, ICD-10 and UMLS on `ARI:0001102` and
+  `ARI:0001107` to `ARI:0001116`. Each row is credited to AnjaliRH and dated by the
+  `Edited: <field>` changelog entry that stored it.
+- **Reversed the rejection of DOID `0080356` on `ARI:0001109`.** DOID labels it
+  "IgG4-related disease", and MONDO `0017287` cross-references it. The curator's `Not` row is
+  marked superseded, and a confirmation credited to `github:KrishnaTO` is added.
+- **Rejected MeSH `D003320` and NCIt `C50515` on `ARI:0001131`** (Mooren's ulcer). Both are
+  "Corneal Ulcer", which is broader than the disease. They were entered in the field editor on
+  2026-09-07 but never confirmed. Both are removed from the record. Neither vocabulary has a
+  Mooren's ulcer term, so each gets a `sssom:NoTermFound` row.
+- **Confirmed ICD-10 `G35`, MeSH `D009103` and UMLS `C0026769` on `ARI:0001135`** (Multiple
+  sclerosis). They were stored at import and the ARI#76 review did not cover them.
+- **Confirmed five stored ids that no review had recorded.** MeSH `C538275` on `ARI:0001157`
+  and DOID `0050168`, NCIt `C129728` and UMLS `C0085860` on `ARI:0001158` were entered in the
+  field editor on 2026-09-07. UMLS `C0027873` on `ARI:0001143` (Neuromyelitis optica) was
+  stored at import. MONDO cross-references every one of them from the disease's confirmed
+  MONDO term.
+- **Rejected ICD-10 `E31.0` on `ARI:0001158`** (Polyglandular autoimmune syndrome type 2).
+  "Autoimmune polyglandular failure" is not specific to type 2, and types 1, 3 and 4 record no
+  ICD-10 term. It is removed from the record and replaced by a `sssom:NoTermFound` row.
+- **Confirmed stored ids that no review had recorded:**
+  - ICD-10 `M31.6` on `ARI:0001201` Temporal arteritis
+  - ICD-10 `M35.9` on `ARI:0001206` Undifferentiated connective tissue disease
+  - UMLS `C1304408` on `ARI:0001207` Urticarial vasculitis
+  - SNOMED `426875007`, DOID `0080846`, MONDO `0850306` and UMLS `C1739108` on `ARI:0001214`
+    LADA
+
+  The first three were entered in the field editor on 2026-09-07; LADA's four on 09-09 and
+  09-20.
+- **Confirmed OMOP `4145827` on LADA.** It is the standard concept for SNOMED `426875007`, so
+  #112's "no term in OMOP" row for LADA is marked superseded.
+- **Rejected ICD-10 `I33.0` on `ARI:0001194`** (Subacute bacterial endocarditis). "Acute and
+  subacute infective endocarditis" is broader, and the 2026-09-07 review recorded no ICD-10
+  term. The code is removed from the record.
+- **Reversed the rejection of SNOMED `1217068008` on `ARI:0001215`** (Fulminant type 1
+  diabetes). SNOMED labels it "Fulminant type 1 diabetes mellitus", and OMOP `37163452`, which
+  the same review confirmed, is this concept. The id is stored again.
+- **Judged the ids entered in the field editor on 2026-08-16 that no review recorded.**
+  - Confirmed UMLS `C0010346` on `ARI:0001073` Crohn's disease.
+  - Confirmed ICD-10 `J84.116`, MeSH `D018549`, NCIt `C62586` and UMLS `C0242770` on
+    `ARI:0001074` Cryptogenic organizing pneumonia. MONDO cross-references each of them.
+  - Rejected OMIM `266600` on Crohn's disease. It is a susceptibility-locus entry that also
+    names ulcerative colitis.
+  - Rejected ICD-10 `L93.0` (Discoid lupus erythematosus, a subtype) on `ARI:0001076`
+    Cutaneous lupus erythematosus, and confirmed the `L93` category in its place.
+  - Rejected Orphanet `535` ("Rare cutaneous lupus erythematosus", a grouping) on the same
+    disease. Orphanet has no general term, so it gets a `sssom:NoTermFound` row.
+
+  The rejected ids are removed from the records.
+- **Confirmed two OMIM ids that no review had recorded.**
+  - OMIM `109650` on `ARI:0001053` Behçet's syndrome (entered 2026-07-11). MONDO
+    cross-references it.
+  - OMIM `212750` on `ARI:0001061` Celiac disease (entered 2026-08-03). MONDO
+    cross-references the 212750 phenotypic series.
+- **Judged six more ids that were stored on the disease but never recorded:**
+  - Confirmed OMIM `233450` on `ARI:0001014` Anti-glomerular basement membrane disease.
+  - Confirmed MeSH `C562942` on `ARI:0001020` Aortic valve calcification.
+  - Confirmed Orphanet `164823` ("Rare acquired aplastic anemia") on `ARI:0001021` Aplastic
+    anemia.
+  - Confirmed UMLS `C5395071` on `ARI:0001030` Autoimmune ganglionopathy.
+  - Confirmed NCIt `C27029` on `ARI:0001033` Autoimmune hepatitis.
+  - Rejected OMIM `106300` on `ARI:0001012` Ankylosing spondylitis, a susceptibility-locus
+    entry that MONDO does not link. It is removed from the record.
+- Further audits covered every other disease, `ARI:0001001` to `ARI:0001091` and `ARI:0001117`
+  to `ARI:0001216`, and found no lost mappings. Every other removal came from the ICD-9
+  cleanup, a documented PR review, the retirement of `ARI:0001168`, or the removal of the
+  generic "Autoimmune disease" entry `ARI:0001026` in June. OMOP `37365579` on `ARI:0001065`
+  remains unjudged, as `e97cde9` left it, until it can be looked up in Athena.
+  `ARI:0001028` Autoimmune encephalitis has not been reviewed for DOID, NCIt, Orphanet, UMLS
+  or MeSH.
+- Still for a curator on `ARI:0001215`: the stored UMLS `C2349037` could not be verified, the
+  DOID "no term" judgment was deleted in `1cad398`, and NCIt, Orphanet and MeSH were never
+  reviewed. `ARI:0001216` Hashimoto's thyroiditis has not yet been reviewed for DOID, UMLS,
+  MeSH or ICD-10.
+- Each touched record gains an `ARI_ChangeLog` line. Predictions, target labels and report 8
+  are regenerated on top of the #113 prediction fan-out cap.
+- Not changed, and needing a curator: the five "no term" judgments deleted as `null` rows in
+  `1cad398` (`ARI:0001094` DOID, `ARI:0001105` MeSH, `ARI:0001108` OMIM, `ARI:0001110` and
+  `ARI:0001113` MeSH), and the never-reviewed `ARI:0001099` to `ARI:0001101` and `ARI:0001105`.
+  The #49 suggestion of MeSH `C580192` for `ARI:0001105` is not restored. It is the IPEX
+  descriptor, which belongs to `ARI:0001106`.
+
+## claude/prediction-fanout-cap
+
+Fixes #111. `predict_target_matches.py` no longer expands an anchor that more than four
+Mondo/DOID hub terms cross-reference (`MAX_ANCHOR_HUBS = 4`). The curated ICD-10 `E10` on
+`ARI:0001080` Type 1 diabetes mellitus reaches 22 hubs, including every DOID type 1 diabetes
+subtype, so it predicted 20 extra DOID subtypes and their 20 OMIM susceptibility loci. Every
+other anchor reaches one to four hubs, so only type 1 diabetes changes: DOID and OMIM drop to
+`9744` and `222100`, and its other keys lose the support `E10` added. The top prediction still
+reproduces 1,230 of 1,363 live confirmed mappings, the same as before.
+
+Also regenerates the outputs for the ARI#108 review and the #112 "no term" backfill, both
+merged without a rerun: 15 predictions change support, 6 new ids get labels, and report 8
+grows from 2506 to 2603 rows (1363 confirmed, 471 rejected, 429 no term, 340 not reviewed).
+#112 changes report 8 only.
+
+## claude/disease-mapping-gaps-prs-cd484c
+
+Records "no term in database" for the 146 diseases reviewed in the curator mappings reviews
+ARI#88, #89 and #92-#96. A disease gets a no-term row wherever a vocabulary has no confirmed
+mapping, no id stored on the record, and no existing no-term row. Counted after ARI#108, that
+is 173 rows across 54 diseases. 74 are in vocabularies where the review rejected every
+candidate (Anti-CASPR2 autoimmune encephalitis, Autoimmune cerebellar ataxia and Autoimmune
+diabetes insipidus had no mapping left at all). The other 99 are in vocabularies where no
+candidate was ever offered. OMIM is left out, because it is a Mendelian catalogue these
+diseases mostly have no entry in.
+
+- Each row is `sssom:NoTermFound` / `manual-absent`, credited to `github:KrishnaTO`, with the
+  comment `No term confirmed in the ARI#<n> mappings review.` Rows are added to
+  `mappings/ari.sssom.tsv` and `mappings/ari.equivalencies.tsv`.
+- Each of the 54 records gains one `ARI_ChangeLog` line in the editor's format
+  (`Cross-reference review: no term in DOID; no term in NCI; ...`).
+- `ARI:0002` from ARI#88 is counted under its current id, `ARI:0001214` (LADA). Ids stored on a
+  record without an SSSOM row (e.g. LADA's SNOMED, DOID, MONDO and UMLS) count as mappings.
+
 ## edit/KrishnaTO/mappings-review-1791133633 (PR #108)
 
 Editor mappings review covering 16 diseases. It adds 51 "no term" markers, confirms UMLS

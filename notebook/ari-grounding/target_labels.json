@@ -199,86 +199,6 @@
   "immune dysregulation-polyendocrinopathy-enteropathy-X-linked syndrome",
   "doid.owl"
  ],
- "DOID:0110741": [
-  "type 1 diabetes mellitus 2",
-  "doid.owl"
- ],
- "DOID:0110742": [
-  "type 1 diabetes mellitus 3",
-  "doid.owl"
- ],
- "DOID:0110743": [
-  "type 1 diabetes mellitus 4",
-  "doid.owl"
- ],
- "DOID:0110744": [
-  "type 1 diabetes mellitus 5",
-  "doid.owl"
- ],
- "DOID:0110745": [
-  "type 1 diabetes mellitus 6",
-  "doid.owl"
- ],
- "DOID:0110746": [
-  "type 1 diabetes mellitus 7",
-  "doid.owl"
- ],
- "DOID:0110747": [
-  "type 1 diabetes mellitus 8",
-  "doid.owl"
- ],
- "DOID:0110749": [
-  "type 1 diabetes mellitus 10",
-  "doid.owl"
- ],
- "DOID:0110750": [
-  "type 1 diabetes mellitus 11",
-  "doid.owl"
- ],
- "DOID:0110751": [
-  "type 1 diabetes mellitus 12",
-  "doid.owl"
- ],
- "DOID:0110752": [
-  "type 1 diabetes mellitus 13",
-  "doid.owl"
- ],
- "DOID:0110753": [
-  "type 1 diabetes mellitus 15",
-  "doid.owl"
- ],
- "DOID:0110754": [
-  "type 1 diabetes mellitus 17",
-  "doid.owl"
- ],
- "DOID:0110755": [
-  "type 1 diabetes mellitus 18",
-  "doid.owl"
- ],
- "DOID:0110756": [
-  "type 1 diabetes mellitus 19",
-  "doid.owl"
- ],
- "DOID:0110757": [
-  "type 1 diabetes mellitus 20",
-  "doid.owl"
- ],
- "DOID:0110758": [
-  "type 1 diabetes mellitus 21",
-  "doid.owl"
- ],
- "DOID:0110759": [
-  "type 1 diabetes mellitus 22",
-  "doid.owl"
- ],
- "DOID:0110760": [
-  "type 1 diabetes mellitus 23",
-  "doid.owl"
- ],
- "DOID:0110761": [
-  "type 1 diabetes mellitus 24",
-  "doid.owl"
- ],
  "DOID:0110892": [
   "inflammatory bowel disease 1",
   "doid.owl"
@@ -349,6 +269,10 @@
  ],
  "DOID:11335": [
   "sarcoidosis",
+  "doid.owl"
+ ],
+ "DOID:11563": [
+  "retinal vasculitis",
   "doid.owl"
  ],
  "DOID:11656": [
@@ -743,6 +667,10 @@
   "Crohn&apos;s disease",
   "doid.owl"
  ],
+ "DOID:8857": [
+  "lupus erythematosus",
+  "doid.owl"
+ ],
  "DOID:8869": [
   "neuromyelitis optica",
   "doid.owl"
@@ -859,12 +787,20 @@
   "balanitis xerotica obliterans",
   "mondo.obo"
  ],
+ "MONDO:0002048": [
+  "thrombocytopenia due to immune destruction",
+  "mondo.obo"
+ ],
  "MONDO:0003004": [
   "macular degeneration",
   "mondo.obo"
  ],
  "MONDO:0004004": [
   "motor nerve neuritis",
+  "mondo.obo"
+ ],
+ "MONDO:0004670": [
+  "lupus erythematosus",
   "mondo.obo"
  ],
  "MONDO:0005011": [
@@ -1027,6 +963,10 @@
   "intermediate uveitis",
   "mondo.obo"
  ],
+ "MONDO:0006950": [
+  "retinal vasculitis",
+  "mondo.obo"
+ ],
  "MONDO:0006981": [
   "subacute bacterial endocarditis",
   "mondo.obo"
@@ -1121,6 +1061,10 @@
  ],
  "MONDO:0008718": [
   "Morvan syndrome",
+  "mondo.obo"
+ ],
+ "MONDO:0008930": [
+  "celiac disease, susceptibility to, 1",
   "mondo.obo"
  ],
  "MONDO:0009009": [
@@ -1279,6 +1223,10 @@
   "limbic encephalitis with LGI1 antibodies",
   "mondo.obo"
  ],
+ "MONDO:0015610": [
+  "acquired aplastic anemia",
+  "mondo.obo"
+ ],
  "MONDO:0015614": [
   "dermatitis herpetiformis",
   "mondo.obo"
@@ -1341,6 +1289,10 @@
  ],
  "MONDO:0016450": [
   "autoimmune hemolytic anemia, cold type",
+  "mondo.obo"
+ ],
+ "MONDO:0016464": [
+  "insulin-resistance syndrome type B",
   "mondo.obo"
  ],
  "MONDO:0016499": [
@@ -1453,6 +1405,10 @@
  ],
  "MONDO:0018646": [
   "sclerosing cholangitis",
+  "mondo.obo"
+ ],
+ "MONDO:0018675": [
+  "IgG4-related ophthalmic disorder",
   "mondo.obo"
  ],
  "MONDO:0018746": [
@@ -1839,6 +1795,10 @@
   "ALOPECIA AREATA 1",
   "OMIM.ttl"
  ],
+ "OMIM:106300": [
+  "SPONDYLOARTHROPATHY, SUSCEPTIBILITY TO, 1",
+  "OMIM.ttl"
+ ],
  "OMIM:107320": [
   "ANTIPHOSPHOLIPID SYNDROME, FAMILIAL",
   "OMIM.ttl"
@@ -1849,10 +1809,6 @@
  ],
  "OMIM:123550": [
   "CRYOGLOBULINEMIA, FAMILIAL MIXED",
-  "OMIM.ttl"
- ],
- "OMIM:125852": [
-  "TYPE 1 DIABETES MELLITUS 2",
   "OMIM.ttl"
  ],
  "OMIM:134750": [
@@ -1955,6 +1911,10 @@
   "TAKAYASU ARTERITIS",
   "OMIM.ttl"
  ],
+ "OMIM:212750": [
+  "CELIAC DISEASE, SUSCEPTIBILITY TO, 1",
+  "OMIM.ttl"
+ ],
  "OMIM:222100": [
   "TYPE 1 DIABETES MELLITUS",
   "OMIM.ttl"
@@ -2019,60 +1979,12 @@
   "IMMUNODYSREGULATION, POLYENDOCRINOPATHY, AND ENTEROPATHY, X-LINKED",
   "OMIM.ttl"
  ],
- "OMIM:600318": [
-  "TYPE 1 DIABETES MELLITUS 3",
-  "OMIM.ttl"
- ],
- "OMIM:600319": [
-  "TYPE 1 DIABETES MELLITUS 4",
-  "OMIM.ttl"
- ],
- "OMIM:600320": [
-  "TYPE 1 DIABETES MELLITUS 5",
-  "OMIM.ttl"
- ],
- "OMIM:600321": [
-  "TYPE 1 DIABETES MELLITUS 7",
-  "OMIM.ttl"
- ],
- "OMIM:600883": [
-  "TYPE 1 DIABETES MELLITUS 8",
-  "OMIM.ttl"
- ],
- "OMIM:601208": [
-  "TYPE 1 DIABETES MELLITUS 11",
-  "OMIM.ttl"
- ],
- "OMIM:601318": [
-  "TYPE 1 DIABETES MELLITUS 13",
-  "OMIM.ttl"
- ],
- "OMIM:601388": [
-  "TYPE 1 DIABETES MELLITUS 12",
-  "OMIM.ttl"
- ],
- "OMIM:601666": [
-  "TYPE 1 DIABETES MELLITUS 15",
-  "OMIM.ttl"
- ],
  "OMIM:601859": [
   "AUTOIMMUNE LYMPHOPROLIFERATIVE SYNDROME",
   "OMIM.ttl"
  ],
- "OMIM:601941": [
-  "TYPE 1 DIABETES MELLITUS 6",
-  "OMIM.ttl"
- ],
- "OMIM:601942": [
-  "TYPE 1 DIABETES MELLITUS 10",
-  "OMIM.ttl"
- ],
  "OMIM:602081": [
   "SPEECH-LANGUAGE DISORDER 1",
-  "OMIM.ttl"
- ],
- "OMIM:603266": [
-  "TYPE 1 DIABETES MELLITUS 17",
   "OMIM.ttl"
  ],
  "OMIM:604302": [
@@ -2089,10 +2001,6 @@
  ],
  "OMIM:605480": [
   "SYSTEMIC LUPUS ERYTHEMATOSUS, SUSCEPTIBILITY TO, 3",
-  "OMIM.ttl"
- ],
- "OMIM:605598": [
-  "TYPE 1 DIABETES MELLITUS 18",
   "OMIM.ttl"
  ],
  "OMIM:605808": [
@@ -2141,10 +2049,6 @@
  ],
  "OMIM:610066": [
   "SYSTEMIC LUPUS ERYTHEMATOSUS, SUSCEPTIBILITY TO, 8",
-  "OMIM.ttl"
- ],
- "OMIM:610155": [
-  "TYPE 1 DIABETES MELLITUS 19",
   "OMIM.ttl"
  ],
  "OMIM:610247": [
@@ -2199,18 +2103,6 @@
   "SYSTEMIC LUPUS ERYTHEMATOSUS, SUSCEPTIBILITY TO, 13",
   "OMIM.ttl"
  ],
- "OMIM:612520": [
-  "TYPE 1 DIABETES MELLITUS 20",
-  "OMIM.ttl"
- ],
- "OMIM:612521": [
-  "TYPE 1 DIABETES MELLITUS 21",
-  "OMIM.ttl"
- ],
- "OMIM:612522": [
-  "TYPE 1 DIABETES MELLITUS 22",
-  "OMIM.ttl"
- ],
  "OMIM:612594": [
   "MULTIPLE SCLEROSIS, SUSCEPTIBILITY TO, 2",
   "OMIM.ttl"
@@ -2221,14 +2113,6 @@
  ],
  "OMIM:612596": [
   "MULTIPLE SCLEROSIS, SUSCEPTIBILITY TO, 4",
-  "OMIM.ttl"
- ],
- "OMIM:612622": [
-  "TYPE 1 DIABETES MELLITUS 23",
-  "OMIM.ttl"
- ],
- "OMIM:613006": [
-  "TYPE 1 DIABETES MELLITUS 24",
   "OMIM.ttl"
  ],
  "OMIM:613145": [
@@ -2343,6 +2227,10 @@
   "OBSOLETE: Limbic encephalitis",
   "EBI OLS4 (ordo)"
  ],
+ "ORPHA:164823": [
+  "Rare acquired aplastic anemia",
+  "EBI OLS4 (ordo)"
+ ],
  "ORPHA:1656": [
   "Dermatitis herpetiformis",
   "EBI OLS4 (ordo)"
@@ -2441,6 +2329,10 @@
  ],
  "ORPHA:228312": [
   "Autoimmune hemolytic anemia, cold type",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:2298": [
+  "Insulin-resistance syndrome type B",
   "EBI OLS4 (ordo)"
  ],
  "ORPHA:231457": [
@@ -2683,6 +2575,10 @@
   "Sclerosing cholangitis",
   "EBI OLS4 (ordo)"
  ],
+ "ORPHA:449563": [
+  "IgG4-related ophthalmic disease",
+  "EBI OLS4 (ordo)"
+ ],
  "ORPHA:45360": [
   "NON RARE IN EUROPE: Meni\u00e8re disease",
   "EBI OLS4 (ordo)"
@@ -2721,6 +2617,10 @@
  ],
  "ORPHA:519408": [
   "Mooren ulcer",
+  "EBI OLS4 (ordo)"
+ ],
+ "ORPHA:535": [
+  "Rare cutaneous lupus erythematosus",
   "EBI OLS4 (ordo)"
  ],
  "ORPHA:536": [
@@ -3283,6 +3183,10 @@
   "Drug-induced pemphigus",
   "snomed/CONCEPT.csv"
  ],
+ "SNOMEDCT:200936003": [
+  "Lupus erythematosus",
+  "snomed/CONCEPT.csv"
+ ],
  "SNOMEDCT:200938002": [
   "Discoid lupus erythematosus",
   "snomed/CONCEPT.csv"
@@ -3799,6 +3703,10 @@
   "Relapsing remitting multiple sclerosis",
   "snomed/CONCEPT.csv"
  ],
+ "SNOMEDCT:426875007": [
+  "Latent autoimmune diabetes mellitus in adult",
+  "snomed/CONCEPT.csv"
+ ],
  "SNOMEDCT:427086003": [
   "Bickerstaff's brainstem encephalitis",
   "snomed/CONCEPT.csv"
@@ -3925,6 +3833,10 @@
  ],
  "SNOMEDCT:55464009": [
   "Systemic lupus erythematosus",
+  "snomed/CONCEPT.csv"
+ ],
+ "SNOMEDCT:55907008": [
+  "Acquired aplastic anemia",
   "snomed/CONCEPT.csv"
  ],
  "SNOMEDCT:56727007": [
@@ -4231,6 +4143,10 @@
   "Limbic encephalitis with dipeptidyl-peptidase 6 antibodies",
   "snomed/CONCEPT.csv"
  ],
+ "SNOMEDCT:77628002": [
+  "Retinal vasculitis",
+  "snomed/CONCEPT.csv"
+ ],
  "SNOMEDCT:78370002": [
   "Scleritis",
   "snomed/CONCEPT.csv"
@@ -4459,6 +4375,10 @@
   "Autoimmune lymphoproliferative syndrome [ALPS]",
   "mesh-icd-ncit-clinvar/CONCEPT.csv"
  ],
+ "icd10cm:D89.84": [
+  "IgG4-related disease",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
  "icd10cm:E05.0": [
   "Thyrotoxicosis with diffuse goiter",
   "mesh-icd-ncit-clinvar/CONCEPT.csv"
@@ -4489,6 +4409,10 @@
  ],
  "icd10cm:E88.2": [
   "Lipomatosis, not elsewhere classified",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:E88.818": [
+  "Other insulin resistance",
   "mesh-icd-ncit-clinvar/CONCEPT.csv"
  ],
  "icd10cm:G04.0": [
@@ -4631,6 +4555,10 @@
   "Harada's disease",
   "mesh-icd-ncit-clinvar/CONCEPT.csv"
  ],
+ "icd10cm:H35.06": [
+  "Retinal vasculitis",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
  "icd10cm:H35.30": [
   "Unspecified macular degeneration",
   "mesh-icd-ncit-clinvar/CONCEPT.csv"
@@ -4657,6 +4585,10 @@
  ],
  "icd10cm:I24.1": [
   "Dressler's syndrome",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:I33.0": [
+  "Acute and subacute infective endocarditis",
   "mesh-icd-ncit-clinvar/CONCEPT.csv"
  ],
  "icd10cm:I42.0": [
@@ -4827,6 +4759,14 @@
   "Lichen sclerosus et atrophicus",
   "mesh-icd-ncit-clinvar/CONCEPT.csv"
  ],
+ "icd10cm:L93": [
+  "Lupus erythematosus",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:L93.0": [
+  "Discoid lupus erythematosus",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
  "icd10cm:L94.0": [
   "Localized scleroderma [morphea]",
   "mesh-icd-ncit-clinvar/CONCEPT.csv"
@@ -4877,6 +4817,10 @@
  ],
  "icd10cm:M31.4": [
   "Aortic arch syndrome [Takayasu]",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:M31.6": [
+  "Other giant cell arteritis",
   "mesh-icd-ncit-clinvar/CONCEPT.csv"
  ],
  "icd10cm:M31.7": [
@@ -4933,6 +4877,10 @@
  ],
  "icd10cm:M35.4": [
   "Diffuse (eosinophilic) fasciitis",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "icd10cm:M35.9": [
+  "Systemic involvement of connective tissue, unspecified",
   "mesh-icd-ncit-clinvar/CONCEPT.csv"
  ],
  "icd10cm:M45": [
@@ -5039,6 +4987,10 @@
   "Autoimmune oophoritis",
   "mesh-icd-ncit-clinvar/CONCEPT.csv"
  ],
+ "mesh:C538275": [
+  "Autoimmune polyendocrinopathy syndrome, type 1",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
  "mesh:C538618": [
   "Donath-Landsteiner hemolytic anemia",
   "mesh-icd-ncit-clinvar/CONCEPT.csv"
@@ -5049,6 +5001,10 @@
  ],
  "mesh:C562642": [
   "Amyloidosis, Primary Cutaneous",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:C562942": [
+  "Aortic Valve, Calcification of",
   "mesh-icd-ncit-clinvar/CONCEPT.csv"
  ],
  "mesh:C563187": [
@@ -5097,6 +5053,10 @@
  ],
  "mesh:D000077342": [
   "Post-Lyme Disease Syndrome",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D000077733": [
+  "Immunoglobulin G4-Related Disease",
   "mesh-icd-ncit-clinvar/CONCEPT.csv"
  ],
  "mesh:D000080203": [
@@ -5185,6 +5145,10 @@
  ],
  "mesh:D003093": [
   "Colitis, Ulcerative",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
+ "mesh:D003320": [
+  "Corneal Ulcer",
   "mesh-icd-ncit-clinvar/CONCEPT.csv"
  ],
  "mesh:D003424": [
@@ -5599,6 +5563,10 @@
   "Brachial Plexus Neuritis",
   "mesh-icd-ncit-clinvar/CONCEPT.csv"
  ],
+ "mesh:D031300": [
+  "Retinal Vasculitis",
+  "mesh-icd-ncit-clinvar/CONCEPT.csv"
+ ],
  "mesh:D034701": [
   "Mastocytosis, Cutaneous",
   "mesh-icd-ncit-clinvar/CONCEPT.csv"
@@ -5931,6 +5899,10 @@
   "Eosinophilic Esophagitis",
   "EBI OLS4 (ncit)"
  ],
+ "ncit:C27153": [
+  "Lupus Erythematosus",
+  "EBI OLS4 (ncit)"
+ ],
  "ncit:C27167": [
   "Primary Biliary Cirrhosis",
   "EBI OLS4 (ncit)"
@@ -6189,6 +6161,10 @@
  ],
  "ncit:C4828": [
   "Primary Sclerosing Cholangitis",
+  "EBI OLS4 (ncit)"
+ ],
+ "ncit:C50515": [
+  "Corneal Ulcer",
   "EBI OLS4 (ncit)"
  ],
  "ncit:C50575": [
@@ -7139,6 +7115,10 @@
   "Relapsing remitting multiple sclerosis",
   "snomed/CONCEPT.csv"
  ],
+ "omop:4145827": [
+  "Latent autoimmune diabetes mellitus in adult",
+  "snomed/CONCEPT.csv"
+ ],
  "omop:4146124": [
   "Autoimmune vasculitis",
   "snomed/CONCEPT.csv"
@@ -7177,6 +7157,10 @@
  ],
  "omop:4178929": [
   "Primary progressive multiple sclerosis",
+  "snomed/CONCEPT.csv"
+ ],
+ "omop:4184758": [
+  "Acquired aplastic anemia",
   "snomed/CONCEPT.csv"
  ],
  "omop:4185187": [
@@ -8191,6 +8175,10 @@
   "hypersensitivity vasculitis",
   "doid.owl xref (DOID:9809)"
  ],
+ "umls:C0152026": [
+  "retinal vasculitis",
+  "doid.owl xref (DOID:11563)"
+ ],
  "umls:C0152085": [
   "reactive arthritis",
   "doid.owl xref (DOID:6196)"
@@ -8347,6 +8335,10 @@
   "autoimmune hypoparathyroidism",
   "mondo.obo xref (MONDO:0018242)"
  ],
+ "umls:C0271907": [
+  "acquired aplastic anemia",
+  "mondo.obo xref (MONDO:0015610)"
+ ],
  "umls:C0272118": [
   "autoimmune hemolytic anemia, warm type",
   "mondo.obo xref (MONDO:0019532)"
@@ -8390,6 +8382,10 @@
  "umls:C0342288": [
   "immune dysregulation-polyendocrinopathy-enteropathy-X-linked syndrome",
   "mondo.obo xref (MONDO:0010580)"
+ ],
+ "umls:C0342337": [
+  "insulin-resistance syndrome type B",
+  "mondo.obo xref (MONDO:0016464)"
  ],
  "umls:C0342394": [
   "neurohypophyseal diabetes insipidus",
@@ -8450,6 +8446,10 @@
  "umls:C0409667": [
   "systemic juvenile rheumatoid arthritis",
   "doid.owl xref (DOID:676)"
+ ],
+ "umls:C0409974": [
+  "lupus erythematosus",
+  "doid.owl xref (DOID:8857)"
  ],
  "umls:C0409977": [
   "bullous systemic lupus erythematosus",
@@ -8639,6 +8639,10 @@
   "birdshot chorioretinopathy",
   "doid.owl xref (DOID:0111079)"
  ],
+ "umls:C1859310": [
+  "celiac disease, susceptibility to, 1",
+  "mondo.obo xref (MONDO:0008930)"
+ ],
  "umls:C1956391": [
   "temporal arteritis",
   "mondo.obo xref (MONDO:0008538)"
@@ -8786,6 +8790,10 @@
  "umls:C5554054": [
   "myelin oligodendrocyte glycoprotein antibody-associated disease",
   "mondo.obo xref (MONDO:1040024)"
+ ],
+ "umls:C5569009": [
+  "IgG4-related ophthalmic disorder",
+  "mondo.obo xref (MONDO:0018675)"
  ],
  "umls:C5576703": [
   "non-specific autoimmune cerebellar ataxia without characteristic antibodies",
