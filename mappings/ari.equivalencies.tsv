@@ -416,7 +416,7 @@ ARI	0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Synd
 ARI	0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch	icd10cm	E31.0	manual-negative	github:AnjaliRH
 ARI	0001107	Immune thrombocytopenia	skos:exactMatch	DOID	8924	manual-negative	github:AnjaliRH
 ARI	0001109	Immunoglobulin G4 related disease	skos:exactMatch	DOID	0080356	manual-negative	github:AnjaliRH
-ARI	0001107	Immune thrombocytopenia	skos:exactMatch	icd10cm	D69.3	manual-negative	github:AnjaliRH
+ARI	0001107	Immune thrombocytopenia	skos:exactMatch	icd10cm	D69.3	manual	github:AnjaliRH
 ARI	0001116	Interstitial lung disease	skos:exactMatch	icd10cm	J84.9	manual	github:AnjaliRH
 ARI	0001111	Inclusion body myositis	skos:exactMatch	icd10cm	G72.41	manual	github:AnjaliRH
 ARI	0001103	Idiopathic pulmonary fibrosis	skos:exactMatch	umls	C1800706	manual	github:AnjaliRH
@@ -2340,3 +2340,141 @@ ARI	0001020	Aortic valve calcification	skos:exactMatch	mesh	C562942	manual	githu
 ARI	0001021	Aplastic anemia	skos:exactMatch	ORPHA	164823	manual	github:KrishnaTO
 ARI	0001030	Autoimmune ganglionopathy	skos:exactMatch	umls	C5395071	manual	github:KrishnaTO
 ARI	0001033	Autoimmune hepatitis	skos:exactMatch	ncit	C27029	manual	github:KrishnaTO
+ARI	0001110	Immunoglobulin G4 related ophthalmic disease	skos:exactMatch	MONDO	0018675	manual	github:KrishnaTO
+ARI	0001109	Immunoglobulin G4 related disease	skos:exactMatch	ncit	C95992	manual	github:KrishnaTO
+ARI	0001109	Immunoglobulin G4 related disease	skos:exactMatch	ORPHA	596448	manual	github:KrishnaTO
+ARI	0001108	Immunoglobulin A vasculitis	skos:exactMatch	ncit	C34963	manual	github:KrishnaTO
+ARI	0001108	Immunoglobulin A vasculitis	skos:exactMatch	mesh	D011695	manual	github:KrishnaTO
+ARI	0001108	Immunoglobulin A vasculitis	skos:exactMatch	icd10cm	D69.0	manual	github:KrishnaTO
+ARI	0001107	Immune thrombocytopenia	skos:exactMatch	DOID	1587	manual-negative	github:KrishnaTO
+ARI	0001107	Immune thrombocytopenia	skos:exactMatch	ncit	C3446	manual	github:KrishnaTO
+ARI	0001107	Immune thrombocytopenia	skos:exactMatch	mesh	D016553	manual	github:KrishnaTO
+ARI	0001098	Hemophilia B Leyden	skos:exactMatch	SNOMEDCT	1336117005	manual	github:KrishnaTO
+ARI	0001098	Hemophilia B Leyden	skos:exactMatch	omop	1076202	manual	github:KrishnaTO
+ARI	0001098	Hemophilia B Leyden	skos:exactMatch	umls	C5848256	manual	github:KrishnaTO
+ARI	0001099	Herpes gestationis	skos:exactMatch	SNOMEDCT	86081009	manual	github:KrishnaTO
+ARI	0001099	Herpes gestationis	skos:exactMatch	omop	4311256	manual	github:KrishnaTO
+ARI	0001099	Herpes gestationis	skos:exactMatch	DOID	14482	manual	github:KrishnaTO
+ARI	0001099	Herpes gestationis	skos:exactMatch	MONDO	0006558	manual	github:KrishnaTO
+ARI	0001099	Herpes gestationis	skos:exactMatch	ncit	C85003	manual	github:KrishnaTO
+ARI	0001099	Herpes gestationis	skos:exactMatch	icd10cm	O26.4	manual	github:KrishnaTO
+ARI	0001099	Herpes gestationis	skos:exactMatch	ORPHA	63275	manual	github:KrishnaTO
+ARI	0001099	Herpes gestationis	skos:exactMatch	umls	C0019343	manual	github:KrishnaTO
+ARI	0001099	Herpes gestationis	skos:exactMatch	mesh	D006559	manual	github:KrishnaTO
+ARI	0001100	Hidradenitis suppurativa	skos:exactMatch	SNOMEDCT	59393003	manual	github:KrishnaTO
+ARI	0001100	Hidradenitis suppurativa	skos:exactMatch	omop	4241223	manual	github:KrishnaTO
+ARI	0001100	Hidradenitis suppurativa	skos:exactMatch	DOID	2280	manual	github:KrishnaTO
+ARI	0001100	Hidradenitis suppurativa	skos:exactMatch	MONDO	0006559	manual	github:KrishnaTO
+ARI	0001100	Hidradenitis suppurativa	skos:exactMatch	ncit	C128429	manual	github:KrishnaTO
+ARI	0001100	Hidradenitis suppurativa	skos:exactMatch	icd10cm	L73.2	manual	github:KrishnaTO
+ARI	0001100	Hidradenitis suppurativa	skos:exactMatch	ORPHA	387	manual	github:KrishnaTO
+ARI	0001100	Hidradenitis suppurativa	skos:exactMatch	umls	C0162836	manual	github:KrishnaTO
+ARI	0001100	Hidradenitis suppurativa	skos:exactMatch	mesh	D017497	manual	github:KrishnaTO
+ARI	0001101	Hypersensitivity angiitis	skos:exactMatch	SNOMEDCT	60555002	manual	github:KrishnaTO
+ARI	0001101	Hypersensitivity angiitis	skos:exactMatch	omop	196431	manual	github:KrishnaTO
+ARI	0001101	Hypersensitivity angiitis	skos:exactMatch	DOID	9809	manual	github:KrishnaTO
+ARI	0001101	Hypersensitivity angiitis	skos:exactMatch	MONDO	0001290	manual	github:KrishnaTO
+ARI	0001101	Hypersensitivity angiitis	skos:exactMatch	MONDO	0006794	manual	github:KrishnaTO
+ARI	0001101	Hypersensitivity angiitis	skos:exactMatch	ncit	C35119	manual	github:KrishnaTO
+ARI	0001101	Hypersensitivity angiitis	skos:exactMatch	icd10cm	M31.0	manual	github:KrishnaTO
+ARI	0001101	Hypersensitivity angiitis	skos:exactMatch	ORPHA	889	manual	github:KrishnaTO
+ARI	0001101	Hypersensitivity angiitis	skos:exactMatch	umls	C0151436	manual	github:KrishnaTO
+ARI	0001101	Hypersensitivity angiitis	skos:exactMatch	mesh	D018366	manual	github:KrishnaTO
+ARI	0001135	Multiple sclerosis	skos:exactMatch	ORPHA	802	manual	github:KrishnaTO
+ARI	0001028	Autoimmune encephalitis	skos:exactMatch	ncit	C122414	manual	github:KrishnaTO
+ARI	0001028	Autoimmune encephalitis	skos:exactMatch	umls	C5671289	manual	github:KrishnaTO
+ARI	0001028	Autoimmune encephalitis	skos:exactMatch	ORPHA	622014	manual	github:KrishnaTO
+ARI	0001095	Fibromyalgia	skos:exactMatch	umls	C0016053	manual	github:KrishnaTO
+ARI	0001215	Fulminant type 1 diabetes	skos:exactMatch	DOID	9744	manual	github:KrishnaTO
+ARI	0001215	Fulminant type 1 diabetes	skos:exactMatch	MONDO	0005147	manual	github:KrishnaTO
+ARI	0001215	Fulminant type 1 diabetes	skos:exactMatch	ncit	C2986	manual	github:KrishnaTO
+ARI	0001215	Fulminant type 1 diabetes	skos:exactMatch	mesh	D003922	manual	github:KrishnaTO
+ARI	0001215	Fulminant type 1 diabetes	skos:exactMatch	ORPHA	243377	manual	github:KrishnaTO
+ARI	0001215	Fulminant type 1 diabetes	skos:exactMatch	umls	C3495814	manual	github:KrishnaTO
+ARI	0001097	Guillain-Barré syndrome	skos:exactMatch	DOID	12842	manual	github:KrishnaTO
+ARI	0001097	Guillain-Barré syndrome	skos:exactMatch	MONDO	0016218	manual	github:KrishnaTO
+ARI	0001097	Guillain-Barré syndrome	skos:exactMatch	ncit	C116345	manual	github:KrishnaTO
+ARI	0001097	Guillain-Barré syndrome	skos:exactMatch	icd10cm	G61.0	manual	github:KrishnaTO
+ARI	0001097	Guillain-Barré syndrome	skos:exactMatch	ORPHA	2103	manual	github:KrishnaTO
+ARI	0001097	Guillain-Barré syndrome	skos:exactMatch	umls	C0018378	manual	github:KrishnaTO
+ARI	0001097	Guillain-Barré syndrome	skos:exactMatch	mesh	D020275	manual	github:KrishnaTO
+ARI	0001216	Hashimoto's thyroiditis	skos:exactMatch	icd10cm	E06.3	manual	github:KrishnaTO
+ARI	0001216	Hashimoto's thyroiditis	skos:exactMatch	umls	C0677607	manual	github:KrishnaTO
+ARI	0001216	Hashimoto's thyroiditis	skos:exactMatch	mesh	D050031	manual	github:KrishnaTO
+ARI	0001096	Graves' disease	skos:exactMatch	umls	C0018213	manual	github:KrishnaTO
+ARI	0001114	Insulin resistance - type B	skos:exactMatch	MONDO	0016464	manual	github:KrishnaTO
+ARI	0001114	Insulin resistance - type B	skos:exactMatch	ORPHA	2298	manual	github:KrishnaTO
+ARI	0001112	Inflammatory Bowel Disease	skos:exactMatch	ncit	C3138	manual	github:KrishnaTO
+ARI	0001111	Inclusion body myositis	skos:exactMatch	ncit	C84786	manual	github:KrishnaTO
+ARI	0001109	Immunoglobulin G4 related disease	skos:exactMatch	ORPHA	284264	manual-negative	github:KrishnaTO
+ARI	0001105	Immune checkpoint inhibitor-induced autoimmunity	skos:exactMatch	ncit	C177001	manual-negative	github:KrishnaTO
+ARI	0001105	Immune checkpoint inhibitor-induced autoimmunity	skos:exactMatch	ncit	C223950	manual-negative	github:KrishnaTO
+ARI	0001105	Immune checkpoint inhibitor-induced autoimmunity	skos:exactMatch	ORPHA	714829	manual-negative	github:KrishnaTO
+ARI	0001101	Hypersensitivity angiitis	skos:exactMatch	MONDO	0019509	manual-negative	github:KrishnaTO
+ARI	0001028	Autoimmune encephalitis	skos:exactMatch	umls	C0393639	manual-negative	github:KrishnaTO
+ARI	0001215	Fulminant type 1 diabetes	skos:exactMatch	DOID	0080846	manual-negative	github:KrishnaTO
+ARI	0001215	Fulminant type 1 diabetes	skos:exactMatch	DOID	0110761	manual-negative	github:KrishnaTO
+ARI	0001215	Fulminant type 1 diabetes	skos:exactMatch	DOID	0110760	manual-negative	github:KrishnaTO
+ARI	0001215	Fulminant type 1 diabetes	skos:exactMatch	DOID	0110759	manual-negative	github:KrishnaTO
+ARI	0001215	Fulminant type 1 diabetes	skos:exactMatch	DOID	0110758	manual-negative	github:KrishnaTO
+ARI	0001215	Fulminant type 1 diabetes	skos:exactMatch	DOID	0110757	manual-negative	github:KrishnaTO
+ARI	0001215	Fulminant type 1 diabetes	skos:exactMatch	DOID	0110756	manual-negative	github:KrishnaTO
+ARI	0001215	Fulminant type 1 diabetes	skos:exactMatch	DOID	0110755	manual-negative	github:KrishnaTO
+ARI	0001215	Fulminant type 1 diabetes	skos:exactMatch	DOID	0110754	manual-negative	github:KrishnaTO
+ARI	0001215	Fulminant type 1 diabetes	skos:exactMatch	DOID	0110753	manual-negative	github:KrishnaTO
+ARI	0001215	Fulminant type 1 diabetes	skos:exactMatch	DOID	0110752	manual-negative	github:KrishnaTO
+ARI	0001215	Fulminant type 1 diabetes	skos:exactMatch	DOID	0110751	manual-negative	github:KrishnaTO
+ARI	0001215	Fulminant type 1 diabetes	skos:exactMatch	DOID	0110750	manual-negative	github:KrishnaTO
+ARI	0001215	Fulminant type 1 diabetes	skos:exactMatch	DOID	0110749	manual-negative	github:KrishnaTO
+ARI	0001215	Fulminant type 1 diabetes	skos:exactMatch	DOID	0110747	manual-negative	github:KrishnaTO
+ARI	0001215	Fulminant type 1 diabetes	skos:exactMatch	DOID	0110746	manual-negative	github:KrishnaTO
+ARI	0001215	Fulminant type 1 diabetes	skos:exactMatch	DOID	0110745	manual-negative	github:KrishnaTO
+ARI	0001215	Fulminant type 1 diabetes	skos:exactMatch	DOID	0110744	manual-negative	github:KrishnaTO
+ARI	0001215	Fulminant type 1 diabetes	skos:exactMatch	DOID	0110743	manual-negative	github:KrishnaTO
+ARI	0001215	Fulminant type 1 diabetes	skos:exactMatch	DOID	0110742	manual-negative	github:KrishnaTO
+ARI	0001215	Fulminant type 1 diabetes	skos:exactMatch	DOID	0110741	manual-negative	github:KrishnaTO
+ARI	0001215	Fulminant type 1 diabetes	skos:exactMatch	MONDO	0009100	manual-negative	github:KrishnaTO
+ARI	0001215	Fulminant type 1 diabetes	skos:exactMatch	mesh	D000071698	manual-negative	github:KrishnaTO
+ARI	0001215	Fulminant type 1 diabetes	skos:exactMatch	umls	C2349037	manual-negative	github:KrishnaTO
+ARI	0001216	Hashimoto's thyroiditis	skos:exactMatch	DOID	7188	manual-negative	github:KrishnaTO
+ARI	0001216	Hashimoto's thyroiditis	skos:exactMatch	umls	C0920350	manual-negative	github:KrishnaTO
+ARI	0001216	Hashimoto's thyroiditis	skos:exactMatch	mesh	D013967	manual-negative	github:KrishnaTO
+ARI	0001102	Idiopathic membranous glomerulonephritis	skos:exactMatch	DOID	10976	manual-negative	github:KrishnaTO
+ARI	0001110	Immunoglobulin G4 related ophthalmic disease	skos:exactMatch	DOID	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001110	Immunoglobulin G4 related ophthalmic disease	skos:exactMatch	ncit	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001110	Immunoglobulin G4 related ophthalmic disease	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001110	Immunoglobulin G4 related ophthalmic disease	skos:exactMatch	mesh	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch	SNOMEDCT	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001106	Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001102	Idiopathic membranous glomerulonephritis	skos:exactMatch	DOID	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001105	Immune checkpoint inhibitor-induced autoimmunity	skos:exactMatch	SNOMEDCT	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001105	Immune checkpoint inhibitor-induced autoimmunity	skos:exactMatch	omop	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001105	Immune checkpoint inhibitor-induced autoimmunity	skos:exactMatch	DOID	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001105	Immune checkpoint inhibitor-induced autoimmunity	skos:exactMatch	MONDO	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001105	Immune checkpoint inhibitor-induced autoimmunity	skos:exactMatch	ncit	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001105	Immune checkpoint inhibitor-induced autoimmunity	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001105	Immune checkpoint inhibitor-induced autoimmunity	skos:exactMatch	ORPHA	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001105	Immune checkpoint inhibitor-induced autoimmunity	skos:exactMatch	umls	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001105	Immune checkpoint inhibitor-induced autoimmunity	skos:exactMatch	mesh	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001098	Hemophilia B Leyden	skos:exactMatch	DOID	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001098	Hemophilia B Leyden	skos:exactMatch	ncit	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001098	Hemophilia B Leyden	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001028	Autoimmune encephalitis	skos:exactMatch	mesh	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001028	Autoimmune encephalitis	skos:exactMatch	DOID	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001096	Graves' disease	skos:exactMatch	ORPHA	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001094	Female infertility due to antisperm antibodies	skos:exactMatch	DOID	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001094	Female infertility due to antisperm antibodies	skos:exactMatch	MONDO	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001094	Female infertility due to antisperm antibodies	skos:exactMatch	ncit	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001094	Female infertility due to antisperm antibodies	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001094	Female infertility due to antisperm antibodies	skos:exactMatch	ORPHA	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001094	Female infertility due to antisperm antibodies	skos:exactMatch	mesh	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001216	Hashimoto's thyroiditis	skos:exactMatch	DOID	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001115	Intermediate uveitis	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001114	Insulin resistance - type B	skos:exactMatch	mesh	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001114	Insulin resistance - type B	skos:exactMatch	DOID	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001114	Insulin resistance - type B	skos:exactMatch	ncit	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001113	Insulin autoimmune syndrome	skos:exactMatch	mesh	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001113	Insulin autoimmune syndrome	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001113	Insulin autoimmune syndrome	skos:exactMatch	ncit	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001112	Inflammatory Bowel Disease	skos:exactMatch	icd10cm	NoTermFound	manual-absent	github:KrishnaTO
+ARI	0001112	Inflammatory Bowel Disease	skos:exactMatch	ORPHA	NoTermFound	manual-absent	github:KrishnaTO
