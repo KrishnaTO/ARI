@@ -1,5 +1,15 @@
 # Changelog
 
+## claude/disease-hierarchy
+
+Adds report `10_Disease_Hierarchy.xlsx`: parent/child relations between the listed core
+diseases, from four local sources (master list subtype rows, the ontology's
+`hasParentDisease`, SNOMED is-a via OMOP `CONCEPT_ANCESTOR`, DOID is_a). 160 links among
+124 diseases; 68 direct links form a 30-root tree. Links that rest only on a disease's
+additional SNOMED code are flagged for review; several point to code assignments to check
+in the master list (e.g. Multiple sclerosis carries *Systemic sclerosis, diffuse*). Script in
+`notebook/disease-hierarchy/`. No online sources.
+
 ## claude/fulminant-t1d-e10-equivalencies
 
 Credits the `E10` confirmation on `ARI:0001215` Fulminant type 1 diabetes to Jennyzeng25's
