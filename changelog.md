@@ -1,5 +1,39 @@
 # Changelog
 
+## claude/synonym-reviewer-report-3ca9bb
+
+Third pass of the synonym review. Report 9 (`data/4-reports/9_Synonym_Review.tsv`) is
+rebuilt to cover every name, not only `ARI_Synonym`. It now draws on two sources.
+
+- **ARI's own strings.** Every `ARI_Synonym`, `ARI_SynonymWithdrawn` and
+  `ARI_ClinicalSubtype` string (1,136 rows).
+- **The confirmed target terms.** Each confirmed term in MONDO, DOID, SNOMED CT, ICD-10-CM,
+  MeSH, NCIt, Orphanet and OMIM contributes its label, its synonyms and their scopes, its
+  parents and its descendants (5,849 database-only rows).
+
+Each of the 6,985 names gets a verdict: `synonym`, `subtype`, `variant`, `broader`,
+`distinct` or `non-disease`. If any source treats a name as narrower than the disease, the
+verdict is `subtype`. Some scopes are relative to a mapped term that is itself broader or
+narrower than the entry, and those are corrected. Conflicts and related-only names were
+researched and decided by hand (548 decisions). The pipeline is in `notebook/synonym-review/`.
+
+The ontology is not changed. The report proposes 70 changes for curators:
+
+- **Withdraw 50 `ARI_Synonym` values** (34 subtype, 15 broader, 1 non-disease). Examples:
+  - subtype: Goodpasture's syndrome, Gelineau syndrome, Reiter's syndrome, CREST syndrome,
+    Crohn's colitis forms
+  - broader: Scleroderma, JIA, Primary adrenal insufficiency
+- **Remove 18 `ARI_ClinicalSubtype` values.** On Cold agglutinin disease and COP, sibling
+  diseases (warm AIHA, Evans syndrome, IPF, NSIP and others) were imported as subtypes from
+  a broader mapped term.
+- **Move 2 clinical subtypes into the synonyms.** They name the disease itself.
+
+`Curator check:` notes flag the mapping problems found along the way, for example:
+
+- SNOMED GPA confirmed on ANCA-associated vasculitis
+- DOID:2797 (IIP) confirmed alongside COP
+- MeSH Schilder disease on Balo concentric sclerosis
+- Narcolepsy type 1 terms on the narcolepsy entry
 ## feat/incidence-us-worldwide
 
 Declares six data properties for US and worldwide incidence, used by ARI-metadata-manager's

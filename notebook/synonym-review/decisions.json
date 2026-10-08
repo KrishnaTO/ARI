@@ -1,0 +1,2827 @@
+{
+ "ARI:0001001\teb acquisita": {
+  "verdict": "synonym",
+  "note": "Abbreviated form of epidermolysis bullosa acquisita.",
+  "name": "EB acquisita"
+ },
+ "ARI:0001002\tacquired hemophilia a": {
+  "verdict": "subtype",
+  "note": "MONDO files acquired hemophilia A (anti-factor VIII) as a child of acquired hemophilia; MeSH lumps it as an entry term.",
+  "name": "acquired hemophilia A"
+ },
+ "ARI:0001003\tade": {
+  "verdict": "synonym",
+  "note": "Rare abbreviation; ADEM is standard and \"ADE\" usually means adverse drug event.",
+  "name": "ADE"
+ },
+ "ARI:0001005\thabermann disease": {
+  "verdict": "synonym",
+  "note": "Habermann's disease is the eponym for PLEVA (Mucha-Habermann disease).",
+  "name": "disease, Habermann"
+ },
+ "ARI:0001005\thabermanns disease": {
+  "verdict": "synonym",
+  "note": "Habermann's disease is the eponym for PLEVA (Mucha-Habermann disease).",
+  "name": "Habermanns disease"
+ },
+ "ARI:0001006\tautoimmune adrenalitis": {
+  "verdict": "subtype",
+  "note": "SNOMED and NCIt file autoimmune adrenalitis as a child of Addison's disease; matches the entry's own subtype \"Autoimmune Addison's Disease\".",
+  "name": "Autoimmune adrenalitis"
+ },
+ "ARI:0001006\tprimary adrenal insufficiency": {
+  "verdict": "broader",
+  "note": "NCIt files Addison's disease under primary adrenal insufficiency, which also covers congenital causes (CAH, adrenoleukodystrophy).",
+  "name": "Primary adrenal insufficiency"
+ },
+ "ARI:0001006\tautoimmune addison disease": {
+  "verdict": "subtype",
+  "note": "Entry clinical subtype; SNOMED and NCIt child of Addison's disease.",
+  "name": "Autoimmune Addison's Disease"
+ },
+ "ARI:0001006\tfamilial hypoadrenocorticism": {
+  "verdict": "subtype",
+  "note": "MeSH child descriptor (familial glucocorticoid deficiency); DOID's exact synonym lumps it.",
+  "name": "HYPOADRENOCORTICISM, FAMILIAL"
+ },
+ "ARI:0001006\tchronic primary adrenal insufficiency": {
+  "verdict": "synonym",
+  "note": "MONDO uses chronic primary adrenal insufficiency (MONDO:0100480) as its Addison's disease term.",
+  "name": "Chronic Primary Adrenal Insufficiency"
+ },
+ "ARI:0001006\tautoimmune primary adrenal insufficiency": {
+  "verdict": "subtype",
+  "note": "NCIt child (autoimmune cause); same concept as autoimmune Addison's disease.",
+  "name": "Autoimmune Primary Adrenal Insufficiency"
+ },
+ "ARI:0001007\tadult onset immunodeficiency syndrome": {
+  "verdict": "synonym",
+  "note": "Name used for the anti-IFN-gamma autoantibody syndrome in the literature (Browne 2012).",
+  "name": "adult onset immunodeficiency syndrome"
+ },
+ "ARI:0001007\tadult onset immunodeficiency due to anti interferon gamma autoantibody": {
+  "verdict": "synonym",
+  "note": "Spelling variant of the entry name.",
+  "name": "adult-onset immunodeficiency due to anti-interferon-gamma autoantibody"
+ },
+ "ARI:0001007\tanti ifn gamma autoantibody syndrome": {
+  "verdict": "synonym",
+  "note": "Alternative name for the same autoantibody syndrome.",
+  "name": "anti-IFN-gamma autoantibody syndrome"
+ },
+ "ARI:0001008\tstill disease adult onset": {
+  "verdict": "synonym",
+  "note": "Inverted form of the entry name.",
+  "name": "Still's disease adult onset"
+ },
+ "ARI:0001009\tage related maculopathies": {
+  "verdict": "subtype",
+  "note": "MeSH narrower concept; age-related maculopathy denotes the early (drusen) stage of AMD.",
+  "name": "Age Related Maculopathies"
+ },
+ "ARI:0001009\tage related maculopathy": {
+  "verdict": "subtype",
+  "note": "MeSH narrower concept; age-related maculopathy denotes the early (drusen) stage of AMD.",
+  "name": "Age Related Maculopathy"
+ },
+ "ARI:0001009\tmacular degeneration": {
+  "verdict": "broader",
+  "note": "Parent term; macular degeneration includes juvenile and hereditary forms.",
+  "name": "Macular Degeneration"
+ },
+ "ARI:0001011\talnh": {
+  "verdict": "synonym",
+  "note": "Abbreviation.",
+  "name": "ALNH"
+ },
+ "ARI:0001013\tcaspr2 antibody encephalitis": {
+  "verdict": "synonym",
+  "note": "No database record; antibody-named form of anti-CASPR2 encephalitis.",
+  "name": "CASPR2-antibody encephalitis"
+ },
+ "ARI:0001014\tgoodpasture syndrome": {
+  "verdict": "subtype",
+  "note": "SNOMED child of anti-GBM disease (pulmonary-renal presentation). DOID and OMIM use it as their label for the whole disease.",
+  "name": "Goodpasture's syndrome"
+ },
+ "ARI:0001014\tanti glomerular basement membrane tubulointerstitial nephritis": {
+  "verdict": "subtype",
+  "note": "SNOMED child (tubulointerstitial involvement).",
+  "name": "Anti-glomerular basement membrane tubulointerstitial nephritis"
+ },
+ "ARI:0001014\tanti glomerular basement membrane antibody disease": {
+  "verdict": "synonym",
+  "note": "Antibody-named form of anti-GBM disease.",
+  "name": "anti-glomerular basement membrane antibody disease"
+ },
+ "ARI:0001014\tglomerulonephritis pulmonary hemorrhage": {
+  "verdict": "subtype",
+  "note": "Names the pulmonary-renal (Goodpasture) presentation, a SNOMED child.",
+  "name": "glomerulonephritis - pulmonary haemorrhage"
+ },
+ "ARI:0001014\trapidly progressive glomerulonephritis with pulmonary hemorrhage": {
+  "verdict": "subtype",
+  "note": "Names the pulmonary-renal (Goodpasture) presentation, a SNOMED child.",
+  "name": "rapidly progressive glomerulonephritis with pulmonary haemorrhage"
+ },
+ "ARI:0001017\tgranulomatosis with polyangiitis": {
+  "verdict": "subtype",
+  "note": "GPA is one of the ANCA-associated vasculitides (SNOMED, MONDO child). Curator check: SNOMED 195353004 (GPA) is also confirmed on this entry.",
+  "name": "Granulomatosis with polyangiitis"
+ },
+ "ARI:0001017\tnecrotizing respiratory granulomatosis": {
+  "verdict": "subtype",
+  "note": "Synonym of GPA, a child of ANCA-associated vasculitis.",
+  "name": "Necrotizing respiratory granulomatosis"
+ },
+ "ARI:0001017\tnecrotising respiratory granulomatosis": {
+  "verdict": "subtype",
+  "note": "Synonym of GPA, a child of ANCA-associated vasculitis.",
+  "name": "Necrotising respiratory granulomatosis"
+ },
+ "ARI:0001021\thypoplastic anemia": {
+  "verdict": "broader",
+  "note": "Hypoplastic anemia also covers pure red cell aplasia and congenital hypoplastic anemias; MeSH keeps it as a related concept.",
+  "name": "Anemia, Hypoplastic"
+ },
+ "ARI:0001029\tanti nmda receptor encephalitis": {
+  "verdict": "synonym",
+  "note": "Label of the confirmed MONDO, NCIt and MeSH terms. SNOMED 1259087007 duplicates the mapped concept.",
+  "name": "Anti-NMDA receptor encephalitis"
+ },
+ "ARI:0001031\tatrophic gastritis": {
+  "verdict": "broader",
+  "note": "Already withdrawn as broader. Curator check: the confirmed SNOMED term is atrophic gastritis.",
+  "name": "Atrophic gastritis"
+ },
+ "ARI:0001032\tfamilial auto immune hemolytic anemia subtype": {
+  "verdict": "subtype",
+  "note": "MONDO marks the familial form as a subtype.",
+  "name": "familial auto-immune hemolytic anaemia (subtype)"
+ },
+ "ARI:0001032\timmuno hemolytic anemia": {
+  "verdict": "broader",
+  "note": "Immune hemolytic anemia also covers alloimmune and drug-induced hemolysis.",
+  "name": "immuno-hemolytic anaemia"
+ },
+ "ARI:0001032\tother autoimmune hemolytic anemia": {
+  "verdict": "variant",
+  "note": "ICD-10-CM residual (\"other\") code.",
+  "name": "Other autoimmune hemolytic anemia"
+ },
+ "ARI:0001033\tautoimmune chronic active hepatitis": {
+  "verdict": "subtype",
+  "note": "MONDO narrow synonym (chronic active course); historical name for AIH before 1992.",
+  "name": "Autoimmune chronic active hepatitis"
+ },
+ "ARI:0001033\tautoimmune hepatitis with centrilobular necrosis": {
+  "verdict": "subtype",
+  "note": "NCIt child; MONDO narrow synonym.",
+  "name": "autoimmune hepatitis with centrilobular necrosis"
+ },
+ "ARI:0001044\tautoimmune progesterone urticaria": {
+  "verdict": "subtype",
+  "note": "Urticarial presentation.",
+  "name": "autoimmune progesterone urticaria"
+ },
+ "ARI:0001044\tprogesterone dermatitis": {
+  "verdict": "synonym",
+  "note": "Short form of the entry name.",
+  "name": "progesterone dermatitis"
+ },
+ "ARI:0001045\tpulmonary alveolar proteinosis": {
+  "verdict": "broader",
+  "note": "PAP also covers hereditary, secondary and congenital forms (SNOMED, MONDO, NCIt parent).",
+  "name": "Pulmonary alveolar proteinosis"
+ },
+ "ARI:0001045\tacquired pulmonary alveolar proteinosis": {
+  "verdict": "broader",
+  "note": "\"Acquired PAP\" historically covered both autoimmune and secondary PAP.",
+  "name": "acquired pulmonary alveolar proteinosis"
+ },
+ "ARI:0001045\tpap": {
+  "verdict": "broader",
+  "note": "Abbreviation of pulmonary alveolar proteinosis (all forms).",
+  "name": "PAP"
+ },
+ "ARI:0001045\tpap acquired": {
+  "verdict": "broader",
+  "note": "\"Acquired PAP\" historically covered both autoimmune and secondary PAP.",
+  "name": "PAP acquired"
+ },
+ "ARI:0001045\tacquired pap": {
+  "verdict": "broader",
+  "note": "\"Acquired PAP\" historically covered both autoimmune and secondary PAP.",
+  "name": "Pap, acquired"
+ },
+ "ARI:0001045\tpulmonary alveolar lipoproteinosis acquired": {
+  "verdict": "broader",
+  "note": "\"Acquired PAP\" historically covered both autoimmune and secondary PAP.",
+  "name": "pulmonary alveolar lipoproteinosis acquired"
+ },
+ "ARI:0001045\tacquired pulmonary alveolar lipoproteinosis": {
+  "verdict": "broader",
+  "note": "\"Acquired PAP\" historically covered both autoimmune and secondary PAP.",
+  "name": "pulmonary alveolar lipoproteinosis, acquired"
+ },
+ "ARI:0001045\tpulmonary alveolar proteinosis acquired": {
+  "verdict": "broader",
+  "note": "\"Acquired PAP\" historically covered both autoimmune and secondary PAP.",
+  "name": "pulmonary alveolar proteinosis acquired"
+ },
+ "ARI:0001045\tpulmonary alveolar proteinosis autoimmune": {
+  "verdict": "synonym",
+  "note": "Inverted form of the entry name.",
+  "name": "pulmonary alveolar proteinosis autoimmune"
+ },
+ "ARI:0001048\thashimoto thyroiditis": {
+  "verdict": "subtype",
+  "note": "Already withdrawn as subtype (SNOMED, NCIt, MeSH child).",
+  "name": "Hashimoto thyroiditis"
+ },
+ "ARI:0001048\thashimoto disease": {
+  "verdict": "subtype",
+  "note": "Already withdrawn as subtype (Hashimoto synonym).",
+  "name": "Hashimoto's disease"
+ },
+ "ARI:0001048\tchronic lymphocytic thyroiditis": {
+  "verdict": "subtype",
+  "note": "Already withdrawn as subtype (Hashimoto synonym in SNOMED, NCIt, MONDO).",
+  "name": "Chronic lymphocytic thyroiditis"
+ },
+ "ARI:0001048\tlymphocytic thyroiditis": {
+  "verdict": "subtype",
+  "note": "SNOMED and NCIt list lymphocytic thyroiditis as a Hashimoto synonym, a child of autoimmune thyroiditis. NCIt also uses it as the mapped term's label.",
+  "name": "Lymphocytic thyroiditis"
+ },
+ "ARI:0001048\thashimoto syndrome": {
+  "verdict": "subtype",
+  "note": "Hashimoto synonym (MONDO).",
+  "name": "Hashimoto's syndrome"
+ },
+ "ARI:0001048\tautoimmune thyroiditides": {
+  "verdict": "synonym",
+  "note": "Plural of the entry name.",
+  "name": "autoimmune thyroiditides"
+ },
+ "ARI:0001048\tlymphocytic thyroiditides": {
+  "verdict": "subtype",
+  "note": "Plural of lymphocytic thyroiditis (Hashimoto synonym).",
+  "name": "lymphocytic thyroiditides"
+ },
+ "ARI:0001048\tlymphomatous thyroiditides": {
+  "verdict": "subtype",
+  "note": "Struma lymphomatosa is Hashimoto thyroiditis.",
+  "name": "lymphomatous thyroiditides"
+ },
+ "ARI:0001049\tchronic idiopathic urticaria": {
+  "verdict": "broader",
+  "note": "Already withdrawn as broader; chronic spontaneous urticaria includes non-autoimmune cases. MeSH's narrow scope is relative to its broader \"Chronic urticaria\".",
+  "name": "Chronic idiopathic urticaria"
+ },
+ "ARI:0001049\tchronic urticaria": {
+  "verdict": "broader",
+  "note": "Already withdrawn as broader.",
+  "name": "Chronic urticaria"
+ },
+ "ARI:0001052\talper disease": {
+  "verdict": "distinct",
+  "note": "Alpers disease is a POLG mitochondrial disorder.",
+  "name": "Alpers' Disease"
+ },
+ "ARI:0001052\talper syndrome": {
+  "verdict": "distinct",
+  "note": "Alpers disease is a POLG mitochondrial disorder.",
+  "name": "Alpers' Syndrome"
+ },
+ "ARI:0001052\talpers syndrome": {
+  "verdict": "distinct",
+  "note": "Alpers disease is a POLG mitochondrial disorder.",
+  "name": "Alpers Syndrome"
+ },
+ "ARI:0001052\talpers progressive infantile poliodystrophy": {
+  "verdict": "distinct",
+  "note": "Alpers disease is a POLG mitochondrial disorder.",
+  "name": "Alpers Progressive Infantile Poliodystrophy"
+ },
+ "ARI:0001052\talpers huttenlocher syndrome": {
+  "verdict": "distinct",
+  "note": "Alpers disease is a POLG mitochondrial disorder.",
+  "name": "Alpers-Huttenlocher Syndrome"
+ },
+ "ARI:0001052\tprogressive sclerosing poliodystrophy": {
+  "verdict": "distinct",
+  "note": "Alpers disease is a POLG mitochondrial disorder.",
+  "name": "Progressive Sclerosing Poliodystrophy"
+ },
+ "ARI:0001052\tprogressive neuronal degeneration of childhood with liver disease": {
+  "verdict": "distinct",
+  "note": "Alpers disease is a POLG mitochondrial disorder.",
+  "name": "Progressive Neuronal Degeneration of Childhood with Liver Disease"
+ },
+ "ARI:0001052\talpers diffuse degeneration of cerebral gray matter with hepatic cirrhosis": {
+  "verdict": "distinct",
+  "note": "Alpers disease is a POLG mitochondrial disorder.",
+  "name": "Alpers Diffuse Degeneration of Cerebral Gray Matter with Hepatic Cirrhosis"
+ },
+ "ARI:0001052\talpers disease": {
+  "verdict": "distinct",
+  "note": "Alpers disease is a POLG mitochondrial disorder.",
+  "name": "Alpers Disease"
+ },
+ "ARI:0001052\tmarburg variant": {
+  "verdict": "distinct",
+  "note": "Marburg variant is acute fulminant MS, a separate atypical MS variant.",
+  "name": "Marburg variant"
+ },
+ "ARI:0001053\tbehcets disease": {
+  "verdict": "synonym",
+  "note": "Spelling variant.",
+  "name": "Behçet’s disease"
+ },
+ "ARI:0001054\tocular pemphigoid": {
+  "verdict": "subtype",
+  "note": "Already withdrawn as subtype (ocular MMP).",
+  "name": "Ocular pemphigoid"
+ },
+ "ARI:0001054\tbenign mucous membrane pemphigoid with ocular involvement": {
+  "verdict": "subtype",
+  "note": "SNOMED child (ocular involvement).",
+  "name": "Benign mucous membrane pemphigoid with ocular involvement"
+ },
+ "ARI:0001054\tcicatricial pemphigoid with ocular involvement": {
+  "verdict": "subtype",
+  "note": "SNOMED child (ocular involvement).",
+  "name": "Cicatricial pemphigoid with ocular involvement"
+ },
+ "ARI:0001056\tmultiple small cream colored lesions symmetrically scattered mainly around the optic disc": {
+  "verdict": "non-disease",
+  "note": "Description of the fundus lesions.",
+  "name": "multiple small, cream-colored lesions, symmetrically scattered mainly around the optic disc"
+ },
+ "ARI:0001056\tmultiple small cream colored lesions symmetrically scattered mainly around the optic disk": {
+  "verdict": "non-disease",
+  "note": "Description of the fundus lesions.",
+  "name": "multiple small, cream-colored lesions, symmetrically scattered mainly around the optic disk"
+ },
+ "ARI:0001057\tpemphigoid": {
+  "verdict": "broader",
+  "note": "Parent in SNOMED, NCIt, ICD-10-CM and DOID.",
+  "name": "Pemphigoid"
+ },
+ "ARI:0001057\tbenign pemphigus": {
+  "verdict": "synonym",
+  "note": "Historical name before Lever (1953). Ambiguous: \"benign familial pemphigus\" is Hailey-Hailey disease.",
+  "name": "benign pemphigus"
+ },
+ "ARI:0001057\told age pemphigus": {
+  "verdict": "synonym",
+  "note": "Historical name (pemphigus senilis).",
+  "name": "Old Age pemphigus"
+ },
+ "ARI:0001057\tparapemphigus": {
+  "verdict": "synonym",
+  "note": "Historical name.",
+  "name": "Parapemphigus"
+ },
+ "ARI:0001057\tsenile dermatitis herpetiformis": {
+  "verdict": "synonym",
+  "note": "Historical name.",
+  "name": "senile dermatitis herpetiformis"
+ },
+ "ARI:0001060\tnarcolepsy": {
+  "verdict": "synonym",
+  "note": "Label of the confirmed MONDO:0021107; the entry's subtypes (NT1, NT2) make its concept narcolepsy as a whole. Curator check: MONDO:0016158, ICD-10-CM G47.411, ORPHA:2073 and NCIt C196015 are NT1 terms, narrower than the entry.",
+  "name": "narcolepsy"
+ },
+ "ARI:0001060\tgelineau syndrome": {
+  "verdict": "subtype",
+  "note": "MONDO synonym of narcolepsy-cataplexy syndrome (NT1), a child of narcolepsy.",
+  "name": "Gelineau's syndrome"
+ },
+ "ARI:0001060\tgelineau disease": {
+  "verdict": "subtype",
+  "note": "MONDO synonym of narcolepsy-cataplexy syndrome (NT1), a child of narcolepsy.",
+  "name": "Gelineau disease"
+ },
+ "ARI:0001060\tnarcolepsy type 1": {
+  "verdict": "subtype",
+  "note": "Already withdrawn as subtype (NT1, entry clinical subtype).",
+  "name": "Narcolepsy type 1"
+ },
+ "ARI:0001060\tnarcolepsy with cataplexy": {
+  "verdict": "subtype",
+  "note": "Already withdrawn as subtype (NT1).",
+  "name": "narcolepsy with cataplexy"
+ },
+ "ARI:0001060\tnarcolepsy cataplexy syndrome": {
+  "verdict": "subtype",
+  "note": "Already withdrawn as subtype (NT1).",
+  "name": "narcolepsy-cataplexy syndrome"
+ },
+ "ARI:0001060\thypocretin orexin deficiency syndrome": {
+  "verdict": "subtype",
+  "note": "Already withdrawn as subtype (NT1).",
+  "name": "Hypocretin/orexin deficiency syndrome"
+ },
+ "ARI:0001060\tnarcolepsy 1": {
+  "verdict": "subtype",
+  "note": "Already withdrawn as subtype (OMIM narcolepsy 1 locus).",
+  "name": "narcolepsy 1"
+ },
+ "ARI:0001060\tnarcolepsy cataplexy": {
+  "verdict": "subtype",
+  "note": "Already withdrawn as subtype (NT1).",
+  "name": "Narcolepsy-cataplexy"
+ },
+ "ARI:0001060\tcataplexy": {
+  "verdict": "non-disease",
+  "note": "Cataplexy is a symptom of NT1.",
+  "name": "Cataplexy"
+ },
+ "ARI:0001061\tgluten intolerance": {
+  "verdict": "broader",
+  "note": "SNOMED parent; also covers non-celiac gluten sensitivity.",
+  "name": "gluten intolerance"
+ },
+ "ARI:0001064\tpainful bladder syndrome": {
+  "verdict": "subtype",
+  "note": "MeSH narrower concept. ESSIC treats bladder pain syndrome as the umbrella; either way not a synonym.",
+  "name": "Painful bladder syndrome"
+ },
+ "ARI:0001064\tbladder pain syndrome": {
+  "verdict": "subtype",
+  "note": "MeSH narrower concept. ESSIC treats bladder pain syndrome as the umbrella; either way not a synonym.",
+  "name": "Bladder pain syndrome"
+ },
+ "ARI:0001065\tpost treatment lyme disease": {
+  "verdict": "subtype",
+  "note": "PTLDS is the defined subset of chronic Lyme disease after treated infection.",
+  "name": "Post-Treatment Lyme Disease"
+ },
+ "ARI:0001066\tcmo": {
+  "verdict": "synonym",
+  "note": "Abbreviation (CRMO is more usual).",
+  "name": "CMO"
+ },
+ "ARI:0001069\tchronic cold agglutinin disease": {
+  "verdict": "subtype",
+  "note": "SNOMED child (primary chronic CAD vs secondary cold agglutinin syndrome).",
+  "name": "chronic cold agglutinin disease"
+ },
+ "ARI:0001069\tcold autoimmune hemolytic anemia": {
+  "verdict": "broader",
+  "note": "Already withdrawn as broader.",
+  "name": "Cold autoimmune hemolytic anemia"
+ },
+ "ARI:0001069\tautoimmune hemolytic anemia": {
+  "verdict": "broader",
+  "note": "Already withdrawn as broader.",
+  "name": "autoimmune hemolytic anemia"
+ },
+ "ARI:0001069\tautoimmune hemolytic anemia cold type": {
+  "verdict": "broader",
+  "note": "Cold AIHA covers CAD and PCH (MONDO and Orphanet parent). Curator check: the entry lists it as a clinical subtype.",
+  "name": "autoimmune hemolytic anemia, cold type"
+ },
+ "ARI:0001069\tanemia hemolytic autoimmune": {
+  "verdict": "broader",
+  "note": "Already withdrawn as broader.",
+  "name": "Anemia, Hemolytic, Autoimmune"
+ },
+ "ARI:0001069\tcold antibody disease": {
+  "verdict": "broader",
+  "note": "Already withdrawn as broader; MeSH's narrow scope is relative to its broader AIHA term.",
+  "name": "Cold antibody disease"
+ },
+ "ARI:0001069\tcold antibody hemolytic anemia": {
+  "verdict": "broader",
+  "note": "Already withdrawn as broader; MeSH's narrow scope is relative to its broader AIHA term.",
+  "name": "Cold antibody hemolytic anemia"
+ },
+ "ARI:0001071\talgoneurodystrophy": {
+  "verdict": "subtype",
+  "note": "DOID child of CRPS (CRPS type I).",
+  "name": "algoneurodystrophy"
+ },
+ "ARI:0001071\tcausalgia": {
+  "verdict": "subtype",
+  "note": "Already withdrawn as subtype (CRPS type II).",
+  "name": "Causalgia"
+ },
+ "ARI:0001071\treflex sympathetic dystrophy": {
+  "verdict": "subtype",
+  "note": "Already withdrawn as subtype (CRPS type I).",
+  "name": "Reflex sympathetic dystrophy"
+ },
+ "ARI:0001071\tsudeck atrophy": {
+  "verdict": "subtype",
+  "note": "Already withdrawn as subtype (CRPS type I).",
+  "name": "Sudeck's atrophy"
+ },
+ "ARI:0001071\talgodystrophy": {
+  "verdict": "subtype",
+  "note": "Already withdrawn as subtype (CRPS type I).",
+  "name": "Algodystrophy"
+ },
+ "ARI:0001071\tacute regional pain syndrome": {
+  "verdict": "subtype",
+  "note": "MeSH entry for the acute phase.",
+  "name": "Acute Regional Pain Syndrome"
+ },
+ "ARI:0001072\tailjk": {
+  "verdict": "synonym",
+  "note": "Original name (autoimmune interstitial lung, joint and kidney disease).",
+  "name": "AILJK"
+ },
+ "ARI:0001073\tgranulomatous colitis": {
+  "verdict": "subtype",
+  "note": "SNOMED synonym of Crohn's disease of colon; MeSH narrow.",
+  "name": "Granulomatous Colitis"
+ },
+ "ARI:0001073\tregional enteritis": {
+  "verdict": "subtype",
+  "note": "SNOMED synonym of Crohn's disease of small intestine. Historically named Crohn's disease as a whole.",
+  "name": "regional enteritis"
+ },
+ "ARI:0001073\tcrohn disease of colon": {
+  "verdict": "subtype",
+  "note": "SNOMED child (Crohn's colitis).",
+  "name": "Crohn's disease of colon"
+ },
+ "ARI:0001073\tcrohn disease of large bowel": {
+  "verdict": "subtype",
+  "note": "SNOMED child (Crohn's colitis).",
+  "name": "Crohn's disease of large bowel"
+ },
+ "ARI:0001073\tinflammatory bowel disease 1": {
+  "verdict": "subtype",
+  "note": "Already withdrawn as subtype (IBD1 locus).",
+  "name": "inflammatory bowel disease 1"
+ },
+ "ARI:0001074\tcryptogenic organizing pneumonitis": {
+  "verdict": "synonym",
+  "note": "Exact synonym of the confirmed SNOMED, MONDO and DOID COP terms. The DOID descendant hit comes from the broader DOID:2797 mapping.",
+  "name": "cryptogenic organizing pneumonitis"
+ },
+ "ARI:0001074\torganizing pneumonia": {
+  "verdict": "broader",
+  "note": "MeSH parent; also covers secondary organizing pneumonia.",
+  "name": "Organizing Pneumonia"
+ },
+ "ARI:0001074\tbronchiolitis obliterans organizing pneumonia": {
+  "verdict": "synonym",
+  "note": "Exact synonym in SNOMED, MONDO, Orphanet, DOID, MeSH and NCIt. Strictly BOOP also covers secondary OP; ATS/ERS prefer COP.",
+  "name": "bronchiolitis obliterans organizing pneumonia"
+ },
+ "ARI:0001074\tboop": {
+  "verdict": "synonym",
+  "note": "Abbreviation; see the BOOP note.",
+  "name": "BOOP"
+ },
+ "ARI:0001074\tidiopathic interstitial pneumonia": {
+  "verdict": "broader",
+  "note": "Already withdrawn as broader. Curator check: DOID:2797 (IIP) is confirmed alongside DOID:0050157 (COP).",
+  "name": "idiopathic interstitial pneumonia"
+ },
+ "ARI:0001074\tcryptogenic organising pneumonia": {
+  "verdict": "synonym",
+  "note": "British spelling.",
+  "name": "Cryptogenic organising pneumonia"
+ },
+ "ARI:0001074\tbronchiolitis obliterans organising pneumonia": {
+  "verdict": "synonym",
+  "note": "British spelling.",
+  "name": "Bronchiolitis obliterans organising pneumonia"
+ },
+ "ARI:0001074\tcryptogenic organising pneumonitis": {
+  "verdict": "synonym",
+  "note": "British spelling.",
+  "name": "Cryptogenic organising pneumonitis"
+ },
+ "ARI:0001074\tipf": {
+  "verdict": "distinct",
+  "note": "IPF is a separate IIP.",
+  "name": "IPF"
+ },
+ "ARI:0001074\tidiopathic bronchiolitis obliterans with organising pneumonia": {
+  "verdict": "synonym",
+  "note": "Idiopathic BOOP is COP.",
+  "name": "idiopathic bronchiolitis obliterans with organising pneumonia"
+ },
+ "ARI:0001074\tidiopathic bronchiolitis obliterans with organizing pneumonia": {
+  "verdict": "synonym",
+  "note": "Idiopathic BOOP is COP.",
+  "name": "idiopathic bronchiolitis obliterans with organizing pneumonia"
+ },
+ "ARI:0001074\tconstrictive bronchiolitis": {
+  "verdict": "distinct",
+  "note": "Constrictive (obliterative) bronchiolitis is a different airway disease.",
+  "name": "constrictive bronchiolitis"
+ },
+ "ARI:0001074\tidiopathic boop": {
+  "verdict": "synonym",
+  "note": "Idiopathic BOOP is COP.",
+  "name": "idiopathic BOOP"
+ },
+ "ARI:0001074\tidiopathic bronchiolitis obliterans organising pneumonia": {
+  "verdict": "synonym",
+  "note": "Idiopathic BOOP is COP.",
+  "name": "idiopathic bronchiolitis obliterans organising pneumonia"
+ },
+ "ARI:0001074\tidiopathic bronchiolitis obliterans organizing pneumonia": {
+  "verdict": "synonym",
+  "note": "Idiopathic BOOP is COP.",
+  "name": "idiopathic bronchiolitis obliterans organizing pneumonia"
+ },
+ "ARI:0001075\talps5": {
+  "verdict": "synonym",
+  "note": "OMIM 616100: autoimmune lymphoproliferative syndrome type V.",
+  "name": "ALPS5"
+ },
+ "ARI:0001075\tctla4 haploinsufficiency with autoimmune infiltration": {
+  "verdict": "synonym",
+  "note": "OMIM title variant.",
+  "name": "CTLA4 haploinsufficiency with autoimmune infiltration"
+ },
+ "ARI:0001076\tlupus erythematosus": {
+  "verdict": "broader",
+  "note": "Parent in SNOMED, DOID, MONDO, NCIt.",
+  "name": "Lupus erythematosus"
+ },
+ "ARI:0001077\tcmcd": {
+  "verdict": "non-disease",
+  "note": "OncoTree code.",
+  "name": "CMCD"
+ },
+ "ARI:0001079\tadult dermatomyositis": {
+  "verdict": "subtype",
+  "note": "DOID, MONDO, NCIt child (vs juvenile dermatomyositis).",
+  "name": "adult dermatomyositis"
+ },
+ "ARI:0001080\tautoimmune diabetes": {
+  "verdict": "broader",
+  "note": "Autoimmune diabetes also covers LADA.",
+  "name": "Diabetes, Autoimmune"
+ },
+ "ARI:0001084\tadenomyosis": {
+  "verdict": "subtype",
+  "note": "Already withdrawn as distinct. DOID lists adenomyosis under a child of endometriosis (endometriosis interna); modern gynecology treats it as separate.",
+  "name": "Adenomyosis"
+ },
+ "ARI:0001087\tseizure disorder": {
+  "verdict": "broader",
+  "note": "SNOMED parent; seizure disorder also covers provoked seizures.",
+  "name": "Seizure disorder"
+ },
+ "ARI:0001087\tepilepsy syndrome": {
+  "verdict": "subtype",
+  "note": "MONDO child.",
+  "name": "epilepsy syndrome"
+ },
+ "ARI:0001087\tepileptic syndrome": {
+  "verdict": "subtype",
+  "note": "MONDO child; MeSH child.",
+  "name": "epileptic syndrome"
+ },
+ "ARI:0001087\taura": {
+  "verdict": "non-disease",
+  "note": "Symptom.",
+  "name": "Aura"
+ },
+ "ARI:0001090\tfamilial mixed cryoglobulinemia": {
+  "verdict": "subtype",
+  "note": "Familial form.",
+  "name": "cryoglobulinemia, familial mixed"
+ },
+ "ARI:0001090\tmeltzer syndrome": {
+  "verdict": "synonym",
+  "note": "Meltzer's triad names mixed cryoglobulinemia.",
+  "name": "Meltzer syndrome"
+ },
+ "ARI:0001090\tprimary cryoglobulinemia": {
+  "verdict": "broader",
+  "note": "SNOMED parent; also covers type I.",
+  "name": "primary cryoglobulinemia"
+ },
+ "ARI:0001092\tef": {
+  "verdict": "synonym",
+  "note": "Abbreviation of eosinophilic fasciitis.",
+  "name": "EF"
+ },
+ "ARI:0001096\ttoxic diffuse goiter": {
+  "verdict": "broader",
+  "note": "MONDO parent.",
+  "name": "Toxic diffuse goiter"
+ },
+ "ARI:0001096\tthyrotoxicosis due to grave disease": {
+  "verdict": "subtype",
+  "note": "SNOMED child (thyrotoxic presentation; Graves' can be euthyroid).",
+  "name": "Thyrotoxicosis due to Graves' disease"
+ },
+ "ARI:0001096\tthyrotoxicosis": {
+  "verdict": "broader",
+  "note": "Already withdrawn as broader.",
+  "name": "Thyrotoxicosis"
+ },
+ "ARI:0001097\tpost infectious polyneuritis": {
+  "verdict": "subtype",
+  "note": "MONDO narrow synonym.",
+  "name": "Post-infectious polyneuritis"
+ },
+ "ARI:0001097\tpostinfectious polyneuritis": {
+  "verdict": "subtype",
+  "note": "MONDO narrow synonym.",
+  "name": "Postinfectious polyneuritis"
+ },
+ "ARI:0001097\tacute infective polyneuritis": {
+  "verdict": "broader",
+  "note": "NCIt parent.",
+  "name": "acute infective polyneuritis"
+ },
+ "ARI:0001097\tacute inflammatory demyelinating polyradiculopathy": {
+  "verdict": "subtype",
+  "note": "Demyelinating subtype of GBS (MONDO, NCIt).",
+  "name": "acute inflammatory demyelinating polyradiculopathy"
+ },
+ "ARI:0001097\tacute autoimmune peripheral neuropathy": {
+  "verdict": "synonym",
+  "note": "Descriptive name.",
+  "name": "acute autoimmune peripheral neuropathy"
+ },
+ "ARI:0001097\tacute immune mediated polyneuropathy": {
+  "verdict": "synonym",
+  "note": "Descriptive name.",
+  "name": "acute immune-mediated polyneuropathy"
+ },
+ "ARI:0001097\tlandry ascending paralysis": {
+  "verdict": "synonym",
+  "note": "Historical eponym.",
+  "name": "Landry's ascending paralysis"
+ },
+ "ARI:0001097\tlandry guillain barre strohl syndrome": {
+  "verdict": "synonym",
+  "note": "Historical eponym.",
+  "name": "Landry-Guillain-Barre-Strohl syndrome"
+ },
+ "ARI:0001097\tacute autoimmune neuropathy": {
+  "verdict": "synonym",
+  "note": "Descriptive name.",
+  "name": "Acute Autoimmune Neuropathy"
+ },
+ "ARI:0001097\tacute infectious polyneuritis": {
+  "verdict": "broader",
+  "note": "NCIt files GBS under acute infective polyneuritis.",
+  "name": "Acute Infectious Polyneuritis"
+ },
+ "ARI:0001099\tpemphigus gestationis": {
+  "verdict": "synonym",
+  "note": "Pemphigoid gestationis.",
+  "name": "pemphigus gestationis"
+ },
+ "ARI:0001100\tfamilial acne inversa": {
+  "verdict": "subtype",
+  "note": "Familial form (MONDO child).",
+  "name": "Acne inversa, familial"
+ },
+ "ARI:0001101\tleucocytoclastic vasculitis": {
+  "verdict": "broader",
+  "note": "Already withdrawn as broader.",
+  "name": "Leucocytoclastic vasculitis"
+ },
+ "ARI:0001101\tcutaneous leukocytoclastic angiitis": {
+  "verdict": "subtype",
+  "note": "SNOMED child. CHCC 2012 replaced \"hypersensitivity vasculitis\" with cutaneous leukocytoclastic angiitis.",
+  "name": "Cutaneous leukocytoclastic angiitis"
+ },
+ "ARI:0001101\tcutaneous small vessel vasculitis": {
+  "verdict": "subtype",
+  "note": "SNOMED synonym of cutaneous leukocytoclastic angiitis (child).",
+  "name": "Cutaneous small vessel vasculitis"
+ },
+ "ARI:0001101\tcutaneous hypersensitivity vasculitis": {
+  "verdict": "subtype",
+  "note": "SNOMED synonym of cutaneous leukocytoclastic angiitis (child).",
+  "name": "Cutaneous hypersensitivity vasculitis"
+ },
+ "ARI:0001101\tallergic cutaneous vasculitis": {
+  "verdict": "subtype",
+  "note": "DOID and MONDO child. Curator check: MONDO:0001290 is confirmed alongside MONDO:0006794.",
+  "name": "allergic cutaneous vasculitis"
+ },
+ "ARI:0001101\tallergic cutaneous angiitis": {
+  "verdict": "subtype",
+  "note": "DOID and MONDO child (allergic cutaneous vasculitis).",
+  "name": "Allergic Cutaneous Angiitis"
+ },
+ "ARI:0001102\tidiopathic membranous nephropathy": {
+  "verdict": "synonym",
+  "note": "Exact in SNOMED and NCIt; MeSH's narrow scope is relative to its broader membranous GN term.",
+  "name": "Idiopathic membranous nephropathy"
+ },
+ "ARI:0001102\tmembranous glomerulonephritis": {
+  "verdict": "broader",
+  "note": "Parent; also covers secondary forms.",
+  "name": "Membranous glomerulonephritis"
+ },
+ "ARI:0001102\textramembranous glomerulonephritis": {
+  "verdict": "broader",
+  "note": "Older name for membranous GN (also secondary forms).",
+  "name": "Extramembranous glomerulonephritis"
+ },
+ "ARI:0001102\tmbnp": {
+  "verdict": "broader",
+  "note": "Abbreviation of membranous nephropathy (also secondary forms).",
+  "name": "MBNP"
+ },
+ "ARI:0001102\tmembranous gn": {
+  "verdict": "broader",
+  "note": "Membranous GN also covers secondary forms.",
+  "name": "membranous GN"
+ },
+ "ARI:0001102\tsusceptibility to membranous nephropathy": {
+  "verdict": "non-disease",
+  "note": "Genetic susceptibility record.",
+  "name": "membranous nephropathy, susceptibility to"
+ },
+ "ARI:0001102\tmgn": {
+  "verdict": "broader",
+  "note": "Abbreviation of membranous GN.",
+  "name": "MGN"
+ },
+ "ARI:0001103\tfamilial idiopathic pulmonary fibrosis": {
+  "verdict": "subtype",
+  "note": "Entry clinical subtype; MeSH narrow.",
+  "name": "Idiopathic Pulmonary Fibrosis, Familial"
+ },
+ "ARI:0001103\tusual interstitial pneumonia": {
+  "verdict": "non-disease",
+  "note": "Histologic/radiologic pattern, also seen in CTD-ILD.",
+  "name": "Usual Interstitial Pneumonia"
+ },
+ "ARI:0001103\tusual interstitial pneumonitis": {
+  "verdict": "non-disease",
+  "note": "Histologic/radiologic pattern, also seen in CTD-ILD.",
+  "name": "Interstitial Pneumonitis, Usual"
+ },
+ "ARI:0001103\tidiopathic interstitial pneumonia": {
+  "verdict": "broader",
+  "note": "IPF is one of the IIPs (Orphanet, ICD-10-CM, MONDO parent).",
+  "name": "Idiopathic interstitial pneumonia"
+ },
+ "ARI:0001104\tberger disease": {
+  "verdict": "subtype",
+  "note": "SNOMED synonym of primary IgA nephropathy, a child of IgA nephropathy.",
+  "name": "Berger's Disease"
+ },
+ "ARI:0001104\tprimary iga nephropathy": {
+  "verdict": "subtype",
+  "note": "Entry clinical subtype; SNOMED child.",
+  "name": "IgA Nephropathy, Primary"
+ },
+ "ARI:0001104\tfocal glomerulonephritis": {
+  "verdict": "broader",
+  "note": "SNOMED lists it under primary IgAN, but focal GN is a histologic pattern of many diseases.",
+  "name": "Focal glomerulonephritis"
+ },
+ "ARI:0001106\tautoimmunity immunodeficiency syndrome x linked": {
+  "verdict": "synonym",
+  "note": "Former name (XLAAD).",
+  "name": "autoimmunity-immunodeficiency syndrome X-linked"
+ },
+ "ARI:0001106\tpolyendocrinopathy immune dysfunction and diarrhoea x linked": {
+  "verdict": "synonym",
+  "note": "Former name.",
+  "name": "polyendocrinopathy, immune dysfunction and diarrhoea X-linked"
+ },
+ "ARI:0001107\tautoimmune thrombocytopenic purpura": {
+  "verdict": "subtype",
+  "note": "SNOMED synonym of child 13172003. Curator check: commonly used for ITP as a whole.",
+  "name": "Autoimmune thrombocytopenic purpura"
+ },
+ "ARI:0001107\tautoimmune thrombocytopenia": {
+  "verdict": "subtype",
+  "note": "SNOMED synonym of a child of ITP. Orphanet's same-name group sits above ITP.",
+  "name": "Autoimmune thrombocytopenia"
+ },
+ "ARI:0001107\twerlhof disease": {
+  "verdict": "subtype",
+  "note": "SNOMED synonym of child 13172003; historical eponym.",
+  "name": "Werlhof's disease"
+ },
+ "ARI:0001107\tthrombocytopenia due to platelet alloimmunization": {
+  "verdict": "distinct",
+  "note": "Alloimmune thrombocytopenia.",
+  "name": "thrombocytopenia due to platelet alloimmunization"
+ },
+ "ARI:0001108\trheumatoid purpura": {
+  "verdict": "subtype",
+  "note": "MeSH narrower concept (purpura with joint involvement).",
+  "name": "rheumatoid purpura"
+ },
+ "ARI:0001108\tvascular purpura": {
+  "verdict": "broader",
+  "note": "Vascular purpura covers many causes.",
+  "name": "vascular purpura"
+ },
+ "ARI:0001108\themorrhagic vasculitis": {
+  "verdict": "synonym",
+  "note": "Name used for IgA vasculitis in Eastern European literature.",
+  "name": "Vasculitis, Hemorrhagic"
+ },
+ "ARI:0001109\tmultifocal fibrosclerosis": {
+  "verdict": "subtype",
+  "note": "MONDO child (OMIM 228800); now regarded as part of the IgG4-RD spectrum.",
+  "name": "Multifocal fibrosclerosis"
+ },
+ "ARI:0001109\tigg4 related disease": {
+  "verdict": "synonym",
+  "note": "Label of the confirmed DOID, NCIt and ICD-10-CM terms. Orphanet's same-name group sits above its \"systemic\" term.",
+  "name": "IgG4 related disease"
+ },
+ "ARI:0001109\tigg4 related sclerosing disease": {
+  "verdict": "subtype",
+  "note": "MeSH narrower concept; original 2003 name.",
+  "name": "IgG4-Related Sclerosing Disease"
+ },
+ "ARI:0001109\timmunoglobulin g4 related sclerosing disease": {
+  "verdict": "subtype",
+  "note": "MeSH narrower concept. Curator check: also the label of the confirmed MONDO:0017287.",
+  "name": "Immunoglobulin G4-Related Sclerosing Disease"
+ },
+ "ARI:0001109\tigg4 associated disease": {
+  "verdict": "synonym",
+  "note": "Alternative name.",
+  "name": "IgG4-associated disease"
+ },
+ "ARI:0001109\tigg4 positive multiorgan lymphoproliferative syndrome": {
+  "verdict": "synonym",
+  "note": "Earlier Japanese name (IgG4-MOLPS).",
+  "name": "IgG4-positive multiorgan lymphoproliferative syndrome"
+ },
+ "ARI:0001109\tigg4 related autoimmune disease": {
+  "verdict": "synonym",
+  "note": "Alternative name.",
+  "name": "IgG4-related autoimmune disease"
+ },
+ "ARI:0001109\tigg4 related systemic sclerosing disease": {
+  "verdict": "synonym",
+  "note": "Alternative name.",
+  "name": "IgG4-related systemic sclerosing disease"
+ },
+ "ARI:0001109\tigg4 syndrome": {
+  "verdict": "synonym",
+  "note": "Alternative name.",
+  "name": "IgG4-syndrome"
+ },
+ "ARI:0001109\tmultifocal idiopathic fibrosclerosis": {
+  "verdict": "subtype",
+  "note": "Multifocal fibrosclerosis is a MONDO child.",
+  "name": "multifocal idiopathic fibrosclerosis"
+ },
+ "ARI:0001109\tsystemic igg4 related plasmacytic syndrome": {
+  "verdict": "synonym",
+  "note": "Alternative name.",
+  "name": "systemic IgG4-related plasmacytic syndrome"
+ },
+ "ARI:0001109\tsystemic igg4 related sclerosing syndrome": {
+  "verdict": "synonym",
+  "note": "Alternative name.",
+  "name": "systemic IgG4-related sclerosing syndrome"
+ },
+ "ARI:0001111\tsporadic inclusion body myositis": {
+  "verdict": "subtype",
+  "note": "SNOMED child; entry clinical subtype (vs hereditary IBM).",
+  "name": "Sporadic Inclusion Body Myositis"
+ },
+ "ARI:0001111\tinflammatory myopathy": {
+  "verdict": "broader",
+  "note": "Disease group.",
+  "name": "inflammatory myopathy"
+ },
+ "ARI:0001113\tinsulin autoimmune hypoglycemia": {
+  "verdict": "synonym",
+  "note": "Hirata disease.",
+  "name": "insulin autoimmune hypoglycemia"
+ },
+ "ARI:0001115\tvitritis": {
+  "verdict": "non-disease",
+  "note": "Already withdrawn as non-disease (a sign).",
+  "name": "Vitritis"
+ },
+ "ARI:0001115\tpars planitis": {
+  "verdict": "subtype",
+  "note": "MONDO, MeSH child.",
+  "name": "Pars Planitis"
+ },
+ "ARI:0001117\tjuvenile arthritis": {
+  "verdict": "broader",
+  "note": "Already withdrawn as broader.",
+  "name": "Juvenile arthritis"
+ },
+ "ARI:0001119\tlsa": {
+  "verdict": "synonym",
+  "note": "Abbreviation of lichen sclerosus et atrophicus.",
+  "name": "LSA"
+ },
+ "ARI:0001121\tparaneoplastic limbic encephalitis": {
+  "verdict": "subtype",
+  "note": "SNOMED and MONDO child.",
+  "name": "Paraneoplastic limbic encephalitis"
+ },
+ "ARI:0001124\tlinear iga igg dermatosis": {
+  "verdict": "subtype",
+  "note": "Mixed IgA/IgG variant.",
+  "name": "Linear IgA IgG Dermatosis"
+ },
+ "ARI:0001124\tlinear iga igg bullous dermatosis": {
+  "verdict": "subtype",
+  "note": "Mixed IgA/IgG variant.",
+  "name": "Linear IgA IgG Bullous Dermatosis"
+ },
+ "ARI:0001130\tconnective tissue disease overlap syndrome": {
+  "verdict": "broader",
+  "note": "SNOMED parent.",
+  "name": "Connective tissue disease overlap syndrome"
+ },
+ "ARI:0001134\tmymy": {
+  "verdict": "synonym",
+  "note": "OMIM locus symbol.",
+  "name": "MYMY"
+ },
+ "ARI:0001135\tgeneralized multiple sclerosis": {
+  "verdict": "subtype",
+  "note": "MONDO narrow synonym.",
+  "name": "Generalized multiple sclerosis"
+ },
+ "ARI:0001138\tautoimmune cardiomyopathy": {
+  "verdict": "broader",
+  "note": "MONDO parent.",
+  "name": "Autoimmune cardiomyopathy"
+ },
+ "ARI:0001139\tidiopathic inflammatory myopathies": {
+  "verdict": "subtype",
+  "note": "MeSH narrower concept and MONDO child; myositis also covers infectious and drug-induced forms.",
+  "name": "Idiopathic inflammatory myopathies"
+ },
+ "ARI:0001141\tcongenital lupus": {
+  "verdict": "synonym",
+  "note": "Alternative name.",
+  "name": "congenital lupus"
+ },
+ "ARI:0001141\tcongenital lupus erythematosus": {
+  "verdict": "synonym",
+  "note": "Alternative name.",
+  "name": "congenital lupus erythematosus"
+ },
+ "ARI:0001141\tneonatal sle": {
+  "verdict": "synonym",
+  "note": "Alternative name (misnomer; most infants do not have SLE).",
+  "name": "neonatal SLE"
+ },
+ "ARI:0001142\tbrachial plexus neuritis": {
+  "verdict": "broader",
+  "note": "MONDO broad; also covers radiation and other causes.",
+  "name": "Brachial plexus neuritis"
+ },
+ "ARI:0001142\tbrachial neuritis": {
+  "verdict": "broader",
+  "note": "SNOMED parent.",
+  "name": "Brachial neuritis"
+ },
+ "ARI:0001142\tbrachial neuralgia": {
+  "verdict": "broader",
+  "note": "Arm pain of any brachial plexus cause.",
+  "name": "Brachial Neuralgia"
+ },
+ "ARI:0001142\tfamilial brachial plexus neuritis": {
+  "verdict": "subtype",
+  "note": "Hereditary neuralgic amyotrophy (SEPT9).",
+  "name": "Familial Brachial Plexus Neuritis"
+ },
+ "ARI:0001142\theredofamilial neuritis with brachial plexus predilection": {
+  "verdict": "subtype",
+  "note": "Hereditary neuralgic amyotrophy (SEPT9).",
+  "name": "Heredofamilial Neuritis with Brachial Plexus Predilection"
+ },
+ "ARI:0001142\thereditary brachial plexus neuropathy": {
+  "verdict": "subtype",
+  "note": "Hereditary neuralgic amyotrophy (SEPT9).",
+  "name": "Hereditary Brachial Plexus Neuropathy"
+ },
+ "ARI:0001142\tneuritis with brachial predilection": {
+  "verdict": "subtype",
+  "note": "Hereditary neuralgic amyotrophy (SEPT9).",
+  "name": "Neuritis With Brachial Predilection"
+ },
+ "ARI:0001142\tamyotrophy hereditary neuralgic with predilection for brachial plexus": {
+  "verdict": "subtype",
+  "note": "Hereditary neuralgic amyotrophy (SEPT9).",
+  "name": "Amyotrophy, Hereditary Neuralgic, with Predilection for Brachial Plexus"
+ },
+ "ARI:0001143\tnmosd": {
+  "verdict": "broader",
+  "note": "Already withdrawn as broader.",
+  "name": "NMOSD"
+ },
+ "ARI:0001144\tacquired neuromyotonia": {
+  "verdict": "subtype",
+  "note": "Entry clinical subtype; MeSH narrow.",
+  "name": "Neuromyotonia, Acquired"
+ },
+ "ARI:0001144\tgamstorp wohlfart syndrome": {
+  "verdict": "subtype",
+  "note": "SNOMED synonym of hereditary neuromyotonia.",
+  "name": "Gamstorp-Wohlfart syndrome"
+ },
+ "ARI:0001144\tisaac merten syndrome": {
+  "verdict": "synonym",
+  "note": "Isaacs syndrome is the label of the confirmed MONDO, NCIt, MeSH and Orphanet terms.",
+  "name": "Isaac's-Merten's syndrome"
+ },
+ "ARI:0001144\tisaac mertens syndrome": {
+  "verdict": "synonym",
+  "note": "Isaacs syndrome is the label of the confirmed MONDO, NCIt, MeSH and Orphanet terms.",
+  "name": "Isaac-Mertens syndrome"
+ },
+ "ARI:0001144\tpseudomyotonia": {
+  "verdict": "non-disease",
+  "note": "Sign.",
+  "name": "Pseudomyotonia"
+ },
+ "ARI:0001147\tkinsbourne syndrome": {
+  "verdict": "subtype",
+  "note": "MeSH narrower concept (childhood OMS).",
+  "name": "Kinsbourne syndrome"
+ },
+ "ARI:0001147\tparaneoplastic opsoclonus myoclonus ataxia syndrome": {
+  "verdict": "subtype",
+  "note": "Already withdrawn as subtype.",
+  "name": "Paraneoplastic opsoclonus-myoclonus-ataxia syndrome"
+ },
+ "ARI:0001147\tparaneoplastic opsoclonus myoclonus": {
+  "verdict": "subtype",
+  "note": "Already withdrawn as subtype.",
+  "name": "Paraneoplastic opsoclonus-myoclonus"
+ },
+ "ARI:0001151\tdonath landsteiner hemolytic anemia": {
+  "verdict": "subtype",
+  "note": "SNOMED synonym of a child of PCH. Curator check: the confirmed MeSH term is \"Donath-Landsteiner hemolytic anemia\".",
+  "name": "Donath-Landsteiner haemolytic anaemia"
+ },
+ "ARI:0001151\themoglobinuria paroxysmal cold": {
+  "verdict": "synonym",
+  "note": "Inverted form of the entry name.",
+  "name": "hemoglobinuria paroxysmal cold"
+ },
+ "ARI:0001153\tpediatric autoimmune neuropsychiatric disorder associated with streptococcus": {
+  "verdict": "synonym",
+  "note": "Spelling variant.",
+  "name": "paediatric autoimmune neuropsychiatric disorder associated with Streptococcus"
+ },
+ "ARI:0001156\tpolyarteritis": {
+  "verdict": "broader",
+  "note": "SNOMED parent.",
+  "name": "Polyarteritis"
+ },
+ "ARI:0001156\tperiarteritis": {
+  "verdict": "broader",
+  "note": "\"Periarteritis\" alone is unspecific.",
+  "name": "periarteritis"
+ },
+ "ARI:0001156\tessential polyarteritis": {
+  "verdict": "synonym",
+  "note": "Idiopathic PAN.",
+  "name": "Essential Polyarteritis"
+ },
+ "ARI:0001156\tnecrotizing arteritis": {
+  "verdict": "broader",
+  "note": "Covers many vasculitides.",
+  "name": "Necrotizing Arteritis"
+ },
+ "ARI:0001157\tautoimmune polyendocrine syndrome type i with or without reversible metaphyseal dysplasia": {
+  "verdict": "synonym",
+  "note": "OMIM 240300 title.",
+  "name": "autoimmune polyendocrine syndrome, type I, with or without reversible metaphyseal dysplasia"
+ },
+ "ARI:0001157\tautoimmune polyendocrinopathy syndrome type i autosomal dominant": {
+  "verdict": "subtype",
+  "note": "Autosomal dominant APS-1 (dominant-negative AIRE).",
+  "name": "autoimmune polyendocrinopathy syndrome, type I, autosomal dominant"
+ },
+ "ARI:0001157\tpga 1": {
+  "verdict": "synonym",
+  "note": "Abbreviation.",
+  "name": "PGA 1"
+ },
+ "ARI:0001157\tpolyglandular deficiency syndrome persian jewish type": {
+  "verdict": "synonym",
+  "note": "OMIM title for APS-1 in Iranian Jews (founder AIRE mutation).",
+  "name": "polyglandular deficiency syndrome, Persian-Jewish type"
+ },
+ "ARI:0001157\tautoimmune polyendocrinopathy syndrome type i with reversible metaphyseal dysplasia": {
+  "verdict": "subtype",
+  "note": "Form with reversible metaphyseal dysplasia.",
+  "name": "Autoimmune Polyendocrinopathy Syndrome, Type I, With Reversible Metaphyseal Dysplasia"
+ },
+ "ARI:0001158\taps 2": {
+  "verdict": "synonym",
+  "note": "Abbreviation.",
+  "name": "APS 2"
+ },
+ "ARI:0001158\tdiabetes mellitus addison disease myxedema": {
+  "verdict": "synonym",
+  "note": "OMIM 269200 title (Schmidt syndrome).",
+  "name": "diabetes mellitus, Addison disease, myxedema"
+ },
+ "ARI:0001158\tpolyendocrine autoimmune syndrome type 2": {
+  "verdict": "synonym",
+  "note": "Alternative name.",
+  "name": "polyendocrine autoimmune syndrome, type 2"
+ },
+ "ARI:0001159\tpas3": {
+  "verdict": "synonym",
+  "note": "Abbreviation.",
+  "name": "PAS3"
+ },
+ "ARI:0001164\tfamilial orthostatic tachycardia due to norepinephrine transporter deficiency": {
+  "verdict": "subtype",
+  "note": "SNOMED child (NET deficiency).",
+  "name": "Familial orthostatic tachycardia due to norepinephrine transporter deficiency"
+ },
+ "ARI:0001164\tneurocirculatory asthenia": {
+  "verdict": "distinct",
+  "note": "Da Costa syndrome, a historical anxiety-related diagnosis.",
+  "name": "neurocirculatory asthenia"
+ },
+ "ARI:0001166\tprimary biliary cirrhosis": {
+  "verdict": "synonym",
+  "note": "Former name (renamed 2015); MeSH's narrow scope is relative to its broader \"Liver Cirrhosis, Biliary\".",
+  "name": "Primary biliary cirrhosis"
+ },
+ "ARI:0001166\tbiliary cirrhosis": {
+  "verdict": "broader",
+  "note": "SNOMED and NCIt parent.",
+  "name": "Biliary cirrhosis"
+ },
+ "ARI:0001166\tchronic nonsuppurative destructive cholangitis": {
+  "verdict": "synonym",
+  "note": "Histologic name for PBC; MeSH's narrow scope is relative to its broader term.",
+  "name": "chronic nonsuppurative destructive cholangitis"
+ },
+ "ARI:0001166\tfamilial primary biliary cirrhosis": {
+  "verdict": "subtype",
+  "note": "Familial form.",
+  "name": "familial primary biliary cirrhosis"
+ },
+ "ARI:0001169\tsclerosing cholangitis": {
+  "verdict": "broader",
+  "note": "Parent; also covers secondary forms.",
+  "name": "Sclerosing cholangitis"
+ },
+ "ARI:0001170\tfacial hemiatrophy": {
+  "verdict": "broader",
+  "note": "SNOMED parent; other causes.",
+  "name": "Facial hemiatrophy"
+ },
+ "ARI:0001170\thfa": {
+  "verdict": "synonym",
+  "note": "Abbreviation.",
+  "name": "HFA"
+ },
+ "ARI:0001172\tsusceptibility to psoriatic arthritis": {
+  "verdict": "non-disease",
+  "note": "Genetic susceptibility record.",
+  "name": "psoriatic arthritis, susceptibility to"
+ },
+ "ARI:0001172\tpsoriatic arthritis susceptibility to 1": {
+  "verdict": "non-disease",
+  "note": "Genetic susceptibility record.",
+  "name": "psoriatic arthritis, susceptibility to, 1"
+ },
+ "ARI:0001173\tacquired pure red cell aplasia": {
+  "verdict": "subtype",
+  "note": "Already withdrawn as subtype.",
+  "name": "Acquired pure red cell aplasia"
+ },
+ "ARI:0001175\tre": {
+  "verdict": "synonym",
+  "note": "Abbreviation.",
+  "name": "RE"
+ },
+ "ARI:0001176\tsecondary raynaud": {
+  "verdict": "synonym",
+  "note": "Short form of the entry name. Curator check: the entry also lists it as a clinical subtype of itself.",
+  "name": "Secondary Raynaud's"
+ },
+ "ARI:0001177\treactive arthritis triad": {
+  "verdict": "subtype",
+  "note": "SNOMED child (classic triad).",
+  "name": "Reactive arthritis triad"
+ },
+ "ARI:0001177\treiter syndrome": {
+  "verdict": "subtype",
+  "note": "SNOMED synonym of reactive arthritis triad (child).",
+  "name": "Reiter's syndrome"
+ },
+ "ARI:0001177\treiter disease": {
+  "verdict": "subtype",
+  "note": "SNOMED synonym of reactive arthritis triad (child).",
+  "name": "Reiter's disease"
+ },
+ "ARI:0001177\tpira": {
+  "verdict": "synonym",
+  "note": "Abbreviation.",
+  "name": "PIRA"
+ },
+ "ARI:0001177\tpost infectious reactive arthropathy": {
+  "verdict": "synonym",
+  "note": "Alternative name.",
+  "name": "post-infectious reactive arthropathy"
+ },
+ "ARI:0001179\twed": {
+  "verdict": "synonym",
+  "note": "Abbreviation of Willis-Ekbom disease; MONDO scopes abbreviations BROAD.",
+  "name": "WED"
+ },
+ "ARI:0001179\trls": {
+  "verdict": "synonym",
+  "note": "Abbreviation; MONDO scopes abbreviations BROAD.",
+  "name": "RLS"
+ },
+ "ARI:0001180\tsicret small infarction of cochlear retinal and encephalic tissue syndrome": {
+  "verdict": "synonym",
+  "note": "Susac syndrome acronym.",
+  "name": "SICRET (small infarction of cochlear, retinal, and encephalic tissue) syndrome"
+ },
+ "ARI:0001182\tacute rheumatic fever": {
+  "verdict": "subtype",
+  "note": "SNOMED child; entry clinical subtype.",
+  "name": "Acute rheumatic fever"
+ },
+ "ARI:0001182\trheumatic arthritis": {
+  "verdict": "subtype",
+  "note": "Already withdrawn as subtype.",
+  "name": "Rheumatic arthritis"
+ },
+ "ARI:0001182\tinflammatory rheumatism": {
+  "verdict": "broader",
+  "note": "Already withdrawn as broader.",
+  "name": "Inflammatory rheumatism"
+ },
+ "ARI:0001182\trheumatic fever without heart involvement": {
+  "verdict": "subtype",
+  "note": "SNOMED child. Curator check: the confirmed ICD-10-CM I00 has this label.",
+  "name": "Rheumatic fever without heart involvement"
+ },
+ "ARI:0001182\tacute rheumatic arthritis": {
+  "verdict": "subtype",
+  "note": "SNOMED child.",
+  "name": "Acute rheumatic arthritis"
+ },
+ "ARI:0001185\trheumatoid vasculitides": {
+  "verdict": "synonym",
+  "note": "Plural.",
+  "name": "rheumatoid Vasculitides"
+ },
+ "ARI:0001189\tsicca syndrome": {
+  "verdict": "broader",
+  "note": "Already withdrawn as broader; sicca covers non-Sjogren dryness.",
+  "name": "Sicca syndrome"
+ },
+ "ARI:0001190\tlupus glomerulonephritides": {
+  "verdict": "synonym",
+  "note": "Plural.",
+  "name": "Glomerulonephritides, lupus"
+ },
+ "ARI:0001190\tlupus nephritides": {
+  "verdict": "synonym",
+  "note": "Plural.",
+  "name": "lupus Nephritides"
+ },
+ "ARI:0001193\tclassic stiff person syndrome": {
+  "verdict": "subtype",
+  "note": "MONDO child; entry clinical subtype. Curator check: the confirmed Orphanet term is classic SPS.",
+  "name": "Stiff-Person Syndrome, Classic"
+ },
+ "ARI:0001193\tstiff person spectrum disorder": {
+  "verdict": "broader",
+  "note": "Orphanet parent.",
+  "name": "Stiff person spectrum disorder"
+ },
+ "ARI:0001193\tmorsch woltman syndrome": {
+  "verdict": "synonym",
+  "note": "Eponym.",
+  "name": "Morsch Woltman syndrome"
+ },
+ "ARI:0001193\tsms": {
+  "verdict": "synonym",
+  "note": "Stiff-man syndrome abbreviation.",
+  "name": "SMS"
+ },
+ "ARI:0001193\tsps": {
+  "verdict": "synonym",
+  "note": "Abbreviation.",
+  "name": "SPS"
+ },
+ "ARI:0001193\tstiff person syndrome and related disorders": {
+  "verdict": "broader",
+  "note": "Spectrum grouping.",
+  "name": "Stiff person syndrome and related disorders"
+ },
+ "ARI:0001193\tclassic sps": {
+  "verdict": "subtype",
+  "note": "MONDO child.",
+  "name": "classic SPS"
+ },
+ "ARI:0001196\tlupus": {
+  "verdict": "broader",
+  "note": "Already withdrawn as broader.",
+  "name": "Lupus"
+ },
+ "ARI:0001197\tsm": {
+  "verdict": "synonym",
+  "note": "Abbreviation.",
+  "name": "SM"
+ },
+ "ARI:0001197\tsystemic mastocytosis with associated hemotologic non mast cell lineage disease sm ahnmd": {
+  "verdict": "subtype",
+  "note": "WHO subtype (now SM-AHN).",
+  "name": "systemic mastocytosis with associated hemotologic non-mast cell lineage disease (SM-AHNMD)"
+ },
+ "ARI:0001198\tscleroderma": {
+  "verdict": "broader",
+  "note": "Parent in SNOMED, DOID, MONDO, NCIt, Orphanet; also covers localized scleroderma (morphea).",
+  "name": "Scleroderma"
+ },
+ "ARI:0001198\tprogressive systemic sclerosis": {
+  "verdict": "subtype",
+  "note": "SNOMED child and ICD-10-CM child (M34.0). Historically the name for SSc as a whole.",
+  "name": "Progressive systemic sclerosis"
+ },
+ "ARI:0001198\tpss progressive systemic sclerosis": {
+  "verdict": "subtype",
+  "note": "SNOMED synonym of progressive systemic sclerosis (child).",
+  "name": "PSS - Progressive systemic sclerosis"
+ },
+ "ARI:0001198\tdiffuse scleroderma": {
+  "verdict": "subtype",
+  "note": "Diffuse cutaneous SSc (DOID, MONDO, MeSH child).",
+  "name": "Diffuse scleroderma"
+ },
+ "ARI:0001199\tcrest syndrome": {
+  "verdict": "subtype",
+  "note": "SNOMED, MONDO and MeSH child of limited cutaneous SSc. Curator check: the confirmed NCIt term is CREST syndrome.",
+  "name": "CREST syndrome"
+ },
+ "ARI:0001199\tlimited cutaneous systemic sclerosis": {
+  "verdict": "synonym",
+  "note": "Same concept as the entry; MONDO's CREST term reuses it as a synonym.",
+  "name": "Limited cutaneous systemic sclerosis"
+ },
+ "ARI:0001199\tlimited systemic sclerosis": {
+  "verdict": "broader",
+  "note": "SNOMED parent.",
+  "name": "Limited systemic sclerosis"
+ },
+ "ARI:0001199\tlimited cutaneous systemic scleroderma": {
+  "verdict": "synonym",
+  "note": "Same concept as the entry; MONDO's CREST term reuses it as a synonym.",
+  "name": "limited cutaneous systemic scleroderma"
+ },
+ "ARI:0001200\taortic arch syndrome": {
+  "verdict": "broader",
+  "note": "MeSH parent; other causes.",
+  "name": "Aortic arch syndrome"
+ },
+ "ARI:0001200\taortitis syndrome": {
+  "verdict": "subtype",
+  "note": "MeSH narrower concept; Japanese name for Takayasu arteritis.",
+  "name": "Aortitis syndrome"
+ },
+ "ARI:0001200\tta": {
+  "verdict": "synonym",
+  "note": "Abbreviation; ambiguous with temporal arteritis.",
+  "name": "TA"
+ },
+ "ARI:0001201\tcranial arteritis": {
+  "verdict": "synonym",
+  "note": "Cranial GCA, the same as temporal arteritis; MeSH's narrow scope is relative to its broader GCA term.",
+  "name": "Cranial arteritis"
+ },
+ "ARI:0001201\tarteritis cranialis": {
+  "verdict": "synonym",
+  "note": "Latin form.",
+  "name": "arteritis cranialis"
+ },
+ "ARI:0001201\tarteritis temporalis": {
+  "verdict": "synonym",
+  "note": "Latin form.",
+  "name": "arteritis temporalis"
+ },
+ "ARI:0001201\thorton arteritis": {
+  "verdict": "synonym",
+  "note": "Eponym.",
+  "name": "Horton's arteritis"
+ },
+ "ARI:0001201\thorton temporal arteritis": {
+  "verdict": "synonym",
+  "note": "Eponym.",
+  "name": "Horton's temporal arteritis"
+ },
+ "ARI:0001201\thortons disease": {
+  "verdict": "synonym",
+  "note": "Eponym.",
+  "name": "Horton’s disease"
+ },
+ "ARI:0001201\thortons syndrome": {
+  "verdict": "distinct",
+  "note": "\"Horton's syndrome\" usually denotes cluster headache.",
+  "name": "Horton’s syndrome"
+ },
+ "ARI:0001201\tpolymyalgia rheumatica": {
+  "verdict": "distinct",
+  "note": "Separate disease.",
+  "name": "polymyalgia rheumatica"
+ },
+ "ARI:0001203\tpainful ophthalmoplegia": {
+  "verdict": "broader",
+  "note": "SNOMED parent.",
+  "name": "Painful Ophthalmoplegia"
+ },
+ "ARI:0001203\tnonspecific inflammation of the cavernous sinus or superior orbital fissure": {
+  "verdict": "synonym",
+  "note": "Descriptive pathology name.",
+  "name": "nonspecific inflammation of the cavernous sinus or superior orbital fissure"
+ },
+ "ARI:0001205\tleft sided ulcerative colitis": {
+  "verdict": "subtype",
+  "note": "SNOMED child; entry clinical subtype.",
+  "name": "Ulcerative Colitis, Left-Sided"
+ },
+ "ARI:0001208\tautoimmune uveitis": {
+  "verdict": "subtype",
+  "note": "MONDO child. Curator check: the confirmed DOID term is autoimmune uveitis.",
+  "name": "Autoimmune uveitis"
+ },
+ "ARI:0001210\tvkh disease": {
+  "verdict": "synonym",
+  "note": "Abbreviation.",
+  "name": "VKH disease"
+ },
+ "ARI:0001211\twarm antibody aiha": {
+  "verdict": "synonym",
+  "note": "Alternative name.",
+  "name": "warm antibody AIHA"
+ },
+ "ARI:0001211\twarm reacting antibody hemolytic anemia": {
+  "verdict": "synonym",
+  "note": "Alternative name.",
+  "name": "warm-reacting-antibody hemolytic anaemia"
+ },
+ "ARI:0001212\tcalcinosis raynaud phenomenon esophageal involvement sclerodactyly telangiectasia": {
+  "verdict": "synonym",
+  "note": "Acronym expansion.",
+  "name": "calcinosis - Raynaud phenomenon - esophageal involvement - sclerodactyly - telangiectasia"
+ },
+ "ARI:0001212\tlcssc": {
+  "verdict": "broader",
+  "note": "MONDO broad.",
+  "name": "lcSSc"
+ },
+ "ARI:0001212\tlimited cutaneous systemic sclerosis": {
+  "verdict": "broader",
+  "note": "MONDO parent.",
+  "name": "limited cutaneous Systemic sclerosis"
+ },
+ "ARI:0001215\ttype 1 diabetes mellitus": {
+  "verdict": "broader",
+  "note": "Parent disease.",
+  "name": "Type 1 diabetes mellitus"
+ },
+ "ARI:0001215\tautoimmune diabetes": {
+  "verdict": "broader",
+  "note": "Autoimmune diabetes also covers LADA.",
+  "name": "Diabetes, Autoimmune"
+ },
+ "ARI:0001216\tautoimmune thyroiditis": {
+  "verdict": "broader",
+  "note": "Parent term.",
+  "name": "autoimmune thyroiditis"
+ },
+ "ARI:0001216\tchronic lymphocytic thyroiditides": {
+  "verdict": "synonym",
+  "note": "Plural.",
+  "name": "chronic lymphocytic thyroiditides"
+ },
+ "ARI:0001216\thashimoto thyroiditides": {
+  "verdict": "synonym",
+  "note": "Plural.",
+  "name": "Hashimoto thyroiditides"
+ },
+ "ARI:0001216\thashimotos disease": {
+  "verdict": "synonym",
+  "note": "Spelling variant.",
+  "name": "Hashimotos disease"
+ },
+ "ARI:0001216\thashimotos syndrome": {
+  "verdict": "synonym",
+  "note": "Spelling variant.",
+  "name": "Hashimotos syndrome"
+ },
+ "ARI:0001216\tht": {
+  "verdict": "synonym",
+  "note": "Abbreviation.",
+  "name": "HT"
+ },
+ "ARI:0001216\tautoimmune hypothyroidism": {
+  "verdict": "broader",
+  "note": "Autoimmune hypothyroidism also covers atrophic thyroiditis; Hashimoto's can be euthyroid.",
+  "name": "hypothyroidism, autoimmune"
+ },
+ "ARI:0001216\thypothyroidism autoimmune thyroid autoantibodies included": {
+  "verdict": "non-disease",
+  "note": "OMIM \"included\" fragment.",
+  "name": "hypothyroidism, autoimmune thyroid autoantibodies, included"
+ },
+ "ARI:0001216\tlymphocytic thyroiditis": {
+  "verdict": "broader",
+  "note": "MONDO broad and NCIt parent; also covers painless and postpartum thyroiditis.",
+  "name": "lymphocytic thyroiditis"
+ },
+ "ARI:0001216\tthyroid autoantibodies": {
+  "verdict": "non-disease",
+  "note": "Antibody, not a disease.",
+  "name": "thyroid autoantibodies"
+ },
+ "ARI:0001069\tanemia hemolytic cold antibody": {
+  "verdict": "broader",
+  "note": "Cold-antibody AIHA covers CAD and PCH.",
+  "name": "anemia, hemolytic, cold antibody"
+ },
+ "ARI:0001069\tanemia hemolytic idiopathic acquired": {
+  "verdict": "broader",
+  "note": "Idiopathic acquired AIHA covers warm and cold forms.",
+  "name": "Anemia, Hemolytic, Idiopathic Acquired"
+ },
+ "ARI:0001069\tidiopathic autoimmune hemolytic anemia": {
+  "verdict": "broader",
+  "note": "Idiopathic AIHA covers warm and cold forms.",
+  "name": "Idiopathic Autoimmune Hemolytic Anemia"
+ },
+ "ARI:0001069\tacquired autoimmune hemolytic anemia": {
+  "verdict": "broader",
+  "note": "Acquired AIHA covers warm and cold forms.",
+  "name": "Acquired Autoimmune Hemolytic Anemia"
+ },
+ "ARI:0001102\theymann nephritis": {
+  "verdict": "non-disease",
+  "note": "Heymann nephritis is the rat experimental model of membranous nephropathy.",
+  "name": "Heymann Nephritis"
+ },
+ "ARI:0001142\tamyotrophic neuralgia": {
+  "verdict": "synonym",
+  "note": "Inverted form of the entry name.",
+  "name": "Neuralgia, Amyotrophic"
+ },
+ "ARI:0001166\tsecondary biliary cholangitis": {
+  "verdict": "distinct",
+  "note": "Secondary biliary cholangitis/cirrhosis follows biliary obstruction; a different disease.",
+  "name": "Secondary Biliary Cholangitis"
+ },
+ "ARI:0001166\tobstructive liver cirrhosis": {
+  "verdict": "distinct",
+  "note": "Secondary biliary cholangitis/cirrhosis follows biliary obstruction; a different disease.",
+  "name": "Liver Cirrhosis, Obstructive"
+ },
+ "ARI:0001166\tsecondary biliary cirrhosis": {
+  "verdict": "distinct",
+  "note": "Secondary biliary cholangitis/cirrhosis follows biliary obstruction; a different disease.",
+  "name": "Secondary Biliary Cirrhosis"
+ },
+ "ARI:0001201\thorton giant cell aortitis": {
+  "verdict": "distinct",
+  "note": "Giant cell aortitis is large-vessel GCA, a sibling of cranial (temporal) arteritis.",
+  "name": "Giant Cell Aortitis, Horton's"
+ },
+ "ARI:0001201\tgiant cell aortic arteritis": {
+  "verdict": "distinct",
+  "note": "Giant cell aortitis is large-vessel GCA, a sibling of cranial (temporal) arteritis.",
+  "name": "Aortic Arteritis, Giant Cell"
+ },
+ "ARI:0001201\tgiant cell aortitis": {
+  "verdict": "distinct",
+  "note": "Giant cell aortitis is large-vessel GCA, a sibling of cranial (temporal) arteritis.",
+  "name": "Aortitis, Giant Cell"
+ },
+ "ARI:0001201\tjuvenile temporal arteritis": {
+  "verdict": "distinct",
+  "note": "Juvenile temporal arteritis is a separate non-GCA entity in young adults.",
+  "name": "Juvenile Temporal Arteritis"
+ },
+ "ARI:0001004\tinfantile polyarteritis nodosa": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "Infantile Polyarteritis Nodosa"
+ },
+ "ARI:0001006\tchronic adrenal insufficiency addison disease": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "Addison disease, chronic adrenal insufficiency"
+ },
+ "ARI:0001006\tprimary adrenocortical insufficiency": {
+  "verdict": "broader",
+  "note": "Primary adrenal insufficiency also covers congenital causes; NCIt files Addison's disease under it.",
+  "name": "primary adrenocortical insufficiency"
+ },
+ "ARI:0001006\tprimary hypoadrenalism": {
+  "verdict": "broader",
+  "note": "Primary adrenal insufficiency also covers congenital causes; NCIt files Addison's disease under it.",
+  "name": "primary hypoadrenalism"
+ },
+ "ARI:0001006\tclassic addison disease": {
+  "verdict": "synonym",
+  "note": "Names Addison's disease itself. MONDO lists it under its autoimmune-PAI term, which is narrower than the entry.",
+  "name": "classic Addison's disease"
+ },
+ "ARI:0001006\tprimary addison disease": {
+  "verdict": "synonym",
+  "note": "Names Addison's disease itself. MONDO lists it under its autoimmune-PAI term, which is narrower than the entry.",
+  "name": "primary Addison's disease"
+ },
+ "ARI:0001012\tidiopathic ankylosing spondylitis": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "Idiopathic ankylosing spondylitis"
+ },
+ "ARI:0001014\tanti gbm disease": {
+  "verdict": "synonym",
+  "note": "Abbreviation of the entry name. DOID lists it under \"Goodpasture syndrome\", which is narrower than the entry.",
+  "name": "Anti-GBM disease"
+ },
+ "ARI:0001018\tfamilial lupus anticoagulant": {
+  "verdict": "subtype",
+  "note": "Familial form.",
+  "name": "familial lupus anticoagulant"
+ },
+ "ARI:0001030\tacute panautonomic gbs": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "acute panautonomic GBS"
+ },
+ "ARI:0001030\tacute panautonomic guillain barre syndrome": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "acute panautonomic Guillain-Barre syndrome"
+ },
+ "ARI:0001030\tacute panautonomic neuropathy": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "acute panautonomic neuropathy"
+ },
+ "ARI:0001030\tacute pandysautonomia": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "acute pandysautonomia"
+ },
+ "ARI:0001030\tidiopathic subacute autonomic neuropathy": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "idiopathic subacute autonomic neuropathy"
+ },
+ "ARI:0001033\tautoimmune chronic hepatitis": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "autoimmune chronic hepatitis"
+ },
+ "ARI:0001035\tprimary hypophysitis": {
+  "verdict": "broader",
+  "note": "Primary hypophysitis also covers granulomatous, xanthomatous and IgG4-related hypophysitis. Curator check: it is the label of the confirmed MONDO and Orphanet terms.",
+  "name": "primary hypophysitis"
+ },
+ "ARI:0001038\tautoimmune lymphoproliferative syndrome type i autosomal dominant": {
+  "verdict": "subtype",
+  "note": "ALPS type Ia (FAS), one genetic form.",
+  "name": "Autoimmune Lymphoproliferative Syndrome, Type I, Autosomal Dominant"
+ },
+ "ARI:0001045\tidiopathic pap": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "idiopathic PAP"
+ },
+ "ARI:0001045\tidiopathic pulmonary alveolar proteinosis": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "idiopathic pulmonary alveolar proteinosis"
+ },
+ "ARI:0001052\tdiffuse cerebral sclerosis of schilder": {
+  "verdict": "distinct",
+  "note": "Schilder disease (myelinoclastic diffuse sclerosis) is a separate atypical demyelinating disease. Curator check: the confirmed MeSH term is Schilder disease.",
+  "name": "Diffuse Cerebral Sclerosis of Schilder"
+ },
+ "ARI:0001052\tdiffuse cerebral sclerosis": {
+  "verdict": "distinct",
+  "note": "Schilder disease (myelinoclastic diffuse sclerosis) is a separate atypical demyelinating disease.",
+  "name": "Cerebral Sclerosis, Diffuse"
+ },
+ "ARI:0001052\tmyelinoclastic diffuse sclerosis": {
+  "verdict": "distinct",
+  "note": "Schilder disease (myelinoclastic diffuse sclerosis) is a separate atypical demyelinating disease.",
+  "name": "Myelinoclastic Diffuse Sclerosis"
+ },
+ "ARI:0001054\tocular pemphigus": {
+  "verdict": "subtype",
+  "note": "Ocular mucous membrane pemphigoid.",
+  "name": "ocular pemphigus"
+ },
+ "ARI:0001059\tjuvenile dermatomyositis with calcinosis": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "Juvenile dermatomyositis with calcinosis"
+ },
+ "ARI:0001061\tgluten induced enteropathy": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "Gluten-induced enteropathy"
+ },
+ "ARI:0001061\tidiopathic steatorrhea": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "idiopathic steatorrhea"
+ },
+ "ARI:0001061\tidiopathic steatorrhoea": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "Idiopathic steatorrhoea"
+ },
+ "ARI:0001061\tgluten induced enteropathy syndrome": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "Gluten-induced enteropathy syndrome"
+ },
+ "ARI:0001062\tsystemic exertion intolerance disease": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "Systemic exertion intolerance disease"
+ },
+ "ARI:0001063\tchronic relapsing polyneuropathy": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "Chronic relapsing polyneuropathy"
+ },
+ "ARI:0001064\tchronic primary bladder pain syndrome": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "Chronic primary bladder pain syndrome"
+ },
+ "ARI:0001066\tchronic nonbacterial osteomyelitis chronic recurrent multifocal osteomyelitis": {
+  "verdict": "broader",
+  "note": "CNO covers unifocal disease; CRMO is its recurrent multifocal form.",
+  "name": "Chronic nonbacterial osteomyelitis/Chronic recurrent multifocal osteomyelitis"
+ },
+ "ARI:0001066\tchronic recurrent multifocal osteomyelitis": {
+  "verdict": "synonym",
+  "note": "Recurrent multifocal form, which the entry names.",
+  "name": "chronic recurrent multifocal osteomyelitis"
+ },
+ "ARI:0001066\tcno crmo chronic nonbacterial osteomyelitis chronic recurrent multifocal osteomyelitis": {
+  "verdict": "broader",
+  "note": "CNO covers unifocal disease; CRMO is its recurrent multifocal form.",
+  "name": "CNO/CRMO - chronic nonbacterial osteomyelitis/chronic recurrent multifocal osteomyelitis"
+ },
+ "ARI:0001067\tpost acute sequelae of covid 19": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "Post-Acute Sequelae of COVID-19"
+ },
+ "ARI:0001067\tpost acute covid 19 syndrome": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "Post-Acute COVID-19 Syndrome"
+ },
+ "ARI:0001067\tpost acute covid 19 sequelae": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "Post-Acute COVID-19 Sequelae"
+ },
+ "ARI:0001067\tpasc post acute sequelae of covid 19": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "PASC Post Acute Sequelae of COVID-19"
+ },
+ "ARI:0001067\tpost acute sequelae of sars cov 2 infection": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "post-acute sequelae of SARS-CoV-2 infection"
+ },
+ "ARI:0001068\tdiffuse interstitual keratitis": {
+  "verdict": "non-disease",
+  "note": "Interstitial keratitis is a manifestation of Cogan's syndrome.",
+  "name": "diffuse interstitual keratitis"
+ },
+ "ARI:0001070\tsyndromic autoimmune enteropathy due to lps responsive beige like anchor protein": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "Syndromic autoimmune enteropathy due to LPS responsive beige-like anchor protein"
+ },
+ "ARI:0001070\tsyndromic autoimmune enteropathy due to lrba deficiency": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "Syndromic autoimmune enteropathy due to LRBA deficiency"
+ },
+ "ARI:0001071\tchronic regional pain syndrome": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "Chronic regional pain syndrome"
+ },
+ "ARI:0001072\tautoimmune interstitial lung joint and kidney disease": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "autoimmune interstitial lung, joint, and kidney disease"
+ },
+ "ARI:0001072\tautoimmune interstitial lung disease arthritis syndrome": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "Autoimmune interstitial lung disease-arthritis syndrome"
+ },
+ "ARI:0001072\tsystemic autoinflammation and autoimmunity with immune dysregulation 1": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "systemic autoinflammation and autoimmunity with immune dysregulation 1"
+ },
+ "ARI:0001072\tautoinflammation and autoimmunity systemic with immune dysregulation": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "autoinflammation and autoimmunity, Systemic with immune dysregulation"
+ },
+ "ARI:0001072\tarthritis syndrome autoimmune interstitial lung disease": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "Autoimmune interstitial lung disease, arthritis syndrome"
+ },
+ "ARI:0001074\tprimary organizing pneumonia": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "Primary Organizing Pneumonia"
+ },
+ "ARI:0001075\tautoimmune lymphoproliferative syndrome due to ctla4 haploinsufficiency": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "autoimmune lymphoproliferative syndrome due to CTLA4 haploinsufficiency"
+ },
+ "ARI:0001075\talps type 5": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "ALPS type 5"
+ },
+ "ARI:0001075\talps type v": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "ALPS type V"
+ },
+ "ARI:0001075\tautoimmune lymphoproliferative syndrome type 5": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "autoimmune lymphoproliferative syndrome type 5"
+ },
+ "ARI:0001075\tautoimmune lymphoproliferative syndrome type v": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "autoimmune lymphoproliferative syndrome type V"
+ },
+ "ARI:0001075\tctla 4 haploinsufficiency with autoimmune infiltration disease": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "CTLA-4 haploinsufficiency with autoimmune infiltration disease"
+ },
+ "ARI:0001075\tautoimmune lymphoproliferative syndrome due to cytotoxic t lymphocyte associated protein 4 haploinsufficiency": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "Autoimmune lymphoproliferative syndrome due to cytotoxic T-lymphocyte associated protein 4 haploinsufficiency"
+ },
+ "ARI:0001077\tmastocytosis systemic somatic": {
+  "verdict": "distinct",
+  "note": "Systemic mastocytosis, not cutaneous.",
+  "name": "mastocytosis, systemic, somatic"
+ },
+ "ARI:0001080\tjuvenile onset diabetes": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "Juvenile-onset diabetes"
+ },
+ "ARI:0001080\tjuvenile diabetes": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "Juvenile diabetes"
+ },
+ "ARI:0001080\tjuvenile onset diabetes mellitus": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "Diabetes Mellitus, Juvenile-Onset"
+ },
+ "ARI:0001080\tsudden onset diabetes mellitus": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "Diabetes Mellitus, Sudden-Onset"
+ },
+ "ARI:0001083\tautoimmune encephalopathy with parasomnia and obstructive sleep apnea": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "Autoimmune encephalopathy with parasomnia and obstructive sleep apnea"
+ },
+ "ARI:0001083\tautoimmune encephalopathy with parasomnia and obstructive sleep apnoea": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "Autoimmune encephalopathy with parasomnia and obstructive sleep apnoea"
+ },
+ "ARI:0001086\teosinophilic chronic esophagitis": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "Chronic Esophagitis, Eosinophilic"
+ },
+ "ARI:0001091\tautoimmune hemolytic anemia and autoimmune thrombocytopenia": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "autoimmune hemolytic anaemia and autoimmune thrombocytopenia"
+ },
+ "ARI:0001092\tdiffuse eosinophilic fasciitis": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "Diffuse (eosinophilic) fasciitis"
+ },
+ "ARI:0001092\tdiffuse fasciitis with eosinophilia": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "diffuse fasciitis with eosinophilia"
+ },
+ "ARI:0001095\tdiffuse myofascial pain syndrome": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "Myofascial Pain Syndrome, Diffuse"
+ },
+ "ARI:0001096\tautoimmune hyperthyroidism": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "Autoimmune hyperthyroidism"
+ },
+ "ARI:0001096\tthyrotoxicosis with diffuse goiter": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "Thyrotoxicosis with diffuse goiter"
+ },
+ "ARI:0001097\tacute idiopathic polyneuritis": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "Acute idiopathic polyneuritis"
+ },
+ "ARI:0001097\tacute inflammatory neuropathy": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "Acute inflammatory neuropathy"
+ },
+ "ARI:0001097\tacute post infective radiculoneuropathy": {
+  "verdict": "subtype",
+  "note": "Post-infectious form; MONDO scopes post-infectious polyneuritis NARROW.",
+  "name": "Acute post-infective radiculoneuropathy"
+ },
+ "ARI:0001097\tacute idiopathic polyradiculoneuritis": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "Acute idiopathic polyradiculoneuritis"
+ },
+ "ARI:0001097\tacute postinfectious polyneuropathy": {
+  "verdict": "subtype",
+  "note": "Post-infectious form; MONDO scopes post-infectious polyneuritis NARROW.",
+  "name": "acute postinfectious polyneuropathy"
+ },
+ "ARI:0001098\tf9 deficiency leyden type": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "F9 deficiency, Leyden type"
+ },
+ "ARI:0001098\tfactor ix deficiency leyden type": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "Factor IX deficiency, Leyden type"
+ },
+ "ARI:0001098\tfactor 9 deficiency leyden type": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "Factor 9 deficiency Leyden type"
+ },
+ "ARI:0001101\tcutaneous leukocytoclastic vasculitis": {
+  "verdict": "subtype",
+  "note": "Cutaneous leukocytoclastic angiitis is a SNOMED child of hypersensitivity angiitis. Curator check: the confirmed MeSH term has this label.",
+  "name": "Cutaneous Leukocytoclastic vasculitis"
+ },
+ "ARI:0001101\tvasculitis leukocytoclastic cutaneous": {
+  "verdict": "subtype",
+  "note": "Cutaneous leukocytoclastic angiitis is a SNOMED child of hypersensitivity angiitis. Curator check: the confirmed MeSH term has this label.",
+  "name": "Vasculitis, Leukocytoclastic, Cutaneous"
+ },
+ "ARI:0001101\tcutaneous allergic vasculitis": {
+  "verdict": "subtype",
+  "note": "Allergic cutaneous vasculitis is a DOID and MONDO child.",
+  "name": "Cutaneous Allergic Vasculitis"
+ },
+ "ARI:0001102\tprimary membranous glomerulonephritis": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "Primary membranous glomerulonephritis"
+ },
+ "ARI:0001102\tprimary membranous nephropathy": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "Primary membranous nephropathy"
+ },
+ "ARI:0001103\tchronic form idiopathic fibrosing alveolitis": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "Idiopathic Fibrosing Alveolitis, Chronic Form"
+ },
+ "ARI:0001104\tnephritis iga type": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "Nephritis, IGA Type"
+ },
+ "ARI:0001106\tautoimmune enteropathy type 1": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "Autoimmune enteropathy type 1"
+ },
+ "ARI:0001106\tdiabetes mellitus congenital insulin dependent with fatal secretory diarrhea": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "diabetes mellitus, congenital insulin-dependent, with fatal secretory diarrhea"
+ },
+ "ARI:0001106\tdiabetes mellitus congenital insulin dependent with fatal secretory diarrhoea": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "diabetes mellitus, congenital insulin-dependent, with fatal secretory diarrhoea"
+ },
+ "ARI:0001106\tenteropathy autoimmune with hemolytic anemia and polyendocrinopathy": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "enteropathy, autoimmune, with hemolytic Anaemia and polyendocrinopathy"
+ },
+ "ARI:0001107\tidiopathic thrombocytopenic purpura": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "Idiopathic thrombocytopenic purpura"
+ },
+ "ARI:0001107\tprimary immune thrombocytopenia": {
+  "verdict": "subtype",
+  "note": "Matches the entry's clinical subtype \"Primary ITP\". Curator check: the confirmed NCIt term has this label.",
+  "name": "Primary Immune Thrombocytopenia"
+ },
+ "ARI:0001107\tidiopathic thrombocytopenia purpura": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "Idiopathic Thrombocytopenia Purpura"
+ },
+ "ARI:0001107\tidiopathic thrombocytopenia": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "Idiopathic Thrombocytopenia"
+ },
+ "ARI:0001107\tpurpura thrombocytopenic idiopathic": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "Purpura, Thrombocytopenic, Idiopathic"
+ },
+ "ARI:0001107\tpurpura thrombocytopenic autoimmune": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "Purpura, Thrombocytopenic, Autoimmune"
+ },
+ "ARI:0001108\tacute vascular purpura": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "Acute vascular purpura"
+ },
+ "ARI:0001108\tautoimmune purpura": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "Autoimmune purpura"
+ },
+ "ARI:0001109\tigg4 related systemic disease": {
+  "verdict": "subtype",
+  "note": "",
+  "name": "IgG4-related systemic disease"
+ },
+ "ARI:0001109\timmunoglobulin g4 related systemic disease": {
+  "verdict": "subtype",
+  "note": "Orphanet files the systemic form under its IgG4-related disease group.",
+  "name": "Immunoglobulin G4 related systemic disease"
+ },
+ "ARI:0001109\tigg4 associated autoimmune disease": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "IgG4-Associated Autoimmune Disease"
+ },
+ "ARI:0001109\tigg4 rd": {
+  "verdict": "synonym",
+  "note": "Abbreviation of the entry name. MONDO lists it under \"IgG4-related sclerosing disease\", which MeSH holds as narrower.",
+  "name": "IgG4-RD"
+ },
+ "ARI:0001112\tautoimmune bowel disorder": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "autoimmune bowel disorder"
+ },
+ "ARI:0001115\tchronic cyclitis": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "Chronic cyclitis"
+ },
+ "ARI:0001116\tdiffuse parenchymal lung disease": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "Diffuse parenchymal lung disease"
+ },
+ "ARI:0001117\tjuvenile chronic arthritis": {
+  "verdict": "broader",
+  "note": "Juvenile chronic arthritis (EULAR) also covers juvenile AS and juvenile psoriatic arthritis.",
+  "name": "Juvenile chronic arthritis"
+ },
+ "ARI:0001117\tjuvenile idiopathic arthritis": {
+  "verdict": "broader",
+  "note": "JIA (ILAR) replaced JRA and JCA and adds enthesitis-related and psoriatic arthritis, so it is broader than JRA. Curator check: it is the label of the confirmed SNOMED and MONDO terms.",
+  "name": "Juvenile idiopathic arthritis"
+ },
+ "ARI:0001117\tjca juvenile chronic arthritis": {
+  "verdict": "broader",
+  "note": "Juvenile chronic arthritis (EULAR) also covers juvenile AS and juvenile psoriatic arthritis.",
+  "name": "JCA - Juvenile chronic arthritis"
+ },
+ "ARI:0001117\tjia juvenile idiopathic arthritis": {
+  "verdict": "broader",
+  "note": "JIA (ILAR) is broader than JRA.",
+  "name": "JIA - juvenile idiopathic arthritis"
+ },
+ "ARI:0001117\tjuvenile chronic polyarthritis": {
+  "verdict": "subtype",
+  "note": "Polyarticular course. Curator check: it is the label of the confirmed MONDO:0024281 and NCIt C26979.",
+  "name": "juvenile chronic polyarthritis"
+ },
+ "ARI:0001132\tlocalized scleroderma": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "Localized scleroderma"
+ },
+ "ARI:0001132\tlocalised dermatosclerosis": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "Localised dermatosclerosis"
+ },
+ "ARI:0001132\tlocalized dermatosclerosis": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "Localized dermatosclerosis"
+ },
+ "ARI:0001132\tlocalised morphoea": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "Localised morphoea"
+ },
+ "ARI:0001132\tlocalized morphea": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "Localized morphea (disorder)"
+ },
+ "ARI:0001132\tlocalised scleroderma": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "Localised scleroderma"
+ },
+ "ARI:0001132\tcircumscribed or localised scleroderma": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "Scleroderma, circumscribed or localised"
+ },
+ "ARI:0001132\tcircumscribed or localized scleroderma": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "Scleroderma, circumscribed or localized"
+ },
+ "ARI:0001132\tlocalised morphea": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "localised morphea"
+ },
+ "ARI:0001132\tlocalised fibrosing scleroderma": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "localised fibrosing scleroderma"
+ },
+ "ARI:0001132\tlocalised scleroderma disorder ambiguous": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "localised scleroderma (disorder) [ambiguous]"
+ },
+ "ARI:0001132\tlocalized fibrosing scleroderma": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "localized fibrosing scleroderma"
+ },
+ "ARI:0001132\tlocalized morphoea": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "localized morphoea"
+ },
+ "ARI:0001132\tlocalized scleroderma disorder ambiguous": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "localized scleroderma (disorder) [ambiguous]"
+ },
+ "ARI:0001132\tlocalized scleroderma morphea": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "Localized scleroderma [morphea]"
+ },
+ "ARI:0001134\tprogressive intracranial arterial occlusion": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "Progressive intracranial arterial occlusion"
+ },
+ "ARI:0001134\tidiopathic moyamoya disease": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "idiopathic Moyamoya disease"
+ },
+ "ARI:0001134\tprogressive intracranial occlusive arteropathy moyamoya": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "Progressive Intracranial Occlusive Arteropathy (Moyamoya)"
+ },
+ "ARI:0001136\tautoimmune myasthenia gravis": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "Autoimmune myasthenia gravis"
+ },
+ "ARI:0001140\tsystemic vasculitis": {
+  "verdict": "broader",
+  "note": "Systemic vasculitis covers non-necrotizing forms.",
+  "name": "systemic vasculitis"
+ },
+ "ARI:0001141\tneonatal systemic lupus erythematosus": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "neonatal systemic lupus erythematosus"
+ },
+ "ARI:0001142\tparsonage turner syndrome": {
+  "verdict": "synonym",
+  "note": "Eponym for neuralgic amyotrophy. MeSH and DOID list it under \"brachial plexus neuritis\", which is broader.",
+  "name": "Parsonage-Turner Syndrome"
+ },
+ "ARI:0001142\tparsonage aldren turner syndrome": {
+  "verdict": "synonym",
+  "note": "Eponym for neuralgic amyotrophy. MeSH and DOID list it under \"brachial plexus neuritis\", which is broader.",
+  "name": "Parsonage-Aldren-Turner syndrome"
+ },
+ "ARI:0001142\tacute brachial plexus neuritis": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "acute brachial plexus neuritis"
+ },
+ "ARI:0001143\tsmon subacute myelo optico neuropathy": {
+  "verdict": "distinct",
+  "note": "SMON is clioquinol toxicity, not NMO.",
+  "name": "SMON - subacute myelo-optico-neuropathy"
+ },
+ "ARI:0001143\tsubacute myelo optic neuropathy": {
+  "verdict": "distinct",
+  "note": "SMON is clioquinol toxicity, not NMO.",
+  "name": "Subacute myelo-optic neuropathy"
+ },
+ "ARI:0001149\trapidely progressive cerebellar syndrome": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "Rapidely progressive cerebellar syndrome"
+ },
+ "ARI:0001149\tsubacute cerebellar degeneration": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "Subacute cerebellar degeneration"
+ },
+ "ARI:0001151\tcold donath landsteiner type autoimmune hemolytic anemia": {
+  "verdict": "subtype",
+  "note": "SNOMED names Donath-Landsteiner hemolytic anemia as idiopathic PCH, a child.",
+  "name": "Cold Donath Landsteiner type autoimmune haemolytic anaemia"
+ },
+ "ARI:0001151\tdonath landsteiner syndrome": {
+  "verdict": "subtype",
+  "note": "",
+  "name": "Donath-Landsteiner syndrome"
+ },
+ "ARI:0001152\thereditary paroxysmal nocturnal hemoglobinuria": {
+  "verdict": "subtype",
+  "note": "Germline (PIGT/PIGA) form; PNH is usually acquired.",
+  "name": "hereditary paroxysmal nocturnal hemoglobinuria"
+ },
+ "ARI:0001157\tjuvenile familial endocrinopathy": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "Juvenile familial endocrinopathy"
+ },
+ "ARI:0001157\tautoimmune hypoparathyroidism chronic candidiasis addison disease syndrome": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "autoimmune hypoparathyroidism-chronic candidiasis-Addison disease syndrome"
+ },
+ "ARI:0001158\tprimary hypothyroidism and adrenocortical insufficiency": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "Primary hypothyroidism AND adrenocortical insufficiency"
+ },
+ "ARI:0001166\tchronic non suppurative destructive cholangitis": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "chronic non-suppurative destructive cholangitis"
+ },
+ "ARI:0001170\tparry romberg syndrome": {
+  "verdict": "synonym",
+  "note": "Eponym. MONDO, MeSH and DOID list it under \"facial hemiatrophy\", which is broader.",
+  "name": "Parry Romberg syndrome"
+ },
+ "ARI:0001170\tprogressive facial hemiatrophy": {
+  "verdict": "synonym",
+  "note": "Word-order variant of the entry name.",
+  "name": "Progressive facial hemiatrophy"
+ },
+ "ARI:0001170\tromberg syndrome": {
+  "verdict": "synonym",
+  "note": "Eponym.",
+  "name": "Romberg's syndrome"
+ },
+ "ARI:0001170\themifacial atrophy": {
+  "verdict": "broader",
+  "note": "",
+  "name": "hemifacial atrophy"
+ },
+ "ARI:0001173\tprimary red cell aplasia": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "Primary red cell aplasia"
+ },
+ "ARI:0001175\trasmussen subacute encephalitis": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "Rasmussen subacute encephalitis"
+ },
+ "ARI:0001175\tchronic focal encephalitis": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "chronic focal encephalitis"
+ },
+ "ARI:0001175\tsubacute focal encephalitis of rasmussen": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "Subacute focal encephalitis of Rasmussen"
+ },
+ "ARI:0001178\tsystemic chondromalacia": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "Systemic chondromalacia"
+ },
+ "ARI:0001178\tchronic atrophic polychondritis": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "Chronic atrophic polychondritis"
+ },
+ "ARI:0001178\tchronic polychondritis": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "Chronic polychondritis"
+ },
+ "ARI:0001182\tarthritis rheumatic acute": {
+  "verdict": "subtype",
+  "note": "Acute rheumatic arthritis is a SNOMED child.",
+  "name": "Arthritis, Rheumatic, Acute"
+ },
+ "ARI:0001182\tacute articular rheumatism": {
+  "verdict": "subtype",
+  "note": "Old name for acute rheumatic fever, an entry clinical subtype.",
+  "name": "Rheumatism, Acute Articular"
+ },
+ "ARI:0001182\trheumatism articular acute": {
+  "verdict": "subtype",
+  "note": "Old name for acute rheumatic fever, an entry clinical subtype.",
+  "name": "Rheumatism, Articular, Acute"
+ },
+ "ARI:0001187\tchronic urticaria with gammopathy": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "Chronic urticaria with gammopathy"
+ },
+ "ARI:0001187\tchronic urticaria with macroglobulinemia": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "Chronic urticaria with macroglobulinemia"
+ },
+ "ARI:0001189\tprimary sjogren gougerot syndrome": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "primary Sjogren-Gougerot syndrome"
+ },
+ "ARI:0001190\tsystemic lupus erythematosus glomerulonephritis syndrome": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "Systemic lupus erythematosus glomerulonephritis syndrome (disorder)"
+ },
+ "ARI:0001193\tcongenital stiff man syndrome": {
+  "verdict": "distinct",
+  "note": "Congenital stiff-man syndrome is hereditary hyperekplexia.",
+  "name": "Congenital Stiff-Man Syndrome"
+ },
+ "ARI:0001193\tcongenital stiff person syndrome": {
+  "verdict": "distinct",
+  "note": "Congenital stiff-man syndrome is hereditary hyperekplexia.",
+  "name": "Congenital Stiff-Person Syndrome"
+ },
+ "ARI:0001198\tdiffuse sclerosis": {
+  "verdict": "subtype",
+  "note": "Ambiguous: also names diffuse cutaneous SSc (a subtype) and Schilder diffuse sclerosis.",
+  "name": "diffuse sclerosis"
+ },
+ "ARI:0001198\tdiffuse sclerosis ssc": {
+  "verdict": "subtype",
+  "note": "Ambiguous: also names diffuse cutaneous SSc (a subtype).",
+  "name": "SSc, diffuse sclerosis"
+ },
+ "ARI:0001199\tlcssc": {
+  "verdict": "synonym",
+  "note": "Abbreviation of the entry name. NCIt lists it under CREST, which is narrower.",
+  "name": "lcSSc"
+ },
+ "ARI:0001199\tcr e st syndrome": {
+  "verdict": "subtype",
+  "note": "",
+  "name": "CR(E)ST syndrome"
+ },
+ "ARI:0001200\tprimary arteritis": {
+  "verdict": "broader",
+  "note": "Unspecific.",
+  "name": "Primary arteritis"
+ },
+ "ARI:0001200\tidiopathic medial aortopathy and arteriopathy": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "Idiopathic medial aortopathy AND arteriopathy"
+ },
+ "ARI:0001200\tidiopathic aortitis": {
+  "verdict": "broader",
+  "note": "Idiopathic aortitis also covers isolated aortitis and GCA aortitis.",
+  "name": "Idiopathic aortitis"
+ },
+ "ARI:0001205\tidiopathic proctocolitis": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "Idiopathic proctocolitis"
+ },
+ "ARI:0001205\tulcerative proctosigmoiditis": {
+  "verdict": "subtype",
+  "note": "",
+  "name": "Ulcerative proctosigmoiditis"
+ },
+ "ARI:0001205\tulcerative proctitis": {
+  "verdict": "subtype",
+  "note": "",
+  "name": "Ulcerative Proctitis"
+ },
+ "ARI:0001205\tinflammatory bowel disease ulcerative colitis type": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "Inflammatory Bowel Disease, Ulcerative Colitis Type"
+ },
+ "ARI:0001206\tsystemic involvement of connective tissue unspecified": {
+  "verdict": "broader",
+  "note": "ICD-10-CM residual code for systemic connective tissue involvement.",
+  "name": "Systemic involvement of connective tissue, unspecified"
+ },
+ "ARI:0001211\tautoimmune hemolytic anemia warm type": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "Autoimmune hemolytic anemia, warm type"
+ },
+ "ARI:0001211\twarm type hemolytic anemia": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "Warm type hemolytic anemia"
+ },
+ "ARI:0001212\tlimited cutaneous systemic scleroderma": {
+  "verdict": "broader",
+  "note": "CREST is a subset of limited cutaneous SSc (MONDO parent).",
+  "name": "limited cutaneous Systemic Scleroderma"
+ },
+ "ARI:0001214\ttype 1 5 diabetes": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "Type 1.5 diabetes"
+ },
+ "ARI:0001214\ttype 1 5 diabetes mellitus": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "Type 1.5 Diabetes Mellitus"
+ },
+ "ARI:0001214\tdiabetes mellitus type 1 5": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "Diabetes Mellitus Type 1.5"
+ },
+ "ARI:0001214\tlatent autoimmune diabetes mellitus in adult": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "Latent autoimmune diabetes mellitus in adult"
+ },
+ "ARI:0001214\tlatent autoimmune diabetes mellitus in adult lada": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "Latent autoimmune diabetes mellitus in adult (LADA)"
+ },
+ "ARI:0001215\tiddm": {
+  "verdict": "broader",
+  "note": "Type 1 diabetes as a whole; fulminant T1D is a subtype.",
+  "name": "IDDM"
+ },
+ "ARI:0001215\tinsulin dependent diabetes mellitus": {
+  "verdict": "broader",
+  "note": "Type 1 diabetes as a whole; fulminant T1D is a subtype.",
+  "name": "insulin-dependent diabetes mellitus"
+ },
+ "ARI:0001215\ttype 1 diabetes": {
+  "verdict": "broader",
+  "note": "Type 1 diabetes as a whole; fulminant T1D is a subtype.",
+  "name": "type 1 diabetes"
+ },
+ "ARI:0001215\tdiabetes mellitus type i": {
+  "verdict": "broader",
+  "note": "Type 1 diabetes as a whole; fulminant T1D is a subtype.",
+  "name": "Diabetes Mellitus (Type I)"
+ },
+ "ARI:0001215\tjuvenile onset diabetes mellitus": {
+  "verdict": "broader",
+  "note": "Type 1 diabetes as a whole; fulminant T1D is a subtype.",
+  "name": "Diabetes Mellitus, Juvenile-Onset"
+ },
+ "ARI:0001215\tsudden onset diabetes mellitus": {
+  "verdict": "broader",
+  "note": "Type 1 diabetes as a whole; fulminant T1D is a subtype.",
+  "name": "Diabetes Mellitus, Sudden-Onset"
+ },
+ "ARI:0001215\tjuvenile onset diabetes": {
+  "verdict": "broader",
+  "note": "Type 1 diabetes as a whole; fulminant T1D is a subtype.",
+  "name": "Juvenile-Onset Diabetes"
+ },
+ "ARI:0001216\tchronic lymphocytic thyroiditis": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "Chronic lymphocytic thyroiditis"
+ },
+ "ARI:0001216\tautoimmune lymphocytic chronic thyroiditis": {
+  "verdict": "synonym",
+  "note": "",
+  "name": "Autoimmune lymphocytic chronic thyroiditis"
+ },
+ "ARI:0001035\tlymphocytic hypophysitis": {
+  "verdict": "synonym",
+  "note": "Lymphocytic hypophysitis is autoimmune hypophysitis. MONDO lists it under \"primary hypophysitis\", which is broader.",
+  "name": "lymphocytic hypophysitis"
+ },
+ "ARI:0001107\titp": {
+  "verdict": "synonym",
+  "note": "Abbreviation of the entry name. NCIt lists it under \"Primary Immune Thrombocytopenia\", which is narrower.",
+  "name": "ITP"
+ },
+ "ARI:0001107\timmune thrombocytopenic purpura": {
+  "verdict": "synonym",
+  "note": "Older name for the entry. NCIt lists it under \"Primary Immune Thrombocytopenia\", which is narrower.",
+  "name": "Immune thrombocytopenic purpura"
+ },
+ "ARI:0001101\thypersensitivity vasculitis": {
+  "verdict": "synonym",
+  "note": "Same disease; label of the confirmed DOID and MONDO terms.",
+  "name": "Hypersensitivity Vasculitis"
+ },
+ "ARI:0001066\tcno crmo": {
+  "verdict": "broader",
+  "note": "CNO covers unifocal disease; CRMO is its recurrent multifocal form.",
+  "name": "CNO/CRMO"
+ },
+ "ARI:0001117\tjia": {
+  "verdict": "broader",
+  "note": "JIA (ILAR) is broader than JRA.",
+  "name": "JIA"
+ },
+ "ARI:0001215\tdiabetes mellitus type 1": {
+  "verdict": "broader",
+  "note": "Type 1 diabetes as a whole; fulminant T1D is a subtype.",
+  "name": "Diabetes Mellitus, Type 1"
+ },
+ "ARI:0001215\tdiabetes mellitus insulin dependent 1": {
+  "verdict": "broader",
+  "note": "Type 1 diabetes as a whole; fulminant T1D is a subtype.",
+  "name": "Diabetes Mellitus, Insulin-Dependent, 1"
+ },
+ "ARI:0001215\tinsulin dependent diabetes mellitus 1": {
+  "verdict": "broader",
+  "note": "Type 1 diabetes as a whole; fulminant T1D is a subtype.",
+  "name": "Insulin-Dependent Diabetes Mellitus 1"
+ },
+ "ARI:0001069\tparoxysmal cold hemoglobinuria": {
+  "verdict": "distinct",
+  "note": "A sibling under autoimmune hemolytic anemia, not a form of cold agglutinin disease. Imported as a clinical subtype from the broader AIHA term; curator check.",
+  "name": "paroxysmal cold hemoglobinuria"
+ },
+ "ARI:0001069\tmixed type autoimmune hemolytic anemia": {
+  "verdict": "distinct",
+  "note": "A sibling under autoimmune hemolytic anemia, not a form of cold agglutinin disease. Imported as a clinical subtype from the broader AIHA term; curator check.",
+  "name": "mixed-type autoimmune hemolytic anemia"
+ },
+ "ARI:0001069\tevans syndrome": {
+  "verdict": "distinct",
+  "note": "A sibling under autoimmune hemolytic anemia, not a form of cold agglutinin disease. Imported as a clinical subtype from the broader AIHA term; curator check.",
+  "name": "Evans syndrome"
+ },
+ "ARI:0001069\tautoimmune hemolytic anemia warm type": {
+  "verdict": "distinct",
+  "note": "A sibling under autoimmune hemolytic anemia, not a form of cold agglutinin disease. Imported as a clinical subtype from the broader AIHA term; curator check.",
+  "name": "autoimmune hemolytic anemia, warm type"
+ },
+ "ARI:0001069\tgiant cell hepatitis with autoimmune hemolytic anemia": {
+  "verdict": "distinct",
+  "note": "A sibling under autoimmune hemolytic anemia, not a form of cold agglutinin disease. Imported as a clinical subtype from the broader AIHA term; curator check.",
+  "name": "giant cell hepatitis with autoimmune hemolytic anemia"
+ },
+ "ARI:0001069\tdrug induced autoimmune hemolytic anemia": {
+  "verdict": "distinct",
+  "note": "A sibling under autoimmune hemolytic anemia, not a form of cold agglutinin disease. Imported as a clinical subtype from the broader AIHA term; curator check.",
+  "name": "drug-induced autoimmune hemolytic anemia"
+ },
+ "ARI:0001069\tneonatal autoimmune hemolytic anemia": {
+  "verdict": "distinct",
+  "note": "A sibling under autoimmune hemolytic anemia, not a form of cold agglutinin disease. Imported as a clinical subtype from the broader AIHA term; curator check.",
+  "name": "neonatal autoimmune hemolytic anemia"
+ },
+ "ARI:0001074\tacute interstitial pneumonia": {
+  "verdict": "distinct",
+  "note": "A sibling idiopathic interstitial pneumonia, not a form of COP. Imported as a clinical subtype from the broader IIP term; curator check.",
+  "name": "acute interstitial pneumonia"
+ },
+ "ARI:0001074\tdesquamative interstitial pneumonia": {
+  "verdict": "distinct",
+  "note": "A sibling idiopathic interstitial pneumonia, not a form of COP. Imported as a clinical subtype from the broader IIP term; curator check.",
+  "name": "desquamative interstitial pneumonia"
+ },
+ "ARI:0001074\tidiopathic pleuroparenchymal fibroelastosis": {
+  "verdict": "distinct",
+  "note": "A sibling idiopathic interstitial pneumonia, not a form of COP. Imported as a clinical subtype from the broader IIP term; curator check.",
+  "name": "idiopathic pleuroparenchymal fibroelastosis"
+ },
+ "ARI:0001074\tnon specific interstitial pneumonia": {
+  "verdict": "distinct",
+  "note": "A sibling idiopathic interstitial pneumonia, not a form of COP. Imported as a clinical subtype from the broader IIP term; curator check.",
+  "name": "non-specific interstitial pneumonia"
+ },
+ "ARI:0001074\tidiopathic pulmonary fibrosis": {
+  "verdict": "distinct",
+  "note": "A sibling idiopathic interstitial pneumonia, not a form of COP. Imported as a clinical subtype from the broader IIP term; curator check.",
+  "name": "idiopathic pulmonary fibrosis"
+ },
+ "ARI:0001074\tfollicular bronchiolits": {
+  "verdict": "distinct",
+  "note": "A sibling idiopathic interstitial pneumonia, not a form of COP. Imported as a clinical subtype from the broader IIP term; curator check.",
+  "name": "follicular bronchiolits"
+ },
+ "ARI:0001074\tnonspecific interstitial pneumonia": {
+  "verdict": "distinct",
+  "note": "A sibling idiopathic interstitial pneumonia, not a form of COP. Imported as a clinical subtype from the broader IIP term; curator check.",
+  "name": "nonspecific interstitial pneumonia"
+ },
+ "ARI:0001074\tcombined pulmonary fibrosis emphysema syndrome": {
+  "verdict": "distinct",
+  "note": "A sibling idiopathic interstitial pneumonia, not a form of COP. Imported as a clinical subtype from the broader IIP term; curator check.",
+  "name": "combined pulmonary fibrosis-emphysema syndrome"
+ },
+ "ARI:0001074\trespiratory bronchiolitis interstitial lung disease syndrome": {
+  "verdict": "distinct",
+  "note": "A sibling idiopathic interstitial pneumonia, not a form of COP. Imported as a clinical subtype from the broader IIP term; curator check.",
+  "name": "respiratory bronchiolitis-interstitial lung disease syndrome"
+ },
+ "ARI:0001074\tlymphoid interstitial pneumonia": {
+  "verdict": "distinct",
+  "note": "A sibling idiopathic interstitial pneumonia, not a form of COP. Imported as a clinical subtype from the broader IIP term; curator check.",
+  "name": "lymphoid interstitial pneumonia"
+ },
+ "ARI:0001074\tsecondary cop": {
+  "verdict": "distinct",
+  "note": "Secondary organizing pneumonia has a known cause, so by definition it is not cryptogenic. Curator check: listed as a clinical subtype.",
+  "name": "COP, Secondary"
+ },
+ "ARI:0001074\tidiopathic cop": {
+  "verdict": "synonym",
+  "note": "COP is idiopathic organizing pneumonia by definition. Curator check: listed as a clinical subtype.",
+  "name": "COP, Idiopathic"
+ }
+}
