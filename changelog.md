@@ -1,5 +1,10 @@
 # Changelog
 
+## fix/readme-disease-count
+
+The `data/README.md` headline said 211 core diseases. Report 1 and the rest of the
+reports table hold 210, so the headline now says 210.
+
 ## claude/synonym-reviewer-report-3ca9bb
 
 Third pass of the synonym review. Report 9 (`data/4-reports/9_Synonym_Review.tsv`) is
