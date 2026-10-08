@@ -1,5 +1,14 @@
 # Changelog
 
+## feat/incidence-us-worldwide
+
+Declares six data properties for US and worldwide incidence, used by ARI-metadata-manager's
+Prevalence panel: `incidenceUSPer100k` and `incidenceWorldPer100k` (decimal, per 100,000 per
+year), `incidenceUSYear` and `incidenceWorldYear` (integer, the year the rate describes), and
+`incidenceUSSource` and `incidenceWorldSource` (string, one value per source URL). No values
+are added. The existing `incidenceRate` declaration and Type 1 diabetes's value
+(`12-15/100k/yr in US`) are left in place; the app no longer reads them.
+
 ## claude/fulminant-t1d-e10-equivalencies
 
 Credits the `E10` confirmation on `ARI:0001215` Fulminant type 1 diabetes to Jennyzeng25's
