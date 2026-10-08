@@ -35,7 +35,7 @@ Review other data in sheets to build a linked reports, linked per disease ARI ID
 
 ## 4-reports (2026-06-14) — disease reorganization per instructions.md
 
-Built by grouping `1-master/ARI Master List V 2.1 - 2026-06-04.xlsx` on the **Parent** column (case-insensitive — casing-only duplicates such as "Multiple sclerosis"/"Multiple Sclerosis", "Eosinophilic Esophagitis", "Inclusion Body Myositis", "Rheumatic Chorea" are merged), using the preferred (`syn = "N"`) name per group. All reports source only from the master file; the only external data is the local `2-databases/doid.owl` (Human Disease Ontology, release 2026-04-30, CC0) and the local `2-databases/snomed/` OMOP/Athena export. ARI IDs assigned sequentially in alphabetical order of preferred name, format `ARI:0001XXX`, IRI `https://diseases.autoimmuneregistry.org/disease/ARI_0001XXX`. **211 core diseases.**
+Built by grouping `1-master/ARI Master List V 2.1 - 2026-06-04.xlsx` on the **Parent** column (case-insensitive — casing-only duplicates such as "Multiple sclerosis"/"Multiple Sclerosis", "Eosinophilic Esophagitis", "Inclusion Body Myositis", "Rheumatic Chorea" are merged), using the preferred (`syn = "N"`) name per group. All reports source only from the master file; the only external data is the local `2-databases/doid.owl` (Human Disease Ontology, release 2026-04-30, CC0) and the local `2-databases/snomed/` OMOP/Athena export. ARI IDs assigned sequentially in alphabetical order of preferred name, format `ARI:0001XXX`, IRI `https://diseases.autoimmuneregistry.org/disease/ARI_0001XXX`. **210 core diseases.**
 
 | File | Rows | Built from | Contents |
 | --- | --- | --- | --- |
