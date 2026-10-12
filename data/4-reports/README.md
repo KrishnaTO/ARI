@@ -317,6 +317,21 @@ after `compare.py`:
 python notebook/master-list-comparison/import_columns.py "data/1-master/ARI Master List - 2026-10-08.xlsx" ontologies/ari_t1d.owl data/4-reports/10_Master_List_Comparison.xlsx
 ```
 
+The sheet's prevalence and incidence were imported the same way, by
+`notebook/master-list-comparison/import_prevalence.py`:
+- worldwide incidence → `incidenceWorldPer100k`
+- worldwide prevalence → `prevalenceWorldPer100k`
+- US incidence → `incidenceUSPer100k`
+- US prevalence → `prevalencePer100k` (the editor shows it as the US rate)
+- every figure verbatim, with the sheet's notes → `ARI_PrevalenceDesc`
+
+A rate is stored only for a plain "1.0 cases per N" or "per A to B", as cases per 100,000 (the
+midpoint for a range). Everything else stays in the description.
+
+```bash
+python notebook/master-list-comparison/import_prevalence.py "data/1-master/ARI Master List - 2026-10-08.xlsx" ontologies/ari_t1d.owl data/4-reports/10_Master_List_Comparison.xlsx
+```
+
 | Sheet | Contents |
 |-------|----------|
 | Summary | Disease counts, then per-column status counts and how to read them |
