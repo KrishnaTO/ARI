@@ -1,5 +1,33 @@
 # Changelog
 
+## claude/master-list-column-import
+
+Imports six columns of the 2026-10-08 master list from Leon Islas into ARI, for all 218
+matched diseases: Target Antigens, Target Cells, Antibodies, Self Reactive Cells, Molecular
+Mimicry and Environmental Triggers. The data model in `data_model/` covers each of them.
+Script: `notebook/master-list-comparison/import_columns.py`.
+
+- **2,723 items**, one per line of a cell, linked the way the editor reads each category:
+  323 antigens (`involvesAntigen`), 351 antibodies (`hasAntibody`), 280 T cells
+  (`involvesTCell`), 168 B cells, plasma cells and other cells (`involvesAPC`, since the data
+  model lists B cells under antigen-presenting cells), 514 molecular mimicry agents
+  (`hasEtiologyFactor`, labelled "Molecular mimicry", origin External), 663 environmental
+  triggers (`hasEnvironmentalTrigger`) and 424 target cells.
+- **Target cells** use a new property and class taken from the data model,
+  `affectsCellTissueOrOrgan` and `AffectedCellTissueOrOrgan`. `targetsTissue` stays system
+  level, so the editor's tissue browse and new-disease tissue list are unchanged. The editor
+  does not show the new property yet; that needs an app change.
+- **Frequencies.** A frequency such as `(80%)` or `- 70%` is stored as `componentRelevance`,
+  `antibodyFrequency` or `likelihood`.
+- **Change log.** Each disease gets an `ARI_ChangeLog` entry crediting Leon Islas, with the
+  sheet row and counts.
+- **Type 1 diabetes** keeps its existing items. 13 sheet items it already had were skipped,
+  and 7 were added.
+- **Not imported:** Treatments, because the data model has no treatment field.
+- **Comparison script.** `compare.py` and the import share `sheet_items.py`. Report 10 is
+  regenerated: the six columns now match the sheet everywhere except Type 1 diabetes, whose
+  earlier items remain alongside the new ones.
+
 ## claude/ari-master-list-comparison-4a1989
 
 Adds the 2026-10-08 master list (`data/1-master/ARI Master List - 2026-10-08.xlsx`) and
