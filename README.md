@@ -52,6 +52,7 @@ This repository supports the curated disease model behind the editor:
 - `data/4-reports/5_DOID_Mapping.xlsx`
 - `data/4-reports/6_DOID_Matches_All.xlsx`
 - `data/4-reports/7_SNOMED_Matches_All.xlsx`
+- `data/4-reports/10_Master_List_Comparison.xlsx`
 
 ## Grounding workflow
 

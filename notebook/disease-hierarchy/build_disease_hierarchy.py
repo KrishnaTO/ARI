@@ -8,7 +8,7 @@ Evidence sources (all local):
   doid     - DOID is_a (doid.owl subClassOf) between the diseases' DOID matches (report 6)
 
 Usage: python build_disease_hierarchy.py <path to data/2-databases>
-Writes data/4-reports/10_Disease_Hierarchy.xlsx and disease_hierarchy.csv next to this script.
+Writes data/4-reports/11_Disease_Hierarchy.xlsx and disease_hierarchy.csv next to this script.
 """
 import csv, os, re, sys
 import xml.etree.ElementTree as ET
@@ -25,7 +25,7 @@ MASTER = os.path.join(ROOT, "data/1-master/ARI Master List V 2.1 - 2026-06-04.xl
 CORE = os.path.join(ROOT, "data/4-reports/1_Core_ARI_Diseases.xlsx")
 DOID_MATCHES = os.path.join(ROOT, "notebook/ari-grounding/doid_matches_all.csv")
 ONTOLOGY = os.path.join(ROOT, "ontologies/ari_t1d.owl")
-OUT_XLSX = os.path.join(ROOT, "data/4-reports/10_Disease_Hierarchy.xlsx")
+OUT_XLSX = os.path.join(ROOT, "data/4-reports/11_Disease_Hierarchy.xlsx")
 OUT_CSV = os.path.join(HERE, "disease_hierarchy.csv")
 SOURCES = ["master", "ontology", "snomed", "doid"]
 

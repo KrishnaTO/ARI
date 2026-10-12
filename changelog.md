@@ -2,13 +2,172 @@
 
 ## claude/disease-hierarchy
 
-Adds report `10_Disease_Hierarchy.xlsx`: parent/child relations between the listed core
+Adds report `11_Disease_Hierarchy.xlsx`: parent/child relations between the listed core
 diseases, from four local sources (master list subtype rows, the ontology's
 `hasParentDisease`, SNOMED is-a via OMOP `CONCEPT_ANCESTOR`, DOID is_a). 160 links among
 124 diseases; 68 direct links form a 30-root tree. Links that rest only on a disease's
 additional SNOMED code are flagged for review; several point to code assignments to check
 in the master list (e.g. Multiple sclerosis carries *Systemic sclerosis, diffuse*). Script in
 `notebook/disease-hierarchy/`. No online sources.
+
+Built as report 10 on 2026-10-05; renumbered to 11 because `10_Master_List_Comparison.xlsx`
+reached `main` first. Rebuilt against `main` after the merge with identical output: the
+diseases come from report 1 (still the 210 core diseases), so the 13 added from the 2026-10-08
+master list (ARI#121) are not in it yet.
+
+## claude/prevalence-data-display-31437d
+
+Lands #125 (below) on `main`. #125 merged into #124's branch after #124 had already merged,
+so its prevalence and incidence never reached `main`, and the editor's Prevalence panel kept
+showing the old values with no worldwide or incidence rates.
+
+## claude/master-list-prevalence
+
+Imports the prevalence and incidence of Leon Islas's 2026-10-08 master list into ARI for all 218
+matched diseases. Script: `notebook/master-list-comparison/import_prevalence.py`.
+
+The sheet gives a worldwide and a US figure, each marked incidence or prevalence. They go to
+the fields the editor's Prevalence panel reads:
+
+| Sheet figure | ARI field | Diseases |
+|---|---|---|
+| Worldwide incidence | `incidenceWorldPer100k` | 44 |
+| Worldwide prevalence | `prevalenceWorldPer100k` (declared in #126) | 165 |
+| US incidence | `incidenceUSPer100k` | 26 |
+| US prevalence | `prevalencePer100k` (the editor shows it as the US rate) | 134 |
+| Every figure, verbatim, with the sheet's notes on the US figures | `ARI_PrevalenceDesc` | 218 |
+
+- **Rates.** A rate is stored only for a plain "1.0 cases per N" or "per A to B", as cases per
+  100,000. For a range that is the midpoint. Text such as "Extremely rare" or a rate per live
+  birth or per child stays in the description. The sheet's sources are citations, not URLs, so
+  they stay in the description too.
+- **Old values replaced.** ARI's earlier `prevalencePer100k` values were the female and male
+  counts added together, not rates. Examples: 3,984 per 100,000 for acquired hemophilia, and
+  529,523 for macular degeneration. 170 old values in these five fields are replaced. Each
+  disease's `ARI_ChangeLog` entry credits Leon Islas, names the row, and records the values it
+  replaced.
+- **Duplicate row.** Inclusion body myositis's two rows disagree on US prevalence (1 per
+  125,000 against 1 per 100,000). Row 123 is used, and the description quotes row 124.
+
+## claude/master-list-column-import
+
+Imports six columns of the 2026-10-08 master list from Leon Islas into ARI, for all 218
+matched diseases: Target Antigens, Target Cells, Antibodies, Self Reactive Cells, Molecular
+Mimicry and Environmental Triggers. The data model in `data_model/` covers each of them.
+Script: `notebook/master-list-comparison/import_columns.py`.
+
+- **2,723 items**, one per line of a cell, linked the way the editor reads each category:
+  323 antigens (`involvesAntigen`), 351 antibodies (`hasAntibody`), 280 T cells
+  (`involvesTCell`), 168 B cells, plasma cells and other cells (`involvesAPC`, since the data
+  model lists B cells under antigen-presenting cells), 514 molecular mimicry agents
+  (`hasEtiologyFactor`, labelled "Molecular mimicry", origin External), 663 environmental
+  triggers (`hasEnvironmentalTrigger`) and 424 target cells.
+- **Target cells** use a new property and class taken from the data model,
+  `affectsCellTissueOrOrgan` and `AffectedCellTissueOrOrgan`. `targetsTissue` stays system
+  level, so the editor's tissue browse and new-disease tissue list are unchanged. The editor
+  does not show the new property yet; that needs an app change.
+- **Frequencies.** A frequency such as `(80%)` or `- 70%` is stored as `componentRelevance`,
+  `antibodyFrequency` or `likelihood`.
+- **Change log.** Each disease gets an `ARI_ChangeLog` entry crediting Leon Islas, with the
+  sheet row and counts.
+- **Type 1 diabetes** keeps its existing items. 13 sheet items it already had were skipped,
+  and 7 were added.
+- **Not imported:** Treatments, because the data model has no treatment field.
+- **Comparison script.** `compare.py` and the import share `sheet_items.py`. Report 10 is
+  regenerated: the six columns now match the sheet everywhere except Type 1 diabetes, whose
+  earlier items remain alongside the new ones.
+
+## claude/ontology-prevalence-properties-45a13b
+
+Declares five data properties for US and worldwide prevalence, used by ARI-metadata-manager's
+Prevalence panel (app PR #211): `prevalenceUSYear` and `prevalenceWorldYear` (integer, the year
+the rate describes), `prevalenceUSSource` and `prevalenceWorldSource` (string, one value per
+source URL), and `prevalenceWorldPer100k` (decimal, per 100,000). The app reads the existing
+`prevalencePer100k` as the US rate, so no `prevalenceUSPer100k` is added. No values are added.
+
+## claude/ari-master-list-comparison-4a1989
+
+Adds the 2026-10-08 master list (`data/1-master/ARI Master List - 2026-10-08.xlsx`) and
+report 10 (`data/4-reports/10_Master_List_Comparison.xlsx`), which compares its
+`ALPHABETICAL` sheet with ARI for ten columns: Veredict, System, Target Antigens, Target
+Cells, Antibodies, Self Reactive Cells, Symptoms, Molecular Mimicry, Environmental Triggers
+and Treatments. The script is `notebook/master-list-comparison/compare.py`.
+
+The list comes from Leon Islas. A team member's name was removed from the committed copy: from
+144 cell comments, two column headers and one definition cell.
+
+- **Diseases.** 205 of the sheet's 218 diseases matched an active ARI disease. The other 13
+  are now in ARI as `ARI:0001217`-`ARI:0001229`, with the list as the source of truth:
+  Anti-AMPAR encephalitis, Anti-GABA B encephalitis, Autoimmune aortitis (isolated,
+  non-vasculitic), Autoimmune enteropathy, Autoimmune gastrointestinal dysmotility syndrome,
+  Autoimmune GFAP astrocytopathy, Autoimmune hemophilia B, Autoimmune nodopathies, Autoimmune
+  peripheral neuropathy associated with nodal/paranodal antibodies, iTTP, Infertility
+  associated with antisperm antibodies, Klein Levin Syndrome and STAT3 gain-of-function
+  disease. Each takes its name, MeSH terms (as synonyms), definition, verdict, system and
+  symptoms (frequency in `likelihood`) from its row. An `ARI_ChangeLog` entry credits Leon
+  Islas and names the list and row. Klein Levin Syndrome also gets the synonym Kleine-Levin
+  syndrome from its definition. Five synonyms appear on both nodopathy rows and are kept on
+  `ARI:0001224` only. 9 ARI diseases are missing from the sheet; 5 of them are children of a
+  sheet disease, such as Hashimoto's thyroiditis and LADA. Inclusion body myositis and
+  Rheumatic chorea are each listed twice.
+- **Veredict.** 164 agree. 3 differ: the sheet says Unconfirmed where ARI says Autoimmune
+  (Bickerstaff brainstem encephalitis) or Immune Deficiency (IPEX, LRBA deficiency). ARI has
+  no category for 38.
+- **System.** 187 agree, 3 overlap, 13 differ (for example Neuromyelitis optica: Eye in the
+  sheet, Nervous System in ARI). The cells for IPEX and Multiple sclerosis hold free text.
+- **The other eight columns** are almost all new. ARI holds antigens, antibodies, T cells,
+  molecular mimicry, triggers and treatments only for Type 1 diabetes and has no
+  target-cell field. Symptoms differ for all 160 diseases that have them on both sides; the
+  sheet lists a few clinical symptoms with frequencies, and ARI lists more patient-reported
+  ones.
+
+## fix/readme-disease-count
+
+The `data/README.md` headline said 211 core diseases. Report 1 and the rest of the
+reports table hold 210, so the headline now says 210.
+
+## claude/synonym-reviewer-report-3ca9bb
+
+Third pass of the synonym review. Report 9 (`data/4-reports/9_Synonym_Review.tsv`) is
+rebuilt to cover every name, not only `ARI_Synonym`. It now draws on two sources.
+
+- **ARI's own strings.** Every `ARI_Synonym`, `ARI_SynonymWithdrawn` and
+  `ARI_ClinicalSubtype` string (1,136 rows).
+- **The confirmed target terms.** Each confirmed term in MONDO, DOID, SNOMED CT, ICD-10-CM,
+  MeSH, NCIt, Orphanet and OMIM contributes its label, its synonyms and their scopes, its
+  parents and its descendants (5,849 database-only rows).
+
+Each of the 6,985 names gets a verdict: `synonym`, `subtype`, `variant`, `broader`,
+`distinct` or `non-disease`. If any source treats a name as narrower than the disease, the
+verdict is `subtype`. Some scopes are relative to a mapped term that is itself broader or
+narrower than the entry, and those are corrected. Conflicts and related-only names were
+researched and decided by hand (548 decisions). The pipeline is in `notebook/synonym-review/`.
+
+The ontology is not changed. The report proposes 70 changes for curators:
+
+- **Withdraw 50 `ARI_Synonym` values** (34 subtype, 15 broader, 1 non-disease). Examples:
+  - subtype: Goodpasture's syndrome, Gelineau syndrome, Reiter's syndrome, CREST syndrome,
+    Crohn's colitis forms
+  - broader: Scleroderma, JIA, Primary adrenal insufficiency
+- **Remove 18 `ARI_ClinicalSubtype` values.** On Cold agglutinin disease and COP, sibling
+  diseases (warm AIHA, Evans syndrome, IPF, NSIP and others) were imported as subtypes from
+  a broader mapped term.
+- **Move 2 clinical subtypes into the synonyms.** They name the disease itself.
+
+`Curator check:` notes flag the mapping problems found along the way, for example:
+
+- SNOMED GPA confirmed on ANCA-associated vasculitis
+- DOID:2797 (IIP) confirmed alongside COP
+- MeSH Schilder disease on Balo concentric sclerosis
+- Narcolepsy type 1 terms on the narcolepsy entry
+## feat/incidence-us-worldwide
+
+Declares six data properties for US and worldwide incidence, used by ARI-metadata-manager's
+Prevalence panel: `incidenceUSPer100k` and `incidenceWorldPer100k` (decimal, per 100,000 per
+year), `incidenceUSYear` and `incidenceWorldYear` (integer, the year the rate describes), and
+`incidenceUSSource` and `incidenceWorldSource` (string, one value per source URL). No values
+are added. The existing `incidenceRate` declaration and Type 1 diabetes's value
+(`12-15/100k/yr in US`) are left in place; the app no longer reads them.
 
 ## claude/fulminant-t1d-e10-equivalencies
 
