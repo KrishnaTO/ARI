@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Validate the ARI cross-reference mapping files.
 
-Checks `mappings/ari.sssom.tsv` and `mappings/ari.equivalencies.tsv` for
+Checks `mappings/ari.sssom.tsv`, `mappings/ari.equivalencies.tsv` and the
+predictor's `mappings/ari.synonym_blocklist.tsv` for
 structural problems, malformed identifiers and internal contradictions, that
 the two files agree with each other, and that both agree with the stored
 cross-references in `ontologies/ari_t1d.owl`.
@@ -36,6 +37,12 @@ REPO_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__fi
 SSSOM_PATH = "mappings/ari.sssom.tsv"
 EQUIV_PATH = "mappings/ari.equivalencies.tsv"
 ONTOLOGY_PATH = "ontologies/ari_t1d.owl"
+# Curator-editable input to the editor app's cross-reference predictor: each row
+# names a synonym stored on an ARI disease that actually names a *different*
+# disease, so the predictor must not match on it. `ari.mis_curated_synonyms.tsv`
+# beside it is the generated evidence behind these decisions and is a report, so
+# nothing here validates it.
+BLOCKLIST_PATH = "mappings/ari.synonym_blocklist.tsv"
 
 SSSOM_COLUMNS = [
     "subject_id",
@@ -49,6 +56,7 @@ SSSOM_COLUMNS = [
     "mapping_date",
     "comment",
 ]
+BLOCKLIST_COLUMNS = ["ari_id", "synonym", "names_instead"]
 EQUIV_COLUMNS = [
     "source_prefix",
     "source_id",
@@ -1179,6 +1187,44 @@ def write_summary(path: str, findings: list[Finding], scope: str) -> None:
         handle.write("\n".join(lines) + "\n")
 
 
+def check_blocklist(rows: list[Row], diseases: dict[str, Disease] | None, report: Report) -> None:
+    """Validate the predictor's synonym blocklist.
+
+    A blocklist row only does anything if it matches a synonym the predictor
+    actually sees, so the two ways it can rot silently are a duplicate pair
+    (dead weight, and the sign of a bad merge) and an `ari_id` no longer in the
+    ontology (the row excludes nothing at all, while still reading as a decision
+    someone made).
+    """
+    seen: dict[tuple[str, str], int] = {}
+    for row in rows:
+        ari_id = row.fields["ari_id"].strip()
+        synonym = row.fields["synonym"].strip()
+
+        if not synonym:
+            report.error(
+                "blocklist-empty-synonym", BLOCKLIST_PATH, row.line,
+                f"{ari_id or 'A row'} blocks an empty synonym, which matches nothing.",
+            )
+            continue
+
+        key = (ari_id, synonym)
+        if key in seen:
+            report.error(
+                "blocklist-duplicate", BLOCKLIST_PATH, row.line,
+                f"Duplicate of line {seen[key]}: {ari_id} already blocks {synonym!r}.",
+            )
+        else:
+            seen[key] = row.line
+
+        if diseases is not None and ari_id not in diseases:
+            report.error(
+                "blocklist-unknown-disease", BLOCKLIST_PATH, row.line,
+                f"{ari_id} is not a disease in {ONTOLOGY_PATH}, so blocking {synonym!r} on it "
+                "excludes nothing. Correct the id or drop the row.",
+            )
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
@@ -1204,7 +1250,12 @@ def main() -> int:
     if sssom_rows and equiv_rows:
         check_cross_file(sssom_rows, equiv_rows, report)
 
+    blocklist_text = read_text(BLOCKLIST_PATH, report)
+    blocklist_rows = (split_rows(blocklist_text, BLOCKLIST_PATH, BLOCKLIST_COLUMNS, report)
+                      if blocklist_text else [])
+
     diseases = load_ontology(report)
+    check_blocklist(blocklist_rows, diseases, report)
     if diseases is not None:
         check_against_ontology(sssom_rows, diseases, report)
         check_equiv_against_ontology(equiv_rows, diseases, report)
