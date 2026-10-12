@@ -54,6 +54,14 @@ Script: `notebook/master-list-comparison/import_columns.py`.
   regenerated: the six columns now match the sheet everywhere except Type 1 diabetes, whose
   earlier items remain alongside the new ones.
 
+## claude/ontology-prevalence-properties-45a13b
+
+Declares five data properties for US and worldwide prevalence, used by ARI-metadata-manager's
+Prevalence panel (app PR #211): `prevalenceUSYear` and `prevalenceWorldYear` (integer, the year
+the rate describes), `prevalenceUSSource` and `prevalenceWorldSource` (string, one value per
+source URL), and `prevalenceWorldPer100k` (decimal, per 100,000). The app reads the existing
+`prevalencePer100k` as the US rate, so no `prevalenceUSPer100k` is added. No values are added.
+
 ## claude/ari-master-list-comparison-4a1989
 
 Adds the 2026-10-08 master list (`data/1-master/ARI Master List - 2026-10-08.xlsx`) and
