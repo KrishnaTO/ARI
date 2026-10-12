@@ -3,13 +3,14 @@ report 10 matched. The sheet has a worldwide and a US figure, each marked incide
 prevalence:
 
 - worldwide incidence -> incidenceWorldPer100k
-- worldwide prevalence -> prevalencePer100k (ARI's one prevalence rate has no region)
+- worldwide prevalence -> prevalenceWorldPer100k
 - US incidence -> incidenceUSPer100k
+- US prevalence -> prevalencePer100k (the editor reads it as the US rate)
 - every figure, verbatim, with the sheet's notes on it -> ARI_PrevalenceDesc
 
 A rate is stored only for a plain "1.0 cases per N" or "per A to B" (the midpoint of the range,
 per 100,000). Anything else, such as "Extremely rare" or a rate per live birth, is kept as text
-only. The values the disease had in these four fields are replaced, and the change-log entry
+only. The values the disease had in these five fields are replaced, and the change-log entry
 records them.
 
 Usage: python import_prevalence.py <master.xlsx> <ari_t1d.owl> <10_Master_List_Comparison.xlsx>
@@ -26,10 +27,11 @@ SOURCE = 'ARI Master List 2026-10-08'
 CURATOR = 'Leon Islas'
 XSD = 'http://www.w3.org/2001/XMLSchema#'
 DISEASE_IRI = 'https://diseases.autoimmuneregistry.org/disease/ARI_'
-FIELDS = ('prevalencePer100k', 'incidenceWorldPer100k', 'incidenceUSPer100k', 'ARI_PrevalenceDesc')
+FIELDS = ('prevalencePer100k', 'prevalenceWorldPer100k', 'incidenceWorldPer100k', 'incidenceUSPer100k',
+          'ARI_PrevalenceDesc')
 # (region as written in ARI_PrevalenceDesc, sheet value header prefix, field for incidence, for prevalence)
-REGIONS = [('Worldwide', 'Global Incidence/Prevalence', 'incidenceWorldPer100k', 'prevalencePer100k'),
-           ('US', 'Incidence/Prevalence in the US', 'incidenceUSPer100k', None)]
+REGIONS = [('Worldwide', 'Global Incidence/Prevalence', 'incidenceWorldPer100k', 'prevalenceWorldPer100k'),
+           ('US', 'Incidence/Prevalence in the US', 'incidenceUSPer100k', 'prevalencePer100k')]
 RATE = re.compile(r'1(?:\.0)? cases? per ([\d,]+)(?: to ([\d,]+))?', re.I)
 RARE = re.compile(r'\s*\(extremely rare\)\s*$|^extremely rare$', re.I)
 
@@ -108,7 +110,7 @@ for ari, rows in rows_of.items():
     for region, _, inc_field, prev_field in REGIONS:
         kind, txt, _, rate = figure(row, region)
         field = inc_field if kind == 'incidence' else prev_field
-        if field and rate is not None:
+        if rate is not None:
             new[field] = decimal_text(rate)
             said.append(f'{field} {new[field]} from the {region} {kind} "{txt}"'
                         + (' (midpoint of the range)' if ' to ' in txt else ''))

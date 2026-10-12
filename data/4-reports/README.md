@@ -320,8 +320,9 @@ python notebook/master-list-comparison/import_columns.py "data/1-master/ARI Mast
 The sheet's prevalence and incidence were imported the same way, by
 `notebook/master-list-comparison/import_prevalence.py`:
 - worldwide incidence → `incidenceWorldPer100k`
-- worldwide prevalence → `prevalencePer100k`
+- worldwide prevalence → `prevalenceWorldPer100k`
 - US incidence → `incidenceUSPer100k`
+- US prevalence → `prevalencePer100k` (the editor shows it as the US rate)
 - every figure verbatim, with the sheet's notes → `ARI_PrevalenceDesc`
 
 A rate is stored only for a plain "1.0 cases per N" or "per A to B", as cases per 100,000 (the
