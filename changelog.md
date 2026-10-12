@@ -1,5 +1,33 @@
 # Changelog
 
+## claude/master-list-prevalence
+
+Imports the prevalence and incidence of Leon Islas's 2026-10-08 master list into ARI for all 218
+matched diseases. Script: `notebook/master-list-comparison/import_prevalence.py`.
+
+The sheet gives a worldwide and a US figure, each marked incidence or prevalence. They go to
+the fields the editor's Prevalence panel reads:
+
+| Sheet figure | ARI field | Diseases |
+|---|---|---|
+| Worldwide incidence | `incidenceWorldPer100k` | 44 |
+| Worldwide prevalence | `prevalenceWorldPer100k` (declared in #126) | 165 |
+| US incidence | `incidenceUSPer100k` | 26 |
+| US prevalence | `prevalencePer100k` (the editor shows it as the US rate) | 134 |
+| Every figure, verbatim, with the sheet's notes on the US figures | `ARI_PrevalenceDesc` | 218 |
+
+- **Rates.** A rate is stored only for a plain "1.0 cases per N" or "per A to B", as cases per
+  100,000. For a range that is the midpoint. Text such as "Extremely rare" or a rate per live
+  birth or per child stays in the description. The sheet's sources are citations, not URLs, so
+  they stay in the description too.
+- **Old values replaced.** ARI's earlier `prevalencePer100k` values were the female and male
+  counts added together, not rates. Examples: 3,984 per 100,000 for acquired hemophilia, and
+  529,523 for macular degeneration. 170 old values in these five fields are replaced. Each
+  disease's `ARI_ChangeLog` entry credits Leon Islas, names the row, and records the values it
+  replaced.
+- **Duplicate row.** Inclusion body myositis's two rows disagree on US prevalence (1 per
+  125,000 against 1 per 100,000). Row 123 is used, and the description quotes row 124.
+
 ## claude/master-list-column-import
 
 Imports six columns of the 2026-10-08 master list from Leon Islas into ARI, for all 218
