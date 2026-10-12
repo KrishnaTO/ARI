@@ -14,6 +14,89 @@ Built as report 10 on 2026-10-05; renumbered to 11 because `10_Master_List_Compa
 reached `main` first. Rebuilt against `main` after the merge with identical output: the
 diseases come from report 1 (still the 210 core diseases), so the 13 added from the 2026-10-08
 master list (ARI#121) are not in it yet.
+## chore/data-layout
+
+**`data/` held 11 GB of downloaded dumps and the curated master list under one name, with nothing
+saying which was which.** `data/2-databases/` is git-ignored in full; `1-master`, `3-meta-database-sources`
+and `4-reports` beside it are tracked and curated. Someone cloning this repository got a `data/`
+directory missing its largest child, with no explanation of whether that was a mistake.
+
+- **The README's directory table now has an "In git?" column** and lists the `data/` subdirectories
+  individually rather than collapsing them into one row.
+- **`data/2-databases/README.md` explains the directory** — and, more usefully, the collision: the
+  app repository has a directory at the *same path* holding *different* files that *are* committed.
+  Here it is raw release dumps at ~11 GB; there it is the distilled `*.index.tsv` / `*.details.tsv` /
+  `*.subtypes.tsv` at ~32 MB, built from these same public releases by `scripts/fetch_databases.py`
+  and read by the editor's prediction engine. A table sets the two side by side so nobody goes
+  looking for the indexes here.
+- `.gitignore` gains `!data/2-databases/README.md` so that one file can be tracked inside an
+  otherwise-ignored directory.
+
+## chore/adopt-full-mapping-set
+
+**The curated mapping set was split across two repositories, and the half that lived in the app
+repo was the half a curator edits by hand.** `deploy/update-mappings.sh` in the editor app
+documented the workaround rather than fixing it: *"the ARI repo currently only hosts two mapping
+files; the remaining three are managed in the app repo."* This repository now hosts every mapping
+file a curator's decision can change.
+
+- **`mappings/ari.synonym_blocklist.tsv` moves here** (43 rows). It names synonyms stored on an ARI
+  disease that actually name a *different* disease, so the editor app's cross-reference predictor
+  must not match on them. Seeded by a script, but curator-editable and read by the predictor at
+  runtime — a decision, not a build product.
+- **`mappings/ari.mis_curated_synonyms.tsv` moves with it** (70 rows). It is the generated evidence
+  behind those decisions, and the blocklist's own header points at it by name; splitting the pair
+  across repositories would leave the reasoning one repository away from the ruling.
+- **`ari.predicted.sssom.tsv` deliberately stays in the app repo.** It was going to move too, on
+  the assumption that curators diff it against confirmed mappings. They cannot: nothing reads it.
+  `/api/v2/predictions` recomputes predictions live from the reference indexes on every request,
+  and `build_predicted_sssom`/`load_predictions` are exercised only by the app's own tests. It is a
+  stale export of a live computation, carrying its own twelve-column machine schema and stamped
+  `mapping_tool: ARI-metadata-manager predict_service`. Nothing about it is a curator's decision.
+- **The validator gains a blocklist check.** A blocklist row only does anything if it matches a
+  synonym the predictor actually sees, so it can rot silently two ways: a duplicate `(ari_id,
+  synonym)` pair, which is dead weight and the signature of a bad merge, and an `ari_id` no longer
+  in the ontology, which excludes nothing while still reading as a decision someone made. Both are
+  errors now. The report file is a report, so nothing validates it.
+- `Validate mappings` already triggers on `mappings/**` and `Audit mappings` sweeps everything, so
+  the new files are covered with no workflow change.
+
+The real blocklist passes clean — 43 rows, no findings — and the repository totals match `main`
+(0 errors, the 5 standing `dxcode-without-snomed` warnings). Each new check verified against a
+synthetic case that should trip it and one that should not.
+
+**This is the data-repo half of the move.** The app still reads and writes its own copies
+(`DEFAULT_BLOCKLIST_PATH` in `app/predict_service.py`, the output paths in
+`scripts/report_synonyms.py`), and `deploy/update-mappings.sh` fetches only the SSSOM and
+equivalency files. Both copies are identical to the app's as of 2026-10-12 (unchanged there since
+July); until the app fetches the blocklist from here and drops its own, the two can drift.
+## chore/retire-app-branch
+
+**This repository was still telling agents to send app work into it.** `.claude/CLAUDE.md` — which
+is gitignored, so it steered every local session while being invisible to the `aaronabend` fork —
+read: *"Main branch for updates to app is feature/metadata-manager_v2/ARI, create feature branches
+from this branch and feed PRs into this branch."* That branch held a 41-file pre-split copy of the
+editor app and was **230 commits behind `main`**. The instruction had already cost real work: PR #57
+retired ICD-9 into that branch, reached nothing, and needed a separate `port-icd9-retirement-to-main`
+commit to recover.
+
+- **`feature/metadata-manager_v2/ARI` is retired.** Tagged `archive/metadata-manager-v2` at its
+  remote tip (`38690f0`) first, matching the existing `archive/lightsail-github-editor` convention,
+  so the history stays reachable at no cost. The local branch was 15 commits behind the remote and
+  0 ahead, so deleting it lost nothing.
+- **A committed root `CLAUDE.md` replaces the gitignored one.** Guidance that governs how the
+  repository is worked on should be reviewable and shared, not a local file only one machine sees.
+  It states the ownership contract in one sentence — *if a curator's decision changes it, it belongs
+  here; if a code change changes it, it belongs to the app* — with the table that settles the
+  contested files, and it carries the worktree, branch, PR and changelog conventions this repository
+  had no written equivalent of.
+- It also records the coupling behind the August `comment`-column break (fixed on `main` in
+  `80e3395`): `SSSOM_COLUMNS` here and `SSSOM_COLS` in the app's `app/sssom_service.py` must agree,
+  or every curator publish fails the header check.
+
+Done by hand on 2026-10-12: both `archive/*` tags pushed to `origin` and
+`feature/metadata-manager_v2/ARI` deleted there; the gitignored `.claude/CLAUDE.md` is gone.
+**Still to do:** ask `aaronabend` to drop their fork's copy of the branch.
 
 ## claude/prevalence-data-display-31437d
 
