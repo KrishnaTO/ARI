@@ -1,5 +1,30 @@
 # Changelog
 
+## claude/ari-master-list-comparison-4a1989
+
+Adds the 2026-10-08 master list (`data/1-master/ARI Master List - 2026-10-08.xlsx`) and
+report 10 (`data/4-reports/10_Master_List_Comparison.xlsx`), which compares its
+`ALPHABETICAL` sheet with ARI for ten columns: Veredict, System, Target Antigens, Target
+Cells, Antibodies, Self Reactive Cells, Symptoms, Molecular Mimicry, Environmental Triggers
+and Treatments. The script is `notebook/master-list-comparison/compare.py`. The ontology is
+not changed.
+
+- **Diseases.** 205 of the sheet's 218 diseases match an active ARI disease. 13 are new,
+  for example Anti-AMPAR and Anti-GABA-B encephalitis, iTTP, Autoimmune enteropathy and
+  STAT3 gain-of-function disease. 9 ARI diseases are missing from the sheet; 5 of them are
+  children of a sheet disease, such as Hashimoto's thyroiditis and LADA. Inclusion body
+  myositis and Rheumatic chorea are each listed twice.
+- **Veredict.** 164 agree. 3 differ: the sheet says Unconfirmed where ARI says Autoimmune
+  (Bickerstaff brainstem encephalitis) or Immune Deficiency (IPEX, LRBA deficiency). ARI has
+  no category for 38.
+- **System.** 187 agree, 3 overlap, 13 differ (for example Neuromyelitis optica: Eye in the
+  sheet, Nervous System in ARI). The cells for IPEX and Multiple sclerosis hold free text.
+- **The other eight columns** are almost all new. ARI holds antigens, antibodies, T cells,
+  molecular mimicry, triggers and treatments only for Type 1 diabetes and has no
+  target-cell field. Symptoms differ for all 160 diseases that have them on both sides; the
+  sheet lists a few clinical symptoms with frequencies, and ARI lists more patient-reported
+  ones.
+
 ## fix/readme-disease-count
 
 The `data/README.md` headline said 211 core diseases. Report 1 and the rest of the

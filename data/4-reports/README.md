@@ -278,6 +278,44 @@ and concept scopes the local OMOP MeSH export lacks.
 
 ---
 
+## 10. `10_Master_List_Comparison.xlsx` — Master List vs ARI, Column by Column
+
+Compares the `ALPHABETICAL` sheet of `data/1-master/ARI Master List - 2026-10-08.xlsx`
+(220 rows) with the 214 active diseases in `ontologies/ari_t1d.owl`, for ten columns.
+Built by `notebook/master-list-comparison/compare.py`:
+
+```bash
+python notebook/master-list-comparison/compare.py "data/1-master/ARI Master List - 2026-10-08.xlsx" ontologies/ari_t1d.owl data/4-reports/10_Master_List_Comparison.xlsx
+```
+
+| Sheet column | ARI field |
+|--------------|-----------|
+| Veredict | `diseaseCategory` |
+| System | `targetsTissue` (tissue labels) |
+| Target Antigens | `involvesAntigen` |
+| Target Cells | none — ARI has no target-cell field |
+| Antibodies | `hasAntibody` |
+| Self Reactive Cells | `involvesTCell` |
+| Symptoms | `hasSymptom` |
+| Molecular Mimicry | `hasEtiologyFactor` labelled "Molecular mimicry" (its description) |
+| Environmental Triggers | `hasEnvironmentalTrigger` |
+| Treatments | `hasTreatment` |
+
+| Sheet | Contents |
+|-------|----------|
+| Summary | Disease counts, then per-column status counts and how to read them |
+| Disease Match | Each sheet row with its ARI disease and how it was matched (ARI label, ARI synonym, name without the parenthetical, MeSH term, or a hand match with a note), then the ARI diseases missing from the sheet |
+| One sheet per column | Sheet value, ARI value and a colour-coded **Status**. List columns also show the items found on only one side |
+
+Statuses: `Same`, `Partly same` (systems overlap), `Changed` (one value each side, different),
+`Differs` (list items differ), `New in sheet` (ARI field empty), `Only in ARI`, `No data`,
+`Unclear in sheet` (System cell holds no system name) and `Disease not in ARI`. "Unknown",
+"Unconfirmed" and "Unknown / unconfirmed" count as no data in the list columns. List items
+match when more than half the words of the shorter item appear in the other, so differently
+worded symptoms show up on both sides.
+
+---
+
 ## Source data
 
 | Source | Location | License |
@@ -287,6 +325,8 @@ and concept scopes the local OMOP MeSH export lacks.
 | SNOMED / OMOP | `data/2-databases/snomed/CONCEPT.csv` (OMOP/Athena export) | See source |
 | Grounding scripts | `notebook/ari-grounding/` | — |
 | Synonym review scripts (report 9) | `notebook/synonym-review/` | — |
+| Master list 2026-10-08 (report 10) | `data/1-master/ARI Master List - 2026-10-08.xlsx` | Proprietary |
+| Master list comparison script (report 10) | `notebook/master-list-comparison/` | — |
 
 Reports 1-7 query no online data sources. Reports 8 and 9 use EBI OLS4 (and report 9 the NLM
 MeSH SPARQL endpoint) only where no usable local copy exists.
