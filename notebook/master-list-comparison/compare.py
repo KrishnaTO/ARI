@@ -3,7 +3,7 @@ column by column, and write the differences to an Excel report.
 
 Usage: python compare.py <master.xlsx> <ari_t1d.owl> <out.xlsx>
 """
-import re, sys, unicodedata
+import re, sys
 import xml.etree.ElementTree as ET
 from collections import Counter, defaultdict
 from datetime import date
@@ -11,20 +11,22 @@ from datetime import date
 import openpyxl
 from openpyxl.styles import Alignment, Font, PatternFill
 
+from sheet_items import items, norm, same_item
+
 MASTER, OWL_PATH, OUT = sys.argv[1:4]
 
 RDF = '{http://www.w3.org/1999/02/22-rdf-syntax-ns#}'
 RDFS = '{http://www.w3.org/2000/01/rdf-schema#}'
 A = '{http://www.aurint.org/ontologies/ari-disease#}'
 
-# (report column, sheet header prefix, ARI property or None, kind)
+# (report column, sheet header prefix, ARI property or properties, kind)
 COLUMNS = [
     ('Veredict', 'Veredict', 'diseaseCategory', 'value'),
     ('System', 'System', 'targetsTissue', 'system'),
     ('Target Antigens', 'Target Antigens', 'involvesAntigen', 'list'),
-    ('Target Cells', 'Target Cells', None, 'list'),
+    ('Target Cells', 'Target Cells', 'affectsCellTissueOrOrgan', 'list'),
     ('Antibodies', 'Antibodies', 'hasAntibody', 'list'),
-    ('Self Reactive Cells', 'Self Reactive Cells', 'involvesTCell', 'list'),
+    ('Self Reactive Cells', 'Self Reactive Cells', ('involvesTCell', 'involvesAPC'), 'list'),
     ('Symptoms', 'Symptoms', 'hasSymptom', 'list'),
     ('Molecular Mimicry', 'Molecular Mimicry', 'hasEtiologyFactor', 'list'),
     ('Environmental Triggers', 'Enviromental Triggers', 'hasEnvironmentalTrigger', 'list'),
@@ -34,17 +36,14 @@ ARI_FIELD_TEXT = {
     'Veredict': 'diseaseCategory',
     'System': 'targetsTissue (tissue labels)',
     'Target Antigens': 'involvesAntigen',
-    'Target Cells': 'none - ARI has no target-cell field',
+    'Target Cells': 'affectsCellTissueOrOrgan',
     'Antibodies': 'hasAntibody',
-    'Self Reactive Cells': 'involvesTCell',
+    'Self Reactive Cells': 'involvesTCell + involvesAPC',
     'Symptoms': 'hasSymptom',
     'Molecular Mimicry': 'hasEtiologyFactor "Molecular mimicry" (description)',
     'Environmental Triggers': 'hasEnvironmentalTrigger',
     'Treatments': 'hasTreatment',
 }
-# Cell contents that mean "no information" in the list columns.
-PLACEHOLDERS = {'unknown', 'unconfirmed', 'unknown / unconfirmed'}
-
 # Sheet names that differ from every ARI label and synonym but name the same disease.
 MANUAL = {
     'Anti-DPX encephalitis': ('ARI:0001122', 'DPPX is dipeptidyl-peptidase-like protein 6 (DPP6). '
@@ -83,13 +82,6 @@ STATUS_FILL = {
 }
 
 
-def norm(s):
-    s = unicodedata.normalize('NFKD', s)
-    s = ''.join(c for c in s if not unicodedata.combining(c)).lower()
-    s = re.sub(r"['’]s\b", '', s)
-    return ' '.join(re.sub(r'[^a-z0-9]+', ' ', s).split())
-
-
 # ---------- ARI ----------
 root = ET.parse(OWL_PATH).getroot()
 # Top-level nodes, whether written as owl:NamedIndividual or as a typed element such as <Symptom>.
@@ -109,8 +101,8 @@ def linked(e, prop):
 
 def ari_items(i, prop):
     e = ari[i]
-    if prop is None:
-        return []
+    if isinstance(prop, tuple):
+        return [v for p in prop for v in ari_items(i, p)]
     if prop == 'diseaseCategory':
         v = e.findtext(A + prop)
         return [v] if v else []
@@ -201,29 +193,6 @@ ari_only = sorted(set(ari) - set(seen))
 
 
 # ---------- comparison ----------
-STOP = {'a', 'an', 'and', 'or', 'the', 'of', 'in', 'on', 'with', 'to', 'for', 'by', 'at', 'as', 'from',
-        'due', 'e', 'g', 'eg', 'etc', 'i', 'cell', 'cells'}
-
-
-def items(text):
-    out = []
-    for line in str(text or '').split('\n'):
-        line = line.strip().lstrip('•-*·').strip()
-        if line and norm(line) not in {norm(p) for p in PLACEHOLDERS}:
-            out.append(line)
-    return out
-
-
-def tokens(s):
-    s = re.sub(r'\([^)]*%[^)]*\)', '', s)          # drop frequencies such as (80-90%)
-    return {t for t in norm(s).split() if t not in STOP}
-
-
-def same_item(a, b):
-    ta, tb = tokens(a), tokens(b)
-    return bool(ta and tb) and len(ta & tb) / min(len(ta), len(tb)) > 0.5
-
-
 def system_key(s):
     return re.sub(r' system$', '', norm(s))
 

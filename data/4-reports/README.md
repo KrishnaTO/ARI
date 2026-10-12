@@ -295,13 +295,27 @@ python notebook/master-list-comparison/compare.py "data/1-master/ARI Master List
 | Veredict | `diseaseCategory` |
 | System | `targetsTissue` (tissue labels) |
 | Target Antigens | `involvesAntigen` |
-| Target Cells | none — ARI has no target-cell field |
+| Target Cells | `affectsCellTissueOrOrgan` |
 | Antibodies | `hasAntibody` |
-| Self Reactive Cells | `involvesTCell` |
+| Self Reactive Cells | `involvesTCell` (T cells) and `involvesAPC` (B cells, plasma cells and other cells) |
 | Symptoms | `hasSymptom` |
 | Molecular Mimicry | `hasEtiologyFactor` labelled "Molecular mimicry" (its description) |
 | Environmental Triggers | `hasEnvironmentalTrigger` |
 | Treatments | `hasTreatment` |
+
+Six of these columns were imported from the sheet into ARI for every matched disease by
+`notebook/master-list-comparison/import_columns.py`: Target Antigens, Target Cells,
+Antibodies, Self Reactive Cells, Molecular Mimicry and Environmental Triggers. Each line of a
+cell became one item; a frequency such as `(80%)` went to `componentRelevance`,
+`antibodyFrequency` or `likelihood`. Items a disease already had were skipped, so this only
+affects Type 1 diabetes. Treatments were not imported because the data model in `data_model/`
+has no treatment field. Target cells use the data model's `affectsCellTissueOrOrgan`, which
+the ontology now declares. The import reads the Disease Match sheet of this report, so it runs
+after `compare.py`:
+
+```bash
+python notebook/master-list-comparison/import_columns.py "data/1-master/ARI Master List - 2026-10-08.xlsx" ontologies/ari_t1d.owl data/4-reports/10_Master_List_Comparison.xlsx
+```
 
 | Sheet | Contents |
 |-------|----------|
