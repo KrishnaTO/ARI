@@ -5,7 +5,7 @@ from openpyxl import Workbook
 from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 from openpyxl.utils import get_column_letter
 
-BASE = "/sessions/zen-keen-curie/mnt/ARI"
+BASE = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 HERE = f"{BASE}/notebook/ari-grounding"
 OUTDIR = f"{BASE}/data/4-reports"
 ATHENA_TERM = "https://athena.ohdsi.org/search-terms/terms/{}"

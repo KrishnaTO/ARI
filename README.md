@@ -52,6 +52,7 @@ This repository supports the curated disease model behind the editor:
 - `data/4-reports/5_DOID_Mapping.xlsx`
 - `data/4-reports/6_DOID_Matches_All.xlsx`
 - `data/4-reports/7_SNOMED_Matches_All.xlsx`
+- `data/4-reports/10_Master_List_Comparison.xlsx`
 
 ## Grounding workflow
 
@@ -101,6 +102,15 @@ What it catches:
 - Disagreement with the ontology — a disease id or label that does not match, a
   cross-reference the curators flagged wrong that is still stored and still served, or a
   confirmed one that was never stored.
+- Curation that disappears without a decision — a synonym, clinical subtype or changelog
+  entry the branch drops rather than adds. A synonym may be retired only by pairing its
+  removal with an `ARI_SynonymWithdrawn` marker on the same disease, shaped
+  `<synonym> | <reason> | <note>` where `<reason>` is `subtype`, `broader`, `distinct` or
+  `non-disease`; the marker is itself append-only, so the review stays on record.
+- Disease ids that are not registry ids. Every `ARI_ID` has seven digits (`ARI:0001234`).
+  A disease is renumbered by changing its `ARI_ID` and adding an `ARI_FormerID` holding the
+  old one, so the deletion check follows the record to its new id. `ARI_FormerID` is
+  append-only, and a former id may not still be in use.
 
 ## Working rules
 

@@ -2,17 +2,17 @@
 
 Method mirrors notebook/build_autoimmune-single.py (pyobo's get_grounder uses Gilda
 under the hood). Data source is LOCAL: data/2-databases/doid.owl (parsed to
-doid_records.json). No online sources.
+doid_records.json). No online sources. Disease names and synonyms come from the
+ontology (see ari_diseases.py).
 """
 import json, csv, os, re, html
 from gilda import Grounder
 from gilda.term import Term
 from gilda.process import normalize
-import openpyxl
+import ari_diseases
 
-BASE = "/sessions/zen-keen-curie/mnt/ARI"
-DOID_RECORDS = "/sessions/zen-keen-curie/mnt/ARI/notebook/ari-grounding/doid_records.json"
-CORE = f"{BASE}/data/4-reports/1_Core_ARI_Diseases.xlsx"
+BASE = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+DOID_RECORDS = f"{BASE}/notebook/ari-grounding/doid_records.json"
 OUT = f"{BASE}/notebook/ari-grounding"
 os.makedirs(OUT, exist_ok=True)
 
@@ -35,15 +35,11 @@ for doid_id, rec in records.items():
 grounder = Grounder(terms)
 print(f"DOID grounder built from {len(terms)} local terms ({len(records)} classes)")
 
-# Load all core diseases (ARI ID, Preferred Name, Synonyms)
-cws = openpyxl.load_workbook(CORE, read_only=True).active
-hdr = [c for c in next(cws.iter_rows(min_row=1, max_row=1, values_only=True))]
-i_ari, i_name, i_syn = hdr.index("ARI ID"), hdr.index("Preferred Name"), hdr.index("Synonyms")
-diseases = [(r[i_ari], r[i_name], r[i_syn] or "") for r in cws.iter_rows(min_row=2, values_only=True)]
+diseases = ari_diseases.load()
 
 def best_match(name, synonyms):
     """Ground preferred name first; fall back to synonyms. Return best ScoredMatch + which text matched."""
-    candidates = [name] + [s.strip() for s in synonyms.split(";") if s.strip()]
+    candidates = [name] + synonyms
     best = None; best_via = ""
     for txt in candidates:
         for m in grounder.ground(txt):
@@ -55,7 +51,7 @@ def best_match(name, synonyms):
 
 rows = []
 matched = 0
-for ari, name, syn in diseases:
+for ari, name, syn, _ in diseases:
     m, via = best_match(name, syn)
     if m:
         matched += 1

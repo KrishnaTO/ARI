@@ -29,7 +29,7 @@ import subprocess
 import sys
 import xml.etree.ElementTree as ElementTree
 from dataclasses import dataclass
-from datetime import date
+from datetime import date, datetime, timezone
 
 REPO_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
@@ -47,6 +47,7 @@ SSSOM_COLUMNS = [
     "mapping_justification",
     "author_id",
     "mapping_date",
+    "comment",
 ]
 EQUIV_COLUMNS = [
     "source_prefix",
@@ -58,6 +59,13 @@ EQUIV_COLUMNS = [
     "type",
     "source",
 ]
+
+# A reversed judgment keeps BOTH rows: the editor app annotates the withdrawn one
+# in `comment` instead of deleting it, so a consumer can see which of two
+# contradictory rows was withdrawn without reimplementing the ordering. Kept in
+# step with `SUPERSEDED_PREFIX` in the app's `app/sssom_service.py`. Only rows
+# without this marker count as live judgments.
+SUPERSEDED_MARKER = "Superseded by the "
 
 ALLOWED_PREDICATES = {"skos:exactMatch"}
 ALLOWED_JUSTIFICATIONS = {"semapv:ManualMappingCuration", "semapv:LexicalMatching"}
@@ -131,13 +139,19 @@ ONTOLOGY_VALUE_PATTERNS = {
     "ARI_OMIM": "OMIM",
 }
 
-ARI_SUBJECT_RE = re.compile(r"ARI:\d{4,7}")
+ARI_SUBJECT_RE = re.compile(r"ARI:\d{7}")
 AUTHOR_RE = re.compile(r"github:[A-Za-z0-9](?:[A-Za-z0-9-]{0,37}[A-Za-z0-9])?")
-DATE_RE = re.compile(r"\d{4}-\d{2}-\d{2}")
+# SSSOM types `mapping_date` as a date, but the editor app publishes a full ISO
+# 8601 timestamp because two judgments on one pair in one day need an order.
+# Both are accepted; the date part is what the check is really about.
+DATE_RE = re.compile(r"\d{4}-\d{2}-\d{2}(?:T\d{2}:\d{2}:\d{2}(?:Z|[+-]\d{2}:\d{2})?)?")
 ICD9_RE = re.compile(r"\d{2,3}(\.\d{1,2})?")
 
-ENTITY_OPEN_RE = re.compile(r"<owl:(?:NamedIndividual|Class)\b")
-ENTITY_CLOSE_RE = re.compile(r"</owl:(?:NamedIndividual|Class)>")
+# An entity is any top-level node element with an rdf:about. RDF/XML writes the
+# same individual as `<owl:NamedIndividual>` with an `rdf:type` child or as a
+# typed node such as `<AutoimmuneDisease>`, so the element name is not what
+# makes it a disease; its ARI_ID is.
+ENTITY_OPEN_RE = re.compile(r"^<([\w:.-]+)\s[^>]*\brdf:about=")
 ANNOTATION_RE = re.compile(r"<(ARI_\w+)[^>]*>(.*?)</\1>")
 LABEL_RE = re.compile(r"<rdfs:label[^>]*>(.*?)</rdfs:label>")
 CURIE_MAP_RE = re.compile(r"#\s{2,}([A-Za-z0-9_.]+):\s")
@@ -289,12 +303,24 @@ def load_ontology(report: Report) -> dict[str, Disease] | None:
     except ElementTree.ParseError as exc:
         report.error("ontology-not-well-formed", ONTOLOGY_PATH, 0, f"OWL/XML does not parse: {exc}.")
         return None
+    return parse_ontology(text, report)
 
+
+def parse_ontology(text: str, report: Report | None = None) -> dict[str, Disease]:
+    """Diseases keyed by ARI id, from already-read OWL text."""
     diseases: dict[str, Disease] = {}
     current: dict | None = None
     for index, line in enumerate(text.replace("\r\n", "\n").split("\n"), start=1):
-        if ENTITY_OPEN_RE.search(line):
-            current = {"label": None, "annotations": collections.defaultdict(list)}
+        open_match = ENTITY_OPEN_RE.match(line)
+        if open_match:
+            if line.rstrip().endswith("/>"):
+                current = None  # a bare declaration carries no annotations
+                continue
+            current = {
+                "close": f"</{open_match.group(1)}>",
+                "label": None,
+                "annotations": collections.defaultdict(list),
+            }
         if current is None:
             continue
         label_match = LABEL_RE.search(line)
@@ -302,17 +328,19 @@ def load_ontology(report: Report) -> dict[str, Disease] | None:
             current["label"] = html.unescape(label_match.group(1)).strip()
         for prop, value in ANNOTATION_RE.findall(line):
             current["annotations"][prop].append((html.unescape(value).strip(), index))
-        if ENTITY_CLOSE_RE.search(line):
+        if line.startswith(current["close"]):
             ids = current["annotations"].get("ARI_ID", [])
             ari_id = ids[0][0] if ids else None
             if ari_id and ari_id.startswith("ARI:"):
                 if ari_id in diseases:
-                    report.error(
-                        "duplicate-ari-id",
-                        ONTOLOGY_PATH,
-                        ids[0][1],
-                        f"{ari_id} is used by more than one entity, so mappings for it are ambiguous.",
-                    )
+                    if report is not None:
+                        report.error(
+                            "duplicate-ari-id",
+                            ONTOLOGY_PATH,
+                            ids[0][1],
+                            f"{ari_id} is used by more than one entity, so mappings for it "
+                            "are ambiguous.",
+                        )
                 else:
                     diseases[ari_id] = Disease(ari_id, current["label"], dict(current["annotations"]))
             current = None
@@ -341,7 +369,11 @@ def stored_ids(disease: Disease, prefix: str) -> dict[str, int]:
 
 
 def check_sssom_rows(rows: list[Row], report: Report) -> None:
-    today = date.today().isoformat()
+    # The app stamps `mapping_date` in UTC, so "today" has to be UTC too. Against
+    # a local date this reported every evening publish west of UTC as tomorrow's
+    # work — CI runners are UTC and never saw it, curators running the validator
+    # locally did.
+    today = datetime.now(timezone.utc).date().isoformat()
     seen: dict[tuple, int] = {}
     modifiers_by_pair: dict[tuple, dict[str, int]] = collections.defaultdict(dict)
     labels: dict[str, dict[str, int]] = collections.defaultdict(dict)
@@ -408,9 +440,11 @@ def check_sssom_rows(rows: list[Row], report: Report) -> None:
         mapping_date = fields["mapping_date"]
         if not DATE_RE.fullmatch(mapping_date):
             report.error(
-                "date-format", SSSOM_PATH, line, f"`mapping_date` {mapping_date!r} is not ISO YYYY-MM-DD."
+                "date-format", SSSOM_PATH, line, f"`mapping_date` {mapping_date!r} is not an ISO 8601 date or timestamp."
             )
-        elif mapping_date > today:
+        elif mapping_date[:10] > today:
+            # Compare the date part only: a timestamp sorts after the bare date it
+            # falls on, so the whole string would read as tomorrow.
             report.error(
                 "date-future",
                 SSSOM_PATH,
@@ -431,17 +465,20 @@ def check_sssom_rows(rows: list[Row], report: Report) -> None:
             )
         else:
             seen[key] = line
-        modifiers_by_pair[(subject, object_id)][modifier] = line
+        superseded = fields["comment"].startswith(SUPERSEDED_MARKER)
+        modifiers_by_pair[(subject, object_id)][modifier] = (line, superseded)
 
     for (subject, object_id), by_modifier in modifiers_by_pair.items():
-        if len(by_modifier) > 1:
-            lines = ", ".join(str(by_modifier[m]) for m in sorted(by_modifier))
+        live = sorted(line for line, superseded in by_modifier.values() if not superseded)
+        if len(live) > 1:
+            lines = ", ".join(str(line) for line in live)
             report.error(
                 "contradiction",
                 SSSOM_PATH,
-                min(by_modifier.values()),
+                live[0],
                 f"{subject} -> {object_id} is recorded as both confirmed and flagged-wrong "
-                f"(lines {lines}). One of the two judgments has to go.",
+                f"(lines {lines}) with neither row marked superseded. A reversal must annotate "
+                f"the withdrawn row in `comment`; otherwise one of the two judgments has to go.",
             )
 
     for subject, by_label in labels.items():
@@ -679,8 +716,8 @@ def check_cross_file(sssom: list[Row], equiv: list[Row], report: Report) -> None
 
     A row present in one file and absent from the other is nearly always a
     spreadsheet round-trip that reformatted an id — `362.50` losing its
-    trailing zero, `0111157` losing its leading zeros, `ARI:0003` re-padded to
-    a different width.
+    trailing zero, `0111157` losing its leading zeros, an ARI id written at the wrong
+    width.
     """
     sssom_index = collections.defaultdict(list)
     for row in sssom:
@@ -777,6 +814,8 @@ def check_against_ontology(sssom: list[Row], diseases: dict[str, Disease], repor
         prefix, local = object_id.split(":", 1)
         if prefix not in ONTOLOGY_PROPERTIES or local.lower() in PLACEHOLDER_IDS:
             continue
+        if fields["comment"].startswith(SUPERSEDED_MARKER):
+            continue
         stored = stored_ids(disease, prefix)
 
         if fields["predicate_modifier"] == "Not":
@@ -803,6 +842,25 @@ def check_against_ontology(sssom: list[Row], diseases: dict[str, Disease], repor
 def check_ontology_values(diseases: dict[str, Disease], report: Report) -> None:
     """The ontology's own cross-reference values must satisfy the same shapes."""
     for disease in diseases.values():
+        if not ARI_SUBJECT_RE.fullmatch(disease.ari_id):
+            report.error(
+                "ari-id-shape",
+                ONTOLOGY_PATH,
+                disease.annotations["ARI_ID"][0][1],
+                f"{disease.ari_id} ({disease.label!r}) is not a registry id of the form "
+                "ARI:0001234.",
+            )
+        # ARI_FormerID records an id a disease was renumbered from, so the deletion
+        # check can follow it. A former id still in use would make it ambiguous.
+        for value, line in disease.annotations.get("ARI_FormerID", []):
+            if value in diseases:
+                report.error(
+                    "former-id-in-use",
+                    ONTOLOGY_PATH,
+                    line,
+                    f"{disease.ari_id} lists {value} as a former id, but {value} is still the "
+                    f"ARI_ID of {diseases[value].label!r}.",
+                )
         for prop, prefix in ONTOLOGY_VALUE_PATTERNS.items():
             for value, line in disease.annotations.get(prop, []):
                 for part in [item.strip() for item in value.split(",")]:
@@ -834,6 +892,39 @@ def check_ontology_values(diseases: dict[str, Disease], report: Report) -> None:
                             f"{disease.ari_id} stores {part!r} in {prop}, which does not look like "
                             f"a {prefix} identifier (expected {ID_SHAPES[prefix]}).",
                         )
+
+        # An ARI_SynonymWithdrawn marker is what lets a synonym leave ARI_Synonym.
+        # It must be shaped "<synonym> | <reason> | <note>" with a known reason, and
+        # must not name a synonym that is still present (that is a contradiction,
+        # not a withdrawal).
+        live_synonyms = _values(disease, "ARI_Synonym")
+        for value, line in disease.annotations.get("ARI_SynonymWithdrawn", []):
+            parts = [p.strip() for p in value.split("|")]
+            if len(parts) < 3 or not parts[0] or not parts[2]:
+                report.error(
+                    "withdrawn-synonym-shape",
+                    ONTOLOGY_PATH,
+                    line,
+                    f"{disease.ari_id} has an ARI_SynonymWithdrawn value {value!r} that is not "
+                    "'<synonym> | <reason> | <note>'.",
+                )
+                continue
+            if parts[1] not in WITHDRAWAL_REASONS:
+                report.error(
+                    "withdrawn-synonym-reason",
+                    ONTOLOGY_PATH,
+                    line,
+                    f"{disease.ari_id} withdraws {parts[0]!r} with reason {parts[1]!r}; expected "
+                    f"one of {sorted(WITHDRAWAL_REASONS)}.",
+                )
+            if parts[0] in live_synonyms:
+                report.error(
+                    "withdrawn-synonym-still-present",
+                    ONTOLOGY_PATH,
+                    line,
+                    f"{disease.ari_id} still lists {parts[0]!r} as an ARI_Synonym but also marks "
+                    "it withdrawn. Remove the ARI_Synonym line or the marker.",
+                )
 
         # ARI_DXCODE mirrors ARI_SNOMED. A DXCODE value with no SNOMED counterpart is how a
         # rejected SNOMED code survives removal, so it is worth surfacing; the reverse
@@ -878,11 +969,151 @@ def baseline_lines(ref: str, path: str) -> set[str] | None:
     return set(result.stdout.decode("utf-8", "replace").replace("\r\n", "\n").split("\n"))
 
 
-def current_lines(path: str) -> list[str]:
+def current_text(path: str) -> str:
     full = os.path.join(REPO_ROOT, path)
     if not os.path.exists(full):
-        return []
-    return open(full, encoding="utf-8", errors="replace").read().replace("\r\n", "\n").split("\n")
+        return ""
+    return open(full, encoding="utf-8", errors="replace").read().replace("\r\n", "\n")
+
+
+def current_lines(path: str) -> list[str]:
+    return current_text(path).split("\n")
+
+
+# Curation records that only ever accumulate. Nothing a curator decides removes
+# one, so a branch that drops one is reverting somebody rather than reviewing.
+APPEND_ONLY_PROPERTIES = {
+    "ARI_Synonym": "synonym",
+    "ARI_ClinicalSubtype": "clinical subtype",
+    "ARI_ChangeLog": "changelog entry",
+    "ARI_SynonymWithdrawn": "withdrawn-synonym record",
+    "ARI_FormerID": "former id",
+}
+# A synonym may leave `ARI_Synonym` only when the same disease carries an
+# `ARI_SynonymWithdrawn` marker naming it: "<synonym text> | <reason> | <note>",
+# where <reason> is one of subtype / broader / distinct / non-disease. The marker
+# is itself append-only, so the review that retired the synonym stays on record.
+WITHDRAWAL_REASONS = {"subtype", "broader", "distinct", "non-disease"}
+# How many deleted values to name before the message just gives the count.
+DELETION_SAMPLE = 3
+
+
+def _withdrawn_synonyms(disease: Disease) -> set[str]:
+    """Synonym texts this disease has an ARI_SynonymWithdrawn marker for.
+
+    Tokenised the same way as `_values` (comma-split) so the result lines up with
+    `_values(disease, "ARI_Synonym")` for set subtraction.
+    """
+    out: set[str] = set()
+    for value, _ in disease.annotations.get("ARI_SynonymWithdrawn", []):
+        head = value.split("|", 1)[0]
+        out.update(part.strip() for part in head.split(",") if part.strip())
+    return out
+
+
+def _values(disease: Disease, prop: str) -> set[str]:
+    out = set()
+    for value, _ in disease.annotations.get(prop, []):
+        out.update(part.strip() for part in value.split(",") if part.strip())
+    return out
+
+
+def summarise(values: set[str]) -> str:
+    shown = sorted(values)[:DELETION_SAMPLE]
+    rendered = ", ".join(repr(v if len(v) <= 60 else v[:57] + "...") for v in shown)
+    extra = len(values) - len(shown)
+    return rendered + (f" and {extra} more" if extra else "")
+
+
+def check_deletions(ref: str, sssom_rows: list[Row], report: Report) -> None:
+    """Report curation this branch removes from the ontology without reviewing it.
+
+    The row checks only see rows that exist, so a save that reverts somebody
+    else's work passes them all. This is the check that fails on absence.
+
+    A cross-reference may legitimately go: flagging one wrong on the review page
+    is exactly how a bad code is retired, and that judgment is in the mapping set.
+    A synonym may go when an `ARI_SynonymWithdrawn` marker on the same disease
+    names it, which records why (subtype / broader / distinct / non-disease).
+    Anything else -- a subtype, a changelog entry, an unmarked synonym, or an id
+    no curator ruled against -- has no decision behind its removal.
+    """
+    result = subprocess.run(
+        ["git", "show", f"{ref}:{ONTOLOGY_PATH}"],
+        cwd=REPO_ROOT,
+        capture_output=True,
+    )
+    if result.returncode != 0:
+        return  # the ontology is new on this branch; nothing to have deleted
+    before = parse_ontology(result.stdout.decode("utf-8", "replace"))
+    after = parse_ontology(current_text(ONTOLOGY_PATH))
+    if not before or not after:
+        return
+
+    flagged = collections.defaultdict(set)
+    for row in sssom_rows:
+        if row.fields["predicate_modifier"].strip() != "Not":
+            continue
+        object_id = row.fields["object_id"].strip()
+        if ":" in object_id:
+            prefix, local = object_id.split(":", 1)
+            flagged[(row.fields["subject_id"].strip(), prefix)].add(local)
+
+    # A renumbered disease carries its old id in ARI_FormerID; follow it.
+    renumbered = {
+        former: disease
+        for disease in after.values()
+        for former in _values(disease, "ARI_FormerID")
+    }
+    for ari_id, was in sorted(before.items()):
+        now = after.get(ari_id) or renumbered.get(ari_id)
+        if now is None:
+            report.error(
+                "disease-deleted",
+                ONTOLOGY_PATH,
+                0,
+                f"{ari_id} ({was.label!r}) is in {ref} but not in this branch. A disease is "
+                "retired by setting ARI_Obsolete, never by deleting the individual.",
+            )
+            continue
+
+        for prop, noun in APPEND_ONLY_PROPERTIES.items():
+            lost = _values(was, prop) - _values(now, prop)
+            if prop == "ARI_Synonym":
+                lost -= _withdrawn_synonyms(now)
+            if lost:
+                remedy = (
+                    "restore the value, or record an ARI_SynonymWithdrawn marker "
+                    "saying why it is being withdrawn"
+                    if prop == "ARI_Synonym"
+                    else "restore the value, or say in review why it is being withdrawn"
+                )
+                report.error(
+                    "record-deleted",
+                    ONTOLOGY_PATH,
+                    0,
+                    f"{ari_id} loses {len(lost)} {noun}(s) this branch did not add: "
+                    f"{summarise(lost)}. {prop} is an append-only record — {remedy}.",
+                )
+
+        for prefix, properties in ONTOLOGY_PROPERTIES.items():
+            was_ids = set().union(*(_values(was, p) for p in properties))
+            now_ids = set().union(*(_values(now, p) for p in properties))
+            lost = was_ids - now_ids - flagged[(now.ari_id, prefix)]
+            # A value that is not a well-formed identifier for its vocabulary was
+            # never a usable cross-reference: an ICD-9 code under ICD-10, a range,
+            # a doubly-prefixed CURIE. Dropping or re-spelling one is a repair, and
+            # the shape checks already report it if it is still there.
+            lost = {value for value in lost if ID_PATTERNS[prefix].fullmatch(value)}
+            if lost:
+                report.error(
+                    "xref-deleted",
+                    ONTOLOGY_PATH,
+                    0,
+                    f"{ari_id} loses {prefix} {summarise(lost)} with no matching "
+                    f"`predicate_modifier: Not` row in {SSSOM_PATH}. Flag the id wrong on the "
+                    "review page so the judgment is recorded, or restore it.",
+                )
 
 
 def filter_to_changes(findings: list[Finding], ref: str) -> list[Finding]:
@@ -983,7 +1214,13 @@ def main() -> int:
     scope = "whole repository"
     if args.since:
         findings = filter_to_changes(findings, args.since)
-        scope = f"lines changed since `{args.since}`"
+        # Deletions are reported after the diff filter, not through it: the filter
+        # keeps findings that sit on a changed line, and a deleted record has no
+        # line left to sit on.
+        deletions = Report()
+        check_deletions(args.since, sssom_rows, deletions)
+        findings = sorted(findings + deletions.findings, key=Finding.sort_key)
+        scope = f"changes since `{args.since}`"
 
     for finding in findings:
         if args.annotate:

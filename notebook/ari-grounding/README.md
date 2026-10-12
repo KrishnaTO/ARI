@@ -13,6 +13,11 @@ online sources in reports:
 
 ## Method
 
+Diseases, preferred names and synonyms are read from `ontologies/ari_t1d.owl`
+(`ari_diseases.py`): the curated, non-retired diseases and their current `ARI_Synonym`
+values, so a synonym withdrawn by the synonym review no longer produces matches. The
+existing SNOMED codes the SNOMED match is checked against are the ontology's `ARI_SNOMED`.
+
 For each disease the grounder is queried with the preferred name first, then each synonym;
 the highest-scoring Gilda match is kept (`Matched Via` records which string matched). The
 grounder terms are built from each ontology's label + synonyms.
@@ -25,6 +30,7 @@ inactive/duplicate concepts.
 
 | Script | Purpose |
 | --- | --- |
+| `ari_diseases.py` | Diseases, names, synonyms and SNOMED codes from the ontology, shared by the grounders and the matrix |
 | `parse_doid_local.py` | Parse `doid.owl` (proper XML parsing, handles nested classes) -> `doid_records.json` |
 | `ground_doid.py` | Build DOID Gilda grounder, ground all diseases -> `doid_matches_all.csv` |
 | `ground_snomed.py` | Build SNOMED Gilda grounder (standard Condition concepts), ground all -> `snomed_matches_all.csv` |
@@ -36,14 +42,12 @@ inactive/duplicate concepts.
 Run order: `parse_doid_local.py` → `ground_doid.py` → `ground_snomed.py` → `make_match_reports.py`.
 Requires `gilda`, `openpyxl` (`pip install gilda openpyxl`).
 
-## Results (all 215 core diseases)
+## Results (all 213 active ontology diseases)
 
-- **DOID**: 133 matched, 82 unmatched. Matching resolves synonyms (e.g. Kawasaki, Castleman, Goodpasture).
-- **SNOMED**: 193 matched. Of the 201 diseases with an existing master SNOMED code, **188 agree**
-  with the Gilda match (validation), **5 differ** (review candidates), 8 had no lexical match.
-  No-code diseases were not found in SNOMED standard Condition concepts.
+- **DOID**: 128 matched, 85 unmatched. Matching resolves synonyms (e.g. Kawasaki, Castleman, Goodpasture).
+- **SNOMED**: 189 matched; 185 agree with a SNOMED code the ontology already stores.
 
-The SNOMED report colour-codes the `Agrees w/ Existing` column: green = agrees with master, amber = differs.
+The SNOMED report colour-codes the `Agrees w/ Existing` column: green = agrees with the ontology's code, amber = differs.
 
 ## Disease x target database matrix
 
@@ -78,11 +82,31 @@ arrives with a candidate rather than a blank. Two offline routes feed it:
 Each hub is scored by how many of the disease's own identifiers reach it (curated anchors
 count double), and candidate ranking sums those scores across routes — so a candidate
 corroborated by several hubs outranks one reached through a single broad cross-reference.
-Two filters keep the output honest: a term the curators already **rejected** for that
-disease and database is never predicted, and predicted SNOMED codes are restricted to
-**standard, non-retired** concepts (ontology xrefs still point at codes SNOMED has since
-deprecated — that alone accounted for most early false predictions).
+An anchor that more than four hub terms cross-reference (`MAX_ANCHOR_HUBS`) is too broad
+to expand at all: ICD-10 `E10` is an xref of 22 DOID terms, one per type 1 diabetes subtype,
+and would otherwise predict each of them and its OMIM locus (#111). Every other anchor reaches
+one to four hubs.
+Three filters keep the output honest. A term the curators already **rejected** for that
+disease and database is never predicted. Neither is a term they **confirmed for the
+disease's parent or subtype** (`hasParentDisease`), since a term that is exactly one of the
+pair is not exactly the other (unless the curators confirmed it for both), and a hub term excluded either way is not expanded. Predicted
+SNOMED codes are restricted to **standard, non-retired** concepts (ontology xrefs still point
+at codes SNOMED has since deprecated — that alone accounted for most early false
+predictions). SSSOM rows marked `Superseded by the …` are past judgements and are ignored.
 
-Validation against the 367 curated mappings: **330 top predictions reproduce the curated
-term**, 22 name a different one, 15 produce nothing; for 18 of the 22 the curated term is
-still present further down the candidate list.
+Validation against the 715 curated confirmed mappings (2026-09-27): **651 top predictions
+reproduce the curated term**, 28 name a different one, 36 produce nothing; for 17 of the 28
+the curated term is still present further down the candidate list. Grounding from the
+ontology's current synonyms instead of the master-list snapshot moved this from 641 / 38 / 34
+(measured on the 713 mappings before PR #104 added two).
+
+Re-measured on 2026-10-04 over every live confirmed row in `ari.sssom.tsv` (1,359): **1,227 top
+predictions reproduce the curated term**, 54 name a different one, 78 produce nothing. Without the
+parent/subtype and superseded-row filters the same rows give 1,229 / 55 / 75. Each top match
+those filters lose had been reached only through a hub term the curators rejected for the
+disease, or one confirmed for its subtype.
+
+After the ARI#108 review and the fan-out cap (2026-10-04), over 1,363 live confirmed rows:
+**1,230** reproduce the curated term, 55 name a different one, 78 produce nothing. The cap
+changes none of these; it only removes 20 low-support DOID and 20 OMIM candidates from type 1
+diabetes.
