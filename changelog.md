@@ -1,5 +1,19 @@
 # Changelog
 
+## claude/disease-hierarchy
+
+Adds report `11_Disease_Hierarchy.xlsx`: parent/child relations between the listed core
+diseases, from four local sources (master list subtype rows, the ontology's
+`hasParentDisease`, SNOMED is-a via OMOP `CONCEPT_ANCESTOR`, DOID is_a). 160 links among
+124 diseases; 68 direct links form a 30-root tree. Links that rest only on a disease's
+additional SNOMED code are flagged for review; several point to code assignments to check
+in the master list (e.g. Multiple sclerosis carries *Systemic sclerosis, diffuse*). Script in
+`notebook/disease-hierarchy/`. No online sources.
+
+Built as report 10 on 2026-10-05; renumbered to 11 because `10_Master_List_Comparison.xlsx`
+reached `main` first. Rebuilt against `main` after the merge with identical output: the
+diseases come from report 1 (still the 210 core diseases), so the 13 added from the 2026-10-08
+master list (ARI#121) are not in it yet.
 ## chore/data-layout
 
 **`data/` held 11 GB of downloaded dumps and the curated master list under one name, with nothing
