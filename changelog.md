@@ -6,14 +6,25 @@ Adds the 2026-10-08 master list (`data/1-master/ARI Master List - 2026-10-08.xls
 report 10 (`data/4-reports/10_Master_List_Comparison.xlsx`), which compares its
 `ALPHABETICAL` sheet with ARI for ten columns: Veredict, System, Target Antigens, Target
 Cells, Antibodies, Self Reactive Cells, Symptoms, Molecular Mimicry, Environmental Triggers
-and Treatments. The script is `notebook/master-list-comparison/compare.py`. The ontology is
-not changed.
+and Treatments. The script is `notebook/master-list-comparison/compare.py`.
 
-- **Diseases.** 205 of the sheet's 218 diseases match an active ARI disease. 13 are new,
-  for example Anti-AMPAR and Anti-GABA-B encephalitis, iTTP, Autoimmune enteropathy and
-  STAT3 gain-of-function disease. 9 ARI diseases are missing from the sheet; 5 of them are
-  children of a sheet disease, such as Hashimoto's thyroiditis and LADA. Inclusion body
-  myositis and Rheumatic chorea are each listed twice.
+The list comes from Leon Islas. A team member's name was removed from the committed copy: from
+144 cell comments, two column headers and one definition cell.
+
+- **Diseases.** 205 of the sheet's 218 diseases matched an active ARI disease. The other 13
+  are now in ARI as `ARI:0001217`-`ARI:0001229`, with the list as the source of truth:
+  Anti-AMPAR encephalitis, Anti-GABA B encephalitis, Autoimmune aortitis (isolated,
+  non-vasculitic), Autoimmune enteropathy, Autoimmune gastrointestinal dysmotility syndrome,
+  Autoimmune GFAP astrocytopathy, Autoimmune hemophilia B, Autoimmune nodopathies, Autoimmune
+  peripheral neuropathy associated with nodal/paranodal antibodies, iTTP, Infertility
+  associated with antisperm antibodies, Klein Levin Syndrome and STAT3 gain-of-function
+  disease. Each takes its name, MeSH terms (as synonyms), definition, verdict, system and
+  symptoms (frequency in `likelihood`) from its row. An `ARI_ChangeLog` entry credits Leon
+  Islas and names the list and row. Klein Levin Syndrome also gets the synonym Kleine-Levin
+  syndrome from its definition. Five synonyms appear on both nodopathy rows and are kept on
+  `ARI:0001224` only. 9 ARI diseases are missing from the sheet; 5 of them are children of a
+  sheet disease, such as Hashimoto's thyroiditis and LADA. Inclusion body myositis and
+  Rheumatic chorea are each listed twice.
 - **Veredict.** 164 agree. 3 differ: the sheet says Unconfirmed where ARI says Autoimmune
   (Bickerstaff brainstem encephalitis) or Immune Deficiency (IPEX, LRBA deficiency). ARI has
   no category for 38.

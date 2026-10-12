@@ -64,31 +64,16 @@ MANUAL = {
                                                                   'it does not name NXP2.'),
     'Autoinflammatory calcifying aortic valve disease (immune-mediated)': ('ARI:0001020', 'ARI label is the SNOMED term.'),
 }
-# Sheet-only diseases with a related ARI record that is not the same disease.
-RELATED = {
-    'Autoimmune aortitis (isolated, non-vasculitic)':
-        'Related ARI:0001183 Rheumatoid aortitis is aortitis in rheumatoid arthritis, not isolated aortitis.',
-    'Autoimmune hemophilia B (anti-factor IX antibody)':
-        'Related ARI:0001098 Hemophilia B Leyden is an inherited form of hemophilia B, not the autoimmune one.',
-    'Infertility associated with Antisperm Antibodies':
-        'ARI has "Infertility due to antisperm antibodies" as a synonym of ARI:0001094 Female infertility '
-        'due to antisperm antibodies; the sheet also lists the female and male diseases.',
-    'Anti-AMPAR encephalitis':
-        'ARI:0001121 Limbic encephalitis names "Anti-AMPAR encephalitis" in its definition source.',
-    'Autoimmune enteropathy':
-        'ARI withdrew this name as a synonym ("distinct") but has no disease record for it.',
-    'Immune-mediated thrombotic thrombocytopenic purpura (iTTP)':
-        'ARI withdrew this name from ARI:0001107 Immune thrombocytopenia ("distinct") but has no disease record for it.',
-}
 # ARI-only diseases that are not a child of a disease in the sheet.
 ARI_ONLY = {
-    'ARI:0001098': 'Possibly meant as the sheet\'s "Autoimmune hemophilia B (anti-factor IX antibody)"; '
-                   'Hemophilia B Leyden itself is inherited.',
+    'ARI:0001098': 'Hemophilia B Leyden is inherited. The sheet\'s autoimmune form is ARI:0001223 '
+                   'Autoimmune hemophilia B (anti-factor IX antibody).',
     'ARI:0001121': 'Its definition reads "Anti-DPPX encephalitis" and its definition source names "Anti-AMPAR '
-                   'encephalitis". The sheet\'s Anti-DPX encephalitis matched ARI:0001122; Anti-AMPAR is not in ARI.',
+                   'encephalitis". The sheet\'s Anti-DPX encephalitis matched ARI:0001122 and its Anti-AMPAR '
+                   'encephalitis is ARI:0001217.',
     'ARI:0001145': 'Subtype of Myasthenia gravis (ARI:0001136), which is in the sheet; ARI has no parent link for it.',
-    'ARI:0001183': 'Possibly meant as the sheet\'s "Autoimmune aortitis (isolated, non-vasculitic)"; '
-                   'rheumatoid aortitis is a different disease.',
+    'ARI:0001183': 'Rheumatoid aortitis is aortitis in rheumatoid arthritis. The sheet\'s isolated aortitis is '
+                   'ARI:0001219 Autoimmune aortitis (isolated, non-vasculitic).',
 }
 
 STATUS_FILL = {
@@ -188,7 +173,7 @@ def match(name, mesh):
     if name in MANUAL:
         i, note = MANUAL[name]
         return i, 'Manual', note
-    return None, 'Not in ARI', RELATED.get(name, '')
+    return None, 'Not in ARI', ''
 
 
 matched = []   # (sheet row, sheet name, ARI ID or None, method, note, row values)

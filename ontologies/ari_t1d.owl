@@ -24800,5 +24800,728 @@ A third type of PRCA, Diamond-Blackfan syndrome, is due to genetic mutation and 
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
 </Symptom>
 
+<owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001217">
+  <rdf:type rdf:resource="#AutoimmuneDisease"/>
+  <targetsTissue rdf:resource="#Tissue_NervousSystem"/>
+  <hasSymptom rdf:resource="#Sym_0001217_2242"/>
+  <hasSymptom rdf:resource="#Sym_0001217_2243"/>
+  <hasSymptom rdf:resource="#Sym_0001217_2244"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anti-AMPAR encephalitis</rdfs:label>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anti-AMPAR encephalitis is a rare autoimmune disorder of the central nervous system in which autoantibodies attack the GluA1 or GluA2 subunits of AMPA glutamate receptors in the brain. This disrupts synaptic signaling, leading to limbic encephalitis characterized by rapid memory loss, confusion, behavioral changes, and seizures. A significant number of cases occur as a paraneoplastic syndrome associated with underlying tumors, and patients typically benefit from early immunomodulatory treatment.</rdfs:comment>
+  <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI Master List 2026-10-08</ARI_DefSource>
+  <diseaseCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unconfirmed</diseaseCategory>
+  <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001217</ARI_ID>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AMPAR antibody encephalitis</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AMPA receptor antibody encephalitis</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anti-alpha-amino-3-hydroxy-5-methyl-4-isoxazolepropionic acid receptor encephalitis</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anti-GluA1 encephalitis</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anti-GluA2 encephalitis</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anti-GluR1/GluR2 encephalitis</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AMPAR antibody-associated autoimmune encephalitis</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AMPA receptor limbic encephalitis</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">autoimmune encephalitis with AMPAR antibodies</ARI_Synonym>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-12T12:36:26+00:00 | Leon Islas | Created: Anti-AMPAR encephalitis. Source: ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 13. Name, MeSH terms as synonyms, definition, verdict, system and symptoms are taken from that row.</ARI_ChangeLog>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001217_2242">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acute/subacute limbic amnesia and confusion</rdfs:label>
+  <likelihood rdf:datatype="http://www.w3.org/2001/XMLSchema#string">85–95%</likelihood>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001217_2243">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marked psychiatric and behavioral changes (agitation, psychosis)</rdfs:label>
+  <likelihood rdf:datatype="http://www.w3.org/2001/XMLSchema#string">65–80%</likelihood>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001217_2244">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Epileptic seizures</rdfs:label>
+  <likelihood rdf:datatype="http://www.w3.org/2001/XMLSchema#string">50–60%</likelihood>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001218">
+  <rdf:type rdf:resource="#AutoimmuneDisease"/>
+  <targetsTissue rdf:resource="#Tissue_NervousSystem"/>
+  <hasSymptom rdf:resource="#Sym_0001218_2245"/>
+  <hasSymptom rdf:resource="#Sym_0001218_2246"/>
+  <hasSymptom rdf:resource="#Sym_0001218_2247"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anti-GABA B encephalitis</rdfs:label>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anti-GABA B receptor encephalitis is an autoimmune limbic encephalitis caused by autoantibodies directed against inhibitory GABA_B receptors in the brain. Patients typically present with prominent temporal lobe seizures, acute memory deficits, and psychiatric changes. The condition is frequently paraneoplastic, strongly associated with small cell lung cancer, and management involves targeted oncological treatment and immunomodulatory therapy.</rdfs:comment>
+  <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI Master List 2026-10-08</ARI_DefSource>
+  <diseaseCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unconfirmed</diseaseCategory>
+  <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001218</ARI_ID>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anti-GABA-B receptor encephalitis</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anti-GABAB receptor encephalitis</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GABAB receptor antibody encephalitis</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anti-gamma-aminobutyric acid B receptor encephalitis</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GABA_B receptor encephalitis</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GABABR limbic encephalitis</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anti-GABAB-R encephalitis</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">paraneoplastic anti-GABAB receptor encephalitis</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">autoimmune encephalitis with anti-GABAB receptor antibodies</ARI_Synonym>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-12T12:36:26+00:00 | Leon Islas | Created: Anti-GABA B encephalitis. Source: ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 17. Name, MeSH terms as synonyms, definition, verdict, system and symptoms are taken from that row.</ARI_ChangeLog>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001218_2245">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Early intractable limbic seizures and temporal lobe status</rdfs:label>
+  <likelihood rdf:datatype="http://www.w3.org/2001/XMLSchema#string">90–100%</likelihood>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001218_2246">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Severe short-term memory loss / amnesia</rdfs:label>
+  <likelihood rdf:datatype="http://www.w3.org/2001/XMLSchema#string">80–90%</likelihood>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001218_2247">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Behavioral changes, confusion, and psychosis</rdfs:label>
+  <likelihood rdf:datatype="http://www.w3.org/2001/XMLSchema#string">60–70%</likelihood>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001219">
+  <rdf:type rdf:resource="#AutoimmuneDisease"/>
+  <targetsTissue rdf:resource="#Tissue_VascularSystem"/>
+  <hasSymptom rdf:resource="#Sym_0001219_2248"/>
+  <hasSymptom rdf:resource="#Sym_0001219_2249"/>
+  <hasSymptom rdf:resource="#Sym_0001219_2250"/>
+  <hasSymptom rdf:resource="#Sym_0001219_2251"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune aortitis (isolated, non-vasculitic)</rdfs:label>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune aortitis is an inflammatory condition of the aorta characterized by immune-mediated infiltration of the arterial wall that occurs in the absence of generalized systemic vasculitis. Chronic inflammation can weaken the structural integrity of the thoracic or abdominal aorta, predisposing patients to aneurysm formation, aortic insufficiency, or dissection. Corticosteroids and immunosuppressive agents are the mainstay of treatment to prevent vascular complications.</rdfs:comment>
+  <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI Master List 2026-10-08</ARI_DefSource>
+  <diseaseCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unconfirmed</diseaseCategory>
+  <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001219</ARI_ID>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune aortitis</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">clinically isolated aortitis</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">isolated aortitis</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">idiopathic aortitis</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">isolated idiopathic aortitis</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">isolated ascending aortitis</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">isolated thoracic aortitis</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">noninfectious aortitis</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">non-infectious ascending aortitis</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inflammatory aortitis without systemic vasculitis</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">idiopathic active aortitis</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">isolated noninfectious aortitis</ARI_Synonym>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-12T12:36:26+00:00 | Leon Islas | Created: Autoimmune aortitis (isolated, non-vasculitic). Source: ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 31. Name, MeSH terms as synonyms, definition, verdict, system and symptoms are taken from that row.</ARI_ChangeLog>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001219_2248">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ascending aortic aneurysm / root dilation on imaging</rdfs:label>
+  <likelihood rdf:datatype="http://www.w3.org/2001/XMLSchema#string">70–85%</likelihood>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001219_2249">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Severe aortic valve regurgitation</rdfs:label>
+  <likelihood rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40–55%</likelihood>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001219_2250">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Deep thoracic or back pain</rdfs:label>
+  <likelihood rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40–50%</likelihood>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001219_2251">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Asymptomatic presentation prior to dissection or rupture</rdfs:label>
+  <likelihood rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30–40%</likelihood>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001220">
+  <rdf:type rdf:resource="#AutoimmuneDisease"/>
+  <targetsTissue rdf:resource="#Tissue_DigestiveSystem"/>
+  <hasSymptom rdf:resource="#Sym_0001220_2252"/>
+  <hasSymptom rdf:resource="#Sym_0001220_2253"/>
+  <hasSymptom rdf:resource="#Sym_0001220_2254"/>
+  <hasSymptom rdf:resource="#Sym_0001220_2255"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune enteropathy</rdfs:label>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune enteropathy is an extremely rare disease characterized by diarrhea that does not respond to treatment and may require intravenous feeding to sustain the patient. It is diagnosed most frequently in infants and  is increasingly being diagnosed in adults, but the symptoms are the same as many more common diseases, so correct diagnosis is difficult.   It is more frequently diagnosed in patients already diagnosed with other autoimmune diseases such as APECED type 1.</rdfs:comment>
+  <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI Master List 2026-10-08</ARI_DefSource>
+  <diseaseCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune</diseaseCategory>
+  <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001220</ARI_ID>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-12T12:36:26+00:00 | Leon Islas | Created: Autoimmune enteropathy. Source: ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 39. Name, definition, verdict, system and symptoms are taken from that row.</ARI_ChangeLog>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001220_2252">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Severe, intractable, chronic secretory diarrhea persisting during fasting</rdfs:label>
+  <likelihood rdf:datatype="http://www.w3.org/2001/XMLSchema#string">95–100%</likelihood>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001220_2253">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Total villous atrophy on small intestinal biopsy</rdfs:label>
+  <likelihood rdf:datatype="http://www.w3.org/2001/XMLSchema#string">90–100%</likelihood>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001220_2254">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Severe malabsorption, cachexia, and involuntary weight loss</rdfs:label>
+  <likelihood rdf:datatype="http://www.w3.org/2001/XMLSchema#string">85–95%</likelihood>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001220_2255">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Protein-losing enteropathy with severe hypoalbuminemia and anasarca</rdfs:label>
+  <likelihood rdf:datatype="http://www.w3.org/2001/XMLSchema#string">60–75%</likelihood>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001221">
+  <rdf:type rdf:resource="#AutoimmuneDisease"/>
+  <targetsTissue rdf:resource="#Tissue_DigestiveSystem"/>
+  <hasSymptom rdf:resource="#Sym_0001221_2256"/>
+  <hasSymptom rdf:resource="#Sym_0001221_2257"/>
+  <hasSymptom rdf:resource="#Sym_0001221_2258"/>
+  <hasSymptom rdf:resource="#Sym_0001221_2259"/>
+  <hasSymptom rdf:resource="#Sym_0001221_2260"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune gastrointestinal dysmotility syndrome (Idiopathic esophageal achalasia with autoimmune features or Autoimmune achalasia)</rdfs:label>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune gastrointestinal dysmotility is a condition where autoantibodies or immune cells attack the enteric nervous system, impairing coordinated contractions throughout the digestive tract. Manifestations include severe dysphagia, delayed gastric emptying, pseudo-obstruction, or autoimmune achalasia of the esophagus. Therapy focuses on supportive nutritional interventions, prokinetic agents, and immunosuppressive medications to mitigate enteric nerve damage.</rdfs:comment>
+  <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI Master List 2026-10-08</ARI_DefSource>
+  <diseaseCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unconfirmed</diseaseCategory>
+  <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001221</ARI_ID>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AGID</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">autoimmune GI dysmotility</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gastrointestinal autoimmune dysmotility</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">autoimmune dysautonomia limited to the gut</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">autoimmune enteric neuropathy</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gastrointestinal autoimmune neuropathy</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">autoimmune achalasia</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">idiopathic achalasia with autoimmune features</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gut autoimmune enteric neuropathy</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GAIN</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">paraneoplastic gastrointestinal dysmotility</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">autoimmune gastrointestinal pseudo-obstruction</ARI_Synonym>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-12T12:36:26+00:00 | Leon Islas | Created: Autoimmune gastrointestinal dysmotility syndrome (Idiopathic esophageal achalasia with autoimmune features or Autoimmune achalasia). Source: ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 41. Name, MeSH terms as synonyms, definition, verdict, system and symptoms are taken from that row.</ARI_ChangeLog>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001221_2256">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Progressive dysphagia to both liquids and solids</rdfs:label>
+  <likelihood rdf:datatype="http://www.w3.org/2001/XMLSchema#string">90–100%</likelihood>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001221_2257">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regurgitation of undigested, retained food</rdfs:label>
+  <likelihood rdf:datatype="http://www.w3.org/2001/XMLSchema#string">75–85%</likelihood>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001221_2258">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Retrosternal crampy chest pain</rdfs:label>
+  <likelihood rdf:datatype="http://www.w3.org/2001/XMLSchema#string">50–65%</likelihood>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001221_2259">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Significant weight loss</rdfs:label>
+  <likelihood rdf:datatype="http://www.w3.org/2001/XMLSchema#string">50–60%</likelihood>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001221_2260">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nocturnal cough and pulmonary aspiration</rdfs:label>
+  <likelihood rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30–40%</likelihood>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001222">
+  <rdf:type rdf:resource="#AutoimmuneDisease"/>
+  <targetsTissue rdf:resource="#Tissue_NervousSystem"/>
+  <hasSymptom rdf:resource="#Sym_0001222_2261"/>
+  <hasSymptom rdf:resource="#Sym_0001222_2262"/>
+  <hasSymptom rdf:resource="#Sym_0001222_2263"/>
+  <hasSymptom rdf:resource="#Sym_0001222_2264"/>
+  <hasSymptom rdf:resource="#Sym_0001222_2265"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune GFAP astrocytopathy</rdfs:label>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune GFAP astrocytopathy is an inflammatory central nervous system condition defined by autoantibodies directed against glial fibrillary acidic protein in astrocytes. Patients often present with meningoencephalomyelitis, displaying fever, headache, cognitive changes, optic disc swelling, and ataxia, accompanied by distinctive perivascular enhancement on brain MRI. It typically shows excellent clinical response to corticosteroid therapy.</rdfs:comment>
+  <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI Master List 2026-10-08</ARI_DefSource>
+  <diseaseCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unconfirmed</diseaseCategory>
+  <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001222</ARI_ID>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GFAP astrocytopathy</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">autoimmune glial fibrillary acidic protein astrocytopathy</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GFAP-IgG astrocytopathy</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GFAP antibody-associated disease</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GFAP autoimmunity</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GFAP-IgG-associated meningoencephalomyelitis</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">autoimmune GFAP meningoencephalitis</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radial perivascular GFAP astrocytopathy</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glial fibrillary acidic protein antibody-associated encephalomyelitis</ARI_Synonym>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-12T12:36:26+00:00 | Leon Islas | Created: Autoimmune GFAP astrocytopathy. Source: ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 42. Name, MeSH terms as synonyms, definition, verdict, system and symptoms are taken from that row.</ARI_ChangeLog>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001222_2261">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meningoencephalitis symptoms: subacute fever, severe headache, and neck stiffness</rdfs:label>
+  <likelihood rdf:datatype="http://www.w3.org/2001/XMLSchema#string">75–85%</likelihood>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001222_2262">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Encephalopathy, confusion, and delirium</rdfs:label>
+  <likelihood rdf:datatype="http://www.w3.org/2001/XMLSchema#string">65–75%</likelihood>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001222_2263">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Myelopathy with spinal paraparesis and sensory deficit</rdfs:label>
+  <likelihood rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40–50%</likelihood>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001222_2264">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autonomic dysregulation and neurogenic bladder</rdfs:label>
+  <likelihood rdf:datatype="http://www.w3.org/2001/XMLSchema#string">35–45%</likelihood>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001222_2265">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Visual impairment / bilateral optic disc edema (papillitis)</rdfs:label>
+  <likelihood rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30–40%</likelihood>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001223">
+  <rdf:type rdf:resource="#AutoimmuneDisease"/>
+  <targetsTissue rdf:resource="#Tissue_Blood"/>
+  <hasSymptom rdf:resource="#Sym_0001223_2266"/>
+  <hasSymptom rdf:resource="#Sym_0001223_2267"/>
+  <hasSymptom rdf:resource="#Sym_0001223_2268"/>
+  <hasSymptom rdf:resource="#Sym_0001223_2269"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune hemophilia B (anti-factor IX antibody)</rdfs:label>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune hemophilia B is an acquired bleeding disorder where the immune system generates neutralizing autoantibodies against coagulation factor IX. The inactivation of factor IX disrupts the clotting cascade, resulting in spontaneous, severe hematomas and deep tissue hemorrhage in individuals without a personal history of bleeding disorders. Management involves bypassing agents to stop acute hemorrhage and immunosuppressive therapy to eliminate the inhibitor.</rdfs:comment>
+  <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI Master List 2026-10-08</ARI_DefSource>
+  <diseaseCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unconfirmed</diseaseCategory>
+  <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001223</ARI_ID>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune hemophilia B</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acquired hemophilia B</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acquired haemophilia B</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acquired factor IX deficiency</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acquired FIX deficiency</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acquired F9 deficiency</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">factor IX inhibitor</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anti-factor IX antibody bleeding disorder</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">autoimmune factor IX deficiency</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acquired coagulation factor IX inhibitor</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acquired anti-FIX hemophilia</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acquired hemophilia due to factor IX inhibitor</ARI_Synonym>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-12T12:36:26+00:00 | Leon Islas | Created: Autoimmune hemophilia B (anti-factor IX antibody). Source: ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 44. Name, MeSH terms as synonyms, definition, verdict, system and symptoms are taken from that row.</ARI_ChangeLog>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001223_2266">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spontaneous, extensive subcutaneous and soft-tissue hematomas</rdfs:label>
+  <likelihood rdf:datatype="http://www.w3.org/2001/XMLSchema#string">80–90%</likelihood>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001223_2267">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prolonged, unprovoked post-traumatic or post-surgical hemorrhage</rdfs:label>
+  <likelihood rdf:datatype="http://www.w3.org/2001/XMLSchema#string">70–85%</likelihood>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001223_2268">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mucocutaneous, hematuric, and gastrointestinal bleeding</rdfs:label>
+  <likelihood rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25–35%</likelihood>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001223_2269">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spontaneous hemarthrosis</rdfs:label>
+  <likelihood rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&lt;10%</likelihood>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001224">
+  <rdf:type rdf:resource="#AutoimmuneDisease"/>
+  <targetsTissue rdf:resource="#Tissue_NervousSystem"/>
+  <hasSymptom rdf:resource="#Sym_0001224_2270"/>
+  <hasSymptom rdf:resource="#Sym_0001224_2271"/>
+  <hasSymptom rdf:resource="#Sym_0001224_2272"/>
+  <hasSymptom rdf:resource="#Sym_0001224_2273"/>
+  <hasSymptom rdf:resource="#Sym_0001224_2274"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune nodopathies (anti-NF155, anti-CNTN1, anti-Caspr1, etc.)</rdfs:label>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune nodopathies are a group of antibody-mediated peripheral neuropathies where autoantibodies, commonly IgG4, target cell adhesion molecules like neurofascin-155, contactin-1, or Caspr1 at the nodes of Ranvier. This disrupts electrical signal transmission along nerve fibers, causing severe muscle weakness, sensory ataxia, and prominent tremors. Unlike classic demyelinating polyneuropathy, these disorders often respond better to B-cell depleting therapies like rituximab than IVIg.</rdfs:comment>
+  <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI Master List 2026-10-08</ARI_DefSource>
+  <diseaseCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unconfirmed</diseaseCategory>
+  <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001224</ARI_ID>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune nodopathy</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">autoimmune nodopathies</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nodo-paranodopathy</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">autoimmune nodo-paranodopathy</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">antibody-mediated nodo-paranodopathy</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">paranodopathy</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nodopathy</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">autoimmune peripheral neuropathy with nodal/paranodal antibodies</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anti-NF155 nodopathy</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anti-neurofascin-155 neuropathy</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anti-NF186 nodopathy</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pan-neurofascin nodopathy</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anti-CNTN1 nodopathy</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anti-contactin-1 neuropathy</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anti-Caspr1 nodopathy</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anti-CASPR1 neuropathy</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IgG4 nodopathy</ARI_Synonym>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-12T12:36:26+00:00 | Leon Islas | Created: Autoimmune nodopathies (anti-NF155, anti-CNTN1, anti-Caspr1, etc.). Source: ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 51. Name, MeSH terms as synonyms, definition, verdict, system and symptoms are taken from that row.</ARI_ChangeLog>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001224_2270">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rapidly progressive, symmetric sensorimotor polyradiculoneuropathy</rdfs:label>
+  <likelihood rdf:datatype="http://www.w3.org/2001/XMLSchema#string">85–95%</likelihood>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001224_2271">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Refractoriness to IVIG with high response rate to rituximab</rdfs:label>
+  <likelihood rdf:datatype="http://www.w3.org/2001/XMLSchema#string">80–90%</likelihood>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001224_2272">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Severe sensory ataxia with gait failure</rdfs:label>
+  <likelihood rdf:datatype="http://www.w3.org/2001/XMLSchema#string">60–75%</likelihood>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001224_2273">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Severe quadriparesis / motor disability</rdfs:label>
+  <likelihood rdf:datatype="http://www.w3.org/2001/XMLSchema#string">50–65%</likelihood>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001224_2274">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marked high-amplitude postural and action tremor</rdfs:label>
+  <likelihood rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40–50%</likelihood>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001225">
+  <rdf:type rdf:resource="#AutoimmuneDisease"/>
+  <targetsTissue rdf:resource="#Tissue_NervousSystem"/>
+  <hasSymptom rdf:resource="#Sym_0001225_2275"/>
+  <hasSymptom rdf:resource="#Sym_0001225_2276"/>
+  <hasSymptom rdf:resource="#Sym_0001225_2277"/>
+  <hasSymptom rdf:resource="#Sym_0001225_2278"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune peripheral neuropathy associated with nodal/paranodal antibodies</rdfs:label>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune peripheral neuropathy associated with nodal and paranodal antibodies is a specialized neuropathy subtype where autoantibodies attack proteins maintaining the axoglial junctions of peripheral nerves. Patients develop subacute to chronic motor and sensory deficits, marked limb weakness, and gait unsteadiness. Identification of specific nodal antibodies directs physicians toward tailored immunosuppressive options such as rituximab.</rdfs:comment>
+  <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI Master List 2026-10-08</ARI_DefSource>
+  <diseaseCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unconfirmed</diseaseCategory>
+  <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001225</ARI_ID>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">paranodal antibody neuropathy</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nodal antibody neuropathy</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CIDP with nodal/paranodal antibodies</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chronic inflammatory demyelinating polyradiculoneuropathy with nodal/paranodal antibodies</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anti-NF155 CIDP</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anti-CNTN1 CIDP</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anti-Caspr1 CIDP</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anti-neurofascin neuropathy</ARI_Synonym>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-12T12:36:26+00:00 | Leon Islas | Created: Autoimmune peripheral neuropathy associated with nodal/paranodal antibodies. Source: ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 55. Name, MeSH terms as synonyms, definition, verdict, system and symptoms are taken from that row. Synonyms shared with ARI:0001224 Autoimmune nodopathies (anti-NF155, anti-CNTN1, anti-Caspr1, etc.) stay on that entry only: autoimmune nodopathy; autoimmune nodopathies; antibody-mediated nodo-paranodopathy; nodo-paranodopathy; anti-contactin-1 neuropathy.</ARI_ChangeLog>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001225_2275">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Generalized areflexia</rdfs:label>
+  <likelihood rdf:datatype="http://www.w3.org/2001/XMLSchema#string">90–95%</likelihood>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001225_2276">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Subacute to acute severe symmetrical distal and proximal limb weakness</rdfs:label>
+  <likelihood rdf:datatype="http://www.w3.org/2001/XMLSchema#string">80–90%</likelihood>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001225_2277">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Severe proprioceptive sensory ataxia and positive Romberg sign</rdfs:label>
+  <likelihood rdf:datatype="http://www.w3.org/2001/XMLSchema#string">70–80%</likelihood>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001225_2278">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prominent action tremor of hands and arms</rdfs:label>
+  <likelihood rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40–55%</likelihood>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001226">
+  <rdf:type rdf:resource="#AutoimmuneDisease"/>
+  <targetsTissue rdf:resource="#Tissue_Blood"/>
+  <hasSymptom rdf:resource="#Sym_0001226_2279"/>
+  <hasSymptom rdf:resource="#Sym_0001226_2280"/>
+  <hasSymptom rdf:resource="#Sym_0001226_2281"/>
+  <hasSymptom rdf:resource="#Sym_0001226_2282"/>
+  <hasSymptom rdf:resource="#Sym_0001226_2283"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Immune-mediated thrombotic thrombocytopenic purpura (iTTP)</rdfs:label>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Immune-mediated thrombotic thrombocytopenic purpura is a life-threatening hematologic emergency caused by autoantibodies inhibiting the ADAMTS13 enzyme. Without functional ADAMTS13, ultra-large von Willebrand factor multimers accumulate and induce widespread microvascular blood clots, hemolytic anemia, and thrombocytopenia. Immediate treatment involves therapeutic plasma exchange, immunosuppressive therapy, and anti-vWF nanobodies.</rdfs:comment>
+  <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI Master List 2026-10-08</ARI_DefSource>
+  <diseaseCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unconfirmed</diseaseCategory>
+  <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001226</ARI_ID>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">iTTP</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immune TTP</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acquired TTP</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aTTP</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acquired thrombotic thrombocytopenic purpura</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">autoimmune thrombotic thrombocytopenic purpura</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anti-ADAMTS13 antibody-mediated TTP</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADAMTS13 inhibitor-associated TTP</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acquired severe ADAMTS13 deficiency</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immune-mediated TTP</ARI_Synonym>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-12T12:36:26+00:00 | Leon Islas | Created: Immune-mediated thrombotic thrombocytopenic purpura (iTTP). Source: ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 120. Name, MeSH terms as synonyms, definition, verdict, system and symptoms are taken from that row.</ARI_ChangeLog>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001226_2279">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microangiopathic hemolytic anemia with schistocytes on blood smear</rdfs:label>
+  <likelihood rdf:datatype="http://www.w3.org/2001/XMLSchema#string">95–100%</likelihood>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001226_2280">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Profound consumptive thrombocytopenia with purpura and bleeding</rdfs:label>
+  <likelihood rdf:datatype="http://www.w3.org/2001/XMLSchema#string">95–100%</likelihood>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001226_2281">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fluctuating neurological symptoms (confusion, transient focal deficits, seizure, coma)</rdfs:label>
+  <likelihood rdf:datatype="http://www.w3.org/2001/XMLSchema#string">60–70%</likelihood>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001226_2282">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Renal dysfunction (azotemia, proteinuria, hematuria)</rdfs:label>
+  <likelihood rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40–50%</likelihood>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001226_2283">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Low-grade fever</rdfs:label>
+  <likelihood rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25–35%</likelihood>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001227">
+  <rdf:type rdf:resource="#AutoimmuneDisease"/>
+  <targetsTissue rdf:resource="#Tissue_Glands"/>
+  <hasSymptom rdf:resource="#Sym_0001227_2284"/>
+  <hasSymptom rdf:resource="#Sym_0001227_2285"/>
+  <hasSymptom rdf:resource="#Sym_0001227_2286"/>
+  <hasSymptom rdf:resource="#Sym_0001227_2287"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Infertility associated with Antisperm Antibodies</rdfs:label>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Infertility associated with antisperm antibodies occurs when the immune system generates autoantibodies that target sperm antigens in either men or women. These antibodies coat sperm cells, impairing motility, causing agglutination, or blocking sperm-egg binding and fertilization. Treatment involves assisted reproductive technologies, such as intrauterine insemination or in vitro fertilization with intracytoplasmic sperm injection.</rdfs:comment>
+  <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI Master List 2026-10-08</ARI_DefSource>
+  <diseaseCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unconfirmed</diseaseCategory>
+  <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001227</ARI_ID>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmunity against spermatozoa</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Immunological infertility</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Immunoinfertility</ARI_Synonym>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-12T12:36:26+00:00 | Leon Islas | Created: Infertility associated with Antisperm Antibodies. Source: ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 125. Name, MeSH terms as synonyms, definition, verdict, system and symptoms are taken from that row.</ARI_ChangeLog>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001227_2284">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inability to conceive after ≥1 year of unprotected intercourse with normal evaluations</rdfs:label>
+  <likelihood rdf:datatype="http://www.w3.org/2001/XMLSchema#string">95–100%</likelihood>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001227_2285">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Failure of cervical mucus penetration on postcoital testing</rdfs:label>
+  <likelihood rdf:datatype="http://www.w3.org/2001/XMLSchema#string">70–85%</likelihood>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001227_2286">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spontaneous macroscopic or microscopic sperm agglutination in ejaculate</rdfs:label>
+  <likelihood rdf:datatype="http://www.w3.org/2001/XMLSchema#string">70–80%</likelihood>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001227_2287">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Markedly decreased progressive sperm forward motility</rdfs:label>
+  <likelihood rdf:datatype="http://www.w3.org/2001/XMLSchema#string">65–75%</likelihood>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001228">
+  <rdf:type rdf:resource="#AutoimmuneDisease"/>
+  <targetsTissue rdf:resource="#Tissue_NervousSystem"/>
+  <hasSymptom rdf:resource="#Sym_0001228_2288"/>
+  <hasSymptom rdf:resource="#Sym_0001228_2289"/>
+  <hasSymptom rdf:resource="#Sym_0001228_2290"/>
+  <hasSymptom rdf:resource="#Sym_0001228_2291"/>
+  <hasSymptom rdf:resource="#Sym_0001228_2292"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Klein Levin Syndrome</rdfs:label>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kleine-Levin syndrome is a rare neurological disorder characterized by recurring episodes of extreme hypersomnia accompanied by cognitive impairment, behavioral changes, and hyperphagia. While suspected immune and hypothalamic mechanisms have been proposed, clear autoantibody markers remain unconfirmed, and it is classified as an unconfirmed autoimmune condition. Management focuses on supportive care and mood-stabilizing medications during episodes.</rdfs:comment>
+  <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI Master List 2026-10-08</ARI_DefSource>
+  <diseaseCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unconfirmed</diseaseCategory>
+  <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001228</ARI_ID>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kleine-Levin syndrome</ARI_Synonym>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-12T12:36:26+00:00 | Leon Islas | Created: Klein Levin Syndrome. Source: ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 131. Name, definition, verdict, system and symptoms are taken from that row. Synonym Kleine-Levin syndrome is taken from the row's definition.</ARI_ChangeLog>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001228_2288">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Recurrent episodes of severe hypersomnia (sleeping 16–20 hours daily for days/weeks)</rdfs:label>
+  <likelihood rdf:datatype="http://www.w3.org/2001/XMLSchema#string">100%</likelihood>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001228_2289">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Completely normal cognition, sleep, and mood between distinct episodes</rdfs:label>
+  <likelihood rdf:datatype="http://www.w3.org/2001/XMLSchema#string">100%</likelihood>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001228_2290">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cognitive derealization, apathy, and altered perception</rdfs:label>
+  <likelihood rdf:datatype="http://www.w3.org/2001/XMLSchema#string">80–90%</likelihood>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001228_2291">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compulsive megaphagia / binge eating during episodes</rdfs:label>
+  <likelihood rdf:datatype="http://www.w3.org/2001/XMLSchema#string">70–80%</likelihood>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001228_2292">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hypersexuality and disinhibited behaviors</rdfs:label>
+  <likelihood rdf:datatype="http://www.w3.org/2001/XMLSchema#string">45–55%</likelihood>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001229">
+  <rdf:type rdf:resource="#AutoimmuneDisease"/>
+  <targetsTissue rdf:resource="#Tissue_Systemic"/>
+  <hasSymptom rdf:resource="#Sym_0001229_2293"/>
+  <hasSymptom rdf:resource="#Sym_0001229_2294"/>
+  <hasSymptom rdf:resource="#Sym_0001229_2295"/>
+  <hasSymptom rdf:resource="#Sym_0001229_2296"/>
+  <hasSymptom rdf:resource="#Sym_0001229_2297"/>
+  <hasSymptom rdf:resource="#Sym_0001229_2298"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">STAT3 gain-of-function disease</rdfs:label>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">STAT3 gain-of-function disease is a monogenic autoimmune disorder caused by activating mutations in the STAT3 gene, which leads to constitutive transcriptional activation and widespread immune dysregulation. Patients present in early childhood with multiorgan autoimmunity, including type 1 diabetes, autoimmune enteropathy, interstitial lung disease, and short stature. Targeted therapy with JAK inhibitors has shown promising efficacy.</rdfs:comment>
+  <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI Master List 2026-10-08</ARI_DefSource>
+  <diseaseCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unconfirmed</diseaseCategory>
+  <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001229</ARI_ID>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">STAT3 gain-of-function syndrome</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">STAT3 GOF syndrome</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">STAT3-GOF disease</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">germline STAT3 GOF disease</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">STAT3-associated immune dysregulation</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">early-onset multiorgan autoimmunity due to STAT3 GOF</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">early-onset lymphoproliferation and autoimmunity due to STAT3 gain-of-function mutations</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">monogenic early-onset lymphoproliferation and autoimmunity</ARI_Synonym>
+  <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infantile-onset multisystem autoimmune disease due to STAT3 GOF</ARI_Synonym>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-12T12:36:26+00:00 | Leon Islas | Created: STAT3 gain-of-function disease. Source: ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 200. Name, MeSH terms as synonyms, definition, verdict, system and symptoms are taken from that row.</ARI_ChangeLog>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001229_2293">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Early-onset multi-organ autoimmunity starting in infancy/childhood</rdfs:label>
+  <likelihood rdf:datatype="http://www.w3.org/2001/XMLSchema#string">100%</likelihood>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001229_2294">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune cytopenias (autoimmune thrombocytopenia, AIHA, neutropenia)</rdfs:label>
+  <likelihood rdf:datatype="http://www.w3.org/2001/XMLSchema#string">70–80%</likelihood>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001229_2295">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Postnatal growth failure and severe short stature</rdfs:label>
+  <likelihood rdf:datatype="http://www.w3.org/2001/XMLSchema#string">60–75%</likelihood>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001229_2296">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chronic lymphadenopathy and hepatosplenomegaly</rdfs:label>
+  <likelihood rdf:datatype="http://www.w3.org/2001/XMLSchema#string">50–60%</likelihood>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001229_2297">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Early-onset type 1 diabetes mellitus</rdfs:label>
+  <likelihood rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40–50%</likelihood>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Sym_0001229_2298">
+  <rdf:type rdf:resource="#Symptom"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Severe chronic autoimmune enteropathy with intractable diarrhea</rdfs:label>
+  <likelihood rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40–50%</likelihood>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
 
 </rdf:RDF>

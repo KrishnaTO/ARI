@@ -281,8 +281,10 @@ and concept scopes the local OMOP MeSH export lacks.
 ## 10. `10_Master_List_Comparison.xlsx` — Master List vs ARI, Column by Column
 
 Compares the `ALPHABETICAL` sheet of `data/1-master/ARI Master List - 2026-10-08.xlsx`
-(220 rows) with the 214 active diseases in `ontologies/ari_t1d.owl`, for ten columns.
-Built by `notebook/master-list-comparison/compare.py`:
+(220 rows, from Leon Islas) with the 227 active diseases in `ontologies/ari_t1d.owl`, for ten
+columns. The 13 sheet diseases ARI lacked were added from the sheet as `ARI:0001217`-`ARI:0001229`,
+so every sheet disease now has an ARI match. Built by
+`notebook/master-list-comparison/compare.py`:
 
 ```bash
 python notebook/master-list-comparison/compare.py "data/1-master/ARI Master List - 2026-10-08.xlsx" ontologies/ari_t1d.owl data/4-reports/10_Master_List_Comparison.xlsx
