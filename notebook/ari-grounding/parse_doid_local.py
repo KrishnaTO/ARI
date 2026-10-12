@@ -2,8 +2,8 @@
 Uses ElementTree (handles nested anonymous owl:Class correctly, unlike regex)."""
 import xml.etree.ElementTree as ET, json, os
 
-DOID = "/sessions/zen-keen-curie/mnt/ARI/data/2-databases/doid.owl"
-OUT = "/sessions/zen-keen-curie/mnt/ARI/notebook/ari-grounding/doid_records.json"
+DOID = "F:/1Projects/7Projects-Aurint/ARI/data/2-databases/doid.owl"
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "doid_records.json")
 
 NS = {
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",

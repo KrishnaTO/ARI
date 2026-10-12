@@ -9,10 +9,17 @@ Two prediction routes, both offline:
    cross-references into every other target database. Starting from an anchor
    (a curated `skos:exactMatch`, or a lexical match) the hub term that is or
    cross-references that anchor is located, and its own cross-references become
-   predictions for the remaining databases.
+   predictions for the remaining databases. An anchor shared by more than
+   `MAX_ANCHOR_HUBS` hub terms is too broad to expand.
 
 A candidate the curators already rejected for that disease and database is
-dropped — the rejection is the more recent judgement.
+dropped — the rejection is the more recent judgement. So is a candidate the
+curators confirmed for the disease's parent or subtype (`hasParentDisease`):
+a term that is exactly one of the pair cannot be exactly the other, unless
+the curators confirmed it for both. A hub term
+that is itself rejected or claimed that way is not expanded, since its
+cross-references are equivalents of a different disease. Rows marked superseded
+in `comment` are past judgements and are ignored.
 
 Writes notebook/ari-grounding/target_predictions.json:
   "<ARI ID>|<prefix>": [{"id", "name", "method", "evidence"}, ...]
@@ -24,6 +31,8 @@ import json
 import re
 from collections import defaultdict
 from pathlib import Path
+
+import ari_diseases
 
 REPO = Path(__file__).resolve().parents[2]
 DB = Path("F:/1Projects/7Projects-Aurint/ARI/data/2-databases")
@@ -42,10 +51,13 @@ DOID_XREF = {"UMLS_CUI": "umls", "MIM": "OMIM", "NCI": "ncit", "MESH": "mesh",
 # Only equivalence-grade Mondo cross-references are used; MEDGEN, hierarchy and
 # obsolete-side qualifiers are not equivalence claims.
 MONDO_EQUIV = ("MONDO:equivalentTo", "MONDO:exact")
+# Same marker the mapping validator uses for a judgement a later one reversed.
+SUPERSEDED_MARKER = "Superseded by the "
 
 # --- curated state -----------------------------------------------------------
 lines = [l for l in SSSOM.open(encoding="utf-8") if not l.startswith("#")]
-mappings = list(csv.DictReader(lines, delimiter="\t"))
+mappings = [m for m in csv.DictReader(lines, delimiter="\t")
+            if not m["comment"].startswith(SUPERSEDED_MARKER)]
 
 confirmed = defaultdict(list)     # ari_id -> [(prefix, local)]
 rejected = defaultdict(set)       # (ari_id, prefix) -> {local}
@@ -60,6 +72,21 @@ for m in mappings:
         rejected[(m["subject_id"], prefix)].add(local)
     else:
         confirmed[m["subject_id"]].append((prefix, local))
+
+# Parent and subtype diseases, both directions.
+related = defaultdict(set)        # ari_id -> {parent or subtype ari_id}
+for child, parent_ids in ari_diseases.parents().items():
+    for parent in parent_ids:
+        related[child].add(parent)
+        related[parent].add(child)
+# A term the disease confirmed itself is never claimed away by its relative.
+claimed = defaultdict(set)        # (ari_id, prefix) -> {local confirmed on a related disease}
+for ari_id, others in related.items():
+    own = set(confirmed.get(ari_id, []))
+    for other in others:
+        for prefix, local in confirmed.get(other, []):
+            if (prefix, local) not in own:
+                claimed[(ari_id, prefix)].add(local)
 
 # --- lexical anchors from the existing Gilda reports -------------------------
 lexical = defaultdict(dict)       # ari_id -> {prefix: (local, name, score, via)}
@@ -198,8 +225,13 @@ with (DB / "snomed" / "CONCEPT.csv").open(encoding="utf-8", newline="") as fh:
 predictions = defaultdict(dict)          # (ari_id, prefix) -> {local: candidate}
 
 
+def excluded(ari_id, prefix, local):
+    """Rejected for this disease, or confirmed for its parent or subtype."""
+    return local in rejected.get((ari_id, prefix), ()) or local in claimed.get((ari_id, prefix), ())
+
+
 def add(ari_id, prefix, local, name, method, evidence, weight):
-    if not local or local in rejected.get((ari_id, prefix), ()):
+    if not local or excluded(ari_id, prefix, local):
         return
     # A retired or non-standard SNOMED concept is not a usable prediction; the
     # ontologies still carry xrefs to codes SNOMED has since deprecated.
@@ -223,6 +255,10 @@ def add(ari_id, prefix, local, name, method, evidence, weight):
 
 ORDER = {"xref via curated anchor": 0, "lexical grounding": 1, "xref via lexical anchor": 2}
 ANCHOR_WEIGHT = {"curated": 2, "lexical": 1}
+# An anchor cross-referenced by more hub terms than this is broader than the
+# disease, so it is not expanded. ICD-10 E10 is an xref of 22 hubs (every DOID
+# type 1 diabetes subtype); every other curated or lexical anchor reaches 1-4.
+MAX_ANCHOR_HUBS = 4
 
 for ari_id in sorted(set(confirmed) | set(lexical)):
     anchors = []                                   # (prefix, local, grade, evidence)
@@ -239,7 +275,10 @@ for ari_id in sorted(set(confirmed) | set(lexical)):
     hub_grade = {}
     hub_evidence = {}
     for prefix, local, grade, evidence in anchors:
-        for hub in sorted(xref_to_hub.get((prefix, local), ())):
+        hubs = xref_to_hub.get((prefix, local), ())
+        if len(hubs) > MAX_ANCHOR_HUBS:
+            continue
+        for hub in sorted(hubs):
             hub_score[hub] += ANCHOR_WEIGHT[grade]
             if grade == "curated" or hub not in hub_grade:
                 if hub_grade.get(hub) != "curated":
@@ -257,6 +296,8 @@ for ari_id in sorted(set(confirmed) | set(lexical)):
         method = "xref via curated anchor" if grade == "curated" else "xref via lexical anchor"
         evidence = hub_evidence[hub]
         hub_prefix, hub_local = hub.split(":", 1)
+        if excluded(ari_id, hub_prefix, hub_local):
+            continue
         add(ari_id, hub_prefix, hub_local, hub_name.get(hub), method,
             "%s from %s" % (hub, evidence), score)
         for out_prefix, locals_ in sorted(hub_xrefs.get(hub, {}).items()):
