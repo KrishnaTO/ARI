@@ -1,5 +1,33 @@
 # Changelog
 
+## chore/retire-app-branch
+
+**This repository was still telling agents to send app work into it.** `.claude/CLAUDE.md` — which
+is gitignored, so it steered every local session while being invisible to the `aaronabend` fork —
+read: *"Main branch for updates to app is feature/metadata-manager_v2/ARI, create feature branches
+from this branch and feed PRs into this branch."* That branch held a 41-file pre-split copy of the
+editor app and was **230 commits behind `main`**. The instruction had already cost real work: PR #57
+retired ICD-9 into that branch, reached nothing, and needed a separate `port-icd9-retirement-to-main`
+commit to recover.
+
+- **`feature/metadata-manager_v2/ARI` is retired.** Tagged `archive/metadata-manager-v2` at its
+  remote tip (`38690f0`) first, matching the existing `archive/lightsail-github-editor` convention,
+  so the history stays reachable at no cost. The local branch was 15 commits behind the remote and
+  0 ahead, so deleting it lost nothing.
+- **A committed root `CLAUDE.md` replaces the gitignored one.** Guidance that governs how the
+  repository is worked on should be reviewable and shared, not a local file only one machine sees.
+  It states the ownership contract in one sentence — *if a curator's decision changes it, it belongs
+  here; if a code change changes it, it belongs to the app* — with the table that settles the
+  contested files, and it carries the worktree, branch, PR and changelog conventions this repository
+  had no written equivalent of.
+- It also records the coupling behind the August `comment`-column break (fixed on `main` in
+  `80e3395`): `SSSOM_COLUMNS` here and `SSSOM_COLS` in the app's `app/sssom_service.py` must agree,
+  or every curator publish fails the header check.
+
+Done by hand on 2026-10-12: both `archive/*` tags pushed to `origin` and
+`feature/metadata-manager_v2/ARI` deleted there; the gitignored `.claude/CLAUDE.md` is gone.
+**Still to do:** ask `aaronabend` to drop their fork's copy of the branch.
+
 ## claude/prevalence-data-display-31437d
 
 Lands #125 (below) on `main`. #125 merged into #124's branch after #124 had already merged,
