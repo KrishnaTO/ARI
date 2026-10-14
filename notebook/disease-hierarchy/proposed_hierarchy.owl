@@ -1,0 +1,2743 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xml:base="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy"
+         xmlns="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#">
+
+<owl:Ontology rdf:about="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy">
+    <rdfs:comment>Proposed parent links between ARI diseases for ARI#137 and ARI#138, generated from notebook/disease-hierarchy/proposed_parents.tsv for viewing. Not the record: ontologies/ari_t1d.owl is.</rdfs:comment>
+</owl:Ontology>
+
+<owl:AnnotationProperty rdf:about="#ariId"/>
+<owl:AnnotationProperty rdf:about="#relation"/>
+<owl:AnnotationProperty rdf:about="#confidence"/>
+<owl:AnnotationProperty rdf:about="#reason"/>
+<owl:ObjectProperty rdf:about="#hasComponent">
+    <rdfs:label>has component</rdfs:label>
+</owl:ObjectProperty>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease">
+    <rdfs:label>ARI disease</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#CombinationDisease">
+    <rdfs:label>Combination disease</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+    <rdfs:comment>Diseases defined by two or more listed diseases occurring together (ARI#138).</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001001">
+    <rdfs:label>Acquired epidermolysis bullosa</rdfs:label>
+    <ariId>ARI:0001001</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001002">
+    <rdfs:label>Acquired hemophilia</rdfs:label>
+    <ariId>ARI:0001002</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001003">
+    <rdfs:label>Acute disseminated encephalomyelitis</rdfs:label>
+    <ariId>ARI:0001003</ariId>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001028"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001004">
+    <rdfs:label>Acute febrile mucocutaneous lymph node syndrome</rdfs:label>
+    <ariId>ARI:0001004</ariId>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001051"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001005">
+    <rdfs:label>Acute lichenoid pityriasis</rdfs:label>
+    <ariId>ARI:0001005</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001006">
+    <rdfs:label>Addison's disease</rdfs:label>
+    <ariId>ARI:0001006</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001007">
+    <rdfs:label>Adult-onset immunodeficiency due to anti-IFN-gamma autoantibodies</rdfs:label>
+    <ariId>ARI:0001007</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001008">
+    <rdfs:label>Adult onset Still's disease</rdfs:label>
+    <ariId>ARI:0001008</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001009">
+    <rdfs:label>Age related macular degeneration</rdfs:label>
+    <ariId>ARI:0001009</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001010">
+    <rdfs:label>Alopecia areata</rdfs:label>
+    <ariId>ARI:0001010</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001011">
+    <rdfs:label>Angiofollicular lymph node hyperplasia</rdfs:label>
+    <ariId>ARI:0001011</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001012">
+    <rdfs:label>Ankylosing spondylitis</rdfs:label>
+    <ariId>ARI:0001012</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001013">
+    <rdfs:label>Anti-CASPR2 autoimmune encephalitis</rdfs:label>
+    <ariId>ARI:0001013</ariId>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001028"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001014">
+    <rdfs:label>Anti-glomerular basement membrane disease</rdfs:label>
+    <ariId>ARI:0001014</ariId>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001051"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001015">
+    <rdfs:label>Anti-MAG neuropathy</rdfs:label>
+    <ariId>ARI:0001015</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001016">
+    <rdfs:label>Anti-MDA5 amyopathic dermatomyositis with rapidly progressive ILD</rdfs:label>
+    <ariId>ARI:0001016</ariId>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001079"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#CombinationDisease"/>
+    <rdfs:subClassOf rdf:nodeID="c_0001016_0001116"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001017">
+    <rdfs:label>Antineutrophil cytoplasmic antibody positive vasculitis</rdfs:label>
+    <ariId>ARI:0001017</ariId>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001051"/>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001140"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001018">
+    <rdfs:label>Antiphospholipid syndrome</rdfs:label>
+    <ariId>ARI:0001018</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001019">
+    <rdfs:label>Antisynthetase syndrome</rdfs:label>
+    <ariId>ARI:0001019</ariId>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001139"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#CombinationDisease"/>
+    <rdfs:subClassOf rdf:nodeID="c_0001019_0001139"/>
+    <rdfs:subClassOf rdf:nodeID="c_0001019_0001116"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001020">
+    <rdfs:label>Aortic valve calcification</rdfs:label>
+    <ariId>ARI:0001020</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001021">
+    <rdfs:label>Aplastic anemia</rdfs:label>
+    <ariId>ARI:0001021</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001022">
+    <rdfs:label>Atypical hemolytic uremic syndrome with anti-factor H autoantibodies</rdfs:label>
+    <ariId>ARI:0001022</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001023">
+    <rdfs:label>Autoimmune angioedema</rdfs:label>
+    <ariId>ARI:0001023</ariId>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001050"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001024">
+    <rdfs:label>Autoimmune cerebellar ataxia</rdfs:label>
+    <ariId>ARI:0001024</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001025">
+    <rdfs:label>Autoimmune diabetes insipidus (neurogenic)</rdfs:label>
+    <ariId>ARI:0001025</ariId>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001035"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001027">
+    <rdfs:label>Autoimmune disorder of inner ear</rdfs:label>
+    <ariId>ARI:0001027</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001028">
+    <rdfs:label>Autoimmune encephalitis</rdfs:label>
+    <ariId>ARI:0001028</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001029">
+    <rdfs:label>Autoimmune encephalitis caused by N-methyl D-aspartate receptor antibody</rdfs:label>
+    <ariId>ARI:0001029</ariId>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001028"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001030">
+    <rdfs:label>Autoimmune ganglionopathy</rdfs:label>
+    <ariId>ARI:0001030</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001031">
+    <rdfs:label>Autoimmune gastritis</rdfs:label>
+    <ariId>ARI:0001031</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001032">
+    <rdfs:label>Autoimmune hemolytic anemia</rdfs:label>
+    <ariId>ARI:0001032</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001033">
+    <rdfs:label>Autoimmune hepatitis</rdfs:label>
+    <ariId>ARI:0001033</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001034">
+    <rdfs:label>Autoimmune hypoparathyroidism</rdfs:label>
+    <ariId>ARI:0001034</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001035">
+    <rdfs:label>Autoimmune hypophysitis</rdfs:label>
+    <ariId>ARI:0001035</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001036">
+    <rdfs:label>Autoimmune-Inflammatory Syndrome Induced by Adjuvants</rdfs:label>
+    <ariId>ARI:0001036</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001037">
+    <rdfs:label>Autoimmune limbic encephalitis</rdfs:label>
+    <ariId>ARI:0001037</ariId>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001028"/>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001121"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001038">
+    <rdfs:label>Autoimmune lymphoproliferative syndrome</rdfs:label>
+    <ariId>ARI:0001038</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001039">
+    <rdfs:label>Autoimmune necrotizing myopathy</rdfs:label>
+    <ariId>ARI:0001039</ariId>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001139"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001040">
+    <rdfs:label>Autoimmune neutropenia</rdfs:label>
+    <ariId>ARI:0001040</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001041">
+    <rdfs:label>Autoimmune oophoritis</rdfs:label>
+    <ariId>ARI:0001041</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001042">
+    <rdfs:label>Autoimmune optic neuropathy</rdfs:label>
+    <ariId>ARI:0001042</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001043">
+    <rdfs:label>Autoimmune pancreatitis</rdfs:label>
+    <ariId>ARI:0001043</ariId>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001109"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001044">
+    <rdfs:label>Autoimmune progesterone dermatitis</rdfs:label>
+    <ariId>ARI:0001044</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001045">
+    <rdfs:label>Autoimmune pulmonary alveolar proteinosis</rdfs:label>
+    <ariId>ARI:0001045</ariId>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001116"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001046">
+    <rdfs:label>Autoimmune retinal vasculitis</rdfs:label>
+    <ariId>ARI:0001046</ariId>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001051"/>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001208"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001047">
+    <rdfs:label>Autoimmune retinopathy</rdfs:label>
+    <ariId>ARI:0001047</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001048">
+    <rdfs:label>Autoimmune thyroiditis</rdfs:label>
+    <ariId>ARI:0001048</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001049">
+    <rdfs:label>Autoimmune urticaria</rdfs:label>
+    <ariId>ARI:0001049</ariId>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001050"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001050">
+    <rdfs:label>Autoimmune urticaria and/or angioedema</rdfs:label>
+    <ariId>ARI:0001050</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001051">
+    <rdfs:label>Autoimmune vasculitis</rdfs:label>
+    <ariId>ARI:0001051</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001052">
+    <rdfs:label>Balo concentric sclerosis</rdfs:label>
+    <ariId>ARI:0001052</ariId>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001135"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001053">
+    <rdfs:label>Behçet's syndrome</rdfs:label>
+    <ariId>ARI:0001053</ariId>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001051"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001054">
+    <rdfs:label>Benign mucous membrane pemphigoid</rdfs:label>
+    <ariId>ARI:0001054</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001055">
+    <rdfs:label>Bickerstaff's brainstem encephalitis</rdfs:label>
+    <ariId>ARI:0001055</ariId>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001028"/>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001097"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001056">
+    <rdfs:label>Birdshot chorioretinopathy</rdfs:label>
+    <ariId>ARI:0001056</ariId>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001208"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001057">
+    <rdfs:label>Bullous pemphigoid</rdfs:label>
+    <ariId>ARI:0001057</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001058">
+    <rdfs:label>Bullous systemic lupus erythematosus</rdfs:label>
+    <ariId>ARI:0001058</ariId>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001196"/>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001076"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001059">
+    <rdfs:label>Calcinosis due to childhood type dermatomyositis</rdfs:label>
+    <ariId>ARI:0001059</ariId>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001079"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001060">
+    <rdfs:label>Cataplexy and narcolepsy</rdfs:label>
+    <ariId>ARI:0001060</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001061">
+    <rdfs:label>Celiac disease</rdfs:label>
+    <ariId>ARI:0001061</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001062">
+    <rdfs:label>Chronic Fatigue Syndrome</rdfs:label>
+    <ariId>ARI:0001062</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001063">
+    <rdfs:label>Chronic inflammatory demyelinating polyradiculoneuropathy</rdfs:label>
+    <ariId>ARI:0001063</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001064">
+    <rdfs:label>Chronic interstitial cystitis</rdfs:label>
+    <ariId>ARI:0001064</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001065">
+    <rdfs:label>Chronic Lyme disease</rdfs:label>
+    <ariId>ARI:0001065</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001066">
+    <rdfs:label>Chronic multifocal osteomyelitis</rdfs:label>
+    <ariId>ARI:0001066</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001067">
+    <rdfs:label>Chronic post-COVID-19 syndrome</rdfs:label>
+    <ariId>ARI:0001067</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001068">
+    <rdfs:label>Cogan's syndrome</rdfs:label>
+    <ariId>ARI:0001068</ariId>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001051"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#CombinationDisease"/>
+    <rdfs:subClassOf rdf:nodeID="c_0001068_0001027"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001069">
+    <rdfs:label>Cold agglutinin disease</rdfs:label>
+    <ariId>ARI:0001069</ariId>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001032"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001070">
+    <rdfs:label>Combined immunodeficiency due to LRBA deficiency</rdfs:label>
+    <ariId>ARI:0001070</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#CombinationDisease"/>
+    <rdfs:subClassOf rdf:nodeID="c_0001070_0001220"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001071">
+    <rdfs:label>Complex regional pain syndrome</rdfs:label>
+    <ariId>ARI:0001071</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001072">
+    <rdfs:label>COPA syndrome</rdfs:label>
+    <ariId>ARI:0001072</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#CombinationDisease"/>
+    <rdfs:subClassOf rdf:nodeID="c_0001072_0001116"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001073">
+    <rdfs:label>Crohn's disease</rdfs:label>
+    <ariId>ARI:0001073</ariId>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001112"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001074">
+    <rdfs:label>Cryptogenic organizing pneumonia</rdfs:label>
+    <ariId>ARI:0001074</ariId>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001116"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001075">
+    <rdfs:label>CTLA4 haploinsufficiency</rdfs:label>
+    <ariId>ARI:0001075</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001076">
+    <rdfs:label>Cutaneous lupus erythematosus</rdfs:label>
+    <ariId>ARI:0001076</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001077">
+    <rdfs:label>Cutaneous mastocytosis</rdfs:label>
+    <ariId>ARI:0001077</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001078">
+    <rdfs:label>Dermatitis herpetiformis</rdfs:label>
+    <ariId>ARI:0001078</ariId>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001061"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001079">
+    <rdfs:label>Dermatomyositis</rdfs:label>
+    <ariId>ARI:0001079</ariId>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001139"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001080">
+    <rdfs:label>Type 1 diabetes mellitus</rdfs:label>
+    <ariId>ARI:0001080</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001081">
+    <rdfs:label>Eaton-Lambert syndrome</rdfs:label>
+    <ariId>ARI:0001081</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001082">
+    <rdfs:label>Encephalitis caused by anti-gamma-aminobutyric acid-A receptor antibody</rdfs:label>
+    <ariId>ARI:0001082</ariId>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001028"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001083">
+    <rdfs:label>Encephalopathy caused by anti-IgLON5 antibody</rdfs:label>
+    <ariId>ARI:0001083</ariId>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001028"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001084">
+    <rdfs:label>Endometriosis</rdfs:label>
+    <ariId>ARI:0001084</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001085">
+    <rdfs:label>Enthesitis</rdfs:label>
+    <ariId>ARI:0001085</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001086">
+    <rdfs:label>Eosinophilic esophagitis</rdfs:label>
+    <ariId>ARI:0001086</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001087">
+    <rdfs:label>Epilepsy</rdfs:label>
+    <ariId>ARI:0001087</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001088">
+    <rdfs:label>Episcleritis</rdfs:label>
+    <ariId>ARI:0001088</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001089">
+    <rdfs:label>Erythema nodosum</rdfs:label>
+    <ariId>ARI:0001089</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001090">
+    <rdfs:label>Essential mixed cryoglobulinemia</rdfs:label>
+    <ariId>ARI:0001090</ariId>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001051"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001091">
+    <rdfs:label>Evans syndrome</rdfs:label>
+    <ariId>ARI:0001091</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#CombinationDisease"/>
+    <rdfs:subClassOf rdf:nodeID="c_0001091_0001032"/>
+    <rdfs:subClassOf rdf:nodeID="c_0001091_0001107"/>
+    <rdfs:subClassOf rdf:nodeID="c_0001091_0001040"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001092">
+    <rdfs:label>Fasciitis with eosinophilia syndrome</rdfs:label>
+    <ariId>ARI:0001092</ariId>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001132"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001093">
+    <rdfs:label>Felty syndrome</rdfs:label>
+    <ariId>ARI:0001093</ariId>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001184"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#CombinationDisease"/>
+    <rdfs:subClassOf rdf:nodeID="c_0001093_0001184"/>
+    <rdfs:subClassOf rdf:nodeID="c_0001093_0001040"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001094">
+    <rdfs:label>Female infertility due to antisperm antibodies</rdfs:label>
+    <ariId>ARI:0001094</ariId>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001227"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001095">
+    <rdfs:label>Fibromyalgia</rdfs:label>
+    <ariId>ARI:0001095</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001096">
+    <rdfs:label>Graves' disease</rdfs:label>
+    <ariId>ARI:0001096</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001097">
+    <rdfs:label>Guillain-Barré syndrome</rdfs:label>
+    <ariId>ARI:0001097</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001098">
+    <rdfs:label>Hemophilia B Leyden</rdfs:label>
+    <ariId>ARI:0001098</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001099">
+    <rdfs:label>Herpes gestationis</rdfs:label>
+    <ariId>ARI:0001099</ariId>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001057"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001100">
+    <rdfs:label>Hidradenitis suppurativa</rdfs:label>
+    <ariId>ARI:0001100</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001101">
+    <rdfs:label>Hypersensitivity angiitis</rdfs:label>
+    <ariId>ARI:0001101</ariId>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001051"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001102">
+    <rdfs:label>Idiopathic membranous glomerulonephritis</rdfs:label>
+    <ariId>ARI:0001102</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001103">
+    <rdfs:label>Idiopathic pulmonary fibrosis</rdfs:label>
+    <ariId>ARI:0001103</ariId>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001116"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001104">
+    <rdfs:label>IgA nephropathy</rdfs:label>
+    <ariId>ARI:0001104</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001105">
+    <rdfs:label>Immune checkpoint inhibitor-induced autoimmunity</rdfs:label>
+    <ariId>ARI:0001105</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001106">
+    <rdfs:label>Immune Dysregulation, Polyendocrinopathy, Enteropathy, X-Linked Syndrome</rdfs:label>
+    <ariId>ARI:0001106</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#CombinationDisease"/>
+    <rdfs:subClassOf rdf:nodeID="c_0001106_0001220"/>
+    <rdfs:subClassOf rdf:nodeID="c_0001106_0001080"/>
+    <rdfs:subClassOf rdf:nodeID="c_0001106_0001048"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001107">
+    <rdfs:label>Immune thrombocytopenia</rdfs:label>
+    <ariId>ARI:0001107</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001108">
+    <rdfs:label>Immunoglobulin A vasculitis</rdfs:label>
+    <ariId>ARI:0001108</ariId>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001051"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001109">
+    <rdfs:label>Immunoglobulin G4 related disease</rdfs:label>
+    <ariId>ARI:0001109</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001110">
+    <rdfs:label>Immunoglobulin G4 related ophthalmic disease</rdfs:label>
+    <ariId>ARI:0001110</ariId>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001109"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001111">
+    <rdfs:label>Inclusion body myositis</rdfs:label>
+    <ariId>ARI:0001111</ariId>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001139"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001112">
+    <rdfs:label>Inflammatory Bowel Disease</rdfs:label>
+    <ariId>ARI:0001112</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001113">
+    <rdfs:label>Insulin autoimmune syndrome</rdfs:label>
+    <ariId>ARI:0001113</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001114">
+    <rdfs:label>Insulin resistance - type B</rdfs:label>
+    <ariId>ARI:0001114</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001115">
+    <rdfs:label>Intermediate uveitis</rdfs:label>
+    <ariId>ARI:0001115</ariId>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001208"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001116">
+    <rdfs:label>Interstitial lung disease</rdfs:label>
+    <ariId>ARI:0001116</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001117">
+    <rdfs:label>Juvenile Rheumatoid Arthritis</rdfs:label>
+    <ariId>ARI:0001117</ariId>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001184"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001118">
+    <rdfs:label>Lichen planus</rdfs:label>
+    <ariId>ARI:0001118</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001119">
+    <rdfs:label>Lichen sclerosus</rdfs:label>
+    <ariId>ARI:0001119</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001120">
+    <rdfs:label>Ligneous conjunctivitis</rdfs:label>
+    <ariId>ARI:0001120</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001121">
+    <rdfs:label>Limbic encephalitis</rdfs:label>
+    <ariId>ARI:0001121</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001122">
+    <rdfs:label>Limbic encephalitis with dipeptidyl-peptidase 6 antibodies</rdfs:label>
+    <ariId>ARI:0001122</ariId>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001028"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001123">
+    <rdfs:label>Limbic encephalitis with leucine-rich glioma-inactivated 1 antibodies</rdfs:label>
+    <ariId>ARI:0001123</ariId>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001037"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001124">
+    <rdfs:label>Linear IgA dermatosis</rdfs:label>
+    <ariId>ARI:0001124</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001125">
+    <rdfs:label>Lipomatosis dolorosa</rdfs:label>
+    <ariId>ARI:0001125</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001126">
+    <rdfs:label>Lupus vasculitis</rdfs:label>
+    <ariId>ARI:0001126</ariId>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001051"/>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001196"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001127">
+    <rdfs:label>Male infertility associated with antisperm antibodies</rdfs:label>
+    <ariId>ARI:0001127</ariId>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001227"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001128">
+    <rdfs:label>Microscopic colitis</rdfs:label>
+    <ariId>ARI:0001128</ariId>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001112"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001129">
+    <rdfs:label>Microscopic polyangiitis</rdfs:label>
+    <ariId>ARI:0001129</ariId>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001017"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001130">
+    <rdfs:label>Mixed collagen vascular disease</rdfs:label>
+    <ariId>ARI:0001130</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#CombinationDisease"/>
+    <rdfs:subClassOf rdf:nodeID="c_0001130_0001196"/>
+    <rdfs:subClassOf rdf:nodeID="c_0001130_0001198"/>
+    <rdfs:subClassOf rdf:nodeID="c_0001130_0001162"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001131">
+    <rdfs:label>Mooren's ulcer</rdfs:label>
+    <ariId>ARI:0001131</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001132">
+    <rdfs:label>Morphea</rdfs:label>
+    <ariId>ARI:0001132</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001133">
+    <rdfs:label>Motor neuropathy with multiple conduction block</rdfs:label>
+    <ariId>ARI:0001133</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001134">
+    <rdfs:label>Moyamoya disease</rdfs:label>
+    <ariId>ARI:0001134</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001135">
+    <rdfs:label>Multiple sclerosis</rdfs:label>
+    <ariId>ARI:0001135</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001136">
+    <rdfs:label>Myasthenia gravis</rdfs:label>
+    <ariId>ARI:0001136</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001137">
+    <rdfs:label>Myelin oligodendrocyte glycoprotein antibody-associated disease</rdfs:label>
+    <ariId>ARI:0001137</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001138">
+    <rdfs:label>Myocarditis due to autoimmune disease</rdfs:label>
+    <ariId>ARI:0001138</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001139">
+    <rdfs:label>Myositis</rdfs:label>
+    <ariId>ARI:0001139</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001140">
+    <rdfs:label>Necrotizing vasculitis</rdfs:label>
+    <ariId>ARI:0001140</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001141">
+    <rdfs:label>Neonatal lupus erythematosus</rdfs:label>
+    <ariId>ARI:0001141</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001142">
+    <rdfs:label>Neuralgic amyotrophy</rdfs:label>
+    <ariId>ARI:0001142</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001143">
+    <rdfs:label>Neuromyelitis optica</rdfs:label>
+    <ariId>ARI:0001143</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001144">
+    <rdfs:label>Neuromyotonia</rdfs:label>
+    <ariId>ARI:0001144</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001145">
+    <rdfs:label>Ocular myasthenia gravis</rdfs:label>
+    <ariId>ARI:0001145</ariId>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001136"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001146">
+    <rdfs:label>Ophthalmoplegia due to Graves' disease</rdfs:label>
+    <ariId>ARI:0001146</ariId>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001096"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001147">
+    <rdfs:label>Opsoclonus-myoclonus syndrome</rdfs:label>
+    <ariId>ARI:0001147</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001148">
+    <rdfs:label>Palindromic rheumatism</rdfs:label>
+    <ariId>ARI:0001148</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001149">
+    <rdfs:label>Paraneoplastic cerebellar degeneration</rdfs:label>
+    <ariId>ARI:0001149</ariId>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001024"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001150">
+    <rdfs:label>Paraneoplastic pemphigus</rdfs:label>
+    <ariId>ARI:0001150</ariId>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001154"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001151">
+    <rdfs:label>Paroxysmal cold hemoglobinuria</rdfs:label>
+    <ariId>ARI:0001151</ariId>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001032"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001152">
+    <rdfs:label>Paroxysmal nocturnal hemoglobinuria</rdfs:label>
+    <ariId>ARI:0001152</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001153">
+    <rdfs:label>Pediatric autoimmune neuropsychiatric disorder associated with streptococcal infection</rdfs:label>
+    <ariId>ARI:0001153</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001154">
+    <rdfs:label>Pemphigus</rdfs:label>
+    <ariId>ARI:0001154</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001155">
+    <rdfs:label>POEMS syndrome</rdfs:label>
+    <ariId>ARI:0001155</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001156">
+    <rdfs:label>Polyarteritis nodosa</rdfs:label>
+    <ariId>ARI:0001156</ariId>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001051"/>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001140"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001157">
+    <rdfs:label>Polyglandular autoimmune syndrome type 1</rdfs:label>
+    <ariId>ARI:0001157</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#CombinationDisease"/>
+    <rdfs:subClassOf rdf:nodeID="c_0001157_0001006"/>
+    <rdfs:subClassOf rdf:nodeID="c_0001157_0001034"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001158">
+    <rdfs:label>Polyglandular autoimmune syndrome type 2</rdfs:label>
+    <ariId>ARI:0001158</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#CombinationDisease"/>
+    <rdfs:subClassOf rdf:nodeID="c_0001158_0001006"/>
+    <rdfs:subClassOf rdf:nodeID="c_0001158_0001048"/>
+    <rdfs:subClassOf rdf:nodeID="c_0001158_0001080"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001159">
+    <rdfs:label>Polyglandular autoimmune syndrome type 3</rdfs:label>
+    <ariId>ARI:0001159</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#CombinationDisease"/>
+    <rdfs:subClassOf rdf:nodeID="c_0001159_0001048"/>
+    <rdfs:subClassOf rdf:nodeID="c_0001159_0001096"/>
+    <rdfs:subClassOf rdf:nodeID="c_0001159_0001080"/>
+    <rdfs:subClassOf rdf:nodeID="c_0001159_0001031"/>
+    <rdfs:subClassOf rdf:nodeID="c_0001159_0001209"/>
+    <rdfs:subClassOf rdf:nodeID="c_0001159_0001010"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001160">
+    <rdfs:label>Polyglandular autoimmune syndrome type 4</rdfs:label>
+    <ariId>ARI:0001160</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#CombinationDisease"/>
+    <rdfs:subClassOf rdf:nodeID="c_0001160_0001006"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001161">
+    <rdfs:label>Polymyalgia rheumatica</rdfs:label>
+    <ariId>ARI:0001161</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001162">
+    <rdfs:label>Polymyositis</rdfs:label>
+    <ariId>ARI:0001162</ariId>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001139"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001163">
+    <rdfs:label>Postmyocardial infarction syndrome</rdfs:label>
+    <ariId>ARI:0001163</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001164">
+    <rdfs:label>Postural orthostatic tachycardia syndrome</rdfs:label>
+    <ariId>ARI:0001164</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001165">
+    <rdfs:label>Primary acquired chylomicronemia</rdfs:label>
+    <ariId>ARI:0001165</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001166">
+    <rdfs:label>Primary biliary cholangitis</rdfs:label>
+    <ariId>ARI:0001166</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001167">
+    <rdfs:label>Primary idiopathic dilated cardiomyopathy</rdfs:label>
+    <ariId>ARI:0001167</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001169">
+    <rdfs:label>Primary sclerosing cholangitis</rdfs:label>
+    <ariId>ARI:0001169</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001170">
+    <rdfs:label>Progressive hemifacial atrophy</rdfs:label>
+    <ariId>ARI:0001170</ariId>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001132"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001171">
+    <rdfs:label>Psoriasis</rdfs:label>
+    <ariId>ARI:0001171</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001172">
+    <rdfs:label>Psoriatic arthritis</rdfs:label>
+    <ariId>ARI:0001172</ariId>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001171"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001173">
+    <rdfs:label>Pure red cell aplasia</rdfs:label>
+    <ariId>ARI:0001173</ariId>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001021"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001174">
+    <rdfs:label>Pyoderma gangrenosum</rdfs:label>
+    <ariId>ARI:0001174</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001175">
+    <rdfs:label>Rasmussen syndrome</rdfs:label>
+    <ariId>ARI:0001175</ariId>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001028"/>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001087"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001176">
+    <rdfs:label>Secondary Raynaud's phenomenon</rdfs:label>
+    <ariId>ARI:0001176</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001177">
+    <rdfs:label>Reactive arthritis</rdfs:label>
+    <ariId>ARI:0001177</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001178">
+    <rdfs:label>Relapsing polychondritis</rdfs:label>
+    <ariId>ARI:0001178</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001179">
+    <rdfs:label>Restless legs</rdfs:label>
+    <ariId>ARI:0001179</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001180">
+    <rdfs:label>Retinocochleocerebral vasculopathy</rdfs:label>
+    <ariId>ARI:0001180</ariId>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001051"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#CombinationDisease"/>
+    <rdfs:subClassOf rdf:nodeID="c_0001180_0001027"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001181">
+    <rdfs:label>Rheumatic Chorea</rdfs:label>
+    <ariId>ARI:0001181</ariId>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001182"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001182">
+    <rdfs:label>Rheumatic fever</rdfs:label>
+    <ariId>ARI:0001182</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001183">
+    <rdfs:label>Rheumatoid aortitis</rdfs:label>
+    <ariId>ARI:0001183</ariId>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001185"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001184">
+    <rdfs:label>Rheumatoid arthritis</rdfs:label>
+    <ariId>ARI:0001184</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001185">
+    <rdfs:label>Rheumatoid vasculitis</rdfs:label>
+    <ariId>ARI:0001185</ariId>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001051"/>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001184"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001186">
+    <rdfs:label>Sarcoidosis</rdfs:label>
+    <ariId>ARI:0001186</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001187">
+    <rdfs:label>Schnitzler syndrome</rdfs:label>
+    <ariId>ARI:0001187</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001188">
+    <rdfs:label>Scleritis</rdfs:label>
+    <ariId>ARI:0001188</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001189">
+    <rdfs:label>Sjögren's disease</rdfs:label>
+    <ariId>ARI:0001189</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001190">
+    <rdfs:label>SLE glomerulonephritis syndrome</rdfs:label>
+    <ariId>ARI:0001190</ariId>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001196"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001191">
+    <rdfs:label>Small fiber neuropathy</rdfs:label>
+    <ariId>ARI:0001191</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001192">
+    <rdfs:label>Steroid-responsive encephalopathy associated with autoimmune thyroiditis</rdfs:label>
+    <ariId>ARI:0001192</ariId>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001028"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001193">
+    <rdfs:label>Stiff-person syndrome</rdfs:label>
+    <ariId>ARI:0001193</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001194">
+    <rdfs:label>Subacute bacterial endocarditis</rdfs:label>
+    <ariId>ARI:0001194</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001195">
+    <rdfs:label>Sympathetic uveitis</rdfs:label>
+    <ariId>ARI:0001195</ariId>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001208"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001196">
+    <rdfs:label>Systemic lupus erythematosus</rdfs:label>
+    <ariId>ARI:0001196</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001197">
+    <rdfs:label>Systemic mast cell disease</rdfs:label>
+    <ariId>ARI:0001197</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001198">
+    <rdfs:label>Systemic sclerosis</rdfs:label>
+    <ariId>ARI:0001198</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001199">
+    <rdfs:label>Systemic sclerosis with limited cutaneous involvement</rdfs:label>
+    <ariId>ARI:0001199</ariId>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001198"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#CombinationDisease"/>
+    <rdfs:subClassOf rdf:nodeID="c_0001199_0001176"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001200">
+    <rdfs:label>Takayasu's arteritis</rdfs:label>
+    <ariId>ARI:0001200</ariId>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001051"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001201">
+    <rdfs:label>Temporal arteritis</rdfs:label>
+    <ariId>ARI:0001201</ariId>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001051"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001202">
+    <rdfs:label>TIF1-gamma positive dermatomyositis</rdfs:label>
+    <ariId>ARI:0001202</ariId>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001079"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001203">
+    <rdfs:label>Tolosa-Hunt syndrome</rdfs:label>
+    <ariId>ARI:0001203</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001204">
+    <rdfs:label>Transverse myelitis</rdfs:label>
+    <ariId>ARI:0001204</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001205">
+    <rdfs:label>Ulcerative colitis</rdfs:label>
+    <ariId>ARI:0001205</ariId>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001112"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001206">
+    <rdfs:label>Undifferentiated connective tissue disease</rdfs:label>
+    <ariId>ARI:0001206</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001207">
+    <rdfs:label>Urticarial vasculitis</rdfs:label>
+    <ariId>ARI:0001207</ariId>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001051"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001208">
+    <rdfs:label>Uveitis</rdfs:label>
+    <ariId>ARI:0001208</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001209">
+    <rdfs:label>Vitiligo</rdfs:label>
+    <ariId>ARI:0001209</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001210">
+    <rdfs:label>Vogt-Koyanagi-Harada disease</rdfs:label>
+    <ariId>ARI:0001210</ariId>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001208"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001211">
+    <rdfs:label>Warm autoimmune hemolytic anemia</rdfs:label>
+    <ariId>ARI:0001211</ariId>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001032"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001212">
+    <rdfs:label>CREST Syndrome</rdfs:label>
+    <ariId>ARI:0001212</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001213">
+    <rdfs:label>Morvan syndrome</rdfs:label>
+    <ariId>ARI:0001213</ariId>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001013"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#CombinationDisease"/>
+    <rdfs:subClassOf rdf:nodeID="c_0001213_0001144"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001214">
+    <rdfs:label>Latent autoimmune diabetes in adults (LADA)</rdfs:label>
+    <ariId>ARI:0001214</ariId>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001080"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001215">
+    <rdfs:label>Fulminant type 1 diabetes</rdfs:label>
+    <ariId>ARI:0001215</ariId>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001080"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001216">
+    <rdfs:label>Hashimoto's thyroiditis</rdfs:label>
+    <ariId>ARI:0001216</ariId>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001048"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001217">
+    <rdfs:label>Anti-AMPAR encephalitis</rdfs:label>
+    <ariId>ARI:0001217</ariId>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001037"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001218">
+    <rdfs:label>Anti-GABA B encephalitis</rdfs:label>
+    <ariId>ARI:0001218</ariId>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001037"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001219">
+    <rdfs:label>Autoimmune aortitis (isolated, non-vasculitic)</rdfs:label>
+    <ariId>ARI:0001219</ariId>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001051"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001220">
+    <rdfs:label>Autoimmune enteropathy</rdfs:label>
+    <ariId>ARI:0001220</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001221">
+    <rdfs:label>Autoimmune gastrointestinal dysmotility syndrome (Idiopathic esophageal achalasia with autoimmune features or Autoimmune achalasia)</rdfs:label>
+    <ariId>ARI:0001221</ariId>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001030"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001222">
+    <rdfs:label>Autoimmune GFAP astrocytopathy</rdfs:label>
+    <ariId>ARI:0001222</ariId>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001028"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001223">
+    <rdfs:label>Autoimmune hemophilia B (anti-factor IX antibody)</rdfs:label>
+    <ariId>ARI:0001223</ariId>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001002"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001224">
+    <rdfs:label>Autoimmune nodopathies (anti-NF155, anti-CNTN1, anti-Caspr1, etc.)</rdfs:label>
+    <ariId>ARI:0001224</ariId>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001063"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001225">
+    <rdfs:label>Autoimmune peripheral neuropathy associated with nodal/paranodal antibodies</rdfs:label>
+    <ariId>ARI:0001225</ariId>
+    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001224"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001226">
+    <rdfs:label>Immune-mediated thrombotic thrombocytopenic purpura (iTTP)</rdfs:label>
+    <ariId>ARI:0001226</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001227">
+    <rdfs:label>Infertility associated with Antisperm Antibodies</rdfs:label>
+    <ariId>ARI:0001227</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001228">
+    <rdfs:label>Klein Levin Syndrome</rdfs:label>
+    <ariId>ARI:0001228</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001229">
+    <rdfs:label>STAT3 gain-of-function disease</rdfs:label>
+    <ariId>ARI:0001229</ariId>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
+</owl:Class>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001003"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001028"/>
+    <relation>is_a</relation>
+    <confidence>medium</confidence>
+    <reason>Graus 2016 lists ADEM among autoimmune encephalitis syndromes. It is also an inflammatory demyelinating disease (sibling of MS, NMO, MOGAD).</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001004"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001051"/>
+    <relation>is_a</relation>
+    <confidence>high</confidence>
+    <reason>Kawasaki disease is a medium-vessel vasculitis (Chapel Hill 2012).</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001013"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001028"/>
+    <relation>is_a</relation>
+    <confidence>high</confidence>
+    <reason>CASPR2 encephalitis is a neuronal-surface-antibody autoimmune encephalitis (limbic, Morvan or neuromyotonia phenotypes).</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001014"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001051"/>
+    <relation>is_a</relation>
+    <confidence>medium</confidence>
+    <reason>Chapel Hill 2012 lists anti-GBM disease as an immune-complex small-vessel vasculitis (glomerular and alveolar capillaritis); nephrologists often treat it as a glomerulonephritis instead.</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001016"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001079"/>
+    <relation>is_a</relation>
+    <confidence>high</confidence>
+    <reason>Clinically amyopathic, anti-MDA5-positive disease is a dermatomyositis subtype.</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001016"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:nodeID="c_0001016_0001116"/>
+    <relation>component_of</relation>
+    <confidence>high</confidence>
+    <reason>The label combines amyopathic dermatomyositis with rapidly progressive ILD.</reason>
+</owl:Axiom>
+
+<owl:Restriction rdf:nodeID="c_0001016_0001116">
+    <owl:onProperty rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#hasComponent"/>
+    <owl:someValuesFrom rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001116"/>
+</owl:Restriction>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001017"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001051"/>
+    <relation>is_a</relation>
+    <confidence>high</confidence>
+    <reason>ANCA-associated vasculitis is the pauci-immune small-vessel group (Chapel Hill 2012).</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001017"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001140"/>
+    <relation>is_a</relation>
+    <confidence>high</confidence>
+    <reason>Chapel Hill defines AAV as necrotizing vasculitis with few or no immune deposits.</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001019"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001139"/>
+    <relation>is_a</relation>
+    <confidence>high</confidence>
+    <reason>Antisynthetase syndrome is an inflammatory myopathy subgroup defined by anti-aminoacyl-tRNA-synthetase antibodies.</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001019"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:nodeID="c_0001019_0001139"/>
+    <relation>component_of</relation>
+    <confidence>high</confidence>
+    <reason>Antisynthetase syndrome is myositis, ILD, arthritis, Raynaud's and mechanic's hands with antisynthetase antibodies.</reason>
+</owl:Axiom>
+
+<owl:Restriction rdf:nodeID="c_0001019_0001139">
+    <owl:onProperty rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#hasComponent"/>
+    <owl:someValuesFrom rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001139"/>
+</owl:Restriction>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001019"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:nodeID="c_0001019_0001116"/>
+    <relation>component_of</relation>
+    <confidence>high</confidence>
+    <reason>Interstitial lung disease is a core feature, often the presenting one.</reason>
+</owl:Axiom>
+
+<owl:Restriction rdf:nodeID="c_0001019_0001116">
+    <owl:onProperty rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#hasComponent"/>
+    <owl:someValuesFrom rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001116"/>
+</owl:Restriction>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001023"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001050"/>
+    <relation>is_a</relation>
+    <confidence>high</confidence>
+    <reason>The 'and/or' entry is the union of autoimmune urticaria and autoimmune angioedema.</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001025"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001035"/>
+    <relation>manifestation_of</relation>
+    <confidence>medium</confidence>
+    <reason>Autoimmune central diabetes insipidus comes from lymphocytic infundibuloneurohypophysitis, the posterior-pituitary form of autoimmune hypophysitis. Do not group it with type 1 diabetes because of the name: it is a vasopressin disorder, not diabetes mellitus.</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001029"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001028"/>
+    <relation>is_a</relation>
+    <confidence>high</confidence>
+    <reason>Anti-NMDAR encephalitis is the prototypical antibody-mediated autoimmune encephalitis.</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001037"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001028"/>
+    <relation>is_a</relation>
+    <confidence>high</confidence>
+    <reason>Autoimmune limbic encephalitis is the limbic presentation of autoimmune encephalitis (Graus 2016).</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001037"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001121"/>
+    <relation>is_a</relation>
+    <confidence>medium</confidence>
+    <reason>Limbic encephalitis covers infectious and paraneoplastic causes; the autoimmune form is its immune-mediated subset. 0001121's definition reads only 'Anti-DPPX encephalitis' and needs fixing.</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001039"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001139"/>
+    <relation>is_a</relation>
+    <confidence>high</confidence>
+    <reason>Immune-mediated necrotizing myopathy is an idiopathic inflammatory myopathy subgroup (ENMC 2017).</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001043"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001109"/>
+    <relation>is_a</relation>
+    <confidence>medium</confidence>
+    <reason>Type 1 autoimmune pancreatitis is the pancreatic form of IgG4-related disease; type 2 (idiopathic duct-centric) is not IgG4-related.</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001045"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001116"/>
+    <relation>is_a</relation>
+    <confidence>low</confidence>
+    <reason>PAP is a diffuse parenchymal lung disease listed with ILDs, but the alveoli fill with surfactant instead of interstitial inflammation or fibrosis.</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001046"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001051"/>
+    <relation>is_a</relation>
+    <confidence>medium</confidence>
+    <reason>Retinal vasculitis is a single-organ vasculitis.</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001046"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001208"/>
+    <relation>is_a</relation>
+    <confidence>medium</confidence>
+    <reason>The SUN working group treats retinal vasculitis as a feature of posterior and intermediate uveitis.</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001049"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001050"/>
+    <relation>is_a</relation>
+    <confidence>high</confidence>
+    <reason>The 'and/or' entry is the union of autoimmune urticaria and autoimmune angioedema.</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001052"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001135"/>
+    <relation>is_a</relation>
+    <confidence>high</confidence>
+    <reason>Balo concentric sclerosis is an MS variant (0001135's ClinicalSubtype names it).</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001053"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001051"/>
+    <relation>is_a</relation>
+    <confidence>high</confidence>
+    <reason>Variable-vessel vasculitis (Chapel Hill 2012).</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001055"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001028"/>
+    <relation>is_a</relation>
+    <confidence>medium</confidence>
+    <reason>Bickerstaff's is an autoimmune brainstem encephalitis.</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001055"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001097"/>
+    <relation>is_a</relation>
+    <confidence>medium</confidence>
+    <reason>Bickerstaff's shares anti-GQ1b antibodies with Miller Fisher syndrome and counts as a central variant of the GBS spectrum (Wakerley 2014).</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001056"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001208"/>
+    <relation>is_a</relation>
+    <confidence>high</confidence>
+    <reason>Birdshot is a posterior uveitis (SUN).</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001058"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001196"/>
+    <relation>is_a</relation>
+    <confidence>high</confidence>
+    <reason>Bullous SLE requires a patient who meets SLE criteria.</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001058"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001076"/>
+    <relation>is_a</relation>
+    <confidence>low</confidence>
+    <reason>Report 11 has this, but bullous SLE lesions are LE-nonspecific (anti-collagen VII), so CLE is a weaker parent than SLE.</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001059"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001079"/>
+    <relation>manifestation_of</relation>
+    <confidence>high</confidence>
+    <reason>Calcinosis is a complication of juvenile dermatomyositis, as the label says.</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001068"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001051"/>
+    <relation>is_a</relation>
+    <confidence>high</confidence>
+    <reason>Variable-vessel vasculitis (Chapel Hill 2012).</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001068"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:nodeID="c_0001068_0001027"/>
+    <relation>component_of</relation>
+    <confidence>medium</confidence>
+    <reason>Cogan syndrome is non-syphilitic interstitial keratitis plus immune audiovestibular dysfunction.</reason>
+</owl:Axiom>
+
+<owl:Restriction rdf:nodeID="c_0001068_0001027">
+    <owl:onProperty rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#hasComponent"/>
+    <owl:someValuesFrom rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001027"/>
+</owl:Restriction>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001069"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001032"/>
+    <relation>is_a</relation>
+    <confidence>high</confidence>
+    <reason>Cold agglutinin disease is the IgM cold-antibody form of AIHA. Its ClinicalSubtype field lists the whole AIHA family (warm, mixed, Evans, drug-induced), which belongs on 0001032.</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001070"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:nodeID="c_0001070_0001220"/>
+    <relation>component_of</relation>
+    <confidence>medium</confidence>
+    <reason>Its own synonym is 'syndromic autoimmune enteropathy due to LRBA deficiency'.</reason>
+</owl:Axiom>
+
+<owl:Restriction rdf:nodeID="c_0001070_0001220">
+    <owl:onProperty rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#hasComponent"/>
+    <owl:someValuesFrom rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001220"/>
+</owl:Restriction>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001072"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:nodeID="c_0001072_0001116"/>
+    <relation>component_of</relation>
+    <confidence>high</confidence>
+    <reason>COPA's synonym is 'autoimmune interstitial lung, joint and kidney disease'.</reason>
+</owl:Axiom>
+
+<owl:Restriction rdf:nodeID="c_0001072_0001116">
+    <owl:onProperty rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#hasComponent"/>
+    <owl:someValuesFrom rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001116"/>
+</owl:Restriction>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001073"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001112"/>
+    <relation>is_a</relation>
+    <confidence>high</confidence>
+    <reason>Crohn's is one of the two main IBDs.</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001074"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001116"/>
+    <relation>is_a</relation>
+    <confidence>high</confidence>
+    <reason>Cryptogenic organizing pneumonia is a major idiopathic interstitial pneumonia (ATS/ERS 2013).</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001078"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001061"/>
+    <relation>manifestation_of</relation>
+    <confidence>high</confidence>
+    <reason>Dermatitis herpetiformis is the skin manifestation of celiac disease (shared gluten and transglutaminase autoimmunity).</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001079"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001139"/>
+    <relation>is_a</relation>
+    <confidence>high</confidence>
+    <reason>Dermatomyositis is an idiopathic inflammatory myopathy (0001139's definition names it).</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001082"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001028"/>
+    <relation>is_a</relation>
+    <confidence>high</confidence>
+    <reason>GABA-A receptor encephalitis is a neuronal-surface-antibody autoimmune encephalitis with multifocal cortical and subcortical lesions.</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001083"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001028"/>
+    <relation>is_a</relation>
+    <confidence>medium</confidence>
+    <reason>Anti-IgLON5 disease is grouped with antibody-associated encephalitides, though its course is often neurodegenerative (tauopathy).</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001090"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001051"/>
+    <relation>is_a</relation>
+    <confidence>high</confidence>
+    <reason>Cryoglobulinemic vasculitis (its own synonym) is an immune-complex small-vessel vasculitis (Chapel Hill 2012).</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001091"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:nodeID="c_0001091_0001032"/>
+    <relation>component_of</relation>
+    <confidence>high</confidence>
+    <reason>Evans syndrome is AIHA plus ITP, simultaneous or sequential. Report 11 has these as is_a links; they are components.</reason>
+</owl:Axiom>
+
+<owl:Restriction rdf:nodeID="c_0001091_0001032">
+    <owl:onProperty rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#hasComponent"/>
+    <owl:someValuesFrom rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001032"/>
+</owl:Restriction>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001091"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:nodeID="c_0001091_0001107"/>
+    <relation>component_of</relation>
+    <confidence>high</confidence>
+    <reason>Evans syndrome is AIHA plus ITP, simultaneous or sequential.</reason>
+</owl:Axiom>
+
+<owl:Restriction rdf:nodeID="c_0001091_0001107">
+    <owl:onProperty rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#hasComponent"/>
+    <owl:someValuesFrom rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001107"/>
+</owl:Restriction>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001091"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:nodeID="c_0001091_0001040"/>
+    <relation>component_of</relation>
+    <confidence>medium</confidence>
+    <reason>Autoimmune neutropenia is the optional third cytopenia in Evans syndrome.</reason>
+</owl:Axiom>
+
+<owl:Restriction rdf:nodeID="c_0001091_0001040">
+    <owl:onProperty rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#hasComponent"/>
+    <owl:someValuesFrom rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001040"/>
+</owl:Restriction>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001092"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001132"/>
+    <relation>is_a</relation>
+    <confidence>low</confidence>
+    <reason>Some classifications put eosinophilic fasciitis in the deep-morphea spectrum; others keep it separate.</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001093"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001184"/>
+    <relation>is_a</relation>
+    <confidence>high</confidence>
+    <reason>Felty syndrome is seropositive RA with splenomegaly and neutropenia; SNOMED models it as a form of RA.</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001093"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:nodeID="c_0001093_0001184"/>
+    <relation>component_of</relation>
+    <confidence>high</confidence>
+    <reason>Felty syndrome is RA plus splenomegaly plus neutropenia.</reason>
+</owl:Axiom>
+
+<owl:Restriction rdf:nodeID="c_0001093_0001184">
+    <owl:onProperty rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#hasComponent"/>
+    <owl:someValuesFrom rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001184"/>
+</owl:Restriction>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001093"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:nodeID="c_0001093_0001040"/>
+    <relation>component_of</relation>
+    <confidence>medium</confidence>
+    <reason>Felty neutropenia is immune-mediated (anti-neutrophil antibodies, large granular lymphocyte expansion).</reason>
+</owl:Axiom>
+
+<owl:Restriction rdf:nodeID="c_0001093_0001040">
+    <owl:onProperty rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#hasComponent"/>
+    <owl:someValuesFrom rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001040"/>
+</owl:Restriction>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001094"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001227"/>
+    <relation>is_a</relation>
+    <confidence>high</confidence>
+    <reason>The 2026-10-08 entry is the sex-neutral umbrella; the female form is one of its two halves.</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001099"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001057"/>
+    <relation>is_a</relation>
+    <confidence>low</confidence>
+    <reason>Pemphigoid gestationis targets BP180 like bullous pemphigoid and is sometimes called its pregnancy variant. Siblings under a pemphigoid group is better.</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001101"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001051"/>
+    <relation>is_a</relation>
+    <confidence>high</confidence>
+    <reason>Cutaneous leukocytoclastic angiitis is a single-organ vasculitis (Chapel Hill 2012).</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001103"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001116"/>
+    <relation>is_a</relation>
+    <confidence>high</confidence>
+    <reason>IPF is the commonest idiopathic interstitial pneumonia (ATS/ERS 2013).</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001106"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:nodeID="c_0001106_0001220"/>
+    <relation>component_of</relation>
+    <confidence>high</confidence>
+    <reason>IPEX triad: autoimmune enteropathy, endocrinopathy (neonatal type 1 diabetes, thyroiditis), eczema.</reason>
+</owl:Axiom>
+
+<owl:Restriction rdf:nodeID="c_0001106_0001220">
+    <owl:onProperty rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#hasComponent"/>
+    <owl:someValuesFrom rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001220"/>
+</owl:Restriction>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001106"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:nodeID="c_0001106_0001080"/>
+    <relation>component_of</relation>
+    <confidence>high</confidence>
+    <reason>IPEX triad: autoimmune enteropathy, endocrinopathy (neonatal type 1 diabetes, thyroiditis), eczema.</reason>
+</owl:Axiom>
+
+<owl:Restriction rdf:nodeID="c_0001106_0001080">
+    <owl:onProperty rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#hasComponent"/>
+    <owl:someValuesFrom rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001080"/>
+</owl:Restriction>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001106"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:nodeID="c_0001106_0001048"/>
+    <relation>component_of</relation>
+    <confidence>medium</confidence>
+    <reason>Thyroiditis is the second commonest IPEX endocrinopathy.</reason>
+</owl:Axiom>
+
+<owl:Restriction rdf:nodeID="c_0001106_0001048">
+    <owl:onProperty rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#hasComponent"/>
+    <owl:someValuesFrom rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001048"/>
+</owl:Restriction>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001108"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001051"/>
+    <relation>is_a</relation>
+    <confidence>high</confidence>
+    <reason>IgA vasculitis is an immune-complex small-vessel vasculitis (Chapel Hill 2012).</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001110"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001109"/>
+    <relation>is_a</relation>
+    <confidence>high</confidence>
+    <reason>Organ-specific IgG4-related disease.</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001111"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001139"/>
+    <relation>is_a</relation>
+    <confidence>high</confidence>
+    <reason>Inclusion body myositis is an idiopathic inflammatory myopathy (0001139's definition names it).</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001115"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001208"/>
+    <relation>is_a</relation>
+    <confidence>high</confidence>
+    <reason>Anatomic class of uveitis (SUN).</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001117"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001184"/>
+    <relation>is_a</relation>
+    <confidence>low</confidence>
+    <reason>JIA is a heterogeneous childhood group; only RF-positive polyarticular JIA resembles adult RA. Keep only if RA is meant as an inflammatory-arthritis umbrella.</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001122"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001028"/>
+    <relation>is_a</relation>
+    <confidence>high</confidence>
+    <reason>DPPX encephalitis is a neuronal-surface-antibody autoimmune encephalitis. Its usual picture (diarrhoea, weight loss, CNS hyperexcitability) is not classic limbic, so prefer this parent over 0001121.</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001123"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001037"/>
+    <relation>is_a</relation>
+    <confidence>high</confidence>
+    <reason>LGI1 encephalitis is the commonest autoimmune limbic encephalitis (Graus 2016). Refines report 11's link to the broader 0001121.</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001126"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001051"/>
+    <relation>is_a</relation>
+    <confidence>high</confidence>
+    <reason>Chapel Hill 2012 category 'vasculitis associated with systemic disease'.</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001126"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001196"/>
+    <relation>manifestation_of</relation>
+    <confidence>high</confidence>
+    <reason>Vasculitis occurring in SLE.</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001127"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001227"/>
+    <relation>is_a</relation>
+    <confidence>high</confidence>
+    <reason>The 2026-10-08 entry is the sex-neutral umbrella; the male form is one of its two halves.</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001128"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001112"/>
+    <relation>is_a</relation>
+    <confidence>medium</confidence>
+    <reason>DOID groups microscopic colitis under IBD; some guidelines keep it separate.</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001129"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001017"/>
+    <relation>is_a</relation>
+    <confidence>high</confidence>
+    <reason>MPA is one of the three ANCA-associated vasculitides.</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001130"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:nodeID="c_0001130_0001196"/>
+    <relation>component_of</relation>
+    <confidence>high</confidence>
+    <reason>MCTD is an overlap of SLE, SSc and polymyositis features with high-titre anti-U1-RNP (Sharp 1972).</reason>
+</owl:Axiom>
+
+<owl:Restriction rdf:nodeID="c_0001130_0001196">
+    <owl:onProperty rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#hasComponent"/>
+    <owl:someValuesFrom rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001196"/>
+</owl:Restriction>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001130"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:nodeID="c_0001130_0001198"/>
+    <relation>component_of</relation>
+    <confidence>high</confidence>
+    <reason>MCTD is an overlap of SLE, SSc and polymyositis features with high-titre anti-U1-RNP (Sharp 1972).</reason>
+</owl:Axiom>
+
+<owl:Restriction rdf:nodeID="c_0001130_0001198">
+    <owl:onProperty rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#hasComponent"/>
+    <owl:someValuesFrom rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001198"/>
+</owl:Restriction>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001130"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:nodeID="c_0001130_0001162"/>
+    <relation>component_of</relation>
+    <confidence>high</confidence>
+    <reason>MCTD is an overlap of SLE, SSc and polymyositis features with high-titre anti-U1-RNP (Sharp 1972).</reason>
+</owl:Axiom>
+
+<owl:Restriction rdf:nodeID="c_0001130_0001162">
+    <owl:onProperty rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#hasComponent"/>
+    <owl:someValuesFrom rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001162"/>
+</owl:Restriction>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001145"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001136"/>
+    <relation>is_a</relation>
+    <confidence>high</confidence>
+    <reason>Ocular MG is the form of myasthenia gravis restricted to eye muscles.</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001146"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001096"/>
+    <relation>manifestation_of</relation>
+    <confidence>high</confidence>
+    <reason>Thyroid eye disease is the orbital, extrathyroidal manifestation of Graves' disease, and the label names it (about 10% occur in euthyroid or Hashimoto patients).</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001149"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001024"/>
+    <relation>is_a</relation>
+    <confidence>high</confidence>
+    <reason>Paraneoplastic cerebellar degeneration is the paraneoplastic form of immune-mediated cerebellar ataxia (Mitoma 2020 consensus).</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001150"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001154"/>
+    <relation>is_a</relation>
+    <confidence>medium</confidence>
+    <reason>Paraneoplastic pemphigus is named as a pemphigus variant (desmoglein plus plakin antibodies), though it is a multi-organ paraneoplastic syndrome.</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001151"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001032"/>
+    <relation>is_a</relation>
+    <confidence>high</confidence>
+    <reason>Paroxysmal cold hemoglobinuria is the Donath-Landsteiner (biphasic IgG) cold-antibody form of AIHA.</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001156"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001051"/>
+    <relation>is_a</relation>
+    <confidence>high</confidence>
+    <reason>Medium-vessel vasculitis (Chapel Hill 2012).</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001156"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001140"/>
+    <relation>is_a</relation>
+    <confidence>high</confidence>
+    <reason>Chapel Hill defines PAN as necrotizing arteritis of medium or small arteries.</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001157"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:nodeID="c_0001157_0001006"/>
+    <relation>component_of</relation>
+    <confidence>high</confidence>
+    <reason>APECED is two of three: chronic mucocutaneous candidiasis, hypoparathyroidism, Addison's. Report 11 has this as is_a; it is a component.</reason>
+</owl:Axiom>
+
+<owl:Restriction rdf:nodeID="c_0001157_0001006">
+    <owl:onProperty rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#hasComponent"/>
+    <owl:someValuesFrom rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001006"/>
+</owl:Restriction>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001157"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:nodeID="c_0001157_0001034"/>
+    <relation>component_of</relation>
+    <confidence>high</confidence>
+    <reason>APECED is two of three: chronic mucocutaneous candidiasis, hypoparathyroidism, Addison's.</reason>
+</owl:Axiom>
+
+<owl:Restriction rdf:nodeID="c_0001157_0001034">
+    <owl:onProperty rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#hasComponent"/>
+    <owl:someValuesFrom rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001034"/>
+</owl:Restriction>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001158"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:nodeID="c_0001158_0001006"/>
+    <relation>component_of</relation>
+    <confidence>high</confidence>
+    <reason>Type 2 (Schmidt/Carpenter) is Addison's plus autoimmune thyroid disease and/or type 1 diabetes.</reason>
+</owl:Axiom>
+
+<owl:Restriction rdf:nodeID="c_0001158_0001006">
+    <owl:onProperty rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#hasComponent"/>
+    <owl:someValuesFrom rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001006"/>
+</owl:Restriction>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001158"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:nodeID="c_0001158_0001048"/>
+    <relation>component_of</relation>
+    <confidence>high</confidence>
+    <reason>Type 2 is Addison's plus autoimmune thyroid disease and/or type 1 diabetes.</reason>
+</owl:Axiom>
+
+<owl:Restriction rdf:nodeID="c_0001158_0001048">
+    <owl:onProperty rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#hasComponent"/>
+    <owl:someValuesFrom rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001048"/>
+</owl:Restriction>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001158"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:nodeID="c_0001158_0001080"/>
+    <relation>component_of</relation>
+    <confidence>high</confidence>
+    <reason>Type 2 is Addison's plus autoimmune thyroid disease and/or type 1 diabetes.</reason>
+</owl:Axiom>
+
+<owl:Restriction rdf:nodeID="c_0001158_0001080">
+    <owl:onProperty rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#hasComponent"/>
+    <owl:someValuesFrom rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001080"/>
+</owl:Restriction>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001159"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:nodeID="c_0001159_0001048"/>
+    <relation>component_of</relation>
+    <confidence>high</confidence>
+    <reason>Type 3 is autoimmune thyroid disease plus another autoimmune disease, without Addison's (Neufeld).</reason>
+</owl:Axiom>
+
+<owl:Restriction rdf:nodeID="c_0001159_0001048">
+    <owl:onProperty rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#hasComponent"/>
+    <owl:someValuesFrom rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001048"/>
+</owl:Restriction>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001159"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:nodeID="c_0001159_0001096"/>
+    <relation>component_of</relation>
+    <confidence>medium</confidence>
+    <reason>The thyroid component of type 3 may be Graves' instead of Hashimoto's.</reason>
+</owl:Axiom>
+
+<owl:Restriction rdf:nodeID="c_0001159_0001096">
+    <owl:onProperty rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#hasComponent"/>
+    <owl:someValuesFrom rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001096"/>
+</owl:Restriction>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001159"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:nodeID="c_0001159_0001080"/>
+    <relation>component_of</relation>
+    <confidence>medium</confidence>
+    <reason>Type 3A: thyroid disease plus type 1 diabetes.</reason>
+</owl:Axiom>
+
+<owl:Restriction rdf:nodeID="c_0001159_0001080">
+    <owl:onProperty rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#hasComponent"/>
+    <owl:someValuesFrom rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001080"/>
+</owl:Restriction>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001159"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:nodeID="c_0001159_0001031"/>
+    <relation>component_of</relation>
+    <confidence>medium</confidence>
+    <reason>Type 3B: thyroid disease plus autoimmune gastritis or pernicious anaemia.</reason>
+</owl:Axiom>
+
+<owl:Restriction rdf:nodeID="c_0001159_0001031">
+    <owl:onProperty rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#hasComponent"/>
+    <owl:someValuesFrom rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001031"/>
+</owl:Restriction>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001159"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:nodeID="c_0001159_0001209"/>
+    <relation>component_of</relation>
+    <confidence>medium</confidence>
+    <reason>Type 3C: thyroid disease plus vitiligo, alopecia or other skin/blood autoimmunity.</reason>
+</owl:Axiom>
+
+<owl:Restriction rdf:nodeID="c_0001159_0001209">
+    <owl:onProperty rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#hasComponent"/>
+    <owl:someValuesFrom rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001209"/>
+</owl:Restriction>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001159"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:nodeID="c_0001159_0001010"/>
+    <relation>component_of</relation>
+    <confidence>medium</confidence>
+    <reason>Type 3C: thyroid disease plus vitiligo, alopecia or other skin/blood autoimmunity.</reason>
+</owl:Axiom>
+
+<owl:Restriction rdf:nodeID="c_0001159_0001010">
+    <owl:onProperty rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#hasComponent"/>
+    <owl:someValuesFrom rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001010"/>
+</owl:Restriction>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001160"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:nodeID="c_0001160_0001006"/>
+    <relation>component_of</relation>
+    <confidence>high</confidence>
+    <reason>Type 4 is Addison's with other autoimmune diseases that fit none of types 1 to 3; Addison's is the only fixed component.</reason>
+</owl:Axiom>
+
+<owl:Restriction rdf:nodeID="c_0001160_0001006">
+    <owl:onProperty rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#hasComponent"/>
+    <owl:someValuesFrom rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001006"/>
+</owl:Restriction>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001162"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001139"/>
+    <relation>is_a</relation>
+    <confidence>high</confidence>
+    <reason>Polymyositis is an idiopathic inflammatory myopathy (0001139's definition names it).</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001170"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001132"/>
+    <relation>is_a</relation>
+    <confidence>medium</confidence>
+    <reason>Parry-Romberg overlaps with linear morphea 'en coup de sabre' and is grouped with linear morphea in the Padua classification of juvenile localized scleroderma.</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001172"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001171"/>
+    <relation>manifestation_of</relation>
+    <confidence>medium</confidence>
+    <reason>Psoriatic arthritis is the joint arm of psoriatic disease (about 30% of people with psoriasis develop it), though arthritis comes before skin disease in about 15%.</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001173"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001021"/>
+    <relation>is_a</relation>
+    <confidence>low</confidence>
+    <reason>DOID puts pure red cell aplasia under aplastic anemia, but PRCA fails one lineage and aplastic anemia all three. Siblings under bone-marrow failure is more accurate.</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001175"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001028"/>
+    <relation>is_a</relation>
+    <confidence>high</confidence>
+    <reason>Rasmussen encephalitis is a T-cell-mediated chronic unihemispheric encephalitis.</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001175"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001087"/>
+    <relation>is_a</relation>
+    <confidence>medium</confidence>
+    <reason>Rasmussen syndrome presents as drug-resistant focal epilepsy (epilepsia partialis continua).</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001180"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001051"/>
+    <relation>is_a</relation>
+    <confidence>low</confidence>
+    <reason>Susac syndrome is an autoimmune endotheliopathy of brain, retina and cochlea. It is often grouped with the vasculitides but is not in Chapel Hill 2012.</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001180"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:nodeID="c_0001180_0001027"/>
+    <relation>component_of</relation>
+    <confidence>low</confidence>
+    <reason>Susac triad: encephalopathy, branch retinal artery occlusions, hearing loss. The hearing loss is microvascular, not classic autoimmune inner-ear disease.</reason>
+</owl:Axiom>
+
+<owl:Restriction rdf:nodeID="c_0001180_0001027">
+    <owl:onProperty rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#hasComponent"/>
+    <owl:someValuesFrom rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001027"/>
+</owl:Restriction>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001181"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001182"/>
+    <relation>manifestation_of</relation>
+    <confidence>high</confidence>
+    <reason>Sydenham chorea is a major Jones criterion of rheumatic fever.</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001183"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001185"/>
+    <relation>is_a</relation>
+    <confidence>high</confidence>
+    <reason>Rheumatoid aortitis is rheumatoid vasculitis of the aorta.</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001185"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001051"/>
+    <relation>is_a</relation>
+    <confidence>high</confidence>
+    <reason>Chapel Hill 2012 category 'vasculitis associated with systemic disease'.</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001185"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001184"/>
+    <relation>manifestation_of</relation>
+    <confidence>high</confidence>
+    <reason>Vasculitis occurring in long-standing seropositive RA.</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001190"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001196"/>
+    <relation>manifestation_of</relation>
+    <confidence>high</confidence>
+    <reason>Lupus nephritis is the renal manifestation of SLE.</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001192"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001028"/>
+    <relation>is_a</relation>
+    <confidence>high</confidence>
+    <reason>SREAT (Hashimoto's encephalopathy) is a steroid-responsive autoimmune encephalopathy; the Graus 2016 autoimmune encephalitis criteria include it.</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001195"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001208"/>
+    <relation>is_a</relation>
+    <confidence>high</confidence>
+    <reason>Sympathetic ophthalmia is a bilateral granulomatous panuveitis.</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001199"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001198"/>
+    <relation>is_a</relation>
+    <confidence>high</confidence>
+    <reason>Limited cutaneous SSc is one of the two main SSc subsets (LeRoy).</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001199"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:nodeID="c_0001199_0001176"/>
+    <relation>component_of</relation>
+    <confidence>high</confidence>
+    <reason>Raynaud's is the R in CREST. The other four features (calcinosis, esophageal dysmotility, sclerodactyly, telangiectasia) are not listed diseases.</reason>
+</owl:Axiom>
+
+<owl:Restriction rdf:nodeID="c_0001199_0001176">
+    <owl:onProperty rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#hasComponent"/>
+    <owl:someValuesFrom rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001176"/>
+</owl:Restriction>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001200"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001051"/>
+    <relation>is_a</relation>
+    <confidence>high</confidence>
+    <reason>Large-vessel vasculitis (Chapel Hill 2012).</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001201"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001051"/>
+    <relation>is_a</relation>
+    <confidence>high</confidence>
+    <reason>Giant cell arteritis is a large-vessel vasculitis (Chapel Hill 2012).</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001202"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001079"/>
+    <relation>is_a</relation>
+    <confidence>high</confidence>
+    <reason>Anti-TIF1-gamma marks a dermatomyositis antibody subgroup (cancer-associated in adults).</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001205"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001112"/>
+    <relation>is_a</relation>
+    <confidence>high</confidence>
+    <reason>Ulcerative colitis is one of the two main IBDs.</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001207"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001051"/>
+    <relation>is_a</relation>
+    <confidence>high</confidence>
+    <reason>Hypocomplementemic urticarial vasculitis is an immune-complex small-vessel vasculitis (Chapel Hill 2012).</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001210"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001208"/>
+    <relation>is_a</relation>
+    <confidence>high</confidence>
+    <reason>VKH is a bilateral granulomatous panuveitis with extraocular melanocyte involvement.</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001211"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001032"/>
+    <relation>is_a</relation>
+    <confidence>high</confidence>
+    <reason>Warm (IgG) AIHA is the commonest form of AIHA.</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001213"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001013"/>
+    <relation>is_a</relation>
+    <confidence>high</confidence>
+    <reason>Morvan syndrome is the CASPR2-antibody phenotype with neuromyotonia plus encephalopathy.</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001213"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:nodeID="c_0001213_0001144"/>
+    <relation>component_of</relation>
+    <confidence>high</confidence>
+    <reason>Morvan syndrome is neuromyotonia plus encephalopathy (insomnia) plus dysautonomia, usually with CASPR2 antibodies.</reason>
+</owl:Axiom>
+
+<owl:Restriction rdf:nodeID="c_0001213_0001144">
+    <owl:onProperty rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#hasComponent"/>
+    <owl:someValuesFrom rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001144"/>
+</owl:Restriction>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001214"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001080"/>
+    <relation>is_a</relation>
+    <confidence>high</confidence>
+    <reason>LADA is slowly progressive, GAD-antibody-positive autoimmune diabetes; the ADA classifies it as a form of type 1 diabetes.</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001215"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001080"/>
+    <relation>is_a</relation>
+    <confidence>high</confidence>
+    <reason>Fulminant type 1 diabetes is a type 1 subtype (Japan Diabetes Society) with abrupt, near-total beta-cell destruction.</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001216"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001048"/>
+    <relation>is_a</relation>
+    <confidence>high</confidence>
+    <reason>Hashimoto's is the chronic lymphocytic form of autoimmune thyroiditis. Note 0001048's own definition already describes the Hashimoto course, so the two are near-duplicates.</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001217"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001037"/>
+    <relation>is_a</relation>
+    <confidence>high</confidence>
+    <reason>AMPAR encephalitis usually presents as limbic encephalitis (Graus 2016).</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001218"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001037"/>
+    <relation>is_a</relation>
+    <confidence>high</confidence>
+    <reason>GABA-B receptor encephalitis usually presents as limbic encephalitis with seizures (Graus 2016).</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001219"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001051"/>
+    <relation>is_a</relation>
+    <confidence>low</confidence>
+    <reason>Chapel Hill 2012 lists isolated aortitis as a single-organ vasculitis. The label says 'non-vasculitic' (probably meaning 'not part of systemic vasculitis'), so settle the label first.</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001221"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001030"/>
+    <relation>is_a</relation>
+    <confidence>low</confidence>
+    <reason>Autoimmune autonomic ganglionopathy (gAChR antibodies) often causes GI dysmotility, and AGID can be its limited form, but not all AGID is ganglionic-antibody mediated.</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001222"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001028"/>
+    <relation>is_a</relation>
+    <confidence>high</confidence>
+    <reason>GFAP astrocytopathy presents as meningoencephalomyelitis and is classed with the autoimmune encephalitides.</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001223"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001002"/>
+    <relation>is_a</relation>
+    <confidence>high</confidence>
+    <reason>An acquired inhibitor against factor IX is acquired hemophilia (0001002 carries ICD-10 D68.311, acquired hemophilia). Acquired hemophilia A is the common form, B the rare one.</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001224"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001063"/>
+    <relation>is_a</relation>
+    <confidence>low</confidence>
+    <reason>Nodopathies used to be CIDP subtypes; EAN/PNS 2021 split them off, so siblings is current practice.</reason>
+</owl:Axiom>
+
+<owl:Axiom>
+    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001225"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001224"/>
+    <relation>duplicate_of</relation>
+    <confidence>high</confidence>
+    <reason>Both describe neuropathy with nodal or paranodal antibodies (NF155, CNTN1, Caspr1); merge.</reason>
+</owl:Axiom>
+
+</rdf:RDF>
