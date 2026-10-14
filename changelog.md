@@ -12,6 +12,10 @@ MCTD, the polyglandular syndromes, IPEX, antisynthetase, Felty, Morvan, CREST), 
 report 11 links, and 2 duplicates to merge (CREST Syndrome into lcSSc; the two nodopathy entries).
 Nothing is written to the ontology yet.
 
+`proposed_hierarchy.owl` (built by `build_proposed_hierarchy_owl.py`) shows the same proposal as a
+class tree for Protégé, so curators can review the hierarchy's shape rather than read 145 rows.
+Each link keeps its relation, confidence and reason as axiom annotations; rejected rows are left out.
+
 ## claude/disease-hierarchy
 
 Adds report `11_Disease_Hierarchy.xlsx`: parent/child relations between the listed core

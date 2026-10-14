@@ -29,6 +29,19 @@ link, or `new`.
 | `duplicate_of` | The two entries are the same disease; merge the child into the parent rather than nesting it |
 | `reject` | Report 11's link should not become a parent link; the reason says what to do instead |
 
+To browse the proposal as a tree, open `proposed_hierarchy.owl` in Protégé (Entities → Class
+hierarchy). It is generated from the TSV and the ontology's disease labels:
+
+```
+python build_proposed_hierarchy_owl.py
+```
+
+Every active disease is a class under *ARI disease*. `is_a`, `manifestation_of` and `duplicate_of`
+rows are subclass links; combination diseases sit under *Combination disease* with a
+`hasComponent some <component>` restriction per component; `reject` rows are left out. Each link
+carries its relation, confidence and reason as axiom annotations (select the class, then the
+annotation icon on the SubClass Of entry). Rerun the script after editing the TSV.
+
 Nothing here is written to the ontology yet. Curators accept or reject rows; accepted `is_a`,
 `manifestation_of` and `component_of` rows become `hasParentDisease` (or a component property,
 if one is added for #138).
