@@ -1,5 +1,33 @@
 # Changelog
 
+## claude/disease-info-research-gaps-838ed5
+
+Adds report `12_Research_Gaps.xlsx`: for each of the 227 published diseases, which fields of the
+immunological data model (v3) ARI still lacks, and whether filling them needs new research or only
+an import of data the repository already holds. Script in `notebook/research-gaps/`. No online
+sources.
+
+**Why.** The data model has 40 per-disease fields; the published record had never been checked
+against it as a whole, so there was no way to hand a researcher a list. Three findings shape that
+list:
+
+- **Most of the model has no property in the ontology yet.** Genetic / Inherited, Association with
+  Other Autoimmune Diseases, In Vitro Animal / Human Cell Evidence, Objective Signs, Case Reports,
+  Hypersensitivity Type, Inherited Disease Susceptibility and Systemic Involvement cannot be
+  published for any disease until a property is declared. The innate, signalling, genetic and
+  biomarker fields have properties but only Type 1 diabetes, the pilot, uses them.
+- **Much of the gap is already in the 2026-10-08 master list, unimported.** Pathophysiology
+  (Molecular Mechanism, 217 diseases), Association with Other Autoimmune Diseases (218), female:male
+  ratio and high-prevalence regions (Demographic Bias, 217), definitions (29), MeSH terms as
+  synonym candidates (81) and symptoms (45). Report 11's direct links supply a parent for 53.
+- **`evidenceQuality` holds the evidence type, not the grade.** Values are Antibody, TCELL,
+  Unconfirmed and the like; the model asks for High / Moderate / Low / Expert Opinion. The master
+  list's "Summary Evidence Autoinflammation" column has Strong / Moderate grades for 125 diseases,
+  which may be what was meant — flagged for confirmation, not assumed.
+
+Citations are the other systemic gap: 45 of 4,848 published symptom, trigger, antibody, cell and
+antigen items carry a `sourcePMID`, while the model asks for a DOI reference on each.
+
 ## claude/disease-hierarchy
 
 Adds report `11_Disease_Hierarchy.xlsx`: parent/child relations between the listed core
