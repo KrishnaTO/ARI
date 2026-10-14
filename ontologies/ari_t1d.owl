@@ -319,6 +319,10 @@
   <rdfs:subClassOf rdf:resource="#DiseaseCategory"/>
 </owl:Class>
 
+<owl:Class rdf:about="#CombinationDisease">
+  <rdfs:subClassOf rdf:resource="#DiseaseCategory"/>
+</owl:Class>
+
 <owl:Class rdf:about="#AutoimmuneDisease">
   <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
 </owl:Class>
@@ -532,6 +536,11 @@
 <owl:NamedIndividual rdf:about="#Category_Endocrine">
   <rdf:type rdf:resource="#EndocrineDisease"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Endocrine disease</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Category_Combination">
+  <rdf:type rdf:resource="#CombinationDisease"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Combination disease</rdfs:label>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001080">
@@ -3620,6 +3629,7 @@ However, based on the research available at this time, there is no evidence that
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001016">
   <rdf:type rdf:resource="#AutoimmuneDisease"/>
   <hasParentDisease rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001079"/>
+  <hasParentCategory rdf:resource="#Category_Combination"/>
   <involvesAntigen rdf:resource="#Antigen_0001016_1"/>
   <affectsCellTissueOrOrgan rdf:resource="#Cell_0001016_1"/>
   <affectsCellTissueOrOrgan rdf:resource="#Cell_0001016_2"/>
@@ -3647,6 +3657,7 @@ However, based on the research available at this time, there is no evidence that
   <ARI_PrevalenceDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Worldwide prevalence: 1.0 cases per 100,000 to 250,000. US prevalence: 1.0 cases per 100,000 to 250,000. Note on the US figure: Searched afterwards. Source: American College of Rheumatology / Orphanet, rare dermatomyositis subset.</ARI_PrevalenceDesc>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-12T21:18:31+00:00 | Leon Islas | Prevalence and incidence from ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 22: prevalenceWorldPer100k 0.7 from the Worldwide prevalence "1.0 cases per 100,000 to 250,000" (midpoint of the range); prevalencePer100k 0.7 from the US prevalence "1.0 cases per 100,000 to 250,000" (midpoint of the range); ARI_PrevalenceDesc rewritten with every figure and note.</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-14 | Claude | Added parent disease: ARI:0001079 Dermatomyositis (is_a). Proposed in notebook/disease-hierarchy/proposed_parents.tsv (ARI#137)</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-14 | Claude | Added parent category: Combination disease. Components: ARI:0001116 Interstitial lung disease (high). Proposed in notebook/disease-hierarchy/proposed_parents.tsv (ARI#138)</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001017">
@@ -3890,6 +3901,7 @@ There's no cure for antiphospholipid syndrome, but medications can reduce the ri
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001019">
   <rdf:type rdf:resource="#AutoimmuneDisease"/>
   <hasParentDisease rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001139"/>
+  <hasParentCategory rdf:resource="#Category_Combination"/>
   <involvesAntigen rdf:resource="#Antigen_0001019_1"/>
   <involvesAntigen rdf:resource="#Antigen_0001019_2"/>
   <involvesAntigen rdf:resource="#Antigen_0001019_3"/>
@@ -3959,6 +3971,7 @@ The trigger for antisynthetase syndrome is unknown, but it may be associated wit
   <ARI_PrevalenceDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Worldwide prevalence: 1.0 cases per 25,000 to 50,000. US prevalence: 1.0 cases per 25,000 to 33,333.</ARI_PrevalenceDesc>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-12T21:18:31+00:00 | Leon Islas | Prevalence and incidence from ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 26: prevalenceWorldPer100k 3.0 from the Worldwide prevalence "1.0 cases per 25,000 to 50,000" (midpoint of the range); prevalencePer100k 3.5 from the US prevalence "1.0 cases per 25,000 to 33,333" (midpoint of the range); ARI_PrevalenceDesc rewritten with every figure and note.</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-14 | Claude | Added parent disease: ARI:0001139 Myositis (is_a). Proposed in notebook/disease-hierarchy/proposed_parents.tsv (ARI#137)</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-14 | Claude | Added parent category: Combination disease. Components: ARI:0001139 Myositis (high); ARI:0001116 Interstitial lung disease (high). Proposed in notebook/disease-hierarchy/proposed_parents.tsv (ARI#138)</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001019_176">
@@ -9407,6 +9420,7 @@ More study is needed.</rdfs:comment>
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001068">
   <rdf:type rdf:resource="#AutoimmuneDisease"/>
   <hasParentDisease rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001051"/>
+  <hasParentCategory rdf:resource="#Category_Combination"/>
   <involvesAntigen rdf:resource="#Antigen_0001068_1"/>
   <involvesAntigen rdf:resource="#Antigen_0001068_2"/>
   <affectsCellTissueOrOrgan rdf:resource="#Cell_0001068_1"/>
@@ -9494,6 +9508,7 @@ More study is needed.</rdfs:comment>
   <ARI_PrevalenceDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Worldwide prevalence: 1.0 cases per 1,000,000; Extremely rare. US prevalence: Extremely rare.</ARI_PrevalenceDesc>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-12T21:18:31+00:00 | Leon Islas | Prevalence and incidence from ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 82: prevalenceWorldPer100k 0.1 from the Worldwide prevalence "1.0 cases per 1,000,000; Extremely rare"; ARI_PrevalenceDesc rewritten with every figure and note.</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-14 | Claude | Added parent disease: ARI:0001051 Autoimmune vasculitis (is_a). Proposed in notebook/disease-hierarchy/proposed_parents.tsv (ARI#137)</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-14 | Claude | Added parent category: Combination disease. Components: ARI:0001027 Autoimmune disorder of inner ear (medium). Proposed in notebook/disease-hierarchy/proposed_parents.tsv (ARI#138)</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001068_592">
@@ -9831,6 +9846,7 @@ More study is needed.</rdfs:comment>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001070">
   <rdf:type rdf:resource="#AutoimmuneDisease"/>
+  <hasParentCategory rdf:resource="#Category_Combination"/>
   <affectsCellTissueOrOrgan rdf:resource="#Cell_0001070_1"/>
   <affectsCellTissueOrOrgan rdf:resource="#Cell_0001070_2"/>
   <affectsCellTissueOrOrgan rdf:resource="#Cell_0001070_3"/>
@@ -9888,6 +9904,7 @@ More study is needed.</rdfs:comment>
   <prevalenceWorldPer100k rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.1</prevalenceWorldPer100k>
   <ARI_PrevalenceDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Worldwide prevalence: 1.0 cases per 1,000,000; Extremely rare. US prevalence: Extremely rare. Note on the US figure: Searched afterwards. Source: Lopez-Herrera et al. / NORD, ultra-rare genetic immunodeficiency.</ARI_PrevalenceDesc>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-12T21:18:31+00:00 | Leon Islas | Prevalence and incidence from ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 137: prevalenceWorldPer100k 0.1 from the Worldwide prevalence "1.0 cases per 1,000,000; Extremely rare"; ARI_PrevalenceDesc rewritten with every figure and note.</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-14 | Claude | Added parent category: Combination disease. Components: ARI:0001220 Autoimmune enteropathy (medium). Proposed in notebook/disease-hierarchy/proposed_parents.tsv (ARI#138)</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001071">
@@ -10086,6 +10103,7 @@ More study is needed.</rdfs:comment>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001072">
   <rdf:type rdf:resource="#AutoimmuneDisease"/>
+  <hasParentCategory rdf:resource="#Category_Combination"/>
   <affectsCellTissueOrOrgan rdf:resource="#Cell_0001072_1"/>
   <affectsCellTissueOrOrgan rdf:resource="#Cell_0001072_2"/>
   <hasAntibody rdf:resource="#Ab_0001072_1"/>
@@ -10131,6 +10149,7 @@ More study is needed.</rdfs:comment>
   <prevalenceWorldPer100k rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.1</prevalenceWorldPer100k>
   <ARI_PrevalenceDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Worldwide prevalence: 1.0 cases per 1,000,000; Extremely rare. US prevalence: Extremely rare. Note on the US figure: Searched afterwards. Source: Watkin et al. / NORD, rare hereditary autoimmune pulmonary-renal syndrome.</ARI_PrevalenceDesc>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-12T21:18:31+00:00 | Leon Islas | Prevalence and incidence from ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 85: prevalenceWorldPer100k 0.1 from the Worldwide prevalence "1.0 cases per 1,000,000; Extremely rare"; ARI_PrevalenceDesc rewritten with every figure and note.</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-14 | Claude | Added parent category: Combination disease. Components: ARI:0001116 Interstitial lung disease (high). Proposed in notebook/disease-hierarchy/proposed_parents.tsv (ARI#138)</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001073">
@@ -12133,6 +12152,7 @@ When mastocytosis is not limited to the skin, it is called systemic mastocytosis
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001091">
   <rdf:type rdf:resource="#AutoimmuneDisease"/>
+  <hasParentCategory rdf:resource="#Category_Combination"/>
   <involvesAntigen rdf:resource="#Antigen_0001091_1"/>
   <involvesAntigen rdf:resource="#Antigen_0001091_2"/>
   <affectsCellTissueOrOrgan rdf:resource="#Cell_0001091_1"/>
@@ -12194,6 +12214,7 @@ The disorder resembles a combination of autoimmune hemolytic anemia, thrombocyto
   <prevalenceWorldPer100k rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.2667</prevalenceWorldPer100k>
   <ARI_PrevalenceDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Worldwide prevalence: 1.0 cases per 300,000 to 500,000. US prevalence: 1.0 cases per 3,876 to 5,747.</ARI_PrevalenceDesc>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-12T21:18:31+00:00 | Leon Islas | Prevalence and incidence from ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 103: prevalenceWorldPer100k 0.2667 from the Worldwide prevalence "1.0 cases per 300,000 to 500,000" (midpoint of the range); prevalencePer100k 21.6 from the US prevalence "1.0 cases per 3,876 to 5,747" (midpoint of the range); ARI_PrevalenceDesc rewritten with every figure and note. Replaced: prevalencePer100k '12642.0'; ARI_PrevalenceDesc 'Female 5746/100k; Male 6895/100k; F:M ratio 0.833358'.</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-14 | Claude | Added parent category: Combination disease. Components: ARI:0001032 Autoimmune hemolytic anemia (high); ARI:0001107 Immune thrombocytopenia (high); ARI:0001040 Autoimmune neutropenia (medium). Proposed in notebook/disease-hierarchy/proposed_parents.tsv (ARI#138)</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001091_832">
@@ -12449,6 +12470,7 @@ The disorder resembles a combination of autoimmune hemolytic anemia, thrombocyto
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001093">
   <rdf:type rdf:resource="#AutoimmuneDisease"/>
   <hasParentDisease rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001184"/>
+  <hasParentCategory rdf:resource="#Category_Combination"/>
   <involvesAntigen rdf:resource="#Antigen_0001093_1"/>
   <involvesAntigen rdf:resource="#Antigen_0001093_2"/>
   <affectsCellTissueOrOrgan rdf:resource="#Cell_0001093_1"/>
@@ -12520,6 +12542,7 @@ The disorder resembles a combination of autoimmune hemolytic anemia, thrombocyto
   <ARI_PrevalenceDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Worldwide prevalence: 1.0 cases per 10,000 to 20,000. US prevalence: 1.0 cases per 10,000.</ARI_PrevalenceDesc>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-12T21:18:31+00:00 | Leon Islas | Prevalence and incidence from ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 105: prevalenceWorldPer100k 7.5 from the Worldwide prevalence "1.0 cases per 10,000 to 20,000" (midpoint of the range); prevalencePer100k 10.0 from the US prevalence "1.0 cases per 10,000"; ARI_PrevalenceDesc rewritten with every figure and note. Replaced: prevalencePer100k '3218.0'; ARI_PrevalenceDesc 'Female 2758/100k; Male 459/100k; F:M ratio 6.00871'.</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-14 | Claude | Added parent disease: ARI:0001184 Rheumatoid arthritis (is_a). Proposed in notebook/disease-hierarchy/proposed_parents.tsv (ARI#137)</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-14 | Claude | Added parent category: Combination disease. Components: ARI:0001184 Rheumatoid arthritis (high); ARI:0001040 Autoimmune neutropenia (medium). Proposed in notebook/disease-hierarchy/proposed_parents.tsv (ARI#138)</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001093_864">
@@ -13815,6 +13838,7 @@ ASA is not a concern except for people trying to conceive.</rdfs:comment>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001106">
   <rdf:type rdf:resource="#AutoimmuneDisease"/>
+  <hasParentCategory rdf:resource="#Category_Combination"/>
   <involvesAntigen rdf:resource="#Antigen_0001106_1"/>
   <involvesAntigen rdf:resource="#Antigen_0001106_2"/>
   <involvesAntigen rdf:resource="#Antigen_0001106_3"/>
@@ -13887,6 +13911,7 @@ ASA is not a concern except for people trying to conceive.</rdfs:comment>
   <prevalenceWorldPer100k rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.1</prevalenceWorldPer100k>
   <ARI_PrevalenceDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Worldwide prevalence: 1.0 cases per 1,000,000; Extremely rare. US prevalence: Extremely rare. Note on the US figure: Searched afterwards. Source: Barzaghi et al. / Orphanet, rare FOXP3 deficiency.</ARI_PrevalenceDesc>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-12T21:18:31+00:00 | Leon Islas | Prevalence and incidence from ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 117: prevalenceWorldPer100k 0.1 from the Worldwide prevalence "1.0 cases per 1,000,000; Extremely rare"; ARI_PrevalenceDesc rewritten with every figure and note.</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-14 | Claude | Added parent category: Combination disease. Components: ARI:0001220 Autoimmune enteropathy (high); ARI:0001080 Type 1 diabetes mellitus (high); ARI:0001048 Autoimmune thyroiditis (medium). Proposed in notebook/disease-hierarchy/proposed_parents.tsv (ARI#138)</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001107">
@@ -16622,6 +16647,7 @@ It is under debate whether collagenous and lymphocytic colitis are different pha
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001130">
   <rdf:type rdf:resource="#AutoimmuneDisease"/>
+  <hasParentCategory rdf:resource="#Category_Combination"/>
   <involvesAntigen rdf:resource="#Antigen_0001130_1"/>
   <affectsCellTissueOrOrgan rdf:resource="#Cell_0001130_1"/>
   <affectsCellTissueOrOrgan rdf:resource="#Cell_0001130_2"/>
@@ -16695,6 +16721,7 @@ It is under debate whether collagenous and lymphocytic colitis are different pha
   <prevalenceWorldPer100k rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.0</prevalenceWorldPer100k>
   <ARI_PrevalenceDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Worldwide prevalence: 1.0 cases per 25,000 to 50,000. US prevalence: 1.0 cases per 22,727 to 31,250.</ARI_PrevalenceDesc>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-12T21:18:31+00:00 | Leon Islas | Prevalence and incidence from ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 142: prevalenceWorldPer100k 3.0 from the Worldwide prevalence "1.0 cases per 25,000 to 50,000" (midpoint of the range); prevalencePer100k 3.8 from the US prevalence "1.0 cases per 22,727 to 31,250" (midpoint of the range); ARI_PrevalenceDesc rewritten with every figure and note.</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-14 | Claude | Added parent category: Combination disease. Components: ARI:0001196 Systemic lupus erythematosus (high); ARI:0001198 Systemic sclerosis (high); ARI:0001162 Polymyositis (high). Proposed in notebook/disease-hierarchy/proposed_parents.tsv (ARI#138)</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001130_1183">
@@ -18881,6 +18908,7 @@ The specific location of vasculitis inflammation determines what tissue or organ
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001157">
   <rdf:type rdf:resource="#AutoimmuneDisease"/>
+  <hasParentCategory rdf:resource="#Category_Combination"/>
   <involvesAntigen rdf:resource="#Antigen_0001157_1"/>
   <involvesAntigen rdf:resource="#Antigen_0001157_2"/>
   <involvesAntigen rdf:resource="#Antigen_0001157_3"/>
@@ -18950,6 +18978,7 @@ The specific location of vasculitis inflammation determines what tissue or organ
   <prevalenceWorldPer100k rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.75</prevalenceWorldPer100k>
   <ARI_PrevalenceDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Worldwide prevalence: 1.0 cases per 100,000 to 200,000. US prevalence: Extremely rare.</ARI_PrevalenceDesc>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-12T21:18:31+00:00 | Leon Islas | Prevalence and incidence from ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 168: prevalenceWorldPer100k 0.75 from the Worldwide prevalence "1.0 cases per 100,000 to 200,000" (midpoint of the range); ARI_PrevalenceDesc rewritten with every figure and note.</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-14 | Claude | Added parent category: Combination disease. Components: ARI:0001006 Addison's disease (high); ARI:0001034 Autoimmune hypoparathyroidism (high). Proposed in notebook/disease-hierarchy/proposed_parents.tsv (ARI#138)</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001157_1484">
@@ -19032,6 +19061,7 @@ The specific location of vasculitis inflammation determines what tissue or organ
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001158">
   <rdf:type rdf:resource="#AutoimmuneDisease"/>
+  <hasParentCategory rdf:resource="#Category_Combination"/>
   <involvesAntigen rdf:resource="#Antigen_0001158_1"/>
   <involvesAntigen rdf:resource="#Antigen_0001158_2"/>
   <involvesAntigen rdf:resource="#Antigen_0001158_3"/>
@@ -19113,6 +19143,7 @@ The specific location of vasculitis inflammation determines what tissue or organ
   <prevalenceWorldPer100k rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.5</prevalenceWorldPer100k>
   <ARI_PrevalenceDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Worldwide prevalence: 1.0 cases per 20,000 to 50,000. US prevalence: Extremely rare.</ARI_PrevalenceDesc>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-12T21:18:31+00:00 | Leon Islas | Prevalence and incidence from ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 169: prevalenceWorldPer100k 3.5 from the Worldwide prevalence "1.0 cases per 20,000 to 50,000" (midpoint of the range); ARI_PrevalenceDesc rewritten with every figure and note.</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-14 | Claude | Added parent category: Combination disease. Components: ARI:0001006 Addison's disease (high); ARI:0001048 Autoimmune thyroiditis (high); ARI:0001080 Type 1 diabetes mellitus (high). Proposed in notebook/disease-hierarchy/proposed_parents.tsv (ARI#138)</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001158_1498">
@@ -19213,6 +19244,7 @@ The specific location of vasculitis inflammation determines what tissue or organ
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001159">
   <rdf:type rdf:resource="#AutoimmuneDisease"/>
+  <hasParentCategory rdf:resource="#Category_Combination"/>
   <involvesAntigen rdf:resource="#Antigen_0001159_1"/>
   <involvesAntigen rdf:resource="#Antigen_0001159_2"/>
   <involvesAntigen rdf:resource="#Antigen_0001159_3"/>
@@ -19274,6 +19306,7 @@ The specific location of vasculitis inflammation determines what tissue or organ
   <prevalenceWorldPer100k rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">60.0</prevalenceWorldPer100k>
   <ARI_PrevalenceDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Worldwide prevalence: 1.0 cases per 1,000 to 5,000. US prevalence: Extremely rare.</ARI_PrevalenceDesc>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-12T21:18:31+00:00 | Leon Islas | Prevalence and incidence from ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 170: prevalenceWorldPer100k 60.0 from the Worldwide prevalence "1.0 cases per 1,000 to 5,000" (midpoint of the range); ARI_PrevalenceDesc rewritten with every figure and note.</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-14 | Claude | Added parent category: Combination disease. Components: ARI:0001048 Autoimmune thyroiditis (high); ARI:0001096 Graves' disease (medium); ARI:0001080 Type 1 diabetes mellitus (medium); ARI:0001031 Autoimmune gastritis (medium); ARI:0001209 Vitiligo (medium); ARI:0001010 Alopecia areata (medium). Proposed in notebook/disease-hierarchy/proposed_parents.tsv (ARI#138)</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001159_1515">
@@ -19362,6 +19395,7 @@ The specific location of vasculitis inflammation determines what tissue or organ
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001160">
   <rdf:type rdf:resource="#AutoimmuneDisease"/>
+  <hasParentCategory rdf:resource="#Category_Combination"/>
   <affectsCellTissueOrOrgan rdf:resource="#Cell_0001160_1"/>
   <hasAntibody rdf:resource="#Ab_0001160_1"/>
   <involvesTCell rdf:resource="#T_0001160_1"/>
@@ -19422,6 +19456,7 @@ The specific location of vasculitis inflammation determines what tissue or organ
   <prevalenceWorldPer100k rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.1</prevalenceWorldPer100k>
   <ARI_PrevalenceDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Worldwide prevalence: 1.0 cases per 1,000,000; Extremely rare. US prevalence: Extremely rare.</ARI_PrevalenceDesc>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-12T21:18:31+00:00 | Leon Islas | Prevalence and incidence from ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 171: prevalenceWorldPer100k 0.1 from the Worldwide prevalence "1.0 cases per 1,000,000; Extremely rare"; ARI_PrevalenceDesc rewritten with every figure and note.</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-14 | Claude | Added parent category: Combination disease. Components: ARI:0001006 Addison's disease (high). Proposed in notebook/disease-hierarchy/proposed_parents.tsv (ARI#138)</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001160_1530">
@@ -21050,6 +21085,7 @@ In cases where the cartilage is not visible, RP can cause heart valve abnormalit
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001180">
   <rdf:type rdf:resource="#AutoimmuneDisease"/>
   <hasParentDisease rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001051"/>
+  <hasParentCategory rdf:resource="#Category_Combination"/>
   <affectsCellTissueOrOrgan rdf:resource="#Cell_0001180_1"/>
   <hasAntibody rdf:resource="#Ab_0001180_1"/>
   <involvesTCell rdf:resource="#T_0001180_1"/>
@@ -21126,6 +21162,7 @@ The severity of cases may vary, with mild cases resolving in under a year and se
   <ARI_PrevalenceDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Worldwide prevalence: 1.0 cases per 1,000,000; Extremely rare. US prevalence: Extremely rare.</ARI_PrevalenceDesc>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-12T21:18:31+00:00 | Leon Islas | Prevalence and incidence from ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 189: prevalenceWorldPer100k 0.1 from the Worldwide prevalence "1.0 cases per 1,000,000; Extremely rare"; ARI_PrevalenceDesc rewritten with every figure and note.</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-14 | Claude | Added parent disease: ARI:0001051 Autoimmune vasculitis (is_a). Proposed in notebook/disease-hierarchy/proposed_parents.tsv (ARI#137)</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-14 | Claude | Added parent category: Combination disease. Components: ARI:0001027 Autoimmune disorder of inner ear (low). Proposed in notebook/disease-hierarchy/proposed_parents.tsv (ARI#138)</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001180_1752">
@@ -24193,6 +24230,7 @@ When mastocytosis is limited to the skin, it is called cutaneous mastocytosis, a
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001199">
   <rdf:type rdf:resource="#AutoimmuneDisease"/>
   <hasParentDisease rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001198"/>
+  <hasParentCategory rdf:resource="#Category_Combination"/>
   <involvesAntigen rdf:resource="#Antigen_0001199_1"/>
   <affectsCellTissueOrOrgan rdf:resource="#Cell_0001199_1"/>
   <affectsCellTissueOrOrgan rdf:resource="#Cell_0001199_2"/>
@@ -24285,6 +24323,7 @@ To be diagnosed with CREST, you must have 3 out of the 5 symptoms.</rdfs:comment
   <ARI_PrevalenceDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Worldwide prevalence: 1.0 cases per 5,000 to 6,667. US prevalence: 1.0 cases per 303,030 to 384,615. Note on the US figure: Searched afterwards. Metric type identified from academic literature (prevalence).</ARI_PrevalenceDesc>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-12T21:18:31+00:00 | Leon Islas | Prevalence and incidence from ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 208: prevalenceWorldPer100k 17.5 from the Worldwide prevalence "1.0 cases per 5,000 to 6,667" (midpoint of the range); prevalencePer100k 0.295 from the US prevalence "1.0 cases per 303,030 to 384,615" (midpoint of the range); ARI_PrevalenceDesc rewritten with every figure and note.</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-14 | Claude | Added parent disease: ARI:0001198 Systemic sclerosis (is_a). Proposed in notebook/disease-hierarchy/proposed_parents.tsv (ARI#137)</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-14 | Claude | Added parent category: Combination disease. Components: ARI:0001176 Secondary Raynaud's phenomenon (high). Proposed in notebook/disease-hierarchy/proposed_parents.tsv (ARI#138)</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001199_643">
@@ -26219,6 +26258,7 @@ Some cases of this disease are caused by medications and are not autoimmune.</rd
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001213">
   <rdf:type rdf:resource="#AutoimmuneDisease"/>
   <hasParentDisease rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001013"/>
+  <hasParentCategory rdf:resource="#Category_Combination"/>
   <targetsTissue rdf:resource="#Tissue_NervousSystem"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morvan syndrome is a rare, life-threatening autoimmune disorder associated with anti- autoantibodies targeting CASPR2 (CASPR2-IgG). Morvan syndrome is characterized by the combination of severe peripheral nerve hyperexcitability with agrypnia excitata, a sleep disorder characterized by insomnia, behavioral disturbances, and visual hallucinations. There is a clinical overlap with the other autoimmune disorders associated with CASPR2-IgG, such as autoimmune limbic encephalitis, which may also feature behavioral disturbances and insomnia, and Isaacs syndrome (a peripheral nerve hyperexcitability syndrome). However, sleep, motor, and autonomic manifestations are prominent in Morvan syndrome, which also appears to have distinctive immunological features.</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morvan syndrome</rdfs:label>
@@ -26234,6 +26274,7 @@ Some cases of this disease are caused by medications and are not autoimmune.</rd
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T19:05:07+00:00 | user | Edited: snomed</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-07T19:08:44+00:00 | user | Edited: mesh</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-04T17:37:37+00:00 | KrishnaTO | Cross-reference review: no term in MESH</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-14 | Claude | Added parent category: Combination disease. Components: ARI:0001144 Neuromyotonia (high). Proposed in notebook/disease-hierarchy/proposed_parents.tsv (ARI#138)</ARI_ChangeLog>
   <ARI_SNOMED rdf:datatype="http://www.w3.org/2001/XMLSchema#string">763803004</ARI_SNOMED>
   <ARI_UMLS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C3854373</ARI_UMLS>
   <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0008718</ARI_MONDO>
