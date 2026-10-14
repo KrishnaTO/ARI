@@ -8,9 +8,10 @@ diseases, each with a reason and confidence, for ARI#137 (subtype hierarchy) and
 several of those were code errors or ran in the wrong direction. This file is the curator-facing
 proposal: 94 `is_a`/`manifestation_of` links (49 of them new, mostly vasculitides by Chapel Hill
 2012 and encephalitides by Graus 2016), 32 `component_of` links for combination diseases (Evans,
-MCTD, the polyglandular syndromes, IPEX, antisynthetase, Felty, Morvan, CREST), 17 rejections of
-report 11 links, and 2 duplicates to merge (CREST Syndrome into lcSSc; the two nodopathy entries).
-Nothing is written to the ontology yet.
+MCTD, the polyglandular syndromes, IPEX, antisynthetase, Felty, Morvan, CREST), 18 rejections of
+report 11 links, and 1 duplicate to merge (the two nodopathy entries). CREST Syndrome under lcSSc
+was first marked a duplicate; on review it is a rejection of the parent link, since 0001212 should
+be merged into 0001199 rather than nested under it.
 
 `proposed_hierarchy.owl` (built by `build_proposed_hierarchy_owl.py`) shows the same proposal as a
 class tree for Protégé, so curators can review the hierarchy's shape rather than read 145 rows.

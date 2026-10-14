@@ -1330,7 +1330,7 @@
 <owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001212">
     <rdfs:label>CREST Syndrome</rdfs:label>
     <ariId>ARI:0001212</ariId>
-    <rdfs:subClassOf rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001199"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease-proposed-hierarchy#ARIDisease"/>
 </owl:Class>
 
 <owl:Class rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001213">
@@ -2616,15 +2616,6 @@
     <relation>is_a</relation>
     <confidence>high</confidence>
     <reason>Warm (IgG) AIHA is the commonest form of AIHA.</reason>
-</owl:Axiom>
-
-<owl:Axiom>
-    <owl:annotatedSource rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001212"/>
-    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-    <owl:annotatedTarget rdf:resource="https://diseases.autoimmuneregistry.org/disease/ARI_0001199"/>
-    <relation>duplicate_of</relation>
-    <confidence>high</confidence>
-    <reason>'CREST syndrome' is already a synonym of 0001199, whose definition is the CREST text, and both carry ICD-10 M34.1. Merge 0001212 into 0001199 instead of nesting it.</reason>
 </owl:Axiom>
 
 <owl:Axiom>

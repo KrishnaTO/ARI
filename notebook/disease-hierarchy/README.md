@@ -42,6 +42,6 @@ rows are subclass links; combination diseases sit under *Combination disease* wi
 carries its relation, confidence and reason as axiom annotations (select the class, then the
 annotation icon on the SubClass Of entry). Rerun the script after editing the TSV.
 
-Nothing here is written to the ontology yet. Curators accept or reject rows; accepted `is_a`,
-`manifestation_of` and `component_of` rows become `hasParentDisease` (or a component property,
-if one is added for #138).
+The `is_a` and `manifestation_of` rows are applied to the ontology as `hasParentDisease`.
+`component_of` rows wait for a component property (#138); `duplicate_of` rows are merges, and
+`reject` rows are not applied.
