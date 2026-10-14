@@ -13,3 +13,22 @@ Evidence, all local: master list `Diseases`/`Subtypes` sheets, `hasParentDisease
 `ontologies/ari_t1d.owl`, SNOMED is-a from `snomed/CONCEPT_ANCESTOR.csv`, and DOID is_a from
 `doid.owl` over the report 6 DOID matches (`notebook/ari-grounding/doid_matches_all.csv`).
 See `data/4-reports/README.md` section 11 for the link types and review flag.
+
+## Proposed parents (ARI#137, ARI#138)
+
+`proposed_parents.tsv` is a hand-curated proposal, not script output: parents for listed diseases
+taken from other listed diseases, each with a reason and a confidence. It confirms, refines or
+rejects report 11's links and adds new ones. The `Report 11` column shows the matching report 11
+link, or `new`.
+
+| Relation | Meaning |
+|----------|---------|
+| `is_a` | The child is a subtype of the parent (#137) |
+| `manifestation_of` | The child is an organ manifestation or complication of the parent; group it under the parent (#137) |
+| `component_of` | The child is a combination disease and the parent is one of its listed components (#138) |
+| `duplicate_of` | The two entries are the same disease; merge the child into the parent rather than nesting it |
+| `reject` | Report 11's link should not become a parent link; the reason says what to do instead |
+
+Nothing here is written to the ontology yet. Curators accept or reject rows; accepted `is_a`,
+`manifestation_of` and `component_of` rows become `hasParentDisease` (or a component property,
+if one is added for #138).

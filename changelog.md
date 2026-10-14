@@ -1,5 +1,17 @@
 # Changelog
 
+## claude/disease-parent-associations-343ec4
+
+Adds `notebook/disease-hierarchy/proposed_parents.tsv`: 145 proposed parent links between listed
+diseases, each with a reason and confidence, for ARI#137 (subtype hierarchy) and ARI#138
+(combination diseases). Report 11 only found links that a source database already had, and
+several of those were code errors or ran in the wrong direction. This file is the curator-facing
+proposal: 94 `is_a`/`manifestation_of` links (49 of them new, mostly vasculitides by Chapel Hill
+2012 and encephalitides by Graus 2016), 32 `component_of` links for combination diseases (Evans,
+MCTD, the polyglandular syndromes, IPEX, antisynthetase, Felty, Morvan, CREST), 17 rejections of
+report 11 links, and 2 duplicates to merge (CREST Syndrome into lcSSc; the two nodopathy entries).
+Nothing is written to the ontology yet.
+
 ## claude/disease-hierarchy
 
 Adds report `11_Disease_Hierarchy.xlsx`: parent/child relations between the listed core
