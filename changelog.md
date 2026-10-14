@@ -16,6 +16,15 @@ Nothing is written to the ontology yet.
 class tree for Protégé, so curators can review the hierarchy's shape rather than read 145 rows.
 Each link keeps its relation, confidence and reason as axiom annotations; rejected rows are left out.
 
+**Applied to the ontology (ARI#137):** every `is_a` and `manifestation_of` row is now a
+`hasParentDisease` link in `ontologies/ari_t1d.owl`, low-confidence rows included: 90 new links on
+81 diseases (4 were already there), each disease with an `ARI_ChangeLog` entry naming the parents
+added. `hasParentDisease` goes from 5 links to 95, with 86 diseases under a parent and no cycles.
+Eleven diseases get two parents (e.g. polyarteritis nodosa under Autoimmune vasculitis and
+Necrotizing vasculitis); the editor shows a disease under each of its parents. Not applied:
+`component_of` (#138 needs a property for it first), `duplicate_of` and `reject`, so existing links
+such as CREST Syndrome under lcSSc are untouched.
+
 ## claude/disease-hierarchy
 
 Adds report `11_Disease_Hierarchy.xlsx`: parent/child relations between the listed core
