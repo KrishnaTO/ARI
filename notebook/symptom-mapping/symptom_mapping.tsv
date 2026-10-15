@@ -1,704 +1,704 @@
-Symptom ID	Symptom	Mapping	SYMP ID	SYMP Label	Parent Symptom	Merged Into
-ARIS:0000001	A feeling of fullness or pressure in the chest or abdomen that can cause difficulty breathing or eating	broader	SYMP:0000188	abdominal discomfort		
-ARIS:0000002	A salmon/pink-colored rash on chest and thighs during fever	broader	SYMP:0000487	rash	Rash	
-	Abdominal bloating	merged				Bloating
-ARIS:0000003	Abdominal cramps	exact	SYMP:0000001	abdominal cramp	Cramps	
-ARIS:0000004	Abdominal discomfort	exact	SYMP:0000188	abdominal discomfort		
-ARIS:0000005	Abdominal pain	exact	SYMP:0000457	abdominal pain	Pain	
-ARIS:0000006	Abnormal bladder control	broader	SYMP:0000486	urinary system symptom		
-ARIS:0000007	Abnormal growths/lesions on the skin that may be painful	broader	SYMP:0000092	skin lesion	Lesions	
-ARIS:0000008	Abnormal lumps below skin	exact	SYMP:0000556	localized superficial lump		
-ARIS:0000009	Abnormal movement	broader	SYMP:0000480	nervous system symptom		
-ARIS:0000010	Abnormal skin blood vessels	broader	SYMP:0000488	skin and integumentary tissue symptom		
-	Absence of eyelashes	merged				Loss of eyelashes
-ARIS:0000011	Absent menstrual period	broader	SYMP:0000196	reproductive system symptom		
-ARIS:0000012	Accumulation of fluid in the abdomen	exact	SYMP:0000526	ascites		
-ARIS:0000013	Acid reflux/heartburn	exact	SYMP:0000423	pyrosis		
-ARIS:0000014	Acute/subacute limbic amnesia and confusion	broader	SYMP:0000016	confusion	Confusion	
-	After breakout:	not a symptom				
-ARIS:0000015	Aggression	exact	SYMP:0000681	aggressive behavior	Behavioral changes	
-	Airways:	not a symptom				
-	Alopecia	merged				Hair loss
-ARIS:0000016	Altered level of consciousness	exact	SYMP:0000482	alteration of consciousness		
-	An increase in perspiration or warm, moist skin	merged				Excessive sweating
-ARIS:0000017	Anorexia	exact	SYMP:0000523	anorexia		
-ARIS:0000018	Anxiety	exact	SYMP:0000412	anxiety		
-ARIS:0000019	Anxiety in children	broader	SYMP:0000412	anxiety	Anxiety	
-	Apparent flashes of light	merged				Seeing flashing lights
-	Arises in younger individuals, usually under the age of 70 years	not a symptom				
-ARIS:0000020	Arm pain	broader	SYMP:0000099	pain	Pain	
-ARIS:0000021	Arm pain upon exertion	broader	SYMP:0000099	pain	Arm pain	
-ARIS:0000022	Arm weakness	exact	SYMP:0000223	arm weakness	Weakness	
-	Ascending aortic aneurysm / root dilation on imaging	not a symptom				
-	Asymptomatic presentation prior to dissection or rupture	not a symptom				
-ARIS:0000023	Attention-span problems	exact	SYMP:0019184	limited attention	Cognitive impairment	
-ARIS:0000024	Autoimmune cytopenias (autoimmune thrombocytopenia, AIHA, neutropenia)	broader	SYMP:0000691	cytopenia	Low blood counts	
-ARIS:0000025	Autonomic dysregulation and neurogenic bladder	broader	SYMP:0000480	nervous system symptom		
-ARIS:0000026	Back pain	exact	SYMP:0000006	backache	Pain	
-ARIS:0000027	Backwards displacement of eye	broader	SYMP:0019163	eye symptom		
-ARIS:0000028	Bald patches	broader	SYMP:0000440	hair loss	Hair loss	
-ARIS:0000029	Beard hair loss	broader	SYMP:0000440	hair loss	Hair loss	
-ARIS:0000030	Bedwetting	exact	SYMP:0000606	nocturnal enuresis		
-	Before breakout:	not a symptom				
-ARIS:0000031	Behavioral changes	exact	SYMP:0019182	behavioral symptom		
-ARIS:0000032	Behavioral changes, confusion, and psychosis	broader	SYMP:0019182	behavioral symptom	Behavioral changes	
-ARIS:0000033	Bladder changes	broader	SYMP:0000486	urinary system symptom		
-ARIS:0000034	Bladder pain	broader	SYMP:0000099	pain	Pain	
-ARIS:0000035	Bleeding between menstrual cycles	exact	SYMP:0000855	metrorrhagia		
-ARIS:0000036	Bleeding blisters	broader	SYMP:0000009	blister	Blisters	
-ARIS:0000037	Bleeding gums	exact	SYMP:0000742	gum bleeding		
-ARIS:0000038	Blindness	exact	SYMP:0000008	blindness	Vision loss	
-ARIS:0000039	Blister inside mouth	broader	SYMP:0000009	blister	Blisters	
-ARIS:0000040	Blister inside throat	broader	SYMP:0000009	blister	Blisters	
-ARIS:0000041	Blister on lips	broader	SYMP:0000009	blister	Blisters	
-ARIS:0000042	Blisters	exact	SYMP:0000009	blister		
-ARIS:0000043	Blisters are painful but do not itch	broader	SYMP:0000009	blister	Blisters	
-ARIS:0000044	Blisters in infants	broader	SYMP:0000009	blister	Blisters	
-ARIS:0000045	Blisters on eyes	broader	SYMP:0000009	blister	Blisters	
-ARIS:0000046	Blisters on skin	broader	SYMP:0000009	blister	Blisters	
-ARIS:0000047	Blisters on various mucous membranes	broader	SYMP:0000009	blister	Blisters	
-ARIS:0000048	Blisters that rupture easily, leaving open sores, which may ooze and become infected.	broader	SYMP:0000009	blister	Blisters	
-ARIS:0000049	Bloating	exact	SYMP:0000420	bloating		
-ARIS:0000050	Bloating during menstrual periods	broader	SYMP:0000420	bloating	Bloating	
-ARIS:0000051	Blood in stool	exact	SYMP:0000229	bloody stool		
-ARIS:0000052	Blood in urine	exact	SYMP:0000040	hematuria		
-ARIS:0000053	Bluish coloring of hands/feet	broader	SYMP:0000537	cyanosis		
-ARIS:0000054	Blurred vision	exact	SYMP:0000012	blurred vision	Vision problems	
-ARIS:0000055	Body hair loss	broader	SYMP:0000440	hair loss	Hair loss	
-ARIS:0000056	Bone pain	exact	SYMP:0020023	bone pain	Pain	
-ARIS:0000057	Bowel changes	broader	SYMP:0000459	digestive system symptom		
-ARIS:0000058	Bowel movement urgency	broader	SYMP:0000459	digestive system symptom	Bowel changes	
-ARIS:0000059	Brain fog	exact	SYMP:0000233	inability to think clearly	Cognitive impairment	
-	Brain:	not a symptom				
-ARIS:0000060	Brittle fingernails	broader	SYMP:0000488	skin and integumentary tissue symptom	Changes in nails	
-ARIS:0000061	Bulging eyes	exact	SYMP:0000896	exophthalmos		
-ARIS:0000062	Bumps on skin containing blood	broader	SYMP:0000009	blister	Blisters	
-ARIS:0000063	Bumps on skin containing pus	exact	SYMP:0019167	pustule		
-	Burning	merged				Burning sensation
-	Burning feeling when urinating	merged				Burning with urination
-ARIS:0000064	Burning pain in the upper abdomen that may become better or worse with eating	broader	SYMP:0000542	epigastric abdominal pain	Abdominal pain	
-ARIS:0000065	Burning rash	broader	SYMP:0000487	rash	Rash	
-ARIS:0000066	Burning sensation	broader	SYMP:0000745	change in body sensation		
-ARIS:0000067	Burning sensation in hand	broader	SYMP:0000745	change in body sensation	Burning sensation	
-ARIS:0000068	Burning sensation in wrist	broader	SYMP:0000745	change in body sensation	Burning sensation	
-ARIS:0000069	Burning skin	broader	SYMP:0000536	disturbance of skin sensation	Burning sensation	
-ARIS:0000070	Burning with urination	broader	SYMP:0000485	dysuria	Pain during urination	
-ARIS:0000071	Burning/gritty sensation in eyes	broader	SYMP:0019163	eye symptom	Eye irritation	
-ARIS:0000072	Butterfly-shaped rash	broader	SYMP:0000487	rash	Rash	
-	Butterfly-shaped rash face that covers the cheeks and bridge of the nose	merged				Butterfly-shaped rash
-ARIS:0000073	Canker sores	exact	SYMP:0020001	apthous ulcer	Mouth sores	
-ARIS:0000074	Carpal tunnel syndrome	broader	SYMP:0000480	nervous system symptom		
-ARIS:0000075	Causes blisters on the chest, back and shoulders	broader	SYMP:0000009	blister	Blisters	
-ARIS:0000076	Change in facial expression	broader	SYMP:0000480	nervous system symptom		
-ARIS:0000077	Change in mental status	exact	SYMP:0000682	altered mental status		
-ARIS:0000078	Change in voice	exact	SYMP:0000559	voice disturbance		
-ARIS:0000079	Changes in hair	exact	SYMP:0020040	hair symptom		
-ARIS:0000080	Changes in nails	broader	SYMP:0000488	skin and integumentary tissue symptom		
-ARIS:0000081	Changes in senses	broader	SYMP:0000892	sensation perception		
-ARIS:0000082	Chest infections	broader	SYMP:0000514	respiratory system and chest symptom	Recurrent infections	
-ARIS:0000083	Chest pain	exact	SYMP:0000576	chest pain	Pain	
-ARIS:0000084	Chills	exact	SYMP:0019174	chills		
-ARIS:0000085	Chronic lymphadenopathy and hepatosplenomegaly	broader	SYMP:0017795	hemic and immune system symptom		
-ARIS:0000086	Churning in the stomach	broader	SYMP:0000188	abdominal discomfort		
-ARIS:0000087	Circular rash	broader	SYMP:0000487	rash	Rash	
-ARIS:0000088	Clumsiness, particularly in the morning or after naps	broader	SYMP:0000079	coordination symptom	Impaired coordination	
-ARIS:0000089	Cognitive derealization, apathy, and altered perception	broader	SYMP:0000682	altered mental status		
-ARIS:0000090	Cognitive impairment	broader	SYMP:0000410	neurological and physiological symptom		
-ARIS:0000091	Cold feet	broader	SYMP:0000528	cardiovascular system symptom	Coldness	
-ARIS:0000092	Cold hands	broader	SYMP:0000528	cardiovascular system symptom	Coldness	
-ARIS:0000093	Cold intolerance	broader	SYMP:0000567	general symptom		
-ARIS:0000094	Coldness	broader	SYMP:0000567	general symptom		
-ARIS:0000095	Coma	exact	SYMP:0000605	coma		
-	Common:	not a symptom				
-	Completely normal cognition, sleep, and mood between distinct episodes	not a symptom				
-ARIS:0000096	Compulsive behavior	broader	SYMP:0019182	behavioral symptom	Behavioral changes	
-ARIS:0000097	Compulsive megaphagia / binge eating during episodes	broader	SYMP:0000524	polyphagia	Increased appetite (polyphagia)	
-	Concentration loss	merged				Difficulty concentrating
-ARIS:0000098	Confusion	exact	SYMP:0000016	confusion		
-ARIS:0000099	Constant pain behind the eye	exact	SYMP:0000764	retrobulbar pain	Eye pain	
-ARIS:0000100	Constipation	exact	SYMP:0019180	constipation		
-ARIS:0000101	Corneal ulceration	exact	SYMP:0000241	corneal ulcers		
-ARIS:0000102	Cough	exact	SYMP:0000614	cough		
-ARIS:0000103	Coughing up blood	exact	SYMP:0000517	hemoptysis		
-ARIS:0000104	Cramps	exact	SYMP:0000689	cramp		
-ARIS:0000105	Crusted ulcers	broader	SYMP:0000136	skin ulcer	Skin sores	
-ARIS:0000106	Curling of upper lip	broader	SYMP:0000386	mouth symptom		
-ARIS:0000107	Damage to dental enamel	broader	SYMP:0000386	mouth symptom		
-ARIS:0000108	Dark spots in vision	broader	SYMP:0000627	disturbed vision	Vision problems	
-ARIS:0000109	Dark urine	exact	SYMP:0020043	dark urine		
-	Daytime sleepiness	merged				Drowsiness
-ARIS:0000110	Decreased movement	exact	SYMP:0000858	hypokinesia	Movement difficulty	
-ARIS:0000111	Decreased sweating	broader	SYMP:0000488	skin and integumentary tissue symptom		
-ARIS:0000112	Deep thoracic or back pain	broader	SYMP:0000006	backache	Back pain	
-ARIS:0000113	Deep vein thrombosis	broader	SYMP:0000528	cardiovascular system symptom		
-ARIS:0000114	Dehydration	exact	SYMP:0000020	dehydration		
-ARIS:0000115	Delayed growth	broader	SYMP:0000464	lack of expected normal physiological development in childhood		
-ARIS:0000116	Delayed muscle relaxation after strong contraction	broader	SYMP:0000183	muscle symptom		
-ARIS:0000117	Delayed puberty	broader	SYMP:0000464	lack of expected normal physiological development in childhood		
-ARIS:0000118	Dementia	broader	SYMP:0000410	neurological and physiological symptom	Cognitive impairment	
-ARIS:0000119	Depression	exact	SYMP:0000022	depression	Mood changes	
-ARIS:0000120	Deterioration in school performance	broader	SYMP:0000410	neurological and physiological symptom	Cognitive impairment	
-ARIS:0000121	Development regression	broader	SYMP:0000473	nutrition, metabolism, and development symptom		
-ARIS:0000122	Diabetic ketoacidosis (DKA)	broader	SYMP:0000473	nutrition, metabolism, and development symptom		
-ARIS:0000123	Diarrhea	exact	SYMP:0000570	diarrhea		
-ARIS:0000124	Different colored eyes	broader	SYMP:0019163	eye symptom		
-ARIS:0000125	Different sized pupils	exact	SYMP:0000253	anisocoria	Dysfunction of pupils	
-	Difficulty breathing	merged				Shortness of breath
-ARIS:0000126	Difficulty chewing	broader	SYMP:0000386	mouth symptom		
-ARIS:0000127	Difficulty climbing stairs	broader	SYMP:0000891	musculoskeletal system symptom	Movement difficulty	
-ARIS:0000128	Difficulty concentrating	exact	SYMP:0020029	concentration difficulty	Cognitive impairment	
-ARIS:0000129	Difficulty eating	exact	SYMP:0020046	feeding problem		
-ARIS:0000130	Difficulty exercising	broader	SYMP:0000567	general symptom		
-ARIS:0000131	Difficulty finding words	exact	SYMP:0000214	anomia	Difficulty speaking	
-ARIS:0000132	Difficulty moving from sitting to standing	broader	SYMP:0000891	musculoskeletal system symptom	Movement difficulty	
-ARIS:0000133	Difficulty moving jaw	broader	SYMP:0000891	musculoskeletal system symptom		
-	Difficulty retaining information	merged				Memory problems
-ARIS:0000134	Difficulty seeing color	exact	SYMP:0020005	acquired color vision deficiency	Vision problems	
-ARIS:0000135	Difficulty speaking	broader	SYMP:0019185	communication difficulty		
-ARIS:0000136	Difficulty swallowing	exact	SYMP:0000493	dysphagia		
-ARIS:0000137	Difficulty understanding basic concepts	broader	SYMP:0000410	neurological and physiological symptom	Cognitive impairment	
-ARIS:0000138	Difficulty understanding speech	broader	SYMP:0019185	communication difficulty		
-ARIS:0000139	Difficulty urinating	broader	SYMP:0000573	urinary stream symptom		
-ARIS:0000140	Difficulty walking	exact	SYMP:0000479	abnormality of gait	Movement difficulty	
-ARIS:0000141	Discomfort in legs that begins after lying down or sitting for a long time	broader	SYMP:0000745	change in body sensation		
-	Discomfort in legs that is relieved by movement	merged				Discomfort in legs that begins after lying down or sitting for a long time
-	Discomfort in legs that occur mainly at night	merged				Discomfort in legs that begins after lying down or sitting for a long time
-ARIS:0000142	Discomfort, which is generally greater if lichen sclerosus appears on or around your genital or anal areas	broader	SYMP:0000488	skin and integumentary tissue symptom		
-ARIS:0000143	Disorders of finger and toe nails	broader	SYMP:0000488	skin and integumentary tissue symptom	Changes in nails	
-ARIS:0000144	Disorientation	exact	SYMP:0000023	disorientation		
-ARIS:0000145	Disturbed consciousness	exact	SYMP:0000625	conscious disturbance	Altered level of consciousness	
-ARIS:0000146	Dizziness	exact	SYMP:0000610	dizziness		
-	Does not cause mouth blisters	not a symptom				
-ARIS:0000147	Double vision	exact	SYMP:0000258	double vision	Vision problems	
-ARIS:0000148	Double vision, horizontal or vertical, that improves when one eye is closed	broader	SYMP:0000258	double vision	Double vision	
-ARIS:0000149	Drowsiness	exact	SYMP:0000024	drowsiness		
-ARIS:0000150	Dry cough	exact	SYMP:0000025	dry cough	Cough	
-ARIS:0000151	Dry eyes	broader	SYMP:0019163	eye symptom		
-ARIS:0000152	Dry mouth	exact	SYMP:0000260	dry mouth		
-ARIS:0000153	Dry skin	broader	SYMP:0000535	change in skin texture		
-ARIS:0000154	Dry, cracked skin that may bleed	broader	SYMP:0000535	change in skin texture	Dry skin	
-ARIS:0000155	Dull facial expression	broader	SYMP:0000480	nervous system symptom	Change in facial expression	
-ARIS:0000156	Dysfunction of pupils	exact	SYMP:0000417	pupil symptom		
-ARIS:0000157	Ear pain	exact	SYMP:0000437	earache	Pain	
-ARIS:0000158	Early intractable limbic seizures and temporal lobe status	broader	SYMP:0000124	seizure	Seizures	
-	Early stages:	not a symptom				
-ARIS:0000159	Early-onset multi-organ autoimmunity starting in infancy/childhood	broader	SYMP:0019138	immune system symptom		
-ARIS:0000160	Early-onset type 1 diabetes mellitus	broader	SYMP:0000473	nutrition, metabolism, and development symptom		
-	Ears:	not a symptom				
-ARIS:0000161	Easy bruising	exact	SYMP:0000406	bruise		
-ARIS:0000162	Eczema-like rash	broader	SYMP:0000487	rash	Rash	
-ARIS:0000163	Edema	exact	SYMP:0000538	edema	Swelling	
-ARIS:0000164	Elbow pain	exact	SYMP:0000441	elbow pain	Joint pain	
-ARIS:0000165	Electric-shock sensations that occur with certain head movements	broader	SYMP:0000435	paresthesia		
-ARIS:0000166	Empty feeling in the abdomen/stomach	broader	SYMP:0000188	abdominal discomfort		
-ARIS:0000167	Encephalopathy, confusion, and delirium	broader	SYMP:0000682	altered mental status	Confusion	
-	Epilepsy	merged				Epileptic seizures
-ARIS:0000168	Epileptic seizures	exact	SYMP:0000269	epileptic seizure	Seizures	
-ARIS:0000169	Erectile dysfunction	broader	SYMP:0000196	reproductive system symptom	Sexual dysfunction	
-ARIS:0000170	Euphoria	broader	SYMP:0019182	behavioral symptom	Mood changes	
-ARIS:0000171	Excessive bleeding	broader	SYMP:0000007	bleeding		
-ARIS:0000172	Excessive sweating	exact	SYMP:0019152	diaphoresis		
-ARIS:0000173	Eye discharge	exact	SYMP:0000281	eye discharge		
-ARIS:0000174	Eye inflammation	exact	SYMP:0000310	inflamed eyes		
-ARIS:0000175	Eye irritation	broader	SYMP:0019163	eye symptom		
-ARIS:0000176	Eye lesions	exact	SYMP:0019172	ocular lesion		
-ARIS:0000177	Eye pain	broader	SYMP:0000099	pain	Pain	
-ARIS:0000178	Eye sensitivity	broader	SYMP:0019163	eye symptom		
-ARIS:0000179	Eyebrow hair loss	broader	SYMP:0000440	hair loss	Hair loss	
-ARIS:0000180	Eyelid drooping	exact	SYMP:0000369	ptosis		
-	Eyes:	not a symptom				
-ARIS:0000181	Facial droop	broader	SYMP:0000706	facial weakness		
-ARIS:0000182	Facial flushing	exact	SYMP:0000844	face hyperemia		
-ARIS:0000183	Facial pain	broader	SYMP:0000099	pain	Pain	
-ARIS:0000184	Facial paralysis	exact	SYMP:0000283	facial paralysis	Paralysis	
-	Facial reddening	merged				Facial flushing
-	Failure of cervical mucus penetration on postcoital testing	not a symptom				
-ARIS:0000185	Failure to thrive	exact	SYMP:0000465	failure to thrive		
-ARIS:0000186	Fainting	exact	SYMP:0000407	syncope		
-ARIS:0000187	Falling	broader	SYMP:0020045	balance symptom	Unsteadiness	
-ARIS:0000188	Fast breathing	exact	SYMP:0000603	tachypnea		
-ARIS:0000189	Fast, irregular eye movements	broader	SYMP:0019163	eye symptom		
-ARIS:0000190	Fatigue	exact	SYMP:0019177	fatigue		
-ARIS:0000191	Fatty deposits on the skin around your eyes, your eyelids, or in the creases in your palms, soles, elbows or knees	broader	SYMP:0000488	skin and integumentary tissue symptom		
-ARIS:0000192	Fear	broader	SYMP:0000412	anxiety	Anxiety	
-ARIS:0000193	Feeling full quickly after eating	exact	SYMP:0000472	early satiety		
-ARIS:0000194	Feeling of fullness in the ear	broader	SYMP:0000392	ear symptom		
-ARIS:0000195	Feet spasms	broader	SYMP:0000689	cramp	Muscle spasms	
-ARIS:0000196	Fever	exact	SYMP:0000613	fever		
-ARIS:0000197	Finger pain	broader	SYMP:0000099	pain	Pain	
-ARIS:0000198	Finger tremor	broader	SYMP:0000162	tremor	Tremor	
-ARIS:0000199	Fingernails and toenails have dents, white spots, and roughness	broader	SYMP:0000488	skin and integumentary tissue symptom	Changes in nails	
-ARIS:0000200	Firm bumps of tissue under the skin on your arms	broader	SYMP:0000556	localized superficial lump	Abnormal lumps below skin	
-	Flare/remission pattern to symptoms	not a symptom				
-ARIS:0000201	Flat or slightly raised, painless rash with a ragged edge	broader	SYMP:0000487	rash	Rash	
-ARIS:0000202	Floaters in vision	broader	SYMP:0000627	disturbed vision	Vision problems	
-	Flu-like prodrome	merged				Flu-like symptoms
-ARIS:0000203	Flu-like symptoms	broader	SYMP:0000567	general symptom		
-ARIS:0000204	Fluctuating neurological symptoms (confusion, transient focal deficits, seizure, coma)	broader	SYMP:0000336	neurological dysfunction		
-	Fluid-dilled sacs	merged				Blisters
-ARIS:0000205	Foamy, frothy urine	broader	SYMP:0000486	urinary system symptom		
-ARIS:0000206	Food getting stuck in the esophagus after swallowing	broader	SYMP:0000493	dysphagia	Difficulty swallowing	
-ARIS:0000207	Foot pain	broader	SYMP:0000099	pain	Pain	
-	Forward displacement of eye	merged				Bulging eyes
-ARIS:0000208	Frequent bowel movements	broader	SYMP:0000459	digestive system symptom	Bowel changes	
-	Frequent infections	merged				Recurrent infections
-ARIS:0000209	Fulminant ketoacidosis	broader	SYMP:0000473	nutrition, metabolism, and development symptom	Diabetic ketoacidosis (DKA)	
-ARIS:0000210	Galactorrhea	broader	SYMP:0000196	reproductive system symptom		
-ARIS:0000211	Gangrene of extremities	broader	SYMP:0000593	gangrene		
-ARIS:0000212	Gas	exact	SYMP:0000509	flatulence		
-ARIS:0000213	Generalized areflexia	exact	SYMP:0000220	areflexia	Reduced reflexes	
-ARIS:0000214	Genital blisters	broader	SYMP:0000009	blister	Blisters	
-ARIS:0000215	Gnawing ache in the upper abdomen that may become better or worse with eating	broader	SYMP:0000542	epigastric abdominal pain	Abdominal pain	
-ARIS:0000216	Gradual weight loss	broader	SYMP:0000178	weight loss	Weight loss	
-ARIS:0000217	Gum enlargement	broader	SYMP:0000386	mouth symptom		
-ARIS:0000218	Hair loss	exact	SYMP:0000440	hair loss		
-ARIS:0000219	Hallucinations	exact	SYMP:0000607	hallucination	Psychosis	
-ARIS:0000220	Hand pain	broader	SYMP:0000099	pain	Pain	
-ARIS:0000221	Hand spasms	broader	SYMP:0000689	cramp	Muscle spasms	
-ARIS:0000222	Hand tremor	broader	SYMP:0000162	tremor	Tremor	
-ARIS:0000223	Hard to read fine print, drive, or recognize faces	broader	SYMP:0000627	disturbed vision	Vision problems	
-	Has prominent involvement of the head and neck	not a symptom				
-ARIS:0000224	Headache	exact	SYMP:0000504	headache	Pain	
-	Healing with minimal scarring	not a symptom				
-ARIS:0000225	Hearing loss	exact	SYMP:0000019	deafness		
-ARIS:0000226	Hearing loss that may fluctuate, particularly early in the course of the disease	broader	SYMP:0000019	deafness	Hearing loss	
-ARIS:0000227	Heart murmur	exact	SYMP:0000527	undiagnosed cardiac murmur		
-ARIS:0000228	Heart palpitations	exact	SYMP:0000530	palpitation		
-ARIS:0000229	Heaviness in chest	broader	SYMP:0020031	chest discomfort		
-ARIS:0000230	Heavy menstrual flow	exact	SYMP:0000756	menorrhagia		
-ARIS:0000231	Heavy vaginal discharge that has a foul odor	broader	SYMP:0000398	vaginal discharge		
-ARIS:0000232	Heel pain	broader	SYMP:0000099	pain	Foot pain	
-ARIS:0000233	Heel stiffness	broader	SYMP:0000891	musculoskeletal system symptom	Stiffness	
-ARIS:0000234	Hiccups	exact	SYMP:0000515	hiccough		
-ARIS:0000235	High shoulder blade	broader	SYMP:0000891	musculoskeletal system symptom		
-ARIS:0000236	High-pitched sound during breathing	exact	SYMP:0000513	stridor		
-ARIS:0000237	Hip pain	exact	SYMP:0000632	hip pain	Joint pain	
-ARIS:0000238	Hip stiffness	broader	SYMP:0000312	joint symptom	Joint stiffness	
-ARIS:0000239	Hives	exact	SYMP:0000434	urticaria		
-ARIS:0000240	Hoarseness	exact	SYMP:0019181	hoarseness	Change in voice	
-ARIS:0000241	Hunched posture	broader	SYMP:0000618	abnormal posture		
-ARIS:0000242	Hunger	broader	SYMP:0000244	alteration of appetite		
-ARIS:0000243	Hyperpigmentation	exact	SYMP:0000056	hyperpigmentation		
-ARIS:0000244	Hypersexuality and disinhibited behaviors	broader	SYMP:0019182	behavioral symptom	Behavioral changes	
-ARIS:0000245	Impaired coordination	exact	SYMP:0000304	impaired coordination		
-ARIS:0000246	In childhood-onset bullous pemphigoid associated with vaccination, the bullous lesions predominantly affect the palms, soles, and face	broader	SYMP:0000009	blister	Blisters	
-	In children:	not a symptom				
-	In comparison to bullous pemphigoid, eba:	not a symptom				
-	Inability to conceive after ≥1 year of unprotected intercourse with normal evaluations	merged				Infertility
-	Inability to move the eye	merged				Paralysis of eye muscles
-ARIS:0000247	Increased appetite (polyphagia)	exact	SYMP:0000524	polyphagia		
-ARIS:0000248	Increased calf muscle size	broader	SYMP:0000183	muscle symptom		
-ARIS:0000249	Increased frequency of urination	exact	SYMP:0000563	urinary frequency		
-	Increased thirst	merged				Polydipsia
-	Increased urination	merged				Polyuria
-	Increased urination at night	merged				Nocturia
-ARIS:0000250	Indigestion	exact	SYMP:0000422	dyspepsia		
-ARIS:0000251	Infertility	exact	SYMP:0000712	infertility		
-ARIS:0000252	Inflammation of the gums	broader	SYMP:0000386	mouth symptom		
-	Inflammatory EBA:	not a symptom				
-	Initial breakout:	not a symptom				
-ARIS:0000253	Interstitial pneumonia	broader	SYMP:0000354	pneumonitis		
-	Intestines:	not a symptom				
-ARIS:0000254	Involuntary movements	exact	SYMP:0000594	abnormal involuntary movement	Abnormal movement	
-	Involves mucous membranes	not a symptom				
-ARIS:0000255	Irregular heartbeat	exact	SYMP:0000287	arrhythmia		
-ARIS:0000256	Irritability	exact	SYMP:0000654	irritability	Mood changes	
-ARIS:0000257	Irritability / mood changes	broader	SYMP:0019182	behavioral symptom	Mood changes	
-ARIS:0000258	Irritability in children	broader	SYMP:0000654	irritability	Irritability	
-ARIS:0000259	Itching	exact	SYMP:0000432	itching		
-ARIS:0000260	Itchy blisters	broader	SYMP:0000009	blister	Blisters	
-ARIS:0000261	Itchy rash	broader	SYMP:0000487	rash	Rash	
-	Itchy skin	merged				Itching
-ARIS:0000262	Jaw pain when you open your mouth	broader	SYMP:0000099	pain	Pain	
-ARIS:0000263	Joint pain	exact	SYMP:0000064	joint pain	Pain	
-ARIS:0000264	Joint stiffness	broader	SYMP:0000312	joint symptom	Stiffness	
-ARIS:0000265	Joint tenderness	broader	SYMP:0020065	tenderness	Tenderness	
-	Joints:	not a symptom				
-ARIS:0000266	Knee pain	exact	SYMP:0000442	knee pain	Joint pain	
-ARIS:0000267	Knee stiffness	broader	SYMP:0000312	joint symptom	Joint stiffness	
-	Lack of sweat	merged				Decreased sweating
-ARIS:0000268	Lactose intolerance	broader	SYMP:0000459	digestive system symptom		
-ARIS:0000269	Large blisters	broader	SYMP:0000009	blister	Blisters	
-ARIS:0000270	Large blisters on lower abdomen, groin, upper thighs and arms that don't easily rupture when touched	broader	SYMP:0000009	blister	Large blisters	
-	Later stages:	not a symptom				
-ARIS:0000271	Leaking bumps or sores that heal very slowly and recur over time	broader	SYMP:0000136	skin ulcer	Skin sores	
-ARIS:0000272	Learning disability	broader	SYMP:0000410	neurological and physiological symptom	Cognitive impairment	
-ARIS:0000273	Leg pain	broader	SYMP:0000099	pain	Pain	
-ARIS:0000274	Leg stiffness	broader	SYMP:0000891	musculoskeletal system symptom	Stiffness	
-ARIS:0000275	Lesions	broader	SYMP:0000092	skin lesion		
-ARIS:0000276	Lightheadedness	exact	SYMP:0019179	lightheadedness	Dizziness	
-ARIS:0000277	Limited range of motion in affected areas	broader	SYMP:0000891	musculoskeletal system symptom		
-ARIS:0000278	Limping	exact	SYMP:0000875	lameness	Difficulty walking	
-ARIS:0000279	Limpness of the ear	broader	SYMP:0000392	ear symptom		
-ARIS:0000280	Lip ulcers	broader	SYMP:0000330	mouth sore	Mouth sores	
-	Lofgren's syndrome:	not a symptom				
-ARIS:0000281	Loose fatty stools that do not flush easily	exact	SYMP:0000147	steatorrhea		
-ARIS:0000282	Loss of bladder control	exact	SYMP:0000492	urinary incontinence	Abnormal bladder control	
-ARIS:0000283	Loss of bowel control	broader	SYMP:0000146	feces and droppings symptom	Bowel changes	
-ARIS:0000284	Loss of color in the tissues that line the inside of your mouth	broader	SYMP:0000386	mouth symptom		
-ARIS:0000285	Loss of consciousness	exact	SYMP:0000718	loss of consciousness		
-ARIS:0000286	Loss of eyelashes	broader	SYMP:0000440	hair loss	Hair loss	
-ARIS:0000287	Loss of feeling in feet	broader	SYMP:0000834	hypoesthesia	Numbness	
-ARIS:0000288	Loss of feeling in hands	broader	SYMP:0000834	hypoesthesia	Numbness	
-	Loss of hearing	merged				Hearing loss
-ARIS:0000289	Loss of low-light vision	broader	SYMP:0000320	vision symptom	Vision problems	
-ARIS:0000290	Loss of motor skills	broader	SYMP:0000891	musculoskeletal system symptom	Movement difficulty	
-ARIS:0000291	Loss of or change in color of the inner layer of your eye	broader	SYMP:0019163	eye symptom		
-ARIS:0000292	Loss of peripheral vision	broader	SYMP:0000321	loss of vision	Vision loss	
-ARIS:0000293	Loss of sensation	broader	SYMP:0000765	sensory disturbance		
-ARIS:0000294	Loss of teeth	broader	SYMP:0000386	mouth symptom		
-ARIS:0000295	Low blood counts	exact	SYMP:0000691	cytopenia		
-ARIS:0000296	Low neutrophil count:	broader	SYMP:0020060	low white blood cell count	Low blood counts	
-ARIS:0000297	Low platelet count:	exact	SYMP:0000114	thrombocytopenia	Low blood counts	
-ARIS:0000298	Low-grade fever	exact	SYMP:0000879	low-grade fever	Fever	
-ARIS:0000299	Lower back stiffness	broader	SYMP:0000891	musculoskeletal system symptom	Stiffness	
-ARIS:0000300	Lumps turn blue or yellow	broader	SYMP:0000488	skin and integumentary tissue symptom		
-	Lungs:	not a symptom				
-ARIS:0000301	Malaise	exact	SYMP:0019176	malaise		
-ARIS:0000302	Marked high-amplitude postural and action tremor	broader	SYMP:0000162	tremor	Tremor	
-ARIS:0000303	Marked psychiatric and behavioral changes (agitation, psychosis)	broader	SYMP:0019182	behavioral symptom	Behavioral changes	
-	Markedly decreased progressive sperm forward motility	not a symptom				
-ARIS:0000304	Memory problems	exact	SYMP:0000719	memory impairment	Cognitive impairment	
-	Men:	not a symptom				
-ARIS:0000305	Meningoencephalitis symptoms: subacute fever, severe headache, and neck stiffness	broader	SYMP:0000089	meningoencephalitis		
-ARIS:0000306	Mental decline	broader	SYMP:0000410	neurological and physiological symptom	Cognitive impairment	
-ARIS:0000307	Mental disorders	broader	SYMP:0019182	behavioral symptom		
-ARIS:0000308	Microangiopathic hemolytic anemia with schistocytes on blood smear	broader	SYMP:0000720	microangiopathic hemolytic anemia		
-ARIS:0000309	Migraine headaches	broader	SYMP:0000504	headache	Headache	
-ARIS:0000310	Migrating joint pain	broader	SYMP:0000064	joint pain	Joint pain	
-ARIS:0000311	Milky white patches on skin	broader	SYMP:0000184	change in skin color	Skin pigmentation loss	
-ARIS:0000312	Misalignment of jaw	broader	SYMP:0000387	head symptom		
-ARIS:0000313	Misalignment of teeth	broader	SYMP:0000386	mouth symptom		
-ARIS:0000314	Miscarriages	exact	SYMP:0000198	miscarriage		
-ARIS:0000315	Mood changes	broader	SYMP:0019182	behavioral symptom		
-	More general signs and symptoms, including:	not a symptom				
-ARIS:0000316	Mouth rash	broader	SYMP:0000487	rash	Rash	
-ARIS:0000317	Mouth sores	exact	SYMP:0000330	mouth sore		
-	Mouth ulcers	merged				Mouth sores
-ARIS:0000318	Movement difficulty	broader	SYMP:0000891	musculoskeletal system symptom		
-ARIS:0000319	Mucocutaneous, hematuric, and gastrointestinal bleeding	broader	SYMP:0000007	bleeding	Excessive bleeding	
-	Mucous membrane EBA:	not a symptom				
-ARIS:0000320	Mucous-membrane blisters that rupture easily	broader	SYMP:0000009	blister	Blisters	
-ARIS:0000321	Muscle cramps	exact	SYMP:0000093	muscle cramp	Cramps	
-ARIS:0000322	Muscle loss	broader	SYMP:0000183	muscle symptom		
-ARIS:0000323	Muscle pain	exact	SYMP:0019161	muscle pain	Pain	
-ARIS:0000324	Muscle soreness	exact	SYMP:0000332	muscle soreness	Muscle pain	
-ARIS:0000325	Muscle spasms	broader	SYMP:0000183	muscle symptom		
-ARIS:0000326	Muscle stiffness	exact	SYMP:0019162	muscle tightness	Stiffness	
-ARIS:0000327	Muscle tenderness	exact	SYMP:0000333	muscle tenderness	Tenderness	
-ARIS:0000328	Myelopathy with spinal paraparesis and sensory deficit	broader	SYMP:0000659	pareses		
-ARIS:0000329	Nail loss	broader	SYMP:0000488	skin and integumentary tissue symptom	Changes in nails	
-ARIS:0000330	Nasal congestion	exact	SYMP:0000869	nasal congestion		
-ARIS:0000331	Nausea	exact	SYMP:0000458	nausea		
-ARIS:0000332	Nausea during menstrual periods	broader	SYMP:0000458	nausea	Nausea	
-	Near sites of irritation	not a symptom				
-ARIS:0000333	Nerve pain	exact	SYMP:0000832	neuropathic pain	Pain	
-ARIS:0000334	Night sweats	exact	SYMP:0000337	night sweats		
-	No response to gastroesophageal reflux disease (gerd) medication	not a symptom				
-ARIS:0000335	Nocturia	exact	SYMP:0000564	nocturia		
-ARIS:0000336	Nocturnal cough and pulmonary aspiration	broader	SYMP:0000614	cough	Cough	
-ARIS:0000337	Nodules in fingers	broader	SYMP:0000556	localized superficial lump		
-ARIS:0000338	Nodules in heel	broader	SYMP:0000556	localized superficial lump		
-ARIS:0000339	Nodules in toes	broader	SYMP:0000556	localized superficial lump		
-	Non-inflammatory EBA:	not a symptom				
-ARIS:0000340	Nose rash	broader	SYMP:0000487	rash	Rash	
-ARIS:0000341	Nose ulcers	broader	SYMP:0000388	nose symptom		
-	Nose:	not a symptom				
-ARIS:0000342	Nosebleeds	exact	SYMP:0000448	epistaxis		
-ARIS:0000343	Numbness	exact	SYMP:0000834	hypoesthesia	Loss of sensation	
-ARIS:0000344	Numbness in the fingers or toes, especially in cold temperatures	broader	SYMP:0000834	hypoesthesia	Numbness	
-ARIS:0000345	Obsessions	broader	SYMP:0019182	behavioral symptom	Ocd	
-ARIS:0000346	Ocd	broader	SYMP:0019182	behavioral symptom	Mental disorders	
-ARIS:0000347	Orange peel appearance of skin of the extremities	broader	SYMP:0000535	change in skin texture		
-ARIS:0000348	Oval-shaped patches	broader	SYMP:0000092	skin lesion		
-ARIS:0000349	Over-responsive reflexes	exact	SYMP:0000058	hyperreflexia		
-ARIS:0000350	Pain	exact	SYMP:0000099	pain		
-ARIS:0000351	Pain after sexual intercourse	broader	SYMP:0000196	reproductive system symptom	Pain	
-ARIS:0000352	Pain and/or cramps in the lower abdomen before menstruation	broader	SYMP:0000457	abdominal pain	Painful menstrual periods	
-ARIS:0000353	Pain during bowel movements	broader	SYMP:0000459	digestive system symptom	Pain	
-ARIS:0000354	Pain during sexual intercourse	exact	SYMP:0000404	dyspareunia	Pain	
-ARIS:0000355	Pain during urination	exact	SYMP:0000485	dysuria	Pain	
-ARIS:0000356	Pain in buttocks	broader	SYMP:0000099	pain	Pain	
-ARIS:0000357	Pain in extremities	broader	SYMP:0000099	pain	Pain	
-ARIS:0000358	Pain in ligaments	broader	SYMP:0000099	pain	Pain	
-ARIS:0000359	Pain in tendons	broader	SYMP:0000099	pain	Pain	
-ARIS:0000360	Pain on the bottom of the foot, especially noticeable when moving	broader	SYMP:0000099	pain	Foot pain	
-ARIS:0000361	Pain or discomfort in swallowing cold foods and liquids	broader	SYMP:0000385	throat symptom	Pain	
-ARIS:0000362	Pain or discomfort while the bladder fills and relief after urinating	broader	SYMP:0000486	urinary system symptom	Bladder pain	
-ARIS:0000363	Pain when standing	broader	SYMP:0000099	pain	Pain	
-	Pain when urinating	merged				Pain during urination
-ARIS:0000364	Pain when urinating during menstrual periods	broader	SYMP:0000485	dysuria	Pain during urination	
-ARIS:0000365	Pain, especially first thing in the morning or after a nap	broader	SYMP:0000099	pain	Pain	
-ARIS:0000366	Painful and decreased eye movements	broader	SYMP:0019163	eye symptom	Eye pain	
-ARIS:0000367	Painful and sensitive blisters that are ruptured	broader	SYMP:0000009	blister	Blisters	
-ARIS:0000368	Painful bowel movements during menstrual periods	broader	SYMP:0000459	digestive system symptom	Pain during bowel movements	
-ARIS:0000369	Painful cramps during menstrual periods	broader	SYMP:0000689	cramp	Cramps	
-ARIS:0000370	Painful genital sores	broader	SYMP:0000196	reproductive system symptom	Painful sores	
-ARIS:0000371	Painful menstrual periods	broader	SYMP:0000196	reproductive system symptom	Pain	
-ARIS:0000372	Painful rashes	broader	SYMP:0000487	rash	Rash	
-ARIS:0000373	Painful red bumps that enlarge, break open, and drain pus. the pus may have an unpleasant odor	broader	SYMP:0019160	boil		
-ARIS:0000374	Painful sores	broader	SYMP:0000136	skin ulcer	Skin sores	
-ARIS:0000375	Painful, fatty lumps	broader	SYMP:0000556	localized superficial lump		
-ARIS:0000376	Painful, symmetrical lumps	broader	SYMP:0000556	localized superficial lump		
-ARIS:0000377	Pale skin	exact	SYMP:0000510	pallor		
-ARIS:0000378	Panic attacks	broader	SYMP:0000412	anxiety	Anxiety	
-ARIS:0000379	Paralysis	exact	SYMP:0000030	paralysis		
-ARIS:0000380	Paralysis of eye muscles	exact	SYMP:0000658	extraocular muscles paralysis	Paralysis	
-ARIS:0000381	Paralysis while falling asleep or upon waking up	broader	SYMP:0000566	sleep disturbance	Sleep problems	
-ARIS:0000382	Paranoid delusions	broader	SYMP:0019182	behavioral symptom	Psychosis	
-ARIS:0000383	Partial paralysis of the legs	broader	SYMP:0000659	pareses	Paralysis	
-ARIS:0000384	Patches of blisters	broader	SYMP:0000009	blister	Blisters	
-ARIS:0000385	Peeling skin	exact	SYMP:0020048	skin peeling		
-ARIS:0000386	Pelvic pain	broader	SYMP:0000770	pelvic symptom	Pain	
-	Pemphigus foliaceus:	not a symptom				
-	Pemphigus vulgaris:	not a symptom				
-ARIS:0000387	Penis pain	broader	SYMP:0000196	reproductive system symptom	Pain	
-ARIS:0000388	Personality changes	broader	SYMP:0019182	behavioral symptom	Behavioral changes	
-ARIS:0000389	Polydipsia	exact	SYMP:0000560	polydipsia		
-ARIS:0000390	Polyuria	exact	SYMP:0000565	polyuria		
-ARIS:0000391	Poor skin rigidity	broader	SYMP:0000535	change in skin texture		
-ARIS:0000392	Poor weight gain	broader	SYMP:0020012	weight symptom		
-ARIS:0000393	Postnatal growth failure and severe short stature	broader	SYMP:0000568	short stature	Delayed growth	
-ARIS:0000394	Premature whitening or graying of the hair on your scalp, eyelashes, eyebrows or beard	broader	SYMP:0020040	hair symptom	Whitening of hair	
-	Prickling sensations	merged				Tingling
-ARIS:0000395	Problems with metabolism	broader	SYMP:0000473	nutrition, metabolism, and development symptom		
-ARIS:0000396	Profound consumptive thrombocytopenia with purpura and bleeding	broader	SYMP:0000114	thrombocytopenia	Low platelet count:	
-ARIS:0000397	Progressive dysphagia to both liquids and solids	broader	SYMP:0000493	dysphagia	Difficulty swallowing	
-ARIS:0000398	Progressive loss of speech	broader	SYMP:0019185	communication difficulty	Difficulty speaking	
-ARIS:0000399	Progressive muscle weakness	broader	SYMP:0000094	muscle weakness	Weakness	
-ARIS:0000400	Progressive weakness in the arms	broader	SYMP:0000363	progressive weakness	Arm weakness	
-ARIS:0000401	Progressive weakness in the legs	broader	SYMP:0000363	progressive weakness	Weakness in legs	
-ARIS:0000402	Progressive, symmetrical muscle weakness	broader	SYMP:0000094	muscle weakness	Progressive muscle weakness	
-ARIS:0000403	Prolonged bleeding from cuts	broader	SYMP:0000007	bleeding	Excessive bleeding	
-	Prolonged menstrual bleeding	merged				Heavy menstrual flow
-ARIS:0000404	Prolonged, unprovoked post-traumatic or post-surgical hemorrhage	broader	SYMP:0000041	hemorrhage	Excessive bleeding	
-ARIS:0000405	Prominent action tremor of hands and arms	broader	SYMP:0000162	tremor	Tremor	
-	Prone to infections	merged				Recurrent infections
-ARIS:0000406	Protein-losing enteropathy with severe hypoalbuminemia and anasarca	broader	SYMP:0000433	anasarca		
-ARIS:0000407	Psychosis	broader	SYMP:0019182	behavioral symptom	Mental disorders	
-ARIS:0000408	Puffy face	exact	SYMP:0000748	facial edema	Swelling	
-ARIS:0000409	Purple skin where blood has collected just beneath the surface of the skin	exact	SYMP:0000751	hemorrhage into skin		
-ARIS:0000410	Purplish rash, typically on the lower legs and buttocks	broader	SYMP:0000487	rash	Rash	
-ARIS:0000411	Purplish, flat-topped bumps, on inner forearm, wrist or ankle, and sometimes on the genitals	broader	SYMP:0000346	papule		
-ARIS:0000412	Rage attacks	broader	SYMP:0000681	aggressive behavior	Aggression	
-ARIS:0000413	Raised and tender/painful nodules on the skin, especially on the lower legs	broader	SYMP:0000092	skin lesion		
-ARIS:0000414	Raised purple-red spots	broader	SYMP:0000660	purpuric rash	Spots	
-ARIS:0000415	Rapid heartbeat	exact	SYMP:0000529	tachycardia		
-ARIS:0000416	Rapidly progressive, symmetric sensorimotor polyradiculoneuropathy	broader	SYMP:0000336	neurological dysfunction		
-	Rare:	not a symptom				
-ARIS:0000417	Rash	exact	SYMP:0000487	rash		
-ARIS:0000418	Rash on groin	broader	SYMP:0000487	rash	Rash	
-ARIS:0000419	Rash on torso	broader	SYMP:0000487	rash	Rash	
-ARIS:0000420	Rash with tender, purple or brownish-red spots	broader	SYMP:0000487	rash	Rash	
-ARIS:0000421	Rectal bleeding	exact	SYMP:0000639	rectorrhagia		
-ARIS:0000422	Rectal pain	broader	SYMP:0000099	pain	Pain	
-ARIS:0000423	Recurrent episodes of severe hypersomnia (sleeping 16–20 hours daily for days/weeks)	broader	SYMP:0000582	hypersomnia	Sleep problems	
-ARIS:0000424	Recurrent infections	broader	SYMP:0019138	immune system symptom		
-ARIS:0000425	Recurrent transient ischemic attacks	broader	SYMP:0000480	nervous system symptom		
-ARIS:0000426	Red bumps on abdomen	broader	SYMP:0000346	papule	Small red bumps	
-ARIS:0000427	Red eyes	exact	SYMP:0000446	bloodshot eye	Redness	
-	Red or skin colored welts, can vary in size, shape and appear anywhere on the body	merged				Hives
-ARIS:0000428	Red patches may be covered with a fine shiny scale	broader	SYMP:0000487	rash	Rash	
-ARIS:0000429	Red patches that quickly turn into small bumps 5-15 mm in diameter	broader	SYMP:0000487	rash	Rash	
-ARIS:0000430	Red patches with light center	broader	SYMP:0000487	rash	Rash	
-ARIS:0000431	Red, dry, cracked, and swollen lips	broader	SYMP:0000386	mouth symptom	Swollen lips	
-ARIS:0000432	Redness	exact	SYMP:0000299	hyperemia		
-ARIS:0000433	Redness of anus	broader	SYMP:0000299	hyperemia	Redness	
-ARIS:0000434	Reduced libido	broader	SYMP:0000196	reproductive system symptom	Sexual dysfunction	
-ARIS:0000435	Reduced reflexes	broader	SYMP:0000249	reflex symptom		
-	Refractoriness to IVIG with high response rate to rituximab	not a symptom				
-ARIS:0000436	Regurgitation of undigested, retained food	broader	SYMP:0000459	digestive system symptom		
-ARIS:0000437	Renal dysfunction (azotemia, proteinuria, hematuria)	broader	SYMP:0000763	renal alteration		
-ARIS:0000438	Repetitive movements	broader	SYMP:0019187	repetitive behavior	Abnormal movement	
-	Restricted mobility	merged				Limited range of motion in affected areas
-ARIS:0000439	Retrosternal crampy chest pain	broader	SYMP:0000576	chest pain	Chest pain	
-ARIS:0000440	Rib pain	broader	SYMP:0000099	pain	Chest pain	
-ARIS:0000441	Ringing in ears	exact	SYMP:0000393	tinnitus		
-	Ringing in the ear	merged				Ringing in ears
-ARIS:0000442	Rupturing blisters	broader	SYMP:0000009	blister	Blisters	
-ARIS:0000443	Salt craving	broader	SYMP:0000244	alteration of appetite		
-ARIS:0000444	Scaling of the scalp	broader	SYMP:0000488	skin and integumentary tissue symptom		
-ARIS:0000445	Scalp discoloration	broader	SYMP:0000184	change in skin color	Skin discoloration	
-ARIS:0000446	Scalp hair loss	broader	SYMP:0000440	hair loss	Hair loss	
-ARIS:0000447	Scalp tenderness	broader	SYMP:0020065	tenderness	Tenderness	
-ARIS:0000448	Scaly-appearing skin	broader	SYMP:0000535	change in skin texture		
-ARIS:0000449	Scarring	broader	SYMP:0000488	skin and integumentary tissue symptom		
-ARIS:0000450	Scarring on cornea	exact	SYMP:0020042	corneal scarring	Scarring	
-	"See: <a href=""/disease_profile?disease=autoimmune-urticaria"">autoimmune urticaria</a> and <a href=""/disease_profile?disease=autoimmune-angioedema"">autoimmune angioedema</a>."	not a symptom				
-	See: autoimmune urticaria and autoimmune angioedema.	not a symptom				
-ARIS:0000451	Seeing flashing lights	broader	SYMP:0000627	disturbed vision	Vision problems	
-ARIS:0000452	Seizure during which the person remains conscious and alert	exact	SYMP:0000270	simple partial seizure	Seizures	
-ARIS:0000453	Seizure during which the person remains unconscious	broader	SYMP:0000124	seizure	Seizures	
-ARIS:0000454	Seizures	exact	SYMP:0000124	seizure		
-	Sensitivity to extreme cold	merged				Cold intolerance
-ARIS:0000455	Sensitivity to extreme heat	broader	SYMP:0000567	general symptom		
-ARIS:0000456	Sensitivity to gluten	broader	SYMP:0000459	digestive system symptom		
-ARIS:0000457	Sensitivity to light	exact	SYMP:0000210	photophobia		
-ARIS:0000458	Sensitivity to touch	exact	SYMP:0000300	hyperesthesia		
-	Sensory impairment	merged				Loss of sensation
-ARIS:0000459	Severe aortic valve regurgitation	broader	SYMP:0000528	cardiovascular system symptom		
-ARIS:0000460	Severe chronic autoimmune enteropathy with intractable diarrhea	broader	SYMP:0000570	diarrhea	Diarrhea	
-ARIS:0000461	Severe itching	broader	SYMP:0000432	itching	Itching	
-ARIS:0000462	Severe malabsorption, cachexia, and involuntary weight loss	broader	SYMP:0000402	cachexia	Weight loss	
-ARIS:0000463	Severe proprioceptive sensory ataxia and positive Romberg sign	broader	SYMP:0000005	ataxia	Unsteadiness	
-ARIS:0000464	Severe quadriparesis / motor disability	broader	SYMP:0000659	pareses	Paralysis	
-ARIS:0000465	Severe sensory ataxia with gait failure	broader	SYMP:0000005	ataxia	Unsteady gait	
-ARIS:0000466	Severe short-term memory loss / amnesia	broader	SYMP:0000543	memory loss	Memory problems	
-ARIS:0000467	Severe, intractable, chronic secretory diarrhea persisting during fasting	broader	SYMP:0000376	severe diarrhea	Diarrhea	
-ARIS:0000468	Sexual dysfunction	broader	SYMP:0000196	reproductive system symptom		
-ARIS:0000469	Short stature	exact	SYMP:0000568	short stature	Delayed growth	
-ARIS:0000470	Shortness of breath	exact	SYMP:0019153	dyspnea		
-ARIS:0000471	Shortness of breath with exertion	broader	SYMP:0019153	dyspnea	Shortness of breath	
-ARIS:0000472	Shoulder pain	exact	SYMP:0000443	shoulder pain	Joint pain	
-ARIS:0000473	Significant weight loss	broader	SYMP:0000178	weight loss	Weight loss	
-ARIS:0000474	Sinus infection	exact	SYMP:0000134	sinusitis		
-	Sinus inflammation	merged				Sinus infection
-	Skin blisters	merged				Blisters on skin
-ARIS:0000475	Skin discoloration	exact	SYMP:0000184	change in skin color		
-ARIS:0000476	Skin disorders	broader	SYMP:0000488	skin and integumentary tissue symptom		
-ARIS:0000477	Skin hardening	broader	SYMP:0000535	change in skin texture		
-ARIS:0000478	Skin lesions that appear or worsen with sun exposure	broader	SYMP:0000092	skin lesion	Lesions	
-ARIS:0000479	Skin pain	broader	SYMP:0000099	pain	Pain	
-ARIS:0000480	Skin pigmentation loss	broader	SYMP:0000184	change in skin color	Skin discoloration	
-ARIS:0000481	Skin sores	exact	SYMP:0000136	skin ulcer		
-	skin sores	merged				Skin sores
-	Skin stiffening	merged				Skin hardening
-ARIS:0000482	Skin temperature changes	broader	SYMP:0000488	skin and integumentary tissue symptom		
-ARIS:0000483	Skin texture changes	exact	SYMP:0000535	change in skin texture		
-	Skin:	not a symptom				
-ARIS:0000484	Skull depressions	broader	SYMP:0000387	head symptom		
-ARIS:0000485	Sleep problems	exact	SYMP:0000566	sleep disturbance		
-ARIS:0000486	Sluggishness	exact	SYMP:0000075	lethargy		
-ARIS:0000487	Small pitted areas of skin containing blackheads	broader	SYMP:0000488	skin and integumentary tissue symptom		
-ARIS:0000488	Small red bumps	exact	SYMP:0000346	papule		
-ARIS:0000489	Small scaling spots	broader	SYMP:0000092	skin lesion	Spots	
-ARIS:0000490	Smooth white spots on skin	broader	SYMP:0000184	change in skin color	Skin pigmentation loss	
-ARIS:0000491	Social withdrawal	broader	SYMP:0019182	behavioral symptom	Behavioral changes	
-ARIS:0000492	Solid swellings of congealed blood	exact	SYMP:0000874	hematoma		
-ARIS:0000493	Sore throat	exact	SYMP:0000505	throat pain		
-ARIS:0000494	Sores or masses under eyelid	broader	SYMP:0019163	eye symptom		
-	Spitting up blood	merged				Coughing up blood
-ARIS:0000495	Spontaneous hemarthrosis	broader	SYMP:0000041	hemorrhage	Excessive bleeding	
-	Spontaneous macroscopic or microscopic sperm agglutination in ejaculate	not a symptom				
-ARIS:0000496	Spontaneous, extensive subcutaneous and soft-tissue hematomas	broader	SYMP:0000874	hematoma	Solid swellings of congealed blood	
-ARIS:0000497	Spots	broader	SYMP:0000092	skin lesion		
-ARIS:0000498	Stiffness	broader	SYMP:0000891	musculoskeletal system symptom		
-ARIS:0000499	Stiffness of the buttocks	broader	SYMP:0000891	musculoskeletal system symptom	Stiffness	
-ARIS:0000500	Stiffness of the skin of the fingers	broader	SYMP:0000535	change in skin texture	Skin hardening	
-ARIS:0000501	Stiffness upon inactivity	broader	SYMP:0000891	musculoskeletal system symptom	Stiffness	
-ARIS:0000502	Stillbirths	exact	SYMP:0000849	stillbirth		
-ARIS:0000503	Stinging rash	broader	SYMP:0000487	rash	Rash	
-	Stunted growth in children	merged				Delayed growth
-ARIS:0000504	Subacute to acute severe symmetrical distal and proximal limb weakness	broader	SYMP:0000222	limb weakness	Weakness	
-	Sudden	not a symptom				
-ARIS:0000505	Swelling	exact	SYMP:0000716	swelling symptom		
-ARIS:0000506	Swelling around eyes	broader	SYMP:0000716	swelling symptom	Swelling	
-ARIS:0000507	Swelling beneath the skin	broader	SYMP:0000819	localized superficial swelling	Swelling	
-ARIS:0000508	Swelling in armpits	broader	SYMP:0000521	enlargement of lymph nodes	Swelling	
-ARIS:0000509	Swelling in neck	broader	SYMP:0000716	swelling symptom	Swelling	
-ARIS:0000510	Swelling of salivary glands	broader	SYMP:0000205	salivary gland symptom	Swelling	
-ARIS:0000511	Swollen ankles	broader	SYMP:0000312	joint symptom	Swollen joints	
-ARIS:0000512	Swollen back	broader	SYMP:0000716	swelling symptom	Swelling	
-ARIS:0000513	Swollen elbows	broader	SYMP:0000312	joint symptom	Swollen joints	
-ARIS:0000514	Swollen feet	broader	SYMP:0000340	limb edema	Swelling	
-ARIS:0000515	Swollen fingers	broader	SYMP:0000312	joint symptom	Swollen joints	
-ARIS:0000516	Swollen hands	broader	SYMP:0000340	limb edema	Swelling	
-ARIS:0000517	Swollen heel	broader	SYMP:0000716	swelling symptom	Swelling	
-ARIS:0000518	Swollen hip	broader	SYMP:0000312	joint symptom	Swollen joints	
-ARIS:0000519	Swollen joints	broader	SYMP:0000312	joint symptom	Swelling	
-ARIS:0000520	Swollen knees	broader	SYMP:0000312	joint symptom	Swollen joints	
-ARIS:0000521	Swollen legs	exact	SYMP:0000717	leg swelling	Swelling	
-ARIS:0000522	Swollen lips	broader	SYMP:0000716	swelling symptom	Swelling	
-ARIS:0000523	Swollen penis	broader	SYMP:0000196	reproductive system symptom	Swelling	
-ARIS:0000524	Swollen shoulders	broader	SYMP:0000312	joint symptom	Swollen joints	
-ARIS:0000525	Swollen testicles	broader	SYMP:0000196	reproductive system symptom	Swelling	
-ARIS:0000526	Swollen toes	broader	SYMP:0000312	joint symptom	Swollen joints	
-ARIS:0000527	Swollen tongue that looks shiny and bright with red spots	broader	SYMP:0000386	mouth symptom	Swelling	
-ARIS:0000528	Swollen wrists	broader	SYMP:0000312	joint symptom	Swollen joints	
-ARIS:0000529	Swollen, painful nodule under skin	broader	SYMP:0000819	localized superficial swelling	Swelling beneath the skin	
-	Symptoms can be similar to pancreatic cancer	not a symptom				
-	Symptoms can flare with triggers such as heat, exercise and stress	not a symptom				
-	Symptoms caused by the bacterium borrelia mayonii:	not a symptom				
-	Symptoms depend on the specific IgG4 disease	not a symptom				
-	Symptoms persist for more than 6 weeks and recur frequently and unexpectedly	not a symptom				
-	Symptoms vary depending on the areas of the brain affected and can include:	not a symptom				
-	Symptoms worsen after physical or mental activity	not a symptom				
-	Symptoms worsen in sunlight	not a symptom				
-	Systemic:	not a symptom				
-	Temporary	not a symptom				
-ARIS:0000530	Tenderness	exact	SYMP:0020065	tenderness		
-	Tendon pain	merged				Pain in tendons
-ARIS:0000531	Tendon tenderness	broader	SYMP:0020065	tenderness	Tenderness	
-ARIS:0000532	Tense, blood- or pus-filled blisters, mostly on the hands, knees, knuckles, elbows and ankles	broader	SYMP:0000009	blister	Blisters	
-ARIS:0000533	Testicle pain	exact	SYMP:0000768	testicular pain	Pain	
-ARIS:0000534	Thickened red skin	broader	SYMP:0000535	change in skin texture		
-ARIS:0000535	Thickened skin of fingers	broader	SYMP:0000535	change in skin texture	Skin hardening	
-ARIS:0000536	Thickening of eyelid mucosa with a wood-like consistency	broader	SYMP:0019163	eye symptom		
-ARIS:0000537	Thinning of skin	broader	SYMP:0000535	change in skin texture		
-ARIS:0000538	Thinning or shrinking of facial tissues	broader	SYMP:0000387	head symptom		
-ARIS:0000539	Throat muscle weakness	broader	SYMP:0000094	muscle weakness	Weakness	
-	Throat pain	merged				Sore throat
-ARIS:0000540	Throbbing pain in limbs	broader	SYMP:0000099	pain	Pain in extremities	
-ARIS:0000541	Tics	broader	SYMP:0000594	abnormal involuntary movement	Involuntary movements	
-ARIS:0000542	Tightness in the abdomen	broader	SYMP:0000188	abdominal discomfort		
-	Tightness of the skin of the fingers	merged				Stiffness of the skin of the fingers
-ARIS:0000543	Tingling	exact	SYMP:0000435	paresthesia		
-ARIS:0000544	Tingling in the fingers or toes, especially in cold temperatures	broader	SYMP:0000435	paresthesia	Tingling	
-ARIS:0000545	Tingling of extremities	broader	SYMP:0000435	paresthesia	Tingling	
-ARIS:0000546	Tingling of hand	broader	SYMP:0000435	paresthesia	Tingling	
-ARIS:0000547	Tingling of wrist	broader	SYMP:0000435	paresthesia	Tingling	
-ARIS:0000548	Tiny reddish-purple spots, usually on lower legs	exact	SYMP:0000760	petechiae	Spots	
-ARIS:0000549	Tired feeling after standing or walking	broader	SYMP:0019177	fatigue	Fatigue	
-ARIS:0000550	Toe pain	broader	SYMP:0000099	pain	Pain	
-ARIS:0000551	Tongue pain	broader	SYMP:0000386	mouth symptom	Pain	
-ARIS:0000552	Total paralysis of the legs	exact	SYMP:0000349	paraplegia	Paralysis	
-	Total villous atrophy on small intestinal biopsy	not a symptom				
-ARIS:0000553	Tremor	exact	SYMP:0000162	tremor		
-	Trouble breathing when you exercise	merged				Shortness of breath with exertion
-	Trouble rising from a chair	merged				Difficulty moving from sitting to standing
-	Unable to conceive	merged				Infertility
-ARIS:0000554	Unintended weight loss	broader	SYMP:0000178	weight loss	Weight loss	
-ARIS:0000555	Unsteadiness	broader	SYMP:0020045	balance symptom		
-ARIS:0000556	Unsteady gait	exact	SYMP:0000663	uncoordinated gait	Unsteadiness	
-ARIS:0000557	Urgency without having a bowel movement	exact	SYMP:0000648	tenesmus	Bowel movement urgency	
-ARIS:0000558	Urogenital bleeding	exact	SYMP:0000740	genitourinary hemorrhage		
-ARIS:0000559	Vaginal dryness	broader	SYMP:0000196	reproductive system symptom		
-ARIS:0000560	Vaginal pain	broader	SYMP:0000196	reproductive system symptom	Pain	
-ARIS:0000561	Vaginal ulcers	broader	SYMP:0000196	reproductive system symptom		
-ARIS:0000562	Vertigo	exact	SYMP:0000399	vertigo		
-ARIS:0000563	Violet/dusky red rash	broader	SYMP:0000487	rash	Rash	
-ARIS:0000564	Vision loss	exact	SYMP:0000321	loss of vision	Vision problems	
-ARIS:0000565	Vision problems	exact	SYMP:0000320	vision symptom		
-ARIS:0000566	Visual impairment / bilateral optic disc edema (papillitis)	broader	SYMP:0000320	vision symptom	Vision problems	
-ARIS:0000567	Vivid, dream-like experiences when falling asleep or upon waking up	broader	SYMP:0000607	hallucination	Hallucinations	
-ARIS:0000568	Vomiting	exact	SYMP:0019145	vomiting		
-ARIS:0000569	Wart-like plaques on areas of the skin, such as the armpit, neck, groin, and breasts	broader	SYMP:0000488	skin and integumentary tissue symptom		
-ARIS:0000570	Watery eyes	exact	SYMP:0019164	excessive tearing		
-ARIS:0000571	Weakness	exact	SYMP:0000177	weakness		
-	Weakness in arms	merged				Arm weakness
-ARIS:0000572	Weakness in facial muscles	exact	SYMP:0000706	facial weakness	Weakness	
-ARIS:0000573	Weakness in feet	broader	SYMP:0000222	limb weakness	Weakness	
-ARIS:0000574	Weakness in fingers	broader	SYMP:0020052	hand weakness	Weakness in hands	
-ARIS:0000575	Weakness in hands	exact	SYMP:0020052	hand weakness	Weakness	
-ARIS:0000576	Weakness in hip	broader	SYMP:0000177	weakness	Weakness	
-ARIS:0000577	Weakness in joints	broader	SYMP:0000177	weakness	Weakness	
-ARIS:0000578	Weakness in legs	exact	SYMP:0000224	leg weakness	Weakness	
-ARIS:0000579	Weakness in neck	exact	SYMP:0000335	neck weakness	Weakness	
-ARIS:0000580	Weakness in upper body	broader	SYMP:0000177	weakness	Weakness	
-ARIS:0000581	Weight gain	exact	SYMP:0000403	weight gain		
-ARIS:0000582	Weight loss	exact	SYMP:0000178	weight loss		
-ARIS:0000583	Wheezing	exact	SYMP:0000604	wheezing		
-ARIS:0000584	When blisters heal they form scars and sometimes tiny white bumps	broader	SYMP:0000488	skin and integumentary tissue symptom	Scarring	
-ARIS:0000585	When blood starts to return to these areas, fingers or toes that turn red, burn, throb, experience numbness, or tingle.	broader	SYMP:0000488	skin and integumentary tissue symptom		
-ARIS:0000586	White patches on gums	broader	SYMP:0000386	mouth symptom		
-ARIS:0000587	White patches on lips	broader	SYMP:0000386	mouth symptom		
-ARIS:0000588	Whitening of hair	broader	SYMP:0020040	hair symptom	Changes in hair	
-ARIS:0000589	Widespread blisters that are not localized to trauma-prone sites	broader	SYMP:0000009	blister	Blisters	
-ARIS:0000590	Widespread redness and itching	broader	SYMP:0000432	itching	Itching	
-ARIS:0000591	Winged shoulder blade	broader	SYMP:0000891	musculoskeletal system symptom		
-	Women:	not a symptom				
-ARIS:0000592	Wrist pain	broader	SYMP:0000099	pain	Joint pain	
-ARIS:0000593	Wrist stiffness	broader	SYMP:0000312	joint symptom	Joint stiffness	
-ARIS:0000594	Yellow eyes	exact	SYMP:0000870	icteric eyes		
-ARIS:0000595	Yellow skin	exact	SYMP:0000872	icteric skin		
-ARIS:0000596	“butterflies” in the stomach	broader	SYMP:0000188	abdominal discomfort		
+Symptom ID	Symptom	Mapping	SYMP ID	SYMP Label	HPO ID	HPO Label	HPO Mapping	Parent Symptom	Merged Into
+ARIS:0000001	A feeling of fullness or pressure in the chest or abdomen that can cause difficulty breathing or eating	broader	SYMP:0000188	abdominal discomfort	HP:0011458	Abdominal symptom	broader		
+ARIS:0000002	A salmon/pink-colored rash on chest and thighs during fever	broader	SYMP:0000487	rash	HP:0000988	Skin rash	broader	Rash	
+	Abdominal bloating	merged							Bloating
+ARIS:0000003	Abdominal cramps	exact	SYMP:0000001	abdominal cramp	HP:0032155	Abdominal cramps	exact	Cramps	
+ARIS:0000004	Abdominal discomfort	exact	SYMP:0000188	abdominal discomfort	HP:0011458	Abdominal symptom	broader		
+ARIS:0000005	Abdominal pain	exact	SYMP:0000457	abdominal pain	HP:0002027	Abdominal pain	exact	Pain	
+ARIS:0000006	Abnormal bladder control	broader	SYMP:0000486	urinary system symptom	HP:0000079	Abnormality of the urinary system	broader		
+ARIS:0000007	Abnormal growths/lesions on the skin that may be painful	broader	SYMP:0000092	skin lesion	HP:0000951	Abnormality of the skin	broader	Lesions	
+ARIS:0000008	Abnormal lumps below skin	exact	SYMP:0000556	localized superficial lump	HP:0001482	Subcutaneous nodule	exact		
+ARIS:0000009	Abnormal movement	broader	SYMP:0000480	nervous system symptom	HP:0100022	Abnormality of movement	exact		
+ARIS:0000010	Abnormal skin blood vessels	broader	SYMP:0000488	skin and integumentary tissue symptom	HP:0000951	Abnormality of the skin	broader		
+	Absence of eyelashes	merged							Loss of eyelashes
+ARIS:0000011	Absent menstrual period	broader	SYMP:0000196	reproductive system symptom	HP:0000141	Amenorrhea	exact		
+ARIS:0000012	Accumulation of fluid in the abdomen	exact	SYMP:0000526	ascites	HP:0001541	Ascites	exact		
+ARIS:0000013	Acid reflux/heartburn	exact	SYMP:0000423	pyrosis	HP:0002020	Gastroesophageal reflux	exact		
+ARIS:0000014	Acute/subacute limbic amnesia and confusion	broader	SYMP:0000016	confusion	HP:0002354	Memory impairment	broader	Confusion	
+	After breakout:	not a symptom							
+ARIS:0000015	Aggression	exact	SYMP:0000681	aggressive behavior	HP:0000718	Aggressive behavior	exact	Behavioral changes	
+	Airways:	not a symptom							
+	Alopecia	merged							Hair loss
+ARIS:0000016	Altered level of consciousness	exact	SYMP:0000482	alteration of consciousness	HP:0004372	Reduced consciousness	exact		
+	An increase in perspiration or warm, moist skin	merged							Excessive sweating
+ARIS:0000017	Anorexia	exact	SYMP:0000523	anorexia	HP:0002039	Anorexia	exact		
+ARIS:0000018	Anxiety	exact	SYMP:0000412	anxiety	HP:0000739	Anxiety	exact		
+ARIS:0000019	Anxiety in children	broader	SYMP:0000412	anxiety	HP:0000739	Anxiety	broader	Anxiety	
+	Apparent flashes of light	merged							Seeing flashing lights
+	Arises in younger individuals, usually under the age of 70 years	not a symptom							
+ARIS:0000020	Arm pain	broader	SYMP:0000099	pain	HP:0012513	Upper limb pain	exact	Pain	
+ARIS:0000021	Arm pain upon exertion	broader	SYMP:0000099	pain	HP:0012513	Upper limb pain	broader	Arm pain	
+ARIS:0000022	Arm weakness	exact	SYMP:0000223	arm weakness	HP:0003484	Upper limb muscle weakness	exact	Weakness	
+	Ascending aortic aneurysm / root dilation on imaging	not a symptom							
+	Asymptomatic presentation prior to dissection or rupture	not a symptom							
+ARIS:0000023	Attention-span problems	exact	SYMP:0019184	limited attention	HP:0000736	Short attention span	exact	Cognitive impairment	
+ARIS:0000024	Autoimmune cytopenias (autoimmune thrombocytopenia, AIHA, neutropenia)	broader	SYMP:0000691	cytopenia	HP:0001871	Abnormality of blood and blood-forming tissues	broader	Low blood counts	
+ARIS:0000025	Autonomic dysregulation and neurogenic bladder	broader	SYMP:0000480	nervous system symptom	HP:0012332	Abnormal autonomic nervous system physiology	broader		
+ARIS:0000026	Back pain	exact	SYMP:0000006	backache	HP:0003418	Back pain	exact	Pain	
+ARIS:0000027	Backwards displacement of eye	broader	SYMP:0019163	eye symptom	HP:0000490	Deeply set eye	exact		
+ARIS:0000028	Bald patches	broader	SYMP:0000440	hair loss	HP:0002232	Patchy alopecia	exact	Hair loss	
+ARIS:0000029	Beard hair loss	broader	SYMP:0000440	hair loss	HP:0001596	Alopecia	broader	Hair loss	
+ARIS:0000030	Bedwetting	exact	SYMP:0000606	nocturnal enuresis	HP:0010677	Enuresis nocturna	exact		
+	Before breakout:	not a symptom							
+ARIS:0000031	Behavioral changes	exact	SYMP:0019182	behavioral symptom	HP:0000708	Atypical behavior	exact		
+ARIS:0000032	Behavioral changes, confusion, and psychosis	broader	SYMP:0019182	behavioral symptom	HP:0000708	Atypical behavior	broader	Behavioral changes	
+ARIS:0000033	Bladder changes	broader	SYMP:0000486	urinary system symptom	HP:0000079	Abnormality of the urinary system	broader		
+ARIS:0000034	Bladder pain	broader	SYMP:0000099	pain	HP:0032171	Bladder pain	exact	Pain	
+ARIS:0000035	Bleeding between menstrual cycles	exact	SYMP:0000855	metrorrhagia	HP:0100608	Metrorrhagia	exact		
+ARIS:0000036	Bleeding blisters	broader	SYMP:0000009	blister	HP:0008066	Abnormal blistering of the skin	broader	Blisters	
+ARIS:0000037	Bleeding gums	exact	SYMP:0000742	gum bleeding	HP:0000225	Gingival bleeding	exact		
+ARIS:0000038	Blindness	exact	SYMP:0000008	blindness	HP:0000618	Blindness	exact	Vision loss	
+ARIS:0000039	Blister inside mouth	broader	SYMP:0000009	blister	HP:0200097	Oral mucosal blisters	broader	Blisters	
+ARIS:0000040	Blister inside throat	broader	SYMP:0000009	blister	HP:0008066	Abnormal blistering of the skin	broader	Blisters	
+ARIS:0000041	Blister on lips	broader	SYMP:0000009	blister	HP:0008066	Abnormal blistering of the skin	broader	Blisters	
+ARIS:0000042	Blisters	exact	SYMP:0000009	blister	HP:0008066	Abnormal blistering of the skin	exact		
+ARIS:0000043	Blisters are painful but do not itch	broader	SYMP:0000009	blister	HP:0008066	Abnormal blistering of the skin	broader	Blisters	
+ARIS:0000044	Blisters in infants	broader	SYMP:0000009	blister	HP:0008066	Abnormal blistering of the skin	broader	Blisters	
+ARIS:0000045	Blisters on eyes	broader	SYMP:0000009	blister	HP:0008066	Abnormal blistering of the skin	broader	Blisters	
+ARIS:0000046	Blisters on skin	broader	SYMP:0000009	blister	HP:0008066	Abnormal blistering of the skin	exact	Blisters	
+ARIS:0000047	Blisters on various mucous membranes	broader	SYMP:0000009	blister	HP:0008066	Abnormal blistering of the skin	broader	Blisters	
+ARIS:0000048	Blisters that rupture easily, leaving open sores, which may ooze and become infected.	broader	SYMP:0000009	blister	HP:0008066	Abnormal blistering of the skin	broader	Blisters	
+ARIS:0000049	Bloating	exact	SYMP:0000420	bloating	HP:0003270	Abdominal distention	exact		
+ARIS:0000050	Bloating during menstrual periods	broader	SYMP:0000420	bloating	HP:0003270	Abdominal distention	broader	Bloating	
+ARIS:0000051	Blood in stool	exact	SYMP:0000229	bloody stool	HP:0002573	Hematochezia	exact		
+ARIS:0000052	Blood in urine	exact	SYMP:0000040	hematuria	HP:0000790	Hematuria	exact		
+ARIS:0000053	Bluish coloring of hands/feet	broader	SYMP:0000537	cyanosis	HP:0001063	Acrocyanosis	exact		
+ARIS:0000054	Blurred vision	exact	SYMP:0000012	blurred vision	HP:0000622	Blurred vision	exact	Vision problems	
+ARIS:0000055	Body hair loss	broader	SYMP:0000440	hair loss	HP:0001596	Alopecia	broader	Hair loss	
+ARIS:0000056	Bone pain	exact	SYMP:0020023	bone pain	HP:0002653	Bone pain	exact	Pain	
+ARIS:0000057	Bowel changes	broader	SYMP:0000459	digestive system symptom	HP:0025031	Abnormality of the digestive system	broader		
+ARIS:0000058	Bowel movement urgency	broader	SYMP:0000459	digestive system symptom	HP:0012701	Bowel urgency	exact	Bowel changes	
+ARIS:0000059	Brain fog	exact	SYMP:0000233	inability to think clearly	HP:0033630	Brain fog	exact	Cognitive impairment	
+	Brain:	not a symptom							
+ARIS:0000060	Brittle fingernails	broader	SYMP:0000488	skin and integumentary tissue symptom	HP:0001808	Fragile nails	exact	Changes in nails	
+ARIS:0000061	Bulging eyes	exact	SYMP:0000896	exophthalmos	HP:0000520	Proptosis	exact		
+ARIS:0000062	Bumps on skin containing blood	broader	SYMP:0000009	blister	HP:0008066	Abnormal blistering of the skin	broader	Blisters	
+ARIS:0000063	Bumps on skin containing pus	exact	SYMP:0019167	pustule	HP:0200039	Pustule	exact		
+	Burning	merged							Burning sensation
+	Burning feeling when urinating	merged							Burning with urination
+ARIS:0000064	Burning pain in the upper abdomen that may become better or worse with eating	broader	SYMP:0000542	epigastric abdominal pain	HP:0410019	Epigastric pain	broader	Abdominal pain	
+ARIS:0000065	Burning rash	broader	SYMP:0000487	rash	HP:0000988	Skin rash	broader	Rash	
+ARIS:0000066	Burning sensation	broader	SYMP:0000745	change in body sensation	HP:0012534	Dysesthesia	broader		
+ARIS:0000067	Burning sensation in hand	broader	SYMP:0000745	change in body sensation	HP:0012534	Dysesthesia	broader	Burning sensation	
+ARIS:0000068	Burning sensation in wrist	broader	SYMP:0000745	change in body sensation	HP:0012534	Dysesthesia	broader	Burning sensation	
+ARIS:0000069	Burning skin	broader	SYMP:0000536	disturbance of skin sensation	HP:0012534	Dysesthesia	broader	Burning sensation	
+ARIS:0000070	Burning with urination	broader	SYMP:0000485	dysuria	HP:0100518	Dysuria	broader	Pain during urination	
+ARIS:0000071	Burning/gritty sensation in eyes	broader	SYMP:0019163	eye symptom	HP:6000420	Burning eye sensation	exact	Eye irritation	
+ARIS:0000072	Butterfly-shaped rash	broader	SYMP:0000487	rash	HP:0025300	Malar rash	exact	Rash	
+	Butterfly-shaped rash face that covers the cheeks and bridge of the nose	merged							Butterfly-shaped rash
+ARIS:0000073	Canker sores	exact	SYMP:0020001	apthous ulcer	HP:0032154	Aphthous ulcer	exact	Mouth sores	
+ARIS:0000074	Carpal tunnel syndrome	broader	SYMP:0000480	nervous system symptom	HP:0012185	Constrictive median neuropathy	exact		
+ARIS:0000075	Causes blisters on the chest, back and shoulders	broader	SYMP:0000009	blister	HP:0008066	Abnormal blistering of the skin	broader	Blisters	
+ARIS:0000076	Change in facial expression	broader	SYMP:0000480	nervous system symptom	HP:0005346	Abnormal facial expression	exact		
+ARIS:0000077	Change in mental status	exact	SYMP:0000682	altered mental status	HP:0011446	Abnormality of mental function	broader		
+ARIS:0000078	Change in voice	exact	SYMP:0000559	voice disturbance	HP:0001608	Abnormality of the voice	exact		
+ARIS:0000079	Changes in hair	exact	SYMP:0020040	hair symptom	HP:0001595	Abnormal hair morphology	exact		
+ARIS:0000080	Changes in nails	broader	SYMP:0000488	skin and integumentary tissue symptom	HP:0001597	Abnormal nail morphology	exact		
+ARIS:0000081	Changes in senses	broader	SYMP:0000892	sensation perception	HP:0000707	Abnormality of the nervous system	broader		
+ARIS:0000082	Chest infections	broader	SYMP:0000514	respiratory system and chest symptom	HP:0002086	Abnormality of the respiratory system	broader	Recurrent infections	
+ARIS:0000083	Chest pain	exact	SYMP:0000576	chest pain	HP:0100749	Chest pain	exact	Pain	
+ARIS:0000084	Chills	exact	SYMP:0019174	chills	HP:0025143	Chills	exact		
+ARIS:0000085	Chronic lymphadenopathy and hepatosplenomegaly	broader	SYMP:0017795	hemic and immune system symptom	HP:0002716	Lymphadenopathy	broader		
+ARIS:0000086	Churning in the stomach	broader	SYMP:0000188	abdominal discomfort	HP:0011458	Abdominal symptom	broader		
+ARIS:0000087	Circular rash	broader	SYMP:0000487	rash	HP:0000988	Skin rash	broader	Rash	
+ARIS:0000088	Clumsiness, particularly in the morning or after naps	broader	SYMP:0000079	coordination symptom	HP:0002312	Clumsiness	exact	Impaired coordination	
+ARIS:0000089	Cognitive derealization, apathy, and altered perception	broader	SYMP:0000682	altered mental status	HP:0000708	Atypical behavior	broader		
+ARIS:0000090	Cognitive impairment	broader	SYMP:0000410	neurological and physiological symptom	HP:0100543	Cognitive impairment	exact		
+ARIS:0000091	Cold feet	broader	SYMP:0000528	cardiovascular system symptom	HP:0033850	Coldness	broader	Coldness	
+ARIS:0000092	Cold hands	broader	SYMP:0000528	cardiovascular system symptom	HP:0033850	Coldness	broader	Coldness	
+ARIS:0000093	Cold intolerance	broader	SYMP:0000567	general symptom	HP:6000855	Cold intolerance	exact		
+ARIS:0000094	Coldness	broader	SYMP:0000567	general symptom	HP:0033850	Coldness	exact		
+ARIS:0000095	Coma	exact	SYMP:0000605	coma	HP:0001259	Coma	exact		
+	Common:	not a symptom							
+	Completely normal cognition, sleep, and mood between distinct episodes	not a symptom							
+ARIS:0000096	Compulsive behavior	broader	SYMP:0019182	behavioral symptom	HP:0000722	Compulsive behaviors	exact	Behavioral changes	
+ARIS:0000097	Compulsive megaphagia / binge eating during episodes	broader	SYMP:0000524	polyphagia	HP:0002591	Polyphagia	broader	Increased appetite (polyphagia)	
+	Concentration loss	merged							Difficulty concentrating
+ARIS:0000098	Confusion	exact	SYMP:0000016	confusion	HP:0001289	Confusion	exact		
+ARIS:0000099	Constant pain behind the eye	exact	SYMP:0000764	retrobulbar pain	HP:0200026	Ocular pain	broader	Eye pain	
+ARIS:0000100	Constipation	exact	SYMP:0019180	constipation	HP:0002019	Constipation	exact		
+ARIS:0000101	Corneal ulceration	exact	SYMP:0000241	corneal ulcers	HP:0012804	Corneal ulceration	exact		
+ARIS:0000102	Cough	exact	SYMP:0000614	cough	HP:0012735	Cough	exact		
+ARIS:0000103	Coughing up blood	exact	SYMP:0000517	hemoptysis	HP:0002105	Hemoptysis	exact		
+ARIS:0000104	Cramps	exact	SYMP:0000689	cramp	HP:0003394	Muscle spasm	broader		
+ARIS:0000105	Crusted ulcers	broader	SYMP:0000136	skin ulcer	HP:0200042	Skin ulcer	broader	Skin sores	
+ARIS:0000106	Curling of upper lip	broader	SYMP:0000386	mouth symptom	HP:0000153	Abnormality of the mouth	broader		
+ARIS:0000107	Damage to dental enamel	broader	SYMP:0000386	mouth symptom	HP:0000682	Abnormal dental enamel morphology	broader		
+ARIS:0000108	Dark spots in vision	broader	SYMP:0000627	disturbed vision	HP:0000504	Abnormality of vision	broader	Vision problems	
+ARIS:0000109	Dark urine	exact	SYMP:0020043	dark urine	HP:0040319	Dark urine	exact		
+	Daytime sleepiness	merged							Drowsiness
+ARIS:0000110	Decreased movement	exact	SYMP:0000858	hypokinesia	HP:0100022	Abnormality of movement	broader	Movement difficulty	
+ARIS:0000111	Decreased sweating	broader	SYMP:0000488	skin and integumentary tissue symptom	HP:0000966	Hypohidrosis	exact		
+ARIS:0000112	Deep thoracic or back pain	broader	SYMP:0000006	backache	HP:0003418	Back pain	broader	Back pain	
+ARIS:0000113	Deep vein thrombosis	broader	SYMP:0000528	cardiovascular system symptom	HP:0002625	Deep venous thrombosis	exact		
+ARIS:0000114	Dehydration	exact	SYMP:0000020	dehydration	HP:0001944	Dehydration	exact		
+ARIS:0000115	Delayed growth	broader	SYMP:0000464	lack of expected normal physiological development in childhood	HP:0001510	Growth delay	exact		
+ARIS:0000116	Delayed muscle relaxation after strong contraction	broader	SYMP:0000183	muscle symptom	HP:0002486	Myotonia	exact		
+ARIS:0000117	Delayed puberty	broader	SYMP:0000464	lack of expected normal physiological development in childhood	HP:0000823	Delayed puberty	exact		
+ARIS:0000118	Dementia	broader	SYMP:0000410	neurological and physiological symptom	HP:0000726	Dementia	exact	Cognitive impairment	
+ARIS:0000119	Depression	exact	SYMP:0000022	depression	HP:0000716	Depression	exact	Mood changes	
+ARIS:0000120	Deterioration in school performance	broader	SYMP:0000410	neurological and physiological symptom	HP:0100543	Cognitive impairment	broader	Cognitive impairment	
+ARIS:0000121	Development regression	broader	SYMP:0000473	nutrition, metabolism, and development symptom	HP:0002376	Developmental regression	exact		
+ARIS:0000122	Diabetic ketoacidosis (DKA)	broader	SYMP:0000473	nutrition, metabolism, and development symptom	HP:0001953	Diabetic ketoacidosis	exact		
+ARIS:0000123	Diarrhea	exact	SYMP:0000570	diarrhea	HP:0002014	Diarrhea	exact		
+ARIS:0000124	Different colored eyes	broader	SYMP:0019163	eye symptom	HP:0001100	Heterochromia iridis	exact		
+ARIS:0000125	Different sized pupils	exact	SYMP:0000253	anisocoria	HP:0009916	Anisocoria	exact	Dysfunction of pupils	
+	Difficulty breathing	merged							Shortness of breath
+ARIS:0000126	Difficulty chewing	broader	SYMP:0000386	mouth symptom	HP:0005216	Impaired mastication	exact		
+ARIS:0000127	Difficulty climbing stairs	broader	SYMP:0000891	musculoskeletal system symptom	HP:0003551	Difficulty climbing stairs	exact	Movement difficulty	
+ARIS:0000128	Difficulty concentrating	exact	SYMP:0020029	concentration difficulty	HP:0000736	Short attention span	broader	Cognitive impairment	
+ARIS:0000129	Difficulty eating	exact	SYMP:0020046	feeding problem	HP:0011968	Feeding difficulties	exact		
+ARIS:0000130	Difficulty exercising	broader	SYMP:0000567	general symptom	HP:0003546	Exercise intolerance	exact		
+ARIS:0000131	Difficulty finding words	exact	SYMP:0000214	anomia	HP:0002381	Aphasia	broader	Difficulty speaking	
+ARIS:0000132	Difficulty moving from sitting to standing	broader	SYMP:0000891	musculoskeletal system symptom	HP:0100022	Abnormality of movement	broader	Movement difficulty	
+ARIS:0000133	Difficulty moving jaw	broader	SYMP:0000891	musculoskeletal system symptom	HP:0000153	Abnormality of the mouth	broader		
+	Difficulty retaining information	merged							Memory problems
+ARIS:0000134	Difficulty seeing color	exact	SYMP:0020005	acquired color vision deficiency	HP:0000551	Color vision defect	exact	Vision problems	
+ARIS:0000135	Difficulty speaking	broader	SYMP:0019185	communication difficulty	HP:0002465	Poor speech	exact		
+ARIS:0000136	Difficulty swallowing	exact	SYMP:0000493	dysphagia	HP:0002015	Dysphagia	exact		
+ARIS:0000137	Difficulty understanding basic concepts	broader	SYMP:0000410	neurological and physiological symptom	HP:0100543	Cognitive impairment	broader	Cognitive impairment	
+ARIS:0000138	Difficulty understanding speech	broader	SYMP:0019185	communication difficulty	HP:0002381	Aphasia	broader		
+ARIS:0000139	Difficulty urinating	broader	SYMP:0000573	urinary stream symptom	HP:0000079	Abnormality of the urinary system	broader		
+ARIS:0000140	Difficulty walking	exact	SYMP:0000479	abnormality of gait	HP:0001288	Gait disturbance	broader	Movement difficulty	
+ARIS:0000141	Discomfort in legs that begins after lying down or sitting for a long time	broader	SYMP:0000745	change in body sensation	HP:0012452	Restless legs	broader		
+	Discomfort in legs that is relieved by movement	merged							Discomfort in legs that begins after lying down or sitting for a long time
+	Discomfort in legs that occur mainly at night	merged							Discomfort in legs that begins after lying down or sitting for a long time
+ARIS:0000142	Discomfort, which is generally greater if lichen sclerosus appears on or around your genital or anal areas	broader	SYMP:0000488	skin and integumentary tissue symptom	HP:0012531	Pain	broader		
+ARIS:0000143	Disorders of finger and toe nails	broader	SYMP:0000488	skin and integumentary tissue symptom	HP:0001597	Abnormal nail morphology	exact	Changes in nails	
+ARIS:0000144	Disorientation	exact	SYMP:0000023	disorientation	HP:0001289	Confusion	broader		
+ARIS:0000145	Disturbed consciousness	exact	SYMP:0000625	conscious disturbance	HP:0004372	Reduced consciousness	exact	Altered level of consciousness	
+ARIS:0000146	Dizziness	exact	SYMP:0000610	dizziness			no term		
+	Does not cause mouth blisters	not a symptom							
+ARIS:0000147	Double vision	exact	SYMP:0000258	double vision	HP:0000651	Diplopia	exact	Vision problems	
+ARIS:0000148	Double vision, horizontal or vertical, that improves when one eye is closed	broader	SYMP:0000258	double vision	HP:0000651	Diplopia	broader	Double vision	
+ARIS:0000149	Drowsiness	exact	SYMP:0000024	drowsiness	HP:0002329	Drowsiness	exact		
+ARIS:0000150	Dry cough	exact	SYMP:0000025	dry cough	HP:0031246	Nonproductive cough	exact	Cough	
+ARIS:0000151	Dry eyes	broader	SYMP:0019163	eye symptom	HP:0001097	Keratoconjunctivitis sicca	exact		
+ARIS:0000152	Dry mouth	exact	SYMP:0000260	dry mouth	HP:0000217	Xerostomia	exact		
+ARIS:0000153	Dry skin	broader	SYMP:0000535	change in skin texture	HP:0000958	Dry skin	exact		
+ARIS:0000154	Dry, cracked skin that may bleed	broader	SYMP:0000535	change in skin texture	HP:0031057	Skin fissure	exact	Dry skin	
+ARIS:0000155	Dull facial expression	broader	SYMP:0000480	nervous system symptom	HP:0000338	Hypomimic face	exact	Change in facial expression	
+ARIS:0000156	Dysfunction of pupils	exact	SYMP:0000417	pupil symptom	HP:0007686	Abnormal pupillary function	exact		
+ARIS:0000157	Ear pain	exact	SYMP:0000437	earache	HP:0030766	Ear pain	exact	Pain	
+ARIS:0000158	Early intractable limbic seizures and temporal lobe status	broader	SYMP:0000124	seizure	HP:0001250	Seizure	broader	Seizures	
+	Early stages:	not a symptom							
+ARIS:0000159	Early-onset multi-organ autoimmunity starting in infancy/childhood	broader	SYMP:0019138	immune system symptom	HP:0002960	Autoimmunity	broader		
+ARIS:0000160	Early-onset type 1 diabetes mellitus	broader	SYMP:0000473	nutrition, metabolism, and development symptom	HP:0100651	Type I diabetes mellitus	exact		
+	Ears:	not a symptom							
+ARIS:0000161	Easy bruising	exact	SYMP:0000406	bruise	HP:0000978	Bruising susceptibility	exact		
+ARIS:0000162	Eczema-like rash	broader	SYMP:0000487	rash	HP:0000964	Eczematoid dermatitis	exact	Rash	
+ARIS:0000163	Edema	exact	SYMP:0000538	edema	HP:0000969	Edema	exact	Swelling	
+ARIS:0000164	Elbow pain	exact	SYMP:0000441	elbow pain	HP:0030835	Elbow pain	exact	Joint pain	
+ARIS:0000165	Electric-shock sensations that occur with certain head movements	broader	SYMP:0000435	paresthesia	HP:0012534	Dysesthesia	broader		
+ARIS:0000166	Empty feeling in the abdomen/stomach	broader	SYMP:0000188	abdominal discomfort	HP:0011458	Abdominal symptom	broader		
+ARIS:0000167	Encephalopathy, confusion, and delirium	broader	SYMP:0000682	altered mental status	HP:0001298	Encephalopathy	broader	Confusion	
+	Epilepsy	merged							Epileptic seizures
+ARIS:0000168	Epileptic seizures	exact	SYMP:0000269	epileptic seizure	HP:0001250	Seizure	broader	Seizures	
+ARIS:0000169	Erectile dysfunction	broader	SYMP:0000196	reproductive system symptom	HP:0100639	Erectile dysfunction	exact	Sexual dysfunction	
+ARIS:0000170	Euphoria	broader	SYMP:0019182	behavioral symptom	HP:0031844	Euphoria	exact	Mood changes	
+ARIS:0000171	Excessive bleeding	broader	SYMP:0000007	bleeding	HP:0001892	Abnormal bleeding	exact		
+ARIS:0000172	Excessive sweating	exact	SYMP:0019152	diaphoresis	HP:0000975	Hyperhidrosis	exact		
+ARIS:0000173	Eye discharge	exact	SYMP:0000281	eye discharge	HP:0000478	Abnormality of the eye	broader		
+ARIS:0000174	Eye inflammation	exact	SYMP:0000310	inflamed eyes	HP:0100533	Inflammatory abnormality of the eye	exact		
+ARIS:0000175	Eye irritation	broader	SYMP:0019163	eye symptom	HP:0000478	Abnormality of the eye	broader		
+ARIS:0000176	Eye lesions	exact	SYMP:0019172	ocular lesion	HP:0000478	Abnormality of the eye	broader		
+ARIS:0000177	Eye pain	broader	SYMP:0000099	pain	HP:0200026	Ocular pain	exact	Pain	
+ARIS:0000178	Eye sensitivity	broader	SYMP:0019163	eye symptom	HP:0000478	Abnormality of the eye	broader		
+ARIS:0000179	Eyebrow hair loss	broader	SYMP:0000440	hair loss	HP:0001596	Alopecia	broader	Hair loss	
+ARIS:0000180	Eyelid drooping	exact	SYMP:0000369	ptosis	HP:0000508	Ptosis	exact		
+	Eyes:	not a symptom							
+ARIS:0000181	Facial droop	broader	SYMP:0000706	facial weakness	HP:0010628	Facial palsy	broader		
+ARIS:0000182	Facial flushing	exact	SYMP:0000844	face hyperemia	HP:0031284	Flushing	exact		
+ARIS:0000183	Facial pain	broader	SYMP:0000099	pain	HP:0012531	Pain	broader	Pain	
+ARIS:0000184	Facial paralysis	exact	SYMP:0000283	facial paralysis	HP:0007209	Facial paralysis	exact	Paralysis	
+	Facial reddening	merged							Facial flushing
+	Failure of cervical mucus penetration on postcoital testing	not a symptom							
+ARIS:0000185	Failure to thrive	exact	SYMP:0000465	failure to thrive	HP:0001508	Failure to thrive	exact		
+ARIS:0000186	Fainting	exact	SYMP:0000407	syncope	HP:0001279	Syncope	exact		
+ARIS:0000187	Falling	broader	SYMP:0020045	balance symptom	HP:0002359	Frequent falls	exact	Unsteadiness	
+ARIS:0000188	Fast breathing	exact	SYMP:0000603	tachypnea	HP:0002789	Tachypnea	exact		
+ARIS:0000189	Fast, irregular eye movements	broader	SYMP:0019163	eye symptom	HP:0010543	Opsoclonus	exact		
+ARIS:0000190	Fatigue	exact	SYMP:0019177	fatigue	HP:0012378	Fatigue	exact		
+ARIS:0000191	Fatty deposits on the skin around your eyes, your eyelids, or in the creases in your palms, soles, elbows or knees	broader	SYMP:0000488	skin and integumentary tissue symptom	HP:0000991	Xanthomatosis	broader		
+ARIS:0000192	Fear	broader	SYMP:0000412	anxiety	HP:0100852	Abnormal fear-induced behavior	broader	Anxiety	
+ARIS:0000193	Feeling full quickly after eating	exact	SYMP:0000472	early satiety	HP:0033842	Early satiety	exact		
+ARIS:0000194	Feeling of fullness in the ear	broader	SYMP:0000392	ear symptom	HP:0000598	Abnormality of the ear	broader		
+ARIS:0000195	Feet spasms	broader	SYMP:0000689	cramp	HP:0003394	Muscle spasm	broader	Muscle spasms	
+ARIS:0000196	Fever	exact	SYMP:0000613	fever	HP:0001945	Fever	exact		
+ARIS:0000197	Finger pain	broader	SYMP:0000099	pain	HP:0030837	Finger pain	exact	Pain	
+ARIS:0000198	Finger tremor	broader	SYMP:0000162	tremor	HP:0001337	Tremor	broader	Tremor	
+ARIS:0000199	Fingernails and toenails have dents, white spots, and roughness	broader	SYMP:0000488	skin and integumentary tissue symptom	HP:0001597	Abnormal nail morphology	broader	Changes in nails	
+ARIS:0000200	Firm bumps of tissue under the skin on your arms	broader	SYMP:0000556	localized superficial lump	HP:0001482	Subcutaneous nodule	exact	Abnormal lumps below skin	
+	Flare/remission pattern to symptoms	not a symptom							
+ARIS:0000201	Flat or slightly raised, painless rash with a ragged edge	broader	SYMP:0000487	rash	HP:0000988	Skin rash	broader	Rash	
+ARIS:0000202	Floaters in vision	broader	SYMP:0000627	disturbed vision	HP:0100832	Vitreous floaters	exact	Vision problems	
+	Flu-like prodrome	merged							Flu-like symptoms
+ARIS:0000203	Flu-like symptoms	broader	SYMP:0000567	general symptom	HP:0025142	Constitutional symptom	broader		
+ARIS:0000204	Fluctuating neurological symptoms (confusion, transient focal deficits, seizure, coma)	broader	SYMP:0000336	neurological dysfunction	HP:0000707	Abnormality of the nervous system	broader		
+	Fluid-dilled sacs	merged							Blisters
+ARIS:0000205	Foamy, frothy urine	broader	SYMP:0000486	urinary system symptom	HP:0031504	Foamy urine	exact		
+ARIS:0000206	Food getting stuck in the esophagus after swallowing	broader	SYMP:0000493	dysphagia	HP:0002015	Dysphagia	broader	Difficulty swallowing	
+ARIS:0000207	Foot pain	broader	SYMP:0000099	pain	HP:0025238	Foot pain	exact	Pain	
+	Forward displacement of eye	merged							Bulging eyes
+ARIS:0000208	Frequent bowel movements	broader	SYMP:0000459	digestive system symptom	HP:0025031	Abnormality of the digestive system	broader	Bowel changes	
+	Frequent infections	merged							Recurrent infections
+ARIS:0000209	Fulminant ketoacidosis	broader	SYMP:0000473	nutrition, metabolism, and development symptom	HP:0001993	Ketoacidosis	broader	Diabetic ketoacidosis (DKA)	
+ARIS:0000210	Galactorrhea	broader	SYMP:0000196	reproductive system symptom	HP:0100829	Galactorrhea	exact		
+ARIS:0000211	Gangrene of extremities	broader	SYMP:0000593	gangrene	HP:0100758	Gangrene	broader		
+ARIS:0000212	Gas	exact	SYMP:0000509	flatulence	HP:0033589	Flatulence	exact		
+ARIS:0000213	Generalized areflexia	exact	SYMP:0000220	areflexia	HP:0001284	Areflexia	exact	Reduced reflexes	
+ARIS:0000214	Genital blisters	broader	SYMP:0000009	blister	HP:0008066	Abnormal blistering of the skin	broader	Blisters	
+ARIS:0000215	Gnawing ache in the upper abdomen that may become better or worse with eating	broader	SYMP:0000542	epigastric abdominal pain	HP:0410019	Epigastric pain	broader	Abdominal pain	
+ARIS:0000216	Gradual weight loss	broader	SYMP:0000178	weight loss	HP:0001824	Weight loss	broader	Weight loss	
+ARIS:0000217	Gum enlargement	broader	SYMP:0000386	mouth symptom	HP:0000212	Gingival overgrowth	exact		
+ARIS:0000218	Hair loss	exact	SYMP:0000440	hair loss	HP:0001596	Alopecia	exact		
+ARIS:0000219	Hallucinations	exact	SYMP:0000607	hallucination	HP:0000738	Hallucinations	exact	Psychosis	
+ARIS:0000220	Hand pain	broader	SYMP:0000099	pain	HP:0046505	Hand pain	exact	Pain	
+ARIS:0000221	Hand spasms	broader	SYMP:0000689	cramp	HP:0003394	Muscle spasm	broader	Muscle spasms	
+ARIS:0000222	Hand tremor	broader	SYMP:0000162	tremor	HP:0002378	Hand tremor	exact	Tremor	
+ARIS:0000223	Hard to read fine print, drive, or recognize faces	broader	SYMP:0000627	disturbed vision	HP:0000505	Visual impairment	broader	Vision problems	
+	Has prominent involvement of the head and neck	not a symptom							
+ARIS:0000224	Headache	exact	SYMP:0000504	headache	HP:0002315	Headache	exact	Pain	
+	Healing with minimal scarring	not a symptom							
+ARIS:0000225	Hearing loss	exact	SYMP:0000019	deafness	HP:0000365	Hearing impairment	exact		
+ARIS:0000226	Hearing loss that may fluctuate, particularly early in the course of the disease	broader	SYMP:0000019	deafness	HP:0000365	Hearing impairment	broader	Hearing loss	
+ARIS:0000227	Heart murmur	exact	SYMP:0000527	undiagnosed cardiac murmur	HP:0030148	Heart murmur	exact		
+ARIS:0000228	Heart palpitations	exact	SYMP:0000530	palpitation	HP:0001962	Palpitations	exact		
+ARIS:0000229	Heaviness in chest	broader	SYMP:0020031	chest discomfort	HP:0031352	Chest tightness	exact		
+ARIS:0000230	Heavy menstrual flow	exact	SYMP:0000756	menorrhagia	HP:0000132	Menorrhagia	exact		
+ARIS:0000231	Heavy vaginal discharge that has a foul odor	broader	SYMP:0000398	vaginal discharge	HP:0034269	Abnormal vaginal discharge	broader		
+ARIS:0000232	Heel pain	broader	SYMP:0000099	pain	HP:0025238	Foot pain	broader	Foot pain	
+ARIS:0000233	Heel stiffness	broader	SYMP:0000891	musculoskeletal system symptom	HP:0001387	Joint stiffness	broader	Stiffness	
+ARIS:0000234	Hiccups	exact	SYMP:0000515	hiccough	HP:0100247	Recurrent singultus	broader		
+ARIS:0000235	High shoulder blade	broader	SYMP:0000891	musculoskeletal system symptom	HP:0000912	Sprengel anomaly	exact		
+ARIS:0000236	High-pitched sound during breathing	exact	SYMP:0000513	stridor	HP:0010307	Stridor	exact		
+ARIS:0000237	Hip pain	exact	SYMP:0000632	hip pain	HP:0030838	Hip pain	exact	Joint pain	
+ARIS:0000238	Hip stiffness	broader	SYMP:0000312	joint symptom	HP:0025262	Stiff hip	exact	Joint stiffness	
+ARIS:0000239	Hives	exact	SYMP:0000434	urticaria	HP:0001025	Urticaria	exact		
+ARIS:0000240	Hoarseness	exact	SYMP:0019181	hoarseness	HP:0001609	Hoarse voice	exact	Change in voice	
+ARIS:0000241	Hunched posture	broader	SYMP:0000618	abnormal posture	HP:0002808	Kyphosis	exact		
+ARIS:0000242	Hunger	broader	SYMP:0000244	alteration of appetite	HP:0002591	Polyphagia	broader		
+ARIS:0000243	Hyperpigmentation	exact	SYMP:0000056	hyperpigmentation	HP:0000953	Hyperpigmentation of the skin	exact		
+ARIS:0000244	Hypersexuality and disinhibited behaviors	broader	SYMP:0019182	behavioral symptom	HP:0008768	Abnormal sexual behavior	broader	Behavioral changes	
+ARIS:0000245	Impaired coordination	exact	SYMP:0000304	impaired coordination	HP:0002311	Incoordination	exact		
+ARIS:0000246	In childhood-onset bullous pemphigoid associated with vaccination, the bullous lesions predominantly affect the palms, soles, and face	broader	SYMP:0000009	blister	HP:0008066	Abnormal blistering of the skin	broader	Blisters	
+	In children:	not a symptom							
+	In comparison to bullous pemphigoid, eba:	not a symptom							
+	Inability to conceive after ≥1 year of unprotected intercourse with normal evaluations	merged							Infertility
+	Inability to move the eye	merged							Paralysis of eye muscles
+ARIS:0000247	Increased appetite (polyphagia)	exact	SYMP:0000524	polyphagia	HP:0002591	Polyphagia	exact		
+ARIS:0000248	Increased calf muscle size	broader	SYMP:0000183	muscle symptom	HP:0003712	Skeletal muscle hypertrophy	broader		
+ARIS:0000249	Increased frequency of urination	exact	SYMP:0000563	urinary frequency	HP:0100515	Pollakisuria	exact		
+	Increased thirst	merged							Polydipsia
+	Increased urination	merged							Polyuria
+	Increased urination at night	merged							Nocturia
+ARIS:0000250	Indigestion	exact	SYMP:0000422	dyspepsia	HP:0410281	Dyspepsia	exact		
+ARIS:0000251	Infertility	exact	SYMP:0000712	infertility	HP:0000789	Infertility	exact		
+ARIS:0000252	Inflammation of the gums	broader	SYMP:0000386	mouth symptom	HP:0000230	Gingivitis	exact		
+	Inflammatory EBA:	not a symptom							
+	Initial breakout:	not a symptom							
+ARIS:0000253	Interstitial pneumonia	broader	SYMP:0000354	pneumonitis	HP:0006515	Interstitial pneumonitis	exact		
+	Intestines:	not a symptom							
+ARIS:0000254	Involuntary movements	exact	SYMP:0000594	abnormal involuntary movement	HP:0004305	Involuntary movements	exact	Abnormal movement	
+	Involves mucous membranes	not a symptom							
+ARIS:0000255	Irregular heartbeat	exact	SYMP:0000287	arrhythmia	HP:0011675	Arrhythmia	exact		
+ARIS:0000256	Irritability	exact	SYMP:0000654	irritability	HP:0000737	Irritability	exact	Mood changes	
+ARIS:0000257	Irritability / mood changes	broader	SYMP:0019182	behavioral symptom	HP:0000737	Irritability	broader	Mood changes	
+ARIS:0000258	Irritability in children	broader	SYMP:0000654	irritability	HP:0000737	Irritability	broader	Irritability	
+ARIS:0000259	Itching	exact	SYMP:0000432	itching	HP:0000989	Pruritus	exact		
+ARIS:0000260	Itchy blisters	broader	SYMP:0000009	blister	HP:0008066	Abnormal blistering of the skin	broader	Blisters	
+ARIS:0000261	Itchy rash	broader	SYMP:0000487	rash	HP:0000988	Skin rash	broader	Rash	
+	Itchy skin	merged							Itching
+ARIS:0000262	Jaw pain when you open your mouth	broader	SYMP:0000099	pain	HP:0040264	Jaw pain	broader	Pain	
+ARIS:0000263	Joint pain	exact	SYMP:0000064	joint pain	HP:0002829	Arthralgia	exact	Pain	
+ARIS:0000264	Joint stiffness	broader	SYMP:0000312	joint symptom	HP:0001387	Joint stiffness	exact	Stiffness	
+ARIS:0000265	Joint tenderness	broader	SYMP:0020065	tenderness	HP:0002829	Arthralgia	broader	Tenderness	
+	Joints:	not a symptom							
+ARIS:0000266	Knee pain	exact	SYMP:0000442	knee pain	HP:0030839	Knee pain	exact	Joint pain	
+ARIS:0000267	Knee stiffness	broader	SYMP:0000312	joint symptom	HP:0025263	Stiff knee	exact	Joint stiffness	
+	Lack of sweat	merged							Decreased sweating
+ARIS:0000268	Lactose intolerance	broader	SYMP:0000459	digestive system symptom	HP:0004789	Lactose intolerance	exact		
+ARIS:0000269	Large blisters	broader	SYMP:0000009	blister	HP:0008066	Abnormal blistering of the skin	broader	Blisters	
+ARIS:0000270	Large blisters on lower abdomen, groin, upper thighs and arms that don't easily rupture when touched	broader	SYMP:0000009	blister	HP:0008066	Abnormal blistering of the skin	broader	Large blisters	
+	Later stages:	not a symptom							
+ARIS:0000271	Leaking bumps or sores that heal very slowly and recur over time	broader	SYMP:0000136	skin ulcer	HP:0200042	Skin ulcer	broader	Skin sores	
+ARIS:0000272	Learning disability	broader	SYMP:0000410	neurological and physiological symptom	HP:0001328	Specific learning disability	exact	Cognitive impairment	
+ARIS:0000273	Leg pain	broader	SYMP:0000099	pain	HP:0012514	Lower limb pain	exact	Pain	
+ARIS:0000274	Leg stiffness	broader	SYMP:0000891	musculoskeletal system symptom	HP:0001387	Joint stiffness	broader	Stiffness	
+ARIS:0000275	Lesions	broader	SYMP:0000092	skin lesion	HP:0000951	Abnormality of the skin	broader		
+ARIS:0000276	Lightheadedness	exact	SYMP:0019179	lightheadedness	HP:0031972	Presyncope	exact	Dizziness	
+ARIS:0000277	Limited range of motion in affected areas	broader	SYMP:0000891	musculoskeletal system symptom	HP:0001376	Limitation of joint mobility	exact		
+ARIS:0000278	Limping	exact	SYMP:0000875	lameness	HP:0001288	Gait disturbance	broader	Difficulty walking	
+ARIS:0000279	Limpness of the ear	broader	SYMP:0000392	ear symptom	HP:0000598	Abnormality of the ear	broader		
+ARIS:0000280	Lip ulcers	broader	SYMP:0000330	mouth sore	HP:0000155	Oral ulcer	broader	Mouth sores	
+	Lofgren's syndrome:	not a symptom							
+ARIS:0000281	Loose fatty stools that do not flush easily	exact	SYMP:0000147	steatorrhea	HP:0002570	Steatorrhea	exact		
+ARIS:0000282	Loss of bladder control	exact	SYMP:0000492	urinary incontinence	HP:0000020	Urinary incontinence	exact	Abnormal bladder control	
+ARIS:0000283	Loss of bowel control	broader	SYMP:0000146	feces and droppings symptom	HP:0002607	Bowel incontinence	exact	Bowel changes	
+ARIS:0000284	Loss of color in the tissues that line the inside of your mouth	broader	SYMP:0000386	mouth symptom	HP:0000153	Abnormality of the mouth	broader		
+ARIS:0000285	Loss of consciousness	exact	SYMP:0000718	loss of consciousness	HP:0007185	Loss of consciousness	exact		
+ARIS:0000286	Loss of eyelashes	broader	SYMP:0000440	hair loss	HP:0011457	Loss of eyelashes	exact	Hair loss	
+ARIS:0000287	Loss of feeling in feet	broader	SYMP:0000834	hypoesthesia	HP:0010830	Impaired tactile sensation	broader	Numbness	
+ARIS:0000288	Loss of feeling in hands	broader	SYMP:0000834	hypoesthesia	HP:0010830	Impaired tactile sensation	broader	Numbness	
+	Loss of hearing	merged							Hearing loss
+ARIS:0000289	Loss of low-light vision	broader	SYMP:0000320	vision symptom	HP:0000662	Nyctalopia	exact	Vision problems	
+ARIS:0000290	Loss of motor skills	broader	SYMP:0000891	musculoskeletal system symptom	HP:0033044	Motor regression	exact	Movement difficulty	
+ARIS:0000291	Loss of or change in color of the inner layer of your eye	broader	SYMP:0019163	eye symptom	HP:0000478	Abnormality of the eye	broader		
+ARIS:0000292	Loss of peripheral vision	broader	SYMP:0000321	loss of vision	HP:0007994	Peripheral visual field loss	exact	Vision loss	
+ARIS:0000293	Loss of sensation	broader	SYMP:0000765	sensory disturbance	HP:0003474	Somatic sensory dysfunction	exact		
+ARIS:0000294	Loss of teeth	broader	SYMP:0000386	mouth symptom	HP:0006480	Premature loss of teeth	exact		
+ARIS:0000295	Low blood counts	exact	SYMP:0000691	cytopenia	HP:0001871	Abnormality of blood and blood-forming tissues	broader		
+ARIS:0000296	Low neutrophil count:	broader	SYMP:0020060	low white blood cell count	HP:0001875	Decreased total neutrophil count	exact	Low blood counts	
+ARIS:0000297	Low platelet count:	exact	SYMP:0000114	thrombocytopenia	HP:0001873	Thrombocytopenia	exact	Low blood counts	
+ARIS:0000298	Low-grade fever	exact	SYMP:0000879	low-grade fever	HP:0011134	Low-grade fever	exact	Fever	
+ARIS:0000299	Lower back stiffness	broader	SYMP:0000891	musculoskeletal system symptom	HP:0001387	Joint stiffness	broader	Stiffness	
+ARIS:0000300	Lumps turn blue or yellow	broader	SYMP:0000488	skin and integumentary tissue symptom	HP:0000951	Abnormality of the skin	broader		
+	Lungs:	not a symptom							
+ARIS:0000301	Malaise	exact	SYMP:0019176	malaise	HP:0033834	Malaise	exact		
+ARIS:0000302	Marked high-amplitude postural and action tremor	broader	SYMP:0000162	tremor	HP:0001337	Tremor	broader	Tremor	
+ARIS:0000303	Marked psychiatric and behavioral changes (agitation, psychosis)	broader	SYMP:0019182	behavioral symptom	HP:0000708	Atypical behavior	broader	Behavioral changes	
+	Markedly decreased progressive sperm forward motility	not a symptom							
+ARIS:0000304	Memory problems	exact	SYMP:0000719	memory impairment	HP:0002354	Memory impairment	exact	Cognitive impairment	
+	Men:	not a symptom							
+ARIS:0000305	Meningoencephalitis symptoms: subacute fever, severe headache, and neck stiffness	broader	SYMP:0000089	meningoencephalitis	HP:0000707	Abnormality of the nervous system	broader		
+ARIS:0000306	Mental decline	broader	SYMP:0000410	neurological and physiological symptom	HP:0100543	Cognitive impairment	broader	Cognitive impairment	
+ARIS:0000307	Mental disorders	broader	SYMP:0019182	behavioral symptom	HP:0000708	Atypical behavior	broader		
+ARIS:0000308	Microangiopathic hemolytic anemia with schistocytes on blood smear	broader	SYMP:0000720	microangiopathic hemolytic anemia	HP:0001937	Microangiopathic hemolytic anemia	exact		
+ARIS:0000309	Migraine headaches	broader	SYMP:0000504	headache	HP:0002076	Migraine	exact	Headache	
+ARIS:0000310	Migrating joint pain	broader	SYMP:0000064	joint pain	HP:0002829	Arthralgia	broader	Joint pain	
+ARIS:0000311	Milky white patches on skin	broader	SYMP:0000184	change in skin color	HP:0001045	Vitiligo	exact	Skin pigmentation loss	
+ARIS:0000312	Misalignment of jaw	broader	SYMP:0000387	head symptom	HP:0000234	Abnormality of the head	broader		
+ARIS:0000313	Misalignment of teeth	broader	SYMP:0000386	mouth symptom	HP:0000692	Tooth malposition	exact		
+ARIS:0000314	Miscarriages	exact	SYMP:0000198	miscarriage	HP:0005268	Miscarriage	exact		
+ARIS:0000315	Mood changes	broader	SYMP:0019182	behavioral symptom	HP:0100851	Abnormal emotional state	broader		
+	More general signs and symptoms, including:	not a symptom							
+ARIS:0000316	Mouth rash	broader	SYMP:0000487	rash	HP:0000988	Skin rash	broader	Rash	
+ARIS:0000317	Mouth sores	exact	SYMP:0000330	mouth sore	HP:0000155	Oral ulcer	exact		
+	Mouth ulcers	merged							Mouth sores
+ARIS:0000318	Movement difficulty	broader	SYMP:0000891	musculoskeletal system symptom	HP:0100022	Abnormality of movement	broader		
+ARIS:0000319	Mucocutaneous, hematuric, and gastrointestinal bleeding	broader	SYMP:0000007	bleeding	HP:0001892	Abnormal bleeding	broader	Excessive bleeding	
+	Mucous membrane EBA:	not a symptom							
+ARIS:0000320	Mucous-membrane blisters that rupture easily	broader	SYMP:0000009	blister	HP:0200097	Oral mucosal blisters	broader	Blisters	
+ARIS:0000321	Muscle cramps	exact	SYMP:0000093	muscle cramp	HP:0003394	Muscle spasm	exact	Cramps	
+ARIS:0000322	Muscle loss	broader	SYMP:0000183	muscle symptom	HP:0003202	Skeletal muscle atrophy	exact		
+ARIS:0000323	Muscle pain	exact	SYMP:0019161	muscle pain	HP:0003326	Myalgia	exact	Pain	
+ARIS:0000324	Muscle soreness	exact	SYMP:0000332	muscle soreness	HP:0003326	Myalgia	broader	Muscle pain	
+ARIS:0000325	Muscle spasms	broader	SYMP:0000183	muscle symptom	HP:0003394	Muscle spasm	exact		
+ARIS:0000326	Muscle stiffness	exact	SYMP:0019162	muscle tightness	HP:0003552	Muscle stiffness	exact	Stiffness	
+ARIS:0000327	Muscle tenderness	exact	SYMP:0000333	muscle tenderness	HP:0003326	Myalgia	broader	Tenderness	
+ARIS:0000328	Myelopathy with spinal paraparesis and sensory deficit	broader	SYMP:0000659	pareses	HP:0002196	Myelopathy	exact		
+ARIS:0000329	Nail loss	broader	SYMP:0000488	skin and integumentary tissue symptom	HP:0001597	Abnormal nail morphology	broader	Changes in nails	
+ARIS:0000330	Nasal congestion	exact	SYMP:0000869	nasal congestion	HP:0001742	Nasal congestion	exact		
+ARIS:0000331	Nausea	exact	SYMP:0000458	nausea	HP:0002018	Nausea	exact		
+ARIS:0000332	Nausea during menstrual periods	broader	SYMP:0000458	nausea	HP:0002018	Nausea	broader	Nausea	
+	Near sites of irritation	not a symptom							
+ARIS:0000333	Nerve pain	exact	SYMP:0000832	neuropathic pain	HP:6000040	Neuropathic pain	exact	Pain	
+ARIS:0000334	Night sweats	exact	SYMP:0000337	night sweats	HP:0030166	Night sweats	exact		
+	No response to gastroesophageal reflux disease (gerd) medication	not a symptom							
+ARIS:0000335	Nocturia	exact	SYMP:0000564	nocturia	HP:0000017	Nocturia	exact		
+ARIS:0000336	Nocturnal cough and pulmonary aspiration	broader	SYMP:0000614	cough	HP:0012735	Cough	broader	Cough	
+ARIS:0000337	Nodules in fingers	broader	SYMP:0000556	localized superficial lump	HP:0200036	Skin nodule	broader		
+ARIS:0000338	Nodules in heel	broader	SYMP:0000556	localized superficial lump	HP:0200036	Skin nodule	broader		
+ARIS:0000339	Nodules in toes	broader	SYMP:0000556	localized superficial lump	HP:0200036	Skin nodule	broader		
+	Non-inflammatory EBA:	not a symptom							
+ARIS:0000340	Nose rash	broader	SYMP:0000487	rash	HP:0000988	Skin rash	broader	Rash	
+ARIS:0000341	Nose ulcers	broader	SYMP:0000388	nose symptom	HP:0033361	Nasal ulcer	exact		
+	Nose:	not a symptom							
+ARIS:0000342	Nosebleeds	exact	SYMP:0000448	epistaxis	HP:0000421	Epistaxis	exact		
+ARIS:0000343	Numbness	exact	SYMP:0000834	hypoesthesia	HP:0033748	Hypoesthesia	exact	Loss of sensation	
+ARIS:0000344	Numbness in the fingers or toes, especially in cold temperatures	broader	SYMP:0000834	hypoesthesia	HP:0033748	Hypoesthesia	broader	Numbness	
+ARIS:0000345	Obsessions	broader	SYMP:0019182	behavioral symptom	HP:0000722	Compulsive behaviors	broader	Ocd	
+ARIS:0000346	Ocd	broader	SYMP:0019182	behavioral symptom	HP:0008770	Obsessive-compulsive trait	broader	Mental disorders	
+ARIS:0000347	Orange peel appearance of skin of the extremities	broader	SYMP:0000535	change in skin texture	HP:0025533	Peau d'orange	exact		
+ARIS:0000348	Oval-shaped patches	broader	SYMP:0000092	skin lesion	HP:0000951	Abnormality of the skin	broader		
+ARIS:0000349	Over-responsive reflexes	exact	SYMP:0000058	hyperreflexia	HP:0001347	Hyperreflexia	exact		
+ARIS:0000350	Pain	exact	SYMP:0000099	pain	HP:0012531	Pain	exact		
+ARIS:0000351	Pain after sexual intercourse	broader	SYMP:0000196	reproductive system symptom	HP:0030016	Dyspareunia	broader	Pain	
+ARIS:0000352	Pain and/or cramps in the lower abdomen before menstruation	broader	SYMP:0000457	abdominal pain	HP:0100607	Dysmenorrhea	broader	Painful menstrual periods	
+ARIS:0000353	Pain during bowel movements	broader	SYMP:0000459	digestive system symptom	HP:6000222	Painful defecation	exact	Pain	
+ARIS:0000354	Pain during sexual intercourse	exact	SYMP:0000404	dyspareunia	HP:0030016	Dyspareunia	exact	Pain	
+ARIS:0000355	Pain during urination	exact	SYMP:0000485	dysuria	HP:0100518	Dysuria	exact	Pain	
+ARIS:0000356	Pain in buttocks	broader	SYMP:0000099	pain	HP:0034805	Buttock pain	exact	Pain	
+ARIS:0000357	Pain in extremities	broader	SYMP:0000099	pain	HP:0009763	Limb pain	exact	Pain	
+ARIS:0000358	Pain in ligaments	broader	SYMP:0000099	pain	HP:0012531	Pain	broader	Pain	
+ARIS:0000359	Pain in tendons	broader	SYMP:0000099	pain	HP:0032510	Tendon pain	exact	Pain	
+ARIS:0000360	Pain on the bottom of the foot, especially noticeable when moving	broader	SYMP:0000099	pain	HP:0025238	Foot pain	broader	Foot pain	
+ARIS:0000361	Pain or discomfort in swallowing cold foods and liquids	broader	SYMP:0000385	throat symptom	HP:0012531	Pain	broader	Pain	
+ARIS:0000362	Pain or discomfort while the bladder fills and relief after urinating	broader	SYMP:0000486	urinary system symptom	HP:0032171	Bladder pain	broader	Bladder pain	
+ARIS:0000363	Pain when standing	broader	SYMP:0000099	pain	HP:0012531	Pain	broader	Pain	
+	Pain when urinating	merged							Pain during urination
+ARIS:0000364	Pain when urinating during menstrual periods	broader	SYMP:0000485	dysuria	HP:0100518	Dysuria	broader	Pain during urination	
+ARIS:0000365	Pain, especially first thing in the morning or after a nap	broader	SYMP:0000099	pain	HP:0012531	Pain	broader	Pain	
+ARIS:0000366	Painful and decreased eye movements	broader	SYMP:0019163	eye symptom	HP:0200026	Ocular pain	broader	Eye pain	
+ARIS:0000367	Painful and sensitive blisters that are ruptured	broader	SYMP:0000009	blister	HP:0008066	Abnormal blistering of the skin	broader	Blisters	
+ARIS:0000368	Painful bowel movements during menstrual periods	broader	SYMP:0000459	digestive system symptom	HP:0100607	Dysmenorrhea	broader	Pain during bowel movements	
+ARIS:0000369	Painful cramps during menstrual periods	broader	SYMP:0000689	cramp	HP:0100607	Dysmenorrhea	broader	Cramps	
+ARIS:0000370	Painful genital sores	broader	SYMP:0000196	reproductive system symptom	HP:0003249	Genital ulcers	exact	Painful sores	
+ARIS:0000371	Painful menstrual periods	broader	SYMP:0000196	reproductive system symptom	HP:0100607	Dysmenorrhea	exact	Pain	
+ARIS:0000372	Painful rashes	broader	SYMP:0000487	rash	HP:0000988	Skin rash	broader	Rash	
+ARIS:0000373	Painful red bumps that enlarge, break open, and drain pus. the pus may have an unpleasant odor	broader	SYMP:0019160	boil	HP:0025615	Abscess	broader		
+ARIS:0000374	Painful sores	broader	SYMP:0000136	skin ulcer	HP:0200042	Skin ulcer	broader	Skin sores	
+ARIS:0000375	Painful, fatty lumps	broader	SYMP:0000556	localized superficial lump	HP:0012032	Lipoma	broader		
+ARIS:0000376	Painful, symmetrical lumps	broader	SYMP:0000556	localized superficial lump	HP:0001482	Subcutaneous nodule	broader		
+ARIS:0000377	Pale skin	exact	SYMP:0000510	pallor	HP:0000980	Pallor	exact		
+ARIS:0000378	Panic attacks	broader	SYMP:0000412	anxiety	HP:0025269	Panic attack	exact	Anxiety	
+ARIS:0000379	Paralysis	exact	SYMP:0000030	paralysis	HP:0003470	Paralysis	exact		
+ARIS:0000380	Paralysis of eye muscles	exact	SYMP:0000658	extraocular muscles paralysis	HP:0000602	Ophthalmoplegia	exact	Paralysis	
+ARIS:0000381	Paralysis while falling asleep or upon waking up	broader	SYMP:0000566	sleep disturbance	HP:0025233	Sleep paralysis	exact	Sleep problems	
+ARIS:0000382	Paranoid delusions	broader	SYMP:0019182	behavioral symptom	HP:0000746	Delusion	broader	Psychosis	
+ARIS:0000383	Partial paralysis of the legs	broader	SYMP:0000659	pareses	HP:0002385	Paraparesis	exact	Paralysis	
+ARIS:0000384	Patches of blisters	broader	SYMP:0000009	blister	HP:0008066	Abnormal blistering of the skin	broader	Blisters	
+ARIS:0000385	Peeling skin	exact	SYMP:0020048	skin peeling	HP:0040189	Scaling skin	exact		
+ARIS:0000386	Pelvic pain	broader	SYMP:0000770	pelvic symptom	HP:0034267	Pelvic pain	exact	Pain	
+	Pemphigus foliaceus:	not a symptom							
+	Pemphigus vulgaris:	not a symptom							
+ARIS:0000387	Penis pain	broader	SYMP:0000196	reproductive system symptom	HP:0012531	Pain	broader	Pain	
+ARIS:0000388	Personality changes	broader	SYMP:0019182	behavioral symptom	HP:0000751	Personality changes	exact	Behavioral changes	
+ARIS:0000389	Polydipsia	exact	SYMP:0000560	polydipsia	HP:0001959	Polydipsia	exact		
+ARIS:0000390	Polyuria	exact	SYMP:0000565	polyuria	HP:0000103	Polyuria	exact		
+ARIS:0000391	Poor skin rigidity	broader	SYMP:0000535	change in skin texture	HP:0000951	Abnormality of the skin	broader		
+ARIS:0000392	Poor weight gain	broader	SYMP:0020012	weight symptom	HP:0001508	Failure to thrive	broader		
+ARIS:0000393	Postnatal growth failure and severe short stature	broader	SYMP:0000568	short stature	HP:0008897	Postnatal growth retardation	broader	Delayed growth	
+ARIS:0000394	Premature whitening or graying of the hair on your scalp, eyelashes, eyebrows or beard	broader	SYMP:0020040	hair symptom	HP:0002216	Premature graying of hair	exact	Whitening of hair	
+	Prickling sensations	merged							Tingling
+ARIS:0000395	Problems with metabolism	broader	SYMP:0000473	nutrition, metabolism, and development symptom	HP:0001939	Abnormality of metabolism/homeostasis	broader		
+ARIS:0000396	Profound consumptive thrombocytopenia with purpura and bleeding	broader	SYMP:0000114	thrombocytopenia	HP:0001873	Thrombocytopenia	broader	Low platelet count:	
+ARIS:0000397	Progressive dysphagia to both liquids and solids	broader	SYMP:0000493	dysphagia	HP:0002015	Dysphagia	broader	Difficulty swallowing	
+ARIS:0000398	Progressive loss of speech	broader	SYMP:0019185	communication difficulty	HP:0002371	Loss of speech	exact	Difficulty speaking	
+ARIS:0000399	Progressive muscle weakness	broader	SYMP:0000094	muscle weakness	HP:0003323	Progressive muscle weakness	exact	Weakness	
+ARIS:0000400	Progressive weakness in the arms	broader	SYMP:0000363	progressive weakness	HP:0003484	Upper limb muscle weakness	broader	Arm weakness	
+ARIS:0000401	Progressive weakness in the legs	broader	SYMP:0000363	progressive weakness	HP:0007340	Lower limb muscle weakness	broader	Weakness in legs	
+ARIS:0000402	Progressive, symmetrical muscle weakness	broader	SYMP:0000094	muscle weakness	HP:0001324	Muscle weakness	broader	Progressive muscle weakness	
+ARIS:0000403	Prolonged bleeding from cuts	broader	SYMP:0000007	bleeding	HP:0001892	Abnormal bleeding	broader	Excessive bleeding	
+	Prolonged menstrual bleeding	merged							Heavy menstrual flow
+ARIS:0000404	Prolonged, unprovoked post-traumatic or post-surgical hemorrhage	broader	SYMP:0000041	hemorrhage	HP:0001892	Abnormal bleeding	broader	Excessive bleeding	
+ARIS:0000405	Prominent action tremor of hands and arms	broader	SYMP:0000162	tremor	HP:0002345	Action tremor	broader	Tremor	
+	Prone to infections	merged							Recurrent infections
+ARIS:0000406	Protein-losing enteropathy with severe hypoalbuminemia and anasarca	broader	SYMP:0000433	anasarca	HP:0002243	Protein-losing enteropathy	broader		
+ARIS:0000407	Psychosis	broader	SYMP:0019182	behavioral symptom	HP:0000709	Psychosis	exact	Mental disorders	
+ARIS:0000408	Puffy face	exact	SYMP:0000748	facial edema	HP:0000282	Facial edema	exact	Swelling	
+ARIS:0000409	Purple skin where blood has collected just beneath the surface of the skin	exact	SYMP:0000751	hemorrhage into skin	HP:0031364	Ecchymosis	exact		
+ARIS:0000410	Purplish rash, typically on the lower legs and buttocks	broader	SYMP:0000487	rash	HP:0000979	Purpura	broader	Rash	
+ARIS:0000411	Purplish, flat-topped bumps, on inner forearm, wrist or ankle, and sometimes on the genitals	broader	SYMP:0000346	papule	HP:0200034	Papule	broader		
+ARIS:0000412	Rage attacks	broader	SYMP:0000681	aggressive behavior	HP:0000718	Aggressive behavior	broader	Aggression	
+ARIS:0000413	Raised and tender/painful nodules on the skin, especially on the lower legs	broader	SYMP:0000092	skin lesion	HP:0012219	Erythema nodosum	exact		
+ARIS:0000414	Raised purple-red spots	broader	SYMP:0000660	purpuric rash	HP:0031363	Palpable purpura	exact	Spots	
+ARIS:0000415	Rapid heartbeat	exact	SYMP:0000529	tachycardia	HP:0001649	Tachycardia	exact		
+ARIS:0000416	Rapidly progressive, symmetric sensorimotor polyradiculoneuropathy	broader	SYMP:0000336	neurological dysfunction	HP:0001271	Polyneuropathy	broader		
+	Rare:	not a symptom							
+ARIS:0000417	Rash	exact	SYMP:0000487	rash	HP:0000988	Skin rash	exact		
+ARIS:0000418	Rash on groin	broader	SYMP:0000487	rash	HP:0000988	Skin rash	broader	Rash	
+ARIS:0000419	Rash on torso	broader	SYMP:0000487	rash	HP:0000988	Skin rash	broader	Rash	
+ARIS:0000420	Rash with tender, purple or brownish-red spots	broader	SYMP:0000487	rash	HP:0000979	Purpura	broader	Rash	
+ARIS:0000421	Rectal bleeding	exact	SYMP:0000639	rectorrhagia	HP:0002573	Hematochezia	exact		
+ARIS:0000422	Rectal pain	broader	SYMP:0000099	pain	HP:0012531	Pain	broader	Pain	
+ARIS:0000423	Recurrent episodes of severe hypersomnia (sleeping 16–20 hours daily for days/weeks)	broader	SYMP:0000582	hypersomnia	HP:0007200	Episodic hypersomnia	broader	Sleep problems	
+ARIS:0000424	Recurrent infections	broader	SYMP:0019138	immune system symptom	HP:0002719	Recurrent infections	exact		
+ARIS:0000425	Recurrent transient ischemic attacks	broader	SYMP:0000480	nervous system symptom	HP:0002326	Transient ischemic attack	broader		
+ARIS:0000426	Red bumps on abdomen	broader	SYMP:0000346	papule	HP:0200034	Papule	broader	Small red bumps	
+ARIS:0000427	Red eyes	exact	SYMP:0000446	bloodshot eye	HP:0025337	Red eye	exact	Redness	
+	Red or skin colored welts, can vary in size, shape and appear anywhere on the body	merged							Hives
+ARIS:0000428	Red patches may be covered with a fine shiny scale	broader	SYMP:0000487	rash	HP:0000988	Skin rash	broader	Rash	
+ARIS:0000429	Red patches that quickly turn into small bumps 5-15 mm in diameter	broader	SYMP:0000487	rash	HP:0000988	Skin rash	broader	Rash	
+ARIS:0000430	Red patches with light center	broader	SYMP:0000487	rash	HP:0000988	Skin rash	broader	Rash	
+ARIS:0000431	Red, dry, cracked, and swollen lips	broader	SYMP:0000386	mouth symptom	HP:0031244	Swollen lip	broader	Swollen lips	
+ARIS:0000432	Redness	exact	SYMP:0000299	hyperemia	HP:0010783	Erythema	exact		
+ARIS:0000433	Redness of anus	broader	SYMP:0000299	hyperemia	HP:0033195	Perianal erythema	exact	Redness	
+ARIS:0000434	Reduced libido	broader	SYMP:0000196	reproductive system symptom	HP:0046504	Decreased libido	exact	Sexual dysfunction	
+ARIS:0000435	Reduced reflexes	broader	SYMP:0000249	reflex symptom	HP:0001265	Hyporeflexia	exact		
+	Refractoriness to IVIG with high response rate to rituximab	not a symptom							
+ARIS:0000436	Regurgitation of undigested, retained food	broader	SYMP:0000459	digestive system symptom	HP:0025031	Abnormality of the digestive system	broader		
+ARIS:0000437	Renal dysfunction (azotemia, proteinuria, hematuria)	broader	SYMP:0000763	renal alteration	HP:0012211	Abnormal renal physiology	broader		
+ARIS:0000438	Repetitive movements	broader	SYMP:0019187	repetitive behavior	HP:0000733	Motor stereotypy	exact	Abnormal movement	
+	Restricted mobility	merged							Limited range of motion in affected areas
+ARIS:0000439	Retrosternal crampy chest pain	broader	SYMP:0000576	chest pain	HP:0100749	Chest pain	broader	Chest pain	
+ARIS:0000440	Rib pain	broader	SYMP:0000099	pain	HP:0012531	Pain	broader	Chest pain	
+ARIS:0000441	Ringing in ears	exact	SYMP:0000393	tinnitus	HP:0000360	Tinnitus	exact		
+	Ringing in the ear	merged							Ringing in ears
+ARIS:0000442	Rupturing blisters	broader	SYMP:0000009	blister	HP:0008066	Abnormal blistering of the skin	broader	Blisters	
+ARIS:0000443	Salt craving	broader	SYMP:0000244	alteration of appetite	HP:0030083	Salt craving	exact		
+ARIS:0000444	Scaling of the scalp	broader	SYMP:0000488	skin and integumentary tissue symptom	HP:0040189	Scaling skin	broader		
+ARIS:0000445	Scalp discoloration	broader	SYMP:0000184	change in skin color	HP:0000951	Abnormality of the skin	broader	Skin discoloration	
+ARIS:0000446	Scalp hair loss	broader	SYMP:0000440	hair loss	HP:0002293	Alopecia of scalp	exact	Hair loss	
+ARIS:0000447	Scalp tenderness	broader	SYMP:0020065	tenderness	HP:0100809	Scalp tenderness	exact	Tenderness	
+ARIS:0000448	Scaly-appearing skin	broader	SYMP:0000535	change in skin texture	HP:0040189	Scaling skin	exact		
+ARIS:0000449	Scarring	broader	SYMP:0000488	skin and integumentary tissue symptom	HP:0100699	Scarring	exact		
+ARIS:0000450	Scarring on cornea	exact	SYMP:0020042	corneal scarring	HP:0000559	Corneal scarring	exact	Scarring	
+	"See: <a href=""/disease_profile?disease=autoimmune-urticaria"">autoimmune urticaria</a> and <a href=""/disease_profile?disease=autoimmune-angioedema"">autoimmune angioedema</a>."	not a symptom							
+	See: autoimmune urticaria and autoimmune angioedema.	not a symptom							
+ARIS:0000451	Seeing flashing lights	broader	SYMP:0000627	disturbed vision	HP:0030786	Photopsia	exact	Vision problems	
+ARIS:0000452	Seizure during which the person remains conscious and alert	exact	SYMP:0000270	simple partial seizure	HP:0001250	Seizure	broader	Seizures	
+ARIS:0000453	Seizure during which the person remains unconscious	broader	SYMP:0000124	seizure	HP:0001250	Seizure	broader	Seizures	
+ARIS:0000454	Seizures	exact	SYMP:0000124	seizure	HP:0001250	Seizure	exact		
+	Sensitivity to extreme cold	merged							Cold intolerance
+ARIS:0000455	Sensitivity to extreme heat	broader	SYMP:0000567	general symptom	HP:0002046	Heat intolerance	exact		
+ARIS:0000456	Sensitivity to gluten	broader	SYMP:0000459	digestive system symptom	HP:0012538	Gluten intolerance	exact		
+ARIS:0000457	Sensitivity to light	exact	SYMP:0000210	photophobia	HP:0000613	Photophobia	exact		
+ARIS:0000458	Sensitivity to touch	exact	SYMP:0000300	hyperesthesia	HP:0100963	Hyperesthesia	exact		
+	Sensory impairment	merged							Loss of sensation
+ARIS:0000459	Severe aortic valve regurgitation	broader	SYMP:0000528	cardiovascular system symptom	HP:0001659	Aortic regurgitation	broader		
+ARIS:0000460	Severe chronic autoimmune enteropathy with intractable diarrhea	broader	SYMP:0000570	diarrhea	HP:0002041	Intractable diarrhea	broader	Diarrhea	
+ARIS:0000461	Severe itching	broader	SYMP:0000432	itching	HP:0000989	Pruritus	broader	Itching	
+ARIS:0000462	Severe malabsorption, cachexia, and involuntary weight loss	broader	SYMP:0000402	cachexia	HP:0002024	Malabsorption	broader	Weight loss	
+ARIS:0000463	Severe proprioceptive sensory ataxia and positive Romberg sign	broader	SYMP:0000005	ataxia	HP:0010871	Sensory ataxia	broader	Unsteadiness	
+ARIS:0000464	Severe quadriparesis / motor disability	broader	SYMP:0000659	pareses	HP:0002273	Tetraparesis	broader	Paralysis	
+ARIS:0000465	Severe sensory ataxia with gait failure	broader	SYMP:0000005	ataxia	HP:0010871	Sensory ataxia	broader	Unsteady gait	
+ARIS:0000466	Severe short-term memory loss / amnesia	broader	SYMP:0000543	memory loss	HP:0002354	Memory impairment	broader	Memory problems	
+ARIS:0000467	Severe, intractable, chronic secretory diarrhea persisting during fasting	broader	SYMP:0000376	severe diarrhea	HP:0005208	Secretory diarrhea	broader	Diarrhea	
+ARIS:0000468	Sexual dysfunction	broader	SYMP:0000196	reproductive system symptom	HP:0000078	Abnormality of the genital system	broader		
+ARIS:0000469	Short stature	exact	SYMP:0000568	short stature	HP:0004322	Short stature	exact	Delayed growth	
+ARIS:0000470	Shortness of breath	exact	SYMP:0019153	dyspnea	HP:0002094	Dyspnea	exact		
+ARIS:0000471	Shortness of breath with exertion	broader	SYMP:0019153	dyspnea	HP:0002094	Dyspnea	broader	Shortness of breath	
+ARIS:0000472	Shoulder pain	exact	SYMP:0000443	shoulder pain	HP:0030834	Shoulder pain	exact	Joint pain	
+ARIS:0000473	Significant weight loss	broader	SYMP:0000178	weight loss	HP:0001824	Weight loss	broader	Weight loss	
+ARIS:0000474	Sinus infection	exact	SYMP:0000134	sinusitis	HP:0000246	Sinusitis	exact		
+	Sinus inflammation	merged							Sinus infection
+	Skin blisters	merged							Blisters on skin
+ARIS:0000475	Skin discoloration	exact	SYMP:0000184	change in skin color	HP:0000951	Abnormality of the skin	broader		
+ARIS:0000476	Skin disorders	broader	SYMP:0000488	skin and integumentary tissue symptom	HP:0000951	Abnormality of the skin	broader		
+ARIS:0000477	Skin hardening	broader	SYMP:0000535	change in skin texture	HP:0030053	Stiff skin	exact		
+ARIS:0000478	Skin lesions that appear or worsen with sun exposure	broader	SYMP:0000092	skin lesion	HP:0000992	Cutaneous photosensitivity	broader	Lesions	
+ARIS:0000479	Skin pain	broader	SYMP:0000099	pain	HP:0012531	Pain	broader	Pain	
+ARIS:0000480	Skin pigmentation loss	broader	SYMP:0000184	change in skin color	HP:0001010	Hypopigmentation of the skin	exact	Skin discoloration	
+ARIS:0000481	Skin sores	exact	SYMP:0000136	skin ulcer	HP:0200042	Skin ulcer	exact		
+	skin sores	merged							Skin sores
+	Skin stiffening	merged							Skin hardening
+ARIS:0000482	Skin temperature changes	broader	SYMP:0000488	skin and integumentary tissue symptom	HP:0000951	Abnormality of the skin	broader		
+ARIS:0000483	Skin texture changes	exact	SYMP:0000535	change in skin texture	HP:0000951	Abnormality of the skin	broader		
+	Skin:	not a symptom							
+ARIS:0000484	Skull depressions	broader	SYMP:0000387	head symptom	HP:0000929	Abnormal skull morphology	broader		
+ARIS:0000485	Sleep problems	exact	SYMP:0000566	sleep disturbance	HP:0002360	Sleep disturbance	exact		
+ARIS:0000486	Sluggishness	exact	SYMP:0000075	lethargy	HP:0001254	Lethargy	exact		
+ARIS:0000487	Small pitted areas of skin containing blackheads	broader	SYMP:0000488	skin and integumentary tissue symptom	HP:0025251	Open comedo	exact		
+ARIS:0000488	Small red bumps	exact	SYMP:0000346	papule	HP:0200034	Papule	broader		
+ARIS:0000489	Small scaling spots	broader	SYMP:0000092	skin lesion	HP:0040189	Scaling skin	broader	Spots	
+ARIS:0000490	Smooth white spots on skin	broader	SYMP:0000184	change in skin color	HP:0020073	Hypopigmented macule	exact	Skin pigmentation loss	
+ARIS:0000491	Social withdrawal	broader	SYMP:0019182	behavioral symptom	HP:0012433	Abnormal social behavior	broader	Behavioral changes	
+ARIS:0000492	Solid swellings of congealed blood	exact	SYMP:0000874	hematoma	HP:0001892	Abnormal bleeding	broader		
+ARIS:0000493	Sore throat	exact	SYMP:0000505	throat pain	HP:0033050	Pharyngalgia	exact		
+ARIS:0000494	Sores or masses under eyelid	broader	SYMP:0019163	eye symptom	HP:0000478	Abnormality of the eye	broader		
+	Spitting up blood	merged							Coughing up blood
+ARIS:0000495	Spontaneous hemarthrosis	broader	SYMP:0000041	hemorrhage	HP:0005261	Joint hemorrhage	exact	Excessive bleeding	
+	Spontaneous macroscopic or microscopic sperm agglutination in ejaculate	not a symptom							
+ARIS:0000496	Spontaneous, extensive subcutaneous and soft-tissue hematomas	broader	SYMP:0000874	hematoma	HP:0007420	Spontaneous hematomas	broader	Solid swellings of congealed blood	
+ARIS:0000497	Spots	broader	SYMP:0000092	skin lesion	HP:0000951	Abnormality of the skin	broader		
+ARIS:0000498	Stiffness	broader	SYMP:0000891	musculoskeletal system symptom			no term		
+ARIS:0000499	Stiffness of the buttocks	broader	SYMP:0000891	musculoskeletal system symptom	HP:0001387	Joint stiffness	broader	Stiffness	
+ARIS:0000500	Stiffness of the skin of the fingers	broader	SYMP:0000535	change in skin texture	HP:0030053	Stiff skin	broader	Skin hardening	
+ARIS:0000501	Stiffness upon inactivity	broader	SYMP:0000891	musculoskeletal system symptom	HP:0001387	Joint stiffness	broader	Stiffness	
+ARIS:0000502	Stillbirths	exact	SYMP:0000849	stillbirth	HP:0003826	Stillbirth	exact		
+ARIS:0000503	Stinging rash	broader	SYMP:0000487	rash	HP:0000988	Skin rash	broader	Rash	
+	Stunted growth in children	merged							Delayed growth
+ARIS:0000504	Subacute to acute severe symmetrical distal and proximal limb weakness	broader	SYMP:0000222	limb weakness	HP:0003690	Limb muscle weakness	broader	Weakness	
+	Sudden	not a symptom							
+ARIS:0000505	Swelling	exact	SYMP:0000716	swelling symptom			no term		
+ARIS:0000506	Swelling around eyes	broader	SYMP:0000716	swelling symptom	HP:0100539	Periorbital edema	exact	Swelling	
+ARIS:0000507	Swelling beneath the skin	broader	SYMP:0000819	localized superficial swelling	HP:0000969	Edema	broader	Swelling	
+ARIS:0000508	Swelling in armpits	broader	SYMP:0000521	enlargement of lymph nodes	HP:0034752	Axillary lymphadenopathy	broader	Swelling	
+ARIS:0000509	Swelling in neck	broader	SYMP:0000716	swelling symptom	HP:0000969	Edema	broader	Swelling	
+ARIS:0000510	Swelling of salivary glands	broader	SYMP:0000205	salivary gland symptom	HP:0010286	Abnormal salivary gland morphology	broader	Swelling	
+ARIS:0000511	Swollen ankles	broader	SYMP:0000312	joint symptom	HP:0001785	Ankle swelling	exact	Swollen joints	
+ARIS:0000512	Swollen back	broader	SYMP:0000716	swelling symptom	HP:0000969	Edema	broader	Swelling	
+ARIS:0000513	Swollen elbows	broader	SYMP:0000312	joint symptom	HP:0001386	Joint swelling	broader	Swollen joints	
+ARIS:0000514	Swollen feet	broader	SYMP:0000340	limb edema	HP:0010741	Pedal edema	exact	Swelling	
+ARIS:0000515	Swollen fingers	broader	SYMP:0000312	joint symptom	HP:0025131	Finger swelling	exact	Swollen joints	
+ARIS:0000516	Swollen hands	broader	SYMP:0000340	limb edema	HP:0000969	Edema	broader	Swelling	
+ARIS:0000517	Swollen heel	broader	SYMP:0000716	swelling symptom	HP:0000969	Edema	broader	Swelling	
+ARIS:0000518	Swollen hip	broader	SYMP:0000312	joint symptom	HP:0001386	Joint swelling	broader	Swollen joints	
+ARIS:0000519	Swollen joints	broader	SYMP:0000312	joint symptom	HP:0001386	Joint swelling	exact	Swelling	
+ARIS:0000520	Swollen knees	broader	SYMP:0000312	joint symptom	HP:0001386	Joint swelling	broader	Swollen joints	
+ARIS:0000521	Swollen legs	exact	SYMP:0000717	leg swelling	HP:0000969	Edema	broader	Swelling	
+ARIS:0000522	Swollen lips	broader	SYMP:0000716	swelling symptom	HP:0031244	Swollen lip	exact	Swelling	
+ARIS:0000523	Swollen penis	broader	SYMP:0000196	reproductive system symptom	HP:6000087	Penile swelling	exact	Swelling	
+ARIS:0000524	Swollen shoulders	broader	SYMP:0000312	joint symptom	HP:0001386	Joint swelling	broader	Swollen joints	
+ARIS:0000525	Swollen testicles	broader	SYMP:0000196	reproductive system symptom	HP:0000035	Abnormal testis morphology	broader	Swelling	
+ARIS:0000526	Swollen toes	broader	SYMP:0000312	joint symptom	HP:0001386	Joint swelling	broader	Swollen joints	
+ARIS:0000527	Swollen tongue that looks shiny and bright with red spots	broader	SYMP:0000386	mouth symptom	HP:0000206	Glossitis	broader	Swelling	
+ARIS:0000528	Swollen wrists	broader	SYMP:0000312	joint symptom	HP:0001225	Wrist swelling	exact	Swollen joints	
+ARIS:0000529	Swollen, painful nodule under skin	broader	SYMP:0000819	localized superficial swelling	HP:0200036	Skin nodule	broader	Swelling beneath the skin	
+	Symptoms can be similar to pancreatic cancer	not a symptom							
+	Symptoms can flare with triggers such as heat, exercise and stress	not a symptom							
+	Symptoms caused by the bacterium borrelia mayonii:	not a symptom							
+	Symptoms depend on the specific IgG4 disease	not a symptom							
+	Symptoms persist for more than 6 weeks and recur frequently and unexpectedly	not a symptom							
+	Symptoms vary depending on the areas of the brain affected and can include:	not a symptom							
+	Symptoms worsen after physical or mental activity	not a symptom							
+	Symptoms worsen in sunlight	not a symptom							
+	Systemic:	not a symptom							
+	Temporary	not a symptom							
+ARIS:0000530	Tenderness	exact	SYMP:0020065	tenderness	HP:0012531	Pain	broader		
+	Tendon pain	merged							Pain in tendons
+ARIS:0000531	Tendon tenderness	broader	SYMP:0020065	tenderness	HP:0032510	Tendon pain	broader	Tenderness	
+ARIS:0000532	Tense, blood- or pus-filled blisters, mostly on the hands, knees, knuckles, elbows and ankles	broader	SYMP:0000009	blister	HP:0008066	Abnormal blistering of the skin	broader	Blisters	
+ARIS:0000533	Testicle pain	exact	SYMP:0000768	testicular pain	HP:0033839	Testicular pain	exact	Pain	
+ARIS:0000534	Thickened red skin	broader	SYMP:0000535	change in skin texture	HP:0001072	Thickened skin	broader		
+ARIS:0000535	Thickened skin of fingers	broader	SYMP:0000535	change in skin texture	HP:0001072	Thickened skin	broader	Skin hardening	
+ARIS:0000536	Thickening of eyelid mucosa with a wood-like consistency	broader	SYMP:0019163	eye symptom	HP:0000478	Abnormality of the eye	broader		
+ARIS:0000537	Thinning of skin	broader	SYMP:0000535	change in skin texture	HP:0000963	Thin skin	exact		
+ARIS:0000538	Thinning or shrinking of facial tissues	broader	SYMP:0000387	head symptom	HP:0100578	Lipoatrophy	broader		
+ARIS:0000539	Throat muscle weakness	broader	SYMP:0000094	muscle weakness	HP:0001324	Muscle weakness	broader	Weakness	
+	Throat pain	merged							Sore throat
+ARIS:0000540	Throbbing pain in limbs	broader	SYMP:0000099	pain	HP:0009763	Limb pain	broader	Pain in extremities	
+ARIS:0000541	Tics	broader	SYMP:0000594	abnormal involuntary movement	HP:0100033	Tics	exact	Involuntary movements	
+ARIS:0000542	Tightness in the abdomen	broader	SYMP:0000188	abdominal discomfort	HP:0011458	Abdominal symptom	broader		
+	Tightness of the skin of the fingers	merged							Stiffness of the skin of the fingers
+ARIS:0000543	Tingling	exact	SYMP:0000435	paresthesia	HP:0003401	Paresthesia	exact		
+ARIS:0000544	Tingling in the fingers or toes, especially in cold temperatures	broader	SYMP:0000435	paresthesia	HP:0003401	Paresthesia	broader	Tingling	
+ARIS:0000545	Tingling of extremities	broader	SYMP:0000435	paresthesia	HP:0003401	Paresthesia	broader	Tingling	
+ARIS:0000546	Tingling of hand	broader	SYMP:0000435	paresthesia	HP:0003401	Paresthesia	broader	Tingling	
+ARIS:0000547	Tingling of wrist	broader	SYMP:0000435	paresthesia	HP:0003401	Paresthesia	broader	Tingling	
+ARIS:0000548	Tiny reddish-purple spots, usually on lower legs	exact	SYMP:0000760	petechiae	HP:0000967	Petechiae	exact	Spots	
+ARIS:0000549	Tired feeling after standing or walking	broader	SYMP:0019177	fatigue	HP:0003388	Easy fatigability	broader	Fatigue	
+ARIS:0000550	Toe pain	broader	SYMP:0000099	pain	HP:0030841	Toe pain	exact	Pain	
+ARIS:0000551	Tongue pain	broader	SYMP:0000386	mouth symptom	HP:0030811	Tongue pain	exact	Pain	
+ARIS:0000552	Total paralysis of the legs	exact	SYMP:0000349	paraplegia	HP:0010550	Paraplegia	exact	Paralysis	
+	Total villous atrophy on small intestinal biopsy	not a symptom							
+ARIS:0000553	Tremor	exact	SYMP:0000162	tremor	HP:0001337	Tremor	exact		
+	Trouble breathing when you exercise	merged							Shortness of breath with exertion
+	Trouble rising from a chair	merged							Difficulty moving from sitting to standing
+	Unable to conceive	merged							Infertility
+ARIS:0000554	Unintended weight loss	broader	SYMP:0000178	weight loss	HP:0001824	Weight loss	broader	Weight loss	
+ARIS:0000555	Unsteadiness	broader	SYMP:0020045	balance symptom	HP:0002311	Incoordination	broader		
+ARIS:0000556	Unsteady gait	exact	SYMP:0000663	uncoordinated gait	HP:0002317	Unsteady gait	exact	Unsteadiness	
+ARIS:0000557	Urgency without having a bowel movement	exact	SYMP:0000648	tenesmus	HP:0012701	Bowel urgency	broader	Bowel movement urgency	
+ARIS:0000558	Urogenital bleeding	exact	SYMP:0000740	genitourinary hemorrhage	HP:0001892	Abnormal bleeding	broader		
+ARIS:0000559	Vaginal dryness	broader	SYMP:0000196	reproductive system symptom	HP:0031088	Vaginal dryness	exact		
+ARIS:0000560	Vaginal pain	broader	SYMP:0000196	reproductive system symptom	HP:0012531	Pain	broader	Pain	
+ARIS:0000561	Vaginal ulcers	broader	SYMP:0000196	reproductive system symptom	HP:0003249	Genital ulcers	broader		
+ARIS:0000562	Vertigo	exact	SYMP:0000399	vertigo	HP:0002321	Vertigo	exact		
+ARIS:0000563	Violet/dusky red rash	broader	SYMP:0000487	rash	HP:0000988	Skin rash	broader	Rash	
+ARIS:0000564	Vision loss	exact	SYMP:0000321	loss of vision	HP:0000572	Visual loss	exact	Vision problems	
+ARIS:0000565	Vision problems	exact	SYMP:0000320	vision symptom	HP:0000504	Abnormality of vision	exact		
+ARIS:0000566	Visual impairment / bilateral optic disc edema (papillitis)	broader	SYMP:0000320	vision symptom	HP:0000505	Visual impairment	broader	Vision problems	
+ARIS:0000567	Vivid, dream-like experiences when falling asleep or upon waking up	broader	SYMP:0000607	hallucination	HP:0002519	Hypnagogic hallucination	exact	Hallucinations	
+ARIS:0000568	Vomiting	exact	SYMP:0019145	vomiting	HP:0002013	Vomiting	exact		
+ARIS:0000569	Wart-like plaques on areas of the skin, such as the armpit, neck, groin, and breasts	broader	SYMP:0000488	skin and integumentary tissue symptom	HP:0200035	Skin plaque	broader		
+ARIS:0000570	Watery eyes	exact	SYMP:0019164	excessive tearing	HP:0009926	Epiphora	exact		
+ARIS:0000571	Weakness	exact	SYMP:0000177	weakness	HP:0025406	Asthenia	exact		
+	Weakness in arms	merged							Arm weakness
+ARIS:0000572	Weakness in facial muscles	exact	SYMP:0000706	facial weakness	HP:0010628	Facial palsy	exact	Weakness	
+ARIS:0000573	Weakness in feet	broader	SYMP:0000222	limb weakness	HP:0007340	Lower limb muscle weakness	broader	Weakness	
+ARIS:0000574	Weakness in fingers	broader	SYMP:0020052	hand weakness	HP:0030237	Hand muscle weakness	broader	Weakness in hands	
+ARIS:0000575	Weakness in hands	exact	SYMP:0020052	hand weakness	HP:0030237	Hand muscle weakness	exact	Weakness	
+ARIS:0000576	Weakness in hip	broader	SYMP:0000177	weakness	HP:0007340	Lower limb muscle weakness	broader	Weakness	
+ARIS:0000577	Weakness in joints	broader	SYMP:0000177	weakness	HP:0025406	Asthenia	broader	Weakness	
+ARIS:0000578	Weakness in legs	exact	SYMP:0000224	leg weakness	HP:0007340	Lower limb muscle weakness	exact	Weakness	
+ARIS:0000579	Weakness in neck	exact	SYMP:0000335	neck weakness	HP:0000467	Neck muscle weakness	exact	Weakness	
+ARIS:0000580	Weakness in upper body	broader	SYMP:0000177	weakness	HP:0001324	Muscle weakness	broader	Weakness	
+ARIS:0000581	Weight gain	exact	SYMP:0000403	weight gain	HP:0004324	Increased body weight	exact		
+ARIS:0000582	Weight loss	exact	SYMP:0000178	weight loss	HP:0001824	Weight loss	exact		
+ARIS:0000583	Wheezing	exact	SYMP:0000604	wheezing	HP:0030828	Wheezing	exact		
+ARIS:0000584	When blisters heal they form scars and sometimes tiny white bumps	broader	SYMP:0000488	skin and integumentary tissue symptom	HP:0100699	Scarring	broader	Scarring	
+ARIS:0000585	When blood starts to return to these areas, fingers or toes that turn red, burn, throb, experience numbness, or tingle.	broader	SYMP:0000488	skin and integumentary tissue symptom	HP:0012534	Dysesthesia	broader		
+ARIS:0000586	White patches on gums	broader	SYMP:0000386	mouth symptom	HP:0002745	Oral leukoplakia	broader		
+ARIS:0000587	White patches on lips	broader	SYMP:0000386	mouth symptom	HP:0002745	Oral leukoplakia	broader		
+ARIS:0000588	Whitening of hair	broader	SYMP:0020040	hair symptom	HP:0011364	White hair	exact	Changes in hair	
+ARIS:0000589	Widespread blisters that are not localized to trauma-prone sites	broader	SYMP:0000009	blister	HP:0008066	Abnormal blistering of the skin	broader	Blisters	
+ARIS:0000590	Widespread redness and itching	broader	SYMP:0000432	itching	HP:0000989	Pruritus	broader	Itching	
+ARIS:0000591	Winged shoulder blade	broader	SYMP:0000891	musculoskeletal system symptom	HP:0003691	Scapular winging	exact		
+	Women:	not a symptom							
+ARIS:0000592	Wrist pain	broader	SYMP:0000099	pain	HP:0030836	Wrist pain	exact	Joint pain	
+ARIS:0000593	Wrist stiffness	broader	SYMP:0000312	joint symptom	HP:0025260	Stiff wrist	exact	Joint stiffness	
+ARIS:0000594	Yellow eyes	exact	SYMP:0000870	icteric eyes	HP:0032106	Conjunctival icterus	exact		
+ARIS:0000595	Yellow skin	exact	SYMP:0000872	icteric skin	HP:0000952	Jaundice	exact		
+ARIS:0000596	“butterflies” in the stomach	broader	SYMP:0000188	abdominal discomfort	HP:0011458	Abdominal symptom	broader		

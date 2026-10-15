@@ -18,8 +18,11 @@ many wordings and nothing ties them to a standard vocabulary. The mapping is a p
 review; the ontology itself is unchanged. Three things to know:
 
 - **SYMP is small.** It has 895 active terms and lacks many patient-worded symptoms (no eye pain,
-  dysmenorrhea or stiffness), so many broader mappings land on a body-system term. HPO would cover
-  more, but the issue asked for the symptoms ontology.
+  dysmenorrhea or stiffness), so many broader mappings land on a body-system term. Each mapped
+  symptom is therefore also mapped to HPO (local `hp.obo`, 2026-02-16): 300 exact and 293 broader.
+  Dizziness, Stiffness and Swelling have no HPO term, because HPO only has narrower ones. These
+  references sit in their own columns of the TSV and report and as extra skos matches in the OWL
+  file; the parent hierarchy still comes from ARI and SYMP.
 - **25 published "symptoms" are not symptoms.** On 27 individuals in `ari_t1d.owl` they are
   headings, notes ("Symptoms worsen in sunlight", "Temporary"), lab or biopsy results, or a
   cross-reference. They are marked `not a symptom` and get no class, but they are still on the
