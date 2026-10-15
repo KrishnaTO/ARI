@@ -22,6 +22,37 @@ word, chapter and page included. The curator chose that column over the Autoimmu
   findings sentence; the curator chose to leave them that way.
 - Each disease gets an `ARI_ChangeLog` line recording the replaced value.
 
+## claude/symptoms-ontology-mapping-6bdc2c
+
+Maps ARI's symptoms to the Symptom Ontology (SYMP) and groups similar-sounding symptoms under a
+root symptom, for ARI#132. `notebook/symptom-mapping/symptom_mapping.tsv` is the hand-curated
+mapping for all 903 symptom strings. They come from report 4's Symptoms sheet and from the Symptom
+individuals in `ontologies/ari_t1d.owl`, including the clinical features `claude/import-repo-gaps`
+imported from the master list. 196 strings match a SYMP term exactly and 569 map to the nearest
+broader one. 63 merge into a string with the same meaning, and 75 are not symptoms. 452 symptoms
+get an ARI parent; "Blisters on eyes", "Genital blisters" and 21 more now sit under
+**Blisters**. `build_symptom_mapping.py` writes the mapping and parent columns into report 4's
+Symptoms sheet, adds a Symptom Mapping sheet, and writes `ari_symptoms.owl`: a class hierarchy with
+`skos:exactMatch` / `skos:broadMatch` references to SYMP and links back to the ARI Symptom
+individuals.
+
+**Why.** ARI stores symptoms as free-text strings per disease, so the same symptom appears under
+many wordings and nothing ties them to a standard vocabulary. The mapping is a proposal for
+review; the ontology itself is unchanged. Three things to know:
+
+- **SYMP is small.** It has 895 active terms and lacks many patient-worded symptoms (no eye pain,
+  dysmenorrhea or stiffness), so many broader mappings land on a body-system term. Each mapped
+  symptom is therefore also mapped to HPO (local `hp.obo`, 2026-02-16): 310 exact and 452 broader.
+  Dizziness, Stiffness and Swelling have no HPO term, because HPO only has narrower ones. These
+  references sit in their own columns of the TSV and report and as extra skos matches in the OWL
+  file; the parent hierarchy still comes from ARI and SYMP.
+- **44 published "symptoms" are not symptoms.** They sit on 46 disease links in `ari_t1d.owl`.
+  They are headings, notes ("Symptoms worsen in sunlight", "Temporary"), statements of absence
+  ("Absence of orthostatic hypotension"), lab, biopsy or imaging results, or a cross-reference. They are marked `not a symptom` and get no class, but they are still on the
+  diseases.
+- **147 Symptom individuals are written as `<Symptom rdf:about>`** rather than
+  `owl:NamedIndividual`, so a reader that only looks at NamedIndividuals misses them. The build
+  script reads both forms.
 ## issue-132/long-covid-symptoms
 
 Retires six symptoms of Chronic post-COVID-19 syndrome (`ARI:0001067`) that were copied from
