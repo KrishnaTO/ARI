@@ -1,5 +1,36 @@
 # Changelog
 
+## issue-132/retire-non-symptoms
+
+Retires the 27 Symptom individuals (25 distinct strings, 19 diseases) that the symptom mapping for
+ARI#132 marked `not a symptom` and that a disease still listed. Each one loses its `hasSymptom` link
+and gets `ARI_Obsolete` set to `true`, and each affected disease gets an `ARI_ChangeLog` line naming
+what went and what was added. The curator confirmed each decision before the edit.
+
+**Why.** These are headings, course or onset notes, lab, biopsy and imaging findings, and one
+"See: …" cross-reference that the symptom import treated as symptoms. They were published on the
+disease pages as symptoms.
+
+- **Retired, not deleted.** This follows the repo's convention: `validate_mappings.py` says a
+  disease is retired by `ARI_Obsolete` and never by deleting the individual, and `#Ab_ICA` was
+  retired the same way. Every one of the 27 was used by exactly one disease.
+- **Dropped with nothing moved (15).** Each was a heading or orphaned qualifier ("Temporary",
+  "Sudden", "Near sites of irritation"), or the disease already said it: in its description
+  (pancreatic-cancer mimicry, the 6-week chronic threshold, worsening with activity in CFS), its
+  triggers (sunlight for cutaneous lupus, heat and stress for urticaria) or its subtypes (no mucosal
+  involvement in pemphigus foliaceus). "Healing with minimal scarring" was dropped because it
+  contradicts EBA's own scarring symptoms. Autoimmune urticaria and/or angioedema
+  (`ARI:0001050`) and IgG4-related disease (`ARI:0001109`) now list no symptoms.
+- **Added to the description (12).** Course notes and lab, biopsy and imaging findings, with their
+  frequencies, are appended to `rdfs:comment` for EBA, bullous pemphigoid, eosinophilic
+  esophagitis, autoimmune aortitis, autoimmune enteropathy, autoimmune nodopathies, antisperm
+  antibody infertility and Kleine-Levin syndrome. The findings did not go to `hasBiomarker`. Only
+  Type 1 diabetes uses that property, and only for blood analytes, while the data model's
+  Objective Signs field, where they belong, has no property yet (report 12).
+- **Not fixed here.** Chronic post-COVID-19 syndrome's symptom list (fatty stools, increased
+  thirst and so on) looks copied from autoimmune pancreatitis. Only its non-symptom entry is
+  retired here.
+
 ## claude/import-repo-gaps
 
 Fills the fields report 12 marked "In repo - import" from Leon Islas's 2026-10-08 master list, for

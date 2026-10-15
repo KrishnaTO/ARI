@@ -1801,17 +1801,13 @@
   <hasSymptom rdf:resource="#Sym_0001001_3"/>
   <hasSymptom rdf:resource="#Sym_0001001_11"/>
   <hasSymptom rdf:resource="#Sym_0001001_7"/>
-  <hasSymptom rdf:resource="#Sym_0001001_14"/>
-  <hasSymptom rdf:resource="#Sym_0001001_15"/>
   <hasSymptom rdf:resource="#Sym_0001001_4"/>
   <hasSymptom rdf:resource="#Sym_0001001_12"/>
   <hasSymptom rdf:resource="#Sym_0001001_5"/>
-  <hasSymptom rdf:resource="#Sym_0001001_9"/>
-  <hasSymptom rdf:resource="#Sym_0001001_16"/>
   <hasSymptom rdf:resource="#Sym_0001001_2"/>
   <hasSymptom rdf:resource="#Sym_0001001_8"/>
   <targetsTissue rdf:resource="#Tissue_Skin"/>
-  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">In epidermolysis bullosa acquisita (EBA) the skin and mucus membranes are chronically inflamed and may form blisters in response to minor injury. Common areas of blistering include the hands, feet, knees, elbows, and buttocks. It can also affect the mouth, nose, and eyes.  Evidence suggests an association between EBA and inflammatory bowel diseases (IBD), such as ulcerative colitis and Crohn's disease. IBD is reported to be present in approximately 30% of EBA patients. There are two main types of EBA, non-inflammatory and non-inflammatory. The non-inflammatory type is more common and resembles the hereditary disease, epidermolysis bullosa. The inflammatory types resemble autoimmune bullous pemphigoid. Mucous Membrane EBA (MM-EBA) is a type of inflammatory EBA that affects mucous membranes. EBA is marked by the presence of autoantibodies (mainly IgG class) to type VII collagen (Col7). EBA may mimic other inflammatory blistering diseases, most often bullous pemphigoid and bullous systemic lupus erythematosus (which is also associated with anti-Col7 autoantibodies).</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">In epidermolysis bullosa acquisita (EBA) the skin and mucus membranes are chronically inflamed and may form blisters in response to minor injury. Common areas of blistering include the hands, feet, knees, elbows, and buttocks. It can also affect the mouth, nose, and eyes.  Evidence suggests an association between EBA and inflammatory bowel diseases (IBD), such as ulcerative colitis and Crohn's disease. IBD is reported to be present in approximately 30% of EBA patients. There are two main types of EBA, non-inflammatory and non-inflammatory. The non-inflammatory type is more common and resembles the hereditary disease, epidermolysis bullosa. The inflammatory types resemble autoimmune bullous pemphigoid. Mucous Membrane EBA (MM-EBA) is a type of inflammatory EBA that affects mucous membranes. EBA is marked by the presence of autoantibodies (mainly IgG class) to type VII collagen (Col7). EBA may mimic other inflammatory blistering diseases, most often bullous pemphigoid and bullous systemic lupus erythematosus (which is also associated with anti-Col7 autoantibodies). Compared with bullous pemphigoid, EBA arises in younger individuals, usually under the age of 70, and has prominent involvement of the head and neck.</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acquired epidermolysis bullosa</rdfs:label>
   <evidenceQuality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antibody</evidenceQuality>
   <diseaseCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune</diseaseCategory>
@@ -1860,6 +1856,7 @@
   <ARI_AssociatedDisease rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alopecia areata</ARI_AssociatedDisease>
   <demographicBias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female:male ratio 1.5. Regions with very high prevalence: Worldwide (rare genetic mutations in COL7A1, KRT5/14, LAMB3)</demographicBias>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-15T12:40:37+00:00 | Leon Islas | Imported from ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 98: 2 associated diseases (2 linked to ARI diseases), demographic bias, 5 pathway steps.</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-15T15:19:39+00:00 | KrishnaTO | Symptom review (ARI#132): removed 4 non-symptom entries from hasSymptom and retired them (ARI_Obsolete true): 'Arises in younger individuals, usually under the age of 70 years'; 'Has prominent involvement of the head and neck'; 'Healing with minimal scarring'; 'Involves mucous membranes'. Added to description: "Compared with bullous pemphigoid, EBA arises in younger individuals, usually under the age of 70, and has prominent involvement of the head and neck."</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001001_3">
@@ -1883,13 +1880,13 @@
 <owl:NamedIndividual rdf:about="#Sym_0001001_14">
   <rdf:type rdf:resource="#Symptom"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arises in younger individuals, usually under the age of 70 years</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">true</ARI_Obsolete>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001001_15">
   <rdf:type rdf:resource="#Symptom"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Has prominent involvement of the head and neck</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">true</ARI_Obsolete>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001001_4">
@@ -1913,13 +1910,13 @@
 <owl:NamedIndividual rdf:about="#Sym_0001001_9">
   <rdf:type rdf:resource="#Symptom"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Healing with minimal scarring</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">true</ARI_Obsolete>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001001_16">
   <rdf:type rdf:resource="#Symptom"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Involves mucous membranes</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">true</ARI_Obsolete>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001001_2">
@@ -6597,7 +6594,6 @@ In chronic autoimmune neutropenia the body produces IgG antibodies that target a
   <hasSymptom rdf:resource="#Sym_0001043_315"/>
   <hasSymptom rdf:resource="#Sym_0001043_316"/>
   <hasSymptom rdf:resource="#Sym_0001043_317"/>
-  <hasSymptom rdf:resource="#Sym_0001043_318"/>
   <hasSymptom rdf:resource="#Sym_0001043_319"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune pancreatitis</rdfs:label>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
@@ -6649,6 +6645,7 @@ In chronic autoimmune neutropenia the body produces IgG antibodies that target a
   <ARI_AssociatedDisease rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hashimoto's thyroiditis</ARI_AssociatedDisease>
   <demographicBias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female:male ratio 0.0. Regions with very high prevalence: East Asia (Japan, South Korea) and Europe (Type 1 AIP); worldwide (Type 2 AIP)</demographicBias>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-15T12:40:37+00:00 | Leon Islas | Imported from ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 54: 4 associated diseases (4 linked to ARI diseases), demographic bias, 5 pathway steps.</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-15T15:19:39+00:00 | KrishnaTO | Symptom review (ARI#132): removed 1 non-symptom entry from hasSymptom and retired it (ARI_Obsolete true): 'Symptoms can be similar to pancreatic cancer'.</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001043_306">
@@ -6726,7 +6723,7 @@ In chronic autoimmune neutropenia the body produces IgG antibodies that target a
 <owl:NamedIndividual rdf:about="#Sym_0001043_318">
   <rdf:type rdf:resource="#Symptom"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Symptoms can be similar to pancreatic cancer</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">true</ARI_Obsolete>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001043_319">
@@ -7380,10 +7377,8 @@ Several names are used for autoimmune thyroiditis. When it is known to be autoim
   <hasSymptom rdf:resource="#Sym_0001049_377"/>
   <hasSymptom rdf:resource="#Sym_0001049_379"/>
   <hasSymptom rdf:resource="#Sym_0001049_380"/>
-  <hasSymptom rdf:resource="#Sym_0001049_381"/>
   <hasSymptom rdf:resource="#Sym_0001049_382"/>
   <hasSymptom rdf:resource="#Sym_0001049_383"/>
-  <hasSymptom rdf:resource="#Sym_0001049_384"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune urticaria</rdfs:label>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
   <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001049</ARI_ID>
@@ -7436,6 +7431,7 @@ Urticaria can also be caused by allergic reaction to plants like poison ivy, dye
   <ARI_AssociatedDisease rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rheumatoid arthritis</ARI_AssociatedDisease>
   <demographicBias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female:male ratio 0.0. Regions with very high prevalence: Worldwide (0.5-1% of adult population)</demographicBias>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-15T12:40:37+00:00 | Leon Islas | Imported from ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 63: 4 associated diseases (4 linked to ARI diseases), demographic bias, 5 pathway steps.</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-15T15:19:39+00:00 | KrishnaTO | Symptom review (ARI#132): removed 2 non-symptom entries from hasSymptom and retired them (ARI_Obsolete true): 'Symptoms can flare with triggers such as heat, exercise and stress'; 'Symptoms persist for more than 6 weeks and recur frequently and unexpectedly'.</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001049_377">
@@ -7459,7 +7455,7 @@ Urticaria can also be caused by allergic reaction to plants like poison ivy, dye
 <owl:NamedIndividual rdf:about="#Sym_0001049_381">
   <rdf:type rdf:resource="#Symptom"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Symptoms can flare with triggers such as heat, exercise and stress</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">true</ARI_Obsolete>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001049_382">
@@ -7477,7 +7473,7 @@ Urticaria can also be caused by allergic reaction to plants like poison ivy, dye
 <owl:NamedIndividual rdf:about="#Sym_0001049_384">
   <rdf:type rdf:resource="#Symptom"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Symptoms persist for more than 6 weeks and recur frequently and unexpectedly</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">true</ARI_Obsolete>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001050">
@@ -7507,7 +7503,6 @@ Urticaria can also be caused by allergic reaction to plants like poison ivy, dye
   <hasEnvironmentalTrigger rdf:resource="#Env_0001050_2"/>
   <hasEnvironmentalTrigger rdf:resource="#Env_0001050_3"/>
   <targetsTissue rdf:resource="#Tissue_Skin"/>
-  <hasSymptom rdf:resource="#Sym_0001050_385"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune urticaria and/or angioedema</rdfs:label>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
   <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001050</ARI_ID>
@@ -7542,12 +7537,13 @@ While they are also diseases on their own, patients will receive a diagnosis of 
   <ARI_AssociatedDisease rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vitiligo</ARI_AssociatedDisease>
   <demographicBias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regions with very high prevalence: Worldwide (~1% lifetime prevalence)</demographicBias>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-15T12:40:37+00:00 | Leon Islas | Imported from ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 64: 3 associated diseases (3 linked to ARI diseases), demographic bias, 5 pathway steps.</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-15T15:19:39+00:00 | KrishnaTO | Symptom review (ARI#132): removed 1 non-symptom entry from hasSymptom and retired it (ARI_Obsolete true): 'See: autoimmune urticaria and autoimmune angioedema.'.</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001050_385">
   <rdf:type rdf:resource="#Symptom"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">See: autoimmune urticaria and autoimmune angioedema.</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">true</ARI_Obsolete>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001051">
@@ -8426,7 +8422,6 @@ Cicatricial pemphigoid is usually not chronic, and most patients symptoms disapp
   <hasSymptom rdf:resource="#Sym_0001057_456"/>
   <hasSymptom rdf:resource="#Sym_0001057_457"/>
   <hasSymptom rdf:resource="#Sym_0001057_458"/>
-  <hasSymptom rdf:resource="#Sym_0001057_459"/>
   <hasSymptom rdf:resource="#Sym_0001057_460"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bullous pemphigoid</rdfs:label>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
@@ -8438,7 +8433,7 @@ Cicatricial pemphigoid is usually not chronic, and most patients symptoms disapp
   <ARI_MESH rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D010391</ARI_MESH>
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C84389</ARI_NCI>
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">77090002</ARI_DXCODE>
-  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bullous pemphigoid is a rare, autoimmune, chronic skin disorder characterized by blistering. This disorder occurs most frequently in elderly people. Generalized blistering occurs in and under the upper layers of the skin and usually subsides spontaneously within several months or years. In some rare cases of Bullous pemphigoid, complications such as pneumonia may develop.</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bullous pemphigoid is a rare, autoimmune, chronic skin disorder characterized by blistering. This disorder occurs most frequently in elderly people. Generalized blistering occurs in and under the upper layers of the skin and usually subsides spontaneously within several months or years. In some rare cases of Bullous pemphigoid, complications such as pneumonia may develop. Symptoms follow a flare and remission pattern.</rdfs:comment>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kridin 2018; https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6109638/</ARI_DefSource>
   <evidenceQuality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antibody</evidenceQuality>
   <diseaseCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune</diseaseCategory>
@@ -8473,6 +8468,7 @@ Cicatricial pemphigoid is usually not chronic, and most patients symptoms disapp
   <ARI_AssociatedDisease rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diabetes mellitus type 1</ARI_AssociatedDisease>
   <demographicBias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female:male ratio 1.3. Regions with very high prevalence: Worldwide (most common autoimmune blistering disease in elderly, Europe/US)</demographicBias>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-15T12:40:37+00:00 | Leon Islas | Imported from ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 72: 4 associated diseases (4 linked to ARI diseases), demographic bias, 5 pathway steps.</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-15T15:19:39+00:00 | KrishnaTO | Symptom review (ARI#132): removed 1 non-symptom entry from hasSymptom and retired it (ARI_Obsolete true): 'Flare/remission pattern to symptoms'. Added to description: "Symptoms follow a flare and remission pattern."</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001057_451">
@@ -8526,7 +8522,7 @@ Cicatricial pemphigoid is usually not chronic, and most patients symptoms disapp
 <owl:NamedIndividual rdf:about="#Sym_0001057_459">
   <rdf:type rdf:resource="#Symptom"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flare/remission pattern to symptoms</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">true</ARI_Obsolete>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001057_460">
@@ -9208,7 +9204,6 @@ CD is generally treated by eliminating gluten from the diet.  Patients with an e
   <hasSymptom rdf:resource="#Sym_0001062_503"/>
   <hasSymptom rdf:resource="#Sym_0001062_504"/>
   <hasSymptom rdf:resource="#Sym_0001062_505"/>
-  <hasSymptom rdf:resource="#Sym_0001062_506"/>
   <hasSymptom rdf:resource="#Sym_0001062_507"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chronic Fatigue Syndrome</rdfs:label>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
@@ -9302,6 +9297,7 @@ The cause of this syndrome is unknown, however, researchers believe that it may 
   <ARI_AssociatedDisease rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Postural orthostatic tachycardia syndrome (POTS)</ARI_AssociatedDisease>
   <demographicBias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female:male ratio 2.3. Regions with very high prevalence: Worldwide (0.4-1.0% prevalence, female predominance)</demographicBias>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-15T12:40:37+00:00 | Leon Islas | Imported from ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 76: 4 associated diseases (3 linked to ARI diseases), demographic bias, 5 pathway steps.</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-15T15:19:39+00:00 | KrishnaTO | Symptom review (ARI#132): removed 1 non-symptom entry from hasSymptom and retired it (ARI_Obsolete true): 'Symptoms worsen after physical or mental activity'.</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001062_502">
@@ -9331,7 +9327,7 @@ The cause of this syndrome is unknown, however, researchers believe that it may 
 <owl:NamedIndividual rdf:about="#Sym_0001062_506">
   <rdf:type rdf:resource="#Symptom"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Symptoms worsen after physical or mental activity</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">true</ARI_Obsolete>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001062_507">
@@ -10230,7 +10226,6 @@ Chronic non-bacterial osteomyelitis (CNO) is a rare auto-inflammatory bone disor
   <hasEnvironmentalTrigger rdf:resource="#Env_0001067_1"/>
   <hasEnvironmentalTrigger rdf:resource="#Env_0001067_2"/>
   <hasEnvironmentalTrigger rdf:resource="#Env_0001067_3"/>
-  <hasSymptom rdf:resource="#Sym_0001067_583"/>
   <hasSymptom rdf:resource="#Sym_0001067_584"/>
   <hasSymptom rdf:resource="#Sym_0001067_585"/>
   <hasSymptom rdf:resource="#Sym_0001067_586"/>
@@ -10351,12 +10346,13 @@ More study is needed.</rdfs:comment>
   <ARI_AssociatedDisease rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antiphospholipid syndrome (seropositivity)</ARI_AssociatedDisease>
   <demographicBias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female:male ratio 0.0. Regions with very high prevalence: Worldwide (millions affected across all regions following pandemic)</demographicBias>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-15T12:40:37+00:00 | Leon Islas | Imported from ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 81: 4 associated diseases (2 linked to ARI diseases), demographic bias, 5 pathway steps.</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-15T15:19:39+00:00 | KrishnaTO | Symptom review (ARI#132): removed 1 non-symptom entry from hasSymptom and retired it (ARI_Obsolete true): 'Symptoms can be similar to pancreatic cancer'.</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001067_583">
   <rdf:type rdf:resource="#Symptom"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Symptoms can be similar to pancreatic cancer</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">true</ARI_Obsolete>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001067_584">
@@ -11674,7 +11670,6 @@ Both UC and CD are caused by an autoimmune response that reflects the involvemen
   <hasSymptom rdf:resource="#Sym_0001076_684"/>
   <hasSymptom rdf:resource="#Sym_0001076_685"/>
   <hasSymptom rdf:resource="#Sym_0001076_686"/>
-  <hasSymptom rdf:resource="#Sym_0001076_687"/>
   <hasSymptom rdf:resource="#Sym_0001076_688"/>
   <hasSymptom rdf:resource="#Sym_0001076_689"/>
   <hasSymptom rdf:resource="#Sym_0001076_690"/>
@@ -11745,6 +11740,7 @@ Both UC and CD are caused by an autoimmune response that reflects the involvemen
   <ARI_AssociatedDisease rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rheumatoid arthritis</ARI_AssociatedDisease>
   <demographicBias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female:male ratio 7.0. Regions with very high prevalence: Worldwide (higher incidence in African and Hispanic descent)</demographicBias>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-15T12:40:37+00:00 | Leon Islas | Imported from ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 89: 4 associated diseases (4 linked to ARI diseases), demographic bias, 5 pathway steps.</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-15T15:19:39+00:00 | KrishnaTO | Symptom review (ARI#132): removed 1 non-symptom entry from hasSymptom and retired it (ARI_Obsolete true): 'Symptoms worsen in sunlight'.</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001076_682">
@@ -11780,7 +11776,7 @@ Both UC and CD are caused by an autoimmune response that reflects the involvemen
 <owl:NamedIndividual rdf:about="#Sym_0001076_687">
   <rdf:type rdf:resource="#Symptom"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Symptoms worsen in sunlight</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">true</ARI_Obsolete>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001076_688">
@@ -12835,7 +12831,6 @@ When mastocytosis is not limited to the skin, it is called systemic mastocytosis
   <hasSymptom rdf:resource="#Sym_0001086_781"/>
   <hasSymptom rdf:resource="#Sym_0001086_782"/>
   <hasSymptom rdf:resource="#Sym_0001086_783"/>
-  <hasSymptom rdf:resource="#Sym_0001086_784"/>
   <hasSymptom rdf:resource="#Sym_0001086_786"/>
   <hasSymptom rdf:resource="#Sym_0001086_788"/>
   <hasSymptom rdf:resource="#Sym_0001086_789"/>
@@ -12850,7 +12845,7 @@ When mastocytosis is not limited to the skin, it is called systemic mastocytosis
   <ARI_NCI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C27105</ARI_NCI>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27918</ARI_OMOP>
   <ARI_DXCODE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">235599003</ARI_DXCODE>
-  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eosinophilic esophagitis, EoE, is a buildup of white blood cells (eosinophils) in the throat (esophagus). This causes chronic inflammation and leads to problems swallowing. EoE has only recently been recognized as a disease. The condition is characterized as an immune system reaction, but is more like an allergy than an autoimmune disease.  EoE appears to be more common among those who suffer from allergies and asthma as well as autoimmune conditions such as celiac disease, and mast cell disorders. Mast cells are involved in the body's allergic response system.  EoE was first described in 1993 with a report of 12 patients who had dysphagia, normal endoscopy, no acid reflux, and intraepithelial eosinophilia. The authors recognized that these patients had a distinct disease. Since then, the disease has increased in prevalence. Evidence for EoE being an autoimmune disease is limited.</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eosinophilic esophagitis, EoE, is a buildup of white blood cells (eosinophils) in the throat (esophagus). This causes chronic inflammation and leads to problems swallowing. EoE has only recently been recognized as a disease. The condition is characterized as an immune system reaction, but is more like an allergy than an autoimmune disease.  EoE appears to be more common among those who suffer from allergies and asthma as well as autoimmune conditions such as celiac disease, and mast cell disorders. Mast cells are involved in the body's allergic response system.  EoE was first described in 1993 with a report of 12 patients who had dysphagia, normal endoscopy, no acid reflux, and intraepithelial eosinophilia. The authors recognized that these patients had a distinct disease. Since then, the disease has increased in prevalence. Evidence for EoE being an autoimmune disease is limited. Symptoms do not respond to gastroesophageal reflux disease (GERD) medication.</rdfs:comment>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eosinophilic Oesophagitis</ARI_Synonym>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Moawad 2017; https://pubmed.ncbi.nlm.nih.gov/29129296/</ARI_DefSource>
   <ARI_Pubmed rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/29129296/</ARI_Pubmed>
@@ -12885,6 +12880,7 @@ When mastocytosis is not limited to the skin, it is called systemic mastocytosis
   <ARI_AssociatedDisease rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Celiac disease</ARI_AssociatedDisease>
   <demographicBias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female:male ratio 0.6. Regions with very high prevalence: North America, Western Europe, Australia (increasing prevalence ~50-100/100,000)</demographicBias>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-15T12:40:37+00:00 | Leon Islas | Imported from ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 97: 5 associated diseases (1 linked to ARI diseases), demographic bias, 5 pathway steps.</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-15T15:19:39+00:00 | KrishnaTO | Symptom review (ARI#132): removed 1 non-symptom entry from hasSymptom and retired it (ARI_Obsolete true): 'No response to gastroesophageal reflux disease (gerd) medication'. Added to description: "Symptoms do not respond to gastroesophageal reflux disease (GERD) medication."</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001086_776">
@@ -12938,7 +12934,7 @@ When mastocytosis is not limited to the skin, it is called systemic mastocytosis
 <owl:NamedIndividual rdf:about="#Sym_0001086_784">
   <rdf:type rdf:resource="#Symptom"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No response to gastroesophageal reflux disease (gerd) medication</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">true</ARI_Obsolete>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001086_786">
@@ -12988,7 +12984,6 @@ When mastocytosis is not limited to the skin, it is called systemic mastocytosis
   <hasEnvironmentalTrigger rdf:resource="#Env_0001087_4"/>
   <targetsTissue rdf:resource="#Tissue_NervousSystem"/>
   <hasSymptom rdf:resource="#Sym_0001087_791"/>
-  <hasSymptom rdf:resource="#Sym_0001087_792"/>
   <hasSymptom rdf:resource="#Sym_0001087_793"/>
   <hasSymptom rdf:resource="#Sym_0001087_794"/>
   <hasSymptom rdf:resource="#Sym_0001087_795"/>
@@ -13043,6 +13038,7 @@ When mastocytosis is not limited to the skin, it is called systemic mastocytosis
   <ARI_AssociatedDisease rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Celiac disease</ARI_AssociatedDisease>
   <demographicBias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female:male ratio 1.2. Regions with very high prevalence: Worldwide (~0.5-1% of the global population)</demographicBias>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-15T12:40:37+00:00 | Leon Islas | Imported from ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 99: 4 associated diseases (4 linked to ARI diseases), demographic bias, 5 pathway steps.</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-15T15:19:39+00:00 | KrishnaTO | Symptom review (ARI#132): removed 1 non-symptom entry from hasSymptom and retired it (ARI_Obsolete true): 'Temporary'.</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001087_791">
@@ -13054,7 +13050,7 @@ When mastocytosis is not limited to the skin, it is called systemic mastocytosis
 <owl:NamedIndividual rdf:about="#Sym_0001087_792">
   <rdf:type rdf:resource="#Symptom"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Temporary</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">true</ARI_Obsolete>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001087_793">
@@ -15885,7 +15881,6 @@ This condition is usually temporary (4-6 weeks) with a full recovery for most pa
   <hasEnvironmentalTrigger rdf:resource="#Env_0001109_2"/>
   <hasEnvironmentalTrigger rdf:resource="#Env_0001109_3"/>
   <targetsTissue rdf:resource="#Tissue_Blood"/>
-  <hasSymptom rdf:resource="#Sym_0001109_984"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Immunoglobulin G4 related disease</rdfs:label>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
   <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001109</ARI_ID>
@@ -15960,12 +15955,13 @@ At this time, not all IgG4 diseases are documented, and many are very rare. Howe
   <ARI_AssociatedDisease rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inflammatory bowel disease</ARI_AssociatedDisease>
   <demographicBias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female:male ratio 0.0. Regions with very high prevalence: East Asia (Japan, China, Korea) and North America/Europe (males &gt;50)</demographicBias>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-15T12:40:37+00:00 | Leon Islas | Imported from ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 122: 3 associated diseases (3 linked to ARI diseases), demographic bias, 5 pathway steps.</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-15T15:19:39+00:00 | KrishnaTO | Symptom review (ARI#132): removed 1 non-symptom entry from hasSymptom and retired it (ARI_Obsolete true): 'Symptoms depend on the specific IgG4 disease'.</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001109_984">
   <rdf:type rdf:resource="#Symptom"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Symptoms depend on the specific IgG4 disease</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">true</ARI_Obsolete>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001110">
@@ -24063,7 +24059,6 @@ Note: scarlet fever is another symptom of a strep infection but is not a separat
   <hasSymptom rdf:resource="#Sym_0001184_1811"/>
   <hasSymptom rdf:resource="#Sym_0001184_1812"/>
   <hasSymptom rdf:resource="#Sym_0001184_1813"/>
-  <hasSymptom rdf:resource="#Sym_0001184_1814"/>
   <hasSymptom rdf:resource="#Sym_0001184_1815"/>
   <hasSymptom rdf:resource="#Sym_0001184_1816"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rheumatoid arthritis</rdfs:label>
@@ -24117,6 +24112,7 @@ There is no cure, though treatments to manage symptoms are available.  Prognosis
   <ARI_AssociatedDisease rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felty syndrome / Rheumatoid vasculitis</ARI_AssociatedDisease>
   <demographicBias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female:male ratio 3.9. Regions with very high prevalence: Native American populations (highest prevalence 5-6%), Northern Europe, North America (~1% globally)</demographicBias>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-15T12:40:37+00:00 | Leon Islas | Imported from ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 193: 5 associated diseases (6 linked to ARI diseases), demographic bias, 5 pathway steps.</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-15T15:19:39+00:00 | KrishnaTO | Symptom review (ARI#132): removed 1 non-symptom entry from hasSymptom and retired it (ARI_Obsolete true): 'Near sites of irritation'.</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001184_1802">
@@ -24194,7 +24190,7 @@ There is no cure, though treatments to manage symptoms are available.  Prognosis
 <owl:NamedIndividual rdf:about="#Sym_0001184_1814">
   <rdf:type rdf:resource="#Symptom"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Near sites of irritation</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">true</ARI_Obsolete>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001184_1815">
@@ -27290,8 +27286,6 @@ Early symptoms may include fever, night sweats, fatigue, joint pain, and chest d
   <hasSymptom rdf:resource="#Sym_0001201_2059"/>
   <hasSymptom rdf:resource="#Sym_0001201_2060"/>
   <hasSymptom rdf:resource="#Sym_0001201_2061"/>
-  <hasSymptom rdf:resource="#Sym_0001201_2062"/>
-  <hasSymptom rdf:resource="#Sym_0001201_2063"/>
   <hasSymptom rdf:resource="#Sym_0001201_2064"/>
   <hasSymptom rdf:resource="#Sym_0001201_2065"/>
   <hasSymptom rdf:resource="#Sym_0001201_2066"/>
@@ -27361,6 +27355,7 @@ Early symptoms may include fever, night sweats, fatigue, joint pain, and chest d
   <ARI_AssociatedDisease rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rheumatoid arthritis</ARI_AssociatedDisease>
   <demographicBias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female:male ratio 2.4. Regions with very high prevalence: Northern Europe, Scandinavia (Norway, Sweden: 20-30 per 100,000), Iceland, Minnesota (Olmsted County), Caucasian ancestry</demographicBias>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-15T12:40:37+00:00 | Leon Islas | Imported from ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 210: 3 associated diseases (3 linked to ARI diseases), demographic bias, 5 pathway steps.</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-15T15:19:39+00:00 | KrishnaTO | Symptom review (ARI#132): removed 2 non-symptom entries from hasSymptom and retired them (ARI_Obsolete true): 'Sudden'; 'Temporary'.</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001201_2056">
@@ -27402,13 +27397,13 @@ Early symptoms may include fever, night sweats, fatigue, joint pain, and chest d
 <owl:NamedIndividual rdf:about="#Sym_0001201_2062">
   <rdf:type rdf:resource="#Symptom"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sudden</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">true</ARI_Obsolete>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001201_2063">
   <rdf:type rdf:resource="#Symptom"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Temporary</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">true</ARI_Obsolete>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001201_2064">
@@ -29738,7 +29733,6 @@ Patients with GO experience swelling in the tissues, muscles, and fat in the eye
   <hasSymptom rdf:resource="#Sym_0001154_1453"/>
   <hasSymptom rdf:resource="#Sym_0001154_1446"/>
   <hasSymptom rdf:resource="#Sym_0001154_1448"/>
-  <hasSymptom rdf:resource="#Sym_0001154_1454"/>
   <hasSymptom rdf:resource="#Sym_0001154_1445"/>
   <hasSymptom rdf:resource="#Sym_0001154_1450"/>
   <hasSymptom rdf:resource="#Sym_0001154_1455"/>
@@ -29792,6 +29786,7 @@ Pemphigus is different from bullous pemphigoid, a blistering skin condition that
   <ARI_AssociatedDisease rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Systemic lupus erythematosus</ARI_AssociatedDisease>
   <demographicBias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regions with very high prevalence: Mediterranean basin, Middle East, Jewish ancestry, Brazil (for endemic foliaceus)</demographicBias>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-15T12:40:37+00:00 | Leon Islas | Imported from ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 165: 4 associated diseases (4 linked to ARI diseases), demographic bias, 5 pathway steps.</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-15T15:19:39+00:00 | KrishnaTO | Symptom review (ARI#132): removed 1 non-symptom entry from hasSymptom and retired it (ARI_Obsolete true): 'Does not cause mouth blisters'.</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001155">
@@ -30977,7 +30972,7 @@ A third type of PRCA, Diamond-Blackfan syndrome, is due to genetic mutation and 
 <Symptom rdf:about="#Sym_0001154_1454">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Does not cause mouth blisters</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">true</ARI_Obsolete>
 </Symptom>
 
 <Symptom rdf:about="#Sym_0001154_1445">
@@ -31654,12 +31649,10 @@ A third type of PRCA, Diamond-Blackfan syndrome, is due to genetic mutation and 
   <hasEnvironmentalTrigger rdf:resource="#Env_0001219_2"/>
   <hasEnvironmentalTrigger rdf:resource="#Env_0001219_3"/>
   <targetsTissue rdf:resource="#Tissue_VascularSystem"/>
-  <hasSymptom rdf:resource="#Sym_0001219_2248"/>
   <hasSymptom rdf:resource="#Sym_0001219_2249"/>
   <hasSymptom rdf:resource="#Sym_0001219_2250"/>
-  <hasSymptom rdf:resource="#Sym_0001219_2251"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune aortitis (isolated, non-vasculitic)</rdfs:label>
-  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune aortitis is an inflammatory condition of the aorta characterized by immune-mediated infiltration of the arterial wall that occurs in the absence of generalized systemic vasculitis. Chronic inflammation can weaken the structural integrity of the thoracic or abdominal aorta, predisposing patients to aneurysm formation, aortic insufficiency, or dissection. Corticosteroids and immunosuppressive agents are the mainstay of treatment to prevent vascular complications.</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune aortitis is an inflammatory condition of the aorta characterized by immune-mediated infiltration of the arterial wall that occurs in the absence of generalized systemic vasculitis. Chronic inflammation can weaken the structural integrity of the thoracic or abdominal aorta, predisposing patients to aneurysm formation, aortic insufficiency, or dissection. Corticosteroids and immunosuppressive agents are the mainstay of treatment to prevent vascular complications. Imaging shows an ascending aortic aneurysm or aortic root dilation in 70–85% of patients, and 30–40% have no symptoms before dissection or rupture.</rdfs:comment>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI Master List 2026-10-08</ARI_DefSource>
   <diseaseCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unconfirmed</diseaseCategory>
   <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001219</ARI_ID>
@@ -31689,13 +31682,14 @@ A third type of PRCA, Diamond-Blackfan syndrome, is due to genetic mutation and 
   <ARI_AssociatedDisease rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ankylosing spondylitis</ARI_AssociatedDisease>
   <demographicBias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regions with very high prevalence: Worldwide (more frequent in elderly Caucasian populations)</demographicBias>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-15T12:40:37+00:00 | Leon Islas | Imported from ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 31: 4 associated diseases (3 linked to ARI diseases), demographic bias, 5 pathway steps.</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-15T15:19:39+00:00 | KrishnaTO | Symptom review (ARI#132): removed 2 non-symptom entries from hasSymptom and retired them (ARI_Obsolete true): 'Ascending aortic aneurysm / root dilation on imaging'; 'Asymptomatic presentation prior to dissection or rupture'. Added to description: "Imaging shows an ascending aortic aneurysm or aortic root dilation in 70–85% of patients, and 30–40% have no symptoms before dissection or rupture."</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001219_2248">
   <rdf:type rdf:resource="#Symptom"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ascending aortic aneurysm / root dilation on imaging</rdfs:label>
   <likelihood rdf:datatype="http://www.w3.org/2001/XMLSchema#string">70–85%</likelihood>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">true</ARI_Obsolete>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001219_2249">
@@ -31716,7 +31710,7 @@ A third type of PRCA, Diamond-Blackfan syndrome, is due to genetic mutation and 
   <rdf:type rdf:resource="#Symptom"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Asymptomatic presentation prior to dissection or rupture</rdfs:label>
   <likelihood rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30–40%</likelihood>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">true</ARI_Obsolete>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001220">
@@ -31751,11 +31745,10 @@ A third type of PRCA, Diamond-Blackfan syndrome, is due to genetic mutation and 
   <hasEnvironmentalTrigger rdf:resource="#Env_0001220_3"/>
   <targetsTissue rdf:resource="#Tissue_DigestiveSystem"/>
   <hasSymptom rdf:resource="#Sym_0001220_2252"/>
-  <hasSymptom rdf:resource="#Sym_0001220_2253"/>
   <hasSymptom rdf:resource="#Sym_0001220_2254"/>
   <hasSymptom rdf:resource="#Sym_0001220_2255"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune enteropathy</rdfs:label>
-  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune enteropathy is an extremely rare disease characterized by diarrhea that does not respond to treatment and may require intravenous feeding to sustain the patient. It is diagnosed most frequently in infants and  is increasingly being diagnosed in adults, but the symptoms are the same as many more common diseases, so correct diagnosis is difficult.   It is more frequently diagnosed in patients already diagnosed with other autoimmune diseases such as APECED type 1.</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune enteropathy is an extremely rare disease characterized by diarrhea that does not respond to treatment and may require intravenous feeding to sustain the patient. It is diagnosed most frequently in infants and  is increasingly being diagnosed in adults, but the symptoms are the same as many more common diseases, so correct diagnosis is difficult.   It is more frequently diagnosed in patients already diagnosed with other autoimmune diseases such as APECED type 1. Small intestinal biopsy shows total villous atrophy in 90–100% of patients.</rdfs:comment>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI Master List 2026-10-08</ARI_DefSource>
   <diseaseCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune</diseaseCategory>
   <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001220</ARI_ID>
@@ -31772,6 +31765,7 @@ A third type of PRCA, Diamond-Blackfan syndrome, is due to genetic mutation and 
   <ARI_AssociatedDisease rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Celiac disease</ARI_AssociatedDisease>
   <demographicBias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regions with very high prevalence: Worldwide (very rare, mostly pediatric and adult IPEX-like)</demographicBias>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-15T12:40:37+00:00 | Leon Islas | Imported from ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 39: 4 associated diseases (3 linked to ARI diseases), demographic bias, 5 pathway steps.</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-15T15:19:39+00:00 | KrishnaTO | Symptom review (ARI#132): removed 1 non-symptom entry from hasSymptom and retired it (ARI_Obsolete true): 'Total villous atrophy on small intestinal biopsy'. Added to description: "Small intestinal biopsy shows total villous atrophy in 90–100% of patients."</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001220_2252">
@@ -31785,7 +31779,7 @@ A third type of PRCA, Diamond-Blackfan syndrome, is due to genetic mutation and 
   <rdf:type rdf:resource="#Symptom"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Total villous atrophy on small intestinal biopsy</rdfs:label>
   <likelihood rdf:datatype="http://www.w3.org/2001/XMLSchema#string">90–100%</likelihood>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">true</ARI_Obsolete>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001220_2254">
@@ -32110,12 +32104,11 @@ A third type of PRCA, Diamond-Blackfan syndrome, is due to genetic mutation and 
   <hasEnvironmentalTrigger rdf:resource="#Env_0001224_2"/>
   <targetsTissue rdf:resource="#Tissue_NervousSystem"/>
   <hasSymptom rdf:resource="#Sym_0001224_2270"/>
-  <hasSymptom rdf:resource="#Sym_0001224_2271"/>
   <hasSymptom rdf:resource="#Sym_0001224_2272"/>
   <hasSymptom rdf:resource="#Sym_0001224_2273"/>
   <hasSymptom rdf:resource="#Sym_0001224_2274"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune nodopathies (anti-NF155, anti-CNTN1, anti-Caspr1, etc.)</rdfs:label>
-  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune nodopathies are a group of antibody-mediated peripheral neuropathies where autoantibodies, commonly IgG4, target cell adhesion molecules like neurofascin-155, contactin-1, or Caspr1 at the nodes of Ranvier. This disrupts electrical signal transmission along nerve fibers, causing severe muscle weakness, sensory ataxia, and prominent tremors. Unlike classic demyelinating polyneuropathy, these disorders often respond better to B-cell depleting therapies like rituximab than IVIg.</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune nodopathies are a group of antibody-mediated peripheral neuropathies where autoantibodies, commonly IgG4, target cell adhesion molecules like neurofascin-155, contactin-1, or Caspr1 at the nodes of Ranvier. This disrupts electrical signal transmission along nerve fibers, causing severe muscle weakness, sensory ataxia, and prominent tremors. Unlike classic demyelinating polyneuropathy, these disorders often respond better to B-cell depleting therapies like rituximab than IVIg. 80–90% of patients are refractory to IVIg, with a high response rate to rituximab.</rdfs:comment>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI Master List 2026-10-08</ARI_DefSource>
   <diseaseCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unconfirmed</diseaseCategory>
   <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001224</ARI_ID>
@@ -32149,6 +32142,7 @@ A third type of PRCA, Diamond-Blackfan syndrome, is due to genetic mutation and 
   <ARI_AssociatedDisease rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Type 1 diabetes</ARI_AssociatedDisease>
   <demographicBias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regions with very high prevalence: Worldwide (younger age distribution than classical CIDP)</demographicBias>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-15T12:40:37+00:00 | Leon Islas | Imported from ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 51: 3 associated diseases (3 linked to ARI diseases), demographic bias, 5 pathway steps.</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-15T15:19:39+00:00 | KrishnaTO | Symptom review (ARI#132): removed 1 non-symptom entry from hasSymptom and retired it (ARI_Obsolete true): 'Refractoriness to IVIG with high response rate to rituximab'. Added to description: "80–90% of patients are refractory to IVIg, with a high response rate to rituximab."</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001224_2270">
@@ -32162,7 +32156,7 @@ A third type of PRCA, Diamond-Blackfan syndrome, is due to genetic mutation and 
   <rdf:type rdf:resource="#Symptom"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Refractoriness to IVIG with high response rate to rituximab</rdfs:label>
   <likelihood rdf:datatype="http://www.w3.org/2001/XMLSchema#string">80–90%</likelihood>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">true</ARI_Obsolete>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001224_2272">
@@ -32382,11 +32376,8 @@ A third type of PRCA, Diamond-Blackfan syndrome, is due to genetic mutation and 
   <hasEnvironmentalTrigger rdf:resource="#Env_0001227_3"/>
   <targetsTissue rdf:resource="#Tissue_Glands"/>
   <hasSymptom rdf:resource="#Sym_0001227_2284"/>
-  <hasSymptom rdf:resource="#Sym_0001227_2285"/>
-  <hasSymptom rdf:resource="#Sym_0001227_2286"/>
-  <hasSymptom rdf:resource="#Sym_0001227_2287"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Infertility associated with Antisperm Antibodies</rdfs:label>
-  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Infertility associated with antisperm antibodies occurs when the immune system generates autoantibodies that target sperm antigens in either men or women. These antibodies coat sperm cells, impairing motility, causing agglutination, or blocking sperm-egg binding and fertilization. Treatment involves assisted reproductive technologies, such as intrauterine insemination or in vitro fertilization with intracytoplasmic sperm injection.</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Infertility associated with antisperm antibodies occurs when the immune system generates autoantibodies that target sperm antigens in either men or women. These antibodies coat sperm cells, impairing motility, causing agglutination, or blocking sperm-egg binding and fertilization. Treatment involves assisted reproductive technologies, such as intrauterine insemination or in vitro fertilization with intracytoplasmic sperm injection. Laboratory findings include failure of cervical mucus penetration on postcoital testing (70–85%), spontaneous macroscopic or microscopic sperm agglutination in the ejaculate (70–80%), and markedly decreased progressive sperm forward motility (65–75%).</rdfs:comment>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI Master List 2026-10-08</ARI_DefSource>
   <diseaseCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unconfirmed</diseaseCategory>
   <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001227</ARI_ID>
@@ -32405,6 +32396,7 @@ A third type of PRCA, Diamond-Blackfan syndrome, is due to genetic mutation and 
   <ARI_AssociatedDisease rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Systemic lupus erythematosus</ARI_AssociatedDisease>
   <demographicBias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regions with very high prevalence: Worldwide (found in 10-15% of men with unexplained infertility)</demographicBias>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-15T12:40:37+00:00 | Leon Islas | Imported from ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 125: 3 associated diseases (3 linked to ARI diseases), demographic bias, 5 pathway steps.</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-15T15:19:39+00:00 | KrishnaTO | Symptom review (ARI#132): removed 3 non-symptom entries from hasSymptom and retired them (ARI_Obsolete true): 'Failure of cervical mucus penetration on postcoital testing'; 'Spontaneous macroscopic or microscopic sperm agglutination in ejaculate'; 'Markedly decreased progressive sperm forward motility'. Added to description: "Laboratory findings include failure of cervical mucus penetration on postcoital testing (70–85%), spontaneous macroscopic or microscopic sperm agglutination in the ejaculate (70–80%), and markedly decreased progressive sperm forward motility (65–75%)."</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001227_2284">
@@ -32418,21 +32410,21 @@ A third type of PRCA, Diamond-Blackfan syndrome, is due to genetic mutation and 
   <rdf:type rdf:resource="#Symptom"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Failure of cervical mucus penetration on postcoital testing</rdfs:label>
   <likelihood rdf:datatype="http://www.w3.org/2001/XMLSchema#string">70–85%</likelihood>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">true</ARI_Obsolete>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001227_2286">
   <rdf:type rdf:resource="#Symptom"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spontaneous macroscopic or microscopic sperm agglutination in ejaculate</rdfs:label>
   <likelihood rdf:datatype="http://www.w3.org/2001/XMLSchema#string">70–80%</likelihood>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">true</ARI_Obsolete>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001227_2287">
   <rdf:type rdf:resource="#Symptom"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Markedly decreased progressive sperm forward motility</rdfs:label>
   <likelihood rdf:datatype="http://www.w3.org/2001/XMLSchema#string">65–75%</likelihood>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">true</ARI_Obsolete>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001228">
@@ -32453,12 +32445,11 @@ A third type of PRCA, Diamond-Blackfan syndrome, is due to genetic mutation and 
   <hasEnvironmentalTrigger rdf:resource="#Env_0001228_3"/>
   <targetsTissue rdf:resource="#Tissue_NervousSystem"/>
   <hasSymptom rdf:resource="#Sym_0001228_2288"/>
-  <hasSymptom rdf:resource="#Sym_0001228_2289"/>
   <hasSymptom rdf:resource="#Sym_0001228_2290"/>
   <hasSymptom rdf:resource="#Sym_0001228_2291"/>
   <hasSymptom rdf:resource="#Sym_0001228_2292"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Klein Levin Syndrome</rdfs:label>
-  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kleine-Levin syndrome is a rare neurological disorder characterized by recurring episodes of extreme hypersomnia accompanied by cognitive impairment, behavioral changes, and hyperphagia. While suspected immune and hypothalamic mechanisms have been proposed, clear autoantibody markers remain unconfirmed, and it is classified as an unconfirmed autoimmune condition. Management focuses on supportive care and mood-stabilizing medications during episodes.</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kleine-Levin syndrome is a rare neurological disorder characterized by recurring episodes of extreme hypersomnia accompanied by cognitive impairment, behavioral changes, and hyperphagia. While suspected immune and hypothalamic mechanisms have been proposed, clear autoantibody markers remain unconfirmed, and it is classified as an unconfirmed autoimmune condition. Management focuses on supportive care and mood-stabilizing medications during episodes. Cognition, sleep and mood are completely normal between episodes (100%).</rdfs:comment>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI Master List 2026-10-08</ARI_DefSource>
   <diseaseCategory rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unconfirmed</diseaseCategory>
   <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001228</ARI_ID>
@@ -32473,6 +32464,7 @@ A third type of PRCA, Diamond-Blackfan syndrome, is due to genetic mutation and 
   <ARI_AssociatedDisease rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rare; occasionally associated with psychiatric or autoimmune traits</ARI_AssociatedDisease>
   <demographicBias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regions with very high prevalence: Worldwide (rare, ~1-2 cases per million, male predominance 4:1 in teens)</demographicBias>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-15T12:40:37+00:00 | Leon Islas | Imported from ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 131: 1 associated diseases (0 linked to ARI diseases), demographic bias, 5 pathway steps, 1 HLA association.</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-15T15:19:39+00:00 | KrishnaTO | Symptom review (ARI#132): removed 1 non-symptom entry from hasSymptom and retired it (ARI_Obsolete true): 'Completely normal cognition, sleep, and mood between distinct episodes'. Added to description: "Cognition, sleep and mood are completely normal between episodes (100%)."</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001228_2288">
@@ -32486,7 +32478,7 @@ A third type of PRCA, Diamond-Blackfan syndrome, is due to genetic mutation and 
   <rdf:type rdf:resource="#Symptom"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Completely normal cognition, sleep, and mood between distinct episodes</rdfs:label>
   <likelihood rdf:datatype="http://www.w3.org/2001/XMLSchema#string">100%</likelihood>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">true</ARI_Obsolete>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001228_2290">
