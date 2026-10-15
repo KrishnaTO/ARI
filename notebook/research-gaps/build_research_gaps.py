@@ -6,12 +6,13 @@ Data model  - data_model/Immuno-data-model-v3.xlsx (the field list below follows
 Not yet imported, but already in the repository:
   master    - ALPHABETICAL sheet of data/1-master/ARI Master List - 2026-10-08.xlsx, matched to ARI
               IDs through the Disease Match sheet of report 10
-  report 11 - direct parent/child links of data/4-reports/11_Disease_Hierarchy.xlsx
+  report 11 - direct parent/child links of data/4-reports/11_Disease_Hierarchy.xlsx, less those
+              rejected in notebook/disease-hierarchy/proposed_parents.tsv
 
 Usage: python build_research_gaps.py
 Writes data/4-reports/12_Research_Gaps.xlsx.
 """
-import os, re
+import csv, os, re
 import xml.etree.ElementTree as ET
 from collections import Counter, defaultdict
 import openpyxl
@@ -24,6 +25,7 @@ ONTOLOGY = os.path.join(ROOT, "ontologies/ari_t1d.owl")
 MASTER = os.path.join(ROOT, "data/1-master/ARI Master List - 2026-10-08.xlsx")
 MATCH = os.path.join(ROOT, "data/4-reports/10_Master_List_Comparison.xlsx")
 HIERARCHY = os.path.join(ROOT, "data/4-reports/11_Disease_Hierarchy.xlsx")
+PROPOSED_PARENTS = os.path.join(ROOT, "notebook/disease-hierarchy/proposed_parents.tsv")
 OUT = os.path.join(ROOT, "data/4-reports/12_Research_Gaps.xlsx")
 
 A = "{http://www.aurint.org/ontologies/ari-disease#}"
@@ -91,6 +93,9 @@ match = {r[2]: r[0] for r in openpyxl.load_workbook(MATCH, read_only=True)["Dise
          .iter_rows(min_row=2, values_only=True) if r[0] and r[2] and r[4] != "Duplicate row"}
 master = {ari: sheet[row - 1] for ari, row in match.items()}
 
+rejected = {(r["Child ARI ID"], r["Parent ARI ID"])
+            for r in csv.DictReader(open(PROPOSED_PARENTS, encoding="utf-8"), delimiter="\t")
+            if r["Relation"] == "reject"}
 parent_links = defaultdict(list)
 rel = openpyxl.load_workbook(HIERARCHY, read_only=True)["Relationships"]
 rel_rows = list(rel.iter_rows(values_only=True))
@@ -98,7 +103,7 @@ rh = list(rel_rows[0])
 for r in rel_rows[1:]:
     # Direct links only: Indirect ones skip an intermediate disease, Umbrella ones point at the
     # catch-all "Autoimmune disease", and Reversed ones are outvoted by the opposite direction.
-    if r[rh.index("Link")] == "Direct":
+    if r[rh.index("Link")] == "Direct" and (r[rh.index("Child ARI ID")], r[rh.index("Parent ARI ID")]) not in rejected:
         review = f' - review: {r[rh.index("Review")]}' if r[rh.index("Review")] else ""
         parent_links[r[rh.index("Child ARI ID")]].append(
             f'{r[rh.index("Parent ARI ID")]} {r[rh.index("Parent")]} ({r[rh.index("Sources")]}){review}')
@@ -176,7 +181,8 @@ def evidence_quality(el, ari):
     grade = cell(ari, C_AUTOINFLAM)
     held = f"evidenceQuality holds the evidence type '{'; '.join(vs)}', not a grade. " if vs else ""
     if grade in ("Strong", "Moderate"):
-        return IN_REPO, held + f"Master 'Summary Evidence Autoinflammation' grades it '{grade}' - confirm it applies"
+        # Not imported: the column grades autoinflammation evidence, unconfirmed as the model's grade.
+        return RESEARCH, held + f"Candidate: master 'Summary Evidence Autoinflammation' grades it '{grade}' - "                                "confirm the column is the evidence-quality grade"
     return RESEARCH, held + "Grade High / Moderate / Low / Expert Opinion"
 
 
@@ -264,10 +270,14 @@ def genetic(cls, what):
         n = len(linked(el, "hasGeneticAssociation", cls))
         if n:
             return PUBLISHED, f"{n} {what}"
-        if cell(ari, C_GENES_AI):
-            return IN_REPO, f"Master genes column: {short(cell(ari, C_GENES_AI))}"
+        genes = [l for l in cell(ari, C_GENES_AI).split("\n") if l and (cls == "HLAAssociation") == bool(HLA.search(l))]
+        if genes:
+            return IN_REPO, f"Master genes column: {short(chr(10).join(genes))}"
         return RESEARCH, ""
     return check
+
+
+HLA = re.compile(r"\bHLA\b|human leukocyte antigen", re.I)
 
 
 def systemic(el, ari):
@@ -287,9 +297,13 @@ def in_vitro(what):
     return check
 
 
-def associations(ari):
-    found = cell(ari, C_ASSOC)
-    return f"Master: {short(found)}" if found else ""
+def associations(el, ari):
+    links, names = linked(el, "associatedWithAutoimmune"), values(el, "ARI_AssociatedDisease")
+    if names:
+        return PUBLISHED, f"{len(names)} named, {len(links)} linked to ARI diseases"
+    if cell(ari, C_ASSOC):
+        return IN_REPO, f"Master: {short(cell(ari, C_ASSOC))}"
+    return RESEARCH, ""
 
 
 def definition(el, ari):
@@ -311,7 +325,8 @@ def synonyms(el, ari):
     if values(el, "ARI_Synonym"):
         return PUBLISHED, f"{len(values(el, 'ARI_Synonym'))} synonym(s)"
     if cell(ari, C_MESH):
-        return IN_REPO, f"Master MeSH terms: {short(cell(ari, C_MESH))} - check through synonym review"
+        # Not imported: MeSH entry terms mix synonyms with sub- and broader types.
+        return RESEARCH, f"Candidates for synonym review - master MeSH terms: {short(cell(ari, C_MESH))}"
     return RESEARCH, ""
 
 
@@ -325,8 +340,7 @@ FIELDS = [
     ("Disease", "Evidence Quality", evidence_quality),
     ("Disease", "Genetic / Inherited", nothing("No field yet (Yes / No / Partial)")),
     ("Disease", "Disease Type", disease_type),
-    ("Disease", "Association with Other Autoimmune Diseases",
-     nothing("No field yet", repo=associations)),
+    ("Disease", "Association with Other Autoimmune Diseases", associations),
     ("Standard Codes", "SNOMED", code("ARI_SNOMED", "SNOMED")),
     ("Standard Codes", "DOID", code("ARI_DOID", "DOID")),
     ("Standard Codes", "UMLS", code("ARI_UMLS", "UMLS")),

@@ -31,6 +31,42 @@ review; the ontology itself is unchanged. Three things to know:
   `owl:NamedIndividual`, so a reader that only looks at NamedIndividuals misses them. The build
   script reads both forms.
 
+## claude/import-repo-gaps
+
+Fills the fields report 12 marked "In repo - import" from Leon Islas's 2026-10-08 master list, for
+218 matched diseases. Each field is filled only where the disease had none. Script:
+`notebook/master-list-comparison/import_gaps.py`.
+
+| Master-list column | ARI field | Diseases |
+|---|---|---|
+| Autoimmune Registry definition | `rdfs:comment` | 29 |
+| Veredict (all "Unconfirmed") | `diseaseCategory` | 38 |
+| Association with other Autoimmune Diseases | new `associatedWithAutoimmune` + new `ARI_AssociatedDisease` | 218 |
+| Female/Male ratio, Countries and Regions | `demographicBias` | 217 |
+| PATHOPHYSIOLOGY | `hasPathwayStep` → `PathwayStep` | 217 (1,085 steps) |
+| Symptoms | `hasSymptom` → `Symptom`, frequency as `likelihood` | 45 (201 symptoms) |
+| Genes (autoinflammation) — HLA alleles only | `hasGeneticAssociation` → `HLAAssociation` | 2 |
+
+- **Associations are stored twice, on purpose.** The data model calls the field a class, so names
+  that match one ARI disease (by label or synonym, blocklisted synonyms excluded; "A / B" lines
+  split) become `associatedWithAutoimmune` links: 697 links. Each sheet line is also kept verbatim
+  in `ARI_AssociatedDisease` (778 lines), so the names with no ARI disease (thymoma, Down
+  syndrome, "Rarely co-occurs with…") and the sheet's percentages are not lost. Both properties
+  are new; the property name follows `data_model/immunological_data_model.owl`.
+- **Pathway steps** are labelled "Step N" with the sheet's sentence as `stepDescription`; the
+  sheet gives no step category, so `stepCategory` is left empty rather than guessed.
+- **Not imported, by decision.** Evidence Quality: the master's grade column is labelled
+  autoinflammation evidence and is not confirmed as the model's grade, so it stays a research
+  gap until that is confirmed. Synonyms from MeSH terms: the cells mix synonyms with sub- and
+  broader types (Alopecia areata → Alopecia Universalis), so they are left to synonym review.
+  Parents: the 11 report 11 links still open were all rejected in `proposed_parents.tsv` (#139).
+- **Report 12 regenerated.** It now honours those rejections, reads the new association fields,
+  and lists the evidence grade and MeSH terms as research candidates. No "In repo - import"
+  rows remain.
+- **The editor does not show associations yet.** It reads neither of the two new properties; that
+  needs an app change. Pathway steps, symptoms, HLA, definitions and demographic bias are read by
+  the editor today.
+
 ## claude/disease-info-research-gaps-838ed5
 
 Adds report `12_Research_Gaps.xlsx`: for each of the 227 published diseases, which fields of the

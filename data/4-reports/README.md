@@ -431,6 +431,11 @@ plus the definition and its source from `data/instructions.md`. Each disease and
 | To Do | One line per disease and unfinished field, with what is held now or where to start |
 | Legend | Status meanings and reading notes |
 
+Report 11 parents that curators rejected in `notebook/disease-hierarchy/proposed_parents.tsv` are
+not offered for import. Two master-list columns are listed as research candidates rather than
+imports, by decision: the autoinflammation evidence grade (not confirmed as the model's Evidence
+Quality) and MeSH terms (synonym candidates, which mix in sub- and broader types).
+
 "No field yet" in a note means the ontology declares no property for that data-model field, so
 nothing can be published there until one is added. Values are checked for presence, not
 correctness; Evidence Quality and Disease Type are also checked against the model's allowed values.
