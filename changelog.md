@@ -1,5 +1,47 @@
 # Changelog
 
+## issue-132/retire-non-symptoms
+
+Retires the 46 Symptom individuals (44 distinct strings, 33 diseases) that the symptom mapping for
+ARI#132 marked `not a symptom` and that a disease still listed. They came in two batches: 27 from
+the original mapping, and 19 from the 200 master-list clinical features that `claude/import-repo-gaps`
+added, once those were mapped too. Each one loses its `hasSymptom` link
+and gets `ARI_Obsolete` set to `true`, and each affected disease gets an `ARI_ChangeLog` line naming
+what went and what was added. The curator confirmed each decision before the edit.
+
+**Why.** These are headings, course or onset notes, lab, biopsy and imaging findings, and one
+"See: …" cross-reference that the symptom import treated as symptoms. They were published on the
+disease pages as symptoms.
+
+- **Retired, not deleted.** This follows the repo's convention: `validate_mappings.py` says a
+  disease is retired by `ARI_Obsolete` and never by deleting the individual, and `#Ab_ICA` was
+  retired the same way. Every one of the 46 was used by exactly one disease.
+- **Dropped with nothing moved (19).** Each was a heading or orphaned qualifier ("Temporary",
+  "Sudden", "Near sites of irritation"), or the disease already said it: in its description
+  (pancreatic-cancer mimicry, the 6-week chronic threshold, worsening with activity in CFS), its
+  triggers (sunlight for cutaneous lupus, heat and stress for urticaria) or its subtypes (no mucosal
+  involvement in pemphigus foliaceus). In the second batch, four were already recorded elsewhere:
+  adjuvant exposure (ASIA) and a gastroenteritis prodrome (aHUS) in the triggers, the
+  Donath-Landsteiner antibody in `hasAntibody`, and concomitant SLE in `ARI_AssociatedDisease`
+  (type B insulin resistance). "Healing with minimal scarring" was dropped because it
+  contradicts EBA's own scarring symptoms. Autoimmune urticaria and/or angioedema
+  (`ARI:0001050`) and IgG4-related disease (`ARI:0001109`) now list no symptoms.
+- **Added to the description (27).** Course notes, diagnostic criteria and lab, biopsy and imaging
+  findings, with their frequencies, are appended to `rdfs:comment` for 18 diseases: EBA, bullous
+  pemphigoid, eosinophilic esophagitis, autoimmune aortitis, autoimmune enteropathy, autoimmune
+  nodopathies, both antisperm-antibody infertility entries, Kleine-Levin syndrome, anti-MDA5 and
+  TIF1-γ dermatomyositis, POTS, autoimmune PAP, autoimmune retinal vasculitis, small fiber
+  neuropathy, bullous SLE, necrotizing myopathy and insulin autoimmune syndrome. The findings did not go to `hasBiomarker`. Only
+  Type 1 diabetes uses that property, and only for blood analytes, while the data model's
+  Objective Signs field, where they belong, has no property yet (report 12).
+- **Two placeholder descriptions replaced.** POTS (`ARI:0001164`) and small fiber neuropathy
+  (`ARI:0001191`) had `rdfs:comment` = "1". The curator chose to replace it with the new sentence
+  rather than append to it, and the `ARI_ChangeLog` line records the replaced value.
+- **Not fixed here.** aHUS with anti-factor H (`ARI:0001022`) still has the placeholder
+  description "0.2"; nothing was added to it, so it was left alone. Chronic post-COVID-19 syndrome's symptom list (fatty stools, increased
+  thirst and so on) looks copied from autoimmune pancreatitis. Only its non-symptom entry is
+  retired here.
+
 ## claude/import-repo-gaps
 
 Fills the fields report 12 marked "In repo - import" from Leon Islas's 2026-10-08 master list, for
