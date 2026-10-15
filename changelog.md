@@ -1,5 +1,24 @@
 # Changelog
 
+## claude/migrate-epidemiology-229
+
+Moves every disease's prevalence and incidence rates into figures, the shape the editor reads
+since KrishnaTO/ARI-metadata-manager#236 (#229). Until this lands the editor shows "No
+prevalence or incidence figures yet." for every disease, because it no longer reads the flat
+fields.
+
+- Run with the app's `scripts/migrate_epidemiology.py`. Each flat rate becomes one
+  `EpidemiologyProfile` linked by `hasEpidemiologyProfile`, carrying `epiMeasure`, `epiRegion`,
+  `epiSex` "All", `epiRatePer100k`, and the `epiYear` and `sourcePMID` that sat beside the rate.
+- 371 figures on 211 of the 228 diseases: 136 US prevalence, 165 worldwide prevalence, 26 US
+  incidence, 44 worldwide incidence. That matches the flat rates one for one.
+- The twelve flat properties (`prevalencePer100k` ... `incidenceWorldSource`) and their
+  declarations are removed. `prevalenceValue` (estimated US cases) stays on the disease.
+- Each migrated disease gets an `ARI_ChangeLog` line listing the rates it moved.
+- Still on the old names: `notebook/master-list-comparison/import_prevalence.py`,
+  `notebook/research-gaps/build_research_gaps.py` and `data/4-reports/README.md`. They are left
+  for a follow-up; re-running `import_prevalence.py` as is would write flat fields the editor ignores.
+
 ## claude/numeric-placeholder-descriptions
 
 Four diseases had a bare number as their `rdfs:comment` description. Each is replaced with the
