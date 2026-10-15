@@ -1,5 +1,27 @@
 # Changelog
 
+## issue-132/long-covid-symptoms
+
+Retires six symptoms of Chronic post-COVID-19 syndrome (`ARI:0001067`) that were copied from
+Autoimmune pancreatitis (`ARI:0001043`): Vomiting, Weight loss, Loose fatty stools that do not
+flush easily, Nausea, Diarrhea and Increased thirst (`Sym_0001067_584`–`587`, `_589`, `_591`). Each
+loses its `hasSymptom` link and gets `ARI_Obsolete` set to `true`, and the disease gets an
+`ARI_ChangeLog` line. The curator confirmed the list before the edit.
+
+**Why.** All nine of the disease's symptoms were a subset of autoimmune pancreatitis's fourteen,
+including "Symptoms can be similar to pancreatic cancer", which `issue-132/retire-non-symptoms`
+retires. The copy is already in the source data: the Additional Info Index's Symptoms sheet (seq
+582–591) and Master List V2.1 carry the same rows. The ARI Master List 2026-10-08 lists fatigue
+with post-exertional malaise, brain fog, exertional dyspnea, myalgias and arthralgias, and
+postural tachycardia with palpitations. The disease's own description also names fatigue,
+flare and remission, and brain fog.
+
+- **Kept.** Fatigue and Shortness of breath, which the 2026-10-08 list and the Cardiopulmonary
+  subtype support.
+- **Not added.** The 2026-10-08 list's other symptoms are not imported as new Symptom individuals.
+  No disease has its 2026-10-08 symptoms imported yet, so that is a separate decision.
+- **Stacked** on `issue-132/retire-non-symptoms`, which edits the same lines of this disease.
+
 ## issue-132/retire-non-symptoms
 
 Retires the 27 Symptom individuals (25 distinct strings, 19 diseases) that the symptom mapping for
