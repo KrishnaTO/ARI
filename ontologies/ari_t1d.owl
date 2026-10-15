@@ -3785,7 +3785,7 @@ However, based on the research available at this time, there is no evidence that
   <hasEnvironmentalTrigger rdf:resource="#Env_0001015_1"/>
   <hasEnvironmentalTrigger rdf:resource="#Env_0001015_2"/>
   <targetsTissue rdf:resource="#Tissue_NervousSystem"/>
-  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.5</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chronic distal symmetric demyelinating polyneuropathy strongly associated with IgM monoclonal gammopathy and high titers of autoantibodies against myelin-associated glycoprotein (MAG), causing progressive sensory ataxia and tremor. Chapter 59, pp. 865–874.</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anti-MAG neuropathy</rdfs:label>
   <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001015</ARI_ID>
   <ARI_Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.1</ARI_Version>
@@ -3812,6 +3812,7 @@ However, based on the research available at this time, there is no evidence that
   <ARI_AssociatedDisease rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rheumatoid arthritis</ARI_AssociatedDisease>
   <demographicBias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regions with very high prevalence: Worldwide (predominantly elderly males &gt;60)</demographicBias>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-15T12:40:37+00:00 | Leon Islas | Imported from ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 21: disease type Unconfirmed, 2 associated diseases (2 linked to ARI diseases), demographic bias, 5 pathway steps, 4 symptoms.</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-15T16:30:57+00:00 | KrishnaTO | Description from ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 21 (Rose &amp; McKay definition column). Replaced: rdfs:comment '0.5', the Incidence/Prevalence value from ARI Master List V 2.1 (2026-06-04), loaded as the description by the 2026-06-15 core-reports import.</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001016">
@@ -4557,7 +4558,7 @@ The trigger for antisynthetase syndrome is unknown, but it may be associated wit
   <ARI_MONDO rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0019739</ARI_MONDO>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1244954</ARI_OMOP>
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">93581</ARI_ORPHANET>
-  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.2</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thrombotic microangiopathy characterized by acquired autoantibodies neutralizing complement factor H (CFH), impairing regulation of the alternative complement pathway and causing microvascular endothelial damage, thrombocytopenia, and renal failure. Chapter 46, pp. 650–658; Chapter 54, pp. 765–775.</rdfs:comment>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1 million</ARI_DefSource>
   <ARI_Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.1</ARI_Version>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-09-25T04:32:16+00:00 | maffersi | Cross-reference review: confirmed SNOMED 1295220004; confirmed OMOP 1244954; confirmed MONDO 0019739; confirmed ORPHANET 93581; confirmed UMLS C5680286; flagged MONDO 0019738; flagged ORPHANET 93579; no term in DOID; no term in NCI; no term in ICD10; no term in MESH</ARI_ChangeLog>
@@ -4576,6 +4577,7 @@ The trigger for antisynthetase syndrome is unknown, but it may be associated wit
   <demographicBias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regions with very high prevalence: Worldwide (rare, ~1-2 cases per million)</demographicBias>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-15T12:40:37+00:00 | Leon Islas | Imported from ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 29: disease type Unconfirmed, 3 associated diseases (3 linked to ARI diseases), demographic bias, 5 pathway steps, 4 symptoms.</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-15T15:44:20+00:00 | KrishnaTO | Symptom review (ARI#132): removed 1 non-symptom entry from hasSymptom and retired it (ARI_Obsolete true): 'Antecedent gastroenteritis or upper respiratory prodrome'.</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-15T16:30:57+00:00 | KrishnaTO | Description from ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 29 (Rose &amp; McKay definition column). Replaced: rdfs:comment '0.2', the Incidence/Prevalence value from ARI Master List V 2.1 (2026-06-04), loaded as the description by the 2026-06-15 core-reports import.</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001023">
@@ -4723,7 +4725,7 @@ The trigger for antisynthetase syndrome is unknown, but it may be associated wit
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune cerebellar ataxia</rdfs:label>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
   <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001024</ARI_ID>
-  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Subacute or chronic immune-mediated cerebellar ataxia associated with autoantibodies such as anti-GAD65 or other cerebellar antigens, responsive to immunomodulatory treatments. Chapter 58, pp. 855–862.</rdfs:comment>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1 million</ARI_DefSource>
   <ARI_Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.1</ARI_Version>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
@@ -4741,6 +4743,7 @@ The trigger for antisynthetase syndrome is unknown, but it may be associated wit
   <ARI_AssociatedDisease rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pernicious anemia</ARI_AssociatedDisease>
   <demographicBias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regions with very high prevalence: Worldwide (rare)</demographicBias>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-15T12:40:37+00:00 | Leon Islas | Imported from ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 33: disease type Unconfirmed, 4 associated diseases (3 linked to ARI diseases), demographic bias, 5 pathway steps, 4 symptoms.</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-15T16:30:57+00:00 | KrishnaTO | Description from ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 33 (Rose &amp; McKay definition column). Replaced: rdfs:comment '1', the Incidence/Prevalence value from ARI Master List V 2.1 (2026-06-04), loaded as the description by the 2026-06-15 core-reports import.</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001025">
@@ -19131,7 +19134,7 @@ There is no cure for morphea, but treatments are available to manage symptoms.  
   <ARI_ICD10 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G61.82</ARI_ICD10>
   <ARI_OMOP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4046338</ARI_OMOP>
   <ARI_ORPHANET rdf:datatype="http://www.w3.org/2001/XMLSchema#string">641</ARI_ORPHANET>
-  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.94</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chronic immune-mediated motor polyneuropathy characterized by asymmetric, slowly progressive weakness and multifocal motor conduction block without sensory loss, strongly associated with high titers of IgM antibodies to ganglioside GM1. Chapter 59, pp. 866–876.</rdfs:comment>
   <ARI_Synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Multifocal motor neuropathy</ARI_Synonym>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">100 thousand</ARI_DefSource>
   <ARI_Version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.1</ARI_Version>
@@ -19152,6 +19155,7 @@ There is no cure for morphea, but treatments are available to manage symptoms.  
   <ARI_AssociatedDisease rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Celiac disease</ARI_AssociatedDisease>
   <demographicBias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regions with very high prevalence: Worldwide (rare, ~1-2 per 100,000, marked male preponderance 3:1)</demographicBias>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-15T12:40:37+00:00 | Leon Islas | Imported from ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 146: disease type Unconfirmed, 3 associated diseases (3 linked to ARI diseases), demographic bias, 5 pathway steps, 4 symptoms.</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-15T16:30:57+00:00 | KrishnaTO | Description from ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 146 (Rose &amp; McKay definition column). Replaced: rdfs:comment '1.94', the Incidence/Prevalence value from ARI Master List V 2.1 (2026-06-04), loaded as the description by the 2026-06-15 core-reports import.</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001134">
