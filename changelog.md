@@ -1,5 +1,33 @@
 # Changelog
 
+## claude/symptoms-ontology-mapping-6bdc2c
+
+Maps ARI's symptoms to the Symptom Ontology (SYMP) and groups similar-sounding symptoms under a
+root symptom, for ARI#132. `notebook/symptom-mapping/symptom_mapping.tsv` is the hand-curated
+mapping for all 703 symptom strings. They come from report 4's Symptoms sheet and from the Symptom
+individuals in `ontologies/ari_t1d.owl`. 191 strings match a SYMP term exactly and 405 map to the
+nearest broader one. 51 merge into a string with the same meaning, and 56 are not symptoms. 339
+symptoms get an ARI parent; "Blisters on eyes", "Genital blisters" and 20 more now sit under
+**Blisters**. `build_symptom_mapping.py` writes the mapping and parent columns into report 4's
+Symptoms sheet, adds a Symptom Mapping sheet, and writes `ari_symptoms.owl`: a class hierarchy with
+`skos:exactMatch` / `skos:broadMatch` references to SYMP and links back to the ARI Symptom
+individuals.
+
+**Why.** ARI stores symptoms as free-text strings per disease, so the same symptom appears under
+many wordings and nothing ties them to a standard vocabulary. The mapping is a proposal for
+review; the ontology itself is unchanged. Three things to know:
+
+- **SYMP is small.** It has 895 active terms and lacks many patient-worded symptoms (no eye pain,
+  dysmenorrhea or stiffness), so many broader mappings land on a body-system term. HPO would cover
+  more, but the issue asked for the symptoms ontology.
+- **25 published "symptoms" are not symptoms.** On 27 individuals in `ari_t1d.owl` they are
+  headings, notes ("Symptoms worsen in sunlight", "Temporary"), lab or biopsy results, or a
+  cross-reference. They are marked `not a symptom` and get no class, but they are still on the
+  diseases.
+- **147 Symptom individuals are written as `<Symptom rdf:about>`** rather than
+  `owl:NamedIndividual`, so a reader that only looks at NamedIndividuals misses them. The build
+  script reads both forms.
+
 ## claude/disease-info-research-gaps-838ed5
 
 Adds report `12_Research_Gaps.xlsx`: for each of the 227 published diseases, which fields of the
