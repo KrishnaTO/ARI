@@ -27,6 +27,47 @@ list:
 
 Citations are the other systemic gap: 45 of 4,848 published symptom, trigger, antibody, cell and
 antigen items carry a `sourcePMID`, while the model asks for a DOI reference on each.
+## issue-138/combination-components
+
+Groups the combination diseases for ARI#138 under a new `Category_Combination` ("Combination
+disease"), an individual of a new `CombinationDisease` class under `DiseaseCategory`, built the same
+way as `Category_Endocrine`. The 16 diseases with `component_of` rows in
+`notebook/disease-hierarchy/proposed_parents.tsv` each get `hasParentCategory` → that category:
+Evans, MCTD, polyglandular syndromes 1–4, IPEX, LRBA deficiency, antisynthetase, anti-MDA5, COPA,
+Felty, Morvan, lcSSc (the CREST features), Cogan and Susac. Each also gets an `ARI_ChangeLog` entry
+that lists its 32 component diseases with their confidence.
+
+A category was chosen over a new `hasComponentDisease` property. It groups the diseases with a
+property the ontology already has, but it does not store the component links as data: they stay
+in the proposal file and in each ChangeLog entry. The editor does not display categories yet (it
+reads `hasParentCategory` but no view shows it), so curators will not see the grouping until the
+app adds that. Inserts only, 41 lines; CREST Syndrome (0001212) and PLEVA are not touched.
+
+## claude/disease-parent-associations-343ec4
+
+Adds `notebook/disease-hierarchy/proposed_parents.tsv`: 145 proposed parent links between listed
+diseases, each with a reason and confidence, for ARI#137 (subtype hierarchy) and ARI#138
+(combination diseases). Report 11 only found links that a source database already had, and
+several of those were code errors or ran in the wrong direction. This file is the curator-facing
+proposal: 94 `is_a`/`manifestation_of` links (49 of them new, mostly vasculitides by Chapel Hill
+2012 and encephalitides by Graus 2016), 32 `component_of` links for combination diseases (Evans,
+MCTD, the polyglandular syndromes, IPEX, antisynthetase, Felty, Morvan, CREST), 18 rejections of
+report 11 links, and 1 duplicate to merge (the two nodopathy entries). CREST Syndrome under lcSSc
+was first marked a duplicate; on review it is a rejection of the parent link, since 0001212 should
+be merged into 0001199 rather than nested under it.
+
+`proposed_hierarchy.owl` (built by `build_proposed_hierarchy_owl.py`) shows the same proposal as a
+class tree for Protégé, so curators can review the hierarchy's shape rather than read 145 rows.
+Each link keeps its relation, confidence and reason as axiom annotations; rejected rows are left out.
+
+**Applied to the ontology (ARI#137):** every `is_a` and `manifestation_of` row is now a
+`hasParentDisease` link in `ontologies/ari_t1d.owl`, low-confidence rows included: 90 new links on
+81 diseases (4 were already there), each disease with an `ARI_ChangeLog` entry naming the parents
+added. `hasParentDisease` goes from 5 links to 95, with 86 diseases under a parent and no cycles.
+Eleven diseases get two parents (e.g. polyarteritis nodosa under Autoimmune vasculitis and
+Necrotizing vasculitis); the editor shows a disease under each of its parents. Not applied:
+`component_of` (#138 needs a property for it first), `duplicate_of` and `reject`, so existing links
+such as CREST Syndrome under lcSSc are untouched.
 
 ## claude/disease-hierarchy
 
