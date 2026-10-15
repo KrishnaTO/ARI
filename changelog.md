@@ -1,5 +1,27 @@
 # Changelog
 
+## claude/numeric-placeholder-descriptions
+
+Four diseases had a bare number as their `rdfs:comment` description. Each is replaced with the
+Rose & McKay definition from Leon Islas's 2026-10-08 master list (ALPHABETICAL sheet), word for
+word, chapter and page included. The curator chose that column over the Autoimmune Registry one.
+
+| ARI | Disease | Replaced value |
+|---|---|---|
+| `ARI:0001015` | Anti-MAG neuropathy | 0.5 |
+| `ARI:0001022` | Atypical hemolytic uremic syndrome with anti-factor H autoantibodies | 0.2 |
+| `ARI:0001024` | Autoimmune cerebellar ataxia | 1 |
+| `ARI:0001133` | Motor neuropathy with multiple conduction block | 1.94 |
+
+- **Where the numbers came from.** They are the Incidence/Prevalence column of the V 2.1 master
+  list (2026-06-04, "Leon Main"), read as the description by the 2026-06-15 core-reports import
+  that predates this repository; they were already in the ontology's first commit. That import's
+  code is not here, so there is nothing to fix in this repo. `import_gaps.py` is not the cause:
+  it only fills `rdfs:comment` when a disease has none, so it skipped these.
+- **POTS and small fiber neuropathy**, the other two with a "1", are replaced by #143 with a
+  findings sentence; the curator chose to leave them that way.
+- Each disease gets an `ARI_ChangeLog` line recording the replaced value.
+
 ## claude/import-repo-gaps
 
 Fills the fields report 12 marked "In repo - import" from Leon Islas's 2026-10-08 master list, for
