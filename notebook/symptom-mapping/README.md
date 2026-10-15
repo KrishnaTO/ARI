@@ -4,14 +4,15 @@
 [Symptom Ontology](http://purl.obolibrary.org/obo/symp.owl) (SYMP, release 2026-07-30) and the
 [Human Phenotype Ontology](http://purl.obolibrary.org/obo/hp.obo) (HPO, release 2026-02-16), and groups
 similar-sounding symptoms under a root symptom, so that "Blisters on eyes", "Blister on lips" and
-"Genital blisters" sit under **Blisters** instead of standing as 20 unrelated entries.
+"Genital blisters" sit under **Blisters** instead of standing as 23 unrelated entries.
 
-It is hand-curated, not script output. The strings come from two places, 703 in all:
+It is hand-curated, not script output. The strings come from two places, 903 in all:
 
 - the Symptoms sheet of `data/4-reports/4_Additional_Info_Index.xlsx` (master list V2.1)
-- the Symptom individuals in `ontologies/ari_t1d.owl`
+- the Symptom individuals in `ontologies/ari_t1d.owl`, including the clinical features imported
+  from the 2026-10-08 master list
 
-69 strings are only in the ontology and 33 only in the sheet.
+269 strings are only in the ontology and 33 only in the sheet.
 
 | Column | Meaning |
 |--------|---------|
@@ -24,16 +25,16 @@ It is hand-curated, not script output. The strings come from two places, 703 in 
 | Parent Symptom | The broader ARI symptom this one groups under, when ARI has one |
 | Merged Into | For `merged` rows, the symptom with the same meaning |
 
-Counts: 191 exact, 405 broader, 51 merged, 56 not a symptom. 339 symptoms group under one of 111
+Counts: 196 exact, 569 broader, 63 merged, 75 not a symptom. 452 symptoms group under one of 148
 ARI parent symptoms. A symptom without a Parent Symptom takes its parent from SYMP: the SYMP term
 for a broader mapping, or the SYMP term's own parent for an exact one (Blisters → *skin and
 integumentary tissue symptom*).
 
 SYMP is small (895 active terms) and has no term for many patient-worded symptoms, so a broader
 mapping is often the body-system term, e.g. "Brittle fingernails" → *skin and integumentary tissue
-symptom*. HPO is much larger and has layperson synonyms, so it matches more closely. Of the 596
-mapped symptoms, 300 match an HPO term exactly ("Brittle fingernails" → *Fragile nails*), against
-191 for SYMP, and 293 map to a broader HPO term. Three have no HPO term at all: Dizziness, Stiffness
+symptom*. HPO is much larger and has layperson synonyms, so it matches more closely. Of the 765
+mapped symptoms, 310 match an HPO term exactly ("Brittle fingernails" → *Fragile nails*), against
+196 for SYMP, and 452 map to a broader HPO term. Three have no HPO term at all: Dizziness, Stiffness
 and Swelling. HPO has only narrower terms for these, such as *Vertigo*, *Joint stiffness* and *Edema*.
 The parent hierarchy is unchanged: parents come from ARI or SYMP, never from HPO.
 

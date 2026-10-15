@@ -124,6 +124,12 @@
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000528"/>
 </owl:Class>
 
+<owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000046">
+    <rdfs:label>hepatitis</rdfs:label>
+    <oboInOwl:id>SYMP:0000046</oboInOwl:id>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000180"/>
+</owl:Class>
+
 <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000056">
     <rdfs:label>hyperpigmentation</rdfs:label>
     <oboInOwl:id>SYMP:0000056</oboInOwl:id>
@@ -134,6 +140,12 @@
     <rdfs:label>hyperreflexia</rdfs:label>
     <oboInOwl:id>SYMP:0000058</oboInOwl:id>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000249"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000059">
+    <rdfs:label>hypotension</rdfs:label>
+    <oboInOwl:id>SYMP:0000059</oboInOwl:id>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0019139"/>
 </owl:Class>
 
 <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000064">
@@ -160,6 +172,12 @@
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000480"/>
 </owl:Class>
 
+<owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000090">
+    <rdfs:label>encephalitis</rdfs:label>
+    <oboInOwl:id>SYMP:0000090</oboInOwl:id>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000480"/>
+</owl:Class>
+
 <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000092">
     <rdfs:label>skin lesion</rdfs:label>
     <oboInOwl:id>SYMP:0000092</oboInOwl:id>
@@ -178,6 +196,12 @@
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000183"/>
 </owl:Class>
 
+<owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000098">
+    <rdfs:label>nephritis</rdfs:label>
+    <oboInOwl:id>SYMP:0000098</oboInOwl:id>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000486"/>
+</owl:Class>
+
 <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000099">
     <rdfs:label>pain</rdfs:label>
     <oboInOwl:id>SYMP:0000099</oboInOwl:id>
@@ -190,10 +214,22 @@
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0019139"/>
 </owl:Class>
 
+<owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000118">
+    <rdfs:label>rales</rdfs:label>
+    <oboInOwl:id>SYMP:0000118</oboInOwl:id>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000587"/>
+</owl:Class>
+
 <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000124">
     <rdfs:label>seizure</rdfs:label>
     <oboInOwl:id>SYMP:0000124</oboInOwl:id>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000480"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000128">
+    <rdfs:label>conjunctivitis</rdfs:label>
+    <oboInOwl:id>SYMP:0000128</oboInOwl:id>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0020034"/>
 </owl:Class>
 
 <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000134">
@@ -220,6 +256,12 @@
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000146"/>
 </owl:Class>
 
+<owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000153">
+    <rdfs:label>vasculitis</rdfs:label>
+    <oboInOwl:id>SYMP:0000153</oboInOwl:id>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0019139"/>
+</owl:Class>
+
 <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000162">
     <rdfs:label>tremor</rdfs:label>
     <oboInOwl:id>SYMP:0000162</oboInOwl:id>
@@ -236,6 +278,12 @@
     <rdfs:label>weight loss</rdfs:label>
     <oboInOwl:id>SYMP:0000178</oboInOwl:id>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0020012"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000180">
+    <rdfs:label>liver symptom</rdfs:label>
+    <oboInOwl:id>SYMP:0000180</oboInOwl:id>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000459"/>
 </owl:Class>
 
 <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000183">
@@ -266,6 +314,12 @@
     <rdfs:label>miscarriage</rdfs:label>
     <oboInOwl:id>SYMP:0000198</oboInOwl:id>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000196"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000202">
+    <rdfs:label>acute painful vision loss</rdfs:label>
+    <oboInOwl:id>SYMP:0000202</oboInOwl:id>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000099"/>
 </owl:Class>
 
 <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000205">
@@ -322,6 +376,12 @@
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000146"/>
 </owl:Class>
 
+<owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000231">
+    <rdfs:label>bradycardia</rdfs:label>
+    <oboInOwl:id>SYMP:0000231</oboInOwl:id>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000287"/>
+</owl:Class>
+
 <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000233">
     <rdfs:label>inability to think clearly</rdfs:label>
     <oboInOwl:id>SYMP:0000233</oboInOwl:id>
@@ -364,6 +424,12 @@
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0019163"/>
 </owl:Class>
 
+<owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000255">
+    <rdfs:label>diminished gastro-intestinal motility</rdfs:label>
+    <oboInOwl:id>SYMP:0000255</oboInOwl:id>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000459"/>
+</owl:Class>
+
 <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000258">
     <rdfs:label>double vision</rdfs:label>
     <oboInOwl:id>SYMP:0000258</oboInOwl:id>
@@ -382,6 +448,12 @@
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000124"/>
 </owl:Class>
 
+<owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000267">
+    <rdfs:label>generalized seizure</rdfs:label>
+    <oboInOwl:id>SYMP:0000267</oboInOwl:id>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000124"/>
+</owl:Class>
+
 <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000269">
     <rdfs:label>epileptic seizure</rdfs:label>
     <oboInOwl:id>SYMP:0000269</oboInOwl:id>
@@ -391,6 +463,12 @@
 <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000270">
     <rdfs:label>simple partial seizure</rdfs:label>
     <oboInOwl:id>SYMP:0000270</oboInOwl:id>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000266"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000271">
+    <rdfs:label>complex partial seizure</rdfs:label>
+    <oboInOwl:id>SYMP:0000271</oboInOwl:id>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000266"/>
 </owl:Class>
 
@@ -454,6 +532,12 @@
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000320"/>
 </owl:Class>
 
+<owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000329">
+    <rdfs:label>motor weakness</rdfs:label>
+    <oboInOwl:id>SYMP:0000329</oboInOwl:id>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000891"/>
+</owl:Class>
+
 <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000330">
     <rdfs:label>mouth sore</rdfs:label>
     <oboInOwl:id>SYMP:0000330</oboInOwl:id>
@@ -497,6 +581,12 @@
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000538"/>
 </owl:Class>
 
+<owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000344">
+    <rdfs:label>palpebral edema</rdfs:label>
+    <oboInOwl:id>SYMP:0000344</oboInOwl:id>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000538"/>
+</owl:Class>
+
 <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000346">
     <rdfs:label>papule</rdfs:label>
     <oboInOwl:id>SYMP:0000346</oboInOwl:id>
@@ -519,6 +609,12 @@
     <rdfs:label>progressive weakness</rdfs:label>
     <oboInOwl:id>SYMP:0000363</oboInOwl:id>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000177"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000367">
+    <rdfs:label>proteinuria</rdfs:label>
+    <oboInOwl:id>SYMP:0000367</oboInOwl:id>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000486"/>
 </owl:Class>
 
 <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000369">
@@ -561,6 +657,12 @@
     <rdfs:label>nose symptom</rdfs:label>
     <oboInOwl:id>SYMP:0000388</oboInOwl:id>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000387"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000390">
+    <rdfs:label>thyroid symptom</rdfs:label>
+    <oboInOwl:id>SYMP:0000390</oboInOwl:id>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000385"/>
 </owl:Class>
 
 <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000392">
@@ -626,6 +728,12 @@
 <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000412">
     <rdfs:label>anxiety</rdfs:label>
     <oboInOwl:id>SYMP:0000412</oboInOwl:id>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000410"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000414">
+    <rdfs:label>dysarthria</rdfs:label>
+    <oboInOwl:id>SYMP:0000414</oboInOwl:id>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000410"/>
 </owl:Class>
 
@@ -970,10 +1078,22 @@
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000410"/>
 </owl:Class>
 
+<owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000550">
+    <rdfs:label>clubbing of fingers</rdfs:label>
+    <oboInOwl:id>SYMP:0000550</oboInOwl:id>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000891"/>
+</owl:Class>
+
 <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000556">
     <rdfs:label>localized superficial lump</rdfs:label>
     <oboInOwl:id>SYMP:0000556</oboInOwl:id>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000488"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000557">
+    <rdfs:label>urinary retention</rdfs:label>
+    <oboInOwl:id>SYMP:0000557</oboInOwl:id>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000486"/>
 </owl:Class>
 
 <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000559">
@@ -1030,6 +1150,12 @@
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000146"/>
 </owl:Class>
 
+<owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000571">
+    <rdfs:label>insomnia</rdfs:label>
+    <oboInOwl:id>SYMP:0000571</oboInOwl:id>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000566"/>
+</owl:Class>
+
 <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000573">
     <rdfs:label>urinary stream symptom</rdfs:label>
     <oboInOwl:id>SYMP:0000573</oboInOwl:id>
@@ -1045,6 +1171,12 @@
 <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000582">
     <rdfs:label>hypersomnia</rdfs:label>
     <oboInOwl:id>SYMP:0000582</oboInOwl:id>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000566"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000584">
+    <rdfs:label>disruptions of 24-hour sleep-wake cycle</rdfs:label>
+    <oboInOwl:id>SYMP:0000584</oboInOwl:id>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000566"/>
 </owl:Class>
 
@@ -1132,6 +1264,12 @@
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000891"/>
 </owl:Class>
 
+<owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000619">
+    <rdfs:label>tetany</rdfs:label>
+    <oboInOwl:id>SYMP:0000619</oboInOwl:id>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000891"/>
+</owl:Class>
+
 <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000625">
     <rdfs:label>conscious disturbance</rdfs:label>
     <oboInOwl:id>SYMP:0000625</oboInOwl:id>
@@ -1166,6 +1304,12 @@
     <rdfs:label>rectorrhagia</rdfs:label>
     <oboInOwl:id>SYMP:0000639</oboInOwl:id>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000459"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000643">
+    <rdfs:label>respiratory failure</rdfs:label>
+    <oboInOwl:id>SYMP:0000643</oboInOwl:id>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000514"/>
 </owl:Class>
 
 <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000648">
@@ -1274,6 +1418,12 @@
     <rdfs:label>microangiopathic hemolytic anemia</rdfs:label>
     <oboInOwl:id>SYMP:0000720</oboInOwl:id>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000631"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000731">
+    <rdfs:label>renal failure</rdfs:label>
+    <oboInOwl:id>SYMP:0000731</oboInOwl:id>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000486"/>
 </owl:Class>
 
 <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000740">
@@ -1480,6 +1630,12 @@
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000459"/>
 </owl:Class>
 
+<owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0019146">
+    <rdfs:label>hyponatremia</rdfs:label>
+    <oboInOwl:id>SYMP:0019146</oboInOwl:id>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0019139"/>
+</owl:Class>
+
 <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0019152">
     <rdfs:label>diaphoresis</rdfs:label>
     <oboInOwl:id>SYMP:0019152</oboInOwl:id>
@@ -1490,6 +1646,12 @@
     <rdfs:label>dyspnea</rdfs:label>
     <oboInOwl:id>SYMP:0019153</oboInOwl:id>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000598"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0019155">
+    <rdfs:label>lymphadenitis</rdfs:label>
+    <oboInOwl:id>SYMP:0019155</oboInOwl:id>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0019141"/>
 </owl:Class>
 
 <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0019160">
@@ -1532,6 +1694,12 @@
     <rdfs:label>pustule</rdfs:label>
     <oboInOwl:id>SYMP:0019167</oboInOwl:id>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000488"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0019169">
+    <rdfs:label>arthritis</rdfs:label>
+    <oboInOwl:id>SYMP:0019169</oboInOwl:id>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000891"/>
 </owl:Class>
 
 <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0019172">
@@ -1618,6 +1786,12 @@
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000320"/>
 </owl:Class>
 
+<owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0020009">
+    <rdfs:label>blind spot</rdfs:label>
+    <oboInOwl:id>SYMP:0020009</oboInOwl:id>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000320"/>
+</owl:Class>
+
 <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0020012">
     <rdfs:label>weight symptom</rdfs:label>
     <oboInOwl:id>SYMP:0020012</oboInOwl:id>
@@ -1640,6 +1814,12 @@
     <rdfs:label>chest discomfort</rdfs:label>
     <oboInOwl:id>SYMP:0020031</oboInOwl:id>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000514"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0020034">
+    <rdfs:label>conjunctiva symptom</rdfs:label>
+    <oboInOwl:id>SYMP:0020034</oboInOwl:id>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0019163"/>
 </owl:Class>
 
 <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0020040">
@@ -1694,6 +1874,15 @@
     <rdfs:label>tenderness</rdfs:label>
     <oboInOwl:id>SYMP:0020065</oboInOwl:id>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000567"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000597">
+    <rdfs:label>'Flagellate erythema' on trunk</rdfs:label>
+    <oboInOwl:id>ARIS:0000597</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000487"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0010783"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001202_7"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000417"/>
 </owl:Class>
 
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000001">
@@ -1821,6 +2010,15 @@
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000488"/>
 </owl:Class>
 
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000598">
+    <rdfs:label>Abrupt shaking chills, high fever, and back/flank or abdominal pain</rdfs:label>
+    <oboInOwl:id>ARIS:0000598</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000613"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0001945"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001151_4"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000196"/>
+</owl:Class>
+
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000011">
     <rdfs:label>Absent menstrual period</rdfs:label>
     <oboInOwl:id>ARIS:0000011</oboInOwl:id>
@@ -1854,6 +2052,42 @@
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000459"/>
 </owl:Class>
 
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000599">
+    <rdfs:label>Acute oliguric renal failure / azotemia</rdfs:label>
+    <oboInOwl:id>ARIS:0000599</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000731"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0001919"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001022_3"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000731"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000600">
+    <rdfs:label>Acute progressive external ophthalmoplegia / ophthalmoparesis</rdfs:label>
+    <oboInOwl:id>ARIS:0000600</oboInOwl:id>
+    <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000658"/>
+    <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0000544"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001055_1"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000380"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000601">
+    <rdfs:label>Acute psychiatric disturbances (affective changes, anxiety, psychosis)</rdfs:label>
+    <oboInOwl:id>ARIS:0000601</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0019182"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0000708"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001037_3"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000307"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000602">
+    <rdfs:label>Acute severe intravascular hemolytic anemia, pallor, and jaundice</rdfs:label>
+    <oboInOwl:id>ARIS:0000602</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000631"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0001878"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001151_3"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000631"/>
+</owl:Class>
+
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000014">
     <rdfs:label>Acute/subacute limbic amnesia and confusion</rdfs:label>
     <oboInOwl:id>ARIS:0000014</oboInOwl:id>
@@ -1861,6 +2095,15 @@
     <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0002354"/>
     <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001217_2242"/>
     <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000098"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000603">
+    <rdfs:label>Acute/subacute painful visual loss (unilateral or bilateral)</rdfs:label>
+    <oboInOwl:id>ARIS:0000603</oboInOwl:id>
+    <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000202"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0000572"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001042_1"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000564"/>
 </owl:Class>
 
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000015">
@@ -1874,6 +2117,24 @@
     <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000031"/>
 </owl:Class>
 
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000604">
+    <rdfs:label>Allodynia, dysesthesias, and hyperalgesia</rdfs:label>
+    <oboInOwl:id>ARIS:0000604</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000745"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0003474"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001191_4"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000458"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000605">
+    <rdfs:label>Altered consciousness / somnolence, stupor, or coma</rdfs:label>
+    <oboInOwl:id>ARIS:0000605</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000482"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0004372"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001055_3"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000016"/>
+</owl:Class>
+
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000016">
     <rdfs:label>Altered level of consciousness</rdfs:label>
     <oboInOwl:id>ARIS:0000016</oboInOwl:id>
@@ -1881,6 +2142,24 @@
     <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0004372"/>
     <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001192_1943"/>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000410"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000606">
+    <rdfs:label>Angina pectoris upon exertion</rdfs:label>
+    <oboInOwl:id>ARIS:0000606</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000576"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0001681"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001020_3"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000083"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000607">
+    <rdfs:label>Anhidrosis / loss of sweating</rdfs:label>
+    <oboInOwl:id>ARIS:0000607</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000488"/>
+    <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0000970"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001030_5"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000111"/>
 </owl:Class>
 
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000017">
@@ -1954,6 +2233,33 @@
     <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000571"/>
 </owl:Class>
 
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000608">
+    <rdfs:label>Arthralgias or inflammatory arthritis</rdfs:label>
+    <oboInOwl:id>ARIS:0000608</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000312"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0034430"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001036_4"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000263"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000609">
+    <rdfs:label>Asymmetric hyporeflexia confined to clinically weak muscles</rdfs:label>
+    <oboInOwl:id>ARIS:0000609</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000249"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0001265"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001133_2"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000435"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000610">
+    <rdfs:label>Asymmetric, slowly progressive distal motor weakness without sensory deficits (wrist/finger drop)</rdfs:label>
+    <oboInOwl:id>ARIS:0000610</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000329"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0002460"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001133_1"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000571"/>
+</owl:Class>
+
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000023">
     <rdfs:label>Attention-span problems</rdfs:label>
     <oboInOwl:id>ARIS:0000023</oboInOwl:id>
@@ -1961,6 +2267,15 @@
     <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0000736"/>
     <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001192_1940"/>
     <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000090"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000611">
+    <rdfs:label>Autoimmune cytopenias (autoimmune thrombocytopenia, AIHA)</rdfs:label>
+    <oboInOwl:id>ARIS:0000611</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000691"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0001871"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001070_4"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000295"/>
 </owl:Class>
 
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000024">
@@ -1972,12 +2287,66 @@
     <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000295"/>
 </owl:Class>
 
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000612">
+    <rdfs:label>Autoimmune cytopenias (refractory ITP, AIHA)</rdfs:label>
+    <oboInOwl:id>ARIS:0000612</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000691"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0001871"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001075_4"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000295"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000613">
+    <rdfs:label>Autoimmune hepatitis with marked transaminitis</rdfs:label>
+    <oboInOwl:id>ARIS:0000613</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000046"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0012115"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001105_5"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000046"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000614">
+    <rdfs:label>Autoimmune hypophysitis with severe headache and fatigue</rdfs:label>
+    <oboInOwl:id>ARIS:0000614</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000504"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0002315"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001105_4"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000224"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000615">
+    <rdfs:label>Autoimmune thyroid disease (hypo- or hyperthyroidism)</rdfs:label>
+    <oboInOwl:id>ARIS:0000615</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000390"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0000820"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001106_5"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000390"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000616">
+    <rdfs:label>Autoimmune thyroid dysfunction: thyrotoxicosis followed by hypothyroidism</rdfs:label>
+    <oboInOwl:id>ARIS:0000616</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000390"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0000820"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001105_3"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000390"/>
+</owl:Class>
+
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000025">
     <rdfs:label>Autonomic dysregulation and neurogenic bladder</rdfs:label>
     <oboInOwl:id>ARIS:0000025</oboInOwl:id>
     <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000480"/>
     <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0012332"/>
     <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001222_2264"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000480"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000617">
+    <rdfs:label>Autonomic symptoms (altered sweating, dry mouth/eyes, gastrointestinal dysmotility)</rdfs:label>
+    <oboInOwl:id>ARIS:0000617</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000480"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0012332"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001191_5"/>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000480"/>
 </owl:Class>
 
@@ -2055,6 +2424,51 @@
     <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0000708"/>
     <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001218_2247"/>
     <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000031"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000618">
+    <rdfs:label>Benign lymphadenopathy and splenomegaly</rdfs:label>
+    <oboInOwl:id>ARIS:0000618</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0019141"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0100763"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001075_2"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0019141"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000619">
+    <rdfs:label>Bibasilar inspiratory crackles</rdfs:label>
+    <oboInOwl:id>ARIS:0000619</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000118"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0031996"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001045_4"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000118"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000620">
+    <rdfs:label>Bibasilar inspiratory fine Velcro-like crackles</rdfs:label>
+    <oboInOwl:id>ARIS:0000620</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000118"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0030830"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001116_2"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000619"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000621">
+    <rdfs:label>Bilateral blurred vision / reduced visual acuity</rdfs:label>
+    <oboInOwl:id>ARIS:0000621</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000627"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0007663"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001056_4"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000054"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000622">
+    <rdfs:label>Bilateral or unilateral painless lacrimal gland enlargement / dacryoadenitis</rdfs:label>
+    <oboInOwl:id>ARIS:0000622</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0019163"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0000478"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001110_1"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0019163"/>
 </owl:Class>
 
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000033">
@@ -2371,8 +2785,10 @@
     <oboInOwl:id>ARIS:0000059</oboInOwl:id>
     <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000233"/>
     <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0033630"/>
+    <skos:altLabel>Cognitive dysfunction ('brain fog')</skos:altLabel>
     <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001065_554"/>
     <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001147_1391"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001164_6"/>
     <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000090"/>
 </owl:Class>
 
@@ -2384,6 +2800,24 @@
     <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001048_360"/>
     <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001076_686"/>
     <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000080"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000623">
+    <rdfs:label>Bronchiolitis obliterans leading to progressive, fatal respiratory failure</rdfs:label>
+    <oboInOwl:id>ARIS:0000623</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000643"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0011946"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001150_4"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000643"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000624">
+    <rdfs:label>Bulbar dysfunction (dysphagia, dysarthria, vocal cord palsy)</rdfs:label>
+    <oboInOwl:id>ARIS:0000624</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000480"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0001283"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001083_2"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000480"/>
 </owl:Class>
 
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000061">
@@ -2554,6 +2988,15 @@
     <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000042"/>
 </owl:Class>
 
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000625">
+    <rdfs:label>Cerebellar dysarthria / slurred scanning speech</rdfs:label>
+    <oboInOwl:id>ARIS:0000625</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000414"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0001260"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001024_2"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000135"/>
+</owl:Class>
+
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000076">
     <rdfs:label>Change in facial expression</rdfs:label>
     <oboInOwl:id>ARIS:0000076</oboInOwl:id>
@@ -2657,13 +3100,87 @@
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000567"/>
 </owl:Class>
 
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000626">
+    <rdfs:label>Chorea, dystonia, or abnormal ocular movements</rdfs:label>
+    <oboInOwl:id>ARIS:0000626</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000594"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0004305"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001083_4"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000254"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000627">
+    <rdfs:label>Chronic disabling fatigue and unrefreshing sleep</rdfs:label>
+    <oboInOwl:id>ARIS:0000627</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0019177"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0012432"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001036_2"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000190"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000628">
+    <rdfs:label>Chronic fatigue and severe post-exertional exhaustion</rdfs:label>
+    <oboInOwl:id>ARIS:0000628</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0019177"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0012432"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001164_5"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000190"/>
+</owl:Class>
+
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000085">
     <rdfs:label>Chronic lymphadenopathy and hepatosplenomegaly</rdfs:label>
     <oboInOwl:id>ARIS:0000085</oboInOwl:id>
     <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0017795"/>
     <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0002716"/>
+    <skos:altLabel>Massive hepatosplenomegaly and chronic lymphadenopathy</skos:altLabel>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001070_3"/>
     <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001229_2296"/>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0017795"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000629">
+    <rdfs:label>Chronic non-erosive inflammatory polyarthritis</rdfs:label>
+    <oboInOwl:id>ARIS:0000629</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0019169"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0001369"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001072_2"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0019169"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000630">
+    <rdfs:label>Chronic suppurative lymphadenitis</rdfs:label>
+    <oboInOwl:id>ARIS:0000630</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0019155"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0002840"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001007_2"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0019155"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000631">
+    <rdfs:label>Chronic, non-productive or mildly productive cough</rdfs:label>
+    <oboInOwl:id>ARIS:0000631</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000614"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0012735"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001045_3"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000102"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000632">
+    <rdfs:label>Chronic, persistent dry non-productive cough</rdfs:label>
+    <oboInOwl:id>ARIS:0000632</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000025"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0031246"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001116_3"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000150"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000633">
+    <rdfs:label>Chronic, recurrent diarrhea with or without visible blood/mucus</rdfs:label>
+    <oboInOwl:id>ARIS:0000633</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000570"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0002028"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001112_1"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000123"/>
 </owl:Class>
 
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000086">
@@ -2693,6 +3210,15 @@
     <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000245"/>
 </owl:Class>
 
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000634">
+    <rdfs:label>CNS hyperexcitability: hyperekplexia (exaggerated startle), myoclonus, tremor</rdfs:label>
+    <oboInOwl:id>ARIS:0000634</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000594"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0004305"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001122_2"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000254"/>
+</owl:Class>
+
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000089">
     <rdfs:label>Cognitive derealization, apathy, and altered perception</rdfs:label>
     <oboInOwl:id>ARIS:0000089</oboInOwl:id>
@@ -2714,6 +3240,15 @@
     <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001189_1883"/>
     <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001192_1933"/>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000410"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000635">
+    <rdfs:label>Cognitive impairment, memory loss, and brain fog</rdfs:label>
+    <oboInOwl:id>ARIS:0000635</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000410"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0100543"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001036_5"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000090"/>
 </owl:Class>
 
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000091">
@@ -2768,6 +3303,15 @@
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000482"/>
 </owl:Class>
 
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000636">
+    <rdfs:label>Complete (third-degree) congenital heart block with severe fetal/neonatal bradycardia</rdfs:label>
+    <oboInOwl:id>ARIS:0000636</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000231"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0012722"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001141_1"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000231"/>
+</owl:Class>
+
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000096">
     <rdfs:label>Compulsive behavior</rdfs:label>
     <oboInOwl:id>ARIS:0000096</oboInOwl:id>
@@ -2785,6 +3329,15 @@
     <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0002591"/>
     <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001228_2291"/>
     <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000247"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000637">
+    <rdfs:label>Compulsive polydipsia / cold water craving</rdfs:label>
+    <oboInOwl:id>ARIS:0000637</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000560"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0001959"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001025_2"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000389"/>
 </owl:Class>
 
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000098">
@@ -2870,6 +3423,15 @@
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000514"/>
 </owl:Class>
 
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000638">
+    <rdfs:label>Cramping abdominal pain and lower abdominal tenderness</rdfs:label>
+    <oboInOwl:id>ARIS:0000638</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000457"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0002027"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001112_2"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000005"/>
+</owl:Class>
+
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000104">
     <rdfs:label>Cramps</rdfs:label>
     <oboInOwl:id>ARIS:0000104</oboInOwl:id>
@@ -2881,6 +3443,15 @@
     <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001126_1131"/>
     <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001144_1358"/>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000567"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000639">
+    <rdfs:label>Creamy yellow-orange hypopigmented choroidal spots radiating from optic disc</rdfs:label>
+    <oboInOwl:id>ARIS:0000639</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0019163"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0000478"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001056_1"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0019163"/>
 </owl:Class>
 
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000105">
@@ -3058,6 +3629,15 @@
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000473"/>
 </owl:Class>
 
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000640">
+    <rdfs:label>Diabetes insipidus (polyuria, polydipsia)</rdfs:label>
+    <oboInOwl:id>ARIS:0000640</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000486"/>
+    <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0000873"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001035_4"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000486"/>
+</owl:Class>
+
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000122">
     <rdfs:label>Diabetic ketoacidosis (DKA)</rdfs:label>
     <oboInOwl:id>ARIS:0000122</oboInOwl:id>
@@ -3203,6 +3783,8 @@
     <oboInOwl:id>ARIS:0000134</oboInOwl:id>
     <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0020005"/>
     <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0000551"/>
+    <skos:altLabel>Impaired color vision / dyschromatopsia</skos:altLabel>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001042_2"/>
     <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001137_1284"/>
     <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000565"/>
 </owl:Class>
@@ -3286,6 +3868,33 @@
     <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000318"/>
 </owl:Class>
 
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000641">
+    <rdfs:label>Diffuse myalgias and muscle weakness</rdfs:label>
+    <oboInOwl:id>ARIS:0000641</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000183"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0003011"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001036_3"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000183"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000642">
+    <rdfs:label>Digital clubbing in advanced fibrotic variants</rdfs:label>
+    <oboInOwl:id>ARIS:0000642</oboInOwl:id>
+    <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000550"/>
+    <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0001217"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001116_5"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000891"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000643">
+    <rdfs:label>Diplopia due to extraocular muscle enlargement</rdfs:label>
+    <oboInOwl:id>ARIS:0000643</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000258"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0000651"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001110_4"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000147"/>
+</owl:Class>
+
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000141">
     <rdfs:label>Discomfort in legs that begins after lying down or sitting for a long time</rdfs:label>
     <oboInOwl:id>ARIS:0000141</oboInOwl:id>
@@ -3325,6 +3934,51 @@
     <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001053_435"/>
     <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001192_1932"/>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000016"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000644">
+    <rdfs:label>Disrupted sleep-wake cycles</rdfs:label>
+    <oboInOwl:id>ARIS:0000644</oboInOwl:id>
+    <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000584"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0002360"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001037_4"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000485"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000645">
+    <rdfs:label>Disruptive nocturia</rdfs:label>
+    <oboInOwl:id>ARIS:0000645</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000564"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0000017"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001025_3"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000335"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000646">
+    <rdfs:label>Disseminated non-tuberculous mycobacterial (NTM) infections</rdfs:label>
+    <oboInOwl:id>ARIS:0000646</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0019138"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0002715"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001007_1"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000424"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000647">
+    <rdfs:label>Distal burning neuropathic pain in feet and lower extremities</rdfs:label>
+    <oboInOwl:id>ARIS:0000647</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000832"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_6000040"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001191_2"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000333"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000648">
+    <rdfs:label>Distal lower limb numbness, paresthesias, and pain</rdfs:label>
+    <oboInOwl:id>ARIS:0000648</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000765"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0003474"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001015_1"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000293"/>
 </owl:Class>
 
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000145">
@@ -3503,6 +4157,15 @@
     <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000454"/>
 </owl:Class>
 
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000649">
+    <rdfs:label>Early-onset interstitial lung disease / pulmonary hemorrhage</rdfs:label>
+    <oboInOwl:id>ARIS:0000649</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000514"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0002086"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001072_1"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000514"/>
+</owl:Class>
+
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000159">
     <rdfs:label>Early-onset multi-organ autoimmunity starting in infancy/childhood</rdfs:label>
     <oboInOwl:id>ARIS:0000159</oboInOwl:id>
@@ -3512,6 +4175,15 @@
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0019138"/>
 </owl:Class>
 
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000650">
+    <rdfs:label>Early-onset refractory autoimmune enteropathy with chronic watery diarrhea</rdfs:label>
+    <oboInOwl:id>ARIS:0000650</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000570"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0002028"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001070_1"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000123"/>
+</owl:Class>
+
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000160">
     <rdfs:label>Early-onset type 1 diabetes mellitus</rdfs:label>
     <oboInOwl:id>ARIS:0000160</oboInOwl:id>
@@ -3519,6 +4191,15 @@
     <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0100651"/>
     <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001229_2297"/>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000473"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000651">
+    <rdfs:label>Early-onset type 1 diabetes mellitus in male infants</rdfs:label>
+    <oboInOwl:id>ARIS:0000651</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000473"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0100651"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001106_4"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000160"/>
 </owl:Class>
 
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000161">
@@ -3614,6 +4295,15 @@
     <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000468"/>
 </owl:Class>
 
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000652">
+    <rdfs:label>Eruptive cutaneous xanthomas on extensor surfaces and buttocks</rdfs:label>
+    <oboInOwl:id>ARIS:0000652</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000488"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0001013"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001165_2"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000488"/>
+</owl:Class>
+
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000170">
     <rdfs:label>Euphoria</rdfs:label>
     <oboInOwl:id>ARIS:0000170</oboInOwl:id>
@@ -3642,6 +4332,42 @@
     <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001097_922"/>
     <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001155_1461"/>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0019175"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000653">
+    <rdfs:label>Exertional presyncope or syncope</rdfs:label>
+    <oboInOwl:id>ARIS:0000653</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000407"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0001626"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001020_4"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000186"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000654">
+    <rdfs:label>Extensive eczematous or psoriasiform dermatitis</rdfs:label>
+    <oboInOwl:id>ARIS:0000654</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000488"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0011123"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001106_3"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000488"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000655">
+    <rdfs:label>Extensive subcutaneous calcinosis (calcinosis cutis)</rdfs:label>
+    <oboInOwl:id>ARIS:0000655</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000488"/>
+    <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0025520"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001059_3"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000488"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000656">
+    <rdfs:label>Extraintestinal manifestations (peripheral arthritis, uveitis, aphthae)</rdfs:label>
+    <oboInOwl:id>ARIS:0000656</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000462"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001112_5"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000462"/>
 </owl:Class>
 
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000173">
@@ -4107,6 +4833,15 @@
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000486"/>
 </owl:Class>
 
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000657">
+    <rdfs:label>Focal muscle atrophy in chronically denervated muscle groups</rdfs:label>
+    <oboInOwl:id>ARIS:0000657</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000183"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0003202"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001133_4"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000322"/>
+</owl:Class>
+
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000206">
     <rdfs:label>Food getting stuck in the esophagus after swallowing</rdfs:label>
     <oboInOwl:id>ARIS:0000206</oboInOwl:id>
@@ -4186,6 +4921,15 @@
     <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000435"/>
 </owl:Class>
 
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000658">
+    <rdfs:label>Generalized hypo- or areflexia</rdfs:label>
+    <oboInOwl:id>ARIS:0000658</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000249"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0001265"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001055_4"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000435"/>
+</owl:Class>
+
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000214">
     <rdfs:label>Genital blisters</rdfs:label>
     <oboInOwl:id>ARIS:0000214</oboInOwl:id>
@@ -4202,6 +4946,17 @@
     <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0410019"/>
     <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001031_239"/>
     <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000005"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000659">
+    <rdfs:label>Gottron's papules</rdfs:label>
+    <oboInOwl:id>ARIS:0000659</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000346"/>
+    <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0025508"/>
+    <skos:altLabel>Gottron's papules / sign</skos:altLabel>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001016_1"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001059_2"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000346"/>
 </owl:Class>
 
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000216">
@@ -4292,6 +5047,15 @@
     <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0000505"/>
     <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001009_107"/>
     <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000565"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000660">
+    <rdfs:label>Harsh crescendo-decrescendo systolic murmur radiating to carotids</rdfs:label>
+    <oboInOwl:id>ARIS:0000660</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000527"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0030148"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001020_1"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000227"/>
 </owl:Class>
 
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000224">
@@ -4402,6 +5166,15 @@
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000196"/>
 </owl:Class>
 
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000661">
+    <rdfs:label>Heavy nephrotic-range proteinuria (&gt;3.5 g/24h) with foamy urine</rdfs:label>
+    <oboInOwl:id>ARIS:0000661</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000367"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0012593"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001102_3"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000367"/>
+</owl:Class>
+
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000231">
     <rdfs:label>Heavy vaginal discharge that has a foul odor</rdfs:label>
     <oboInOwl:id>ARIS:0000231</oboInOwl:id>
@@ -4438,6 +5211,15 @@
     <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001031_233"/>
     <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001143_1341"/>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000514"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000662">
+    <rdfs:label>High incidence of deep venous thrombosis or renal vein thrombosis</rdfs:label>
+    <oboInOwl:id>ARIS:0000662</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000528"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0004936"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001102_5"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000528"/>
 </owl:Class>
 
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000235">
@@ -4524,6 +5306,24 @@
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000244"/>
 </owl:Class>
 
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000663">
+    <rdfs:label>Hyperlipidemia and lipiduria</rdfs:label>
+    <oboInOwl:id>ARIS:0000663</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000473"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0003077"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001102_4"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000473"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000664">
+    <rdfs:label>Hypernatremic dehydration when fluid access is restricted</rdfs:label>
+    <oboInOwl:id>ARIS:0000664</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000020"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0004906"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001025_4"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000114"/>
+</owl:Class>
+
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000243">
     <rdfs:label>Hyperpigmentation</rdfs:label>
     <oboInOwl:id>ARIS:0000243</oboInOwl:id>
@@ -4542,6 +5342,71 @@
     <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0008768"/>
     <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001228_2292"/>
     <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000031"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000665">
+    <rdfs:label>Hypocalcemic generalized seizures</rdfs:label>
+    <oboInOwl:id>ARIS:0000665</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000267"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0001250"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001034_5"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000454"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000666">
+    <rdfs:label>Hypogammaglobulinemia with recurrent severe sinopulmonary infections</rdfs:label>
+    <oboInOwl:id>ARIS:0000666</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0019138"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0002715"/>
+    <skos:altLabel>Hypogammaglobulinemia with recurrent sinopulmonary bacterial infections</skos:altLabel>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001070_2"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001075_1"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000424"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000667">
+    <rdfs:label>Hypoglycemia occurring primarily postprandially (2–4 hours after meal) or post-exercise</rdfs:label>
+    <oboInOwl:id>ARIS:0000667</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000473"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0001943"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001113_3"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000473"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000668">
+    <rdfs:label>Hypopituitarism</rdfs:label>
+    <oboInOwl:id>ARIS:0000668</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000473"/>
+    <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0040075"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001035_2"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000473"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000669">
+    <rdfs:label>Immune complex-mediated glomerulonephritis</rdfs:label>
+    <oboInOwl:id>ARIS:0000669</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000098"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0000099"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001072_4"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000098"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000670">
+    <rdfs:label>Immune-mediated colitis with severe watery diarrhea and abdominal cramps</rdfs:label>
+    <oboInOwl:id>ARIS:0000670</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000570"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0002583"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001105_2"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000123"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000671">
+    <rdfs:label>Immune-related maculopapular dermatitis and vitiligo-like depigmentation</rdfs:label>
+    <oboInOwl:id>ARIS:0000671</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000488"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0000951"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001105_1"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000488"/>
 </owl:Class>
 
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000245">
@@ -4612,9 +5477,11 @@
     <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0000789"/>
     <skos:altLabel>Inability to conceive after ≥1 year of unprotected intercourse with normal evaluations</skos:altLabel>
     <skos:altLabel>Unable to conceive</skos:altLabel>
+    <skos:altLabel>Unexplained primary or secondary infertility despite regular intercourse</skos:altLabel>
     <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001041_285"/>
     <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001061_481"/>
     <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001084_753"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001094_1"/>
     <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001127_2207"/>
     <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001127_996"/>
     <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001227_2284"/>
@@ -4628,6 +5495,24 @@
     <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0000230"/>
     <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001040_272"/>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000386"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000672">
+    <rdfs:label>Insidious, progressive exertional dyspnea</rdfs:label>
+    <oboInOwl:id>ARIS:0000672</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0019153"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0002875"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001045_2"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000471"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000673">
+    <rdfs:label>Intention and action tremor</rdfs:label>
+    <oboInOwl:id>ARIS:0000673</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000162"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0002345"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001024_4"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000553"/>
 </owl:Class>
 
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000253">
@@ -4650,6 +5535,15 @@
     <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001181_1774"/>
     <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001182_1786"/>
     <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000009"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000674">
+    <rdfs:label>Involuntary weight loss, malabsorption, and chronic fatigue</rdfs:label>
+    <oboInOwl:id>ARIS:0000674</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000178"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0001824"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001112_4"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000582"/>
 </owl:Class>
 
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000255">
@@ -4871,6 +5765,24 @@
     <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000269"/>
 </owl:Class>
 
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000675">
+    <rdfs:label>Laryngospasm and stridor</rdfs:label>
+    <oboInOwl:id>ARIS:0000675</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000513"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0010307"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001034_4"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000236"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000676">
+    <rdfs:label>Latent tetany: positive Chvostek's sign (60–75%) &amp; Trousseau's sign</rdfs:label>
+    <oboInOwl:id>ARIS:0000676</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000619"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0001281"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001034_3"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000619"/>
+</owl:Class>
+
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000271">
     <rdfs:label>Leaking bumps or sores that heal very slowly and recur over time</rdfs:label>
     <oboInOwl:id>ARIS:0000271</oboInOwl:id>
@@ -4931,6 +5843,15 @@
     <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000146"/>
 </owl:Class>
 
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000677">
+    <rdfs:label>Limbic encephalitis with cognitive decline</rdfs:label>
+    <oboInOwl:id>ARIS:0000677</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000090"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0000707"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001013_3"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000090"/>
+</owl:Class>
+
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000277">
     <rdfs:label>Limited range of motion in affected areas</rdfs:label>
     <oboInOwl:id>ARIS:0000277</oboInOwl:id>
@@ -4967,6 +5888,15 @@
     <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0000155"/>
     <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001124_1069"/>
     <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000317"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000678">
+    <rdfs:label>Lipemia retinalis on fundoscopic examination</rdfs:label>
+    <oboInOwl:id>ARIS:0000678</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0019163"/>
+    <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0000660"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001165_4"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0019163"/>
 </owl:Class>
 
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000281">
@@ -5161,6 +6091,16 @@
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000488"/>
 </owl:Class>
 
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000679">
+    <rdfs:label>Lymphocytic interstitial lung disease</rdfs:label>
+    <oboInOwl:id>ARIS:0000679</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000514"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0006515"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001070_5"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001075_5"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000253"/>
+</owl:Class>
+
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000301">
     <rdfs:label>Malaise</rdfs:label>
     <oboInOwl:id>ARIS:0000301</oboInOwl:id>
@@ -5175,6 +6115,15 @@
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000410"/>
 </owl:Class>
 
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000680">
+    <rdfs:label>Marked bilateral dependent peripheral pitting edema and anasarca</rdfs:label>
+    <oboInOwl:id>ARIS:0000680</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000433"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0000969"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001102_1"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000163"/>
+</owl:Class>
+
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000302">
     <rdfs:label>Marked high-amplitude postural and action tremor</rdfs:label>
     <oboInOwl:id>ARIS:0000302</oboInOwl:id>
@@ -5182,6 +6131,15 @@
     <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0001337"/>
     <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001224_2274"/>
     <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000553"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000681">
+    <rdfs:label>Marked postural and action tremor of the hands</rdfs:label>
+    <oboInOwl:id>ARIS:0000681</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000162"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0002378"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001015_3"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000222"/>
 </owl:Class>
 
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000303">
@@ -5244,6 +6202,8 @@
     <oboInOwl:id>ARIS:0000308</oboInOwl:id>
     <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000720"/>
     <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0001937"/>
+    <skos:altLabel>Microangiopathic hemolytic anemia with fragmented schistocytes</skos:altLabel>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001022_1"/>
     <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001226_2279"/>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000720"/>
 </owl:Class>
@@ -5266,6 +6226,15 @@
     <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0002829"/>
     <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001182_1792"/>
     <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000263"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000682">
+    <rdfs:label>Mild late distal motor weakness (foot drop)</rdfs:label>
+    <oboInOwl:id>ARIS:0000682</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000329"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0009027"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001015_4"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000573"/>
 </owl:Class>
 
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000311">
@@ -5355,6 +6324,15 @@
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000891"/>
 </owl:Class>
 
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000683">
+    <rdfs:label>Movement disorders (chorea, catatonia, opsoclonus)</rdfs:label>
+    <oboInOwl:id>ARIS:0000683</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000594"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0100022"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001082_3"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000254"/>
+</owl:Class>
+
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000319">
     <rdfs:label>Mucocutaneous, hematuric, and gastrointestinal bleeding</rdfs:label>
     <oboInOwl:id>ARIS:0000319</oboInOwl:id>
@@ -5362,6 +6340,15 @@
     <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0001892"/>
     <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001223_2268"/>
     <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000171"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000684">
+    <rdfs:label>Mucosal blister formation and erosions</rdfs:label>
+    <oboInOwl:id>ARIS:0000684</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000009"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0008066"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001058_4"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000047"/>
 </owl:Class>
 
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000320">
@@ -5381,6 +6368,17 @@
     <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001048_375"/>
     <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001157_1486"/>
     <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000104"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000685">
+    <rdfs:label>Muscle fasciculations, myokymia, and muscle cramps</rdfs:label>
+    <oboInOwl:id>ARIS:0000685</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000183"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0003011"/>
+    <skos:altLabel>Peripheral nerve hyperexcitability (myokymia, fasciculations, muscle cramps)</skos:altLabel>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001013_2"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001133_3"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000325"/>
 </owl:Class>
 
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000322">
@@ -5553,6 +6551,15 @@
     <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000350"/>
 </owl:Class>
 
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000686">
+    <rdfs:label>Neurogenic urinary retention</rdfs:label>
+    <oboInOwl:id>ARIS:0000686</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000557"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0000016"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001030_6"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000139"/>
+</owl:Class>
+
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000334">
     <rdfs:label>Night sweats</rdfs:label>
     <oboInOwl:id>ARIS:0000334</oboInOwl:id>
@@ -5672,6 +6679,24 @@
     <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000343"/>
 </owl:Class>
 
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000687">
+    <rdfs:label>Nyctalopia and diminished color discrimination</rdfs:label>
+    <oboInOwl:id>ARIS:0000687</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000320"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0000662"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001056_5"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000289"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000688">
+    <rdfs:label>Nystagmus, saccadic intrusions, and ocular dysmetria</rdfs:label>
+    <oboInOwl:id>ARIS:0000688</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0019163"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0000496"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001024_3"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0019163"/>
+</owl:Class>
+
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000345">
     <rdfs:label>Obsessions</rdfs:label>
     <oboInOwl:id>ARIS:0000345</oboInOwl:id>
@@ -5688,6 +6713,15 @@
     <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0008770"/>
     <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001153_1438"/>
     <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000307"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000689">
+    <rdfs:label>Opportunistic fungal infections (cryptococcosis, penicilliosis)</rdfs:label>
+    <oboInOwl:id>ARIS:0000689</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0019138"/>
+    <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0032255"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001007_4"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000424"/>
 </owl:Class>
 
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000347">
@@ -5997,6 +7031,15 @@
     <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000353"/>
 </owl:Class>
 
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000690">
+    <rdfs:label>Painful carpopedal spasms and cramps</rdfs:label>
+    <oboInOwl:id>ARIS:0000690</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000689"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0003394"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001034_2"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000104"/>
+</owl:Class>
+
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000369">
     <rdfs:label>Painful cramps during menstrual periods</rdfs:label>
     <oboInOwl:id>ARIS:0000369</oboInOwl:id>
@@ -6004,6 +7047,15 @@
     <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0100607"/>
     <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001084_749"/>
     <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000104"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000691">
+    <rdfs:label>Painful deep cutaneous ulcerations (digital, knuckles, elbows)</rdfs:label>
+    <oboInOwl:id>ARIS:0000691</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000136"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0200042"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001016_3"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000374"/>
 </owl:Class>
 
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000370">
@@ -6069,6 +7121,24 @@
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000556"/>
 </owl:Class>
 
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000692">
+    <rdfs:label>Painless progressive visual blurriness / decrease in visual acuity</rdfs:label>
+    <oboInOwl:id>ARIS:0000692</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000012"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0007663"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001046_2"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000054"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000693">
+    <rdfs:label>Painless proptosis and orbital pseudotumor mass</rdfs:label>
+    <oboInOwl:id>ARIS:0000693</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000896"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0000520"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001110_3"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000061"/>
+</owl:Class>
+
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000377">
     <rdfs:label>Pale skin</rdfs:label>
     <oboInOwl:id>ARIS:0000377</oboInOwl:id>
@@ -6078,6 +7148,33 @@
     <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001048_367"/>
     <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001069_617"/>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000488"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000694">
+    <rdfs:label>Palmar hyperkeratotic papules / inverse Gottron's</rdfs:label>
+    <oboInOwl:id>ARIS:0000694</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000346"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0045059"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001202_6"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000346"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000695">
+    <rdfs:label>Palmar violaceous papules / inverse Gottron's</rdfs:label>
+    <oboInOwl:id>ARIS:0000695</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000346"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0200034"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001016_5"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000346"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000696">
+    <rdfs:label>Palpitations and tremulousness upon standing</rdfs:label>
+    <oboInOwl:id>ARIS:0000696</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000530"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0001962"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001164_4"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000228"/>
 </owl:Class>
 
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000378">
@@ -6150,6 +7247,15 @@
     <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000042"/>
 </owl:Class>
 
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000697">
+    <rdfs:label>Pathognomonic faciobrachial dystonic seizures (FBDS)</rdfs:label>
+    <oboInOwl:id>ARIS:0000697</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000124"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0001250"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001123_2"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000454"/>
+</owl:Class>
+
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000385">
     <rdfs:label>Peeling skin</rdfs:label>
     <oboInOwl:id>ARIS:0000385</oboInOwl:id>
@@ -6177,6 +7283,33 @@
     <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000350"/>
 </owl:Class>
 
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000698">
+    <rdfs:label>Perioral, lingual, and digital paresthesias / tingling</rdfs:label>
+    <oboInOwl:id>ARIS:0000698</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000435"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0003401"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001034_1"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000543"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000699">
+    <rdfs:label>Peripheral and periorbital subcutaneous edema</rdfs:label>
+    <oboInOwl:id>ARIS:0000699</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000538"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0000969"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001059_5"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000163"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000700">
+    <rdfs:label>Persistent dull retro-orbital/frontal headache</rdfs:label>
+    <oboInOwl:id>ARIS:0000700</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000504"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0002315"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001035_1"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000224"/>
+</owl:Class>
+
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000388">
     <rdfs:label>Personality changes</rdfs:label>
     <oboInOwl:id>ARIS:0000388</oboInOwl:id>
@@ -6186,6 +7319,15 @@
     <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001180_1753"/>
     <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001192_1958"/>
     <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000031"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000701">
+    <rdfs:label>Photosensitive annular or polycyclic erythematous facial rash ('raccoon/owl eyes')</rdfs:label>
+    <oboInOwl:id>ARIS:0000701</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000487"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0000988"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001141_2"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000417"/>
 </owl:Class>
 
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000389">
@@ -6200,6 +7342,15 @@
     <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_LADA_Thirst"/>
     <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_Polydipsia"/>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000473"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000702">
+    <rdfs:label>Polymorphic cutaneous eruptions: lichenoid, bullous, or targetoid lesions</rdfs:label>
+    <oboInOwl:id>ARIS:0000702</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000092"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0000951"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001150_2"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000275"/>
 </owl:Class>
 
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000390">
@@ -6249,6 +7400,15 @@
     <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000588"/>
 </owl:Class>
 
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000703">
+    <rdfs:label>Presyncope, lightheadedness, and orthostatic dizziness</rdfs:label>
+    <oboInOwl:id>ARIS:0000703</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0019179"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0031972"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001164_3"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000276"/>
+</owl:Class>
+
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000395">
     <rdfs:label>Problems with metabolism</rdfs:label>
     <oboInOwl:id>ARIS:0000395</oboInOwl:id>
@@ -6256,6 +7416,15 @@
     <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0001939"/>
     <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001155_1464"/>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000473"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000704">
+    <rdfs:label>Prodromal severe diarrhea and weight loss</rdfs:label>
+    <oboInOwl:id>ARIS:0000704</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000570"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0002014"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001122_1"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000123"/>
 </owl:Class>
 
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000396">
@@ -6267,6 +7436,15 @@
     <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000297"/>
 </owl:Class>
 
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000705">
+    <rdfs:label>Progressive cognitive impairment and amnesia</rdfs:label>
+    <oboInOwl:id>ARIS:0000705</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000410"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0100543"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001122_3"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000090"/>
+</owl:Class>
+
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000397">
     <rdfs:label>Progressive dysphagia to both liquids and solids</rdfs:label>
     <oboInOwl:id>ARIS:0000397</oboInOwl:id>
@@ -6274,6 +7452,35 @@
     <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0002015"/>
     <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001221_2256"/>
     <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000136"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000706">
+    <rdfs:label>Progressive exertional dyspnea</rdfs:label>
+    <oboInOwl:id>ARIS:0000706</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0019153"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0002875"/>
+    <skos:altLabel>Progressive exertional dyspnea and exercise limitation</skos:altLabel>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001020_2"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001116_1"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000471"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000707">
+    <rdfs:label>Progressive gait instability and appendicular limb ataxia</rdfs:label>
+    <oboInOwl:id>ARIS:0000707</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000005"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0001251"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001024_1"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000556"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000708">
+    <rdfs:label>Progressive gait instability and ataxia</rdfs:label>
+    <oboInOwl:id>ARIS:0000708</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000005"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0001251"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001083_3"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000556"/>
 </owl:Class>
 
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000398">
@@ -6340,6 +7547,15 @@
     <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000171"/>
 </owl:Class>
 
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000709">
+    <rdfs:label>Prominent 'V-sign', 'shawl sign', and extensive poikiloderma</rdfs:label>
+    <oboInOwl:id>ARIS:0000709</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000488"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0001029"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001202_3"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000488"/>
+</owl:Class>
+
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000405">
     <rdfs:label>Prominent action tremor of hands and arms</rdfs:label>
     <oboInOwl:id>ARIS:0000405</oboInOwl:id>
@@ -6349,6 +7565,24 @@
     <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000553"/>
 </owl:Class>
 
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000710">
+    <rdfs:label>Prominent sleep architecture disruption (NREM parasomnia, sleep apnea, stridor)</rdfs:label>
+    <oboInOwl:id>ARIS:0000710</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000566"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0002360"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001083_1"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000485"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000711">
+    <rdfs:label>Pronounced muscle atrophy and myalgias</rdfs:label>
+    <oboInOwl:id>ARIS:0000711</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000183"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0003011"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001039_5"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000322"/>
+</owl:Class>
+
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000406">
     <rdfs:label>Protein-losing enteropathy with severe hypoalbuminemia and anasarca</rdfs:label>
     <oboInOwl:id>ARIS:0000406</oboInOwl:id>
@@ -6356,6 +7590,15 @@
     <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0002243"/>
     <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001220_2255"/>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000433"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000712">
+    <rdfs:label>Psychiatric disturbances (confusion, paranoia, hallucinations)</rdfs:label>
+    <oboInOwl:id>ARIS:0000712</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0019182"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0000708"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001123_4"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000307"/>
 </owl:Class>
 
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000407">
@@ -6406,6 +7649,15 @@
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000346"/>
 </owl:Class>
 
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000713">
+    <rdfs:label>Pyramidal tract signs / extensor plantar responses (Babinski sign)</rdfs:label>
+    <oboInOwl:id>ARIS:0000713</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000249"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0003487"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001055_5"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000249"/>
+</owl:Class>
+
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000412">
     <rdfs:label>Rage attacks</rdfs:label>
     <oboInOwl:id>ARIS:0000412</oboInOwl:id>
@@ -6433,6 +7685,15 @@
     <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000497"/>
 </owl:Class>
 
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000714">
+    <rdfs:label>Rapid cognitive and behavioral decline</rdfs:label>
+    <oboInOwl:id>ARIS:0000714</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000410"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0100543"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001082_2"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000306"/>
+</owl:Class>
+
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000415">
     <rdfs:label>Rapid heartbeat</rdfs:label>
     <oboInOwl:id>ARIS:0000415</oboInOwl:id>
@@ -6451,6 +7712,33 @@
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000287"/>
 </owl:Class>
 
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000715">
+    <rdfs:label>Rapidly progressive interstitial lung disease with hypoxemic respiratory failure</rdfs:label>
+    <oboInOwl:id>ARIS:0000715</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000643"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0002878"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001016_2"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000643"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000716">
+    <rdfs:label>Rapidly progressive short-term memory impairment</rdfs:label>
+    <oboInOwl:id>ARIS:0000716</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000719"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0033687"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001123_1"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000304"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000717">
+    <rdfs:label>Rapidly progressive, extensive, velvety acanthosis nigricans in skin folds</rdfs:label>
+    <oboInOwl:id>ARIS:0000717</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000488"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0000956"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001114_2"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000488"/>
+</owl:Class>
+
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000416">
     <rdfs:label>Rapidly progressive, symmetric sensorimotor polyradiculoneuropathy</rdfs:label>
     <oboInOwl:id>ARIS:0000416</oboInOwl:id>
@@ -6458,6 +7746,15 @@
     <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0001271"/>
     <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001224_2270"/>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000336"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000718">
+    <rdfs:label>Rapidly progressive, symmetric, severe proximal limb weakness</rdfs:label>
+    <oboInOwl:id>ARIS:0000718</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000222"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0003701"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001039_2"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000571"/>
 </owl:Class>
 
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000417">
@@ -6522,6 +7819,15 @@
     <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000417"/>
 </owl:Class>
 
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000719">
+    <rdfs:label>Reactive pustular/neutrophilic dermatoses (Sweet-like)</rdfs:label>
+    <oboInOwl:id>ARIS:0000719</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000488"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0000951"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001007_3"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000488"/>
+</owl:Class>
+
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000421">
     <rdfs:label>Rectal bleeding</rdfs:label>
     <oboInOwl:id>ARIS:0000421</oboInOwl:id>
@@ -6540,6 +7846,24 @@
     <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000350"/>
 </owl:Class>
 
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000720">
+    <rdfs:label>Rectal urgency, tenesmus, and fecal incontinence</rdfs:label>
+    <oboInOwl:id>ARIS:0000720</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000459"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0025031"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001112_3"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000058"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000721">
+    <rdfs:label>Recurrent episodes of acute pancreatitis</rdfs:label>
+    <oboInOwl:id>ARIS:0000721</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000459"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0001735"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001165_3"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000459"/>
+</owl:Class>
+
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000423">
     <rdfs:label>Recurrent episodes of severe hypersomnia (sleeping 16–20 hours daily for days/weeks)</rdfs:label>
     <oboInOwl:id>ARIS:0000423</oboInOwl:id>
@@ -6547,6 +7871,15 @@
     <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0007200"/>
     <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001228_2288"/>
     <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000485"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000722">
+    <rdfs:label>Recurrent hemoptysis and chronic cough</rdfs:label>
+    <oboInOwl:id>ARIS:0000722</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000517"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0002105"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001072_3"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000103"/>
 </owl:Class>
 
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000424">
@@ -6574,6 +7907,15 @@
     <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0002326"/>
     <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001134_1235"/>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000480"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000723">
+    <rdfs:label>Recurrent, severe spontaneous neuroglycopenic hypoglycemia (confusion, coma, seizures)</rdfs:label>
+    <oboInOwl:id>ARIS:0000723</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000473"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0001943"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001113_1"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000473"/>
 </owl:Class>
 
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000426">
@@ -6678,6 +8020,33 @@
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000249"/>
 </owl:Class>
 
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000724">
+    <rdfs:label>Refractory extreme hypertriglyceridemia (&gt;1,000–2,000 mg/dL) with lactescent/milky serum</rdfs:label>
+    <oboInOwl:id>ARIS:0000724</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000473"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0002155"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001165_1"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000473"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000725">
+    <rdfs:label>Refractory hyponatremia (SIADH-like)</rdfs:label>
+    <oboInOwl:id>ARIS:0000725</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0019146"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0002902"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001123_3"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0019146"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000726">
+    <rdfs:label>Refractory status epilepticus / frequent multifocal seizures</rdfs:label>
+    <oboInOwl:id>ARIS:0000726</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000124"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0002133"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001082_1"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000454"/>
+</owl:Class>
+
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000436">
     <rdfs:label>Regurgitation of undigested, retained food</rdfs:label>
     <oboInOwl:id>ARIS:0000436</oboInOwl:id>
@@ -6685,6 +8054,15 @@
     <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0025031"/>
     <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001221_2257"/>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000459"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000727">
+    <rdfs:label>Relative afferent pupillary defect (RAPD) and central scotoma</rdfs:label>
+    <oboInOwl:id>ARIS:0000727</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000320"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0000504"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001042_4"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000565"/>
 </owl:Class>
 
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000437">
@@ -6703,6 +8081,24 @@
     <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0000733"/>
     <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001087_802"/>
     <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000009"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000728">
+    <rdfs:label>Retinal arteriolar attenuation and vasculitis</rdfs:label>
+    <oboInOwl:id>ARIS:0000728</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000153"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0025188"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001056_3"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000153"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000729">
+    <rdfs:label>Retrobulbar pain exacerbated by eye movement</rdfs:label>
+    <oboInOwl:id>ARIS:0000729</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000764"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0200026"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001042_3"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000177"/>
 </owl:Class>
 
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000439">
@@ -6920,6 +8316,15 @@
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000892"/>
 </owl:Class>
 
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000730">
+    <rdfs:label>Severe agrypnia / intractable insomnia (Morvan syndrome)</rdfs:label>
+    <oboInOwl:id>ARIS:0000730</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000571"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0100785"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001013_4"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000485"/>
+</owl:Class>
+
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000459">
     <rdfs:label>Severe aortic valve regurgitation</rdfs:label>
     <oboInOwl:id>ARIS:0000459</oboInOwl:id>
@@ -6929,6 +8334,24 @@
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000528"/>
 </owl:Class>
 
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000731">
+    <rdfs:label>Severe autoimmune enteropathy / lymphocytic colitis with chronic diarrhea</rdfs:label>
+    <oboInOwl:id>ARIS:0000731</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000570"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0002028"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001075_3"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000123"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000732">
+    <rdfs:label>Severe central cerebellar and sensory ataxia</rdfs:label>
+    <oboInOwl:id>ARIS:0000732</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000005"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0001251"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001055_2"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000555"/>
+</owl:Class>
+
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000460">
     <rdfs:label>Severe chronic autoimmune enteropathy with intractable diarrhea</rdfs:label>
     <oboInOwl:id>ARIS:0000460</oboInOwl:id>
@@ -6936,6 +8359,62 @@
     <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0002041"/>
     <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001229_2298"/>
     <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000123"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000733">
+    <rdfs:label>Severe consumptive thrombocytopenia</rdfs:label>
+    <oboInOwl:id>ARIS:0000733</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000114"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0001873"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001022_2"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000297"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000734">
+    <rdfs:label>Severe dysphagia</rdfs:label>
+    <oboInOwl:id>ARIS:0000734</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000493"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0002015"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001202_5"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000136"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000735">
+    <rdfs:label>Severe dysphagia and neck flexor weakness</rdfs:label>
+    <oboInOwl:id>ARIS:0000735</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000493"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0002015"/>
+    <skos:altLabel>Severe neck flexor weakness and prominent dysphagia</skos:altLabel>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001039_4"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001059_4"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000136"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000736">
+    <rdfs:label>Severe failure to thrive and cachexia</rdfs:label>
+    <oboInOwl:id>ARIS:0000736</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000465"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0001525"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001106_2"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000185"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000737">
+    <rdfs:label>Severe gastrointestinal dysmotility (gastroparesis, pseudo-obstruction, constipation)</rdfs:label>
+    <oboInOwl:id>ARIS:0000737</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000255"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0002579"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001030_2"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000255"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000738">
+    <rdfs:label>Severe hypoalbuminemia (&lt;3.0 g/dL)</rdfs:label>
+    <oboInOwl:id>ARIS:0000738</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000473"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0003073"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001102_2"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000473"/>
 </owl:Class>
 
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000461">
@@ -6957,6 +8436,24 @@
     <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000582"/>
 </owl:Class>
 
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000739">
+    <rdfs:label>Severe neuropathic pain</rdfs:label>
+    <oboInOwl:id>ARIS:0000739</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000832"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_6000040"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001013_1"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000333"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000740">
+    <rdfs:label>Severe polyuria (&gt;3–5 L/24h) with dilute urine</rdfs:label>
+    <oboInOwl:id>ARIS:0000740</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000565"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0000103"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001025_1"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000390"/>
+</owl:Class>
+
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000463">
     <rdfs:label>Severe proprioceptive sensory ataxia and positive Romberg sign</rdfs:label>
     <oboInOwl:id>ARIS:0000463</oboInOwl:id>
@@ -6964,6 +8461,26 @@
     <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0010871"/>
     <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001225_2277"/>
     <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000555"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000741">
+    <rdfs:label>Severe proximal symmetrical muscle weakness</rdfs:label>
+    <oboInOwl:id>ARIS:0000741</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000094"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0003701"/>
+    <skos:altLabel>Symmetrical proximal muscle weakness</skos:altLabel>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001059_1"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001202_2"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000571"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000742">
+    <rdfs:label>Severe pseudomembranous conjunctivitis and genital erosions</rdfs:label>
+    <oboInOwl:id>ARIS:0000742</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000128"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0000509"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001150_3"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000128"/>
 </owl:Class>
 
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000464">
@@ -6993,6 +8510,24 @@
     <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000304"/>
 </owl:Class>
 
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000743">
+    <rdfs:label>Severe, disabling orthostatic hypotension and syncope</rdfs:label>
+    <oboInOwl:id>ARIS:0000743</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000059"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0001278"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001030_1"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000059"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000744">
+    <rdfs:label>Severe, extensive, photosensitive cutaneous lesions</rdfs:label>
+    <oboInOwl:id>ARIS:0000744</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000092"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0000992"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001202_1"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000478"/>
+</owl:Class>
+
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000467">
     <rdfs:label>Severe, intractable, chronic secretory diarrhea persisting during fasting</rdfs:label>
     <oboInOwl:id>ARIS:0000467</oboInOwl:id>
@@ -7000,6 +8535,33 @@
     <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0005208"/>
     <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001220_2252"/>
     <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000123"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000745">
+    <rdfs:label>Severe, intractable, watery secretory diarrhea beginning in early infancy</rdfs:label>
+    <oboInOwl:id>ARIS:0000745</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000570"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0005208"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001106_1"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000123"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000746">
+    <rdfs:label>Severe, painful, refractory polymorphous stomatitis and extensive oral mucosal erosions</rdfs:label>
+    <oboInOwl:id>ARIS:0000746</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000330"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0010280"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001150_1"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000317"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000747">
+    <rdfs:label>Severe, refractory hyperglycemia despite extreme doses of exogenous insulin (&gt;1,000 U/day)</rdfs:label>
+    <oboInOwl:id>ARIS:0000747</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000473"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0003074"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001114_1"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000473"/>
 </owl:Class>
 
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000468">
@@ -7097,6 +8659,15 @@
     <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000263"/>
 </owl:Class>
 
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000748">
+    <rdfs:label>Sicca syndrome (severe dry mouth and dry eyes)</rdfs:label>
+    <oboInOwl:id>ARIS:0000748</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000260"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001030_3"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000152"/>
+</owl:Class>
+
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000473">
     <rdfs:label>Significant weight loss</rdfs:label>
     <oboInOwl:id>ARIS:0000473</oboInOwl:id>
@@ -7104,6 +8675,15 @@
     <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0001824"/>
     <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001221_2259"/>
     <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000582"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000749">
+    <rdfs:label>Signs of hyperandrogenism (severe hirsutism, virilization, amenorrhea) in women</rdfs:label>
+    <oboInOwl:id>ARIS:0000749</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000196"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001114_5"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000196"/>
 </owl:Class>
 
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000474">
@@ -7251,6 +8831,15 @@
     <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001153_1440"/>
     <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001192_1947"/>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000567"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000750">
+    <rdfs:label>Slowly progressive, symmetric distal sensory ataxia</rdfs:label>
+    <oboInOwl:id>ARIS:0000750</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000005"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0010871"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001015_2"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000555"/>
 </owl:Class>
 
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000486">
@@ -7440,6 +9029,15 @@
     <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000417"/>
 </owl:Class>
 
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000751">
+    <rdfs:label>Subacute anterograde memory loss and spatial disorientation</rdfs:label>
+    <oboInOwl:id>ARIS:0000751</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000543"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0002354"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001037_1"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000304"/>
+</owl:Class>
+
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000504">
     <rdfs:label>Subacute to acute severe symmetrical distal and proximal limb weakness</rdfs:label>
     <oboInOwl:id>ARIS:0000504</oboInOwl:id>
@@ -7447,6 +9045,15 @@
     <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0003690"/>
     <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001225_2276"/>
     <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000571"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000752">
+    <rdfs:label>Sudden gross dark reddish-brown / cola-colored urine after cold exposure</rdfs:label>
+    <oboInOwl:id>ARIS:0000752</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0020043"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0040319"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001151_2"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000109"/>
 </owl:Class>
 
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000505">
@@ -7743,6 +9350,33 @@
     <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000507"/>
 </owl:Class>
 
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000753">
+    <rdfs:label>Sympathetic adrenergic symptoms (sweating, palpitations, tremors)</rdfs:label>
+    <oboInOwl:id>ARIS:0000753</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000480"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0012332"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001113_2"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000480"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000754">
+    <rdfs:label>Systemic fatigue, asthenia, and chest tightness</rdfs:label>
+    <oboInOwl:id>ARIS:0000754</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0019177"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0012378"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001116_4"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000190"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000755">
+    <rdfs:label>Temporal lobe complex partial seizures</rdfs:label>
+    <oboInOwl:id>ARIS:0000755</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000271"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0002384"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001037_2"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000453"/>
+</owl:Class>
+
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000530">
     <rdfs:label>Tenderness</rdfs:label>
     <oboInOwl:id>ARIS:0000530</oboInOwl:id>
@@ -7966,6 +9600,15 @@
     <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000350"/>
 </owl:Class>
 
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000756">
+    <rdfs:label>Tonic, unreactive, or poorly reactive pupils</rdfs:label>
+    <oboInOwl:id>ARIS:0000756</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000417"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0007686"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001030_4"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000156"/>
+</owl:Class>
+
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000552">
     <rdfs:label>Total paralysis of the legs</rdfs:label>
     <oboInOwl:id>ARIS:0000552</oboInOwl:id>
@@ -7973,6 +9616,24 @@
     <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0010550"/>
     <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001204_2094"/>
     <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000379"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000757">
+    <rdfs:label>Transient neonatal cholestasis and elevated hepatic transaminases</rdfs:label>
+    <oboInOwl:id>ARIS:0000757</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000180"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0001396"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001141_3"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000180"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000758">
+    <rdfs:label>Transient neonatal thrombocytopenia or neutropenia</rdfs:label>
+    <oboInOwl:id>ARIS:0000758</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000691"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0001871"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001141_4"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000295"/>
 </owl:Class>
 
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000553">
@@ -7985,6 +9646,15 @@
     <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001135_1251"/>
     <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001149_1418"/>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000567"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000759">
+    <rdfs:label>Unexplained marked involuntary weight loss</rdfs:label>
+    <oboInOwl:id>ARIS:0000759</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000178"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0001824"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001114_3"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000554"/>
 </owl:Class>
 
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000554">
@@ -8022,6 +9692,15 @@
     <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001181_1772"/>
     <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001193_1968"/>
     <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000555"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000760">
+    <rdfs:label>Upper eyelid fullness, edema, and ptosis</rdfs:label>
+    <oboInOwl:id>ARIS:0000760</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000344"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0100539"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001110_2"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000506"/>
 </owl:Class>
 
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000557">
@@ -8155,6 +9834,24 @@
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0019163"/>
 </owl:Class>
 
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000761">
+    <rdfs:label>Visual field deficits / bitemporal hemianopia due to chiasmal compression</rdfs:label>
+    <oboInOwl:id>ARIS:0000761</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000320"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0012377"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001035_3"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000565"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000762">
+    <rdfs:label>Visual field scotomas</rdfs:label>
+    <oboInOwl:id>ARIS:0000762</oboInOwl:id>
+    <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0020009"/>
+    <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0000575"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001046_4"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000565"/>
+</owl:Class>
+
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000566">
     <rdfs:label>Visual impairment / bilateral optic disc edema (papillitis)</rdfs:label>
     <oboInOwl:id>ARIS:0000566</oboInOwl:id>
@@ -8162,6 +9859,17 @@
     <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0000505"/>
     <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001222_2265"/>
     <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000565"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000763">
+    <rdfs:label>Vitreous floaters and haze</rdfs:label>
+    <oboInOwl:id>ARIS:0000763</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000627"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0100832"/>
+    <skos:altLabel>Vitreous floaters and hazy vision</skos:altLabel>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001046_3"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001056_2"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000202"/>
 </owl:Class>
 
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000567">
@@ -8440,6 +10148,15 @@
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0020012"/>
 </owl:Class>
 
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000764">
+    <rdfs:label>Weight loss, low-grade fevers, and cyanosis in advanced disease</rdfs:label>
+    <oboInOwl:id>ARIS:0000764</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000567"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0025142"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001045_5"/>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000567"/>
+</owl:Class>
+
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000583">
     <rdfs:label>Wheezing</rdfs:label>
     <oboInOwl:id>ARIS:0000583</oboInOwl:id>
@@ -8511,6 +10228,15 @@
     <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0000989"/>
     <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001001_8"/>
     <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000259"/>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000765">
+    <rdfs:label>Widespread, tense subepidermal vesicles and bullae on sun-exposed and trunk areas</rdfs:label>
+    <oboInOwl:id>ARIS:0000765</oboInOwl:id>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000009"/>
+    <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0008066"/>
+    <ariSymptomIndividual rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001058_2"/>
+    <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000042"/>
 </owl:Class>
 
 <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000591">

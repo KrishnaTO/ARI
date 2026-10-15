@@ -92,13 +92,13 @@ Multiple sheets:
 ### Symptom mapping (ARI#132)
 
 The Symptoms and Symptom Mapping sheets carry the hand-curated mapping in
-`notebook/symptom-mapping/symptom_mapping.tsv`. It covers 703 symptom strings: 191 match a SYMP term
-exactly and 405 map to the nearest broader SYMP term. 51 are merged into a string with the same
-meaning ("Skin blisters" into "Blisters on skin"), and 56 are not symptoms: headings, notes on
+`notebook/symptom-mapping/symptom_mapping.tsv`. It covers 903 symptom strings: 196 match a SYMP term
+exactly and 569 map to the nearest broader SYMP term. 63 are merged into a string with the same
+meaning ("Skin blisters" into "Blisters on skin"), and 75 are not symptoms: headings, notes on
 course or onset, test results and cross-references. Similar-sounding symptoms are grouped under a
-root symptom: 339 sit under one of 111 parents, for example 22 blister descriptions under
+root symptom: 452 sit under one of 148 parents, for example 23 blister descriptions under
 **Blisters**. A symptom with no ARI parent takes its SYMP term, or that term's own parent, as
-its parent. Each mapped symptom also has an HPO term: 300 exact, 293 broader, and 3 with no HPO
+its parent. Each mapped symptom also has an HPO term: 310 exact, 452 broader, and 3 with no HPO
 term (Dizziness, Stiffness, Swelling).
 
 | Column | Description |
