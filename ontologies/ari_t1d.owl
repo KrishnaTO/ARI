@@ -10224,14 +10224,8 @@ Chronic non-bacterial osteomyelitis (CNO) is a rare auto-inflammatory bone disor
   <hasEnvironmentalTrigger rdf:resource="#Env_0001067_1"/>
   <hasEnvironmentalTrigger rdf:resource="#Env_0001067_2"/>
   <hasEnvironmentalTrigger rdf:resource="#Env_0001067_3"/>
-  <hasSymptom rdf:resource="#Sym_0001067_584"/>
-  <hasSymptom rdf:resource="#Sym_0001067_585"/>
-  <hasSymptom rdf:resource="#Sym_0001067_586"/>
-  <hasSymptom rdf:resource="#Sym_0001067_587"/>
   <hasSymptom rdf:resource="#Sym_0001067_588"/>
-  <hasSymptom rdf:resource="#Sym_0001067_589"/>
   <hasSymptom rdf:resource="#Sym_0001067_590"/>
-  <hasSymptom rdf:resource="#Sym_0001067_591"/>
   <targetsTissue rdf:resource="#Tissue_Systemic"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">In as many as 50% of cases of COVID-19 infection, the syndrome known as “Long COVID”  continues to affect a person for months, even years.  Data on this syndrome is mostly anecdotal and unscientific, but some formal research has been completed (citations below).
 
@@ -10345,6 +10339,7 @@ More study is needed.</rdfs:comment>
   <demographicBias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female:male ratio 0.0. Regions with very high prevalence: Worldwide (millions affected across all regions following pandemic)</demographicBias>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-15T12:40:37+00:00 | Leon Islas | Imported from ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 81: 4 associated diseases (2 linked to ARI diseases), demographic bias, 5 pathway steps.</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-15T15:19:39+00:00 | KrishnaTO | Symptom review (ARI#132): removed 1 non-symptom entry from hasSymptom and retired it (ARI_Obsolete true): 'Symptoms can be similar to pancreatic cancer'.</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-15T15:44:28+00:00 | KrishnaTO | Symptom review (ARI#132): removed 6 symptoms copied from Autoimmune pancreatitis (ARI:0001043) from hasSymptom and retired them (ARI_Obsolete true): 'Vomiting'; 'Weight loss'; 'Loose fatty stools that do not flush easily'; 'Nausea'; 'Diarrhea'; 'Increased thirst'. Kept 'Fatigue' and 'Shortness of breath', which ARI Master List 2026-10-08 lists for this disease.</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001067_583">
@@ -10356,25 +10351,25 @@ More study is needed.</rdfs:comment>
 <owl:NamedIndividual rdf:about="#Sym_0001067_584">
   <rdf:type rdf:resource="#Symptom"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vomiting</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">true</ARI_Obsolete>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001067_585">
   <rdf:type rdf:resource="#Symptom"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Weight loss</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">true</ARI_Obsolete>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001067_586">
   <rdf:type rdf:resource="#Symptom"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Loose fatty stools that do not flush easily</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">true</ARI_Obsolete>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001067_587">
   <rdf:type rdf:resource="#Symptom"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nausea</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">true</ARI_Obsolete>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001067_588">
@@ -10386,7 +10381,7 @@ More study is needed.</rdfs:comment>
 <owl:NamedIndividual rdf:about="#Sym_0001067_589">
   <rdf:type rdf:resource="#Symptom"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diarrhea</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">true</ARI_Obsolete>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001067_590">
@@ -10398,7 +10393,7 @@ More study is needed.</rdfs:comment>
 <owl:NamedIndividual rdf:about="#Sym_0001067_591">
   <rdf:type rdf:resource="#Symptom"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Increased thirst</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">true</ARI_Obsolete>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001068">
