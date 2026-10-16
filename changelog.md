@@ -1,5 +1,26 @@
 # Changelog
 
+## claude/research-gaps-epidemiology
+
+Points report 12's Prevalence check at the epidemiology figures and regenerates the report.
+
+**Why.** `claude/migrate-epidemiology-229` moved every rate into `EpidemiologyProfile` figures
+and removed the flat fields, but `build_research_gaps.py` still looked for them. A rebuild would
+have shown the 211 diseases with rates as text-only Partial, which is why the clinical-biomarkers
+change held off regenerating the report.
+
+- **Prevalence check.** A disease is Published when at least one figure linked by
+  `hasEpidemiologyProfile` has an `epiRatePer100k`; the note lists the figures' labels
+  (e.g. "Prevalence · US · All"). Text only in `ARI_PrevalenceDesc` is still Partial.
+- **Report 12 regenerated.** Prevalence: 211 Published, 9 Partial, 7 Research. Clinical
+  Biomarkers: 11 Published (the 10 diseases from the clinical-biomarkers change, plus T1D).
+- **`import_prevalence.py` is superseded**, not rewritten. Its 2026-10-08 import already landed
+  and was migrated into figures; re-running it would write properties the ontology no longer
+  declares. It is kept as the record of that import and exits immediately. New figures are
+  added in the editor.
+- **`data/4-reports/README.md`** describes that import in the past tense and points at the
+  figure shape instead of the flat field names.
+
 ## claude/clinical-biomarkers-model-1e02a3
 
 Adds **clinical biomarkers** to the data model: the tests a physician can order to diagnose each

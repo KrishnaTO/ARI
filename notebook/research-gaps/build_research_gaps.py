@@ -231,10 +231,11 @@ def case_reports(el, ari):
 
 
 def prevalence(el, ari):
-    rates = [p for p in ("prevalencePer100k", "prevalenceWorldPer100k", "incidenceUSPer100k",
-                         "incidenceWorldPer100k") if values(el, p)]
-    if rates:
-        return PUBLISHED, ", ".join(rates)
+    # Each rate is an EpidemiologyProfile figure (measure, region, sex, rate, year).
+    figures = [nodes[r.lstrip("#")] for r in linked(el, "hasEpidemiologyProfile", "EpidemiologyProfile")]
+    rated = [f for f in figures if values(f, "epiRatePer100k")]
+    if rated:
+        return PUBLISHED, "; ".join(values(f, "label", RDFS)[0] for f in rated)
     desc = values(el, "ARI_PrevalenceDesc")
     if desc:
         return PARTIAL, f"Text only, no rate per 100,000: {short(desc[0], 70)}"

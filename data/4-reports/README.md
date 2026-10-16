@@ -345,20 +345,16 @@ after `compare.py`:
 python notebook/master-list-comparison/import_columns.py "data/1-master/ARI Master List - 2026-10-08.xlsx" ontologies/ari_t1d.owl data/4-reports/10_Master_List_Comparison.xlsx
 ```
 
-The sheet's prevalence and incidence were imported the same way, by
-`notebook/master-list-comparison/import_prevalence.py`:
-- worldwide incidence → `incidenceWorldPer100k`
-- worldwide prevalence → `prevalenceWorldPer100k`
-- US incidence → `incidenceUSPer100k`
-- US prevalence → `prevalencePer100k` (the editor shows it as the US rate)
-- every figure verbatim, with the sheet's notes → `ARI_PrevalenceDesc`
+The sheet's prevalence and incidence were imported once, by
+`notebook/master-list-comparison/import_prevalence.py`, into flat per-disease rates (US and
+worldwide, incidence and prevalence), with every figure verbatim and the sheet's notes in
+`ARI_PrevalenceDesc`. A rate was stored only for a plain "1.0 cases per N" or "per A to B", as
+cases per 100,000 (the midpoint for a range). Everything else stayed in the description.
 
-A rate is stored only for a plain "1.0 cases per N" or "per A to B", as cases per 100,000 (the
-midpoint for a range). Everything else stays in the description.
-
-```bash
-python notebook/master-list-comparison/import_prevalence.py "data/1-master/ARI Master List - 2026-10-08.xlsx" ontologies/ari_t1d.owl data/4-reports/10_Master_List_Comparison.xlsx
-```
+Those flat rates have since moved into figures (#229): each rate is an `EpidemiologyProfile`
+linked from the disease by `hasEpidemiologyProfile`, with `epiMeasure`, `epiRegion`, `epiSex`,
+`epiRatePer100k` and `epiYear`. The flat properties no longer exist, so `import_prevalence.py`
+is kept only as the record of that import and refuses to run.
 
 | Sheet | Contents |
 |-------|----------|
