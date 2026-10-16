@@ -44,7 +44,7 @@ This repository supports the curated disease model behind the editor:
 | `data_model/` | Reference spreadsheets and model snapshots | yes |
 | `mappings/` | Every curated cross-reference judgment | yes |
 | `notebook/` | Notebook-driven data preparation and grounding scripts | yes |
-| `ontologies/` | The ARI ontology — the sole authority | yes |
+| `ontologies/` | The ARI ontology — the sole authority — and `ari_uberon.owl`, the UBERON slice it imports (see `notebook/uberon-mapping/`) | yes |
 | `sparql/` | SPARQL queries and generated term sets | yes |
 
 `data/` mixes both kinds, which is worth knowing before going looking for
