@@ -5,7 +5,9 @@ Checks `mappings/ari.sssom.tsv`, `mappings/ari.equivalencies.tsv` and the
 predictor's `mappings/ari.synonym_blocklist.tsv` for
 structural problems, malformed identifiers and internal contradictions, that
 the two files agree with each other, and that both agree with the stored
-cross-references in `ontologies/ari_t1d.owl`.
+cross-references in `ontologies/ari_t1d.owl`. Also checks that every Symptom
+individual's `symptomConcept` agrees with
+`notebook/symptom-mapping/symptom_mapping.tsv`.
 
 Usage:
     python .github/scripts/validate_mappings.py                # audit everything
@@ -43,6 +45,15 @@ ONTOLOGY_PATH = "ontologies/ari_t1d.owl"
 # beside it is the generated evidence behind these decisions and is a report, so
 # nothing here validates it.
 BLOCKLIST_PATH = "mappings/ari.synonym_blocklist.tsv"
+# Curated symptom string -> shared ARI symptom (ARIS) table. Every Symptom
+# individual in the ontology links its row's ARIS class with symptomConcept,
+# which notebook/symptom-mapping/build_symptom_mapping.py writes.
+SYMPTOM_MAPPING_PATH = "notebook/symptom-mapping/symptom_mapping.tsv"
+SYMPTOM_MAPPING_COLUMNS = [
+    "Symptom ID", "Symptom", "Mapping", "SYMP ID", "SYMP Label",
+    "HPO ID", "HPO Label", "HPO Mapping", "Parent Symptom", "Merged Into",
+]
+ARIS_BASE = "http://www.aurint.org/ontologies/ari-symptoms#"
 
 SSSOM_COLUMNS = [
     "subject_id",
@@ -163,6 +174,7 @@ ENTITY_OPEN_RE = re.compile(r"^<([\w:.-]+)\s[^>]*\brdf:about=")
 ANNOTATION_RE = re.compile(r"<(ARI_\w+)[^>]*>(.*?)</\1>")
 LABEL_RE = re.compile(r"<rdfs:label[^>]*>(.*?)</rdfs:label>")
 CURIE_MAP_RE = re.compile(r"#\s{2,}([A-Za-z0-9_.]+):\s")
+SYMPTOM_CONCEPT_RE = re.compile(r'<symptomConcept rdf:resource="([^"]*)"/>')
 
 
 @dataclass(frozen=True)
@@ -1225,6 +1237,92 @@ def check_blocklist(rows: list[Row], diseases: dict[str, Disease] | None, report
             )
 
 
+def expected_symptom_concepts(rows: list[Row], report: Report) -> dict[str, str | None]:
+    """Symptom string -> the ARIS class IRI its individuals link to; None for `not a symptom`."""
+    by_name = {row.fields["Symptom"]: row for row in rows}
+    expected: dict[str, str | None] = {}
+    for name, row in by_name.items():
+        target = row.fields["Merged Into"]
+        if target and target not in by_name:
+            report.error(
+                "symptom-merge-target", SYMPTOM_MAPPING_PATH, row.line,
+                f"{name!r} is merged into {target!r}, which has no row.",
+            )
+            continue
+        symptom_id = by_name[target].fields["Symptom ID"] if target else row.fields["Symptom ID"]
+        expected[name] = ARIS_BASE + symptom_id.replace(":", "_") if symptom_id else None
+    return expected
+
+
+def check_symptom_concepts(text: str, rows: list[Row], report: Report) -> None:
+    """Every Symptom individual links the shared symptom its label maps to.
+
+    The label is the key: symptom_mapping.tsv owns which ARIS class a symptom
+    string is, and symptomConcept is that decision applied to each per-disease
+    individual. Findings sit on the label line, since a renamed label is what
+    leaves a link stale. A label with no row yet, or a mapped label not linked
+    yet, is a warning: the curator added a symptom and the mapping catches up.
+    A link that disagrees with the row is an error.
+    """
+    expected = expected_symptom_concepts(rows, report)
+    current: dict | None = None
+    for index, line in enumerate(text.replace("\r\n", "\n").split("\n"), start=1):
+        open_match = ENTITY_OPEN_RE.match(line)
+        if open_match and not line.rstrip().endswith("/>"):
+            current = {
+                "close": f"</{open_match.group(1)}>",
+                "symptom": open_match.group(1) == "Symptom",
+                "label": None,
+                "line": index,
+                "concepts": [],
+            }
+            continue
+        if current is None:
+            continue
+        if '<rdf:type rdf:resource="#Symptom"/>' in line:
+            current["symptom"] = True
+        label_match = LABEL_RE.search(line)
+        if label_match:
+            current["label"] = html.unescape(label_match.group(1)).strip()
+            current["line"] = index
+        current["concepts"].extend(SYMPTOM_CONCEPT_RE.findall(line))
+        if not line.startswith(current["close"]):
+            continue
+        entry, current = current, None
+        if not entry["symptom"]:
+            continue
+        label, line_no, concepts = entry["label"], entry["line"], entry["concepts"]
+        if len(concepts) > 1:
+            report.error(
+                "symptom-concept-repeated", ONTOLOGY_PATH, line_no,
+                f"Symptom {label!r} has {len(concepts)} symptomConcept values; it is one symptom.",
+            )
+            continue
+        have = concepts[0] if concepts else None
+        if label not in expected:
+            report.warning(
+                "symptom-unmapped", ONTOLOGY_PATH, line_no,
+                f"Symptom {label!r} has no row in {SYMPTOM_MAPPING_PATH}"
+                + (f", so its symptomConcept {have} is left from a former label" if have else "")
+                + ". Add a row and run notebook/symptom-mapping/build_symptom_mapping.py.",
+            )
+        elif have == expected[label]:
+            continue
+        elif have is None:
+            report.warning(
+                "symptom-concept-missing", ONTOLOGY_PATH, line_no,
+                f"Symptom {label!r} maps to {expected[label]} in {SYMPTOM_MAPPING_PATH} but has no "
+                "symptomConcept. Run notebook/symptom-mapping/build_symptom_mapping.py.",
+            )
+        else:
+            report.error(
+                "symptom-concept-mismatch", ONTOLOGY_PATH, line_no,
+                f"Symptom {label!r} links {have}, but {SYMPTOM_MAPPING_PATH} maps it to "
+                f"{expected[label] or 'not a symptom'}. Run "
+                "notebook/symptom-mapping/build_symptom_mapping.py.",
+            )
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
@@ -1260,6 +1358,10 @@ def main() -> int:
         check_against_ontology(sssom_rows, diseases, report)
         check_equiv_against_ontology(equiv_rows, diseases, report)
         check_ontology_values(diseases, report)
+        symptom_text = read_text(SYMPTOM_MAPPING_PATH, report)
+        if symptom_text:
+            symptom_rows = split_rows(symptom_text, SYMPTOM_MAPPING_PATH, SYMPTOM_MAPPING_COLUMNS, report)
+            check_symptom_concepts(current_text(ONTOLOGY_PATH), symptom_rows, report)
 
     findings = sorted(report.findings, key=Finding.sort_key)
     scope = "whole repository"
