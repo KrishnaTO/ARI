@@ -62,10 +62,29 @@ It then writes:
 - **`ari_symptoms.owl`**: a class per exact or broader symptom (`ARIS_…`) under its parent. Each class has:
   - `skos:exactMatch` or `skos:broadMatch` to its SYMP term and to its HPO term
   - its merged strings as `skos:altLabel`
-  - `ariSymptomIndividual` links to the Symptom individuals in `ari_t1d.owl` that carry it
 
   The SYMP terms it references are copied in with their labels and is_a parents, up to *symptom*,
   so the file opens in Protégé without importing SYMP. HPO terms are referenced by IRI only.
 
-The OWL file shows the proposal for review. `ontologies/ari_t1d.owl` is still the record, and it
-is not changed here.
+- **`symptomConcept` in `ontologies/ari_t1d.owl`**: on every Symptom individual, the `ARIS_…` class
+  its label maps to. A merged label links the class of the symptom it merges into; a `not a
+  symptom` label links nothing. Every other line of the ontology is left as it is.
+
+### Symptom individuals and shared symptoms
+
+A Symptom individual in `ari_t1d.owl` is one symptom *in one disease*: it carries that disease's
+likelihood, description and source, and the editor deletes it when a curator removes it from that
+disease. So "Fatigue" stays 76 individuals, one per disease, and each points at the one shared
+**Fatigue** class here with `symptomConcept`. To ask which diseases list fatigue:
+
+```sparql
+PREFIX ari:  <http://www.aurint.org/ontologies/ari-disease#>
+PREFIX aris: <http://www.aurint.org/ontologies/ari-symptoms#>
+SELECT ?disease WHERE { ?disease ari:hasSymptom ?s . ?s ari:symptomConcept aris:ARIS_0000190 }
+```
+
+This table owns the link, keyed by the symptom string. The ontology only carries it.
+`.github/scripts/validate_mappings.py` checks every link against this table. A wrong link is an
+error. A symptom with no row yet, or a mapped symptom with no link yet, is a warning: it appears
+when a curator adds or renames a symptom in the editor. To clear it, add the row here and rerun
+the build.

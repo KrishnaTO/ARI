@@ -17,12 +17,14 @@ Writes:
   - Symptoms sheet of report 4: mapping and parent columns after the existing ones
   - Symptom Mapping sheet of report 4: one row per symptom string
   - ari_symptoms.owl next to this script: a class per mapped symptom under the referenced SYMP terms
+  - symptomConcept on every Symptom individual in ontologies/ari_t1d.owl: the ari_symptoms.owl class
+    its label maps to (the Merged Into row's class for a merged label, none for "not a symptom")
 
 Usage: python build_symptom_mapping.py <path to data/2-databases>
 The database folder is not tracked in git, so pass the path of a checkout holding symp.owl
 (http://purl.obolibrary.org/obo/symp.owl) and hp.obo (http://purl.obolibrary.org/obo/hp.obo).
 """
-import collections, csv, os, sys
+import collections, csv, os, re, sys
 import xml.etree.ElementTree as ET
 from xml.sax.saxutils import escape, quoteattr
 
@@ -58,6 +60,10 @@ LINKED = {"SYMP ID", "HPO ID", "Parent ID"}
 
 def obo_iri(curie):
     return OBO + curie.replace(":", "_")
+
+
+def aris_iri(symptom_id):
+    return f"{BASE}#{symptom_id.replace(':', '_')}"
 
 
 def read_symp(path):
@@ -243,21 +249,16 @@ def resource(tag, iri):
     return f"    <{tag} rdf:resource={quoteattr(iri)}/>\n"
 
 
-def write_owl(rows, by_name, symp, versions, individuals):
+def write_owl(rows, by_name, symp, versions):
     """A class per exact or broader row, under its parent; SYMP terms it references, with their ancestors."""
     def iri(row_id):
-        return obo_iri(row_id) if row_id.startswith("SYMP:") else f"{BASE}#{row_id.replace(':', '_')}"
+        return obo_iri(row_id) if row_id.startswith("SYMP:") else aris_iri(row_id)
 
     concepts = [r for r in rows if r["Mapping"] in MAPPED]
     alt_labels = collections.defaultdict(list)
     for r in rows:
         if r["Merged Into"]:
             alt_labels[r["Merged Into"]].append(r["Symptom"])
-    ind_by_label = collections.defaultdict(list)
-    for ind, label in individuals.items():
-        r = by_name[label]
-        ind_by_label[r["Merged Into"] or label].append(ARI_BASE + ind)
-
     needed, stack = set(), [r["SYMP ID"] for r in concepts]
     while stack:
         curie = stack.pop()
@@ -280,18 +281,15 @@ def write_owl(rows, by_name, symp, versions, individuals):
         "and the Human Phenotype Ontology (HPO) for ARI#132, generated from "
         "notebook/symptom-mapping/symptom_mapping.tsv. skos:exactMatch names a SYMP or HPO term with the "
         "same meaning, skos:broadMatch the nearest broader one. Strings merged into a "
-        "symptom are skos:altLabel. ariSymptomIndividual links the Symptom individuals in "
-        "ontologies/ari_t1d.owl that carry the symptom. SYMP classes are copied with their labels and "
+        "symptom are skos:altLabel. The Symptom individuals in ontologies/ari_t1d.owl point at their "
+        "class with symptomConcept. SYMP classes are copied with their labels and "
         "is_a parents only; HPO terms are referenced by IRI.</rdfs:comment>\n"
         + "".join(f'    <dc:source rdf:resource="{v}"/>\n' for v in versions)
         +         "</owl:Ontology>\n\n"
         '<owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#exactMatch"/>\n'
         '<owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#broadMatch"/>\n'
         '<owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#altLabel"/>\n'
-        '<owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>\n'
-        '<owl:AnnotationProperty rdf:about="#ariSymptomIndividual">\n'
-        "    <rdfs:label>ARI symptom individual</rdfs:label>\n"
-        "</owl:AnnotationProperty>\n\n"
+        '<owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>\n\n'
     ]
     for curie in sorted(needed):
         out.append(f"<owl:Class rdf:about={quoteattr(obo_iri(curie))}>\n")
@@ -307,13 +305,44 @@ def write_owl(rows, by_name, symp, versions, individuals):
             if curie:
                 out.append(resource("skos:exactMatch" if mapping == "exact" else "skos:broadMatch", obo_iri(curie)))
         out.extend(literal("skos:altLabel", a) for a in sorted(alt_labels[r["Symptom"]]))
-        out.extend(resource("ariSymptomIndividual", i) for i in sorted(ind_by_label[r["Symptom"]]))
         out.extend(resource("rdfs:subClassOf", iri(p[1])) for p in parents_of(r, by_name, symp))
         out.append("</owl:Class>\n\n")
     out.append("</rdf:RDF>\n")
     with open(OUT, "w", encoding="utf-8", newline="\n") as f:
         f.write("".join(out))
     return len(concepts), len(needed)
+
+
+def write_ontology_links(by_name, individuals):
+    """Set symptomConcept on every Symptom individual in ari_t1d.owl from its label's row.
+
+    Edits the file line by line so nothing else in it moves: a symptomConcept line inside a Symptom
+    individual is dropped, and the one its label maps to is written after its rdfs:label.
+    """
+    text = open(ONTOLOGY, encoding="utf-8", newline="").read()
+    if '<owl:AnnotationProperty rdf:about="#symptomConcept">' not in text:
+        raise SystemExit(f"{ONTOLOGY} does not declare the symptomConcept annotation property")
+    opening = re.compile(r'<[\w:]+ rdf:about="(#[^"]+)">')
+    out, current, linked = [], None, 0
+    for line in text.splitlines(keepends=True):
+        match = opening.match(line)
+        if match and match.group(1) in individuals:
+            current = match.group(1)
+        elif current and line.startswith("</"):
+            current = None
+        if current and line.lstrip().startswith("<symptomConcept "):
+            continue
+        out.append(line)
+        if current and line.lstrip().startswith("<rdfs:label"):
+            r = by_name[individuals[current]]
+            target = by_name[r["Merged Into"]] if r["Merged Into"] else r
+            if target["Mapping"] in MAPPED:
+                ending = line[len(line.rstrip("\r\n")):]
+                out.append(f'  <symptomConcept rdf:resource={quoteattr(aris_iri(target["Symptom ID"]))}/>{ending}')
+                linked += 1
+    with open(ONTOLOGY, "w", encoding="utf-8", newline="") as f:
+        f.write("".join(out))
+    return linked
 
 
 def main():
@@ -332,13 +361,15 @@ def main():
         raise SystemExit(f"{len(missing)} symptoms have no row in symptom_mapping.tsv: {missing}")
 
     write_report(by_name, symp, ontology_diseases)
-    classes, symp_classes = write_owl(rows, by_name, symp, [symp_version, hp_version], individuals)
+    classes, symp_classes = write_owl(rows, by_name, symp, [symp_version, hp_version])
+    linked = write_ontology_links(by_name, individuals)
     counts = collections.Counter(r["Mapping"] for r in rows)
     print(f"{len(rows)} symptom strings: " + ", ".join(f"{n} {k}" for k, n in sorted(counts.items())))
     hpo = collections.Counter(r["HPO Mapping"] for r in rows if r["HPO Mapping"])
     print("HPO: " + ", ".join(f"{n} {k}" for k, n in sorted(hpo.items())))
     print(f"{sum(1 for r in rows if r['Parent Symptom'])} grouped under an ARI parent symptom")
     print(f"{classes} ARI symptom classes, {symp_classes} SYMP classes -> {OUT}")
+    print(f"{linked} of {len(individuals)} Symptom individuals linked by symptomConcept -> {ONTOLOGY}")
 
 
 if __name__ == "__main__":

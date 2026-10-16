@@ -10,6 +10,7 @@ on:
     paths:
       - 'mappings/**'
       - 'ontologies/**'
+      - 'notebook/symptom-mapping/symptom_mapping.tsv'
       - '.github/scripts/validate_mappings.py'
       - '.github/workflows/mappings-validate.yml'
 

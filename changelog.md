@@ -1,5 +1,33 @@
 # Changelog
 
+## claude/symptom-concept-links
+
+Links each per-disease Symptom individual to its shared symptom. "Fatigue" in 76 diseases can now
+be queried as one thing, and the 76 individuals stay separate. PR #148 kept same-label individuals
+apart on purpose, because each one holds its own disease's likelihood, description and source. The
+editor also destroys an individual when it is removed from a disease, so merging them would remove
+or edit the symptom for every disease at once.
+
+- New annotation property `symptomConcept` in `ontologies/ari_t1d.owl`. Its value is the IRI of
+  the `ARIS_…` class in `notebook/symptom-mapping/ari_symptoms.owl`. It is an annotation property
+  rather than an object property because the target is a class in another file.
+- `symptom_mapping.tsv` owns the link, keyed by the symptom string, and
+  `build_symptom_mapping.py` writes it. A merged string links the class it merges into. A `not a
+  symptom` string links nothing. The script edits only these lines and gives the same result on a
+  second run.
+- 2,249 of the 2,295 Symptom individuals are linked, to 763 of the 765 classes: all 2,243 live ones and 6
+  obsolete ones whose labels map. The other 46 are obsolete `not a symptom` entries.
+- `ari_symptoms.owl` no longer carries the reverse links (`ariSymptomIndividual`), so the link is
+  stored in one direction only.
+- `validate_mappings.py` checks each link against the TSV, and the PR gate now also runs when the
+  TSV changes. A link that disagrees with the TSV is an error. A symptom with no row, or a mapped
+  symptom with no link yet, is a warning, so adding a symptom in the editor doesn't block the publish.
+- Report 4's *Diseases (ontology)* counts are corrected for 50 symptoms. These are the
+  individuals retired in #143 and #144, whose PRs didn't rebuild the report.
+- Still to do in the editor (KrishnaTO/ARI-metadata-manager): set `symptomConcept` from the TSV
+  when a curator adds or renames a symptom. Until then, those symptoms show the warnings above
+  until the next build.
+
 ## claude/migrate-epidemiology-229
 
 Moves every disease's prevalence and incidence rates into figures, the shape the editor reads
