@@ -1,0 +1,27 @@
+ARI Class	ARI Label	Mapping	UBERON ID	UBERON Label	Note
+MulticellularAnatomicalStructure	Multicellular anatomical structure	not linked			Root of the tissue tree. It also holds Systemic, Metabolic System and All, which are not anatomical structures, so it is not linked. Its ARI_ID UBERON:0010000 is left as it was.
+AnatomicalSystem	Anatomical system	exact	UBERON:0000467	anatomical system	
+EndocrineSystem	Endocrine system	exact	UBERON:0000949	endocrine system	
+Pancreas	Pancreas	exact	UBERON:0001264	pancreas	
+IsletOfLangerhans	Islet of Langerhans	exact	UBERON:0000006	islet of Langerhans	
+BetaCell	Pancreatic beta cell	not linked			A cell type, so it belongs to the Cell Ontology, not UBERON. Its individual carries CL:0000169.
+Skin	Skin	exact	UBERON:0002097	skin of body	The whole skin organ. category-uberon.csv had zone of skin (UBERON:0000014), which is a region of it.
+Blood	Blood	exact	UBERON:0000178	blood	
+NervousSystem	Nervous System	exact	UBERON:0001016	nervous system	
+VascularSystem	Vascular system	exact	UBERON:0007798	vascular system	
+Glands	Glands	exact	UBERON:0002530	gland	
+ImmuneSystem	Immune System	exact	UBERON:0002405	immune system	
+Systemic	Systemic	no term			A whole-body distribution, not an anatomical structure. Kept as an ARI class.
+Musculoskeletal	Musculoskeletal	exact	UBERON:0002204	musculoskeletal system	
+Kidney	Kidney	exact	UBERON:0002113	kidney	
+Heart	Heart	exact	UBERON:0000948	heart	
+AllTissues	All	no term			A catch-all with no UBERON term. Kept as an ARI class. No disease targets it.
+DigestiveSystem	Digestive system	exact	UBERON:0001007	digestive system	
+Liver	Liver	exact	UBERON:0002107	liver	
+Parathyroid	Parathyroid	exact	UBERON:0001132	parathyroid gland	
+Pituitary	Pituitary	exact	UBERON:0000007	pituitary gland	
+Eye	Eye	exact	UBERON:0000970	eye	The general eye term rather than camera-type eye (UBERON:0000019).
+Lungs	Lungs	exact	UBERON:0002048	lung	The single-lung term, as in category-uberon.csv. pair of lungs is UBERON:0000170.
+Bladder	Bladder	exact	UBERON:0001255	urinary bladder	
+MetabolicSystem	Metabolic System	no term			UBERON has no metabolic system: metabolism is a process, not an anatomical structure. Kept as an ARI class.
+ThyroidGland	Thyroid gland	exact	UBERON:0002046	thyroid gland	

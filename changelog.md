@@ -27,6 +27,31 @@ or edit the symptom for every disease at once.
 - Still to do in the editor (KrishnaTO/ARI-metadata-manager): set `symptomConcept` from the TSV
   when a curator adds or renames a symptom. Until then, those symptoms show the warnings above
   until the next build.
+## claude/uberon-tissue-systems-linking-1f66a5
+
+Links ARI's tissue and system classes to UBERON and imports the UBERON terms they link to.
+`notebook/uberon-mapping/uberon_mapping.tsv` is the curated mapping. 21 of the 26 classes under
+*Multicellular anatomical structure* match a UBERON term (release 2026-10-01). Systemic, Metabolic
+System and All have no UBERON term and stay ARI classes. The root and Pancreatic beta cell (a cell
+type, CL:0000169) are left unlinked. `build_uberon_import.py` writes `ontologies/ari_uberon.owl`, a
+61-term slice holding those terms and their is_a ancestors. It also adds an `owl:imports` of the
+slice to `ari_t1d.owl`, and gives each matched class an `rdfs:subClassOf` to its UBERON term and
+its UBERON CURIE as `ARI_ID`. Only 3 of these classes had a UBERON ID before.
+
+**Why.** Diseases point at tissue regions that were free-standing ARI classes, so nothing tied
+"Nervous System" or "Skin" to a standard anatomy vocabulary. The editor's tissue tree is unchanged
+apart from the IDs it now shows.
+
+- **subClassOf, not equivalentClass.** ARI's tree uses subClassOf for "part of" (Pancreas under
+  Endocrine system, Islet under Pancreas). It also puts Blood and the systems under multicellular
+  anatomical structure. UBERON disagrees in nine places, so an equivalence would push those
+  placements onto UBERON's own terms. Those ARI placements are unchanged here.
+- **The editor must load the slice before this merges.** The import IRI does not resolve on the
+  web. owlready2 fails with "Cannot download" unless the `ontologies/` folder is on `onto_path`.
+  The deployed editor syncs only `ari_t1d.owl` (`deploy/update-ontology.sh`). Both need a change in
+  KrishnaTO/ARI-metadata-manager first.
+- `notebook/category-uberon.csv`, the older automated match list, is superseded. Skin moves from
+  *zone of skin* to *skin of body*.
 
 ## claude/ontology-individual-merging-262d74
 
