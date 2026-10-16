@@ -156,6 +156,22 @@
   <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
 </owl:DatatypeProperty>
 
+<owl:DatatypeProperty rdf:about="#markerType">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#markerSensitivity">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#markerSpecificity">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#loincCode">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
 <owl:DatatypeProperty rdf:about="#mediatorDescription">
   <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
 </owl:DatatypeProperty>
@@ -315,7 +331,7 @@
   <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
 </owl:Class>
 
-<owl:Class rdf:about="#BiochemicalMarker">
+<owl:Class rdf:about="#ClinicalBiomarker">
   <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
 </owl:Class>
 
@@ -1139,55 +1155,61 @@
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Mark_Cpeptide">
-  <rdf:type rdf:resource="#BiochemicalMarker"/>
+  <rdf:type rdf:resource="#ClinicalBiomarker"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C-peptide</rdfs:label>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Endogenous insulin measure; low/undetectable in T1D</rdfs:comment>
   <markerDiagnosticUse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagnosis, staging</markerDiagnosticUse>
+  <markerType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biochemical</markerType>
   <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/27062967/</sourcePMID>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Mark_HbA1c">
-  <rdf:type rdf:resource="#BiochemicalMarker"/>
+  <rdf:type rdf:resource="#ClinicalBiomarker"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HbA1c</rdfs:label>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3-month glucose average; diagnosis &gt;=6.5%</rdfs:comment>
   <markerDiagnosticUse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagnosis, monitoring</markerDiagnosticUse>
+  <markerType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biochemical</markerType>
   <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/30609683/</sourcePMID>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Mark_FastingGlucose">
-  <rdf:type rdf:resource="#BiochemicalMarker"/>
+  <rdf:type rdf:resource="#ClinicalBiomarker"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fasting plasma glucose</rdfs:label>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&gt;=126 mg/dL after &gt;=8h fast</rdfs:comment>
   <markerDiagnosticUse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagnosis</markerDiagnosticUse>
+  <markerType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biochemical</markerType>
   <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/30609683/</sourcePMID>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Mark_RandomGlucose">
-  <rdf:type rdf:resource="#BiochemicalMarker"/>
+  <rdf:type rdf:resource="#ClinicalBiomarker"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Random plasma glucose</rdfs:label>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&gt;=200 mg/dL with symptoms</rdfs:comment>
   <markerDiagnosticUse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagnosis</markerDiagnosticUse>
+  <markerType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biochemical</markerType>
   <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/30609683/</sourcePMID>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Mark_Ketones">
-  <rdf:type rdf:resource="#BiochemicalMarker"/>
+  <rdf:type rdf:resource="#ClinicalBiomarker"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ketones (beta-hydroxybutyrate)</rdfs:label>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Elevated in DKA</rdfs:comment>
   <markerDiagnosticUse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DKA detection</markerDiagnosticUse>
+  <markerType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biochemical</markerType>
   <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/30229690/</sourcePMID>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Mark_OGTT">
-  <rdf:type rdf:resource="#BiochemicalMarker"/>
+  <rdf:type rdf:resource="#ClinicalBiomarker"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OGTT</rdfs:label>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">75g load; 2h &gt;=200 mg/dL</rdfs:comment>
   <markerDiagnosticUse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagnosis, screening</markerDiagnosticUse>
+  <markerType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biochemical</markerType>
   <sourcePMID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pubmed.ncbi.nlm.nih.gov/30609683/</sourcePMID>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
 </owl:NamedIndividual>
@@ -6148,6 +6170,7 @@ When the NMDA receptor antibodies attack the NMDA receptors in the brain, certai
   <targetsTissue rdf:resource="#Tissue_Musculoskeletal"/>
   <hasEpidemiologyProfile rdf:resource="#Epi_d9342a02"/>
   <hasEpidemiologyProfile rdf:resource="#Epi_3f650656"/>
+  <hasBiomarker rdf:resource="#Mark_6e4b5a8e"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune necrotizing myopathy</rdfs:label>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
   <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001039</ARI_ID>
@@ -6177,6 +6200,7 @@ When the NMDA receptor antibodies attack the NMDA receptors in the brain, certai
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-15T12:40:37+00:00 | Leon Islas | Imported from ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 119: definition, disease type Unconfirmed, 3 associated diseases (3 linked to ARI diseases), demographic bias, 5 pathway steps, 5 symptoms.</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-15T15:44:20+00:00 | KrishnaTO | Symptom review (ARI#132): removed 2 non-symptom entries from hasSymptom and retired them (ARI_Obsolete true): 'Extreme elevation of serum creatine kinase (&gt;10–50× ULN)'; 'Absence of extramuscular systemic manifestations'. Added to description: "Serum creatine kinase is extremely elevated (&gt;10–50× the upper limit of normal) in 95–100% of patients, and 75–85% have no extramuscular systemic manifestations."</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-15T16:44:19+00:00 | migration (#229) | Moved to prevalence &amp; incidence figures: Prevalence US 0.6667/100k; Prevalence Worldwide 0.2667/100k</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-16T18:30:39+00:00 | KrishnaTO | Clinical biomarkers: added 'Serum creatine kinase' (Biochemical, sensitivity 95–100%) from the retired symptom Sym_0001039_1: 'Extreme elevation of serum creatine kinase (&gt;10–50× ULN)'</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001040">
@@ -6864,6 +6888,7 @@ In chronic autoimmune neutropenia the body produces IgG antibodies that target a
   <targetsTissue rdf:resource="#Tissue_Lungs"/>
   <hasEpidemiologyProfile rdf:resource="#Epi_41e67fb6"/>
   <hasEpidemiologyProfile rdf:resource="#Epi_9e9c228f"/>
+  <hasBiomarker rdf:resource="#Mark_b7fc917e"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune pulmonary alveolar proteinosis</rdfs:label>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
   <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001045</ARI_ID>
@@ -6894,6 +6919,7 @@ In chronic autoimmune neutropenia the body produces IgG antibodies that target a
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-15T12:40:37+00:00 | Leon Islas | Imported from ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 58: definition, disease type Unconfirmed, 2 associated diseases (2 linked to ARI diseases), demographic bias, 5 pathway steps, 5 symptoms.</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-15T15:44:20+00:00 | KrishnaTO | Symptom review (ARI#132): removed 1 non-symptom entry from hasSymptom and retired it (ARI_Obsolete true): 'Milky, opaque bronchoalveolar lavage fluid with PAS-positive proteinaceous material'. Added to description: "Bronchoalveolar lavage returns milky, opaque fluid with PAS-positive proteinaceous material in 95–100% of patients."</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-15T16:44:19+00:00 | migration (#229) | Moved to prevalence &amp; incidence figures: Prevalence US 0.6571/100k; Prevalence Worldwide 0.6571/100k</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-16T18:30:39+00:00 | KrishnaTO | Clinical biomarkers: added 'Bronchoalveolar lavage fluid' (Cytological, sensitivity 95–100%) from the retired symptom Sym_0001045_1: 'Milky, opaque bronchoalveolar lavage fluid with PAS-positive proteinaceous material'</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Tissue_Lungs">
@@ -6934,6 +6960,7 @@ In chronic autoimmune neutropenia the body produces IgG antibodies that target a
   <targetsTissue rdf:resource="#Tissue_Eye"/>
   <hasEpidemiologyProfile rdf:resource="#Epi_8f201ecb"/>
   <hasEpidemiologyProfile rdf:resource="#Epi_ae6985a8"/>
+  <hasBiomarker rdf:resource="#Mark_7538a073"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune retinal vasculitis</rdfs:label>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
   <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001046</ARI_ID>
@@ -6959,6 +6986,7 @@ In chronic autoimmune neutropenia the body produces IgG antibodies that target a
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-15T12:40:37+00:00 | Leon Islas | Imported from ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 59: definition, disease type Unconfirmed, 4 associated diseases (4 linked to ARI diseases), demographic bias, 5 pathway steps, 4 symptoms.</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-15T15:44:20+00:00 | KrishnaTO | Symptom review (ARI#132): removed 1 non-symptom entry from hasSymptom and retired it (ARI_Obsolete true): 'Retinal perivascular cuffing, sheathing, and vascular leakage on angiography'. Added to description: "Angiography shows retinal perivascular cuffing, sheathing and vascular leakage in 90–100% of patients."</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-15T16:44:19+00:00 | migration (#229) | Moved to prevalence &amp; incidence figures: Prevalence US 0.75/100k; Prevalence Worldwide 0.75/100k</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-16T18:30:39+00:00 | KrishnaTO | Clinical biomarkers: added 'Retinal angiography' (Imaging, sensitivity 90–100%) from the retired symptom Sym_0001046_1: 'Retinal perivascular cuffing, sheathing, and vascular leakage on angiography'</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001047">
@@ -8567,6 +8595,7 @@ Cicatricial pemphigoid is usually not chronic, and most patients symptoms disapp
   <targetsTissue rdf:resource="#Tissue_Skin"/>
   <hasEpidemiologyProfile rdf:resource="#Epi_b1b2eb4f"/>
   <hasEpidemiologyProfile rdf:resource="#Epi_a8605924"/>
+  <hasBiomarker rdf:resource="#Mark_80e7ea10"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bullous systemic lupus erythematosus</rdfs:label>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
   <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001058</ARI_ID>
@@ -8593,6 +8622,7 @@ Cicatricial pemphigoid is usually not chronic, and most patients symptoms disapp
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-15T12:40:37+00:00 | Leon Islas | Imported from ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 73: definition, disease type Unconfirmed, 3 associated diseases (3 linked to ARI diseases), demographic bias, 5 pathway steps, 4 symptoms.</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-15T15:44:20+00:00 | KrishnaTO | Symptom review (ARI#132): removed 2 non-symptom entries from hasSymptom and retired them (ARI_Obsolete true): 'Neutrophilic infiltrate at dermal-epidermal junction on biopsy'; 'Active systemic lupus erythematosus manifestations'. Added to description: "Biopsy shows a neutrophilic infiltrate at the dermal-epidermal junction in 95–100% of patients. Active systemic lupus manifestations accompany it, including lupus nephritis (50–60%) and arthritis (60–75%)."</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-15T16:44:19+00:00 | migration (#229) | Moved to prevalence &amp; incidence figures: Prevalence US 0.15/100k; Prevalence Worldwide 0.15/100k</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-16T18:30:39+00:00 | KrishnaTO | Clinical biomarkers: added 'Skin biopsy' (Histopathological, sensitivity 95–100%) from the retired symptom Sym_0001058_1: 'Neutrophilic infiltrate at dermal-epidermal junction on biopsy'</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001059">
@@ -14028,6 +14058,7 @@ The disorder resembles a combination of autoimmune hemolytic anemia, thrombocyto
   <hasEnvironmentalTrigger rdf:resource="#Env_0001094_3"/>
   <targetsTissue rdf:resource="#Tissue_Glands"/>
   <hasEpidemiologyProfile rdf:resource="#Epi_2b81901b"/>
+  <hasBiomarker rdf:resource="#Mark_dff50b9a"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female infertility due to antisperm antibodies</rdfs:label>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
   <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001094</ARI_ID>
@@ -14066,6 +14097,7 @@ ASA is not a concern except for people trying to conceive. Findings include a se
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-15T12:40:37+00:00 | Leon Islas | Imported from ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 106: 3 associated diseases (3 linked to ARI diseases), demographic bias, 5 pathway steps, 3 symptoms.</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-15T15:44:20+00:00 | KrishnaTO | Symptom review (ARI#132): removed 2 non-symptom entries from hasSymptom and retired them (ARI_Obsolete true): 'Severely abnormal post-coital test (poor sperm motility and survival in cervical mucus)'; 'Impaired sperm-egg binding and fertilization failure during IVF'. Added to description: "Findings include a severely abnormal post-coital test, with poor sperm motility and survival in cervical mucus (75–85%), and impaired sperm-egg binding with fertilization failure during IVF (60–75%)."</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-15T16:44:19+00:00 | migration (#229) | Moved to prevalence &amp; incidence figures: Prevalence Worldwide 600.0/100k</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-16T18:30:39+00:00 | KrishnaTO | Clinical biomarkers: added 'Postcoital test' (Cytological, sensitivity 75–85%) from the retired symptom Sym_0001094_2: 'Severely abnormal post-coital test (poor sperm motility and survival in cervical mucus)'</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001095">
@@ -25538,6 +25570,7 @@ Patients with Schnitzler syndrome typically experience chronic rash, relapsing f
   <targetsTissue rdf:resource="#Tissue_NervousSystem"/>
   <hasEpidemiologyProfile rdf:resource="#Epi_36174600"/>
   <hasEpidemiologyProfile rdf:resource="#Epi_a650049e"/>
+  <hasBiomarker rdf:resource="#Mark_c45c6145"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Motor examination and deep tendon reflexes are normal in 90–95% of patients, and skin punch biopsy shows reduced intraepidermal nerve fiber density in 85–95%.</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Small fiber neuropathy</rdfs:label>
   <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001191</ARI_ID>
@@ -25570,6 +25603,7 @@ Patients with Schnitzler syndrome typically experience chronic rash, relapsing f
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-15T12:40:37+00:00 | Leon Islas | Imported from ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 61: disease type Unconfirmed, 4 associated diseases (4 linked to ARI diseases), demographic bias, 5 pathway steps, 5 symptoms.</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-15T15:44:20+00:00 | KrishnaTO | Symptom review (ARI#132): removed 2 non-symptom entries from hasSymptom and retired them (ARI_Obsolete true): 'Normal motor examination and preserved deep tendon reflexes'; 'Reduced intraepidermal nerve fiber density on skin punch biopsy'. Description set to: "Motor examination and deep tendon reflexes are normal in 90–95% of patients, and skin punch biopsy shows reduced intraepidermal nerve fiber density in 85–95%." Replaced: rdfs:comment "1", a placeholder.</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-15T16:44:19+00:00 | migration (#229) | Moved to prevalence &amp; incidence figures: Prevalence US 75.0/100k; Prevalence Worldwide 75.0/100k</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-16T18:30:39+00:00 | KrishnaTO | Clinical biomarkers: added 'Skin punch biopsy: intraepidermal nerve fiber density' (Histopathological, sensitivity 85–95%) from the retired symptom Sym_0001191_3: 'Reduced intraepidermal nerve fiber density on skin punch biopsy'</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001192">
@@ -30190,6 +30224,7 @@ To date, there is no direct or indirect evidence that post-pericardiotomy syndro
   <targetsTissue rdf:resource="#Tissue_NervousSystem"/>
   <hasEpidemiologyProfile rdf:resource="#Epi_e5fc5312"/>
   <hasEpidemiologyProfile rdf:resource="#Epi_3f845c49"/>
+  <hasBiomarker rdf:resource="#Mark_8f53a0ea"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagnosis requires a heart rate increase of ≥30 bpm (≥40 bpm in teens) within 10 minutes of standing, without orthostatic hypotension.</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Postural orthostatic tachycardia syndrome</rdfs:label>
   <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI:0001164</ARI_ID>
@@ -30221,6 +30256,7 @@ To date, there is no direct or indirect evidence that post-pericardiotomy syndro
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-15T12:40:37+00:00 | Leon Islas | Imported from ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 56: disease type Unconfirmed, 4 associated diseases (2 linked to ARI diseases), demographic bias, 5 pathway steps, 6 symptoms.</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-15T15:44:20+00:00 | KrishnaTO | Symptom review (ARI#132): removed 2 non-symptom entries from hasSymptom and retired them (ARI_Obsolete true): 'Orthostatic heart rate increment ≥30 bpm (or ≥40 bpm in teens) within 10 min of standing'; 'Absence of orthostatic hypotension'. Description set to: "Diagnosis requires a heart rate increase of ≥30 bpm (≥40 bpm in teens) within 10 minutes of standing, without orthostatic hypotension." Replaced: rdfs:comment "1", a placeholder.</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-15T16:44:19+00:00 | migration (#229) | Moved to prevalence &amp; incidence figures: Prevalence US 150.0/100k; Prevalence Worldwide 150.0/100k</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-16T18:30:39+00:00 | KrishnaTO | Clinical biomarkers: added 'Active stand or tilt-table test' (Physiological, sensitivity 100%) from the retired symptom Sym_0001164_1: 'Orthostatic heart rate increment ≥30 bpm (or ≥40 bpm in teens) within 10 min of standing'</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001165">
@@ -31793,6 +31829,7 @@ A third type of PRCA, Diamond-Blackfan syndrome, is due to genetic mutation and 
   <hasSymptom rdf:resource="#Sym_0001219_2250"/>
   <hasEpidemiologyProfile rdf:resource="#Epi_54052ec4"/>
   <hasEpidemiologyProfile rdf:resource="#Epi_590543a2"/>
+  <hasBiomarker rdf:resource="#Mark_06c81818"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune aortitis (isolated, non-vasculitic)</rdfs:label>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune aortitis is an inflammatory condition of the aorta characterized by immune-mediated infiltration of the arterial wall that occurs in the absence of generalized systemic vasculitis. Chronic inflammation can weaken the structural integrity of the thoracic or abdominal aorta, predisposing patients to aneurysm formation, aortic insufficiency, or dissection. Corticosteroids and immunosuppressive agents are the mainstay of treatment to prevent vascular complications. Imaging shows an ascending aortic aneurysm or aortic root dilation in 70–85% of patients, and 30–40% have no symptoms before dissection or rupture.</rdfs:comment>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI Master List 2026-10-08</ARI_DefSource>
@@ -31824,6 +31861,7 @@ A third type of PRCA, Diamond-Blackfan syndrome, is due to genetic mutation and 
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-15T12:40:37+00:00 | Leon Islas | Imported from ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 31: 4 associated diseases (3 linked to ARI diseases), demographic bias, 5 pathway steps.</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-15T15:19:39+00:00 | KrishnaTO | Symptom review (ARI#132): removed 2 non-symptom entries from hasSymptom and retired them (ARI_Obsolete true): 'Ascending aortic aneurysm / root dilation on imaging'; 'Asymptomatic presentation prior to dissection or rupture'. Added to description: "Imaging shows an ascending aortic aneurysm or aortic root dilation in 70–85% of patients, and 30–40% have no symptoms before dissection or rupture."</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-15T16:44:19+00:00 | migration (#229) | Moved to prevalence &amp; incidence figures: Prevalence US 0.75/100k; Prevalence Worldwide 0.75/100k</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-16T18:30:39+00:00 | KrishnaTO | Clinical biomarkers: added 'Aortic imaging' (Imaging, sensitivity 70–85%) from the retired symptom Sym_0001219_2248: 'Ascending aortic aneurysm / root dilation on imaging'</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001219_2248">
@@ -31890,6 +31928,7 @@ A third type of PRCA, Diamond-Blackfan syndrome, is due to genetic mutation and 
   <hasSymptom rdf:resource="#Sym_0001220_2255"/>
   <hasEpidemiologyProfile rdf:resource="#Epi_3c81f042"/>
   <hasEpidemiologyProfile rdf:resource="#Epi_b9cb78d5"/>
+  <hasBiomarker rdf:resource="#Mark_79c52bf0"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune enteropathy</rdfs:label>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autoimmune enteropathy is an extremely rare disease characterized by diarrhea that does not respond to treatment and may require intravenous feeding to sustain the patient. It is diagnosed most frequently in infants and  is increasingly being diagnosed in adults, but the symptoms are the same as many more common diseases, so correct diagnosis is difficult.   It is more frequently diagnosed in patients already diagnosed with other autoimmune diseases such as APECED type 1. Small intestinal biopsy shows total villous atrophy in 90–100% of patients.</rdfs:comment>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI Master List 2026-10-08</ARI_DefSource>
@@ -31908,6 +31947,7 @@ A third type of PRCA, Diamond-Blackfan syndrome, is due to genetic mutation and 
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-15T12:40:37+00:00 | Leon Islas | Imported from ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 39: 4 associated diseases (3 linked to ARI diseases), demographic bias, 5 pathway steps.</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-15T15:19:39+00:00 | KrishnaTO | Symptom review (ARI#132): removed 1 non-symptom entry from hasSymptom and retired it (ARI_Obsolete true): 'Total villous atrophy on small intestinal biopsy'. Added to description: "Small intestinal biopsy shows total villous atrophy in 90–100% of patients."</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-15T16:44:19+00:00 | migration (#229) | Moved to prevalence &amp; incidence figures: Prevalence US 0.1/100k; Prevalence Worldwide 0.1/100k</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-16T18:30:39+00:00 | KrishnaTO | Clinical biomarkers: added 'Small intestinal biopsy' (Histopathological, sensitivity 90–100%) from the retired symptom Sym_0001220_2253: 'Total villous atrophy on small intestinal biopsy'</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001220_2252">
@@ -32526,6 +32566,9 @@ A third type of PRCA, Diamond-Blackfan syndrome, is due to genetic mutation and 
   <hasSymptom rdf:resource="#Sym_0001227_2284"/>
   <hasEpidemiologyProfile rdf:resource="#Epi_a147329c"/>
   <hasEpidemiologyProfile rdf:resource="#Epi_2c63b500"/>
+  <hasBiomarker rdf:resource="#Mark_2195d0f7"/>
+  <hasBiomarker rdf:resource="#Mark_91f70b8d"/>
+  <hasBiomarker rdf:resource="#Mark_95a85a7c"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Infertility associated with Antisperm Antibodies</rdfs:label>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Infertility associated with antisperm antibodies occurs when the immune system generates autoantibodies that target sperm antigens in either men or women. These antibodies coat sperm cells, impairing motility, causing agglutination, or blocking sperm-egg binding and fertilization. Treatment involves assisted reproductive technologies, such as intrauterine insemination or in vitro fertilization with intracytoplasmic sperm injection. Laboratory findings include failure of cervical mucus penetration on postcoital testing (70–85%), spontaneous macroscopic or microscopic sperm agglutination in the ejaculate (70–80%), and markedly decreased progressive sperm forward motility (65–75%).</rdfs:comment>
   <ARI_DefSource rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI Master List 2026-10-08</ARI_DefSource>
@@ -32546,6 +32589,9 @@ A third type of PRCA, Diamond-Blackfan syndrome, is due to genetic mutation and 
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-15T12:40:37+00:00 | Leon Islas | Imported from ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 125: 3 associated diseases (3 linked to ARI diseases), demographic bias, 5 pathway steps.</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-15T15:19:39+00:00 | KrishnaTO | Symptom review (ARI#132): removed 3 non-symptom entries from hasSymptom and retired them (ARI_Obsolete true): 'Failure of cervical mucus penetration on postcoital testing'; 'Spontaneous macroscopic or microscopic sperm agglutination in ejaculate'; 'Markedly decreased progressive sperm forward motility'. Added to description: "Laboratory findings include failure of cervical mucus penetration on postcoital testing (70–85%), spontaneous macroscopic or microscopic sperm agglutination in the ejaculate (70–80%), and markedly decreased progressive sperm forward motility (65–75%)."</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-15T16:44:19+00:00 | migration (#229) | Moved to prevalence &amp; incidence figures: Prevalence US 600.0/100k; Prevalence Worldwide 600.0/100k</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-16T18:30:39+00:00 | KrishnaTO | Clinical biomarkers: added 'Postcoital test' (Cytological, sensitivity 70–85%) from the retired symptom Sym_0001227_2285: 'Failure of cervical mucus penetration on postcoital testing'</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-16T18:30:39+00:00 | KrishnaTO | Clinical biomarkers: added 'Semen analysis: sperm agglutination' (Cytological, sensitivity 70–80%) from the retired symptom Sym_0001227_2286: 'Spontaneous macroscopic or microscopic sperm agglutination in ejaculate'</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-16T18:30:39+00:00 | KrishnaTO | Clinical biomarkers: added 'Semen analysis: sperm motility' (Cytological, sensitivity 65–75%) from the retired symptom Sym_0001227_2287: 'Markedly decreased progressive sperm forward motility'</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001227_2284">
@@ -62932,6 +62978,126 @@ A third type of PRCA, Diamond-Blackfan syndrome, is due to genetic mutation and 
   <epiSex rdf:datatype="http://www.w3.org/2001/XMLSchema#string">All</epiSex>
   <epiRatePer100k rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.1</epiRatePer100k>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prevalence · Worldwide · All</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Mark_06c81818">
+  <rdf:type rdf:resource="#ClinicalBiomarker"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aortic imaging</rdfs:label>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ascending aortic aneurysm / root dilation on imaging</rdfs:comment>
+  <markerType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Imaging</markerType>
+  <markerDiagnosticUse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagnosis</markerDiagnosticUse>
+  <markerSensitivity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">70–85%</markerSensitivity>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Mark_6e4b5a8e">
+  <rdf:type rdf:resource="#ClinicalBiomarker"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Serum creatine kinase</rdfs:label>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Extreme elevation of serum creatine kinase (&gt;10–50× ULN)</rdfs:comment>
+  <markerType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biochemical</markerType>
+  <markerDiagnosticUse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagnosis</markerDiagnosticUse>
+  <markerSensitivity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">95–100%</markerSensitivity>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Mark_2195d0f7">
+  <rdf:type rdf:resource="#ClinicalBiomarker"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Postcoital test</rdfs:label>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Failure of cervical mucus penetration on postcoital testing</rdfs:comment>
+  <markerType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cytological</markerType>
+  <markerDiagnosticUse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagnosis</markerDiagnosticUse>
+  <markerSensitivity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">70–85%</markerSensitivity>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Mark_91f70b8d">
+  <rdf:type rdf:resource="#ClinicalBiomarker"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Semen analysis: sperm agglutination</rdfs:label>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spontaneous macroscopic or microscopic sperm agglutination in ejaculate</rdfs:comment>
+  <markerType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cytological</markerType>
+  <markerDiagnosticUse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagnosis</markerDiagnosticUse>
+  <markerSensitivity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">70–80%</markerSensitivity>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Mark_95a85a7c">
+  <rdf:type rdf:resource="#ClinicalBiomarker"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Semen analysis: sperm motility</rdfs:label>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Markedly decreased progressive sperm forward motility</rdfs:comment>
+  <markerType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cytological</markerType>
+  <markerDiagnosticUse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagnosis</markerDiagnosticUse>
+  <markerSensitivity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">65–75%</markerSensitivity>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Mark_b7fc917e">
+  <rdf:type rdf:resource="#ClinicalBiomarker"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bronchoalveolar lavage fluid</rdfs:label>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Milky, opaque bronchoalveolar lavage fluid with PAS-positive proteinaceous material</rdfs:comment>
+  <markerType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cytological</markerType>
+  <markerDiagnosticUse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagnosis</markerDiagnosticUse>
+  <markerSensitivity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">95–100%</markerSensitivity>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Mark_80e7ea10">
+  <rdf:type rdf:resource="#ClinicalBiomarker"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skin biopsy</rdfs:label>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neutrophilic infiltrate at dermal-epidermal junction on biopsy</rdfs:comment>
+  <markerType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Histopathological</markerType>
+  <markerDiagnosticUse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagnosis</markerDiagnosticUse>
+  <markerSensitivity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">95–100%</markerSensitivity>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Mark_8f53a0ea">
+  <rdf:type rdf:resource="#ClinicalBiomarker"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Active stand or tilt-table test</rdfs:label>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orthostatic heart rate increment ≥30 bpm (or ≥40 bpm in teens) within 10 min of standing</rdfs:comment>
+  <markerType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Physiological</markerType>
+  <markerDiagnosticUse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagnosis</markerDiagnosticUse>
+  <markerSensitivity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">100%</markerSensitivity>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Mark_c45c6145">
+  <rdf:type rdf:resource="#ClinicalBiomarker"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skin punch biopsy: intraepidermal nerve fiber density</rdfs:label>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reduced intraepidermal nerve fiber density on skin punch biopsy</rdfs:comment>
+  <markerType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Histopathological</markerType>
+  <markerDiagnosticUse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagnosis</markerDiagnosticUse>
+  <markerSensitivity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">85–95%</markerSensitivity>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Mark_7538a073">
+  <rdf:type rdf:resource="#ClinicalBiomarker"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Retinal angiography</rdfs:label>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Retinal perivascular cuffing, sheathing, and vascular leakage on angiography</rdfs:comment>
+  <markerType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Imaging</markerType>
+  <markerDiagnosticUse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagnosis</markerDiagnosticUse>
+  <markerSensitivity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">90–100%</markerSensitivity>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Mark_dff50b9a">
+  <rdf:type rdf:resource="#ClinicalBiomarker"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Postcoital test</rdfs:label>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Severely abnormal post-coital test (poor sperm motility and survival in cervical mucus)</rdfs:comment>
+  <markerType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cytological</markerType>
+  <markerDiagnosticUse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagnosis</markerDiagnosticUse>
+  <markerSensitivity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">75–85%</markerSensitivity>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Mark_79c52bf0">
+  <rdf:type rdf:resource="#ClinicalBiomarker"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Small intestinal biopsy</rdfs:label>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Total villous atrophy on small intestinal biopsy</rdfs:comment>
+  <markerType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Histopathological</markerType>
+  <markerDiagnosticUse rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagnosis</markerDiagnosticUse>
+  <markerSensitivity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">90–100%</markerSensitivity>
+  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
 </owl:NamedIndividual>
 
 
