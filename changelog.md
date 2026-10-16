@@ -1,5 +1,39 @@
 # Changelog
 
+## claude/ontology-individual-merging-262d74
+
+Reviews every set of individuals in `ari_t1d.owl` that share a label (case-insensitive): 428
+groups covering 4,192 of the 6,674 individuals. One is a true duplicate and is merged; the rest
+stay apart.
+
+- **Merged.** Raynaud's (`ARI:0001176`) listed "Bluish coloring of hands/feet" twice, as
+  `Sym_0001176_1700` and `Sym_0001176_1701`, with no other data on either. `_1701` and its
+  `hasSymptom` link are removed, and the disease gets an `ARI_ChangeLog` line. It is the only
+  group where the same disease holds two individuals that say the same thing.
+
+**Why the rest are not merged.** In this ontology an individual such as `Sym_0001006_74` is not
+"fatigue" in general. It is "fatigue in this disease", and it is where that disease's data sits.
+
+- **Shared label, different content (63 groups).** The label is a heading and the facts are in
+  the other properties: 1,085 pathway steps labelled "Step 1" to "Step 5", 371 epidemiology
+  figures labelled "Prevalence · US · All" and the like, and 515 etiologies labelled "Molecular
+  mimicry" that each name a different trigger (Coxsackievirus B4, Rubella, CMV ...). Others carry
+  values that differ by disease: anti-GAD65 is 70–80% in T1D, 90–100% in LADA and under 5% in
+  fulminant T1D, and 40 of 47 affected-cell groups have a different relevance per disease.
+  Merging would keep one value and lose the rest.
+- **Different classes (8 groups).** The same name on different kinds of thing: Epilepsy the
+  disease (`ARI:0001087`) and the symptom; the TSHR antigen and the antibody against it; MPO as a
+  NETosis component and as an antigen; dendritic cells as an APC and as an affected cell.
+- **Identical today (357 groups, 1,971 individuals, mostly symptoms and T cells).** These would
+  merge without loss now, but the editor assumes each one belongs to a single disease. Deleting
+  an item calls `destroy_entity`, so removing "Pain" from one disease would remove it from all 94
+  that list it. Editing writes on the individual, so a likelihood or an obsolete flag set for one
+  disease would show on every disease. Six of these groups also disagree on `ARI_Obsolete`.
+- **Symptom identity already has a home.** `notebook/symptom-mapping/ari_symptoms.owl` gives each
+  distinct symptom string one `ARIS:` concept and also merges 63 differently-worded synonyms that
+  label matching cannot find. Sharing across diseases should link each per-disease individual to
+  that concept rather than collapse them.
+
 ## claude/migrate-epidemiology-229
 
 Moves every disease's prevalence and incidence rates into figures, the shape the editor reads
