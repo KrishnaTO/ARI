@@ -1,4 +1,11 @@
-"""Import the master list's prevalence and incidence into ari_t1d.owl, for every disease that
+"""SUPERSEDED - kept as the record of the 2026-10-08 import; it refuses to run.
+
+The flat fields it writes were replaced by EpidemiologyProfile figures (#229): each rate is now an
+individual linked by hasEpidemiologyProfile, with epiMeasure, epiRegion, epiSex, epiRatePer100k
+and epiYear. Re-running it would write properties the ontology no longer declares and the editor
+ignores. Add new figures in the editor instead.
+
+Import the master list's prevalence and incidence into ari_t1d.owl, for every disease that
 report 10 matched. The sheet has a worldwide and a US figure, each marked incidence or
 prevalence:
 
@@ -21,6 +28,9 @@ from decimal import Decimal
 from xml.sax.saxutils import escape
 
 import openpyxl
+
+raise SystemExit('Superseded: prevalence and incidence are EpidemiologyProfile figures since #229. '
+                 'See the docstring.')
 
 MASTER, OWL_PATH, REPORT = sys.argv[1:4]
 SOURCE = 'ARI Master List 2026-10-08'
