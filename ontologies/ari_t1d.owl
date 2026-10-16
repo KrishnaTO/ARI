@@ -22963,7 +22963,6 @@ The development of psoriasis involves a complex cycle of immune activation and s
   <targetsTissue rdf:resource="#Tissue_VascularSystem"/>
   <hasSymptom rdf:resource="#Sym_0001176_1699"/>
   <hasSymptom rdf:resource="#Sym_0001176_1700"/>
-  <hasSymptom rdf:resource="#Sym_0001176_1701"/>
   <hasSymptom rdf:resource="#Sym_0001176_1702"/>
   <hasSymptom rdf:resource="#Sym_0001176_1703"/>
   <hasSymptom rdf:resource="#Sym_0001176_1704"/>
@@ -23018,6 +23017,7 @@ Secondary Raynaud's is a symptom experienced (and reported) by patients with aut
   <demographicBias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regions with very high prevalence: Worldwide (cold/temperate climates; primary RP in 3-5% of females; secondary tied to CTD)</demographicBias>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-15T12:40:37+00:00 | Leon Islas | Imported from ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 185: 5 associated diseases (6 linked to ARI diseases), demographic bias, 5 pathway steps.</ARI_ChangeLog>
   <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-15T16:44:19+00:00 | migration (#229) | Moved to prevalence &amp; incidence figures: Prevalence US 5587.0/100k; Prevalence Worldwide 4015.0/100k</ARI_ChangeLog>
+  <ARI_ChangeLog rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-10-16T12:00:00+00:00 | KrishnaTO | Merged duplicate symptom Sym_0001176_1701 into Sym_0001176_1700: both were "Bluish coloring of hands/feet" with no other data, listed twice on this disease.</ARI_ChangeLog>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001176_1699">
@@ -23027,12 +23027,6 @@ Secondary Raynaud's is a symptom experienced (and reported) by patients with aut
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Sym_0001176_1700">
-  <rdf:type rdf:resource="#Symptom"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bluish coloring of hands/feet</rdfs:label>
-  <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#Sym_0001176_1701">
   <rdf:type rdf:resource="#Symptom"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bluish coloring of hands/feet</rdfs:label>
   <ARI_Obsolete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">false</ARI_Obsolete>
