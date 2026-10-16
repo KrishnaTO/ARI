@@ -6,7 +6,9 @@
          xml:base="http://www.aurint.org/ontologies/ari-disease"
          xmlns="http://www.aurint.org/ontologies/ari-disease#">
 
-<owl:Ontology rdf:about="http://www.aurint.org/ontologies/ari-disease"/>
+<owl:Ontology rdf:about="http://www.aurint.org/ontologies/ari-disease">
+  <owl:imports rdf:resource="http://www.aurint.org/ontologies/ari_uberon"/>
+</owl:Ontology>
 
 <owl:ObjectProperty rdf:about="#hasParentDisease"/>
 
@@ -244,22 +246,30 @@
 
 <owl:Class rdf:about="#AnatomicalSystem">
   <rdfs:subClassOf rdf:resource="#MulticellularAnatomicalStructure"/>
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000467"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anatomical system</rdfs:label>
+  <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0000467</ARI_ID>
 </owl:Class>
 
 <owl:Class rdf:about="#EndocrineSystem">
   <rdfs:subClassOf rdf:resource="#AnatomicalSystem"/>
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000949"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Endocrine system</rdfs:label>
+  <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0000949</ARI_ID>
 </owl:Class>
 
 <owl:Class rdf:about="#Pancreas">
   <rdfs:subClassOf rdf:resource="#EndocrineSystem"/>
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001264"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pancreas</rdfs:label>
+  <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0001264</ARI_ID>
 </owl:Class>
 
 <owl:Class rdf:about="#IsletOfLangerhans">
   <rdfs:subClassOf rdf:resource="#Pancreas"/>
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000006"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Islet of Langerhans</rdfs:label>
+  <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0000006</ARI_ID>
 </owl:Class>
 
 <owl:Class rdf:about="#BetaCell">
@@ -373,32 +383,44 @@
 
 <owl:Class rdf:about="#Skin">
   <rdfs:subClassOf rdf:resource="#MulticellularAnatomicalStructure"/>
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002097"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skin</rdfs:label>
+  <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0002097</ARI_ID>
 </owl:Class>
 
 <owl:Class rdf:about="#Blood">
   <rdfs:subClassOf rdf:resource="#MulticellularAnatomicalStructure"/>
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000178"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Blood</rdfs:label>
+  <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0000178</ARI_ID>
 </owl:Class>
 
 <owl:Class rdf:about="#NervousSystem">
   <rdfs:subClassOf rdf:resource="#MulticellularAnatomicalStructure"/>
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001016"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nervous System</rdfs:label>
+  <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0001016</ARI_ID>
 </owl:Class>
 
 <owl:Class rdf:about="#VascularSystem">
   <rdfs:subClassOf rdf:resource="#MulticellularAnatomicalStructure"/>
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0007798"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vascular system</rdfs:label>
+  <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0007798</ARI_ID>
 </owl:Class>
 
 <owl:Class rdf:about="#Glands">
   <rdfs:subClassOf rdf:resource="#MulticellularAnatomicalStructure"/>
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002530"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glands</rdfs:label>
+  <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0002530</ARI_ID>
 </owl:Class>
 
 <owl:Class rdf:about="#ImmuneSystem">
   <rdfs:subClassOf rdf:resource="#MulticellularAnatomicalStructure"/>
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002405"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Immune System</rdfs:label>
+  <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0002405</ARI_ID>
 </owl:Class>
 
 <owl:Class rdf:about="#Systemic">
@@ -408,17 +430,23 @@
 
 <owl:Class rdf:about="#Musculoskeletal">
   <rdfs:subClassOf rdf:resource="#MulticellularAnatomicalStructure"/>
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002204"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Musculoskeletal</rdfs:label>
+  <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0002204</ARI_ID>
 </owl:Class>
 
 <owl:Class rdf:about="#Kidney">
   <rdfs:subClassOf rdf:resource="#MulticellularAnatomicalStructure"/>
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002113"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kidney</rdfs:label>
+  <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0002113</ARI_ID>
 </owl:Class>
 
 <owl:Class rdf:about="#Heart">
   <rdfs:subClassOf rdf:resource="#MulticellularAnatomicalStructure"/>
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000948"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heart</rdfs:label>
+  <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0000948</ARI_ID>
 </owl:Class>
 
 <owl:Class rdf:about="#AllTissues">
@@ -428,37 +456,51 @@
 
 <owl:Class rdf:about="#DigestiveSystem">
   <rdfs:subClassOf rdf:resource="#MulticellularAnatomicalStructure"/>
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001007"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Digestive system</rdfs:label>
+  <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0001007</ARI_ID>
 </owl:Class>
 
 <owl:Class rdf:about="#Liver">
   <rdfs:subClassOf rdf:resource="#MulticellularAnatomicalStructure"/>
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002107"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Liver</rdfs:label>
+  <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0002107</ARI_ID>
 </owl:Class>
 
 <owl:Class rdf:about="#Parathyroid">
   <rdfs:subClassOf rdf:resource="#MulticellularAnatomicalStructure"/>
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001132"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parathyroid</rdfs:label>
+  <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0001132</ARI_ID>
 </owl:Class>
 
 <owl:Class rdf:about="#Pituitary">
   <rdfs:subClassOf rdf:resource="#MulticellularAnatomicalStructure"/>
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000007"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pituitary</rdfs:label>
+  <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0000007</ARI_ID>
 </owl:Class>
 
 <owl:Class rdf:about="#Eye">
   <rdfs:subClassOf rdf:resource="#MulticellularAnatomicalStructure"/>
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000970"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eye</rdfs:label>
+  <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0000970</ARI_ID>
 </owl:Class>
 
 <owl:Class rdf:about="#Lungs">
   <rdfs:subClassOf rdf:resource="#MulticellularAnatomicalStructure"/>
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002048"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lungs</rdfs:label>
+  <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0002048</ARI_ID>
 </owl:Class>
 
 <owl:Class rdf:about="#Bladder">
   <rdfs:subClassOf rdf:resource="#MulticellularAnatomicalStructure"/>
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001255"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bladder</rdfs:label>
+  <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0001255</ARI_ID>
 </owl:Class>
 
 <owl:Class rdf:about="#MetabolicSystem">
@@ -468,7 +510,9 @@
 
 <owl:Class rdf:about="#ThyroidGland">
   <rdfs:subClassOf rdf:resource="#MulticellularAnatomicalStructure"/>
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002046"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thyroid gland</rdfs:label>
+  <ARI_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0002046</ARI_ID>
 </owl:Class>
 
 <owl:NamedIndividual rdf:about="#Tissue_BetaCell">
