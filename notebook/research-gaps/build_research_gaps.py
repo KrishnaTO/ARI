@@ -2,7 +2,7 @@
 say for each disease and field what is still to be researched.
 
 Published   - ontologies/ari_t1d.owl, the record the editor serves
-Data model  - data_model/Immuno-data-model-v3.xlsx (the field list below follows it row by row)
+Data model  - data_model/Immuno-data-model-v4.xlsx (the field list below follows it row by row)
 Not yet imported, but already in the repository:
   master    - ALPHABETICAL sheet of data/1-master/ARI Master List - 2026-10-08.xlsx, matched to ARI
               IDs through the Disease Match sheet of report 10
@@ -330,7 +330,7 @@ def synonyms(el, ari):
     return RESEARCH, ""
 
 
-# (group, data-model field, check). Group and field names follow Immuno-data-model-v3.xlsx;
+# (group, data-model field, check). Group and field names follow Immuno-data-model-v4.xlsx;
 # the first two rows are the core annotations of data/instructions.md.
 FIELDS = [
     ("Core record", "Definition", definition),
@@ -350,6 +350,8 @@ FIELDS = [
     ("Clinical Profile", "Cardinal Symptoms", symptoms),
     ("Clinical Profile", "Objective Signs", objective_signs),
     ("Clinical Profile", "Case Reports", case_reports),
+    ("Clinical Profile", "Clinical Biomarkers",
+     by_link("hasBiomarker", note="Autoantibodies are listed under Antibodies; lab, biopsy, imaging and physiological tests are missing")),
     ("Epidemiology", "Prevalence", prevalence),
     ("Epidemiology", "Demographic Bias", demographic_bias),
     ("Pathogenesis", "Hypersensitivity Type", nothing("No field yet (Gell-Coombs Type I-IV)")),
@@ -359,8 +361,6 @@ FIELDS = [
      nothing("No field yet (sibling relative risk, twin concordance, familial aggregation)")),
     ("Etiology", "HLA Gene Region", genetic("HLAAssociation", "HLA association(s)")),
     ("Etiology", "Gene Region / Polymorphisms", genetic("GeneVariant", "gene variant(s)")),
-    ("Biomarkers", "Serological Markers",
-     by_link("hasBiomarker", note="Autoantibodies are listed under Antibodies; complement, CRP etc. are missing")),
     ("Innate Immune Component", "Innate Receptors", by_link("involvesInnateComponent")),
     ("Innate Immune Component", "Complement", by_link("involvesComplement")),
     ("Innate Immune Component", "Acute Phase Reactants", by_link("involvesAcutePhaseReactant")),
@@ -471,7 +471,7 @@ for s in STATUSES:
     ws.cell(ws.max_row, 1).fill = FILL[s]
 ws.append([])
 for line in [
-    "Fields follow data_model/Immuno-data-model-v3.xlsx; Definition and its source are the core annotations of data/instructions.md.",
+    "Fields follow data_model/Immuno-data-model-v4.xlsx; Definition and its source are the core annotations of data/instructions.md.",
     "'No field yet' means ari_t1d.owl declares no property for the data-model field, so a value cannot be published until one is added.",
     "Gene Region and the two Gene Polymorphisms rows of the data model are one column here: ARI stores all three as GeneVariant.",
     "Published values are checked for presence only, not correctness. Evidence Quality and Disease Type are also checked against the data model's allowed values.",
