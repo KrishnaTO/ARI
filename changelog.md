@@ -26,6 +26,126 @@ apart from the IDs it now shows.
 - `notebook/category-uberon.csv`, the older automated match list, is superseded. Skin moves from
   *zone of skin* to *skin of body*.
 
+## claude/ontology-individual-merging-262d74
+
+Reviews every set of individuals in `ari_t1d.owl` that share a label (case-insensitive): 428
+groups covering 4,192 of the 6,674 individuals. One is a true duplicate and is merged; the rest
+stay apart.
+
+- **Merged.** Raynaud's (`ARI:0001176`) listed "Bluish coloring of hands/feet" twice, as
+  `Sym_0001176_1700` and `Sym_0001176_1701`, with no other data on either. `_1701` and its
+  `hasSymptom` link are removed, and the disease gets an `ARI_ChangeLog` line. It is the only
+  group where the same disease holds two individuals that say the same thing.
+
+**Why the rest are not merged.** In this ontology an individual such as `Sym_0001006_74` is not
+"fatigue" in general. It is "fatigue in this disease", and it is where that disease's data sits.
+
+- **Shared label, different content (63 groups).** The label is a heading and the facts are in
+  the other properties: 1,085 pathway steps labelled "Step 1" to "Step 5", 371 epidemiology
+  figures labelled "Prevalence · US · All" and the like, and 515 etiologies labelled "Molecular
+  mimicry" that each name a different trigger (Coxsackievirus B4, Rubella, CMV ...). Others carry
+  values that differ by disease: anti-GAD65 is 70–80% in T1D, 90–100% in LADA and under 5% in
+  fulminant T1D, and 40 of 47 affected-cell groups have a different relevance per disease.
+  Merging would keep one value and lose the rest.
+- **Different classes (8 groups).** The same name on different kinds of thing: Epilepsy the
+  disease (`ARI:0001087`) and the symptom; the TSHR antigen and the antibody against it; MPO as a
+  NETosis component and as an antigen; dendritic cells as an APC and as an affected cell.
+- **Identical today (357 groups, 1,971 individuals, mostly symptoms and T cells).** These would
+  merge without loss now, but the editor assumes each one belongs to a single disease. Deleting
+  an item calls `destroy_entity`, so removing "Pain" from one disease would remove it from all 94
+  that list it. Editing writes on the individual, so a likelihood or an obsolete flag set for one
+  disease would show on every disease. Six of these groups also disagree on `ARI_Obsolete`.
+- **Symptom identity already has a home.** `notebook/symptom-mapping/ari_symptoms.owl` gives each
+  distinct symptom string one `ARIS:` concept and also merges 63 differently-worded synonyms that
+  label matching cannot find. Sharing across diseases should link each per-disease individual to
+  that concept rather than collapse them.
+## claude/research-gaps-epidemiology
+
+Points report 12's Prevalence check at the epidemiology figures and regenerates the report.
+
+**Why.** `claude/migrate-epidemiology-229` moved every rate into `EpidemiologyProfile` figures
+and removed the flat fields, but `build_research_gaps.py` still looked for them. A rebuild would
+have shown the 211 diseases with rates as text-only Partial, which is why the clinical-biomarkers
+change held off regenerating the report.
+
+- **Prevalence check.** A disease is Published when at least one figure linked by
+  `hasEpidemiologyProfile` has an `epiRatePer100k`; the note lists the figures' labels
+  (e.g. "Prevalence · US · All"). Text only in `ARI_PrevalenceDesc` is still Partial.
+- **Report 12 regenerated.** Prevalence: 211 Published, 9 Partial, 7 Research. Clinical
+  Biomarkers: 11 Published (the 10 diseases from the clinical-biomarkers change, plus T1D).
+- **`import_prevalence.py` is superseded**, not rewritten. Its 2026-10-08 import already landed
+  and was migrated into figures; re-running it would write properties the ontology no longer
+  declares. It is kept as the record of that import and exits immediately. New figures are
+  added in the editor.
+- **`data/4-reports/README.md`** describes that import in the past tense and points at the
+  figure shape instead of the flat field names.
+
+## claude/clinical-biomarkers-model-1e02a3
+
+Adds **clinical biomarkers** to the data model: the tests a physician can order to diagnose each
+disease. The existing biomarker slot was widened rather than adding a new one. The class
+`BiochemicalMarker` is renamed `ClinicalBiomarker` and stays linked by `hasBiomarker`. Twelve
+test findings that the ARI#132 symptom review retired are rebuilt as biomarkers on their 10
+diseases.
+
+**Why.** Until now only Type 1 diabetes used `hasBiomarker`, for six blood analytes. The data
+model filed biomarkers under *Disposition*, with serum-only "Serological Markers", so biopsy,
+imaging and physiological tests had nowhere to go. They ended up as symptoms, and
+`issue-132/retire-non-symptoms` could only fold them into disease descriptions.
+
+- **Data model.** `data_model/Immuno-data-model-v4.xlsx` moves the field to *Scientific Data →
+  Clinical Profile* as **Clinical Biomarkers**, beside Cardinal Symptoms, Objective Signs and Case
+  Reports. Objective Signs now means findings on physical examination; test results are
+  biomarkers. `immunological_data_model.owl` makes `ClinicalBiomarker` a `ClinicalFeature` and
+  drops `Biomarker`, `SerologicalMarker` and `hasSerologicalMarker`, since serology is now one value
+  of `markerType`. v3 is kept, as v1 and v2 were. `immunological_data_model_snapshot.png` still
+  shows the old class.
+- **New fields** in `ontologies/ari_t1d.owl`, all strings:
+  - `markerType`: Serological, Biochemical, Cytological, Histopathological, Imaging or
+    Physiological.
+  - `markerSensitivity` and `markerSpecificity`: a percentage or a range such as "70–85%". In the
+    data-model OWL they change from decimal to string, because the curated values are ranges.
+  - `loincCode`: the test's LOINC code.
+  
+  The six T1D markers get `markerType` Biochemical.
+- **Autoantibodies stay in `hasAntibody`.** Its 358 links already carry `antibodyDiagnosticValue`,
+  so a physician-facing list of diagnostic tests reads both properties. That is why the retired
+  "Donath-Landsteiner biphasic hemolysin antibody positivity" is not rebuilt: paroxysmal cold
+  hemoglobinuria already lists the antibody.
+- **Twelve biomarkers from retired symptoms.** The label names the test, and the comment keeps the
+  symptom's wording word for word, as the T1D markers keep their threshold there. The symptom's
+  `likelihood` becomes `markerSensitivity`, because it is the share of patients with the finding.
+  `markerDiagnosticUse` is Diagnosis. The retired symptoms stay retired. Each disease gets an
+  `ARI_ChangeLog` line naming the symptom it came from.
+
+| Disease | Biomarker | Type | Sensitivity |
+|---|---|---|---|
+| Autoimmune aortitis `ARI:0001219` | Aortic imaging | Imaging | 70–85% |
+| Autoimmune necrotizing myopathy `ARI:0001039` | Serum creatine kinase | Biochemical | 95–100% |
+| Infertility associated with antisperm antibodies `ARI:0001227` | Postcoital test | Cytological | 70–85% |
+| | Semen analysis: sperm agglutination | Cytological | 70–80% |
+| | Semen analysis: sperm motility | Cytological | 65–75% |
+| Autoimmune pulmonary alveolar proteinosis `ARI:0001045` | Bronchoalveolar lavage fluid | Cytological | 95–100% |
+| Bullous SLE `ARI:0001058` | Skin biopsy | Histopathological | 95–100% |
+| POTS `ARI:0001164` | Active stand or tilt-table test | Physiological | 100% |
+| Small fiber neuropathy `ARI:0001191` | Skin punch biopsy: intraepidermal nerve fiber density | Histopathological | 85–95% |
+| Autoimmune retinal vasculitis `ARI:0001046` | Retinal angiography | Imaging | 90–100% |
+| Female infertility due to antisperm antibodies `ARI:0001094` | Postcoital test | Cytological | 75–85% |
+| Autoimmune enteropathy `ARI:0001220` | Small intestinal biopsy | Histopathological | 90–100% |
+
+- **Not moved.** Exam findings (normal motor examination, absence of orthostatic hypotension) are
+  Objective Signs, which have no property yet. Treatment response (IVIG refractoriness) and the IVF
+  fertilization failure are not tests a physician orders to diagnose.
+- **Disease descriptions are unchanged.** The sentences that `issue-132/retire-non-symptoms` added
+  for these findings still repeat what the biomarkers now hold.
+- **Report 12.** `build_research_gaps.py` now reads the field as *Clinical Profile → Clinical
+  Biomarkers* and follows v4. The report itself is not regenerated: its prevalence check still reads
+  the flat rates that `claude/migrate-epidemiology-229` removed, so a rebuild now would wrongly mark
+  most diseases' prevalence as missing.
+- **The editor needs a matching change.** It reads markers through `hasBiomarker`, so existing
+  ones still show. But it creates new ones as `BiochemicalMarker` and doesn't show the new fields
+  until the matching `ARI-metadata-manager` change lands.
+
 ## claude/migrate-epidemiology-229
 
 Moves every disease's prevalence and incidence rates into figures, the shape the editor reads
