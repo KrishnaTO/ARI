@@ -1,5 +1,14 @@
 # Changelog
 
+## claude/ontology-file-structure-23209b
+
+Design for splitting the ontology into modules (core, disease, symptoms, anatomy, biomarkers), in
+`docs/superpowers/specs/2026-10-18-ontology-modules-design.md`. Nothing is built by this branch.
+It records the user's decisions (shared concept classes, one `sharedConcept` link, the OWL files as
+the record) and the delivery order: Project 0 puts every `ontologies/*.owl` in one canonical layout
+so the app, Protégé and scripts can all write any file without reformatting churn; Projects 1-3 are
+the split, biomarker concepts, and cell/tissue concepts.
+
 ## claude/symptom-concept-links
 
 Links each per-disease Symptom individual to its shared symptom. "Fatigue" in 76 diseases can now
