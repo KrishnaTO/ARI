@@ -52,6 +52,11 @@ build product and belongs with the code that builds it — even when it is tabul
   mapping files against each other and against the ontology. It needs only the standard library:
   `python .github/scripts/validate_mappings.py`, or `--since main` for only what a branch changed.
   `Validate mappings` gates pull requests; `Audit mappings` sweeps everything on Mondays.
+- **Every `ontologies/*.owl` is in one canonical layout**, written by `tools/format-owl.sh` (ROBOT,
+  pinned in `tools/robot.version`); the `OWL format` workflow rejects a file that is not. Read and
+  edit the ontology as XML, never by line or regex, and run the formatter (or commit through
+  `.githooks/pre-commit`) after any write. In this checkout Java 11+ is in WSL, not Windows:
+  `wsl -e tools/format-owl.sh <file>`.
 - The SSSOM header is shared with the app's writer. `SSSOM_COLUMNS` here and `SSSOM_COLS` in the
   app's `app/sssom_service.py` must agree, or every curator publish fails the header check.
 - Prefer the curated master list as the source of truth. Keep changes surgical and on one data path

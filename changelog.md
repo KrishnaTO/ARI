@@ -1,5 +1,36 @@
 # Changelog
 
+## ontology-formatter
+
+Puts every `ontologies/*.owl` in one canonical layout, so the app (owlready2), Protégé and
+scripts can all write the ontology without each save re-laying-out the file. Before this, a
+one-synonym publish could move about 1,100 lines (ARI#105), the app's line splice only worked on
+its own layout, and a Protégé save would have re-laid-out all 65,000 lines. Now the same content
+always has the same bytes, and a diff shows only what changed. Project 0 of the ontology modules
+design (`docs/superpowers/specs/2026-10-18-ontology-modules-design.md`).
+
+- `tools/format-owl.sh` runs ROBOT `convert` at the release pinned in `tools/robot.version`
+  (1.9.11, jar sha256 checked). `--check` exits 1 when a file would change. It downloads the jar
+  to `.cache/robot/` on first use and needs Java 11+.
+- `ontologies/catalog-v001.xml` resolves the `ari_uberon` import locally, for ROBOT and Protégé.
+- `.githooks/pre-commit` formats staged `ontologies/*.owl` (install with
+  `git config core.hooksPath .githooks`). It refuses when a staged file also has unstaged
+  changes, since it rewrites the whole file.
+- New `OWL format` workflow: a pull request touching `ontologies/` or `tools/` fails when any
+  file is not in the canonical layout.
+- `.gitattributes` keeps `*.owl`, `*.sh` and the hooks LF on every platform. The formatter writes
+  LF, and bash cannot run a CRLF script.
+- `validate_mappings.py` reads the ontology as XML (expat) instead of matching lines, so any
+  layout reads the same. With `--since`, an ontology finding is new only when the statement on
+  its line (subject, property, value) is new, so the reformat commit reports nothing. Its
+  findings are unchanged: 228 diseases, the same annotations and line numbers on today's file,
+  the same values on the formatted file.
+- `build_symptom_mapping.py` and `build_uberon_import.py` edit `ari_t1d.owl` as XML and leave the
+  layout to the formatter. Run on either layout and then formatted, both reproduce today's file
+  byte for byte.
+- One commit re-lays-out `ari_t1d.owl` and `ari_uberon.owl` and changes nothing else: ROBOT
+  `diff` reports the ontologies identical.
+
 ## claude/symptom-concept-links
 
 Links each per-disease Symptom individual to its shared symptom. "Fatigue" in 76 diseases can now

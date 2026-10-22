@@ -26,6 +26,7 @@ The database folder is not tracked in git, so pass the path of a checkout holdin
 """
 import collections, csv, os, re, sys
 import xml.etree.ElementTree as ET
+from urllib.parse import urljoin
 from xml.sax.saxutils import escape, quoteattr
 
 import openpyxl
@@ -101,23 +102,36 @@ def read_hp(path):
     return terms, version
 
 
+def resolve(ref):
+    """Absolute IRI of an rdf:about / rdf:resource, which may be relative to the file's xml:base."""
+    return urljoin(ARI_BASE, ref)
+
+
+def parse_ontology():
+    """ari_t1d.owl as an ElementTree, its namespace prefixes registered so a rewrite keeps them."""
+    for _, (prefix, uri) in ET.iterparse(ONTOLOGY, events=["start-ns"]):
+        ET.register_namespace(prefix, uri)
+    return ET.parse(ONTOLOGY)
+
+
 def read_ontology_symptoms():
     """Symptom individual IRI -> label, and label -> ARI IDs of the diseases that list it.
 
-    Individuals are written either as owl:NamedIndividual with rdf:type #Symptom or as a typed
+    Individuals are written either as owl:NamedIndividual with rdf:type Symptom or as a typed
     <Symptom> element, so both forms are read.
     """
-    root = ET.parse(ONTOLOGY).getroot()
+    root = parse_ontology().getroot()
+    symptom = ARI_BASE + "#Symptom"
     labels = {}
     for ind in root:
         typed = ind.tag == "{%s#}Symptom" % ARI_BASE
-        if typed or any(t.get(RDF + "resource") == "#Symptom" for t in ind.findall(RDF + "type")):
-            labels[ind.get(RDF + "about")] = ind.findtext(RDFS + "label").strip()
+        if typed or any(resolve(t.get(RDF + "resource")) == symptom for t in ind.findall(RDF + "type")):
+            labels[resolve(ind.get(RDF + "about"))] = ind.findtext(RDFS + "label").strip()
     diseases = collections.defaultdict(set)
     for ind in root:
         ari_id = ind.findtext("{*}ARI_ID")
         for ref in ind.findall("{*}hasSymptom"):
-            diseases[labels[ref.get(RDF + "resource")]].add(ari_id)
+            diseases[labels[resolve(ref.get(RDF + "resource"))]].add(ari_id)
     return labels, diseases
 
 
@@ -316,32 +330,29 @@ def write_owl(rows, by_name, symp, versions):
 def write_ontology_links(by_name, individuals):
     """Set symptomConcept on every Symptom individual in ari_t1d.owl from its label's row.
 
-    Edits the file line by line so nothing else in it moves: a symptomConcept line inside a Symptom
-    individual is dropped, and the one its label maps to is written after its rdfs:label.
+    Each Symptom individual's symptomConcept is replaced by the one its label maps to. The file
+    is rewritten as XML; commit it through the pre-commit hook (or run tools/format-owl.sh), which
+    puts it back in the canonical layout so only the changed links show in the diff.
     """
-    text = open(ONTOLOGY, encoding="utf-8", newline="").read()
-    if '<owl:AnnotationProperty rdf:about="#symptomConcept">' not in text:
+    tree = parse_ontology()
+    root = tree.getroot()
+    concept = "{%s#}symptomConcept" % ARI_BASE
+    if not any(resolve(p.get(RDF + "about")) == ARI_BASE + "#symptomConcept"
+               for p in root.findall(OWL + "AnnotationProperty")):
         raise SystemExit(f"{ONTOLOGY} does not declare the symptomConcept annotation property")
-    opening = re.compile(r'<[\w:]+ rdf:about="(#[^"]+)">')
-    out, current, linked = [], None, 0
-    for line in text.splitlines(keepends=True):
-        match = opening.match(line)
-        if match and match.group(1) in individuals:
-            current = match.group(1)
-        elif current and line.startswith("</"):
-            current = None
-        if current and line.lstrip().startswith("<symptomConcept "):
+    linked = 0
+    for ind in root:
+        about = ind.get(RDF + "about")
+        if about is None or resolve(about) not in individuals:
             continue
-        out.append(line)
-        if current and line.lstrip().startswith("<rdfs:label"):
-            r = by_name[individuals[current]]
-            target = by_name[r["Merged Into"]] if r["Merged Into"] else r
-            if target["Mapping"] in MAPPED:
-                ending = line[len(line.rstrip("\r\n")):]
-                out.append(f'  <symptomConcept rdf:resource={quoteattr(aris_iri(target["Symptom ID"]))}/>{ending}')
-                linked += 1
-    with open(ONTOLOGY, "w", encoding="utf-8", newline="") as f:
-        f.write("".join(out))
+        for old in ind.findall(concept):
+            ind.remove(old)
+        r = by_name[individuals[resolve(about)]]
+        target = by_name[r["Merged Into"]] if r["Merged Into"] else r
+        if target["Mapping"] in MAPPED:
+            ET.SubElement(ind, concept, {RDF + "resource": aris_iri(target["Symptom ID"])})
+            linked += 1
+    tree.write(ONTOLOGY, encoding="utf-8", xml_declaration=True)
     return linked
 
 

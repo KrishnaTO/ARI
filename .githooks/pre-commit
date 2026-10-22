@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+# Formats staged ontologies/*.owl in the canonical layout before the commit is made, so a file
+# saved by Protégé or written by a script commits the same bytes the app would publish.
+# Install once per clone:  git config core.hooksPath .githooks
+set -euo pipefail
+
+mapfile -t files < <(git diff --cached --name-only --diff-filter=ACMR -- 'ontologies/*.owl')
+[ ${#files[@]} -eq 0 ] && exit 0
+
+partial=$(git diff --name-only -- "${files[@]}")
+if [ -n "$partial" ]; then
+  echo "pre-commit: these files have unstaged changes; the formatter rewrites the whole file," >&2
+  echo "so stage all of it (git add) or stash the rest first:" >&2
+  echo "$partial" >&2
+  exit 1
+fi
+
+tools/format-owl.sh "${files[@]}"
+git add -- "${files[@]}"

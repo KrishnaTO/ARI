@@ -1,0 +1,5 @@
+# The ROBOT release that defines the canonical layout of ontologies/*.owl.
+# Changing it reformats every file: bump it in its own PR, with the reformat commit.
+# The app's deploy/install-robot.sh pins the same two values.
+ROBOT_VERSION=1.9.11
+ROBOT_SHA256=53cd275c8e4c0dad1fc2c1c34174876795cd7d6b6926e1444adcbb0cb3c7ab26

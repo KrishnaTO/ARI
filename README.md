@@ -96,6 +96,7 @@ Add `--since main` to report only the rows a branch changed. Two workflows run i
 | --- | --- | --- |
 | `Validate mappings` | pull requests touching `mappings/` or `ontologies/` | rows the branch added or rewrote — fails the check |
 | `Audit mappings` | Mondays 07:00 UTC, or on demand | every row, so the standing backlog stays visible |
+| `OWL format` | pull requests touching `ontologies/` or `tools/` | every `ontologies/*.owl` is in the canonical layout (see below) |
 
 What it catches:
 
@@ -121,6 +122,39 @@ What it catches:
   A disease is renumbered by changing its `ARI_ID` and adding an `ARI_FormerID` holding the
   old one, so the deletion check follows the record to its new id. `ARI_FormerID` is
   append-only, and a former id may not still be in use.
+
+The validator reads the ontology as XML, not line by line, so it works on any RDF/XML
+layout. With `--since`, an ontology finding counts as new only when the statement on its
+line (subject, property, value) is new, so re-laying-out the file reports nothing.
+
+## Canonical OWL layout
+
+The app (owlready2), Protégé and scripts each write RDF/XML in their own layout. So that
+a diff only ever shows content, every `ontologies/*.owl` is kept in one layout: the one
+[ROBOT](https://robot.obolibrary.org/) writes, at the version pinned in
+[`tools/robot.version`](tools/robot.version). Same content, same bytes, whichever tool
+saved the file.
+
+```bash
+tools/format-owl.sh ontologies/ari_t1d.owl          # format in place
+tools/format-owl.sh --check ontologies/*.owl        # exit 1 if any would change
+```
+
+It needs Java 11 or newer on `PATH` (Protégé's bundled Java does not count), and it
+downloads the pinned ROBOT jar into `.cache/robot/` on first use. Imports resolve
+through [`ontologies/catalog-v001.xml`](ontologies/catalog-v001.xml), which Protégé
+also reads.
+
+| Where | What runs |
+| --- | --- |
+| Your clone | The pre-commit hook formats any staged `ontologies/*.owl`. Install it once: `git config core.hooksPath .githooks` |
+| The editor app | Formats the file before it pushes a curator's PR branch |
+| `OWL format` workflow | Pull requests touching `ontologies/` or `tools/` — fails if a file is not in the canonical layout |
+
+If the check fails, run `tools/format-owl.sh` on the file it names and push again.
+Scripts that change the ontology edit it as XML and leave the layout to the formatter.
+Bumping `tools/robot.version` re-lays-out every file, so do it in its own PR with that
+reformat commit, and bump the app's `deploy/install-robot.sh` to the same release.
 
 ## Working rules
 
