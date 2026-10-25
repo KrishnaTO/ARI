@@ -184,6 +184,7 @@ SYMPTOM_CLASS = ARI_DISEASE_BASE + "Symptom"
 # ARI_NoConcept why it links none ("not a symptom", "no term", "not linked").
 SHARED_CONCEPT = ARI_DISEASE_BASE + "sharedConcept"
 NO_CONCEPT = ARI_DISEASE_BASE + "ARI_NoConcept"
+NO_CONCEPT_VALUES = ("not a symptom", "no term", "not linked")
 UBERON = "http://purl.obolibrary.org/obo/UBERON_"
 
 
@@ -1261,10 +1262,14 @@ def filter_to_changes(findings: list[Finding], ref: str) -> list[Finding]:
 
 
 def is_symptom_link_finding(finding: Finding) -> bool:
-    """A finding that holds a Symptom's link up against the symptoms module."""
-    return (
-        finding.code.startswith("symptom-concept-")
-        or finding.code in ("symptom-decided-and-linked", "symptom-unmapped", "shared-concept-target-missing")
+    """A finding that holds a Symptom's link up against the symptoms module,
+    or a label or id the symptoms module gives to two classes."""
+    return finding.code.startswith("symptom-concept-") or finding.code in (
+        "symptom-decided-and-linked",
+        "symptom-unmapped",
+        "shared-concept-target-missing",
+        "concept-label-ambiguous",
+        "concept-id-repeated",
     )
 
 
@@ -1347,31 +1352,41 @@ def concept_labels(path: str, text: str, report: Report) -> dict[str, str]:
     This is the lookup a Symptom individual's label goes through, so a string
     that names two classes would link whichever came first. The same
     `oboInOwl:id` on two classes is the same fault one level up.
+
+    Both faults are reported on the line of every class that carries the
+    string: the `--since` gate keeps a finding only when its line changed, and
+    the branch may have added the string to either class.
     """
-    labels: dict[str, str] = {}
-    ids: dict[str, str] = {}
+    label_lines: dict[str, list] = collections.defaultdict(list)  # value -> [(class, line)]
+    id_lines: dict[str, list] = collections.defaultdict(list)
     for entity in read_entities(text):
         if OWL_CLASS not in entity.types:
             continue
         for prop, value, line in entity.statements:
             if prop in (RDFS_LABEL, SKOS_ALT_LABEL):
-                owner = labels.setdefault(value, entity.iri)
-                if owner != entity.iri:
-                    report.error(
-                        "concept-label-ambiguous", path, line,
-                        f"{value!r} is a label of both {owner} and {entity.iri}, so a Symptom "
-                        f"with that label cannot tell which one it means. Remove it from one of "
-                        f"them in {path}, or merge the two classes.",
-                    )
+                label_lines[value].append((entity.iri, line))
             elif prop == OBOINOWL_ID:
-                owner = ids.setdefault(value, entity.iri)
-                if owner != entity.iri:
-                    report.error(
-                        "concept-id-repeated", path, line,
-                        f"oboInOwl:id {value!r} is on both {owner} and {entity.iri}. Give each "
-                        f"class its own id in {path}.",
-                    )
-    return labels
+                id_lines[value].append((entity.iri, line))
+    for value, carriers in label_lines.items():
+        owners = list(dict.fromkeys(iri for iri, _ in carriers))
+        if len(owners) > 1:
+            for _, line in carriers:
+                report.error(
+                    "concept-label-ambiguous", path, line,
+                    f"{value!r} is a label of {', '.join(owners)}, so a Symptom with that label "
+                    f"cannot tell which one it means. Remove it from all but one of them in "
+                    f"{path}, or merge the classes.",
+                )
+    for value, carriers in id_lines.items():
+        owners = list(dict.fromkeys(iri for iri, _ in carriers))
+        if len(owners) > 1:
+            for _, line in carriers:
+                report.error(
+                    "concept-id-repeated", path, line,
+                    f"oboInOwl:id {value!r} is on {', '.join(owners)}. Give each class its own "
+                    f"id in {path}.",
+                )
+    return {value: carriers[0][0] for value, carriers in label_lines.items()}
 
 
 def check_symptom_concepts(disease_text: str, labels: dict[str, str], report: Report) -> None:
@@ -1515,6 +1530,23 @@ def check_tissue_links(texts: dict[str, str], report: Report) -> None:
             )
 
 
+def check_no_concept_values(texts: dict[str, str], report: Report) -> None:
+    """ARI_NoConcept holds one of its three decisions, spelled exactly.
+
+    The app, the reports and the checks above compare the value as a string, so
+    a variant spelling reads as a decision nobody can act on.
+    """
+    for path in ARI_OWNED:
+        for entity in read_entities(texts[path]):
+            for value, line in entity.values(NO_CONCEPT):
+                if value not in NO_CONCEPT_VALUES:
+                    report.error(
+                        "no-concept-value", path, line,
+                        f"{entity.iri} has ARI_NoConcept {value!r}. It must be exactly one of "
+                        + ", ".join(repr(v) for v in NO_CONCEPT_VALUES) + ".",
+                    )
+
+
 def load_modules(report: Report) -> dict[str, str] | None:
     """Text of every ARI-owned module, or None when one cannot be read as XML."""
     texts: dict[str, str] = {}
@@ -1545,6 +1577,7 @@ def check_modules(texts: dict[str, str], report: Report) -> None:
     check_property_declarations(texts, report)
     check_module_subjects(texts, report)
     check_tissue_links(texts, report)
+    check_no_concept_values(texts, report)
 
 
 def main() -> int:

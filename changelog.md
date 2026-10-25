@@ -36,6 +36,12 @@ cutover, since the app reads the new files and the old app cannot read these.
   `concept-id-repeated`, `symptom-decided-and-linked` and `tissue-unlinked`. With `--since`, a
   change to `ari_symptoms.owl` re-checks every symptom link, since one new label can change what
   many individuals link.
+- **A duplicate concept label or id is reported on every class that carries it**, and a change to
+  `ari_symptoms.owl` keeps those findings under `--since`. Reported only on the later class, a PR
+  that added the duplicate to an earlier class passed the gate, and the app cannot load an
+  ontology with an ambiguous label. New check `no-concept-value`: `ARI_NoConcept` in any ARI-owned
+  module must be exactly `not a symptom`, `no term` or `not linked`, since everything that reads
+  it compares the string.
 - **Builders are slice extractors.** `build_uberon_import.py` writes only `ari_uberon.owl`, from the
   UBERON links in `ari_anatomy.owl`. `build_symp_import.py` (renamed from
   `build_symptom_mapping.py`) writes only `ari_symp.owl`, from the SYMP links in `ari_symptoms.owl`,
