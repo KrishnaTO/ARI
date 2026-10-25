@@ -1218,6 +1218,11 @@ def filter_to_changes(findings: list[Finding], ref: str) -> list[Finding]:
     TSV findings compare line text. Ontology findings, in any module, compare
     the statement on the finding's line, (subject, property, value), so
     re-laying-out the file changes nothing here.
+
+    One exception: when the symptoms module differs from `ref`, every symptom
+    link finding is kept. A label or altLabel moving between classes changes
+    what every link should be without touching a disease line, so the lines
+    cannot say which findings the branch caused.
     """
     baselines: dict[str, set | None] = {}
     currents: dict[str, list | dict] = {}
@@ -1250,7 +1255,17 @@ def filter_to_changes(findings: list[Finding], ref: str) -> list[Finding]:
             continue
         if lines[finding.line - 1] not in baseline:
             kept.append(finding)
+    if baseline_text(ref, SYMPTOMS_PATH) != current_text(SYMPTOMS_PATH):
+        kept += [f for f in findings if f not in kept and is_symptom_link_finding(f)]
     return kept
+
+
+def is_symptom_link_finding(finding: Finding) -> bool:
+    """A finding that holds a Symptom's link up against the symptoms module."""
+    return (
+        finding.code.startswith("symptom-concept-")
+        or finding.code in ("symptom-decided-and-linked", "symptom-unmapped", "shared-concept-target-missing")
+    )
 
 
 def annotate(finding: Finding) -> str:
@@ -1365,33 +1380,41 @@ def check_symptom_concepts(disease_text: str, labels: dict[str, str], report: Re
     The label is the key: a class in ari_symptoms.owl carries the label or an
     `skos:altLabel`, and sharedConcept is that lookup applied to each
     per-disease individual. `ARI_NoConcept` is the curator's decision that a
-    string links nothing. Findings sit on the label line, since a renamed label
-    is what leaves a link stale. A label with no class yet, or one that names a
-    class and is not linked yet, is a warning: the curator added a symptom and
-    the concept module catches up. A link that disagrees with the label is an
-    error.
+    string links nothing. A label with no class yet, or one that names a class
+    and is not linked yet, is a warning: the curator added a symptom and the
+    concept module catches up. A link that disagrees with the label is an error.
+
+    Where a finding sits decides whether the `--since` gate sees it, so it sits
+    on every statement that could have caused it: a mismatch on the label line
+    (a rename leaves the link stale) and on the link line (a repoint); repeated
+    links on each link line; a decision that clashes with a link on the
+    ARI_NoConcept line and each link line. A label with no class or no link
+    sits on the label line alone, as the label is what has no match.
     """
     for entity in read_entities(disease_text):
         if SYMPTOM_CLASS not in entity.types:
             continue
         names = entity.values(RDFS_LABEL)
         label, line = names[-1] if names else (None, entity.line)
-        concepts = [value for value, _ in entity.values(SHARED_CONCEPT)]
+        links = entity.values(SHARED_CONCEPT)
+        concepts = [value for value, _ in links]
         decided = entity.values(NO_CONCEPT)
         if len(concepts) > 1:
-            report.error(
-                "symptom-concept-repeated", ONTOLOGY_PATH, line,
-                f"Symptom {label!r} has {len(concepts)} sharedConcept values; it is one symptom. "
-                "Keep the one its label names.",
-            )
+            for _, link_line in links:
+                report.error(
+                    "symptom-concept-repeated", ONTOLOGY_PATH, link_line,
+                    f"Symptom {label!r} has {len(concepts)} sharedConcept values; it is one "
+                    "symptom. Keep the one its label names.",
+                )
             continue
         if decided and concepts:
-            report.error(
-                "symptom-decided-and-linked", ONTOLOGY_PATH, line,
-                f"Symptom {label!r} has both ARI_NoConcept ({decided[0][0]!r}) and sharedConcept "
-                f"{concepts[0]}. Remove whichever is wrong: the link if it is not a symptom, "
-                "ARI_NoConcept if it is.",
-            )
+            for clash_line in [decided[0][1], links[0][1]]:
+                report.error(
+                    "symptom-decided-and-linked", ONTOLOGY_PATH, clash_line,
+                    f"Symptom {label!r} has both ARI_NoConcept ({decided[0][0]!r}) and "
+                    f"sharedConcept {concepts[0]}. Remove whichever is wrong: the link if it is "
+                    "not a symptom, ARI_NoConcept if it is.",
+                )
             continue
         if decided:
             continue
@@ -1415,11 +1438,12 @@ def check_symptom_concepts(disease_text: str, labels: dict[str, str], report: Re
                 "Link it to that class.",
             )
         else:
-            report.error(
-                "symptom-concept-mismatch", ONTOLOGY_PATH, line,
-                f"Symptom {label!r} links {have}, but {SYMPTOMS_PATH} gives that label to "
-                f"{want}. Link {want}, or fix the label: {fix[0].lower() + fix[1:]}",
-            )
+            for mismatch_line in [line, links[0][1]]:
+                report.error(
+                    "symptom-concept-mismatch", ONTOLOGY_PATH, mismatch_line,
+                    f"Symptom {label!r} links {have}, but {SYMPTOMS_PATH} gives that label to "
+                    f"{want}. Link {want}, or fix the label: {fix[0].lower() + fix[1:]}",
+                )
 
 
 def check_shared_concept_targets(disease_text: str, concept_iris: set[str], report: Report) -> None:
