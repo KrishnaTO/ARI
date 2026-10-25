@@ -2,3 +2,4 @@
 *.owl text eol=lf
 *.sh text eol=lf
 .githooks/* text eol=lf
+tools/robot.version text eol=lf
