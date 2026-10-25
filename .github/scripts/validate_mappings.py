@@ -5,9 +5,12 @@ Checks `mappings/ari.sssom.tsv`, `mappings/ari.equivalencies.tsv` and the
 predictor's `mappings/ari.synonym_blocklist.tsv` for
 structural problems, malformed identifiers and internal contradictions, that
 the two files agree with each other, and that both agree with the stored
-cross-references in `ontologies/ari_t1d.owl`. Also checks that every Symptom
-individual's `symptomConcept` agrees with
-`notebook/symptom-mapping/symptom_mapping.tsv`.
+cross-references in `ontologies/ari_disease.owl`. Also checks the ontology
+modules (core, disease, symptoms, anatomy, biomarkers) against each other: every
+Symptom individual's `sharedConcept` is the ARIS class its label names in
+`ontologies/ari_symptoms.owl`, only `ari_core.owl` declares properties, no
+subject is described in two modules, and every tissue class links an UBERON
+term or says why not.
 
 Usage:
     python .github/scripts/validate_mappings.py                # audit everything
@@ -38,22 +41,20 @@ REPO_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__fi
 
 SSSOM_PATH = "mappings/ari.sssom.tsv"
 EQUIV_PATH = "mappings/ari.equivalencies.tsv"
-ONTOLOGY_PATH = "ontologies/ari_t1d.owl"
+ONTOLOGY_PATH = "ontologies/ari_disease.owl"
+CORE_PATH = "ontologies/ari_core.owl"
+SYMPTOMS_PATH = "ontologies/ari_symptoms.owl"
+ANATOMY_PATH = "ontologies/ari_anatomy.owl"
+BIOMARKERS_PATH = "ontologies/ari_biomarkers.owl"
+# The modules curators edit. The generated slices (ari_symp.owl, ari_uberon.owl)
+# are copies of upstream releases, so nothing here holds them to ARI's rules.
+ARI_OWNED = (CORE_PATH, ONTOLOGY_PATH, SYMPTOMS_PATH, ANATOMY_PATH, BIOMARKERS_PATH)
 # Curator-editable input to the editor app's cross-reference predictor: each row
 # names a synonym stored on an ARI disease that actually names a *different*
 # disease, so the predictor must not match on it. `ari.mis_curated_synonyms.tsv`
 # beside it is the generated evidence behind these decisions and is a report, so
 # nothing here validates it.
 BLOCKLIST_PATH = "mappings/ari.synonym_blocklist.tsv"
-# Curated symptom string -> shared ARI symptom (ARIS) table. Every Symptom
-# individual in the ontology links its row's ARIS class with symptomConcept,
-# which notebook/symptom-mapping/build_symptom_mapping.py writes.
-SYMPTOM_MAPPING_PATH = "notebook/symptom-mapping/symptom_mapping.tsv"
-SYMPTOM_MAPPING_COLUMNS = [
-    "Symptom ID", "Symptom", "Mapping", "SYMP ID", "SYMP Label",
-    "HPO ID", "HPO Label", "HPO Mapping", "Parent Symptom", "Merged Into",
-]
-ARIS_BASE = "http://www.aurint.org/ontologies/ari-symptoms#"
 
 SSSOM_COLUMNS = [
     "subject_id",
@@ -171,9 +172,19 @@ ARI_DISEASE_BASE = "http://www.aurint.org/ontologies/ari-disease#"
 RDF = "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 RDF_TYPE = RDF + "type"
 RDFS_LABEL = "http://www.w3.org/2000/01/rdf-schema#label"
+RDFS_SUBCLASS_OF = "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+SKOS_ALT_LABEL = "http://www.w3.org/2004/02/skos/core#altLabel"
+OBOINOWL_ID = "http://www.geneontology.org/formats/oboInOwl#id"
+OWL = "http://www.w3.org/2002/07/owl#"
+OWL_CLASS = OWL + "Class"
+PROPERTY_TYPES = {OWL + "AnnotationProperty", OWL + "ObjectProperty", OWL + "DatatypeProperty"}
 XML_BASE = "http://www.w3.org/XML/1998/namespace base"
 SYMPTOM_CLASS = ARI_DISEASE_BASE + "Symptom"
-SYMPTOM_CONCEPT = ARI_DISEASE_BASE + "symptomConcept"
+# A Symptom individual links the shared ARIS class its label names, or says with
+# ARI_NoConcept why it links none ("not a symptom", "no term", "not linked").
+SHARED_CONCEPT = ARI_DISEASE_BASE + "sharedConcept"
+NO_CONCEPT = ARI_DISEASE_BASE + "ARI_NoConcept"
+UBERON = "http://purl.obolibrary.org/obo/UBERON_"
 
 
 @dataclass(frozen=True)
@@ -1204,9 +1215,9 @@ def filter_to_changes(findings: list[Finding], ref: str) -> list[Finding]:
     not be blocked by debt they did not introduce; the scheduled audit covers
     the standing backlog.
 
-    TSV findings compare line text. Ontology findings compare the statement on
-    the finding's line, (subject, property, value), so re-laying-out the file
-    changes nothing here.
+    TSV findings compare line text. Ontology findings, in any module, compare
+    the statement on the finding's line, (subject, property, value), so
+    re-laying-out the file changes nothing here.
     """
     baselines: dict[str, set | None] = {}
     currents: dict[str, list | dict] = {}
@@ -1215,7 +1226,7 @@ def filter_to_changes(findings: list[Finding], ref: str) -> list[Finding]:
         path = finding.path
         if path not in baselines:
             before = baseline_text(ref, path)
-            if path == ONTOLOGY_PATH:
+            if path.endswith(".owl"):
                 baselines[path] = None if before is None else {s for _, s in statements(before)}
                 by_line = collections.defaultdict(set)
                 for line, statement in statements(current_text(path)):
@@ -1228,7 +1239,7 @@ def filter_to_changes(findings: list[Finding], ref: str) -> list[Finding]:
         if baseline is None or finding.line == 0:
             kept.append(finding)
             continue
-        if path == ONTOLOGY_PATH:
+        if path.endswith(".owl"):
             on_line = currents[path].get(finding.line)
             if not on_line or not on_line <= baseline:
                 kept.append(finding)
@@ -1315,69 +1326,201 @@ def check_blocklist(rows: list[Row], diseases: dict[str, Disease] | None, report
             )
 
 
-def expected_symptom_concepts(rows: list[Row], report: Report) -> dict[str, str | None]:
-    """Symptom string -> the ARIS class IRI its individuals link to; None for `not a symptom`."""
-    by_name = {row.fields["Symptom"]: row for row in rows}
-    expected: dict[str, str | None] = {}
-    for name, row in by_name.items():
-        target = row.fields["Merged Into"]
-        if target and target not in by_name:
-            report.error(
-                "symptom-merge-target", SYMPTOM_MAPPING_PATH, row.line,
-                f"{name!r} is merged into {target!r}, which has no row.",
-            )
-            continue
-        symptom_id = by_name[target].fields["Symptom ID"] if target else row.fields["Symptom ID"]
-        expected[name] = ARIS_BASE + symptom_id.replace(":", "_") if symptom_id else None
-    return expected
+def concept_labels(path: str, text: str, report: Report) -> dict[str, str]:
+    """Label or alternative label -> the shared concept class that carries it.
 
-
-def check_symptom_concepts(text: str, rows: list[Row], report: Report) -> None:
-    """Every Symptom individual links the shared symptom its label maps to.
-
-    The label is the key: symptom_mapping.tsv owns which ARIS class a symptom
-    string is, and symptomConcept is that decision applied to each per-disease
-    individual. Findings sit on the label line, since a renamed label is what
-    leaves a link stale. A label with no row yet, or a mapped label not linked
-    yet, is a warning: the curator added a symptom and the mapping catches up.
-    A link that disagrees with the row is an error.
+    This is the lookup a Symptom individual's label goes through, so a string
+    that names two classes would link whichever came first. The same
+    `oboInOwl:id` on two classes is the same fault one level up.
     """
-    expected = expected_symptom_concepts(rows, report)
+    labels: dict[str, str] = {}
+    ids: dict[str, str] = {}
     for entity in read_entities(text):
+        if OWL_CLASS not in entity.types:
+            continue
+        for prop, value, line in entity.statements:
+            if prop in (RDFS_LABEL, SKOS_ALT_LABEL):
+                owner = labels.setdefault(value, entity.iri)
+                if owner != entity.iri:
+                    report.error(
+                        "concept-label-ambiguous", path, line,
+                        f"{value!r} is a label of both {owner} and {entity.iri}, so a Symptom "
+                        f"with that label cannot tell which one it means. Remove it from one of "
+                        f"them in {path}, or merge the two classes.",
+                    )
+            elif prop == OBOINOWL_ID:
+                owner = ids.setdefault(value, entity.iri)
+                if owner != entity.iri:
+                    report.error(
+                        "concept-id-repeated", path, line,
+                        f"oboInOwl:id {value!r} is on both {owner} and {entity.iri}. Give each "
+                        f"class its own id in {path}.",
+                    )
+    return labels
+
+
+def check_symptom_concepts(disease_text: str, labels: dict[str, str], report: Report) -> None:
+    """Every Symptom individual links the shared concept its label names.
+
+    The label is the key: a class in ari_symptoms.owl carries the label or an
+    `skos:altLabel`, and sharedConcept is that lookup applied to each
+    per-disease individual. `ARI_NoConcept` is the curator's decision that a
+    string links nothing. Findings sit on the label line, since a renamed label
+    is what leaves a link stale. A label with no class yet, or one that names a
+    class and is not linked yet, is a warning: the curator added a symptom and
+    the concept module catches up. A link that disagrees with the label is an
+    error.
+    """
+    for entity in read_entities(disease_text):
         if SYMPTOM_CLASS not in entity.types:
             continue
-        labels = entity.values(RDFS_LABEL)
-        label, line_no = labels[-1] if labels else (None, entity.line)
-        concepts = [value for value, _ in entity.values(SYMPTOM_CONCEPT)]
+        names = entity.values(RDFS_LABEL)
+        label, line = names[-1] if names else (None, entity.line)
+        concepts = [value for value, _ in entity.values(SHARED_CONCEPT)]
+        decided = entity.values(NO_CONCEPT)
         if len(concepts) > 1:
             report.error(
-                "symptom-concept-repeated", ONTOLOGY_PATH, line_no,
-                f"Symptom {label!r} has {len(concepts)} symptomConcept values; it is one symptom.",
+                "symptom-concept-repeated", ONTOLOGY_PATH, line,
+                f"Symptom {label!r} has {len(concepts)} sharedConcept values; it is one symptom. "
+                "Keep the one its label names.",
             )
+            continue
+        if decided and concepts:
+            report.error(
+                "symptom-decided-and-linked", ONTOLOGY_PATH, line,
+                f"Symptom {label!r} has both ARI_NoConcept ({decided[0][0]!r}) and sharedConcept "
+                f"{concepts[0]}. Remove whichever is wrong: the link if it is not a symptom, "
+                "ARI_NoConcept if it is.",
+            )
+            continue
+        if decided:
             continue
         have = concepts[0] if concepts else None
-        if label not in expected:
-            report.warning(
-                "symptom-unmapped", ONTOLOGY_PATH, line_no,
-                f"Symptom {label!r} has no row in {SYMPTOM_MAPPING_PATH}"
-                + (f", so its symptomConcept {have} is left from a former label" if have else "")
-                + ". Add a row and run notebook/symptom-mapping/build_symptom_mapping.py.",
-            )
-        elif have == expected[label]:
+        want = labels.get(label)
+        if have is not None and have == want:
             continue
+        fix = (f"Add the label or an skos:altLabel to the right class in {SYMPTOMS_PATH}, "
+               "or set ARI_NoConcept on the symptom.")
+        if want is None:
+            report.warning(
+                "symptom-unmapped", ONTOLOGY_PATH, line,
+                f"Symptom {label!r} is not a label of any class in {SYMPTOMS_PATH}"
+                + (f", so its sharedConcept {have} is left from a former label" if have else "")
+                + f". {fix}",
+            )
         elif have is None:
             report.warning(
-                "symptom-concept-missing", ONTOLOGY_PATH, line_no,
-                f"Symptom {label!r} maps to {expected[label]} in {SYMPTOM_MAPPING_PATH} but has no "
-                "symptomConcept. Run notebook/symptom-mapping/build_symptom_mapping.py.",
+                "symptom-concept-missing", ONTOLOGY_PATH, line,
+                f"Symptom {label!r} names {want} in {SYMPTOMS_PATH} but has no sharedConcept. "
+                "Link it to that class.",
             )
         else:
             report.error(
-                "symptom-concept-mismatch", ONTOLOGY_PATH, line_no,
-                f"Symptom {label!r} links {have}, but {SYMPTOM_MAPPING_PATH} maps it to "
-                f"{expected[label] or 'not a symptom'}. Run "
-                "notebook/symptom-mapping/build_symptom_mapping.py.",
+                "symptom-concept-mismatch", ONTOLOGY_PATH, line,
+                f"Symptom {label!r} links {have}, but {SYMPTOMS_PATH} gives that label to "
+                f"{want}. Link {want}, or fix the label: {fix[0].lower() + fix[1:]}",
             )
+
+
+def check_shared_concept_targets(disease_text: str, concept_iris: set[str], report: Report) -> None:
+    """Every sharedConcept points at a class a concept module declares.
+
+    A link to a class that is not there reads as a link to nothing: the app and
+    the reports resolve it and find no label.
+    """
+    for entity in read_entities(disease_text):
+        for target, line in entity.values(SHARED_CONCEPT):
+            if target not in concept_iris:
+                report.error(
+                    "shared-concept-target-missing", ONTOLOGY_PATH, line,
+                    f"{entity.iri} links {target}, which is not a class in {SYMPTOMS_PATH}, "
+                    f"{ANATOMY_PATH} or {BIOMARKERS_PATH}. Link an existing class, or add this one.",
+                )
+
+
+def check_property_declarations(texts: dict[str, str], report: Report) -> None:
+    """Only ari_core.owl declares a property.
+
+    A property declared in a second module is a second definition of it. It
+    also appears when a tool formats a module without resolving its imports and
+    guesses the property types it cannot see.
+    """
+    for path in ARI_OWNED:
+        if path == CORE_PATH:
+            continue
+        for entity in read_entities(texts[path]):
+            if entity.types & PROPERTY_TYPES:
+                report.error(
+                    "property-outside-core", path, entity.line,
+                    f"{entity.iri} is declared as a property in {path}. Properties are declared "
+                    f"only in {CORE_PATH}; move the declaration there.",
+                )
+
+
+def check_module_subjects(texts: dict[str, str], report: Report) -> None:
+    """One module describes each subject.
+
+    Two modules both saying things about an IRI means an edit landed in the
+    wrong file, and the module that owns the entity no longer tells the whole
+    story. Reported in each file after the first, in ARI_OWNED order.
+    """
+    first: dict[str, str] = {}
+    for path in ARI_OWNED:
+        for entity in read_entities(texts[path]):
+            owner = first.setdefault(entity.iri, path)
+            if owner != path:
+                report.error(
+                    "subject-in-two-modules", path, entity.line,
+                    f"{entity.iri} is described in both {owner} and {path}. Keep its statements "
+                    "in the one module that owns it.",
+                )
+
+
+def check_tissue_links(texts: dict[str, str], report: Report) -> None:
+    """Every anatomy class links an UBERON term or records why it does not."""
+    for entity in read_entities(texts[ANATOMY_PATH]):
+        if OWL_CLASS not in entity.types:
+            continue
+        linked = any(value.startswith(UBERON) for value, _ in entity.values(RDFS_SUBCLASS_OF))
+        if not linked and not entity.values(NO_CONCEPT):
+            report.warning(
+                "tissue-unlinked", ANATOMY_PATH, entity.line,
+                f"Tissue class {entity.iri} has no rdfs:subClassOf an UBERON term and no "
+                f"ARI_NoConcept. Add the UBERON parent in {ANATOMY_PATH}, or set ARI_NoConcept to "
+                "`no term` or `not linked`.",
+            )
+
+
+def load_modules(report: Report) -> dict[str, str] | None:
+    """Text of every ARI-owned module, or None when one cannot be read as XML."""
+    texts: dict[str, str] = {}
+    for path in ARI_OWNED:
+        text = read_text(path, report)
+        if text is None:
+            return None
+        try:
+            read_entities(text)
+        except expat.ExpatError as exc:
+            report.error("ontology-not-well-formed", path, 0, f"OWL/XML does not parse: {exc}.")
+            return None
+        texts[path] = text
+    return texts
+
+
+def check_modules(texts: dict[str, str], report: Report) -> None:
+    """The checks that read the modules against each other."""
+    labels = concept_labels(SYMPTOMS_PATH, texts[SYMPTOMS_PATH], report)
+    concept_iris = {
+        entity.iri
+        for path in (SYMPTOMS_PATH, ANATOMY_PATH, BIOMARKERS_PATH)
+        for entity in read_entities(texts[path])
+        if OWL_CLASS in entity.types
+    }
+    check_symptom_concepts(texts[ONTOLOGY_PATH], labels, report)
+    check_shared_concept_targets(texts[ONTOLOGY_PATH], concept_iris, report)
+    check_property_declarations(texts, report)
+    check_module_subjects(texts, report)
+    check_tissue_links(texts, report)
 
 
 def main() -> int:
@@ -1415,10 +1558,9 @@ def main() -> int:
         check_against_ontology(sssom_rows, diseases, report)
         check_equiv_against_ontology(equiv_rows, diseases, report)
         check_ontology_values(diseases, report)
-        symptom_text = read_text(SYMPTOM_MAPPING_PATH, report)
-        if symptom_text:
-            symptom_rows = split_rows(symptom_text, SYMPTOM_MAPPING_PATH, SYMPTOM_MAPPING_COLUMNS, report)
-            check_symptom_concepts(current_text(ONTOLOGY_PATH), symptom_rows, report)
+    modules = load_modules(report)
+    if modules is not None:
+        check_modules(modules, report)
 
     findings = sorted(report.findings, key=Finding.sort_key)
     scope = "whole repository"
