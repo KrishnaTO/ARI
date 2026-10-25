@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri name="http://www.aurint.org/ontologies/ari_core" uri="ari_core.owl"/>
+    <uri name="http://www.aurint.org/ontologies/ari_symptoms" uri="ari_symptoms.owl"/>
+    <uri name="http://www.aurint.org/ontologies/ari_anatomy" uri="ari_anatomy.owl"/>
+    <uri name="http://www.aurint.org/ontologies/ari_biomarkers" uri="ari_biomarkers.owl"/>
     <uri name="http://www.aurint.org/ontologies/ari_uberon" uri="ari_uberon.owl"/>
+    <uri name="http://www.aurint.org/ontologies/ari_symp" uri="ari_symp.owl"/>
 </catalog>

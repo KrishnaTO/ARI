@@ -1,0 +1,534 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.aurint.org/ontologies/ari_anatomy#"
+     xml:base="http://www.aurint.org/ontologies/ari_anatomy"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:ari-disease="http://www.aurint.org/ontologies/ari-disease#">
+    <owl:Ontology rdf:about="http://www.aurint.org/ontologies/ari_anatomy">
+        <owl:imports rdf:resource="http://www.aurint.org/ontologies/ari_core"/>
+        <owl:imports rdf:resource="http://www.aurint.org/ontologies/ari_uberon"/>
+        <rdfs:comment>ARI tissue and system classes (under MulticellularAnatomicalStructure) and the Tissue_* individuals that diseases target. Classes link to UBERON through the ari_uberon import; ARI_NoConcept records a class deliberately left without a term.</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#AllTissues -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-disease#AllTissues">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#MulticellularAnatomicalStructure"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <rdfs:comment>A catch-all with no UBERON term. Kept as an ARI class. No disease targets it.</rdfs:comment>
+        <rdfs:label>All</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#AnatomicalSystem -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-disease#AnatomicalSystem">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000467"/>
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#MulticellularAnatomicalStructure"/>
+        <ari-disease:ARI_ID>UBERON:0000467</ari-disease:ARI_ID>
+        <rdfs:label>Anatomical system</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#BetaCell -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-disease#BetaCell">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#IsletOfLangerhans"/>
+        <ari-disease:ARI_NoConcept>not linked</ari-disease:ARI_NoConcept>
+        <rdfs:comment>A cell type, so it belongs to the Cell Ontology, not UBERON. Its individual carries CL:0000169.</rdfs:comment>
+        <rdfs:label>Pancreatic beta cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#Bladder -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-disease#Bladder">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001255"/>
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#MulticellularAnatomicalStructure"/>
+        <ari-disease:ARI_ID>UBERON:0001255</ari-disease:ARI_ID>
+        <rdfs:label>Bladder</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#Blood -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-disease#Blood">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000178"/>
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#MulticellularAnatomicalStructure"/>
+        <ari-disease:ARI_ID>UBERON:0000178</ari-disease:ARI_ID>
+        <rdfs:label>Blood</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#DigestiveSystem -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-disease#DigestiveSystem">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001007"/>
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#MulticellularAnatomicalStructure"/>
+        <ari-disease:ARI_ID>UBERON:0001007</ari-disease:ARI_ID>
+        <rdfs:label>Digestive system</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#EndocrineSystem -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-disease#EndocrineSystem">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000949"/>
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#AnatomicalSystem"/>
+        <ari-disease:ARI_ID>UBERON:0000949</ari-disease:ARI_ID>
+        <rdfs:label>Endocrine system</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#Eye -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-disease#Eye">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000970"/>
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#MulticellularAnatomicalStructure"/>
+        <ari-disease:ARI_ID>UBERON:0000970</ari-disease:ARI_ID>
+        <rdfs:comment>The general eye term rather than camera-type eye (UBERON:0000019).</rdfs:comment>
+        <rdfs:label>Eye</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#Glands -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-disease#Glands">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002530"/>
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#MulticellularAnatomicalStructure"/>
+        <ari-disease:ARI_ID>UBERON:0002530</ari-disease:ARI_ID>
+        <rdfs:label>Glands</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#Heart -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-disease#Heart">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000948"/>
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#MulticellularAnatomicalStructure"/>
+        <ari-disease:ARI_ID>UBERON:0000948</ari-disease:ARI_ID>
+        <rdfs:label>Heart</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#ImmuneSystem -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-disease#ImmuneSystem">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002405"/>
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#MulticellularAnatomicalStructure"/>
+        <ari-disease:ARI_ID>UBERON:0002405</ari-disease:ARI_ID>
+        <rdfs:label>Immune System</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#IsletOfLangerhans -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-disease#IsletOfLangerhans">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000006"/>
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Pancreas"/>
+        <ari-disease:ARI_ID>UBERON:0000006</ari-disease:ARI_ID>
+        <rdfs:label>Islet of Langerhans</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#Kidney -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-disease#Kidney">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002113"/>
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#MulticellularAnatomicalStructure"/>
+        <ari-disease:ARI_ID>UBERON:0002113</ari-disease:ARI_ID>
+        <rdfs:label>Kidney</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#Liver -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-disease#Liver">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002107"/>
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#MulticellularAnatomicalStructure"/>
+        <ari-disease:ARI_ID>UBERON:0002107</ari-disease:ARI_ID>
+        <rdfs:label>Liver</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#Lungs -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-disease#Lungs">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002048"/>
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#MulticellularAnatomicalStructure"/>
+        <ari-disease:ARI_ID>UBERON:0002048</ari-disease:ARI_ID>
+        <rdfs:comment>The single-lung term, as in category-uberon.csv. pair of lungs is UBERON:0000170.</rdfs:comment>
+        <rdfs:label>Lungs</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#MetabolicSystem -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-disease#MetabolicSystem">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#MulticellularAnatomicalStructure"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <rdfs:comment>UBERON has no metabolic system: metabolism is a process, not an anatomical structure. Kept as an ARI class.</rdfs:comment>
+        <rdfs:label>Metabolic System</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#Musculoskeletal -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-disease#Musculoskeletal">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002204"/>
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#MulticellularAnatomicalStructure"/>
+        <ari-disease:ARI_ID>UBERON:0002204</ari-disease:ARI_ID>
+        <rdfs:label>Musculoskeletal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#NervousSystem -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-disease#NervousSystem">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001016"/>
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#MulticellularAnatomicalStructure"/>
+        <ari-disease:ARI_ID>UBERON:0001016</ari-disease:ARI_ID>
+        <rdfs:label>Nervous System</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#Pancreas -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-disease#Pancreas">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001264"/>
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#EndocrineSystem"/>
+        <ari-disease:ARI_ID>UBERON:0001264</ari-disease:ARI_ID>
+        <rdfs:label>Pancreas</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#Parathyroid -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-disease#Parathyroid">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001132"/>
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#MulticellularAnatomicalStructure"/>
+        <ari-disease:ARI_ID>UBERON:0001132</ari-disease:ARI_ID>
+        <rdfs:label>Parathyroid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#Pituitary -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-disease#Pituitary">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000007"/>
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#MulticellularAnatomicalStructure"/>
+        <ari-disease:ARI_ID>UBERON:0000007</ari-disease:ARI_ID>
+        <rdfs:label>Pituitary</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#Skin -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-disease#Skin">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002097"/>
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#MulticellularAnatomicalStructure"/>
+        <ari-disease:ARI_ID>UBERON:0002097</ari-disease:ARI_ID>
+        <rdfs:comment>The whole skin organ. category-uberon.csv had zone of skin (UBERON:0000014), which is a region of it.</rdfs:comment>
+        <rdfs:label>Skin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#Systemic -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-disease#Systemic">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#MulticellularAnatomicalStructure"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <rdfs:comment>A whole-body distribution, not an anatomical structure. Kept as an ARI class.</rdfs:comment>
+        <rdfs:label>Systemic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#ThyroidGland -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-disease#ThyroidGland">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002046"/>
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#MulticellularAnatomicalStructure"/>
+        <ari-disease:ARI_ID>UBERON:0002046</ari-disease:ARI_ID>
+        <rdfs:label>Thyroid gland</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#VascularSystem -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-disease#VascularSystem">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0007798"/>
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#MulticellularAnatomicalStructure"/>
+        <ari-disease:ARI_ID>UBERON:0007798</ari-disease:ARI_ID>
+        <rdfs:label>Vascular system</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#Tissue_AllTissues -->
+
+    <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Tissue_AllTissues">
+        <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#AllTissues"/>
+        <rdfs:label>All</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#Tissue_BetaCell -->
+
+    <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Tissue_BetaCell">
+        <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#BetaCell"/>
+        <ari-disease:ARI_ID>CL:0000169</ari-disease:ARI_ID>
+        <rdfs:label>Pancreatic beta cell</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#Tissue_Bladder -->
+
+    <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Tissue_Bladder">
+        <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Bladder"/>
+        <rdfs:label>Bladder</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#Tissue_Blood -->
+
+    <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Tissue_Blood">
+        <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Blood"/>
+        <rdfs:label>Blood</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#Tissue_DigestiveSystem -->
+
+    <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Tissue_DigestiveSystem">
+        <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#DigestiveSystem"/>
+        <rdfs:label>Digestive system</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#Tissue_Eye -->
+
+    <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Tissue_Eye">
+        <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Eye"/>
+        <rdfs:label>Eye</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#Tissue_Glands -->
+
+    <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Tissue_Glands">
+        <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Glands"/>
+        <rdfs:label>Glands</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#Tissue_Heart -->
+
+    <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Tissue_Heart">
+        <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Heart"/>
+        <rdfs:label>Heart</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#Tissue_ImmuneSystem -->
+
+    <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Tissue_ImmuneSystem">
+        <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#ImmuneSystem"/>
+        <rdfs:label>Immune System</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#Tissue_Islet -->
+
+    <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Tissue_Islet">
+        <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#IsletOfLangerhans"/>
+        <ari-disease:ARI_ID>UBERON:0000006</ari-disease:ARI_ID>
+        <rdfs:label>Islet of Langerhans</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#Tissue_Kidney -->
+
+    <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Tissue_Kidney">
+        <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Kidney"/>
+        <rdfs:label>Kidney</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#Tissue_Liver -->
+
+    <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Tissue_Liver">
+        <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Liver"/>
+        <rdfs:label>Liver</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#Tissue_Lungs -->
+
+    <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Tissue_Lungs">
+        <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Lungs"/>
+        <rdfs:label>Lungs</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#Tissue_MetabolicSystem -->
+
+    <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Tissue_MetabolicSystem">
+        <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#MetabolicSystem"/>
+        <rdfs:label>Metabolic System</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#Tissue_Musculoskeletal -->
+
+    <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Tissue_Musculoskeletal">
+        <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Musculoskeletal"/>
+        <rdfs:label>Musculoskeletal</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#Tissue_NervousSystem -->
+
+    <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Tissue_NervousSystem">
+        <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#NervousSystem"/>
+        <rdfs:label>Nervous System</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#Tissue_Pancreas -->
+
+    <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Tissue_Pancreas">
+        <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Pancreas"/>
+        <ari-disease:ARI_ID>UBERON:0001264</ari-disease:ARI_ID>
+        <rdfs:label>Pancreas</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#Tissue_Parathyroid -->
+
+    <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Tissue_Parathyroid">
+        <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Parathyroid"/>
+        <rdfs:label>Parathyroid</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#Tissue_Pituitary -->
+
+    <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Tissue_Pituitary">
+        <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Pituitary"/>
+        <rdfs:label>Pituitary</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#Tissue_Skin -->
+
+    <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Tissue_Skin">
+        <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Skin"/>
+        <rdfs:label>Skin</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#Tissue_Systemic -->
+
+    <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Tissue_Systemic">
+        <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Systemic"/>
+        <rdfs:label>Systemic</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#Tissue_ThyroidGland -->
+
+    <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Tissue_ThyroidGland">
+        <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#ThyroidGland"/>
+        <rdfs:label>Thyroid gland</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#Tissue_VascularSystem -->
+
+    <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Tissue_VascularSystem">
+        <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#VascularSystem"/>
+        <rdfs:label>Vascular system</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29) https://github.com/owlcs/owlapi -->
+
