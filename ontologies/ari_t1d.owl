@@ -88309,9 +88309,11 @@ To date, there is no direct or indirect evidence that post-pericardiotomy syndro
         <diseaseCategory>Dysregulation</diseaseCategory>
         <ARI_ChangeLog>2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
         <ARI_ChangeLog>2026-09-26 00:00 | Krishna Udaiwal | Retired: set ARI_Obsolete to true</ARI_ChangeLog>
+        <ARI_ChangeLog>2026-10-15T18:00:18+00:00 | Krishna Udaiwal | Edited: age_range, clinical_subtypes, def_source, definition, demographic_bias, disease_category, evidence_quality, is_grouping, name, obsolete, prevalence_desc, prevalence_value, synonyms</ARI_ChangeLog>
         <ARI_ID>ARI:0001168</ARI_ID>
+        <ARI_IsGrouping>true</ARI_IsGrouping>
         <ARI_OMOP>40483560, 4179989, 4263109, 29783, 4292707</ARI_OMOP>
-        <ARI_Obsolete>true</ARI_Obsolete>
+        <ARI_Obsolete>false</ARI_Obsolete>
         <ARI_SNOMED>31323000</ARI_SNOMED>
         <ARI_SNOMED>36138009</ARI_SNOMED>
         <ARI_SNOMED>362993009</ARI_SNOMED>
