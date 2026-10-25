@@ -44,7 +44,7 @@ This repository supports the curated disease model behind the editor:
 | `data_model/` | Reference spreadsheets and model snapshots | yes |
 | `mappings/` | Every curated cross-reference judgment | yes |
 | `notebook/` | Notebook-driven data preparation and grounding scripts | yes |
-| `ontologies/` | The ARI ontology — the sole authority — and `ari_uberon.owl`, the UBERON slice it imports (see `notebook/uberon-mapping/`) | yes |
+| `ontologies/` | The ARI ontology — the sole authority — as modules (see [Ontology modules](#ontology-modules)) | yes |
 | `sparql/` | SPARQL queries and generated term sets | yes |
 
 `data/` mixes both kinds, which is worth knowing before going looking for
@@ -127,6 +127,25 @@ The validator reads the ontology as XML, not line by line, so it works on any RD
 layout. With `--since`, an ontology finding counts as new only when the statement on its
 line (subject, property, value) is new, so re-laying-out the file reports nothing.
 
+## Ontology modules
+
+The ontology is a set of files in `ontologies/`, one per domain. Each opens on its own in Protégé
+and loads in owlready2 with its imports. Open **`ari_disease.owl`**: it imports the rest.
+
+| File | Holds | Edited by |
+| --- | --- | --- |
+| `ari_core.owl` | The key classes and every property declaration | curators (Protégé) |
+| `ari_disease.owl` | Diseases and their per-disease entries (symptoms, antibodies, antigens, biomarkers, tissues) | the editor app, curators |
+| `ari_symptoms.owl` | One `ARIS_…` class per symptom, linked to SYMP and HPO | curators (Protégé) |
+| `ari_anatomy.owl` | Tissue and system classes, linked to UBERON | curators (Protégé) |
+| `ari_biomarkers.owl` | Biomarker concepts (empty for now) | curators (Protégé) |
+| `ari_symp.owl`, `ari_uberon.owl` | Slices of SYMP and UBERON, generated, never edited by hand | the builder scripts |
+
+A per-disease entry points at its shared concept with `sharedConcept`. Every property is declared
+once, in the core. [`notebook/ontology-modules/README.md`](notebook/ontology-modules/README.md)
+covers opening, loading and which tool writes which file; the design is in
+[`docs/superpowers/specs/2026-10-18-ontology-modules-design.md`](docs/superpowers/specs/2026-10-18-ontology-modules-design.md).
+
 ## Canonical OWL layout
 
 The app (owlready2), Protégé and scripts each write RDF/XML in their own layout. So that
@@ -136,7 +155,7 @@ a diff only ever shows content, every `ontologies/*.owl` is kept in one layout: 
 saved the file.
 
 ```bash
-tools/format-owl.sh ontologies/ari_t1d.owl          # format in place
+tools/format-owl.sh ontologies/ari_disease.owl      # format in place
 tools/format-owl.sh --check ontologies/*.owl        # exit 1 if any would change
 ```
 

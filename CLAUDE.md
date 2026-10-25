@@ -14,7 +14,7 @@ here and opens pull requests back into here under each curator's own GitHub iden
 
 | Belongs here | Belongs in the app repo |
 | --- | --- |
-| `ontologies/ari_t1d.owl` — the sole authority | `app/`, `static/`, `deploy/`, `tests/` |
+| `ontologies/*.owl` — the sole authority: `ari_disease.owl` is the disease record, with `ari_core`, `ari_symptoms`, `ari_anatomy`, `ari_biomarkers` and the generated `ari_symp` / `ari_uberon` slices | `app/`, `static/`, `deploy/`, `tests/` |
 | `mappings/*.tsv` — every curated judgment | `data/2-databases/*.tsv` — reference indexes built from public releases |
 | `data/1-master`, `3-meta-database-sources`, `4-reports` | `mappings/ari.predicted.sssom.tsv` — a machine export nothing here consumes |
 | `notebook/`, `sparql/`, `data_model/` | Anything a code change, not a curator, would alter |
@@ -56,7 +56,8 @@ build product and belongs with the code that builds it — even when it is tabul
   pinned in `tools/robot.version`); the `OWL format` workflow rejects a file that is not. Read and
   edit the ontology as XML, never by line or regex, and run the formatter (or commit through
   `.githooks/pre-commit`) after any write. In this checkout Java 11+ is in WSL, not Windows:
-  `wsl -e tools/format-owl.sh <file>`.
+  `wsl -e tools/format-owl.sh <file>`. Format through `ontologies/catalog-v001.xml` (it resolves the
+  imports), and declare a property only in `ari_core.owl`.
 - The SSSOM header is shared with the app's writer. `SSSOM_COLUMNS` here and `SSSOM_COLS` in the
   app's `app/sssom_service.py` must agree, or every curator publish fails the header check.
 - Prefer the curated master list as the source of truth. Keep changes surgical and on one data path
