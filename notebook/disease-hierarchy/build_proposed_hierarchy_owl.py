@@ -1,6 +1,6 @@
 """Write proposed_parents.tsv as an OWL class hierarchy for viewing (e.g. in Protege).
 
-Every active disease in ontologies/ari_t1d.owl becomes a class, using the same disease IRI.
+Every active disease in ontologies/ari_disease.owl becomes a class, using the same disease IRI.
 Rows of proposed_parents.tsv become axioms, each annotated with its relation, confidence and reason:
   is_a, manifestation_of, duplicate_of - subClassOf the parent
   component_of                         - subClassOf "Combination disease" (ARI#138) and
@@ -17,7 +17,7 @@ from xml.sax.saxutils import escape, quoteattr
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.abspath(os.path.join(HERE, "..", ".."))
-ONTOLOGY = os.path.join(ROOT, "ontologies/ari_t1d.owl")
+ONTOLOGY = os.path.join(ROOT, "ontologies/ari_disease.owl")
 PROPOSED = os.path.join(HERE, "proposed_parents.tsv")
 OUT = os.path.join(HERE, "proposed_hierarchy.owl")
 
@@ -94,7 +94,7 @@ def main():
         f'<owl:Ontology rdf:about="{BASE}">\n'
         "    <rdfs:comment>Proposed parent links between ARI diseases for ARI#137 and ARI#138, "
         "generated from notebook/disease-hierarchy/proposed_parents.tsv for viewing. Not the record: "
-        "ontologies/ari_t1d.owl is.</rdfs:comment>\n"
+        "ontologies/ari_disease.owl is.</rdfs:comment>\n"
         "</owl:Ontology>\n\n"
     ]
     for name in ("ariId", "relation", "confidence", "reason"):

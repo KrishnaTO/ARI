@@ -1,4 +1,4 @@
-"""Import the master-list data that report 12 marks "In repo - import" into ari_t1d.owl, for every
+"""Import the master-list data that report 12 marks "In repo - import" into ari_disease.owl, for every
 disease that report 10 matched. Only fields a disease does not yet have are filled:
 
   Definition                   -> rdfs:comment
@@ -14,11 +14,11 @@ Not imported, by decision: Evidence Quality (the master's grade column is for au
 evidence, unconfirmed as the data model's grade), MeSH terms as synonyms (left to synonym review)
 and report 11 parents (all remaining ones were rejected in proposed_parents.tsv).
 
-Written against the layout ari_t1d.owl had before the canonical formatter (relative `#` IRIs,
+Written against the layout ari_disease.owl had before the canonical formatter (relative `#` IRIs,
 one element per line). Check its lookups against today's file before re-running it, then run
 tools/format-owl.sh on the result.
 
-Usage: python import_gaps.py <master.xlsx> <ari_t1d.owl> <10_Master_List_Comparison.xlsx> <ari.synonym_blocklist.tsv>
+Usage: python import_gaps.py <master.xlsx> <ari_disease.owl> <10_Master_List_Comparison.xlsx> <ari.synonym_blocklist.tsv>
 """
 import re, sys
 import xml.etree.ElementTree as ET

@@ -10,7 +10,7 @@ python build_disease_hierarchy.py <path to data/2-databases>
 The database folder is not tracked in git, so pass the path of a checkout that has it.
 
 Evidence, all local: master list `Diseases`/`Subtypes` sheets, `hasParentDisease` in
-`ontologies/ari_t1d.owl`, SNOMED is-a from `snomed/CONCEPT_ANCESTOR.csv`, and DOID is_a from
+`ontologies/ari_disease.owl`, SNOMED is-a from `snomed/CONCEPT_ANCESTOR.csv`, and DOID is_a from
 `doid.owl` over the report 6 DOID matches (`notebook/ari-grounding/doid_matches_all.csv`).
 See `data/4-reports/README.md` section 11 for the link types and review flag.
 

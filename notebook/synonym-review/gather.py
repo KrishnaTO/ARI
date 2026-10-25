@@ -23,7 +23,7 @@ A = '{http://www.aurint.org/ontologies/ari-disease#}'
 
 # ---------- ARI ----------
 ari = {}
-root = ET.parse(os.path.join(WT, 'ontologies/ari_t1d.owl')).getroot()
+root = ET.parse(os.path.join(WT, 'ontologies/ari_disease.owl')).getroot()
 for ind in root.iter(OWL + 'NamedIndividual'):
     idel = ind.find(A + 'ARI_ID')
     if idel is None:

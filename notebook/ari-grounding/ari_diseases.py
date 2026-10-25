@@ -1,6 +1,6 @@
 """The ARI diseases to ground, with their current names, read from the ontology.
 
-`ontologies/ari_t1d.owl` is where curators maintain names and synonyms; a synonym
+`ontologies/ari_disease.owl` is where curators maintain names and synonyms; a synonym
 withdrawn there (`ARI_SynonymWithdrawn`) has already left `ARI_Synonym`. Retired
 diseases (`ARI_Obsolete` true) are skipped. Parsing reuses the mapping validator's
 reader so both see the same entities.
