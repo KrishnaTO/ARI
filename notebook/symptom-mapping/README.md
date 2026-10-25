@@ -58,10 +58,12 @@ The database folder is not tracked in git, so pass the path of a checkout that h
 `hp.obo` (from <http://purl.obolibrary.org/obo/symp.owl> and <http://purl.obolibrary.org/obo/hp.obo>).
 
 ```
-python build_symp_import.py <path to data/2-databases>
-tools/format-owl.sh ontologies/ari_symp.owl
-python build_symptom_report.py <path to data/2-databases>
+python notebook/symptom-mapping/build_symp_import.py <path to data/2-databases>
+wsl -e tools/format-owl.sh ontologies/ari_symp.owl
+python notebook/symptom-mapping/build_symptom_report.py <path to data/2-databases>
 ```
+
+Run every line from the repository root; Java for the formatter is in WSL (see `CLAUDE.md`).
 
 - **`build_symp_import.py`** writes `ontologies/ari_symp.owl` and nothing else: every SYMP term an
   ARIS class names and its is_a ancestors up to *symptom*, with SYMP's label, id and parents. It

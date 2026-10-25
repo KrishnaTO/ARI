@@ -20,17 +20,19 @@ belongs to the Cell Ontology; its individual carries CL:0000169). The root,
 
 ## Linking a tissue class
 
-In Protégé, give the class an `rdfs:subClassOf` to its UBERON term, or set `ARI_NoConcept`
-(`no term` or `not linked`, with an `rdfs:comment`). A class with neither is a validator warning
-(`tissue-unlinked`). Then rebuild the slice.
+In Protégé, give the class an `rdfs:subClassOf` to its UBERON term and set `ARI_ID` on the class
+to that term's CURIE (e.g. `UBERON:0001264`); the editor's tissue tree shows `ARI_ID`, and nothing
+generates it. Or set `ARI_NoConcept` (`no term` or `not linked`, with an `rdfs:comment`). A class
+with neither is a validator warning (`tissue-unlinked`). Then rebuild the slice.
 
 ## Build
 
 ```
-python build_uberon_import.py <path to data/2-databases>
-tools/format-owl.sh ontologies/ari_uberon.owl
+python notebook/uberon-mapping/build_uberon_import.py <path to data/2-databases>
+wsl -e tools/format-owl.sh ontologies/ari_uberon.owl
 ```
 
+Run both lines from the repository root; Java for the formatter is in WSL (see `CLAUDE.md`).
 The database folder holds `uberon-basic.obo`. The script reads the UBERON links in
 `ontologies/ari_anatomy.owl` and writes **only** `ontologies/ari_uberon.owl`, the import slice:
 each linked UBERON term and all its is_a ancestors (61 terms), with UBERON's label, definition and

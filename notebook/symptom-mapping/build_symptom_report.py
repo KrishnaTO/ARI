@@ -91,7 +91,7 @@ def concepts(symptoms_root, symp_labels, hp_labels, symp_order):
     """
     classes = {c.get(RDF + "about"): c for c in symptoms_root.findall(OWL + "Class")
                if c.get(RDF + "about").startswith(ARIS)}
-    label = {iri: c.findtext(RDFS + "label") for iri, c in classes.items()}
+    label = {iri: c.findtext(RDFS + "label").strip() for iri, c in classes.items()}
     ident = {iri: c.findtext(OBOINOWL + "id") for iri, c in classes.items()}
     rows = {}
 
@@ -122,7 +122,7 @@ def concepts(symptoms_root, symp_labels, hp_labels, symp_order):
                   "Parent ID": "; ".join(p[1] for p in parents), "Merged Into": ""}
         add(label[iri], values)
         for alt in cls.findall(SKOS + "altLabel"):
-            add(alt.text, dict(values, **{"Merged Into": label[iri]}))
+            add(alt.text.strip(), dict(values, **{"Merged Into": label[iri]}))
     return rows
 
 
