@@ -1,0 +1,30 @@
+name: OWL format
+
+# Every ontologies/*.owl must already be in the canonical layout that tools/format-owl.sh writes.
+# A file saved by any tool without the formatter fails here; run the formatter and push again.
+
+on:
+  pull_request:
+    paths:
+      - "ontologies/**"
+      - "tools/**"
+      - ".github/workflows/owl-format.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  format:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+      - uses: actions/cache@v4
+        with:
+          path: .cache/robot
+          key: robot-${{ hashFiles('tools/robot.version') }}
+      - name: Check canonical layout
+        run: tools/format-owl.sh --check ontologies/*.owl

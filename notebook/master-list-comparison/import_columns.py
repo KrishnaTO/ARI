@@ -3,6 +3,10 @@ report 10 matched: Target Antigens, Target Cells, Antibodies, Self Reactive Cell
 Mimicry and Environmental Triggers. Each line of a cell becomes one item, linked the way the
 editor reads that category. Items a disease already has are not added again.
 
+Written against the layout ari_t1d.owl had before the canonical formatter (relative `#` IRIs,
+one element per line). Check its lookups against today's file before re-running it, then run
+tools/format-owl.sh on the result.
+
 Usage: python import_columns.py <master.xlsx> <ari_t1d.owl> <10_Master_List_Comparison.xlsx>
 """
 import re, sys

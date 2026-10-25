@@ -25,14 +25,14 @@ from __future__ import annotations
 
 import argparse
 import collections
-import html
 import os
 import re
 import subprocess
 import sys
-import xml.etree.ElementTree as ElementTree
 from dataclasses import dataclass
 from datetime import date, datetime, timezone
+from urllib.parse import urljoin
+from xml.parsers import expat
 
 REPO_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
@@ -165,16 +165,15 @@ AUTHOR_RE = re.compile(r"github:[A-Za-z0-9](?:[A-Za-z0-9-]{0,37}[A-Za-z0-9])?")
 # Both are accepted; the date part is what the check is really about.
 DATE_RE = re.compile(r"\d{4}-\d{2}-\d{2}(?:T\d{2}:\d{2}:\d{2}(?:Z|[+-]\d{2}:\d{2})?)?")
 ICD9_RE = re.compile(r"\d{2,3}(\.\d{1,2})?")
-
-# An entity is any top-level node element with an rdf:about. RDF/XML writes the
-# same individual as `<owl:NamedIndividual>` with an `rdf:type` child or as a
-# typed node such as `<AutoimmuneDisease>`, so the element name is not what
-# makes it a disease; its ARI_ID is.
-ENTITY_OPEN_RE = re.compile(r"^<([\w:.-]+)\s[^>]*\brdf:about=")
-ANNOTATION_RE = re.compile(r"<(ARI_\w+)[^>]*>(.*?)</\1>")
-LABEL_RE = re.compile(r"<rdfs:label[^>]*>(.*?)</rdfs:label>")
 CURIE_MAP_RE = re.compile(r"#\s{2,}([A-Za-z0-9_.]+):\s")
-SYMPTOM_CONCEPT_RE = re.compile(r'<symptomConcept rdf:resource="([^"]*)"/>')
+
+ARI_DISEASE_BASE = "http://www.aurint.org/ontologies/ari-disease#"
+RDF = "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+RDF_TYPE = RDF + "type"
+RDFS_LABEL = "http://www.w3.org/2000/01/rdf-schema#label"
+XML_BASE = "http://www.w3.org/XML/1998/namespace base"
+SYMPTOM_CLASS = ARI_DISEASE_BASE + "Symptom"
+SYMPTOM_CONCEPT = ARI_DISEASE_BASE + "symptomConcept"
 
 
 @dataclass(frozen=True)
@@ -313,57 +312,114 @@ class Disease:
     annotations: dict  # property -> list of (value, line)
 
 
+@dataclass
+class Entity:
+    """One top-level node of the RDF/XML: everything said about one subject."""
+    iri: str
+    line: int
+    types: set
+    statements: list  # (property IRI, value, line); value is the literal text or resource IRI
+
+    def values(self, prop: str) -> list:
+        return [(value, line) for p, value, line in self.statements if p == prop]
+
+
+def read_entities(text: str) -> list[Entity]:
+    """Every top-level node with an rdf:about, read as XML rather than by line.
+
+    Any RDF/XML layout reads the same: the formatter's (tools/format-owl.sh) or
+    another tool's. A node may be `<owl:NamedIndividual>` with `rdf:type`
+    children or a typed node such as `<Symptom>`, and IRIs may be relative to
+    xml:base. Raises ExpatError when the file is not well-formed XML.
+    """
+    parser = expat.ParserCreate(namespace_separator=" ")
+    entities: list[Entity] = []
+    bases: list[str] = []  # xml:base in force at each open element
+    current: Entity | None = None
+    literal: list | None = None  # [property IRI, line, text parts] of the open literal property
+
+    def resolve(ref: str) -> str:
+        return urljoin(bases[-1], ref)
+
+    def start(name: str, attrs: dict) -> None:
+        nonlocal current, literal
+        bases.append(attrs.get(XML_BASE, bases[-1] if bases else ""))
+        depth = len(bases)
+        iri = name.replace(" ", "", 1)
+        line = parser.CurrentLineNumber
+        if depth == 2 and RDF + " about" in attrs:
+            types = set() if iri == RDF + "Description" else {iri}
+            current = Entity(resolve(attrs[RDF + " about"]), line, types, [])
+        elif depth == 3 and current is not None:
+            if RDF + " resource" in attrs:
+                value = resolve(attrs[RDF + " resource"])
+                current.statements.append((iri, value, line))
+                if iri == RDF_TYPE:
+                    current.types.add(value)
+            else:
+                literal = [iri, line, []]
+
+    def end(name: str) -> None:
+        nonlocal current, literal
+        depth = len(bases)
+        bases.pop()
+        if depth == 3 and literal is not None and current is not None:
+            current.statements.append((literal[0], "".join(literal[2]).strip(), literal[1]))
+            literal = None
+        elif depth == 2 and current is not None:
+            entities.append(current)
+            current = None
+
+    def chars(data: str) -> None:
+        if literal is not None and len(bases) == 3:
+            literal[2].append(data)
+
+    parser.StartElementHandler = start
+    parser.EndElementHandler = end
+    parser.CharacterDataHandler = chars
+    parser.Parse(text, True)
+    return entities
+
+
 def load_ontology(report: Report) -> dict[str, Disease] | None:
     """Parse ARI disease entities and their cross-reference annotations."""
     text = read_text(ONTOLOGY_PATH, report)
     if text is None:
         return None
     try:
-        ElementTree.fromstring(text)
-    except ElementTree.ParseError as exc:
+        return parse_ontology(text, report)
+    except expat.ExpatError as exc:
         report.error("ontology-not-well-formed", ONTOLOGY_PATH, 0, f"OWL/XML does not parse: {exc}.")
         return None
-    return parse_ontology(text, report)
 
 
 def parse_ontology(text: str, report: Report | None = None) -> dict[str, Disease]:
-    """Diseases keyed by ARI id, from already-read OWL text."""
+    """Diseases keyed by ARI id, from already-read OWL text.
+
+    The element name is not what makes an entity a disease; its ARI_ID is.
+    """
     diseases: dict[str, Disease] = {}
-    current: dict | None = None
-    for index, line in enumerate(text.replace("\r\n", "\n").split("\n"), start=1):
-        open_match = ENTITY_OPEN_RE.match(line)
-        if open_match:
-            if line.rstrip().endswith("/>"):
-                current = None  # a bare declaration carries no annotations
-                continue
-            current = {
-                "close": f"</{open_match.group(1)}>",
-                "label": None,
-                "annotations": collections.defaultdict(list),
-            }
-        if current is None:
+    for entity in read_entities(text):
+        annotations = collections.defaultdict(list)
+        for prop, value, line in entity.statements:
+            if prop.startswith(ARI_DISEASE_BASE + "ARI_"):
+                annotations[prop[len(ARI_DISEASE_BASE):]].append((value, line))
+        ids = annotations.get("ARI_ID", [])
+        ari_id = ids[0][0] if ids else None
+        if not (ari_id and ari_id.startswith("ARI:")):
             continue
-        label_match = LABEL_RE.search(line)
-        if label_match:
-            current["label"] = html.unescape(label_match.group(1)).strip()
-        for prop, value in ANNOTATION_RE.findall(line):
-            current["annotations"][prop].append((html.unescape(value).strip(), index))
-        if line.startswith(current["close"]):
-            ids = current["annotations"].get("ARI_ID", [])
-            ari_id = ids[0][0] if ids else None
-            if ari_id and ari_id.startswith("ARI:"):
-                if ari_id in diseases:
-                    if report is not None:
-                        report.error(
-                            "duplicate-ari-id",
-                            ONTOLOGY_PATH,
-                            ids[0][1],
-                            f"{ari_id} is used by more than one entity, so mappings for it "
-                            "are ambiguous.",
-                        )
-                else:
-                    diseases[ari_id] = Disease(ari_id, current["label"], dict(current["annotations"]))
-            current = None
+        if ari_id in diseases:
+            if report is not None:
+                report.error(
+                    "duplicate-ari-id",
+                    ONTOLOGY_PATH,
+                    ids[0][1],
+                    f"{ari_id} is used by more than one entity, so mappings for it "
+                    "are ambiguous.",
+                )
+            continue
+        labels = entity.values(RDFS_LABEL)
+        diseases[ari_id] = Disease(ari_id, labels[-1][0] if labels else None, dict(annotations))
     return diseases
 
 
@@ -977,8 +1033,8 @@ def check_ontology_values(diseases: dict[str, Disease], report: Report) -> None:
 # --------------------------------------------------------------------------
 
 
-def baseline_lines(ref: str, path: str) -> set[str] | None:
-    """Exact text of every line in `path` at `ref`, or None if it did not exist."""
+def baseline_text(ref: str, path: str) -> str | None:
+    """Text of `path` at `ref`, or None if it did not exist."""
     result = subprocess.run(
         ["git", "show", f"{ref}:{path}"],
         cwd=REPO_ROOT,
@@ -986,7 +1042,7 @@ def baseline_lines(ref: str, path: str) -> set[str] | None:
     )
     if result.returncode != 0:
         return None
-    return set(result.stdout.decode("utf-8", "replace").replace("\r\n", "\n").split("\n"))
+    return result.stdout.decode("utf-8", "replace").replace("\r\n", "\n")
 
 
 def current_text(path: str) -> str:
@@ -1058,14 +1114,10 @@ def check_deletions(ref: str, sssom_rows: list[Row], report: Report) -> None:
     Anything else -- a subtype, a changelog entry, an unmarked synonym, or an id
     no curator ruled against -- has no decision behind its removal.
     """
-    result = subprocess.run(
-        ["git", "show", f"{ref}:{ONTOLOGY_PATH}"],
-        cwd=REPO_ROOT,
-        capture_output=True,
-    )
-    if result.returncode != 0:
+    before_text = baseline_text(ref, ONTOLOGY_PATH)
+    if before_text is None:
         return  # the ontology is new on this branch; nothing to have deleted
-    before = parse_ontology(result.stdout.decode("utf-8", "replace"))
+    before = parse_ontology(before_text)
     after = parse_ontology(current_text(ONTOLOGY_PATH))
     if not before or not after:
         return
@@ -1136,24 +1188,50 @@ def check_deletions(ref: str, sssom_rows: list[Row], report: Report) -> None:
                 )
 
 
+def statements(text: str) -> list[tuple]:
+    """(line, (subject, property, value)) for every statement in OWL text."""
+    return [
+        (line, (entity.iri, prop, value))
+        for entity in read_entities(text)
+        for prop, value, line in entity.statements
+    ]
+
+
 def filter_to_changes(findings: list[Finding], ref: str) -> list[Finding]:
-    """Keep only findings on lines this branch added or rewrote since `ref`.
+    """Keep only findings on content this branch added or rewrote since `ref`.
 
     Pre-existing problems are real, but a curator submitting one disease should
     not be blocked by debt they did not introduce; the scheduled audit covers
     the standing backlog.
+
+    TSV findings compare line text. Ontology findings compare the statement on
+    the finding's line, (subject, property, value), so re-laying-out the file
+    changes nothing here.
     """
-    baselines: dict[str, set[str] | None] = {}
-    currents: dict[str, list[str]] = {}
+    baselines: dict[str, set | None] = {}
+    currents: dict[str, list | dict] = {}
     kept = []
     for finding in findings:
         path = finding.path
         if path not in baselines:
-            baselines[path] = baseline_lines(ref, path)
-            currents[path] = current_lines(path)
+            before = baseline_text(ref, path)
+            if path == ONTOLOGY_PATH:
+                baselines[path] = None if before is None else {s for _, s in statements(before)}
+                by_line = collections.defaultdict(set)
+                for line, statement in statements(current_text(path)):
+                    by_line[line].add(statement)
+                currents[path] = by_line
+            else:
+                baselines[path] = None if before is None else set(before.split("\n"))
+                currents[path] = current_lines(path)
         baseline = baselines[path]
         if baseline is None or finding.line == 0:
             kept.append(finding)
+            continue
+        if path == ONTOLOGY_PATH:
+            on_line = currents[path].get(finding.line)
+            if not on_line or not on_line <= baseline:
+                kept.append(finding)
             continue
         lines = currents[path]
         if finding.line - 1 >= len(lines):
@@ -1265,33 +1343,12 @@ def check_symptom_concepts(text: str, rows: list[Row], report: Report) -> None:
     A link that disagrees with the row is an error.
     """
     expected = expected_symptom_concepts(rows, report)
-    current: dict | None = None
-    for index, line in enumerate(text.replace("\r\n", "\n").split("\n"), start=1):
-        open_match = ENTITY_OPEN_RE.match(line)
-        if open_match and not line.rstrip().endswith("/>"):
-            current = {
-                "close": f"</{open_match.group(1)}>",
-                "symptom": open_match.group(1) == "Symptom",
-                "label": None,
-                "line": index,
-                "concepts": [],
-            }
+    for entity in read_entities(text):
+        if SYMPTOM_CLASS not in entity.types:
             continue
-        if current is None:
-            continue
-        if '<rdf:type rdf:resource="#Symptom"/>' in line:
-            current["symptom"] = True
-        label_match = LABEL_RE.search(line)
-        if label_match:
-            current["label"] = html.unescape(label_match.group(1)).strip()
-            current["line"] = index
-        current["concepts"].extend(SYMPTOM_CONCEPT_RE.findall(line))
-        if not line.startswith(current["close"]):
-            continue
-        entry, current = current, None
-        if not entry["symptom"]:
-            continue
-        label, line_no, concepts = entry["label"], entry["line"], entry["concepts"]
+        labels = entity.values(RDFS_LABEL)
+        label, line_no = labels[-1] if labels else (None, entity.line)
+        concepts = [value for value, _ in entity.values(SYMPTOM_CONCEPT)]
         if len(concepts) > 1:
             report.error(
                 "symptom-concept-repeated", ONTOLOGY_PATH, line_no,
