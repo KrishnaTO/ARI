@@ -81810,6 +81810,7 @@ When mastocytosis is not limited to the skin, it is called systemic mastocytosis
         <ARI_ChangeLog>2026-10-14 | Claude | Added parent category: Combination disease. Components: ARI:0001032 Autoimmune hemolytic anemia (high); ARI:0001107 Immune thrombocytopenia (high); ARI:0001040 Autoimmune neutropenia (medium). Proposed in notebook/disease-hierarchy/proposed_parents.tsv (ARI#138)</ARI_ChangeLog>
         <ARI_ChangeLog>2026-10-15T12:40:37+00:00 | Leon Islas | Imported from ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 103: 4 associated diseases (4 linked to ARI diseases), demographic bias, 5 pathway steps.</ARI_ChangeLog>
         <ARI_ChangeLog>2026-10-15T16:44:19+00:00 | migration (#229) | Moved to prevalence &amp; incidence figures: Prevalence US 21.6/100k; Prevalence Worldwide 0.2667/100k</ARI_ChangeLog>
+        <ARI_ChangeLog>2026-10-25T19:26:57+00:00 | Krishna Udaiwal | Edited: synonyms</ARI_ChangeLog>
         <ARI_ClinicalSubtype>Evans Syndrome, Primary - No associated underlying disease.</ARI_ClinicalSubtype>
         <ARI_ClinicalSubtype>Evans Syndrome, Secondary - Occurs with lupus or other autoimmune disorders.</ARI_ClinicalSubtype>
         <ARI_DOID>8931</ARI_DOID>
@@ -81829,6 +81830,7 @@ When mastocytosis is not limited to the skin, it is called systemic mastocytosis
         <ARI_RefLink>Link to Healthline | https://www.healthline.com/health/blood-cell-disorders/evans-syndrome</ARI_RefLink>
         <ARI_SNOMED>75331009</ARI_SNOMED>
         <ARI_SurveyCode>ES</ARI_SurveyCode>
+        <ARI_Synonym>immune pancytopenia</ARI_Synonym>
         <ARI_UMLS>C0272126</ARI_UMLS>
         <ARI_Version>2</ARI_Version>
         <rdfs:comment>A rare autoimmune disorder that is a combination of two or more immune hematological disorders in which the immune system destroys the body&apos;s red blood cells, white blood cells and/or platelets. 
