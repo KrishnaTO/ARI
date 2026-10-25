@@ -1,5 +1,14 @@
 # Changelog
 
+## claude/ontology-file-structure-23209b
+
+Design for splitting the ontology into modules (core, disease, symptoms, anatomy, biomarkers), in
+`docs/superpowers/specs/2026-10-18-ontology-modules-design.md`. Nothing is built by this branch.
+It records the user's decisions (shared concept classes, one `sharedConcept` link, the OWL files as
+the record) and the delivery order: Project 0 puts every `ontologies/*.owl` in one canonical layout
+so the app, Protégé and scripts can all write any file without reformatting churn; Projects 1-3 are
+the split, biomarker concepts, and cell/tissue concepts.
+
 ## ontology-formatter
 
 Puts every `ontologies/*.owl` in one canonical layout, so the app (owlready2), Protégé and
