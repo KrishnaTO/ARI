@@ -1,0 +1,4 @@
+# Kept LF on every platform: the formatter writes LF, and bash cannot run a CRLF script.
+*.owl text eol=lf
+*.sh text eol=lf
+.githooks/* text eol=lf

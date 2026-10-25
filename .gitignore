@@ -17,3 +17,4 @@ data/2-databases/*
 notebook/ari-grounding/doid_records.json
 metadata-manager_v2/run-local.sh
 metadata-manager_v2/app/node_modules/
+.cache/

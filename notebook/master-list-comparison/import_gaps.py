@@ -14,6 +14,10 @@ Not imported, by decision: Evidence Quality (the master's grade column is for au
 evidence, unconfirmed as the data model's grade), MeSH terms as synonyms (left to synonym review)
 and report 11 parents (all remaining ones were rejected in proposed_parents.tsv).
 
+Written against the layout ari_t1d.owl had before the canonical formatter (relative `#` IRIs,
+one element per line). Check its lookups against today's file before re-running it, then run
+tools/format-owl.sh on the result.
+
 Usage: python import_gaps.py <master.xlsx> <ari_t1d.owl> <10_Master_List_Comparison.xlsx> <ari.synonym_blocklist.tsv>
 """
 import re, sys

@@ -68,7 +68,9 @@ It then writes:
 
 - **`symptomConcept` in `ontologies/ari_t1d.owl`**: on every Symptom individual, the `ARIS_…` class
   its label maps to. A merged label links the class of the symptom it merges into; a `not a
-  symptom` label links nothing. Every other line of the ontology is left as it is.
+  symptom` label links nothing. The script edits the file as XML; commit it through the
+  pre-commit hook (or run `tools/format-owl.sh`), which restores the canonical layout so the
+  diff shows only the links that changed.
 
 ### Symptom individuals and shared symptoms
 

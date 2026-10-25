@@ -26,7 +26,9 @@ no row. It then writes:
 - In `ontologies/ari_t1d.owl`: an `owl:imports` of the slice, and on each exact class an
   `rdfs:subClassOf` to its UBERON term plus `ARI_ID` set to the UBERON CURIE.
 
-Re-running leaves links that are already in place alone.
+Re-running leaves links that are already in place alone. Both files are written as plain XML;
+commit them through the pre-commit hook (or run `tools/format-owl.sh`) to put them back in the
+canonical layout.
 
 **Why subClassOf and not equivalentClass.** ARI's class tree uses subClassOf for "part of":
 Pancreas sits under Endocrine system, Islet under Pancreas and Beta cell under Islet. It also

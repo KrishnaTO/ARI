@@ -24,6 +24,8 @@ The database folder is not tracked in git, so pass the path of a checkout holdin
 uberon-basic.obo (http://purl.obolibrary.org/obo/uberon/basic.obo).
 """
 import csv, os, re, sys
+import xml.etree.ElementTree as ET
+from urllib.parse import urljoin
 from xml.sax.saxutils import escape
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -37,6 +39,11 @@ ARI_ONTOLOGY_IRI = "http://www.aurint.org/ontologies/ari-disease"
 OBO = "http://purl.obolibrary.org/obo/"
 MAPPINGS = {"exact", "no term", "not linked"}
 XSD_STRING = "http://www.w3.org/2001/XMLSchema#string"
+ARI_BASE = ARI_ONTOLOGY_IRI + "#"
+ARI_ID = "{%s}ARI_ID" % ARI_BASE
+RDF = "{http://www.w3.org/1999/02/22-rdf-syntax-ns#}"
+RDFS = "{http://www.w3.org/2000/01/rdf-schema#}"
+OWL = "{http://www.w3.org/2002/07/owl#}"
 
 
 def obo_iri(curie):
@@ -107,11 +114,29 @@ def read_mapping(terms, ontology_classes):
     return [r for r in rows if r["Mapping"] == "exact"]
 
 
-def tissue_classes(text):
+def resolve(ref):
+    """Absolute IRI of an rdf:about / rdf:resource, which may be relative to the file's xml:base."""
+    return urljoin(ARI_ONTOLOGY_IRI, ref)
+
+
+def ari_classes(root):
+    """ARI class name -> its owl:Class element, for classes in the ari-disease namespace."""
+    out = {}
+    for cls in root.findall(OWL + "Class"):
+        iri = resolve(cls.get(RDF + "about"))
+        if iri.startswith(ARI_BASE):
+            out[iri[len(ARI_BASE):]] = cls
+    return out
+
+
+def tissue_classes(root):
     """ARI classes under MulticellularAnatomicalStructure, including it."""
-    parents = {}
-    for m in re.finditer(r'<owl:Class rdf:about="#([^"]+)">(.*?)</owl:Class>', text, re.S):
-        parents[m.group(1)] = re.findall(r'<rdfs:subClassOf rdf:resource="#([^"]+)"/>', m.group(2))
+    parents = {
+        name: [resolve(s.get(RDF + "resource"))[len(ARI_BASE):]
+               for s in cls.findall(RDFS + "subClassOf")
+               if s.get(RDF + "resource") and resolve(s.get(RDF + "resource")).startswith(ARI_BASE)]
+        for name, cls in ari_classes(root).items()
+    }
 
     def under_root(name, seen=()):
         if name == "MulticellularAnatomicalStructure":
@@ -171,46 +196,37 @@ def write_slice(rows, terms, version):
     return len(ids)
 
 
-def link_ontology(text, rows):
-    header = f'<owl:Ontology rdf:about="{ARI_ONTOLOGY_IRI}"/>'
-    imports = f'  <owl:imports rdf:resource="{SLICE_IRI}"/>'
-    if imports not in text:
-        if header not in text:
-            sys.exit("ari_t1d.owl: ontology header is not the bare form this script expects")
-        text = text.replace(header, f'<owl:Ontology rdf:about="{ARI_ONTOLOGY_IRI}">\n{imports}\n</owl:Ontology>', 1)
+def link_ontology(root, rows):
+    header = root.find(OWL + "Ontology")
+    if not any(i.get(RDF + "resource") == SLICE_IRI for i in header.findall(OWL + "imports")):
+        ET.SubElement(header, OWL + "imports", {RDF + "resource": SLICE_IRI})
 
+    classes = ari_classes(root)
     for r in rows:
         name, uid = r["ARI Class"], r["UBERON ID"]
-        m = re.search(rf'<owl:Class rdf:about="#{name}">\n(.*?)</owl:Class>', text, re.S)
-        body = m.group(1)
-        existing = re.findall(r"<ARI_ID[^>]*>([^<]*)</ARI_ID>", body)
+        cls = classes[name]
+        existing = [e.text.strip() for e in cls.findall(ARI_ID)]
         if existing not in ([], [uid]):
             sys.exit(f"ari_t1d.owl: {name} already has ARI_ID {existing}, not {uid}")
-        new = body
-        link = f'  <rdfs:subClassOf rdf:resource="{obo_iri(uid)}"/>\n'
-        if link not in new:
-            # after the class's own ARI parent
-            new = re.sub(r'(  <rdfs:subClassOf rdf:resource="#[^"]+"/>\n)', rf"\1{link}", new, count=1)
+        if not any(s.get(RDF + "resource") == obo_iri(uid) for s in cls.findall(RDFS + "subClassOf")):
+            ET.SubElement(cls, RDFS + "subClassOf", {RDF + "resource": obo_iri(uid)})
         if not existing:
-            new = re.sub(r"(  <rdfs:label[^\n]*\n)",
-                         rf'\1  <ARI_ID rdf:datatype="{XSD_STRING}">{uid}</ARI_ID>\n', new, count=1)
-        text = text[:m.start(1)] + new + text[m.end(1):]
-    return text
+            ET.SubElement(cls, ARI_ID, {RDF + "datatype": XSD_STRING}).text = uid
 
 
 def main():
     if len(sys.argv) != 2:
         sys.exit(__doc__)
     terms, version = read_uberon(os.path.join(sys.argv[1], "uberon-basic.obo"))
-    with open(ONTOLOGY, encoding="utf-8", newline="") as f:
-        raw = f.read()
-    eol = "\r\n" if "\r\n" in raw else "\n"     # keep the checkout's line endings
-    text = raw.replace("\r\n", "\n")
-    rows = read_mapping(terms, tissue_classes(text))
+    # Prefixes registered so the rewrite keeps them; the pre-commit hook (tools/format-owl.sh)
+    # then puts the file back in the canonical layout, so only the new links show in the diff.
+    for _, (prefix, uri) in ET.iterparse(ONTOLOGY, events=["start-ns"]):
+        ET.register_namespace(prefix, uri)
+    tree = ET.parse(ONTOLOGY)
+    rows = read_mapping(terms, tissue_classes(tree.getroot()))
     count = write_slice(rows, terms, version)
-    linked = link_ontology(text, rows)
-    with open(ONTOLOGY, "w", encoding="utf-8", newline=eol) as f:
-        f.write(linked)
+    link_ontology(tree.getroot(), rows)
+    tree.write(ONTOLOGY, encoding="utf-8", xml_declaration=True)
     print(f"{len(rows)} ARI classes linked to UBERON ({version}); {count} terms in {os.path.relpath(SLICE, ROOT)}")
 
 
