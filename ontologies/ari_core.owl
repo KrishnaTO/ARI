@@ -1,0 +1,848 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.aurint.org/ontologies/ari_core#"
+     xml:base="http://www.aurint.org/ontologies/ari_core"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:ari-disease="http://www.aurint.org/ontologies/ari-disease#">
+    <owl:Ontology rdf:about="http://www.aurint.org/ontologies/ari_core">
+        <rdfs:comment>ARI&apos;s key classes, under the umbrella classes Disease, Symptom, Anatomical entity and Biomarker, and every property the ARI modules use. No other ARI-owned file declares a property.</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/source -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/source"/>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#ARI_AssociatedDisease -->
+
+    <owl:AnnotationProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#ARI_AssociatedDisease"/>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#ARI_Author -->
+
+    <owl:AnnotationProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#ARI_Author"/>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#ARI_AuthorDate -->
+
+    <owl:AnnotationProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#ARI_AuthorDate"/>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#ARI_ChangeLog -->
+
+    <owl:AnnotationProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#ARI_ChangeLog"/>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#ARI_ClinicalSubtype -->
+
+    <owl:AnnotationProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#ARI_ClinicalSubtype"/>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#ARI_DOID -->
+
+    <owl:AnnotationProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#ARI_DOID"/>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#ARI_DXCODE -->
+
+    <owl:AnnotationProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#ARI_DXCODE"/>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#ARI_DefSource -->
+
+    <owl:AnnotationProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#ARI_DefSource"/>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#ARI_EnrichmentSource -->
+
+    <owl:AnnotationProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#ARI_EnrichmentSource"/>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#ARI_FormerID -->
+
+    <owl:AnnotationProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#ARI_FormerID"/>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#ARI_ICD10 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#ARI_ICD10"/>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#ARI_ID -->
+
+    <owl:AnnotationProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#ARI_ID"/>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#ARI_IsGrouping -->
+
+    <owl:AnnotationProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#ARI_IsGrouping"/>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#ARI_MESH -->
+
+    <owl:AnnotationProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#ARI_MESH"/>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#ARI_MONDO -->
+
+    <owl:AnnotationProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#ARI_MONDO"/>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#ARI_NCI -->
+
+    <owl:AnnotationProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#ARI_NCI"/>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#ARI_NoConcept -->
+
+    <owl:AnnotationProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#ARI_NoConcept"/>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#ARI_OMIM -->
+
+    <owl:AnnotationProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#ARI_OMIM"/>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#ARI_OMOP -->
+
+    <owl:AnnotationProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#ARI_OMOP"/>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#ARI_ORPHANET -->
+
+    <owl:AnnotationProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#ARI_ORPHANET"/>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#ARI_Obsolete -->
+
+    <owl:AnnotationProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#ARI_Obsolete"/>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#ARI_PrevalenceDesc -->
+
+    <owl:AnnotationProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#ARI_PrevalenceDesc"/>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#ARI_Pubmed -->
+
+    <owl:AnnotationProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#ARI_Pubmed"/>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#ARI_RefLink -->
+
+    <owl:AnnotationProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#ARI_RefLink"/>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#ARI_SNOMED -->
+
+    <owl:AnnotationProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#ARI_SNOMED"/>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#ARI_SurveyCode -->
+
+    <owl:AnnotationProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#ARI_SurveyCode"/>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#ARI_Synonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#ARI_Synonym"/>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#ARI_SynonymWithdrawn -->
+
+    <owl:AnnotationProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#ARI_SynonymWithdrawn"/>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#ARI_UMLS -->
+
+    <owl:AnnotationProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#ARI_UMLS"/>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#ARI_Version -->
+
+    <owl:AnnotationProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#ARI_Version"/>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#sharedConcept -->
+
+    <owl:AnnotationProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#sharedConcept"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#altLabel -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#altLabel"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#broadMatch -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#broadMatch"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#closeMatch -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#closeMatch"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#exactMatch -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#affectsCellTissueOrOrgan -->
+
+    <owl:ObjectProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#affectsCellTissueOrOrgan"/>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#associatedWithAutoimmune -->
+
+    <owl:ObjectProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#associatedWithAutoimmune"/>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#hasAntibody -->
+
+    <owl:ObjectProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#hasAntibody"/>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#hasBiomarker -->
+
+    <owl:ObjectProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#hasBiomarker"/>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#hasEnvironmentalTrigger -->
+
+    <owl:ObjectProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#hasEnvironmentalTrigger"/>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#hasEpidemiologyProfile -->
+
+    <owl:ObjectProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#hasEpidemiologyProfile"/>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#hasEtiologyFactor -->
+
+    <owl:ObjectProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#hasEtiologyFactor"/>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#hasGeneticAssociation -->
+
+    <owl:ObjectProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#hasGeneticAssociation"/>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#hasParentCategory -->
+
+    <owl:ObjectProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#hasParentCategory"/>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#hasParentDisease -->
+
+    <owl:ObjectProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#hasParentDisease"/>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#hasPathwayStep -->
+
+    <owl:ObjectProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#hasPathwayStep"/>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#hasSymptom -->
+
+    <owl:ObjectProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#hasSymptom"/>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#hasTreatment -->
+
+    <owl:ObjectProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#hasTreatment"/>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#involvesAPC -->
+
+    <owl:ObjectProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#involvesAPC"/>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#involvesAcutePhaseReactant -->
+
+    <owl:ObjectProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#involvesAcutePhaseReactant"/>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#involvesAntigen -->
+
+    <owl:ObjectProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#involvesAntigen"/>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#involvesComplement -->
+
+    <owl:ObjectProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#involvesComplement"/>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#involvesCytokine -->
+
+    <owl:ObjectProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#involvesCytokine"/>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#involvesInflammasome -->
+
+    <owl:ObjectProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#involvesInflammasome"/>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#involvesInnateComponent -->
+
+    <owl:ObjectProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#involvesInnateComponent"/>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#involvesNETosis -->
+
+    <owl:ObjectProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#involvesNETosis"/>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#involvesReceptor -->
+
+    <owl:ObjectProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#involvesReceptor"/>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#involvesTCell -->
+
+    <owl:ObjectProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#involvesTCell"/>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#involvesTranscriptionFactor -->
+
+    <owl:ObjectProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#involvesTranscriptionFactor"/>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#targetsTissue -->
+
+    <owl:ObjectProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#targetsTissue"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#ageRange -->
+
+    <owl:DatatypeProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#ageRange">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#antibodyDiagnosticValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#antibodyDiagnosticValue">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#antibodyFrequency -->
+
+    <owl:DatatypeProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#antibodyFrequency">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#chromosomalLocus -->
+
+    <owl:DatatypeProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#chromosomalLocus">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#componentRelevance -->
+
+    <owl:DatatypeProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#componentRelevance">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#demographicBias -->
+
+    <owl:DatatypeProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#demographicBias">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#diseaseCategory -->
+
+    <owl:DatatypeProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#diseaseCategory">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#epiMeasure -->
+
+    <owl:DatatypeProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#epiMeasure">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#epiRatePer100k -->
+
+    <owl:DatatypeProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#epiRatePer100k">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#epiRegion -->
+
+    <owl:DatatypeProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#epiRegion">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#epiSex -->
+
+    <owl:DatatypeProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#epiSex">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#epiYear -->
+
+    <owl:DatatypeProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#epiYear">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#etiologyDescription -->
+
+    <owl:DatatypeProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#etiologyDescription">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#etiologyExcerpt -->
+
+    <owl:DatatypeProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#etiologyExcerpt">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#etiologyOriginType -->
+
+    <owl:DatatypeProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#etiologyOriginType">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#evidenceQuality -->
+
+    <owl:DatatypeProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#evidenceQuality">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#geneticOddsRatio -->
+
+    <owl:DatatypeProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#geneticOddsRatio">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#geneticProduct -->
+
+    <owl:DatatypeProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#geneticProduct">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#geneticRiskEffect -->
+
+    <owl:DatatypeProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#geneticRiskEffect">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#hlaEffect -->
+
+    <owl:DatatypeProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#hlaEffect">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#hlaMechanism -->
+
+    <owl:DatatypeProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#hlaMechanism">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#incidenceRate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#incidenceRate">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#likelihood -->
+
+    <owl:DatatypeProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#likelihood">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#loincCode -->
+
+    <owl:DatatypeProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#loincCode">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#markerDiagnosticUse -->
+
+    <owl:DatatypeProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#markerDiagnosticUse">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#markerSensitivity -->
+
+    <owl:DatatypeProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#markerSensitivity">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#markerSpecificity -->
+
+    <owl:DatatypeProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#markerSpecificity">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#markerType -->
+
+    <owl:DatatypeProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#markerType">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#mediatorDescription -->
+
+    <owl:DatatypeProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#mediatorDescription">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#prevalenceValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#prevalenceValue">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#sourcePMID -->
+
+    <owl:DatatypeProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#sourcePMID">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#stepCategory -->
+
+    <owl:DatatypeProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#stepCategory">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#stepDescription -->
+
+    <owl:DatatypeProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#stepDescription">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#stepOrder -->
+
+    <owl:DatatypeProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#stepOrder">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#symptomDescription -->
+
+    <owl:DatatypeProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#symptomDescription">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#tCellRole -->
+
+    <owl:DatatypeProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#tCellRole">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#treatmentDescription -->
+
+    <owl:DatatypeProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#treatmentDescription">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#treatmentFdaStatus -->
+
+    <owl:DatatypeProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#treatmentFdaStatus">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#treatmentType -->
+
+    <owl:DatatypeProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#treatmentType">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#triggerDescription -->
+
+    <owl:DatatypeProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#triggerDescription">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-core#AnatomicalEntity -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-core#AnatomicalEntity">
+        <rdfs:label>Anatomical entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-core#Biomarker -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-core#Biomarker">
+        <rdfs:label>Biomarker</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-core#Disease -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-core#Disease">
+        <rdfs:label>Disease</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#AffectedCellTissueOrOrgan -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-disease#AffectedCellTissueOrOrgan">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-core#AnatomicalEntity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#Antigen -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-disease#Antigen">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-core#Biomarker"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#Autoantibody -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-disease#Autoantibody">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-core#Biomarker"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#AutoimmuneDisease -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-disease#AutoimmuneDisease">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-core#Disease"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#ClinicalBiomarker -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-disease#ClinicalBiomarker">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-core#Biomarker"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#MulticellularAnatomicalStructure -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-disease#MulticellularAnatomicalStructure">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-core#AnatomicalEntity"/>
+        <ari-disease:ARI_ID>UBERON:0010000</ari-disease:ARI_ID>
+        <ari-disease:ARI_NoConcept>not linked</ari-disease:ARI_NoConcept>
+        <rdfs:comment>Root of the tissue tree. It also holds Systemic, Metabolic System and All, which are not anatomical structures, so it is not linked. Its ARI_ID UBERON:0010000 is left as it was.</rdfs:comment>
+        <rdfs:label>Multicellular anatomical structure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#Symptom -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-disease#Symptom">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29) https://github.com/owlcs/owlapi -->
+

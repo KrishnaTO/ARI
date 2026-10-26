@@ -1,9 +1,10 @@
 """Compare a master list's ALPHABETICAL sheet with the active diseases in the ARI ontology,
 column by column, and write the differences to an Excel report.
 
-Usage: python compare.py <master.xlsx> <ari_t1d.owl> <out.xlsx>
+Usage: python compare.py <master.xlsx> <ari_disease.owl> <out.xlsx>
+Reads ari_anatomy.owl from the same folder as ari_disease.owl.
 """
-import re, sys
+import os, re, sys
 import xml.etree.ElementTree as ET
 from collections import Counter, defaultdict
 from datetime import date
@@ -83,9 +84,12 @@ STATUS_FILL = {
 
 
 # ---------- ARI ----------
-root = ET.parse(OWL_PATH).getroot()
 # Top-level nodes, whether written as owl:NamedIndividual or as a typed element such as <Symptom>.
-nodes = {e.get(RDF + 'about'): e for e in root if e.get(RDF + 'about')}
+# The Tissue_* individuals targetsTissue points at live in ari_anatomy.owl, next to the disease file.
+ANATOMY_PATH = os.path.join(os.path.dirname(OWL_PATH), 'ari_anatomy.owl')
+nodes = {}
+for path in (OWL_PATH, ANATOMY_PATH):
+    nodes.update({e.get(RDF + 'about'): e for e in ET.parse(path).getroot() if e.get(RDF + 'about')})
 ari = {}
 for e in nodes.values():
     i = e.findtext(A + 'ARI_ID')
@@ -307,7 +311,7 @@ how_count = Counter(m[3] for m in matched)
 lines = [
     ['ARI master list vs ARI ontology - column comparison'],
     [f'Sheet: {MASTER.replace(chr(92), "/").split("/")[-1]} (ALPHABETICAL)'],
-    [f'ARI: ontologies/ari_t1d.owl, active diseases only (ARI_Obsolete true excluded). Generated {date.today()}.'],
+    [f'ARI: ontologies/ari_disease.owl, active diseases only (ARI_Obsolete true excluded). Generated {date.today()}.'],
     [],
     ['Diseases', 'Count'],
     ['Sheet rows', len(rows)],

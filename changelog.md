@@ -1,5 +1,62 @@
 # Changelog
 
+## ontology-modules-split
+
+Splits `ontologies/ari_t1d.owl` into modules, one per domain, so a curator can import a published
+ontology (UBERON, SYMP/HPO, later CL, PR, LOINC) where it belongs without wading through 65,000
+lines of disease records. Project 1 of the ontology modules design
+(`docs/superpowers/specs/2026-10-18-ontology-modules-design.md`). Every entity IRI is unchanged, so
+`mappings/*.tsv`, reports and links keep resolving. Paired with the editor app's branch,
+KrishnaTO/ARI-metadata-manager `ontology-modules-split`; the two merge together at a confirmed
+cutover, since the app reads the new files and the old app cannot read these.
+
+- **Seven files.** `ari_core.owl` (the key classes under three new umbrella classes `Disease`,
+  `Anatomical entity`, `Biomarker`, and all 103 property declarations), `ari_disease.owl` (the
+  renamed `ari_t1d.owl`: diseases and per-disease entries; imports the other modules),
+  `ari_symptoms.owl` (moved from `notebook/symptom-mapping/`: 765 `ARIS_…` classes, roots under
+  `Symptom`), `ari_anatomy.owl` (25 tissue and system classes and the 23 `Tissue_*` individuals),
+  `ari_biomarkers.owl` (empty for now), and the generated slices `ari_symp.owl` (309 SYMP terms,
+  split out of `ari_symptoms.owl`) and `ari_uberon.owl`. `catalog-v001.xml` resolves every import
+  for ROBOT and Protégé. Open `ari_disease.owl`.
+- **The OWL is the record.** `symptom_mapping.tsv` and `uberon_mapping.tsv` are deleted; what they
+  held now lives in the OWL. UBERON notes became `rdfs:comment` on the tissue class, and `no term`
+  / `not linked` rows became `ARI_NoConcept` on it. `symptomConcept` is renamed `sharedConcept`
+  on 2,248 Symptom individuals, and the 46 obsolete `not a symptom` ones got
+  `ARI_NoConcept "not a symptom"`. A symptom links its class by label lookup: its `rdfs:label`
+  equals a class's `rdfs:label` or `skos:altLabel`. The lookup reproduces all 2,248 links exactly.
+  To map a new symptom, add the string as a label or `altLabel` in `ari_symptoms.owl`, or set
+  `ARI_NoConcept` on the individual.
+- **One set of properties.** `ari_core.owl` declares all of them, plus `ARI_NoConcept`,
+  `ARI_EnrichmentSource` (the app wrote it without a declaration), `oboInOwl:id` and `dc:source`.
+  `sharedConcept`, `ARI_NoConcept` and `ARI_EnrichmentSource` keep the `ari-disease#` namespace of
+  every other property.
+- **Validator** (`.github/scripts/validate_mappings.py`) reads all the modules. A symptom link is
+  checked by label lookup in `ari_symptoms.owl`. New checks: `property-outside-core`,
+  `subject-in-two-modules`, `shared-concept-target-missing`, `concept-label-ambiguous`,
+  `concept-id-repeated`, `symptom-decided-and-linked` and `tissue-unlinked`. With `--since`, a
+  change to `ari_symptoms.owl` re-checks every symptom link, since one new label can change what
+  many individuals link.
+- **A duplicate concept label or id is reported on every class that carries it**, and a change to
+  `ari_symptoms.owl` keeps those findings under `--since`. Reported only on the later class, a PR
+  that added the duplicate to an earlier class passed the gate, and the app cannot load an
+  ontology with an ambiguous label. New check `no-concept-value`: `ARI_NoConcept` in any ARI-owned
+  module must be exactly `not a symptom`, `no term` or `not linked`, since everything that reads
+  it compares the string.
+- **Builders are slice extractors.** `build_uberon_import.py` writes only `ari_uberon.owl`, from the
+  UBERON links in `ari_anatomy.owl`. `build_symp_import.py` (renamed from
+  `build_symptom_mapping.py`) writes only `ari_symp.owl`, from the SYMP links in `ari_symptoms.owl`,
+  and checks the SYMP and HPO terms are active. Both are followed by `tools/format-owl.sh`.
+  `build_symptom_report.py` rebuilds report 4's Symptoms and Symptom Mapping sheets from the OWL
+  (plus `hp.obo` for HPO labels and `symp.owl` for parent order), with the same cells as before.
+- `notebook/ontology-modules/split_ontology.py` made the split and is kept for the record;
+  `notebook/ontology-modules/README.md` covers opening in Protégé, loading in owlready2
+  (`onto_path.append("ontologies")`) and which tool writes which file. Every script path now names
+  `ari_disease.owl`, except the two historical import scripts (#158); `compare.py` also reads
+  `ari_anatomy.owl`.
+- `.gitattributes` keeps `tools/robot.version` LF: a CRLF copy broke `format-owl.sh` on Windows.
+- Still to rebuild: `notebook/disease-hierarchy/disease_hierarchy.csv` and the proposed-hierarchy OWL
+  still mention `ari_t1d.owl` in their generated text until the hierarchy is next rebuilt.
+
 ## fix/research-gaps-absolute-iris
 
 Report 12 reads the published record again. Since the canonical layout (#154) every

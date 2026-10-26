@@ -13,7 +13,7 @@ online sources in reports:
 
 ## Method
 
-Diseases, preferred names and synonyms are read from `ontologies/ari_t1d.owl`
+Diseases, preferred names and synonyms are read from `ontologies/ari_disease.owl`
 (`ari_diseases.py`): the curated, non-retired diseases and their current `ARI_Synonym`
 values, so a synonym withdrawn by the synonym review no longer produces matches. The
 existing SNOMED codes the SNOMED match is checked against are the ontology's `ARI_SNOMED`.

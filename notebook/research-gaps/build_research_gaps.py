@@ -1,7 +1,7 @@
 """Compare what ARI publishes per disease with the fields of the immunological data model, and
 say for each disease and field what is still to be researched.
 
-Published   - ontologies/ari_t1d.owl, the record the editor serves
+Published   - ontologies/ari_disease.owl, the record the editor serves
 Data model  - data_model/Immuno-data-model-v4.xlsx (the field list below follows it row by row)
 Not yet imported, but already in the repository:
   master    - ALPHABETICAL sheet of data/1-master/ARI Master List - 2026-10-08.xlsx, matched to ARI
@@ -22,7 +22,7 @@ from openpyxl.utils import get_column_letter
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.abspath(os.path.join(HERE, "..", ".."))
-ONTOLOGY = os.path.join(ROOT, "ontologies/ari_t1d.owl")
+ONTOLOGY = os.path.join(ROOT, "ontologies/ari_disease.owl")
 MASTER = os.path.join(ROOT, "data/1-master/ARI Master List - 2026-10-08.xlsx")
 MATCH = os.path.join(ROOT, "data/4-reports/10_Master_List_Comparison.xlsx")
 HIERARCHY = os.path.join(ROOT, "data/4-reports/11_Disease_Hierarchy.xlsx")
@@ -481,10 +481,10 @@ for s in STATUSES:
 ws.append([])
 for line in [
     "Fields follow data_model/Immuno-data-model-v4.xlsx; Definition and its source are the core annotations of data/instructions.md.",
-    "'No field yet' means ari_t1d.owl declares no property for the data-model field, so a value cannot be published until one is added.",
+    "'No field yet' means ari_core.owl declares no property for the data-model field, so a value cannot be published until one is added.",
     "Gene Region and the two Gene Polymorphisms rows of the data model are one column here: ARI stores all three as GeneVariant.",
     "Published values are checked for presence only, not correctness. Evidence Quality and Disease Type are also checked against the data model's allowed values.",
-    "Sources: ontologies/ari_t1d.owl; data/1-master/ARI Master List - 2026-10-08.xlsx (ALPHABETICAL) via report 10's Disease Match; report 11 Relationships. No online sources.",
+    "Sources: ontologies/ari_disease.owl; data/1-master/ARI Master List - 2026-10-08.xlsx (ALPHABETICAL) via report 10's Disease Match; report 11 Relationships. No online sources.",
 ]:
     ws.append([line])
 

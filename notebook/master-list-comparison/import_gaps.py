@@ -1,6 +1,6 @@
 """HISTORICAL - kept as the record of the 2026-10-08 import; it refuses to run.
 
-Import the master-list data that report 12 marks "In repo - import" into ari_t1d.owl, for every
+Import the master-list data that report 12 marks "In repo - import" into ari_t1d.owl (now `ari_disease.owl`), for every
 disease that report 10 matched. Only fields a disease does not yet have are filled:
 
   Definition                   -> rdfs:comment

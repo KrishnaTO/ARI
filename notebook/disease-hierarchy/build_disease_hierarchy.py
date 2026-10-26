@@ -3,7 +3,7 @@
 Evidence sources (all local):
   master   - Diseases + Subtypes sheets of the ARI master list: a subtype/broad-class row
              whose name is another core disease's preferred name or synonym
-  ontology - existing hasParentDisease links in ontologies/ari_t1d.owl
+  ontology - existing hasParentDisease links in ontologies/ari_disease.owl
   snomed   - SNOMED is-a, via OMOP CONCEPT_ANCESTOR between the diseases' OMOP ConceptIDs
   doid     - DOID is_a (doid.owl subClassOf) between the diseases' DOID matches (report 6)
 
@@ -24,7 +24,7 @@ ROOT = os.path.abspath(os.path.join(HERE, "..", ".."))
 MASTER = os.path.join(ROOT, "data/1-master/ARI Master List V 2.1 - 2026-06-04.xlsx")
 CORE = os.path.join(ROOT, "data/4-reports/1_Core_ARI_Diseases.xlsx")
 DOID_MATCHES = os.path.join(ROOT, "notebook/ari-grounding/doid_matches_all.csv")
-ONTOLOGY = os.path.join(ROOT, "ontologies/ari_t1d.owl")
+ONTOLOGY = os.path.join(ROOT, "ontologies/ari_disease.owl")
 OUT_XLSX = os.path.join(ROOT, "data/4-reports/11_Disease_Hierarchy.xlsx")
 OUT_CSV = os.path.join(HERE, "disease_hierarchy.csv")
 SOURCES = ["master", "ontology", "snomed", "doid"]
@@ -93,7 +93,7 @@ for ind in ET.parse(ONTOLOGY).getroot():
     for e in ind:
         if e.tag.endswith("hasParentDisease"):
             parent = "ARI:" + e.get(RDF + "resource").rsplit("_", 1)[1]
-            add(parent, child, "ontology", "hasParentDisease in ontologies/ari_t1d.owl")
+            add(parent, child, "ontology", "hasParentDisease in ontologies/ari_disease.owl")
 
 # ---- SNOMED via OMOP CONCEPT_ANCESTOR --------------------------------------
 omop_to_ari = defaultdict(set)
@@ -280,7 +280,7 @@ lg = wb.create_sheet("Legend")
 for line in [
     ["Source", "Colour", "Meaning"],
     ["master", "", "ARI Master List V 2.1 (Diseases sheet syn codes T/TW/TAW/W/WA = subtype, NN = broad class; Subtypes sheet). Names matched exactly to a core disease's preferred name or synonym."],
-    ["ontology", "", "Existing hasParentDisease link in ontologies/ari_t1d.owl. Diseases marked '(ontology only)' were added to the ontology after the master list."],
+    ["ontology", "", "Existing hasParentDisease link in ontologies/ari_disease.owl. Diseases marked '(ontology only)' were added to the ontology after the master list."],
     ["snomed", "", "SNOMED CT is-a hierarchy between the diseases' OMOP ConceptIDs, from local data/2-databases/snomed/CONCEPT_ANCESTOR.csv (OMOP/Athena export)."],
     ["doid", "", "Human Disease Ontology is_a hierarchy between the diseases' DOID matches (report 6), from local data/2-databases/doid.owl (release 2026-04-30)."],
     [],

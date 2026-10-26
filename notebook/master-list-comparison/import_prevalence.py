@@ -5,7 +5,7 @@ individual linked by hasEpidemiologyProfile, with epiMeasure, epiRegion, epiSex,
 and epiYear. Re-running it would write properties the ontology no longer declares and the editor
 ignores. Add new figures in the editor instead.
 
-Import the master list's prevalence and incidence into ari_t1d.owl, for every disease that
+Import the master list's prevalence and incidence into ari_disease.owl, for every disease that
 report 10 matched. The sheet has a worldwide and a US figure, each marked incidence or
 prevalence:
 
@@ -20,7 +20,7 @@ per 100,000). Anything else, such as "Extremely rare" or a rate per live birth, 
 only. The values the disease had in these five fields are replaced, and the change-log entry
 records them.
 
-Usage: python import_prevalence.py <master.xlsx> <ari_t1d.owl> <10_Master_List_Comparison.xlsx>
+Usage: python import_prevalence.py <master.xlsx> <ari_disease.owl> <10_Master_List_Comparison.xlsx>
 """
 import html, re, sys
 from datetime import datetime, timezone

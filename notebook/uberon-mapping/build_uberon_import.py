@@ -1,49 +1,36 @@
-"""Link ARI's tissue and system classes to UBERON and write the UBERON import slice.
+"""Write the UBERON import slice ontologies/ari_uberon.owl.
 
-uberon_mapping.tsv is hand-curated: one row per ARI class under MulticellularAnatomicalStructure
-in ontologies/ari_t1d.owl (the classes the targetsTissue individuals are typed by). Mapping is:
-  exact       - the UBERON term has the same meaning
-  no term     - UBERON has no term for it (Systemic, Metabolic System, All); stays an ARI class
-  not linked  - deliberately left unlinked; the Note says why
+ontologies/ari_anatomy.owl is where ARI's tissue and system classes link to UBERON, by
+rdfs:subClassOf (and skos:exactMatch / skos:broadMatch / skos:closeMatch where a class uses them).
+This script reads those links and writes the slice: every linked UBERON term and all its is_a
+ancestors, with UBERON's label, definition and is_a parents (a MIREOT-style slice of the given
+release). It writes nothing else; the links themselves are curated in ari_anatomy.owl.
 
-Writes:
-  - ontologies/ari_uberon.owl: every mapped UBERON term and all its is_a ancestors, with
-    UBERON's label, definition and is_a parents (a MIREOT-style slice of the given release)
-  - ontologies/ari_t1d.owl: an owl:imports of the slice, and on each exact class an
-    rdfs:subClassOf to its UBERON term plus ARI_ID set to the UBERON CURIE
-
-The link is rdfs:subClassOf, not owl:equivalentClass, because ARI's own class tree uses
-subClassOf for "part of" (Pancreas under Endocrine system, Islet under Pancreas) and puts Blood
-and the systems under multicellular anatomical structure. An equivalence would push those claims
-onto the UBERON terms themselves.
-
-Re-running is safe: links already in place are left alone.
+A linked term that is missing or obsolete in the release stops the run, listing each one.
 
 Usage: python build_uberon_import.py <path to data/2-databases>
 The database folder is not tracked in git, so pass the path of a checkout holding
-uberon-basic.obo (http://purl.obolibrary.org/obo/uberon/basic.obo).
+uberon-basic.obo (http://purl.obolibrary.org/obo/uberon/basic.obo). Then run
+tools/format-owl.sh ontologies/ari_uberon.owl to put the slice in the canonical layout.
 """
-import csv, os, re, sys
+import os, re, sys
 import xml.etree.ElementTree as ET
-from urllib.parse import urljoin
 from xml.sax.saxutils import escape
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.abspath(os.path.join(HERE, "..", ".."))
-ONTOLOGY = os.path.join(ROOT, "ontologies", "ari_t1d.owl")
+ANATOMY = os.path.join(ROOT, "ontologies", "ari_anatomy.owl")
 SLICE = os.path.join(ROOT, "ontologies", "ari_uberon.owl")
-MAPPING = os.path.join(HERE, "uberon_mapping.tsv")
 
 SLICE_IRI = "http://www.aurint.org/ontologies/ari_uberon"
-ARI_ONTOLOGY_IRI = "http://www.aurint.org/ontologies/ari-disease"
 OBO = "http://purl.obolibrary.org/obo/"
-MAPPINGS = {"exact", "no term", "not linked"}
+UBERON_IRI = OBO + "UBERON_"
 XSD_STRING = "http://www.w3.org/2001/XMLSchema#string"
-ARI_BASE = ARI_ONTOLOGY_IRI + "#"
-ARI_ID = "{%s}ARI_ID" % ARI_BASE
 RDF = "{http://www.w3.org/1999/02/22-rdf-syntax-ns#}"
 RDFS = "{http://www.w3.org/2000/01/rdf-schema#}"
 OWL = "{http://www.w3.org/2002/07/owl#}"
+SKOS = "{http://www.w3.org/2004/02/skos/core#}"
+LINKS = [RDFS + "subClassOf", SKOS + "exactMatch", SKOS + "broadMatch", SKOS + "closeMatch"]
 
 
 def obo_iri(curie):
@@ -82,68 +69,16 @@ def read_uberon(path):
     return terms, version
 
 
-def read_mapping(terms, ontology_classes):
-    with open(MAPPING, encoding="utf-8", newline="") as f:
-        rows = list(csv.DictReader(f, delimiter="\t"))
-    errors = []
-    names = [r["ARI Class"] for r in rows]
-    for name in set(names):
-        if names.count(name) > 1:
-            errors.append(f"{name}: more than one row")
-    for name in sorted(set(ontology_classes) - set(names)):
-        errors.append(f"{name}: tissue class in ari_t1d.owl has no row in uberon_mapping.tsv")
-    for r in rows:
-        name, mapping, uid = r["ARI Class"], r["Mapping"], r["UBERON ID"]
-        if name not in ontology_classes:
-            errors.append(f"{name}: not a tissue class in ari_t1d.owl")
-        if mapping not in MAPPINGS:
-            errors.append(f"{name}: unknown Mapping {mapping!r}")
-        if mapping != "exact":
-            if uid:
-                errors.append(f"{name}: {mapping} row has a UBERON ID")
-            continue
-        term = terms.get(uid)
-        if term is None:
-            errors.append(f"{name}: {uid} is not in UBERON")
-        elif term["obsolete"]:
-            errors.append(f"{name}: {uid} is obsolete in UBERON")
-        elif term["name"] != r["UBERON Label"]:
-            errors.append(f"{name}: {uid} is {term['name']!r} in UBERON, not {r['UBERON Label']!r}")
-    if errors:
-        sys.exit("uberon_mapping.tsv:\n  " + "\n  ".join(errors))
-    return [r for r in rows if r["Mapping"] == "exact"]
-
-
-def resolve(ref):
-    """Absolute IRI of an rdf:about / rdf:resource, which may be relative to the file's xml:base."""
-    return urljoin(ARI_ONTOLOGY_IRI, ref)
-
-
-def ari_classes(root):
-    """ARI class name -> its owl:Class element, for classes in the ari-disease namespace."""
-    out = {}
-    for cls in root.findall(OWL + "Class"):
-        iri = resolve(cls.get(RDF + "about"))
-        if iri.startswith(ARI_BASE):
-            out[iri[len(ARI_BASE):]] = cls
-    return out
-
-
-def tissue_classes(root):
-    """ARI classes under MulticellularAnatomicalStructure, including it."""
-    parents = {
-        name: [resolve(s.get(RDF + "resource"))[len(ARI_BASE):]
-               for s in cls.findall(RDFS + "subClassOf")
-               if s.get(RDF + "resource") and resolve(s.get(RDF + "resource")).startswith(ARI_BASE)]
-        for name, cls in ari_classes(root).items()
-    }
-
-    def under_root(name, seen=()):
-        if name == "MulticellularAnatomicalStructure":
-            return True
-        return any(p not in seen and under_root(p, seen + (name,)) for p in parents.get(name, []))
-
-    return {name for name in parents if under_root(name)}
+def linked_uberon(anatomy_root):
+    """UBERON CURIEs that any class names by rdfs:subClassOf, skos:exactMatch, skos:broadMatch or skos:closeMatch."""
+    curies = set()
+    for cls in anatomy_root.findall(OWL + "Class"):
+        for tag in LINKS:
+            for link in cls.findall(tag):
+                iri = link.get(RDF + "resource")
+                if iri and iri.startswith(UBERON_IRI):
+                    curies.add(iri[len(OBO):].replace("_", ":"))
+    return curies
 
 
 def ancestors(uid, terms):
@@ -156,10 +91,10 @@ def ancestors(uid, terms):
     return out
 
 
-def write_slice(rows, terms, version):
+def write_slice(curies, terms, version):
     ids = set()
-    for r in rows:
-        ids |= {r["UBERON ID"]} | ancestors(r["UBERON ID"], terms)
+    for curie in curies:
+        ids |= {curie} | ancestors(curie, terms)
     out = [
         '<?xml version="1.0"?>',
         '<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"',
@@ -196,38 +131,18 @@ def write_slice(rows, terms, version):
     return len(ids)
 
 
-def link_ontology(root, rows):
-    header = root.find(OWL + "Ontology")
-    if not any(i.get(RDF + "resource") == SLICE_IRI for i in header.findall(OWL + "imports")):
-        ET.SubElement(header, OWL + "imports", {RDF + "resource": SLICE_IRI})
-
-    classes = ari_classes(root)
-    for r in rows:
-        name, uid = r["ARI Class"], r["UBERON ID"]
-        cls = classes[name]
-        existing = [e.text.strip() for e in cls.findall(ARI_ID)]
-        if existing not in ([], [uid]):
-            sys.exit(f"ari_t1d.owl: {name} already has ARI_ID {existing}, not {uid}")
-        if not any(s.get(RDF + "resource") == obo_iri(uid) for s in cls.findall(RDFS + "subClassOf")):
-            ET.SubElement(cls, RDFS + "subClassOf", {RDF + "resource": obo_iri(uid)})
-        if not existing:
-            ET.SubElement(cls, ARI_ID, {RDF + "datatype": XSD_STRING}).text = uid
-
-
 def main():
     if len(sys.argv) != 2:
         sys.exit(__doc__)
     terms, version = read_uberon(os.path.join(sys.argv[1], "uberon-basic.obo"))
-    # Prefixes registered so the rewrite keeps them; the pre-commit hook (tools/format-owl.sh)
-    # then puts the file back in the canonical layout, so only the new links show in the diff.
-    for _, (prefix, uri) in ET.iterparse(ONTOLOGY, events=["start-ns"]):
-        ET.register_namespace(prefix, uri)
-    tree = ET.parse(ONTOLOGY)
-    rows = read_mapping(terms, tissue_classes(tree.getroot()))
-    count = write_slice(rows, terms, version)
-    link_ontology(tree.getroot(), rows)
-    tree.write(ONTOLOGY, encoding="utf-8", xml_declaration=True)
-    print(f"{len(rows)} ARI classes linked to UBERON ({version}); {count} terms in {os.path.relpath(SLICE, ROOT)}")
+    curies = linked_uberon(ET.parse(ANATOMY).getroot())
+    problems = [f"{c}: " + ("is obsolete in UBERON" if c in terms else "is not in UBERON")
+                for c in sorted(curies) if c not in terms or terms[c]["obsolete"]]
+    if problems:
+        sys.exit(f"{os.path.relpath(ANATOMY, ROOT)} links to UBERON terms that cannot be sliced:\n  "
+                 + "\n  ".join(problems))
+    count = write_slice(curies, terms, version)
+    print(f"{len(curies)} linked UBERON terms ({version}); {count} terms in {os.path.relpath(SLICE, ROOT)}")
 
 
 if __name__ == "__main__":

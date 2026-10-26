@@ -1,6 +1,6 @@
 """HISTORICAL - kept as the record of the 2026-10-08 import; it refuses to run.
 
-Import six immunology columns of the master list into ari_t1d.owl, for every disease that
+Import six immunology columns of the master list into ari_t1d.owl (now `ari_disease.owl`), for every disease that
 report 10 matched: Target Antigens, Target Cells, Antibodies, Self Reactive Cells, Molecular
 Mimicry and Environmental Triggers. Each line of a cell becomes one item, linked the way the
 editor reads that category. Items a disease already has are not added again.
