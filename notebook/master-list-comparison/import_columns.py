@@ -1,13 +1,16 @@
-"""Import six immunology columns of the master list into ari_disease.owl, for every disease that
+"""HISTORICAL - kept as the record of the 2026-10-08 import; it refuses to run.
+
+Import six immunology columns of the master list into ari_t1d.owl (now `ari_disease.owl`), for every disease that
 report 10 matched: Target Antigens, Target Cells, Antibodies, Self Reactive Cells, Molecular
 Mimicry and Environmental Triggers. Each line of a cell becomes one item, linked the way the
 editor reads that category. Items a disease already has are not added again.
 
-Written against the layout ari_disease.owl had before the canonical formatter (relative `#` IRIs,
-one element per line). Check its lookups against today's file before re-running it, then run
-tools/format-owl.sh on the result.
+It reads and writes ari_t1d.owl line by line in the layout the file had before the canonical
+formatter (#154), with relative `#` IRIs. Since #154 every IRI is absolute, so its `#` lookups and
+the declaration lines it anchors on match nothing, and the items it writes would carry relative
+IRIs. Do not re-run it; add or change items in the editor instead.
 
-Usage: python import_columns.py <master.xlsx> <ari_disease.owl> <10_Master_List_Comparison.xlsx>
+Usage: python import_columns.py <master.xlsx> <ari_t1d.owl> <10_Master_List_Comparison.xlsx>
 """
 import re, sys
 import xml.etree.ElementTree as ET
@@ -17,6 +20,9 @@ from xml.sax.saxutils import escape
 import openpyxl
 
 from sheet_items import items, norm, same_item
+
+raise SystemExit('Historical: written for the pre-#154 layout of ari_t1d.owl. '
+                 'See the docstring.')
 
 MASTER, OWL_PATH, REPORT = sys.argv[1:4]
 SOURCE = 'ARI Master List 2026-10-08'

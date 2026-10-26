@@ -14,6 +14,7 @@ Writes data/4-reports/12_Research_Gaps.xlsx.
 """
 import csv, os, re
 import xml.etree.ElementTree as ET
+from urllib.parse import urljoin
 from collections import Counter, defaultdict
 import openpyxl
 from openpyxl.styles import Alignment, Font, PatternFill
@@ -28,9 +29,11 @@ HIERARCHY = os.path.join(ROOT, "data/4-reports/11_Disease_Hierarchy.xlsx")
 PROPOSED_PARENTS = os.path.join(ROOT, "notebook/disease-hierarchy/proposed_parents.tsv")
 OUT = os.path.join(ROOT, "data/4-reports/12_Research_Gaps.xlsx")
 
-A = "{http://www.aurint.org/ontologies/ari-disease#}"
+ARI = "http://www.aurint.org/ontologies/ari-disease#"
+A = "{" + ARI + "}"
 RDF = "{http://www.w3.org/1999/02/22-rdf-syntax-ns#}"
 RDFS = "{http://www.w3.org/2000/01/rdf-schema#}"
+XML = "{http://www.w3.org/XML/1998/namespace}"
 
 PUBLISHED, PARTIAL, IN_REPO, RESEARCH = "Published", "Partial", "In repo - import", "Research"
 STATUSES = [PUBLISHED, PARTIAL, IN_REPO, RESEARCH]
@@ -45,23 +48,28 @@ MEANING = {
 
 # ---- published record ----------------------------------------------------------------------
 root = ET.parse(ONTOLOGY).getroot()
-nodes = {}
-for el in root:
-    about = el.get(RDF + "about")
-    if about:
-        nodes[about.lstrip("#")] = el
+
+
+def iri(ref):
+    """Absolute IRI of an rdf:about / rdf:resource, which may be relative to the file's xml:base."""
+    return urljoin(root.get(XML + "base"), ref)
+
+
+nodes = {iri(el.get(RDF + "about")): el for el in root if el.get(RDF + "about")}
 
 
 def values(el, prop, ns=A):
-    return [(c.get(RDF + "resource") or c.text or "").strip() for c in el.findall(ns + prop)]
+    """Literal text, or the absolute IRI of an rdf:resource."""
+    return [iri(c.get(RDF + "resource")) if c.get(RDF + "resource") else (c.text or "").strip()
+            for c in el.findall(ns + prop)]
 
 
 def node_type(ref):
-    return {t.get(RDF + "resource").lstrip("#") for t in nodes[ref.lstrip("#")].findall(RDF + "type")}
+    return {iri(t.get(RDF + "resource")) for t in nodes[ref].findall(RDF + "type")}
 
 
 diseases = [el for el in root
-            if any(t.get(RDF + "resource") == "#AutoimmuneDisease" for t in el.findall(RDF + "type"))
+            if ARI + "AutoimmuneDisease" in {iri(t.get(RDF + "resource")) for t in el.findall(RDF + "type")}
             and "true" not in values(el, "ARI_Obsolete")]
 diseases.sort(key=lambda el: values(el, "ARI_ID")[0])
 
@@ -128,7 +136,7 @@ def short(text, n=90):
 # ---- field checks: each returns (status, note) ------------------------------------------------
 def linked(el, prop, cls=None):
     refs = values(el, prop)
-    return [r for r in refs if cls is None or cls in node_type(r)]
+    return [r for r in refs if cls is None or ARI + cls in node_type(r)]
 
 
 def by_link(prop, cls=None, repo_col=None, repo_what=None, note=""):
@@ -232,7 +240,7 @@ def case_reports(el, ari):
 
 def prevalence(el, ari):
     # Each rate is an EpidemiologyProfile figure (measure, region, sex, rate, year).
-    figures = [nodes[r.lstrip("#")] for r in linked(el, "hasEpidemiologyProfile", "EpidemiologyProfile")]
+    figures = [nodes[r] for r in linked(el, "hasEpidemiologyProfile", "EpidemiologyProfile")]
     rated = [f for f in figures if values(f, "epiRatePer100k")]
     if rated:
         return PUBLISHED, "; ".join(values(f, "label", RDFS)[0] for f in rated)
@@ -283,7 +291,7 @@ HLA = re.compile(r"\bHLA\b|human leukocyte antigen", re.I)
 
 def systemic(el, ari):
     tissues = values(el, "targetsTissue")
-    if "#Tissue_Systemic" in tissues:
+    if ARI + "Tissue_Systemic" in tissues:
         return PARTIAL, "No field yet; targetsTissue is Systemic, so the answer is likely Yes"
     return RESEARCH, "No field yet (Yes / No / Variable)"
 
@@ -385,7 +393,7 @@ CITED = ["hasSymptom", "hasEnvironmentalTrigger", "hasEtiologyFactor", "hasAntib
 
 def citations(el):
     refs = [r for p in CITED for r in values(el, p)]
-    cited = sum(1 for r in refs if nodes[r.lstrip("#")].find(A + "sourcePMID") is not None)
+    cited = sum(1 for r in refs if nodes[r].find(A + "sourcePMID") is not None)
     return len(refs), cited
 
 

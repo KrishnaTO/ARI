@@ -1,4 +1,6 @@
-"""Import the master-list data that report 12 marks "In repo - import" into ari_disease.owl, for every
+"""HISTORICAL - kept as the record of the 2026-10-08 import; it refuses to run.
+
+Import the master-list data that report 12 marks "In repo - import" into ari_t1d.owl (now `ari_disease.owl`), for every
 disease that report 10 matched. Only fields a disease does not yet have are filled:
 
   Definition                   -> rdfs:comment
@@ -14,11 +16,12 @@ Not imported, by decision: Evidence Quality (the master's grade column is for au
 evidence, unconfirmed as the data model's grade), MeSH terms as synonyms (left to synonym review)
 and report 11 parents (all remaining ones were rejected in proposed_parents.tsv).
 
-Written against the layout ari_disease.owl had before the canonical formatter (relative `#` IRIs,
-one element per line). Check its lookups against today's file before re-running it, then run
-tools/format-owl.sh on the result.
+It reads and writes ari_t1d.owl line by line in the layout the file had before the canonical
+formatter (#154), with relative `#` IRIs. Since #154 every IRI is absolute, so its `#` lookups and
+the declaration lines it anchors on match nothing, and the items it writes would carry relative
+IRIs. Do not re-run it; add or change items in the editor instead.
 
-Usage: python import_gaps.py <master.xlsx> <ari_disease.owl> <10_Master_List_Comparison.xlsx> <ari.synonym_blocklist.tsv>
+Usage: python import_gaps.py <master.xlsx> <ari_t1d.owl> <10_Master_List_Comparison.xlsx> <ari.synonym_blocklist.tsv>
 """
 import re, sys
 import xml.etree.ElementTree as ET
@@ -28,6 +31,9 @@ from xml.sax.saxutils import escape
 import openpyxl
 
 from sheet_items import items, norm
+
+raise SystemExit('Historical: written for the pre-#154 layout of ari_t1d.owl. '
+                 'See the docstring.')
 
 MASTER, OWL_PATH, REPORT, BLOCKLIST = sys.argv[1:5]
 SOURCE = 'ARI Master List 2026-10-08'

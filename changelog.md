@@ -51,10 +51,27 @@ cutover, since the app reads the new files and the old app cannot read these.
 - `notebook/ontology-modules/split_ontology.py` made the split and is kept for the record;
   `notebook/ontology-modules/README.md` covers opening in Protégé, loading in owlready2
   (`onto_path.append("ontologies")`) and which tool writes which file. Every script path now names
-  `ari_disease.owl`; `compare.py` also reads `ari_anatomy.owl`.
+  `ari_disease.owl`, except the two historical import scripts (#158); `compare.py` also reads
+  `ari_anatomy.owl`.
 - `.gitattributes` keeps `tools/robot.version` LF: a CRLF copy broke `format-owl.sh` on Windows.
 - Still to rebuild: `notebook/disease-hierarchy/disease_hierarchy.csv` and the proposed-hierarchy OWL
   still mention `ari_t1d.owl` in their generated text until the hierarchy is next rebuilt.
+
+## fix/research-gaps-absolute-iris
+
+Report 12 reads the published record again. Since the canonical layout (#154) every
+`rdf:about` / `rdf:resource` in `ari_t1d.owl` is absolute, but `build_research_gaps.py` keyed
+nodes by `about.lstrip("#")` and matched types like `#AutoimmuneDisease`, so it found 0 diseases.
+
+- `build_research_gaps.py` resolves every IRI against the file's `xml:base` (as
+  `build_uberon_import.py` does) and compares full IRIs. It finds 228 diseases again.
+- `12_Research_Gaps.xlsx` regenerated. Against the 2026-10-16 report, every difference is
+  curation since then: one new disease (ARI:0001168 Primary immune deficiency), Evans syndrome's
+  synonyms now published (#156), and Secondary Raynaud's phenomenon has one cited-type item fewer.
+- `import_columns.py` and `import_gaps.py` are marked historical and refuse to run, as
+  `import_prevalence.py` already does. They edit `ari_t1d.owl` line by line around relative `#`
+  IRIs, so fixing their lookups alone would still leave a writer that breaks the canonical layout.
+  Their imports landed in #141.
 
 ## claude/ontology-file-structure-23209b
 
