@@ -69394,6 +69394,18 @@
     
 
 
+    <!-- http://www.aurint.org/ontologies/ari-disease#Sym_6ca15826 -->
+
+    <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_6ca15826">
+        <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <likelihood>100</likelihood>
+        <ARI_Obsolete>false</ARI_Obsolete>
+        <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000190"/>
+        <rdfs:label>Fatigue</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.aurint.org/ontologies/ari-disease#Sym_BlurredVision -->
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_BlurredVision">
@@ -91559,6 +91571,7 @@ Some cases of this disease are caused by medications and are not autoimmune.</rd
         <hasPathwayStep rdf:resource="http://www.aurint.org/ontologies/ari-disease#Path_0001219_5"/>
         <hasSymptom rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001219_2249"/>
         <hasSymptom rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001219_2250"/>
+        <hasSymptom rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_6ca15826"/>
         <involvesAPC rdf:resource="http://www.aurint.org/ontologies/ari-disease#APC_0001219_1"/>
         <involvesTCell rdf:resource="http://www.aurint.org/ontologies/ari-disease#T_0001219_1"/>
         <involvesTCell rdf:resource="http://www.aurint.org/ontologies/ari-disease#T_0001219_2"/>
@@ -91577,6 +91590,11 @@ Some cases of this disease are caused by medications and are not autoimmune.</rd
         <ARI_ChangeLog>2026-10-15T15:19:39+00:00 | KrishnaTO | Symptom review (ARI#132): removed 2 non-symptom entries from hasSymptom and retired them (ARI_Obsolete true): &apos;Ascending aortic aneurysm / root dilation on imaging&apos;; &apos;Asymptomatic presentation prior to dissection or rupture&apos;. Added to description: &quot;Imaging shows an ascending aortic aneurysm or aortic root dilation in 70–85% of patients, and 30–40% have no symptoms before dissection or rupture.&quot;</ARI_ChangeLog>
         <ARI_ChangeLog>2026-10-15T16:44:19+00:00 | migration (#229) | Moved to prevalence &amp; incidence figures: Prevalence US 0.75/100k; Prevalence Worldwide 0.75/100k</ARI_ChangeLog>
         <ARI_ChangeLog>2026-10-16T18:30:39+00:00 | KrishnaTO | Clinical biomarkers: added &apos;Aortic imaging&apos; (Imaging, sensitivity 70–85%) from the retired symptom Sym_0001219_2248: &apos;Ascending aortic aneurysm / root dilation on imaging&apos;</ARI_ChangeLog>
+        <ARI_ChangeLog>2026-10-26T03:05:06+00:00 | Krishna Udaiwal | Added Symptom: Fatigue</ARI_ChangeLog>
+        <ARI_ChangeLog>2026-10-26T03:05:29+00:00 | Krishna Udaiwal | Deleted Symptom: Fatigue</ARI_ChangeLog>
+        <ARI_ChangeLog>2026-10-26T03:05:36+00:00 | Krishna Udaiwal | Added Symptom: Fatigue</ARI_ChangeLog>
+        <ARI_ChangeLog>2026-10-26T03:05:44+00:00 | Krishna Udaiwal | Deleted Symptom: Fatigue</ARI_ChangeLog>
+        <ARI_ChangeLog>2026-10-26T03:06:04+00:00 | Krishna Udaiwal | Added Symptom: Fatigue</ARI_ChangeLog>
         <ARI_DefSource>ARI Master List 2026-10-08</ARI_DefSource>
         <ARI_ID>ARI:0001219</ARI_ID>
         <ARI_Obsolete>false</ARI_Obsolete>
