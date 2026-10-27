@@ -223,7 +223,7 @@
     <!-- http://www.aurint.org/ontologies/ari-disease#associatedSymptom -->
 
     <owl:AnnotationProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#associatedSymptom">
-        <rdfs:comment>From an ARIB antibody class or ARIB clinical biomarker class to the ARIS symptom class it is associated with.</rdfs:comment>
+        <rdfs:comment>From any ARIB class to the ARIS symptom class (ari_symptoms.owl) it is associated with.</rdfs:comment>
         <rdfs:label>associated symptom</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -232,7 +232,7 @@
     <!-- http://www.aurint.org/ontologies/ari-disease#expressedIn -->
 
     <owl:AnnotationProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#expressedIn">
-        <rdfs:comment>From an ARIB antigen class to the ARIA anatomy class (tissue) where it is expressed.</rdfs:comment>
+        <rdfs:comment>From any ARIB class to the body part it is expressed in: an ari_anatomy.owl class or an ari_uberon.owl term.</rdfs:comment>
         <rdfs:label>expressed in</rdfs:label>
     </owl:AnnotationProperty>
     
