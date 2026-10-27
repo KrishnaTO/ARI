@@ -242,6 +242,44 @@ def test_an_id_on_two_concepts_is_repeated():
     assert codes == ["concept-id-repeated"] * 2
 
 
+def since_codes(monkeypatch, entries, before, after):
+    """Codes `--since` keeps when a branch changes only ari_biomarkers.owl from
+    `before` to `after`; the disease module holds `entries` on both sides."""
+    base = {path: EMPTY_MODULE for path in (*vm.ARI_OWNED, *vm.GENERATED)}
+    base[vm.ONTOLOGY_PATH] = module(*entries)
+    base[vm.BIOMARKERS_PATH] = module(*before)
+    current = dict(base)
+    current[vm.BIOMARKERS_PATH] = module(*after)
+    monkeypatch.setattr(vm, "baseline_text", lambda ref, path: base[path])
+    monkeypatch.setattr(vm, "current_text", lambda path: current[path])
+    report = vm.Report()
+    vm.check_modules(current, report)
+    return sorted(f.code for f in vm.filter_to_changes(report.findings, "main"))
+
+
+def test_a_deleted_concept_still_fails_a_branch_that_only_changes_the_module(monkeypatch):
+    gada = concept("0000001", ANTIBODY, "GADA")
+    codes = since_codes(monkeypatch, [entry("Ab_1", ANTIBODY, "GADA", link("0000001"))],
+                        [gada], [])
+    assert "shared-concept-target-missing" in codes
+
+
+def test_a_reparent_that_makes_a_label_ambiguous_is_kept(monkeypatch):
+    antibody = concept("0000001", ANTIBODY, "GADA")
+    before = concept("0000002", ANTIGEN, "GADA")
+    after = concept("0000002", ARIB + "0000001", "GADA")
+    codes = since_codes(monkeypatch, [], [antibody, before], [antibody, after])
+    assert codes.count("concept-label-ambiguous") == 2
+
+
+def test_a_repeated_id_is_kept_when_the_module_changes(monkeypatch):
+    a = concept("0000001", ANTIBODY, "A", lit("oboInOwl:id", "ARIB:0000001"))
+    b = concept("0000002", ANTIGEN, "B", lit("oboInOwl:id", "ARIB:0000001"))
+    added = concept("0000003", ANTIGEN, "C")
+    codes = since_codes(monkeypatch, [], [a, b], [a, b, added])
+    assert codes.count("concept-id-repeated") == 2
+
+
 def test_relation_and_slice_findings_stay_scoped_to_their_lines():
     def finding(code):
         return vm.Finding("error", code, vm.BIOMARKERS_PATH, 1, "")

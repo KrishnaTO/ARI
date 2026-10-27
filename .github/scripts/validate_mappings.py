@@ -1311,11 +1311,15 @@ def is_symptom_link_finding(finding: Finding) -> bool:
 
 def is_biomarker_link_finding(finding: Finding) -> bool:
     """A finding that holds a biomarker entry's link, or a concept's place,
-    up against the biomarkers module. A relation or an external match sits on
-    its own line, so those are left to the line comparison."""
-    return finding.code.startswith("biomarker-") and finding.code not in (
-        "biomarker-relation-target",
-        "biomarker-external-missing",
+    up against the biomarkers module, or a label or id it gives to two classes.
+    A relation or an external match sits on its own line, so those are left to
+    the line comparison."""
+    if finding.code in ("biomarker-relation-target", "biomarker-external-missing"):
+        return False
+    return finding.code.startswith("biomarker-") or finding.code in (
+        "shared-concept-target-missing",
+        "concept-label-ambiguous",
+        "concept-id-repeated",
     )
 
 
