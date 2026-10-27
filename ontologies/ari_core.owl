@@ -220,9 +220,36 @@
     
 
 
+    <!-- http://www.aurint.org/ontologies/ari-disease#associatedSymptom -->
+
+    <owl:AnnotationProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#associatedSymptom">
+        <rdfs:comment>From an ARIB antibody class or ARIB clinical biomarker class to the ARIS symptom class it is associated with.</rdfs:comment>
+        <rdfs:label>associated symptom</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#expressedIn -->
+
+    <owl:AnnotationProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#expressedIn">
+        <rdfs:comment>From an ARIB antigen class to the ARIA anatomy class (tissue) where it is expressed.</rdfs:comment>
+        <rdfs:label>expressed in</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- http://www.aurint.org/ontologies/ari-disease#sharedConcept -->
 
     <owl:AnnotationProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#sharedConcept"/>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#targetsAntigen -->
+
+    <owl:AnnotationProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#targetsAntigen">
+        <rdfs:comment>From an ARIB antibody class to the ARIB antigen class it binds.</rdfs:comment>
+        <rdfs:label>targets antigen</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
@@ -253,6 +280,12 @@
     <!-- http://www.w3.org/2004/02/skos/core#exactMatch -->
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#relatedMatch -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#relatedMatch"/>
     
 
 

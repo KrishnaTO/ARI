@@ -181,10 +181,11 @@ PROPERTY_TYPES = {OWL + "AnnotationProperty", OWL + "ObjectProperty", OWL + "Dat
 XML_BASE = "http://www.w3.org/XML/1998/namespace base"
 SYMPTOM_CLASS = ARI_DISEASE_BASE + "Symptom"
 # A Symptom individual links the shared ARIS class its label names, or says with
-# ARI_NoConcept why it links none ("not a symptom", "no term", "not linked").
+# ARI_NoConcept why it links none ("not a symptom", "no term", "not linked"). A biomarker
+# concept adds "not a biomarker".
 SHARED_CONCEPT = ARI_DISEASE_BASE + "sharedConcept"
 NO_CONCEPT = ARI_DISEASE_BASE + "ARI_NoConcept"
-NO_CONCEPT_VALUES = ("not a symptom", "no term", "not linked")
+NO_CONCEPT_VALUES = ("not a symptom", "no term", "not linked", "not a biomarker")
 UBERON = "http://purl.obolibrary.org/obo/UBERON_"
 
 
@@ -1531,7 +1532,7 @@ def check_tissue_links(texts: dict[str, str], report: Report) -> None:
 
 
 def check_no_concept_values(texts: dict[str, str], report: Report) -> None:
-    """ARI_NoConcept holds one of its three decisions, spelled exactly.
+    """ARI_NoConcept holds one of its decisions, spelled exactly.
 
     The app, the reports and the checks above compare the value as a string, so
     a variant spelling reads as a decision nobody can act on.
