@@ -57,6 +57,8 @@ def _unescape(text):
 def _obo_terms(path):
     """Yield (Term, taxon ids) for every non-obsolete [Term] stanza of an OBO file.
 
+    Parents are the is_a ids plus the genus of an intersection_of definition (the line with no relation).
+
     Taxon ids come from `in_taxon` / `only_in_taxon`, written as a relationship or an intersection_of.
     """
     _require(path)
@@ -68,7 +70,8 @@ def _obo_terms(path):
     def finish():
         if stanza is None or stanza["obsolete"] or "id" not in stanza:
             return None
-        term = Term(stanza["id"], stanza.get("name", ""), stanza["synonyms"], stanza["parents"], release or date)
+        parents = list(dict.fromkeys(stanza["parents"]))
+        term = Term(stanza["id"], stanza.get("name", ""), stanza["synonyms"], parents, release or date)
         return term, stanza["taxa"]
 
     with open(path, encoding="utf-8") as f:
@@ -101,6 +104,8 @@ def _obo_terms(path):
                 parts = value.split()
                 if parts[0] in ("in_taxon", "only_in_taxon"):
                     stanza["taxa"].append(parts[1])
+                elif tag == "intersection_of" and (len(parts) == 1 or parts[1][0] in "!{"):
+                    stanza["parents"].append(parts[0])  # the genus: a term defined by it is its subclass
             elif tag == "is_obsolete":
                 stanza["obsolete"] = value == "true"
     done = finish()
@@ -121,7 +126,7 @@ def read_chebi(path):
 def read_pr(path):
     """PR id (PR:Q05329) -> Term, from pro_nonreasoned.obo.
 
-    Keeps the human terms (in_taxon NCBITaxon:9606), all their is_a ancestors, and non-human terms
+    Keeps the human terms (in_taxon NCBITaxon:9606), all their ancestors, and non-human terms
     whose id is a UniProt accession (optionally with an isoform suffix).
     """
     terms = {}

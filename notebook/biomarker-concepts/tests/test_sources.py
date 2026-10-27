@@ -215,3 +215,32 @@ def test_read_iedb_bcell_two_line_header(tmp_path):
 def test_missing_file_names_the_expected_file(tmp_path, reader, name):
     with pytest.raises(FileNotFoundError, match=name):
         reader(tmp_path / name)
+
+
+def test_intersection_of_genus_is_a_parent_and_kept_by_read_pr(tmp_path):
+    obo = """data-version: 73.1
+
+[Term]
+id: PR:000000001
+name: protein
+
+[Term]
+id: PR:000007786
+name: glutamate decarboxylase 2
+is_a: PR:000000001 ! protein
+
+[Term]
+id: PR:000050001
+name: gene-level human term
+intersection_of: PR:000007786 ! glutamate decarboxylase 2
+intersection_of: in_taxon NCBITaxon:9606 ! Homo sapiens
+intersection_of: has_gene_template HGNC:4093 ! GAD2
+
+[Term]
+id: PR:000060001
+name: unrelated
+is_a: PR:000000001
+"""
+    terms = sources.read_pr(write(tmp_path, "pr.obo", obo))
+    assert terms["PR:000050001"].parents == ["PR:000007786"]
+    assert set(terms) == {"PR:000000001", "PR:000007786", "PR:000050001"}
