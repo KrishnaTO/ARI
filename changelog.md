@@ -1,5 +1,20 @@
 # Changelog
 
+## biomarker-concepts-design
+
+Adds the design for Project 2 of the ontology modules work, biomarker concepts
+(`docs/superpowers/specs/2026-10-26-biomarker-concepts-design.md`). Curators want each
+autoantibody, antigen and clinical biomarker tied to a published ontology, its relatives across
+diseases visible in the editor, and links to body parts and symptoms. The design covers:
+- shared ARIB concepts in `ari_biomarkers.owl`, with nested isotypes and families;
+- HPO / Protein Ontology + HGNC / ChEBI / LOINC links through generated slices;
+- three relations authored in Protégé: `targetsAntigen`, `expressedIn` and `associatedSymptom`;
+- `sharedConcept` on every per-disease entry;
+- proposals reviewed in three PRs, each with a line-by-line accept/reject table;
+- rows in the editor that expand in place to show a marker's relatives.
+
+No ontology content changes yet.
+
 ## ontology-modules-split
 
 Splits `ontologies/ari_t1d.owl` into modules, one per domain, so a curator can import a published
