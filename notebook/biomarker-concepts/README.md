@@ -39,8 +39,8 @@ takes that folder as its argument.
 | Protein Ontology (PR) | `pro_nonreasoned.obo` | 73.1, 2026-09-15 | antigen terms; `ari_pr.owl` |
 | ChEBI | `chebi_lite.obo` | chebi/256, 2026-10-06 | antigen terms; `ari_chebi.owl` |
 | HGNC | `hgnc_complete_set.txt` | downloaded 2026-10-27 (the file has no version) | gene symbols and names; `ari_hgnc.owl` |
-| LOINC | `LoincTable/Loinc.csv` | **not yet downloaded** | test terms; `ari_loinc.owl` |
-| IEDB | `iedb/bcell_full_v3.csv` (from `bcell_full_v3.zip`, the B-cell assay export) | **not yet downloaded** | the antigen each antibody binds |
+| LOINC | `loinc/LoincTable/Loinc.csv` (unpack the LOINC download into `loinc/`) | **not yet downloaded** | test terms; `ari_loinc.owl` |
+| IEDB | `iedb/bcell_full_v3.csv` (extract it from `bcell_full_v3.zip`, the B-cell assay export, into `iedb/`) | **not yet downloaded** | the antigen each antibody binds |
 
 LOINC needs a loinc.org login and the IEDB export comes from iedb.org's database export, so the
 user downloads both. **Until those files arrive, the LOINC reader and the IEDB column names have

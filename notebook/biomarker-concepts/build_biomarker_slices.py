@@ -15,7 +15,7 @@ from its release stops the run, listing each one before anything is written.
 
 Usage: python build_biomarker_slices.py <path to data/2-databases>
 The database folder is not tracked in git; it must hold pro_nonreasoned.obo, chebi_lite.obo,
-hgnc_complete_set.txt and LoincTable/Loinc.csv (only those a link needs). Then run
+hgnc_complete_set.txt and loinc/LoincTable/Loinc.csv (only those a link needs). Then run
 tools/format-owl.sh on the four slices to put them in the canonical layout.
 """
 import os, sys
@@ -48,7 +48,7 @@ RELEASES = {
     "pr": ("pro_nonreasoned.obo", sources.read_pr),
     "chebi": ("chebi_lite.obo", sources.read_chebi),
     "hgnc": ("hgnc_complete_set.txt", sources.read_hgnc),
-    "loinc": (os.path.join("LoincTable", "Loinc.csv"), sources.read_loinc),
+    "loinc": (os.path.join("loinc", "LoincTable", "Loinc.csv"), sources.read_loinc),
 }
 ANCESTORS = {"pr", "chebi"}  # sources whose slice also holds the is_a ancestors
 NAMES = {"pr": "Protein Ontology (PR)", "chebi": "ChEBI", "hgnc": "HGNC", "loinc": "LOINC"}
