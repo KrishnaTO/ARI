@@ -231,3 +231,68 @@ def test_a_gene_without_a_pr_term_gets_hgnc_and_no_term_as_judgements():
     assert hgnc.value == "http://identifiers.org/hgnc/21269"
     assert (hgnc.group, no_term.group) == ("judgement", "judgement")
     assert not by(rows, "exactMatch")
+
+
+def test_a_match_found_only_through_a_judged_label_is_a_judgement_on_it():
+    entries = [entry("Ab_1", "Autoantibody", "Perinuclear ANCA"),
+               entry("Ab_2", "Autoantibody", "Perinuclear ANCA"),
+               entry("Ab_3", "Autoantibody", "Perinuclear ANCA (anti-MPO)")]
+    rows = propose.propose(
+        "antibodies",
+        disease_text(entries, [disease("ARI_0000001", "Disease one", [("hasAntibody", f"Ab_{n}") for n in (1, 2, 3)])]),
+        biomarkers_text(), propose.Sources(hp={"HP:0033559": hp_term("0033559", "Anti-MPO antibody positivity")}))
+    [alt] = [r for r in by(rows, "altLabel") if r.value == "Perinuclear ANCA (anti-MPO)"]
+    assert alt.group == "judgement"
+    [match] = by(rows, "exactMatch", "new:Perinuclear ANCA")
+    assert match.group == "judgement"
+    assert alt.row in match.depends.split(",")
+
+
+def test_a_target_found_only_through_a_judged_label_is_a_judgement_on_it():
+    entries = [entry("Antigen_1", "Antigen", "BP230"), entry("Antigen_2", "Antigen", "BP230"),
+               entry("Antigen_3", "Antigen", "BP230 (dystonin)")]
+    rows = propose.propose(
+        "antigens",
+        disease_text(entries, [disease("ARI_0000001", "Disease one", [("involvesAntigen", f"Antigen_{n}") for n in (1, 2, 3)])]),
+        biomarkers_text(arib_class(1, ARI + "Autoantibody", "Anti-BP230 (dystonin) antibodies")),
+        propose.Sources())
+    [alt] = [r for r in by(rows, "altLabel") if r.value == "BP230 (dystonin)"]
+    [target] = by(rows, "target", ARIB + "0000001")
+    assert (target.value, target.group) == ("new:BP230", "judgement")
+    assert alt.row in target.depends.split(",")
+
+
+def test_a_whole_label_names_the_concept_before_a_bundle_part():
+    entries = [entry("Ab_1", "Autoantibody", "Anti MOG"),
+               entry("Ab_2", "Autoantibody", "high-affinity autoantibodies to MBP and MOG")]
+    rows = propose.propose(
+        "antibodies",
+        disease_text(entries, [disease("ARI_0000001", "Disease one", [("hasAntibody", "Ab_1"), ("hasAntibody", "Ab_2")])]),
+        biomarkers_text(), propose.Sources())
+    assert by(rows, "concept", "new:Anti MOG")
+    assert not by(rows, "concept", "new:MOG")
+
+
+def test_created_concepts_carry_the_entries_they_were_made_for():
+    rows = antibody_rows()
+    [parent] = by(rows, "concept", "new:Anti-MOG antibody")
+    assert entry_ids(parent) == ["Ab_3"]
+    assert parent.diseases == "ARI_0000001 Disease one"
+    [match] = by(rows, "exactMatch", "new:Anti-MOG antibody")
+    assert entry_ids(match) == ["Ab_3"]
+
+
+def test_a_target_on_an_unlinked_parent_shows_its_childs_entries():
+    biomarkers = biomarkers_text(arib_class(1, ARI + "Autoantibody", "Anti-LGI1 antibody")
+                                 + arib_class(2, ARIB + "0000001", "Anti-LGI1 IgG"))
+    diseases = disease_text(
+        [entry("Ab_1", "Autoantibody", "Anti-LGI1 IgG", f'<sharedConcept rdf:resource="{ARIB}0000002"/>')],
+        [disease("ARI_0000001", "Disease one", [("hasAntibody", "Ab_1")])])
+    srcs = propose.Sources(
+        hgnc={"HGNC:6572": sources.Gene("HGNC:6572", "LGI1", "leucine rich glioma inactivated 1", [], ["O95970"])},
+        pr={"PR:O95970": sources.Term("PR:O95970", "leucine-rich glioma-inactivated protein 1", [], [], "")})
+    rows = propose.propose("antigens", diseases, biomarkers, srcs)
+    [target] = by(rows, "target", ARIB + "0000001")
+    [created] = by(rows, "concept", "new:LGI1")
+    assert entry_ids(target) == entry_ids(created) == ["Ab_1"]
+    assert target.diseases == created.diseases == "ARI_0000001 Disease one"

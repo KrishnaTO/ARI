@@ -83,6 +83,7 @@ class Match(NamedTuple):
     label: str
     evidence: str
     judgement: bool
+    via: str = ""  # the judged (fuzzy) label the match was found through, if any
 
 
 @dataclass
@@ -106,6 +107,12 @@ class Group:
     matches: list[Match] = field(default_factory=list)
     no_term: str = ""  # evidence for no_term
     no_term_judged: bool = False
+    context: list = field(default_factory=list)  # for a group no entry names: the entries it serves
+
+    @property
+    def entries(self):
+        """The entries a group's rows show: those naming it, else those it was created for."""
+        return [m.entry for m in self.mentions] or self.context
 
     @property
     def ckey(self):
@@ -244,7 +251,8 @@ def group_mentions(mentions, kind):
     for members in components.values():
         found = [m for k in members for m in by_key[k]]
         counts = Counter(m.label for m in found)
-        label = min(counts, key=lambda l: (-counts[l], len(l), l))
+        whole = {m.label for m in found if not m.bundle}  # a whole entry label names it before a bundle part
+        label = min(whole or counts, key=lambda l: (-counts[l], len(l), l))
         key = names.normalise(label, kind)
         group = Group(label, key, sorted(counts, key=lambda l: (l != label, l)), found)
         for other in group.labels:
@@ -279,7 +287,7 @@ def read_entry_labels(entries, kind, existing_exact, table):
     for entry in entries:
         label = entry.label
         if names.sentence_like(label):
-            table.add(True, "not_a_biomarker", "", entries=[entry], evidence="the label is a sentence, not a name")
+            table.add(True, "not_a_biomarker", "", "", "not a biomarker", [entry], "the label is a sentence, not a name")
             continue
         clean = names.noisy(label)
         if clean:
@@ -289,8 +297,8 @@ def read_entry_labels(entries, kind, existing_exact, table):
         name = clean or label
         parts = [p for p in names.split_bundle(name) if names.normalise(p, kind)]
         if not parts:
-            table.add(True, "not_a_biomarker", "", entries=[entry],
-                      evidence=f"{name!r} has no name left once antibody words and punctuation are dropped")
+            table.add(True, "not_a_biomarker", "", "", "not a biomarker", [entry],
+                      f"{name!r} has no name left once antibody words and punctuation are dropped")
             continue
         bundle = name if len(parts) > 1 else None
         for part in parts:
@@ -350,9 +358,10 @@ def nest(groups, kind, existing_keyed):
             elif known:
                 group.parent = known[0]
             else:
-                parent = created(f"Anti-{stem} antibody", stem_key, core,
-                                 f"the unqualified concept of {group.label!r}; no entry names it")
-                group.parent = parent.ckey
+                group.parent = created(f"Anti-{stem} antibody", stem_key, core,
+                                       f"the unqualified concept of {group.label!r}; no entry names it").ckey
+            if group.parent in by_ckey and not by_ckey[group.parent].mentions:
+                by_ckey[group.parent].context += group.entries
 
     for group in list(groups):
         families = [f for f in map(names.parse_family, group.labels) if f]
@@ -367,7 +376,7 @@ def nest(groups, kind, existing_keyed):
                     child.parent = group.ckey
                     child.judged.append(why)
             else:
-                created(member, member_key, group.ckey, "no entry names it", why)
+                created(member, member_key, group.ckey, "no entry names it", why).context += group.entries
     groups.sort(key=lambda g: (g.label.casefold(), g.label))
 
 
@@ -520,7 +529,21 @@ def matcher(kind, srcs):
 
 
 def set_matches(group, match):
-    group.matches, group.no_term, group.no_term_judged = match(group.labels)
+    """Match a group on the labels grouped with confidence. Only when they give no exact, close or
+    broad term is each label merged in by a judgement tried, alone: a match through one is a
+    judgement and depends on that label's altLabel row (via)."""
+    found = match([l for l in group.labels if l not in group.fuzzy])
+    if not any(m.action in DECIDING for m in found[0]):
+        for label in group.labels:
+            if label not in group.fuzzy:
+                continue
+            matches, no_term, no_term_judged = match([label])
+            if any(m.action in DECIDING for m in matches):
+                found = ([m._replace(judgement=True, via=label,
+                                     evidence=f"{m.evidence}; only through the judged label {label!r}")
+                          for m in matches], no_term, no_term_judged)
+                break
+    group.matches, group.no_term, group.no_term_judged = found
 
 
 def terms_above(group, groups_by_key, concepts):
@@ -588,6 +611,7 @@ class Target(NamedTuple):
     antigen: str  # concept key
     judgement: bool
     evidence: str
+    via: str = ""  # the antigen's judged label the target was found through, if any
 
 
 def iedb_antigens(assays):
@@ -597,60 +621,77 @@ def iedb_antigens(assays):
                   key=lambda x: (-x[2], x[0]))
 
 
-def propose_targets(concepts, groups, match, srcs):
+def propose_targets(concepts, groups, match, srcs, served):
     """Step 5: a target per antibody concept on main that has none on itself or an ancestor.
 
     A stem is looked up among the antigen concepts by label, then by normalised name; then resolved
     through HGNC / PR / ChEBI to an antigen concept with that term; then by a bracket-free name or
     alias (a judgement); then the resolved term makes a new antigen concept; then IEDB (a
     judgement). A target is a judgement when the stem or the antigen's term was matched by
-    alias, when ChEBI gave it (its names include plain words: "retinal", "thyroid"), and from IEDB;
-    an antigen concept created for a judged target is judged too. A name that does not read
-    "Anti-X" ("Antinuclear antibodies (ANA)") has no stem. Ancestors go first, and a concept whose
-    ancestor got a target is skipped.
+    alias, when ChEBI gave it (its names include plain words: "retinal", "thyroid"), from IEDB, and
+    when it was found only through a label merged into the antigen by a judgement (it then depends
+    on that altLabel row). An antigen concept created for a judged target is judged too, and every
+    created antigen shows the antibody's entries (served). A name that does not read "Anti-X" ("Antinuclear
+    antibodies (ANA)") has no stem. Ancestors go first, and a concept whose ancestor got a target is
+    skipped.
     """
     by_iri = {c.iri: c for c in concepts}
     antigens = [c for c in concepts if c.kind == "antigens"]
-    exact, keyed = label_index(antigens)
-    named = {}  # the key of any name an antigen concept goes by (name_candidates) -> its key
-    by_term = {iri: (c.iri, False) for c in antigens for a in DECIDING for iri in c.matches.get(a, [])}
+    # Each index maps a name to (concept key, the judged label it comes from, or "").
+    exact, keyed, named = {}, {}, {}
+    by_term = {}  # term IRI -> (concept key, the match is a judgement, its judged label or "")
+
+    def put(index, name, key, via):
+        if name not in index or (index[name][1] and not via):
+            index[name] = (key, via)
+
+    def index_labels(key, labels, judged):
+        for label in labels:
+            via = label if label in judged else ""
+            put(exact, label, key, via)
+            put(keyed, names.normalise(label, "antigens"), key, via)
+            for name in name_candidates([label]):
+                put(named, names.normalise(name, "antigens"), key, via)
+
     for concept in antigens:
-        for name in name_candidates([concept.label, *concept.alt_labels]):
-            named.setdefault(names.normalise(name, "antigens"), concept.iri)
+        index_labels(concept.iri, [concept.label, *concept.alt_labels], {})
+        for a in DECIDING:
+            for iri in concept.matches.get(a, []):
+                by_term.setdefault(iri, (concept.iri, False, ""))
     groups_by_key = {g.ckey: g for g in groups}
 
     def register(group):
-        for label in group.labels:
-            exact.setdefault(label, group.ckey)
-            keyed.setdefault(names.normalise(label, "antigens"), group.ckey)
-        for name in name_candidates(group.labels):
-            named.setdefault(names.normalise(name, "antigens"), group.ckey)
+        index_labels(group.ckey, group.labels, group.fuzzy)
         for m in group.matches:
             if m.action in DECIDING and (m.iri not in by_term or (by_term[m.iri][1] and not m.judgement)):
-                by_term[m.iri] = (group.ckey, m.judgement)
+                by_term[m.iri] = (group.ckey, m.judgement, m.via)
         groups_by_key[group.ckey] = group
 
     for group in groups:
         register(group)
 
-    def new_antigen(label, evidence, matches=None):
+    def new_antigen(label, evidence, matches, context):
         group = Group(label, names.normalise(label, "antigens"), [label], [], parent=KIND_CLASSES["antigens"],
-                      evidence=evidence)
-        if matches is None:
-            set_matches(group, match)
-        else:
-            group.matches, group.no_term, group.no_term_judged = matches
+                      evidence=evidence, context=list(context))
+        group.matches, group.no_term, group.no_term_judged = matches
         groups.append(group)
         register(group)
         return group
 
-    def lookup(stems):
+    def through(via):
+        return f" (through the judged label {via!r})" if via else ""
+
+    def lookup(stems, context):
+        """(antigen key, judgement, evidence, the judged label it rests on or "") for the first stem
+        that names an antigen, or None."""
         for stem in stems:
             if stem in exact:
-                return exact[stem], False, f"{stem!r} is a label of the antigen concept"
+                key, via = exact[stem]
+                return key, bool(via), f"{stem!r} is a label of the antigen concept{through(via)}", via
         for stem in stems:
             if names.normalise(stem, "antigens") in keyed:
-                return keyed[names.normalise(stem, "antigens")], False, f"{stem!r} names the antigen concept"
+                key, via = keyed[names.normalise(stem, "antigens")]
+                return key, bool(via), f"{stem!r} names the antigen concept{through(via)}", via
         resolved = []  # (stem, its match result, its first deciding match, judged)
         for stem in stems:
             result = match([stem])
@@ -660,20 +701,22 @@ def propose_targets(concepts, groups, match, srcs):
             first = deciding[0]
             judged = first.judgement or first.iri.startswith(to_iri("chebi", ""))
             if first.iri in by_term:
-                key, term_judged = by_term[first.iri]
-                return key, judged or term_judged, f"{first.evidence}, the antigen concept's term"
+                key, term_judged, via = by_term[first.iri]
+                return (key, judged or term_judged,
+                        f"{first.evidence}, the antigen concept's term{through(via)}", via)
             resolved.append((stem, result, first, judged))
         for stem in stems:
             for name in name_candidates([stem]):
                 if names.normalise(name, "antigens") in named:
-                    return (named[names.normalise(name, "antigens")], True,
-                            f"{name!r}, read from {stem!r}, is a name of the antigen concept")
+                    key, via = named[names.normalise(name, "antigens")]
+                    return (key, True,
+                            f"{name!r}, read from {stem!r}, is a name of the antigen concept{through(via)}", via)
         if resolved:
             stem, result, first, judged = resolved[0]
-            group = new_antigen(stem, f"the antigen {stem!r} names; no entry lists it", result)
+            group = new_antigen(stem, f"the antigen {stem!r} names; no entry lists it", result, context)
             if judged:
                 group.judged.append(f"created only as the target of {stem!r}")
-            return group.ckey, judged, first.evidence
+            return group.ckey, judged, first.evidence, ""
         for stem in stems:
             words = names.normalise(stem, "antigens")
             if len(words) < MIN_CONTAINED:
@@ -686,14 +729,17 @@ def propose_targets(concepts, groups, match, srcs):
                    + (f"; {len(found) - 1} other IEDB antigen(s) match" if len(found) > 1 else ""))
             term = srcs.pr.get("PR:" + accession) if accession else None
             if term and to_iri("pr", term.id) in by_term:
-                return by_term[to_iri("pr", term.id)][0], True, why
-            if name in exact or names.normalise(name, "antigens") in keyed:
-                return exact.get(name) or keyed[names.normalise(name, "antigens")], True, why
+                key, _, via = by_term[to_iri("pr", term.id)]
+                return key, True, why + through(via), via
+            for index, name_key in ((exact, name), (keyed, names.normalise(name, "antigens"))):
+                if name_key in index:
+                    key, via = index[name_key]
+                    return key, True, why + through(via), via
             matches = ([Match("exactMatch", to_iri("pr", term.id), term_label(term), why, True)], "", False) \
                 if term else ([], f"PR has no term for IEDB's {name!r}", True)
-            group = new_antigen(name, f"the IEDB antigen for {stem!r}; no entry lists it", matches)
+            group = new_antigen(name, f"the IEDB antigen for {stem!r}; no entry lists it", matches, context)
             group.judged.append(why)
-            return group.ckey, True, why
+            return group.ckey, True, why, ""
         return None
 
     iedb = iedb_antigens(srcs.iedb)
@@ -704,10 +750,10 @@ def propose_targets(concepts, groups, match, srcs):
         if concept.targets or any(by_iri[a].targets or a in targeted for a in above):
             continue
         stems = list(dict.fromkeys(s for s in (stem_of(n) for n in [concept.label, *concept.alt_labels]) if s))
-        found = lookup(stems)
+        found = lookup(stems, served[concept.iri])
         if found:
-            key, judgement, why = found
-            targets.append(Target(concept, key, judgement, why))
+            key, judgement, why, via = found
+            targets.append(Target(concept, key, judgement, why, via))
             targeted.add(concept.iri)
     return targets, groups_by_key
 
@@ -726,29 +772,30 @@ def concept_label(key, groups_by_key, concepts):
 
 
 def group_rows(groups, groups_by_key, concepts, table, kind):
-    """The concept, altLabel, match, no_term and link rows of every new group; returns concept rows."""
-    concept_rows = {}
+    """The concept, altLabel, match, no_term and link rows of every new group. Returns the concept
+    rows (by key) and the altLabel rows (by key and label), for the target rows to depend on."""
+    concept_rows, alt_rows = {}, {}
     for group in groups:
-        entries = [m.entry for m in group.mentions]
+        named = len(group.mentions)
         evidence = "; ".join(filter(None, [
-            f"{len(entries)} entr{'y' if len(entries) == 1 else 'ies'} named {names.normalise(group.label, kind)!r}"
-            if entries else "", group.evidence, *group.judged]))
+            f"{named} entr{'y' if named == 1 else 'ies'} named {names.normalise(group.label, kind)!r}"
+            if named else "", group.evidence, *group.judged]))
         concept_rows[group.ckey] = table.add(
             bool(group.judged), "concept", group.ckey, group.parent,
-            concept_label(group.parent, groups_by_key, concepts), entries, evidence)
+            concept_label(group.parent, groups_by_key, concepts), group.entries, evidence)
     for group in groups:
         row = concept_rows[group.ckey]
         if group.parent in concept_rows:
             table.needs[id(row)].append(concept_rows[group.parent])
-        entries = [m.entry for m in group.mentions]
-        alt_rows = {}
+        entries = group.entries
         for label in group.labels[1:]:
-            named = [m.entry for m in group.mentions if m.label == label]
-            alt_rows[label] = table.add(
-                label in group.fuzzy, "altLabel", group.ckey, label, label, named,
+            alt_rows[(group.ckey, label)] = table.add(
+                label in group.fuzzy, "altLabel", group.ckey, label, label,
+                [m.entry for m in group.mentions if m.label == label],
                 group.fuzzy.get(label, f"{label!r} and {group.label!r} are both {group.key!r}"), [row])
         for m in group.matches:
-            table.add(m.judgement, m.action, group.ckey, m.iri, m.label, entries, m.evidence, [row])
+            table.add(m.judgement, m.action, group.ckey, m.iri, m.label, entries, m.evidence,
+                      [row, alt_rows.get((group.ckey, m.via))])
         if not decided(group, groups_by_key, concepts):
             table.add(group.no_term_judged, "no_term", group.ckey, "", "no term", entries, group.no_term, [row])
         linked = set()
@@ -759,8 +806,24 @@ def group_rows(groups, groups_by_key, concepts, table, kind):
             table.add(m.bundle is not None, "link", group.ckey, group.ckey, group.label, [m.entry],
                       f"{m.label!r} is a label of the concept"
                       + (f"; one marker of {m.bundle!r}" if m.bundle else ""),
-                      [row, alt_rows.get(m.label)])
-    return concept_rows
+                      [row, alt_rows.get((group.ckey, m.label))])
+    return concept_rows, alt_rows
+
+
+def served_entries(entries, concepts):
+    """Existing ARIB IRI -> the entries that link it; for a concept no entry links (a created parent
+    or family member), those that link the concepts below it, else above it."""
+    linked_from = defaultdict(list)
+    for entry in entries:
+        for iri in entry.shared:
+            linked_from[iri].append(entry)
+    above = {iri: model.ancestors(iri, concepts) for iri in concepts}
+    served = {}
+    for iri in concepts:
+        served[iri] = (linked_from[iri]
+                       or [e for other in concepts if iri in above[other] for e in linked_from[other]]
+                       or [e for a in above[iri] for e in linked_from[a]])
+    return served
 
 
 def propose(kind, disease_text, biomarkers_text, srcs):
@@ -791,22 +854,21 @@ def propose(kind, disease_text, biomarkers_text, srcs):
 
     targets = []
     groups_by_key = {g.ckey: g for g in groups}
+    served = {}  # existing antibody concept IRI -> the entries its rows show
     if kind == "antigens":
-        targets, groups_by_key = propose_targets(concept_list, groups, match, srcs)
+        served = served_entries(entries, concepts)
+        targets, groups_by_key = propose_targets(concept_list, groups, match, srcs, served)
         groups.sort(key=lambda g: (g.label.casefold(), g.label))
     keys = [g.ckey for g in groups]
     if len(set(keys)) != len(keys):
         raise ValueError(f"two proposed concepts share a label: {[k for k, n in Counter(keys).items() if n > 1]}")
 
-    concept_rows = group_rows(groups, groups_by_key, concepts, table, kind)
-    linked_from = defaultdict(list)
-    for entry in entries:
-        for iri in entry.shared:
-            linked_from[iri].append(entry)
+    concept_rows, alt_rows = group_rows(groups, groups_by_key, concepts, table, kind)
     for t in targets:
         table.add(t.judgement, "target", t.antibody.iri, t.antigen,
-                  concept_label(t.antigen, groups_by_key, concepts), linked_from[t.antibody.iri],
-                  f"{t.antibody.label!r} targets it: {t.evidence}", [concept_rows.get(t.antigen)])
+                  concept_label(t.antigen, groups_by_key, concepts), served[t.antibody.iri],
+                  f"{t.antibody.label!r} targets it: {t.evidence}",
+                  [concept_rows.get(t.antigen), alt_rows.get((t.antigen, t.via))])
 
     links = defaultdict(list)
     for row in table.rows:
