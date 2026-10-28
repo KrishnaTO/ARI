@@ -5,6 +5,7 @@ data/databases
 ~$*
 *.log
 *.pyc
+__pycache__/
 sparql/doid.owl
 sparql/mondo.owl
 sparql/uberon.owl

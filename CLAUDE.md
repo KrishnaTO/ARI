@@ -14,7 +14,7 @@ here and opens pull requests back into here under each curator's own GitHub iden
 
 | Belongs here | Belongs in the app repo |
 | --- | --- |
-| `ontologies/*.owl` — the sole authority: `ari_disease.owl` is the disease record, with `ari_core`, `ari_symptoms`, `ari_anatomy`, `ari_biomarkers` and the generated `ari_symp` / `ari_uberon` slices | `app/`, `static/`, `deploy/`, `tests/` |
+| `ontologies/*.owl` — the sole authority: `ari_disease.owl` is the disease record, with `ari_core`, `ari_symptoms`, `ari_anatomy`, `ari_biomarkers` and the generated `ari_symp` / `ari_uberon` / `ari_pr` / `ari_chebi` / `ari_hgnc` / `ari_loinc` slices | `app/`, `static/`, `deploy/`, `tests/` |
 | `mappings/*.tsv` — every curated judgment | `data/2-databases/*.tsv` — reference indexes built from public releases |
 | `data/1-master`, `3-meta-database-sources`, `4-reports` | `mappings/ari.predicted.sssom.tsv` — a machine export nothing here consumes |
 | `notebook/`, `sparql/`, `data_model/` | Anything a code change, not a curator, would alter |

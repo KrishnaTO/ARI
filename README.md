@@ -138,8 +138,9 @@ and loads in owlready2 with its imports. Open **`ari_disease.owl`**: it imports 
 | `ari_disease.owl` | Diseases and their per-disease entries (symptoms, antibodies, antigens, biomarkers, tissues) | the editor app, curators |
 | `ari_symptoms.owl` | One `ARIS_…` class per symptom, linked to SYMP and HPO | curators (Protégé) |
 | `ari_anatomy.owl` | Tissue and system classes, linked to UBERON | curators (Protégé) |
-| `ari_biomarkers.owl` | Biomarker concepts (empty for now) | curators (Protégé) |
+| `ari_biomarkers.owl` | Biomarker concepts (empty for now; see [`notebook/biomarker-concepts/`](notebook/biomarker-concepts/README.md)) | curators (Protégé) |
 | `ari_symp.owl`, `ari_uberon.owl` | Slices of SYMP and UBERON, generated, never edited by hand | the builder scripts |
+| `ari_pr.owl`, `ari_chebi.owl`, `ari_hgnc.owl`, `ari_loinc.owl` | Slices of the Protein Ontology, ChEBI, HGNC and LOINC, generated, never edited by hand | `build_biomarker_slices.py` |
 
 A per-disease entry points at its shared concept with `sharedConcept`. Every property is declared
 once, in the core. [`notebook/ontology-modules/README.md`](notebook/ontology-modules/README.md)
