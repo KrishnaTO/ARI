@@ -92,7 +92,7 @@ def test_a_fuzzy_merge_is_a_judgement_and_its_link_depends_on_it():
     [alt] = [r for r in by(rows, "altLabel") if r.value == "Type VII Colagen"]
     assert (alt.concept, alt.group) == ("new:Type VII collagen", "judgement")
     [link] = [r for r in by(rows, "link") if entry_ids(r) == ["Ab_8"]]
-    assert alt.row in link.depends.split(",")
+    assert alt.row in link.depends.split(";")
     # a different roman numeral is a different molecule
     assert by(rows, "concept", "new:Type VI collagen")
 
@@ -103,7 +103,7 @@ def test_a_qualified_antibody_nests_under_its_unqualified_concept():
     [parent] = by(rows, "concept", "new:Anti-MOG antibody")
     assert child.value == "new:Anti-MOG antibody"
     assert parent.value == ARI + "Autoantibody"
-    assert parent.row in child.depends.split(",")
+    assert parent.row in child.depends.split(";")
     # the parent matched HPO, so the child needs no term of its own
     assert by(rows, "exactMatch", "new:Anti-MOG antibody") or by(rows, "closeMatch", "new:Anti-MOG antibody")
     assert not by(rows, "no_term", "new:Anti-MOG IgG")
@@ -147,7 +147,7 @@ def test_an_antibody_naming_an_unknown_antigen_creates_it(tmp_path):
     assert hgnc.value == "http://identifiers.org/hgnc/6572"
     [target] = by(rows, "target", ARIB + "0000001")
     assert (target.value, target.group) == ("new:LGI1", "confident")
-    assert lgi1.row in target.depends.split(",")
+    assert lgi1.row in target.depends.split(";")
     assert "Disease one" in target.diseases
 
     # Anti-AQP4 targets the antigen entry's concept; its child inherits the target, stated once
@@ -245,7 +245,7 @@ def test_a_match_found_only_through_a_judged_label_is_a_judgement_on_it():
     assert alt.group == "judgement"
     [match] = by(rows, "exactMatch", "new:Perinuclear ANCA")
     assert match.group == "judgement"
-    assert alt.row in match.depends.split(",")
+    assert alt.row in match.depends.split(";")
 
 
 def test_a_target_found_only_through_a_judged_label_is_a_judgement_on_it():
@@ -259,7 +259,7 @@ def test_a_target_found_only_through_a_judged_label_is_a_judgement_on_it():
     [alt] = [r for r in by(rows, "altLabel") if r.value == "BP230 (dystonin)"]
     [target] = by(rows, "target", ARIB + "0000001")
     assert (target.value, target.group) == ("new:BP230", "judgement")
-    assert alt.row in target.depends.split(",")
+    assert alt.row in target.depends.split(";")
 
 
 def test_a_whole_label_names_the_concept_before_a_bundle_part():

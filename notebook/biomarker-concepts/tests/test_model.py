@@ -116,6 +116,27 @@ def test_review_table_round_trips(tmp_path):
     assert review_table.read(path) == rows
 
 
+def test_review_table_survives_a_spreadsheet_round_trip(tmp_path):
+    # A spreadsheet saving tab-delimited UTF-8 adds a byte-order mark and quotes a cell holding a
+    # comma or a double quote; the rows read back the same.
+    rows = [row(1, "altLabel", "new:A", 'Quoted "name", with comma'),
+            row(2, "link", "new:A", "new:A", "Ab_1 Anti-A, B | Ab_2 A", depends="1;3"),
+            row(3, "concept", "new:A", ARI + "Autoantibody")]
+    path = tmp_path / "antibodies.tsv"
+    review_table.write(path, rows)
+    assert not path.read_bytes().startswith(b"\xef\xbb\xbf")
+    assert review_table.read(path) == rows
+
+    def cell(value):
+        return '"' + value.replace('"', '""') + '"' if any(c in value for c in ',"') else value
+
+    table = [review_table.COLUMNS, *([getattr(r, c) for c in review_table.COLUMNS] for r in rows)]
+    text = "".join("\t".join(map(cell, values)) + "\r\n" for values in table)
+    path.write_bytes(b"\xef\xbb\xbf" + text.encode("utf-8"))
+    assert '"Ab_1 Anti-A, B | Ab_2 A"' in text and '"Quoted ""name"", with comma"' in text
+    assert review_table.read(path) == rows
+
+
 def test_review_table_refuses_a_tab_in_a_value(tmp_path):
     with pytest.raises(ValueError, match="tab"):
         review_table.write(tmp_path / "x.tsv", [row(1, "altLabel", "new:A", "a\tb")])

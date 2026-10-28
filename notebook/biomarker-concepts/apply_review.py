@@ -33,7 +33,7 @@ class Skipped(Row):
 
 
 def depends_of(row):
-    return [d.strip() for d in row.depends.split(",") if d.strip()]
+    return [d.strip() for d in row.depends.split(";") if d.strip()]
 
 
 def check(rows, labels):

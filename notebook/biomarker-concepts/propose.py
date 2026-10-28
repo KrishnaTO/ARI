@@ -138,7 +138,7 @@ class Table:
         for number, row in enumerate(rows, start=1):
             row.row = str(number)
         for row in rows:
-            row.depends = ",".join(sorted({n.row for n in self.needs[id(row)]}, key=int))
+            row.depends = ";".join(sorted({n.row for n in self.needs[id(row)]}, key=int))
         return rows
 
 
