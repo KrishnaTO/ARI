@@ -121,6 +121,64 @@ def test_a_rejected_label_fix_needs_the_original_label():
         apply_review.decide(rows)
 
 
+def test_correcting_a_concept_out_of_a_rejected_family_writes_it_under_the_new_parent():
+    # The GAD65 un-nest: the family is rejected and the member corrected to the core class.
+    rows = [row(1, "concept", "new:Organ-specific autoantibodies", "k", decision="reject"),
+            row(2, "concept", "new:Anti-GAD65", "new:Organ-specific autoantibodies", depends="1",
+                decision="correct", correction=model.KIND_CLASSES["antibodies"]),
+            row(3, "exactMatch", "new:Anti-GAD65", "http://x/1", depends="2"),
+            row(4, "link", "new:Anti-GAD65", "new:Anti-GAD65", "Ab_1 x", depends="2")]
+    written, skipped = apply_review.decide(rows)
+    assert ids(written) == ["2", "3", "4"] and skipped == []
+    assert written[0].value == model.KIND_CLASSES["antibodies"]
+
+
+def test_a_corrected_concept_depends_on_its_new_parent():
+    rows = [row(1, "concept", "new:P", "k"),
+            row(2, "concept", "new:Q", "k", decision="reject"),
+            row(3, "concept", "new:C", "k", depends="2", decision="correct", correction="new:P")]
+    written, skipped = apply_review.decide(rows)
+    assert ids(written) == ["1", "3"] and skipped == []
+    assert apply_review.effective_depends(rows)["3"] == ["1"]
+
+
+def test_a_correction_to_a_new_key_that_is_not_written_is_refused():
+    rows = [row(1, "concept", "new:P", "k", decision="reject"),
+            row(2, "concept", "new:C", "k", decision="correct", correction="new:P"),
+            row(3, "target", ARO, "new:A", decision="correct", correction="new:Nowhere")]
+    with pytest.raises(ValueError) as error:
+        apply_review.decide(rows)
+    message = str(error.value)
+    assert "row 2: corrected to new:P" in message and "row 3: corrected to new:Nowhere" in message
+
+
+def test_a_corrected_link_is_refused():
+    rows = [row(1, "concept", "new:A", "k"),
+            row(2, "link", "new:A", "new:A", "Ab_1 x", "1", decision="correct", correction="new:A")]
+    with pytest.raises(ValueError, match="row 2: a link cannot be corrected. Reject it"):
+        apply_review.decide(rows)
+
+
+def test_a_corrected_label_fix_lands_as_an_alt_label():
+    rows = [row(1, "concept", "new:V", "k"),
+            row(2, "label_fix", "new:V", "anti-villin", "Ab_12 a", decision="correct", correction="Anti-villin"),
+            row(3, "link", "new:V", "new:V", "Ab_12 a", "1"),
+            row(4, "label_fix", "", "Anti-Y", "Ab_2 a", decision="correct", correction="Anti Y"),
+            row(5, "link", "new:Y", "new:Y", "Ab_2 a", decision="reject")]
+    written, skipped = apply_review.decide(rows)
+    assert [(r.row, r.action, r.concept, r.value) for r in written] == [
+        ("1", "concept", "new:V", "k"), ("2", "label_fix", "new:V", "Anti-villin"),
+        ("2-alt", "altLabel", "new:V", "Anti-villin"), ("3", "link", "new:V", "new:V"),
+        ("4", "label_fix", "", "Anti Y")]
+    assert [(r.row, r.action, r.value, r.reason) for r in skipped] == [
+        ("4-alt", "altLabel", "Anti Y", "label_fix 4 corrected; no altLabel, its link row 5 was rejected")]
+
+
+def test_a_corrected_cycle_of_new_keys_is_left_undecided_not_hung():
+    rows = [row(1, "concept", "new:A", "new:B"), row(2, "concept", "new:B", "new:A")]
+    assert apply_review.undecided(rows, {}) == ["new:A", "new:B"]
+
+
 def test_concepts_left_undecided_are_listed_never_filled_in():
     concepts = {c.iri: c for c in model.read_concepts(biomarkers_text(EXISTING_RO))}
     rows = [row(1, "concept", "new:Bare", "k"),
@@ -196,7 +254,8 @@ def reviewed(root, decisions):
 
 
 def test_apply_restores_the_base_files_writes_the_decided_rows_and_deletes_the_table(repo):
-    table = reviewed(repo, {"8": "reject"})  # the label_fix of Ab_12 "anti-villin 40"
+    fix = next(r.row for r in proposed() if r.action == "label_fix")  # Ab_12 "anti-villin 40"
+    table = reviewed(repo, {fix: "reject"})
     summary = apply_review.apply(repo, "review/antibodies.tsv", "HEAD")
 
     assert not table.exists()
