@@ -23,6 +23,10 @@ that have none need proposing in reviewable batches rather than hand-typed. This
   families); `propose.py --kind {antibodies,antigens,tests}` writes a review table and the OWL with
   every row applied, so the PR shows the result; `apply_review.py` later restores the two module files
   from `main` and writes only the rows reviewers accepted or corrected.
+- **Review table for spreadsheets.** `depends` separates row ids with `;` (a spreadsheet read
+  `132,134` as a number), and the table survives a spreadsheet's tab-delimited UTF-8 save. A
+  corrected `link` is refused, as its entry's label would still name the old concept: reject it and
+  fix the entry in Protégé after the merge.
 - **Docs.** `notebook/biomarker-concepts/README.md` covers the sources, the review flow and table, and
   adding relations in Protégé; the root README and `CLAUDE.md` name the four new slices.
 

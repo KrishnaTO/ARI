@@ -73,10 +73,18 @@ Run every command from the repository root. Java for the formatter is in WSL (se
 4. **Validate.** `python .github/scripts/validate_mappings.py`
 5. **Open the PR.** Its diff shows the table and the OWL as it would be with every row accepted.
 6. **Review.** Reviewers fill `decision` on **every** row (see below). A blank decision is refused,
-   and filling `accept` down the whole confident block in one action is fine.
+   and filling `accept` down the whole confident block in one action is fine. To use a spreadsheet,
+   open the TSV in it, fill `decision` (and `correction`), and save it back as tab-delimited text
+   (UTF-8) under the same name; the byte-order mark and the quoting a spreadsheet adds are read back
+   as they were.
 7. **Apply.** `python notebook/biomarker-concepts/apply_review.py notebook/biomarker-concepts/review/<kind>.tsv --base origin/main`
    restores the two module files from the base, writes only the decided rows and deletes the table.
-   If any decision is blank or unknown, or a correction is empty, nothing is touched.
+   Every check on the table runs first: if a decision is blank or unknown, a correction is empty, a
+   `link` is corrected, a correction names a `new:` key that no written `concept` row creates, or a
+   `depends` row is missing, the run lists every problem and nothing is touched. One kind of error
+   comes later, from the writer, after the two module files were restored: a value that is not in
+   the files (an IRI that is no ARIB class, an entry that is not there). The table is kept then; fix
+   it and run again.
 8. **Rebuild and check.** Build the slices, run the formatter and run the validator again.
 9. **Merge.**
 
@@ -95,14 +103,14 @@ Run every command from the repository root. Java for the formatter is in WSL (se
 | `diseases` | the diseases involved |
 | `entries` | the per-disease entries involved |
 | `evidence` | why the row is proposed |
-| `depends` | row ids this row needs, comma-separated |
+| `depends` | row ids this row needs, separated by `;` (as `132;134`) |
 | `decision` | `accept`, `reject` or `correct` (filled by the reviewer) |
 | `correction` | the corrected value, for `correct` |
 | `note` | free text |
 
 | Action | Value | Effect |
 |--------|-------|--------|
-| `concept` | the core kind, or a parent concept key | creates the class under that parent |
+| `concept` | the parent: a core class IRI, or a parent concept key | creates the class under that parent |
 | `altLabel` | none | adds a label to the concept, so lookup links entries holding it |
 | `exactMatch`, `broadMatch`, `closeMatch`, `relatedMatch` | the external IRI | links the concept to a published term |
 | `no_term` | none | sets `ARI_NoConcept "no term"` on the concept |
@@ -111,7 +119,26 @@ Run every command from the repository root. Java for the formatter is in WSL (se
 | `not_a_biomarker` | none | sets `ARI_NoConcept "not a biomarker"` on the entry |
 | `label_fix` | the clean label | replaces the entry's label with the clean one, for a stray trailing value (a number or percentage) |
 
-`correct` replaces `value` with `correction`.
+`correct` replaces `value` with `correction`. A `concept` row's value is its parent, written in full:
+one of the three core class IRIs
+
+- `http://www.aurint.org/ontologies/ari-disease#Autoantibody`
+- `http://www.aurint.org/ontologies/ari-disease#Antigen`
+- `http://www.aurint.org/ontologies/ari-disease#ClinicalBiomarker`
+
+or a parent concept key (`new:<label>` or an existing `ARIB_…` IRI). To un-nest a concept from a
+family you reject, correct its `concept` row to the core class, for example
+`http://www.aurint.org/ontologies/ari-disease#Autoantibody` for an antibody: a corrected `concept`
+row depends only on its corrected parent, so the rejected family no longer skips it, its matches or
+its links. A correction to a `new:` key must name a concept whose `concept` row is written.
+
+Some rows cannot be corrected, or bring a row with them:
+
+- **A `link` cannot be corrected**; apply refuses it. Reject the link, and the `altLabel` row that
+  carries the entry's label if there is one, then fix the entry's concept in Protégé after the merge.
+- **A corrected `label_fix`** writes the corrected label on the entry and adds it as an `altLabel`
+  on the concept the entry's `link` row names, so the entry still resolves. If that link row was
+  rejected or skipped, no altLabel is added and the summary says so.
 
 Two rules a reviewer must know:
 
@@ -128,9 +155,13 @@ validator warns on each (`biomarker-concept-unlinked`).
 
 ## Adding relations in Protégé
 
-Three relations are authored by hand, as annotations on the ARIB class. Open `ari_disease.owl`,
-select the ARIB class, and in the **Annotations** pane add the property with a value that is a class
-IRI. The validator's `biomarker-relation-target` error enforces the targets.
+Three relations are authored by hand, as annotations on the ARIB class. Open `ari_disease.owl`, so
+the ARIS, anatomy and UBERON classes are loaded to pick from. Protégé writes a new axiom into the
+*active* ontology, so before adding anything make `ari_biomarkers` the active ontology (the
+ontology selector at the top of the window). Then select the ARIB class, add the property in the
+**Annotations** pane with a value that is a class IRI, and save. An annotation written into
+`ari_disease.owl` instead is a `subject-in-two-modules` error, and the relation checks never see it.
+The validator's `biomarker-relation-target` error enforces the targets.
 
 | Relation | From | To |
 |----------|------|----|
@@ -145,9 +176,9 @@ on its line in `ari_biomarkers.owl`; an entry's on its line in `ari_disease.owl`
 
 | Code | Level | What to do |
 |------|-------|------------|
-| `biomarker-concept-kind` | error | An ARIB class is under no kind or two. Make it a subclass of exactly one of `Autoantibody`, `Antigen`, `ClinicalBiomarker`, or of an ARIB class of that kind |
+| `biomarker-concept-kind` | error | An ARIB class is under no kind or two, or has a parent other than its core class or an ARIB class of its kind (a PR term, say). Make it a subclass of exactly one of `Autoantibody`, `Antigen`, `ClinicalBiomarker`, or of ARIB classes of that kind; an external term goes in a skos match |
 | `biomarker-link-wrong-kind` | error | An entry links a concept of another kind. Link a concept of the entry's own kind |
-| `biomarker-relation-target` | error | `targetsAntigen`, `expressedIn` or `associatedSymptom` points at the wrong target (table above). Point it at an allowed class, or remove it |
+| `biomarker-relation-target` | error | `targetsAntigen`, `expressedIn` or `associatedSymptom` points at the wrong target, or `targetsAntigen` sits on a class that is not an antibody (table above). Point it at an allowed class, move it, or remove it |
 | `biomarker-external-missing` | error | A match to a PR, ChEBI, HGNC or LOINC term that is not in its slice. Rebuild the slices |
 | `biomarker-concept-mismatch` | error | An entry's `sharedConcept` is not the class its label names. Typical after a Protégé rename or a `label_fix`: link the class the label names, or fix the label (or add it as an `skos:altLabel` on the right class) |
 | `biomarker-decided-and-linked` | error | An entry has both `ARI_NoConcept` and a `sharedConcept`. Remove whichever is wrong |
