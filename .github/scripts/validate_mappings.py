@@ -8,11 +8,12 @@ the two files agree with each other, and that both agree with the stored
 cross-references in `ontologies/ari_disease.owl`. Also checks the ontology
 modules (core, disease, symptoms, anatomy, biomarkers) against each other: every
 Symptom individual's `sharedConcept` is the ARIS class its label names in
-`ontologies/ari_symptoms.owl`, every live biomarker entry's the ARIB class of its
-kind its label names in `ontologies/ari_biomarkers.owl`, every ARIB class has
-one kind, valid relation targets and its external terms in their slices, only
-`ari_core.owl` declares properties, no subject is described in two modules, and
-every tissue class links an UBERON term or says why not.
+`ontologies/ari_symptoms.owl`, every live biomarker entry links the ARIB class
+in `ontologies/ari_biomarkers.owl` that its label names among the classes of its
+kind, every ARIB class has one kind, valid relation targets and its external
+terms in their slices, only `ari_core.owl` declares properties, no subject is
+described in two modules, and every tissue class links an UBERON term or says
+why not.
 
 Usage:
     python .github/scripts/validate_mappings.py                # audit everything
@@ -1697,17 +1698,21 @@ def biomarker_labels(text: str, report: Report) -> dict[str, dict[str, str]]:
     }
 
 
-def check_biomarker_hierarchy(text: str, report: Report) -> None:
+def check_biomarker_hierarchy(text: str, kinds: dict[str, str], report: Report) -> None:
     """Every ARIB class has one kind and an external term, or says it has none.
 
     A class reaching no core class, or two, has no kind for an entry to be
     checked against; the error sits on each rdfs:subClassOf line, as a parent is
-    what put it there (on the class line when it has none). A class is decided
-    when it or an ARIB class above it has an exact, close or broad match, or it
-    carries ARI_NoConcept: a child without its own term is covered by its
-    parent's. An undecided class is a warning on its class line, as for tissues.
+    what put it there (on the class line when it has none). A class of one kind
+    has as parents only its core class and ARIB classes of that kind; any other
+    parent (a PR term, say) is the same error on that parent's line. A class is
+    decided when it or an ARIB class above it has an exact, close or broad
+    match, or it carries ARI_NoConcept: a child without its own term is covered
+    by its parent's. An undecided class is a warning on its class line, as for
+    tissues.
     """
     classes = biomarker_classes(text)
+    core_class = {kind: iri for iri, kind in BIOMARKER_KINDS.items()}
     for iri, entity in classes.items():
         reached = reached_kinds(iri, classes)
         if len(reached) != 1:
@@ -1720,6 +1725,16 @@ def check_biomarker_hierarchy(text: str, report: Report) -> None:
                     + ". Make it a subclass of exactly one of Autoantibody, Antigen and "
                     "ClinicalBiomarker, or of an ARIB class of that kind.",
                 )
+        else:
+            kind = kinds[iri]
+            for parent, line in entity.values(RDFS_SUBCLASS_OF):
+                if parent != core_class[kind] and kinds.get(parent) != kind:
+                    report.error(
+                        "biomarker-concept-kind", BIOMARKERS_PATH, line,
+                        f"{iri} is in {kind} and under {parent}, which is neither "
+                        f"{core_class[kind][len(ARI_DISEASE_BASE):]} nor an ARIB class of {kind}. "
+                        "Remove that parent; an external term goes in a skos match.",
+                    )
         matched = any(
             classes[owner].values(prop)
             for owner in {iri} | arib_ancestors(iri, classes)
@@ -1737,11 +1752,11 @@ def check_biomarker_hierarchy(text: str, report: Report) -> None:
 def check_biomarker_targets(texts: dict[str, str], kinds: dict[str, str], report: Report) -> None:
     """Every relation and external match on an ARIB class points at something there.
 
-    `targetsAntigen` goes to an antigen concept, `expressedIn` to an anatomy
-    class or an UBERON term, `associatedSymptom` to an ARIS class. A match to a
-    PR, ChEBI, HGNC or LOINC term needs that term in its generated slice, or
-    the slice is stale and the term has no label. Each finding sits on the
-    statement that points.
+    `targetsAntigen` goes from an antibody concept to an antigen concept,
+    `expressedIn` to an anatomy class or an UBERON term, `associatedSymptom` to
+    an ARIS class. A match to a PR, ChEBI, HGNC or LOINC term needs that term in
+    its generated slice, or the slice is stale and the term has no label. Each
+    finding sits on the statement that points.
     """
     body_parts = declared_classes(texts[ANATOMY_PATH]) | declared_classes(texts[UBERON_PATH])
     targets = {
@@ -1753,6 +1768,13 @@ def check_biomarker_targets(texts: dict[str, str], kinds: dict[str, str], report
     }
     sliced = {prefix: declared_classes(texts[path]) for prefix, path in BIOMARKER_SLICES.items()}
     for entity in biomarker_classes(texts[BIOMARKERS_PATH]).values():
+        if kinds.get(entity.iri) != "antibodies":
+            for _, line in entity.values(TARGETS_ANTIGEN):
+                report.error(
+                    "biomarker-relation-target", BIOMARKERS_PATH, line,
+                    f"{entity.iri} has targetsAntigen, but it is not an antibodies class; "
+                    "targetsAntigen goes from an antibody concept. Move it to the antibody, or remove it.",
+                )
         for prop, (allowed, wanted) in targets.items():
             for target, line in entity.values(prop):
                 if target not in allowed:
@@ -1784,9 +1806,10 @@ def check_biomarker_entries(
     An entry's kind is its rdf:type: Autoantibody, Antigen or ClinicalBiomarker.
     Each sharedConcept must be an ARIB class of that kind; one pointing at no
     class at all is `shared-concept-target-missing`'s. An entry with several
-    links is a bundle naming several markers, so no single lookup holds for
-    it; one with at most one link goes through `check_label_link`, looking its
-    label up among its own kind's concepts. Obsolete entries are left alone.
+    distinct links is a bundle naming several markers, so no single lookup holds
+    for it; one with at most one (a repeated link counts once) goes through
+    `check_label_link`, looking its label up among its own kind's concepts.
+    Obsolete entries are left alone.
     """
     for entity in read_entities(disease_text):
         core = sorted(entity.types & BIOMARKER_KINDS.keys())
@@ -1802,7 +1825,7 @@ def check_biomarker_entries(
                     + (f"in {kinds[target]}" if target in kinds else "not a biomarker concept")
                     + f". Link a {kind} class in {BIOMARKERS_PATH}.",
                 )
-        if len(links) > 1:
+        if len({target for target, _ in links}) > 1:
             continue
         check_label_link(
             entity, core[0][len(ARI_DISEASE_BASE):], "biomarker",
@@ -1815,7 +1838,7 @@ def check_biomarker_concepts(texts: dict[str, str], report: Report) -> None:
     text = texts[BIOMARKERS_PATH]
     kinds = biomarker_kinds(text)
     labels = biomarker_labels(text, report)
-    check_biomarker_hierarchy(text, report)
+    check_biomarker_hierarchy(text, kinds, report)
     check_biomarker_targets(texts, kinds, report)
     check_biomarker_entries(texts[ONTOLOGY_PATH], kinds, labels, concept_iris(texts), report)
 

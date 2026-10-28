@@ -197,6 +197,30 @@ def test_relation_targets():
     assert codes == ["biomarker-relation-target"] * 3
 
 
+def test_targets_antigen_goes_only_from_an_antibody():
+    codes = biomarker_findings([
+        concept("0000001", ANTIGEN, "GAD65", res("ari-disease:targetsAntigen", ARIB + "0000002")),
+        concept("0000002", ANTIGEN, "IA-2"),
+    ])
+    assert codes == ["biomarker-relation-target"]
+
+
+def test_a_parent_outside_the_kind_is_a_kind_error():
+    codes = biomarker_findings([
+        concept("0000001", ANTIGEN, "GAD65", res("rdfs:subClassOf", OBO + "PR_Q05329")),
+        concept("0000002", ANTIGEN, "IA-2"),
+        concept("0000003", ARIB + "0000002", "IA-2 fragment", res("rdfs:subClassOf", ANTIGEN)),
+    ], pr=[OBO + "PR_Q05329"])
+    assert codes == ["biomarker-concept-kind"]  # the PR parent; core class and same-kind parent are fine
+
+
+def test_a_repeated_link_is_one_link_not_a_bundle():
+    codes = biomarker_findings(
+        [concept("0000001", ANTIBODY, "GADA"), concept("0000002", ANTIBODY, "IA-2A")],
+        [entry("Ab_1", ANTIBODY, "GADA", link("0000002"), link("0000002"))])
+    assert codes == ["biomarker-concept-mismatch"] * 2
+
+
 def test_a_match_missing_from_its_slice_is_an_error():
     codes = biomarker_findings(
         [concept("0000001", ANTIGEN, "GAD65", res("skos:exactMatch", OBO + "PR_Q05329"),
