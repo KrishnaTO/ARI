@@ -30,8 +30,8 @@ its `rdfs:label`, stripped of surrounding whitespace and with case kept, equals 
 
 ## Sources
 
-Four of the sources are read from `data/2-databases/` (untracked; see `CLAUDE.md`). Every script
-takes that folder as its argument.
+All six sources are read from `data/2-databases/` (untracked; see `CLAUDE.md`). `propose.py` and
+`build_biomarker_slices.py` take that folder as their argument; `apply_review.py` reads no source.
 
 | Source | File read (under `data/2-databases/`) | Release used | Used for |
 |--------|------|------|------|
@@ -140,14 +140,23 @@ IRI. The validator's `biomarker-relation-target` error enforces the targets.
 
 ## What the validator checks
 
-`python .github/scripts/validate_mappings.py` reports, for biomarkers:
+`python .github/scripts/validate_mappings.py` reports these for biomarkers (a concept's own findings sit
+on its line in `ari_biomarkers.owl`; an entry's on its line in `ari_disease.owl`):
 
-- errors: `biomarker-concept-kind` (an ARIB class under no kind or two), `biomarker-link-wrong-kind`
-  (an entry linking a concept of another kind), `biomarker-relation-target` (a relation to the wrong
-  target), `biomarker-external-missing` (a match to a PR, ChEBI, HGNC or LOINC term that is not in its
-  slice: rebuild the slice);
-- warnings: `biomarker-unmapped` (an entry whose label no concept holds), `biomarker-concept-unlinked`
-  (a concept with no deciding match and no `ARI_NoConcept`).
+| Code | Level | What to do |
+|------|-------|------------|
+| `biomarker-concept-kind` | error | An ARIB class is under no kind or two. Make it a subclass of exactly one of `Autoantibody`, `Antigen`, `ClinicalBiomarker`, or of an ARIB class of that kind |
+| `biomarker-link-wrong-kind` | error | An entry links a concept of another kind. Link a concept of the entry's own kind |
+| `biomarker-relation-target` | error | `targetsAntigen`, `expressedIn` or `associatedSymptom` points at the wrong target (table above). Point it at an allowed class, or remove it |
+| `biomarker-external-missing` | error | A match to a PR, ChEBI, HGNC or LOINC term that is not in its slice. Rebuild the slices |
+| `biomarker-concept-mismatch` | error | An entry's `sharedConcept` is not the class its label names. Typical after a Protégé rename or a `label_fix`: link the class the label names, or fix the label (or add it as an `skos:altLabel` on the right class) |
+| `biomarker-decided-and-linked` | error | An entry has both `ARI_NoConcept` and a `sharedConcept`. Remove whichever is wrong |
+| `shared-concept-target-missing` | error | A `sharedConcept` points at a class no concept module declares (shared with symptoms and tissues). Link an existing class, or add this one |
+| `concept-label-ambiguous` | error | Two ARIB classes **of one kind** carry the same `rdfs:label` or `skos:altLabel`, so an entry with that label cannot tell which it means. Remove it from all but one, or merge the classes. An antibody and an antigen may share a name |
+| `concept-id-repeated` | error | Two ARIB classes (of any kind) carry the same `oboInOwl:id`. Give each its own |
+| `biomarker-unmapped` | warning | An entry's label is not a label of any concept of its kind. Add the label as an `skos:altLabel` or create the concept (a review PR), or set `ARI_NoConcept` |
+| `biomarker-concept-missing` | warning | An entry's label names a concept but the entry has no `sharedConcept`. Link it |
+| `biomarker-concept-unlinked` | warning | A concept has no exact, close or broad match, none on an ARIB class above it, and no `ARI_NoConcept`. Add its external term, or set `ARI_NoConcept "no term"` |
 
 ## Querying
 

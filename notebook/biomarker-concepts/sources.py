@@ -1,7 +1,7 @@
 """Readers for the locally downloaded source releases the biomarker concepts are matched against.
 
 HPO (hp.obo), Protein Ontology (pro_nonreasoned.obo), ChEBI (chebi_lite.obo), HGNC
-(hgnc_complete_set.txt), LOINC (LoincTable/Loinc.csv) and IEDB (bcell_full_v3.csv). Each reader takes
+(hgnc_complete_set.txt), LOINC (loinc/LoincTable/Loinc.csv) and IEDB (bcell_full_v3.csv). Each reader takes
 the path of its file, streams it, skips obsolete / withdrawn / inactive entries and returns a dict
 keyed by the source's own id string (a list of assays for IEDB). A missing file raises
 FileNotFoundError naming it. Pure functions: nothing is downloaded or written.
@@ -169,7 +169,7 @@ def read_hgnc(path):
 
 
 def read_loinc(path):
-    """LOINC code (4548-4) -> Term, from LoincTable/Loinc.csv. Only ACTIVE entries."""
+    """LOINC code (4548-4) -> Term, from loinc/LoincTable/Loinc.csv. Only ACTIVE entries."""
     _require(path)
     terms = {}
     with open(path, encoding="utf-8-sig", newline="") as f:

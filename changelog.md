@@ -26,7 +26,8 @@ that have none need proposing in reviewable batches rather than hand-typed. This
 - **Docs.** `notebook/biomarker-concepts/README.md` covers the sources, the review flow and table, and
   adding relations in Protégé; the root README and `CLAUDE.md` name the four new slices.
 
-No concepts are added: `ari_biomarkers.owl` is unchanged. The review PRs follow (`antibodies`, `antigens`,
+No concepts are added: the only change to `ari_biomarkers.owl` is its `owl:imports` of the four slices
+(with their `catalog-v001.xml` entries), so it stays empty of classes. The review PRs follow (`antibodies`, `antigens`,
 `tests`), the first after the app's linking change merges, so no curator save drops a new link.
 
 ## biomarker-concepts-design
