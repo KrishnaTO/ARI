@@ -109,6 +109,20 @@ def test_a_qualified_antibody_nests_under_its_unqualified_concept():
     assert not by(rows, "no_term", "new:Anti-MOG IgG")
 
 
+def test_a_stripped_entry_links_only_as_a_judgement():
+    # Grouping on the clean label rests on the judged label_fix (as "Anti-Contactin 1" once read as
+    # "Anti-Contactin" plus a stray 1), whether it joins a new concept or names an existing one.
+    [villin] = [r for r in by(antibody_rows(), "link") if entry_ids(r) == ["Ab_12"]]
+    assert villin.group == "judgement" and "label_fix" in villin.evidence
+    rows = propose.propose(
+        "antibodies",
+        disease_text([entry("Ab_20", "Autoantibody", "Anti-Ro antibodies  12")],
+                     [disease("ARI_0000001", "Disease one", [("hasAntibody", "Ab_20")])]),
+        biomarkers_text(EXISTING_RO), propose.Sources(hp=HPO))
+    [link] = by(rows, "link")
+    assert (link.value, link.group) == (ARIB + "0000005", "judgement")
+
+
 def test_a_bundle_gets_one_link_per_marker():
     links = [r for r in by(antibody_rows(), "link") if entry_ids(r) == ["Ab_4"]]
     assert sorted(r.value for r in links) == ["new:ANA", "new:anti-Sm", "new:anti-dsDNA"]

@@ -5,7 +5,9 @@ neither sharedConcept nor ARI_NoConcept, the current ontologies/ari_biomarkers.o
 releases, and proposes, one review row each (plan Decision 2):
 
   1. per entry: `not_a_biomarker` for a sentence, `label_fix` for a stray trailing value, one `link`
-     per marker of a bundle, and a confident `link` when an existing concept of the kind has the label;
+     per marker of a bundle, and a confident `link` when an existing concept of the kind has the label
+     (a link is a judgement when it names one marker of a bundle, or when its entry's label was
+     stripped, since grouping on the clean label rests on the judged label_fix);
   2. groups of the other labels by names.normalise, merging keys at most two edits apart that share a
      first token and their numbers (a judgement): one `concept`, an `altLabel` per other label and a
      `link` per entry;
@@ -91,6 +93,7 @@ class Mention:
     label: str  # the name grouped on: the entry's label, its clean form, or one marker of a bundle
     entry: model.Entry
     bundle: str | None = None  # the whole label, when this is one marker of a bundle
+    stripped: bool = False  # the label lost a stray trailing value (a label_fix, a judgement)
 
 
 @dataclass
@@ -140,6 +143,12 @@ class Table:
         for row in rows:
             row.depends = ";".join(sorted({n.row for n in self.needs[id(row)]}, key=int))
         return rows
+
+
+def link_note(bundle, stripped):
+    """Why a link is a judgement: it names one marker of a bundle, or rests on a judged label_fix."""
+    return ((f"; one marker of {bundle!r}" if bundle else "")
+            + ("; the label is its label_fix's clean form" if stripped else ""))
 
 
 def entries_text(entries):
@@ -304,10 +313,10 @@ def read_entry_labels(entries, kind, existing_exact, table):
         for part in parts:
             if part in existing_exact:
                 iri = existing_exact[part]
-                table.add(bundle is not None, "link", iri, iri, part, [entry],
-                          f"{part!r} is a label of {iri}" + (f"; one marker of {bundle!r}" if bundle else ""))
+                table.add(bundle is not None or bool(clean), "link", iri, iri, part, [entry],
+                          f"{part!r} is a label of {iri}" + link_note(bundle, bool(clean)))
             else:
-                mentions.append(Mention(part, entry, bundle))
+                mentions.append(Mention(part, entry, bundle, bool(clean)))
     return mentions, fixes
 
 
@@ -803,9 +812,8 @@ def group_rows(groups, groups_by_key, concepts, table, kind):
             if m.entry.iri in linked:
                 continue
             linked.add(m.entry.iri)
-            table.add(m.bundle is not None, "link", group.ckey, group.ckey, group.label, [m.entry],
-                      f"{m.label!r} is a label of the concept"
-                      + (f"; one marker of {m.bundle!r}" if m.bundle else ""),
+            table.add(m.bundle is not None or m.stripped, "link", group.ckey, group.ckey, group.label,
+                      [m.entry], f"{m.label!r} is a label of the concept" + link_note(m.bundle, m.stripped),
                       [row, alt_rows.get((group.ckey, m.label))])
     return concept_rows, alt_rows
 
