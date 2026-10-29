@@ -12,7 +12,11 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:ari-disease="http://www.aurint.org/ontologies/ari-disease#">
     <owl:Ontology rdf:about="http://www.aurint.org/ontologies/ari_biomarkers">
+        <owl:imports rdf:resource="http://www.aurint.org/ontologies/ari_chebi"/>
         <owl:imports rdf:resource="http://www.aurint.org/ontologies/ari_core"/>
+        <owl:imports rdf:resource="http://www.aurint.org/ontologies/ari_hgnc"/>
+        <owl:imports rdf:resource="http://www.aurint.org/ontologies/ari_loinc"/>
+        <owl:imports rdf:resource="http://www.aurint.org/ontologies/ari_pr"/>
         <rdfs:comment>Shared ARI biomarker concepts: ARIB classes under Autoantibody, Antigen and ClinicalBiomarker. Empty until those concepts are added.</rdfs:comment>
     </owl:Ontology>
 </rdf:RDF>

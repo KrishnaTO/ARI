@@ -1,5 +1,54 @@
 # Changelog
 
+## biomarker-concepts
+
+Builds the tooling for biomarker concepts (Project 2 of the ontology modules work, designed under
+`biomarker-concepts-design`), without adding a concept. Curators need each autoantibody, antigen and
+clinical biomarker tied to one shared concept and a published term, and the 702 per-disease entries
+that have none need proposing in reviewable batches rather than hand-typed. This branch adds:
+- **Relations.** `targetsAntigen`, `expressedIn` and `associatedSymptom` are declared once in
+  `ari_core.owl`, and `ARI_NoConcept` accepts `not a biomarker`.
+- **Source readers** (`notebook/biomarker-concepts/sources.py`) for HPO, Protein Ontology, ChEBI, HGNC,
+  LOINC and the IEDB B-cell export. The LOINC reader and the IEDB column names are tested only on
+  inline samples; those two files are not downloaded yet.
+- **Slices.** `build_biomarker_slices.py` writes `ari_pr.owl`, `ari_chebi.owl`, `ari_hgnc.owl` and
+  `ari_loinc.owl` from the matches in `ari_biomarkers.owl`, so every external match has a label locally.
+  All four are empty until a concept links a term.
+- **Validator.** `validate_mappings.py` checks that each ARIB class has one kind and a deciding match,
+  that relation targets are of the right kind, that external terms are in their slice, and that each
+  entry links a concept of its kind by label lookup. It now reports 702 `biomarker-unmapped` warnings
+  (357 antibodies, 327 antigens, 18 tests): entries no concept holds yet. They are expected until the
+  review PRs land.
+- **Proposal and review.** `names.py` parses biomarker labels (antibody targets, isotypes, bundles,
+  families); `propose.py --kind {antibodies,antigens,tests}` writes a review table and the OWL with
+  every row applied, so the PR shows the result; `apply_review.py` later restores the two module files
+  from `main` and writes only the rows reviewers accepted or corrected.
+- **Review table for spreadsheets.** `depends` separates row ids with `;` (a spreadsheet read
+  `132,134` as a number), and the table survives a spreadsheet's tab-delimited UTF-8 save. A
+  corrected `link` is refused, as its entry's label would still name the old concept: reject it and
+  fix the entry in Protégé after the merge.
+- **Docs.** `notebook/biomarker-concepts/README.md` covers the sources, the review flow and table, and
+  adding relations in Protégé; the root README and `CLAUDE.md` name the four new slices.
+
+No concepts are added: the only change to `ari_biomarkers.owl` is its `owl:imports` of the four slices
+(with their `catalog-v001.xml` entries), so it stays empty of classes. The review PRs follow (`antibodies`, `antigens`,
+`tests`), the first after the app's linking change merges, so no curator save drops a new link.
+
+## biomarker-concepts-design
+
+Adds the design for Project 2 of the ontology modules work, biomarker concepts
+(`docs/superpowers/specs/2026-10-26-biomarker-concepts-design.md`). Curators want each
+autoantibody, antigen and clinical biomarker tied to a published ontology, its relatives across
+diseases visible in the editor, and links to body parts and symptoms. The design covers:
+- shared ARIB concepts in `ari_biomarkers.owl`, with nested isotypes and families;
+- HPO / Protein Ontology + HGNC / ChEBI / LOINC links through generated slices;
+- three relations authored in Protégé: `targetsAntigen`, `expressedIn` and `associatedSymptom`;
+- `sharedConcept` on every per-disease entry;
+- proposals reviewed in three PRs, each with a line-by-line accept/reject table;
+- rows in the editor that expand in place to show a marker's relatives.
+
+No ontology content changes yet.
+
 ## ontology-modules-split
 
 Splits `ontologies/ari_t1d.owl` into modules, one per domain, so a curator can import a published

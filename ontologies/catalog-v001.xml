@@ -6,4 +6,8 @@
     <uri name="http://www.aurint.org/ontologies/ari_biomarkers" uri="ari_biomarkers.owl"/>
     <uri name="http://www.aurint.org/ontologies/ari_uberon" uri="ari_uberon.owl"/>
     <uri name="http://www.aurint.org/ontologies/ari_symp" uri="ari_symp.owl"/>
+    <uri name="http://www.aurint.org/ontologies/ari_pr" uri="ari_pr.owl"/>
+    <uri name="http://www.aurint.org/ontologies/ari_chebi" uri="ari_chebi.owl"/>
+    <uri name="http://www.aurint.org/ontologies/ari_hgnc" uri="ari_hgnc.owl"/>
+    <uri name="http://www.aurint.org/ontologies/ari_loinc" uri="ari_loinc.owl"/>
 </catalog>

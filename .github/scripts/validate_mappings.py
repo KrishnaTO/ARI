@@ -8,9 +8,12 @@ the two files agree with each other, and that both agree with the stored
 cross-references in `ontologies/ari_disease.owl`. Also checks the ontology
 modules (core, disease, symptoms, anatomy, biomarkers) against each other: every
 Symptom individual's `sharedConcept` is the ARIS class its label names in
-`ontologies/ari_symptoms.owl`, only `ari_core.owl` declares properties, no
-subject is described in two modules, and every tissue class links an UBERON
-term or says why not.
+`ontologies/ari_symptoms.owl`, every live biomarker entry links the ARIB class
+in `ontologies/ari_biomarkers.owl` that its label names among the classes of its
+kind, every ARIB class has one kind, valid relation targets and its external
+terms in their slices, only `ari_core.owl` declares properties, no subject is
+described in two modules, and every tissue class links an UBERON term or says
+why not.
 
 Usage:
     python .github/scripts/validate_mappings.py                # audit everything
@@ -46,9 +49,21 @@ CORE_PATH = "ontologies/ari_core.owl"
 SYMPTOMS_PATH = "ontologies/ari_symptoms.owl"
 ANATOMY_PATH = "ontologies/ari_anatomy.owl"
 BIOMARKERS_PATH = "ontologies/ari_biomarkers.owl"
-# The modules curators edit. The generated slices (ari_symp.owl, ari_uberon.owl)
-# are copies of upstream releases, so nothing here holds them to ARI's rules.
+UBERON_PATH = "ontologies/ari_uberon.owl"
+# The modules curators edit. The generated slices (ari_symp.owl, ari_uberon.owl,
+# the biomarker slices) are copies of upstream releases, so nothing here holds
+# them to ARI's rules.
 ARI_OWNED = (CORE_PATH, ONTOLOGY_PATH, SYMPTOMS_PATH, ANATOMY_PATH, BIOMARKERS_PATH)
+# The slice that declares each external term a biomarker concept matches, by IRI
+# prefix. HPO terms are referenced with no slice, so nothing checks them.
+BIOMARKER_SLICES = {
+    "http://purl.obolibrary.org/obo/PR_": "ontologies/ari_pr.owl",
+    "http://purl.obolibrary.org/obo/CHEBI_": "ontologies/ari_chebi.owl",
+    "http://identifiers.org/hgnc/": "ontologies/ari_hgnc.owl",
+    "https://loinc.org/": "ontologies/ari_loinc.owl",
+}
+# The generated slices read only to resolve what an ARI module points at.
+GENERATED = (UBERON_PATH, *BIOMARKER_SLICES.values())
 # Curator-editable input to the editor app's cross-reference predictor: each row
 # names a synonym stored on an ARI disease that actually names a *different*
 # disease, so the predictor must not match on it. `ari.mis_curated_synonyms.tsv`
@@ -173,7 +188,8 @@ RDF = "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 RDF_TYPE = RDF + "type"
 RDFS_LABEL = "http://www.w3.org/2000/01/rdf-schema#label"
 RDFS_SUBCLASS_OF = "http://www.w3.org/2000/01/rdf-schema#subClassOf"
-SKOS_ALT_LABEL = "http://www.w3.org/2004/02/skos/core#altLabel"
+SKOS = "http://www.w3.org/2004/02/skos/core#"
+SKOS_ALT_LABEL = SKOS + "altLabel"
 OBOINOWL_ID = "http://www.geneontology.org/formats/oboInOwl#id"
 OWL = "http://www.w3.org/2002/07/owl#"
 OWL_CLASS = OWL + "Class"
@@ -181,11 +197,29 @@ PROPERTY_TYPES = {OWL + "AnnotationProperty", OWL + "ObjectProperty", OWL + "Dat
 XML_BASE = "http://www.w3.org/XML/1998/namespace base"
 SYMPTOM_CLASS = ARI_DISEASE_BASE + "Symptom"
 # A Symptom individual links the shared ARIS class its label names, or says with
-# ARI_NoConcept why it links none ("not a symptom", "no term", "not linked").
+# ARI_NoConcept why it links none ("not a symptom", "no term", "not linked"). A biomarker
+# concept adds "not a biomarker".
 SHARED_CONCEPT = ARI_DISEASE_BASE + "sharedConcept"
 NO_CONCEPT = ARI_DISEASE_BASE + "ARI_NoConcept"
-NO_CONCEPT_VALUES = ("not a symptom", "no term", "not linked")
+NO_CONCEPT_VALUES = ("not a symptom", "no term", "not linked", "not a biomarker")
 UBERON = "http://purl.obolibrary.org/obo/UBERON_"
+OBSOLETE = ARI_DISEASE_BASE + "ARI_Obsolete"
+# A biomarker concept is an ARIB class under one of these core classes, directly
+# or through other ARIB classes. Its kind is the name the scripts and the app use.
+# A per-disease biomarker entry has one of them as its rdf:type.
+ARIB = "http://www.aurint.org/ontologies/ari-biomarkers#ARIB_"
+BIOMARKER_KINDS = {
+    ARI_DISEASE_BASE + "Autoantibody": "antibodies",
+    ARI_DISEASE_BASE + "Antigen": "antigens",
+    ARI_DISEASE_BASE + "ClinicalBiomarker": "tests",
+}
+TARGETS_ANTIGEN = ARI_DISEASE_BASE + "targetsAntigen"
+EXPRESSED_IN = ARI_DISEASE_BASE + "expressedIn"
+ASSOCIATED_SYMPTOM = ARI_DISEASE_BASE + "associatedSymptom"
+# The matches that settle a concept's external term. relatedMatch (a protein's
+# HGNC gene) points at a relative, not the concept itself.
+DECIDING_MATCHES = (SKOS + "exactMatch", SKOS + "closeMatch", SKOS + "broadMatch")
+MATCHES = (*DECIDING_MATCHES, SKOS + "narrowMatch", SKOS + "relatedMatch")
 
 
 @dataclass(frozen=True)
@@ -1221,9 +1255,10 @@ def filter_to_changes(findings: list[Finding], ref: str) -> list[Finding]:
     re-laying-out the file changes nothing here.
 
     One exception: when the symptoms module differs from `ref`, every symptom
-    link finding is kept. A label or altLabel moving between classes changes
-    what every link should be without touching a disease line, so the lines
-    cannot say which findings the branch caused.
+    link finding is kept, and likewise every biomarker link finding when the
+    biomarkers module differs. A label or altLabel moving between classes
+    changes what every link should be without touching a disease line, so the
+    lines cannot say which findings the branch caused.
     """
     baselines: dict[str, set | None] = {}
     currents: dict[str, list | dict] = {}
@@ -1258,6 +1293,8 @@ def filter_to_changes(findings: list[Finding], ref: str) -> list[Finding]:
             kept.append(finding)
     if baseline_text(ref, SYMPTOMS_PATH) != current_text(SYMPTOMS_PATH):
         kept += [f for f in findings if f not in kept and is_symptom_link_finding(f)]
+    if baseline_text(ref, BIOMARKERS_PATH) != current_text(BIOMARKERS_PATH):
+        kept += [f for f in findings if f not in kept and is_biomarker_link_finding(f)]
     return kept
 
 
@@ -1267,6 +1304,20 @@ def is_symptom_link_finding(finding: Finding) -> bool:
     return finding.code.startswith("symptom-concept-") or finding.code in (
         "symptom-decided-and-linked",
         "symptom-unmapped",
+        "shared-concept-target-missing",
+        "concept-label-ambiguous",
+        "concept-id-repeated",
+    )
+
+
+def is_biomarker_link_finding(finding: Finding) -> bool:
+    """A finding that holds a biomarker entry's link, or a concept's place,
+    up against the biomarkers module, or a label or id it gives to two classes.
+    A relation or an external match sits on its own line, so those are left to
+    the line comparison."""
+    if finding.code in ("biomarker-relation-target", "biomarker-external-missing"):
+        return False
+    return finding.code.startswith("biomarker-") or finding.code in (
         "shared-concept-target-missing",
         "concept-label-ambiguous",
         "concept-id-repeated",
@@ -1352,31 +1403,43 @@ def concept_labels(path: str, text: str, report: Report) -> dict[str, str]:
     This is the lookup a Symptom individual's label goes through, so a string
     that names two classes would link whichever came first. The same
     `oboInOwl:id` on two classes is the same fault one level up.
+    """
+    classes = [entity for entity in read_entities(text) if OWL_CLASS in entity.types]
+    check_repeated_ids(path, classes, report)
+    return label_lookup(path, classes, report)
 
-    Both faults are reported on the line of every class that carries the
-    string: the `--since` gate keeps a finding only when its line changed, and
-    the branch may have added the string to either class.
+
+def label_lookup(path: str, classes: list[Entity], report: Report) -> dict[str, str]:
+    """Label or alternative label -> the one of `classes` that carries it.
+
+    A string two of them carry is reported on the line of every class that
+    carries it: the `--since` gate keeps a finding only when its line changed,
+    and the branch may have added the string to either class.
     """
     label_lines: dict[str, list] = collections.defaultdict(list)  # value -> [(class, line)]
-    id_lines: dict[str, list] = collections.defaultdict(list)
-    for entity in read_entities(text):
-        if OWL_CLASS not in entity.types:
-            continue
+    for entity in classes:
         for prop, value, line in entity.statements:
             if prop in (RDFS_LABEL, SKOS_ALT_LABEL):
                 label_lines[value].append((entity.iri, line))
-            elif prop == OBOINOWL_ID:
-                id_lines[value].append((entity.iri, line))
     for value, carriers in label_lines.items():
         owners = list(dict.fromkeys(iri for iri, _ in carriers))
         if len(owners) > 1:
             for _, line in carriers:
                 report.error(
                     "concept-label-ambiguous", path, line,
-                    f"{value!r} is a label of {', '.join(owners)}, so a Symptom with that label "
+                    f"{value!r} is a label of {', '.join(owners)}, so an entry with that label "
                     f"cannot tell which one it means. Remove it from all but one of them in "
                     f"{path}, or merge the classes.",
                 )
+    return {value: carriers[0][0] for value, carriers in label_lines.items()}
+
+
+def check_repeated_ids(path: str, classes: list[Entity], report: Report) -> None:
+    """No `oboInOwl:id` is on two of `classes`; reported on each class's id line."""
+    id_lines: dict[str, list] = collections.defaultdict(list)
+    for entity in classes:
+        for value, line in entity.values(OBOINOWL_ID):
+            id_lines[value].append((entity.iri, line))
     for value, carriers in id_lines.items():
         owners = list(dict.fromkeys(iri for iri, _ in carriers))
         if len(owners) > 1:
@@ -1386,79 +1449,97 @@ def concept_labels(path: str, text: str, report: Report) -> dict[str, str]:
                     f"oboInOwl:id {value!r} is on {', '.join(owners)}. Give each class its own "
                     f"id in {path}.",
                 )
-    return {value: carriers[0][0] for value, carriers in label_lines.items()}
+
+
+def entity_label(entity: Entity) -> tuple:
+    """(label, line) of an individual: its last rdfs:label, or none on its own line."""
+    names = entity.values(RDFS_LABEL)
+    return names[-1] if names else (None, entity.line)
 
 
 def check_symptom_concepts(disease_text: str, labels: dict[str, str], report: Report) -> None:
     """Every Symptom individual links the shared concept its label names.
 
-    The label is the key: a class in ari_symptoms.owl carries the label or an
-    `skos:altLabel`, and sharedConcept is that lookup applied to each
-    per-disease individual. `ARI_NoConcept` is the curator's decision that a
-    string links nothing. A label with no class yet, or one that names a class
-    and is not linked yet, is a warning: the curator added a symptom and the
-    concept module catches up. A link that disagrees with the label is an error.
-
-    Where a finding sits decides whether the `--since` gate sees it, so it sits
-    on every statement that could have caused it: a mismatch on the label line
-    (a rename leaves the link stale) and on the link line (a repoint); repeated
-    links on each link line; a decision that clashes with a link on the
-    ARI_NoConcept line and each link line. A label with no class or no link
-    sits on the label line alone, as the label is what has no match.
+    A Symptom is one symptom, so repeated links are an error on each link line;
+    otherwise `check_label_link` holds its link to the lookup in ari_symptoms.owl.
     """
     for entity in read_entities(disease_text):
         if SYMPTOM_CLASS not in entity.types:
             continue
-        names = entity.values(RDFS_LABEL)
-        label, line = names[-1] if names else (None, entity.line)
         links = entity.values(SHARED_CONCEPT)
-        concepts = [value for value, _ in links]
-        decided = entity.values(NO_CONCEPT)
-        if len(concepts) > 1:
+        if len(links) > 1:
+            label, _ = entity_label(entity)
             for _, link_line in links:
                 report.error(
                     "symptom-concept-repeated", ONTOLOGY_PATH, link_line,
-                    f"Symptom {label!r} has {len(concepts)} sharedConcept values; it is one "
+                    f"Symptom {label!r} has {len(links)} sharedConcept values; it is one "
                     "symptom. Keep the one its label names.",
                 )
             continue
-        if decided and concepts:
-            for clash_line in [decided[0][1], links[0][1]]:
-                report.error(
-                    "symptom-decided-and-linked", ONTOLOGY_PATH, clash_line,
-                    f"Symptom {label!r} has both ARI_NoConcept ({decided[0][0]!r}) and "
-                    f"sharedConcept {concepts[0]}. Remove whichever is wrong: the link if it is "
-                    "not a symptom, ARI_NoConcept if it is.",
-                )
-            continue
-        if decided:
-            continue
-        have = concepts[0] if concepts else None
-        want = labels.get(label)
-        if have is not None and have == want:
-            continue
-        fix = (f"Add the label or an skos:altLabel to the right class in {SYMPTOMS_PATH}, "
-               "or set ARI_NoConcept on the symptom.")
-        if want is None:
-            report.warning(
-                "symptom-unmapped", ONTOLOGY_PATH, line,
-                f"Symptom {label!r} is not a label of any class in {SYMPTOMS_PATH}"
-                + (f", so its sharedConcept {have} is left from a former label" if have else "")
-                + f". {fix}",
+        check_label_link(entity, "Symptom", "symptom", SYMPTOMS_PATH, labels, report)
+
+
+def check_label_link(
+    entity: Entity, noun: str, code: str, module: str, labels: dict[str, str], report: Report
+) -> None:
+    """An individual with at most one sharedConcept links the class its label names.
+
+    The label is the key: a class in `module` carries the label or an
+    `skos:altLabel`, and sharedConcept is that lookup applied to each
+    per-disease individual. `ARI_NoConcept` is the curator's decision that a
+    string links nothing. A label with no class yet, or one that names a class
+    and is not linked yet, is a warning: the curator added an entry and the
+    concept module catches up. A link that disagrees with the label is an error.
+    `noun` names the individual in a finding, and `code` prefixes the finding
+    codes and is what ARI_NoConcept says it is not.
+
+    Where a finding sits decides whether the `--since` gate sees it, so it sits
+    on every statement that could have caused it: a mismatch on the label line
+    (a rename leaves the link stale) and on the link line (a repoint); a
+    decision that clashes with a link on the ARI_NoConcept line and the link
+    line. A label with no class or no link sits on the label line alone, as the
+    label is what has no match.
+    """
+    label, line = entity_label(entity)
+    links = entity.values(SHARED_CONCEPT)
+    decided = entity.values(NO_CONCEPT)
+    if decided and links:
+        for clash_line in [decided[0][1], links[0][1]]:
+            report.error(
+                f"{code}-decided-and-linked", ONTOLOGY_PATH, clash_line,
+                f"{noun} {label!r} has both ARI_NoConcept ({decided[0][0]!r}) and "
+                f"sharedConcept {links[0][0]}. Remove whichever is wrong: the link if it is "
+                f"not a {code}, ARI_NoConcept if it is.",
             )
-        elif have is None:
-            report.warning(
-                "symptom-concept-missing", ONTOLOGY_PATH, line,
-                f"Symptom {label!r} names {want} in {SYMPTOMS_PATH} but has no sharedConcept. "
-                "Link it to that class.",
+        return
+    if decided:
+        return
+    have = links[0][0] if links else None
+    want = labels.get(label)
+    if have is not None and have == want:
+        return
+    fix = (f"Add the label or an skos:altLabel to the right class in {module}, "
+           f"or set ARI_NoConcept on the {code}.")
+    if want is None:
+        report.warning(
+            f"{code}-unmapped", ONTOLOGY_PATH, line,
+            f"{noun} {label!r} is not a label of any class in {module}"
+            + (f", so its sharedConcept {have} is left from a former label" if have else "")
+            + f". {fix}",
+        )
+    elif have is None:
+        report.warning(
+            f"{code}-concept-missing", ONTOLOGY_PATH, line,
+            f"{noun} {label!r} names {want} in {module} but has no sharedConcept. "
+            "Link it to that class.",
+        )
+    else:
+        for mismatch_line in [line, links[0][1]]:
+            report.error(
+                f"{code}-concept-mismatch", ONTOLOGY_PATH, mismatch_line,
+                f"{noun} {label!r} links {have}, but {module} gives that label to "
+                f"{want}. Link {want}, or fix the label: {fix[0].lower() + fix[1:]}",
             )
-        else:
-            for mismatch_line in [line, links[0][1]]:
-                report.error(
-                    "symptom-concept-mismatch", ONTOLOGY_PATH, mismatch_line,
-                    f"Symptom {label!r} links {have}, but {SYMPTOMS_PATH} gives that label to "
-                    f"{want}. Link {want}, or fix the label: {fix[0].lower() + fix[1:]}",
-                )
 
 
 def check_shared_concept_targets(disease_text: str, concept_iris: set[str], report: Report) -> None:
@@ -1531,7 +1612,7 @@ def check_tissue_links(texts: dict[str, str], report: Report) -> None:
 
 
 def check_no_concept_values(texts: dict[str, str], report: Report) -> None:
-    """ARI_NoConcept holds one of its three decisions, spelled exactly.
+    """ARI_NoConcept holds one of its decisions, spelled exactly.
 
     The app, the reports and the checks above compare the value as a string, so
     a variant spelling reads as a decision nobody can act on.
@@ -1547,10 +1628,226 @@ def check_no_concept_values(texts: dict[str, str], report: Report) -> None:
                     )
 
 
+def declared_classes(text: str) -> set[str]:
+    """IRI of every owl:Class a module declares."""
+    return {entity.iri for entity in read_entities(text) if OWL_CLASS in entity.types}
+
+
+def concept_iris(texts: dict[str, str]) -> set[str]:
+    """Every class a sharedConcept may point at: those of the concept modules."""
+    return set().union(*(declared_classes(texts[path])
+                         for path in (SYMPTOMS_PATH, ANATOMY_PATH, BIOMARKERS_PATH)))
+
+
+def biomarker_classes(text: str) -> dict[str, Entity]:
+    """The ARIB classes of ari_biomarkers.owl, by IRI."""
+    return {entity.iri: entity for entity in read_entities(text)
+            if OWL_CLASS in entity.types and entity.iri.startswith(ARIB)}
+
+
+def arib_ancestors(iri: str, classes: dict[str, Entity]) -> set[str]:
+    """The ARIB classes above `iri` through named rdfs:subClassOf parents."""
+    seen: set[str] = set()
+    stack = [iri]
+    while stack:
+        for parent, _ in classes[stack.pop()].values(RDFS_SUBCLASS_OF):
+            if parent in classes and parent not in seen:
+                seen.add(parent)
+                stack.append(parent)
+    seen.discard(iri)
+    return seen
+
+
+def reached_kinds(iri: str, classes: dict[str, Entity]) -> set[str]:
+    """The kinds of the core classes `iri` is under, directly or through ARIB classes."""
+    return {
+        BIOMARKER_KINDS[parent]
+        for owner in {iri} | arib_ancestors(iri, classes)
+        for parent, _ in classes[owner].values(RDFS_SUBCLASS_OF)
+        if parent in BIOMARKER_KINDS
+    }
+
+
+def biomarker_kinds(text: str) -> dict[str, str]:
+    """ARIB class -> its kind, for every class under exactly one core kind."""
+    classes = biomarker_classes(text)
+    kinds = {}
+    for iri in classes:
+        reached = reached_kinds(iri, classes)
+        if len(reached) == 1:
+            kinds[iri] = reached.pop()
+    return kinds
+
+
+def biomarker_labels(text: str, report: Report) -> dict[str, dict[str, str]]:
+    """Kind -> {label or altLabel: ARIB class of that kind}.
+
+    An entry's label is looked up only among the concepts of its own kind, so
+    an antibody and its antigen may share a name, and two concepts of one kind
+    may not. An `oboInOwl:id` is unique across every ARIB class.
+    """
+    classes = biomarker_classes(text)
+    kinds = biomarker_kinds(text)
+    check_repeated_ids(BIOMARKERS_PATH, list(classes.values()), report)
+    return {
+        kind: label_lookup(
+            BIOMARKERS_PATH, [entity for iri, entity in classes.items() if kinds.get(iri) == kind],
+            report,
+        )
+        for kind in BIOMARKER_KINDS.values()
+    }
+
+
+def check_biomarker_hierarchy(text: str, kinds: dict[str, str], report: Report) -> None:
+    """Every ARIB class has one kind and an external term, or says it has none.
+
+    A class reaching no core class, or two, has no kind for an entry to be
+    checked against; the error sits on each rdfs:subClassOf line, as a parent is
+    what put it there (on the class line when it has none). A class of one kind
+    has as parents only its core class and ARIB classes of that kind; any other
+    parent (a PR term, say) is the same error on that parent's line. A class is
+    decided when it or an ARIB class above it has an exact, close or broad
+    match, or it carries ARI_NoConcept: a child without its own term is covered
+    by its parent's. An undecided class is a warning on its class line, as for
+    tissues.
+    """
+    classes = biomarker_classes(text)
+    core_class = {kind: iri for iri, kind in BIOMARKER_KINDS.items()}
+    for iri, entity in classes.items():
+        reached = reached_kinds(iri, classes)
+        if len(reached) != 1:
+            parents = entity.values(RDFS_SUBCLASS_OF)
+            for _, line in parents or [(iri, entity.line)]:
+                report.error(
+                    "biomarker-concept-kind", BIOMARKERS_PATH, line,
+                    f"{iri} is under "
+                    + (" and ".join(sorted(reached)) if reached else "no biomarker kind")
+                    + ". Make it a subclass of exactly one of Autoantibody, Antigen and "
+                    "ClinicalBiomarker, or of an ARIB class of that kind.",
+                )
+        else:
+            kind = kinds[iri]
+            for parent, line in entity.values(RDFS_SUBCLASS_OF):
+                if parent != core_class[kind] and kinds.get(parent) != kind:
+                    report.error(
+                        "biomarker-concept-kind", BIOMARKERS_PATH, line,
+                        f"{iri} is in {kind} and under {parent}, which is neither "
+                        f"{core_class[kind][len(ARI_DISEASE_BASE):]} nor an ARIB class of {kind}. "
+                        "Remove that parent; an external term goes in a skos match.",
+                    )
+        matched = any(
+            classes[owner].values(prop)
+            for owner in {iri} | arib_ancestors(iri, classes)
+            for prop in DECIDING_MATCHES
+        )
+        if not matched and not entity.values(NO_CONCEPT):
+            report.warning(
+                "biomarker-concept-unlinked", BIOMARKERS_PATH, entity.line,
+                f"Biomarker class {iri} has no skos:exactMatch, closeMatch or broadMatch, none "
+                f"on a class above it, and no ARI_NoConcept. Add its external term in "
+                f"{BIOMARKERS_PATH}, or set ARI_NoConcept to `no term`.",
+            )
+
+
+def check_biomarker_targets(texts: dict[str, str], kinds: dict[str, str], report: Report) -> None:
+    """Every relation and external match on an ARIB class points at something there.
+
+    `targetsAntigen` goes from an antibody concept to an antigen concept,
+    `expressedIn` to an anatomy class or an UBERON term, `associatedSymptom` to
+    an ARIS class. A match to a PR, ChEBI, HGNC or LOINC term needs that term in
+    its generated slice, or the slice is stale and the term has no label. Each
+    finding sits on the statement that points.
+    """
+    body_parts = declared_classes(texts[ANATOMY_PATH]) | declared_classes(texts[UBERON_PATH])
+    targets = {
+        TARGETS_ANTIGEN: ({iri for iri, kind in kinds.items() if kind == "antigens"},
+                          f"an antigens class in {BIOMARKERS_PATH}"),
+        EXPRESSED_IN: (body_parts, f"a class in {ANATOMY_PATH} or {UBERON_PATH}"),
+        ASSOCIATED_SYMPTOM: (declared_classes(texts[SYMPTOMS_PATH]),
+                             f"an ARIS class in {SYMPTOMS_PATH}"),
+    }
+    sliced = {prefix: declared_classes(texts[path]) for prefix, path in BIOMARKER_SLICES.items()}
+    for entity in biomarker_classes(texts[BIOMARKERS_PATH]).values():
+        if kinds.get(entity.iri) != "antibodies":
+            for _, line in entity.values(TARGETS_ANTIGEN):
+                report.error(
+                    "biomarker-relation-target", BIOMARKERS_PATH, line,
+                    f"{entity.iri} has targetsAntigen, but it is not an antibodies class; "
+                    "targetsAntigen goes from an antibody concept. Move it to the antibody, or remove it.",
+                )
+        for prop, (allowed, wanted) in targets.items():
+            for target, line in entity.values(prop):
+                if target not in allowed:
+                    report.error(
+                        "biomarker-relation-target", BIOMARKERS_PATH, line,
+                        f"{entity.iri} {prop[len(ARI_DISEASE_BASE):]} {target}, which is not "
+                        f"{wanted}. Point it at one, or remove it.",
+                    )
+        for prop in MATCHES:
+            for term, line in entity.values(prop):
+                for prefix, declared in sliced.items():
+                    if term.startswith(prefix) and term not in declared:
+                        report.error(
+                            "biomarker-external-missing", BIOMARKERS_PATH, line,
+                            f"{entity.iri} matches {term}, which is not in "
+                            f"{BIOMARKER_SLICES[prefix]}. Regenerate the slice.",
+                        )
+
+
+def check_biomarker_entries(
+    disease_text: str,
+    kinds: dict[str, str],
+    labels: dict[str, dict[str, str]],
+    concepts: set[str],
+    report: Report,
+) -> None:
+    """Every live biomarker entry links concepts of its kind, by its label.
+
+    An entry's kind is its rdf:type: Autoantibody, Antigen or ClinicalBiomarker.
+    Each sharedConcept must be an ARIB class of that kind; one pointing at no
+    class at all is `shared-concept-target-missing`'s. An entry with several
+    distinct links is a bundle naming several markers, so no single lookup holds
+    for it; one with at most one (a repeated link counts once) goes through
+    `check_label_link`, looking its label up among its own kind's concepts.
+    Obsolete entries are left alone.
+    """
+    for entity in read_entities(disease_text):
+        core = sorted(entity.types & BIOMARKER_KINDS.keys())
+        if not core or any(value == "true" for value, _ in entity.values(OBSOLETE)):
+            continue
+        kind = BIOMARKER_KINDS[core[0]]
+        links = entity.values(SHARED_CONCEPT)
+        for target, line in links:
+            if target in concepts and kinds.get(target) != kind:
+                report.error(
+                    "biomarker-link-wrong-kind", ONTOLOGY_PATH, line,
+                    f"{entity.iri} is in {kind} but links {target}, which is "
+                    + (f"in {kinds[target]}" if target in kinds else "not a biomarker concept")
+                    + f". Link a {kind} class in {BIOMARKERS_PATH}.",
+                )
+        if len({target for target, _ in links}) > 1:
+            continue
+        check_label_link(
+            entity, core[0][len(ARI_DISEASE_BASE):], "biomarker",
+            f"{BIOMARKERS_PATH} ({kind})", labels[kind], report,
+        )
+
+
+def check_biomarker_concepts(texts: dict[str, str], report: Report) -> None:
+    """The biomarker concepts in ari_biomarkers.owl, and the entries that link them."""
+    text = texts[BIOMARKERS_PATH]
+    kinds = biomarker_kinds(text)
+    labels = biomarker_labels(text, report)
+    check_biomarker_hierarchy(text, kinds, report)
+    check_biomarker_targets(texts, kinds, report)
+    check_biomarker_entries(texts[ONTOLOGY_PATH], kinds, labels, concept_iris(texts), report)
+
+
 def load_modules(report: Report) -> dict[str, str] | None:
-    """Text of every ARI-owned module, or None when one cannot be read as XML."""
+    """Text of every ARI-owned module and generated slice, or None when one
+    cannot be read as XML."""
     texts: dict[str, str] = {}
-    for path in ARI_OWNED:
+    for path in (*ARI_OWNED, *GENERATED):
         text = read_text(path, report)
         if text is None:
             return None
@@ -1566,14 +1863,9 @@ def load_modules(report: Report) -> dict[str, str] | None:
 def check_modules(texts: dict[str, str], report: Report) -> None:
     """The checks that read the modules against each other."""
     labels = concept_labels(SYMPTOMS_PATH, texts[SYMPTOMS_PATH], report)
-    concept_iris = {
-        entity.iri
-        for path in (SYMPTOMS_PATH, ANATOMY_PATH, BIOMARKERS_PATH)
-        for entity in read_entities(texts[path])
-        if OWL_CLASS in entity.types
-    }
     check_symptom_concepts(texts[ONTOLOGY_PATH], labels, report)
-    check_shared_concept_targets(texts[ONTOLOGY_PATH], concept_iris, report)
+    check_shared_concept_targets(texts[ONTOLOGY_PATH], concept_iris(texts), report)
+    check_biomarker_concepts(texts, report)
     check_property_declarations(texts, report)
     check_module_subjects(texts, report)
     check_tissue_links(texts, report)
