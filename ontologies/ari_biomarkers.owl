@@ -19,6 +19,2697 @@
         <owl:imports rdf:resource="http://www.aurint.org/ontologies/ari_pr"/>
         <rdfs:comment>Shared ARI biomarker concepts: ARIB classes under Autoantibody, Antigen and ClinicalBiomarker. Empty until those concepts are added.</rdfs:comment>
     </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000001 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000001">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000238"/>
+        <oboInOwl:id>ARIB:0000001</oboInOwl:id>
+        <rdfs:label>Anti-21-hydroxylase (CYP21A2) autoantibodies</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0034071"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000002 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000002">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000002</oboInOwl:id>
+        <rdfs:label>Anti-BP180 (type XVII collagen, NC16A) antibody</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_4000020"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000003 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000003">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000238"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000003</oboInOwl:id>
+        <rdfs:label>anti-erythrocyte Coombs</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000004 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000004">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000238"/>
+        <oboInOwl:id>ARIB:0000004</oboInOwl:id>
+        <rdfs:label>Anti-GAD65 autoantibodies</rdfs:label>
+        <skos:altLabel>Anti-GAD65</skos:altLabel>
+        <skos:altLabel>Anti-GAD65 (GADA)</skos:altLabel>
+        <skos:altLabel>Anti-glutamic acid decarboxylase 65 (anti-GAD65) autoantibodies</skos:altLabel>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_5000011"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000005 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000005">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000005</oboInOwl:id>
+        <rdfs:label>Anti-gliadin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000006 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000006">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000149"/>
+        <oboInOwl:id>ARIB:0000006</oboInOwl:id>
+        <rdfs:label>anti-HNA-1a</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000007 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000007">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000149"/>
+        <oboInOwl:id>ARIB:0000007</oboInOwl:id>
+        <rdfs:label>anti-HNA-1b</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000008 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000008">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000149"/>
+        <oboInOwl:id>ARIB:0000008</oboInOwl:id>
+        <rdfs:label>anti-HNA-2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000009 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000009">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000234"/>
+        <oboInOwl:id>ARIB:0000009</oboInOwl:id>
+        <rdfs:label>Anti-Jo-1 autoantibodies</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0034152"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000010 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000010">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000234"/>
+        <oboInOwl:id>ARIB:0000010</oboInOwl:id>
+        <rdfs:label>Anti-MDA5 autoantibodies</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0033033"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000011 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000011">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000238"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000011</oboInOwl:id>
+        <rdfs:label>anti-myositis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000012 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000012">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000012</oboInOwl:id>
+        <rdfs:label>Anti-nucleosome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000013 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000013">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000238"/>
+        <oboInOwl:id>ARIB:0000013</oboInOwl:id>
+        <rdfs:label>Anti-platelet autoantibodies (anti-GPIIb/IIIa)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0003454"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000014 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000014">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000207"/>
+        <oboInOwl:id>ARIB:0000014</oboInOwl:id>
+        <rdfs:label>Anti-proteinase 3 (PR3-ANCA)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0033557"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000015 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000015">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000165"/>
+        <oboInOwl:id>ARIB:0000015</oboInOwl:id>
+        <rdfs:label>Anti-recoverin autoantibodies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000016 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000016">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000016</oboInOwl:id>
+        <rdfs:label>Anti-Ro52</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0034093"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000017 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000017">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000017</oboInOwl:id>
+        <rdfs:label>Anti-Ro60 (SSA) autoantibodies</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0034144"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000018 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000018">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000165"/>
+        <oboInOwl:id>ARIB:0000018</oboInOwl:id>
+        <rdfs:label>Anti-S-antigen autoantibodies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000019 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000019">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000019</oboInOwl:id>
+        <rdfs:label>anti-SOX10 autoantibodies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000020 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000020">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000020</oboInOwl:id>
+        <rdfs:label>Anti-SOX9</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000021 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000021">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000021</oboInOwl:id>
+        <rdfs:label>anti-TG6 autoantibodies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000022 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000022">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000238"/>
+        <oboInOwl:id>ARIB:0000022</oboInOwl:id>
+        <rdfs:label>anti-thyroid</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0430050"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000023 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000023">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000238"/>
+        <oboInOwl:id>ARIB:0000023</oboInOwl:id>
+        <rdfs:label>Anti-thyroid peroxidase (anti-TPO) autoantibodies</rdfs:label>
+        <skos:altLabel>thyroid peroxidase</skos:altLabel>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0025379"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000024 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000024">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000024</oboInOwl:id>
+        <rdfs:label>Anti-TRP-1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000025 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000025">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000139"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000025</oboInOwl:id>
+        <rdfs:label>anti-TRP-1/TRP-2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000026 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000026">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000026</oboInOwl:id>
+        <rdfs:label>anti-TRP-2 autoantibodies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000027 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000027">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000139"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000027</oboInOwl:id>
+        <rdfs:label>anti-tyrosinase family</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000028 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000028">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000028</oboInOwl:id>
+        <rdfs:label>Anti-U1-RNP autoantibodies</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0033028"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000029 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000029">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000029</oboInOwl:id>
+        <rdfs:label>autoantibodies against TG</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000030 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000030">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000069"/>
+        <oboInOwl:id>ARIB:0000030</oboInOwl:id>
+        <rdfs:label>CENP-A</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0034078"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000031 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000031">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000069"/>
+        <oboInOwl:id>ARIB:0000031</oboInOwl:id>
+        <rdfs:label>CENP-C</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000032 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000032">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000032</oboInOwl:id>
+        <rdfs:label>high-affinity autoantibodies to MBP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000033 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000033">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000033</oboInOwl:id>
+        <rdfs:label>IgA anti-endomysium antibodies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000034 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000034">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000034</oboInOwl:id>
+        <rdfs:label>IgA antibodies to transglutaminse 2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000035 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000035">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000035</oboInOwl:id>
+        <rdfs:label>IgG gammopathy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000036 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000036">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000036</oboInOwl:id>
+        <rdfs:label>Monoclonal IgM</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000037 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000037">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000207"/>
+        <oboInOwl:id>ARIB:0000037</oboInOwl:id>
+        <rdfs:label>MPO-ANCA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000038 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000038">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000038</oboInOwl:id>
+        <rdfs:label>Thyrotropin receptor (TSHR)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0034189"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000039 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000039">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000039</oboInOwl:id>
+        <rdfs:label>Acetylcholine receptors</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000040 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000040">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000040</oboInOwl:id>
+        <rdfs:label>adrenal cortical antibodies—ACA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000041 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000041">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000041</oboInOwl:id>
+        <rdfs:label>Anti MOG</rdfs:label>
+        <skos:altLabel>Anti-MOG autoantibodies</skos:altLabel>
+        <skos:altLabel>MOG</skos:altLabel>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0032492"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000042 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000042">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000042</oboInOwl:id>
+        <rdfs:label>Anti-17α-hydroxylase (CYP17A1) autoantibodies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000043 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000043">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000043</oboInOwl:id>
+        <rdfs:label>Anti-ACSL5 (Acyl-CoA Synthetase Long Chain Family Member 5)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000044 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000044">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000044</oboInOwl:id>
+        <rdfs:label>Anti-ADAMTS13 antibody</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_6000462"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000045 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000045">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000044"/>
+        <oboInOwl:id>ARIB:0000045</oboInOwl:id>
+        <rdfs:label>Anti-ADAMTS13 neutralizing IgG autoantibodies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000046 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000046">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000046</oboInOwl:id>
+        <rdfs:label>anti-AE75</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000047 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000047">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000047</oboInOwl:id>
+        <rdfs:label>Anti-amino-terminal of α-enolase (anti-NAE) autoantibodies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000048 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000048">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000048</oboInOwl:id>
+        <rdfs:label>Anti-amphiphysin autoantibodies</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_5000002"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000049 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000049">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000049</oboInOwl:id>
+        <rdfs:label>Anti-ANKS4B (Ankyrin Repeat And Sterile Alpha Motif Domain Containing 4)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000050 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000050">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000050</oboInOwl:id>
+        <rdfs:label>Anti-annexin A11 autoantibodies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000051 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000051">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000051</oboInOwl:id>
+        <rdfs:label>Anti-annexin V autoantibodies</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0034101"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000052 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000052">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000212"/>
+        <oboInOwl:id>ARIB:0000052</oboInOwl:id>
+        <rdfs:label>Anti-aquaporin-4 (anti-AQP4) IgG</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000053 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000053">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000053</oboInOwl:id>
+        <rdfs:label>Anti-BP180 (LAD-1 / 97-kDa) antibody</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_4000020"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000054 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000054">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000053"/>
+        <oboInOwl:id>ARIB:0000054</oboInOwl:id>
+        <rdfs:label>Anti-BP180 (LAD-1 / 97-kDa) IgA autoantibodies</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_4000027"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000055 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000055">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000002"/>
+        <oboInOwl:id>ARIB:0000055</oboInOwl:id>
+        <rdfs:label>Anti-BP180 (type XVII collagen, NC16A) IgG autoantibodies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000056 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000056">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000056</oboInOwl:id>
+        <rdfs:label>Anti-C1-INH autoantibodies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000057 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000057">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000057</oboInOwl:id>
+        <rdfs:label>Anti-C1q autoantibodies</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0034077"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000058 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000058">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000058</oboInOwl:id>
+        <rdfs:label>Anti-calgranulin C (S100A12) autoantibodies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000059 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000059">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000059</oboInOwl:id>
+        <rdfs:label>Anti-carbonic anhydrase II autoantibodies</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0033394"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000060 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000060">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000060</oboInOwl:id>
+        <rdfs:label>Anti-cardiac myosin autoantibodies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000061 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000061">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000061</oboInOwl:id>
+        <rdfs:label>Anti-cardiac myosin cross-reactive antibodies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000062 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000062">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000060"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000062</oboInOwl:id>
+        <rdfs:label>Anti-cardiac myosin IgM</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000063 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000063">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000063</oboInOwl:id>
+        <rdfs:label>Anti-Caspr1 autoantibodies</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0034138"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000064 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000064">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000063"/>
+        <oboInOwl:id>ARIB:0000064</oboInOwl:id>
+        <rdfs:label>Anti-Caspr1 IgG4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000065 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000065">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000065</oboInOwl:id>
+        <rdfs:label>Anti-CASPR2 autoantibodies</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_5000005"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000066 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000066">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000066</oboInOwl:id>
+        <rdfs:label>Anti-CaSR autoantibodies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000067 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000067">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000067</oboInOwl:id>
+        <rdfs:label>Anti-CBir1 flagellin autoantibodies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000068 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000068">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000068</oboInOwl:id>
+        <rdfs:label>Anti-CCP autoantibodies</rdfs:label>
+        <skos:altLabel>Anti-citrullinated protein antibodies (ACPA / anti-CCP)</skos:altLabel>
+        <skos:altLabel>Anti-cyclic citrullinated peptide (anti-CCP)</skos:altLabel>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0034092"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000069 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000069">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000069</oboInOwl:id>
+        <rdfs:label>Anti-centromere antibodies (ACA)</rdfs:label>
+        <skos:altLabel>Anti-centromere antibodies (ACA / CENP-B)</skos:altLabel>
+        <skos:altLabel>Anti-centromere antibodies (ACA: CENP-A, CENP-B, CENP-C)</skos:altLabel>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0030873"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000070 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000070">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000070</oboInOwl:id>
+        <rdfs:label>Anti-cN-1A (cytosolic 5&apos;-nucleotidase 1A) autoantibodies</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0034153"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000071 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000071">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000071</oboInOwl:id>
+        <rdfs:label>Anti-CNTN1 autoantibodies</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0034137"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000072 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000072">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000071"/>
+        <oboInOwl:id>ARIB:0000072</oboInOwl:id>
+        <rdfs:label>Anti-CNTN1 IgG4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000073 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000073">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000073</oboInOwl:id>
+        <rdfs:label>Anti-complement factor H (CFH) autoantibodies</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0034001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000074 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000074">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000074</oboInOwl:id>
+        <rdfs:label>Anti-corneal epithelial autoantibodies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000075 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000075">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000075</oboInOwl:id>
+        <rdfs:label>Anti-CYP11A1 autoantibodies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000076 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000076">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000076</oboInOwl:id>
+        <rdfs:label>Anti-desmoglein 1 autoantibodies</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_4000013"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000077 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000077">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000077</oboInOwl:id>
+        <rdfs:label>Anti-desmoglein 3 autoantibodies</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_4000014"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000078 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000078">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000078</oboInOwl:id>
+        <rdfs:label>Anti-desmoplakin autoantibodies</rdfs:label>
+        <skos:closeMatch rdf:resource="http://purl.obolibrary.org/obo/HP_4000017"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000079 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000079">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000079</oboInOwl:id>
+        <rdfs:label>Anti-DNase B</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000080 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000080">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000080</oboInOwl:id>
+        <rdfs:label>Anti-dopamine D1/D2 receptor autoantibodies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000081 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000081">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000081</oboInOwl:id>
+        <rdfs:label>Anti-DPPX autoantibodies</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_5000007"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000082 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000082">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000082</oboInOwl:id>
+        <rdfs:label>Anti-dsDNA autoantibodies</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0020151"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000083 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000083">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000083</oboInOwl:id>
+        <rdfs:label>Anti-endometrial autoantibodies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000084 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000084">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000084</oboInOwl:id>
+        <rdfs:label>Anti-endomysial antibodies (EMA)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0033637"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000085 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000085">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000085</oboInOwl:id>
+        <rdfs:label>Anti-endothelial cell antibodies (AECA)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000086 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000086">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000086</oboInOwl:id>
+        <rdfs:label>anti-enterocyte (AE)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0034070"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000087 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000087">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000087</oboInOwl:id>
+        <rdfs:label>Anti-envoplakin autoantibodies</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_4000015"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000088 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000088">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000088</oboInOwl:id>
+        <rdfs:label>Anti-epidermal transglutaminase (anti-eTG / TG3) antibody</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0033565"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000089 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000089">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000088"/>
+        <oboInOwl:id>ARIB:0000089</oboInOwl:id>
+        <rdfs:label>Anti-epidermal transglutaminase (anti-eTG / TG3) IgA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000090 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000090">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000090</oboInOwl:id>
+        <rdfs:label>Anti-erythroblast autoantibodies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000091 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000091">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000091</oboInOwl:id>
+        <rdfs:label>Anti-erythrocyte autoantibodies (direct Coombs)</rdfs:label>
+        <skos:altLabel>Anti-erythrocyte autoantibodies (warm IgG / cold agglutinins)</skos:altLabel>
+        <skos:altLabel>Anti-erythrocyte autoantibodies (warm IgG / direct Coombs)</skos:altLabel>
+        <skos:altLabel>Anti-erythrocyte autoantibodies (warm IgG targeting Rh complex antigens)</skos:altLabel>
+        <skos:altLabel>Cold agglutinins (IgM anti-I erythrocyte autoantibodies)</skos:altLabel>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_6000388"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000092 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000092">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000092</oboInOwl:id>
+        <rdfs:label>Anti-erythropoietin (anti-EPO) autoantibodies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000093 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000093">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000093</oboInOwl:id>
+        <rdfs:label>Anti-extracellular matrix protein 1 (anti-ECM1) autoantibodies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000094 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000094">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000094</oboInOwl:id>
+        <rdfs:label>Anti-factor IX autoantibodies</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_6000495"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000095 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000095">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000095</oboInOwl:id>
+        <rdfs:label>Anti-factor VIII autoantibodies</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_6000494"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000096 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000096">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000096</oboInOwl:id>
+        <rdfs:label>Anti-FcεRIα autoantibodies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000097 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000097">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000097</oboInOwl:id>
+        <rdfs:label>Anti-FGFR3 autoantibodies</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_5000008"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000098 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000098">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000098</oboInOwl:id>
+        <rdfs:label>Anti-GABA_A receptor autoantibodies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000099 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000099">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000099</oboInOwl:id>
+        <rdfs:label>Anti-GABA_B receptor autoantibodies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000100 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000100">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000100</oboInOwl:id>
+        <rdfs:label>Anti-galectin-3 autoantibodies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000101 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000101">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000101</oboInOwl:id>
+        <rdfs:label>Anti-ganglionic AChR autoantibodies</rdfs:label>
+        <skos:altLabel>Anti-ganglionic AChR (α3-gAChR) autoantibodies</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000102 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000102">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000102</oboInOwl:id>
+        <rdfs:label>Anti-GFAP antibody</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_5000013"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000103 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000103">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000102"/>
+        <oboInOwl:id>ARIB:0000103</oboInOwl:id>
+        <rdfs:label>Anti-GFAP IgG autoantibodies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000104 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000104">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000104</oboInOwl:id>
+        <rdfs:label>Anti-GluA1 autoantibodies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000105 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000105">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000105</oboInOwl:id>
+        <rdfs:label>Anti-GluA2 autoantibodies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000106 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000106">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000106</oboInOwl:id>
+        <rdfs:label>Anti-GluA3 (GluR3) autoantibodies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000107 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000107">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000107</oboInOwl:id>
+        <rdfs:label>Anti-glycine receptor (anti-GlyR) autoantibodies</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_5000014"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000108 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000108">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000108</oboInOwl:id>
+        <rdfs:label>Anti-GM1 antibody</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0034103"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000109 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000109">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000108"/>
+        <oboInOwl:id>ARIB:0000109</oboInOwl:id>
+        <rdfs:label>Anti-GM1 IgM autoantibodies</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0034118"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000110 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000110">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000110</oboInOwl:id>
+        <rdfs:label>anti-goblet cell (AG)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000111 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000111">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000111</oboInOwl:id>
+        <rdfs:label>Anti-gp210 autoantibodies</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0033562"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000112 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000112">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000112</oboInOwl:id>
+        <rdfs:label>Anti-GPIHBP1 autoantibodies</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0025731"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000113 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000113">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000113</oboInOwl:id>
+        <rdfs:label>Anti-GQ1b antibody</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0034122"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000114 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000114">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000113"/>
+        <oboInOwl:id>ARIB:0000114</oboInOwl:id>
+        <rdfs:label>anti-GQ1b IgG antibody</rdfs:label>
+        <skos:altLabel>Anti-GQ1b IgG autoantibodies</skos:altLabel>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0034127"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000115 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000115">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000115</oboInOwl:id>
+        <rdfs:label>Anti-GT1a antibody</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0034128"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000116 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000116">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000115"/>
+        <oboInOwl:id>ARIB:0000116</oboInOwl:id>
+        <rdfs:label>Anti-GT1a IgG autoantibodies</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0034130"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000117 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000117">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000117</oboInOwl:id>
+        <rdfs:label>Anti-histone autoantibodies</rdfs:label>
+        <skos:altLabel>anti-histone autoantibodies</skos:altLabel>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0033558"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000118 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000118">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000118</oboInOwl:id>
+        <rdfs:label>Anti-HMGCR autoantibodies</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0033708"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000119 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000119">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000119</oboInOwl:id>
+        <rdfs:label>Anti-HNF4A (Hepatic Nuclear Factor 4 Alpha)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000120 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000120">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000120</oboInOwl:id>
+        <rdfs:label>Anti-Hu (ANNA-1) autoantibodies</rdfs:label>
+        <skos:altLabel>Anti-enteric neuronal antibodies (anti-Hu)</skos:altLabel>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_5000016"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000121 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000121">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000121</oboInOwl:id>
+        <rdfs:label>Anti-hypocretin receptor 2 autoantibodies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000122 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000122">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000122</oboInOwl:id>
+        <rdfs:label>Anti-IA-2 (IA-2A)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0034063"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000123 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000123">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000123</oboInOwl:id>
+        <rdfs:label>Anti-ICA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000124 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000124">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000124</oboInOwl:id>
+        <rdfs:label>Anti-IgE autoantibodies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000125 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000125">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000125</oboInOwl:id>
+        <rdfs:label>Anti-IGF-1R autoantibodies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000126 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000126">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000126</oboInOwl:id>
+        <rdfs:label>Anti-IgLON5 autoantibodies</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_5000017"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000127 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000127">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000127</oboInOwl:id>
+        <rdfs:label>Anti-insulin (IAA)</rdfs:label>
+        <skos:altLabel>Anti-insulin autoantibodies (IAA, high-titer polyclonal IgG)</skos:altLabel>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0034062"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000128 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000128">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000128</oboInOwl:id>
+        <rdfs:label>Anti-insulin receptor autoantibodies (blocking / stimulatory)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0031104"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000129 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000129">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000129</oboInOwl:id>
+        <rdfs:label>Anti-integrin αvβ6 autoantibodies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000130 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000130">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000130</oboInOwl:id>
+        <rdfs:label>Anti-interphotoreceptor retinoid-binding protein (anti-IRBP) autoantibodies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000131 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000131">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000131</oboInOwl:id>
+        <rdfs:label>Anti-La/SSB autoantibodies</rdfs:label>
+        <skos:altLabel>Anti-La (SSB) autoantibodies</skos:altLabel>
+        <skos:altLabel>Anti-La/SSB</skos:altLabel>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0032235"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000132 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000132">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000132</oboInOwl:id>
+        <rdfs:label>Anti-laminin-511-E8 autoantibodies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000133 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000133">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000133</oboInOwl:id>
+        <rdfs:label>Anti-LGI1 autoantibodies</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_5000020"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000134 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000134">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000134</oboInOwl:id>
+        <rdfs:label>Anti-lysoganglioside GM1 autoantibodies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000135 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000135">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000135</oboInOwl:id>
+        <rdfs:label>Anti-M2 muscarinic receptor autoantibodies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000136 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000136">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000136</oboInOwl:id>
+        <rdfs:label>Anti-MAG antibody</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000137 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000137">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000136"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000137</oboInOwl:id>
+        <rdfs:label>Anti-MAG IgM autoantibodies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000138 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000138">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000138</oboInOwl:id>
+        <rdfs:label>Anti-Melan-A/MART-1 autoantibodies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000139 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000139">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000139</oboInOwl:id>
+        <rdfs:label>Anti-melanocyte autoantibodies</rdfs:label>
+        <skos:altLabel>Anti-melanocyte autoantibodies (anti-tyrosinase family, anti-TRP-1/TRP-2)</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000140 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000140">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000140</oboInOwl:id>
+        <rdfs:label>Anti-Mi-2 autoantibodies</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0033554"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000141 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000141">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000041"/>
+        <oboInOwl:id>ARIB:0000141</oboInOwl:id>
+        <rdfs:label>Anti-MOG IgG</rdfs:label>
+        <skos:altLabel>Anti-MOG IgG autoantibodies</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000142 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000142">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000142</oboInOwl:id>
+        <rdfs:label>Anti-muscarinic receptor autoantibodies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000143 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000143">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000143</oboInOwl:id>
+        <rdfs:label>Anti-myelin basic protein (anti-MBP)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000144 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000144">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000144</oboInOwl:id>
+        <rdfs:label>Anti-myocardial autoantibodies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000145 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000145">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000145</oboInOwl:id>
+        <rdfs:label>Anti-N-type VGCC autoantibodies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000146 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000146">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000146</oboInOwl:id>
+        <rdfs:label>Anti-NALP5 autoantibodies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000147 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000147">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000147</oboInOwl:id>
+        <rdfs:label>Anti-NELL1 autoantibodies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000148 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000148">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000148</oboInOwl:id>
+        <rdfs:label>Anti-neurofilament autoantibodies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000149 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000149">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000149</oboInOwl:id>
+        <rdfs:label>Anti-neutrophil autoantibodies (anti-HNA-1a, anti-HNA-1b, anti-HNA-2)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0003453"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000150 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000150">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000150</oboInOwl:id>
+        <rdfs:label>Anti-NF155 autoantibodies</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0034135"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000151 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000151">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000150"/>
+        <oboInOwl:id>ARIB:0000151</oboInOwl:id>
+        <rdfs:label>Anti-NF155 IgG4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000152 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000152">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000152</oboInOwl:id>
+        <rdfs:label>Anti-NF186 antibody</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0034136"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000153 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000153">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000152"/>
+        <oboInOwl:id>ARIB:0000153</oboInOwl:id>
+        <rdfs:label>Anti-NF186 IgG4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000154 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000154">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000154</oboInOwl:id>
+        <rdfs:label>Anti-NMDA receptor autoantibodies</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0032264"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000155 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000155">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000155</oboInOwl:id>
+        <rdfs:label>Anti-NXP2 autoantibodies</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0034142"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000156 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000156">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000156</oboInOwl:id>
+        <rdfs:label>Anti-OmpC autoantibodies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000157 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000157">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000157</oboInOwl:id>
+        <rdfs:label>Anti-P/Q-type VGCC autoantibodies</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_5000027"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000158 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000158">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000158</oboInOwl:id>
+        <rdfs:label>Anti-periplakin autoantibodies</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_4000016"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000159 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000159">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000159</oboInOwl:id>
+        <rdfs:label>Anti-phospholipase A2 receptor (anti-PLA2R) antibody</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0034002"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000160 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000160">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000159"/>
+        <oboInOwl:id>ARIB:0000160</oboInOwl:id>
+        <rdfs:label>Anti-phospholipase A2 receptor (anti-PLA2R) IgG4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000161 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000161">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000161</oboInOwl:id>
+        <rdfs:label>Anti-PIT-1 autoantibodies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000162 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000162">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000162</oboInOwl:id>
+        <rdfs:label>Anti-pituitary antibodies (APA)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0025381"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000163 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000163">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000163</oboInOwl:id>
+        <rdfs:label>Anti-plasminogen autoantibodies</rdfs:label>
+        <skos:closeMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0034068"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000164 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000164">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000164</oboInOwl:id>
+        <rdfs:label>Anti-progesterone autoantibodies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000165 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000165">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000165</oboInOwl:id>
+        <rdfs:label>Anti-retinal autoantibodies</rdfs:label>
+        <skos:altLabel>Anti-retinal autoantibodies (anti-recoverin, anti-S-antigen)</skos:altLabel>
+        <skos:closeMatch rdf:resource="http://purl.obolibrary.org/obo/HP_6000882"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000166 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000166">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000166</oboInOwl:id>
+        <rdfs:label>Anti-retinal S-antigen autoantibodies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000167 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000167">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000167</oboInOwl:id>
+        <rdfs:label>Anti-Ri (ANNA-2) autoantibodies</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_5000030"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000168 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000168">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000168</oboInOwl:id>
+        <rdfs:label>Anti-RNA polymerase III (RPC155) autoantibodies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000169 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000169">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000169</oboInOwl:id>
+        <rdfs:label>Anti-RNP autoantibodies</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0033028"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000170 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000170">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000170</oboInOwl:id>
+        <rdfs:label>Anti-Ro/SSA autoantibodies</rdfs:label>
+        <skos:altLabel>Anti-Ro/SSA</skos:altLabel>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0033555"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000171 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000171">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000171</oboInOwl:id>
+        <rdfs:label>Anti-Saccharomyces cerevisiae antibodies (ASCA)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_6001235"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000172 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000172">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000172</oboInOwl:id>
+        <rdfs:label>Anti-SAE autoantibodies</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0034139"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000173 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000173">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000173</oboInOwl:id>
+        <rdfs:label>Anti-Scl-70 autoantibodies</rdfs:label>
+        <skos:altLabel>Anti-topoisomerase I (anti-Scl-70)</skos:altLabel>
+        <skos:altLabel>Anti-topoisomerase I (anti-Scl-70) autoantibodies</skos:altLabel>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0030859"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000174 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000174">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000174</oboInOwl:id>
+        <rdfs:label>Anti-single-stranded DNA (anti-ssDNA) autoantibodies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000175 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000175">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000175</oboInOwl:id>
+        <rdfs:label>Anti-Sm autoantibodies</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0033040"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000176 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000176">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000176</oboInOwl:id>
+        <rdfs:label>Anti-smooth muscle antibodies (ASMA)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0003262"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000177 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000177">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000177</oboInOwl:id>
+        <rdfs:label>Anti-SOX1 autoantibodies</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_5000033"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000178 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000178">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000178</oboInOwl:id>
+        <rdfs:label>Anti-sp100 autoantibodies</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0034155"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000179 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000179">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000179</oboInOwl:id>
+        <rdfs:label>Anti-SRP autoantibodies</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0033713"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000180 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000180">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000180</oboInOwl:id>
+        <rdfs:label>Anti-steroid-producing cell antibodies (anti-StCA)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000181 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000181">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000181</oboInOwl:id>
+        <rdfs:label>Anti-streptococcal group A carbohydrate antibodies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000182 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000182">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000182</oboInOwl:id>
+        <rdfs:label>Anti-THSD7A autoantibodies</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_6000187"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000183 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000183">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000183</oboInOwl:id>
+        <rdfs:label>Anti-thyroglobulin (anti-Tg) autoantibodies</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0032069"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000184 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000184">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000184</oboInOwl:id>
+        <rdfs:label>Anti-TIF1-γ autoantibodies</rdfs:label>
+        <skos:altLabel>Anti-TIF1-γ (transcriptional intermediary factor 1-gamma) autoantibodies</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000185 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000185">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000185</oboInOwl:id>
+        <rdfs:label>Anti-tissue transglutaminase (anti-tTG) antibody</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0033563"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000186 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000186">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000185"/>
+        <oboInOwl:id>ARIB:0000186</oboInOwl:id>
+        <rdfs:label>Anti-tissue transglutaminase (anti-tTG) IgA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000187 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000187">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000187</oboInOwl:id>
+        <rdfs:label>Anti-TRIB2 autoantibodies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000188 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000188">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000188</oboInOwl:id>
+        <rdfs:label>Anti-tropomyosin antibodies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000189 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000189">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000189</oboInOwl:id>
+        <rdfs:label>Anti-troponin I autoantibodies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000190 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000190">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000190</oboInOwl:id>
+        <rdfs:label>anti-tryptophan hydroxylase  (enzyme in enterochromaphin cells in the gastrointestinal tract)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000191 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000191">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000191</oboInOwl:id>
+        <rdfs:label>Anti-TS-HDS antibody</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000192 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000192">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000191"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000192</oboInOwl:id>
+        <rdfs:label>Anti-TS-HDS IgM</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000193 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000193">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000193</oboInOwl:id>
+        <rdfs:label>Anti-tubulin autoantibodies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000194 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000194">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000194</oboInOwl:id>
+        <rdfs:label>Anti-tyrosinase autoantibodies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000195 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000195">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000195</oboInOwl:id>
+        <rdfs:label>Anti-vasopressin-secreting cell antibodies (AVPc-Ab)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000196 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000196">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000196</oboInOwl:id>
+        <rdfs:label>Anti-VGKC complex autoantibodies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000197 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000197">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000197</oboInOwl:id>
+        <rdfs:label>anti-villin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000198 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000198">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000198</oboInOwl:id>
+        <rdfs:label>Anti-ZnT8 (ZnT8A)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0034065"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000199 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000199">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000199</oboInOwl:id>
+        <rdfs:label>Anti-α-enolase autoantibodies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000200 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000200">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000200</oboInOwl:id>
+        <rdfs:label>Anti-α1-adrenergic receptor autoantibodies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000201 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000201">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000201</oboInOwl:id>
+        <rdfs:label>Anti-β1-adrenergic receptor autoantibodies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000202 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000202">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000202</oboInOwl:id>
+        <rdfs:label>Anti-β1/β2-adrenergic receptor autoantibodies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000203 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000203">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000203</oboInOwl:id>
+        <rdfs:label>antibodies to aminoacyl tRNA synthetases</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000204 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000204">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000204</oboInOwl:id>
+        <rdfs:label>antibodies to cyclic citrullinated peptides</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000205 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000205">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000205</oboInOwl:id>
+        <rdfs:label>antibodies to tyrosine hydroxylases</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000206 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000206">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000206</oboInOwl:id>
+        <rdfs:label>Antimitochondrial antibodies (AMA / anti-PDC-E2)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0030167"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000207 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000207">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000207</oboInOwl:id>
+        <rdfs:label>Antineutrophil cytoplasmic antibodies (ANCA)</rdfs:label>
+        <skos:altLabel>Anti-neutrophil cytoplasmic antibodies (ANCA)</skos:altLabel>
+        <skos:altLabel>Anti-neutrophil cytoplasmic antibodies (ANCA: MPO-ANCA, PR3-ANCA)</skos:altLabel>
+        <skos:altLabel>Anti-neutrophil cytoplasmic antibodies (PR3-ANCA, MPO-ANCA)</skos:altLabel>
+        <skos:closeMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0032230"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000208 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000208">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000208</oboInOwl:id>
+        <rdfs:label>Antinuclear antibodies (ANA)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0003493"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000209 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000209">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000209</oboInOwl:id>
+        <rdfs:label>Antiphospholipid antibodies</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0003613"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000210 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000210">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000210</oboInOwl:id>
+        <rdfs:label>Antisperm antibodies (ASA)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_6000188"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000211 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000211">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000211</oboInOwl:id>
+        <rdfs:label>Antistreptolysin O (ASO)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_6000348"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000212 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000212">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000212</oboInOwl:id>
+        <rdfs:label>Aquaporin-4</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0033342"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000213 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000213">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000213</oboInOwl:id>
+        <rdfs:label>Atypical pANCA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000214 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000214">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000214</oboInOwl:id>
+        <rdfs:label>Beta-2 glycoprotein I</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0032376"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000215 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000215">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000215</oboInOwl:id>
+        <rdfs:label>collagen IV</rdfs:label>
+        <skos:closeMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0034575"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000216 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000216">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000216</oboInOwl:id>
+        <rdfs:label>Cryoglobulins (monoclonal IgM with RF activity + polyclonal IgG)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000217 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000217">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000217</oboInOwl:id>
+        <rdfs:label>cytotoxic T cells</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000218 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000218">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000218</oboInOwl:id>
+        <rdfs:label>Desmogleins</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000219 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000219">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000219</oboInOwl:id>
+        <rdfs:label>Donath-Landsteiner autoantibodies (anti-P IgG)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_6000387"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000220 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000220">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000220</oboInOwl:id>
+        <rdfs:label>Elevated IgG4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000221 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000221">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000221</oboInOwl:id>
+        <rdfs:label>Elevated serum IgG4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000222 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000222">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000222</oboInOwl:id>
+        <rdfs:label>Elevated VEGF</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000223 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000223">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000223</oboInOwl:id>
+        <rdfs:label>Galactose-deficient IgA1 autoantibodies (IgG/IgA anti-Gd-IgA1)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000224 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000224">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000224</oboInOwl:id>
+        <rdfs:label>Galactose-deficient IgA1 immune complexes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000225 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000225">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000225</oboInOwl:id>
+        <rdfs:label>Glycoprotein IIb/IIIa</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000226 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000226">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000226</oboInOwl:id>
+        <rdfs:label>H⁺/K⁺-ATPase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000227 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000227">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000227</oboInOwl:id>
+        <rdfs:label>IgA anti-endothelial cell antibodies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000228 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000228">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000228</oboInOwl:id>
+        <rdfs:label>IgG autoantibodies against BP180 antigen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000229 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000229">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000229</oboInOwl:id>
+        <rdfs:label>inner ear-specific IFN-γ producing T cells</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000230 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000230">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000230</oboInOwl:id>
+        <rdfs:label>Maternal anti-La/SSB autoantibodies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000231 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000231">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000231</oboInOwl:id>
+        <rdfs:label>Maternal anti-Ro52 autoantibodies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000232 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000232">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000232</oboInOwl:id>
+        <rdfs:label>Maternal anti-Ro60 autoantibodies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000233 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000233">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000233</oboInOwl:id>
+        <rdfs:label>Monoclonal lambda light chain paraprotein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000234 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000234">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000234</oboInOwl:id>
+        <rdfs:label>Myositis-specific antibodies (anti-Jo-1, anti-MDA5)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_6000678"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000235 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000235">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000235</oboInOwl:id>
+        <rdfs:label>Neutralizing anti-GM-CSF IgG autoantibodies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000236 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000236">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000236</oboInOwl:id>
+        <rdfs:label>Neutralizing anti-IFN-γ autoantibodies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000237 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000237">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000237</oboInOwl:id>
+        <rdfs:label>Oligoclonal IgG bands</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000238 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000238">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000238</oboInOwl:id>
+        <rdfs:label>Organ-specific autoantibodies (e.g. anti-TPO, anti-GAD65, anti-myositis)</rdfs:label>
+        <skos:altLabel>Organ-specific autoantibodies (anti-TPO, anti-21-hydroxylase, anti-GAD65)</skos:altLabel>
+        <skos:altLabel>Organ-specific autoantibodies (anti-erythrocyte Coombs, anti-platelet, anti-thyroid)</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000239 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000239">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000239</oboInOwl:id>
+        <rdfs:label>Perinuclear antineutrophil cytoplasmic antibodies (pANCA)</rdfs:label>
+        <skos:altLabel>Perinuclear antineutrophil cytoplasmic antibodies (pANCA / anti-MPO)</skos:altLabel>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0033559"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000240 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000240">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <ari-disease:ARI_NoConcept>no term</ari-disease:ARI_NoConcept>
+        <oboInOwl:id>ARIB:0000240</oboInOwl:id>
+        <rdfs:label>Rheumatoid factor (RF)</rdfs:label>
+        <skos:altLabel>High-titer Rheumatoid factor (RF)</skos:altLabel>
+        <skos:altLabel>Rheumatoid factor (RF: IgM-RF, IgA-RF, IgG-RF)</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000241 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000241">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000241</oboInOwl:id>
+        <rdfs:label>Thyroid-stimulating hormone receptor antibodies (TRAb / TSI)</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0034189"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000242 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-biomarkers#ARIB_0000242">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-disease#Autoantibody"/>
+        <oboInOwl:id>ARIB:0000242</oboInOwl:id>
+        <rdfs:label>Type VII Colagen</rdfs:label>
+        <skos:altLabel>Anti-type VII collagen autoantibodies</skos:altLabel>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_4000031"/>
+    </owl:Class>
 </rdf:RDF>
 
 

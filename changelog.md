@@ -1,5 +1,16 @@
 # Changelog
 
+## biomarker-concepts-antibodies
+
+The first review PR for biomarker concepts: every live autoantibody entry gets a shared ARIB concept
+or `ARI_NoConcept "not a biomarker"`, so a curator can see what one antibody means across diseases.
+`propose.py --kind antibodies` proposed 242 concepts, 95 HPO `exactMatch`es, 5 `closeMatch`es and 121
+`no term`, with 347 links over 357 entries. Every row is in
+`notebook/biomarker-concepts/review/antibodies.tsv` for the reviewers to accept, reject or correct; the
+134 judgement calls (merged spellings, bundles, families, label fixes, sentences) come first. The OWL
+in this branch shows every row applied; `apply_review.py` rewrites it from the decided rows only and
+deletes the table before merge. `biomarker-unmapped` drops from 702 to 345 (327 antigens, 18 tests).
+
 ## biomarker-concepts
 
 Builds the tooling for biomarker concepts (Project 2 of the ontology modules work, designed under
