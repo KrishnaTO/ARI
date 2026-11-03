@@ -1,5 +1,23 @@
 # Changelog
 
+## non-symptom-review
+
+Lists every entry ARI judged "not a symptom" in a new report, `data/4-reports/13_Non_Symptom_Review.tsv`,
+so a curator can decide what becomes of each one (#162). Organizing the symptoms ontology turned them
+up. 46 Symptom individuals in `ari_disease.owl` carry `ARI_NoConcept "not a symptom"`; all are obsolete
+and no disease lists them, so the editor shows none, yet several hold content the disease record has
+nowhere else, such as a creatine kinase level or a trigger. Report 4's Symptoms sheet holds 38 more
+rows the ontology never imported, mostly headings ("Early stages:", "Women:") that qualify the entries
+under them.
+
+- `notebook/symptom-mapping/build_non_symptom_review.py` builds the table from the OWL and report 4:
+  one row per disease and entry, with the entry's neighbours in the Symptoms sheet (for a heading,
+  every entry it heads). A rebuild keeps the review columns, and stops rather than drop a row that has
+  them.
+- `kind` and `proposed` are a first pass: what each entry is, and where its content could go in the
+  disease record. `decision` is left for the reviewer. Two entries read as symptoms after all, one
+  looks copied in error from another disease, and eight findings have no field to hold them.
+
 ## biomarker-concepts
 
 Builds the tooling for biomarker concepts (Project 2 of the ontology modules work, designed under
