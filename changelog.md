@@ -1,5 +1,15 @@
 # Changelog
 
+## symptom-body-systems
+
+Drafts a body-system group for each of the 313 symptoms that sit directly under `Symptom` in
+`ari_symptoms.owl`, where the top of the tree is flat. Each already has a SYMP parent, and SYMP files
+every term under one of 14 top-level categories, so the category above that parent is proposed: 312
+get one, and the last, a compound, has none. `notebook/symptom-mapping/propose_body_systems.py`
+writes the review table `notebook/symptom-mapping/review/body_systems.tsv` and changes no OWL file;
+a rebuild keeps the `decision` and `note` columns. The 40 compound symptoms among them are flagged for
+#164, which breaks compounds into their component symptoms.
+
 ## biomarker-concepts
 
 Builds the tooling for biomarker concepts (Project 2 of the ontology modules work, designed under

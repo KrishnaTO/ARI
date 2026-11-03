@@ -1,0 +1,314 @@
+symptom_id	symptom	diseases	children	symp_parent	proposed_group	decision	note
+ARIS:0000001	A feeling of fullness or pressure in the chest or abdomen that can cause difficulty breathing or eating	1	0	SYMP:0000188 abdominal discomfort	abdominal symptom		
+ARIS:0000004	Abdominal discomfort	2	0	SYMP:0000461 abdominal symptom	abdominal symptom		
+ARIS:0000012	Accumulation of fluid in the abdomen	1	0	SYMP:0000461 abdominal symptom	abdominal symptom		
+ARIS:0000086	Churning in the stomach	1	0	SYMP:0000188 abdominal discomfort	abdominal symptom		
+ARIS:0000166	Empty feeling in the abdomen/stomach	1	0	SYMP:0000188 abdominal discomfort	abdominal symptom		
+ARIS:0000542	Tightness in the abdomen	1	0	SYMP:0000188 abdominal discomfort	abdominal symptom		
+ARIS:0000596	“butterflies” in the stomach	1	0	SYMP:0000188 abdominal discomfort	abdominal symptom		
+ARIS:0000636	Complete (third-degree) congenital heart block with severe fetal/neonatal bradycardia	1	0	SYMP:0000231 bradycardia	cardiovascular system symptom		compound (#164): Heart block; Bradycardia
+ARIS:0000113	Deep vein thrombosis	1	0	SYMP:0000528 cardiovascular system symptom	cardiovascular system symptom		
+ARIS:0000211	Gangrene of extremities	1	0	SYMP:0000593 gangrene	cardiovascular system symptom		
+ARIS:0000227	Heart murmur	2	1	SYMP:0000528 cardiovascular system symptom	cardiovascular system symptom		
+ARIS:0000228	Heart palpitations	4	1	SYMP:0000528 cardiovascular system symptom	cardiovascular system symptom		
+ARIS:0000662	High incidence of deep venous thrombosis or renal vein thrombosis	1	0	SYMP:0000528 cardiovascular system symptom	cardiovascular system symptom		compound (#164): Deep vein thrombosis; Renal vein thrombosis
+ARIS:0000255	Irregular heartbeat	9	0	SYMP:0000528 cardiovascular system symptom	cardiovascular system symptom		
+ARIS:0000415	Rapid heartbeat	10	0	SYMP:0000287 arrhythmia	cardiovascular system symptom		
+ARIS:0000459	Severe aortic valve regurgitation	1	0	SYMP:0000528 cardiovascular system symptom	cardiovascular system symptom		
+ARIS:0000013	Acid reflux/heartburn	7	0	SYMP:0000459 digestive system symptom	digestive system symptom		
+ARIS:0000613	Autoimmune hepatitis with marked transaminitis	1	0	SYMP:0000046 hepatitis	digestive system symptom		compound (#164): Autoimmune hepatitis; Elevated transaminases
+ARIS:0000049	Bloating	6	1	SYMP:0000459 digestive system symptom	digestive system symptom		
+ARIS:0000051	Blood in stool	9	0	SYMP:0000146 feces and droppings symptom	digestive system symptom		
+ARIS:0000057	Bowel changes	1	3	SYMP:0000459 digestive system symptom	digestive system symptom		
+ARIS:0000100	Constipation	9	0	SYMP:0000146 feces and droppings symptom	digestive system symptom		
+ARIS:0000123	Diarrhea	21	8	SYMP:0000146 feces and droppings symptom	digestive system symptom		
+ARIS:0000212	Gas	1	0	SYMP:0000459 digestive system symptom	digestive system symptom		
+ARIS:0000250	Indigestion	2	0	SYMP:0000459 digestive system symptom	digestive system symptom		
+ARIS:0000268	Lactose intolerance	1	0	SYMP:0000459 digestive system symptom	digestive system symptom		
+ARIS:0000281	Loose fatty stools that do not flush easily	1	0	SYMP:0000146 feces and droppings symptom	digestive system symptom		
+ARIS:0000331	Nausea	26	1	SYMP:0000459 digestive system symptom	digestive system symptom		
+ARIS:0000421	Rectal bleeding	1	0	SYMP:0000459 digestive system symptom	digestive system symptom		
+ARIS:0000721	Recurrent episodes of acute pancreatitis	1	0	SYMP:0000459 digestive system symptom	digestive system symptom		
+ARIS:0000436	Regurgitation of undigested, retained food	1	0	SYMP:0000459 digestive system symptom	digestive system symptom		
+ARIS:0000456	Sensitivity to gluten	1	0	SYMP:0000459 digestive system symptom	digestive system symptom		
+ARIS:0000737	Severe gastrointestinal dysmotility (gastroparesis, pseudo-obstruction, constipation)	1	0	SYMP:0000255 diminished gastro-intestinal motility	digestive system symptom		compound (#164): Gastroparesis; Intestinal pseudo-obstruction; Constipation
+ARIS:0000757	Transient neonatal cholestasis and elevated hepatic transaminases	1	0	SYMP:0000180 liver symptom	digestive system symptom		compound (#164): Cholestasis; Elevated transaminases
+ARIS:0000568	Vomiting	25	0	SYMP:0000459 digestive system symptom	digestive system symptom		
+ARIS:0000066	Burning sensation	14	3	SYMP:0000745 change in body sensation	general symptom		
+ARIS:0000084	Chills	7	0	SYMP:0000567 general symptom	general symptom		
+ARIS:0000093	Cold intolerance	4	0	SYMP:0000567 general symptom	general symptom		
+ARIS:0000094	Coldness	4	2	SYMP:0000567 general symptom	general symptom		
+ARIS:0000104	Cramps	5	4	SYMP:0000567 general symptom	general symptom		
+ARIS:0000130	Difficulty exercising	1	0	SYMP:0000567 general symptom	general symptom		
+ARIS:0000141	Discomfort in legs that begins after lying down or sitting for a long time	1	0	SYMP:0000745 change in body sensation	general symptom		
+ARIS:0000171	Excessive bleeding	1	4	SYMP:0000007 bleeding	general symptom		
+ARIS:0000180	Eyelid drooping	6	0	SYMP:0000567 general symptom	general symptom		
+ARIS:0000203	Flu-like symptoms	3	0	SYMP:0000567 general symptom	general symptom		
+ARIS:0000293	Loss of sensation	6	2	SYMP:0000765 sensory disturbance	general symptom		
+ARIS:0000334	Night sweats	6	0	SYMP:0000566 sleep disturbance	general symptom		
+ARIS:0000455	Sensitivity to extreme heat	2	0	SYMP:0000567 general symptom	general symptom		
+ARIS:0000485	Sleep problems	11	5	SYMP:0000567 general symptom	general symptom		
+ARIS:0000505	Swelling	35	17	SYMP:0000567 general symptom	general symptom		
+ARIS:0000530	Tenderness	8	4	SYMP:0000567 general symptom	general symptom		
+ARIS:0000553	Tremor	4	5	SYMP:0000567 general symptom	general symptom		
+ARIS:0000571	Weakness	47	15	SYMP:0000567 general symptom	general symptom		
+ARIS:0000764	Weight loss, low-grade fevers, and cyanosis in advanced disease	1	0	SYMP:0000567 general symptom	general symptom		compound (#164): Weight loss; Fever; Cyanosis
+ARIS:0000615	Autoimmune thyroid disease (hypo- or hyperthyroidism)	1	0	SYMP:0000390 thyroid symptom	head and neck symptom		compound (#164): Hypothyroidism; Hyperthyroidism
+ARIS:0000616	Autoimmune thyroid dysfunction: thyrotoxicosis followed by hypothyroidism	1	0	SYMP:0000390 thyroid symptom	head and neck symptom		
+ARIS:0000027	Backwards displacement of eye	1	0	SYMP:0019163 eye symptom	head and neck symptom		
+ARIS:0000622	Bilateral or unilateral painless lacrimal gland enlargement / dacryoadenitis	1	0	SYMP:0019163 eye symptom	head and neck symptom		
+ARIS:0000037	Bleeding gums	2	0	SYMP:0000655 mouth bleeding	head and neck symptom		
+ARIS:0000061	Bulging eyes	2	1	SYMP:0019163 eye symptom	head and neck symptom		
+ARIS:0000078	Change in voice	1	1	SYMP:0000386 mouth symptom	head and neck symptom		
+ARIS:0000101	Corneal ulceration	1	0	SYMP:0000239 cornea symptom	head and neck symptom		
+ARIS:0000639	Creamy yellow-orange hypopigmented choroidal spots radiating from optic disc	1	0	SYMP:0019163 eye symptom	head and neck symptom		
+ARIS:0000106	Curling of upper lip	1	0	SYMP:0000386 mouth symptom	head and neck symptom		
+ARIS:0000107	Damage to dental enamel	1	0	SYMP:0000386 mouth symptom	head and neck symptom		
+ARIS:0000124	Different colored eyes	1	0	SYMP:0019163 eye symptom	head and neck symptom		
+ARIS:0000126	Difficulty chewing	3	0	SYMP:0000386 mouth symptom	head and neck symptom		
+ARIS:0000136	Difficulty swallowing	16	4	SYMP:0000385 throat symptom	head and neck symptom		
+ARIS:0000151	Dry eyes	9	0	SYMP:0019163 eye symptom	head and neck symptom		
+ARIS:0000152	Dry mouth	5	1	SYMP:0000386 mouth symptom	head and neck symptom		
+ARIS:0000156	Dysfunction of pupils	1	2	SYMP:0019163 eye symptom	head and neck symptom		
+ARIS:0000173	Eye discharge	2	0	SYMP:0019163 eye symptom	head and neck symptom		
+ARIS:0000174	Eye inflammation	6	0	SYMP:0019163 eye symptom	head and neck symptom		
+ARIS:0000175	Eye irritation	6	1	SYMP:0019163 eye symptom	head and neck symptom		
+ARIS:0000176	Eye lesions	1	0	SYMP:0019163 eye symptom	head and neck symptom		
+ARIS:0000178	Eye sensitivity	1	0	SYMP:0019163 eye symptom	head and neck symptom		
+ARIS:0000181	Facial droop	1	0	SYMP:0000706 facial weakness	head and neck symptom		
+ARIS:0000182	Facial flushing	2	0	SYMP:0000387 head symptom	head and neck symptom		
+ARIS:0000189	Fast, irregular eye movements	2	0	SYMP:0019163 eye symptom	head and neck symptom		
+ARIS:0000194	Feeling of fullness in the ear	1	0	SYMP:0000392 ear symptom	head and neck symptom		
+ARIS:0000217	Gum enlargement	1	0	SYMP:0000386 mouth symptom	head and neck symptom		
+ARIS:0000225	Hearing loss	8	1	SYMP:0000392 ear symptom	head and neck symptom		
+ARIS:0000252	Inflammation of the gums	1	0	SYMP:0000386 mouth symptom	head and neck symptom		
+ARIS:0000279	Limpness of the ear	1	0	SYMP:0000392 ear symptom	head and neck symptom		
+ARIS:0000678	Lipemia retinalis on fundoscopic examination	1	0	SYMP:0019163 eye symptom	head and neck symptom		
+ARIS:0000284	Loss of color in the tissues that line the inside of your mouth	1	0	SYMP:0000386 mouth symptom	head and neck symptom		
+ARIS:0000291	Loss of or change in color of the inner layer of your eye	1	0	SYMP:0019163 eye symptom	head and neck symptom		
+ARIS:0000294	Loss of teeth	1	0	SYMP:0000386 mouth symptom	head and neck symptom		
+ARIS:0000312	Misalignment of jaw	1	0	SYMP:0000387 head symptom	head and neck symptom		
+ARIS:0000313	Misalignment of teeth	1	0	SYMP:0000386 mouth symptom	head and neck symptom		
+ARIS:0000317	Mouth sores	11	3	SYMP:0000386 mouth symptom	head and neck symptom		
+ARIS:0000341	Nose ulcers	1	0	SYMP:0000388 nose symptom	head and neck symptom		
+ARIS:0000342	Nosebleeds	6	0	SYMP:0000388 nose symptom	head and neck symptom		
+ARIS:0000688	Nystagmus, saccadic intrusions, and ocular dysmetria	1	0	SYMP:0019163 eye symptom	head and neck symptom		compound (#164): Nystagmus; Saccadic intrusions; Ocular dysmetria
+ARIS:0000441	Ringing in ears	5	0	SYMP:0000392 ear symptom	head and neck symptom		
+ARIS:0000457	Sensitivity to light	13	0	SYMP:0019165 light sensitivity	head and neck symptom		
+ARIS:0000742	Severe pseudomembranous conjunctivitis and genital erosions	1	0	SYMP:0000128 conjunctivitis	head and neck symptom		compound (#164): Conjunctivitis; Genital erosions
+ARIS:0000474	Sinus infection	1	0	SYMP:0000388 nose symptom	head and neck symptom		
+ARIS:0000484	Skull depressions	1	0	SYMP:0000387 head symptom	head and neck symptom		
+ARIS:0000494	Sores or masses under eyelid	1	0	SYMP:0019163 eye symptom	head and neck symptom		
+ARIS:0000536	Thickening of eyelid mucosa with a wood-like consistency	1	0	SYMP:0019163 eye symptom	head and neck symptom		
+ARIS:0000538	Thinning or shrinking of facial tissues	1	0	SYMP:0000387 head symptom	head and neck symptom		
+ARIS:0000565	Vision problems	39	13	SYMP:0019163 eye symptom	head and neck symptom		
+ARIS:0000570	Watery eyes	7	0	SYMP:0019163 eye symptom	head and neck symptom		
+ARIS:0000586	White patches on gums	1	0	SYMP:0000386 mouth symptom	head and neck symptom		
+ARIS:0000587	White patches on lips	1	0	SYMP:0000386 mouth symptom	head and neck symptom		
+ARIS:0000594	Yellow eyes	6	0	SYMP:0019163 eye symptom	head and neck symptom		
+ARIS:0000602	Acute severe intravascular hemolytic anemia, pallor, and jaundice	1	0	SYMP:0000631 hemolytic anemia	hemic and immune system symptom		compound (#164): Hemolytic anemia; Pallor; Jaundice
+ARIS:0000618	Benign lymphadenopathy and splenomegaly	1	0	SYMP:0019141 lymphatic system symptom	hemic and immune system symptom		compound (#164): Lymphadenopathy; Splenomegaly
+ARIS:0000085	Chronic lymphadenopathy and hepatosplenomegaly	2	0	SYMP:0017795 hemic and immune system symptom	hemic and immune system symptom		compound (#164): Lymphadenopathy; Hepatosplenomegaly
+ARIS:0000630	Chronic suppurative lymphadenitis	1	0	SYMP:0019155 lymphadenitis	hemic and immune system symptom		
+ARIS:0000159	Early-onset multi-organ autoimmunity starting in infancy/childhood	1	0	SYMP:0019138 immune system symptom	hemic and immune system symptom		
+ARIS:0000295	Low blood counts	1	6	SYMP:0019139 hemic system symptom	hemic and immune system symptom		
+ARIS:0000308	Microangiopathic hemolytic anemia with schistocytes on blood smear	2	0	SYMP:0000720 microangiopathic hemolytic anemia	hemic and immune system symptom		
+ARIS:0000424	Recurrent infections	8	4	SYMP:0019138 immune system symptom	hemic and immune system symptom		
+ARIS:0000432	Redness	4	2	SYMP:0019139 hemic system symptom	hemic and immune system symptom		
+ARIS:0000725	Refractory hyponatremia (SIADH-like)	1	0	SYMP:0019146 hyponatremia	hemic and immune system symptom		
+ARIS:0000728	Retinal arteriolar attenuation and vasculitis	1	0	SYMP:0000153 vasculitis	hemic and immune system symptom		compound (#164): Retinal arteriolar attenuation; Retinal vasculitis
+ARIS:0000743	Severe, disabling orthostatic hypotension and syncope	1	0	SYMP:0000059 hypotension	hemic and immune system symptom		compound (#164): Orthostatic hypotension; Syncope
+ARIS:0000629	Chronic non-erosive inflammatory polyarthritis	1	0	SYMP:0019169 arthritis	musculoskeletal system symptom		
+ARIS:0000116	Delayed muscle relaxation after strong contraction	1	0	SYMP:0000183 muscle symptom	musculoskeletal system symptom		
+ARIS:0000133	Difficulty moving jaw	1	0	SYMP:0000891 musculoskeletal system symptom	musculoskeletal system symptom		
+ARIS:0000641	Diffuse myalgias and muscle weakness	1	0	SYMP:0000183 muscle symptom	musculoskeletal system symptom		compound (#164): Muscle pain; Muscle weakness
+ARIS:0000642	Digital clubbing in advanced fibrotic variants	1	0	SYMP:0000891 musculoskeletal system symptom	musculoskeletal system symptom		
+ARIS:0000235	High shoulder blade	1	0	SYMP:0000891 musculoskeletal system symptom	musculoskeletal system symptom		
+ARIS:0000241	Hunched posture	1	0	SYMP:0000618 abnormal posture	musculoskeletal system symptom		
+ARIS:0000248	Increased calf muscle size	1	0	SYMP:0000183 muscle symptom	musculoskeletal system symptom		
+ARIS:0000676	Latent tetany: positive Chvostek's sign (60–75%) & Trousseau's sign	1	0	SYMP:0000619 tetany	musculoskeletal system symptom		compound (#164): Chvostek sign; Trousseau sign
+ARIS:0000277	Limited range of motion in affected areas	2	0	SYMP:0000891 musculoskeletal system symptom	musculoskeletal system symptom		
+ARIS:0000318	Movement difficulty	1	5	SYMP:0000891 musculoskeletal system symptom	musculoskeletal system symptom		
+ARIS:0000322	Muscle loss	1	2	SYMP:0000183 muscle symptom	musculoskeletal system symptom		
+ARIS:0000325	Muscle spasms	7	3	SYMP:0000183 muscle symptom	musculoskeletal system symptom		
+ARIS:0000498	Stiffness	20	7	SYMP:0000891 musculoskeletal system symptom	musculoskeletal system symptom		
+ARIS:0000591	Winged shoulder blade	1	0	SYMP:0000891 musculoskeletal system symptom	musculoskeletal system symptom		
+ARIS:0000009	Abnormal movement	1	2	SYMP:0000480 nervous system symptom	nervous system symptom		
+ARIS:0000025	Autonomic dysregulation and neurogenic bladder	1	0	SYMP:0000480 nervous system symptom	nervous system symptom		compound (#164): Autonomic dysfunction; Neurogenic bladder
+ARIS:0000617	Autonomic symptoms (altered sweating, dry mouth/eyes, gastrointestinal dysmotility)	1	0	SYMP:0000480 nervous system symptom	nervous system symptom		compound (#164): Altered sweating; Dry mouth; Dry eyes; Gastrointestinal dysmotility
+ARIS:0000031	Behavioral changes	5	7	SYMP:0000480 nervous system symptom	nervous system symptom		
+ARIS:0000624	Bulbar dysfunction (dysphagia, dysarthria, vocal cord palsy)	1	0	SYMP:0000480 nervous system symptom	nervous system symptom		compound (#164): Dysphagia; Dysarthria; Vocal cord palsy
+ARIS:0000074	Carpal tunnel syndrome	2	0	SYMP:0000480 nervous system symptom	nervous system symptom		
+ARIS:0000076	Change in facial expression	1	1	SYMP:0000480 nervous system symptom	nervous system symptom		
+ARIS:0000077	Change in mental status	1	0	SYMP:0000480 nervous system symptom	nervous system symptom		
+ARIS:0000081	Changes in senses	1	0	SYMP:0000892 sensation perception	nervous system symptom		
+ARIS:0000089	Cognitive derealization, apathy, and altered perception	1	0	SYMP:0000682 altered mental status	nervous system symptom		compound (#164): Derealization; Apathy; Altered perception
+ARIS:0000135	Difficulty speaking	10	3	SYMP:0019185 communication difficulty	nervous system symptom		
+ARIS:0000138	Difficulty understanding speech	1	0	SYMP:0019185 communication difficulty	nervous system symptom		
+ARIS:0000204	Fluctuating neurological symptoms (confusion, transient focal deficits, seizure, coma)	1	0	SYMP:0000336 neurological dysfunction	nervous system symptom		compound (#164): Confusion; Focal neurological deficits; Seizures; Coma
+ARIS:0000245	Impaired coordination	4	1	SYMP:0000079 coordination symptom	nervous system symptom		
+ARIS:0000677	Limbic encephalitis with cognitive decline	1	0	SYMP:0000090 encephalitis	nervous system symptom		compound (#164): Limbic encephalitis; Cognitive decline
+ARIS:0000305	Meningoencephalitis symptoms: subacute fever, severe headache, and neck stiffness	1	0	SYMP:0000089 meningoencephalitis	nervous system symptom		compound (#164): Fever; Headache; Neck stiffness
+ARIS:0000307	Mental disorders	1	4	SYMP:0019182 behavioral symptom	nervous system symptom		
+ARIS:0000315	Mood changes	4	4	SYMP:0019182 behavioral symptom	nervous system symptom		
+ARIS:0000328	Myelopathy with spinal paraparesis and sensory deficit	1	0	SYMP:0000659 pareses	nervous system symptom		compound (#164): Myelopathy; Paraparesis; Sensory deficit
+ARIS:0000349	Over-responsive reflexes	1	0	SYMP:0000249 reflex symptom	nervous system symptom		
+ARIS:0000350	Pain	102	38	SYMP:0000892 sensation perception	nervous system symptom		
+ARIS:0000379	Paralysis	4	5	SYMP:0000480 nervous system symptom	nervous system symptom		
+ARIS:0000713	Pyramidal tract signs / extensor plantar responses (Babinski sign)	1	0	SYMP:0000249 reflex symptom	nervous system symptom		
+ARIS:0000416	Rapidly progressive, symmetric sensorimotor polyradiculoneuropathy	1	0	SYMP:0000336 neurological dysfunction	nervous system symptom		
+ARIS:0000425	Recurrent transient ischemic attacks	1	0	SYMP:0000480 nervous system symptom	nervous system symptom		
+ARIS:0000435	Reduced reflexes	3	3	SYMP:0000249 reflex symptom	nervous system symptom		
+ARIS:0000454	Seizures	15	7	SYMP:0000480 nervous system symptom	nervous system symptom		
+ARIS:0000458	Sensitivity to touch	1	1	SYMP:0000892 sensation perception	nervous system symptom		
+ARIS:0000493	Sore throat	4	0	SYMP:0000099 pain	nervous system symptom		
+ARIS:0000753	Sympathetic adrenergic symptoms (sweating, palpitations, tremors)	1	0	SYMP:0000480 nervous system symptom	nervous system symptom		compound (#164): Sweating; Palpitations; Tremor
+ARIS:0000016	Altered level of consciousness	1	2	SYMP:0000410 neurological and physiological symptom	neurological and physiological symptom		
+ARIS:0000018	Anxiety	10	3	SYMP:0000410 neurological and physiological symptom	neurological and physiological symptom		
+ARIS:0000090	Cognitive impairment	6	11	SYMP:0000410 neurological and physiological symptom	neurological and physiological symptom		
+ARIS:0000095	Coma	1	0	SYMP:0000482 alteration of consciousness	neurological and physiological symptom		
+ARIS:0000098	Confusion	9	2	SYMP:0020045 balance symptom	neurological and physiological symptom		
+ARIS:0000144	Disorientation	2	0	SYMP:0000016 confusion	neurological and physiological symptom		
+ARIS:0000146	Dizziness	19	1	SYMP:0020045 balance symptom	neurological and physiological symptom		
+ARIS:0000149	Drowsiness	5	0	SYMP:0000410 neurological and physiological symptom	neurological and physiological symptom		
+ARIS:0000186	Fainting	2	1	SYMP:0000482 alteration of consciousness	neurological and physiological symptom		
+ARIS:0000190	Fatigue	77	4	SYMP:0000410 neurological and physiological symptom	neurological and physiological symptom		
+ARIS:0000196	Fever	45	2	SYMP:0000410 neurological and physiological symptom	neurological and physiological symptom		
+ARIS:0000285	Loss of consciousness	1	0	SYMP:0000410 neurological and physiological symptom	neurological and physiological symptom		
+ARIS:0000301	Malaise	6	0	SYMP:0000410 neurological and physiological symptom	neurological and physiological symptom		
+ARIS:0000486	Sluggishness	1	0	SYMP:0019177 fatigue	neurological and physiological symptom		
+ARIS:0000555	Unsteadiness	1	5	SYMP:0020045 balance symptom	neurological and physiological symptom		
+ARIS:0000562	Vertigo	3	0	SYMP:0000610 dizziness	neurological and physiological symptom		
+ARIS:0000017	Anorexia	1	0	SYMP:0000473 nutrition, metabolism, and development symptom	nutrition, metabolism, and development symptom		
+ARIS:0000114	Dehydration	1	1	SYMP:0000473 nutrition, metabolism, and development symptom	nutrition, metabolism, and development symptom		
+ARIS:0000115	Delayed growth	2	2	SYMP:0000464 lack of expected normal physiological development in childhood	nutrition, metabolism, and development symptom		
+ARIS:0000117	Delayed puberty	2	0	SYMP:0000464 lack of expected normal physiological development in childhood	nutrition, metabolism, and development symptom		
+ARIS:0000121	Development regression	1	0	SYMP:0000473 nutrition, metabolism, and development symptom	nutrition, metabolism, and development symptom		
+ARIS:0000122	Diabetic ketoacidosis (DKA)	1	1	SYMP:0000473 nutrition, metabolism, and development symptom	nutrition, metabolism, and development symptom		
+ARIS:0000129	Difficulty eating	1	0	SYMP:0000522 feeding difficulties and mismanagement	nutrition, metabolism, and development symptom		
+ARIS:0000160	Early-onset type 1 diabetes mellitus	1	1	SYMP:0000473 nutrition, metabolism, and development symptom	nutrition, metabolism, and development symptom		
+ARIS:0000185	Failure to thrive	2	1	SYMP:0000464 lack of expected normal physiological development in childhood	nutrition, metabolism, and development symptom		
+ARIS:0000193	Feeling full quickly after eating	2	0	SYMP:0000473 nutrition, metabolism, and development symptom	nutrition, metabolism, and development symptom		
+ARIS:0000242	Hunger	3	0	SYMP:0000244 alteration of appetite	nutrition, metabolism, and development symptom		
+ARIS:0000663	Hyperlipidemia and lipiduria	1	0	SYMP:0000473 nutrition, metabolism, and development symptom	nutrition, metabolism, and development symptom		compound (#164): Hyperlipidemia; Lipiduria
+ARIS:0000667	Hypoglycemia occurring primarily postprandially (2–4 hours after meal) or post-exercise	1	0	SYMP:0000473 nutrition, metabolism, and development symptom	nutrition, metabolism, and development symptom		
+ARIS:0000668	Hypopituitarism	1	0	SYMP:0000473 nutrition, metabolism, and development symptom	nutrition, metabolism, and development symptom		
+ARIS:0000247	Increased appetite (polyphagia)	1	1	SYMP:0000473 nutrition, metabolism, and development symptom	nutrition, metabolism, and development symptom		
+ARIS:0000389	Polydipsia	4	1	SYMP:0000473 nutrition, metabolism, and development symptom	nutrition, metabolism, and development symptom		
+ARIS:0000392	Poor weight gain	1	0	SYMP:0020012 weight symptom	nutrition, metabolism, and development symptom		
+ARIS:0000395	Problems with metabolism	1	0	SYMP:0000473 nutrition, metabolism, and development symptom	nutrition, metabolism, and development symptom		
+ARIS:0000723	Recurrent, severe spontaneous neuroglycopenic hypoglycemia (confusion, coma, seizures)	1	0	SYMP:0000473 nutrition, metabolism, and development symptom	nutrition, metabolism, and development symptom		compound (#164): Hypoglycemia; Confusion; Coma; Seizures
+ARIS:0000724	Refractory extreme hypertriglyceridemia (>1,000–2,000 mg/dL) with lactescent/milky serum	1	0	SYMP:0000473 nutrition, metabolism, and development symptom	nutrition, metabolism, and development symptom		
+ARIS:0000443	Salt craving	1	0	SYMP:0000244 alteration of appetite	nutrition, metabolism, and development symptom		
+ARIS:0000738	Severe hypoalbuminemia (<3.0 g/dL)	1	0	SYMP:0000473 nutrition, metabolism, and development symptom	nutrition, metabolism, and development symptom		
+ARIS:0000747	Severe, refractory hyperglycemia despite extreme doses of exogenous insulin (>1,000 U/day)	1	0	SYMP:0000473 nutrition, metabolism, and development symptom	nutrition, metabolism, and development symptom		
+ARIS:0000581	Weight gain	4	0	SYMP:0020012 weight symptom	nutrition, metabolism, and development symptom		
+ARIS:0000582	Weight loss	43	5	SYMP:0020012 weight symptom	nutrition, metabolism, and development symptom		
+ARIS:0000011	Absent menstrual period	1	0	SYMP:0000196 reproductive system symptom	reproductive system symptom		
+ARIS:0000035	Bleeding between menstrual cycles	2	0	SYMP:0000756 menorrhagia	reproductive system symptom		
+ARIS:0000210	Galactorrhea	1	0	SYMP:0000196 reproductive system symptom	reproductive system symptom		
+ARIS:0000230	Heavy menstrual flow	6	0	SYMP:0000196 reproductive system symptom	reproductive system symptom		
+ARIS:0000231	Heavy vaginal discharge that has a foul odor	1	0	SYMP:0000398 vaginal discharge	reproductive system symptom		
+ARIS:0000251	Infertility	6	0	SYMP:0000196 reproductive system symptom	reproductive system symptom		
+ARIS:0000314	Miscarriages	2	0	SYMP:0000196 reproductive system symptom	reproductive system symptom		
+ARIS:0000468	Sexual dysfunction	1	2	SYMP:0000196 reproductive system symptom	reproductive system symptom		
+ARIS:0000749	Signs of hyperandrogenism (severe hirsutism, virilization, amenorrhea) in women	1	0	SYMP:0000196 reproductive system symptom	reproductive system symptom		compound (#164): Hirsutism; Virilization; Amenorrhea
+ARIS:0000502	Stillbirths	1	0	SYMP:0000196 reproductive system symptom	reproductive system symptom		
+ARIS:0000559	Vaginal dryness	1	0	SYMP:0000196 reproductive system symptom	reproductive system symptom		
+ARIS:0000561	Vaginal ulcers	1	0	SYMP:0000196 reproductive system symptom	reproductive system symptom		
+ARIS:0000619	Bibasilar inspiratory crackles	1	1	SYMP:0000118 rales	respiratory system and chest symptom		
+ARIS:0000623	Bronchiolitis obliterans leading to progressive, fatal respiratory failure	1	0	SYMP:0000643 respiratory failure	respiratory system and chest symptom		compound (#164): Bronchiolitis obliterans; Respiratory failure
+ARIS:0000102	Cough	12	3	SYMP:0000514 respiratory system and chest symptom	respiratory system and chest symptom		
+ARIS:0000103	Coughing up blood	2	1	SYMP:0000514 respiratory system and chest symptom	respiratory system and chest symptom		
+ARIS:0000649	Early-onset interstitial lung disease / pulmonary hemorrhage	1	0	SYMP:0000514 respiratory system and chest symptom	respiratory system and chest symptom		compound (#164): Interstitial lung disease; Pulmonary hemorrhage
+ARIS:0000188	Fast breathing	1	0	SYMP:0000598 respiratory abnormality	respiratory system and chest symptom		
+ARIS:0000229	Heaviness in chest	1	0	SYMP:0020031 chest discomfort	respiratory system and chest symptom		
+ARIS:0000234	Hiccups	2	0	SYMP:0000514 respiratory system and chest symptom	respiratory system and chest symptom		
+ARIS:0000236	High-pitched sound during breathing	1	1	SYMP:0000587 abnormal chest sound	respiratory system and chest symptom		
+ARIS:0000253	Interstitial pneumonia	1	1	SYMP:0000354 pneumonitis	respiratory system and chest symptom		
+ARIS:0000330	Nasal congestion	3	0	SYMP:0000237 congestion	respiratory system and chest symptom		
+ARIS:0000715	Rapidly progressive interstitial lung disease with hypoxemic respiratory failure	1	0	SYMP:0000643 respiratory failure	respiratory system and chest symptom		compound (#164): Interstitial lung disease; Respiratory failure
+ARIS:0000470	Shortness of breath	42	1	SYMP:0000598 respiratory abnormality	respiratory system and chest symptom		
+ARIS:0000583	Wheezing	2	0	SYMP:0000587 abnormal chest sound	respiratory system and chest symptom		
+ARIS:0000008	Abnormal lumps below skin	6	1	SYMP:0000488 skin and integumentary tissue symptom	skin and integumentary tissue symptom		
+ARIS:0000010	Abnormal skin blood vessels	1	0	SYMP:0000488 skin and integumentary tissue symptom	skin and integumentary tissue symptom		
+ARIS:0000042	Blisters	10	23	SYMP:0000488 skin and integumentary tissue symptom	skin and integumentary tissue symptom		
+ARIS:0000053	Bluish coloring of hands/feet	10	0	SYMP:0000537 cyanosis	skin and integumentary tissue symptom		
+ARIS:0000063	Bumps on skin containing pus	2	0	SYMP:0000488 skin and integumentary tissue symptom	skin and integumentary tissue symptom		
+ARIS:0000079	Changes in hair	1	1	SYMP:0000488 skin and integumentary tissue symptom	skin and integumentary tissue symptom		
+ARIS:0000080	Changes in nails	1	4	SYMP:0000488 skin and integumentary tissue symptom	skin and integumentary tissue symptom		
+ARIS:0000111	Decreased sweating	3	1	SYMP:0000488 skin and integumentary tissue symptom	skin and integumentary tissue symptom		
+ARIS:0000142	Discomfort, which is generally greater if lichen sclerosus appears on or around your genital or anal areas	1	0	SYMP:0000488 skin and integumentary tissue symptom	skin and integumentary tissue symptom		
+ARIS:0000153	Dry skin	2	1	SYMP:0000535 change in skin texture	skin and integumentary tissue symptom		
+ARIS:0000161	Easy bruising	9	0	SYMP:0000488 skin and integumentary tissue symptom	skin and integumentary tissue symptom		
+ARIS:0000165	Electric-shock sensations that occur with certain head movements	1	0	SYMP:0000435 paresthesia	skin and integumentary tissue symptom		
+ARIS:0000652	Eruptive cutaneous xanthomas on extensor surfaces and buttocks	1	0	SYMP:0000488 skin and integumentary tissue symptom	skin and integumentary tissue symptom		
+ARIS:0000172	Excessive sweating	3	0	SYMP:0019175 sweaty	skin and integumentary tissue symptom		
+ARIS:0000654	Extensive eczematous or psoriasiform dermatitis	1	0	SYMP:0000488 skin and integumentary tissue symptom	skin and integumentary tissue symptom		
+ARIS:0000655	Extensive subcutaneous calcinosis (calcinosis cutis)	1	0	SYMP:0000488 skin and integumentary tissue symptom	skin and integumentary tissue symptom		
+ARIS:0000191	Fatty deposits on the skin around your eyes, your eyelids, or in the creases in your palms, soles, elbows or knees	1	0	SYMP:0000488 skin and integumentary tissue symptom	skin and integumentary tissue symptom		
+ARIS:0000659	Gottron's papules	2	0	SYMP:0000346 papule	skin and integumentary tissue symptom		
+ARIS:0000218	Hair loss	9	6	SYMP:0020040 hair symptom	skin and integumentary tissue symptom		
+ARIS:0000239	Hives	6	0	SYMP:0000488 skin and integumentary tissue symptom	skin and integumentary tissue symptom		
+ARIS:0000243	Hyperpigmentation	3	0	SYMP:0000488 skin and integumentary tissue symptom	skin and integumentary tissue symptom		
+ARIS:0000671	Immune-related maculopapular dermatitis and vitiligo-like depigmentation	1	0	SYMP:0000488 skin and integumentary tissue symptom	skin and integumentary tissue symptom		compound (#164): Maculopapular rash; Depigmentation
+ARIS:0000259	Itching	8	2	SYMP:0000488 skin and integumentary tissue symptom	skin and integumentary tissue symptom		
+ARIS:0000275	Lesions	2	3	SYMP:0000092 skin lesion	skin and integumentary tissue symptom		
+ARIS:0000300	Lumps turn blue or yellow	1	0	SYMP:0000488 skin and integumentary tissue symptom	skin and integumentary tissue symptom		
+ARIS:0000337	Nodules in fingers	1	0	SYMP:0000556 localized superficial lump	skin and integumentary tissue symptom		
+ARIS:0000338	Nodules in heel	1	0	SYMP:0000556 localized superficial lump	skin and integumentary tissue symptom		
+ARIS:0000339	Nodules in toes	1	0	SYMP:0000556 localized superficial lump	skin and integumentary tissue symptom		
+ARIS:0000347	Orange peel appearance of skin of the extremities	1	0	SYMP:0000535 change in skin texture	skin and integumentary tissue symptom		
+ARIS:0000348	Oval-shaped patches	1	0	SYMP:0000092 skin lesion	skin and integumentary tissue symptom		
+ARIS:0000373	Painful red bumps that enlarge, break open, and drain pus. the pus may have an unpleasant odor	1	0	SYMP:0019160 boil	skin and integumentary tissue symptom		
+ARIS:0000375	Painful, fatty lumps	1	0	SYMP:0000556 localized superficial lump	skin and integumentary tissue symptom		
+ARIS:0000376	Painful, symmetrical lumps	1	0	SYMP:0000556 localized superficial lump	skin and integumentary tissue symptom		
+ARIS:0000377	Pale skin	3	0	SYMP:0000488 skin and integumentary tissue symptom	skin and integumentary tissue symptom		
+ARIS:0000694	Palmar hyperkeratotic papules / inverse Gottron's	1	0	SYMP:0000346 papule	skin and integumentary tissue symptom		
+ARIS:0000695	Palmar violaceous papules / inverse Gottron's	1	0	SYMP:0000346 papule	skin and integumentary tissue symptom		
+ARIS:0000385	Peeling skin	1	0	SYMP:0000488 skin and integumentary tissue symptom	skin and integumentary tissue symptom		
+ARIS:0000391	Poor skin rigidity	1	0	SYMP:0000535 change in skin texture	skin and integumentary tissue symptom		
+ARIS:0000709	Prominent 'V-sign', 'shawl sign', and extensive poikiloderma	1	0	SYMP:0000488 skin and integumentary tissue symptom	skin and integumentary tissue symptom		compound (#164): V-sign; Shawl sign; Poikiloderma
+ARIS:0000406	Protein-losing enteropathy with severe hypoalbuminemia and anasarca	1	0	SYMP:0000433 anasarca	skin and integumentary tissue symptom		compound (#164): Protein-losing enteropathy; Hypoalbuminemia; Anasarca
+ARIS:0000409	Purple skin where blood has collected just beneath the surface of the skin	1	0	SYMP:0000488 skin and integumentary tissue symptom	skin and integumentary tissue symptom		
+ARIS:0000411	Purplish, flat-topped bumps, on inner forearm, wrist or ankle, and sometimes on the genitals	1	0	SYMP:0000346 papule	skin and integumentary tissue symptom		
+ARIS:0000413	Raised and tender/painful nodules on the skin, especially on the lower legs	1	0	SYMP:0000092 skin lesion	skin and integumentary tissue symptom		
+ARIS:0000717	Rapidly progressive, extensive, velvety acanthosis nigricans in skin folds	1	0	SYMP:0000488 skin and integumentary tissue symptom	skin and integumentary tissue symptom		
+ARIS:0000417	Rash	27	21	SYMP:0000488 skin and integumentary tissue symptom	skin and integumentary tissue symptom		
+ARIS:0000719	Reactive pustular/neutrophilic dermatoses (Sweet-like)	1	0	SYMP:0000488 skin and integumentary tissue symptom	skin and integumentary tissue symptom		
+ARIS:0000444	Scaling of the scalp	1	0	SYMP:0000488 skin and integumentary tissue symptom	skin and integumentary tissue symptom		
+ARIS:0000448	Scaly-appearing skin	1	0	SYMP:0000535 change in skin texture	skin and integumentary tissue symptom		
+ARIS:0000449	Scarring	2	2	SYMP:0000488 skin and integumentary tissue symptom	skin and integumentary tissue symptom		
+ARIS:0000475	Skin discoloration	12	2	SYMP:0000488 skin and integumentary tissue symptom	skin and integumentary tissue symptom		
+ARIS:0000476	Skin disorders	1	0	SYMP:0000488 skin and integumentary tissue symptom	skin and integumentary tissue symptom		
+ARIS:0000477	Skin hardening	2	2	SYMP:0000535 change in skin texture	skin and integumentary tissue symptom		
+ARIS:0000481	Skin sores	8	3	SYMP:0000092 skin lesion	skin and integumentary tissue symptom		
+ARIS:0000482	Skin temperature changes	1	0	SYMP:0000488 skin and integumentary tissue symptom	skin and integumentary tissue symptom		
+ARIS:0000483	Skin texture changes	3	0	SYMP:0000488 skin and integumentary tissue symptom	skin and integumentary tissue symptom		
+ARIS:0000487	Small pitted areas of skin containing blackheads	1	0	SYMP:0000488 skin and integumentary tissue symptom	skin and integumentary tissue symptom		
+ARIS:0000488	Small red bumps	1	1	SYMP:0000488 skin and integumentary tissue symptom	skin and integumentary tissue symptom		
+ARIS:0000492	Solid swellings of congealed blood	1	1	SYMP:0000488 skin and integumentary tissue symptom	skin and integumentary tissue symptom		
+ARIS:0000497	Spots	1	3	SYMP:0000092 skin lesion	skin and integumentary tissue symptom		
+ARIS:0000534	Thickened red skin	1	0	SYMP:0000535 change in skin texture	skin and integumentary tissue symptom		
+ARIS:0000537	Thinning of skin	1	0	SYMP:0000535 change in skin texture	skin and integumentary tissue symptom		
+ARIS:0000543	Tingling	14	5	SYMP:0000488 skin and integumentary tissue symptom	skin and integumentary tissue symptom		
+ARIS:0000569	Wart-like plaques on areas of the skin, such as the armpit, neck, groin, and breasts	1	0	SYMP:0000488 skin and integumentary tissue symptom	skin and integumentary tissue symptom		
+ARIS:0000585	When blood starts to return to these areas, fingers or toes that turn red, burn, throb, experience numbness, or tingle.	1	0	SYMP:0000488 skin and integumentary tissue symptom	skin and integumentary tissue symptom		compound (#164): Redness; Burning; Throbbing; Numbness; Tingling
+ARIS:0000595	Yellow skin	7	0	SYMP:0000488 skin and integumentary tissue symptom	skin and integumentary tissue symptom		
+ARIS:0000006	Abnormal bladder control	1	1	SYMP:0000486 urinary system symptom	urinary system symptom		
+ARIS:0000599	Acute oliguric renal failure / azotemia	1	0	SYMP:0000731 renal failure	urinary system symptom		compound (#164): Oliguria; Renal failure; Azotemia
+ARIS:0000030	Bedwetting	1	0	SYMP:0000492 urinary incontinence	urinary system symptom		
+ARIS:0000033	Bladder changes	1	0	SYMP:0000486 urinary system symptom	urinary system symptom		
+ARIS:0000052	Blood in urine	7	0	SYMP:0000486 urinary system symptom	urinary system symptom		
+ARIS:0000109	Dark urine	6	1	SYMP:0000486 urinary system symptom	urinary system symptom		
+ARIS:0000640	Diabetes insipidus (polyuria, polydipsia)	1	0	SYMP:0000486 urinary system symptom	urinary system symptom		compound (#164): Polyuria; Polydipsia
+ARIS:0000139	Difficulty urinating	2	1	SYMP:0000573 urinary stream symptom	urinary system symptom		
+ARIS:0000205	Foamy, frothy urine	2	0	SYMP:0000486 urinary system symptom	urinary system symptom		
+ARIS:0000661	Heavy nephrotic-range proteinuria (>3.5 g/24h) with foamy urine	1	0	SYMP:0000367 proteinuria	urinary system symptom		compound (#164): Proteinuria; Foamy urine
+ARIS:0000669	Immune complex-mediated glomerulonephritis	1	0	SYMP:0000098 nephritis	urinary system symptom		
+ARIS:0000249	Increased frequency of urination	4	0	SYMP:0000486 urinary system symptom	urinary system symptom		
+ARIS:0000335	Nocturia	2	1	SYMP:0000486 urinary system symptom	urinary system symptom		
+ARIS:0000390	Polyuria	2	1	SYMP:0000486 urinary system symptom	urinary system symptom		
+ARIS:0000437	Renal dysfunction (azotemia, proteinuria, hematuria)	1	0	SYMP:0000763 renal alteration	urinary system symptom		compound (#164): Azotemia; Proteinuria; Blood in urine
+ARIS:0000558	Urogenital bleeding	1	0	SYMP:0000486 urinary system symptom	urinary system symptom		
+ARIS:0000656	Extraintestinal manifestations (peripheral arthritis, uveitis, aphthae)	1	0	SYMP:0000462 symptom			compound (#164): Arthritis; Uveitis; Mouth ulcers; SYMP files it under its root, so it has no group until #164 splits it

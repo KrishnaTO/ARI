@@ -92,3 +92,32 @@ mapped symptoms, 310 match an HPO term exactly ("Brittle fingernails" → *Fragi
 196 for SYMP, and 452 map to a broader HPO term. Three have no HPO term at all: Dizziness, Stiffness
 and Swelling. HPO has only narrower terms for these, such as *Vertigo*, *Joint stiffness* and *Edema*.
 The parent hierarchy is unchanged: parents come from ARI or SYMP, never from HPO.
+
+## Body-system groups (draft)
+
+313 symptoms sit directly under `Symptom`, so the top of the tree is flat. Each already has a SYMP
+parent, and SYMP files every term under one of 14 top-level categories ("skin and integumentary
+tissue symptom", "nervous system symptom", ...). `propose_body_systems.py` proposes the category
+above a symptom's SYMP parent as its group, and writes the review table `review/body_systems.tsv`.
+It changes no OWL file.
+
+```
+python notebook/symptom-mapping/propose_body_systems.py
+```
+
+| Column | Description |
+|--------|-------------|
+| symptom_id / symptom | The top-level ARIS class |
+| diseases | How many diseases list it |
+| children | How many ARIS classes sit under it |
+| symp_parent | Its SYMP parent today |
+| proposed_group | The SYMP top-level category above that parent |
+| decision | The reviewer's call: accept the group, or name another |
+| note | Context for the reviewer |
+
+312 symptoms get exactly one group. "Extraintestinal manifestations (peripheral arthritis, uveitis,
+aphthae)" has SYMP's root as its parent, so it has none. It is one of the 40 compound symptoms
+flagged in `note`: #164 will break compounds into their component symptoms, which may belong to
+different groups. A rebuild keeps `decision` and `note`, and stops rather than drop a row that has
+them. Once the table is reviewed, the plan is for each group to become an ARIS class under
+`Symptom`, matched to its SYMP category, with the symptoms moved under it.
