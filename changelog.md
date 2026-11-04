@@ -1,5 +1,30 @@
 # Changelog
 
+## report-4-site-symptoms
+
+Report 4's Symptoms sheet now lists, for each disease, exactly what its profile on the registry site
+(<https://diseases.autoimmuneregistry.org/Autoimmune-diseases>) shows, in the site's order. The sheet
+had been copied from the master list, which holds rows the site never showed and orders some
+diseases differently. Order matters because a heading heads the entries after it: for Acquired
+epidermolysis bullosa, the sheet put "Blisters" under "Non-inflammatory EBA:", while the site lists
+it above every subtype heading. Report 13 (ARI#163) reads headings and their entries from this sheet.
+- **Snapshot.** `notebook/symptom-mapping/fetch_site_symptoms.py` writes
+  `data/1-master/Site Symptoms - 2026-11-04.tsv`: 2,038 entries over 159 profiles, numbered as the
+  site numbers them, with headings marked.
+- **Alignment.** `align_symptoms_to_site.py` rewrites the sheet from the snapshot. It dropped 46 rows:
+  7 search terms marked `find` ("Double vision", "Butterfly-shaped rash") and 39 the master list
+  appended, including every symptom of Takayasu's arteritis (the site lists it as a synonym of
+  Temporal arteritis) and of anti-NMDA receptor encephalitis (its profile lists none). It added the two
+  site entries the sheet lacked: "Yellow eyes" for immune thrombocytopenia, and the note "Eba symptoms
+  may mimic bullous pemphigoid and bullous systemic lupus erythematosus", marked `not a symptom` in
+  Symptom Mapping like the other notes. It reordered 80 diseases, renumbered `seq` and recounted the
+  Index sheet. That recount also corrects three counts that were wrong before (ARI:0001127,
+  ARI:0001147 and ARI:0001193).
+- `build_symptom_report.py` was rerun to refill the mapping columns and the Symptom Mapping counts.
+
+No ontology change: `ari_disease.owl` still lists the dropped symptoms for anti-NMDA receptor
+encephalitis (14) and Takayasu's arteritis (15).
+
 ## biomarker-concepts
 
 Builds the tooling for biomarker concepts (Project 2 of the ontology modules work, designed under
