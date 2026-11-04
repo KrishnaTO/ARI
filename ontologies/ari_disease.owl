@@ -44060,6 +44060,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001001_11">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomOfSubtype>Mucous membrane EBA</symptomOfSubtype>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000047"/>
         <rdfs:label>Blisters on various mucous membranes</rdfs:label>
@@ -44071,6 +44072,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001001_12">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomOfSubtype>Mucous membrane EBA</symptomOfSubtype>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000449"/>
         <rdfs:label>Scarring</rdfs:label>
@@ -44115,6 +44117,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001001_2">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomOfSubtype>Non-inflammatory EBA</symptomOfSubtype>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000532"/>
         <rdfs:label>Tense, blood- or pus-filled blisters, mostly on the hands, knees, knuckles, elbows and ankles</rdfs:label>
@@ -44137,6 +44140,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001001_4">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomOfSubtype>Non-inflammatory EBA</symptomOfSubtype>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000320"/>
         <rdfs:label>Mucous-membrane blisters that rupture easily</rdfs:label>
@@ -44148,6 +44152,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001001_5">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomOfSubtype>Non-inflammatory EBA</symptomOfSubtype>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000584"/>
         <rdfs:label>When blisters heal they form scars and sometimes tiny white bumps</rdfs:label>
@@ -44159,6 +44164,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001001_7">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomOfSubtype>Inflammatory EBA</symptomOfSubtype>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000589"/>
         <rdfs:label>Widespread blisters that are not localized to trauma-prone sites</rdfs:label>
@@ -44170,6 +44176,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001001_8">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomOfSubtype>Inflammatory EBA</symptomOfSubtype>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000590"/>
         <rdfs:label>Widespread redness and itching</rdfs:label>
@@ -50534,6 +50541,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001065_552">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomOfSubtype>Borrelia mayonii infection</symptomOfSubtype>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000331"/>
         <rdfs:label>Nausea</rdfs:label>
@@ -50545,6 +50553,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001065_553">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomOfSubtype>Borrelia mayonii infection</symptomOfSubtype>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000568"/>
         <rdfs:label>Vomiting</rdfs:label>
@@ -50556,6 +50565,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001065_554">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomOfSubtype>Borrelia mayonii infection</symptomOfSubtype>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000059"/>
         <rdfs:label>Brain fog</rdfs:label>
@@ -60376,6 +60386,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001154_1448">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomOfSubtype>Pemphigus vulgaris</symptomOfSubtype>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000043"/>
         <rdfs:label>Blisters are painful but do not itch</rdfs:label>
@@ -60387,6 +60398,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001154_1449">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomOfSubtype>Pemphigus vulgaris</symptomOfSubtype>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000040"/>
         <rdfs:label>Blister inside throat</rdfs:label>
@@ -60398,6 +60410,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001154_1450">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomOfSubtype>Pemphigus vulgaris</symptomOfSubtype>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000039"/>
         <rdfs:label>Blister inside mouth</rdfs:label>
@@ -60409,6 +60422,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001154_1451">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomOfSubtype>Pemphigus vulgaris</symptomOfSubtype>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000214"/>
         <rdfs:label>Genital blisters</rdfs:label>
@@ -60420,6 +60434,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001154_1453">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomOfSubtype>Pemphigus foliaceus</symptomOfSubtype>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000075"/>
         <rdfs:label>Causes blisters on the chest, back and shoulders</rdfs:label>
@@ -60442,6 +60457,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001154_1455">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomOfSubtype>Pemphigus foliaceus</symptomOfSubtype>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000260"/>
         <rdfs:label>Itchy blisters</rdfs:label>
@@ -64621,6 +64637,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001186_1860">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomOfSubtype>Lofgren&apos;s syndrome</symptomOfSubtype>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000196"/>
         <rdfs:label>Fever</rdfs:label>
@@ -64632,6 +64649,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001186_1861">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomOfSubtype>Lofgren&apos;s syndrome</symptomOfSubtype>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000263"/>
         <rdfs:label>Joint pain</rdfs:label>
@@ -72641,14 +72659,7 @@
         <hasPathwayStep rdf:resource="http://www.aurint.org/ontologies/ari-disease#Path_0001001_3"/>
         <hasPathwayStep rdf:resource="http://www.aurint.org/ontologies/ari-disease#Path_0001001_4"/>
         <hasPathwayStep rdf:resource="http://www.aurint.org/ontologies/ari-disease#Path_0001001_5"/>
-        <hasSymptom rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001001_11"/>
-        <hasSymptom rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001001_12"/>
-        <hasSymptom rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001001_2"/>
         <hasSymptom rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001001_3"/>
-        <hasSymptom rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001001_4"/>
-        <hasSymptom rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001001_5"/>
-        <hasSymptom rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001001_7"/>
-        <hasSymptom rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001001_8"/>
         <involvesAPC rdf:resource="http://www.aurint.org/ontologies/ari-disease#APC_0001001_1"/>
         <involvesAntigen rdf:resource="http://www.aurint.org/ontologies/ari-disease#Antigen_0001001_1"/>
         <involvesTCell rdf:resource="http://www.aurint.org/ontologies/ari-disease#T_0001001_1"/>
@@ -78019,9 +78030,6 @@ Currently, the cause of interstitial cystitis is unknown. There are two main the
         <hasSymptom rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001065_548"/>
         <hasSymptom rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001065_549"/>
         <hasSymptom rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001065_550"/>
-        <hasSymptom rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001065_552"/>
-        <hasSymptom rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001065_553"/>
-        <hasSymptom rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001065_554"/>
         <hasSymptom rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001065_555"/>
         <hasSymptom rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001065_556"/>
         <targetsTissue rdf:resource="http://www.aurint.org/ontologies/ari-disease#Tissue_Musculoskeletal"/>
@@ -85973,12 +85981,6 @@ Patients with GO experience swelling in the tissues, muscles, and fat in the eye
         <hasSymptom rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001154_1444"/>
         <hasSymptom rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001154_1445"/>
         <hasSymptom rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001154_1446"/>
-        <hasSymptom rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001154_1448"/>
-        <hasSymptom rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001154_1449"/>
-        <hasSymptom rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001154_1450"/>
-        <hasSymptom rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001154_1451"/>
-        <hasSymptom rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001154_1453"/>
-        <hasSymptom rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001154_1455"/>
         <hasSymptom rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001154_1457"/>
         <involvesAPC rdf:resource="http://www.aurint.org/ontologies/ari-disease#APC_0001154_1"/>
         <involvesAntigen rdf:resource="http://www.aurint.org/ontologies/ari-disease#Antigen_0001154_1"/>
@@ -88734,8 +88736,6 @@ There is no cure, though treatments to manage symptoms are available.  Prognosis
         <hasSymptom rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001186_1856"/>
         <hasSymptom rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001186_1857"/>
         <hasSymptom rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001186_1858"/>
-        <hasSymptom rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001186_1860"/>
-        <hasSymptom rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001186_1861"/>
         <hasSymptom rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001186_1862"/>
         <targetsTissue rdf:resource="http://www.aurint.org/ontologies/ari-disease#Tissue_Systemic"/>
         <demographicBias>Female:male ratio 1.4. Regions with very high prevalence: Northern Europe, Scandinavia (Sweden: 60/100,000) and African American populations in the US (~35-40/100,000)</demographicBias>
