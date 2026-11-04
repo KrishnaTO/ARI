@@ -37,7 +37,7 @@ This repository supports the curated disease model behind the editor:
 | Path | Purpose | In git? |
 | --- | --- | --- |
 | `data/0-archive/` | Superseded working material | no |
-| `data/1-master/` | The curated master list | yes |
+| `data/1-master/` | The curated master list, and a snapshot of the registry site's symptom lists | yes |
 | `data/2-databases/` | Large raw ontology release dumps — local scratch, re-downloadable | **no** |
 | `data/3-meta-database-sources/` | Supporting source tables | yes |
 | `data/4-reports/` | Generated report outputs | yes |

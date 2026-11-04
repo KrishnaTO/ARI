@@ -58,6 +58,8 @@ The database folder is not tracked in git, so pass the path of a checkout that h
 `hp.obo` (from <http://purl.obolibrary.org/obo/symp.owl> and <http://purl.obolibrary.org/obo/hp.obo>).
 
 ```
+python notebook/symptom-mapping/fetch_site_symptoms.py
+python notebook/symptom-mapping/align_symptoms_to_site.py "data/1-master/Site Symptoms - <date>.tsv"
 python notebook/symptom-mapping/build_symp_import.py <path to data/2-databases>
 wsl -e tools/format-owl.sh ontologies/ari_symp.owl
 python notebook/symptom-mapping/build_symptom_report.py <path to data/2-databases>
@@ -66,6 +68,14 @@ python notebook/symptom-mapping/build_non_symptom_review.py
 
 Run every line from the repository root; Java for the formatter is in WSL (see `CLAUDE.md`).
 
+- **`fetch_site_symptoms.py`** snapshots the symptom list of every disease profile on the registry
+  site into `data/1-master/Site Symptoms - <date>.tsv`, in the site's order, marking headings. It is
+  the only step that goes online; run it when the site changes.
+- **`align_symptoms_to_site.py`** makes report 4's Symptoms sheet list exactly the snapshot's entries
+  per disease, in its order: it drops rows the site does not show, adds entries it lacks, renumbers
+  `seq` and recounts the Index sheet. A kept row keeps its text and cells. A disease whose name is not
+  a site profile's needs an entry in its `SITE_PAGE`. Run `build_symptom_report.py` after it; that
+  stops on an added string the ontology does not know, which then needs a mapping decision.
 - **`build_symp_import.py`** writes `ontologies/ari_symp.owl` and nothing else: every SYMP term an
   ARIS class names and its is_a ancestors up to *symptom*, with SYMP's label, id and parents. It
   stops if a linked SYMP term, or a linked HPO term, is missing or obsolete in the release. HPO
@@ -87,7 +97,7 @@ Run every line from the repository root; Java for the formatter is in WSL (see `
 
 ## Counts
 
-196 exact, 569 broader, 63 merged, 75 not a symptom. 452 symptoms group under one of 148 ARI parent
+196 exact, 569 broader, 63 merged, 76 not a symptom. 452 symptoms group under one of 148 ARI parent
 symptoms. A symptom without an ARI parent takes its parent from SYMP: the SYMP term for a broader
 mapping, or the SYMP term's own parent for an exact one (Blisters → *skin and integumentary tissue
 symptom*).
