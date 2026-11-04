@@ -53,8 +53,8 @@ ARIS:0000530	Tenderness	8	4	SYMP:0000567 general symptom	general symptom
 ARIS:0000553	Tremor	4	5	SYMP:0000567 general symptom	general symptom		
 ARIS:0000571	Weakness	47	15	SYMP:0000567 general symptom	general symptom		
 ARIS:0000764	Weight loss, low-grade fevers, and cyanosis in advanced disease	1	0	SYMP:0000567 general symptom	general symptom		compound (#164): Weight loss; Fever; Cyanosis
-ARIS:0000615	Autoimmune thyroid disease (hypo- or hyperthyroidism)	1	0	SYMP:0000390 thyroid symptom	head and neck symptom		compound (#164): Hypothyroidism; Hyperthyroidism
-ARIS:0000616	Autoimmune thyroid dysfunction: thyrotoxicosis followed by hypothyroidism	1	0	SYMP:0000390 thyroid symptom	head and neck symptom		
+ARIS:0000615	Autoimmune thyroid disease (hypo- or hyperthyroidism)	1	0	SYMP:0000390 thyroid symptom	head and neck symptom		compound (#164): Hypothyroidism; Hyperthyroidism; could go under endocrine system symptom
+ARIS:0000616	Autoimmune thyroid dysfunction: thyrotoxicosis followed by hypothyroidism	1	0	SYMP:0000390 thyroid symptom	head and neck symptom		could go under endocrine system symptom
 ARIS:0000027	Backwards displacement of eye	1	0	SYMP:0019163 eye symptom	head and neck symptom		
 ARIS:0000622	Bilateral or unilateral painless lacrimal gland enlargement / dacryoadenitis	1	0	SYMP:0019163 eye symptom	head and neck symptom		
 ARIS:0000037	Bleeding gums	2	0	SYMP:0000655 mouth bleeding	head and neck symptom		
@@ -126,7 +126,7 @@ ARIS:0000642	Digital clubbing in advanced fibrotic variants	1	0	SYMP:0000891 mus
 ARIS:0000235	High shoulder blade	1	0	SYMP:0000891 musculoskeletal system symptom	musculoskeletal system symptom		
 ARIS:0000241	Hunched posture	1	0	SYMP:0000618 abnormal posture	musculoskeletal system symptom		
 ARIS:0000248	Increased calf muscle size	1	0	SYMP:0000183 muscle symptom	musculoskeletal system symptom		
-ARIS:0000676	Latent tetany: positive Chvostek's sign (60–75%) & Trousseau's sign	1	0	SYMP:0000619 tetany	musculoskeletal system symptom		compound (#164): Chvostek sign; Trousseau sign
+ARIS:0000676	Latent tetany: positive Chvostek's sign (60–75%) & Trousseau's sign	1	0	SYMP:0000619 tetany	musculoskeletal system symptom		compound (#164): Chvostek sign; Trousseau sign; could go under endocrine system symptom
 ARIS:0000277	Limited range of motion in affected areas	2	0	SYMP:0000891 musculoskeletal system symptom	musculoskeletal system symptom		
 ARIS:0000318	Movement difficulty	1	5	SYMP:0000891 musculoskeletal system symptom	musculoskeletal system symptom		
 ARIS:0000322	Muscle loss	1	2	SYMP:0000183 muscle symptom	musculoskeletal system symptom		
@@ -184,24 +184,24 @@ ARIS:0000114	Dehydration	1	1	SYMP:0000473 nutrition, metabolism, and development
 ARIS:0000115	Delayed growth	2	2	SYMP:0000464 lack of expected normal physiological development in childhood	nutrition, metabolism, and development symptom		
 ARIS:0000117	Delayed puberty	2	0	SYMP:0000464 lack of expected normal physiological development in childhood	nutrition, metabolism, and development symptom		
 ARIS:0000121	Development regression	1	0	SYMP:0000473 nutrition, metabolism, and development symptom	nutrition, metabolism, and development symptom		
-ARIS:0000122	Diabetic ketoacidosis (DKA)	1	1	SYMP:0000473 nutrition, metabolism, and development symptom	nutrition, metabolism, and development symptom		
+ARIS:0000122	Diabetic ketoacidosis (DKA)	1	1	SYMP:0000473 nutrition, metabolism, and development symptom	nutrition, metabolism, and development symptom		could go under endocrine system symptom
 ARIS:0000129	Difficulty eating	1	0	SYMP:0000522 feeding difficulties and mismanagement	nutrition, metabolism, and development symptom		
-ARIS:0000160	Early-onset type 1 diabetes mellitus	1	1	SYMP:0000473 nutrition, metabolism, and development symptom	nutrition, metabolism, and development symptom		
+ARIS:0000160	Early-onset type 1 diabetes mellitus	1	1	SYMP:0000473 nutrition, metabolism, and development symptom	nutrition, metabolism, and development symptom		could go under endocrine system symptom
 ARIS:0000185	Failure to thrive	2	1	SYMP:0000464 lack of expected normal physiological development in childhood	nutrition, metabolism, and development symptom		
 ARIS:0000193	Feeling full quickly after eating	2	0	SYMP:0000473 nutrition, metabolism, and development symptom	nutrition, metabolism, and development symptom		
 ARIS:0000242	Hunger	3	0	SYMP:0000244 alteration of appetite	nutrition, metabolism, and development symptom		
 ARIS:0000663	Hyperlipidemia and lipiduria	1	0	SYMP:0000473 nutrition, metabolism, and development symptom	nutrition, metabolism, and development symptom		compound (#164): Hyperlipidemia; Lipiduria
-ARIS:0000667	Hypoglycemia occurring primarily postprandially (2–4 hours after meal) or post-exercise	1	0	SYMP:0000473 nutrition, metabolism, and development symptom	nutrition, metabolism, and development symptom		
-ARIS:0000668	Hypopituitarism	1	0	SYMP:0000473 nutrition, metabolism, and development symptom	nutrition, metabolism, and development symptom		
+ARIS:0000667	Hypoglycemia occurring primarily postprandially (2–4 hours after meal) or post-exercise	1	0	SYMP:0000473 nutrition, metabolism, and development symptom	nutrition, metabolism, and development symptom		could go under endocrine system symptom
+ARIS:0000668	Hypopituitarism	1	0	SYMP:0000473 nutrition, metabolism, and development symptom	nutrition, metabolism, and development symptom		could go under endocrine system symptom
 ARIS:0000247	Increased appetite (polyphagia)	1	1	SYMP:0000473 nutrition, metabolism, and development symptom	nutrition, metabolism, and development symptom		
 ARIS:0000389	Polydipsia	4	1	SYMP:0000473 nutrition, metabolism, and development symptom	nutrition, metabolism, and development symptom		
 ARIS:0000392	Poor weight gain	1	0	SYMP:0020012 weight symptom	nutrition, metabolism, and development symptom		
 ARIS:0000395	Problems with metabolism	1	0	SYMP:0000473 nutrition, metabolism, and development symptom	nutrition, metabolism, and development symptom		
-ARIS:0000723	Recurrent, severe spontaneous neuroglycopenic hypoglycemia (confusion, coma, seizures)	1	0	SYMP:0000473 nutrition, metabolism, and development symptom	nutrition, metabolism, and development symptom		compound (#164): Hypoglycemia; Confusion; Coma; Seizures
+ARIS:0000723	Recurrent, severe spontaneous neuroglycopenic hypoglycemia (confusion, coma, seizures)	1	0	SYMP:0000473 nutrition, metabolism, and development symptom	nutrition, metabolism, and development symptom		compound (#164): Hypoglycemia; Confusion; Coma; Seizures; could go under endocrine system symptom
 ARIS:0000724	Refractory extreme hypertriglyceridemia (>1,000–2,000 mg/dL) with lactescent/milky serum	1	0	SYMP:0000473 nutrition, metabolism, and development symptom	nutrition, metabolism, and development symptom		
 ARIS:0000443	Salt craving	1	0	SYMP:0000244 alteration of appetite	nutrition, metabolism, and development symptom		
 ARIS:0000738	Severe hypoalbuminemia (<3.0 g/dL)	1	0	SYMP:0000473 nutrition, metabolism, and development symptom	nutrition, metabolism, and development symptom		
-ARIS:0000747	Severe, refractory hyperglycemia despite extreme doses of exogenous insulin (>1,000 U/day)	1	0	SYMP:0000473 nutrition, metabolism, and development symptom	nutrition, metabolism, and development symptom		
+ARIS:0000747	Severe, refractory hyperglycemia despite extreme doses of exogenous insulin (>1,000 U/day)	1	0	SYMP:0000473 nutrition, metabolism, and development symptom	nutrition, metabolism, and development symptom		could go under endocrine system symptom
 ARIS:0000581	Weight gain	4	0	SYMP:0020012 weight symptom	nutrition, metabolism, and development symptom		
 ARIS:0000582	Weight loss	43	5	SYMP:0020012 weight symptom	nutrition, metabolism, and development symptom		
 ARIS:0000011	Absent menstrual period	1	0	SYMP:0000196 reproductive system symptom	reproductive system symptom		
@@ -212,7 +212,7 @@ ARIS:0000231	Heavy vaginal discharge that has a foul odor	1	0	SYMP:0000398 vagin
 ARIS:0000251	Infertility	6	0	SYMP:0000196 reproductive system symptom	reproductive system symptom		
 ARIS:0000314	Miscarriages	2	0	SYMP:0000196 reproductive system symptom	reproductive system symptom		
 ARIS:0000468	Sexual dysfunction	1	2	SYMP:0000196 reproductive system symptom	reproductive system symptom		
-ARIS:0000749	Signs of hyperandrogenism (severe hirsutism, virilization, amenorrhea) in women	1	0	SYMP:0000196 reproductive system symptom	reproductive system symptom		compound (#164): Hirsutism; Virilization; Amenorrhea
+ARIS:0000749	Signs of hyperandrogenism (severe hirsutism, virilization, amenorrhea) in women	1	0	SYMP:0000196 reproductive system symptom	reproductive system symptom		compound (#164): Hirsutism; Virilization; Amenorrhea; could go under endocrine system symptom
 ARIS:0000502	Stillbirths	1	0	SYMP:0000196 reproductive system symptom	reproductive system symptom		
 ARIS:0000559	Vaginal dryness	1	0	SYMP:0000196 reproductive system symptom	reproductive system symptom		
 ARIS:0000561	Vaginal ulcers	1	0	SYMP:0000196 reproductive system symptom	reproductive system symptom		
@@ -301,7 +301,7 @@ ARIS:0000030	Bedwetting	1	0	SYMP:0000492 urinary incontinence	urinary system sym
 ARIS:0000033	Bladder changes	1	0	SYMP:0000486 urinary system symptom	urinary system symptom		
 ARIS:0000052	Blood in urine	7	0	SYMP:0000486 urinary system symptom	urinary system symptom		
 ARIS:0000109	Dark urine	6	1	SYMP:0000486 urinary system symptom	urinary system symptom		
-ARIS:0000640	Diabetes insipidus (polyuria, polydipsia)	1	0	SYMP:0000486 urinary system symptom	urinary system symptom		compound (#164): Polyuria; Polydipsia
+ARIS:0000640	Diabetes insipidus (polyuria, polydipsia)	1	0	SYMP:0000486 urinary system symptom	urinary system symptom		compound (#164): Polyuria; Polydipsia; could go under endocrine system symptom
 ARIS:0000139	Difficulty urinating	2	1	SYMP:0000573 urinary stream symptom	urinary system symptom		
 ARIS:0000205	Foamy, frothy urine	2	0	SYMP:0000486 urinary system symptom	urinary system symptom		
 ARIS:0000661	Heavy nephrotic-range proteinuria (>3.5 g/24h) with foamy urine	1	0	SYMP:0000367 proteinuria	urinary system symptom		compound (#164): Proteinuria; Foamy urine

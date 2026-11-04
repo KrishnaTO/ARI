@@ -38,7 +38,7 @@ def obo_iri(curie):
 
 
 def read_uberon(path):
-    """UBERON terms by id: name, definition, is_a parents, obsolete flag; plus the release."""
+    """UBERON terms by id: name, definition, is_a and part_of parents, obsolete flag; plus the release."""
     terms, cur, version = {}, None, None
     with open(path, encoding="utf-8") as f:
         for line in f:
@@ -46,7 +46,7 @@ def read_uberon(path):
             if line.startswith("data-version: "):
                 version = line.split(": ", 1)[1]
             if line == "[Term]":
-                cur = {"is_a": [], "obsolete": False, "definition": ""}
+                cur = {"is_a": [], "part_of": [], "obsolete": False, "definition": ""}
                 continue
             if line.startswith("["):
                 cur = None
@@ -62,6 +62,8 @@ def read_uberon(path):
                 cur["definition"] = re.match(r'"((?:[^"\\]|\\.)*)"', value).group(1).replace('\\"', '"')
             elif key == "is_a":
                 cur["is_a"].append(value.split(" ")[0])
+            elif key == "relationship" and value.startswith("part_of "):
+                cur["part_of"].append(value.split(" ")[1])
             elif key == "is_obsolete" and value == "true":
                 cur["obsolete"] = True
     if not version:
