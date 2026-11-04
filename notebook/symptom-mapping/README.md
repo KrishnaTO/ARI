@@ -93,8 +93,12 @@ Run every line from the repository root; Java for the formatter is in WSL (see `
   the Symptoms sheet rows marked "not a symptom", each with its neighbours in that sheet, so a
   curator can decide what becomes of it. It reads the sheet as `build_symptom_report.py` leaves it,
   so run it second. It leaves out the headings that name a subtype of their disease
-  (`SUBTYPE_HEADINGS`). A rebuild keeps the review columns (`kind`, `proposed`, `decision`, `note`),
-  and stops if a row that has them would drop out of the table.
+  (`SUBTYPE_HEADINGS`). A rebuild keeps the review columns (`kind`, `proposed`, `decision`, `note`).
+  A reviewed row whose entry is no longer "not a symptom" stays as it was, as the record of the decision.
+- **`apply_non_symptom_review.py`** applies report 13's accepted decisions to `ari_disease.owl` and
+  `ari_symptoms.owl`. Each accepted row is either an edit, content the record already holds (it
+  checks that it is there), or nothing to do. It stops on a row no rule covers. A rerun changes
+  nothing. Format both files, then rerun `build_symptom_report.py` and `build_non_symptom_review.py`.
 
 ## Counts
 

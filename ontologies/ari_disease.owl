@@ -20265,6 +20265,16 @@
     
 
 
+    <!-- http://www.aurint.org/ontologies/ari-disease#Env_3f991b34 -->
+
+    <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Env_3f991b34">
+        <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#EnvironmentalFactor"/>
+        <ARI_Obsolete>false</ARI_Obsolete>
+        <rdfs:label>Exercise</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.aurint.org/ontologies/ari-disease#Env_CSection -->
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Env_CSection">
@@ -44159,6 +44169,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001001_7">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomDescription>Heals with minimal scarring</symptomDescription>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000589"/>
         <rdfs:label>Widespread blisters that are not localized to trauma-prone sites</rdfs:label>
@@ -44445,6 +44456,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001004_44">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomDescription>Early stages</symptomDescription>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000255"/>
         <rdfs:label>Irregular heartbeat</rdfs:label>
@@ -44456,6 +44468,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001004_46">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomDescription>Later stages</symptomDescription>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000385"/>
         <rdfs:label>Peeling skin</rdfs:label>
@@ -44467,6 +44480,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001004_47">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomDescription>Later stages</symptomDescription>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000263"/>
         <rdfs:label>Joint pain</rdfs:label>
@@ -44478,6 +44492,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001004_48">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomDescription>Later stages</symptomDescription>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000225"/>
         <rdfs:label>Hearing loss</rdfs:label>
@@ -44489,6 +44504,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001004_49">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomDescription>Later stages</symptomDescription>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000568"/>
         <rdfs:label>Vomiting</rdfs:label>
@@ -44500,6 +44516,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001004_50">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomDescription>Later stages</symptomDescription>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000123"/>
         <rdfs:label>Diarrhea</rdfs:label>
@@ -44511,6 +44528,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001004_51">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomDescription>Later stages</symptomDescription>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000005"/>
         <rdfs:label>Abdominal pain</rdfs:label>
@@ -44522,6 +44540,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001004_53">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomDescription>Early stages</symptomDescription>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000196"/>
         <rdfs:label>Fever</rdfs:label>
@@ -44533,6 +44552,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001004_54">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomDescription>Early stages</symptomDescription>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000427"/>
         <rdfs:label>Red eyes</rdfs:label>
@@ -44544,6 +44564,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001004_55">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomDescription>Early stages</symptomDescription>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000514"/>
         <rdfs:label>Swollen feet</rdfs:label>
@@ -44555,6 +44576,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001004_56">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomDescription>Early stages</symptomDescription>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000516"/>
         <rdfs:label>Swollen hands</rdfs:label>
@@ -44566,6 +44588,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001004_57">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomDescription>Early stages</symptomDescription>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000475"/>
         <rdfs:label>Skin discoloration</rdfs:label>
@@ -44577,6 +44600,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001004_58">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomDescription>Early stages</symptomDescription>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000431"/>
         <rdfs:label>Red, dry, cracked, and swollen lips</rdfs:label>
@@ -44588,6 +44612,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001004_59">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomDescription>Early stages</symptomDescription>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000418"/>
         <rdfs:label>Rash on groin</rdfs:label>
@@ -44599,6 +44624,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001004_60">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomDescription>Early stages</symptomDescription>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000419"/>
         <rdfs:label>Rash on torso</rdfs:label>
@@ -44610,6 +44636,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001004_61">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomDescription>Early stages</symptomDescription>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000527"/>
         <rdfs:label>Swollen tongue that looks shiny and bright with red spots</rdfs:label>
@@ -49742,6 +49769,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001061_471">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomDescription>In children</symptomDescription>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000117"/>
         <rdfs:label>Delayed puberty</rdfs:label>
@@ -49753,6 +49781,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001061_472">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomDescription>In children</symptomDescription>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000107"/>
         <rdfs:label>Damage to dental enamel</rdfs:label>
@@ -49764,6 +49793,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001061_473">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomDescription>In children</symptomDescription>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000031"/>
         <rdfs:label>Behavioral changes</rdfs:label>
@@ -50028,6 +50058,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001061_498">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomDescription>In children</symptomDescription>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000256"/>
         <rdfs:label>Irritability</rdfs:label>
@@ -50039,6 +50070,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001061_499">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomDescription>In children</symptomDescription>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000272"/>
         <rdfs:label>Learning disability</rdfs:label>
@@ -50050,6 +50082,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001061_500">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomDescription>In children</symptomDescription>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000469"/>
         <rdfs:label>Short stature</rdfs:label>
@@ -50061,6 +50094,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001061_501">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomDescription>In children</symptomDescription>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000185"/>
         <rdfs:label>Failure to thrive</rdfs:label>
@@ -50116,8 +50150,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001062_506">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
-        <ARI_NoConcept>not a symptom</ARI_NoConcept>
-        <ARI_Obsolete>true</ARI_Obsolete>
+        <ARI_Obsolete>false</ARI_Obsolete>
+        <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000766"/>
         <rdfs:label>Symptoms worsen after physical or mental activity</rdfs:label>
     </owl:NamedIndividual>
     
@@ -50303,6 +50337,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001064_526">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomDescription>In women</symptomDescription>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000560"/>
         <rdfs:label>Vaginal pain</rdfs:label>
@@ -50314,6 +50349,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001064_528">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomDescription>In men</symptomDescription>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000387"/>
         <rdfs:label>Penis pain</rdfs:label>
@@ -50325,6 +50361,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001064_529">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomDescription>In men</symptomDescription>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000533"/>
         <rdfs:label>Testicle pain</rdfs:label>
@@ -50413,6 +50450,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001065_540">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomDescription>Later stages</symptomDescription>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000263"/>
         <rdfs:label>Joint pain</rdfs:label>
@@ -50424,6 +50462,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001065_541">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomDescription>Later stages</symptomDescription>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000184"/>
         <rdfs:label>Facial paralysis</rdfs:label>
@@ -50435,6 +50474,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001065_542">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomDescription>Later stages</symptomDescription>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000572"/>
         <rdfs:label>Weakness in facial muscles</rdfs:label>
@@ -50446,6 +50486,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001065_543">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomDescription>Later stages</symptomDescription>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000485"/>
         <rdfs:label>Sleep problems</rdfs:label>
@@ -50457,6 +50498,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001065_544">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomDescription>Later stages</symptomDescription>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000301"/>
         <rdfs:label>Malaise</rdfs:label>
@@ -50468,6 +50510,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001065_545">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomDescription>Later stages</symptomDescription>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000228"/>
         <rdfs:label>Heart palpitations</rdfs:label>
@@ -50479,6 +50522,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001065_546">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomDescription>Later stages</symptomDescription>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000110"/>
         <rdfs:label>Decreased movement</rdfs:label>
@@ -50490,6 +50534,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001065_547">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomDescription>Later stages</symptomDescription>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000128"/>
         <rdfs:label>Concentration loss</rdfs:label>
@@ -50501,6 +50546,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001065_548">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomDescription>Later stages</symptomDescription>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000343"/>
         <rdfs:label>Numbness</rdfs:label>
@@ -50512,6 +50558,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001065_549">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomDescription>Later stages</symptomDescription>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000326"/>
         <rdfs:label>Muscle stiffness</rdfs:label>
@@ -50523,6 +50570,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001065_550">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomDescription>Later stages</symptomDescription>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000264"/>
         <rdfs:label>Joint stiffness</rdfs:label>
@@ -51901,8 +51949,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001076_687">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
-        <ARI_NoConcept>not a symptom</ARI_NoConcept>
-        <ARI_Obsolete>true</ARI_Obsolete>
+        <ARI_Obsolete>false</ARI_Obsolete>
+        <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000478"/>
         <rdfs:label>Symptoms worsen in sunlight</rdfs:label>
     </owl:NamedIndividual>
     
@@ -52898,6 +52946,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001086_788">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomDescription>In children</symptomDescription>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000129"/>
         <rdfs:label>Difficulty eating</rdfs:label>
@@ -52909,6 +52958,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001086_789">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomDescription>In children</symptomDescription>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000185"/>
         <rdfs:label>Failure to thrive</rdfs:label>
@@ -52920,6 +52970,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001087_791">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomDescription>Temporary</symptomDescription>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000098"/>
         <rdfs:label>Confusion</rdfs:label>
@@ -53129,6 +53180,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001089_813">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomDescription>Before breakout</symptomDescription>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000196"/>
         <rdfs:label>Fever</rdfs:label>
@@ -53140,6 +53192,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001089_814">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomDescription>Before breakout</symptomDescription>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000263"/>
         <rdfs:label>Joint pain</rdfs:label>
@@ -53151,6 +53204,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001089_815">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomDescription>Before breakout</symptomDescription>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000005"/>
         <rdfs:label>Abdominal pain</rdfs:label>
@@ -53162,6 +53216,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001089_816">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomDescription>Before breakout</symptomDescription>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000203"/>
         <rdfs:label>Flu-like symptoms</rdfs:label>
@@ -53173,6 +53228,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001089_818">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomDescription>Initial breakout</symptomDescription>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000008"/>
         <rdfs:label>Abnormal lumps below skin</rdfs:label>
@@ -53184,6 +53240,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001089_819">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomDescription>Initial breakout</symptomDescription>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000376"/>
         <rdfs:label>Painful, symmetrical lumps</rdfs:label>
@@ -53195,6 +53252,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001089_820">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomDescription>Initial breakout</symptomDescription>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000363"/>
         <rdfs:label>Pain when standing</rdfs:label>
@@ -53206,6 +53264,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001089_821">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomDescription>Initial breakout</symptomDescription>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000511"/>
         <rdfs:label>Swollen ankles</rdfs:label>
@@ -53217,6 +53276,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001089_823">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomDescription>After breakout</symptomDescription>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000300"/>
         <rdfs:label>Lumps turn blue or yellow</rdfs:label>
@@ -55050,6 +55110,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001108_970">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <likelihood>Common</likelihood>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000410"/>
         <rdfs:label>Purplish rash, typically on the lower legs and buttocks</rdfs:label>
@@ -55061,6 +55122,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001108_971">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <likelihood>Common</likelihood>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000005"/>
         <rdfs:label>Abdominal pain</rdfs:label>
@@ -55072,6 +55134,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001108_972">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <likelihood>Common</likelihood>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000263"/>
         <rdfs:label>Joint pain</rdfs:label>
@@ -55083,6 +55146,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001108_973">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <likelihood>Common</likelihood>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000052"/>
         <rdfs:label>Blood in urine</rdfs:label>
@@ -55094,6 +55158,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001108_975">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <likelihood>Rare</likelihood>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000224"/>
         <rdfs:label>Headache</rdfs:label>
@@ -55105,6 +55170,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001108_976">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <likelihood>Rare</likelihood>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000051"/>
         <rdfs:label>Blood in stool</rdfs:label>
@@ -55116,6 +55182,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001108_977">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <likelihood>Rare</likelihood>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000523"/>
         <rdfs:label>Swollen penis</rdfs:label>
@@ -55127,6 +55194,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001108_978">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <likelihood>Rare</likelihood>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000525"/>
         <rdfs:label>Swollen testicles</rdfs:label>
@@ -55138,6 +55206,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001108_979">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <likelihood>Rare</likelihood>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000470"/>
         <rdfs:label>Difficulty breathing</rdfs:label>
@@ -59499,6 +59568,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001146_1369">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomDescription>Early stages</symptomDescription>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000175"/>
         <rdfs:label>Eye irritation</rdfs:label>
@@ -59510,6 +59580,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001146_1370">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomDescription>Early stages</symptomDescription>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000570"/>
         <rdfs:label>Watery eyes</rdfs:label>
@@ -59521,6 +59592,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001146_1371">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomDescription>Early stages</symptomDescription>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000061"/>
         <rdfs:label>Forward displacement of eye</rdfs:label>
@@ -59532,6 +59604,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001146_1372">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomDescription>Early stages</symptomDescription>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000457"/>
         <rdfs:label>Sensitivity to light</rdfs:label>
@@ -59543,6 +59616,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001146_1373">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomDescription>Early stages</symptomDescription>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000147"/>
         <rdfs:label>Double vision</rdfs:label>
@@ -59554,6 +59628,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001146_1374">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomDescription>Early stages</symptomDescription>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000151"/>
         <rdfs:label>Dry eyes</rdfs:label>
@@ -59565,6 +59640,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001146_1376">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomDescription>Later stages</symptomDescription>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000380"/>
         <rdfs:label>Inability to move the eye</rdfs:label>
@@ -59576,6 +59652,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001146_1377">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomDescription>Later stages</symptomDescription>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000101"/>
         <rdfs:label>Corneal ulceration</rdfs:label>
@@ -59587,6 +59664,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001146_1378">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomDescription>Later stages</symptomDescription>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000564"/>
         <rdfs:label>Vision loss</rdfs:label>
@@ -60420,6 +60498,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001154_1453">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomDescription>Does not cause mouth blisters</symptomDescription>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000075"/>
         <rdfs:label>Causes blisters on the chest, back and shoulders</rdfs:label>
@@ -60442,6 +60521,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001154_1455">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomDescription>Does not cause mouth blisters</symptomDescription>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000260"/>
         <rdfs:label>Itchy blisters</rdfs:label>
@@ -61981,6 +62061,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001166_1596">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomDescription>Early stages</symptomDescription>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000190"/>
         <rdfs:label>Fatigue</rdfs:label>
@@ -61992,6 +62073,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001166_1597">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomDescription>Early stages</symptomDescription>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000259"/>
         <rdfs:label>Itchy skin</rdfs:label>
@@ -62003,6 +62085,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001166_1598">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomDescription>Early stages</symptomDescription>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000151"/>
         <rdfs:label>Dry eyes</rdfs:label>
@@ -62014,6 +62097,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001166_1599">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomDescription>Early stages</symptomDescription>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000152"/>
         <rdfs:label>Dry mouth</rdfs:label>
@@ -62025,6 +62109,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001166_1601">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomDescription>Later stages</symptomDescription>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000263"/>
         <rdfs:label>Joint pain</rdfs:label>
@@ -62036,6 +62121,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001166_1602">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomDescription>Later stages</symptomDescription>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000323"/>
         <rdfs:label>Muscle pain</rdfs:label>
@@ -62047,6 +62133,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001166_1603">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomDescription>Later stages</symptomDescription>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000056"/>
         <rdfs:label>Bone pain</rdfs:label>
@@ -62058,6 +62145,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001166_1604">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomDescription>Later stages</symptomDescription>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000514"/>
         <rdfs:label>Swollen feet</rdfs:label>
@@ -62069,6 +62157,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001166_1605">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomDescription>Later stages</symptomDescription>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000511"/>
         <rdfs:label>Swollen ankles</rdfs:label>
@@ -62080,6 +62169,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001166_1606">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomDescription>Later stages</symptomDescription>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000012"/>
         <rdfs:label>Accumulation of fluid in the abdomen</rdfs:label>
@@ -62091,6 +62181,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001166_1607">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomDescription>Later stages</symptomDescription>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000191"/>
         <rdfs:label>Fatty deposits on the skin around your eyes, your eyelids, or in the creases in your palms, soles, elbows or knees</rdfs:label>
@@ -62102,6 +62193,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001166_1608">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomDescription>Later stages</symptomDescription>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000595"/>
         <rdfs:label>Yellow skin</rdfs:label>
@@ -62113,6 +62205,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001166_1609">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomDescription>Later stages</symptomDescription>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000243"/>
         <rdfs:label>Hyperpigmentation</rdfs:label>
@@ -62124,6 +62217,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001166_1610">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomDescription>Later stages</symptomDescription>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000123"/>
         <rdfs:label>Diarrhea</rdfs:label>
@@ -62135,6 +62229,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001166_1611">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomDescription>Later stages</symptomDescription>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000582"/>
         <rdfs:label>Weight loss</rdfs:label>
@@ -64148,6 +64243,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Sym_0001184_1813">
         <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Symptom"/>
+        <symptomDescription>Near sites of irritation</symptomDescription>
         <ARI_Obsolete>false</ARI_Obsolete>
         <sharedConcept rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000200"/>
         <rdfs:label>Firm bumps of tissue under the skin on your arms</rdfs:label>
@@ -72524,6 +72620,28 @@
     
 
 
+    <!-- http://www.aurint.org/ontologies/ari-disease#Tx_000664a7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Tx_000664a7">
+        <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Treatment"/>
+        <treatmentDescription>Symptoms do not respond to it</treatmentDescription>
+        <ARI_Obsolete>false</ARI_Obsolete>
+        <rdfs:label>Gastroesophageal reflux disease medication</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-disease#Tx_245d4e67 -->
+
+    <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Tx_245d4e67">
+        <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Treatment"/>
+        <treatmentDescription>80–90% of patients are refractory to it</treatmentDescription>
+        <ARI_Obsolete>false</ARI_Obsolete>
+        <rdfs:label>Intravenous immunoglobulin</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.aurint.org/ontologies/ari-disease#Tx_CGM -->
 
     <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Tx_CGM">
@@ -72622,6 +72740,17 @@
     
 
 
+    <!-- http://www.aurint.org/ontologies/ari-disease#Tx_a8ec5b36 -->
+
+    <owl:NamedIndividual rdf:about="http://www.aurint.org/ontologies/ari-disease#Tx_a8ec5b36">
+        <rdf:type rdf:resource="http://www.aurint.org/ontologies/ari-disease#Treatment"/>
+        <treatmentDescription>High response rate</treatmentDescription>
+        <ARI_Obsolete>false</ARI_Obsolete>
+        <rdfs:label>Rituximab</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://diseases.autoimmuneregistry.org/disease/ARI_0001001 -->
 
     <owl:NamedIndividual rdf:about="https://diseases.autoimmuneregistry.org/disease/ARI_0001001">
@@ -72673,6 +72802,7 @@
         <ARI_ChangeLog>2026-10-15T12:40:37+00:00 | Leon Islas | Imported from ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 98: 2 associated diseases (2 linked to ARI diseases), demographic bias, 5 pathway steps.</ARI_ChangeLog>
         <ARI_ChangeLog>2026-10-15T15:19:39+00:00 | KrishnaTO | Symptom review (ARI#132): removed 4 non-symptom entries from hasSymptom and retired them (ARI_Obsolete true): &apos;Arises in younger individuals, usually under the age of 70 years&apos;; &apos;Has prominent involvement of the head and neck&apos;; &apos;Healing with minimal scarring&apos;; &apos;Involves mucous membranes&apos;. Added to description: &quot;Compared with bullous pemphigoid, EBA arises in younger individuals, usually under the age of 70, and has prominent involvement of the head and neck.&quot;</ARI_ChangeLog>
         <ARI_ChangeLog>2026-10-15T16:44:19+00:00 | migration (#229) | Moved to prevalence &amp; incidence figures: Prevalence Worldwide 1.5/100k; Incidence US 0.029/100k</ARI_ChangeLog>
+        <ARI_ChangeLog>2026-11-04T20:34:09+00:00 | KrishnaTO | Report 13 review (ARI#162): symptomDescription of &apos;Widespread blisters that are not localized to trauma-prone sites&apos; set to &apos;Heals with minimal scarring&apos;</ARI_ChangeLog>
         <ARI_ClinicalSubtype>Brunsting-Perry-like EBA - Localized, scarring blisters on the head and neck.</ARI_ClinicalSubtype>
         <ARI_ClinicalSubtype>Bullous pemphigoid-like EBA - Widespread tense bullae, similar to bullous pemphigoid.</ARI_ClinicalSubtype>
         <ARI_ClinicalSubtype>Classical (mechanobullous) EBA - Tense blisters on trauma-prone areas.</ARI_ClinicalSubtype>
@@ -72958,6 +73088,7 @@
         <ARI_ChangeLog>2026-10-14 | Claude | Added parent disease: ARI:0001051 Autoimmune vasculitis (is_a). Proposed in notebook/disease-hierarchy/proposed_parents.tsv (ARI#137)</ARI_ChangeLog>
         <ARI_ChangeLog>2026-10-15T12:40:37+00:00 | Leon Islas | Imported from ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 4: 1 associated diseases (0 linked to ARI diseases), demographic bias, 5 pathway steps.</ARI_ChangeLog>
         <ARI_ChangeLog>2026-10-15T16:44:19+00:00 | migration (#229) | Moved to prevalence &amp; incidence figures: Prevalence US 34.9/100k; Incidence Worldwide 12.5/100k</ARI_ChangeLog>
+        <ARI_ChangeLog>2026-11-04T20:34:09+00:00 | KrishnaTO | Report 13 review (ARI#162): symptomDescription of &apos;Fever&apos; set to &apos;Early stages&apos;; symptomDescription of &apos;Red eyes&apos; set to &apos;Early stages&apos;; symptomDescription of &apos;Swollen feet&apos; set to &apos;Early stages&apos;; symptomDescription of &apos;Swollen hands&apos; set to &apos;Early stages&apos;; symptomDescription of &apos;Skin discoloration&apos; set to &apos;Early stages&apos;; symptomDescription of &apos;Red, dry, cracked, and swollen lips&apos; set to &apos;Early stages&apos;; symptomDescription of &apos;Rash on groin&apos; set to &apos;Early stages&apos;; symptomDescription of &apos;Rash on torso&apos; set to &apos;Early stages&apos;; symptomDescription of &apos;Swollen tongue that looks shiny and bright with red spots&apos; set to &apos;Early stages&apos;; symptomDescription of &apos;Irregular heartbeat&apos; set to &apos;Early stages&apos;; symptomDescription of &apos;Peeling skin&apos; set to &apos;Later stages&apos;; symptomDescription of &apos;Joint pain&apos; set to &apos;Later stages&apos;; symptomDescription of &apos;Hearing loss&apos; set to &apos;Later stages&apos;; symptomDescription of &apos;Vomiting&apos; set to &apos;Later stages&apos;; symptomDescription of &apos;Diarrhea&apos; set to &apos;Later stages&apos;; symptomDescription of &apos;Abdominal pain&apos; set to &apos;Later stages&apos;</ARI_ChangeLog>
         <ARI_ClinicalSubtype>Classic Kawasaki Disease - Typical symptoms with fever, rash, and lymphadenopathy.</ARI_ClinicalSubtype>
         <ARI_ClinicalSubtype>Incomplete (Atypical) Kawasaki Disease - Lacks some classic criteria, making diagnosis challenging.</ARI_ClinicalSubtype>
         <ARI_DOID>13378</ARI_DOID>
@@ -76410,6 +76541,7 @@ Several names are used for autoimmune thyroiditis. When it is known to be autoim
         <hasEnvironmentalTrigger rdf:resource="http://www.aurint.org/ontologies/ari-disease#Env_0001049_1"/>
         <hasEnvironmentalTrigger rdf:resource="http://www.aurint.org/ontologies/ari-disease#Env_0001049_2"/>
         <hasEnvironmentalTrigger rdf:resource="http://www.aurint.org/ontologies/ari-disease#Env_0001049_3"/>
+        <hasEnvironmentalTrigger rdf:resource="http://www.aurint.org/ontologies/ari-disease#Env_3f991b34"/>
         <hasEpidemiologyProfile rdf:resource="http://www.aurint.org/ontologies/ari-disease#Epi_c1e4af60"/>
         <hasEpidemiologyProfile rdf:resource="http://www.aurint.org/ontologies/ari-disease#Epi_f4e92b73"/>
         <hasEtiologyFactor rdf:resource="http://www.aurint.org/ontologies/ari-disease#Et_0001049_1"/>
@@ -76456,6 +76588,7 @@ Several names are used for autoimmune thyroiditis. When it is known to be autoim
         <ARI_ChangeLog>2026-10-15T12:40:37+00:00 | Leon Islas | Imported from ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 63: 4 associated diseases (4 linked to ARI diseases), demographic bias, 5 pathway steps.</ARI_ChangeLog>
         <ARI_ChangeLog>2026-10-15T15:19:39+00:00 | KrishnaTO | Symptom review (ARI#132): removed 2 non-symptom entries from hasSymptom and retired them (ARI_Obsolete true): &apos;Symptoms can flare with triggers such as heat, exercise and stress&apos;; &apos;Symptoms persist for more than 6 weeks and recur frequently and unexpectedly&apos;.</ARI_ChangeLog>
         <ARI_ChangeLog>2026-10-15T16:44:19+00:00 | migration (#229) | Moved to prevalence &amp; incidence figures: Prevalence US 800.0/100k; Prevalence Worldwide 750.0/100k</ARI_ChangeLog>
+        <ARI_ChangeLog>2026-11-04T20:34:09+00:00 | KrishnaTO | Report 13 review (ARI#162): Added EnvironmentalFactor: Exercise; Description: added &apos;Symptoms recur frequently and unexpectedly.&apos;</ARI_ChangeLog>
         <ARI_ClinicalSubtype>Autoimmune Urticaria, Chronic Spontaneous - Persistent hives without an allergen.</ARI_ClinicalSubtype>
         <ARI_ClinicalSubtype>Autoimmune Urticaria, Inducible - Triggered by external stimuli like pressure or heat.</ARI_ClinicalSubtype>
         <ARI_DXCODE>402397006</ARI_DXCODE>
@@ -76481,7 +76614,7 @@ Several names are used for autoimmune thyroiditis. When it is known to be autoim
         <ARI_Version>2</ARI_Version>
         <rdfs:comment>Autoimmune urticaria occurs when the immune system attacks the normal tissues of the body, resulting in hives. The condition becomes chronic when the lesions persists longer than 6 weeks. Chronic autoimmune urticaria has been found to be associated with autoimmune thyroid disease.
 
-Urticaria can also be caused by allergic reaction to plants like poison ivy, dyes found in clothing, and cosmetics. An allergic reaction is not an autoimmune disease because there is no involvement by the adaptive immune system and auto-antibodies that attack your own cells are not involved. There are antibodies (IgE antibodies), but they target the invading molecules (e.g., poison ivy), not the cells in the skin. In autoimmune urticaria, the antibodies created are attacking the skin itself, not an invading molecule.</rdfs:comment>
+Urticaria can also be caused by allergic reaction to plants like poison ivy, dyes found in clothing, and cosmetics. An allergic reaction is not an autoimmune disease because there is no involvement by the adaptive immune system and auto-antibodies that attack your own cells are not involved. There are antibodies (IgE antibodies), but they target the invading molecules (e.g., poison ivy), not the cells in the skin. In autoimmune urticaria, the antibodies created are attacking the skin itself, not an invading molecule. Symptoms recur frequently and unexpectedly.</rdfs:comment>
         <rdfs:label>Autoimmune urticaria</rdfs:label>
     </owl:NamedIndividual>
     
@@ -77530,6 +77663,7 @@ The first reports of narcolepsy being an autoimmune disease came in 2013, but re
         <ARI_ChangeLog>2026-10-12T21:18:31+00:00 | Leon Islas | Prevalence and incidence from ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 75: prevalenceWorldPer100k 1000.0 from the Worldwide prevalence &quot;1.0 cases per 100&quot;; prevalencePer100k 875.9 from the US prevalence &quot;1.0 cases per 100 to 133&quot; (midpoint of the range); ARI_PrevalenceDesc rewritten with every figure and note. Replaced: prevalencePer100k &apos;705137.0&apos;; ARI_PrevalenceDesc &apos;Female 514965/100k; Male 190171/100k; F:M ratio 2.7079&apos;.</ARI_ChangeLog>
         <ARI_ChangeLog>2026-10-15T12:40:37+00:00 | Leon Islas | Imported from ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 75: 5 associated diseases (5 linked to ARI diseases), demographic bias, 5 pathway steps.</ARI_ChangeLog>
         <ARI_ChangeLog>2026-10-15T16:44:19+00:00 | migration (#229) | Moved to prevalence &amp; incidence figures: Prevalence US 875.9/100k; Prevalence Worldwide 1000.0/100k</ARI_ChangeLog>
+        <ARI_ChangeLog>2026-11-04T20:34:09+00:00 | KrishnaTO | Report 13 review (ARI#162): symptomDescription of &apos;Irritability&apos; set to &apos;In children&apos;; symptomDescription of &apos;Learning disability&apos; set to &apos;In children&apos;; symptomDescription of &apos;Short stature&apos; set to &apos;In children&apos;; symptomDescription of &apos;Failure to thrive&apos; set to &apos;In children&apos;; symptomDescription of &apos;Delayed puberty&apos; set to &apos;In children&apos;; symptomDescription of &apos;Damage to dental enamel&apos; set to &apos;In children&apos;; symptomDescription of &apos;Behavioral changes&apos; set to &apos;In children&apos;</ARI_ChangeLog>
         <ARI_ClinicalSubtype>Celiac Disease, Classic - Presents with gastrointestinal symptoms and malabsorption.</ARI_ClinicalSubtype>
         <ARI_ClinicalSubtype>Celiac Disease, Refractory - Persistent symptoms despite a gluten-free diet.</ARI_ClinicalSubtype>
         <ARI_ClinicalSubtype>Celiac Disease, Silent - No symptoms but positive serology and villous atrophy.</ARI_ClinicalSubtype>
@@ -77637,6 +77771,7 @@ CD is generally treated by eliminating gluten from the diet.  Patients with an e
         <hasSymptom rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001062_503"/>
         <hasSymptom rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001062_504"/>
         <hasSymptom rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001062_505"/>
+        <hasSymptom rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001062_506"/>
         <hasSymptom rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001062_507"/>
         <targetsTissue rdf:resource="http://www.aurint.org/ontologies/ari-disease#Tissue_NervousSystem"/>
         <ageRange>40-50 years</ageRange>
@@ -77675,6 +77810,7 @@ CD is generally treated by eliminating gluten from the diet.  Patients with an e
         <ARI_ChangeLog>2026-10-15T12:40:37+00:00 | Leon Islas | Imported from ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 76: 4 associated diseases (3 linked to ARI diseases), demographic bias, 5 pathway steps.</ARI_ChangeLog>
         <ARI_ChangeLog>2026-10-15T15:19:39+00:00 | KrishnaTO | Symptom review (ARI#132): removed 1 non-symptom entry from hasSymptom and retired it (ARI_Obsolete true): &apos;Symptoms worsen after physical or mental activity&apos;.</ARI_ChangeLog>
         <ARI_ChangeLog>2026-10-15T16:44:19+00:00 | migration (#229) | Moved to prevalence &amp; incidence figures: Prevalence US 2289.0/100k; Prevalence Worldwide 700.0/100k</ARI_ChangeLog>
+        <ARI_ChangeLog>2026-11-04T20:34:09+00:00 | KrishnaTO | Report 13 review (ARI#162): Restored symptom &apos;Symptoms worsen after physical or mental activity&apos; (ARIS:0000766)</ARI_ChangeLog>
         <ARI_ClinicalSubtype>Chronic Fatigue Syndrome, Idiopathic - No known preceding cause.</ARI_ClinicalSubtype>
         <ARI_ClinicalSubtype>Chronic Fatigue Syndrome, Post-Infectious - Triggered by a prior infection.</ARI_ClinicalSubtype>
         <ARI_DOID>8544</ARI_DOID>
@@ -77933,6 +78069,7 @@ The cause of this syndrome is unknown, however, researchers believe that it may 
         <ARI_ChangeLog>2026-10-12T21:18:31+00:00 | Leon Islas | Prevalence and incidence from ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 78: prevalenceWorldPer100k 216.7 from the Worldwide prevalence &quot;1.0 cases per 300 to 1,000&quot; (midpoint of the range); prevalencePer100k 16.55 from the US prevalence &quot;1.0 cases per 4,444 to 9,434&quot; (midpoint of the range); ARI_PrevalenceDesc rewritten with every figure and note.</ARI_ChangeLog>
         <ARI_ChangeLog>2026-10-15T12:40:37+00:00 | Leon Islas | Imported from ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 78: 4 associated diseases (3 linked to ARI diseases), demographic bias, 5 pathway steps.</ARI_ChangeLog>
         <ARI_ChangeLog>2026-10-15T16:44:19+00:00 | migration (#229) | Moved to prevalence &amp; incidence figures: Prevalence US 16.55/100k; Prevalence Worldwide 216.7/100k</ARI_ChangeLog>
+        <ARI_ChangeLog>2026-11-04T20:34:09+00:00 | KrishnaTO | Report 13 review (ARI#162): symptomDescription of &apos;Vaginal pain&apos; set to &apos;In women&apos;; symptomDescription of &apos;Penis pain&apos; set to &apos;In men&apos;; symptomDescription of &apos;Testicle pain&apos; set to &apos;In men&apos;</ARI_ChangeLog>
         <ARI_ClinicalSubtype>Chronic Interstitial Cystitis, Hunner’s Lesions - Bladder ulcers and severe pain.</ARI_ClinicalSubtype>
         <ARI_ClinicalSubtype>Chronic Interstitial Cystitis, Non-Ulcerative - Diffuse bladder irritation without lesions.</ARI_ClinicalSubtype>
         <ARI_DOID>1678</ARI_DOID>
@@ -78065,6 +78202,7 @@ Currently, the cause of interstitial cystitis is unknown. There are two main the
         <ARI_ChangeLog>2026-10-12T21:18:31+00:00 | Leon Islas | Prevalence and incidence from ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 79: prevalenceWorldPer100k 12.5 from the Worldwide prevalence &quot;1.0 cases per 5,000 to 20,000&quot; (midpoint of the range); ARI_PrevalenceDesc rewritten with every figure and note. Replaced: prevalencePer100k &apos;355672.0&apos;; ARI_PrevalenceDesc &apos;Female 202201/100k; Male 153470/100k; F:M ratio 1.31753&apos;.</ARI_ChangeLog>
         <ARI_ChangeLog>2026-10-15T12:40:37+00:00 | Leon Islas | Imported from ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 79: 3 associated diseases (3 linked to ARI diseases), demographic bias, 5 pathway steps.</ARI_ChangeLog>
         <ARI_ChangeLog>2026-10-15T16:44:19+00:00 | migration (#229) | Moved to prevalence &amp; incidence figures: Prevalence Worldwide 12.5/100k</ARI_ChangeLog>
+        <ARI_ChangeLog>2026-11-04T20:34:09+00:00 | KrishnaTO | Report 13 review (ARI#162): symptomDescription of &apos;Joint pain&apos; set to &apos;Later stages&apos;; symptomDescription of &apos;Facial paralysis&apos; set to &apos;Later stages&apos;; symptomDescription of &apos;Weakness in facial muscles&apos; set to &apos;Later stages&apos;; symptomDescription of &apos;Sleep problems&apos; set to &apos;Later stages&apos;; symptomDescription of &apos;Malaise&apos; set to &apos;Later stages&apos;; symptomDescription of &apos;Heart palpitations&apos; set to &apos;Later stages&apos;; symptomDescription of &apos;Decreased movement&apos; set to &apos;Later stages&apos;; symptomDescription of &apos;Concentration loss&apos; set to &apos;Later stages&apos;; symptomDescription of &apos;Numbness&apos; set to &apos;Later stages&apos;; symptomDescription of &apos;Muscle stiffness&apos; set to &apos;Later stages&apos;; symptomDescription of &apos;Joint stiffness&apos; set to &apos;Later stages&apos;</ARI_ChangeLog>
         <ARI_ClinicalSubtype>Chronic Lyme Disease, Musculoskeletal - Ongoing joint pain and inflammation.</ARI_ClinicalSubtype>
         <ARI_ClinicalSubtype>Chronic Lyme Disease, Neurologic - Persistent neurological symptoms.</ARI_ClinicalSubtype>
         <ARI_DefSource>No studies found; CONFIRMED NO DATA Sept 2021</ARI_DefSource>
@@ -79282,6 +79420,7 @@ Both UC and CD are caused by an autoimmune response that reflects the involvemen
         <hasSymptom rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001076_684"/>
         <hasSymptom rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001076_685"/>
         <hasSymptom rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001076_686"/>
+        <hasSymptom rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001076_687"/>
         <hasSymptom rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001076_688"/>
         <hasSymptom rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001076_689"/>
         <hasSymptom rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001076_690"/>
@@ -79321,6 +79460,7 @@ Both UC and CD are caused by an autoimmune response that reflects the involvemen
         <ARI_ChangeLog>2026-10-15T12:40:37+00:00 | Leon Islas | Imported from ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 89: 4 associated diseases (4 linked to ARI diseases), demographic bias, 5 pathway steps.</ARI_ChangeLog>
         <ARI_ChangeLog>2026-10-15T15:19:39+00:00 | KrishnaTO | Symptom review (ARI#132): removed 1 non-symptom entry from hasSymptom and retired it (ARI_Obsolete true): &apos;Symptoms worsen in sunlight&apos;.</ARI_ChangeLog>
         <ARI_ChangeLog>2026-10-15T16:44:19+00:00 | migration (#229) | Moved to prevalence &amp; incidence figures: Prevalence US 75.97/100k; Prevalence Worldwide 61.67/100k</ARI_ChangeLog>
+        <ARI_ChangeLog>2026-11-04T20:34:09+00:00 | KrishnaTO | Report 13 review (ARI#162): Restored symptom &apos;Symptoms worsen in sunlight&apos; (ARIS:0000478)</ARI_ChangeLog>
         <ARI_ClinicalSubtype>Chilblain lupus - subtype of Cutaneous lupus erythematosus (DOID:0060386)</ARI_ClinicalSubtype>
         <ARI_ClinicalSubtype>Cutaneous Lupus, Discoid - Causes scarring skin lesions.</ARI_ClinicalSubtype>
         <ARI_ClinicalSubtype>Cutaneous Lupus, Subacute - Non-scarring, photosensitive lesions.</ARI_ClinicalSubtype>
@@ -80219,6 +80359,7 @@ When mastocytosis is not limited to the skin, it is called systemic mastocytosis
         <hasSymptom rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001086_786"/>
         <hasSymptom rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001086_788"/>
         <hasSymptom rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001086_789"/>
+        <hasTreatment rdf:resource="http://www.aurint.org/ontologies/ari-disease#Tx_000664a7"/>
         <targetsTissue rdf:resource="http://www.aurint.org/ontologies/ari-disease#Tissue_DigestiveSystem"/>
         <ageRange>30-50 years</ageRange>
         <demographicBias>Female:male ratio 0.6. Regions with very high prevalence: North America, Western Europe, Australia (increasing prevalence ~50-100/100,000)</demographicBias>
@@ -80239,6 +80380,7 @@ When mastocytosis is not limited to the skin, it is called systemic mastocytosis
         <ARI_ChangeLog>2026-10-15T12:40:37+00:00 | Leon Islas | Imported from ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 97: 5 associated diseases (1 linked to ARI diseases), demographic bias, 5 pathway steps.</ARI_ChangeLog>
         <ARI_ChangeLog>2026-10-15T15:19:39+00:00 | KrishnaTO | Symptom review (ARI#132): removed 1 non-symptom entry from hasSymptom and retired it (ARI_Obsolete true): &apos;No response to gastroesophageal reflux disease (gerd) medication&apos;. Added to description: &quot;Symptoms do not respond to gastroesophageal reflux disease (GERD) medication.&quot;</ARI_ChangeLog>
         <ARI_ChangeLog>2026-10-15T16:44:19+00:00 | migration (#229) | Moved to prevalence &amp; incidence figures: Prevalence US 33.51/100k; Prevalence Worldwide 41.67/100k</ARI_ChangeLog>
+        <ARI_ChangeLog>2026-11-04T20:34:09+00:00 | KrishnaTO | Report 13 review (ARI#162): Added Treatment: Gastroesophageal reflux disease medication; symptomDescription of &apos;Difficulty eating&apos; set to &apos;In children&apos;; symptomDescription of &apos;Failure to thrive&apos; set to &apos;In children&apos;</ARI_ChangeLog>
         <ARI_ClinicalSubtype>Eosinophilic Esophagitis, Adult - Presents with dysphagia and food impaction.</ARI_ClinicalSubtype>
         <ARI_ClinicalSubtype>Eosinophilic Esophagitis, Pediatric - Manifests as feeding difficulties.</ARI_ClinicalSubtype>
         <ARI_DOID>13922</ARI_DOID>
@@ -80332,6 +80474,7 @@ When mastocytosis is not limited to the skin, it is called systemic mastocytosis
         <ARI_ChangeLog>2026-10-15T12:40:37+00:00 | Leon Islas | Imported from ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 99: 4 associated diseases (4 linked to ARI diseases), demographic bias, 5 pathway steps.</ARI_ChangeLog>
         <ARI_ChangeLog>2026-10-15T15:19:39+00:00 | KrishnaTO | Symptom review (ARI#132): removed 1 non-symptom entry from hasSymptom and retired it (ARI_Obsolete true): &apos;Temporary&apos;.</ARI_ChangeLog>
         <ARI_ChangeLog>2026-10-15T16:44:19+00:00 | migration (#229) | Moved to prevalence &amp; incidence figures: Prevalence Worldwide 750.0/100k</ARI_ChangeLog>
+        <ARI_ChangeLog>2026-11-04T20:34:09+00:00 | KrishnaTO | Report 13 review (ARI#162): symptomDescription of &apos;Confusion&apos; set to &apos;Temporary&apos;</ARI_ChangeLog>
         <ARI_ClinicalSubtype>Epilepsy, Focal - Seizures originate in one part of the brain.</ARI_ClinicalSubtype>
         <ARI_ClinicalSubtype>Epilepsy, Generalized - Affects both hemispheres of the brain.</ARI_ClinicalSubtype>
         <ARI_DOID>1826</ARI_DOID>
@@ -80488,6 +80631,7 @@ When mastocytosis is not limited to the skin, it is called systemic mastocytosis
         <ARI_ChangeLog>2026-10-12T21:18:31+00:00 | Leon Islas | Prevalence and incidence from ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 101: incidenceWorldPer100k 3.0 from the Worldwide incidence &quot;1.0 cases per 20,000 to 100,000&quot; (midpoint of the range); prevalencePer100k 3.0 from the US prevalence &quot;1.0 cases per 20,000 to 100,000&quot; (midpoint of the range); ARI_PrevalenceDesc rewritten with every figure and note. Replaced: prevalencePer100k &apos;42294.0&apos;; ARI_PrevalenceDesc &apos;Female 36241/100k; Male 6053/100k; F:M ratio 5.98728&apos;.</ARI_ChangeLog>
         <ARI_ChangeLog>2026-10-15T12:40:37+00:00 | Leon Islas | Imported from ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 101: 3 associated diseases (3 linked to ARI diseases), demographic bias, 5 pathway steps.</ARI_ChangeLog>
         <ARI_ChangeLog>2026-10-15T16:44:19+00:00 | migration (#229) | Moved to prevalence &amp; incidence figures: Prevalence US 3.0/100k; Incidence Worldwide 3.0/100k</ARI_ChangeLog>
+        <ARI_ChangeLog>2026-11-04T20:34:09+00:00 | KrishnaTO | Report 13 review (ARI#162): symptomDescription of &apos;Fever&apos; set to &apos;Before breakout&apos;; symptomDescription of &apos;Joint pain&apos; set to &apos;Before breakout&apos;; symptomDescription of &apos;Abdominal pain&apos; set to &apos;Before breakout&apos;; symptomDescription of &apos;Flu-like symptoms&apos; set to &apos;Before breakout&apos;; symptomDescription of &apos;Abnormal lumps below skin&apos; set to &apos;Initial breakout&apos;; symptomDescription of &apos;Painful, symmetrical lumps&apos; set to &apos;Initial breakout&apos;; symptomDescription of &apos;Pain when standing&apos; set to &apos;Initial breakout&apos;; symptomDescription of &apos;Swollen ankles&apos; set to &apos;Initial breakout&apos;; symptomDescription of &apos;Lumps turn blue or yellow&apos; set to &apos;After breakout&apos;</ARI_ChangeLog>
         <ARI_ClinicalSubtype>Erythema Nodosum, Idiopathic - No identifiable cause.</ARI_ClinicalSubtype>
         <ARI_ClinicalSubtype>Erythema Nodosum, Secondary - Associated with infections or autoimmune diseases.</ARI_ClinicalSubtype>
         <ARI_DOID>0080750</ARI_DOID>
@@ -82130,6 +82274,7 @@ Note that thrombotic thrombocytopenic purpura, TTP, is a ***genetic*** disease t
         <ARI_ChangeLog>2026-10-12T21:18:31+00:00 | Leon Islas | Prevalence and incidence from ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 121: ARI_PrevalenceDesc rewritten with every figure and note. Replaced: prevalencePer100k &apos;42217.0&apos;; ARI_PrevalenceDesc &apos;Female 21836/100k; Male 20381/100k; F:M ratio 1.07139&apos;.</ARI_ChangeLog>
         <ARI_ChangeLog>2026-10-14 | Claude | Added parent disease: ARI:0001051 Autoimmune vasculitis (is_a). Proposed in notebook/disease-hierarchy/proposed_parents.tsv (ARI#137)</ARI_ChangeLog>
         <ARI_ChangeLog>2026-10-15T12:40:37+00:00 | Leon Islas | Imported from ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 121: 2 associated diseases (3 linked to ARI diseases), demographic bias, 5 pathway steps.</ARI_ChangeLog>
+        <ARI_ChangeLog>2026-11-04T20:34:09+00:00 | KrishnaTO | Report 13 review (ARI#162): likelihood of &apos;Purplish rash, typically on the lower legs and buttocks&apos; set to &apos;Common&apos;; likelihood of &apos;Abdominal pain&apos; set to &apos;Common&apos;; likelihood of &apos;Joint pain&apos; set to &apos;Common&apos;; likelihood of &apos;Blood in urine&apos; set to &apos;Common&apos;; likelihood of &apos;Headache&apos; set to &apos;Rare&apos;; likelihood of &apos;Blood in stool&apos; set to &apos;Rare&apos;; likelihood of &apos;Swollen penis&apos; set to &apos;Rare&apos;; likelihood of &apos;Swollen testicles&apos; set to &apos;Rare&apos;; likelihood of &apos;Difficulty breathing&apos; set to &apos;Rare&apos;</ARI_ChangeLog>
         <ARI_ClinicalSubtype>HSP, Classic - Purpura, arthritis, abdominal pain, and kidney involvement.</ARI_ClinicalSubtype>
         <ARI_ClinicalSubtype>HSP, Severe Renal Involvement - Leads to long-term kidney damage.</ARI_ClinicalSubtype>
         <ARI_DOID>11123</ARI_DOID>
@@ -85355,6 +85500,7 @@ The specific location of vasculitis inflammation determines what tissue or organ
         <ARI_ChangeLog>2026-10-14 | Claude | Added parent disease: ARI:0001096 Graves&apos; disease (manifestation_of). Proposed in notebook/disease-hierarchy/proposed_parents.tsv (ARI#137)</ARI_ChangeLog>
         <ARI_ChangeLog>2026-10-15T12:40:37+00:00 | Leon Islas | Imported from ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 157: 5 associated diseases (5 linked to ARI diseases), demographic bias, 5 pathway steps.</ARI_ChangeLog>
         <ARI_ChangeLog>2026-10-15T16:44:19+00:00 | migration (#229) | Moved to prevalence &amp; incidence figures: Prevalence US 89.69/100k; Prevalence Worldwide 75.0/100k</ARI_ChangeLog>
+        <ARI_ChangeLog>2026-11-04T20:34:09+00:00 | KrishnaTO | Report 13 review (ARI#162): symptomDescription of &apos;Eye irritation&apos; set to &apos;Early stages&apos;; symptomDescription of &apos;Watery eyes&apos; set to &apos;Early stages&apos;; symptomDescription of &apos;Forward displacement of eye&apos; set to &apos;Early stages&apos;; symptomDescription of &apos;Sensitivity to light&apos; set to &apos;Early stages&apos;; symptomDescription of &apos;Double vision&apos; set to &apos;Early stages&apos;; symptomDescription of &apos;Dry eyes&apos; set to &apos;Early stages&apos;; symptomDescription of &apos;Inability to move the eye&apos; set to &apos;Later stages&apos;; symptomDescription of &apos;Corneal ulceration&apos; set to &apos;Later stages&apos;; symptomDescription of &apos;Vision loss&apos; set to &apos;Later stages&apos;</ARI_ChangeLog>
         <ARI_ClinicalSubtype>Ophthalmoplegia, Mild - Eye movement restriction without vision loss.</ARI_ClinicalSubtype>
         <ARI_ClinicalSubtype>Ophthalmoplegia, Severe - Progressive vision-threatening involvement.</ARI_ClinicalSubtype>
         <ARI_DOID>0081120</ARI_DOID>
@@ -86006,6 +86152,7 @@ Patients with GO experience swelling in the tissues, muscles, and fat in the eye
         <ARI_ChangeLog>2026-10-15T12:40:37+00:00 | Leon Islas | Imported from ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 165: 4 associated diseases (4 linked to ARI diseases), demographic bias, 5 pathway steps.</ARI_ChangeLog>
         <ARI_ChangeLog>2026-10-15T15:19:39+00:00 | KrishnaTO | Symptom review (ARI#132): removed 1 non-symptom entry from hasSymptom and retired it (ARI_Obsolete true): &apos;Does not cause mouth blisters&apos;.</ARI_ChangeLog>
         <ARI_ChangeLog>2026-10-15T16:44:19+00:00 | migration (#229) | Moved to prevalence &amp; incidence figures: Prevalence US 5.15/100k; Prevalence Worldwide 3.5/100k</ARI_ChangeLog>
+        <ARI_ChangeLog>2026-11-04T20:34:09+00:00 | KrishnaTO | Report 13 review (ARI#162): symptomDescription of &apos;Causes blisters on the chest, back and shoulders&apos; set to &apos;Does not cause mouth blisters&apos;; symptomDescription of &apos;Itchy blisters&apos; set to &apos;Does not cause mouth blisters&apos;</ARI_ChangeLog>
         <ARI_ClinicalSubtype>Paraneoplastic Pemphigus - Linked to underlying malignancy.</ARI_ClinicalSubtype>
         <ARI_ClinicalSubtype>Pemphigus Foliaceus - Affects the skin, no mucosal involvement.</ARI_ClinicalSubtype>
         <ARI_ClinicalSubtype>Pemphigus Vulgaris - Painful blisters on skin and mucous membranes.</ARI_ClinicalSubtype>
@@ -87032,6 +87179,7 @@ To date, there is no direct or indirect evidence that post-pericardiotomy syndro
         <ARI_ChangeLog>2026-10-12T21:18:31+00:00 | Leon Islas | Prevalence and incidence from ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 175: prevalenceWorldPer100k 30.0 from the Worldwide prevalence &quot;1.0 cases per 2,500 to 5,000&quot; (midpoint of the range); prevalencePer100k 29.3 from the US prevalence &quot;1.0 cases per 3,413&quot;; ARI_PrevalenceDesc rewritten with every figure and note. Replaced: prevalencePer100k &apos;125887.0&apos;; ARI_PrevalenceDesc &apos;Female 110793/100k; Male 15094/100k; F:M ratio 7.3402&apos;.</ARI_ChangeLog>
         <ARI_ChangeLog>2026-10-15T12:40:37+00:00 | Leon Islas | Imported from ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 175: 5 associated diseases (5 linked to ARI diseases), demographic bias, 5 pathway steps.</ARI_ChangeLog>
         <ARI_ChangeLog>2026-10-15T16:44:19+00:00 | migration (#229) | Moved to prevalence &amp; incidence figures: Prevalence US 29.3/100k; Prevalence Worldwide 30.0/100k</ARI_ChangeLog>
+        <ARI_ChangeLog>2026-11-04T20:34:09+00:00 | KrishnaTO | Report 13 review (ARI#162): symptomDescription of &apos;Fatigue&apos; set to &apos;Early stages&apos;; symptomDescription of &apos;Itchy skin&apos; set to &apos;Early stages&apos;; symptomDescription of &apos;Dry eyes&apos; set to &apos;Early stages&apos;; symptomDescription of &apos;Dry mouth&apos; set to &apos;Early stages&apos;; symptomDescription of &apos;Joint pain&apos; set to &apos;Later stages&apos;; symptomDescription of &apos;Muscle pain&apos; set to &apos;Later stages&apos;; symptomDescription of &apos;Bone pain&apos; set to &apos;Later stages&apos;; symptomDescription of &apos;Swollen feet&apos; set to &apos;Later stages&apos;; symptomDescription of &apos;Swollen ankles&apos; set to &apos;Later stages&apos;; symptomDescription of &apos;Accumulation of fluid in the abdomen&apos; set to &apos;Later stages&apos;; symptomDescription of &apos;Fatty deposits on the skin around your eyes, your eyelids, or in the creases in your palms, soles, elbows or knees&apos; set to &apos;Later stages&apos;; symptomDescription of &apos;Yellow skin&apos; set to &apos;Later stages&apos;; symptomDescription of &apos;Hyperpigmentation&apos; set to &apos;Later stages&apos;; symptomDescription of &apos;Diarrhea&apos; set to &apos;Later stages&apos;; symptomDescription of &apos;Weight loss&apos; set to &apos;Later stages&apos;</ARI_ChangeLog>
         <ARI_ClinicalSubtype>PBC, Advanced - Significant liver scarring and cirrhosis.</ARI_ClinicalSubtype>
         <ARI_ClinicalSubtype>PBC, Early - Asymptomatic with elevated liver enzymes.</ARI_ClinicalSubtype>
         <ARI_DOID>12236</ARI_DOID>
@@ -88558,6 +88706,7 @@ Note: scarlet fever is another symptom of a strep infection but is not a separat
         <ARI_ChangeLog>2026-10-15T12:40:37+00:00 | Leon Islas | Imported from ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 193: 5 associated diseases (6 linked to ARI diseases), demographic bias, 5 pathway steps.</ARI_ChangeLog>
         <ARI_ChangeLog>2026-10-15T15:19:39+00:00 | KrishnaTO | Symptom review (ARI#132): removed 1 non-symptom entry from hasSymptom and retired it (ARI_Obsolete true): &apos;Near sites of irritation&apos;.</ARI_ChangeLog>
         <ARI_ChangeLog>2026-10-15T16:44:19+00:00 | migration (#229) | Moved to prevalence &amp; incidence figures: Prevalence US 558.7/100k; Prevalence Worldwide 750.0/100k</ARI_ChangeLog>
+        <ARI_ChangeLog>2026-11-04T20:34:09+00:00 | KrishnaTO | Report 13 review (ARI#162): symptomDescription of &apos;Firm bumps of tissue under the skin on your arms&apos; set to &apos;Near sites of irritation&apos;</ARI_ChangeLog>
         <ARI_ClinicalSubtype>RA, Seronegative - No detectable RF or anti-CCP antibodies.</ARI_ClinicalSubtype>
         <ARI_ClinicalSubtype>RA, Seropositive - Presence of rheumatoid factor (RF) and anti-CCP antibodies.</ARI_ClinicalSubtype>
         <ARI_DOID>7148</ARI_DOID>
@@ -90328,6 +90477,7 @@ Early symptoms may include fever, night sweats, fatigue, joint pain, and chest d
         <demographicBias>Regions with very high prevalence: Worldwide (rare, ~1-2 per 100,000, marked cancer correlation in patients &gt;40-50 years)</demographicBias>
         <diseaseCategory>Unconfirmed</diseaseCategory>
         <ARI_AssociatedDisease>Hashimoto&apos;s thyroiditis</ARI_AssociatedDisease>
+        <ARI_AssociatedDisease>Internal malignancy (very high risk within 3 years of diagnosis)</ARI_AssociatedDisease>
         <ARI_AssociatedDisease>Sjogren&apos;s syndrome</ARI_AssociatedDisease>
         <ARI_AssociatedDisease>Systemic sclerosis</ARI_AssociatedDisease>
         <ARI_ChangeLog>2026-06-15 10:37 | Importer | Imported from ARI core reports</ARI_ChangeLog>
@@ -90341,6 +90491,7 @@ Early symptoms may include fever, night sweats, fatigue, joint pain, and chest d
         <ARI_ChangeLog>2026-10-15T12:40:37+00:00 | Leon Islas | Imported from ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 211: definition, disease type Unconfirmed, 3 associated diseases (3 linked to ARI diseases), demographic bias, 5 pathway steps, 7 symptoms.</ARI_ChangeLog>
         <ARI_ChangeLog>2026-10-15T15:44:20+00:00 | KrishnaTO | Symptom review (ARI#132): removed 1 non-symptom entry from hasSymptom and retired it (ARI_Obsolete true): &apos;Very high risk of internal malignancy within 3 years of diagnosis&apos;. Added to description: &quot;The risk of internal malignancy within 3 years of diagnosis is very high (50–70%).&quot;</ARI_ChangeLog>
         <ARI_ChangeLog>2026-10-15T16:44:19+00:00 | migration (#229) | Moved to prevalence &amp; incidence figures: Prevalence US 1.5/100k; Prevalence Worldwide 1.5/100k</ARI_ChangeLog>
+        <ARI_ChangeLog>2026-11-04T20:34:09+00:00 | KrishnaTO | Report 13 review (ARI#162): Added associated disease: Internal malignancy (very high risk within 3 years of diagnosis)</ARI_ChangeLog>
         <ARI_ID>ARI:0001202</ARI_ID>
         <ARI_Obsolete>false</ARI_Obsolete>
         <ARI_PrevalenceDesc>Worldwide prevalence: 1.0 cases per 50,000 to 100,000. US prevalence: 1.0 cases per 50,000 to 100,000. Note on the US figure: Searched afterwards. Source: Orphanet / Trallero-Araguás et al., anti-TIF1-gamma accounts for 15-25% of adult DM cases.</ARI_PrevalenceDesc>
@@ -91904,6 +92055,8 @@ Some cases of this disease are caused by medications and are not autoimmune.</rd
         <hasSymptom rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001224_2272"/>
         <hasSymptom rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001224_2273"/>
         <hasSymptom rdf:resource="http://www.aurint.org/ontologies/ari-disease#Sym_0001224_2274"/>
+        <hasTreatment rdf:resource="http://www.aurint.org/ontologies/ari-disease#Tx_245d4e67"/>
+        <hasTreatment rdf:resource="http://www.aurint.org/ontologies/ari-disease#Tx_a8ec5b36"/>
         <involvesAPC rdf:resource="http://www.aurint.org/ontologies/ari-disease#APC_0001224_1"/>
         <involvesAntigen rdf:resource="http://www.aurint.org/ontologies/ari-disease#Antigen_0001224_1"/>
         <involvesAntigen rdf:resource="http://www.aurint.org/ontologies/ari-disease#Antigen_0001224_2"/>
@@ -91923,6 +92076,7 @@ Some cases of this disease are caused by medications and are not autoimmune.</rd
         <ARI_ChangeLog>2026-10-15T12:40:37+00:00 | Leon Islas | Imported from ARI Master List 2026-10-08 from Leon Islas, ALPHABETICAL row 51: 3 associated diseases (3 linked to ARI diseases), demographic bias, 5 pathway steps.</ARI_ChangeLog>
         <ARI_ChangeLog>2026-10-15T15:19:39+00:00 | KrishnaTO | Symptom review (ARI#132): removed 1 non-symptom entry from hasSymptom and retired it (ARI_Obsolete true): &apos;Refractoriness to IVIG with high response rate to rituximab&apos;. Added to description: &quot;80–90% of patients are refractory to IVIg, with a high response rate to rituximab.&quot;</ARI_ChangeLog>
         <ARI_ChangeLog>2026-10-15T16:44:19+00:00 | migration (#229) | Moved to prevalence &amp; incidence figures: Prevalence US 0.075/100k; Prevalence Worldwide 0.075/100k</ARI_ChangeLog>
+        <ARI_ChangeLog>2026-11-04T20:34:09+00:00 | KrishnaTO | Report 13 review (ARI#162): Added Treatment: Rituximab; Added Treatment: Intravenous immunoglobulin</ARI_ChangeLog>
         <ARI_DefSource>ARI Master List 2026-10-08</ARI_DefSource>
         <ARI_ID>ARI:0001224</ARI_ID>
         <ARI_Obsolete>false</ARI_Obsolete>

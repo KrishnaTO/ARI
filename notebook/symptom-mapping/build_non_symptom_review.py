@@ -17,7 +17,8 @@ for a heading (an entry ending in a colon), every entry it heads, up to the next
 body-system row; for any other entry, the entry below it.
 
 kind, proposed, decision and note are the review columns. A rebuild keeps the values a row already
-has, so the table can be rebuilt while the review is open. The file is tab-separated, UTF-8 with
+has, so the table can be rebuilt while the review is open, and a reviewed row whose entry is no
+longer judged "not a symptom" (apply_non_symptom_review.py restored it) stays as it was. The file is tab-separated, UTF-8 with
 no byte-order mark and LF line ends, written and read with the csv module's excel-tab dialect, so a
 reviewer can fill `decision` in a spreadsheet and save it as tab-delimited text.
 
@@ -111,14 +112,14 @@ def read_sheet():
 
 
 def read_review():
-    """(ARI ID, entry) -> the review columns of the table as it stands, or {} before the first build."""
+    """(ARI ID, entry) -> the row of the table as it stands (as a list), or {} before the first build."""
     if not os.path.exists(REVIEW):
         return {}
     with open(REVIEW, encoding="utf-8-sig", newline="") as f:
         lines = list(csv.reader(f, dialect="excel-tab"))
     if not lines or lines[0] != COLUMNS:
         raise SystemExit(f"{REVIEW}: the header is not {COLUMNS}")
-    return {(v[0], v[2]): v[-len(REVIEW_COLUMNS):] for v in lines[1:]}
+    return {(v[0], v[2]): v for v in lines[1:]}
 
 
 def main():
@@ -146,10 +147,12 @@ def main():
     for key in SUBTYPE_HEADINGS:
         review.pop(key, None)
     for key, row in rows.items():
-        row.update(zip(REVIEW_COLUMNS, review.pop(key, [""] * len(REVIEW_COLUMNS))))
-    dropped = [key for key, values in review.items() if any(values)]
-    if dropped:
-        raise SystemExit(f"Reviewed rows no longer judged {NOT_A_SYMPTOM!r}: {dropped}")
+        row.update(zip(REVIEW_COLUMNS, review.pop(key, [""] * len(COLUMNS))[-len(REVIEW_COLUMNS):]))
+    # A reviewed entry no longer judged not a symptom (one restored as a symptom) keeps its row as it
+    # was: the row is the record of the decision.
+    for key, values in review.items():
+        if any(values[-len(REVIEW_COLUMNS):]):
+            rows[key] = dict(zip(COLUMNS, values))
 
     ordered = sorted(rows.values(), key=lambda r: (r["ari_id"], int(r["report_4_seq"] or 0), r["individual"]))
     with open(REVIEW, "w", encoding="utf-8", newline="") as f:

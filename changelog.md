@@ -25,12 +25,39 @@ under them. The table has 78 rows over 45 diseases.
   foliaceus, Lofgren's syndrome and the *Borrelia mayonii* heading under Chronic Lyme disease. A subtype
   is not a symptom, nor an entry to rehome; it stays in report 4, heading its subtype's entries.
 - **Proposals accepted.** The curator accepted every first-pass proposal: `decision` is `accept` on all
-  78 rows, and none is applied to the ontology yet. Only the two `restore as a symptom` rows would
-  list a symptom on a disease again: post-exertional malaise for Chronic Fatigue Syndrome, and
-  sun-sensitive skin lesions for Cutaneous lupus erythematosus. Neither disease lists those classes today.
-  Temporal arteritis' "Sudden" and "Temporary" are `check the source`. The site, checked on
+  78 rows. Temporal arteritis' "Sudden" and "Temporary" are `check the source`. The site, checked on
   2026-11-04, lists them as standalone entries too, so their notes say a curator must confirm what
   they qualify.
+- **Proposals applied** by `notebook/symptom-mapping/apply_non_symptom_review.py`, which handles every
+  accepted row or stops, and changes nothing on a rerun. 94 changes over 18 diseases, each logged in
+  the disease's `ARI_ChangeLog`:
+  - **2 symptoms restored**, the only rows that list a symptom on a disease again. Chronic Fatigue
+    Syndrome: "Symptoms worsen after physical or mental activity" now links a new class,
+    **Post-exertional malaise** (ARIS:0000766). It sits under Malaise, matches HPO *Postexertional
+    symptom exacerbation* exactly and SYMP *malaise* broadly. Cutaneous lupus erythematosus:
+    "Symptoms worsen in sunlight" is an altLabel of ARIS:0000478.
+  - **81 entries qualified by their heading.** The stage or population becomes the
+    `symptomDescription` ("Early stages", "In children", "In women", "Before breakout"; 72 entries).
+    IgA vasculitis' "Common:" and "Rare:" become the `likelihood` of the 9 entries under them.
+  - **5 descriptions from fragments and notes:** "Heals with minimal scarring", "Temporary" on
+    Epilepsy's Confusion, "Near sites of irritation" on Rheumatoid arthritis' firm bumps, and "Does
+    not cause mouth blisters" on Pemphigus foliaceus' two entries.
+  - **Added:** an Exercise trigger for Autoimmune urticaria (heat and stress were held already). A
+    treatment for Eosinophilic esophagitis (GERD medication, which symptoms do not respond to). Two for
+    Autoimmune nodopathies (rituximab, high response rate; IVIg, 80–90% refractory). Internal
+    malignancy as an associated disease of TIF1-gamma dermatomyositis. "Symptoms recur frequently
+    and unexpectedly" in Autoimmune urticaria's description.
+  - **Already held:** 24 rows. The checks confirm each one is in the record: 12 in the disease
+    description (ari_disease.owl has no `IAO_0000115`, so the "disease definition" proposals refer to
+    `rdfs:comment`), 5 as biomarkers, 1 as an antibody, 2 as triggers, 2 as associated diseases, and
+    2 cross-references whose diseases already name ARI:0001050 as their parent. EBA's `ageRange`
+    stays 25-75 years; "usually under 70" is in its description, as a comparison with bullous
+    pemphigoid.
+  - **Nothing to do:** the drops (each entry is obsolete and listed by no disease, or only report 4
+    has it), the "no field" findings (7 of the 8 are biomarkers already), and the two open source checks.
+- `build_non_symptom_review.py` keeps a reviewed row whose entry is no longer "not a symptom", so the
+  two restored rows stay in report 13. Report 4 is rebuilt. Report 12 is not rebuilt here, as
+  ARI#169 also changes it.
 
 ## report-4-site-symptoms
 
