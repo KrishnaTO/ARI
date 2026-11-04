@@ -8,6 +8,10 @@ Two places hold such entries:
     "not a symptom" (written by build_symptom_report.py, or kept from the sheet for a string the
     ontology does not hold). Most of these are headings such as "Early stages:".
 
+Headings that name a subtype of the disease (SUBTYPE_HEADINGS) are left out: a subtype is neither
+a symptom nor a non-symptom entry, but part of the disease's own description. They stay in report 4,
+where they head the entries of that subtype.
+
 One row per disease and entry. `before` is the entry above it in the Symptoms sheet. `after` is,
 for a heading (an entry ending in a colon), every entry it heads, up to the next heading or
 body-system row; for any other entry, the entry below it.
@@ -31,6 +35,16 @@ COLUMNS = ["ari_id", "disease", "entry", "individual", "report_4_seq", "likeliho
            "kind", "proposed", "decision", "note"]
 REVIEW_COLUMNS = COLUMNS[-4:]
 IRI_DISEASE = re.compile(r"#Sym_(\d{7})_\d+$")
+# (ARI ID, heading) of the Symptoms-sheet headings that name a subtype of their disease.
+SUBTYPE_HEADINGS = {
+    ("ARI:0001001", "Non-inflammatory EBA:"),
+    ("ARI:0001001", "Inflammatory EBA:"),
+    ("ARI:0001001", "Mucous membrane EBA:"),
+    ("ARI:0001065", "Symptoms caused by the bacterium borrelia mayonii:"),
+    ("ARI:0001154", "Pemphigus vulgaris:"),
+    ("ARI:0001154", "Pemphigus foliaceus:"),
+    ("ARI:0001186", "Lofgren's syndrome:"),
+}
 
 
 def read_ontology():
@@ -110,7 +124,13 @@ def read_review():
 def main():
     names, individuals = read_ontology()
     rows = {}
-    for ari_id, entry, seq, before, after in read_sheet():
+    sheet = read_sheet()
+    stale = SUBTYPE_HEADINGS - {(ari_id, entry) for ari_id, entry, *_ in sheet}
+    if stale:
+        raise SystemExit(f"Subtype headings no longer in the Symptoms sheet: {sorted(stale)}")
+    for ari_id, entry, seq, before, after in sheet:
+        if (ari_id, entry) in SUBTYPE_HEADINGS:
+            continue
         if (ari_id, entry) in rows:
             raise SystemExit(f"{ari_id} lists {entry!r} twice in the Symptoms sheet")
         rows[ari_id, entry] = dict(ari_id=ari_id, disease=names[ari_id], entry=entry, individual="",
@@ -123,6 +143,8 @@ def main():
         row.update(individual=individual, likelihood=likelihood)
 
     review = read_review()
+    for key in SUBTYPE_HEADINGS:
+        review.pop(key, None)
     for key, row in rows.items():
         row.update(zip(REVIEW_COLUMNS, review.pop(key, [""] * len(REVIEW_COLUMNS))))
     dropped = [key for key, values in review.items() if any(values)]

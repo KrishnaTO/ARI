@@ -92,7 +92,8 @@ Run every line from the repository root; Java for the formatter is in WSL (see `
   every entry judged "not a symptom", from the `ARI_NoConcept` individuals in `ari_disease.owl` and
   the Symptoms sheet rows marked "not a symptom", each with its neighbours in that sheet, so a
   curator can decide what becomes of it. It reads the sheet as `build_symptom_report.py` leaves it,
-  so run it second. A rebuild keeps the review columns (`kind`, `proposed`, `decision`, `note`),
+  so run it second. It leaves out the headings that name a subtype of their disease
+  (`SUBTYPE_HEADINGS`). A rebuild keeps the review columns (`kind`, `proposed`, `decision`, `note`),
   and stops if a row that has them would drop out of the table.
 
 ## Counts

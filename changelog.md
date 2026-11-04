@@ -6,9 +6,9 @@ Lists every entry ARI judged "not a symptom" in a new report, `data/4-reports/13
 so a curator can decide what becomes of each one (#162). Organizing the symptoms ontology turned them
 up. 46 Symptom individuals in `ari_disease.owl` carry `ARI_NoConcept "not a symptom"`; all are obsolete
 and no disease lists them, so the editor shows none, yet several hold content the disease record has
-nowhere else, such as a creatine kinase level or a trigger. Report 4's Symptoms sheet holds 38 more
+nowhere else, such as a creatine kinase level or a trigger. Report 4's Symptoms sheet holds 32 more
 rows the ontology never imported, mostly headings ("Early stages:", "Women:") that qualify the entries
-under them.
+under them. The table has 78 rows over 45 diseases.
 
 - `notebook/symptom-mapping/build_non_symptom_review.py` builds the table from the OWL and report 4:
   one row per disease and entry, with the entry's neighbours in the Symptoms sheet (for a heading,
@@ -17,7 +17,13 @@ under them.
 - `kind` and `proposed` are a first pass: what each entry is, and where its content could go in the
   disease record. `decision` is left for the reviewer. Two entries read as symptoms after all, one
   looks copied in error from another disease, and eight findings have no field to hold them.
-
+- Rebuilt on report 4 as it now stands (`report-4-site-symptoms`), which lists each disease's entries
+  as the registry site does. That changes the neighbours of 15 rows and adds the EBA note "Eba symptoms
+  may mimic bullous pemphigoid and bullous systemic lupus erythematosus" (first pass: drop, as the
+  disease description already says so).
+- Subtype headings are left out (`SUBTYPE_HEADINGS`): the three EBA forms, Pemphigus vulgaris and
+  foliaceus, Lofgren's syndrome and the *Borrelia mayonii* heading under Chronic Lyme disease. A subtype
+  is not a symptom, nor an entry to rehome; it stays in report 4, heading its subtype's entries.
 
 ## report-4-site-symptoms
 
