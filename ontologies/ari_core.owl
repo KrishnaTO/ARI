@@ -741,6 +741,16 @@
     
 
 
+    <!-- http://www.aurint.org/ontologies/ari-disease#symptomOfSubtype -->
+
+    <owl:DatatypeProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#symptomOfSubtype">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>The subtype a Symptom individual is a symptom of, by name. The disease (named in the individual&apos;s IRI, Sym_&lt;ARI ID digits&gt;_&lt;n&gt;) does not list it with hasSymptom; it is kept for the subtype to list if the subtype is added as a disease.</rdfs:comment>
+        <rdfs:label>symptom of subtype</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://www.aurint.org/ontologies/ari-disease#tCellRole -->
 
     <owl:DatatypeProperty rdf:about="http://www.aurint.org/ontologies/ari-disease#tCellRole">
