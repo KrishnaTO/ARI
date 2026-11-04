@@ -82,20 +82,35 @@ Multiple sheets:
 | Legend | Colour mapping for presence indicators by source |
 | Reference Links | External URLs per disease (Cleveland Clinic, NKF, etc.) |
 | Authorship/Byline | Author names and affiliations per disease |
-| Symptoms | Patient-reported symptoms per disease, each mapped to the Symptom Ontology (SYMP) and the Human Phenotype Ontology (HPO) with its parent symptom (see below) |
+| Symptoms | Patient-reported symptoms per disease, as the registry site lists them (see below), each mapped to the Symptom Ontology (SYMP) and the Human Phenotype Ontology (HPO) with its parent symptom |
 | Symptom Mapping | One row per symptom string, from this sheet and the ontology's Symptom individuals: mapping, parent, and how many diseases list it |
 | Age of Onset | Typical age range of onset |
 | Prevalence (JCI) | Prevalence data from JCI source |
 | Survey Codes | Survey response codes |
 | Subtypes | Clinical subtype list |
 
+### Symptoms sheet rows: the registry site's lists
+
+The Symptoms sheet lists, for each disease, exactly the entries its profile on
+<https://diseases.autoimmuneregistry.org/Autoimmune-diseases> shows, in the site's order, from the
+snapshot `data/1-master/Site Symptoms - 2026-11-04.tsv`. The order matters: an entry ending in a colon
+("Inflammatory EBA:") heads the entries after it, up to the next heading. Each disease's body-system
+rows (`latin` = `cat`) follow its entries, and `seq` is the row number.
+
+The sheet was first copied from the master list's Symptoms sheet, which holds 46 rows the site does
+not show (7 search terms marked `find`, such as "Double vision", and 39 rows appended later, among them
+every symptom of Takayasu's arteritis and of anti-NMDA receptor encephalitis) and orders 80 diseases
+differently. Those rows are dropped, the two site entries the sheet lacked are added, and the
+Index sheet's Symptoms counts are recounted. Takayasu's arteritis has no rows: the site lists it as a
+synonym of Temporal arteritis.
+
 ### Symptom mapping (ARI#132)
 
 The Symptoms and Symptom Mapping sheets report the hand-curated mapping held in
 `ontologies/ari_symptoms.owl` (one `ARIS_…` class per symptom, with the strings merged into it as
-`skos:altLabel`). It covers 903 symptom strings: 196 match a SYMP term
+`skos:altLabel`). It covers 904 symptom strings: 196 match a SYMP term
 exactly and 569 map to the nearest broader SYMP term. 63 are merged into a string with the same
-meaning ("Skin blisters" into "Blisters on skin"), and 75 are not symptoms: headings, notes on
+meaning ("Skin blisters" into "Blisters on skin"), and 76 are not symptoms: headings, notes on
 course or onset, test results and cross-references. Similar-sounding symptoms are grouped under a
 root symptom: 452 sit under one of 148 parents, for example 23 blister descriptions under
 **Blisters**. A symptom with no ARI parent takes its SYMP term, or that term's own parent, as
