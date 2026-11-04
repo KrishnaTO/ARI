@@ -92,3 +92,69 @@ mapped symptoms, 310 match an HPO term exactly ("Brittle fingernails" → *Fragi
 196 for SYMP, and 452 map to a broader HPO term. Three have no HPO term at all: Dizziness, Stiffness
 and Swelling. HPO has only narrower terms for these, such as *Vertigo*, *Joint stiffness* and *Edema*.
 The parent hierarchy is unchanged: parents come from ARI or SYMP, never from HPO.
+
+## Body-system groups (draft)
+
+313 symptoms sit directly under `Symptom`, so the top of the tree is flat. Each already has a SYMP
+parent, and SYMP files every term under one of 14 top-level categories ("skin and integumentary
+tissue symptom", "nervous system symptom", ...). `propose_body_systems.py` proposes the category
+above a symptom's SYMP parent as its group. It also checks the groups against UBERON, which ARI's
+anatomy classes in `ontologies/ari_anatomy.owl` come from. It writes two review tables to `review/`
+and changes no OWL file.
+
+```
+python notebook/symptom-mapping/propose_body_systems.py <path to data/2-databases>
+```
+
+The database folder must hold `uberon-basic.obo` (release 2026-10-01, as in `notebook/uberon-mapping/`).
+
+**`review/body_systems.tsv`**, one row per top-level symptom:
+
+| Column | Description |
+|--------|-------------|
+| symptom_id / symptom | The top-level ARIS class |
+| diseases | How many diseases list it |
+| children | How many ARIS classes sit under it |
+| symp_parent | Its SYMP parent today |
+| proposed_group | The SYMP top-level category above that parent |
+| decision | The reviewer's call: accept the group, or name another |
+| note | Context for the reviewer |
+
+**`review/body_system_groups.tsv`**, one row per group:
+
+| Column | Description |
+|--------|-------------|
+| group / symp_id | The group and its SYMP category (blank for a group ARI adds) |
+| uberon | The UBERON terms the group covers |
+| symptoms | How many top-level symptoms it is proposed for |
+| ari_anatomy | The ARI anatomy classes that fit it, each with its UBERON term or how it fits |
+| decision / note | As above |
+
+SYMP carries no UBERON links, so `ANCHORS` in the script names each category's UBERON terms by hand.
+An ARI class fits a group when its UBERON term is one of the group's terms, or sits under one by
+`is_a` or `part_of`. A fit through a body region (abdomen, chest, craniocervical region) gives way
+to a fit through a body system, and a class with no fit of its own takes its ARI parent's. Making
+every ARI class fit took four choices, each noted in the table:
+
+- **Head and neck** covers UBERON's *eye* as well as the craniocervical region. SYMP files eye
+  symptoms under head symptom, and ARI's Eye is UBERON's general eye term, which sits only in the
+  visual system.
+- **Hemic and immune system** covers UBERON's *immune system* as well as the hemolymphoid system,
+  which does not hold it.
+- **Endocrine system symptom** is added by ARI: SYMP has no endocrine category, and ARI's anatomy holds
+  the endocrine system, thyroid, parathyroid, pituitary, pancreas and islets. No symptom is proposed
+  for it yet; 11 endocrine symptoms carry a note in `body_systems.tsv`.
+- **General symptom** and **nutrition, metabolism, and development symptom** name no anatomy, as
+  ARI's Systemic and Metabolic System have no UBERON term, so each is paired with that class.
+  *Neurological and physiological symptom* names no anatomy either and has no ARI counterpart.
+
+Three ARI classes fit no group by nature: All (a catch-all), Anatomical system (the parent of every
+system) and Glands (which spans systems). Pituitary also fits nervous system and reproductive system
+through UBERON's `part_of`, and Liver also fits digestive system.
+
+312 symptoms get exactly one group. "Extraintestinal manifestations (peripheral arthritis, uveitis,
+aphthae)" has SYMP's root as its parent, so it has none. It is one of the 40 compound symptoms
+flagged in `note`: #164 will break compounds into their component symptoms, which may belong to
+different groups. A rebuild keeps `decision` and `note`, and stops rather than drop a row that has
+them. Once the tables are reviewed (#165), the plan is for each group to become an ARIS class under
+`Symptom`, matched to its SYMP category and its UBERON terms, with the symptoms moved under it.

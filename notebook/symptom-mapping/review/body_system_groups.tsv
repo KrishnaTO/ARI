@@ -1,0 +1,17 @@
+group	symp_id	uberon	symptoms	ari_anatomy	decision	note
+abdominal symptom	SYMP:0000461	UBERON:0000916 abdomen	7			a body region, not a system: Kidney and Liver lie in the abdomen but fit their systems instead
+cardiovascular system symptom	SYMP:0000528	UBERON:0004535 cardiovascular system	9	Heart (UBERON:0000948); Vascular system (UBERON:0007798)		
+digestive system symptom	SYMP:0000459	UBERON:0001007 digestive system	19	Digestive system (UBERON:0001007); Liver (UBERON:0002107)		
+endocrine system symptom		UBERON:0000949 endocrine system	0	Endocrine system (UBERON:0000949); Islet of Langerhans (UBERON:0000006); Liver (UBERON:0002107); Pancreas (via Endocrine system); Pancreatic beta cell (via Islet of Langerhans); Parathyroid (UBERON:0001132); Pituitary (UBERON:0000007); Thyroid gland (UBERON:0002046)		added by ARI, since SYMP has no endocrine category. No symptom is proposed for it yet; 11 endocrine symptoms carry a note in body_systems.tsv. Through UBERON, Pituitary also fits nervous system and reproductive system, and Liver also fits digestive system
+general symptom	SYMP:0000567		19	Systemic (no UBERON term)		names no anatomy, like ARI's Systemic
+head and neck symptom	SYMP:0000597	UBERON:0007811 craniocervical region; UBERON:0000970 eye	53	Eye (UBERON:0000970)		eye is named as well: SYMP files eye symptoms under head symptom, and ARI's Eye is UBERON's general eye term, which UBERON places only in the visual system
+hemic and immune system symptom	SYMP:0017795	UBERON:0002193 hemolymphoid system; UBERON:0002405 immune system	12	Blood (UBERON:0000178); Immune System (UBERON:0002405)		immune system is named as well: UBERON's hemolymphoid system does not hold it
+musculoskeletal system symptom	SYMP:0000891	UBERON:0002204 musculoskeletal system	15	Musculoskeletal (UBERON:0002204)		
+nervous system symptom	SYMP:0000480	UBERON:0001016 nervous system	30	Nervous System (UBERON:0001016); Pituitary (UBERON:0000007)		
+neurological and physiological symptom	SYMP:0000410		16			names no anatomy, and no ARI class fits it. It holds Fatigue, Fever, Anxiety and Dizziness, and overlaps general symptom and nervous system symptom
+nutrition, metabolism, and development symptom	SYMP:0000473		25	Metabolic System (no UBERON term)		names no anatomy, like ARI's Metabolic System
+reproductive system symptom	SYMP:0000196	UBERON:0000990 reproductive system	12	Pituitary (UBERON:0000007)		
+respiratory system and chest symptom	SYMP:0000514	UBERON:0001004 respiratory system; UBERON:0001443 chest	14	Lungs (UBERON:0002048)		
+skin and integumentary tissue symptom	SYMP:0000488	UBERON:0002416 integumental system	65	Skin (UBERON:0002097)		
+urinary system symptom	SYMP:0000486	UBERON:0001008 renal system	16	Bladder (UBERON:0001255); Kidney (UBERON:0002113)		
+(no group)			1	All (no UBERON term); Anatomical system (UBERON:0000467); Glands (UBERON:0002530)		All is ARI's catch-all, Anatomical system is the parent of every system, and Glands spans systems. The one symptom, Extraintestinal manifestations, waits for #164

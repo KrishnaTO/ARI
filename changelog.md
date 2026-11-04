@@ -1,5 +1,27 @@
 # Changelog
 
+## symptom-body-systems
+
+Drafts a body-system group for each of the 313 symptoms that sit directly under `Symptom` in
+`ari_symptoms.owl`, where the top of the tree is flat, for review in #165. Each already has a SYMP parent, and SYMP files
+every term under one of 14 top-level categories, so the category above that parent is proposed: 312
+get one, and the last, a compound, has none. The 40 compound symptoms among them are flagged for
+#164, which breaks compounds into their component symptoms.
+
+The groups are checked against UBERON, which ARI's anatomy classes come from, so symptom groups and
+ARI's anatomy line up. SYMP carries no UBERON links, so each category's UBERON terms are named by
+hand. Every ARI anatomy class then fits a group, except three that span systems by nature (All,
+Anatomical system, Glands). That took four choices: head and neck also covers *eye*; hemic and immune
+also covers *immune system*; an endocrine group is added, which SYMP lacks; and the categories that
+name no anatomy pair with ARI's Systemic and Metabolic System, which have no UBERON term either.
+
+- `notebook/symptom-mapping/propose_body_systems.py <data/2-databases>` writes two review tables
+  to `notebook/symptom-mapping/review/`: `body_systems.tsv` (one row per symptom) and
+  `body_system_groups.tsv` (one row per group, with its UBERON terms and the ARI classes that fit
+  it). It changes no OWL file, and a rebuild keeps the `decision` and `note` columns.
+- `read_uberon` in `notebook/uberon-mapping/build_uberon_import.py` also returns `part_of`
+  parents. The slice it builds still follows `is_a` only, so `ari_uberon.owl` is unchanged.
+
 ## biomarker-concepts
 
 Builds the tooling for biomarker concepts (Project 2 of the ontology modules work, designed under
