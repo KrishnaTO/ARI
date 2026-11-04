@@ -56,8 +56,32 @@ under them. The table has 78 rows over 45 diseases.
   - **Nothing to do:** the drops (each entry is obsolete and listed by no disease, or only report 4
     has it), the "no field" findings (7 of the 8 are biomarkers already), and the two open source checks.
 - `build_non_symptom_review.py` keeps a reviewed row whose entry is no longer "not a symptom", so the
-  two restored rows stay in report 13. Report 4 is rebuilt. Report 12 is not rebuilt here, as
-  ARI#169 also changes it.
+  two restored rows stay in report 13. Reports 4 and 12 are rebuilt on main after ARI#169, which
+  changed both too.
+- `build_non_symptom_review.py` now takes `SUBTYPE_HEADINGS` from `park_subtype_symptoms.py`
+  (ARI#169), so the subtype headings are listed once.
+
+## subtype-symptoms
+
+A disease now lists only its own symptoms. The registry site lists some subtypes' symptoms under a
+heading naming the subtype, and `ari_disease.owl` had listed all of them on the disease, so
+Acquired epidermolysis bullosa claimed the symptoms of three subtypes as its own. The curator ruled
+that a disease lists only the symptoms of the disease, and that subtype symptoms be kept for the
+subtype in case it is added as a disease.
+- **New property.** `symptomOfSubtype` (in `ari_core.owl`): on a Symptom individual, the subtype it
+  is a symptom of, by name.
+- **18 symptoms moved** by `notebook/symptom-mapping/park_subtype_symptoms.py`, from the 7 subtype
+  headings in report 4: Acquired epidermolysis bullosa 7 (Non-inflammatory EBA 3, Inflammatory EBA 2,
+  Mucous membrane EBA 2), Pemphigus 6 (vulgaris 4, foliaceus 2), Chronic Lyme disease 3 (named
+  "Borrelia mayonii infection", from the heading "Symptoms caused by the bacterium borrelia
+  mayonii:") and Sarcoidosis 2 (Lofgren's syndrome). Their diseases no longer list them with `hasSymptom`.
+  Each keeps its individual, likelihood and `sharedConcept`.
+- The two "not a symptom" entries under subtype headings ("Healing with minimal scarring", "Does
+  not cause mouth blisters") are unchanged: report 13 (ARI#163) reviews them.
+- Report 4 still lists the subtype symptoms under their headings, as the site does. Its rebuild
+  changes only the Symptom Mapping sheet's "Diseases (ontology)" counts (18 rows).
+- Report 12 rebuilt: the four diseases' item counts fall. It also catches up one count left over
+  from earlier work: Autoimmune aortitis now has 14 items, not 13.
 
 ## report-4-site-symptoms
 

@@ -31,6 +31,17 @@ PREFIX aris: <http://www.aurint.org/ontologies/ari-symptoms#>
 SELECT ?disease WHERE { ?disease ari:hasSymptom ?s . ?s ari:sharedConcept aris:ARIS_0000190 }
 ```
 
+A disease lists only its own symptoms. The registry site lists some subtypes' symptoms under a
+heading that names the subtype ("Inflammatory EBA:", "Lofgren's syndrome:"), and report 4 keeps that
+layout. Those symptoms are not listed with `hasSymptom`. Each keeps its individual, whose IRI
+(`Sym_<ARI ID digits>_<n>`) still names the disease, and carries `symptomOfSubtype`, the name of the
+subtype. If the subtype is later added as a disease, it can list them. To find them:
+
+```sparql
+PREFIX ari: <http://www.aurint.org/ontologies/ari-disease#>
+SELECT ?s ?subtype WHERE { ?s ari:symptomOfSubtype ?subtype }
+```
+
 An individual links a class by **label lookup**: its `rdfs:label`, with surrounding whitespace
 stripped and case kept, equals a class's `rdfs:label` or `skos:altLabel`. Nothing else carries the
 link.
@@ -60,6 +71,8 @@ The database folder is not tracked in git, so pass the path of a checkout that h
 ```
 python notebook/symptom-mapping/fetch_site_symptoms.py
 python notebook/symptom-mapping/align_symptoms_to_site.py "data/1-master/Site Symptoms - <date>.tsv"
+python notebook/symptom-mapping/park_subtype_symptoms.py
+wsl -e tools/format-owl.sh ontologies/ari_disease.owl
 python notebook/symptom-mapping/build_symp_import.py <path to data/2-databases>
 wsl -e tools/format-owl.sh ontologies/ari_symp.owl
 python notebook/symptom-mapping/build_symptom_report.py <path to data/2-databases>
@@ -76,6 +89,10 @@ Run every line from the repository root; Java for the formatter is in WSL (see `
   `seq` and recounts the Index sheet. A kept row keeps its text and cells. A disease whose name is not
   a site profile's needs an entry in its `SITE_PAGE`. Run `build_symptom_report.py` after it; that
   stops on an added string the ontology does not know, which then needs a mapping decision.
+- **`park_subtype_symptoms.py`** takes the symptoms under each heading in its `SUBTYPE_HEADINGS`
+  (up to the next heading or body-system row of report 4's Symptoms sheet) off their disease's
+  `hasSymptom` list and sets `symptomOfSubtype` on them. It leaves "not a symptom" entries to
+  report 13. A rerun changes nothing; add a heading there when the site gains a subtype.
 - **`build_symp_import.py`** writes `ontologies/ari_symp.owl` and nothing else: every SYMP term an
   ARIS class names and its is_a ancestors up to *symptom*, with SYMP's label, id and parents. It
   stops if a linked SYMP term, or a linked HPO term, is missing or obsolete in the release. HPO

@@ -8,9 +8,9 @@ Two places hold such entries:
     "not a symptom" (written by build_symptom_report.py, or kept from the sheet for a string the
     ontology does not hold). Most of these are headings such as "Early stages:".
 
-Headings that name a subtype of the disease (SUBTYPE_HEADINGS) are left out: a subtype is neither
-a symptom nor a non-symptom entry, but part of the disease's own description. They stay in report 4,
-where they head the entries of that subtype.
+Headings that name a subtype of the disease (SUBTYPE_HEADINGS, from park_subtype_symptoms.py) are
+left out: a subtype is neither a symptom nor a non-symptom entry. They stay in report 4, where they
+head the entries of that subtype.
 
 One row per disease and entry. `before` is the entry above it in the Symptoms sheet. `after` is,
 for a heading (an entry ending in a colon), every entry it heads, up to the next heading or
@@ -30,22 +30,13 @@ import xml.etree.ElementTree as ET
 import openpyxl
 
 from build_symptom_report import ARI, ARI_BASE, DISEASE, NOT_A_SYMPTOM, OWL, RDF, RDFS, REPORT, ROOT
+from park_subtype_symptoms import SUBTYPE_HEADINGS
 
 REVIEW = os.path.join(ROOT, "data", "4-reports", "13_Non_Symptom_Review.tsv")
 COLUMNS = ["ari_id", "disease", "entry", "individual", "report_4_seq", "likelihood", "before", "after",
            "kind", "proposed", "decision", "note"]
 REVIEW_COLUMNS = COLUMNS[-4:]
 IRI_DISEASE = re.compile(r"#Sym_(\d{7})_\d+$")
-# (ARI ID, heading) of the Symptoms-sheet headings that name a subtype of their disease.
-SUBTYPE_HEADINGS = {
-    ("ARI:0001001", "Non-inflammatory EBA:"),
-    ("ARI:0001001", "Inflammatory EBA:"),
-    ("ARI:0001001", "Mucous membrane EBA:"),
-    ("ARI:0001065", "Symptoms caused by the bacterium borrelia mayonii:"),
-    ("ARI:0001154", "Pemphigus vulgaris:"),
-    ("ARI:0001154", "Pemphigus foliaceus:"),
-    ("ARI:0001186", "Lofgren's syndrome:"),
-}
 
 
 def read_ontology():
@@ -126,7 +117,7 @@ def main():
     names, individuals = read_ontology()
     rows = {}
     sheet = read_sheet()
-    stale = SUBTYPE_HEADINGS - {(ari_id, entry) for ari_id, entry, *_ in sheet}
+    stale = set(SUBTYPE_HEADINGS) - {(ari_id, entry) for ari_id, entry, *_ in sheet}
     if stale:
         raise SystemExit(f"Subtype headings no longer in the Symptoms sheet: {sorted(stale)}")
     for ari_id, entry, seq, before, after in sheet:
