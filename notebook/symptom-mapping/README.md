@@ -156,5 +156,5 @@ through UBERON's `part_of`, and Liver also fits digestive system.
 aphthae)" has SYMP's root as its parent, so it has none. It is one of the 40 compound symptoms
 flagged in `note`: #164 will break compounds into their component symptoms, which may belong to
 different groups. A rebuild keeps `decision` and `note`, and stops rather than drop a row that has
-them. Once the tables are reviewed, the plan is for each group to become an ARIS class under
+them. Once the tables are reviewed (#165), the plan is for each group to become an ARIS class under
 `Symptom`, matched to its SYMP category and its UBERON terms, with the symptoms moved under it.

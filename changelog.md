@@ -3,7 +3,7 @@
 ## symptom-body-systems
 
 Drafts a body-system group for each of the 313 symptoms that sit directly under `Symptom` in
-`ari_symptoms.owl`, where the top of the tree is flat. Each already has a SYMP parent, and SYMP files
+`ari_symptoms.owl`, where the top of the tree is flat, for review in #165. Each already has a SYMP parent, and SYMP files
 every term under one of 14 top-level categories, so the category above that parent is proposed: 312
 get one, and the last, a compound, has none. The 40 compound symptoms among them are flagged for
 #164, which breaks compounds into their component symptoms.
