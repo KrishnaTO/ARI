@@ -24,6 +24,13 @@ under them. The table has 78 rows over 45 diseases.
 - Subtype headings are left out (`SUBTYPE_HEADINGS`): the three EBA forms, Pemphigus vulgaris and
   foliaceus, Lofgren's syndrome and the *Borrelia mayonii* heading under Chronic Lyme disease. A subtype
   is not a symptom, nor an entry to rehome; it stays in report 4, heading its subtype's entries.
+- **Proposals accepted.** The curator accepted every first-pass proposal: `decision` is `accept` on all
+  78 rows, and none is applied to the ontology yet. Only the two `restore as a symptom` rows would
+  list a symptom on a disease again: post-exertional malaise for Chronic Fatigue Syndrome, and
+  sun-sensitive skin lesions for Cutaneous lupus erythematosus. Neither disease lists those classes today.
+  Temporal arteritis' "Sudden" and "Temporary" are `check the source`. The site, checked on
+  2026-11-04, lists them as standalone entries too, so their notes say a curator must confirm what
+  they qualify.
 
 ## report-4-site-symptoms
 
