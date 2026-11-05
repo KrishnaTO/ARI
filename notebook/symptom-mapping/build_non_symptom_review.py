@@ -18,7 +18,8 @@ body-system row; for any other entry, the entry below it.
 
 kind, proposed, decision and note are the review columns. A rebuild keeps the values a row already
 has, so the table can be rebuilt while the review is open, and a reviewed row whose entry is no
-longer judged "not a symptom" (apply_non_symptom_review.py restored it) stays as it was. The file is tab-separated, UTF-8 with
+longer judged "not a symptom" (apply_non_symptom_review.py restored it) stays as it was, as do the
+rows review_listed_symptoms.py adds for listed symptoms that are not one symptom. The file is tab-separated, UTF-8 with
 no byte-order mark and LF line ends, written and read with the csv module's excel-tab dialect, so a
 reviewer can fill `decision` in a spreadsheet and save it as tab-delimited text.
 

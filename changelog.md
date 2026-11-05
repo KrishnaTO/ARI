@@ -1,5 +1,25 @@
 # Changelog
 
+## claude/report-13-symptom-review-c87523
+
+Adds a second pass to report 13 (`13_Non_Symptom_Review.tsv`): every symptom a disease lists, not
+only the entries already judged "not a symptom", was reviewed for whether it is one symptom. Entries
+such as "Fluctuating neurological symptoms (confusion, transient focal deficits, seizure, coma)" hold
+four, and "Microangiopathic hemolytic anemia with schistocytes on blood smear" is a blood test result,
+so neither can be linked, grouped or searched as a symptom.
+
+- All 817 distinct strings (2,227 listings over 218 diseases) were read. 178 of them, listed 183 times
+  over 83 diseases, get a row: 116 compounds to split, 35 findings, 26 related conditions, 3 too
+  general to place and 3 others. `decision` is blank on every new row.
+- A split names its parts with the matching `ARIS:` class, or `(new)` when there is none (85 parts).
+  A test or examination result inside a compound is named with its field (`hasBiomarker:`,
+  `no field:`), and a disease with `ARI_AssociatedDisease:` and its ARI ID where ARI has it.
+- The line drawn: a symptom is what the patient feels or can see; what the examiner elicits or hears
+  (reflexes, crackles, murmurs) or reads off a test, scan or biopsy is a finding.
+- `notebook/symptom-mapping/review_listed_symptoms.py` holds the judgments and adds the rows;
+  `build_non_symptom_review.py` already keeps reviewed rows on a rebuild, so they survive it. Nothing
+  is applied to the ontology yet: `apply_non_symptom_review.py` covers only the first pass.
+
 ## non-symptom-review
 
 Lists every entry ARI judged "not a symptom" in a new report, `data/4-reports/13_Non_Symptom_Review.tsv`,
