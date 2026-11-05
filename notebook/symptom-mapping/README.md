@@ -76,6 +76,7 @@ wsl -e tools/format-owl.sh ontologies/ari_disease.owl
 python notebook/symptom-mapping/build_symp_import.py <path to data/2-databases>
 wsl -e tools/format-owl.sh ontologies/ari_symp.owl
 python notebook/symptom-mapping/build_symptom_report.py <path to data/2-databases>
+python notebook/symptom-mapping/build_non_symptom_review.py
 ```
 
 Run every line from the repository root; Java for the formatter is in WSL (see `CLAUDE.md`).
@@ -104,6 +105,17 @@ Run every line from the repository root; Java for the formatter is in WSL (see `
     symptom it merges into. Body-system category rows (`cat`) are left blank.
   - *Symptom Mapping sheet*: one row per symptom string, with how many diseases list it in the
     Symptoms sheet and in the ontology.
+- **`build_non_symptom_review.py`** writes Report 13, `data/4-reports/13_Non_Symptom_Review.tsv`:
+  every entry judged "not a symptom", from the `ARI_NoConcept` individuals in `ari_disease.owl` and
+  the Symptoms sheet rows marked "not a symptom", each with its neighbours in that sheet, so a
+  curator can decide what becomes of it. It reads the sheet as `build_symptom_report.py` leaves it,
+  so run it second. It leaves out the headings that name a subtype of their disease
+  (`SUBTYPE_HEADINGS`). A rebuild keeps the review columns (`kind`, `proposed`, `decision`, `note`).
+  A reviewed row whose entry is no longer "not a symptom" stays as it was, as the record of the decision.
+- **`apply_non_symptom_review.py`** applies report 13's accepted decisions to `ari_disease.owl` and
+  `ari_symptoms.owl`. Each accepted row is either an edit, content the record already holds (it
+  checks that it is there), or nothing to do. It stops on a row no rule covers. A rerun changes
+  nothing. Format both files, then rerun `build_symptom_report.py` and `build_non_symptom_review.py`.
 
 ## Counts
 

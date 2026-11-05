@@ -1,5 +1,66 @@
 # Changelog
 
+## non-symptom-review
+
+Lists every entry ARI judged "not a symptom" in a new report, `data/4-reports/13_Non_Symptom_Review.tsv`,
+so a curator can decide what becomes of each one (#162). Organizing the symptoms ontology turned them
+up. 46 Symptom individuals in `ari_disease.owl` carry `ARI_NoConcept "not a symptom"`; all are obsolete
+and no disease lists them, so the editor shows none, yet several hold content the disease record has
+nowhere else, such as a creatine kinase level or a trigger. Report 4's Symptoms sheet holds 32 more
+rows the ontology never imported, mostly headings ("Early stages:", "Women:") that qualify the entries
+under them. The table has 78 rows over 45 diseases.
+
+- `notebook/symptom-mapping/build_non_symptom_review.py` builds the table from the OWL and report 4:
+  one row per disease and entry, with the entry's neighbours in the Symptoms sheet (for a heading,
+  every entry it heads). A rebuild keeps the review columns, and stops rather than drop a row that has
+  them.
+- `kind` and `proposed` are a first pass: what each entry is, and where its content could go in the
+  disease record. `decision` is left for the reviewer. Two entries read as symptoms after all, one
+  looks copied in error from another disease, and eight findings have no field to hold them.
+- Rebuilt on report 4 as it now stands (`report-4-site-symptoms`), which lists each disease's entries
+  as the registry site does. That changes the neighbours of 15 rows and adds the EBA note "Eba symptoms
+  may mimic bullous pemphigoid and bullous systemic lupus erythematosus" (first pass: drop, as the
+  disease description already says so).
+- Subtype headings are left out (`SUBTYPE_HEADINGS`): the three EBA forms, Pemphigus vulgaris and
+  foliaceus, Lofgren's syndrome and the *Borrelia mayonii* heading under Chronic Lyme disease. A subtype
+  is not a symptom, nor an entry to rehome; it stays in report 4, heading its subtype's entries.
+- **Proposals accepted.** The curator accepted every first-pass proposal: `decision` is `accept` on all
+  78 rows. Temporal arteritis' "Sudden" and "Temporary" are `check the source`. The site, checked on
+  2026-11-04, lists them as standalone entries too, so their notes say a curator must confirm what
+  they qualify.
+- **Proposals applied** by `notebook/symptom-mapping/apply_non_symptom_review.py`, which handles every
+  accepted row or stops, and changes nothing on a rerun. 94 changes over 18 diseases, each logged in
+  the disease's `ARI_ChangeLog`:
+  - **2 symptoms restored**, the only rows that list a symptom on a disease again. Chronic Fatigue
+    Syndrome: "Symptoms worsen after physical or mental activity" now links a new class,
+    **Post-exertional malaise** (ARIS:0000766). It sits under Malaise, matches HPO *Postexertional
+    symptom exacerbation* exactly and SYMP *malaise* broadly. Cutaneous lupus erythematosus:
+    "Symptoms worsen in sunlight" is an altLabel of ARIS:0000478.
+  - **81 entries qualified by their heading.** The stage or population becomes the
+    `symptomDescription` ("Early stages", "In children", "In women", "Before breakout"; 72 entries).
+    IgA vasculitis' "Common:" and "Rare:" become the `likelihood` of the 9 entries under them.
+  - **5 descriptions from fragments and notes:** "Heals with minimal scarring", "Temporary" on
+    Epilepsy's Confusion, "Near sites of irritation" on Rheumatoid arthritis' firm bumps, and "Does
+    not cause mouth blisters" on Pemphigus foliaceus' two entries.
+  - **Added:** an Exercise trigger for Autoimmune urticaria (heat and stress were held already). A
+    treatment for Eosinophilic esophagitis (GERD medication, which symptoms do not respond to). Two for
+    Autoimmune nodopathies (rituximab, high response rate; IVIg, 80–90% refractory). Internal
+    malignancy as an associated disease of TIF1-gamma dermatomyositis. "Symptoms recur frequently
+    and unexpectedly" in Autoimmune urticaria's description.
+  - **Already held:** 24 rows. The checks confirm each one is in the record: 12 in the disease
+    description (ari_disease.owl has no `IAO_0000115`, so the "disease definition" proposals refer to
+    `rdfs:comment`), 5 as biomarkers, 1 as an antibody, 2 as triggers, 2 as associated diseases, and
+    2 cross-references whose diseases already name ARI:0001050 as their parent. EBA's `ageRange`
+    stays 25-75 years; "usually under 70" is in its description, as a comparison with bullous
+    pemphigoid.
+  - **Nothing to do:** the drops (each entry is obsolete and listed by no disease, or only report 4
+    has it), the "no field" findings (7 of the 8 are biomarkers already), and the two open source checks.
+- `build_non_symptom_review.py` keeps a reviewed row whose entry is no longer "not a symptom", so the
+  two restored rows stay in report 13. Reports 4 and 12 are rebuilt on main after ARI#169, which
+  changed both too.
+- `build_non_symptom_review.py` now takes `SUBTYPE_HEADINGS` from `park_subtype_symptoms.py`
+  (ARI#169), so the subtype headings are listed once.
+
 ## subtype-symptoms
 
 A disease now lists only its own symptoms. The registry site lists some subtypes' symptoms under a

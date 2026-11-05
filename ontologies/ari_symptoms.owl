@@ -6027,6 +6027,7 @@
         <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000275"/>
         <oboInOwl:id>ARIS:0000478</oboInOwl:id>
         <rdfs:label>Skin lesions that appear or worsen with sun exposure</rdfs:label>
+        <skos:altLabel>Symptoms worsen in sunlight</skos:altLabel>
         <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0000992"/>
         <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000092"/>
     </owl:Class>
@@ -9581,6 +9582,19 @@
         <rdfs:label>Widespread, tense subepidermal vesicles and bullae on sun-exposed and trunk areas</rdfs:label>
         <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0008066"/>
         <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000009"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000766 -->
+
+    <owl:Class rdf:about="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000766">
+        <rdfs:subClassOf rdf:resource="http://www.aurint.org/ontologies/ari-symptoms#ARIS_0000301"/>
+        <oboInOwl:id>ARIS:0000766</oboInOwl:id>
+        <rdfs:label>Post-exertional malaise</rdfs:label>
+        <skos:altLabel>Symptoms worsen after physical or mental activity</skos:altLabel>
+        <skos:broadMatch rdf:resource="http://purl.obolibrary.org/obo/SYMP_0019176"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/HP_0030973"/>
     </owl:Class>
 </rdf:RDF>
 
