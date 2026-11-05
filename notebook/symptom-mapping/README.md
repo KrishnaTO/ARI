@@ -112,6 +112,11 @@ Run every line from the repository root; Java for the formatter is in WSL (see `
   so run it second. It leaves out the headings that name a subtype of their disease
   (`SUBTYPE_HEADINGS`). A rebuild keeps the review columns (`kind`, `proposed`, `decision`, `note`).
   A reviewed row whose entry is no longer "not a symptom" stays as it was, as the record of the decision.
+- **`review_listed_symptoms.py`** adds report 13's second pass: every symptom a disease lists was
+  judged, and `JUDGMENTS` holds the 178 strings that are not one symptom (a compound to split, a
+  test or examination finding, a disease of its own, too general). It adds a row for each disease
+  that lists one, with the same context columns, and leaves a row already in the table alone. Run
+  it after `build_non_symptom_review.py`, which keeps these rows on later rebuilds.
 - **`apply_non_symptom_review.py`** applies report 13's accepted decisions to `ari_disease.owl` and
   `ari_symptoms.owl`. Each accepted row is either an edit, content the record already holds (it
   checks that it is there), or nothing to do. It stops on a row no rule covers. A rerun changes
