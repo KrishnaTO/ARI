@@ -1,5 +1,29 @@
 # Changelog
 
+## claude/symptoms-signs-classification-1da361
+
+Adds report 14, `data/4-reports/14_Sign_Or_Symptom.tsv`, which judges every accepted symptom a sign or
+a symptom and says why. The symptom list mixes what patients feel (pain, fatigue, dizziness) with what
+anyone can see or measure (rash, fever, weight loss, low platelets). Curators need that split before
+the list can be shown or queried by it.
+
+- One row per shared symptom class (`ARIS_…`, 766): the class, its parent, how many diseases list it,
+  `classification`, `basis` (the kind of evidence that decided it) and a one-sentence `explanation`.
+  `decision` is left blank for the curator.
+- **The rule.** A symptom is known only from the patient's account. A sign is something another person
+  can observe or measure. Where a faculty can go either way, the wording decides. A loss an examiner
+  measures is a sign ("Vision loss", "Weakness in legs"), and the complaint the patient describes is a
+  symptom ("Vision problems", "Weakness"). A qualifier does not change the class: a painful rash is a
+  sign. A list of separate items takes the majority class, and the first item breaks a tie. The 31 such
+  rows say "Mixed:".
+- **Result.** 543 signs and 223 symptoms. By disease listings the split is nearly even (1,147 against
+  1,058), because Pain, Fatigue and Weakness, the entries the most diseases list, are symptoms.
+  Diagnoses and test results still in the list are classed as signs. Report 13's second pass (#170)
+  proposes moving many of them out.
+- `notebook/symptom-mapping/build_sign_symptom_report.py` holds the judgments and builds the table from
+  the OWL. It stops if a class has no judgment, and it keeps `decision` on a rebuild. The ontology is
+  unchanged.
+
 ## non-symptom-review
 
 Lists every entry ARI judged "not a symptom" in a new report, `data/4-reports/13_Non_Symptom_Review.tsv`,
