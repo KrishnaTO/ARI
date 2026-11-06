@@ -64,6 +64,7 @@ git-ignored in full, while its siblings are curated and tracked. See
 - `data/4-reports/10_Master_List_Comparison.xlsx`
 - `data/4-reports/12_Research_Gaps.xlsx` — what each disease still needs, field by field against the data model
 - `data/4-reports/13_Non_Symptom_Review.tsv` — every entry judged not a symptom, for a curator to decide what becomes of it
+- `data/4-reports/14_Sign_Or_Symptom.tsv` — every shared symptom class judged a sign or a symptom, with the reason
 
 ## Grounding workflow
 

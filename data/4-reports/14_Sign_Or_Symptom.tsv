@@ -1,0 +1,767 @@
+aris_id	entry	parent	diseases	classification	basis	explanation	decision
+ARIS:0000597	'Flagellate erythema' on trunk	Rash	1	sign	appearance	Streaky red marks on the skin that others can see.	
+ARIS:0000001	A feeling of fullness or pressure in the chest or abdomen that can cause difficulty breathing or eating		1	symptom	sensation	Fullness and pressure are felt; only the patient can report them.	
+ARIS:0000002	A salmon/pink-colored rash on chest and thighs during fever	Rash	1	sign	appearance	A rash others can see; the fever it comes with is measured.	
+ARIS:0000003	Abdominal cramps	Cramps	5	symptom	sensation	Cramping pain is felt, not seen.	
+ARIS:0000004	Abdominal discomfort		2	symptom	sensation	Discomfort is felt; others cannot observe it.	
+ARIS:0000005	Abdominal pain	Pain	26	symptom	sensation	Pain is known only from the patient's account.	
+ARIS:0000006	Abnormal bladder control		1	sign	observed event or behaviour	Leaks or retained urine can be seen and measured, so poor bladder control is observable.	
+ARIS:0000007	Abnormal growths/lesions on the skin that may be painful	Lesions	1	sign	appearance	Growths on the skin are seen; that they may hurt describes them.	
+ARIS:0000008	Abnormal lumps below skin		6	sign	examination	Lumps under the skin are seen or felt by an examiner.	
+ARIS:0000009	Abnormal movement		1	sign	observed event or behaviour	Abnormal movements are seen by others.	
+ARIS:0000010	Abnormal skin blood vessels		1	sign	appearance	Abnormal blood vessels show on the skin.	
+ARIS:0000598	Abrupt shaking chills, high fever, and back/flank or abdominal pain	Fever	1	sign	observed event or behaviour	Mixed: shaking chills (rigors) are seen and high fever is measured (signs); the back or abdominal pain is felt (symptom). Two of three items are signs.	
+ARIS:0000011	Absent menstrual period		1	sign	observed event or behaviour	Missed periods are an observable fact, not a sensation.	
+ARIS:0000012	Accumulation of fluid in the abdomen		1	sign	examination	Fluid in the abdomen (ascites) shows as swelling and is found on examination or imaging.	
+ARIS:0000013	Acid reflux/heartburn		7	symptom	sensation	Heartburn is a burning felt behind the breastbone.	
+ARIS:0000599	Acute oliguric renal failure / azotemia		1	sign	test or diagnosis	Kidney failure and azotemia are established by urine output and blood tests.	
+ARIS:0000600	Acute progressive external ophthalmoplegia / ophthalmoparesis	Paralysis of eye muscles	1	sign	examination	Weakness of the eye muscles is seen when an examiner tests eye movements.	
+ARIS:0000601	Acute psychiatric disturbances (affective changes, anxiety, psychosis)	Mental disorders	1	symptom	mood or thought	Mixed: anxiety and psychosis are reported experiences (symptoms); affective changes are observed (sign). Two of three items are symptoms.	
+ARIS:0000602	Acute severe intravascular hemolytic anemia, pallor, and jaundice		1	sign	test or diagnosis	Anemia is a blood-test result, and pallor and jaundice are seen.	
+ARIS:0000014	Acute/subacute limbic amnesia and confusion	Confusion	1	sign	examination	Amnesia and confusion are seen by others and found on mental-status testing.	
+ARIS:0000603	Acute/subacute painful visual loss (unilateral or bilateral)	Vision loss	1	sign	measurement	Loss of vision is measured with an eye chart; that it is painful describes it.	
+ARIS:0000015	Aggression	Behavioral changes	3	sign	observed event or behaviour	Aggressive behaviour is seen by others.	
+ARIS:0000604	Allodynia, dysesthesias, and hyperalgesia	Sensitivity to touch	1	symptom	sensation	Allodynia, dysesthesias and hyperalgesia are abnormal pain and touch sensations only the patient feels.	
+ARIS:0000605	Altered consciousness / somnolence, stupor, or coma	Altered level of consciousness	1	sign	examination	Level of consciousness is judged by an observer (e.g. the Glasgow Coma Scale).	
+ARIS:0000016	Altered level of consciousness		1	sign	examination	Level of consciousness is judged by an observer (e.g. the Glasgow Coma Scale).	
+ARIS:0000606	Angina pectoris upon exertion	Chest pain	1	symptom	sensation	Angina is chest pain felt on exertion.	
+ARIS:0000607	Anhidrosis / loss of sweating	Decreased sweating	1	sign	measurement	Absent sweating can be seen and measured with a sweat test.	
+ARIS:0000017	Anorexia		1	symptom	general feeling	Loss of appetite is felt; the weight loss it causes would be a sign.	
+ARIS:0000018	Anxiety		10	symptom	mood or thought	Anxiety is a feeling the patient reports.	
+ARIS:0000019	Anxiety in children	Anxiety	1	symptom	mood or thought	Anxiety is a felt state, reported by the child or described by carers.	
+ARIS:0000020	Arm pain	Pain	1	symptom	sensation	Pain is known only from the patient's account.	
+ARIS:0000021	Arm pain upon exertion	Arm pain	1	symptom	sensation	Pain is felt; exertion is when it comes on.	
+ARIS:0000022	Arm weakness	Weakness	8	sign	examination	"Weakness in a named limb is graded on strength testing (unlike general ""Weakness"", a felt lack of strength)."	
+ARIS:0000608	Arthralgias or inflammatory arthritis	Joint pain	1	symptom	sensation	Mixed: arthralgia is joint pain (symptom); inflammatory arthritis shows as swollen, tender joints (sign). Tie broken by the first item.	
+ARIS:0000609	Asymmetric hyporeflexia confined to clinically weak muscles	Reduced reflexes	1	sign	examination	Reflexes are tested with a reflex hammer.	
+ARIS:0000610	Asymmetric, slowly progressive distal motor weakness without sensory deficits (wrist/finger drop)	Weakness	1	sign	examination	Wrist and finger drop are seen, and weakness is graded on strength testing.	
+ARIS:0000023	Attention-span problems	Cognitive impairment	1	symptom	mood or thought	Trouble keeping attention, as the patient reports it; attention measured on cognitive testing would be a sign.	
+ARIS:0000611	Autoimmune cytopenias (autoimmune thrombocytopenia, AIHA)	Low blood counts	1	sign	test or diagnosis	Low blood counts are blood-test results.	
+ARIS:0000024	Autoimmune cytopenias (autoimmune thrombocytopenia, AIHA, neutropenia)	Low blood counts	1	sign	test or diagnosis	Low blood counts are blood-test results.	
+ARIS:0000612	Autoimmune cytopenias (refractory ITP, AIHA)	Low blood counts	1	sign	test or diagnosis	Low blood counts are blood-test results.	
+ARIS:0000613	Autoimmune hepatitis with marked transaminitis		1	sign	test or diagnosis	Autoimmune hepatitis is diagnosed from liver enzymes and biopsy.	
+ARIS:0000614	Autoimmune hypophysitis with severe headache and fatigue	Headache	1	sign	test or diagnosis	Hypophysitis is diagnosed on imaging and hormone tests; the headache and fatigue it comes with describe it.	
+ARIS:0000615	Autoimmune thyroid disease (hypo- or hyperthyroidism)		1	sign	test or diagnosis	Thyroid disease is diagnosed on thyroid blood tests.	
+ARIS:0000616	Autoimmune thyroid dysfunction: thyrotoxicosis followed by hypothyroidism		1	sign	test or diagnosis	Thyrotoxicosis and hypothyroidism are diagnosed on thyroid blood tests.	
+ARIS:0000025	Autonomic dysregulation and neurogenic bladder		1	sign	test or diagnosis	Both are diagnoses established by examination and testing (blood pressure, bladder studies).	
+ARIS:0000617	Autonomic symptoms (altered sweating, dry mouth/eyes, gastrointestinal dysmotility)		1	sign	test or diagnosis	Mixed: altered sweating can be measured and dysmotility is shown by tests (signs); dry mouth and eyes are felt (symptom). Two of three items are signs.	
+ARIS:0000026	Back pain	Pain	10	symptom	sensation	Pain is known only from the patient's account.	
+ARIS:0000027	Backwards displacement of eye		1	sign	appearance	A sunken eye is seen and can be measured.	
+ARIS:0000028	Bald patches	Hair loss	1	sign	appearance	Bald patches are seen.	
+ARIS:0000029	Beard hair loss	Hair loss	1	sign	appearance	Hair loss is seen.	
+ARIS:0000030	Bedwetting		1	sign	observed event or behaviour	A wet bed is evidence others can see.	
+ARIS:0000031	Behavioral changes		5	sign	observed event or behaviour	Changes in behaviour are noticed by others.	
+ARIS:0000032	Behavioral changes, confusion, and psychosis	Behavioral changes	1	sign	observed event or behaviour	Mixed: behavioural changes and confusion are observed (signs); psychosis is known from what the patient reports (symptom). Two of three items are signs.	
+ARIS:0000618	Benign lymphadenopathy and splenomegaly		1	sign	examination	Enlarged lymph nodes and spleen are felt on examination.	
+ARIS:0000619	Bibasilar inspiratory crackles		1	sign	examination	Crackles are heard with a stethoscope.	
+ARIS:0000620	Bibasilar inspiratory fine Velcro-like crackles	Bibasilar inspiratory crackles	1	sign	examination	Crackles are heard with a stethoscope.	
+ARIS:0000621	Bilateral blurred vision / reduced visual acuity	Blurred vision	1	symptom	perception	Mixed: blurred vision is what the patient sees (symptom); reduced acuity is measured on an eye chart (sign). Tie broken by the first item.	
+ARIS:0000622	Bilateral or unilateral painless lacrimal gland enlargement / dacryoadenitis		1	sign	examination	Enlarged tear glands are seen and felt.	
+ARIS:0000033	Bladder changes		1	symptom	reported function	A general change in bladder habits, known from the patient's account.	
+ARIS:0000034	Bladder pain	Pain	1	symptom	sensation	Pain is known only from the patient's account.	
+ARIS:0000035	Bleeding between menstrual cycles		2	sign	appearance	Bleeding is seen.	
+ARIS:0000036	Bleeding blisters	Blisters	1	sign	appearance	Blood-filled blisters are seen.	
+ARIS:0000037	Bleeding gums		2	sign	appearance	Bleeding gums are seen.	
+ARIS:0000038	Blindness	Vision loss	4	sign	measurement	Loss of sight is measured with eye charts and field tests, and others can see it.	
+ARIS:0000039	Blister inside mouth	Blisters	3	sign	appearance	A blister is seen.	
+ARIS:0000040	Blister inside throat	Blisters	0	sign	appearance	A blister in the throat is seen on examination.	
+ARIS:0000041	Blister on lips	Blisters	1	sign	appearance	A blister is seen.	
+ARIS:0000042	Blisters		10	sign	appearance	Blisters are seen.	
+ARIS:0000043	Blisters are painful but do not itch	Blisters	0	sign	appearance	The blisters are seen; that they hurt but do not itch describes them.	
+ARIS:0000044	Blisters in infants	Blisters	1	sign	appearance	Blisters are seen.	
+ARIS:0000045	Blisters on eyes	Blisters	1	sign	appearance	Blisters are seen.	
+ARIS:0000046	Blisters on skin	Blisters	3	sign	appearance	Blisters are seen.	
+ARIS:0000047	Blisters on various mucous membranes	Blisters	0	sign	appearance	Blisters are seen.	
+ARIS:0000048	Blisters that rupture easily, leaving open sores, which may ooze and become infected.	Blisters	1	sign	appearance	Blisters and open sores are seen.	
+ARIS:0000049	Bloating		6	symptom	sensation	Bloating is a felt fullness; visible distension would be a sign.	
+ARIS:0000050	Bloating during menstrual periods	Bloating	1	symptom	sensation	Bloating is a felt fullness; visible distension would be a sign.	
+ARIS:0000051	Blood in stool		9	sign	appearance	Blood in the stool is seen or found on a stool test.	
+ARIS:0000052	Blood in urine		7	sign	appearance	Blood in the urine is seen or found on a dipstick.	
+ARIS:0000053	Bluish coloring of hands/feet		10	sign	appearance	A blue tint to the skin is seen.	
+ARIS:0000054	Blurred vision	Vision problems	21	symptom	perception	Only the patient sees the blur; reduced acuity on an eye chart would be its sign.	
+ARIS:0000055	Body hair loss	Hair loss	1	sign	appearance	Hair loss is seen.	
+ARIS:0000056	Bone pain	Pain	4	symptom	sensation	Pain is known only from the patient's account.	
+ARIS:0000057	Bowel changes		1	symptom	reported function	A general change in bowel habits, known from the patient's account.	
+ARIS:0000058	Bowel movement urgency	Bowel changes	2	symptom	sensation	Urgency is a felt need to empty the bowel.	
+ARIS:0000059	Brain fog	Cognitive impairment	2	symptom	mood or thought	A felt clouding of thought, known only from the patient's account.	
+ARIS:0000060	Brittle fingernails	Changes in nails	2	sign	appearance	Brittle nails are seen.	
+ARIS:0000623	Bronchiolitis obliterans leading to progressive, fatal respiratory failure		1	sign	test or diagnosis	Diagnosed on lung function tests and imaging.	
+ARIS:0000624	Bulbar dysfunction (dysphagia, dysarthria, vocal cord palsy)		1	sign	examination	Mixed: slurred speech and vocal cord palsy are found on examination (signs); difficulty swallowing is felt (symptom). Two of three items are signs.	
+ARIS:0000061	Bulging eyes		2	sign	appearance	Bulging eyes are seen and can be measured.	
+ARIS:0000062	Bumps on skin containing blood	Blisters	1	sign	appearance	Skin bumps are seen.	
+ARIS:0000063	Bumps on skin containing pus		2	sign	appearance	Skin bumps are seen.	
+ARIS:0000064	Burning pain in the upper abdomen that may become better or worse with eating	Abdominal pain	1	symptom	sensation	Pain is known only from the patient's account.	
+ARIS:0000065	Burning rash	Rash	1	sign	appearance	The rash is seen; the burning describes how it feels.	
+ARIS:0000066	Burning sensation		14	symptom	sensation	A burning feeling only the patient can report.	
+ARIS:0000067	Burning sensation in hand	Burning sensation	1	symptom	sensation	A burning feeling only the patient can report.	
+ARIS:0000068	Burning sensation in wrist	Burning sensation	1	symptom	sensation	A burning feeling only the patient can report.	
+ARIS:0000069	Burning skin	Burning sensation	1	symptom	sensation	A burning feeling only the patient can report.	
+ARIS:0000070	Burning with urination	Pain during urination	3	symptom	sensation	A burning feeling only the patient can report.	
+ARIS:0000071	Burning/gritty sensation in eyes	Eye irritation	2	symptom	sensation	A burning or gritty feeling only the patient can report.	
+ARIS:0000072	Butterfly-shaped rash	Rash	3	sign	appearance	The rash is seen.	
+ARIS:0000073	Canker sores	Mouth sores	1	sign	appearance	Mouth ulcers are seen.	
+ARIS:0000074	Carpal tunnel syndrome		2	sign	test or diagnosis	A named condition, confirmed by examination and nerve conduction studies; its numbness and tingling are symptoms.	
+ARIS:0000075	Causes blisters on the chest, back and shoulders	Blisters	0	sign	appearance	Blisters are seen.	
+ARIS:0000625	Cerebellar dysarthria / slurred scanning speech	Difficulty speaking	1	sign	observed event or behaviour	Slurred, scanning speech is heard by others.	
+ARIS:0000076	Change in facial expression		1	sign	appearance	A changed facial expression is seen by others.	
+ARIS:0000077	Change in mental status		1	sign	examination	Mental status is assessed by an observer.	
+ARIS:0000078	Change in voice		1	sign	observed event or behaviour	A changed voice is heard by others.	
+ARIS:0000079	Changes in hair		1	sign	appearance	Changes in hair are seen.	
+ARIS:0000080	Changes in nails		1	sign	appearance	Changes in nails are seen.	
+ARIS:0000081	Changes in senses		1	symptom	perception	Altered smell, taste, sight or hearing (as in a seizure aura) is perceived only by the patient.	
+ARIS:0000082	Chest infections	Recurrent infections	1	sign	test or diagnosis	An infection is diagnosed by examination, imaging and cultures.	
+ARIS:0000083	Chest pain	Pain	17	symptom	sensation	Pain is known only from the patient's account.	
+ARIS:0000084	Chills		7	symptom	sensation	A felt sense of cold; visible shaking (rigors) would be a sign.	
+ARIS:0000626	Chorea, dystonia, or abnormal ocular movements	Involuntary movements	1	sign	observed event or behaviour	Abnormal movements of the body and eyes are seen.	
+ARIS:0000627	Chronic disabling fatigue and unrefreshing sleep	Fatigue	1	symptom	general feeling	Fatigue and unrefreshing sleep are felt and reported.	
+ARIS:0000628	Chronic fatigue and severe post-exertional exhaustion	Fatigue	1	symptom	general feeling	Fatigue and exhaustion are felt and reported.	
+ARIS:0000085	Chronic lymphadenopathy and hepatosplenomegaly		2	sign	examination	Enlarged lymph nodes, liver and spleen are felt on examination.	
+ARIS:0000629	Chronic non-erosive inflammatory polyarthritis		1	sign	examination	Inflamed joints are swollen and tender on examination; non-erosive is an X-ray finding.	
+ARIS:0000630	Chronic suppurative lymphadenitis		1	sign	examination	Swollen, draining lymph nodes are seen and felt.	
+ARIS:0000631	Chronic, non-productive or mildly productive cough	Cough	1	sign	observed event or behaviour	A cough is heard by others.	
+ARIS:0000632	Chronic, persistent dry non-productive cough	Dry cough	1	sign	observed event or behaviour	A cough is heard by others.	
+ARIS:0000633	Chronic, recurrent diarrhea with or without visible blood/mucus	Diarrhea	1	sign	observed event or behaviour	Loose, frequent stools can be seen and measured.	
+ARIS:0000086	Churning in the stomach		1	symptom	sensation	A churning feeling only the patient can report.	
+ARIS:0000087	Circular rash	Rash	1	sign	appearance	The rash is seen.	
+ARIS:0000088	Clumsiness, particularly in the morning or after naps	Impaired coordination	1	sign	observed event or behaviour	Clumsy movements are seen by others.	
+ARIS:0000634	CNS hyperexcitability: hyperekplexia (exaggerated startle), myoclonus, tremor	Involuntary movements	1	sign	observed event or behaviour	Exaggerated startle, myoclonus and tremor are seen.	
+ARIS:0000089	Cognitive derealization, apathy, and altered perception		1	symptom	perception	Mixed: derealization and altered perception are experiences only the patient has (symptoms); apathy is observed (sign). Two of three items are symptoms.	
+ARIS:0000090	Cognitive impairment		6	sign	examination	Measured on cognitive testing.	
+ARIS:0000635	Cognitive impairment, memory loss, and brain fog	Cognitive impairment	1	sign	examination	Mixed: cognitive impairment and memory loss are measured on testing (signs); brain fog is felt (symptom). Two of three items are signs.	
+ARIS:0000091	Cold feet	Coldness	1	sign	examination	Cold skin can be felt by an examiner.	
+ARIS:0000092	Cold hands	Coldness	1	sign	examination	Cold skin can be felt by an examiner.	
+ARIS:0000093	Cold intolerance		4	symptom	sensation	Feeling unusually cold is reported by the patient.	
+ARIS:0000094	Coldness		4	symptom	sensation	A felt sense of cold; skin cold to the touch would be a sign.	
+ARIS:0000095	Coma		1	sign	examination	Coma is judged by an observer.	
+ARIS:0000636	Complete (third-degree) congenital heart block with severe fetal/neonatal bradycardia		1	sign	test or diagnosis	Found on fetal ultrasound and ECG.	
+ARIS:0000096	Compulsive behavior	Behavioral changes	2	sign	observed event or behaviour	Compulsive acts are seen by others.	
+ARIS:0000097	Compulsive megaphagia / binge eating during episodes	Increased appetite (polyphagia)	1	sign	observed event or behaviour	Binge eating is behaviour others can see.	
+ARIS:0000637	Compulsive polydipsia / cold water craving	Polydipsia	1	sign	observed event or behaviour	Mixed: compulsive drinking is seen (sign); the craving is felt (symptom). Tie broken by the first item.	
+ARIS:0000098	Confusion		9	sign	examination	Confusion is seen by others and found on mental-status testing.	
+ARIS:0000099	Constant pain behind the eye	Eye pain	1	symptom	sensation	Pain is known only from the patient's account.	
+ARIS:0000100	Constipation		9	symptom	reported function	Defined largely by what the patient feels: straining, hard stools, incomplete emptying.	
+ARIS:0000101	Corneal ulceration		1	sign	examination	A corneal ulcer is seen on eye examination.	
+ARIS:0000102	Cough		12	sign	observed event or behaviour	A cough is heard by others.	
+ARIS:0000103	Coughing up blood		2	sign	appearance	Blood is seen.	
+ARIS:0000638	Cramping abdominal pain and lower abdominal tenderness	Abdominal pain	1	symptom	sensation	Mixed: abdominal pain is felt (symptom); tenderness is found when an examiner presses (sign). Tie broken by the first item.	
+ARIS:0000104	Cramps		5	symptom	sensation	Cramps are felt.	
+ARIS:0000639	Creamy yellow-orange hypopigmented choroidal spots radiating from optic disc		1	sign	examination	Seen on examination of the back of the eye.	
+ARIS:0000105	Crusted ulcers	Skin sores	1	sign	appearance	Ulcers are seen.	
+ARIS:0000106	Curling of upper lip		1	sign	appearance	Seen on the face.	
+ARIS:0000107	Damage to dental enamel		1	sign	appearance	Damaged enamel is seen.	
+ARIS:0000108	Dark spots in vision	Vision problems	2	symptom	perception	Only the patient sees the spots.	
+ARIS:0000109	Dark urine		6	sign	appearance	Dark urine is seen.	
+ARIS:0000110	Decreased movement	Movement difficulty	1	sign	observed event or behaviour	Reduced movement is seen by others.	
+ARIS:0000111	Decreased sweating		3	sign	measurement	Reduced sweating can be seen and measured with a sweat test.	
+ARIS:0000112	Deep thoracic or back pain	Back pain	1	symptom	sensation	Pain is known only from the patient's account.	
+ARIS:0000113	Deep vein thrombosis		1	sign	test or diagnosis	A clot diagnosed by ultrasound.	
+ARIS:0000114	Dehydration		1	sign	examination	Found on examination (dry mouth, low blood pressure) and blood tests.	
+ARIS:0000115	Delayed growth		2	sign	measurement	Growth is measured.	
+ARIS:0000116	Delayed muscle relaxation after strong contraction		1	sign	examination	Slow release after a grip is seen and recorded on EMG (myotonia).	
+ARIS:0000117	Delayed puberty		2	sign	measurement	Pubertal stage is assessed on examination.	
+ARIS:0000118	Dementia	Cognitive impairment	1	sign	examination	Diagnosed on cognitive testing and seen by others.	
+ARIS:0000119	Depression	Mood changes	11	symptom	mood or thought	Low mood is felt and reported.	
+ARIS:0000120	Deterioration in school performance	Cognitive impairment	1	sign	observed event or behaviour	Shown by grades and seen by teachers.	
+ARIS:0000121	Development regression		1	sign	observed event or behaviour	Loss of skills is seen by carers and on developmental assessment.	
+ARIS:0000640	Diabetes insipidus (polyuria, polydipsia)		1	sign	test or diagnosis	Mixed: polyuria is measured (sign); thirst is felt (symptom). Tie broken by the first item; the condition itself is diagnosed by tests.	
+ARIS:0000122	Diabetic ketoacidosis (DKA)		1	sign	test or diagnosis	Diagnosed on blood tests.	
+ARIS:0000123	Diarrhea		21	sign	observed event or behaviour	Loose, frequent stools can be seen and measured.	
+ARIS:0000124	Different colored eyes		1	sign	appearance	Eye colour is seen.	
+ARIS:0000125	Different sized pupils	Dysfunction of pupils	1	sign	appearance	Pupil size is seen.	
+ARIS:0000126	Difficulty chewing		3	symptom	reported function	Felt as tiring of the jaw or effort while eating.	
+ARIS:0000127	Difficulty climbing stairs	Movement difficulty	3	sign	observed event or behaviour	An examiner can watch the patient struggle; it is how hip and thigh weakness shows.	
+ARIS:0000128	Difficulty concentrating	Cognitive impairment	5	symptom	mood or thought	An inner difficulty the patient reports.	
+ARIS:0000129	Difficulty eating		1	symptom	reported function	A difficulty the patient reports.	
+ARIS:0000130	Difficulty exercising		1	symptom	reported function	Reduced exercise tolerance is known from the patient's account.	
+ARIS:0000131	Difficulty finding words	Difficulty speaking	1	sign	observed event or behaviour	Word-finding pauses are heard in conversation and tested on examination.	
+ARIS:0000132	Difficulty moving from sitting to standing	Movement difficulty	2	sign	observed event or behaviour	An examiner can watch the patient rise; it is how hip and thigh weakness shows.	
+ARIS:0000133	Difficulty moving jaw		1	sign	examination	Limited jaw movement can be seen and measured.	
+ARIS:0000134	Difficulty seeing color	Vision problems	2	sign	measurement	Colour vision is measured with colour plates.	
+ARIS:0000135	Difficulty speaking		10	sign	observed event or behaviour	Impaired speech is heard by others.	
+ARIS:0000136	Difficulty swallowing		16	symptom	reported function	Felt as food sticking or effort to swallow; a swallow study would show it as a sign.	
+ARIS:0000137	Difficulty understanding basic concepts	Cognitive impairment	1	sign	examination	Comprehension is assessed by others and on testing.	
+ARIS:0000138	Difficulty understanding speech		1	sign	examination	Comprehension of speech is tested on examination.	
+ARIS:0000139	Difficulty urinating		2	symptom	reported function	Felt as hesitancy or straining.	
+ARIS:0000140	Difficulty walking	Movement difficulty	1	sign	observed event or behaviour	Walking difficulty is seen.	
+ARIS:0000641	Diffuse myalgias and muscle weakness		1	symptom	sensation	Mixed: myalgias are felt (symptom); muscle weakness is graded on strength testing (sign). Tie broken by the first item.	
+ARIS:0000642	Digital clubbing in advanced fibrotic variants		1	sign	appearance	Clubbing is seen.	
+ARIS:0000643	Diplopia due to extraocular muscle enlargement	Double vision	1	symptom	perception	Only the patient sees double; the muscle enlargement behind it is an imaging finding.	
+ARIS:0000141	Discomfort in legs that begins after lying down or sitting for a long time		1	symptom	sensation	Discomfort is felt.	
+ARIS:0000142	Discomfort, which is generally greater if lichen sclerosus appears on or around your genital or anal areas		1	symptom	sensation	Discomfort is felt.	
+ARIS:0000143	Disorders of finger and toe nails	Changes in nails	1	sign	appearance	Nail changes are seen.	
+ARIS:0000144	Disorientation		2	sign	examination	Disorientation is found on mental-status testing.	
+ARIS:0000644	Disrupted sleep-wake cycles	Sleep problems	1	sign	observed event or behaviour	Sleep timing can be seen by others and recorded.	
+ARIS:0000645	Disruptive nocturia	Nocturia	1	sign	measurement	The number of times the patient passes urine at night can be counted.	
+ARIS:0000646	Disseminated non-tuberculous mycobacterial (NTM) infections	Recurrent infections	1	sign	test or diagnosis	Diagnosed by cultures.	
+ARIS:0000647	Distal burning neuropathic pain in feet and lower extremities	Nerve pain	1	symptom	sensation	Pain is known only from the patient's account.	
+ARIS:0000648	Distal lower limb numbness, paresthesias, and pain	Loss of sensation	1	symptom	sensation	Numbness, tingling and pain are all felt.	
+ARIS:0000145	Disturbed consciousness	Altered level of consciousness	1	sign	examination	Level of consciousness is judged by an observer.	
+ARIS:0000146	Dizziness		19	symptom	sensation	Dizziness is felt.	
+ARIS:0000147	Double vision	Vision problems	11	symptom	perception	Only the patient sees double; misaligned eyes found on examination would be the sign.	
+ARIS:0000148	Double vision, horizontal or vertical, that improves when one eye is closed	Double vision	4	symptom	perception	Only the patient sees double; the detail on closing one eye is the patient's report.	
+ARIS:0000149	Drowsiness		5	symptom	general feeling	Sleepiness is felt; reduced alertness seen by others would be a sign.	
+ARIS:0000150	Dry cough	Cough	2	sign	observed event or behaviour	A cough is heard by others.	
+ARIS:0000151	Dry eyes		9	symptom	sensation	Dryness is felt as grittiness; reduced tears on a Schirmer test would be its sign.	
+ARIS:0000152	Dry mouth		5	symptom	sensation	Dryness is felt; reduced saliva flow would be measured as a sign.	
+ARIS:0000153	Dry skin		2	sign	appearance	Dry, flaky skin is seen and felt by others.	
+ARIS:0000154	Dry, cracked skin that may bleed	Dry skin	1	sign	appearance	Cracked, bleeding skin is seen.	
+ARIS:0000155	Dull facial expression	Change in facial expression	1	sign	appearance	A dull expression is seen by others.	
+ARIS:0000156	Dysfunction of pupils		1	sign	examination	Pupil reactions are tested with a light.	
+ARIS:0000157	Ear pain	Pain	2	symptom	sensation	Pain is known only from the patient's account.	
+ARIS:0000158	Early intractable limbic seizures and temporal lobe status	Seizures	1	sign	observed event or behaviour	Seizures are seen by others and recorded on EEG.	
+ARIS:0000649	Early-onset interstitial lung disease / pulmonary hemorrhage		1	sign	test or diagnosis	Diagnosed on imaging and lung tests.	
+ARIS:0000159	Early-onset multi-organ autoimmunity starting in infancy/childhood		1	sign	test or diagnosis	A disease course established by tests, not something felt.	
+ARIS:0000650	Early-onset refractory autoimmune enteropathy with chronic watery diarrhea	Diarrhea	1	sign	test or diagnosis	Enteropathy is a biopsy diagnosis; the watery diarrhea it comes with describes it.	
+ARIS:0000160	Early-onset type 1 diabetes mellitus		1	sign	test or diagnosis	Diagnosed on blood glucose and antibody tests.	
+ARIS:0000651	Early-onset type 1 diabetes mellitus in male infants	Early-onset type 1 diabetes mellitus	1	sign	test or diagnosis	Diagnosed on blood glucose and antibody tests.	
+ARIS:0000161	Easy bruising		9	sign	appearance	Bruises are seen.	
+ARIS:0000162	Eczema-like rash	Rash	1	sign	appearance	The rash is seen.	
+ARIS:0000163	Edema	Swelling	1	sign	examination	Fluid swelling is seen and pits when pressed.	
+ARIS:0000164	Elbow pain	Joint pain	1	symptom	sensation	Pain is known only from the patient's account.	
+ARIS:0000165	Electric-shock sensations that occur with certain head movements		1	symptom	sensation	Lhermitte's sign: despite its name, a sensation only the patient feels.	
+ARIS:0000166	Empty feeling in the abdomen/stomach		1	symptom	sensation	An empty feeling only the patient can report.	
+ARIS:0000167	Encephalopathy, confusion, and delirium	Confusion	1	sign	examination	Encephalopathy, confusion and delirium are seen by others and found on examination.	
+ARIS:0000168	Epileptic seizures	Seizures	2	sign	observed event or behaviour	Seizures are seen by others and recorded on EEG.	
+ARIS:0000169	Erectile dysfunction	Sexual dysfunction	3	symptom	reported function	Known from the patient's account.	
+ARIS:0000652	Eruptive cutaneous xanthomas on extensor surfaces and buttocks		1	sign	appearance	Xanthomas are seen.	
+ARIS:0000170	Euphoria	Mood changes	1	symptom	mood or thought	An elevated mood the patient feels.	
+ARIS:0000171	Excessive bleeding		1	sign	appearance	Bleeding is seen.	
+ARIS:0000172	Excessive sweating		3	sign	appearance	Sweating is seen.	
+ARIS:0000653	Exertional presyncope or syncope	Fainting	1	symptom	sensation	Mixed: presyncope is a felt faintness (symptom); syncope is a loss of consciousness others see (sign). Tie broken by the first item.	
+ARIS:0000654	Extensive eczematous or psoriasiform dermatitis		1	sign	appearance	Dermatitis is seen.	
+ARIS:0000655	Extensive subcutaneous calcinosis (calcinosis cutis)		1	sign	examination	Calcium deposits are felt under the skin and seen on X-ray.	
+ARIS:0000656	Extraintestinal manifestations (peripheral arthritis, uveitis, aphthae)		1	sign	examination	Arthritis, uveitis and mouth ulcers are all found on examination.	
+ARIS:0000173	Eye discharge		2	sign	appearance	Discharge is seen.	
+ARIS:0000174	Eye inflammation		6	sign	examination	Inflammation shows as redness and on slit-lamp examination.	
+ARIS:0000175	Eye irritation		6	symptom	sensation	Irritation is felt.	
+ARIS:0000176	Eye lesions		1	sign	appearance	Lesions are seen.	
+ARIS:0000177	Eye pain	Pain	15	symptom	sensation	Pain is known only from the patient's account.	
+ARIS:0000178	Eye sensitivity		1	symptom	sensation	Discomfort from light or touch is felt.	
+ARIS:0000179	Eyebrow hair loss	Hair loss	1	sign	appearance	Hair loss is seen.	
+ARIS:0000180	Eyelid drooping		6	sign	appearance	A drooping eyelid is seen.	
+ARIS:0000181	Facial droop		1	sign	appearance	A drooping face is seen.	
+ARIS:0000182	Facial flushing		2	sign	appearance	Flushing is seen.	
+ARIS:0000183	Facial pain	Pain	3	symptom	sensation	Pain is known only from the patient's account.	
+ARIS:0000184	Facial paralysis	Paralysis	1	sign	examination	Facial weakness is seen and tested on examination.	
+ARIS:0000185	Failure to thrive		2	sign	measurement	Weight and growth are measured.	
+ARIS:0000186	Fainting		2	sign	observed event or behaviour	Loss of consciousness is seen by others.	
+ARIS:0000187	Falling	Unsteadiness	2	sign	observed event or behaviour	Falls are seen.	
+ARIS:0000188	Fast breathing		1	sign	measurement	Breathing rate is counted.	
+ARIS:0000189	Fast, irregular eye movements		2	sign	observed event or behaviour	Eye movements are seen.	
+ARIS:0000190	Fatigue		77	symptom	general feeling	Tiredness is felt and reported.	
+ARIS:0000191	Fatty deposits on the skin around your eyes, your eyelids, or in the creases in your palms, soles, elbows or knees		1	sign	appearance	Fatty deposits are seen.	
+ARIS:0000192	Fear	Anxiety	2	symptom	mood or thought	Fear is felt.	
+ARIS:0000193	Feeling full quickly after eating		2	symptom	sensation	Fullness is felt.	
+ARIS:0000194	Feeling of fullness in the ear		1	symptom	sensation	Fullness is felt.	
+ARIS:0000195	Feet spasms	Muscle spasms	1	sign	observed event or behaviour	Spasms are visible muscle contractions.	
+ARIS:0000196	Fever		44	sign	measurement	Body temperature is measured with a thermometer.	
+ARIS:0000197	Finger pain	Pain	2	symptom	sensation	Pain is known only from the patient's account.	
+ARIS:0000198	Finger tremor	Tremor	1	sign	observed event or behaviour	Tremor is seen.	
+ARIS:0000199	Fingernails and toenails have dents, white spots, and roughness	Changes in nails	1	sign	appearance	Nail changes are seen.	
+ARIS:0000200	Firm bumps of tissue under the skin on your arms	Abnormal lumps below skin	1	sign	examination	Bumps under the skin are felt.	
+ARIS:0000201	Flat or slightly raised, painless rash with a ragged edge	Rash	1	sign	appearance	The rash is seen; that it is painless describes it.	
+ARIS:0000202	Floaters in vision	Vision problems	3	symptom	perception	Only the patient sees floaters.	
+ARIS:0000203	Flu-like symptoms		3	symptom	general feeling	Aches, tiredness and feeling unwell are felt.	
+ARIS:0000204	Fluctuating neurological symptoms (confusion, transient focal deficits, seizure, coma)		1	sign	examination	Confusion, focal deficits, seizures and coma are all observed.	
+ARIS:0000205	Foamy, frothy urine		2	sign	appearance	Foamy urine is seen.	
+ARIS:0000657	Focal muscle atrophy in chronically denervated muscle groups	Muscle loss	1	sign	examination	Wasted muscle is seen and felt.	
+ARIS:0000206	Food getting stuck in the esophagus after swallowing	Difficulty swallowing	1	symptom	sensation	Food sticking is felt.	
+ARIS:0000207	Foot pain	Pain	8	symptom	sensation	Pain is known only from the patient's account.	
+ARIS:0000208	Frequent bowel movements	Bowel changes	1	sign	measurement	Bowel movements can be counted.	
+ARIS:0000209	Fulminant ketoacidosis	Diabetic ketoacidosis (DKA)	1	sign	test or diagnosis	Diagnosed on blood tests.	
+ARIS:0000210	Galactorrhea		1	sign	appearance	Milky discharge from the nipple is seen.	
+ARIS:0000211	Gangrene of extremities		1	sign	appearance	Gangrene is seen.	
+ARIS:0000212	Gas		1	symptom	sensation	Gassiness and bloating are felt.	
+ARIS:0000213	Generalized areflexia	Reduced reflexes	1	sign	examination	Reflexes are tested with a reflex hammer.	
+ARIS:0000658	Generalized hypo- or areflexia	Reduced reflexes	1	sign	examination	Reflexes are tested with a reflex hammer.	
+ARIS:0000214	Genital blisters	Blisters	0	sign	appearance	Blisters are seen.	
+ARIS:0000215	Gnawing ache in the upper abdomen that may become better or worse with eating	Abdominal pain	1	symptom	sensation	An ache is felt.	
+ARIS:0000659	Gottron's papules		2	sign	appearance	Gottron's papules are seen.	
+ARIS:0000216	Gradual weight loss	Weight loss	1	sign	measurement	Weight is measured.	
+ARIS:0000217	Gum enlargement		1	sign	appearance	Enlarged gums are seen.	
+ARIS:0000218	Hair loss		9	sign	appearance	Hair loss is seen.	
+ARIS:0000219	Hallucinations	Psychosis	3	symptom	perception	Only the patient perceives hallucinations.	
+ARIS:0000220	Hand pain	Pain	7	symptom	sensation	Pain is known only from the patient's account.	
+ARIS:0000221	Hand spasms	Muscle spasms	1	sign	observed event or behaviour	Spasms are visible muscle contractions.	
+ARIS:0000222	Hand tremor	Tremor	2	sign	observed event or behaviour	Tremor is seen.	
+ARIS:0000223	Hard to read fine print, drive, or recognize faces	Vision problems	1	sign	measurement	Describes loss of central vision in everyday terms; central acuity is measured with an eye chart.	
+ARIS:0000660	Harsh crescendo-decrescendo systolic murmur radiating to carotids	Heart murmur	1	sign	examination	A murmur is heard with a stethoscope.	
+ARIS:0000224	Headache	Pain	27	symptom	sensation	Pain is known only from the patient's account.	
+ARIS:0000225	Hearing loss		8	sign	measurement	Hearing is measured with an audiogram.	
+ARIS:0000226	Hearing loss that may fluctuate, particularly early in the course of the disease	Hearing loss	1	sign	measurement	Hearing is measured with an audiogram.	
+ARIS:0000227	Heart murmur		2	sign	examination	A murmur is heard with a stethoscope.	
+ARIS:0000228	Heart palpitations		4	symptom	sensation	An awareness of the heartbeat; a fast or irregular pulse measured by others is the sign.	
+ARIS:0000229	Heaviness in chest		1	symptom	sensation	Heaviness is felt.	
+ARIS:0000230	Heavy menstrual flow		6	sign	measurement	Menstrual blood loss can be seen and measured.	
+ARIS:0000661	Heavy nephrotic-range proteinuria (>3.5 g/24h) with foamy urine		1	sign	test or diagnosis	Proteinuria is measured in the urine; the foamy urine it comes with describes it.	
+ARIS:0000231	Heavy vaginal discharge that has a foul odor		1	sign	appearance	Discharge is seen and its odour noticed by others.	
+ARIS:0000232	Heel pain	Foot pain	2	symptom	sensation	Pain is known only from the patient's account.	
+ARIS:0000233	Heel stiffness	Stiffness	1	symptom	sensation	Stiffness is felt.	
+ARIS:0000234	Hiccups		2	sign	observed event or behaviour	Hiccups are seen and heard.	
+ARIS:0000662	High incidence of deep venous thrombosis or renal vein thrombosis		1	sign	test or diagnosis	Clots are diagnosed by ultrasound.	
+ARIS:0000235	High shoulder blade		1	sign	appearance	A raised shoulder blade is seen.	
+ARIS:0000236	High-pitched sound during breathing		1	sign	observed event or behaviour	Stridor is heard by others.	
+ARIS:0000237	Hip pain	Joint pain	3	symptom	sensation	Pain is known only from the patient's account.	
+ARIS:0000238	Hip stiffness	Joint stiffness	2	symptom	sensation	Stiffness is felt.	
+ARIS:0000239	Hives		6	sign	appearance	Hives are seen.	
+ARIS:0000240	Hoarseness	Change in voice	2	sign	observed event or behaviour	A hoarse voice is heard by others.	
+ARIS:0000241	Hunched posture		1	sign	appearance	Posture is seen.	
+ARIS:0000242	Hunger		3	symptom	general feeling	Hunger is felt.	
+ARIS:0000663	Hyperlipidemia and lipiduria		1	sign	test or diagnosis	Blood and urine test results.	
+ARIS:0000664	Hypernatremic dehydration when fluid access is restricted	Dehydration	1	sign	test or diagnosis	Diagnosed on blood sodium.	
+ARIS:0000243	Hyperpigmentation		3	sign	appearance	Darkened skin is seen.	
+ARIS:0000244	Hypersexuality and disinhibited behaviors	Behavioral changes	1	sign	observed event or behaviour	Behaviour others see.	
+ARIS:0000665	Hypocalcemic generalized seizures	Seizures	1	sign	observed event or behaviour	Seizures are seen by others; low calcium is a blood-test result.	
+ARIS:0000666	Hypogammaglobulinemia with recurrent severe sinopulmonary infections	Recurrent infections	2	sign	test or diagnosis	Low antibody levels are a blood-test result; the infections it comes with describe it.	
+ARIS:0000667	Hypoglycemia occurring primarily postprandially (2–4 hours after meal) or post-exercise		1	sign	test or diagnosis	Low blood glucose is a measured value.	
+ARIS:0000668	Hypopituitarism		1	sign	test or diagnosis	Diagnosed on hormone tests.	
+ARIS:0000669	Immune complex-mediated glomerulonephritis		1	sign	test or diagnosis	Diagnosed on urine tests and biopsy.	
+ARIS:0000670	Immune-mediated colitis with severe watery diarrhea and abdominal cramps	Diarrhea	1	sign	test or diagnosis	Colitis is diagnosed on colonoscopy; the diarrhea and cramps it comes with describe it.	
+ARIS:0000671	Immune-related maculopapular dermatitis and vitiligo-like depigmentation		1	sign	appearance	Rash and depigmentation are seen.	
+ARIS:0000245	Impaired coordination		4	sign	examination	Coordination is tested on examination.	
+ARIS:0000246	In childhood-onset bullous pemphigoid associated with vaccination, the bullous lesions predominantly affect the palms, soles, and face	Blisters	1	sign	appearance	Blisters are seen.	
+ARIS:0000247	Increased appetite (polyphagia)		1	symptom	general feeling	Appetite is felt; the extra eating would be its sign.	
+ARIS:0000248	Increased calf muscle size		1	sign	appearance	Enlarged calves are seen.	
+ARIS:0000249	Increased frequency of urination		4	sign	measurement	The number of times the patient passes urine can be counted.	
+ARIS:0000250	Indigestion		2	symptom	sensation	Indigestion is felt.	
+ARIS:0000251	Infertility		6	sign	test or diagnosis	Established by failure to conceive and fertility tests, not felt.	
+ARIS:0000252	Inflammation of the gums		1	sign	appearance	Inflamed gums are seen.	
+ARIS:0000672	Insidious, progressive exertional dyspnea	Shortness of breath with exertion	1	symptom	sensation	Breathlessness is felt.	
+ARIS:0000673	Intention and action tremor	Tremor	1	sign	observed event or behaviour	Tremor is seen.	
+ARIS:0000253	Interstitial pneumonia		1	sign	test or diagnosis	Diagnosed on imaging.	
+ARIS:0000254	Involuntary movements	Abnormal movement	5	sign	observed event or behaviour	Involuntary movements are seen.	
+ARIS:0000674	Involuntary weight loss, malabsorption, and chronic fatigue	Weight loss	1	sign	measurement	Mixed: weight loss is measured and malabsorption shown by tests (signs); fatigue is felt (symptom). Two of three items are signs.	
+ARIS:0000255	Irregular heartbeat		9	sign	measurement	"Found on taking the pulse or on an ECG; feeling it is ""Heart palpitations""."	
+ARIS:0000256	Irritability	Mood changes	10	symptom	mood or thought	Irritable mood is felt and reported.	
+ARIS:0000257	Irritability / mood changes	Mood changes	1	symptom	mood or thought	Irritability and mood changes are felt and reported.	
+ARIS:0000258	Irritability in children	Irritability	1	symptom	mood or thought	"Irritable mood, as with ""Irritability""; in young children carers report it."	
+ARIS:0000259	Itching		8	symptom	sensation	Itching is felt.	
+ARIS:0000260	Itchy blisters	Blisters	0	sign	appearance	The blisters are seen; the itch describes them.	
+ARIS:0000261	Itchy rash	Rash	1	sign	appearance	The rash is seen; the itch describes it.	
+ARIS:0000262	Jaw pain when you open your mouth	Pain	1	symptom	sensation	Pain is known only from the patient's account.	
+ARIS:0000263	Joint pain	Pain	41	symptom	sensation	Pain is known only from the patient's account.	
+ARIS:0000264	Joint stiffness	Stiffness	8	symptom	sensation	Stiffness is felt; limited movement measured by an examiner would be a sign.	
+ARIS:0000265	Joint tenderness	Tenderness	2	sign	examination	Tenderness is pain an examiner provokes by pressing the joint.	
+ARIS:0000266	Knee pain	Joint pain	2	symptom	sensation	Pain is known only from the patient's account.	
+ARIS:0000267	Knee stiffness	Joint stiffness	1	symptom	sensation	Stiffness is felt.	
+ARIS:0000268	Lactose intolerance		1	symptom	reported function	Known from the symptoms the patient reports after eating dairy.	
+ARIS:0000269	Large blisters	Blisters	1	sign	appearance	Blisters are seen.	
+ARIS:0000270	Large blisters on lower abdomen, groin, upper thighs and arms that don't easily rupture when touched	Large blisters	1	sign	appearance	Blisters are seen.	
+ARIS:0000675	Laryngospasm and stridor	High-pitched sound during breathing	1	sign	observed event or behaviour	Laryngospasm and stridor are heard by others.	
+ARIS:0000676	Latent tetany: positive Chvostek's sign (60–75%) & Trousseau's sign		1	sign	examination	Chvostek's and Trousseau's signs are provoked by an examiner.	
+ARIS:0000271	Leaking bumps or sores that heal very slowly and recur over time	Skin sores	1	sign	appearance	Sores are seen.	
+ARIS:0000272	Learning disability	Cognitive impairment	1	sign	test or diagnosis	Assessed by educational and cognitive testing.	
+ARIS:0000273	Leg pain	Pain	3	symptom	sensation	Pain is known only from the patient's account.	
+ARIS:0000274	Leg stiffness	Stiffness	1	symptom	sensation	Stiffness is felt.	
+ARIS:0000275	Lesions		2	sign	appearance	Lesions are seen.	
+ARIS:0000276	Lightheadedness	Dizziness	4	symptom	sensation	Lightheadedness is felt.	
+ARIS:0000677	Limbic encephalitis with cognitive decline		1	sign	test or diagnosis	Encephalitis is diagnosed on MRI, CSF and antibody tests; cognitive decline is measured.	
+ARIS:0000277	Limited range of motion in affected areas		2	sign	examination	Range of motion is measured.	
+ARIS:0000278	Limping	Difficulty walking	1	sign	observed event or behaviour	A limp is seen.	
+ARIS:0000279	Limpness of the ear		1	sign	examination	A floppy ear is seen and felt.	
+ARIS:0000280	Lip ulcers	Mouth sores	1	sign	appearance	Ulcers are seen.	
+ARIS:0000678	Lipemia retinalis on fundoscopic examination		1	sign	examination	Seen on examination of the back of the eye.	
+ARIS:0000281	Loose fatty stools that do not flush easily		1	sign	appearance	Fatty stools are seen.	
+ARIS:0000282	Loss of bladder control	Abnormal bladder control	1	sign	observed event or behaviour	Leaks of urine are seen.	
+ARIS:0000283	Loss of bowel control	Bowel changes	4	sign	observed event or behaviour	Leaks of stool are seen.	
+ARIS:0000284	Loss of color in the tissues that line the inside of your mouth		1	sign	appearance	Pale lining of the mouth is seen.	
+ARIS:0000285	Loss of consciousness		1	sign	observed event or behaviour	Loss of consciousness is seen by others.	
+ARIS:0000286	Loss of eyelashes	Hair loss	2	sign	appearance	Lost eyelashes are seen.	
+ARIS:0000287	Loss of feeling in feet	Numbness	1	sign	examination	"Lost sensation is mapped on examination with touch, pin and vibration; the felt numbness is ""Numbness""."	
+ARIS:0000288	Loss of feeling in hands	Numbness	2	sign	examination	"Lost sensation is mapped on examination with touch, pin and vibration; the felt numbness is ""Numbness""."	
+ARIS:0000289	Loss of low-light vision	Vision problems	1	sign	measurement	Night vision can be measured with dark-adaptation testing.	
+ARIS:0000290	Loss of motor skills	Movement difficulty	1	sign	observed event or behaviour	Lost skills are seen.	
+ARIS:0000291	Loss of or change in color of the inner layer of your eye		1	sign	examination	Seen on eye examination.	
+ARIS:0000292	Loss of peripheral vision	Vision loss	1	sign	measurement	Measured on visual field testing.	
+ARIS:0000293	Loss of sensation		6	sign	examination	Lost sensation is mapped on examination with touch, pin and vibration.	
+ARIS:0000294	Loss of teeth		1	sign	appearance	Lost teeth are seen.	
+ARIS:0000295	Low blood counts		1	sign	test or diagnosis	Low blood counts are blood-test results.	
+ARIS:0000296	Low neutrophil count:	Low blood counts	0	sign	test or diagnosis	A blood-test result.	
+ARIS:0000297	Low platelet count:	Low blood counts	0	sign	test or diagnosis	A blood-test result.	
+ARIS:0000298	Low-grade fever	Fever	1	sign	measurement	Body temperature is measured with a thermometer.	
+ARIS:0000299	Lower back stiffness	Stiffness	2	symptom	sensation	Stiffness is felt.	
+ARIS:0000300	Lumps turn blue or yellow		1	sign	appearance	Colour changes are seen.	
+ARIS:0000679	Lymphocytic interstitial lung disease	Interstitial pneumonia	2	sign	test or diagnosis	Diagnosed on imaging and biopsy.	
+ARIS:0000301	Malaise		6	symptom	general feeling	Feeling unwell is felt and reported.	
+ARIS:0000680	Marked bilateral dependent peripheral pitting edema and anasarca	Edema	1	sign	examination	Pitting swelling is seen and pressed on examination.	
+ARIS:0000302	Marked high-amplitude postural and action tremor	Tremor	1	sign	observed event or behaviour	Tremor is seen.	
+ARIS:0000681	Marked postural and action tremor of the hands	Hand tremor	1	sign	observed event or behaviour	Tremor is seen.	
+ARIS:0000303	Marked psychiatric and behavioral changes (agitation, psychosis)	Behavioral changes	1	sign	observed event or behaviour	Mixed: agitation is seen (sign); psychosis is known from what the patient reports (symptom). Tie broken by the first item.	
+ARIS:0000304	Memory problems	Cognitive impairment	9	sign	examination	Memory loss is noticed by others and measured on cognitive testing.	
+ARIS:0000305	Meningoencephalitis symptoms: subacute fever, severe headache, and neck stiffness		1	sign	measurement	Mixed: fever is measured and neck stiffness is found on examination (signs); headache is felt (symptom). Two of three items are signs.	
+ARIS:0000306	Mental decline	Cognitive impairment	1	sign	examination	Decline is seen by others and measured on cognitive testing.	
+ARIS:0000307	Mental disorders		1	symptom	mood or thought	Too general to place closely; mental disorders show mainly in mood and thought the patient reports.	
+ARIS:0000308	Microangiopathic hemolytic anemia with schistocytes on blood smear		2	sign	test or diagnosis	Blood-test and blood-smear results.	
+ARIS:0000309	Migraine headaches	Headache	3	symptom	sensation	Pain is known only from the patient's account.	
+ARIS:0000310	Migrating joint pain	Joint pain	1	symptom	sensation	Pain is known only from the patient's account.	
+ARIS:0000682	Mild late distal motor weakness (foot drop)	Weakness in feet	1	sign	examination	Foot drop is seen, and weakness is graded on strength testing.	
+ARIS:0000311	Milky white patches on skin	Skin pigmentation loss	1	sign	appearance	Skin patches are seen.	
+ARIS:0000312	Misalignment of jaw		1	sign	appearance	Misalignment is seen.	
+ARIS:0000313	Misalignment of teeth		1	sign	appearance	Misalignment is seen.	
+ARIS:0000314	Miscarriages		2	sign	observed event or behaviour	A pregnancy loss is a clinical event, confirmed by examination or ultrasound.	
+ARIS:0000315	Mood changes		4	symptom	mood or thought	Mood is felt and reported.	
+ARIS:0000316	Mouth rash	Rash	1	sign	appearance	The rash is seen.	
+ARIS:0000317	Mouth sores		11	sign	appearance	Sores are seen.	
+ARIS:0000318	Movement difficulty		1	sign	observed event or behaviour	Movement difficulty is seen.	
+ARIS:0000683	Movement disorders (chorea, catatonia, opsoclonus)	Involuntary movements	1	sign	observed event or behaviour	Chorea, catatonia and opsoclonus are seen.	
+ARIS:0000319	Mucocutaneous, hematuric, and gastrointestinal bleeding	Excessive bleeding	1	sign	appearance	Bleeding is seen.	
+ARIS:0000684	Mucosal blister formation and erosions	Blisters on various mucous membranes	1	sign	appearance	Blisters and erosions are seen.	
+ARIS:0000320	Mucous-membrane blisters that rupture easily	Blisters	0	sign	appearance	Blisters are seen.	
+ARIS:0000321	Muscle cramps	Cramps	2	symptom	sensation	Felt as sudden painful tightening.	
+ARIS:0000685	Muscle fasciculations, myokymia, and muscle cramps	Muscle spasms	2	sign	observed event or behaviour	Mixed: fasciculations and myokymia are visible twitches (signs); cramps are felt (symptom). Two of three items are signs.	
+ARIS:0000322	Muscle loss		1	sign	appearance	Wasting is seen and measured.	
+ARIS:0000323	Muscle pain	Pain	27	symptom	sensation	Pain is known only from the patient's account.	
+ARIS:0000324	Muscle soreness	Muscle pain	1	symptom	sensation	Soreness is felt.	
+ARIS:0000325	Muscle spasms		7	sign	observed event or behaviour	Spasms are visible muscle contractions.	
+ARIS:0000326	Muscle stiffness	Stiffness	2	symptom	sensation	Tightness is felt; rigidity an examiner feels when moving the limb would be a sign.	
+ARIS:0000327	Muscle tenderness	Tenderness	2	sign	examination	Tenderness is pain an examiner provokes by pressing the muscle.	
+ARIS:0000328	Myelopathy with spinal paraparesis and sensory deficit		1	sign	examination	Paraparesis and sensory loss are found on neurological examination.	
+ARIS:0000329	Nail loss	Changes in nails	1	sign	appearance	Lost nails are seen.	
+ARIS:0000330	Nasal congestion		3	symptom	sensation	A blocked nose is felt.	
+ARIS:0000331	Nausea		25	symptom	sensation	Nausea is felt.	
+ARIS:0000332	Nausea during menstrual periods	Nausea	1	symptom	sensation	Nausea is felt.	
+ARIS:0000333	Nerve pain	Pain	1	symptom	sensation	Pain is known only from the patient's account.	
+ARIS:0000686	Neurogenic urinary retention	Difficulty urinating	1	sign	measurement	Retained urine is measured by bladder scan or catheter.	
+ARIS:0000334	Night sweats		6	sign	appearance	Drenching sweats soak bedclothes, which others can see, though the patient usually reports them.	
+ARIS:0000335	Nocturia		2	sign	measurement	The number of times the patient passes urine at night can be counted.	
+ARIS:0000336	Nocturnal cough and pulmonary aspiration	Cough	1	sign	observed event or behaviour	Coughing is heard and aspiration is shown on imaging.	
+ARIS:0000337	Nodules in fingers		1	sign	examination	Nodules are seen and felt.	
+ARIS:0000338	Nodules in heel		1	sign	examination	Nodules are seen and felt.	
+ARIS:0000339	Nodules in toes		1	sign	examination	Nodules are seen and felt.	
+ARIS:0000340	Nose rash	Rash	1	sign	appearance	The rash is seen.	
+ARIS:0000341	Nose ulcers		1	sign	appearance	Ulcers are seen.	
+ARIS:0000342	Nosebleeds		6	sign	appearance	Bleeding is seen.	
+ARIS:0000343	Numbness	Loss of sensation	9	symptom	sensation	Numbness is felt; sensory loss mapped on examination would be its sign.	
+ARIS:0000344	Numbness in the fingers or toes, especially in cold temperatures	Numbness	1	symptom	sensation	Numbness is felt.	
+ARIS:0000687	Nyctalopia and diminished color discrimination	Loss of low-light vision	1	sign	measurement	Night vision and colour discrimination are measured with vision tests.	
+ARIS:0000688	Nystagmus, saccadic intrusions, and ocular dysmetria		1	sign	examination	Abnormal eye movements are seen on examination.	
+ARIS:0000345	Obsessions	Ocd	1	symptom	mood or thought	Obsessions are thoughts the patient reports.	
+ARIS:0000346	Ocd	Mental disorders	1	symptom	mood or thought	Obsessions are thoughts only the patient reports; the compulsions they drive are seen.	
+ARIS:0000689	Opportunistic fungal infections (cryptococcosis, penicilliosis)	Recurrent infections	1	sign	test or diagnosis	Diagnosed by cultures.	
+ARIS:0000347	Orange peel appearance of skin of the extremities		1	sign	appearance	Skin texture is seen.	
+ARIS:0000348	Oval-shaped patches		1	sign	appearance	Patches are seen.	
+ARIS:0000349	Over-responsive reflexes		1	sign	examination	Reflexes are tested with a reflex hammer.	
+ARIS:0000350	Pain		102	symptom	sensation	Pain is known only from the patient's account.	
+ARIS:0000351	Pain after sexual intercourse	Pain	1	symptom	sensation	Pain is known only from the patient's account.	
+ARIS:0000352	Pain and/or cramps in the lower abdomen before menstruation	Painful menstrual periods	1	symptom	sensation	Pain and cramps are felt.	
+ARIS:0000353	Pain during bowel movements	Pain	1	symptom	sensation	Pain is known only from the patient's account.	
+ARIS:0000354	Pain during sexual intercourse	Pain	3	symptom	sensation	Pain is known only from the patient's account.	
+ARIS:0000355	Pain during urination	Pain	3	symptom	sensation	Pain is known only from the patient's account.	
+ARIS:0000356	Pain in buttocks	Pain	1	symptom	sensation	Pain is known only from the patient's account.	
+ARIS:0000357	Pain in extremities	Pain	1	symptom	sensation	Pain is known only from the patient's account.	
+ARIS:0000358	Pain in ligaments	Pain	1	symptom	sensation	Pain is known only from the patient's account.	
+ARIS:0000359	Pain in tendons	Pain	3	symptom	sensation	Pain is known only from the patient's account.	
+ARIS:0000360	Pain on the bottom of the foot, especially noticeable when moving	Foot pain	1	symptom	sensation	Pain is known only from the patient's account.	
+ARIS:0000361	Pain or discomfort in swallowing cold foods and liquids	Pain	1	symptom	sensation	Pain and discomfort are felt.	
+ARIS:0000362	Pain or discomfort while the bladder fills and relief after urinating	Bladder pain	1	symptom	sensation	Pain and relief are felt.	
+ARIS:0000363	Pain when standing	Pain	1	symptom	sensation	Pain is known only from the patient's account.	
+ARIS:0000364	Pain when urinating during menstrual periods	Pain during urination	1	symptom	sensation	Pain is known only from the patient's account.	
+ARIS:0000365	Pain, especially first thing in the morning or after a nap	Pain	1	symptom	sensation	Pain is known only from the patient's account.	
+ARIS:0000366	Painful and decreased eye movements	Eye pain	1	symptom	sensation	Mixed: pain on eye movement is felt (symptom); reduced eye movement is seen on examination (sign). Tie broken by the first item.	
+ARIS:0000367	Painful and sensitive blisters that are ruptured	Blisters	1	sign	appearance	The blisters are seen; pain and sensitivity describe them.	
+ARIS:0000368	Painful bowel movements during menstrual periods	Pain during bowel movements	1	symptom	sensation	Pain is known only from the patient's account.	
+ARIS:0000690	Painful carpopedal spasms and cramps	Cramps	1	sign	observed event or behaviour	Mixed: carpopedal spasms are visible (sign); cramps are felt (symptom). Tie broken by the first item.	
+ARIS:0000369	Painful cramps during menstrual periods	Cramps	1	symptom	sensation	Pain is known only from the patient's account.	
+ARIS:0000691	Painful deep cutaneous ulcerations (digital, knuckles, elbows)	Painful sores	1	sign	appearance	Ulcers are seen; that they hurt describes them.	
+ARIS:0000370	Painful genital sores	Painful sores	1	sign	appearance	Sores are seen; that they hurt describes them.	
+ARIS:0000371	Painful menstrual periods	Pain	1	symptom	sensation	Pain is known only from the patient's account.	
+ARIS:0000372	Painful rashes	Rash	1	sign	appearance	The rash is seen; that it hurts describes it.	
+ARIS:0000373	Painful red bumps that enlarge, break open, and drain pus. the pus may have an unpleasant odor		1	sign	appearance	Bumps and pus are seen.	
+ARIS:0000374	Painful sores	Skin sores	1	sign	appearance	Sores are seen; that they hurt describes them.	
+ARIS:0000375	Painful, fatty lumps		1	sign	examination	Lumps are seen and felt; that they hurt describes them.	
+ARIS:0000376	Painful, symmetrical lumps		1	sign	examination	Lumps are seen and felt; that they hurt describes them.	
+ARIS:0000692	Painless progressive visual blurriness / decrease in visual acuity	Blurred vision	1	symptom	perception	Mixed: blurriness is what the patient sees (symptom); reduced acuity is measured on an eye chart (sign). Tie broken by the first item.	
+ARIS:0000693	Painless proptosis and orbital pseudotumor mass	Bulging eyes	1	sign	appearance	Bulging of the eye is seen, and the mass on imaging.	
+ARIS:0000377	Pale skin		3	sign	appearance	Pallor is seen.	
+ARIS:0000694	Palmar hyperkeratotic papules / inverse Gottron's		1	sign	appearance	Papules are seen.	
+ARIS:0000695	Palmar violaceous papules / inverse Gottron's		1	sign	appearance	Papules are seen.	
+ARIS:0000696	Palpitations and tremulousness upon standing	Heart palpitations	1	symptom	sensation	Palpitations and tremulousness (feeling shaky) are both felt.	
+ARIS:0000378	Panic attacks	Anxiety	1	symptom	mood or thought	Panic is felt.	
+ARIS:0000379	Paralysis		4	sign	examination	Paralysis is seen and tested on examination.	
+ARIS:0000380	Paralysis of eye muscles	Paralysis	2	sign	examination	Eye muscle paralysis is seen on examination.	
+ARIS:0000381	Paralysis while falling asleep or upon waking up	Sleep problems	1	symptom	perception	Sleep paralysis is experienced by the patient; others usually see nothing.	
+ARIS:0000382	Paranoid delusions	Psychosis	2	symptom	mood or thought	Delusions are beliefs known from what the patient says.	
+ARIS:0000383	Partial paralysis of the legs	Paralysis	1	sign	examination	Paralysis is seen and tested on examination.	
+ARIS:0000384	Patches of blisters	Blisters	2	sign	appearance	Blisters are seen.	
+ARIS:0000697	Pathognomonic faciobrachial dystonic seizures (FBDS)	Seizures	1	sign	observed event or behaviour	Seizures are seen by others.	
+ARIS:0000385	Peeling skin		1	sign	appearance	Peeling skin is seen.	
+ARIS:0000386	Pelvic pain	Pain	1	symptom	sensation	Pain is known only from the patient's account.	
+ARIS:0000387	Penis pain	Pain	1	symptom	sensation	Pain is known only from the patient's account.	
+ARIS:0000698	Perioral, lingual, and digital paresthesias / tingling	Tingling	1	symptom	sensation	Tingling is felt.	
+ARIS:0000699	Peripheral and periorbital subcutaneous edema	Edema	1	sign	examination	Swelling is seen and pits when pressed.	
+ARIS:0000700	Persistent dull retro-orbital/frontal headache	Headache	1	symptom	sensation	Pain is known only from the patient's account.	
+ARIS:0000388	Personality changes	Behavioral changes	3	sign	observed event or behaviour	Personality changes are noticed by others.	
+ARIS:0000701	Photosensitive annular or polycyclic erythematous facial rash ('raccoon/owl eyes')	Rash	1	sign	appearance	The rash is seen.	
+ARIS:0000389	Polydipsia		4	symptom	general feeling	Excessive thirst is felt; the amount drunk could be measured as a sign.	
+ARIS:0000702	Polymorphic cutaneous eruptions: lichenoid, bullous, or targetoid lesions	Lesions	1	sign	appearance	Skin eruptions are seen.	
+ARIS:0000390	Polyuria		2	sign	measurement	Urine volume is measured.	
+ARIS:0000391	Poor skin rigidity		1	sign	examination	Reduced skin turgor is felt by an examiner.	
+ARIS:0000392	Poor weight gain		1	sign	measurement	Weight is measured.	
+ARIS:0000766	Post-exertional malaise	Malaise	1	symptom	general feeling	Malaise after exertion is felt and reported.	
+ARIS:0000393	Postnatal growth failure and severe short stature	Delayed growth	1	sign	measurement	Growth and height are measured.	
+ARIS:0000394	Premature whitening or graying of the hair on your scalp, eyelashes, eyebrows or beard	Whitening of hair	1	sign	appearance	Grey hair is seen.	
+ARIS:0000703	Presyncope, lightheadedness, and orthostatic dizziness	Lightheadedness	1	symptom	sensation	Presyncope, lightheadedness and dizziness are all felt.	
+ARIS:0000395	Problems with metabolism		1	sign	test or diagnosis	Too general to place closely; metabolic problems are found on blood tests.	
+ARIS:0000704	Prodromal severe diarrhea and weight loss	Diarrhea	1	sign	observed event or behaviour	Diarrhea is seen and weight loss is measured.	
+ARIS:0000396	Profound consumptive thrombocytopenia with purpura and bleeding	Low platelet count:	1	sign	test or diagnosis	Low platelets are a blood-test result; the purpura and bleeding it comes with describe it.	
+ARIS:0000705	Progressive cognitive impairment and amnesia	Cognitive impairment	1	sign	examination	Measured on cognitive testing.	
+ARIS:0000397	Progressive dysphagia to both liquids and solids	Difficulty swallowing	1	symptom	reported function	Felt as food sticking; a swallow study would show it as a sign.	
+ARIS:0000706	Progressive exertional dyspnea	Shortness of breath with exertion	2	symptom	sensation	Breathlessness is felt.	
+ARIS:0000707	Progressive gait instability and appendicular limb ataxia	Unsteady gait	1	sign	examination	Gait and limb coordination are tested on examination.	
+ARIS:0000708	Progressive gait instability and ataxia	Unsteady gait	1	sign	examination	Gait and limb coordination are tested on examination.	
+ARIS:0000398	Progressive loss of speech	Difficulty speaking	1	sign	observed event or behaviour	Loss of speech is heard by others.	
+ARIS:0000399	Progressive muscle weakness	Weakness	1	sign	examination	Muscle weakness is graded on strength testing.	
+ARIS:0000400	Progressive weakness in the arms	Arm weakness	1	sign	examination	Weakness in a named limb is graded on strength testing.	
+ARIS:0000401	Progressive weakness in the legs	Weakness in legs	1	sign	examination	Weakness in a named limb is graded on strength testing.	
+ARIS:0000402	Progressive, symmetrical muscle weakness	Progressive muscle weakness	1	sign	examination	Muscle weakness is graded on strength testing.	
+ARIS:0000403	Prolonged bleeding from cuts	Excessive bleeding	2	sign	appearance	Bleeding is seen.	
+ARIS:0000404	Prolonged, unprovoked post-traumatic or post-surgical hemorrhage	Excessive bleeding	1	sign	appearance	Bleeding is seen.	
+ARIS:0000709	Prominent 'V-sign', 'shawl sign', and extensive poikiloderma		1	sign	appearance	Skin changes are seen.	
+ARIS:0000405	Prominent action tremor of hands and arms	Tremor	1	sign	observed event or behaviour	Tremor is seen.	
+ARIS:0000710	Prominent sleep architecture disruption (NREM parasomnia, sleep apnea, stridor)	Sleep problems	1	sign	test or diagnosis	Sleep architecture is recorded on polysomnography; parasomnias, apnoea and stridor are also seen or heard.	
+ARIS:0000711	Pronounced muscle atrophy and myalgias	Muscle loss	1	sign	examination	Mixed: muscle wasting is seen (sign); myalgias are felt (symptom). Tie broken by the first item.	
+ARIS:0000406	Protein-losing enteropathy with severe hypoalbuminemia and anasarca		1	sign	test or diagnosis	Diagnosed on blood tests; the anasarca it comes with describes it.	
+ARIS:0000712	Psychiatric disturbances (confusion, paranoia, hallucinations)	Mental disorders	1	symptom	mood or thought	Mixed: paranoia and hallucinations are reported experiences (symptoms); confusion is observed (sign). Two of three items are symptoms.	
+ARIS:0000407	Psychosis	Mental disorders	4	symptom	mood or thought	Known from the hallucinations and delusions the patient reports.	
+ARIS:0000408	Puffy face	Swelling	1	sign	appearance	A puffy face is seen.	
+ARIS:0000409	Purple skin where blood has collected just beneath the surface of the skin		1	sign	appearance	Bruising is seen.	
+ARIS:0000410	Purplish rash, typically on the lower legs and buttocks	Rash	1	sign	appearance	The rash is seen.	
+ARIS:0000411	Purplish, flat-topped bumps, on inner forearm, wrist or ankle, and sometimes on the genitals		1	sign	appearance	Bumps are seen.	
+ARIS:0000713	Pyramidal tract signs / extensor plantar responses (Babinski sign)		1	sign	examination	The plantar response is tested on examination.	
+ARIS:0000412	Rage attacks	Aggression	1	sign	observed event or behaviour	Rage attacks are seen by others.	
+ARIS:0000413	Raised and tender/painful nodules on the skin, especially on the lower legs		1	sign	appearance	Nodules are seen; tenderness and pain describe them.	
+ARIS:0000414	Raised purple-red spots	Spots	1	sign	appearance	Spots are seen.	
+ARIS:0000714	Rapid cognitive and behavioral decline	Mental decline	1	sign	examination	Decline is seen by others and measured on testing.	
+ARIS:0000415	Rapid heartbeat		10	sign	measurement	"Heart rate is measured from the pulse; feeling it is ""Heart palpitations""."	
+ARIS:0000715	Rapidly progressive interstitial lung disease with hypoxemic respiratory failure		1	sign	test or diagnosis	Diagnosed on imaging and blood oxygen.	
+ARIS:0000716	Rapidly progressive short-term memory impairment	Memory problems	1	sign	examination	Memory is measured on cognitive testing.	
+ARIS:0000717	Rapidly progressive, extensive, velvety acanthosis nigricans in skin folds		1	sign	appearance	Acanthosis nigricans is seen.	
+ARIS:0000416	Rapidly progressive, symmetric sensorimotor polyradiculoneuropathy		1	sign	test or diagnosis	Diagnosed on examination and nerve conduction studies.	
+ARIS:0000718	Rapidly progressive, symmetric, severe proximal limb weakness	Weakness	1	sign	examination	Weakness is graded on strength testing.	
+ARIS:0000417	Rash		27	sign	appearance	The rash is seen.	
+ARIS:0000418	Rash on groin	Rash	1	sign	appearance	The rash is seen.	
+ARIS:0000419	Rash on torso	Rash	1	sign	appearance	The rash is seen.	
+ARIS:0000420	Rash with tender, purple or brownish-red spots	Rash	1	sign	appearance	The rash is seen; tenderness describes it.	
+ARIS:0000719	Reactive pustular/neutrophilic dermatoses (Sweet-like)		1	sign	appearance	Skin lesions are seen.	
+ARIS:0000421	Rectal bleeding		1	sign	appearance	Bleeding is seen.	
+ARIS:0000422	Rectal pain	Pain	1	symptom	sensation	Pain is known only from the patient's account.	
+ARIS:0000720	Rectal urgency, tenesmus, and fecal incontinence	Bowel movement urgency	1	symptom	sensation	Mixed: urgency and tenesmus are felt (symptoms); incontinence is seen (sign). Two of three items are symptoms.	
+ARIS:0000721	Recurrent episodes of acute pancreatitis		1	sign	test or diagnosis	Diagnosed on blood tests and imaging.	
+ARIS:0000423	Recurrent episodes of severe hypersomnia (sleeping 16–20 hours daily for days/weeks)	Sleep problems	1	sign	observed event or behaviour	Prolonged sleep is seen by others and can be recorded.	
+ARIS:0000722	Recurrent hemoptysis and chronic cough	Coughing up blood	1	sign	appearance	Blood coughed up is seen, and the cough heard.	
+ARIS:0000424	Recurrent infections		8	sign	test or diagnosis	Infections are diagnosed by examination and cultures.	
+ARIS:0000425	Recurrent transient ischemic attacks		1	sign	test or diagnosis	A clinical diagnosis of brief neurological deficits that others can see.	
+ARIS:0000723	Recurrent, severe spontaneous neuroglycopenic hypoglycemia (confusion, coma, seizures)		1	sign	test or diagnosis	Low blood glucose is measured; its examples (confusion, coma, seizures) are all observed.	
+ARIS:0000426	Red bumps on abdomen	Small red bumps	1	sign	appearance	Bumps are seen.	
+ARIS:0000427	Red eyes	Redness	8	sign	appearance	Red eyes are seen.	
+ARIS:0000428	Red patches may be covered with a fine shiny scale	Rash	1	sign	appearance	Patches are seen.	
+ARIS:0000429	Red patches that quickly turn into small bumps 5-15 mm in diameter	Rash	1	sign	appearance	Patches are seen.	
+ARIS:0000430	Red patches with light center	Rash	1	sign	appearance	Patches are seen.	
+ARIS:0000431	Red, dry, cracked, and swollen lips	Swollen lips	1	sign	appearance	Lip changes are seen.	
+ARIS:0000432	Redness		4	sign	appearance	Redness is seen.	
+ARIS:0000433	Redness of anus	Redness	1	sign	appearance	Redness is seen.	
+ARIS:0000434	Reduced libido	Sexual dysfunction	1	symptom	general feeling	Sexual desire is felt and reported.	
+ARIS:0000435	Reduced reflexes		3	sign	examination	Reflexes are tested with a reflex hammer.	
+ARIS:0000724	Refractory extreme hypertriglyceridemia (>1,000–2,000 mg/dL) with lactescent/milky serum		1	sign	test or diagnosis	Blood-test results.	
+ARIS:0000725	Refractory hyponatremia (SIADH-like)		1	sign	test or diagnosis	A blood-test result.	
+ARIS:0000726	Refractory status epilepticus / frequent multifocal seizures	Seizures	1	sign	observed event or behaviour	Seizures are seen by others and recorded on EEG.	
+ARIS:0000436	Regurgitation of undigested, retained food		1	sign	observed event or behaviour	Food coming back up is seen.	
+ARIS:0000727	Relative afferent pupillary defect (RAPD) and central scotoma	Vision problems	1	sign	examination	The pupil defect is tested with a light and the scotoma mapped on field testing.	
+ARIS:0000437	Renal dysfunction (azotemia, proteinuria, hematuria)		1	sign	test or diagnosis	Blood and urine test results.	
+ARIS:0000438	Repetitive movements	Abnormal movement	1	sign	observed event or behaviour	Repetitive movements are seen.	
+ARIS:0000728	Retinal arteriolar attenuation and vasculitis		1	sign	examination	Seen on examination of the back of the eye.	
+ARIS:0000729	Retrobulbar pain exacerbated by eye movement	Eye pain	1	symptom	sensation	Pain is known only from the patient's account.	
+ARIS:0000439	Retrosternal crampy chest pain	Chest pain	1	symptom	sensation	Pain is known only from the patient's account.	
+ARIS:0000440	Rib pain	Chest pain	1	symptom	sensation	Pain is known only from the patient's account.	
+ARIS:0000441	Ringing in ears		5	symptom	perception	Only the patient hears the ringing.	
+ARIS:0000442	Rupturing blisters	Blisters	1	sign	appearance	Blisters are seen.	
+ARIS:0000443	Salt craving		1	symptom	general feeling	Craving is felt.	
+ARIS:0000444	Scaling of the scalp		1	sign	appearance	Scaling is seen.	
+ARIS:0000445	Scalp discoloration	Skin discoloration	1	sign	appearance	Discoloration is seen.	
+ARIS:0000446	Scalp hair loss	Hair loss	1	sign	appearance	Hair loss is seen.	
+ARIS:0000447	Scalp tenderness	Tenderness	1	sign	examination	Tenderness is pain an examiner provokes by pressing the scalp.	
+ARIS:0000448	Scaly-appearing skin		1	sign	appearance	Scaly skin is seen.	
+ARIS:0000449	Scarring		1	sign	appearance	Scars are seen.	
+ARIS:0000450	Scarring on cornea	Scarring	1	sign	examination	Corneal scars are seen on eye examination.	
+ARIS:0000451	Seeing flashing lights	Vision problems	2	symptom	perception	Only the patient sees the flashes.	
+ARIS:0000452	Seizure during which the person remains conscious and alert	Seizures	1	sign	observed event or behaviour	A seizure is an event others can see and an EEG can record; in an aware seizure the patient can also describe it.	
+ARIS:0000453	Seizure during which the person remains unconscious	Seizures	1	sign	observed event or behaviour	A seizure is an event others can see and an EEG can record.	
+ARIS:0000454	Seizures		15	sign	observed event or behaviour	A seizure is an event others can see and an EEG can record.	
+ARIS:0000455	Sensitivity to extreme heat		2	symptom	sensation	Discomfort in heat is felt.	
+ARIS:0000456	Sensitivity to gluten		1	symptom	reported function	A reaction known from what the patient reports after eating gluten.	
+ARIS:0000457	Sensitivity to light		13	symptom	sensation	Discomfort from light is felt.	
+ARIS:0000458	Sensitivity to touch		1	symptom	sensation	Discomfort from touch is felt.	
+ARIS:0000730	Severe agrypnia / intractable insomnia (Morvan syndrome)	Sleep problems	1	sign	test or diagnosis	Mixed: agrypnia is loss of sleep recorded on polysomnography (sign); insomnia is the patient's complaint (symptom). Tie broken by the first item.	
+ARIS:0000459	Severe aortic valve regurgitation		1	sign	test or diagnosis	Diagnosed on echocardiography; a murmur is heard.	
+ARIS:0000731	Severe autoimmune enteropathy / lymphocytic colitis with chronic diarrhea	Diarrhea	1	sign	test or diagnosis	Diagnosed on biopsy; the diarrhea it comes with describes it.	
+ARIS:0000732	Severe central cerebellar and sensory ataxia	Unsteadiness	1	sign	examination	Ataxia is tested on examination.	
+ARIS:0000460	Severe chronic autoimmune enteropathy with intractable diarrhea	Diarrhea	1	sign	test or diagnosis	Diagnosed on biopsy; the diarrhea it comes with describes it.	
+ARIS:0000733	Severe consumptive thrombocytopenia	Low platelet count:	1	sign	test or diagnosis	A blood-test result.	
+ARIS:0000734	Severe dysphagia	Difficulty swallowing	1	symptom	reported function	Felt as food sticking; a swallow study would show it as a sign.	
+ARIS:0000735	Severe dysphagia and neck flexor weakness	Difficulty swallowing	2	symptom	reported function	Mixed: difficulty swallowing is felt (symptom); neck flexor weakness is graded on strength testing (sign). Tie broken by the first item.	
+ARIS:0000736	Severe failure to thrive and cachexia	Failure to thrive	1	sign	measurement	Weight and growth are measured.	
+ARIS:0000737	Severe gastrointestinal dysmotility (gastroparesis, pseudo-obstruction, constipation)		1	sign	test or diagnosis	Mixed: gastroparesis and pseudo-obstruction are shown by tests (signs); constipation is mostly what the patient feels (symptom). Two of three items are signs.	
+ARIS:0000738	Severe hypoalbuminemia (<3.0 g/dL)		1	sign	test or diagnosis	A blood-test result.	
+ARIS:0000461	Severe itching	Itching	2	symptom	sensation	Itching is felt.	
+ARIS:0000462	Severe malabsorption, cachexia, and involuntary weight loss	Weight loss	1	sign	test or diagnosis	Malabsorption is shown by tests, and cachexia and weight loss are measured.	
+ARIS:0000739	Severe neuropathic pain	Nerve pain	1	symptom	sensation	Pain is known only from the patient's account.	
+ARIS:0000740	Severe polyuria (>3–5 L/24h) with dilute urine	Polyuria	1	sign	measurement	Urine volume is measured.	
+ARIS:0000463	Severe proprioceptive sensory ataxia and positive Romberg sign	Unsteadiness	1	sign	examination	Ataxia and the Romberg sign are tested on examination.	
+ARIS:0000741	Severe proximal symmetrical muscle weakness	Weakness	2	sign	examination	Weakness is graded on strength testing.	
+ARIS:0000742	Severe pseudomembranous conjunctivitis and genital erosions		1	sign	appearance	Conjunctivitis and erosions are seen.	
+ARIS:0000464	Severe quadriparesis / motor disability	Paralysis	1	sign	examination	Weakness is graded on strength testing.	
+ARIS:0000465	Severe sensory ataxia with gait failure	Unsteady gait	1	sign	examination	Ataxia and gait are tested on examination.	
+ARIS:0000466	Severe short-term memory loss / amnesia	Memory problems	1	sign	examination	Memory is measured on cognitive testing.	
+ARIS:0000743	Severe, disabling orthostatic hypotension and syncope		1	sign	measurement	Blood pressure is measured lying and standing; fainting is seen by others.	
+ARIS:0000744	Severe, extensive, photosensitive cutaneous lesions	Skin lesions that appear or worsen with sun exposure	1	sign	appearance	Skin lesions are seen.	
+ARIS:0000467	Severe, intractable, chronic secretory diarrhea persisting during fasting	Diarrhea	1	sign	observed event or behaviour	Loose, frequent stools can be seen and measured.	
+ARIS:0000745	Severe, intractable, watery secretory diarrhea beginning in early infancy	Diarrhea	1	sign	observed event or behaviour	Loose, frequent stools can be seen and measured.	
+ARIS:0000746	Severe, painful, refractory polymorphous stomatitis and extensive oral mucosal erosions	Mouth sores	1	sign	appearance	Mouth inflammation and erosions are seen.	
+ARIS:0000747	Severe, refractory hyperglycemia despite extreme doses of exogenous insulin (>1,000 U/day)		1	sign	test or diagnosis	Blood glucose is measured.	
+ARIS:0000468	Sexual dysfunction		1	symptom	reported function	Known from the patient's account.	
+ARIS:0000469	Short stature	Delayed growth	1	sign	measurement	Height is measured.	
+ARIS:0000470	Shortness of breath		42	symptom	sensation	Breathlessness is felt; a fast breathing rate or low oxygen would be its signs.	
+ARIS:0000471	Shortness of breath with exertion	Shortness of breath	2	symptom	sensation	Breathlessness is felt.	
+ARIS:0000472	Shoulder pain	Joint pain	2	symptom	sensation	Pain is known only from the patient's account.	
+ARIS:0000748	Sicca syndrome (severe dry mouth and dry eyes)	Dry mouth	1	symptom	sensation	Its examples are felt dryness of mouth and eyes; tear and saliva tests would make them signs.	
+ARIS:0000473	Significant weight loss	Weight loss	1	sign	measurement	Weight is measured.	
+ARIS:0000749	Signs of hyperandrogenism (severe hirsutism, virilization, amenorrhea) in women		1	sign	appearance	Excess hair and virilization are seen, and missed periods are observable.	
+ARIS:0000474	Sinus infection		1	sign	test or diagnosis	An infection is diagnosed by examination and imaging.	
+ARIS:0000475	Skin discoloration		12	sign	appearance	Discoloration is seen.	
+ARIS:0000476	Skin disorders		1	sign	appearance	Too general to place closely; skin disorders are seen.	
+ARIS:0000477	Skin hardening		2	sign	examination	Hardened skin is felt by an examiner.	
+ARIS:0000478	Skin lesions that appear or worsen with sun exposure	Lesions	2	sign	appearance	Skin lesions are seen.	
+ARIS:0000479	Skin pain	Pain	1	symptom	sensation	Pain is known only from the patient's account.	
+ARIS:0000480	Skin pigmentation loss	Skin discoloration	4	sign	appearance	Loss of colour is seen.	
+ARIS:0000481	Skin sores		8	sign	appearance	Sores are seen.	
+ARIS:0000482	Skin temperature changes		1	sign	measurement	Skin temperature can be felt and measured.	
+ARIS:0000483	Skin texture changes		3	sign	examination	Texture is seen and felt.	
+ARIS:0000484	Skull depressions		1	sign	appearance	Depressions in the skull are seen and felt.	
+ARIS:0000485	Sleep problems		11	symptom	reported function	Sleep trouble as the patient reports it.	
+ARIS:0000750	Slowly progressive, symmetric distal sensory ataxia	Unsteadiness	1	sign	examination	Ataxia is tested on examination.	
+ARIS:0000486	Sluggishness		1	symptom	general feeling	A felt lack of energy.	
+ARIS:0000487	Small pitted areas of skin containing blackheads		1	sign	appearance	Pitted skin is seen.	
+ARIS:0000488	Small red bumps		1	sign	appearance	Bumps are seen.	
+ARIS:0000489	Small scaling spots	Spots	1	sign	appearance	Spots are seen.	
+ARIS:0000490	Smooth white spots on skin	Skin pigmentation loss	1	sign	appearance	Spots are seen.	
+ARIS:0000491	Social withdrawal	Behavioral changes	1	sign	observed event or behaviour	Withdrawal is behaviour others see.	
+ARIS:0000492	Solid swellings of congealed blood		1	sign	examination	Hematomas are seen and felt.	
+ARIS:0000493	Sore throat		4	symptom	sensation	Pain is known only from the patient's account.	
+ARIS:0000494	Sores or masses under eyelid		1	sign	examination	Sores and masses are seen when the eyelid is turned.	
+ARIS:0000495	Spontaneous hemarthrosis	Excessive bleeding	1	sign	examination	Bleeding into a joint shows as a swollen joint and is confirmed by aspiration or imaging.	
+ARIS:0000496	Spontaneous, extensive subcutaneous and soft-tissue hematomas	Solid swellings of congealed blood	1	sign	appearance	Hematomas are seen.	
+ARIS:0000497	Spots		1	sign	appearance	Spots are seen.	
+ARIS:0000498	Stiffness		20	symptom	sensation	Stiffness is felt.	
+ARIS:0000499	Stiffness of the buttocks	Stiffness	1	symptom	sensation	Stiffness is felt.	
+ARIS:0000500	Stiffness of the skin of the fingers	Skin hardening	1	sign	examination	Tight, thickened skin is felt by an examiner (sclerodactyly).	
+ARIS:0000501	Stiffness upon inactivity	Stiffness	2	symptom	sensation	Stiffness is felt.	
+ARIS:0000502	Stillbirths		1	sign	observed event or behaviour	A stillbirth is a clinical event.	
+ARIS:0000503	Stinging rash	Rash	1	sign	appearance	The rash is seen; the stinging describes it.	
+ARIS:0000751	Subacute anterograde memory loss and spatial disorientation	Memory problems	1	sign	examination	Memory and orientation are measured on cognitive testing.	
+ARIS:0000504	Subacute to acute severe symmetrical distal and proximal limb weakness	Weakness	1	sign	examination	Weakness is graded on strength testing.	
+ARIS:0000752	Sudden gross dark reddish-brown / cola-colored urine after cold exposure	Dark urine	1	sign	appearance	Dark urine is seen.	
+ARIS:0000505	Swelling		35	sign	appearance	Swelling is seen.	
+ARIS:0000506	Swelling around eyes	Swelling	1	sign	appearance	Swelling is seen.	
+ARIS:0000507	Swelling beneath the skin	Swelling	1	sign	appearance	Swelling is seen and felt.	
+ARIS:0000508	Swelling in armpits	Swelling	1	sign	appearance	Swelling is seen and felt.	
+ARIS:0000509	Swelling in neck	Swelling	4	sign	appearance	Swelling is seen and felt.	
+ARIS:0000510	Swelling of salivary glands	Swelling	1	sign	appearance	Swelling is seen and felt.	
+ARIS:0000511	Swollen ankles	Swollen joints	5	sign	appearance	Swelling is seen.	
+ARIS:0000512	Swollen back	Swelling	1	sign	appearance	Swelling is seen.	
+ARIS:0000513	Swollen elbows	Swollen joints	2	sign	appearance	Swelling is seen.	
+ARIS:0000514	Swollen feet	Swelling	9	sign	appearance	Swelling is seen.	
+ARIS:0000515	Swollen fingers	Swollen joints	1	sign	appearance	Swelling is seen.	
+ARIS:0000516	Swollen hands	Swelling	7	sign	appearance	Swelling is seen.	
+ARIS:0000517	Swollen heel	Swelling	1	sign	appearance	Swelling is seen.	
+ARIS:0000518	Swollen hip	Swollen joints	1	sign	appearance	Swelling is seen and felt.	
+ARIS:0000519	Swollen joints	Swelling	10	sign	appearance	Swelling is seen.	
+ARIS:0000520	Swollen knees	Swollen joints	2	sign	appearance	Swelling is seen.	
+ARIS:0000521	Swollen legs	Swelling	3	sign	appearance	Swelling is seen.	
+ARIS:0000522	Swollen lips	Swelling	2	sign	appearance	Swelling is seen.	
+ARIS:0000523	Swollen penis	Swelling	1	sign	appearance	Swelling is seen.	
+ARIS:0000524	Swollen shoulders	Swollen joints	1	sign	appearance	Swelling is seen.	
+ARIS:0000525	Swollen testicles	Swelling	1	sign	appearance	Swelling is seen and felt.	
+ARIS:0000526	Swollen toes	Swollen joints	2	sign	appearance	Swelling is seen.	
+ARIS:0000527	Swollen tongue that looks shiny and bright with red spots	Swelling	1	sign	appearance	A swollen, red-spotted tongue is seen.	
+ARIS:0000528	Swollen wrists	Swollen joints	1	sign	appearance	Swelling is seen.	
+ARIS:0000529	Swollen, painful nodule under skin	Swelling beneath the skin	1	sign	examination	A nodule is seen and felt; that it hurts describes it.	
+ARIS:0000753	Sympathetic adrenergic symptoms (sweating, palpitations, tremors)		1	sign	observed event or behaviour	Mixed: sweating and tremor are seen (signs); palpitations are felt (symptom). Two of three items are signs.	
+ARIS:0000754	Systemic fatigue, asthenia, and chest tightness	Fatigue	1	symptom	general feeling	Fatigue, asthenia and chest tightness are all felt.	
+ARIS:0000755	Temporal lobe complex partial seizures	Seizure during which the person remains unconscious	1	sign	observed event or behaviour	Seizures are seen by others and recorded on EEG.	
+ARIS:0000530	Tenderness		8	sign	examination	Tenderness is pain an examiner provokes by pressing.	
+ARIS:0000531	Tendon tenderness	Tenderness	1	sign	examination	Tenderness is pain an examiner provokes by pressing the tendon.	
+ARIS:0000532	Tense, blood- or pus-filled blisters, mostly on the hands, knees, knuckles, elbows and ankles	Blisters	0	sign	appearance	Blisters are seen.	
+ARIS:0000533	Testicle pain	Pain	1	symptom	sensation	Pain is known only from the patient's account.	
+ARIS:0000534	Thickened red skin		1	sign	appearance	Thickened skin is seen.	
+ARIS:0000535	Thickened skin of fingers	Skin hardening	1	sign	examination	Thickened skin is felt by an examiner.	
+ARIS:0000536	Thickening of eyelid mucosa with a wood-like consistency		1	sign	examination	Thickened eyelid lining is seen and felt.	
+ARIS:0000537	Thinning of skin		1	sign	appearance	Thin skin is seen.	
+ARIS:0000538	Thinning or shrinking of facial tissues		1	sign	appearance	Facial wasting is seen.	
+ARIS:0000539	Throat muscle weakness	Weakness	1	sign	examination	Weakness of the throat muscles is seen on examination of the palate and swallow.	
+ARIS:0000540	Throbbing pain in limbs	Pain in extremities	1	symptom	sensation	Pain is known only from the patient's account.	
+ARIS:0000541	Tics	Involuntary movements	1	sign	observed event or behaviour	Tics are seen.	
+ARIS:0000542	Tightness in the abdomen		1	symptom	sensation	Tightness is felt.	
+ARIS:0000543	Tingling		14	symptom	sensation	Tingling is felt.	
+ARIS:0000544	Tingling in the fingers or toes, especially in cold temperatures	Tingling	1	symptom	sensation	Tingling is felt.	
+ARIS:0000545	Tingling of extremities	Tingling	2	symptom	sensation	Tingling is felt.	
+ARIS:0000546	Tingling of hand	Tingling	1	symptom	sensation	Tingling is felt.	
+ARIS:0000547	Tingling of wrist	Tingling	1	symptom	sensation	Tingling is felt.	
+ARIS:0000548	Tiny reddish-purple spots, usually on lower legs	Spots	1	sign	appearance	Spots are seen.	
+ARIS:0000549	Tired feeling after standing or walking	Fatigue	1	symptom	general feeling	Tiredness is felt.	
+ARIS:0000550	Toe pain	Pain	3	symptom	sensation	Pain is known only from the patient's account.	
+ARIS:0000551	Tongue pain	Pain	1	symptom	sensation	Pain is known only from the patient's account.	
+ARIS:0000756	Tonic, unreactive, or poorly reactive pupils	Dysfunction of pupils	1	sign	examination	Pupil reactions are tested with a light.	
+ARIS:0000552	Total paralysis of the legs	Paralysis	1	sign	examination	Paralysis is seen and tested on examination.	
+ARIS:0000757	Transient neonatal cholestasis and elevated hepatic transaminases		1	sign	test or diagnosis	Blood-test results.	
+ARIS:0000758	Transient neonatal thrombocytopenia or neutropenia	Low blood counts	1	sign	test or diagnosis	Blood-test results.	
+ARIS:0000553	Tremor		4	sign	observed event or behaviour	Tremor is seen.	
+ARIS:0000759	Unexplained marked involuntary weight loss	Unintended weight loss	1	sign	measurement	Weight is measured.	
+ARIS:0000554	Unintended weight loss	Weight loss	1	sign	measurement	Weight is measured.	
+ARIS:0000555	Unsteadiness		1	symptom	sensation	"Felt unsteadiness; an unsteady gait seen by others is the sign (""Unsteady gait"")."	
+ARIS:0000556	Unsteady gait	Unsteadiness	11	sign	observed event or behaviour	An unsteady gait is seen.	
+ARIS:0000760	Upper eyelid fullness, edema, and ptosis	Swelling around eyes	1	sign	appearance	Eyelid swelling and drooping are seen.	
+ARIS:0000557	Urgency without having a bowel movement	Bowel movement urgency	1	symptom	sensation	Urgency is felt.	
+ARIS:0000558	Urogenital bleeding		1	sign	appearance	Bleeding is seen.	
+ARIS:0000559	Vaginal dryness		1	symptom	sensation	Dryness is felt.	
+ARIS:0000560	Vaginal pain	Pain	1	symptom	sensation	Pain is known only from the patient's account.	
+ARIS:0000561	Vaginal ulcers		1	sign	examination	Ulcers are seen on examination.	
+ARIS:0000562	Vertigo		3	symptom	sensation	Vertigo is felt.	
+ARIS:0000563	Violet/dusky red rash	Rash	1	sign	appearance	The rash is seen.	
+ARIS:0000564	Vision loss	Vision problems	11	sign	measurement	Vision is measured with an eye chart.	
+ARIS:0000565	Vision problems		39	symptom	perception	A general complaint about sight (blur, doubling or loss), known from the patient's account.	
+ARIS:0000761	Visual field deficits / bitemporal hemianopia due to chiasmal compression	Vision problems	1	sign	measurement	Measured on visual field testing.	
+ARIS:0000762	Visual field scotomas	Vision problems	1	sign	measurement	Measured on visual field testing.	
+ARIS:0000566	Visual impairment / bilateral optic disc edema (papillitis)	Vision problems	1	sign	examination	Disc swelling is seen on examination of the back of the eye, and acuity measured.	
+ARIS:0000763	Vitreous floaters and haze	Floaters in vision	2	symptom	perception	Mixed: floaters are what the patient sees (symptom); vitreous haze is seen on slit-lamp examination (sign). Tie broken by the first item.	
+ARIS:0000567	Vivid, dream-like experiences when falling asleep or upon waking up	Hallucinations	1	symptom	perception	Only the patient has the experiences.	
+ARIS:0000568	Vomiting		24	sign	observed event or behaviour	Vomiting is seen.	
+ARIS:0000569	Wart-like plaques on areas of the skin, such as the armpit, neck, groin, and breasts		1	sign	appearance	Plaques are seen.	
+ARIS:0000570	Watery eyes		7	sign	appearance	Tears are seen.	
+ARIS:0000571	Weakness		47	symptom	general feeling	With no muscle named, it is the patient's sense of lacking strength; weakness of a named muscle group, graded on strength testing, is a sign.	
+ARIS:0000572	Weakness in facial muscles	Weakness	3	sign	examination	Weakness is seen and graded on examination.	
+ARIS:0000573	Weakness in feet	Weakness	1	sign	examination	Weakness in a named part is graded on strength testing.	
+ARIS:0000574	Weakness in fingers	Weakness in hands	1	sign	examination	Weakness in a named part is graded on strength testing.	
+ARIS:0000575	Weakness in hands	Weakness	3	sign	examination	Weakness in a named part is graded on strength testing.	
+ARIS:0000576	Weakness in hip	Weakness	1	sign	examination	Weakness in a named part is graded on strength testing.	
+ARIS:0000577	Weakness in joints	Weakness	1	sign	examination	Read as weakness of the muscles that move the joints, which is graded on strength testing.	
+ARIS:0000578	Weakness in legs	Weakness	6	sign	examination	Weakness in a named part is graded on strength testing.	
+ARIS:0000579	Weakness in neck	Weakness	1	sign	examination	Weakness in a named part is graded on strength testing.	
+ARIS:0000580	Weakness in upper body	Weakness	1	sign	examination	Weakness in a named part is graded on strength testing.	
+ARIS:0000581	Weight gain		4	sign	measurement	Weight is measured.	
+ARIS:0000582	Weight loss		43	sign	measurement	Weight is measured.	
+ARIS:0000764	Weight loss, low-grade fevers, and cyanosis in advanced disease		1	sign	measurement	Weight loss and fever are measured, and cyanosis is seen.	
+ARIS:0000583	Wheezing		2	sign	observed event or behaviour	Wheezing is heard by others and with a stethoscope.	
+ARIS:0000584	When blisters heal they form scars and sometimes tiny white bumps	Scarring	0	sign	appearance	Scars and bumps are seen.	
+ARIS:0000585	When blood starts to return to these areas, fingers or toes that turn red, burn, throb, experience numbness, or tingle.		1	symptom	sensation	Mixed: burning, throbbing, numbness and tingling are felt (symptoms); the red colour is seen (sign). Most items are symptoms.	
+ARIS:0000586	White patches on gums		1	sign	appearance	Patches are seen.	
+ARIS:0000587	White patches on lips		1	sign	appearance	Patches are seen.	
+ARIS:0000588	Whitening of hair	Changes in hair	1	sign	appearance	White hair is seen.	
+ARIS:0000589	Widespread blisters that are not localized to trauma-prone sites	Blisters	0	sign	appearance	Blisters are seen.	
+ARIS:0000590	Widespread redness and itching	Itching	0	sign	appearance	Mixed: redness is seen (sign); itching is felt (symptom). Tie broken by the first item.	
+ARIS:0000765	Widespread, tense subepidermal vesicles and bullae on sun-exposed and trunk areas	Blisters	1	sign	appearance	Blisters are seen.	
+ARIS:0000591	Winged shoulder blade		1	sign	appearance	A winged shoulder blade is seen.	
+ARIS:0000592	Wrist pain	Joint pain	2	symptom	sensation	Pain is known only from the patient's account.	
+ARIS:0000593	Wrist stiffness	Joint stiffness	1	symptom	sensation	Stiffness is felt.	
+ARIS:0000594	Yellow eyes		6	sign	appearance	Yellow eyes are seen.	
+ARIS:0000595	Yellow skin		7	sign	appearance	Yellow skin is seen.	
+ARIS:0000596	“butterflies” in the stomach		1	symptom	sensation	A fluttering feeling only the patient can report.	

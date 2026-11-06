@@ -77,6 +77,7 @@ python notebook/symptom-mapping/build_symp_import.py <path to data/2-databases>
 wsl -e tools/format-owl.sh ontologies/ari_symp.owl
 python notebook/symptom-mapping/build_symptom_report.py <path to data/2-databases>
 python notebook/symptom-mapping/build_non_symptom_review.py
+python notebook/symptom-mapping/build_sign_symptom_report.py
 ```
 
 Run every line from the repository root; Java for the formatter is in WSL (see `CLAUDE.md`).
@@ -116,6 +117,11 @@ Run every line from the repository root; Java for the formatter is in WSL (see `
   `ari_symptoms.owl`. Each accepted row is either an edit, content the record already holds (it
   checks that it is there), or nothing to do. It stops on a row no rule covers. A rerun changes
   nothing. Format both files, then rerun `build_symptom_report.py` and `build_non_symptom_review.py`.
+- **`build_sign_symptom_report.py`** writes Report 14, `data/4-reports/14_Sign_Or_Symptom.tsv`: every
+  ARIS class judged a sign (someone else can observe or measure it) or a symptom (known only from the
+  patient's account), with the basis and a one-sentence reason. The judgments are `JUDGMENTS` in the
+  script, one line per class; it stops if a class has none, so add a line when you add a class. A
+  rebuild keeps `decision`. It reads the OWL only and changes nothing.
 
 ## Counts
 
